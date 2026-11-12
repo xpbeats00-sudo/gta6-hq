@@ -523,6 +523,7 @@ function renderHome() {
         <div class="hero-actions">
           <a class="btn btn-primary" href="#/map">Explore the map</a>
           <a class="btn" href="#/wiki">Open the encyclopedia</a>
+          <a class="btn" href="${DISCORD_INVITE}" target="_blank" rel="noopener noreferrer">Join the Discord</a>
         </div>
       </div>
       <button class="hero-pause" type="button" aria-pressed="false" aria-label="Pause background video">❚❚</button>
@@ -1491,6 +1492,8 @@ const HERO_WALLPAPERS = [
   '/wallpapers/gta-vi-pink-neon-logo-reflection.mp4',
 ];
 const HERO_FADE_MS = 1400;
+/** The community server's permanent invite. Also written in index.html (top bar and footer). */
+const DISCORD_INVITE = 'https://discord.gg/YhMHr8N4an';
 
 /** Offer a newer release if GitHub has one. Dismissing it is remembered for that version. */
 async function checkForUpdate() {

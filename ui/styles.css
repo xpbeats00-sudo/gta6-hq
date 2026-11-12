@@ -167,6 +167,13 @@ code { font-size: 0.9em; color: var(--text-secondary); }
 #nav a.is-active::after { transform: scaleX(1); }
 
 /* Window buttons for the frameless desktop window */
+.community-link { display: inline-flex; align-items: center; gap: 7px; flex: none; align-self: center; margin-left: var(--s3); padding: 6px 12px; border: 1px solid rgba(255, 255, 255, 0.45); border-radius: 999px; color: #fff; font: 700 0.68rem var(--font-display); letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; transition: background var(--ease), border-color var(--ease); }
+.community-link svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linejoin: round; }
+.community-link svg circle { fill: currentColor; stroke: none; }
+.community-link:hover, .community-link:focus-visible { background: rgba(255, 255, 255, 0.18); border-color: #fff; }
+@media (max-width: 1180px) { .community-link span { display: none; } .community-link { padding: 6px 8px; } }
+.footer .footer-links { margin-top: var(--s3); }
+.footer-links a { color: var(--accent-pink); font-weight: 600; }
 .window-controls { display: flex; align-self: stretch; flex: none; margin-right: calc(8px - var(--gutter)); }
 .window-controls[hidden] { display: none; }
 .window-controls button { display: grid; place-items: center; flex: none; width: 46px; height: 100%; padding: 0; border: 0; background: none; color: #f3d9ea; cursor: pointer; transition: background var(--ease), color var(--ease); }

@@ -11,6 +11,7 @@ Sourced, labelled by how well each fact is supported, and built as a small Rust 
 
 [![Latest version](https://img.shields.io/github/v/release/xpbeats00-sudo/gta6-hq?label=latest%20version&color=ee3f7c)](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/xpbeats00-sudo/gta6-hq/total?label=downloads&color=7c3fd6)](https://github.com/xpbeats00-sudo/gta6-hq/releases)
+[![Join the Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/YhMHr8N4an)
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f7a13c)
 ![Built with Rust](https://img.shields.io/badge/built%20with-Rust-2b1052)
 
@@ -82,6 +83,7 @@ Click any picture to see it full screen.
 
 ## What's new
 
+**0.2.3**: a link to the [community Discord server](https://discord.gg/YhMHr8N4an) in the top bar, on Home and in the footer.
 **0.2.2**: stricter security for the app's pages, and manual pictures can be opened from the keyboard.
 **0.2.1**: Home plays every live wallpaper in turn, pictures drift slowly, and the full-screen picture viewer is fixed.
 **0.2.0**: a new look with the app's own window buttons, a 38-page manual with two new chapters, and pictures across the encyclopedia.

@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.3 (12 November 2026)
+
+- The app links to the community Discord server from the top bar, the home page and the footer. The link opens in your browser.
+
 ## 0.2.2 (12 November 2026)
 
 - The app's pages may only run the script files that ship with the app (a content security policy), and files are never used as a type other than the one they are served as.
