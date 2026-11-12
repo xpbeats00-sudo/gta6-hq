@@ -3,14 +3,14 @@
     cargo build --release
     python scripts/package_release.py
 
-Writes dist/GTA6HQ-<version>-windows-portable.zip and dist/SHA256SUMS.txt, taking the
-version from Cargo.toml. Then publish with:
+Writes dist/GTA6HQ-<version>-Setup.exe (when Inno Setup 6 is installed), the portable zip
+and dist/SHA256SUMS.txt, taking the version from Cargo.toml. Then publish with:
 
-    gh release create v<version> dist/GTA6HQ-<version>-windows-portable.zip dist/SHA256SUMS.txt --title "GTA 6 HQ <version>" --notes "..."
+    gh release create v<version> dist/GTA6HQ-<version>-Setup.exe dist/GTA6HQ-<version>-windows-portable.zip dist/SHA256SUMS.txt --title "GTA 6 HQ <version>" --notes "..."
 
 Standard library only.
 """
-import hashlib, os, re, sys, zipfile
+import hashlib, os, re, subprocess, sys, zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -35,7 +35,24 @@ with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
                 path = os.path.join(base, f)
                 z.write(path, 'GTA6HQ/' + path.replace(os.sep, '/'))
                 count += 1
-digest = hashlib.sha256(open(out, 'rb').read()).hexdigest()
-open(os.path.join('dist', 'SHA256SUMS.txt'), 'w', encoding='utf-8', newline='\n').write(f'{digest}  {name}\n')
 print(f'{out}: {count} files, {os.path.getsize(out) / 1048576:.1f} MB')
-print(f'sha256 {digest}')
+built = [name]
+
+# The installer, if Inno Setup 6 is on this machine.
+candidates = [os.path.join(os.environ.get(var, ''), sub, 'Inno Setup 6', 'ISCC.exe')
+              for var, sub in (('LOCALAPPDATA', 'Programs'), ('ProgramFiles(x86)', ''), ('ProgramFiles', ''))]
+iscc = next((p for p in candidates if os.path.exists(p)), None)
+if iscc:
+    if subprocess.run([iscc, '/Qp', f'/DAppVersion={version}', os.path.join('installer', 'gta6-hq.iss')]).returncode != 0:
+        sys.exit('Inno Setup failed')
+    setup = f'GTA6HQ-{version}-Setup.exe'
+    print(f'{os.path.join("dist", setup)}: {os.path.getsize(os.path.join("dist", setup)) / 1048576:.1f} MB')
+    built.insert(0, setup)
+else:
+    print('Inno Setup 6 not found: only the portable zip was built.')
+
+with open(os.path.join('dist', 'SHA256SUMS.txt'), 'w', encoding='utf-8', newline='\n') as sums:
+    for file in built:
+        digest = hashlib.sha256(open(os.path.join('dist', file), 'rb').read()).hexdigest()
+        sums.write(f'{digest}  {file}\n')
+        print(f'sha256 {digest}  {file}')

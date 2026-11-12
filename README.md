@@ -142,7 +142,9 @@ python scripts/audit_media.py
 
 Releases are published at https://github.com/xpbeats00-sudo/gta6-hq/releases. When the app opens it asks GitHub whether a newer release exists and, if so, shows a notice with a link; nothing is downloaded or installed automatically. To turn the check off, set `"enabled": false` in `data/update.json`.
 
-To publish a new version: raise `version` in `Cargo.toml`, build with `cargo build --release`, and attach the packaged zip to a new GitHub release tagged `v<version>`.
+To publish a new version: raise `version` in `Cargo.toml`, run `cargo build --release` (with the app closed), then `python scripts/package_release.py`. That writes the installer (`installer/gta6-hq.iss`, needs Inno Setup 6), the portable zip and their checksums to `dist/`; attach all three to a new GitHub release tagged `v<version>`.
+
+The installer puts the app in the user's own programs folder, so it needs no administrator access and the app can write its map cache beside itself.
 
 ## Unofficial
 
