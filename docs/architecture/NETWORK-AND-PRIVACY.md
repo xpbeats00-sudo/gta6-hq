@@ -13,7 +13,7 @@ Written 2026-11-12 from the source files named in each row. Update this file whe
 
 ## What does not exist
 
-No telemetry, no crash reporting, no automatic download or install, no account, no analytics. The app's own server listens on `127.0.0.1` only, on a random port, and is not reachable from other machines.
+No telemetry, no crash reporting, no automatic download or install, no account, no analytics. The app's own server listens on `127.0.0.1` only, on a random port, and is not reachable from other machines. Since 0.1.1 it also refuses any request that is not addressed to the loopback address or that a browser says came from another site, so a web page elsewhere cannot reach it by pointing its own domain at this machine (src/server.rs).
 
 ## What stays on the machine
 

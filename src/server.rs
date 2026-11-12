@@ -7,8 +7,9 @@
 use std::{path::PathBuf, sync::Arc};
 
 use axum::{
-    extract::{Path, Query, State},
-    http::{header, HeaderValue, StatusCode},
+    extract::{Path, Query, Request, State},
+    http::{header, HeaderMap, HeaderValue, StatusCode},
+    middleware::{self, Next},
     response::{IntoResponse, Response},
     routing::{get, post},
     Json, Router,
@@ -61,7 +62,37 @@ pub fn router(state: AppState) -> Router {
                 ))
                 .service(ServeDir::new(root.join("ui"))),
         )
+        .layer(middleware::from_fn(local_only))
         .with_state(state)
+}
+
+/// Is this `host[:port]` the loopback address? A browser sends the name it
+/// was given, so a page on another site that points its own domain at
+/// 127.0.0.1 (DNS rebinding) arrives with that domain here and is refused.
+fn is_loopback_host(host: &str) -> bool {
+    let name = match host.strip_prefix('[') {
+        Some(rest) => rest.split(']').next().unwrap_or_default(),
+        None => host.rsplit_once(':').map_or(host, |(name, _)| name),
+    };
+    matches!(name.to_ascii_lowercase().as_str(), "127.0.0.1" | "localhost" | "::1")
+}
+
+/// Requests are served only when addressed to the loopback address, and, when
+/// a browser says where the request came from, only when that is this app too.
+fn request_is_local(headers: &HeaderMap) -> bool {
+    let text = |name| headers.get(name).and_then(|v: &HeaderValue| v.to_str().ok());
+    let host_ok = text(header::HOST).is_some_and(is_loopback_host);
+    let origin_ok =
+        text(header::ORIGIN).is_none_or(|origin| origin.strip_prefix("http://").is_some_and(is_loopback_host));
+    host_ok && origin_ok
+}
+
+async fn local_only(request: Request, next: Next) -> Response {
+    if request_is_local(request.headers()) {
+        next.run(request).await
+    } else {
+        StatusCode::FORBIDDEN.into_response()
+    }
 }
 
 /// The current wiki. Checking whether files changed touches the disk, so it
@@ -207,5 +238,36 @@ async fn tile(State(state): State<AppState>, Path((z, y, file)): Path<(u8, u32, 
         Ok(Err(tiles::TileError::NotFound)) => StatusCode::NOT_FOUND.into_response(),
         // Offline or the provider is unhappy: tell the map so it can say so.
         _ => StatusCode::BAD_GATEWAY.into_response(),
+    }
+}
+
+#[cfg(test)]
+mod local_only_tests {
+    use super::*;
+
+    fn headers(pairs: &[(header::HeaderName, &str)]) -> HeaderMap {
+        pairs
+            .iter()
+            .map(|(k, v)| (k.clone(), HeaderValue::from_str(v).unwrap()))
+            .collect()
+    }
+
+    #[test]
+    fn only_requests_addressed_to_loopback_are_served() {
+        assert!(request_is_local(&headers(&[(header::HOST, "127.0.0.1:51234")])));
+        assert!(request_is_local(&headers(&[(header::HOST, "localhost:51234")])));
+        assert!(request_is_local(&headers(&[(header::HOST, "[::1]:51234")])));
+        assert!(!request_is_local(&headers(&[(header::HOST, "evil.example:51234")])));
+        assert!(!request_is_local(&headers(&[(header::HOST, "127.0.0.1.evil.example")])));
+        assert!(!request_is_local(&headers(&[])));
+    }
+
+    #[test]
+    fn a_request_from_another_site_is_refused() {
+        let from = |origin| headers(&[(header::HOST, "127.0.0.1:51234"), (header::ORIGIN, origin)]);
+        assert!(request_is_local(&from("http://127.0.0.1:51234")));
+        assert!(request_is_local(&from("http://localhost:51234")));
+        assert!(!request_is_local(&from("https://evil.example")));
+        assert!(!request_is_local(&from("null")));
     }
 }

@@ -1,6 +1,6 @@
 [package]
 name = "gta6-hq"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "GTA 6 HQ - an unofficial Grand Theft Auto VI fan encyclopedia, as a Rust desktop app"
 

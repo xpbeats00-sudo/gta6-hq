@@ -1,6 +1,6 @@
 # Repository inventory
 
-Generated 2026-11-12 09:55 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-12 09:59 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
@@ -10,12 +10,12 @@ Generated 2026-11-12 09:55 by `scripts/current_state.py`. Do not edit by hand.
 | `images/` | 96 | 20.1 MB |
 | `wallpapers/` | 6 | 21.2 MB |
 | `docs/` | 188 | 69.0 MB |
-| `scripts/` | 2 | 0.0 MB |
+| `scripts/` | 3 | 0.0 MB |
 | `cache/` | 1235 | 389.2 MB |
 | `backups/` | 60 | 112.5 MB |
 | `staging/` | 1 | 0.0 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 1647 | 773.0 MB |
+| `target/release/` | 1651 | 773.0 MB |
 
 ## Source files
 
@@ -27,7 +27,7 @@ Generated 2026-11-12 09:55 by `scripts/current_state.py`. Do not edit by hand.
 | `src/main.rs` | 145 |
 | `src/media.rs` | 279 |
 | `src/search.rs` | 624 |
-| `src/server.rs` | 211 |
+| `src/server.rs` | 273 |
 | `src/tiles.rs` | 125 |
 | `src/update.rs` | 247 |
 | `src/validate.rs` | 1285 |
@@ -50,7 +50,8 @@ Generated 2026-11-12 09:55 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/weapons.json` | 101 |
 | `scripts/audit_media.py` | 162 |
 | `scripts/current_state.py` | 209 |
+| `scripts/package_release.py` | 41 |
 
 ## Top level
 
-`.claude`, `.gitignore`, `Cargo.lock`, `Cargo.toml`, `GTA-6-HQ-starter.zip`, `README.md`, `backups`, `cache`, `data`, `docs`, `docs.rar`, `images`, `rustfmt.toml`, `scripts`, `src`, `staging`, `ui`, `wallpapers`, `zips`
+`.claude`, `.git`, `.gitignore`, `Cargo.lock`, `Cargo.toml`, `GTA-6-HQ-starter.zip`, `README.md`, `backups`, `cache`, `data`, `dist`, `docs`, `docs.rar`, `images`, `rustfmt.toml`, `scripts`, `src`, `staging`, `ui`, `wallpapers`, `zips`
