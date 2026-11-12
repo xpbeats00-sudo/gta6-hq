@@ -1,0 +1,28 @@
+name: Rights request
+description: You hold the rights to something in this project and want it credited differently or removed.
+labels: [rights]
+body:
+  - type: markdown
+    attributes:
+      value: This is an unofficial fan project. Requests from rights holders are acted on promptly.
+  - type: textarea
+    id: what
+    attributes:
+      label: Which files or content?
+      description: File paths in this repository, or a description of where it appears in the app.
+    validations:
+      required: true
+  - type: dropdown
+    id: want
+    attributes:
+      label: What would you like done?
+      options: [Remove it, Change the credit, Something else]
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Your relationship to the content
+      description: Enough for the request to be acted on. Do not post private contact details here; say so and you will be asked for another way to reach you.
+    validations:
+      required: true

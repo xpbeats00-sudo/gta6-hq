@@ -5,9 +5,16 @@
 **An unofficial Grand Theft Auto VI encyclopedia and field manual for Windows.**
 Sourced, labelled by how well each fact is supported, and built as a small Rust desktop app.
 
-<img src="docs/media/splash.svg" alt="The app opening: the VI logo draws itself while a ring fills and a percentage counts up" width="860">
+<img src="docs/media/splash.webp" alt="The app opening: the VI logo draws itself while a ring fills and a percentage counts up" width="860">
 
-[**Download for Windows**](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) · [What's inside](#whats-inside) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows" height="44"></a>
+
+[![Latest version](https://img.shields.io/github/v/release/xpbeats00-sudo/gta6-hq?label=latest%20version&color=ee3f7c)](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/xpbeats00-sudo/gta6-hq/total?label=downloads&color=7c3fd6)](https://github.com/xpbeats00-sudo/gta6-hq/releases)
+![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f7a13c)
+![Built with Rust](https://img.shields.io/badge/built%20with-Rust-2b1052)
+
+[Install](#install) · [What's inside](#whats-inside) · [The Field Manual](#the-field-manual) · [What's new](#whats-new) · [Questions](#questions) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
 
 </div>
 
@@ -27,7 +34,7 @@ When a newer version is published, the app shows a notice with a link. Nothing d
 
 ## What's inside
 
-<img src="docs/media/tabs.svg" alt="Moving between Home, Encyclopedia, Characters, Vehicles, Media and Locations, with picture cards sliding down the side margins" width="860">
+<img src="docs/media/tabs.webp" alt="The Home wallpaper playing, then Encyclopedia, Characters, Vehicles and a location page, with picture cards sliding down the side margins" width="860">
 
 | | |
 |---|---|
@@ -55,7 +62,7 @@ When a newer version is published, the app shows a notice with a link. Nothing d
 
 ## The Field Manual
 
-<img src="docs/media/manual.svg" alt="Turning pages of the Field Manual, opening a picture full screen, and switching to night reading" width="860">
+<img src="docs/media/manual.webp" alt="Opening the Field Manual, turning to its chapters, opening a picture full screen, and switching to night reading" width="860">
 
 Ten chapters, written like the manual that used to come in the box:
 
@@ -72,6 +79,64 @@ Click any picture to see it full screen.
 <td width="50%"><img src="docs/media/manual-stars.jpg" alt="Manual pages: The Wanted Level, and The Stars Change Appearance"></td>
 </tr>
 </table>
+
+## What's new
+
+**0.2.2**: stricter security for the app's pages, and manual pictures can be opened from the keyboard.
+**0.2.1**: Home plays every live wallpaper in turn, pictures drift slowly, and the full-screen picture viewer is fixed.
+**0.2.0**: a new look with the app's own window buttons, a 38-page manual with two new chapters, and pictures across the encyclopedia.
+
+The full list is in [CHANGELOG.md](CHANGELOG.md), and every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases).
+
+## Questions
+
+<details>
+<summary><b>Windows says it "protected my PC". Is the app safe?</b></summary>
+
+The app is not code-signed, because signing costs money, so Windows SmartScreen warns about it the first time. Choose **More info**, then **Run anyway**. Each release has a `SHA256SUMS.txt` you can check the download against, and all the code is in this repository.
+</details>
+
+<details>
+<summary><b>Is this made by Rockstar?</b></summary>
+
+No. It is a fan project, not published, approved or endorsed by Rockstar Games or Take-Two Interactive.
+</details>
+
+<details>
+<summary><b>How do I update?</b></summary>
+
+When a newer version exists, the app shows a notice with a link. Download the new setup and run it; it installs over the old version. Nothing updates by itself.
+</details>
+
+<details>
+<summary><b>How do I uninstall it?</b></summary>
+
+Windows Settings → Apps → Installed apps → GTA 6 HQ → Uninstall, or "Uninstall GTA 6 HQ" in the Start menu. The portable version is removed by deleting its folder.
+</details>
+
+<details>
+<summary><b>The map is blank or has missing squares.</b></summary>
+
+The map downloads each area from gta6-wiki.org the first time you look at it, so it needs an internet connection then. Areas you have already viewed work offline.
+</details>
+
+<details>
+<summary><b>The app will not open.</b></summary>
+
+It needs the Microsoft Edge WebView2 Runtime. Windows 11 includes it; on Windows 10, install it from Microsoft's website and try again.
+</details>
+
+<details>
+<summary><b>Can I stop it showing on my Discord profile, or checking for updates?</b></summary>
+
+Yes. In the app's folder, open `data/discord.json` or `data/update.json` and set `"enabled": false`, then restart the app.
+</details>
+
+<details>
+<summary><b>Something in the encyclopedia or manual is wrong.</b></summary>
+
+Please [open an issue](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose) and say where you saw it and what your source is. Everything was written before release, so corrections from the finished game are welcome.
+</details>
 
 ## How far to trust it
 
@@ -97,7 +162,7 @@ The update check and the Discord status can each be turned off in the app's `dat
 
 ## Credits and rights
 
-- **Pictures, footage frames and artwork** are official Rockstar Games material and remain the property of Rockstar Games and Take-Two Interactive. Their source and rights status are recorded per file in `data/media.json`; none is licensed for redistribution, as [`docs/compliance/MEDIA-RIGHTS-AUDIT.md`](docs/compliance/MEDIA-RIGHTS-AUDIT.md) sets out. If you are a rights holder and want something removed, open an issue.
+- **Pictures, footage frames and artwork** are official Rockstar Games material and remain the property of Rockstar Games and Take-Two Interactive. Their source and rights status are recorded per file in `data/media.json`; none is licensed for redistribution, as [`docs/compliance/MEDIA-RIGHTS-AUDIT.md`](docs/compliance/MEDIA-RIGHTS-AUDIT.md) sets out. If you are a rights holder and want something removed, [open a rights request](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose).
 - **Map tiles**: the GTA VI mapping community via gtadb.org, CC BY 4.0, served by gta6-wiki.org and cached locally on first view.
 - **Live wallpapers and the logo** were supplied by the app's owner; where they first came from is not recorded.
 

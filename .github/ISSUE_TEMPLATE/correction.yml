@@ -1,0 +1,28 @@
+name: A fact is wrong or missing
+description: Something in the encyclopedia or the Field Manual needs correcting or adding.
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: Everything here was written before the game's release. Corrections from the finished game are especially welcome.
+  - type: input
+    id: where
+    attributes:
+      label: Where is it?
+      description: The entry name, or the manual chapter and page.
+      placeholder: Field Manual, Law Enforcement, The Wanted Level
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should it say?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: How do you know?
+      description: A link, a timestamp in official footage, or "seen in the released game" and how to reproduce it. Nothing is added without a source.
+    validations:
+      required: true
