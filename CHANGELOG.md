@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.5 (12 November 2026)
+
+- Setup no longer leaves a folder named after itself beside the setup file.
+
 ## 0.2.4 (12 November 2026)
 
 - Setup is now its own window in the app's look, with a live wallpaper, sliding picture cards and the loading ring. It installs the same way underneath, and the setup file shows the logo as its icon.

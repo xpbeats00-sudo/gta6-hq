@@ -1,6 +1,6 @@
 # Repository inventory
 
-Generated 2026-11-12 15:43 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-12 15:48 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
@@ -15,7 +15,7 @@ Generated 2026-11-12 15:43 by `scripts/current_state.py`. Do not edit by hand.
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 1 | 0.0 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 2562 | 962.7 MB |
+| `target/release/` | 2579 | 971.7 MB |
 
 ## Source files
 

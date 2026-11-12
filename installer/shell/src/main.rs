@@ -112,7 +112,10 @@ fn main() {
     centre(&window);
     theme_window_frame(&window);
 
-    let webview = WebViewBuilder::new()
+    // Keep WebView2's own files in the temp folder. Left alone, it would create a
+    // "<setup name>.WebView2" folder beside the setup file, in the user's Downloads.
+    let mut context = wry::WebContext::new(Some(std::env::temp_dir().join("gta6hq-setup-webview")));
+    let webview = WebViewBuilder::new_with_web_context(&mut context)
         .with_custom_protocol("setup".into(), |_id, request| serve(&request))
         .with_url("setup://localhost/index.html")
         .with_initialization_script(page_info())
