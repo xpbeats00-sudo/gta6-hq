@@ -1501,6 +1501,53 @@ const HERO_WALLPAPERS = [
   '/wallpapers/gta-vi-pink-neon-logo-reflection.mp4',
 ];
 const HERO_FADE_MS = 1400;
+// ---------- inline spoilers ----------
+// Whole entries marked `spoiler` are handled at the top of this file. This covers single
+// phrases. Any text in the data files written as ||like this|| is a spoiler: it is covered until the
+// reader clicks it (or presses Enter or Space on it), and a second click covers it again.
+// It works wherever the text appears, because it is applied to whatever the page draws.
+const SPOILER = /\|\|([^|]+?)\|\|/g;
+function hideSpoilers(root) {
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  const found = [];
+  while (walker.nextNode()) {
+    const node = walker.currentNode;
+    if (node.nodeValue.includes('||') && !node.parentElement.closest('.spoiler, script, style, textarea, input')) found.push(node);
+  }
+  for (const node of found) {
+    const parts = node.nodeValue.split(SPOILER);
+    if (parts.length < 3) continue;
+    const piece = document.createDocumentFragment();
+    parts.forEach((text, i) => {
+      if (i % 2 === 0) { piece.append(text); return; }
+      const cover = document.createElement('span');
+      cover.className = 'spoiler';
+      cover.tabIndex = 0;
+      cover.setAttribute('role', 'button');
+      cover.setAttribute('aria-label', 'Spoiler, hidden. Activate to show.');
+      cover.textContent = text;
+      piece.append(cover);
+    });
+    node.replaceWith(piece);
+  }
+}
+const toggleSpoiler = (e) => {
+  const cover = e.target.closest && e.target.closest('.spoiler');
+  if (!cover || (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ')) return;
+  e.preventDefault();
+  e.stopPropagation();
+  const open = cover.classList.toggle('is-open');
+  cover.setAttribute('aria-label', open ? 'Spoiler, shown. Activate to hide.' : 'Spoiler, hidden. Activate to show.');
+};
+document.addEventListener('click', toggleSpoiler, true);
+document.addEventListener('keydown', toggleSpoiler, true);
+new MutationObserver((changes) => {
+  for (const change of changes) for (const node of change.addedNodes) {
+    if (node.nodeType === Node.ELEMENT_NODE) hideSpoilers(node);
+    else if (node.nodeType === Node.TEXT_NODE && node.parentElement && node.nodeValue.includes('||')) hideSpoilers(node.parentElement);
+  }
+}).observe(document.body, { childList: true, subtree: true });
+
 /** The community server's permanent invite. Also written in index.html (top bar and footer). */
 const DISCORD_INVITE = 'https://discord.gg/YhMHr8N4an';
 
