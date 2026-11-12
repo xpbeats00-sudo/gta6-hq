@@ -15,7 +15,7 @@ Sourced, labelled by how well each fact is supported, and built as a small Rust 
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f7a13c)
 ![Built with Rust](https://img.shields.io/badge/built%20with-Rust-2b1052)
 
-[Install](#install) · [What's inside](#whats-inside) · [The Field Manual](#the-field-manual) · [What's new](#whats-new) · [Questions](#questions) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
+[Install](#install) · [What's inside](#whats-inside) · [The Field Manual](#the-field-manual) · [What's new](#whats-new) · [Creators welcome](#creators-welcome) · [Questions](#questions) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
 
 </div>
 
@@ -95,6 +95,14 @@ Click any picture to see it full screen.
 **0.2.0**: a new look with the app's own window buttons, a 38-page manual with two new chapters, and pictures across the encyclopedia.
 
 The full list is in [CHANGELOG.md](CHANGELOG.md), and every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases).
+
+## Creators welcome
+
+Download it, review it, stream it, make videos about it. You do not need to ask.
+
+- Call it **unofficial** or **fan-made**, and link the [download](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) so people get the real file.
+- The [press kit](docs/press/README.md) has a description to copy, screenshots and animations.
+- Made something? Post it in the [Discord server](https://discord.gg/YhMHr8N4an) and we will share it.
 
 ## Questions
 
