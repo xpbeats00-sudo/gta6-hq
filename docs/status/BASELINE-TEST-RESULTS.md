@@ -1,14 +1,14 @@
 # Baseline test results
 
-Run 2026-11-12 09:59 by `scripts/current_state.py --run-checks` against the live checkout.
+Run 2026-11-12 11:17 by `scripts/current_state.py --run-checks` against the live checkout.
 
 | Check | Command | Exit code | Result |
 |---|---|---|---|
 | Formatting | `cargo fmt --all -- --check` | 0 | Pass |
 | Clippy, warnings as errors | `cargo clippy --all-targets --all-features -- -D warnings` | 0 | Pass |
-| Tests | `cargo test` | 0 | Pass. 59 passed, 0 failed |
+| Tests | `cargo test` | 0 | Pass. 60 passed, 0 failed |
 | Release build | `cargo build --release` | 0 | Pass |
-| Data validator | `target\release\gta6-hq.exe --validate` | 0 | Pass. 0 errors, 102 warnings; by check: empty-category 2, rights-unconfirmed 102 |
+| Data validator | `target\release\gta6-hq.exe --validate` | 0 | Pass. 0 errors, 114 warnings; by check: empty-category 2, rights-unconfirmed 114 |
 | node --check ui/app.js | `node --check ui\app.js` | 0 | Pass |
 | node --check ui/art.js | `node --check ui\art.js` | 0 | Pass |
 | node --check ui/manual.js | `node --check ui\manual.js` | 0 | Pass |

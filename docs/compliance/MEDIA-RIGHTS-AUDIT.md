@@ -1,17 +1,17 @@
 # Media rights audit
 
-Generated 2026-11-12 09:55 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-12 11:16 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 102 |
-| Records in `data/media.json` | 102 |
+| Media files on disk (`images/`, `wallpapers/`) | 114 |
+| Records in `data/media.json` | 114 |
 | Files with no record | 0 |
 | Records with no file | 0 |
 | Groups of identical files | 0 |
-| Files not used anywhere | 5 |
+| Files not used anywhere | 7 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 14 |
 
@@ -22,7 +22,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Decision | Files | Meaning |
 |---|---|---|
 | approved_for_distribution | 0 | Cleared to ship in a public package |
-| local_personal_use_only | 88 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
+| local_personal_use_only | 100 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
 | unknown | 14 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
@@ -32,7 +32,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 
 | Kind | Records |
 |---|---|
-| evidence_frame | 11 |
+| evidence_frame | 23 |
 | official_illustration | 77 |
 | owner_supplied_unverified | 14 |
 
@@ -55,6 +55,8 @@ None.
 On disk and recorded, but no entry, manual page or interface file points at them.
 
 - `images/dawn-of-the-heist.jpg`
+- `images/manual/footage/circuit-race-1742.jpg`
+- `images/manual/jason-and-lucia-in-car.jpg`
 - `images/pink-neon-logo.jpg`
 - `images/vi-logo-reveal-discord-1024.png`
 - `images/vi-logo-reveal.jpg`

@@ -16,9 +16,24 @@
   <div id="splash" role="status" aria-label="Loading GTA 6 HQ">
     <video id="splash-video" src="/wallpapers/gta6splashscreen.mp4#t=2" autoplay muted playsinline preload="auto"></video>
     <div class="splash-foot">
-      <p id="splash-tip" class="splash-tip">Loading Leonida…</p>
-      <div class="splash-bar"><span id="splash-progress"></span></div>
       <button id="splash-skip" type="button">Skip intro</button>
+      <div class="splash-load">
+        <div class="splash-text">
+          <span id="splash-percent" class="splash-percent">0%</span>
+          <p id="splash-tip" class="splash-tip">Loading Leonida…</p>
+        </div>
+        <div class="splash-dial">
+          <!-- The ring fills as loading advances; the logo turns inside it -->
+          <svg class="splash-ring" viewBox="0 0 100 100" aria-hidden="true">
+            <defs><linearGradient id="splash-sunset" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#ffc46b"/><stop offset="0.55" stop-color="#ee3f7c"/><stop offset="1" stop-color="#8b3fd9"/>
+            </linearGradient></defs>
+            <circle class="ring-track" cx="50" cy="50" r="46"/>
+            <circle id="splash-ring" class="ring-fill" cx="50" cy="50" r="46"/>
+          </svg>
+          <div class="splash-coin"><img src="/images/gta6.png" alt=""><img src="/images/gta6.png" alt=""></div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -52,7 +67,24 @@
     <form id="nav-search" class="nav-search" role="search">
       <input type="search" name="q" placeholder="Search" aria-label="Search the wiki" autocomplete="off">
     </form>
+    <!-- Window buttons: shown only in the desktop app, which has no Windows title bar -->
+    <div id="window-controls" class="window-controls" hidden>
+      <button type="button" data-window="minimize" aria-label="Minimise" title="Minimise">
+        <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6.5h8"/></svg>
+      </button>
+      <button type="button" data-window="maximize" aria-label="Maximise" title="Maximise">
+        <svg class="icon-max" viewBox="0 0 12 12" aria-hidden="true"><rect x="2.5" y="2.5" width="7" height="7"/></svg>
+        <svg class="icon-restore" viewBox="0 0 12 12" aria-hidden="true"><rect x="2" y="4" width="6" height="6"/><path d="M4 4V2h6v6H8"/></svg>
+      </button>
+      <button type="button" data-window="close" aria-label="Close" title="Close">
+        <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg>
+      </button>
+    </div>
   </header>
+
+  <!-- Side columns of sliding picture cards, shown only where the window is wide enough to have empty margins -->
+  <div class="rail rail-left" aria-hidden="true"></div>
+  <div class="rail rail-right" aria-hidden="true"></div>
 
   <main id="view" tabindex="-1"></main>
 

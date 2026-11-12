@@ -1,6 +1,6 @@
 # Data and manual counts
 
-Generated 2026-11-12 09:59 by `scripts/current_state.py` from the live data files. Do not edit by hand.
+Generated 2026-11-12 11:17 by `scripts/current_state.py` from the live data files. Do not edit by hand.
 
 ## Encyclopedia
 
@@ -27,31 +27,34 @@ Sources in the registry: 23. Map markers: 15 in 7 categories.
 | No. | Chapter | State | Pages |
 |---|---|---|---|
 | 00 | How to Read This Manual | Published, written for the manual | 2 |
-| 01 | Getting Started | In development | 1 |
+| 01 | Getting Started | Published, written for the manual | 4 |
 | 02 | Leonida & Vice City | Published, 6 encyclopedia entries | 2 |
 | 03 | Characters | Published, 8 encyclopedia entries | 2 |
 | 04 | Vehicles | Published, 14 encyclopedia entries | 3 |
 | 05 | Activities | Published, 7 encyclopedia entries | 2 |
-| 06 | Law Enforcement | Published, written for the manual | 11 |
-| 07 | Weapons & Equipment | Published, 3 encyclopedia entries | 1 |
-| 08 | Reference & Sources | Published, 9 sources | 4 |
-| | **Whole book, as the reader counts it (contents is page 1; the cover is unnumbered)** | | **29** |
+| 06 | Robberies & Stealing | Published, written for the manual | 4 |
+| 07 | Law Enforcement | Published, written for the manual | 11 |
+| 08 | Weapons & Equipment | Published, 3 encyclopedia entries | 1 |
+| 09 | Reference & Sources | Published, 13 sources | 6 |
+| | **Whole book, as the reader counts it (contents is page 1; the cover is unnumbered)** | | **38** |
 
-Manual sources: 9 checked, 1 listed but not checked.
+Manual sources: 13 checked, 1 listed but not checked.
 
 ## Evidence labels in written chapters
 
 | Chapter | demonstrated | developer-described | interpretation | preview-reported | unknown |
 |---|---|---|---|---|---|
+| Getting Started | 9 | 15 | 1 | 4 | 0 |
+| Robberies & Stealing | 6 | 20 | 1 | 4 | 0 |
 | Law Enforcement | 15 | 28 | 13 | 9 | 2 |
 
 ## Media
 
-Records in `data/media.json`: 102.
+Records in `data/media.json`: 114.
 
 | Rights status | Records |
 |---|---|
-| permission_required | 88 |
+| permission_required | 100 |
 | unknown | 14 |
 
-Files on disk: `images/` 96 (20.1 MB), `wallpapers/` 6 (21.2 MB). Map tile cache: 1235 files (389.2 MB).
+Files on disk: `images/` 108 (21.7 MB), `wallpapers/` 6 (21.2 MB). Map tile cache: 1511 files (379.7 MB).

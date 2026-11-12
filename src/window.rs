@@ -5,16 +5,47 @@ use std::path::Path;
 use tao::{
     dpi::LogicalSize,
     event::{Event, WindowEvent},
-    event_loop::{ControlFlow, EventLoop},
-    window::{Icon, WindowBuilder},
+    event_loop::{ControlFlow, EventLoopBuilder},
+    window::{Icon, ResizeDirection, WindowBuilder},
 };
 use wry::{NewWindowResponse, WebContext, WebViewBuilder};
 
 const BACKGROUND: (u8, u8, u8, u8) = (10, 3, 24, 255);
 
+/// What the page's own window buttons and edges can ask the window to do.
+/// The window has no Windows title bar; the app draws its own controls.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+enum Command {
+    Minimize,
+    ToggleMaximize,
+    Close,
+    Drag,
+    Resize(ResizeDirection),
+}
+
+/// The command a message from the page stands for. Anything else is ignored.
+fn command(message: &str) -> Option<Command> {
+    Some(match message {
+        "minimize" => Command::Minimize,
+        "maximize" => Command::ToggleMaximize,
+        "close" => Command::Close,
+        "drag" => Command::Drag,
+        "resize:n" => Command::Resize(ResizeDirection::North),
+        "resize:s" => Command::Resize(ResizeDirection::South),
+        "resize:e" => Command::Resize(ResizeDirection::East),
+        "resize:w" => Command::Resize(ResizeDirection::West),
+        "resize:ne" => Command::Resize(ResizeDirection::NorthEast),
+        "resize:nw" => Command::Resize(ResizeDirection::NorthWest),
+        "resize:se" => Command::Resize(ResizeDirection::SouthEast),
+        "resize:sw" => Command::Resize(ResizeDirection::SouthWest),
+        _ => return None,
+    })
+}
+
 pub fn run(url: &str, root: &Path) -> ! {
-    let event_loop = EventLoop::new();
-    let window = WindowBuilder::new()
+    let event_loop = EventLoopBuilder::<Command>::with_user_event().build();
+    let commands = event_loop.create_proxy();
+    let window = undecorated(WindowBuilder::new())
         .with_title("GTA 6 HQ")
         .with_inner_size(LogicalSize::new(1440.0, 900.0))
         .with_min_inner_size(LogicalSize::new(900.0, 600.0))
@@ -24,6 +55,8 @@ pub fn run(url: &str, root: &Path) -> ! {
             error_dialog(&format!("GTA 6 HQ could not open its window.\n\n{e}"));
             std::process::exit(1);
         });
+
+    theme_window_frame(&window);
 
     // Keep WebView2's profile in the app's cache folder rather than beside the exe.
     let mut context = WebContext::new(Some(root.join("cache").join("webview")));
@@ -46,6 +79,17 @@ pub fn run(url: &str, root: &Path) -> ! {
         // Source links and map credits open in the default browser; the app
         // window itself never leaves the app.
         .with_navigation_handler(stay_in_app)
+        // Window buttons, dragging and edge resizing, asked for by the app's own page only.
+        .with_ipc_handler({
+            let app_origin = app_origin.clone();
+            move |request| {
+                if is_app_url(&request.uri().to_string(), &app_origin) {
+                    if let Some(command) = command(request.body()) {
+                        let _ = commands.send_event(command);
+                    }
+                }
+            }
+        })
         .with_new_window_req_handler(move |target, _features| {
             if !is_app_url(&target, &app_origin) {
                 open_in_browser(&target);
@@ -53,23 +97,53 @@ pub fn run(url: &str, root: &Path) -> ! {
             NewWindowResponse::Deny
         })
         .build(&window);
-    let _webview = webview.unwrap_or_else(|e| {
+    let webview = webview.unwrap_or_else(|e| {
         error_dialog(&format!(
             "GTA 6 HQ could not start its web view.\n\nThe Microsoft Edge WebView2 Runtime is required (it ships with Windows 11).\n\n{e}"
         ));
         std::process::exit(1);
     });
 
+    // Tell the page whether the window is maximised, so its button shows the right icon.
+    let report_state = move |maximized: bool| {
+        let _ = webview.evaluate_script(&format!("window.setWindowState && window.setWindowState({maximized})"));
+    };
+
     event_loop.run(move |event, _, control_flow| {
         *control_flow = ControlFlow::Wait;
-        if let Event::WindowEvent {
-            event: WindowEvent::CloseRequested,
-            ..
-        } = event
-        {
-            *control_flow = ControlFlow::Exit;
+        match event {
+            Event::WindowEvent {
+                event: WindowEvent::CloseRequested,
+                ..
+            }
+            | Event::UserEvent(Command::Close) => *control_flow = ControlFlow::Exit,
+            Event::WindowEvent {
+                event: WindowEvent::Resized(_),
+                ..
+            } => report_state(window.is_maximized()),
+            Event::UserEvent(Command::Minimize) => window.set_minimized(true),
+            Event::UserEvent(Command::ToggleMaximize) => window.set_maximized(!window.is_maximized()),
+            Event::UserEvent(Command::Drag) => {
+                let _ = window.drag_window();
+            }
+            Event::UserEvent(Command::Resize(direction)) if !window.is_maximized() => {
+                let _ = window.drag_resize_window(direction);
+            }
+            _ => {}
         }
     })
+}
+
+/// No Windows title bar or frame; a shadow is kept so the window still reads as a window.
+#[cfg(windows)]
+fn undecorated(builder: WindowBuilder) -> WindowBuilder {
+    use tao::platform::windows::WindowBuilderExtWindows;
+    builder.with_decorations(false).with_undecorated_shadow(true)
+}
+
+#[cfg(not(windows))]
+fn undecorated(builder: WindowBuilder) -> WindowBuilder {
+    builder.with_decorations(false)
 }
 
 fn is_app_url(target: &str, app_origin: &str) -> bool {
@@ -120,6 +194,39 @@ pub fn error_dialog(message: &str) {
     let _ = message;
 }
 
+/// Give the frameless window a pink border and rounded corners.
+/// Windows 11 only; older versions ignore it.
+#[cfg(windows)]
+fn theme_window_frame(window: &tao::window::Window) {
+    use tao::platform::windows::WindowExtWindows;
+
+    #[link(name = "dwmapi")]
+    extern "system" {
+        fn DwmSetWindowAttribute(hwnd: isize, attribute: u32, value: *const u32, size: u32) -> i32;
+    }
+    const DWMWA_WINDOW_CORNER_PREFERENCE: u32 = 33;
+    const DWMWA_BORDER_COLOR: u32 = 34;
+    const DWMWCP_ROUND: u32 = 2;
+    /// A COLORREF is 0x00BBGGRR.
+    const fn colour(r: u8, g: u8, b: u8) -> u32 {
+        (b as u32) << 16 | (g as u32) << 8 | r as u32
+    }
+
+    let hwnd = window.hwnd();
+    for (attribute, value) in [
+        (DWMWA_WINDOW_CORNER_PREFERENCE, DWMWCP_ROUND),
+        (DWMWA_BORDER_COLOR, colour(238, 63, 124)),
+    ] {
+        // SAFETY: `hwnd` is this live window, and `value` is a u32 that outlives the call.
+        unsafe {
+            DwmSetWindowAttribute(hwnd, attribute, &value, 4);
+        }
+    }
+}
+
+#[cfg(not(windows))]
+fn theme_window_frame(_window: &tao::window::Window) {}
+
 /// The logo, letterboxed into a square, as the window/taskbar icon.
 fn load_icon(path: &Path) -> Option<Icon> {
     const SIZE: u32 = 256;
@@ -143,6 +250,18 @@ fn load_icon(path: &Path) -> Option<Icon> {
 #[cfg(test)]
 mod tests {
     use super::*;
+
+    #[test]
+    fn only_known_window_commands_are_accepted() {
+        assert_eq!(command("minimize"), Some(Command::Minimize));
+        assert_eq!(command("maximize"), Some(Command::ToggleMaximize));
+        assert_eq!(command("close"), Some(Command::Close));
+        assert_eq!(command("drag"), Some(Command::Drag));
+        assert_eq!(command("resize:se"), Some(Command::Resize(ResizeDirection::SouthEast)));
+        assert_eq!(command("resize:up"), None);
+        assert_eq!(command("exec:calc"), None);
+        assert_eq!(command(""), None);
+    }
 
     #[test]
     fn only_the_apps_own_origin_stays_in_the_window() {

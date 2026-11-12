@@ -335,6 +335,25 @@
       store.set('theme', store.get('theme') === 'night' ? 'paper' : 'night');
       draw();
     });
+    // Click any picture on a page to see it full screen. On an entry's picture this replaces
+    // following its link; the entry's title and "Open the full entry" still go to the entry.
+    root.addEventListener('click', (e) => {
+      const img = e.target.closest('.m-page img');
+      if (!img || typeof openLightbox !== 'function') return;
+      e.preventDefault();
+      const figure = img.closest('figure');
+      const entry = img.closest('.m-entry');
+      const caption = figure?.querySelector('figcaption');
+      const credit = caption?.querySelector('span')?.textContent.trim() || '';
+      const label = img.closest('.m-pair div')?.querySelector('span')?.textContent.trim();
+      const title = label || entry?.querySelector('h3')?.textContent.trim()
+        || (caption ? caption.textContent.replace(credit, '').trim() : '') || img.alt || 'Picture';
+      openLightbox({ type: 'image', src: img.getAttribute('src'), alt: img.alt || title, title, rights: '', credit }, null);
+      // Small crops of the game's display are enlarged so they can be read.
+      const shown = document.querySelector('#lightbox .lightbox-stage img');
+      const size = () => shown.classList.toggle('is-enlarged', shown.naturalWidth > 0 && shown.naturalWidth < 900);
+      if (shown.complete) size(); else shown.addEventListener('load', size, { once: true });
+    });
     root.querySelector('[data-action="copy"]').addEventListener('click', async (e) => {
       try { await navigator.clipboard.writeText(location.href); e.target.textContent = 'Link copied'; } catch { e.target.textContent = 'Copy failed'; }
       setTimeout(() => { e.target.textContent = 'Copy link'; }, 1600);

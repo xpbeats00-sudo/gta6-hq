@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-12 09:55 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-12 11:16 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,7 +8,7 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (88)
+## Local personal use only (100)
 
 - `images/activities/classic-car-collection.jpg`
 - `images/activities/everyday-life.jpg`
@@ -48,12 +48,24 @@ None. No media file is cleared for public distribution.
 - `images/locations/mount-kalaga-national-park.jpg`
 - `images/locations/port-gellhorn.jpg`
 - `images/locations/vice-city.jpg`
+- `images/manual/footage/ammo-and-stars-1412.jpg`
+- `images/manual/footage/bars-eye-drained-2522.jpg`
+- `images/manual/footage/bars-heart-and-eye-2516.jpg`
+- `images/manual/footage/car-holdup-1137.jpg`
+- `images/manual/footage/circuit-race-1742.jpg`
 - `images/manual/footage/footage-firefight-1408.jpg`
+- `images/manual/footage/getaway-motorcycle-1806.jpg`
 - `images/manual/footage/heat-camera-alone-1802.jpg`
+- `images/manual/footage/jewelry-store-1800.jpg`
+- `images/manual/footage/minimap-route-0820.jpg`
+- `images/manual/footage/minimap-wanted-fruit-bowl-1412.jpg`
+- `images/manual/footage/office-shootout-2516.jpg`
 - `images/manual/footage/stars-gray-1148.jpg`
 - `images/manual/footage/stars-hollow-1808.jpg`
 - `images/manual/footage/stars-red-1602.jpg`
 - `images/manual/footage/stars-white-1412.jpg`
+- `images/manual/footage/store-inside-1145.jpg`
+- `images/manual/footage/store-masks-on-1127.jpg`
 - `images/manual/footage/vehicle-icon-after-1559.jpg`
 - `images/manual/footage/vehicle-icon-before-1556.jpg`
 - `images/manual/jason-and-lucia-in-car.jpg`

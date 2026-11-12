@@ -158,9 +158,97 @@ function entryGrid(section, entries, kicker, gridClass) {
     ${rest.length ? `<div class="grid grid-notes"${lead.length ? ' style="margin-top: var(--s7)"' : ''}>${rest.map((e) => card(section, e, kicker(e))).join('')}</div>` : ''}`;
 }
 
-const pageHead = (title, lede) => `<header class="page-head">
-  <h1>${esc(title)}</h1>${lede ? `<p>${esc(lede)}</p>` : ''}
+/** Pictures for a page header's cards: the section's own entries first, then the rest of the encyclopedia. */
+function headPool(section) {
+  const wiki = state.wiki;
+  if (!wiki?.categories) return [];
+  const of = (key) => (wiki[key] || []).filter((e) => e.image && !isHidden(key, e)).map((e) => e.image);
+  const own = section ? of(section) : [];
+  // Without a section, take the categories in turn so the cards mix people, places and things.
+  const lists = wiki.categories.map((c) => of(c.key)).filter((l) => l.length);
+  const mixed = [];
+  for (let i = 0; lists.some((l) => i < l.length); i += 1) lists.forEach((l) => { if (i < l.length) mixed.push(l[i]); });
+  return [...new Set([...own, ...mixed])].slice(0, Math.max(own.length, 12));
+}
+
+/** A strip of three picture panels divided by slanted cuts, for the empty side of a page header. Decorative. */
+function headCards(section) {
+  const pool = headPool(section);
+  if (pool.length < 3) return '';
+  return `<div class="head-cards" aria-hidden="true" data-pool="${esc(JSON.stringify(pool))}" data-next="3">
+    <div class="head-strip">${pool.slice(0, 3).map((src) => `<div class="head-card"><img class="is-on" src="${esc(src)}" alt=""><img alt=""></div>`).join('')}</div>
+  </div>`;
+}
+
+const pageHead = (title, lede, section) => `<header class="page-head">
+  <div class="page-head-text"><h1>${esc(title)}</h1>${lede ? `<p>${esc(lede)}</p>` : ''}</div>
+  ${headCards(section)}
 </header>`;
+
+// The header panels are live: every few seconds the next picture slides down into one of them.
+setInterval(() => {
+  const cards = document.querySelector('.head-cards');
+  if (!cards || document.hidden) return;
+  let pool;
+  try { pool = JSON.parse(cards.dataset.pool); } catch { return; }
+  if (pool.length <= 3) return;
+  const panels = cards.querySelectorAll('.head-card');
+  const turn = Number(cards.dataset.turn || 0);
+  const next = Number(cards.dataset.next || 3);
+  const card = panels[turn % panels.length];
+  const first = card.children[0], second = card.children[1];
+  const shown = first.classList.contains('is-on') ? first : second;
+  const waiting = shown === first ? second : first;
+  waiting.onload = () => {
+    // Park the incoming picture above the panel without animating, then let both slide down.
+    waiting.classList.remove('is-out');
+    waiting.classList.add('is-above');
+    void waiting.offsetWidth;
+    waiting.classList.remove('is-above');
+    waiting.classList.add('is-on');
+    shown.classList.remove('is-on');
+    shown.classList.add('is-out');
+  };
+  waiting.src = pool[next % pool.length];
+  cards.dataset.turn = String(turn + 1);
+  cards.dataset.next = String((next + 1) % pool.length);
+}, 3600);
+
+/** The section whose pictures suit the page that is open, from its address. */
+function railSection() {
+  const [first, second] = location.hash.replace(/^#\/?/, '').split('?')[0].split('/');
+  if (first === 'wiki') return second || '';
+  return ['characters', 'locations', 'vehicles'].includes(first) ? first : '';
+}
+
+/** Fill the two side columns with cut-edge picture cards that slide slowly down the margins. */
+function syncRails() {
+  const pool = headPool(railSection());
+  const key = pool.join('|');
+  document.querySelectorAll('.rail').forEach((rail, side) => {
+    if (rail.dataset.key === key) return;
+    rail.dataset.key = key;
+    if (pool.length < 4) { rail.innerHTML = ''; return; }
+    // The right column starts half-way through the pool so the two sides never match.
+    const order = side ? [...pool.slice(Math.ceil(pool.length / 2)), ...pool.slice(0, Math.ceil(pool.length / 2))] : pool;
+    const cards = order.map((src) => `<div class="rail-card"><img src="${esc(src)}" alt="" loading="lazy"></div>`).join('');
+    // The list is written twice so the loop has no seam.
+    rail.innerHTML = `<div class="rail-track" style="--rail-time: ${order.length * 9}s">${cards}${cards}</div>`;
+  });
+}
+window.addEventListener('hashchange', () => setTimeout(syncRails, 0));
+
+// Home and the location pages open on a full-width picture with their title on it. The side columns
+// stay hidden until that picture has scrolled out from under them, so they never cover it.
+function markPastHero() {
+  const hero = document.querySelector('#view .hero, #view .place-hero');
+  const bar = document.querySelector('.topbar');
+  document.body.classList.toggle('has-hero', Boolean(hero));
+  document.body.classList.toggle('past-hero', !hero || hero.getBoundingClientRect().bottom <= (bar ? bar.getBoundingClientRect().bottom : 0) + 24);
+}
+window.addEventListener('scroll', markPastHero, { passive: true });
+window.addEventListener('resize', markPastHero);
+
 
 /** Confidence, sources and last-checked date for an entry. */
 function provenance(entry) {
@@ -361,11 +449,16 @@ document.addEventListener('visibilitychange', () => {
 // Seconds of the splash video to skip: its opening is a near-black outline
 // that reads as a stalled screen. Keep in step with `#t=` in index.html.
 const SPLASH_START = 2;
+// The clip is made to loop: its last quarter-second is its opening again. Stop on the finished logo, before that.
+const SPLASH_END = 9.3;
 
 function runSplash(ready) {
   const splash = document.getElementById('splash');
   const video = document.getElementById('splash-video');
-  const bar = document.getElementById('splash-progress');
+  const percent = document.getElementById('splash-percent');
+  const ring = document.getElementById('splash-ring');
+  const RING = 2 * Math.PI * 46; // the ring's circumference, in its own units
+  const fill = (done) => { percent.textContent = `${Math.round(done * 100)}%`; ring.style.strokeDashoffset = String(RING * (1 - done)); };
   const tip = document.getElementById('splash-tip');
   const tips = ['Loading Leonida…', 'Warming up the engines…', 'Checking the Coast Guard radio…', 'Welcome to Vice City'];
   let finished = false;
@@ -376,18 +469,25 @@ function runSplash(ready) {
     finished = true;
     window.removeEventListener('keydown', onKey);
     await ready;
-    bar.style.width = '100%';
+    fill(1);
     splash.classList.add('is-done');
     document.body.classList.remove('is-loading');
     setTimeout(() => { video.pause(); splash.remove(); }, 900);
   };
 
-  video.addEventListener('timeupdate', () => {
+  const update = () => {
     if (!video.duration) return;
-    const done = Math.max(0, (video.currentTime - SPLASH_START) / (video.duration - SPLASH_START));
-    bar.style.width = `${(done * 100).toFixed(1)}%`;
+    const end = Math.min(SPLASH_END, video.duration);
+    // Hold the finished logo on screen while the splash fades out.
+    if (video.currentTime >= end) { video.pause(); finish(); }
+    const done = Math.min(1, Math.max(0, (video.currentTime - SPLASH_START) / (end - SPLASH_START)));
+    fill(done);
     tip.textContent = tips[Math.min(tips.length - 1, Math.floor(done * tips.length))];
-  });
+  };
+  video.addEventListener('timeupdate', update);
+  // Count every frame while the window is being drawn, so the percentage climbs smoothly.
+  const everyFrame = () => { if (!finished) { update(); requestAnimationFrame(everyFrame); } };
+  requestAnimationFrame(everyFrame);
   video.addEventListener('ended', finish);
   video.addEventListener('error', finish);
   document.getElementById('splash-skip').addEventListener('click', finish);
@@ -661,7 +761,7 @@ function renderCategory(key) {
   if (!cat) return renderNotFound();
   const entries = state.wiki[key] || [];
   view.innerHTML = `
-    ${pageHead(cat.label, cat.blurb)}
+    ${pageHead(cat.label, cat.blurb, key)}
     <section class="block">
       <a class="back" href="#/wiki">← Encyclopedia</a>
       ${entries.length
@@ -713,7 +813,7 @@ function renderCharacters() {
   const leads = characters.filter((c) => c.group === 'main');
   const others = characters.filter((c) => c.group !== 'main');
   view.innerHTML = `
-    ${pageHead('Characters', 'The confirmed cast of Grand Theft Auto VI, from both leads to the supporting players.')}
+    ${pageHead('Characters', 'The confirmed cast of Grand Theft Auto VI, from both leads to the supporting players.', 'characters')}
     <section class="block"><div class="block-head"><h2>Protagonists</h2></div>
       <div class="grid grid-portrait grid-lead">${leads.map((c) => card('characters', c, c.role)).join('')}</div>
     </section>
@@ -760,7 +860,7 @@ function renderCharacter(slug) {
 
 function renderLocations() {
   view.innerHTML = `
-    ${pageHead('Locations', 'Vice City and the wider State of Leonida, region by region.')}
+    ${pageHead('Locations', 'Vice City and the wider State of Leonida, region by region.', 'locations')}
     <section class="block">${listShell('locations')}</section>`;
   mountList(view.querySelector('[data-list]'), {
     items: state.wiki.locations,
@@ -818,7 +918,7 @@ function renderLocation(slug) {
 function renderVehicles() {
   const cat = category('vehicles');
   view.innerHTML = `
-    ${pageHead('Vehicles', cat?.blurb)}
+    ${pageHead('Vehicles', cat?.blurb, 'vehicles')}
     <section class="block">${listShell('vehicles')}</section>`;
   mountEntryList(view.querySelector('[data-list]'), 'vehicles', state.wiki.vehicles, kickerOf, 'grid-feature by-three');
 }
@@ -1285,6 +1385,37 @@ function route() {
   reportPresence(name);
 }
 
+const LEAVE_MS = 190;
+let navigation = 0;
+let shownSection = null;
+
+/** Start the new page faded out and slightly raised, then let it settle into place. */
+function enterView() {
+  shownSection = document.body.dataset.page;
+  markPastHero();
+  view.classList.remove('is-leaving');
+  view.classList.add('is-entering');
+  // Reading a layout value makes the browser apply the starting state now, so removing the class
+  // animates from it. This does not wait for a frame, so the page can never be left invisible.
+  void view.offsetWidth;
+  view.classList.remove('is-entering');
+}
+
+/** Change page with a fade: the old page fades out, the new one is drawn, then fades in. */
+function navigate() {
+  const next = location.hash.replace(/^#\/?/, '').split('?')[0].split('/')[0] || 'home';
+  // Typing in Search and moving around the Map redraw the same page; fading those would flicker.
+  if (next === shownSection && (next === 'search' || next === 'map')) { route(); return; }
+  const mine = ++navigation;
+  view.classList.add('is-leaving');
+  setTimeout(() => {
+    // A newer click has taken over: let that one draw the page.
+    if (mine !== navigation) return;
+    route();
+    enterView();
+  }, LEAVE_MS);
+}
+
 const PRESENCE_SECTIONS = {
   home: 'Home', wiki: 'Encyclopedia', characters: 'Characters', locations: 'Locations', vehicles: 'Vehicles',
   map: 'Interactive map', media: 'Media gallery', intel: 'Intel', search: 'Search', manual: 'Field Manual',
@@ -1360,6 +1491,41 @@ function setupAnnouncement(game) {
   });
 }
 
+// ---------- the desktop window ----------
+// The desktop app has no Windows title bar: these are its buttons, and the bars are what you drag.
+// In a browser there is no `window.ipc`, so none of this is switched on.
+if (window.ipc?.postMessage) {
+  const send = (message) => window.ipc.postMessage(message);
+  const controls = document.getElementById('window-controls');
+  controls.hidden = false;
+  document.documentElement.classList.add('is-desktop');
+  controls.addEventListener('click', (e) => {
+    const button = e.target.closest('[data-window]');
+    if (button) send(button.dataset.window);
+  });
+
+  // Drag the window by any empty part of the two bars; double-click to maximise or restore.
+  const onBar = (e) => e.target.closest('.topbar, .announce') && !e.target.closest('a, button, input, form, .window-controls');
+  document.addEventListener('mousedown', (e) => { if (e.button === 0 && e.detail === 1 && onBar(e)) send('drag'); });
+  document.addEventListener('dblclick', (e) => { if (onBar(e)) send('maximize'); });
+
+  // Thin strips along the edges and corners stand in for the frame you would normally resize by.
+  for (const edge of ['n', 's', 'e', 'w', 'ne', 'nw', 'se', 'sw']) {
+    const strip = document.createElement('div');
+    strip.className = `resize-edge resize-${edge}`;
+    strip.addEventListener('mousedown', (e) => { if (e.button === 0) { e.preventDefault(); send(`resize:${edge}`); } });
+    document.body.append(strip);
+  }
+
+  // Called by the app whenever the window changes size.
+  window.setWindowState = (maximized) => {
+    document.documentElement.classList.toggle('is-maximized', maximized);
+    const button = controls.querySelector('[data-window="maximize"]');
+    button.setAttribute('aria-label', maximized ? 'Restore' : 'Maximise');
+    button.title = maximized ? 'Restore' : 'Maximise';
+  };
+}
+
 const menuToggle = document.getElementById('menu-toggle');
 const nav = document.getElementById('nav');
 const setMenu = (open) => {
@@ -1384,8 +1550,10 @@ const ready = getJson('/api/wiki')
     state.wiki = wiki;
     setupAnnouncement(wiki.game);
     checkForUpdate();
-    window.addEventListener('hashchange', route);
+    syncRails();
+    window.addEventListener('hashchange', navigate);
     route();
+    enterView();
   })
   .catch((error) => {
     view.innerHTML = `${pageHead('Busted', 'The wiki data could not be loaded.')}<p class="block muted">${esc(error.message)}</p>`;

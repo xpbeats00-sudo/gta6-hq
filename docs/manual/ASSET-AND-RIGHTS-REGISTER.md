@@ -147,3 +147,11 @@ The chapter now lists the encyclopedia's three sourced weapon entries, each with
 - No picture: Tisha-Wocka flea market. Nothing in the official gallery could be identified as it.
 - Several pictures illustrate an entry without being labelled as it by Rockstar: Allied Crystal (an aerial of Ambrosia with an industrial plant), Brian Heder's boat yard (Brian with a clipboard), Raul Bautista's crew (Raul alone), Keys drug runners (Jason at a seaplane), Only Raw Records (two men in a studio), Fleeca bank.
 - `ui/app.js`, `ui/styles.css`: the Encyclopedia's category list is now picture cards with the text underneath, and the A to Z list has thumbnails. Previous versions are in `backups/`.
+
+## Update, 2026-11-12: gameplay pages (health, food, robberies, cars, guns)
+
+Twelve frames of Rockstar's official Extended Look were added to `images/manual/footage/` for the new Getting Started and Robberies & Stealing chapters, each read from Rockstar's server at one moment and recorded in `data/media.json` (rights status "permission needed"): the heart and eye bars (25:16, 25:22), the office shootout (25:16), the minimap with a route (8:20) and while wanted (14:12), the stars with ammunition (14:12), bandanas at a door (11:28), the convenience store (11:48), a car held up at gunpoint (11:37), the jewelry store (18:00), the motorcycle getaway (18:06) and a circuit race (17:42, saved but not yet used).
+
+Evidence sheets for these readings are in `research/frames/` (`bars-top-left_*`, `minimap-corner-icon_*`, `store-robbery_*`, `jewelry-robbery_*`, `office-shootout_*`). The written-source research is `research/GAMEPLAY-EVIDENCE.md`.
+
+Sheet timestamps run about a second and a half behind exact seeks; the frame times quoted in the manual are from exact seeks.

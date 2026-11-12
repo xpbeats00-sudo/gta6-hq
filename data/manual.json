@@ -95,6 +95,46 @@
       "sourceType": "news",
       "lastCheckedAt": "2026-11-12",
       "notes": "A news writer's own reading of the Extended Look. His readings are interpretation."
+    },
+    "famitsu": {
+      "title": "Interview with Rob Nelson on Grand Theft Auto VI",
+      "publisher": "Famitsu",
+      "author": "Kontakao (interviewing Rob Nelson)",
+      "publishedAt": "2026-08-28",
+      "url": "https://www.famitsu.com/article/202608/85753",
+      "sourceType": "developer interview",
+      "lastCheckedAt": "2026-11-12",
+      "notes": "In Japanese. Read by a research pass in machine translation, so wording is approximate. Claims from it are marked as translated."
+    },
+    "tgg-preview": {
+      "title": "I Saw 3 Hours of GTA 6 at Rockstar North, and follow-up videos",
+      "publisher": "TGG (YouTube)",
+      "author": "TGG",
+      "publishedAt": "2026-08-27",
+      "url": "https://www.youtube.com/watch?v=Mfx1B_LBSV0",
+      "sourceType": "preview coverage",
+      "lastCheckedAt": "2026-11-12",
+      "notes": "A creator who attended Rockstar's preview in July 2026. Read as auto-generated captions by a research pass. His own observations, and Rob Nelson's words as he reads them out."
+    },
+    "ign-preview": {
+      "title": "69 New GTA 6 Gameplay Details We Saw at Rockstar HQ, and related previews",
+      "publisher": "IGN",
+      "author": "Matt Purslow, Simon Cardy",
+      "publishedAt": "2026-08-27",
+      "url": "https://www.ign.com/articles/gta-6-new-gameplay-details",
+      "sourceType": "preview coverage",
+      "lastCheckedAt": "2026-11-12",
+      "notes": "Written by people who watched the July 2026 demo. Read by a research pass."
+    },
+    "edge": {
+      "title": "The state that never sleeps (Edge 430 cover story)",
+      "publisher": "Edge, on GamesRadar+",
+      "author": "Simon Parkin",
+      "publishedAt": "2026-10-28",
+      "url": "https://www.gamesradar.com/edge/gtavi-cover/",
+      "sourceType": "preview coverage",
+      "lastCheckedAt": "2026-11-12",
+      "notes": "From a separate, later 90-minute session; quotes Rob Nelson and Aaron Garbut. Read by a research pass."
     }
   },
   "uncheckedSources": [
@@ -209,13 +249,497 @@
       "number": "01",
       "title": "Getting Started",
       "accent": "Started",
-      "status": "in-development",
-      "note": "Controls, the phone, saving and the basics will be written from the released game. Nothing reliable has been published to base them on yet.",
-      "image": {
-        "src": "/images/manual/jason-and-lucia-in-car.jpg",
-        "caption": "Lucia and Jason in an open-top car.",
-        "credit": "Official Rockstar Games screenshot (\"Jason and Lucia 03\"), rockstargames.com/VI/media/screenshots"
-      }
+      "status": "published",
+      "kicker": "Getting Started",
+      "pages": [
+        {
+          "title": "Reading the Screen",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Getting started:",
+              "accent": "reading the screen"
+            },
+            {
+              "type": "intro",
+              "text": "What the game puts on screen, as it appears in Rockstar's own footage. The display may change before release."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/footage/office-shootout-2516.jpg",
+              "caption": "A shootout in an office: two bars at the top left, ammunition and the weapon at the top right.",
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 25:16"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Wanted stars and Heat icons",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "Top right. Up to six stars, with a row of small red icons beneath showing what the police know. The Law Enforcement chapter covers both."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Ammunition and weapon",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "Under the stars: two numbers and the outline of the weapon in hand. In one firefight they read 40 and 250, then 34 and 221, then 20 and 205 as the shooting goes on.",
+              "frame": "/images/manual/footage/ammo-and-stars-1412.jpg",
+              "frameAlt": "Four white stars, four red icons, the numbers 40 and 250, and the outline of a rifle",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 14:12"
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Minimap",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "Bottom left: a rounded panel with buildings drawn in three dimensions, an arrow for you, a north marker on its edge, and, with a destination set, a pink route line and the distance.",
+              "frame": "/images/manual/footage/minimap-route-0820.jpg",
+              "frameAlt": "A rounded minimap with a three-dimensional building, a pink route line and a distance of 1.86 miles",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 8:20"
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "The minimap while wanted",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "During a police chase the minimap is tinted blue in some frames and red in others.",
+              "frame": "/images/manual/footage/minimap-wanted-fruit-bowl-1412.jpg",
+              "frameAlt": "A blue-tinted minimap with a small fruit-bowl icon in its top-left corner",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 14:12"
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Heart bar and eye bar",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "Top left, seen only during a late shootout: a pink bar with a heart, and under it a purple bar with an eye. See the next page."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Prompts",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "Small prompts appear at the bottom right for what you can do at that moment. \"Smoke\" and \"Throw\" can be read in the footage."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "Controls. No button layout has been published.",
+                "Whether the display can be changed or switched off."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Health, Food & Fitness",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Health,",
+              "accent": "food and fitness"
+            },
+            {
+              "type": "intro",
+              "text": "Rockstar has said that eating matters and that your body changes with what you do. Several details are still unknown."
+            },
+            {
+              "type": "pair",
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 25:16 and 25:22",
+              "frames": [
+                {
+                  "src": "/images/manual/footage/bars-heart-and-eye-2516.jpg",
+                  "alt": "A full pink bar with a heart icon, split in two, above a full purple bar with an eye icon",
+                  "label": "About 25:16, both full"
+                },
+                {
+                  "src": "/images/manual/footage/bars-eye-drained-2522.jpg",
+                  "alt": "The pink heart bar full and the purple eye bar about a quarter full",
+                  "label": "About 25:22, eye bar draining"
+                }
+              ]
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "The bars",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "At the top left during a late shootout: a pink bar with a heart, divided into two halves by a marker, and under it a purple bar with an eye. The heart bar is full in every frame examined."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "text": "TGG, a creator who attended Rockstar's preview, reports three bars at the top left: health, stamina and Focus. The frames examined show only the two above.",
+              "sources": [
+                "tgg-preview"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Eating",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Rob Nelson says eating has quite a dramatic effect on your health and gives a substantial buff."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "text": "In Famitsu's interview, read in translation, Nelson says a food buff strengthens a gauge beyond its normal maximum, and that once life falls below normal the extra is lost.",
+              "sources": [
+                "famitsu"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Where food comes from",
+              "evidence": "preview-reported",
+              "sources": [
+                "ign-interview",
+                "tgg-preview",
+                "ign-preview"
+              ],
+              "text": "In IGN's demo Jason takes a drink from the safehouse fridge. TGG reports goods being picked off a convenience store shelf and bought, an order at a drive-thru that gave a temporary boost, and a vending machine at a gym. IGN's writers saw food marked with a heart or a lightning bolt."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Stamina",
+              "evidence": "developer-described",
+              "sources": [
+                "famitsu"
+              ],
+              "text": "In translation, Nelson says an energy drink strengthens the stamina gauge, that stamina drains with each movement of a workout, and that its base level rises with training."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "text": "TGG reports that in water the stamina bar becomes a lung-capacity meter.",
+              "sources": [
+                "tgg-preview"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Weight and muscle",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Overeat and you put on weight. Gyms let you work out and go up in levels of muscularity or strength. Jason and Lucia can train together, which Nelson calls a two-for-one for managing their stats."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "The eye bar",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "The purple bar drains from full to empty in about fourteen seconds during the office shootout, from 25:10 to 25:24. In one of those frames the whole picture is tinted red."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "text": "Nelson describes an ability called Focus, which he compares to Eagle Eye and which, as TGG relays him, can slow combat down. The eye bar is probably its meter; no source read says so outright.",
+              "sources": [
+                "ign-interview",
+                "tgg-preview"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 7,
+              "title": "The fruit bowl",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "A small fruit-bowl icon sits in the top-left corner of the minimap in most gameplay frames. Nothing on screen or in the sources read says what it means."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "Whether health comes back on its own. Nelson is relayed as saying only that rest affects how some attributes regenerate.",
+                "Whether sprinting drains stamina, and what happens when it runs out.",
+                "Body armour. One creator believes it can be taken from police cars; no developer has described it.",
+                "What food exists, what it costs, and how much can be carried.",
+                "\"Adrenaline\": Nelson names it during a shootout and does not explain it."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Two Leads, One Game",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Jason and Lucia:",
+              "accent": "two leads, one game"
+            },
+            {
+              "type": "intro",
+              "text": "You play both. How they share the game is described by Rob Nelson in IGN's interview."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Switching",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "You can switch between Jason and Lucia. Nelson says the team kept this as open as possible, though the story sometimes rules it out."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "The other one carries on",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The lead you are not playing keeps a routine: sometimes at the safehouse, sometimes out. Switch seats in a car and the other drives."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Safehouses",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson says safehouses are closer to the camps in Red Dead Redemption 2 than to earlier safehouses in how interactive they are. You can cut or shave your hair there; new styles need a salon or barber."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "The relationship",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "A relationship system grows when the pair spend time together: exploring, playing pool or mini golf, kayaking, or robbing places. IGN reports that the romance is optional. Nelson says it gives no particular gameplay benefit: they stay partners in crime either way."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Your criminal profile",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "A separate system tracks what sort of criminal you are. Doing what a job needs is fair game; going beyond what is necessary, again and again, may shift the profile."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Busted",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "If either lead is arrested, it is \"Busted\" and a restart, as in earlier games."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "What the criminal profile changes.",
+                "How the relationship affects the story.",
+                "Saving the game: nothing has been published."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Phone & Money",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "The phone",
+              "accent": "and money"
+            },
+            {
+              "type": "intro",
+              "text": "Nelson says money matters more in this story than in earlier games, and that at times you must go out and earn it to move the story on."
+            },
+            {
+              "type": "subheading",
+              "text": "On the phone"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Scanner",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Hold the phone over a vehicle to learn whether it is locked, alarmed or tracked, what it is worth at a Pay n' Spray or a specialty car fence, and what registering it for yourself would cost."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Snapmatic",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "You follow people and can browse it. Nelson says the pair do not post, being on the run: they just lurk."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Rides",
+              "evidence": "preview-reported",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "In IGN's demo the pair travel by Ryde Me, which IGN describes as the game's version of Uber."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Waypoints",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Holding down on the D-pad is a quick way to set a waypoint."
+            },
+            {
+              "type": "subheading",
+              "text": "Making money"
+            },
+            {
+              "type": "table",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "caption": "Ways of earning that Nelson names or shows in the interview.",
+              "columns": [
+                "How",
+                "What he says"
+              ],
+              "rows": [
+                [
+                  "Robbing places",
+                  "Shops, banks, payday loan places; he says you can rob pretty much anything"
+                ],
+                [
+                  "Boosting cars",
+                  "Steal a car a fence wants and deliver it. A damaged car earns less, so it can be repaired first"
+                ],
+                [
+                  "Selling to a fence",
+                  "A fence who will buy shows green with a dollar sign. In the demo the pair have jewelry to sell"
+                ],
+                [
+                  "Gang compounds",
+                  "Named among the action available in the open world"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "text": "In translation, Nelson says cash you are carrying is at risk when you are Wasted or Busted, and is all lost if police or civilians take you down.",
+              "sources": [
+                "famitsu"
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "Prices, payouts and what money buys.",
+                "Property, businesses and investments."
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "leonida",
@@ -290,8 +814,502 @@
       }
     },
     {
-      "id": "law-enforcement",
+      "id": "robberies",
       "number": "06",
+      "title": "Robberies & Stealing",
+      "accent": "Stealing",
+      "status": "published",
+      "kicker": "Robberies & Stealing",
+      "pages": [
+        {
+          "title": "Robberies",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Robberies",
+              "accent": "and stealing",
+              "sub": "How the pair make their money"
+            },
+            {
+              "type": "intro",
+              "text": "Rob Nelson calls robberies a huge part of what you can, and need to, do between story missions. You can rob as Jason and Lucia together or alone."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/footage/store-masks-on-1127.jpg",
+              "caption": "Two characters tie bandanas over their faces at a door marked Open 7 Days.",
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 11:28"
+            },
+            {
+              "type": "callout",
+              "text": "You can rob pretty much anything."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "text": "The callout is Nelson's phrase. The targets he names are shops, banks and payday loan places, and in the demo he points at a shop that sells headphones as somewhere you could rob.",
+              "sources": [
+                "ign-interview"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Robbery, as the footage shows it"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Cover your face",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "At a glass door marked Open 7 Days, both characters tie bandanas over their faces before going in."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Go in armed",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "In a convenience store, one of them walks the aisles while the other goes to the counter and leans over it. The display shows a pistol in hand, and a sign by the door reads \"Smile, you're on camera\".",
+              "frame": "/images/manual/footage/store-inside-1145.jpg",
+              "frameAlt": "A character walking through a convenience store towards the counter, with the wanted display at the top right",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 11:48"
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "The police are told",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "The wanted display is already showing inside the store: two gray stars and five Heat icons, among them a camera and a pistol."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Get out",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "They leave by the front door. The footage cuts away before a getaway is shown."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "text": "These are short clips cut together, and the door and the store may not be the same place. They show what a robbery can look like, not a set of rules.",
+              "sources": [
+                "extended-look"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Safes, Exits and Fences",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Safes, exits",
+              "accent": "and fences"
+            },
+            {
+              "type": "intro",
+              "text": "In IGN's interview Nelson robs a pawn shop without preparing, and says what he should have done."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/footage/jewelry-store-1800.jpg",
+              "caption": "Inside a jewelry store during a robbery in the footage.",
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 18:00"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Prepare",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson says he should really be preparing, for example by putting a vehicle out front. He goes in without."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Two people, two jobs",
+              "evidence": "preview-reported",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "IGN describes Nelson, as Jason, heading to the back to look for a safe while Lucia keeps things under control by the door."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Open the safe",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "He finds the safe, then tracks down its combination. He also carries an explosive, which he says would damage some of the take."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Leave another way",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "With police gathering at the front, he leaves by a back door."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "The quiet way",
+              "evidence": "developer-described",
+              "sources": [
+                "famitsu"
+              ],
+              "text": "In translation, Nelson describes a tool he calls a snap gun for opening a back door quietly; kicking the door in sets off the alarm. Break the security camera and you are not seen; disable the security system and the alarm stays silent, and cash can be taken from the register without anyone knowing."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Masks",
+              "evidence": "developer-described",
+              "sources": [
+                "famitsu"
+              ],
+              "text": "If the police were told about a masked person, taking the mask off afterwards makes you harder to recognise. Nelson's advice, in translation: get out of the car and take it off."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 7,
+              "title": "Sell what you took",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "A fence who will buy shows green with a dollar sign on the map. The pair have jewelry to sell him."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 8,
+              "title": "A getaway in the footage",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "After the jewelry store, two characters leave on a motorcycle, the passenger carrying a duffel bag. The stars at that moment are hollow.",
+              "frame": "/images/manual/footage/getaway-motorcycle-1806.jpg",
+              "frameAlt": "Two characters on a motorcycle at a junction, the passenger carrying a duffel bag",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 18:06"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "text": "TGG reports that loot is carried in duffel bags, with its value shown on screen, and that how many bags you can take depends on the vehicle.",
+              "sources": [
+                "tgg-preview"
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "How much each kind of target pays.",
+                "Whether a crew can be hired, and whether large robberies are planned in advance.",
+                "How long police take to arrive, and what changes it."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stealing Cars",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Stealing",
+              "accent": "cars"
+            },
+            {
+              "type": "intro",
+              "text": "Cars are worth money to fences, and some are harder to take and to keep than others."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Scan it first",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The phone's scanner tells you whether a car is locked, alarmed or tracked, and what it is worth. In the demo it reports a car as locked, with an alarm and no tracker."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "text": "Edge, IGN and TGG give the scanner app's name as WAINK.",
+              "sources": [
+                "edge",
+                "tgg-preview"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Tools",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview",
+                "famitsu"
+              ],
+              "text": "Nelson names a slim jim, and a key cloner for newer and luxury cars that comes later. Some parked cars cannot be taken until you have the right tool; a car with a driver in it can always be carjacked. In translation, he adds that smashing a window sets off the alarm."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Trackers",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "A car with what Nelson calls an advanced tracker gives its position to the police if it is driven slowly, so it has to be driven fast."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Taking one that is occupied",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "You can aim your weapon and tell people to get out of their car, without having to pull anybody out."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "The footage shows it: a masked character aims a pistol at the driver of a car, and a second character then goes to the driver's door."
+            },
+            {
+              "type": "frame",
+              "src": "/images/manual/footage/car-holdup-1137.jpg",
+              "caption": "A masked character aims a pistol at an occupied car.",
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 11:37"
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Deliver it in good condition",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "A car fence pays less for a damaged car. Nelson says he can repair the car first."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Keep it",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The scanner also shows what it would cost to register a car as your own."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 7,
+              "title": "Your own car",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Your personal vehicle can be called to you, and spare outfits can be kept in its trunk."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "How each tool is used: no source read describes a lock-picking step.",
+                "Which cars fences want, and what they pay."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Guns and Fighting",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Guns",
+              "accent": "and fighting"
+            },
+            {
+              "type": "intro",
+              "text": "Killing is one option among several, and what you carry is on show."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/footage/office-shootout-2516.jpg",
+              "caption": "A shootout in a dark office, with both bars on screen at the top left.",
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 25:16"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "More than one way to end it",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson says a situation can be handled by threatening, knocking someone out, shooting to incapacitate, or killing. In his demo, aiming a gun without firing made the people he had angered run."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "The yellow X",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "A yellow X when you hit someone means they are down and will not get back up."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "text": "TGG reports three hit markers: white for a hit, yellow for incapacitated, red for a kill.",
+              "sources": [
+                "tgg-preview"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Long guns show",
+              "evidence": "developer-described",
+              "sources": [
+                "famitsu"
+              ],
+              "text": "In translation, Nelson says long guns can no longer be hidden. One on your back draws little reaction; one in your hands makes people leave or turn hostile, and the police warn you first."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Where your guns are kept",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview",
+                "famitsu"
+              ],
+              "text": "Nelson says every weapon you have bought is always available in the back of your personal vehicle. In translation, he adds that Ammu-Nation has lockers where your guns can be collected."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Firing to frighten",
+              "evidence": "developer-described",
+              "sources": [
+                "famitsu"
+              ],
+              "text": "In translation, Nelson describes shooting near a person, not at them, to frighten or confuse them and buy time to get away."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Focus",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview",
+                "tgg-preview"
+              ],
+              "text": "Nelson compares Focus to Eagle Eye. TGG relays him as saying it can slow combat down."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "How weapons are chosen: no source read describes a weapon wheel or its replacement.",
+                "Cover, beyond the fact that it exists.",
+                "Silenced weapons, melee weapons and throwables.",
+                "Ammunition: how it is bought and how much can be carried."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "law-enforcement",
+      "number": "07",
       "title": "Law Enforcement",
       "accent": "Enforcement",
       "status": "published",
@@ -1438,7 +2456,7 @@
     },
     {
       "id": "weapons",
-      "number": "07",
+      "number": "08",
       "title": "Weapons & Equipment",
       "accent": "Equipment",
       "status": "published",
@@ -1457,7 +2475,7 @@
     },
     {
       "id": "sources",
-      "number": "08",
+      "number": "09",
       "title": "Reference & Sources",
       "accent": "Sources",
       "status": "published",
