@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "ptt-youngins-raid",
+    "name": "PTT Youngin$ Illegal Goods Store raid",
+    "aliases": [
+      "PTT Youngin$ Illegal Goods Store",
+      "PTT Youngins"
+    ],
+    "summary": "An Ultimate Edition raid on the compound of a Southside Vice City gang: get in, get out safely, and keep the special items and contraband.",
+    "body": [
+      "Rockstar calls the gang one of Southside Vice City's loudest and most socially active. Its image caption names them the PTT Youngin$."
+    ],
+    "facts": {
+      "type": "Raid",
+      "location": "Southside Vice City"
+    },
+    "related": [
+      "editions/ultimate-edition",
+      "locations/vice-city"
+    ],
+    "tags": [
+      "raid",
+      "gang",
+      "southside",
+      "contraband",
+      "ultimate edition"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "classic-car-collection",
+    "name": "Classic Car Collection",
+    "summary": "An Ultimate Edition commission from Wyman, a collector and local fixer: find abandoned classics and unfinished project cars and restore them.",
+    "facts": {
+      "type": "Commission"
+    },
+    "related": [
+      "editions/ultimate-edition",
+      "vehicles/muscle-car"
+    ],
+    "tags": [
+      "commission",
+      "wyman",
+      "classic cars",
+      "restoration",
+      "ultimate edition"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  }
+]

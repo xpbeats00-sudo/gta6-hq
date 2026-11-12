@@ -1,0 +1,1468 @@
+{
+  "title": "Grand Theft Auto VI",
+  "subtitle": "Field Manual",
+  "tagline": "An Unofficial Guide to Leonida",
+  "notice": "Unofficial fan-made reference. Not published, approved or endorsed by Rockstar Games. Written before release from published footage and press coverage; see the evidence label on each item.",
+  "cover": "/images/locations/vice-city.jpg",
+  "snapshot": "2026-11-11",
+  "sources": {
+    "ign-interview": {
+      "title": "GTA 6: The Big Interview",
+      "publisher": "IGN",
+      "author": "Rachel Weber (interviewing Rob Nelson)",
+      "publishedAt": "2026-10-07",
+      "url": "https://tech.yahoo.com/gaming/articles/gta-6-big-interview-123000402.html",
+      "sourceType": "developer interview",
+      "lastCheckedAt": "2026-11-11",
+      "notes": "The full interview with Rockstar North co-studio head Rob Nelson, recorded while he played a demo in July 2026. Read via the Yahoo copy. The primary source for this chapter."
+    },
+    "gr-heat": {
+      "title": "GTA 6 Wanted Levels and Heat system explained",
+      "publisher": "GamesRadar+",
+      "author": "Iain Wilson",
+      "publishedAt": "2026-10-09",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-wanted-levels-heat/",
+      "sourceType": "guide",
+      "lastCheckedAt": "2026-11-11",
+      "notes": "A guide that reads stills from the Extended Look against preview coverage. Its readings are the author's interpretation."
+    },
+    "gr-nelson": {
+      "title": "Rockstar boss says GTA 6's police can be harder to shake off than before",
+      "publisher": "GamesRadar+",
+      "author": "Catherine Lewis",
+      "publishedAt": "2026-09-15",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/rockstar-boss-says-gta-6s-police-can-be-harder-to-shake-off-than-before-but-its-fun-because-it-forces-you-to-think-more/",
+      "sourceType": "interview coverage",
+      "lastCheckedAt": "2026-11-11",
+      "notes": "Reports comments by Rockstar North co-studio head Rob Nelson, made in a video by the creator TGG."
+    },
+    "gtabase": {
+      "title": "GTA 6 Wanted Level Explained & Police System Guide",
+      "publisher": "GTABase",
+      "author": "Andy",
+      "publishedAt": "2026-10-04",
+      "url": "https://www.gtabase.com/articles/gta-6/gta-6-wanted-level-explained-police-system-guide",
+      "sourceType": "guide",
+      "lastCheckedAt": "2026-11-11",
+      "notes": "A secondary guide that names no sources. Used only for points labelled interpretation or reported."
+    },
+    "vice": {
+      "title": "GTA 6 Just Revealed a Massive Number of New Gameplay Details",
+      "publisher": "VICE",
+      "author": "Brent Koepp",
+      "publishedAt": "2026-09-05",
+      "url": "https://www.vice.com/en/article/gta-6-new-gameplay-features-details-revealed/",
+      "sourceType": "preview coverage",
+      "lastCheckedAt": "2026-11-11",
+      "notes": "Second-hand: summarises posts by creators (including TGG) who previewed the game in July 2026."
+    },
+    "rockstar-media": {
+      "title": "Grand Theft Auto VI official screenshots",
+      "publisher": "Rockstar Games",
+      "author": "",
+      "publishedAt": "2026-11-05",
+      "url": "https://www.rockstargames.com/VI/media/screenshots",
+      "sourceType": "official",
+      "lastCheckedAt": "2026-11-12",
+      "notes": "Rockstar's own screenshot gallery. Used only for what a picture visibly shows."
+    },
+    "extended-look": {
+      "title": "Grand Theft Auto VI: An Extended Look (official video)",
+      "publisher": "Rockstar Games",
+      "author": "",
+      "publishedAt": "2026-08-27",
+      "url": "https://www.rockstargames.com/VI/media/videos",
+      "sourceType": "official footage",
+      "lastCheckedAt": "2026-11-12",
+      "notes": "Rockstar's official download of the 26-minute video. Examined as still frames taken every 1 to 12 seconds, not watched in motion; times are approximate and brief states may have been missed."
+    },
+    "tgg-video": {
+      "title": "GTA 6: The Police are Smarter Than Ever | Deep Dive",
+      "publisher": "TGG (YouTube)",
+      "author": "TGG",
+      "publishedAt": "2026-08-29",
+      "url": "https://www.youtube.com/watch?v=tVwNy3xV-4c",
+      "sourceType": "preview coverage",
+      "lastCheckedAt": "2026-11-12",
+      "notes": "A creator who attended Rockstar's preview in July 2026. Read as auto-generated captions (the star-related parts), with his notes on X. His account, not a Rockstar statement."
+    },
+    "gr-news": {
+      "title": "GTA 6 wanted system goes up to 6 stars and lets police track your face, your clothes and your car",
+      "publisher": "GamesRadar+",
+      "author": "Dustin Bailey",
+      "publishedAt": "2026-08-27",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-wanted-system-goes-up-to-6-stars-and-lets-police-track-your-face-your-clothes-and-your-car/",
+      "sourceType": "news",
+      "lastCheckedAt": "2026-11-12",
+      "notes": "A news writer's own reading of the Extended Look. His readings are interpretation."
+    }
+  },
+  "uncheckedSources": [
+    {
+      "title": "GTA 6 Wanted System: What Rockstar Confirmed",
+      "publisher": "GGWaypoint",
+      "url": "https://ggwaypoint.com/gta-6-wanted-system/",
+      "notes": "Listed in the plan for this manual, but the page could not be opened on 2026-11-11, so nothing here relies on it."
+    }
+  ],
+  "chapters": [
+    {
+      "id": "welcome",
+      "number": "00",
+      "title": "How to Read This Manual",
+      "accent": "Manual",
+      "status": "published",
+      "pages": [
+        {
+          "title": "How to Read This Manual",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "How to read",
+              "accent": "this manual"
+            },
+            {
+              "type": "intro",
+              "text": "This is a fan-made field guide, laid out like the paper manuals that used to come in the box. It was written before the game came out, so it is careful about what it claims."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/jason-and-lucia-waterfront.jpg",
+              "caption": "Lucia Caminos and Jason Duval, the two leads.",
+              "credit": "Official Rockstar Games screenshot (\"Jason and Lucia 01\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "paragraph",
+              "text": "Every statement about how the game works carries a small label saying how well it is supported. Read the label before you rely on the sentence. Where the published sources disagree, the manual says so instead of picking a winner."
+            },
+            {
+              "type": "legend"
+            },
+            {
+              "type": "callout",
+              "text": "Nothing in this manual is official. When the game is out, each chapter will be checked against it and relabelled."
+            }
+          ]
+        },
+        {
+          "title": "Finding Your Way",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Finding",
+              "accent": "your way"
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/vice-city-skyline-night.jpg",
+              "caption": "Vice City at dusk.",
+              "credit": "Official Rockstar Games screenshot (\"Vice City 27\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Turn the page",
+              "text": "Use the arrows beside the page, the left and right arrow keys, or Page Up and Page Down. On a wide window you see two pages at a time; on a narrow one, a single page."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Search",
+              "text": "The search box at the top looks through every chapter and takes you to the page."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Pick up where you left off",
+              "text": "The manual remembers the last page you had open. Use Continue Reading on the cover."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Paper or night",
+              "text": "Paper View is the default. Night Reading swaps the paper for a dark page with the same layout."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Check the sources",
+              "text": "Sources for a page are listed at its foot. The last chapter lists every source with the date it was last read."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getting-started",
+      "number": "01",
+      "title": "Getting Started",
+      "accent": "Started",
+      "status": "in-development",
+      "note": "Controls, the phone, saving and the basics will be written from the released game. Nothing reliable has been published to base them on yet.",
+      "image": {
+        "src": "/images/manual/jason-and-lucia-in-car.jpg",
+        "caption": "Lucia and Jason in an open-top car.",
+        "credit": "Official Rockstar Games screenshot (\"Jason and Lucia 03\"), rockstargames.com/VI/media/screenshots"
+      }
+    },
+    {
+      "id": "leonida",
+      "number": "02",
+      "title": "Leonida & Vice City",
+      "accent": "Vice City",
+      "status": "published",
+      "intro": "Six regions make up the State of Leonida. These are the places Rockstar has named, in its own order of billing.",
+      "kicker": "Places",
+      "heading": {
+        "text": "Places:",
+        "accent": "the six regions"
+      },
+      "wiki": {
+        "section": "locations",
+        "perPage": 3,
+        "meta": "region"
+      }
+    },
+    {
+      "id": "characters",
+      "number": "03",
+      "title": "Characters",
+      "accent": "Characters",
+      "status": "published",
+      "intro": "Two leads and the six supporting characters named in Rockstar's published bios.",
+      "kicker": "People",
+      "heading": {
+        "text": "People:",
+        "accent": "the cast"
+      },
+      "wiki": {
+        "section": "characters",
+        "perPage": 4,
+        "meta": "role"
+      }
+    },
+    {
+      "id": "vehicles",
+      "number": "04",
+      "title": "Vehicles",
+      "accent": "Vehicles",
+      "status": "published",
+      "intro": "Vehicles and vehicle types seen in official material. Names appear only where Rockstar has published them.",
+      "kicker": "Garage",
+      "heading": {
+        "text": "Garage:",
+        "accent": "what you will drive"
+      },
+      "wiki": {
+        "section": "vehicles",
+        "perPage": 5,
+        "meta": "class"
+      }
+    },
+    {
+      "id": "activities",
+      "number": "05",
+      "title": "Activities",
+      "accent": "Activities",
+      "status": "published",
+      "intro": "Things to do between missions, as shown in Rockstar's Extended Look. Footage, not a published feature list.",
+      "kicker": "Pastimes",
+      "heading": {
+        "text": "Pastimes:",
+        "accent": "between missions"
+      },
+      "wiki": {
+        "section": "activities",
+        "perPage": 4,
+        "meta": ""
+      }
+    },
+    {
+      "id": "law-enforcement",
+      "number": "06",
+      "title": "Law Enforcement",
+      "accent": "Enforcement",
+      "status": "published",
+      "kicker": "Law Enforcement",
+      "pages": [
+        {
+          "title": "The Heat System & Wanted Response",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Law",
+              "accent": "enforcement",
+              "sub": "The Heat System & Wanted Response"
+            },
+            {
+              "type": "intro",
+              "text": "Law enforcement in Leonida is about more than outrunning the officer behind you. Rockstar describes police who keep hold of what they have learned about a suspect, so it matters what they know, not only whether they can see you."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/pursuit-jason-motorcycle.jpg",
+              "caption": "Jason on a motorcycle, a police vehicle close behind.",
+              "credit": "Official Rockstar Games screenshot (\"Jason Duval 11\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "callout",
+              "text": "Losing sight of the police is not necessarily the same as losing their information."
+            },
+            {
+              "type": "subheading",
+              "text": "Stars and Heat at a glance"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "Two things sit at the top right of the screen: up to six wanted stars, and beneath them a row of small red Heat icons. The stars are the wanted level. The icons are separate, and change while the stars stay the same."
+            },
+            {
+              "type": "pair",
+              "credit": "Frames from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 11:48 and 14:12",
+              "frames": [
+                {
+                  "src": "/images/manual/footage/stars-gray-1148.jpg",
+                  "alt": "Two gray stars above five red icons: a camera, two heads, a coat hanger, a head and a pistol",
+                  "label": "Camera, two heads, coat hanger, head, pistol"
+                },
+                {
+                  "src": "/images/manual/footage/stars-white-1412.jpg",
+                  "alt": "Four white stars above four red icons: two heads, a coat hanger, a head and a car",
+                  "label": "Two heads, coat hanger, head, car"
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Rob Nelson says the icons show what the police know about you. In his demo they knew what he looked like, what he was wearing, what the pair were driving, and that they were a couple. A crime has to be seen by a witness, or set off an alarm, before it is reported at all."
+            },
+            {
+              "type": "table",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview",
+                "extended-look"
+              ],
+              "caption": "What the police know, and what to do about it, are from Nelson's interview. Matching each to an icon is this manual's reading of the footage, not a Rockstar statement.",
+              "columns": [
+                "What police know",
+                "Icon in the footage",
+                "What Nelson describes doing"
+              ],
+              "rows": [
+                [
+                  "Your looks",
+                  "A single head",
+                  "Change your appearance: glasses, a hat, a haircut"
+                ],
+                [
+                  "Your clothing",
+                  "A coat hanger",
+                  "Put on a different outfit, bought at a store or kept in your own car's trunk"
+                ],
+                [
+                  "Your car",
+                  "A car",
+                  "Get out and take a different vehicle"
+                ],
+                [
+                  "That you are a pair",
+                  "Two heads",
+                  "Split Jason and Lucia up"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "interpretation",
+              "sources": [
+                "gtabase",
+                "gr-heat",
+                "vice"
+              ],
+              "caption": "These two icons are in the footage, but only guides and creators say what they mean.",
+              "columns": [
+                "Icon in the footage",
+                "How guides read it"
+              ],
+              "rows": [
+                [
+                  "A camera",
+                  "You were caught on a security camera"
+                ],
+                [
+                  "A pistol",
+                  "The police know which weapon was used"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Rockstar North co-studio head Rob Nelson calls the mechanic the heat system, and describes police dispatch as very specific about what it knows."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "sources": [
+                "gr-nelson"
+              ],
+              "text": "The creator TGG, who previewed the game, quotes Nelson as saying the team wanted police to stop forgetting you the moment you lose them and to have \"a bit more persistent memory.\" The quote comes from TGG's video, as reported by GamesRadar+; it is not in IGN's transcript."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "unknown",
+              "text": "This chapter was written before release. Exact numbers, timers, distances and thresholds are not known, and none are given here."
+            }
+          ]
+        },
+        {
+          "title": "The Wanted Level",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "The wanted",
+              "accent": "level"
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/footage/footage-firefight-1408.jpg",
+              "caption": "Four stars lit, top right, as a character fires a rifle at a police pickup.",
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 14:08"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "The wanted display sits at the top right of the screen and has six positions. Unlit positions show as dim placeholders, and in every frame examined the lit stars are the right-most ones. Two and four stars are lit at different times."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Playing the demo, Rob Nelson described one star as not a big deal: leave the area the police are responding to and you should generally be fine. He also said things escalate if you choose to escalate them."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "When the stars are hollow, the police are responding without knowing who you are, and leaving the area is enough."
+            },
+            {
+              "type": "subheading",
+              "text": "What is known, level by level"
+            },
+            {
+              "type": "table",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "caption": "Only these two levels are described by Rockstar in the sources read.",
+              "columns": [
+                "Level",
+                "What Nelson says"
+              ],
+              "rows": [
+                [
+                  "One star",
+                  "Not a big deal. Leave the area the police are responding to and you should generally be fine"
+                ],
+                [
+                  "Three stars, in the city",
+                  "Hard to get away by car. He suggests getting out and going on foot through the alleys"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "In the frames examined, two stars and four stars are the only counts seen lit. No frame shows one, three, five or six stars lit."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "In one moment of footage the car icon disappears as the characters leave their car, while four red stars stay lit."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "unknown",
+              "text": "What it takes to reach each star has not been published. Treat any table of \"this crime equals that many stars\" as a guess until it has been tested in the released game."
+            },
+            {
+              "type": "warning",
+              "title": "How the footage was read",
+              "items": [
+                "Every picture of the wanted display in this chapter is a frame from Rockstar's own Extended Look, downloaded from Rockstar's media page.",
+                "The video was examined as still frames, a few seconds apart. Times are approximate, and anything that lasts less than a few seconds, or that only shows in motion, may have been missed."
+              ]
+            },
+            {
+              "type": "warning",
+              "title": "About the pictures",
+              "items": [
+                "The large photographs in this chapter are official Rockstar screenshots chosen for their subject. They are not evidence for the rule printed beside them.",
+                "The small pictures of the wanted stars and Heat icons are different: they are frames from Rockstar's Extended Look, and the claims labelled Demonstrated rest on them."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The Stars Change Appearance",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "The stars",
+              "accent": "change appearance"
+            },
+            {
+              "type": "intro",
+              "text": "Four different looks appear in Rockstar's footage. What each is seen alongside is recorded here. Rockstar has described the meaning of only one of them."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Hollow stars",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "frame": "/images/manual/footage/stars-hollow-1808.jpg",
+              "frameAlt": "Two outlined stars at the right of six positions, with no icons beneath",
+              "text": "About 18:04 to 18:11. Two outlined stars with dark centres and no Heat icons, as two masked characters get onto a motorcycle across the road from a jewellers. A few seconds earlier, inside a jewelry store, a camera icon shows on its own with no stars.",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 18:08"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "In his own demo, Nelson said hollow white stars mean the police do not know who you are: they head for the scene without a description, and leaving the area is enough. The outlined stars in this frame appear to be the same thing."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Gray stars",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "frame": "/images/manual/footage/stars-gray-1148.jpg",
+              "frameAlt": "Two gray stars with five red icons beneath: camera, two heads, coat hanger, head, pistol",
+              "text": "About 11:48 to 11:52, and again at about 12:08; frames in between show no wanted display. Two gray stars with five Heat icons beneath them. At 11:48 the scene is the inside of a convenience store. Read at six frames a second across seven seconds, the two stars stay gray throughout: they do not flash.",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 11:48"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "sources": [
+                "gr-heat"
+              ],
+              "text": "One guide author, who did not attend the preview, believes gray stars mean the police hold information about you and are actively searching. No one who attended, and no one at Rockstar, mentions gray stars in the sources read."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "White stars",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "frame": "/images/manual/footage/stars-white-1412.jpg",
+              "frameAlt": "Four white stars with four red icons beneath: two heads, coat hanger, head, car",
+              "text": "About 14:04 to 14:32, and again 15:20 to 15:40, with no display for about 50 seconds between. Four white stars with four Heat icons: first while a character fires on a police pickup, then while driving a car.",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 14:12"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-video",
+                "vice"
+              ],
+              "text": "The creator TGG, who attended Rockstar's preview, says solid white stars mean the police have a direct line of sight on you. The 14:08 frame, with a police vehicle in view, is consistent with that; Rockstar has not said so in the sources read."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Red stars",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "frame": "/images/manual/footage/stars-red-1602.jpg",
+              "frameAlt": "Four red stars with three red icons beneath: two heads, coat hanger, head",
+              "text": "About 15:50 to 16:32. Four stars are red by about 15:50. By 15:53 the car is inside a parking garage; by 15:59 two characters are on foot beside it. The moment of the change from white is not in the frames examined.",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 16:02"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-video",
+                "vice"
+              ],
+              "text": "TGG says red stars mean you have lost the officers chasing you but are still inside the area being searched: the police know who they are looking for, but not where you are."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "sources": [
+                "gr-news",
+                "gr-heat"
+              ],
+              "text": "Two GamesRadar+ writers, each reading the footage for themselves, arrive at much the same meaning; one of them writes \"presumably\". Rockstar has not stated it in the sources read."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "Two solid white stars also appear later, at about 18:24 to 18:44, first with three icons and then with four. After the hollow stars at about 18:12, some twelve seconds of footage show no display at all, so a change from hollow to solid is not seen."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "Flashing white stars. One creator who attended reports them for a broken line of sight, and says the Extended Look does not show them. None were found in the frames examined.",
+                "What gray stars mean. They are in the footage, but no first-hand source explains them.",
+                "How hollow stars become solid, and what turns white stars red: neither change is on screen in the frames examined.",
+                "Whether there are other appearances."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How Police Become Aware",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "How police",
+              "accent": "become aware"
+            },
+            {
+              "type": "intro",
+              "text": "A response starts with somebody, or something, raising the alarm."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/robbery-with-bystanders.jpg",
+              "caption": "Two masked people with guns at a counter while three others raise their hands.",
+              "credit": "Official Rockstar Games screenshot (\"Jason and Lucia 15\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "A witness",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson has said the wanted system needs someone to witness the crime for it to be reported. In his demo, a bystander called an incident in."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "An alarm",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The other route he names is an alarm being set off."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "A vehicle tracker",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Some cars carry what Nelson calls an advanced tracker, shown by a blinking red light. It tells the police where the car is if it is not driven fast enough. A scanner on the in-game phone can tell you beforehand whether a car is locked, alarmed or tracked."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "diagram",
+              "kind": "flow",
+              "evidence": "interpretation",
+              "caption": "Interpretation: a simplified model for explanation, not a verified description of how the game works inside.",
+              "steps": [
+                "Incident occurs",
+                "It is witnessed, or an alarm or tracker is tripped",
+                "A report reaches police",
+                "Police response begins",
+                "Police try to identify and find the suspect"
+              ]
+            },
+            {
+              "type": "warning",
+              "title": "Do not read too much into this",
+              "items": [
+                "Nelson was describing the open world. Missions and scripted events may behave differently.",
+                "Being noticed is not the same as being identified: see the next pages."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What the Police Know",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Heat:",
+              "accent": "what the police know"
+            },
+            {
+              "type": "intro",
+              "text": "Heat is the information the police hold about you. On screen it appears as small icons with the wanted stars."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/law-enforcement-opening.jpg",
+              "caption": "Lucia, with a patrol officer and police lights behind her.",
+              "credit": "Official Rockstar Games screenshot (\"Lucia Caminos 14\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson points to icons on screen that show what the police know. In his demo they knew what he looked like, what he was wearing, what the pair were driving, and that they were a couple."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "In the footage the icons are small red discs in a row beneath the stars. Six different ones appear: a camera, two heads, a coat hanger, a single head, a pistol and a car. Up to five show at once."
+            },
+            {
+              "type": "frame",
+              "src": "/images/manual/footage/stars-gray-1148.jpg",
+              "caption": "Five Heat icons beneath two gray stars: camera, two heads, coat hanger, head and pistol.",
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 11:48"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "sources": [
+                "gr-heat"
+              ],
+              "text": "One guide says the more icons are active, the harder the police are to lose."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Appearance",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The police know what you look like. Glasses, a hat or a new haircut change your appearance, but not what you are wearing."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Clothing",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The police know your outfit. Nelson calls an outfit they have seen compromised."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Vehicle",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The police know what you are driving."
+            }
+          ]
+        },
+        {
+          "title": "Evidence That Can Identify You",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Evidence that can",
+              "accent": "identify you"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Accomplice",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The police can know that Jason and Lucia are together."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Weapon",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "A pistol icon appears among the Heat icons at about 11:48."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "sources": [
+                "gtabase",
+                "gr-heat"
+              ],
+              "text": "Guides read the pistol icon as the police knowing which weapon was used. Rockstar has not described it in the sources read."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Security camera",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "frame": "/images/manual/footage/heat-camera-alone-1802.jpg",
+              "frameAlt": "A single red camera icon above the ammunition counter, with no stars",
+              "frameCredit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 18:02",
+              "text": "A camera icon appears on its own, with no stars, inside a jewelry store at about 18:01 to 18:03; it is gone when the stars appear a second later. It also appears among five icons at 11:48."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "sources": [
+                "gtabase",
+                "gr-heat",
+                "vice"
+              ],
+              "text": "Guides and creators read the camera icon as being caught on security camera. Rockstar has not described it in the sources read."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "Several icons can be active at once, and the set changes while the stars are showing. Whether there are more than these six is not known."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Heat can rise as well as fall: in the demo, putting a bystander out of action raised it."
+            },
+            {
+              "type": "warning",
+              "title": "About the icons",
+              "items": [
+                "The icon pictures in this chapter are frames from Rockstar's official footage, not redrawn artwork.",
+                "What each icon is called, and exactly what it does, will be rechecked after launch."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Wanted State vs. Heat",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Wanted state",
+              "accent": "vs. Heat"
+            },
+            {
+              "type": "intro",
+              "text": "Being chased and being known are two different things. This is the idea the rest of the chapter depends on."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/officers-at-patrol-car.jpg",
+              "caption": "Two officers beside a Vice Beach Police car at night.",
+              "credit": "Official Rockstar Games screenshot (\"Vice City 06\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "table",
+              "evidence": "interpretation",
+              "sources": [
+                "ign-interview",
+                "gtabase",
+                "gr-heat"
+              ],
+              "caption": "A plain-language summary of related ideas. These are not four separate meters, and this is not a claim about the game's code.",
+              "columns": [
+                "Term",
+                "Meaning in this guide"
+              ],
+              "rows": [
+                [
+                  "Wanted state",
+                  "Whether police are responding, chasing or searching right now"
+                ],
+                [
+                  "Heat",
+                  "What identifying information police have kept"
+                ],
+                [
+                  "Line of sight",
+                  "Whether officers can currently see you"
+                ],
+                [
+                  "Hot area",
+                  "Where police keep looking after the incident"
+                ]
+              ]
+            },
+            {
+              "type": "diagram",
+              "kind": "flow",
+              "evidence": "interpretation",
+              "caption": "Interpretation: a conceptual guide based on published pre-release descriptions, not a verified internal state diagram.",
+              "steps": [
+                "Crime or incident",
+                "Report or alarm",
+                "Police response",
+                "Identifying information (Heat)",
+                "Pursuit or search",
+                "Line of sight broken",
+                "Police may still hold clues"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson uses \"heat\" in two ways: for what the police know about you, and for the police searching an area (\"we have heat now\"). This manual keeps the two apart, but the game may not."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "The two can come apart. At one point in the demo Nelson notes that the pair have got away with no heat; shortly after, police searching the area means they have heat again."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "sources": [
+                "gr-nelson"
+              ],
+              "text": "GamesRadar+, reporting the creator TGG's preview, says clues can still get you recognised later, even after the wanted stars have gone."
+            }
+          ]
+        },
+        {
+          "title": "Finding the Police",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Finding",
+              "accent": "the police"
+            },
+            {
+              "type": "intro",
+              "text": "You are expected to look for the police, not read them off the map."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/officer-through-fence.jpg",
+              "caption": "Jason behind a chain-link fence with a pistol raised, as an armed figure approaches under police lights.",
+              "credit": "Official Rockstar Games screenshot (\"Jason Duval 07\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson describes Focus as much like Eagle Eye in Red Dead Redemption 2: a way to locate things you want to find, and certainly police. In IGN's account of the demo it made a nearby officer glow."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "sources": [
+                "gr-nelson"
+              ],
+              "text": "TGG also quotes Nelson as saying that police do not show up on the radar and do show up when you use Focus, and that this is harder but more fun, depending on the wanted level. Again this is TGG's account, reported by GamesRadar+."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "sources": [
+                "gr-nelson",
+                "vice"
+              ],
+              "text": "That Focus shows police through walls is TGG's own description, not a Nelson quote."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "sources": [
+                "gr-heat"
+              ],
+              "text": "One guide, reading the footage, suggests that at higher wanted levels the minimap is washed out by red and blue flashing light."
+            },
+            {
+              "type": "table",
+              "evidence": "interpretation",
+              "sources": [
+                "gr-nelson"
+              ],
+              "caption": "An explanatory comparison, not a pair of interface screenshots.",
+              "columns": [
+                "What players may expect",
+                "What is described for GTA VI"
+              ],
+              "rows": [
+                [
+                  "Police appear as markers on the radar",
+                  "Police markers are not shown on the radar"
+                ],
+                [
+                  "Watch the map and steer around them",
+                  "Use Focus, and your own eyes, to find them"
+                ]
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "How far Focus reaches, how long it lasts and whether it works in every situation.",
+                "How far officers can see or hear, and how quickly they react.",
+                "Whether individual police units ever appear on the minimap."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Hot Areas",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Hot",
+              "accent": "areas"
+            },
+            {
+              "type": "intro",
+              "text": "Getting away from the scene may not make the scene safe to come back to."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/vice-city-police-on-the-road.jpg",
+              "caption": "Patrol cars gathered on a bridge, a boat with flashing lights below and a helicopter sweeping a searchlight overhead.",
+              "credit": "Official Rockstar Games screenshot (\"Vice City 17\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Checking the map in his demo, Nelson calls the place of an incident a hot area: the police are there and will hang around for a while, and the map still shows a star over it."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "sources": [
+                "vice",
+                "gtabase"
+              ],
+              "text": "VICE, relaying creators' previews, calls it the active search area and says red stars mean you have escaped the chase but are still inside it. One guide describes a red zone with a lighter ring around it. What the game itself calls the area on screen is not confirmed."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Leave",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "At a low wanted level, getting out of the area the police are responding to is described as enough."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Wait",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "With police searching an area, one option Nelson lists is to wait for it to die down."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Coming back too soon",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson says that if you go back, the police will still be hanging around for a while."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "preview-reported",
+              "sources": [
+                "vice",
+                "gtabase"
+              ],
+              "text": "One creator says he was told that at the highest wanted level the search covers the whole map. Treat this as hearsay until tested."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "The size of a hot area, how long it lasts and how it shrinks.",
+                "How each wanted level changes it.",
+                "Whether a change of outfit clears heat while you are still inside a hot area: published accounts differ."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Clear the Clues",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Clear",
+              "accent": "the clues"
+            },
+            {
+              "type": "intro",
+              "text": "Each clue has its own answer. Most of these come from Rob Nelson's own demo; none is a guaranteed escape."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/lucia-driving-police-lights.jpg",
+              "caption": "Lucia leaning from a car window in a tunnel, pistol in hand, police lights behind.",
+              "credit": "Official Rockstar Games screenshot (\"Lucia Caminos 07\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "table",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "caption": "What Nelson describes doing in IGN's interview. Verify each in the released game.",
+              "columns": [
+                "What police know",
+                "Described response",
+                "Caution"
+              ],
+              "rows": [
+                [
+                  "Appearance",
+                  "Change it: glasses, a hat, a haircut",
+                  "On its own this is not enough if they also know your clothes"
+                ],
+                [
+                  "Clothing",
+                  "Buy and wear a new outfit at a clothing store, or call your personal vehicle and change into an outfit kept in its trunk",
+                  "You have to have put spare outfits in the trunk beforehand"
+                ],
+                [
+                  "Vehicle",
+                  "Get out; take a different vehicle",
+                  "A tracked car gives its position away if driven slowly"
+                ],
+                [
+                  "Accomplice",
+                  "Split Jason and Lucia up",
+                  "Nelson says it takes some heat off; he does not say how much"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "interpretation",
+              "sources": [
+                "gtabase",
+                "vice",
+                "gr-heat"
+              ],
+              "caption": "From guides and creators' previews only; not described by Rockstar in the sources read.",
+              "columns": [
+                "What police know",
+                "Reported response"
+              ],
+              "rows": [
+                [
+                  "Appearance",
+                  "Cover your face beforehand with a mask"
+                ],
+                [
+                  "Vehicle",
+                  "Respray it"
+                ],
+                [
+                  "Weapon",
+                  "Stash or get rid of the weapon"
+                ],
+                [
+                  "Security camera",
+                  "Avoid cameras or take them out; destroy the footage"
+                ],
+                [
+                  "Accomplice",
+                  "One creator who attended says splitting up can take a star off"
+                ]
+              ]
+            },
+            {
+              "type": "paragraph",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "With three stars in the city, Nelson says getting away by car can be hard unless it is very fast, and that the best option is usually to get off the streets and go on foot through the alleys."
+            },
+            {
+              "type": "paragraph",
+              "evidence": "demonstrated",
+              "sources": [
+                "extended-look"
+              ],
+              "text": "In the Extended Look the car icon is present at about 15:56, when the car has stopped in a garage bay with its door open, and is gone three seconds later, when the character is on foot beside it. The stars are red throughout. This is one moment of footage, not a stated rule."
+            },
+            {
+              "type": "pair",
+              "frames": [
+                {
+                  "src": "/images/manual/footage/vehicle-icon-before-1556.jpg",
+                  "alt": "Four red stars with four icons, the last a car",
+                  "label": "About 15:56, car stopped, door open"
+                },
+                {
+                  "src": "/images/manual/footage/vehicle-icon-after-1559.jpg",
+                  "alt": "Four red stars with three icons; the car icon is gone",
+                  "label": "About 15:59, on foot"
+                }
+              ],
+              "credit": "Frame from \"Grand Theft Auto VI: An Extended Look\", Rockstar Games, about 15:56 and 15:59"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "interpretation",
+              "sources": [
+                "gr-heat"
+              ],
+              "text": "One guide states that splitting up does not let you sacrifice your partner: if either is caught, you are busted."
+            },
+            {
+              "type": "callout",
+              "text": "Nelson's advice throughout: don't draw attention to yourself, and you should be fine."
+            }
+          ]
+        },
+        {
+          "title": "Police Response",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Police",
+              "accent": "response"
+            },
+            {
+              "type": "intro",
+              "text": "What has been described about police tactics and equipment so far. This page will grow after release."
+            },
+            {
+              "type": "image",
+              "src": "/images/manual/motorcycle-patrol-car-helicopter.jpg",
+              "caption": "A patrol car alongside a dirt bike, with a police helicopter overhead.",
+              "credit": "Official Rockstar Games screenshot (\"Jason and Lucia 09\"), rockstargames.com/VI/media/screenshots"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "They go to the scene",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Without a description, police head for where the crime happened. In the demo's store robbery, Nelson expects officers to gather out front, and leaves by a back door."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "You can stand and fight",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Nelson says you can stay and fight the police if you want to."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Chases in missions",
+              "evidence": "developer-described",
+              "sources": [
+                "ign-interview"
+              ],
+              "text": "Where a mission turns into a chase or a robbery, Rockstar says it tries to keep it consistent with how those systems work in the open world. Your partner can drive while you deal with pursuers."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Patrol car equipment",
+              "evidence": "preview-reported",
+              "sources": [
+                "vice"
+              ],
+              "text": "One creator believes police cars carry shotguns or rifles in the trunk, sometimes body armor, and a tracker. VICE relays this; it is not confirmed."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Cars, a boat and a helicopter",
+              "evidence": "demonstrated",
+              "sources": [
+                "rockstar-media"
+              ],
+              "text": "One official screenshot shows patrol cars on a bridge, a boat with flashing police lights on the water below and a helicopter sweeping a searchlight. What brings each of them, and at which wanted level, is not known."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "A response ladder: which units and tactics come at each star.",
+                "Roadblocks and tactical teams.",
+                "Arrest, surrender and what being busted costs."
+              ]
+            },
+            {
+              "type": "warning",
+              "title": "Not carried over",
+              "items": [
+                "Nothing on this page is assumed from Grand Theft Auto V or earlier games."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weapons",
+      "number": "07",
+      "title": "Weapons & Equipment",
+      "accent": "Equipment",
+      "status": "published",
+      "image": {
+        "src": "/images/manual/jason-loading-pistol.jpg",
+        "caption": "Jason loads a magazine; a pistol and loose rounds lie on the table.",
+        "credit": "Official Rockstar Games screenshot (\"Jason Duval 09\"), rockstargames.com/VI/media/screenshots"
+      },
+      "kicker": "Armoury",
+      "intro": "The few weapons Rockstar has named so far, all from its descriptions of the game's editions. No stats have been published; handling, damage and the full list will be written from the released game.",
+      "wiki": {
+        "section": "weapons",
+        "perPage": 3,
+        "meta": ""
+      }
+    },
+    {
+      "id": "sources",
+      "number": "08",
+      "title": "Reference & Sources",
+      "accent": "Sources",
+      "status": "published",
+      "kicker": "Reference",
+      "sourcesChapter": true
+    }
+  ]
+}

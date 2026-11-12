@@ -1,0 +1,25 @@
+[package]
+name = "gta6-hq"
+version = "0.1.0"
+edition = "2021"
+description = "GTA 6 HQ - an unofficial Grand Theft Auto VI fan encyclopedia, as a Rust desktop app"
+
+[dependencies]
+axum = "0.8"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "macros", "fs"] }
+tower = "0.5"
+tower-http = { version = "0.6", features = ["fs", "set-header"] }
+serde = { version = "1", features = ["derive"] }
+# preserve_order: data files keep their key order when --import rewrites them.
+serde_json = { version = "1", features = ["preserve_order"] }
+ureq = "3"
+sha2 = "0.10"
+tao = "0.37"
+wry = "0.57"
+image = { version = "0.25", default-features = false, features = ["png"] }
+discord-rich-presence = "1.1.0"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+strip = true

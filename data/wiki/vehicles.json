@@ -1,0 +1,220 @@
+[
+  {
+    "slug": "grotti-cheetah-95",
+    "name": "'95 Grotti Cheetah",
+    "aliases": [
+      "Grotti Cheetah",
+      "Cheetah"
+    ],
+    "summary": "A mid-1990s Grotti sports car that comes with the Ultimate Edition, in a pared-back retro-futuristic livery.",
+    "body": [
+      "Rockstar's Ultimate Edition description calls it Grotti's signature sports car of the mid '90s and a tribute to Shore Drive, and says it becomes available for later-stage action.",
+      "Its in-game class, performance and price have not been published."
+    ],
+    "facts": {
+      "manufacturer": "Grotti",
+      "model": "Cheetah",
+      "year": "1995",
+      "class": "Sports car",
+      "availability": "Ultimate Edition"
+    },
+    "related": [
+      "editions/ultimate-edition",
+      "vehicles/sports-car"
+    ],
+    "tags": [
+      "grotti",
+      "cheetah",
+      "sports car",
+      "ultimate edition",
+      "shore drive"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "vapid-stanier-55",
+    "name": "'55 Vapid Stanier",
+    "aliases": [
+      "Vapid Stanier",
+      "Stanier"
+    ],
+    "summary": "A two-tone 1950s Vapid sedan that is part of the Vintage Vice City Pack, along with a garage by Ocean Beach.",
+    "body": [
+      "Rockstar lists the car and its garage among the pack's contents, next to outfits and hairstyles for Jason and Lucia and a weapon pattern.",
+      "Nothing has been published about how it drives."
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Stanier",
+      "year": "1955",
+      "class": "Sedan",
+      "availability": "Vintage Vice City Pack"
+    },
+    "related": [
+      "editions/standard-edition",
+      "editions/ultimate-edition",
+      "locations/vice-city"
+    ],
+    "tags": [
+      "vapid",
+      "stanier",
+      "sedan",
+      "vintage vice city pack",
+      "ocean beach",
+      "garage"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "vapid-ganado",
+    "name": "Vapid Ganado",
+    "aliases": [
+      "Ganado",
+      "Ganado Retro Build"
+    ],
+    "summary": "Jason's well-worn, low-riding pickup. The Ultimate Edition adds the Ganado Retro Build, a set of exclusive mods for it.",
+    "body": [
+      "Rockstar describes the Retro Build as adding muscle and classic styling to the truck. One of its images shows Jason driving a Ganado in yellow paint with a red racing stripe."
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Ganado",
+      "class": "Pickup"
+    },
+    "related": [
+      "characters/jason-duval",
+      "editions/ultimate-edition",
+      "vehicles/muscle-car"
+    ],
+    "tags": [
+      "vapid",
+      "ganado",
+      "pickup",
+      "low-rider",
+      "retro build",
+      "ultimate edition",
+      "jason"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "shitzu-squalo",
+    "name": "Shitzu Squalo",
+    "aliases": [
+      "Squalo"
+    ],
+    "summary": "A boat in a pink-to-blue gradient that comes with the Ultimate Edition, docked at Washington Beach.",
+    "body": [
+      "Rockstar pitches it for fishing in Gambit Bay, and says it is made ready for open water by a weapons crate loaded with explosives."
+    ],
+    "facts": {
+      "manufacturer": "Shitzu",
+      "model": "Squalo",
+      "class": "Boat",
+      "availability": "Ultimate Edition"
+    },
+    "related": [
+      "editions/ultimate-edition",
+      "vehicles/speedboat"
+    ],
+    "tags": [
+      "shitzu",
+      "squalo",
+      "boat",
+      "fishing",
+      "washington beach",
+      "gambit bay",
+      "ultimate edition"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "dinka-enduro",
+    "name": "Dinka Enduro",
+    "aliases": [
+      "Enduro"
+    ],
+    "summary": "A motorcycle in Army-fatigue colours, one of the two safehouse vehicles for Jason in the Ultimate Edition.",
+    "body": [
+      "Rockstar lists it with the Crest Kayak under Jason's Safehouse Vehicles."
+    ],
+    "facts": {
+      "manufacturer": "Dinka",
+      "model": "Enduro",
+      "class": "Motorcycle",
+      "availability": "Ultimate Edition"
+    },
+    "related": [
+      "characters/jason-duval",
+      "editions/ultimate-edition",
+      "vehicles/crest-kayak"
+    ],
+    "tags": [
+      "dinka",
+      "enduro",
+      "motorcycle",
+      "bike",
+      "safehouse",
+      "ultimate edition",
+      "jason"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "crest-kayak",
+    "name": "Crest Kayak",
+    "summary": "A kayak, one of the two safehouse vehicles for Jason in the Ultimate Edition.",
+    "body": [
+      "Rockstar lists it with the Dinka Enduro motorcycle under Jason's Safehouse Vehicles. One of its images shows an orange one."
+    ],
+    "facts": {
+      "class": "Kayak",
+      "availability": "Ultimate Edition"
+    },
+    "related": [
+      "characters/jason-duval",
+      "editions/ultimate-edition",
+      "vehicles/dinka-enduro",
+      "vehicles/jet-ski"
+    ],
+    "tags": [
+      "kayak",
+      "crest",
+      "water",
+      "safehouse",
+      "ultimate edition",
+      "jason"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  }
+]

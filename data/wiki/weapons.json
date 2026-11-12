@@ -1,0 +1,101 @@
+[
+  {
+    "slug": "hawk-and-little-morgan-revolvers",
+    "name": "Hawk & Little Morgan Revolvers",
+    "aliases": [
+      "Morgan Revolver",
+      "Hawk and Little Morgan"
+    ],
+    "summary": "A his-and-hers pair of powerful revolvers with Vice City styling, included with the Ultimate Edition.",
+    "body": [
+      "Rockstar says the styling comes from the Vercetti Estate: grips etched with palm trees, engraved detailing and a high-performance scope.",
+      "Damage, ammunition and how the pair is unlocked in play have not been published."
+    ],
+    "facts": {
+      "type": "Revolver",
+      "availability": "Ultimate Edition"
+    },
+    "related": [
+      "editions/ultimate-edition"
+    ],
+    "tags": [
+      "revolver",
+      "hawk & little",
+      "morgan",
+      "vercetti estate",
+      "ultimate edition"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "girardi-es9",
+    "name": "Girardi ES9",
+    "aliases": [
+      "ES9"
+    ],
+    "summary": "Jason's pistol. The Ultimate Edition includes a personalized variant of it with detailed engraving.",
+    "body": [
+      "It is named in Rockstar's description of the Personalized Weapon Variants, alongside Lucia's Klose K17. No stats have been published."
+    ],
+    "facts": {
+      "type": "Pistol"
+    },
+    "related": [
+      "characters/jason-duval",
+      "weapons/klose-k17",
+      "editions/ultimate-edition"
+    ],
+    "tags": [
+      "pistol",
+      "sidearm",
+      "girardi",
+      "personalized weapon variants",
+      "ultimate edition",
+      "jason"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "klose-k17",
+    "name": "Klose K17",
+    "aliases": [
+      "K17"
+    ],
+    "summary": "Lucia's pistol. The Ultimate Edition includes a personalized variant of it with detailed engraving.",
+    "body": [
+      "It is named in Rockstar's description of the Personalized Weapon Variants, alongside Jason's Girardi ES9. No stats have been published."
+    ],
+    "facts": {
+      "type": "Pistol"
+    },
+    "related": [
+      "characters/lucia-caminos",
+      "weapons/girardi-es9",
+      "editions/ultimate-edition"
+    ],
+    "tags": [
+      "pistol",
+      "sidearm",
+      "klose",
+      "personalized weapon variants",
+      "ultimate edition",
+      "lucia"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "slug": "electric-fang-tattoo-parlor",
+    "name": "Electric Fang Tattoo Parlor",
+    "aliases": [
+      "Electric Fang Tattoo",
+      "Electric Fang"
+    ],
+    "art": "city",
+    "summary": "A tattoo parlor in Stockyard with more than 50 signature tattoos for Jason and Lucia. It opens only with the Ultimate Edition.",
+    "body": [
+      "Rockstar credits the tattoo designs to the artist collective FAILE."
+    ],
+    "facts": {
+      "type": "Tattoo parlor",
+      "location": "Stockyard",
+      "availability": "Ultimate Edition only"
+    },
+    "related": [
+      "editions/ultimate-edition",
+      "locations/vice-city"
+    ],
+    "tags": [
+      "tattoo",
+      "stockyard",
+      "faile",
+      "ultimate edition",
+      "shop"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "one-eyed-willies-mod-shop",
+    "name": "One-Eyed Willie's Mod Shop",
+    "aliases": [
+      "One-Eyed Willie's"
+    ],
+    "art": "mountain",
+    "summary": "A vehicle mod shop in Lake Leonida for off-road modifications and hand-painted artwork. It opens only with the Ultimate Edition.",
+    "facts": {
+      "type": "Vehicle mod shop",
+      "location": "Lake Leonida",
+      "availability": "Ultimate Edition only"
+    },
+    "related": [
+      "editions/ultimate-edition"
+    ],
+    "tags": [
+      "mod shop",
+      "off-road",
+      "lake leonida",
+      "ultimate edition",
+      "shop"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "saras-unisex-salon",
+    "name": "Sara's Unisex Salon",
+    "art": "city",
+    "summary": "A salon with signature styles for both leads, including facial hair for Jason and makeup and nails for Lucia. It opens only with the Ultimate Edition.",
+    "facts": {
+      "type": "Salon",
+      "availability": "Ultimate Edition only"
+    },
+    "related": [
+      "editions/ultimate-edition"
+    ],
+    "tags": [
+      "salon",
+      "hair",
+      "makeup",
+      "ultimate edition",
+      "shop"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "stock-305-clothing-store",
+    "name": "Stock 305 Clothing Store",
+    "aliases": [
+      "Stock 305"
+    ],
+    "art": "city",
+    "summary": "A streetwear store in Stockyard with exclusive looks for Jason and Lucia. It opens only with the Ultimate Edition.",
+    "facts": {
+      "type": "Clothing store",
+      "location": "Stockyard",
+      "availability": "Ultimate Edition only"
+    },
+    "related": [
+      "editions/ultimate-edition",
+      "locations/vice-city"
+    ],
+    "tags": [
+      "clothing",
+      "streetwear",
+      "stockyard",
+      "ultimate edition",
+      "shop"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "rideout-customs-mod-shop",
+    "name": "Rideout Customs Mod Shop",
+    "aliases": [
+      "Rideout Customs"
+    ],
+    "art": "port",
+    "summary": "A custom shop listed among the Ultimate Edition benefits, for detailed interiors, rims and donk styling.",
+    "body": [
+      "Unlike the other four Ultimate Edition shops, Rockstar's description does not say it is open only with that edition."
+    ],
+    "facts": {
+      "type": "Vehicle mod shop",
+      "availability": "Ultimate Edition benefit"
+    },
+    "related": [
+      "editions/ultimate-edition"
+    ],
+    "tags": [
+      "mod shop",
+      "customs",
+      "donk",
+      "rims",
+      "ultimate edition",
+      "shop"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-media",
+      "g6w-editions"
+    ],
+    "verified": "2026-11-12"
+  }
+]

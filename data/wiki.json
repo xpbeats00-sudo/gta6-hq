@@ -1,0 +1,646 @@
+{
+  "schema": 2,
+
+  "game": {
+    "title": "Grand Theft Auto VI",
+    "tagline": "Vice City. The State of Leonida. Two leads, one story.",
+    "releaseDate": "2026-11-19",
+    "confidence": "official",
+    "sources": ["rockstar-vi", "g6w-home"],
+    "verified": "2026-11-11",
+    "facts": [
+      { "label": "Release", "value": "November 19, 2026" },
+      { "label": "Platforms", "value": "PlayStation 5 · Xbox Series X|S" },
+      { "label": "Developer", "value": "Rockstar Games" },
+      { "label": "Setting", "value": "Vice City, State of Leonida" },
+      { "label": "Protagonists", "value": "Lucia Caminos · Jason Duval" },
+      { "label": "Price", "value": "$79.99 Standard · $99.99 Ultimate" }
+    ]
+  },
+
+  "sources": {
+    "rockstar-vi": { "title": "Grand Theft Auto VI official site", "publisher": "Rockstar Games", "url": "https://www.rockstargames.com/VI", "type": "official", "accessed": "2026-11-11" },
+    "rockstar-media": { "title": "Grand Theft Auto VI official screenshots", "publisher": "Rockstar Games", "url": "https://www.rockstargames.com/VI/media/screenshots", "type": "official", "accessed": "2026-11-11" },
+    "g6w-home": { "title": "GTA 6 Wiki: overview", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-news": { "title": "GTA 6 Wiki: news", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/news/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-gameplay": { "title": "GTA 6 Wiki: gameplay", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/gameplay/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-characters": { "title": "GTA 6 Wiki: characters", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/characters/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-lucia": { "title": "GTA 6 Wiki: Lucia Caminos", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/characters/lucia-caminos/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-jason": { "title": "GTA 6 Wiki: Jason Duval", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/characters/jason-duval/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-cal": { "title": "GTA 6 Wiki: Cal Hampton", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/characters/cal-hampton/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-boobie": { "title": "GTA 6 Wiki: Boobie Ike", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/characters/boobie-ike/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-real-dimez": { "title": "GTA 6 Wiki: Real Dimez", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/characters/real-dimez/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-raul": { "title": "GTA 6 Wiki: Raul Bautista", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/characters/raul-bautista/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-brian": { "title": "GTA 6 Wiki: Brian Heder", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/characters/brian-heder/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-locations": { "title": "GTA 6 Wiki: locations", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/locations/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-vice-city": { "title": "GTA 6 Wiki: Vice City", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/locations/vice-city/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-keys": { "title": "GTA 6 Wiki: Leonida Keys", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/locations/leonida-keys/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-grassrivers": { "title": "GTA 6 Wiki: Grassrivers", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/locations/grassrivers/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-port-gellhorn": { "title": "GTA 6 Wiki: Port Gellhorn", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/locations/port-gellhorn/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-kalaga": { "title": "GTA 6 Wiki: Mount Kalaga National Park", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/locations/mount-kalaga-national-park/", "type": "secondary", "accessed": "2026-11-11" },
+    "g6w-map": { "title": "GTA 6 Wiki: community map", "publisher": "gta6-wiki.org (GTA VI mapping community via gtadb.org, CC BY 4.0)", "url": "https://gta6-wiki.org/map/", "type": "community", "accessed": "2026-11-11" },
+    "rockstar-music": { "title": "Grand Theft Auto VI official music page", "publisher": "Rockstar Games", "url": "https://www.rockstargames.com/VI/music", "type": "official", "accessed": "2026-11-12" },
+    "g6w-editions": { "title": "GTA 6 Wiki: editions", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/editions/", "type": "secondary", "accessed": "2026-11-12" },
+    "g6w-music": { "title": "GTA 6 Wiki: music and radio", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/music/", "type": "secondary", "accessed": "2026-11-12" }
+  },
+
+  "categories": [
+    { "key": "characters", "label": "Characters", "blurb": "The confirmed cast, from both leads to the supporting players.", "art": "portrait",
+      "fields": [
+        { "key": "affiliation", "label": "Affiliation", "type": "text" },
+        { "key": "occupation", "label": "Occupation", "type": "text" },
+        { "key": "home", "label": "Based in", "type": "text" },
+        { "key": "voice_actor", "label": "Voice actor", "type": "text" }
+      ] },
+    { "key": "locations", "label": "Locations", "blurb": "Vice City and the wider State of Leonida.", "art": "city",
+      "fields": [
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "county", "label": "County", "type": "text" },
+        { "key": "districts", "label": "Districts", "type": "list" }
+      ] },
+    { "key": "vehicles", "label": "Vehicles", "blurb": "Vehicle types seen in official material. Model names are listed only where published.", "art": "port",
+      "fields": [
+        { "key": "manufacturer", "label": "Manufacturer", "type": "text" },
+        { "key": "model", "label": "Model", "type": "text" },
+        { "key": "year", "label": "Model year", "type": "text" },
+        { "key": "class", "label": "Class", "type": "text" },
+        { "key": "seats", "label": "Seats", "type": "number" },
+        { "key": "drivetrain", "label": "Drivetrain", "type": "text" },
+        { "key": "availability", "label": "Availability", "type": "text" }
+      ] },
+    { "key": "gameplay", "label": "Gameplay", "blurb": "Systems shown in Rockstar's Extended Look. Footage, not a published feature list.", "art": "city",
+      "fields": [
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "shown_in", "label": "Shown in", "type": "text" }
+      ] },
+    { "key": "activities", "label": "Activities", "blurb": "Things to do between missions, as shown in official footage.", "art": "keys",
+      "fields": [
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "location", "label": "Location", "type": "text" },
+        { "key": "players", "label": "Players", "type": "text" }
+      ] },
+    { "key": "wildlife", "label": "Wildlife", "blurb": "Animals visible in official screenshots and footage.", "art": "swamp",
+      "fields": [
+        { "key": "species", "label": "Species", "type": "text" },
+        { "key": "habitat", "label": "Habitat", "type": "text" },
+        { "key": "hostile", "label": "Hostile", "type": "boolean" },
+        { "key": "huntable", "label": "Huntable", "type": "boolean" }
+      ] },
+    { "key": "businesses", "label": "Businesses", "blurb": "Named establishments and companies in Leonida.", "art": "refinery",
+      "fields": [
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "location", "label": "Location", "type": "text" },
+        { "key": "owner", "label": "Owner", "type": "text" },
+        { "key": "purchasable", "label": "Purchasable", "type": "boolean" },
+        { "key": "availability", "label": "Availability", "type": "text" }
+      ] },
+    { "key": "factions", "label": "Factions", "blurb": "Crews, gangs and organisations named in official bios.", "art": "port",
+      "fields": [
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "territory", "label": "Territory", "type": "text" },
+        { "key": "leader", "label": "Leader", "type": "text" },
+        { "key": "allies", "label": "Allies", "type": "list" },
+        { "key": "enemies", "label": "Enemies", "type": "list" }
+      ] },
+    { "key": "music", "label": "Music and Radio", "blurb": "Score, soundtrack and in-game radio, as announced.", "art": "city",
+      "fields": [
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "genre", "label": "Genre", "type": "text" },
+        { "key": "host", "label": "Hosts", "type": "list" },
+        { "key": "frequency", "label": "Frequency", "type": "text" },
+        { "key": "artists", "label": "Artists", "type": "list" },
+        { "key": "tracks", "label": "Tracks", "type": "number" },
+        { "key": "release_date", "label": "Release date", "type": "text" }
+      ] },
+    { "key": "weapons", "label": "Weapons", "blurb": "Weapons and equipment.", "art": "mountain",
+      "fields": [
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "ammo", "label": "Ammunition", "type": "text" },
+        { "key": "manufacturer", "label": "Manufacturer", "type": "text" },
+        { "key": "slot", "label": "Weapon slot", "type": "text" },
+        { "key": "availability", "label": "Availability", "type": "text" }
+      ] },
+    { "key": "missions", "label": "Missions and Story", "blurb": "Story overview and missions.", "art": "keys",
+      "fields": [
+        { "key": "giver", "label": "Given by", "type": "text" },
+        { "key": "location", "label": "Location", "type": "text" },
+        { "key": "reward", "label": "Reward", "type": "text" },
+        { "key": "protagonist", "label": "Played as", "type": "text" },
+        { "key": "chapter", "label": "Chapter", "type": "text" },
+        { "key": "order", "label": "Order", "type": "number" },
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "unlocks", "label": "Unlocks", "type": "list" }
+      ] },
+    { "key": "collectibles", "label": "Collectibles", "blurb": "Collectibles and points of interest.", "art": "swamp",
+      "fields": [
+        { "key": "type", "label": "Type", "type": "text" },
+        { "key": "region", "label": "Region", "type": "text" },
+        { "key": "total", "label": "Total to find", "type": "number" },
+        { "key": "reward", "label": "Reward", "type": "text" }
+      ] }
+  ],
+
+  "characters": [
+    {
+      "slug": "lucia-caminos", "name": "Lucia Caminos", "role": "Protagonist", "group": "main",
+      "summary": "Just released from Leonida Penitentiary and determined that every move from here on is a smart one.",
+      "body": [
+        "Lucia learned to fight from her father and has been fighting for her family ever since. That loyalty is what put her inside Leonida Penitentiary, and luck is what got her out.",
+        "She wants the good life her mother has dreamed about since their days in Liberty City, and she is done leaving it to chance. Teaming up with Jason looks like her way out."
+      ],
+      "ties": ["Partner of Jason Duval"],
+      "related": ["characters/jason-duval", "locations/vice-city"],
+      "tags": ["protagonist", "playable", "leonida penitentiary", "liberty city"],
+      "confidence": "corroborated", "sources": ["g6w-lucia", "rockstar-vi"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "jason-duval", "name": "Jason Duval", "role": "Protagonist", "group": "main",
+      "summary": "A former soldier raised among grifters who has slipped back into running drugs in the Leonida Keys.",
+      "body": [
+        "Jason grew up around small-time crooks. A spell in the Army was meant to straighten out a rough adolescence; instead he ended up in the Keys doing what he knows best, working for local drug runners.",
+        "He wants an easy life, but things keep getting harder. Meeting Lucia might be the best thing that ever happened to him, or the worst."
+      ],
+      "ties": ["Partner of Lucia Caminos", "Friend of Cal Hampton", "Lives rent-free on Brian Heder's property"],
+      "related": ["characters/lucia-caminos", "characters/cal-hampton", "characters/brian-heder", "locations/leonida-keys"],
+      "tags": ["protagonist", "playable", "army", "leonida keys", "smuggling"],
+      "confidence": "corroborated", "sources": ["g6w-jason", "rockstar-vi"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "cal-hampton", "name": "Cal Hampton", "role": "Friend of Jason", "group": "supporting",
+      "summary": "Jason's friend, most at ease at home with a few beers and the Coast Guard radio chatter turned up.",
+      "body": [
+        "Cal is Jason's friend and another of Brian Heder's associates. He is happily paranoid, spending his time at home listening in on Coast Guard traffic.",
+        "Jason has bigger plans. Cal would rather stay exactly where he is."
+      ],
+      "ties": ["Friend of Jason Duval", "Associate of Brian Heder"],
+      "related": ["characters/jason-duval", "characters/brian-heder"],
+      "tags": ["coast guard", "conspiracy", "paranoia"],
+      "confidence": "corroborated", "sources": ["g6w-cal"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "boobie-ike", "name": "Boobie Ike", "role": "Vice City mogul", "group": "supporting",
+      "summary": "A Vice City legend who turned street reputation into real estate, a strip club and a recording studio.",
+      "body": [
+        "Boobie is one of the few who made the jump from the street to an empire of property, nightlife and a studio. He is all smiles until it is time to talk business.",
+        "What he cares about most is Only Raw Records, the label he runs with Dre'Quan Priest. All it needs now is a hit."
+      ],
+      "ties": ["Runs Only Raw Records with Dre'Quan Priest", "Backs the label Real Dimez are signed to"],
+      "related": ["characters/drequan-priest", "characters/real-dimez", "businesses/only-raw-records", "locations/vice-city"],
+      "tags": ["vice city", "only raw records", "music", "strip club", "real estate"],
+      "confidence": "corroborated", "sources": ["g6w-boobie"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "drequan-priest", "name": "Dre'Quan Priest", "aliases": ["Drequan", "Dre Quan"], "role": "Label head, Only Raw Records", "group": "supporting",
+      "summary": "More hustler than gangster. Dealing paid the bills, but music was always the real plan.",
+      "body": [
+        "Dre'Quan sold on the street to get by, with his eye on the music industry the whole time. He books the acts at Boobie Ike's club and runs Only Raw Records alongside him.",
+        "Signing Real Dimez could be the break that moves him beyond club bookings."
+      ],
+      "ties": ["Runs Only Raw Records with Boobie Ike", "Signed Real Dimez"],
+      "related": ["characters/boobie-ike", "characters/real-dimez", "businesses/only-raw-records"],
+      "tags": ["vice city", "only raw records", "music"],
+      "confidence": "corroborated", "sources": ["g6w-characters", "g6w-real-dimez"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "real-dimez", "name": "Real Dimez", "aliases": ["Bae-Luxe", "Roxy"], "role": "Rap duo: Bae-Luxe and Roxy", "group": "supporting",
+      "summary": "Two friends since high school who went from shaking down dealers to rap tracks and a nonstop social feed.",
+      "body": [
+        "Bae-Luxe and Roxy have been friends since school. They turned their time squeezing local dealers into rap tracks and a relentless social media presence.",
+        "An early hit with local rapper DWNPLY took them up; five years and a lot of trouble later they are signed to Only Raw Records and hoping for a second one."
+      ],
+      "ties": ["Signed to Only Raw Records by Dre'Quan Priest"],
+      "related": ["characters/drequan-priest", "characters/boobie-ike", "businesses/only-raw-records"],
+      "tags": ["only raw records", "music", "social media", "dwnply"],
+      "confidence": "corroborated", "sources": ["g6w-real-dimez"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "raul-bautista", "name": "Raul Bautista", "role": "Bank robber", "group": "supporting",
+      "summary": "A veteran bank robber with charm and patience, always looking for talent willing to take the big risks.",
+      "body": [
+        "Raul has the confidence, charm and cunning of someone who has been robbing banks for a long time, and he is always recruiting.",
+        "His recklessness raises the stakes with every score. Sooner or later his crew will have to double down or walk away."
+      ],
+      "ties": ["Leads an unnamed robbery crew"],
+      "related": ["factions/raul-bautistas-crew"],
+      "tags": ["heist", "bank robbery", "crew"],
+      "confidence": "corroborated", "sources": ["g6w-raul"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "brian-heder", "name": "Brian Heder", "role": "Keys smuggler", "group": "supporting",
+      "summary": "An old-school drug runner from the golden age of Keys smuggling, still moving product through his boat yard.",
+      "body": [
+        "Brian has been around long enough to let other people do his dirty work. He still runs product through the boat yard he keeps with his third wife, Lori.",
+        "He lets Jason stay rent-free at one of his properties, on the understanding that Jason helps out with local shakedowns."
+      ],
+      "ties": ["Landlord and employer of Jason Duval", "Works with Cal Hampton"],
+      "related": ["characters/jason-duval", "characters/cal-hampton", "locations/leonida-keys", "businesses/brians-boat-yard"],
+      "tags": ["leonida keys", "smuggling", "boat yard", "lori"],
+      "confidence": "corroborated", "sources": ["g6w-brian"], "verified": "2026-11-11"
+    }
+  ],
+
+  "locations": [
+    {
+      "slug": "vice-city", "name": "Vice City", "region": "Vice-Dale County", "basedOn": "Miami, Florida",
+      "summary": "The crowded heart of Leonida, and the series' first return to its Miami stand-in since 2002.",
+      "body": [
+        "Rockstar's own description covers the pastel art deco hotels and white sands of Ocean Beach, the bakeries of Little Cuba, the bootleg brands of the Tisha-Wocka flea market and VC Port, billed as the cruise ship capital of the world.",
+        "Other districts named in official material are La Perle, Stockyard, Tequesta and Vice Beach. Rockstar has not published a full district list."
+      ],
+      "art": "city", "x": 0.685, "y": 0.525,
+      "related": ["characters/boobie-ike", "businesses/tisha-wocka-flea-market", "businesses/fleeca"],
+      "tags": ["miami", "ocean beach", "vice beach", "little cuba", "tequesta", "stockyard", "la perle", "vc port"],
+      "confidence": "corroborated", "sources": ["g6w-vice-city", "rockstar-vi"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "leonida-keys", "name": "Leonida Keys", "aliases": ["The Keys"], "region": "Mariana County", "basedOn": "The Florida Keys",
+      "summary": "The island chain south of Vice City: easy living on some of the most beautiful and dangerous water around. Jason's story starts here.",
+      "body": [
+        "Life in the Keys is not flashy, but it is easy. Official images show divers over coral, party boats, jet skis and a crowded beach bar.",
+        "It is also smuggling country. Brian Heder runs his operation from a boat yard here, and Jason works for the local drug runners."
+      ],
+      "art": "keys", "x": 0.4, "y": 0.935,
+      "related": ["characters/jason-duval", "characters/brian-heder", "businesses/brians-boat-yard"],
+      "tags": ["florida keys", "islands", "smuggling", "boats", "diving"],
+      "confidence": "corroborated", "sources": ["g6w-keys"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "grassrivers", "name": "Grassrivers", "region": "Mariana County", "basedOn": "The Everglades",
+      "summary": "Leonida's vast wetlands, where you never quite know what is under the surface.",
+      "body": [
+        "Grassrivers is swamp, mangroves and open shallow water between the city and the interior. The alligators are the famous attraction, though Rockstar hints at deadlier predators and stranger finds.",
+        "Official images show airboats, alligators and a police helicopter chasing a pickup through the swamp."
+      ],
+      "art": "swamp", "x": 0.43, "y": 0.745,
+      "related": ["wildlife/alligator", "vehicles/airboat"],
+      "tags": ["everglades", "swamp", "wetlands", "alligators", "airboat", "mangroves"],
+      "confidence": "corroborated", "sources": ["g6w-grassrivers"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "port-gellhorn", "name": "Port Gellhorn", "region": "Kelly County", "basedOn": "Florida's faded Gulf Coast resort towns",
+      "summary": "A former holiday hotspot that lost its tourists and found a rougher economy to replace them.",
+      "body": [
+        "Port Gellhorn used to be the centre of Leonida's tourist trade. What is left is cheap motels, shut-down attractions and empty strip malls.",
+        "The new economy runs on rougher goods, and the local transport of choice is a dirt bike."
+      ],
+      "art": "port", "x": 0.25, "y": 0.36,
+      "related": ["vehicles/pickup-truck"],
+      "tags": ["gulf coast", "motels", "dirt bike"],
+      "confidence": "corroborated", "sources": ["g6w-port-gellhorn"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "ambrosia", "name": "Ambrosia", "region": "Ambrosia County", "basedOn": "Florida's inland sugar country",
+      "summary": "Inland Leonida, where the Allied Crystal sugar refinery supplies the jobs and a biker gang supplies the rest.",
+      "body": [
+        "Ambrosia is built around the state's sugar industry, a long way from the coast. The Allied Crystal refinery provides the work.",
+        "By Rockstar's account, the local biker gang provides almost everything else."
+      ],
+      "art": "refinery", "x": 0.505, "y": 0.33,
+      "related": ["businesses/allied-crystal", "factions/ambrosia-biker-gang"],
+      "tags": ["allied crystal", "sugar refinery", "bikers", "inland"],
+      "confidence": "corroborated", "sources": ["g6w-locations"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "mount-kalaga-national-park", "name": "Mount Kalaga National Park", "aliases": ["Kalaga"], "region": "State of Leonida", "basedOn": "Florida's state forests and hill country",
+      "summary": "Forest, high ground and backwoods against the northern border: the closest Leonida gets to wilderness.",
+      "body": [
+        "Mount Kalaga is a national landmark at the top of the map, pitched for its hunting, fishing and off-road trails.",
+        "The backwoods around it are home to people who want to live well away from the government. Official images show dirt bikes, an ATV, hunters, a cougar stalking deer and a kayaker."
+      ],
+      "art": "mountain", "x": 0.45, "y": 0.2,
+      "related": ["wildlife/cougar", "wildlife/deer", "activities/hunting-and-fishing", "vehicles/pickup-truck"],
+      "tags": ["wilderness", "forest", "hunting", "fishing", "north"],
+      "confidence": "corroborated", "sources": ["g6w-kalaga"], "verified": "2026-11-11"
+    }
+  ],
+
+  "vehicles": [
+    {
+      "slug": "muscle-car", "name": "Classic Cars", "aliases": ["Muscle Cars", "Vapid Ganado"], "class": "Cars",
+      "summary": "Old American metal, restored and rebuilt. Rockstar's Ultimate Edition screenshots show the Vapid Ganado Retro Build, a low-riding pickup.",
+      "body": ["The Vapid Ganado Retro Build is named and pictured in Rockstar's Ultimate Edition screenshots. Its in-game class and performance have not been published."],
+      "related": ["editions/ultimate-edition", "vehicles/vapid-ganado"],
+      "tags": ["car", "classic", "vapid", "ganado", "ultimate edition"], "confidence": "official", "sources": ["rockstar-media"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "sports-car", "name": "Sports Cars", "aliases": ["Grotti Cheetah", "Cheetah"], "class": "Cars",
+      "summary": "Low, wide and fast. Rockstar's Ultimate Edition screenshots show the '95 Grotti Cheetah.",
+      "body": ["The '95 Grotti Cheetah is named and pictured in Rockstar's Ultimate Edition screenshots. Its in-game class and performance have not been published."],
+      "related": ["editions/ultimate-edition", "vehicles/grotti-cheetah-95"],
+      "tags": ["car", "supercar", "grotti", "cheetah", "ultimate edition"], "confidence": "official", "sources": ["rockstar-media"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "speedboat", "name": "Boats", "class": "Boats",
+      "summary": "From Brian Heder's boat yard to the party boats of the Keys, Leonida lives on the water.",
+      "body": ["Official images of the Leonida Keys show a raft of party boats. Brian Heder moves product through a boat yard there."],
+      "related": ["locations/leonida-keys", "businesses/brians-boat-yard"],
+      "tags": ["boat", "water", "smuggling", "keys"], "confidence": "corroborated", "sources": ["g6w-keys", "g6w-brian"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "airboat", "name": "Airboats", "class": "Boats", "art": "swamp",
+      "summary": "Flat-bottomed and fan-driven, the way across Grassrivers.",
+      "body": ["Airboats appear in Rockstar's Grassrivers images, and airboating was among the activities in the Extended Look."],
+      "related": ["locations/grassrivers"],
+      "tags": ["boat", "swamp", "grassrivers"], "confidence": "corroborated", "sources": ["g6w-grassrivers"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "pickup-truck", "name": "Pickups, Dirt Bikes and ATVs", "class": "Off-road", "art": "mountain",
+      "summary": "Mud-ready machines for the backwoods, from Port Gellhorn to Mount Kalaga.",
+      "body": ["Official images show dirt bikes and an ATV in the mud at Mount Kalaga and a pickup being chased through Grassrivers. Rockstar's Port Gellhorn text tells you to jump on a dirt bike."],
+      "related": ["locations/mount-kalaga-national-park", "locations/port-gellhorn", "vehicles/vapid-dominator-buggy"],
+      "tags": ["truck", "off-road", "4x4", "dirt bike", "atv"], "confidence": "corroborated", "sources": ["g6w-kalaga", "g6w-grassrivers", "g6w-port-gellhorn"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "vapid-dominator-buggy", "name": "'67 Vapid Dominator Buggy", "aliases": ["Vapid Dominator Buggy", "Dominator Buggy"], "class": "Off-road", "art": "mountain",
+      "summary": "An off-road buggy included with the Ultimate Edition, pitched for the backwoods of Mount Kalaga.",
+      "body": ["Rockstar's Ultimate Edition description presents it as a Mud Club vehicle with strong off-road handling.", "It can be kept at the Paradise Garage in Watson Bay, which Rockstar says has a weapon locker and somewhere to drop off stolen goods for fencing."],
+      "facts": { "manufacturer": "Vapid", "model": "Dominator Buggy", "year": "1967", "class": "Off-road", "availability": "Ultimate Edition" },
+      "related": ["editions/ultimate-edition", "locations/mount-kalaga-national-park"],
+      "tags": ["vapid", "dominator", "buggy", "ultimate edition", "off-road", "mud club", "paradise garage", "watson bay"], "confidence": "official", "sources": ["rockstar-media", "g6w-editions", "g6w-kalaga"], "verified": "2026-11-12"
+    },
+    {
+      "slug": "aircraft", "name": "Planes and Helicopters", "class": "Aircraft", "art": "keys",
+      "summary": "Seaplanes over the Keys and helicopters over everything.",
+      "body": ["Official images show a seaplane over the Leonida Keys, a police helicopter over Grassrivers and a news helicopter over Mount Kalaga."],
+      "related": ["locations/leonida-keys"],
+      "tags": ["plane", "seaplane", "helicopter", "air", "police"], "confidence": "corroborated", "sources": ["g6w-map", "g6w-grassrivers", "g6w-kalaga"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "jet-ski", "name": "Jet Skis and Kayaks", "class": "Boats", "art": "port",
+      "summary": "Small craft for the Keys and the rivers of the north.",
+      "body": ["Jet skis and kayaking were both shown in the Extended Look. Official images show jet skis in the Keys and a kayaker at Mount Kalaga."],
+      "related": ["activities/water-sports", "locations/leonida-keys"],
+      "tags": ["water", "watercraft", "kayak"], "confidence": "corroborated", "sources": ["g6w-gameplay", "g6w-keys", "g6w-kalaga"], "verified": "2026-11-11"
+    }
+  ],
+
+  "gameplay": [
+    {
+      "slug": "character-switching", "name": "Switching between Jason and Lucia",
+      "summary": "Control passes between the two leads through most of the game: instantly when they are together, after a few seconds when apart.",
+      "body": ["The lead you are not playing acts on their own and can be called by phone. Some story sequences lock the swap. This is what the Extended Look footage showed; Rockstar has not described it in writing."],
+      "related": ["characters/jason-duval", "characters/lucia-caminos"],
+      "tags": ["swap", "protagonists", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "wanted-level", "image": "/images/manual/footage/footage-firefight-1408.jpg", "name": "Six-star wanted level",
+      "summary": "Six stars are back. Police react to what is witnessed or caught on camera, and track your description, clothes and vehicle separately.",
+      "body": ["Changing clothes or vehicle, or covering your face beforehand, changes how long the heat lasts. Shown in the Extended Look, not published as a feature list."],
+      "tags": ["police", "stars", "heat", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "combat", "name": "Combat",
+      "summary": "Enemies can be wounded or disarmed rather than killed, and heavy hits pull the camera into slow motion.",
+      "body": ["Shown in the Extended Look. Rockstar has not published written detail."],
+      "tags": ["shooting", "slow motion", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "car-theft", "name": "Stealing cars",
+      "summary": "From breaking a window to working the lock with a slim jim; better cars carry electronic locks, alarms and trackers.",
+      "body": ["A phone app scans a car first and reports what it is worth and how it is protected. Shown in the Extended Look."],
+      "tags": ["slim jim", "alarm", "tracker", "phone", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "robberies", "name": "Robberies",
+      "summary": "Robberies trade speed against take: forcing a safe is quicker but damages what is inside.",
+      "body": ["There are second exits for when the front door stops being an option. Shown in the Extended Look."],
+      "related": ["characters/raul-bautista", "businesses/fleeca"],
+      "tags": ["heist", "safe", "bank", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    }
+  ],
+
+  "activities": [
+    {
+      "slug": "racing", "name": "Racing",
+      "summary": "Races on tarmac and on dirt both appeared in the Extended Look.",
+      "tags": ["race", "dirt"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "water-sports", "name": "Water sports",
+      "summary": "Jet skis, kayaking and diving were all shown, with the Keys as the natural home for them.",
+      "related": ["locations/leonida-keys", "vehicles/jet-ski"],
+      "tags": ["jet ski", "kayak", "diving", "scuba"], "confidence": "corroborated", "sources": ["g6w-gameplay", "g6w-keys"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "sports-and-leisure", "name": "Sports and leisure",
+      "summary": "The gym, basketball, pool, mini golf and parachuting all appeared in the Extended Look, along with nightclubs.",
+      "tags": ["gym", "basketball", "pool", "mini golf", "parachute", "nightclub"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "hunting-and-fishing", "name": "Hunting, fishing and off-roading",
+      "summary": "Rockstar pitches Mount Kalaga National Park for its hunting, fishing and off-road trails.",
+      "related": ["locations/mount-kalaga-national-park"],
+      "tags": ["hunt", "fish", "trails"], "confidence": "corroborated", "sources": ["g6w-kalaga"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "everyday-life", "name": "Everyday life",
+      "summary": "Petting a dog, watching television, shopping, and a phone the character actually holds.",
+      "tags": ["dog", "tv", "shopping", "phone"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    }
+  ],
+
+  "wildlife": [
+    {
+      "slug": "alligator", "name": "Alligators", "aliases": ["Gator", "Gators"], "art": "swamp",
+      "summary": "The most famous attraction in Grassrivers, by Rockstar's own description.",
+      "related": ["locations/grassrivers"],
+      "tags": ["reptile", "swamp"], "confidence": "corroborated", "sources": ["g6w-grassrivers"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "cougar", "name": "Cougars", "art": "mountain",
+      "summary": "An official Mount Kalaga image shows a cougar stalking deer at a stream. A wildcat also appears in a Grassrivers image.",
+      "related": ["locations/mount-kalaga-national-park", "wildlife/deer"],
+      "tags": ["cat", "wildcat", "predator"], "confidence": "corroborated", "sources": ["g6w-kalaga", "g6w-grassrivers"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "deer", "image": "/images/wildlife/cougar.jpg", "name": "Deer", "art": "mountain",
+      "summary": "Seen at a stream in Mount Kalaga National Park in an official image.",
+      "related": ["locations/mount-kalaga-national-park"],
+      "tags": ["forest"], "confidence": "corroborated", "sources": ["g6w-kalaga"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "sea-turtle", "image": "/images/activities/water-sports.jpg", "name": "Sea turtles", "art": "keys",
+      "summary": "An official Leonida Keys image shows divers among coral with a sea turtle.",
+      "related": ["locations/leonida-keys"],
+      "tags": ["ocean", "coral", "diving"], "confidence": "corroborated", "sources": ["g6w-keys"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "dog", "name": "Dogs", "art": "city",
+      "summary": "Dogs can be petted, as shown in the Extended Look.",
+      "tags": ["pet"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+    }
+  ],
+
+  "businesses": [
+    {
+      "slug": "only-raw-records", "name": "Only Raw Records", "art": "city",
+      "summary": "The Vice City record label run by Boobie Ike and Dre'Quan Priest. Real Dimez are signed to it.",
+      "related": ["characters/boobie-ike", "characters/drequan-priest", "characters/real-dimez"],
+      "tags": ["label", "music", "vice city"], "confidence": "corroborated", "sources": ["g6w-characters", "g6w-boobie"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "allied-crystal", "name": "Allied Crystal sugar refinery", "art": "refinery",
+      "summary": "Ambrosia's sugar refinery and the source of the town's jobs.",
+      "related": ["locations/ambrosia"],
+      "tags": ["sugar", "refinery", "ambrosia"], "confidence": "corroborated", "sources": ["g6w-locations"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "tisha-wocka-flea-market", "name": "Tisha-Wocka flea market", "art": "port",
+      "summary": "A flea market known, in Rockstar's words, for its bootleg brands.",
+      "related": ["locations/vice-city"],
+      "tags": ["market", "bootleg"], "confidence": "corroborated", "sources": ["g6w-vice-city"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "brians-boat-yard", "name": "Brian Heder's boat yard", "art": "keys",
+      "summary": "The Keys boat yard Brian runs with his wife Lori, and the front for his smuggling.",
+      "related": ["characters/brian-heder", "locations/leonida-keys"],
+      "tags": ["boats", "smuggling", "keys"], "confidence": "corroborated", "sources": ["g6w-brian"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "fleeca", "image": "/images/manual/robbery-with-bystanders.jpg", "name": "Fleeca bank", "art": "city",
+      "summary": "A Fleeca bank is named in the captions of Rockstar's launch screenshot gallery.",
+      "related": ["gameplay/robberies"],
+      "tags": ["bank"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "the-rusty-anchor", "name": "The Rusty Anchor", "art": "keys",
+      "summary": "A bar named in the captions of Rockstar's launch screenshot gallery.",
+      "tags": ["bar"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "delights-cabaret", "name": "Delights Cabaret", "art": "port",
+      "summary": "A cabaret named in the captions of Rockstar's launch screenshot gallery.",
+      "tags": ["cabaret", "nightlife"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11"
+    }
+  ],
+
+  "factions": [
+    {
+      "slug": "raul-bautistas-crew", "name": "Raul Bautista's crew", "art": "city",
+      "summary": "The bank robbery crew Raul leads. Rockstar has not named anyone else in it.",
+      "related": ["characters/raul-bautista"],
+      "tags": ["heist", "bank robbery"], "confidence": "corroborated", "sources": ["g6w-raul"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "ambrosia-biker-gang", "name": "Ambrosia biker gang", "art": "refinery",
+      "summary": "An unnamed biker gang that, by Rockstar's account, runs almost everything in Ambrosia the refinery does not.",
+      "related": ["locations/ambrosia"],
+      "tags": ["bikers", "gang"], "confidence": "corroborated", "sources": ["g6w-locations"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "keys-drug-runners", "name": "Keys drug runners", "art": "keys",
+      "summary": "The smuggling trade of the Leonida Keys, where Jason works and Brian Heder is the old guard.",
+      "related": ["characters/brian-heder", "characters/jason-duval", "locations/leonida-keys"],
+      "tags": ["smuggling", "drugs"], "confidence": "corroborated", "sources": ["g6w-jason", "g6w-brian"], "verified": "2026-11-11"
+    }
+  ],
+
+  "music": [
+    {
+      "slug": "original-score", "name": "Original score by Justice",
+      "summary": "The electronic duo Justice composed the game's score. A 30-track album is due on December 11, 2026.",
+      "body": ["Singles so far are \"Flower in a Hurricane\" and \"Pusher\". The Launch Trailer is set to new music from the duo."],
+      "tags": ["justice", "score", "album", "pusher"], "confidence": "corroborated", "sources": ["g6w-news", "g6w-home", "rockstar-vi"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "soundtrack-album", "name": "Grand Theft Auto VI: The Album",
+      "summary": "The official soundtrack album: 34 original tracks made with Atlantic Records, out with the game on November 19, 2026.",
+      "tags": ["soundtrack", "atlantic records", "album"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11"
+    },
+    {
+      "slug": "radio-stations", "name": "Radio stations and podcasts",
+      "summary": "Rockstar has named six radio stations and confirmed on-demand podcasts, plus radio on foot through headphones.",
+      "body": ["The six are Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber, Flash FM and Dirty South Classics. Each has its own entry in this category, with its genre and hosts.", "Rockstar's music page also mentions stations for classic rock and talk radio, without naming them, and says the game has the series' widest selection of radio and podcasts."],
+      "tags": ["radio", "podcast", "headphones", "stations"], "confidence": "corroborated", "sources": ["rockstar-music", "g6w-music", "g6w-news"], "verified": "2026-11-12"
+    },
+    {
+      "slug": "trailer-1-song", "name": "Trailer 1 song",
+      "summary": "The reveal trailer was set to Tom Petty's \"Love Is a Long Road\".",
+      "tags": ["tom petty", "trailer"], "confidence": "corroborated", "sources": ["g6w-home"], "verified": "2026-11-11"
+    }
+  ],
+
+  "weapons": [],
+  "missions": [],
+  "collectibles": [],
+
+  "editions": [
+    {
+      "slug": "standard-edition", "name": "Standard Edition", "price": "$79.99",
+      "summary": "The base game on PlayStation 5 or Xbox Series X|S.",
+      "body": ["Pre-orders include the Vintage Vice City Pack: the '55 Vapid Stanier with a garage by Ocean Beach, outfits and hairstyles for Jason and Lucia, and a weapon pattern."],
+      "related": ["vehicles/vapid-stanier-55"],
+      "tags": ["price", "buy", "pre-order", "vintage vice city pack"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "rockstar-media", "g6w-editions"], "verified": "2026-11-12"
+    },
+    {
+      "slug": "ultimate-edition", "name": "Ultimate Edition", "price": "$99.99",
+      "summary": "The game plus an exclusive collection of items tied to Jason and Lucia's story.",
+      "body": ["Rockstar lists vehicles (among them the '95 Grotti Cheetah, '67 Vapid Dominator Buggy and Shitzu Squalo), the Hawk & Little Morgan Revolvers, personalized pistols, four shops that open only with this edition, a gang raid and a car-collecting commission. Each has its own entry."],
+      "related": ["vehicles/vapid-dominator-buggy"],
+      "tags": ["price", "buy", "pre-order", "deluxe"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "g6w-kalaga", "rockstar-media", "g6w-editions"], "verified": "2026-11-12"
+    }
+  ],
+
+  "news": [
+    { "slug": "launch-day", "name": "Launch day", "date": "2026-11-19", "summary": "Grand Theft Auto VI releases on PlayStation 5 and Xbox Series X|S.", "tags": ["release", "launch"], "confidence": "official", "sources": ["rockstar-vi"], "verified": "2026-11-11" },
+    { "slug": "pre-load-opens", "name": "Pre-load opens", "date": "2026-11-10", "summary": "Pre-loading begins on both consoles. The download is reported at up to 212 GB.", "tags": ["pre-load", "download", "size"], "confidence": "official", "sources": ["rockstar-vi", "g6w-news"], "verified": "2026-11-11" },
+    { "slug": "launch-screenshots", "name": "Launch gallery: 39 new screenshots", "date": "2026-11-05", "summary": "Rockstar's launch gallery adds 39 screenshots, with captions naming a Fleeca bank, The Rusty Anchor bar and Delights Cabaret.", "tags": ["screenshots", "fleeca", "rusty anchor"], "confidence": "official", "sources": ["rockstar-vi", "g6w-news"], "verified": "2026-11-11" },
+    { "slug": "justice-score", "name": "Original score by Justice", "date": "2026-10-29", "summary": "Rockstar announces the 30-track score album by Justice, out December 11.", "tags": ["music", "justice", "score"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    { "slug": "launch-trailer", "name": "Launch Trailer", "date": "2026-10-15", "summary": "Rockstar's final trailer before release, set to new music from Justice.", "tags": ["trailer", "video"], "confidence": "official", "sources": ["rockstar-vi", "g6w-news"], "verified": "2026-11-11" },
+    { "slug": "radio-stations-named", "name": "Six radio stations named", "date": "2026-10-08", "summary": "Rockstar names six radio stations and confirms on-demand podcasts and radio on foot.", "tags": ["radio", "podcast"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    { "slug": "collectors-box", "name": "Collector's box announced", "date": "2026-09-24", "summary": "The Goodtime State - Vice City Collection: a $399.99 box of eleven collectibles that does not include the game.", "tags": ["collector", "merchandise"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    { "slug": "the-album", "name": "The Album announced", "date": "2026-09-17", "summary": "A 34-track official soundtrack album made with Atlantic Records, arriving with the game.", "tags": ["music", "soundtrack"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    { "slug": "extended-look", "name": "An Extended Look", "date": "2026-08-27", "summary": "Twenty-six minutes of gameplay captured on PlayStation 5: the first sustained look at the game in motion.", "tags": ["gameplay", "video", "netflix"], "confidence": "official", "sources": ["rockstar-vi", "g6w-gameplay"], "verified": "2026-11-11" },
+    { "slug": "pre-orders-open", "name": "Pre-orders open", "date": "2026-06-25", "summary": "Two editions at $79.99 and $99.99, with the Vintage Vice City Pack for everyone who pre-orders.", "tags": ["price", "pre-order", "editions"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    { "slug": "second-delay", "name": "Release moves to November 19, 2026", "date": "2025-11-06", "summary": "Rockstar moves the game from May 26 to November 19, 2026, its second delay.", "tags": ["delay", "release date"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    { "slug": "trailer-2", "name": "Trailer 2", "date": "2025-05-06", "summary": "More of Jason and Lucia, and the first time six supporting characters are named.", "tags": ["trailer", "video"], "confidence": "official", "sources": ["rockstar-vi", "g6w-news"], "verified": "2026-11-11" },
+    { "slug": "first-delay", "name": "Release set for May 26, 2026", "date": "2025-05-02", "summary": "The original 2025 window gives way to a specific date for the first time.", "tags": ["delay", "release date"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    { "slug": "trailer-1", "name": "Trailer 1", "date": "2023-12-04", "summary": "The reveal: Vice City, the State of Leonida and a female lead, set to Tom Petty's \"Love Is a Long Road\".", "tags": ["trailer", "video", "reveal", "tom petty"], "confidence": "official", "sources": ["rockstar-vi", "g6w-news"], "verified": "2026-11-11" }
+  ],
+
+  "faq": [
+    { "slug": "when-does-it-come-out", "name": "When does GTA 6 come out?", "summary": "November 19, 2026, on PlayStation 5 and Xbox Series X|S.", "tags": ["release date"], "confidence": "official", "sources": ["rockstar-vi"], "verified": "2026-11-11" },
+    { "slug": "is-it-coming-to-pc", "name": "Is GTA 6 coming to PC?", "summary": "A PC version has not been announced. The game is announced for PlayStation 5 and Xbox Series X|S.", "tags": ["pc", "platforms"], "confidence": "corroborated", "sources": ["g6w-gameplay", "rockstar-vi"], "verified": "2026-11-11" },
+    { "slug": "where-is-it-set", "name": "Where is GTA 6 set?", "summary": "In the State of Leonida, with Vice City as its biggest city. Vice City is the series' stand-in for Miami.", "tags": ["setting", "leonida", "vice city", "florida"], "confidence": "official", "sources": ["rockstar-vi", "g6w-vice-city"], "verified": "2026-11-11" },
+    { "slug": "who-are-the-protagonists", "name": "Who are the main characters?", "summary": "Lucia Caminos and Jason Duval, the two playable leads.", "tags": ["protagonists", "lucia", "jason"], "confidence": "official", "sources": ["rockstar-vi", "g6w-characters"], "verified": "2026-11-11" },
+    { "slug": "has-it-been-delayed", "name": "Has GTA 6 been delayed?", "summary": "Twice. A 2025 window became May 26, 2026, which then became November 19, 2026.", "tags": ["delay", "release date"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    { "slug": "how-much-does-it-cost", "name": "How much does GTA 6 cost?", "summary": "$79.99 for the Standard Edition and $99.99 for the Ultimate Edition.", "tags": ["price", "editions"], "confidence": "corroborated", "sources": ["g6w-news", "g6w-home"], "verified": "2026-11-11" },
+    { "slug": "last-gen-consoles", "name": "Can I play it on PS4 or Xbox One?", "summary": "The only platforms announced are PlayStation 5 and Xbox Series X|S.", "tags": ["ps4", "xbox one", "platforms"], "confidence": "official", "sources": ["rockstar-vi"], "verified": "2026-11-11" },
+    { "slug": "gta-online", "name": "What about GTA Online?", "summary": "No date or detail yet. Rockstar has said the online component follows the single-player game rather than shipping with it.", "tags": ["online", "multiplayer"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11" }
+  ],
+
+  "map": {
+    "width": 6860,
+    "height": 9400,
+    "maxZoom": 5,
+    "attribution": "Map: GTA VI mapping community via gtadb.org · CC BY 4.0 · tiles from gta6-wiki.org",
+    "confidence": "community",
+    "sources": ["g6w-map"],
+    "categories": [
+      { "key": "regions", "label": "Regions", "color": "accent-pink-strong", "zoom": 2.5 },
+      { "key": "districts", "label": "Vice City districts", "color": "text-primary" },
+      { "key": "landmarks", "label": "Landmarks", "color": "accent-yellow" },
+      { "key": "businesses", "label": "Businesses", "color": "info" },
+      { "key": "collectibles", "label": "Collectibles", "color": "ok" },
+      { "key": "missions", "label": "Missions", "color": "accent-pink" },
+      { "key": "poi", "label": "Points of interest", "color": "text-secondary" }
+    ],
+    "markers": [
+      { "name": "Vice City", "category": "regions", "x": 0.685, "y": 0.525, "location": "vice-city" },
+      { "name": "Leonida Keys", "category": "regions", "x": 0.4, "y": 0.935, "location": "leonida-keys" },
+      { "name": "Port Gellhorn", "category": "regions", "x": 0.25, "y": 0.36, "location": "port-gellhorn" },
+      { "name": "Grassrivers", "category": "regions", "x": 0.43, "y": 0.745, "location": "grassrivers" },
+      { "name": "Ambrosia", "category": "regions", "x": 0.505, "y": 0.33, "location": "ambrosia" },
+      { "name": "Mount Kalaga National Park", "category": "regions", "x": 0.45, "y": 0.2, "location": "mount-kalaga-national-park" },
+      { "name": "La Perle", "category": "districts", "x": 0.659, "y": 0.466, "summary": "A Vice City district named in official material." },
+      { "name": "Stockyard", "category": "districts", "x": 0.703, "y": 0.451, "summary": "A Vice City district named in official material." },
+      { "name": "Little Cuba", "category": "districts", "x": 0.637, "y": 0.534, "summary": "Known, in Rockstar's description, for its bustling bakeries." },
+      { "name": "Tequesta", "category": "districts", "x": 0.652, "y": 0.616, "summary": "A Vice City district named in official material." },
+      { "name": "Vice Beach", "category": "districts", "x": 0.838, "y": 0.501, "summary": "A Vice City district named in official material." },
+      { "name": "Ocean Beach", "category": "districts", "x": 0.847, "y": 0.532, "summary": "Pastel art deco hotels and bright white sand." },
+      { "name": "VC Port", "category": "landmarks", "x": 0.783, "y": 0.571, "summary": "Billed by Rockstar as the cruise ship capital of the world.", "entry": "locations/vice-city" },
+      { "name": "Tisha-Wocka flea market", "category": "landmarks", "x": 0.521, "y": 0.507, "summary": "Known for its bootleg brands.", "entry": "businesses/tisha-wocka-flea-market" },
+      { "name": "Allied Crystal sugar refinery", "category": "landmarks", "x": 0.519, "y": 0.349, "summary": "Ambrosia's biggest employer.", "entry": "businesses/allied-crystal" }
+    ]
+  }
+}

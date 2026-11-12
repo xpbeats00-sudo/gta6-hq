@@ -1,0 +1,183 @@
+[
+  {
+    "slug": "cocoteo-fm",
+    "name": "Cocoteo FM",
+    "aliases": [
+      "Cocoteo"
+    ],
+    "summary": "An in-game radio station playing modern Latin music, hosted by El Martillo and La Gata.",
+    "facts": {
+      "type": "Radio station",
+      "genre": "Modern Latin",
+      "host": [
+        "El Martillo",
+        "La Gata"
+      ]
+    },
+    "related": [
+      "music/radio-stations"
+    ],
+    "tags": [
+      "radio",
+      "station",
+      "latin"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-music",
+      "g6w-music"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "back-country-radio",
+    "name": "Back Country Radio",
+    "aliases": [
+      "Back Country"
+    ],
+    "summary": "An in-game radio station playing renegade country, hosted by MW and Delta Dawne.",
+    "facts": {
+      "type": "Radio station",
+      "genre": "Country",
+      "host": [
+        "MW",
+        "Delta Dawne"
+      ]
+    },
+    "related": [
+      "music/radio-stations"
+    ],
+    "tags": [
+      "radio",
+      "station",
+      "country"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-music",
+      "g6w-music"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "afrobank-fm",
+    "name": "AfroBank FM",
+    "aliases": [
+      "Afro Bank FM",
+      "AfroBank"
+    ],
+    "summary": "An in-game radio station playing amapiano, African classics and 3-step, hosted by Burna and Palmsy.",
+    "facts": {
+      "type": "Radio station",
+      "genre": "Amapiano, African classics and 3-step",
+      "host": [
+        "Burna",
+        "Palmsy"
+      ]
+    },
+    "related": [
+      "music/radio-stations"
+    ],
+    "tags": [
+      "radio",
+      "station",
+      "amapiano",
+      "african"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-music",
+      "g6w-music"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "the-chamber",
+    "name": "The Chamber",
+    "aliases": [
+      "The Chamber 106.6"
+    ],
+    "summary": "An in-game radio station playing metal, hosted by DJ Kerry and DJ Tom.",
+    "body": [
+      "Rockstar's music page labels it The Chamber. The preview clip on the same page is named The Chamber 106.6."
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Metal",
+      "host": [
+        "DJ Kerry",
+        "DJ Tom"
+      ]
+    },
+    "related": [
+      "music/radio-stations"
+    ],
+    "tags": [
+      "radio",
+      "station",
+      "metal"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-music",
+      "g6w-music"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "flash-fm",
+    "name": "Flash FM",
+    "summary": "An in-game radio station playing pop, hosted by Robyn and Alex. Rockstar bills it as a Vice City institution.",
+    "facts": {
+      "type": "Radio station",
+      "genre": "Pop",
+      "host": [
+        "Robyn",
+        "Alex"
+      ]
+    },
+    "related": [
+      "music/radio-stations"
+    ],
+    "tags": [
+      "radio",
+      "station",
+      "pop"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-music",
+      "g6w-music"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "dirty-south-classics",
+    "name": "Dirty South Classics",
+    "summary": "An in-game radio station playing regional rap and hip-hop classics, hosted by Trick and Trina.",
+    "facts": {
+      "type": "Radio station",
+      "genre": "Regional rap and hip-hop classics",
+      "host": [
+        "Trick",
+        "Trina"
+      ]
+    },
+    "related": [
+      "music/radio-stations"
+    ],
+    "tags": [
+      "radio",
+      "station",
+      "rap",
+      "hip-hop",
+      "southern"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-music",
+      "g6w-music"
+    ],
+    "verified": "2026-11-12"
+  }
+]

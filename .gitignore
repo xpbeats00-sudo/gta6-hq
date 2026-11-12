@@ -1,0 +1,10 @@
+/target
+/cache
+/backups
+/zips
+/staging
+/dist
+/.claude
+/docs.rar
+/GTA-6-HQ-starter.zip
+*.bak
