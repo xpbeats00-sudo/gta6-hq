@@ -172,8 +172,18 @@ code { font-size: 0.9em; color: var(--text-secondary); }
 .community-link svg circle { fill: currentColor; stroke: none; }
 .community-link:hover, .community-link:focus-visible { background: rgba(255, 255, 255, 0.18); border-color: #fff; }
 @media (max-width: 1180px) { .community-link span { display: none; } .community-link { padding: 6px 8px; } }
-.footer .footer-links { margin-top: var(--s3); }
-.footer-links a { color: var(--accent-pink); font-weight: 600; }
+/* Invitations to the Discord server: a cut-corner card on Home, and a band above the footer */
+.promo { position: relative; display: flex; align-items: center; justify-content: space-between; gap: var(--s6); width: min(var(--content), 100% - 2 * var(--gutter)); margin: var(--s7) auto 0; padding: var(--s6) var(--s7); background: linear-gradient(100deg, rgba(88, 101, 242, 0.42) 0%, rgba(124, 63, 214, 0.34) 48%, rgba(238, 63, 124, 0.3) 100%), var(--bg-panel); clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 28px 100%, 0 calc(100% - 28px)); }
+.promo::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--sunset); }
+.promo h2 { margin: var(--s2) 0; font-size: clamp(1.3rem, 2.4vw, 1.9rem); letter-spacing: 0.1em; }
+.promo p { max-width: 62ch; margin: 0; color: var(--text-secondary); }
+.promo .btn { flex: none; }
+@media (max-width: 760px) { .promo { flex-direction: column; align-items: flex-start; padding: var(--s5); } }
+.community-band { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--s3) var(--s5); padding: var(--s4) var(--gutter); border-top: 1px solid var(--border-subtle); background: linear-gradient(90deg, rgba(88, 101, 242, 0.2), rgba(124, 63, 214, 0.16), rgba(238, 63, 124, 0.16)), var(--bg-deep); }
+.community-band p { margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
+.community-band b { color: var(--text-primary); }
+.community-band .btn { padding: 8px 18px; }
+body[data-page='map'] .community-band { display: none; }
 .window-controls { display: flex; align-self: stretch; flex: none; margin-right: calc(8px - var(--gutter)); }
 .window-controls[hidden] { display: none; }
 .window-controls button { display: grid; place-items: center; flex: none; width: 46px; height: 100%; padding: 0; border: 0; background: none; color: #f3d9ea; cursor: pointer; transition: background var(--ease), color var(--ease); }

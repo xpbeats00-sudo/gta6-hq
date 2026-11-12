@@ -12,7 +12,15 @@
 #endif
 
 [Setup]
+#ifdef Preview
+; A look-only build for checking the pages (ISCC /DPreview): it installs no files, registers
+; nothing with Windows and uses its own id, so it cannot disturb a real installation.
+AppId=GTA6HQ-look-preview
+Uninstallable=no
+CreateAppDir=no
+#else
 AppId={{6B0F5C3E-7A54-4E0B-9B5E-3D1C7A2F6A11}
+#endif
 AppName=GTA 6 HQ
 AppVersion={#AppVersion}
 AppVerName=GTA 6 HQ {#AppVersion}
@@ -36,7 +44,14 @@ UninstallDisplayIcon={app}\gta6-hq.ico
 UninstallDisplayName=GTA 6 HQ
 Compression=lzma2
 SolidCompression=yes
-WizardStyle=modern
+; The look: a dark window with the app's sunset colours. The pictures are drawn by
+; scripts/make_installer_art.py from the app's own images.
+WizardStyle=modern dark
+WizardSizePercent=130
+WizardBackColor=#0b0a16
+WizardBackImageFile=installer\wizard-back.png
+WizardImageFile=installer\wizard-side.png
+WizardSmallImageFile=installer\wizard-small.png
 CloseApplications=yes
 InfoBeforeFile=installer\notice.txt
 
@@ -47,6 +62,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
+#ifndef Preview
 Source: "target\release\gta6-hq.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "installer\gta6-hq.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion
@@ -54,14 +70,21 @@ Source: "ui\*"; DestDir: "{app}\ui"; Flags: ignoreversion recursesubdirs createa
 Source: "data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "images\*"; DestDir: "{app}\images"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "wallpapers\*"; DestDir: "{app}\wallpapers"; Flags: ignoreversion recursesubdirs createallsubdirs
+#endif
 
 [Icons]
+#ifndef Preview
 Name: "{group}\GTA 6 HQ"; Filename: "{app}\gta6-hq.exe"; WorkingDir: "{app}"; IconFilename: "{app}\gta6-hq.ico"
 Name: "{group}\Uninstall GTA 6 HQ"; Filename: "{uninstallexe}"
 Name: "{autodesktop}\GTA 6 HQ"; Filename: "{app}\gta6-hq.exe"; WorkingDir: "{app}"; IconFilename: "{app}\gta6-hq.ico"; Tasks: desktopicon
+#endif
 
 [Run]
+#ifndef Preview
 Filename: "{app}\gta6-hq.exe"; Description: "Open GTA 6 HQ"; WorkingDir: "{app}"; Flags: nowait postinstall skipifsilent
+#endif
+; Ticked by default on the last page; opens the invite in the browser.
+Filename: "https://discord.gg/YhMHr8N4an"; Description: "Join the GTA 6 HQ community on Discord"; Flags: shellexec nowait postinstall skipifsilent
 
 [UninstallDelete]
 ; Created by the app while it runs: the map tile cache and backups made by --import.

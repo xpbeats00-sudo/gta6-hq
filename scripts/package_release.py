@@ -1,4 +1,4 @@
-"""Package the release build as a portable zip with a checksum.
+"""Package the release build: the setup program, a portable zip and checksums.
 
     cargo build --release
     python scripts/package_release.py
@@ -10,7 +10,7 @@ and dist/SHA256SUMS.txt, taking the version from Cargo.toml. Then publish with:
 
 Standard library only.
 """
-import hashlib, os, re, subprocess, sys, zipfile
+import hashlib, os, re, shutil, subprocess, sys, zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
@@ -43,9 +43,20 @@ candidates = [os.path.join(os.environ.get(var, ''), sub, 'Inno Setup 6', 'ISCC.e
               for var, sub in (('LOCALAPPDATA', 'Programs'), ('ProgramFiles(x86)', ''), ('ProgramFiles', ''))]
 iscc = next((p for p in candidates if os.path.exists(p)), None)
 if iscc:
-    if subprocess.run([iscc, '/Qp', f'/DAppVersion={version}', os.path.join('installer', 'gta6-hq.iss')]).returncode != 0:
+    # Inno Setup builds the installer that does the work. It is then carried inside the setup
+    # window (installer/shell), which is the file people download: it shows the app's own
+    # pages and runs the Inno installer silently.
+    shell = os.path.join('installer', 'shell')
+    payload = os.path.join(ROOT, shell, 'payload')
+    os.makedirs(payload, exist_ok=True)
+    if subprocess.run([iscc, '/Qp', f'/DAppVersion={version}', '/O' + payload, '/Fcore', os.path.join('installer', 'gta6-hq.iss')]).returncode != 0:
         sys.exit('Inno Setup failed')
+    # How many files the installer copies (the zip's files plus the icon), for the progress ring.
+    open(os.path.join(payload, 'files.txt'), 'w').write(str(count + 1))
+    if subprocess.run(['cargo', 'build', '--release', '--quiet', '--target-dir', os.path.join(ROOT, 'target', 'setup')], cwd=shell).returncode != 0:
+        sys.exit('Building the setup window failed')
     setup = f'GTA6HQ-{version}-Setup.exe'
+    shutil.copyfile(os.path.join('target', 'setup', 'release', 'gta6-hq-setup.exe'), os.path.join('dist', setup))
     print(f'{os.path.join("dist", setup)}: {os.path.getsize(os.path.join("dist", setup)) / 1048576:.1f} MB')
     built.insert(0, setup)
 else:

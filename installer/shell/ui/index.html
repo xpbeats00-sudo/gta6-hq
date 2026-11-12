@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GTA 6 HQ Setup</title>
+  <link rel="stylesheet" href="setup.css">
+</head>
+<body>
+  <!-- Live wallpaper: two layers that cross-fade, as on the app's home page -->
+  <video class="wall is-on" muted playsinline autoplay aria-hidden="true"></video>
+  <video class="wall" muted playsinline aria-hidden="true"></video>
+  <div class="shade"></div>
+
+  <header class="bar" data-drag>
+    <div class="brand"><img src="logo.png" alt=""><span>GTA 6 HQ</span><em>Setup</em></div>
+    <div class="window-buttons">
+      <button type="button" data-send="minimize" aria-label="Minimise" title="Minimise">
+        <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 6.5h8"/></svg>
+      </button>
+      <button type="button" id="close" data-send="close" aria-label="Close" title="Close">
+        <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Cut-edge picture cards sliding down the right side -->
+  <div class="rails" aria-hidden="true">
+    <div class="rail"><div class="track" id="rail-a"></div></div>
+    <div class="rail rail-slow"><div class="track" id="rail-b"></div></div>
+  </div>
+
+  <main>
+    <!-- 1. Before installing -->
+    <section id="step-start" class="step is-on">
+      <p class="kicker">Unofficial fan encyclopedia</p>
+      <h1>Install GTA 6 HQ</h1>
+      <p class="tagline">Vice City. The State of Leonida. The encyclopedia, the map and the Field Manual in one window.</p>
+      <ul class="facts">
+        <li><b id="version">Version</b><span>this release</span></li>
+        <li><b>Your account only</b><span>no administrator prompt</span></li>
+        <li><b>About 110 MB</b><span>nothing else is installed</span></li>
+      </ul>
+      <label class="tick"><input type="checkbox" id="desktop"><span></span>Add a shortcut to the desktop</label>
+      <div class="actions">
+        <button type="button" class="btn btn-primary" id="install">Install</button>
+        <button type="button" class="btn" id="about-open">What it does on your computer</button>
+      </div>
+      <p class="small">A fan project, not published, approved or endorsed by Rockstar Games or Take-Two Interactive.</p>
+    </section>
+
+    <!-- 2. While installing -->
+    <section id="step-work" class="step" aria-live="polite">
+      <div class="dial">
+        <svg class="ring" viewBox="0 0 100 100" aria-hidden="true">
+          <defs><linearGradient id="sunset" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffc46b"/><stop offset="0.55" stop-color="#ee3f7c"/><stop offset="1" stop-color="#8b3fd9"/>
+          </linearGradient></defs>
+          <circle class="ring-track" cx="50" cy="50" r="46"/>
+          <circle class="ring-fill" id="ring" cx="50" cy="50" r="46"/>
+        </svg>
+        <div class="coin"><img src="logo.png" alt=""><img src="logo.png" alt=""></div>
+      </div>
+      <p class="percent" id="percent">0%</p>
+      <h2>Installing GTA 6 HQ</h2>
+      <p class="tip" id="tip">Unpacking Leonida…</p>
+    </section>
+
+    <!-- 3. Finished -->
+    <section id="step-done" class="step">
+      <p class="kicker">All set</p>
+      <h1>GTA 6 HQ is installed</h1>
+      <p class="tagline">It is in your Start menu. New versions are offered inside the app when they come out.</p>
+      <a class="promo" id="promo" href="#" role="checkbox" aria-checked="true" tabindex="0">
+        <span class="promo-box"></span>
+        <span class="promo-text"><b>Join the community on Discord</b>
+          <small>News, release announcements and help from other players. Opens in your browser.</small></span>
+      </a>
+      <div class="actions">
+        <button type="button" class="btn btn-primary" id="open">Open GTA 6 HQ</button>
+        <button type="button" class="btn" id="finish">Close</button>
+      </div>
+    </section>
+
+    <!-- 4. If it fails -->
+    <section id="step-fail" class="step">
+      <p class="kicker kicker-warn">Not installed</p>
+      <h1>Setup could not finish</h1>
+      <p class="tagline" id="fail-text">Something stopped the installation.</p>
+      <div class="actions">
+        <button type="button" class="btn btn-primary" id="retry">Try again</button>
+        <button type="button" class="btn" data-send="close">Close</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- The notice, shown on request -->
+  <div class="sheet" id="about" hidden>
+    <div class="sheet-card" role="dialog" aria-modal="true" aria-labelledby="about-title">
+      <h2 id="about-title">What it does on your computer</h2>
+      <pre id="notice"></pre>
+      <button type="button" class="btn btn-primary" id="about-close">Got it</button>
+    </div>
+  </div>
+
+  <script src="setup.js"></script>
+</body>
+</html>

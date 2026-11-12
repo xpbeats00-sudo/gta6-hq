@@ -1,0 +1,111 @@
+/* GTA 6 HQ Setup: the app's own look. Tokens match ui/styles.css. */
+:root {
+  --bg-main: #0b0a16;
+  --text-primary: #f7f3f7;
+  --text-secondary: #b9afc7;
+  --text-muted: #8f86a0;
+  --accent-pink: #f3a0bc;
+  --border-strong: rgba(240, 205, 225, 0.3);
+  --danger: #ff8d8d;
+  --font-display: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --font-body: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --sunset: linear-gradient(90deg, #f7a13c 0%, #ee3f7c 52%, #7c3fd6 100%);
+  --cover-ink: #2b1052;
+  --bar: 46px;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; overflow: hidden; background: var(--bg-main); color: var(--text-primary); font: 400 15px/1.55 var(--font-body); -webkit-font-smoothing: antialiased; user-select: none; cursor: default; }
+h1, h2 { margin: 0; font-family: var(--font-display); font-weight: 700; text-transform: uppercase; }
+button { font: inherit; }
+
+/* Live wallpaper */
+.wall { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 1.4s ease; }
+.wall.is-on { opacity: 1; }
+.shade { position: absolute; inset: 0; background:
+  linear-gradient(90deg, rgba(11, 10, 22, 0.96) 0%, rgba(11, 10, 22, 0.86) 38%, rgba(11, 10, 22, 0.32) 66%, rgba(11, 10, 22, 0.5) 100%),
+  linear-gradient(0deg, rgba(11, 10, 22, 0.75) 0%, rgba(11, 10, 22, 0) 40%); }
+
+/* Top bar, as in the app */
+.bar { position: absolute; top: 0; left: 0; right: 0; height: var(--bar); display: flex; align-items: center; justify-content: space-between; padding-left: 18px;
+  background: linear-gradient(90deg, #2b1052 0%, #3a1560 45%, #4a1a5e 100%); z-index: 5; }
+.bar::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: var(--sunset); }
+.brand { display: flex; align-items: center; gap: 10px; font: 700 0.82rem var(--font-display); letter-spacing: 0.22em; text-transform: uppercase; pointer-events: none; }
+.brand img { height: 26px; }
+.brand em { font-style: normal; color: var(--accent-pink); }
+.window-buttons { display: flex; align-self: stretch; }
+.window-buttons button { display: grid; place-items: center; width: 46px; padding: 0; border: 0; background: none; color: #f3d9ea; cursor: pointer; transition: background 0.2s ease, color 0.2s ease; }
+.window-buttons svg { width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 1.2; stroke-linecap: round; }
+.window-buttons button:hover { background: rgba(255, 143, 184, 0.2); color: #fff; }
+.window-buttons #close:hover { background: #e23a6e; }
+.window-buttons button:disabled { opacity: 0.3; pointer-events: none; }
+
+/* Cut-edge cards sliding down the right side */
+.rails { position: absolute; top: var(--bar); right: 26px; bottom: 0; display: flex; gap: 14px; z-index: 2; }
+.rail { width: 150px; overflow: hidden; -webkit-mask-image: linear-gradient(180deg, transparent 0, #000 9%, #000 88%, transparent 100%); }
+.track { display: flex; flex-direction: column; gap: 14px; animation: rail-down 46s linear infinite; }
+.rail-slow .track { animation-duration: 64s; animation-direction: reverse; }
+.card { position: relative; flex: none; height: 196px; background: var(--cover-ink); clip-path: polygon(0 11%, 100% 0, 100% 89%, 0 100%); }
+.card::before { content: ''; position: absolute; inset: 0; background: var(--sunset); }
+.card img { position: absolute; inset: 3px; width: calc(100% - 6px); height: calc(100% - 6px); object-fit: cover; clip-path: polygon(0 11%, 100% 0, 100% 89%, 0 100%); }
+@keyframes rail-down { from { transform: translateY(-50%); } to { transform: translateY(0); } }
+
+/* Steps */
+main { position: absolute; top: var(--bar); left: 0; bottom: 0; width: 600px; z-index: 3; }
+.step { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; padding: 0 0 18px 54px; opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity 0.35s ease, transform 0.35s ease, visibility 0s 0.35s; }
+.step.is-on { opacity: 1; visibility: visible; transform: none; transition: opacity 0.35s ease 0.15s, transform 0.35s ease 0.15s; }
+.kicker { margin: 0 0 10px; color: #ffc46b; font: 700 0.68rem var(--font-display); letter-spacing: 0.24em; text-transform: uppercase; }
+.kicker-warn { color: var(--danger); }
+h1 { font-size: 2.5rem; line-height: 1.05; letter-spacing: 0.1em; }
+.tagline { max-width: 44ch; margin: 14px 0 0; color: var(--text-secondary); font-size: 1rem; }
+
+.facts { display: flex; margin: 26px 0 22px; padding: 0; list-style: none; }
+.facts li { padding: 0 22px; border-left: 1px solid var(--border-strong); }
+.facts li:first-child { padding-left: 0; border-left: 0; }
+.facts b { display: block; font: 700 0.92rem var(--font-display); letter-spacing: 0.06em; }
+.facts span { color: var(--text-muted); font-size: 0.78rem; }
+
+.tick { display: inline-flex; align-items: center; gap: 10px; width: fit-content; color: var(--text-secondary); font-size: 0.92rem; cursor: pointer; }
+.tick input { position: absolute; opacity: 0; }
+.tick span, .promo-box { flex: none; width: 18px; height: 18px; border: 1.5px solid var(--border-strong); border-radius: 2px; transition: background 0.2s ease, border-color 0.2s ease; }
+.tick input:checked + span, .promo[aria-checked="true"] .promo-box { border-color: var(--accent-pink); background: var(--accent-pink) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='M2.5 6.4l2.4 2.3 4.6-5' fill='none' stroke='%231c0f1a' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 12px no-repeat; }
+.tick input:focus-visible + span, .promo:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+
+.actions { display: flex; gap: 12px; margin-top: 26px; }
+.btn { padding: 11px 22px; border: 1px solid var(--border-strong); border-radius: 999px; background: rgba(11, 10, 22, 0.4); color: var(--text-primary); font: 700 0.72rem var(--font-display); letter-spacing: 0.18em; text-transform: uppercase; cursor: pointer; transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease; }
+.btn:hover { border-color: var(--text-primary); }
+.btn-primary { padding: 13px 34px; border-color: var(--accent-pink); background: var(--accent-pink); color: #1c0f1a; }
+.btn-primary:hover { border-color: #fff; background: #fff; }
+.btn:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+.small { max-width: 52ch; margin: 26px 0 0; color: var(--text-muted); font-size: 0.74rem; }
+
+/* Installing: the app's loading ring with the logo turning inside it */
+#step-work { align-items: flex-start; }
+.dial { position: relative; width: 132px; height: 132px; perspective: 700px; }
+.ring { position: absolute; inset: 0; transform: rotate(-90deg); }
+.ring circle { fill: none; stroke-width: 3; }
+.ring-track { stroke: rgba(255, 190, 220, 0.16); }
+.ring-fill { stroke: url(#sunset); stroke-linecap: round; stroke-dasharray: 289.03; stroke-dashoffset: 289.03; transition: stroke-dashoffset 0.4s ease; }
+.coin { position: absolute; inset: 26px; transform-style: preserve-3d; animation: spin 2.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite; }
+.coin img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; backface-visibility: hidden; }
+.coin img + img { transform: rotateY(180deg); }
+@keyframes spin { from { transform: rotateY(0deg); } to { transform: rotateY(-360deg); } }
+.percent { margin: 18px 0 0; font: 700 3.4rem/1 var(--font-display); letter-spacing: 0.04em; background: var(--sunset); -webkit-background-clip: text; background-clip: text; color: transparent; }
+#step-work h2 { margin-top: 10px; font-size: 1.05rem; letter-spacing: 0.2em; }
+.tip { margin: 6px 0 0; color: var(--text-secondary); }
+
+/* Finished: the Discord invitation */
+.promo { display: flex; align-items: center; gap: 14px; max-width: 470px; margin-top: 24px; padding: 14px 18px 14px 16px; border: 1px solid rgba(138, 150, 255, 0.5); background: linear-gradient(100deg, rgba(88, 101, 242, 0.34), rgba(124, 63, 214, 0.22)); color: inherit; text-decoration: none; cursor: pointer; clip-path: polygon(0 0, 100% 0, 100% calc(100% - 14px), calc(100% - 14px) 100%, 0 100%); }
+.promo b { display: block; font: 700 0.9rem var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; }
+.promo small { color: var(--text-secondary); font-size: 0.8rem; }
+
+/* The notice sheet */
+.sheet { position: absolute; inset: var(--bar) 0 0 0; display: grid; place-items: center; background: rgba(8, 7, 19, 0.72); backdrop-filter: blur(10px); z-index: 8; }
+.sheet[hidden] { display: none; }
+.sheet-card { width: 640px; max-height: 88%; display: flex; flex-direction: column; gap: 14px; padding: 26px 28px; border: 1px solid var(--border-strong); border-top: 3px solid #ee3f7c; background: #17102a; }
+.sheet-card h2 { font-size: 1rem; letter-spacing: 0.18em; }
+.sheet-card pre { flex: 1; min-height: 0; margin: 0; overflow: auto; white-space: pre-wrap; color: var(--text-secondary); font: 400 0.84rem/1.6 var(--font-body); user-select: text; }
+.sheet-card .btn { align-self: flex-start; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(240, 205, 225, 0.25); border-radius: 4px; }

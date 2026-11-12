@@ -534,6 +534,15 @@ function renderHome() {
       ${game.facts.map((f) => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd></div>`).join('')}
     </dl>
 
+    <aside class="promo" aria-label="Community">
+      <div class="promo-copy">
+        <span class="kicker">Community</span>
+        <h2>Join GTA 6 HQ on Discord</h2>
+        <p>News and trailers as they land, new versions of this app announced the moment they are out, and other players to talk Leonida with.</p>
+      </div>
+      <a class="btn btn-primary" href="${DISCORD_INVITE}" target="_blank" rel="noopener noreferrer">Join the server</a>
+    </aside>
+
     <section class="editorial">
       <header class="editorial-head">
         <span class="kicker">People</span>

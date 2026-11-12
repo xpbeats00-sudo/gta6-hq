@@ -27,6 +27,12 @@ Sourced, labelled by how well each fact is supported, and built as a small Rust 
 2. Download `GTA6HQ-<version>-Setup.exe` and run it. It installs for your user account only and needs no administrator access.
 3. Open **GTA 6 HQ** from the Start menu.
 
+<div align="center">
+<img src="docs/media/installer.webp" alt="The setup window: a live wallpaper with picture cards sliding down the side, the Install button, a ring filling to 100% around the turning logo, then the finished page with a Discord invitation" width="860">
+</div>
+
+From version 0.2.4 the setup is its own window in the app's look. It still installs the ordinary way underneath, so the Start menu entry and the uninstaller work as on any Windows app.
+
 Prefer no installer? Download the portable zip from the same page, extract it anywhere and run `gta6-hq.exe`.
 
 The app is not code-signed, so Windows SmartScreen may show "Windows protected your PC" the first time. Choose **More info**, then **Run anyway**. Windows 11 already includes the WebView2 runtime the app needs.
@@ -286,6 +292,8 @@ python scripts/audit_media.py
 Releases are published at https://github.com/xpbeats00-sudo/gta6-hq/releases. When the app opens it asks GitHub whether a newer release exists and, if so, shows a notice with a link; nothing is downloaded or installed automatically. To turn the check off, set `"enabled": false` in `data/update.json`.
 
 To publish a new version: raise `version` in `Cargo.toml`, run `cargo build --release` (with the app closed), then `python scripts/package_release.py`. That writes the installer (`installer/gta6-hq.iss`, needs Inno Setup 6), the portable zip and their checksums to `dist/`; attach all three to a new GitHub release tagged `v<version>`.
+
+The file people download is the setup window in `installer/shell` (a small Rust program using the same window technology as the app). It carries the Inno Setup installer built from `installer/gta6-hq.iss`, runs it silently and reads its log for progress; if the window cannot open, it runs that installer with its own pages. `gta6-hq-setup.exe --demo` shows the pages without installing anything, and `python scripts/make_installer_art.py` redraws its pictures.
 
 The installer puts the app in the user's own programs folder, so it needs no administrator access and the app can write its map cache beside itself.
 
