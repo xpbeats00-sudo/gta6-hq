@@ -1,0 +1,38 @@
+{
+ "audit": "storyboard",
+ "verdict": "PASS",
+ "generated": "2026-11-12 15:13",
+ "checks": [
+  {
+   "name": "Storyboard exists",
+   "status": "PASS",
+   "detail": "12 shots"
+  },
+  {
+   "name": "Every scene has a storyboard row",
+   "status": "PASS",
+   "detail": "all present"
+  },
+  {
+   "name": "No storyboard row without a scene",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "name": "Shots are in the same order as the edit",
+   "status": "PASS",
+   "detail": "same order"
+  },
+  {
+   "name": "Durations and footage match the edit",
+   "status": "PASS",
+   "detail": "each row gives the scene length and names its footage"
+  },
+  {
+   "name": "Stated running time matches",
+   "status": "PASS",
+   "detail": "storyboard says 60.51, edit runs 60.51s"
+  }
+ ],
+ "facts": {}
+}

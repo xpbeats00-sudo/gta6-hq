@@ -1,0 +1,15 @@
+{
+ "music": {
+  "file": "audio/XPTrailersong.mp3",
+  "start": 32.03,
+  "gain_db": 0,
+  "fade_in": 0.3,
+  "fade_out": 3.0
+ },
+ "narration": {
+  "engine": "none"
+ },
+ "sfx": true,
+ "sfx_gain_db": -8,
+ "mix": "audio/mix.wav"
+}

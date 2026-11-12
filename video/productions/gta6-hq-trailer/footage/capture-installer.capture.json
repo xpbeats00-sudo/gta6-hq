@@ -1,0 +1,16 @@
+{
+ "url": "http://setup.localhost/index.html",
+ "clips": [
+  {
+   "name": "installer",
+   "frames": 1432,
+   "seconds": 15.47,
+   "captured_fps": 92.6
+  }
+ ],
+ "exe": "target/setup/release/gta6-hq-setup.exe",
+ "args": "--demo",
+ "width": 980,
+ "height": 620,
+ "captured": "2026-11-12 15:11"
+}

@@ -1,0 +1,66 @@
+{
+ "audit": "audio",
+ "verdict": "PASS WITH WARNINGS",
+ "generated": "2026-11-12 15:01",
+ "checks": [
+  {
+   "name": "Audio stream present",
+   "status": "PASS",
+   "detail": "aac, 2 channels"
+  },
+  {
+   "name": "No clipped samples",
+   "status": "PASS",
+   "detail": "0 samples at full scale; sample peak -2.62 dBFS"
+  },
+  {
+   "name": "Programme loudness on target",
+   "status": "PASS",
+   "detail": "-14.4 LUFS integrated; target -14.0 within 1.5 LU, loudness range 5.2 LU"
+  },
+  {
+   "name": "True peak below the ceiling",
+   "status": "PASS",
+   "detail": "-2.6 dBTP; ceiling -1.0 dBTP"
+  },
+  {
+   "name": "No long silence",
+   "status": "PASS",
+   "detail": "none of 2.0s or longer below -50 dB"
+  },
+  {
+   "name": "Mix length matches the video",
+   "status": "PASS",
+   "detail": "mix 35.80s, video 35.80s"
+  },
+  {
+   "name": "Narration starts where planned",
+   "status": "PASS",
+   "detail": "4 lines within 0.35s of plan"
+  },
+  {
+   "name": "Narration fits inside its scene",
+   "status": "PASS",
+   "detail": "every line ends before its scene does"
+  },
+  {
+   "name": "Narration lines do not overlap",
+   "status": "PASS",
+   "detail": "no overlaps"
+  },
+  {
+   "name": "Music stays under narration",
+   "status": "PASS",
+   "detail": "narration at least 8.0 dB above the music in every line"
+  },
+  {
+   "name": "Narration voice",
+   "status": "WARN",
+   "detail": "synthetic TEST narration (sapi); label it as test audio, do not present it as a real voice-over"
+  }
+ ],
+ "facts": {
+  "lufs": -14.4,
+  "true_peak": -2.6
+ }
+}

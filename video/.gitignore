@@ -1,0 +1,12 @@
+productions/*/renders/
+productions/*/exports/
+productions/*/footage/raw/
+productions/*/audio/*.wav
+models/
+.env
+__pycache__/
+node_modules/
+remotion/out/
+productions/gta6-hq-trailer/footage/*.mp4
+productions/gta6-hq-trailer/audio/*.mp3
+productions/*/reports/frames/

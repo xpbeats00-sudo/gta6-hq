@@ -1,0 +1,171 @@
+{
+ "assets": [
+  {
+   "file": "audio/XPTrailersong.mp3",
+   "kind": "music",
+   "source": "Supplied by the owner on 2026-11-12 (Downloads/XPTrailersong.mp3). File metadata: title [FREE] Yeat + Afterlyfe + Bnyx Type Beat 2023 - \"livelyfe\", artist vairaaa, date 2023, key A# minor, 135 BPM, origin youtube.com/watch?v=sUAMjp0Z_Lw (the tags suggest a copy taken from YouTube, not the producer download). The file also embeds a 1280x720 cover picture, which the video does not use",
+   "creator": "vairaaa, according to the file metadata; the owner says they made the beat",
+   "licence": "Terms written in the file metadata: free for non-profit use only; always credit prod. vairaaa; monetised use needs a lease bought from the producer (beatstars.com/vairaaa)",
+   "attribution": "Music: livelyfe, prod. vairaaa (shown in the credits)",
+   "permission": "Covered by the metadata terms for non-profit use with credit; no lease on record",
+   "commercial_use": "Not allowed without a purchased lease: do not monetise the video",
+   "rights_status": "licensed",
+   "sha256": "13346c7ab04e37bf275156670424cb74dcd98c82982166cea997b0a060965973",
+   "confirm": "the file metadata names vairaaa as the producer and sets non-profit terms, while the owner described the beat as their own. If the owner is the producer, the credit can be changed and the limits dropped; if not, keep the credit and do not monetise"
+  },
+  {
+   "file": "audio/mix.wav",
+   "kind": "final mix (the song plus studio effects)",
+   "source": "Cut from audio/XPTrailersong.mp3 by video/engine/audio.py, starting 32.030 s into the track",
+   "creator": "vairaaa, according to the file metadata (see audio/XPTrailersong.mp3)",
+   "licence": "Terms written in the file metadata: free for non-profit use only; always credit prod. vairaaa; monetised use needs a lease bought from the producer (beatstars.com/vairaaa)",
+   "attribution": "Music: livelyfe, prod. vairaaa",
+   "permission": "As for audio/XPTrailersong.mp3",
+   "commercial_use": "Not allowed without a purchased lease",
+   "rights_status": "licensed",
+   "sha256": "c1a7a449cbe53a492211fca7c48c58581d0d98acb493abbf612289ee85b67072"
+  },
+  {
+   "file": "audio/music.wav",
+   "kind": "music stem (59 s cut of the song)",
+   "source": "Cut from audio/XPTrailersong.mp3 by video/engine/audio.py, starting 32.030 s into the track",
+   "creator": "vairaaa, according to the file metadata (see audio/XPTrailersong.mp3)",
+   "licence": "Terms written in the file metadata: free for non-profit use only; always credit prod. vairaaa; monetised use needs a lease bought from the producer (beatstars.com/vairaaa)",
+   "attribution": "Music: livelyfe, prod. vairaaa",
+   "permission": "As for audio/XPTrailersong.mp3",
+   "commercial_use": "Not allowed without a purchased lease",
+   "rights_status": "licensed",
+   "sha256": "4d1101f1c2d1bbe7267b64e5b6b81d5074507c70df5c65c8053fd4e3c4aa9dad"
+  },
+  {
+   "file": "audio/sfx.wav",
+   "kind": "transition effects",
+   "source": "Synthesised by video/engine/audio.py",
+   "creator": "GTA 6 HQ video studio (generated on this machine)",
+   "licence": "Owned by the project owner",
+   "attribution": "None required",
+   "permission": "Not needed",
+   "commercial_use": "No limit from this asset",
+   "rights_status": "owned",
+   "sha256": "1c5308bb01368ed738a7ee9b08c50f4b447a4944fc1879ff1f8ce692046204f0"
+  },
+  {
+   "file": "footage/characters.mp4",
+   "kind": "screen recording of the GTA 6 HQ app",
+   "source": "Filmed on 2026-11-12 from target/release/gta6-hq.exe over the DevTools port with video/tools/capture_cdp.py and footage/capture-app.json",
+   "creator": "Recording and app interface: the project owner. Pictures and video visible inside the app: Rockstar Games, according to the project media records; the live wallpapers and the logo animation were supplied by the app owner and where they first came from is not recorded (README.md, Credits and rights)",
+   "licence": "None for the Rockstar Games material shown; see docs/compliance/MEDIA-RIGHTS-AUDIT.md (no file cleared for public distribution)",
+   "attribution": "Pictures and video shown in the app: Rockstar Games",
+   "permission": "None requested, none granted",
+   "commercial_use": "Not cleared for commercial use or for redistribution",
+   "rights_status": "uncleared",
+   "sha256": "6c1977518b99340083ba3db3ea6946b7c9419d1eda760834ae1eea1040da4be1"
+  },
+  {
+   "file": "footage/encyclopedia.mp4",
+   "kind": "screen recording of the GTA 6 HQ app",
+   "source": "Filmed on 2026-11-12 from target/release/gta6-hq.exe over the DevTools port with video/tools/capture_cdp.py and footage/capture-app.json",
+   "creator": "Recording and app interface: the project owner. Pictures and video visible inside the app: Rockstar Games, according to the project media records; the live wallpapers and the logo animation were supplied by the app owner and where they first came from is not recorded (README.md, Credits and rights)",
+   "licence": "None for the Rockstar Games material shown; see docs/compliance/MEDIA-RIGHTS-AUDIT.md (no file cleared for public distribution)",
+   "attribution": "Pictures and video shown in the app: Rockstar Games",
+   "permission": "None requested, none granted",
+   "commercial_use": "Not cleared for commercial use or for redistribution",
+   "rights_status": "uncleared",
+   "sha256": "db8fbdc56c6b6f5d4fc73aefa6d0e28d3a9fd4f3bdda3433466e88cd9eee5607"
+  },
+  {
+   "file": "footage/home.mp4",
+   "kind": "screen recording of the GTA 6 HQ app",
+   "source": "Filmed on 2026-11-12 from target/release/gta6-hq.exe over the DevTools port with video/tools/capture_cdp.py and footage/capture-app.json",
+   "creator": "Recording and app interface: the project owner. Pictures and video visible inside the app: Rockstar Games, according to the project media records; the live wallpapers and the logo animation were supplied by the app owner and where they first came from is not recorded (README.md, Credits and rights)",
+   "licence": "None for the Rockstar Games material shown; see docs/compliance/MEDIA-RIGHTS-AUDIT.md (no file cleared for public distribution)",
+   "attribution": "Pictures and video shown in the app: Rockstar Games",
+   "permission": "None requested, none granted",
+   "commercial_use": "Not cleared for commercial use or for redistribution",
+   "rights_status": "uncleared",
+   "sha256": "38c6281ffe3e3185e6271e82e05eda9e671f64f6746ef660ad20967002b30533"
+  },
+  {
+   "file": "footage/installer.mp4",
+   "kind": "screen recording of the setup program, started with --demo so nothing was installed",
+   "source": "Filmed on 2026-11-12 from target/setup/release/gta6-hq-setup.exe --demo over the DevTools port with video/tools/capture_cdp.py and footage/capture-installer.json",
+   "creator": "Recording and app interface: the project owner. Pictures and video visible inside the app: Rockstar Games, according to the project media records; the live wallpapers and the logo animation were supplied by the app owner and where they first came from is not recorded (README.md, Credits and rights)",
+   "licence": "None for the Rockstar Games material shown; see docs/compliance/MEDIA-RIGHTS-AUDIT.md (no file cleared for public distribution)",
+   "attribution": "Pictures and video shown in the app: Rockstar Games",
+   "permission": "None requested, none granted",
+   "commercial_use": "Not cleared for commercial use or for redistribution",
+   "rights_status": "uncleared",
+   "sha256": "9b09a2ebdbf40e3949edc99a0cdb46e364ab2055ce0cf3553d1d6124afb30189"
+  },
+  {
+   "file": "footage/manual.mp4",
+   "kind": "screen recording of the GTA 6 HQ app",
+   "source": "Filmed on 2026-11-12 from target/release/gta6-hq.exe over the DevTools port with video/tools/capture_cdp.py and footage/capture-app.json",
+   "creator": "Recording and app interface: the project owner. Pictures and video visible inside the app: Rockstar Games, according to the project media records; the live wallpapers and the logo animation were supplied by the app owner and where they first came from is not recorded (README.md, Credits and rights)",
+   "licence": "None for the Rockstar Games material shown; see docs/compliance/MEDIA-RIGHTS-AUDIT.md (no file cleared for public distribution)",
+   "attribution": "Pictures and video shown in the app: Rockstar Games",
+   "permission": "None requested, none granted",
+   "commercial_use": "Not cleared for commercial use or for redistribution",
+   "rights_status": "uncleared",
+   "sha256": "0822d685007052155c9f968e044c43e0e942302ce517d18b519d7b16a7818ecd"
+  },
+  {
+   "file": "footage/map.mp4",
+   "kind": "screen recording of the GTA 6 HQ app",
+   "source": "Filmed on 2026-11-12 from target/release/gta6-hq.exe over the DevTools port with video/tools/capture_cdp.py and footage/capture-app.json",
+   "creator": "Recording and app interface: the project owner. Pictures and video visible inside the app: Rockstar Games, according to the project media records; the live wallpapers and the logo animation were supplied by the app owner and where they first came from is not recorded (README.md, Credits and rights). Map tiles: the GTA VI mapping community via gtadb.org, served by gta6-wiki.org",
+   "licence": "Map tiles: CC BY 4.0 (attribution required). None for the Rockstar Games material shown; see docs/compliance/MEDIA-RIGHTS-AUDIT.md (no file cleared for public distribution)",
+   "attribution": "Map: GTA VI mapping community via gtadb.org, CC BY 4.0 (shown in the credits). Pictures and video shown in the app: Rockstar Games",
+   "permission": "None requested, none granted",
+   "commercial_use": "Not cleared for commercial use or for redistribution",
+   "rights_status": "uncleared",
+   "sha256": "302fbffdab3dae4d8011d02d0b03a54c74de2815fa4b191e011c2ebfad7f8ea2"
+  },
+  {
+   "file": "footage/splash.mp4",
+   "kind": "screen recording of the GTA 6 HQ app",
+   "source": "Filmed on 2026-11-12 from target/release/gta6-hq.exe over the DevTools port with video/tools/capture_cdp.py and footage/capture-app.json",
+   "creator": "Recording and app interface: the project owner. Pictures and video visible inside the app: Rockstar Games, according to the project media records; the live wallpapers and the logo animation were supplied by the app owner and where they first came from is not recorded (README.md, Credits and rights)",
+   "licence": "None for the Rockstar Games material shown; see docs/compliance/MEDIA-RIGHTS-AUDIT.md (no file cleared for public distribution)",
+   "attribution": "Pictures and video shown in the app: Rockstar Games",
+   "permission": "None requested, none granted",
+   "commercial_use": "Not cleared for commercial use or for redistribution",
+   "rights_status": "uncleared",
+   "sha256": "26d5e1a2266c69d458e69ca8ae9bce48053b04735142e6c9268b28f9f22edb8c"
+  },
+  {
+   "file": "footage/vehicles.mp4",
+   "kind": "screen recording of the GTA 6 HQ app",
+   "source": "Filmed on 2026-11-12 from target/release/gta6-hq.exe over the DevTools port with video/tools/capture_cdp.py and footage/capture-app.json",
+   "creator": "Recording and app interface: the project owner. Pictures and video visible inside the app: Rockstar Games, according to the project media records; the live wallpapers and the logo animation were supplied by the app owner and where they first came from is not recorded (README.md, Credits and rights)",
+   "licence": "None for the Rockstar Games material shown; see docs/compliance/MEDIA-RIGHTS-AUDIT.md (no file cleared for public distribution)",
+   "attribution": "Pictures and video shown in the app: Rockstar Games",
+   "permission": "None requested, none granted",
+   "commercial_use": "Not cleared for commercial use or for redistribution",
+   "rights_status": "uncleared",
+   "sha256": "c7cf5c3e69ad9d16064f9f304c9364763a124208106d29b9dcbf226c6e3f194e"
+  },
+  {
+   "file": "(font) C:/Windows/Fonts/bahnschrift.ttf",
+   "kind": "font",
+   "source": "Installed with Windows",
+   "creator": "Microsoft",
+   "licence": "Microsoft font licence (bundled with Windows)",
+   "attribution": "None required",
+   "permission": "Covered by the Windows licence for use on this machine",
+   "commercial_use": "Rendering text into video is permitted; the font file itself must not be redistributed",
+   "rights_status": "system"
+  },
+  {
+   "file": "(font) C:/Windows/Fonts/segoeui.ttf, segoeuib.ttf",
+   "kind": "font",
+   "source": "Installed with Windows",
+   "creator": "Microsoft",
+   "licence": "Microsoft font licence (bundled with Windows)",
+   "attribution": "None required",
+   "permission": "Covered by the Windows licence for use on this machine",
+   "commercial_use": "Rendering text into video is permitted; the font file itself must not be redistributed",
+   "rights_status": "system"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "audit": "captions",
+ "verdict": "PASS",
+ "generated": "2026-11-12 15:16",
+ "checks": [
+  {
+   "name": "Caption file exists",
+   "status": "PASS",
+   "detail": "10 cues in captions/gta6-hq-trailer.srt; WebVTT present"
+  },
+  {
+   "name": "Caption file matches the project",
+   "status": "PASS",
+   "detail": "10 cues in the file, 10 in the project (re-run the captions command after editing the project)"
+  },
+  {
+   "name": "Cues are in order and do not overlap",
+   "status": "PASS",
+   "detail": "ordered"
+  },
+  {
+   "name": "Each cue stays up long enough, and not too long",
+   "status": "PASS",
+   "detail": "all between 1.0s and 7.0s"
+  },
+  {
+   "name": "Reading speed",
+   "status": "PASS",
+   "detail": "all at or under 20 characters a second"
+  },
+  {
+   "name": "Line count and line length",
+   "status": "PASS",
+   "detail": "at most 2 lines of 42 characters"
+  },
+  {
+   "name": "Cues are inside the video",
+   "status": "PASS",
+   "detail": "last cue ends 51.31s, video is 60.51s"
+  },
+  {
+   "name": "Every spoken line is captioned",
+   "status": "SKIP",
+   "detail": "no narration: captions carry the message on their own"
+  },
+  {
+   "name": "Caption wording matches the approved script",
+   "status": "PASS",
+   "detail": "every caption word appears in script.md; no doubled words"
+  },
+  {
+   "name": "Dictionary spell check",
+   "status": "SKIP",
+   "detail": "no spelling dictionary is installed; wording is checked against the approved script instead, so the script itself needs a human read"
+  },
+  {
+   "name": "Burned-in captions sit in the lower safe area",
+   "status": "PASS",
+   "detail": "10 caption boxes checked"
+  },
+  {
+   "name": "Burned-in captions keep to two lines and the caption width",
+   "status": "PASS",
+   "detail": "measured on the boxes the renderer drew, which break lines where the .srt does"
+  },
+  {
+   "name": "Captions do not cover other text",
+   "status": "PASS",
+   "detail": "no overlaps with titles, cards or credits"
+  },
+  {
+   "name": "Speech recognition cross-check (Whisper)",
+   "status": "SKIP",
+   "detail": "no Whisper model in video/models; see the installation guide"
+  }
+ ],
+ "facts": {
+  "cues": 10
+ }
+}

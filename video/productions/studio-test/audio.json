@@ -1,0 +1,6 @@
+{
+ "music": {"generator": "synth", "bpm": 100, "seed": 6, "gain_db": -8},
+ "narration": {"engine": "sapi", "duck_db": 12},
+ "sfx": true,
+ "mix": "audio/mix.wav"
+}

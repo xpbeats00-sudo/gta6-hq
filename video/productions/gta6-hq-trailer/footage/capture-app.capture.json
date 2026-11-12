@@ -1,0 +1,52 @@
+{
+ "url": "http://127.0.0.1:50729/",
+ "clips": [
+  {
+   "name": "splash",
+   "frames": 609,
+   "seconds": 11.5,
+   "captured_fps": 52.9
+  },
+  {
+   "name": "home",
+   "frames": 197,
+   "seconds": 6.5,
+   "captured_fps": 30.3
+  },
+  {
+   "name": "manual",
+   "frames": 444,
+   "seconds": 12.04,
+   "captured_fps": 36.9
+  },
+  {
+   "name": "encyclopedia",
+   "frames": 162,
+   "seconds": 5.37,
+   "captured_fps": 30.2
+  },
+  {
+   "name": "characters",
+   "frames": 201,
+   "seconds": 6.67,
+   "captured_fps": 30.1
+  },
+  {
+   "name": "vehicles",
+   "frames": 138,
+   "seconds": 4.57,
+   "captured_fps": 30.2
+  },
+  {
+   "name": "map",
+   "frames": 156,
+   "seconds": 5.17,
+   "captured_fps": 30.2
+  }
+ ],
+ "exe": "target/release/gta6-hq.exe",
+ "args": "",
+ "width": 1920,
+ "height": 1080,
+ "captured": "2026-11-12 15:10"
+}

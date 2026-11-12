@@ -1,0 +1,5 @@
+{"clips": [
+ {"name": "warmup", "save": false, "steps": [{"wait": 3}]},
+ {"name": "installer", "steps": [{"wait": 3.5}, {"eval": "document.getElementById('install').click()"}, {"wait": 12.0},
+   {"eval": "[...document.querySelectorAll('.step.is-on')].map(e => e.id)", "print": true}]}
+]}

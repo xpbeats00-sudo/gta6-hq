@@ -1,0 +1,81 @@
+{
+ "claims": [
+  {
+   "id": "c1",
+   "kind": "fact",
+   "text": "The studio has 8 automated audits.",
+   "source": "video/engine/audits.py",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "video/engine/audits.py",
+    "needle": "ORDER = ['facts', 'script', 'storyboard', 'licence', 'technical', 'visual', 'audio', 'captions']"
+   }
+  },
+  {
+   "id": "c2",
+   "kind": "fact",
+   "text": "The studio renders 3 output formats: 16:9, 9:16 and 1:1.",
+   "source": "video/engine/config.py",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "video/engine/config.py",
+    "needle": "FORMATS = {'16x9': (1920, 1080), '9x16': (1080, 1920), '1x1': (1080, 1080)}"
+   }
+  },
+  {
+   "id": "c3",
+   "kind": "fact",
+   "text": "The studio has templates for 7 kinds of video.",
+   "source": "video/engine/config.py",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "video/engine/config.py",
+    "needle": "KINDS = ['cinematic-trailer', 'documentary', 'game-trailer', 'tutorial', 'explainer',"
+   }
+  },
+  {
+   "id": "c4",
+   "kind": "fact",
+   "text": "The renderer has 4 transition styles.",
+   "source": "video/engine/render.py",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "video/engine/render.py",
+    "needle": "TRANSITIONS = {'crossfade': t_crossfade, 'flash': t_flash, 'push': t_push, 'slant': t_slant}"
+   }
+  },
+  {
+   "id": "c5",
+   "kind": "fact",
+   "text": "The footage in scene s03 is a test pattern generated with FFmpeg.",
+   "source": "video/productions/studio-test/production-log.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "video/productions/studio-test/production-log.md",
+    "needle": "mandelbrot"
+   }
+  },
+  {
+   "id": "c6",
+   "kind": "fact",
+   "text": "The narration is test narration from a synthetic voice, not a recorded voice-over.",
+   "source": "video/productions/studio-test/audio.json",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "video/productions/studio-test/audio.json",
+    "needle": "\"engine\": \"sapi\""
+   }
+  },
+  {
+   "id": "c7",
+   "kind": "fact",
+   "text": "The pipeline order is research, script, storyboard, audio, render, audit.",
+   "source": "video/docs/VIDEO-STUDIO-MASTER-PLAN.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "video/docs/VIDEO-STUDIO-MASTER-PLAN.md",
+    "needle": "Research, fact check, creative direction, script, storyboard, asset generation, voiceover, sound design, editing, rendering, independent QA, final delivery."
+   }
+  }
+ ]
+}

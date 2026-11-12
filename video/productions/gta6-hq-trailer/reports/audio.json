@@ -1,0 +1,66 @@
+{
+ "audit": "audio",
+ "verdict": "PASS",
+ "generated": "2026-11-12 15:16",
+ "checks": [
+  {
+   "name": "Audio stream present",
+   "status": "PASS",
+   "detail": "aac, 2 channels"
+  },
+  {
+   "name": "No clipped samples",
+   "status": "PASS",
+   "detail": "0 samples at full scale; sample peak -2.23 dBFS"
+  },
+  {
+   "name": "Programme loudness on target",
+   "status": "PASS",
+   "detail": "-14.3 LUFS integrated; target -14.0 within 1.5 LU, loudness range 9.8 LU"
+  },
+  {
+   "name": "True peak below the ceiling",
+   "status": "PASS",
+   "detail": "-2.2 dBTP; ceiling -1.0 dBTP"
+  },
+  {
+   "name": "No long silence",
+   "status": "PASS",
+   "detail": "none of 2.0s or longer below -50 dB"
+  },
+  {
+   "name": "Mix length matches the video",
+   "status": "PASS",
+   "detail": "mix 60.51s, video 60.50s"
+  },
+  {
+   "name": "Every cut lands on a bar line",
+   "status": "PASS",
+   "detail": "11 cuts, each within one frame of a bar line at 135 BPM"
+  },
+  {
+   "name": "Measured music tempo matches the beat grid",
+   "status": "PASS",
+   "detail": "measured 135.01 BPM in the music stem, grid uses 135"
+  },
+  {
+   "name": "Measured beats line up with the grid",
+   "status": "PASS",
+   "detail": "beats in the music fall 20 ms from the grid (limit 70 ms, under two frames)"
+  },
+  {
+   "name": "Narration timing",
+   "status": "SKIP",
+   "detail": "this production has no narration"
+  },
+  {
+   "name": "Music stays under narration",
+   "status": "SKIP",
+   "detail": "this production has no narration"
+  }
+ ],
+ "facts": {
+  "lufs": -14.3,
+  "true_peak": -2.2
+ }
+}

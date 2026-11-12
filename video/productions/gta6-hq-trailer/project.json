@@ -1,0 +1,304 @@
+{
+ "meta": {
+  "title": "GTA 6 HQ trailer",
+  "kind": "game-trailer",
+  "format": "16x9",
+  "fps": 30,
+  "fade_in": 0.4,
+  "fade_out": 0.8,
+  "beat": {
+   "bpm": 135,
+   "first_bar_at": 0.0
+  },
+  "must_say": [
+   "unofficial",
+   "fan project"
+  ],
+  "must_not_say": [
+   "official app",
+   "release date",
+   "leak"
+  ]
+ },
+ "captions": {
+  "burn_in": true
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "type": "footage",
+   "src": "footage/splash.mp4",
+   "start": 0.2,
+   "until_bar": 3,
+   "duration": 0,
+   "badge": "Unofficial fan project",
+   "caption": "GTA 6 HQ is an unofficial fan encyclopedia for Windows.",
+   "claims": [
+    "c1"
+   ],
+   "transition": {
+    "type": "crossfade",
+    "duration": 0.5
+   },
+   "speed": 1.35,
+   "shade": false
+  },
+  {
+   "id": "s02",
+   "type": "title",
+   "until_bar": 6,
+   "duration": 0,
+   "kicker": "Unofficial fan project",
+   "title": "GTA 6 HQ",
+   "subtitle": "A fan-made encyclopedia and Field Manual for Grand Theft Auto VI",
+   "caption": "An encyclopedia and a Field Manual in one app.",
+   "claims": [
+    "c1"
+   ],
+   "impact": false,
+   "transition": {
+    "type": "flash",
+    "duration": 0.4
+   }
+  },
+  {
+   "id": "s03",
+   "type": "footage",
+   "src": "footage/home.mp4",
+   "start": 1.7,
+   "until_bar": 8,
+   "duration": 0,
+   "badge": "Unofficial fan project",
+   "caption": "The Home page has a live wallpaper and a countdown.",
+   "claims": [
+    "c2"
+   ],
+   "transition": {
+    "type": "slant",
+    "duration": 0.4
+   },
+   "lower_third": {
+    "title": "Home",
+    "at": 0.35,
+    "lift": 520
+   },
+   "zoom": [
+    1.0,
+    1.03
+   ]
+  },
+  {
+   "id": "s04",
+   "type": "footage",
+   "src": "footage/encyclopedia.mp4",
+   "start": 0.4,
+   "until_bar": 10,
+   "duration": 0,
+   "badge": "Unofficial fan project",
+   "caption": "73 entries in 12 categories.",
+   "claims": [
+    "c3"
+   ],
+   "transition": {
+    "type": "push",
+    "duration": 0.4
+   },
+   "lower_third": {
+    "title": "Encyclopedia",
+    "at": 0.35
+   }
+  },
+  {
+   "id": "s05",
+   "type": "footage",
+   "src": "footage/characters.mp4",
+   "start": 1.4,
+   "until_bar": 12,
+   "duration": 0,
+   "badge": "Unofficial fan project",
+   "caption": "Character pages list their sources.",
+   "claims": [
+    "c3"
+   ],
+   "transition": {
+    "type": "crossfade",
+    "duration": 0.4
+   },
+   "lower_third": {
+    "title": "Characters",
+    "at": 0.35
+   }
+  },
+  {
+   "id": "s06",
+   "type": "footage",
+   "src": "footage/map.mp4",
+   "start": 0.3,
+   "until_bar": 14,
+   "duration": 0,
+   "badge": "Unofficial fan project",
+   "caption": "A zoomable map with 15 markers.",
+   "claims": [
+    "c4",
+    "c12"
+   ],
+   "transition": {
+    "type": "flash",
+    "duration": 0.4
+   },
+   "lower_third": {
+    "title": "Map of Leonida",
+    "at": 0.35
+   }
+  },
+  {
+   "id": "s07",
+   "type": "footage",
+   "src": "footage/manual.mp4",
+   "start": 0.8,
+   "until_bar": 18,
+   "duration": 0,
+   "badge": "Unofficial fan project",
+   "caption": "A 38-page Field Manual with two-page spreads.",
+   "claims": [
+    "c5"
+   ],
+   "transition": {
+    "type": "slant",
+    "duration": 0.5
+   },
+   "lower_third": {
+    "title": "Field Manual",
+    "at": 0.35
+   }
+  },
+  {
+   "id": "s08",
+   "type": "stats",
+   "until_bar": 21,
+   "duration": 0,
+   "heading": "By the numbers",
+   "badge": "Unofficial fan project",
+   "stats": [
+    {
+     "value": 73,
+     "label": "encyclopedia entries"
+    },
+    {
+     "value": 12,
+     "label": "categories"
+    },
+    {
+     "value": 38,
+     "label": "Field Manual pages"
+    },
+    {
+     "value": 23,
+     "label": "sources in the registry"
+    }
+   ],
+   "source": "Counted from the app's own data",
+   "claims": [
+    "c3",
+    "c5",
+    "c6"
+   ],
+   "transition": {
+    "type": "crossfade",
+    "duration": 0.4
+   }
+  },
+  {
+   "id": "s09",
+   "type": "footage",
+   "src": "footage/vehicles.mp4",
+   "start": 0.3,
+   "until_bar": 23,
+   "duration": 0,
+   "badge": "Unofficial fan project",
+   "caption": "Every entry carries a confidence label.",
+   "claims": [
+    "c3"
+   ],
+   "transition": {
+    "type": "flash",
+    "duration": 0.4
+   },
+   "lower_third": {
+    "title": "Vehicles",
+    "at": 0.35
+   }
+  },
+  {
+   "id": "s10",
+   "type": "footage",
+   "src": "footage/installer.mp4",
+   "start": 2.8,
+   "until_bar": 26,
+   "duration": 0,
+   "badge": "Unofficial fan project",
+   "caption": "It installs for your user account only. No administrator access needed.",
+   "claims": [
+    "c8"
+   ],
+   "transition": {
+    "type": "slant",
+    "duration": 0.5
+   },
+   "speed": 1.25,
+   "mode": "window",
+   "heading": "Its own installer",
+   "crop": [
+    0,
+    0,
+    964,
+    620
+   ]
+  },
+  {
+   "id": "s11",
+   "type": "title",
+   "until_bar": 29,
+   "duration": 0,
+   "kicker": "Download for Windows",
+   "title": "GTA 6 HQ",
+   "subtitle": "github.com/xpbeats00-sudo/gta6-hq",
+   "badge": "Unofficial fan project",
+   "caption": "Download it from GitHub.",
+   "claims": [
+    "c9"
+   ],
+   "impact": false,
+   "transition": {
+    "type": "slant",
+    "duration": 0.5
+   }
+  },
+  {
+   "id": "s12",
+   "type": "credits",
+   "duration": 9.2,
+   "heading": "An unofficial fan project",
+   "lines": [
+    [
+     "Music",
+     "livelyfe, prod. vairaaa"
+    ],
+    [
+     "Pictures and video in the app",
+     "Rockstar Games"
+    ],
+    [
+     "Map",
+     "GTA VI mapping community via gtadb.org, CC BY 4.0"
+    ]
+   ],
+   "notice": "Not published, approved or endorsed by Rockstar Games or Take-Two Interactive.",
+   "claims": [
+    "c10",
+    "c11",
+    "c12"
+   ]
+  }
+ ]
+}

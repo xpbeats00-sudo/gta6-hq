@@ -1,0 +1,76 @@
+{
+ "meta": {
+  "title": "Studio test video",
+  "kind": "explainer",
+  "format": "16x9",
+  "fps": 30,
+  "fade_in": 0.4,
+  "fade_out": 0.6,
+  "must_say": ["unofficial", "test narration"],
+  "must_not_say": ["official app", "release date"]
+ },
+ "captions": {"burn_in": true},
+ "scenes": [
+  {
+   "id": "s01", "type": "title", "duration": 5.5,
+   "kicker": "GTA 6 HQ video studio",
+   "title": "Studio test",
+   "subtitle": "A test video made end to end by the pipeline. The voice is test narration.",
+   "badge": "Unofficial fan project",
+   "narration": "This is test narration for the video studio.",
+   "narration_at": 1.0,
+   "claims": ["c6"],
+   "transition": {"type": "slant", "duration": 0.6}
+  },
+  {
+   "id": "s02", "type": "stats", "duration": 9.0,
+   "heading": "What this test exercises",
+   "stats": [
+    {"value": 8, "label": "automated audits"},
+    {"value": 3, "label": "output formats"},
+    {"value": 7, "label": "kinds of video"},
+    {"value": 4, "label": "transition styles"}
+   ],
+   "source": "Counted from the studio's own code",
+   "badge": "Unofficial fan project",
+   "narration": "The studio runs eight audits, renders three formats, and has templates for seven kinds of video.",
+   "claims": ["c1", "c2", "c3", "c4"],
+   "transition": {"type": "crossfade", "duration": 0.5}
+  },
+  {
+   "id": "s03", "type": "footage", "duration": 6.5, "mode": "window",
+   "src": "footage/test-pattern.mp4", "start": 0.5,
+   "heading": "Footage scene",
+   "lower_third": {"title": "Generated test pattern", "text": "Made with FFmpeg, so the studio owns it", "at": 0.8},
+   "badge": "Unofficial fan project",
+   "narration": "This scene plays a generated test pattern as footage.",
+   "claims": ["c5"],
+   "transition": {"type": "push", "duration": 0.6}
+  },
+  {
+   "id": "s04", "type": "card", "duration": 8.0,
+   "heading": "The pipeline",
+   "items": [
+    "Research and fact check",
+    "Script and storyboard",
+    "Audio, captions and render",
+    "Independent quality audit"
+   ],
+   "badge": "Unofficial fan project",
+   "narration": "Every production goes from research to script, storyboard, audio, render and audit.",
+   "claims": ["c7"],
+   "transition": {"type": "flash", "duration": 0.5}
+  },
+  {
+   "id": "s05", "type": "credits", "duration": 9.0,
+   "heading": "Credits",
+   "lines": [
+    ["Picture", "drawn by the studio renderer"],
+    ["Music and effects", "original, synthesised by the studio"],
+    ["Voice", "test narration from a built-in synthetic voice"]
+   ],
+   "notice": "Unofficial fan project. Not affiliated with or endorsed by Rockstar Games or Take-Two Interactive.",
+   "no_claims": true
+  }
+ ]
+}

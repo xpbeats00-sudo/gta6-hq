@@ -1,0 +1,44 @@
+1
+00:00:00,300 --> 00:00:05,083
+GTA 6 HQ is an unofficial
+fan encyclopedia for Windows.
+
+2
+00:00:05,483 --> 00:00:10,467
+An encyclopedia and a
+Field Manual in one app.
+
+3
+00:00:10,867 --> 00:00:14,022
+The Home page has a live
+wallpaper and a countdown.
+
+4
+00:00:14,422 --> 00:00:17,578
+73 entries in 12 categories.
+
+5
+00:00:17,978 --> 00:00:21,133
+Character pages list their sources.
+
+6
+00:00:21,533 --> 00:00:24,689
+A zoomable map with 15 markers.
+
+7
+00:00:25,089 --> 00:00:31,750
+A 38-page Field Manual
+with two-page spreads.
+
+8
+00:00:37,533 --> 00:00:40,689
+Every entry carries a confidence label.
+
+9
+00:00:41,089 --> 00:00:45,972
+It installs for your user account
+only. No administrator access needed.
+
+10
+00:00:46,372 --> 00:00:51,306
+Download it from GitHub.
