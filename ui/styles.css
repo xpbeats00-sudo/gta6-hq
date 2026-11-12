@@ -176,7 +176,7 @@ code { font-size: 0.9em; color: var(--text-secondary); }
 .window-controls button:focus-visible { outline: 2px solid var(--accent-pink); outline-offset: -3px; }
 .window-controls .icon-restore, .is-maximized .window-controls .icon-max { display: none; }
 .is-maximized .window-controls .icon-restore { display: block; }
-.is-desktop .topbar, .is-desktop .announce { user-select: none; }
+.is-desktop .topbar, .is-desktop .announce, .is-desktop #splash { user-select: none; }
 
 /* Invisible strips that resize the frameless window; off while it is maximised */
 .resize-edge { position: fixed; z-index: 200; }
@@ -303,6 +303,18 @@ main { flex: 1; outline: none; }
 
 .hero { position: relative; min-height: min(calc(100vh - var(--bar) - var(--announce)), 900px); display: grid; align-items: end; overflow: hidden; background: var(--bg-deep); }
 .hero-video, .place-hero > img, .place-hero > svg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+/* two stacked wallpaper layers that cross-fade into each other */
+.hero-video { opacity: 0; transition: opacity 1.4s ease; }
+.hero-video.is-on { opacity: 1; }
+
+/* Still pictures are given slow, continuous movement so the pages feel live */
+@keyframes drift-a { from { transform: scale(1.02) translate(-1%, 0); } to { transform: scale(1.1) translate(1.5%, -1.5%); } }
+@keyframes drift-b { from { transform: scale(1.1) translate(1.5%, 1%); } to { transform: scale(1.02) translate(-1%, -0.5%); } }
+.place-hero > img { animation: drift-a 28s ease-in-out infinite alternate; }
+.profile-portrait img { animation: drift-b 24s ease-in-out infinite alternate; }
+.card-media img, .topic-media img, .tile img { animation: drift-a 22s ease-in-out infinite alternate; }
+.grid > :nth-child(even) .card-media img, .index > :nth-child(even) .topic-media img, .gallery > :nth-child(even) img { animation-name: drift-b; animation-duration: 26s; }
+.grid > :nth-child(3n) .card-media img, .index > :nth-child(3n) .topic-media img, .gallery > :nth-child(3n) img { animation-delay: -9s; }
 .hero-shade {
   position: absolute;
   inset: 0;
@@ -544,11 +556,10 @@ a.card:hover h3 { color: var(--accent-pink); }
 .tile-video:hover .play, .tile-video:focus-visible .play { opacity: 0; }
 .broken { display: grid; place-items: center; width: 100%; height: 100%; min-height: 120px; color: var(--text-muted); font-size: 0.85rem; background: var(--bg-panel); }
 
-.lightbox { position: fixed; inset: 0; z-index: 90; display: grid; grid-template-rows: 1fr auto; place-items: center; padding: var(--s6); background: rgba(8, 7, 19, 0.96); }
+.lightbox { position: fixed; inset: 0; z-index: 90; display: grid; grid-template-rows: 1fr auto; place-items: center; padding: var(--s6); background: rgba(8, 7, 19, 0.97); backdrop-filter: blur(10px); }
 .lightbox[hidden] { display: none; }
-.lightbox-stage img, .lightbox-stage video { max-width: 100%; max-height: calc(100vh - 130px); border: 1px solid var(--border-subtle); }
-/* small crops (the manual's frames of the game's display) are enlarged to be readable */
-.lightbox-stage img.is-enlarged { width: min(86vw, 1100px); height: auto; max-height: calc(100vh - 130px); object-fit: contain; }
+.lightbox-stage { display: grid; place-items: center; min-height: 0; }
+.lightbox-stage img, .lightbox-stage video { display: block; max-width: 100%; max-height: calc(100vh - 150px); border: 4px solid var(--cover-ink); box-shadow: 0 0 0 1px rgba(255, 143, 184, 0.4), 0 24px 60px rgba(0, 0, 0, 0.6); }
 .lightbox-caption .rights:empty { display: none; }
 .lightbox-caption { margin: var(--s4) 0 0; display: flex; flex-wrap: wrap; gap: var(--s2) var(--s4); align-items: center; justify-content: center; font-size: 0.85rem; }
 .lightbox-caption b { font: 700 0.9rem var(--font-display); letter-spacing: 0.14em; text-transform: uppercase; }
@@ -679,6 +690,11 @@ body[data-page='map'] .footer { display: none; }
   #view.is-leaving { transition: opacity 0.19s ease, transform 0.19s ease !important; }
   #view.is-entering { transition: none !important; }
   .rail { transition: opacity 0.5s ease !important; }
+  .hero-video { transition: opacity 1.4s ease !important; }
+  .place-hero > img { animation: drift-a 28s ease-in-out infinite alternate !important; }
+  .profile-portrait img { animation: drift-b 24s ease-in-out infinite alternate !important; }
+  .card-media img, .topic-media img, .tile img { animation: drift-a 22s ease-in-out infinite alternate !important; }
+  .grid > :nth-child(even) .card-media img, .index > :nth-child(even) .topic-media img, .gallery > :nth-child(even) img { animation: drift-b 26s ease-in-out infinite alternate !important; }
   .splash-coin { animation: splash-spin 2.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite !important; }
   .head-card img { transition: transform 1.1s cubic-bezier(0.22, 0.8, 0.26, 1) !important; }
   .head-card img.is-above { transition: none !important; }

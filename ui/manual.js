@@ -349,9 +349,17 @@
       const title = label || entry?.querySelector('h3')?.textContent.trim()
         || (caption ? caption.textContent.replace(credit, '').trim() : '') || img.alt || 'Picture';
       openLightbox({ type: 'image', src: img.getAttribute('src'), alt: img.alt || title, title, rights: '', credit }, null);
-      // Small crops of the game's display are enlarged so they can be read.
+      // Small crops of the game's display are enlarged so they can be read, but never beyond what
+      // fits the window, and always to the picture's own shape so its frame hugs it.
       const shown = document.querySelector('#lightbox .lightbox-stage img');
-      const size = () => shown.classList.toggle('is-enlarged', shown.naturalWidth > 0 && shown.naturalWidth < 900);
+      const size = () => {
+        const w = shown.naturalWidth, h = shown.naturalHeight;
+        if (!w || !h) return;
+        const fit = Math.min((window.innerWidth * 0.86) / w, (window.innerHeight - 150) / h);
+        const scale = Math.min(fit, w < 900 ? 2.4 : 1);
+        shown.style.width = `${Math.round(w * scale)}px`;
+        shown.style.height = `${Math.round(h * scale)}px`;
+      };
       if (shown.complete) size(); else shown.addEventListener('load', size, { once: true });
     });
     root.querySelector('[data-action="copy"]').addEventListener('click', async (e) => {

@@ -511,8 +511,9 @@ function renderHome() {
 
   view.innerHTML = `
     <section class="hero" aria-label="${esc(game.title)}">
-      <video class="hero-video" src="/wallpapers/gta-vi-couple-on-muscle-car-pastel-palms.mp4"
-        poster="/images/muscle-car-pastel-palms.jpg" autoplay muted loop playsinline aria-hidden="true"></video>
+      <video class="hero-video is-on" src="${HERO_WALLPAPERS[0]}"
+        poster="/images/muscle-car-pastel-palms.jpg" autoplay muted playsinline aria-hidden="true"></video>
+      <video class="hero-video" muted playsinline preload="auto" aria-hidden="true"></video>
       <div class="hero-shade"></div>
       <div class="hero-content">
         <span class="kicker">Unofficial fan encyclopedia</span>
@@ -597,18 +598,52 @@ function renderHome() {
 
   startCountdown(game.releaseDate);
 
-  // Hero video: let people pause it.
-  const video = view.querySelector('.hero-video');
+  // Hero: every live wallpaper in turn, for as long as the page is open. Two video layers sit on
+  // top of each other; shortly before one clip ends the next starts underneath and they cross-fade,
+  // so there is never a cut or a black frame.
+  const layers = [...view.querySelectorAll('.hero-video')];
   const pause = view.querySelector('.hero-pause');
+  let front = 0;     // which layer is showing
+  let playing = 0;   // which wallpaper it is playing
+  let switching = false;
+  const upNext = () => {
+    const next = layers[1 - front];
+    // Loaded and ready, but not playing until its turn.
+    next.autoplay = false;
+    next.src = HERO_WALLPAPERS[(playing + 1) % HERO_WALLPAPERS.length];
+    next.load();
+  };
+  const crossFade = () => {
+    if (switching || !layers[0].isConnected) return;
+    switching = true;
+    const from = layers[front], to = layers[1 - front];
+    to.currentTime = 0;
+    to.play().catch(() => {});
+    to.classList.add('is-on');
+    from.classList.remove('is-on');
+    front = 1 - front;
+    playing = (playing + 1) % HERO_WALLPAPERS.length;
+    setTimeout(() => { from.pause(); switching = false; upNext(); }, HERO_FADE_MS + 100);
+  };
+  layers.forEach((layer) => {
+    layer.addEventListener('timeupdate', () => {
+      if (layer === layers[front] && layer.duration && layer.duration - layer.currentTime <= HERO_FADE_MS / 1000 + 0.3) crossFade();
+    });
+    layer.addEventListener('ended', () => { if (layer === layers[front]) crossFade(); });
+    // A wallpaper that will not play is skipped, never left as a black screen.
+    layer.addEventListener('error', () => { if (layer === layers[front]) crossFade(); });
+  });
+  upNext();
   const setPaused = (paused) => {
+    const video = layers[front];
     if (paused) video.pause(); else video.play().catch(() => {});
     pause.setAttribute('aria-pressed', String(paused));
     pause.setAttribute('aria-label', paused ? 'Play background video' : 'Pause background video');
     pause.textContent = paused ? '▶' : '❚❚';
   };
-  // The live wallpaper always plays on arrival (the owner's choice); the
-  // button is how anyone who prefers a still picture stops it.
-  pause.addEventListener('click', () => setPaused(!video.paused));
+  // The live wallpapers always play on arrival (the owner's choice); the
+  // button is how anyone who prefers a still picture stops them.
+  pause.addEventListener('click', () => setPaused(!layers[front].paused));
   view.querySelector('.scroll-cue').addEventListener('click', (e) => {
     e.preventDefault();
     document.getElementById('facts').scrollIntoView({ behavior: 'smooth' });
@@ -1447,6 +1482,16 @@ document.getElementById('nav-search').addEventListener('submit', (e) => {
 // ---------- shell: announcement bar and menu ----------
 
 /** One line above the header, derived from the configured release date (never hard-coded). */
+// The live wallpapers shown on Home, in the order they play.
+const HERO_WALLPAPERS = [
+  '/wallpapers/gta-vi-couple-on-muscle-car-pastel-palms.mp4',
+  '/wallpapers/jason-and-lucia-vice-city-sunset-gta-vi.mp4',
+  '/wallpapers/gta-vi-pier-showdown-jason-lucia.mp4',
+  '/wallpapers/gta-6-dawn-of-the-heist.mp4',
+  '/wallpapers/gta-vi-pink-neon-logo-reflection.mp4',
+];
+const HERO_FADE_MS = 1400;
+
 /** Offer a newer release if GitHub has one. Dismissing it is remembered for that version. */
 async function checkForUpdate() {
   let status;
@@ -1504,8 +1549,9 @@ if (window.ipc?.postMessage) {
     if (button) send(button.dataset.window);
   });
 
-  // Drag the window by any empty part of the two bars; double-click to maximise or restore.
-  const onBar = (e) => e.target.closest('.topbar, .announce') && !e.target.closest('a, button, input, form, .window-controls');
+  // Drag the window by any empty part of the two bars, or anywhere on the splash screen while it
+  // is showing (it covers the bars); double-click to maximise or restore.
+  const onBar = (e) => e.target.closest('.topbar, .announce, #splash') && !e.target.closest('a, button, input, form, .window-controls');
   document.addEventListener('mousedown', (e) => { if (e.button === 0 && e.detail === 1 && onBar(e)) send('drag'); });
   document.addEventListener('dblclick', (e) => { if (onBar(e)) send('maximize'); });
 
