@@ -217,10 +217,10 @@
 
 .m-entry.has-image { grid-template-columns: 50px 1fr; }
 .m-entry.has-image .m-figure { grid-column: 1 / -1; margin-bottom: 9px; }
-.m-entry.has-image .m-figure a { display: block; overflow: hidden; }
+.m-entry.has-image .m-figure { overflow: hidden; }
 /* Tall portraits are cropped from near the top, where the face is; wide pictures fit as they are */
 .m-entry.has-image .m-figure img { aspect-ratio: 16 / 9; object-position: center 10%; transition: transform 0.35s ease; }
-.m-entry.has-image .m-figure a:hover img { transform: scale(1.03); }
+.m-entry.has-image .m-figure:hover img { transform: scale(1.03); }
 
 .m-gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 18px 20px; align-items: start; }
 .m-gallery .m-entry { grid-template-columns: 42px 1fr; padding-bottom: 12px; border-bottom: 1px solid var(--manual-dotted); }

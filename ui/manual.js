@@ -133,7 +133,7 @@
         return `<p class="m-para">${badge(b.evidence)} ${esc(b.text)}${refs(b.sources, notes)}</p>`;
       case 'numbered':
         return `<section class="m-entry${b.image ? ' has-image' : ''}">
-          ${b.image ? `<figure class="m-figure"><a href="${esc(b.link || '#/manual')}" tabindex="-1" aria-hidden="true"><img src="${esc(b.image)}" alt="" loading="lazy"></a></figure>` : ''}
+          ${b.image ? `<figure class="m-figure"><img src="${esc(b.image)}" alt="${esc(b.title)}" loading="lazy"></figure>` : ''}
           <span class="m-numeral" aria-hidden="true">${esc(b.n)}</span>
           <div class="m-entry-body">
             <h3>${b.link ? `<a href="${esc(b.link)}">${esc(b.title)}</a>` : esc(b.title)}</h3>
@@ -335,6 +335,16 @@
       store.set('theme', store.get('theme') === 'night' ? 'paper' : 'night');
       draw();
     });
+    // Every picture can also be reached with Tab and opened with Enter or Space.
+    root.querySelectorAll('.m-page img').forEach((img) => {
+      img.tabIndex = 0;
+      img.setAttribute('role', 'button');
+      img.setAttribute('aria-label', `View full screen: ${img.alt || 'picture'}`);
+    });
+    root.addEventListener('keydown', (e) => {
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.matches?.('.m-page img')) { e.preventDefault(); e.target.click(); }
+    });
+
     // Click any picture on a page to see it full screen. On an entry's picture this replaces
     // following its link; the entry's title and "Open the full entry" still go to the entry.
     root.addEventListener('click', (e) => {
@@ -348,7 +358,7 @@
       const label = img.closest('.m-pair div')?.querySelector('span')?.textContent.trim();
       const title = label || entry?.querySelector('h3')?.textContent.trim()
         || (caption ? caption.textContent.replace(credit, '').trim() : '') || img.alt || 'Picture';
-      openLightbox({ type: 'image', src: img.getAttribute('src'), alt: img.alt || title, title, rights: '', credit }, null);
+      openLightbox({ type: 'image', src: img.getAttribute('src'), alt: img.alt || title, title, rights: '', credit }, img);
       // Small crops of the game's display are enlarged so they can be read, but never beyond what
       // fits the window, and always to the picture's own shape so its frame hugs it.
       const shown = document.querySelector('#lightbox .lightbox-stage img');

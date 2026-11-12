@@ -87,12 +87,27 @@ fn request_is_local(headers: &HeaderMap) -> bool {
     host_ok && origin_ok
 }
 
+/// What a page served by the app may load: only the app's own files. Scripts
+/// must be files in `ui/` (nothing inline, nothing from elsewhere), so text
+/// that somehow reached a page unescaped still could not run as code. Inline
+/// styles are allowed because the interface sets them.
+const CONTENT_SECURITY_POLICY: &str = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';      img-src 'self' data: blob:; media-src 'self'; connect-src 'self'; font-src 'self' data:;      object-src 'none'; base-uri 'none'; form-action 'self'; frame-ancestors 'none'";
+
 async fn local_only(request: Request, next: Next) -> Response {
-    if request_is_local(request.headers()) {
-        next.run(request).await
-    } else {
-        StatusCode::FORBIDDEN.into_response()
+    if !request_is_local(request.headers()) {
+        return StatusCode::FORBIDDEN.into_response();
     }
+    let mut response = next.run(request).await;
+    let headers = response.headers_mut();
+    headers.insert(
+        header::CONTENT_SECURITY_POLICY,
+        HeaderValue::from_static(CONTENT_SECURITY_POLICY),
+    );
+    // Files are used as the type they are served as, never guessed from their contents.
+    headers.insert(header::X_CONTENT_TYPE_OPTIONS, HeaderValue::from_static("nosniff"));
+    // Links that open in the browser do not carry the app's address with them.
+    headers.insert(header::REFERRER_POLICY, HeaderValue::from_static("no-referrer"));
+    response
 }
 
 /// The current wiki. Checking whether files changed touches the disk, so it
@@ -260,6 +275,17 @@ mod local_only_tests {
         assert!(!request_is_local(&headers(&[(header::HOST, "evil.example:51234")])));
         assert!(!request_is_local(&headers(&[(header::HOST, "127.0.0.1.evil.example")])));
         assert!(!request_is_local(&headers(&[])));
+    }
+
+    #[test]
+    fn the_policy_allows_only_the_apps_own_scripts() {
+        assert!(CONTENT_SECURITY_POLICY.contains("script-src 'self';"));
+        assert!(CONTENT_SECURITY_POLICY.contains("object-src 'none'"));
+        assert!(CONTENT_SECURITY_POLICY.contains("frame-ancestors 'none'"));
+        assert!(!CONTENT_SECURITY_POLICY.contains("unsafe-eval"));
+        // The only inline allowance is for styles.
+        assert_eq!(CONTENT_SECURITY_POLICY.matches("'unsafe-inline'").count(), 1);
+        assert!(HeaderValue::from_str(CONTENT_SECURITY_POLICY).is_ok());
     }
 
     #[test]

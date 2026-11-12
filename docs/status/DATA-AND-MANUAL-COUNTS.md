@@ -1,6 +1,6 @@
 # Data and manual counts
 
-Generated 2026-11-12 11:40 by `scripts/current_state.py` from the live data files. Do not edit by hand.
+Generated 2026-11-12 11:54 by `scripts/current_state.py` from the live data files. Do not edit by hand.
 
 ## Encyclopedia
 
@@ -57,4 +57,4 @@ Records in `data/media.json`: 114.
 | permission_required | 100 |
 | unknown | 14 |
 
-Files on disk: `images/` 108 (21.7 MB), `wallpapers/` 6 (21.2 MB). Map tile cache: 758 files (115.6 MB).
+Files on disk: `images/` 108 (21.7 MB), `wallpapers/` 6 (21.2 MB). Map tile cache: 1097 files (224.0 MB).

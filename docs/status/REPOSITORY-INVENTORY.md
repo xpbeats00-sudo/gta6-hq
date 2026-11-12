@@ -1,6 +1,6 @@
 # Repository inventory
 
-Generated 2026-11-12 11:40 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-12 11:54 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
@@ -11,11 +11,11 @@ Generated 2026-11-12 11:40 by `scripts/current_state.py`. Do not edit by hand.
 | `wallpapers/` | 6 | 21.2 MB |
 | `docs/` | 213 | 105.6 MB |
 | `scripts/` | 4 | 0.0 MB |
-| `cache/` | 758 | 115.6 MB |
+| `cache/` | 1097 | 224.0 MB |
 | `backups/` | 71 | 113.0 MB |
 | `staging/` | 1 | 0.0 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 1659 | 773.1 MB |
+| `target/release/` | 1663 | 773.1 MB |
 
 ## Source files
 
@@ -27,14 +27,14 @@ Generated 2026-11-12 11:40 by `scripts/current_state.py`. Do not edit by hand.
 | `src/main.rs` | 145 |
 | `src/media.rs` | 279 |
 | `src/search.rs` | 624 |
-| `src/server.rs` | 273 |
+| `src/server.rs` | 299 |
 | `src/tiles.rs` | 125 |
 | `src/update.rs` | 247 |
 | `src/validate.rs` | 1285 |
 | `src/window.rs` | 275 |
 | `ui/app.js` | 1614 |
 | `ui/art.js` | 83 |
-| `ui/manual.js` | 403 |
+| `ui/manual.js` | 413 |
 | `ui/manual.css` | 271 |
 | `ui/styles.css` | 701 |
 | `ui/index.html` | 109 |
