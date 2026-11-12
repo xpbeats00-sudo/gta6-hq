@@ -1,0 +1,32 @@
+name: Announce release on Discord
+
+# Posts one card in the Discord releases channel each time a release is published.
+# Needs a repository secret named DISCORD_BOT_TOKEN. Nothing runs on a timer.
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: discord-release
+  cancel-in-progress: false
+
+jobs:
+  announce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            scripts/discord_announce_release.py
+            discord/server-plan.json
+            data/update.json
+          sparse-checkout-cone-mode: false
+      - name: Post the release card
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: python3 scripts/discord_announce_release.py --apply

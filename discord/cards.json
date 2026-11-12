@@ -1,0 +1,87 @@
+{
+  "_about": "The welcome and rules cards. scripts/discord_cards.py turns the bot's own posts in each channel into these, in order, editing in place. <#name> becomes a link to that channel. Colours are the app's sunset palette.",
+  "welcome": {
+    "banner": "welcome-banner.gif",
+    "cards": [
+      {
+        "title": "🌴 Welcome to Grand Theft Auto VI HQ",
+        "text": "The community for **GTA 6 HQ**, an unofficial fan encyclopedia and field manual for Grand Theft Auto VI.",
+        "color": "#ee3f7c",
+        "banner": true
+      },
+      {
+        "title": "⚠️ Fan-made, not official",
+        "text": "This server and the app are made by fans. They are not run, approved or endorsed by Rockstar Games or Take-Two Interactive.",
+        "color": "#f7a13c"
+      },
+      {
+        "title": "🖥️ Get the app",
+        "text": "Free for Windows. The encyclopedia, the map and the Field Manual in one window.\n\n**[Download the latest version](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)**",
+        "color": "#a56bff"
+      },
+      {
+        "title": "🧭 Where to go",
+        "text": "📜 Read the rules in <#rules>\n🚀 New versions of the app appear in <#releases>\n💬 Talk about the game in <#general>\n✏️ Found a wrong fact? Post it with a source in <#corrections>",
+        "color": "#ee3f7c"
+      },
+      {
+        "title": "🛟 Something not working?",
+        "text": "Ask in <#app-help>, report it in <#bug-reports>, or share an idea in <#suggestions>.",
+        "color": "#f7a13c",
+        "footer": "GTA 6 HQ is an unofficial fan project"
+      }
+    ]
+  },
+  "rules": {
+    "banner": "rules-banner.gif",
+    "cards": [
+      {
+        "title": "📜 Rules",
+        "text": "Seven rules. Read them before you post.",
+        "color": "#ee3f7c",
+        "banner": true
+      },
+      {
+        "title": "1. Be decent",
+        "text": "No harassment, hate, slurs or personal attacks.",
+        "color": "#f7a13c"
+      },
+      {
+        "title": "2. No leaks",
+        "text": "Do not post or link leaked or stolen material: builds, source code, unreleased footage or documents. Official trailers, screenshots and interviews are fine.",
+        "color": "#a56bff"
+      },
+      {
+        "title": "3. No spoilers outside the spoiler channels",
+        "text": "Story details go in the spoiler channels, and behind spoiler tags in images.",
+        "color": "#ee3f7c"
+      },
+      {
+        "title": "4. No piracy, cheats or account selling",
+        "text": "That includes modded accounts, money drops and cracked copies.",
+        "color": "#f7a13c"
+      },
+      {
+        "title": "5. Say where facts come from",
+        "text": "In <#corrections> and <#news-and-trailers>, link your source. Label guesses as guesses.",
+        "color": "#a56bff"
+      },
+      {
+        "title": "6. No spam or self-promotion",
+        "text": "Not without a moderator's say-so.",
+        "color": "#ee3f7c"
+      },
+      {
+        "title": "7. Keep it legal and within Discord's rules",
+        "text": "[Discord's community guidelines](https://discord.com/guidelines) apply here too.",
+        "color": "#f7a13c"
+      },
+      {
+        "title": "🛡️ Moderation",
+        "text": "Moderators may remove posts or members to keep the server usable. Questions about a decision go to a moderator in private, not in public channels.",
+        "color": "#a56bff",
+        "footer": "GTA 6 HQ is an unofficial fan project"
+      }
+    ]
+  }
+}

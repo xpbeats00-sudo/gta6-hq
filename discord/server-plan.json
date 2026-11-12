@@ -1,0 +1,305 @@
+{
+  "_about": "The layout of the GTA 6 HQ Discord server. scripts/discord_setup.py reads this and creates, renames, moves and reorders to match; it never deletes anything. Channels and categories are matched ignoring their emoji prefix, so changing an emoji renames the channel. Edit this file and run the script again to change the server. A role's emoji is shown in front of its name on the server; everywhere in this file roles are named without it.",
+  "guild_name": "Grand Theft Auto VI HQ",
+  "roles": [
+    {
+      "name": "Owner",
+      "emoji": "👑",
+      "color": "#f7a13c",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": [],
+      "note": "The server owner. Shown first in the member list."
+    },
+    {
+      "name": "Admin",
+      "emoji": "⚡",
+      "color": "#ee3f7c",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": [
+        "MANAGE_GUILD",
+        "MANAGE_CHANNELS",
+        "MANAGE_ROLES",
+        "MANAGE_WEBHOOKS",
+        "KICK_MEMBERS",
+        "BAN_MEMBERS",
+        "MANAGE_MESSAGES",
+        "MODERATE_MEMBERS",
+        "MANAGE_THREADS",
+        "VIEW_AUDIT_LOG",
+        "MANAGE_NICKNAMES",
+        "MENTION_EVERYONE"
+      ]
+    },
+    {
+      "name": "Head Moderator",
+      "emoji": "🛡️",
+      "color": "#a56bff",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": [
+        "KICK_MEMBERS",
+        "BAN_MEMBERS",
+        "MANAGE_MESSAGES",
+        "MODERATE_MEMBERS",
+        "MANAGE_THREADS",
+        "VIEW_AUDIT_LOG",
+        "MANAGE_NICKNAMES",
+        "MENTION_EVERYONE"
+      ]
+    },
+    {
+      "name": "Moderator",
+      "emoji": "🔨",
+      "color": "#7c3fd6",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": [
+        "KICK_MEMBERS",
+        "BAN_MEMBERS",
+        "MANAGE_MESSAGES",
+        "MODERATE_MEMBERS",
+        "MANAGE_THREADS",
+        "VIEW_AUDIT_LOG",
+        "MANAGE_NICKNAMES"
+      ]
+    },
+    {
+      "name": "VIP",
+      "emoji": "💎",
+      "color": "#ff5a7a",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": [],
+      "note": "Given by hand to supporters and friends of the server."
+    },
+    {
+      "name": "Contributor",
+      "emoji": "✏️",
+      "color": "#f7a13c",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": [],
+      "note": "Given by hand to people whose sourced corrections went into the app."
+    },
+    {
+      "name": "Member",
+      "emoji": "🌴",
+      "color": "#4fa3ff",
+      "hoist": true,
+      "mentionable": false,
+      "permissions": [],
+      "note": "Given by hand, or later by a bot, to people who have joined in."
+    },
+    {
+      "name": "App Updates",
+      "emoji": "🚀",
+      "color": "#ffc46b",
+      "hoist": false,
+      "mentionable": true,
+      "permissions": [],
+      "note": "Opt-in: pinged when a new version of the app is released."
+    },
+    {
+      "name": "Spoilers",
+      "emoji": "⚠️",
+      "color": "#8f86a0",
+      "hoist": false,
+      "mentionable": false,
+      "permissions": [],
+      "note": "Opt-in: unlocks the spoiler channels."
+    }
+  ],
+  "categories": [
+    {
+      "name": "📌 | Start Here",
+      "channels": [
+        {
+          "name": "「👋」welcome",
+          "type": "text",
+          "read_only": true,
+          "topic": "What this server is and where to begin.",
+          "post": "welcome"
+        },
+        {
+          "name": "「📜」rules",
+          "type": "text",
+          "read_only": true,
+          "topic": "Read these before posting.",
+          "post": "rules"
+        },
+        {
+          "name": "「📢」announcements",
+          "type": "text",
+          "read_only": true,
+          "topic": "News about the server and the app, from the staff."
+        }
+      ]
+    },
+    {
+      "name": "🖥️ | GTA 6 HQ App",
+      "channels": [
+        {
+          "name": "「🚀」releases",
+          "type": "text",
+          "read_only": true,
+          "topic": "Every new version of the GTA 6 HQ app, posted automatically from GitHub."
+        },
+        {
+          "name": "「🛟」app-help",
+          "type": "text",
+          "topic": "Trouble installing or running the app? Ask here."
+        },
+        {
+          "name": "「🐛」bug-reports",
+          "type": "text",
+          "topic": "Something broken? Say which version, what you did and what happened. Screenshots help."
+        },
+        {
+          "name": "「💡」suggestions",
+          "type": "text",
+          "topic": "Ideas for the app."
+        },
+        {
+          "name": "「✏️」corrections",
+          "type": "text",
+          "topic": "A fact in the encyclopedia or Field Manual is wrong or missing. Always include your source."
+        }
+      ]
+    },
+    {
+      "name": "🌴 | Grand Theft Auto VI",
+      "channels": [
+        {
+          "name": "「💬」general",
+          "type": "text",
+          "topic": "Talk about the game. No spoilers here: use the spoiler channels."
+        },
+        {
+          "name": "「📰」news-and-trailers",
+          "type": "text",
+          "topic": "Official news, trailers and interviews. Link the source."
+        },
+        {
+          "name": "「📸」screenshots-and-clips",
+          "type": "text",
+          "topic": "Your screenshots and clips. Mark anything from the story as a spoiler."
+        },
+        {
+          "name": "「🗺️」map-and-locations",
+          "type": "text",
+          "topic": "Leonida, Vice City and where to find things."
+        },
+        {
+          "name": "「🔮」theories",
+          "type": "text",
+          "topic": "Speculation, clearly labelled as speculation."
+        }
+      ]
+    },
+    {
+      "name": "⚠️ | Spoilers",
+      "visible_to": [
+        "Spoilers",
+        "Head Moderator",
+        "Moderator",
+        "Admin",
+        "Owner"
+      ],
+      "channels": [
+        {
+          "name": "「🎬」story-spoilers",
+          "type": "text",
+          "topic": "Open spoilers for the story. You chose to be here."
+        },
+        {
+          "name": "「🎯」missions-and-help",
+          "type": "text",
+          "topic": "Stuck on a mission? Ask and answer here."
+        }
+      ]
+    },
+    {
+      "name": "🎉 | Community",
+      "channels": [
+        {
+          "name": "「🙋」introductions",
+          "type": "text",
+          "topic": "Say hello."
+        },
+        {
+          "name": "「☕」off-topic",
+          "type": "text",
+          "topic": "Anything that is not GTA."
+        },
+        {
+          "name": "「🤖」bot-commands",
+          "type": "text",
+          "topic": "Use bot commands here, so other channels stay clear."
+        }
+      ]
+    },
+    {
+      "name": "🔊 | Voice",
+      "channels": [
+        {
+          "name": "「🔶」Lounge",
+          "type": "voice",
+          "was": "General"
+        },
+        {
+          "name": "「🔶」Watch Party",
+          "type": "voice"
+        }
+      ]
+    },
+    {
+      "name": "🛡️ | Staff",
+      "visible_to": [
+        "Head Moderator",
+        "Moderator",
+        "Admin",
+        "Owner"
+      ],
+      "channels": [
+        {
+          "name": "「🛡️」mod-chat",
+          "type": "text",
+          "topic": "Staff only."
+        },
+        {
+          "name": "「📋」mod-log",
+          "type": "text",
+          "topic": "Staff only: actions taken and why."
+        }
+      ]
+    }
+  ],
+  "posts": {
+    "welcome": [
+      "# Welcome to Grand Theft Auto VI HQ",
+      "This is the community for **GTA 6 HQ**, an unofficial fan encyclopedia and field manual for Grand Theft Auto VI.",
+      "**This server and the app are fan-made.** They are not run, approved or endorsed by Rockstar Games or Take-Two Interactive.",
+      "**Get the app:** https://github.com/xpbeats00-sudo/gta6-hq/releases/latest",
+      "**Where to go**\n- Read the rules in <#rules>\n- New versions of the app appear in <#releases>\n- Talk about the game in <#general>\n- Found a wrong fact? Post it with a source in <#corrections>"
+    ],
+    "rules": [
+      "# Rules",
+      "**1. Be decent.** No harassment, hate, slurs or personal attacks.",
+      "**2. No leaks.** Do not post or link leaked or stolen material: builds, source code, unreleased footage or documents. Official trailers, screenshots and interviews are fine.",
+      "**3. No spoilers outside the spoiler channels.** Story details go in the spoiler channels, and behind spoiler tags in images.",
+      "**4. No piracy, cheats or account selling.** That includes modded accounts, money drops and cracked copies.",
+      "**5. Say where facts come from.** In <#corrections> and <#news-and-trailers>, link your source. Label guesses as guesses.",
+      "**6. No spam or self-promotion** without a moderator's say-so.",
+      "**7. Keep it legal and within Discord's rules.** https://discord.com/guidelines",
+      "Moderators may remove posts or members to keep the server usable. Questions about a decision go to a moderator in private, not in public channels."
+    ]
+  },
+  "staff_roles": [
+    "Owner",
+    "Admin",
+    "Head Moderator",
+    "Moderator"
+  ]
+}
