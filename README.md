@@ -5,7 +5,7 @@
 **An unofficial Grand Theft Auto VI encyclopedia and field manual for Windows.**
 Sourced, labelled by how well each fact is supported, and built as a small Rust desktop app.
 
-<img src="docs/media/splash.gif" alt="The app opening: the VI logo draws itself while a ring fills and a percentage counts up" width="860">
+<img src="docs/media/splash.svg" alt="The app opening: the VI logo draws itself while a ring fills and a percentage counts up" width="860">
 
 [**Download for Windows**](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) · [What's inside](#whats-inside) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
 
@@ -27,7 +27,7 @@ When a newer version is published, the app shows a notice with a link. Nothing d
 
 ## What's inside
 
-<img src="docs/media/tabs.gif" alt="Moving between Home, Encyclopedia, Characters, Vehicles, Media and Locations, with picture cards sliding down the side margins" width="860">
+<img src="docs/media/tabs.svg" alt="Moving between Home, Encyclopedia, Characters, Vehicles, Media and Locations, with picture cards sliding down the side margins" width="860">
 
 | | |
 |---|---|
@@ -55,7 +55,7 @@ When a newer version is published, the app shows a notice with a link. Nothing d
 
 ## The Field Manual
 
-<img src="docs/media/manual.gif" alt="Turning pages of the Field Manual, opening a picture full screen, and switching to night reading" width="860">
+<img src="docs/media/manual.svg" alt="Turning pages of the Field Manual, opening a picture full screen, and switching to night reading" width="860">
 
 Ten chapters, written like the manual that used to come in the box:
 
