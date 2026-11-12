@@ -32,7 +32,7 @@ def get(path):
 
 
 plan = json.load(open(os.path.join(ROOT, 'discord', 'server-plan.json'), encoding='utf-8'))
-guild = next(g for g in get('/users/@me/guilds') if g['name'] == plan['guild_name'])
+guild = next((g for g in get('/users/@me/guilds') if g['id'] == plan['guild_id']), None) or sys.exit('The bot is not in the server named by guild_id in discord/server-plan.json.')
 gid = guild['id']
 roles = get(f'/guilds/{gid}/roles')
 channels = get(f'/guilds/{gid}/channels')

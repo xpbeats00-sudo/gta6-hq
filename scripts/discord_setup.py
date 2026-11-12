@@ -95,10 +95,11 @@ def main():
         guild, roles, channels = {'id': '0', 'name': plan['guild_name']}, [], []
     else:
         guilds = call('GET', '/users/@me/guilds')
-        wanted = plan.get('guild_id')
-        guild = next((g for g in guilds if g['id'] == wanted or (not wanted and g['name'] == plan['guild_name'])), None)
+        # The server is chosen by its fixed id, never by name: a name can be copied by another server.
+        guild = next((g for g in guilds if g['id'] == plan.get('guild_id')), None)
         if not guild:
-            sys.exit(f"The bot is not in a server called \"{plan['guild_name']}\". It is in: " + (', '.join(g['name'] for g in guilds) or 'none'))
+            sys.exit('The bot is not in the server named by guild_id in discord/server-plan.json. It is in: '
+                     + (', '.join(f"{g['name']} ({g['id']})" for g in guilds) or 'none'))
         roles = call('GET', f"/guilds/{guild['id']}/roles")
         channels = call('GET', f"/guilds/{guild['id']}/channels")
     gid = guild['id']

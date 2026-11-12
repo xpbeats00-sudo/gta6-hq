@@ -64,7 +64,7 @@ def base(name):
 
 plan = json.load(open(os.path.join(ROOT, 'discord', 'server-plan.json'), encoding='utf-8'))
 cards = json.load(open(os.path.join(ROOT, 'discord', 'cards.json'), encoding='utf-8'))
-guild = next(g for g in call('GET', '/users/@me/guilds') if g['name'] == plan['guild_name'])
+guild = next((g for g in call('GET', '/users/@me/guilds') if g['id'] == plan['guild_id']), None) or sys.exit('The bot is not in the server named by guild_id in discord/server-plan.json.')
 me = call('GET', '/users/@me')['id']
 channel_id = {base(c['name']): c['id'] for c in call('GET', f"/guilds/{guild['id']}/channels") if c['type'] == 0}
 link = lambda text: re.sub(r'<#([a-z-]+)>', lambda m: f"<#{channel_id[m.group(1)]}>" if m.group(1) in channel_id else '#' + m.group(1), text)

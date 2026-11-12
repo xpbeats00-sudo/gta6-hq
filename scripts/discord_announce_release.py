@@ -85,7 +85,7 @@ card = {
     'footer': {'text': 'GTA 6 HQ is an unofficial fan project'},
 }
 plan = json.load(open(os.path.join(ROOT, 'discord', 'server-plan.json'), encoding='utf-8'))
-guild = next(g for g in discord('GET', '/users/@me/guilds') if g['name'] == plan['guild_name'])
+guild = next((g for g in discord('GET', '/users/@me/guilds') if g['id'] == plan['guild_id']), None) or sys.exit('The bot is not in the server named by guild_id in discord/server-plan.json.')
 channel = next(c['id'] for c in discord('GET', f"/guilds/{guild['id']}/channels") if c['type'] in (0, 5) and base(c['name']) == 'releases')
 role = next((r['id'] for r in discord('GET', f"/guilds/{guild['id']}/roles") if r['name'].endswith('App Updates')), None)
 

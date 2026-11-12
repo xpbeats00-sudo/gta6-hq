@@ -1,6 +1,7 @@
 {
-  "_about": "The layout of the GTA 6 HQ Discord server. scripts/discord_setup.py reads this and creates, renames, moves and reorders to match; it never deletes anything. Channels and categories are matched ignoring their emoji prefix, so changing an emoji renames the channel. Edit this file and run the script again to change the server. A role's emoji is shown in front of its name on the server; everywhere in this file roles are named without it.",
+  "_about": "The layout of the GTA 6 HQ Discord server. scripts/discord_setup.py reads this and creates, renames, moves and reorders to match; it never deletes anything. Channels and categories are matched ignoring their emoji prefix, so changing an emoji renames the channel. Edit this file and run the script again to change the server. A role's emoji is shown in front of its name on the server; everywhere in this file roles are named without it. The server is chosen by guild_id, never by name.",
   "guild_name": "Grand Theft Auto VI HQ",
+  "guild_id": "1570330812908441600",
   "roles": [
     {
       "name": "Owner",

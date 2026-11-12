@@ -1,7 +1,7 @@
 name: Announce release on Discord
 
 # Posts one card in the Discord releases channel each time a release is published.
-# Needs a repository secret named DISCORD_BOT_TOKEN. Nothing runs on a timer.
+# Needs a repository secret named GTA6HQTOKEN (the Discord bot token). Nothing runs on a timer.
 on:
   release:
     types: [published]
@@ -28,5 +28,5 @@ jobs:
           sparse-checkout-cone-mode: false
       - name: Post the release card
         env:
-          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_BOT_TOKEN: ${{ secrets.GTA6HQTOKEN }}
         run: python3 scripts/discord_announce_release.py --apply
