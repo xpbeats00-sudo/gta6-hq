@@ -89,6 +89,7 @@ Click any picture to see it full screen.
 
 ## What's new
 
+**0.2.4**: a new setup window in the app's look, Discord invitations on Home and above the footer, and click-to-reveal spoilers.
 **0.2.3**: a link to the [community Discord server](https://discord.gg/YhMHr8N4an) in the top bar, on Home and in the footer.
 **0.2.2**: stricter security for the app's pages, and manual pictures can be opened from the keyboard.
 **0.2.1**: Home plays every live wallpaper in turn, pictures drift slowly, and the full-screen picture viewer is fixed.
