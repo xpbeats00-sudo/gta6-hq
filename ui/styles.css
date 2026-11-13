@@ -172,6 +172,70 @@ code { font-size: 0.9em; color: var(--text-secondary); }
 .community-link svg circle { fill: currentColor; stroke: none; }
 .community-link:hover, .community-link:focus-visible { background: rgba(255, 255, 255, 0.18); border-color: #fff; }
 @media (max-width: 1180px) { .community-link span { display: none; } .community-link { padding: 6px 8px; } }
+.scroll-cue[hidden] { display: none; }
+/* Police lights while updating: only light, as a background down each side.
+   - The edge is a narrow band of hot light right at the window's side. It bursts three times,
+     the way a patrol car's LEDs do. It is narrow, so its fast flashing covers very little.
+   - The wash is that light thrown across the page. It is large, so it never snaps: it swells
+     and fades with each burst, a little over once a second.
+   The two sides are opposite each other: red left while blue right, then swapped.
+   --cop-a is a side's first colour, --cop-b its second. */
+.police-lights { position: fixed; inset: calc(var(--bar) + var(--announce)) 0 0 0; z-index: 90; pointer-events: none; opacity: 0; transition: opacity 0.5s ease; overflow: hidden; }
+body.is-wanted .police-lights { opacity: 1; }
+.copside { position: absolute; top: 0; bottom: 0; width: min(46vw, 700px); --red: 255, 30, 52; --blue: 36, 104, 255; }
+.copside-left { left: 0; --cop-a: var(--red); --cop-b: var(--blue); --away: 90deg; }
+.copside-right { right: 0; --cop-a: var(--blue); --cop-b: var(--red); --away: 270deg; }
+.copside i { position: absolute; top: 0; bottom: 0; opacity: 0; mix-blend-mode: screen; }
+.wash { left: 0; right: 0; background: linear-gradient(var(--away), rgba(var(--c), 0.85) 0%, rgba(var(--c), 0.42) 14%, rgba(var(--c), 0.16) 44%, rgba(var(--c), 0) 100%); }
+.edge { width: 64px; background: linear-gradient(var(--away), rgba(255, 255, 255, 0.95) 0%, rgba(var(--c), 1) 16%, rgba(var(--c), 0.55) 52%, rgba(var(--c), 0) 100%); filter: blur(6px); }
+.copside-left .edge { left: -8px; }
+.copside-right .edge { right: -8px; }
+.wash-a, .edge-a { --c: var(--cop-a); }
+.wash-b, .edge-b { --c: var(--cop-b); }
+
+/* One cycle is 0.96 s: a side's first colour bursts in the first half, its second in the other. */
+body.is-wanted .edge-a { animation: cop-burst 0.96s linear infinite; }
+body.is-wanted .edge-b { animation: cop-burst 0.96s linear infinite 0.48s; }
+body.is-wanted .wash-a { animation: cop-wash 0.96s ease-in-out infinite; }
+body.is-wanted .wash-b { animation: cop-wash 0.96s ease-in-out infinite 0.48s; }
+/* The side picture columns take the light too. */
+body.is-wanted .rail-left { animation: cop-rail-left 0.96s ease-in-out infinite; }
+body.is-wanted .rail-right { animation: cop-rail-right 0.96s ease-in-out infinite; }
+@keyframes cop-burst {
+  0% { opacity: 0.06; } 3% { opacity: 1; } 9% { opacity: 0.2; } 15% { opacity: 1; } 21% { opacity: 0.2; }
+  27% { opacity: 1; } 38% { opacity: 0.06; } 100% { opacity: 0.06; }
+}
+@keyframes cop-wash { 0% { opacity: 0.06; } 16% { opacity: 0.95; } 46% { opacity: 0.1; } 100% { opacity: 0.06; } }
+@keyframes cop-rail-left {
+  0%, 100% { filter: drop-shadow(0 0 22px rgba(255, 30, 52, 0.95)); } 50% { filter: drop-shadow(0 0 22px rgba(36, 104, 255, 0.95)); }
+}
+@keyframes cop-rail-right {
+  0%, 100% { filter: drop-shadow(0 0 22px rgba(36, 104, 255, 0.95)); } 50% { filter: drop-shadow(0 0 22px rgba(255, 30, 52, 0.95)); }
+}
+}
+/* Updating: Home's hero is the stage. The wallpaper stays; the title and countdown give way to the ring. */
+.hero.is-updating .hero-shade { background: linear-gradient(90deg, rgba(11, 10, 22, 0.94) 0%, rgba(11, 10, 22, 0.78) 44%, rgba(11, 10, 22, 0.3) 100%), linear-gradient(0deg, rgba(11, 10, 22, 0.85), rgba(11, 10, 22, 0) 55%); }
+.hero.is-updating .hero-content { max-width: 900px; }
+.update-stage { display: flex; align-items: center; gap: var(--s6); animation: update-in 0.5s ease both; }
+.update-dial { position: relative; flex: none; width: 176px; height: 176px; perspective: 800px; }
+.update-dial::before { content: ''; position: absolute; inset: -28%; border-radius: 50%; background: radial-gradient(closest-side, rgba(238, 63, 124, 0.38), rgba(124, 63, 214, 0.18) 55%, transparent 75%); animation: update-pulse 4.5s ease-in-out infinite alternate; }
+.update-dial svg { position: absolute; inset: 0; transform: rotate(-90deg); }
+.update-dial circle { fill: none; stroke-width: 3; }
+.update-ring { stroke: url(#update-sunset); stroke-linecap: round; transition: stroke-dashoffset 0.3s ease; filter: drop-shadow(0 0 6px rgba(238, 63, 124, 0.7)); }
+.update-coin { position: absolute; inset: 36px; transform-style: preserve-3d; animation: splash-spin 2.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite; }
+.update-coin img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.update-coin img + img { transform: rotateY(180deg); }
+.update-copy { min-width: 0; }
+.update-percent { margin: var(--s3) 0 var(--s2); font: 700 4rem/1 var(--font-display); letter-spacing: 0.04em; background: var(--sunset); -webkit-background-clip: text; background-clip: text; color: transparent; width: fit-content; }
+.update-step { min-height: 1.6em; margin: 0; color: var(--text-secondary); font-size: 1.05rem; }
+.update-actions { min-height: 44px; }
+.hero.is-failed .update-coin { animation-play-state: paused; }
+.hero.is-failed .update-step { color: var(--danger); }
+.update-toast .btn-primary { flex: none; }
+@media (max-width: 760px) { .update-stage { flex-direction: column; align-items: flex-start; } .update-dial { width: 132px; height: 132px; } .update-coin { inset: 27px; } }
+@keyframes update-in { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: none; } }
+@keyframes update-pulse { from { transform: scale(0.9); opacity: 0.7; } to { transform: scale(1.1); opacity: 1; } }
+
 /* Spoilers: covered until clicked */
 .spoiler { padding: 0 4px; border-radius: 3px; background: #2b1052; color: transparent; cursor: pointer; user-select: none; box-shadow: inset 0 0 0 1px rgba(238, 63, 124, 0.45); transition: background var(--ease), color var(--ease); }
 .spoiler:hover, .spoiler:focus-visible { background: #3a1670; outline: none; box-shadow: inset 0 0 0 1px #ee3f7c; }
@@ -725,6 +789,16 @@ body[data-page='map'] .footer { display: none; }
   #view.is-entering { transition: none !important; }
   .rail { transition: opacity 0.5s ease !important; }
   .hero-video { transition: opacity 1.4s ease !important; }
+  .update-coin { animation: splash-spin 2.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite !important; }
+  .update-dial::before { animation: update-pulse 4.5s ease-in-out infinite alternate !important; }
+  /* The police lights run here as everywhere else. Their fast flashing is confined to the narrow
+     band at each edge, and the large wash only swells and fades. */
+  body.is-wanted .edge-a { animation: cop-burst 0.96s linear infinite !important; }
+  body.is-wanted .edge-b { animation: cop-burst 0.96s linear infinite 0.48s !important; }
+  body.is-wanted .wash-a { animation: cop-wash 0.96s ease-in-out infinite !important; }
+  body.is-wanted .wash-b { animation: cop-wash 0.96s ease-in-out infinite 0.48s !important; }
+  body.is-wanted .rail-left { animation: cop-rail-left 0.96s ease-in-out infinite !important; }
+  body.is-wanted .rail-right { animation: cop-rail-right 0.96s ease-in-out infinite !important; }
   .promo-walls img { transition: opacity 1.6s ease !important; animation: drift-a 26s ease-in-out infinite alternate !important; }
   .place-hero > img { animation: drift-a 28s ease-in-out infinite alternate !important; }
   .profile-portrait img { animation: drift-b 24s ease-in-out infinite alternate !important; }

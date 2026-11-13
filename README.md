@@ -37,7 +37,7 @@ Prefer no installer? Download the portable zip from the same page, extract it an
 
 The app is not code-signed, so Windows SmartScreen may show "Windows protected your PC" the first time. Choose **More info**, then **Run anyway**. Windows 11 already includes the WebView2 runtime the app needs.
 
-When a newer version is published, the app shows a notice with a link. Nothing downloads or installs by itself.
+When a newer version is published, the app shows a notice. In an installed copy, **Update now** downloads the new setup from this page's releases, checks it against the release's checksums, and installs it while the app restarts. A portable copy gets a link to the release instead. Nothing downloads or installs unless you press the button.
 
 ## What's inside
 
@@ -89,6 +89,7 @@ Click any picture to see it full screen.
 
 ## What's new
 
+**0.2.7**: the app can update itself from Home, with police lights down the sides while it does.
 **0.2.6**: the Discord invitation on Home has a changing wallpaper, the server's icon and the Discord logo.
 **0.2.5**: Setup no longer leaves a stray folder beside the setup file.
 **0.2.4**: a new setup window in the app's look, Discord invitations on Home and above the footer, and click-to-reveal spoilers.
@@ -124,7 +125,7 @@ No. It is a fan project, not published, approved or endorsed by Rockstar Games o
 <details>
 <summary><b>How do I update?</b></summary>
 
-When a newer version exists, the app shows a notice with a link. Download the new setup and run it; it installs over the old version. Nothing updates by itself.
+When a newer version exists, the app shows a notice. From version 0.2.7, an installed copy can update itself: press **Update now** and the app downloads the new setup, checks it, closes, updates and opens again. On an older version or a portable copy, download the new setup or zip from the releases page; the setup installs over the old version. Nothing updates unless you ask.
 </details>
 
 <details>

@@ -4,7 +4,7 @@
 
 const send = (message) => window.ipc && window.ipc.postMessage(message);
 const $ = (id) => document.getElementById(id);
-const info = window.SETUP || { version: '', walls: [], cards: [] };
+const info = window.SETUP || { version: '', walls: [], cards: [], update: false };
 
 // ---- window: drag by the bar, minimise, close
 document.addEventListener('mousedown', (e) => {
@@ -59,7 +59,8 @@ const install = () => {
   progress(0);
   show('work');
   $('close').disabled = true;
-  send('install:' + ($('desktop').checked ? '1' : '0'));
+  // An update keeps the last install's choices; a first install uses the tick box.
+  send('install:' + (info.update ? 'u' : $('desktop').checked ? '1' : '0'));
 };
 $('install').addEventListener('click', install);
 $('retry').addEventListener('click', install);
@@ -67,7 +68,13 @@ $('retry').addEventListener('click', install);
 // Called by the program.
 window.setup = {
   progress,
-  done() { progress(100); $('close').disabled = false; setTimeout(() => show('done'), 500); },
+  done() {
+    progress(100);
+    $('close').disabled = false;
+    // After an update the app simply reopens; a first install shows the finished page.
+    if (info.update) { $('work-title').textContent = 'Updated. Opening GTA 6 HQ'; setTimeout(() => send('finish:10'), 1100); }
+    else setTimeout(() => show('done'), 500);
+  },
   failed(reason) { $('close').disabled = false; $('fail-text').textContent = reason; show('fail'); },
 };
 
@@ -79,6 +86,12 @@ promo.addEventListener('keydown', (e) => { if (e.key === ' ' || e.key === 'Enter
 const finish = (openApp) => send(`finish:${openApp ? 1 : 0}${promo.getAttribute('aria-checked') === 'true' ? 1 : 0}`);
 $('open').addEventListener('click', () => finish(true));
 $('finish').addEventListener('click', () => finish(false));
+
+// ---- started by the app to update itself: go straight to installing
+if (info.update) {
+  $('work-title').textContent = 'Updating GTA 6 HQ' + (info.version ? ' to ' + info.version : '');
+  install();
+}
 
 // ---- the notice
 fetch('notice.txt').then((r) => r.text()).then((text) => { $('notice').textContent = text; });

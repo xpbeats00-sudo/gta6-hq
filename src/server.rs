@@ -50,6 +50,9 @@ pub fn router(state: AppState) -> Router {
         .route("/api/manual", get(manual))
         .route("/api/presence", post(presence).get(presence_status))
         .route("/api/update", get(update_status))
+        .route("/api/update/download", post(update_download))
+        .route("/api/update/progress", get(update_progress))
+        .route("/api/update/install", post(update_install))
         .route("/tiles/{z}/{y}/{file}", get(tile))
         .nest_service("/images", ServeDir::new(root.join("images")))
         .nest_service("/wallpapers", ServeDir::new(root.join("wallpapers")))
@@ -222,9 +225,49 @@ async fn presence(State(state): State<AppState>, Json(update): Json<PresenceUpda
 /// Whether a newer release exists. The check asks GitHub, so it runs off the async threads.
 async fn update_status(State(state): State<AppState>) -> Response {
     let root = state.root.clone();
-    match tokio::task::spawn_blocking(move || update::status(&root)).await {
+    let checked = tokio::task::spawn_blocking(move || {
+        let mut status = update::status(&root);
+        // Only a copy that Setup installed can update itself; a portable copy gets the link.
+        status["can_install"] =
+            Value::Bool(update::installed(&root) && status["setup"].is_string() && status["sums"].is_string());
+        status
+    });
+    match checked.await {
         Ok(status) => Json(status).into_response(),
         Err(_) => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
+    }
+}
+
+/// Start downloading the newest release's setup program. The address comes from GitHub's
+/// own answer, never from the request.
+async fn update_download(State(state): State<AppState>) -> Response {
+    let root = state.root.clone();
+    match tokio::task::spawn_blocking(move || update::start_download(&root)).await {
+        Ok(progress) => Json(progress).into_response(),
+        Err(_) => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
+    }
+}
+
+async fn update_progress() -> Json<Value> {
+    Json(update::progress())
+}
+
+/// Run the downloaded, checked setup program and close the app so it can be replaced.
+async fn update_install() -> Response {
+    match update::install() {
+        Ok(()) => {
+            // Give this answer time to reach the page before the app goes.
+            std::thread::spawn(|| {
+                std::thread::sleep(std::time::Duration::from_millis(600));
+                std::process::exit(0);
+            });
+            Json(serde_json::json!({"started": true})).into_response()
+        }
+        Err(reason) => (
+            StatusCode::CONFLICT,
+            Json(serde_json::json!({"started": false, "error": reason})),
+        )
+            .into_response(),
     }
 }
 

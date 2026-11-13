@@ -2,6 +2,12 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.7 (12 November 2026)
+
+- An installed copy can update itself. "Update now" downloads the new setup from the release on GitHub, checks it against the release's checksums, then the app closes, updates and opens again. A portable copy still gets a link.
+- The update shows on Home: the hero keeps its live wallpaper and shows the progress ring.
+- While an update runs, red and blue police light plays down both sides of the window.
+
 ## 0.2.6 (12 November 2026)
 
 - The Discord invitation on Home has its own GTA VI wallpaper that changes every few seconds, the server's icon and the Discord logo.

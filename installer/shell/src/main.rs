@@ -9,6 +9,8 @@
 //! own pages instead, so setup always works.
 //!
 //! `--demo` shows the pages and a pretend installation without installing anything.
+//! `--update` is how the app updates itself: it starts installing at once, keeps the last
+//! install's choices, and reopens the app when it has finished.
 #![windows_subsystem = "windows"]
 
 use std::{
@@ -50,7 +52,7 @@ enum Msg {
     Drag,
     Minimize,
     Close,
-    Install { desktop_shortcut: bool },
+    Install { desktop_shortcut: Option<bool> },
     Progress(u8),
     Installed,
     Failed(String),
@@ -64,9 +66,12 @@ fn message(text: &str) -> Option<Msg> {
         "minimize" => Msg::Minimize,
         "close" => Msg::Close,
         "install:0" => Msg::Install {
-            desktop_shortcut: false,
+            desktop_shortcut: Some(false),
         },
-        "install:1" => Msg::Install { desktop_shortcut: true },
+        "install:u" => Msg::Install { desktop_shortcut: None },
+        "install:1" => Msg::Install {
+            desktop_shortcut: Some(true),
+        },
         "finish:00" => Msg::Finish {
             open_app: false,
             open_discord: false,
@@ -89,6 +94,8 @@ fn message(text: &str) -> Option<Msg> {
 
 fn main() {
     let demo = std::env::args().any(|a| a == "--demo");
+    // `--update`: started by the app to replace itself. Skips the first page and reopens the app.
+    let update = std::env::args().any(|a| a == "--update");
     let event_loop = EventLoopBuilder::<Msg>::with_user_event().build();
     let proxy = event_loop.create_proxy();
 
@@ -118,7 +125,7 @@ fn main() {
     let webview = WebViewBuilder::new_with_web_context(&mut context)
         .with_custom_protocol("setup".into(), |_id, request| serve(&request))
         .with_url("setup://localhost/index.html")
-        .with_initialization_script(page_info())
+        .with_initialization_script(page_info(update))
         .with_background_color(BACKGROUND)
         .with_autoplay(true)
         .with_devtools(false)
@@ -210,7 +217,7 @@ fn main() {
 // ---------- the pages and their files ----------
 
 /// What the page needs to know before it draws: the version and which pictures it carries.
-fn page_info() -> String {
+fn page_info(update: bool) -> String {
     let list = |folder: &str| {
         let names: Vec<String> = ASSETS
             .iter()
@@ -220,7 +227,7 @@ fn page_info() -> String {
         format!("[{}]", names.join(","))
     };
     format!(
-        "window.SETUP = {{ version: {}, walls: {}, cards: {} }};",
+        "window.SETUP = {{ version: {}, walls: {}, cards: {}, update: {update} }};",
         js_string(env!("APP_VERSION")),
         list("walls/"),
         list("cards/")
@@ -345,7 +352,11 @@ fn percent(copied: u32, total: u32) -> u8 {
 }
 
 /// Run the carried installer silently and report its progress from its log.
-fn install(desktop_shortcut: bool, proxy: &EventLoopProxy<Msg>, found: &Mutex<Option<PathBuf>>) -> Result<(), String> {
+fn install(
+    desktop_shortcut: Option<bool>,
+    proxy: &EventLoopProxy<Msg>,
+    found: &Mutex<Option<PathBuf>>,
+) -> Result<(), String> {
     let folder = work_folder()?;
     let result = (|| {
         let core = unpack(&folder)?;
@@ -354,10 +365,11 @@ fn install(desktop_shortcut: bool, proxy: &EventLoopProxy<Msg>, found: &Mutex<Op
         let mut child = Command::new(&core)
             .args(["/VERYSILENT", "/SUPPRESSMSGBOXES", "/NORESTART", "/CLOSEAPPLICATIONS"])
             .arg(format!("/LOG={}", log.display()))
-            .arg(if desktop_shortcut {
-                "/TASKS=desktopicon"
-            } else {
-                "/TASKS="
+            // An update passes no /TASKS, so Inno Setup keeps the choices of the last install.
+            .args(match desktop_shortcut {
+                Some(true) => Some("/TASKS=desktopicon"),
+                Some(false) => Some("/TASKS="),
+                None => None,
             })
             .spawn()
             .map_err(|e| format!("Could not start the installer: {e}"))?;
@@ -460,7 +472,13 @@ mod tests {
     #[test]
     fn only_known_messages_are_accepted() {
         assert_eq!(message("drag"), Some(Msg::Drag));
-        assert_eq!(message("install:1"), Some(Msg::Install { desktop_shortcut: true }));
+        assert_eq!(
+            message("install:1"),
+            Some(Msg::Install {
+                desktop_shortcut: Some(true)
+            })
+        );
+        assert_eq!(message("install:u"), Some(Msg::Install { desktop_shortcut: None }));
         assert_eq!(
             message("finish:10"),
             Some(Msg::Finish {

@@ -659,6 +659,7 @@ function renderHome() {
   // button is how anyone who prefers a still picture stops them.
   pause.addEventListener('click', () => setPaused(!layers[front].paused));
   startPromoWalls(view.querySelector('.promo'));
+  mountUpdateStage(view);
   view.querySelector('.scroll-cue').addEventListener('click', (e) => {
     e.preventDefault();
     document.getElementById('facts').scrollIntoView({ behavior: 'smooth' });
@@ -1592,13 +1593,158 @@ async function checkForUpdate() {
   toast.setAttribute('role', 'status');
   toast.innerHTML = `<div><strong>Version ${esc(status.latest)} is available</strong>
       <span>You have ${esc(status.current)}.</span></div>
-    <a class="btn" href="${esc(link)}" target="_blank" rel="noopener noreferrer">Get the update</a>
+    ${status.can_install
+      ? '<button type="button" class="btn btn-primary" data-update>Update now</button>'
+      : `<a class="btn" href="${esc(link)}" target="_blank" rel="noopener noreferrer">Get the update</a>`}
     <button type="button" aria-label="Dismiss update notice">×</button>`;
-  toast.querySelector('button').addEventListener('click', () => {
+  toast.querySelector('button[aria-label]').addEventListener('click', () => {
     try { localStorage.setItem(key, status.latest); } catch { /* storage unavailable */ }
     toast.remove();
   });
+  toast.querySelector('[data-update]')?.addEventListener('click', () => { toast.remove(); beginUpdate(status); });
   document.body.append(toast);
+}
+
+// ---------- updating ----------
+// Two parts. The core (`updater`) does the work and knows nothing about the page: it asks
+// the app to download the new version's setup program from the release on GitHub, follows
+// the download, and then asks the app to hand over to Setup, which closes the app, replaces
+// it and opens it again. The stage (`mountUpdateStage`) is how Home shows it: the hero's
+// own wallpaper stays and its title and countdown give way to the progress ring.
+const megabytes = (bytes) => (bytes / 1048576).toFixed(1);
+async function postJson(url) {
+  const response = await fetch(url, { method: 'POST' });
+  return response.json();
+}
+
+const updater = {
+  /** idle, downloading, checking, ready or failed. */
+  phase: 'idle',
+  /** How far along, from 0 to 1. The download is the first 92%; checking and handing over are the rest. */
+  share: 0,
+  text: '',
+  status: null,
+  listeners: new Set(),
+  get active() { return this.phase !== 'idle'; },
+  /** Call `listener(updater)` on every change. Returns a function that stops it. */
+  subscribe(listener) { this.listeners.add(listener); return () => this.listeners.delete(listener); },
+  set(change) { Object.assign(this, change); this.listeners.forEach((listener) => listener(this)); },
+  fail(reason) { this.set({ phase: 'failed', text: reason || 'The update could not be downloaded.' }); },
+  /** Put the update aside. A download already running in the app is left to finish quietly. */
+  dismiss() { this.set({ phase: 'idle', share: 0, text: '' }); },
+  async start(status) {
+    if (this.phase === 'downloading' || this.phase === 'checking' || this.phase === 'ready') return;
+    this.set({ status, phase: 'downloading', share: 0, text: 'Starting the download…' });
+    let now;
+    try { now = await postJson('/api/update/download'); } catch { this.fail('The app stopped answering.'); return; }
+    if (now.state === 'failed') { this.fail(now.error); return; }
+    this.follow();
+  },
+  async follow() {
+    while (this.active && this.phase !== 'failed') {
+      let now;
+      try { now = await getJson('/api/update/progress'); } catch { this.fail('The app stopped answering.'); return; }
+      if (now.state === 'failed') { this.fail(now.error); return; }
+      if (now.state === 'downloading') {
+        this.set({
+          phase: 'downloading',
+          share: now.total ? 0.92 * now.received / now.total : 0,
+          text: now.total ? `Downloading: ${megabytes(now.received)} of ${megabytes(now.total)} MB` : 'Downloading…',
+        });
+      } else if (now.state === 'checking') {
+        this.set({ phase: 'checking', share: 0.96, text: 'Checking the download against the release…' });
+      } else if (now.state === 'ready') {
+        this.set({ phase: 'ready', share: 1, text: 'Ready. The app will close, update and open again.' });
+        await new Promise((r) => setTimeout(r, 1200));
+        if (this.phase !== 'ready') return;
+        let started;
+        try { started = await postJson('/api/update/install'); } catch { started = { started: true }; }
+        if (started.started === false) this.fail(started.error);
+        return;
+      }
+      await new Promise((r) => setTimeout(r, 250));
+    }
+  },
+};
+
+// Police lights down both sides of the window for as long as an update is running, as if the
+// cops are on you. There is nothing to see but the light itself, as a background: red and blue
+// thrown in from each side, by turns, bursting three times at the very edge and washing over
+// the page beside it. They belong to the update, not to Home, so they stay on whichever page
+// is open, and go out when it finishes, fails or is put aside.
+const policeLights = document.createElement('div');
+policeLights.className = 'police-lights';
+policeLights.setAttribute('aria-hidden', 'true');
+policeLights.innerHTML = ['left', 'right'].map((side) => `<div class="copside copside-${side}">
+    <i class="wash wash-a"></i><i class="wash wash-b"></i>
+    <i class="edge edge-a"></i><i class="edge edge-b"></i>
+  </div>`).join('');
+document.body.append(policeLights);
+updater.subscribe((now) => {
+  document.body.classList.toggle('is-wanted', ['downloading', 'checking', 'ready'].includes(now.phase));
+});
+
+/** Begin an update and show it where it lives: on Home. */
+function beginUpdate(status) {
+  updater.start(status);
+  if (location.hash === '#/' || location.hash === '' || location.hash === '#') navigate();
+  else location.hash = '#/';
+}
+
+/** Home's hero as the update stage. Does nothing unless an update is under way. */
+function mountUpdateStage(view) {
+  const hero = view.querySelector('.hero');
+  if (!hero || !updater.active) return;
+  const status = updater.status || {};
+  const RING = 2 * Math.PI * 46;
+  hero.classList.add('is-updating');
+  hero.querySelector('.hero-content').innerHTML = `
+    <div class="update-stage" role="status" aria-live="polite">
+      <div class="update-dial">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <defs><linearGradient id="update-sunset" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#ffc46b"/><stop offset="0.55" stop-color="#ee3f7c"/><stop offset="1" stop-color="#8b3fd9"/>
+          </linearGradient></defs>
+          <circle class="ring-track" cx="50" cy="50" r="46"/>
+          <circle class="update-ring" cx="50" cy="50" r="46"/>
+        </svg>
+        <div class="update-coin"><img src="/images/gta6.png" alt=""><img src="/images/gta6.png" alt=""></div>
+      </div>
+      <div class="update-copy">
+        <span class="kicker">Version ${esc(status.current || '')} to ${esc(status.latest || '')}</span>
+        <h1 class="hero-title">Updating GTA 6 HQ</h1>
+        <p class="update-percent">0%</p>
+        <p class="update-step"></p>
+        <div class="hero-actions update-actions"></div>
+      </div>
+    </div>`;
+  const cue = hero.querySelector('.scroll-cue');
+  if (cue) cue.hidden = true;
+  const ring = hero.querySelector('.update-ring');
+  const percent = hero.querySelector('.update-percent');
+  const step = hero.querySelector('.update-step');
+  const actions = hero.querySelector('.update-actions');
+  ring.style.strokeDasharray = RING;
+  let shown = '';
+  const draw = () => {
+    if (!hero.isConnected) { stop(); return; }
+    if (!updater.active) { stop(); navigate(); return; }  // put aside: Home returns to normal
+    ring.style.strokeDashoffset = RING * (1 - updater.share);
+    percent.textContent = Math.round(updater.share * 100) + '%';
+    step.textContent = updater.text;
+    hero.classList.toggle('is-failed', updater.phase === 'failed');
+    // The buttons change only when the phase does, so a click is never lost to a redraw.
+    if (shown === updater.phase) return;
+    shown = updater.phase;
+    const link = status.url || status.download;
+    actions.innerHTML = updater.phase === 'failed'
+      ? `${link ? `<a class="btn btn-primary" href="${esc(link)}" target="_blank" rel="noopener noreferrer">Open the release page</a>` : ''}
+         <button type="button" class="btn" data-dismiss>Back to Home</button>`
+      : updater.phase === 'ready' ? '' : '<button type="button" class="btn" data-dismiss>Not now</button>';
+    actions.querySelector('[data-dismiss]')?.addEventListener('click', () => updater.dismiss());
+  };
+  const stop = updater.subscribe(draw);
+  draw();
 }
 
 function setupAnnouncement(game) {
