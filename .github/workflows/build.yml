@@ -69,7 +69,9 @@ jobs:
         # and the picture of the screen must not be blank.
         run: |
           mkdir -p shots
-          dbus-run-session -- xvfb-run -a -s "-screen 0 1440x900x24" bash -c '
+          # Drawn at twice the pixel density (a 1440 x 900 window on a 2880 x 1800 screen) so the picture is sharp.
+          export GDK_SCALE=2
+          dbus-run-session -- xvfb-run -a -s "-screen 0 2880x1800x24" bash -c '
             ./target/release/gta6-hq 2> shots/stderr-linux.txt & pid=$!
             sleep 25
             kill -0 $pid || { echo "the app is not running"; cat shots/stderr-linux.txt; exit 1; }

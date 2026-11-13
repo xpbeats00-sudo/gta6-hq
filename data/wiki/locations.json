@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "leonida-penitentiary",
+    "name": "Leonida Penitentiary",
+    "region": "State of Leonida",
+    "summary": "The prison Lucia Caminos has just left when the story begins.",
+    "body": [
+      "Rockstar's profile of Lucia says fighting for her family landed her in the Leonida Penitentiary, and sheer luck got her out. Where it stands on the map has not been published."
+    ],
+    "facts": {
+      "type": "Prison"
+    },
+    "related": [
+      "characters/lucia-caminos"
+    ],
+    "tags": [
+      "prison",
+      "lucia",
+      "jail"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-leonida"
+    ],
+    "verified": "2026-11-12"
+  }
+]

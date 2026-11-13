@@ -14,7 +14,8 @@
       { "label": "Developer", "value": "Rockstar Games" },
       { "label": "Setting", "value": "Vice City, State of Leonida" },
       { "label": "Protagonists", "value": "Lucia Caminos · Jason Duval" },
-      { "label": "Price", "value": "$79.99 Standard · $99.99 Ultimate" }
+      { "label": "Price", "value": "$79.99 Standard · $99.99 Ultimate" },
+      { "label": "Rating", "value": "ESRB Mature 17+" }
     ]
   },
 
@@ -41,7 +42,9 @@
     "g6w-map": { "title": "GTA 6 Wiki: community map", "publisher": "gta6-wiki.org (GTA VI mapping community via gtadb.org, CC BY 4.0)", "url": "https://gta6-wiki.org/map/", "type": "community", "accessed": "2026-11-11" },
     "rockstar-music": { "title": "Grand Theft Auto VI official music page", "publisher": "Rockstar Games", "url": "https://www.rockstargames.com/VI/music", "type": "official", "accessed": "2026-11-12" },
     "g6w-editions": { "title": "GTA 6 Wiki: editions", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/editions/", "type": "secondary", "accessed": "2026-11-12" },
-    "g6w-music": { "title": "GTA 6 Wiki: music and radio", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/music/", "type": "secondary", "accessed": "2026-11-12" }
+    "g6w-music": { "title": "GTA 6 Wiki: music and radio", "publisher": "gta6-wiki.org", "url": "https://gta6-wiki.org/music/", "type": "secondary", "accessed": "2026-11-12" },
+    "rockstar-leonida": { "title": "Grand Theft Auto VI: Only in Leonida", "publisher": "Rockstar Games", "url": "https://www.rockstargames.com/VI/only-in-leonida", "type": "official", "accessed": "2026-11-12" },
+    "playstation-vi": { "title": "Grand Theft Auto VI on PlayStation 5", "publisher": "Sony Interactive Entertainment", "url": "https://www.playstation.com/en-us/games/grand-theft-auto-vi/", "type": "official", "accessed": "2026-11-12" }
   },
 
   "categories": [
@@ -182,12 +185,13 @@
       "summary": "A Vice City legend who turned street reputation into real estate, a strip club and a recording studio.",
       "body": [
         "Boobie is one of the few who made the jump from the street to an empire of property, nightlife and a studio. He is all smiles until it is time to talk business.",
-        "What he cares about most is Only Raw Records, the label he runs with Dre'Quan Priest. All it needs now is a hit."
+        "What he cares about most is Only Raw Records, the label he runs with Dre'Quan Priest. All it needs now is a hit.",
+        "Rockstar heads his profile with the line \"It's all about heart — the Jack of Hearts.\" The page does not say what the Jack of Hearts is."
       ],
       "ties": ["Runs Only Raw Records with Dre'Quan Priest", "Backs the label Real Dimez are signed to"],
       "related": ["characters/drequan-priest", "characters/real-dimez", "businesses/only-raw-records", "locations/vice-city"],
       "tags": ["vice city", "only raw records", "music", "strip club", "real estate"],
-      "confidence": "corroborated", "sources": ["g6w-boobie"], "verified": "2026-11-11"
+      "confidence": "corroborated", "sources": ["g6w-boobie", "rockstar-leonida"], "verified": "2026-11-12"
     },
     {
       "slug": "drequan-priest", "name": "Dre'Quan Priest", "aliases": ["Drequan", "Dre Quan"], "role": "Label head, Only Raw Records", "group": "supporting",
@@ -539,13 +543,15 @@
     {
       "slug": "original-score", "name": "Original score by Justice",
       "summary": "The electronic duo Justice composed the game's score. A 30-track album is due on December 11, 2026.",
-      "body": ["Singles so far are \"Flower in a Hurricane\" and \"Pusher\". The Launch Trailer is set to new music from the duo."],
-      "tags": ["justice", "score", "album", "pusher"], "confidence": "corroborated", "sources": ["g6w-news", "g6w-home", "rockstar-vi"], "verified": "2026-11-11"
+      "body": ["Singles so far are \"Flower in a Hurricane\" and \"Pusher\". The Launch Trailer is set to new music from the duo.", "Justice are the French duo Gaspard Augé and Xavier de Rosnay. Rockstar calls the score adaptive: it changes with how you play.", "\"Flower in a Hurricane\" features Tame Impala, SZA and King Gizzard & The Lizard Wizard. \"Pusher\" features Gesaffelstein.", "The album comes to streaming services, CD and vinyl. Rockstar's shop lists a limited triple crystal clear vinyl and a double CD."],
+      "tags": ["justice", "score", "album", "pusher"], "confidence": "corroborated", "sources": ["g6w-news", "g6w-home", "rockstar-vi", "rockstar-music"], "verified": "2026-11-12"
     },
     {
       "slug": "soundtrack-album", "name": "Grand Theft Auto VI: The Album",
       "summary": "The official soundtrack album: 34 original tracks made with Atlantic Records, out with the game on November 19, 2026.",
-      "tags": ["soundtrack", "atlantic records", "album"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11"
+      "body": ["Rockstar's music page lists ten singles: \"That's It\" by Yung Lean (featuring Future and Metro Boomin); \"RHYNO\" by Travis Scott; \"Sexy Magic\" by CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. and Etienne de Crécy; \"Flower in a Hurricane\" by Justice; \"Last Thing You Need\" by Morgan Wallen; \"Suzuki\" by Fuerza Regida; \"Macacoa 2000\" by Rauw Alejandro; \"Don't Chart\" by Cardi B; \"Blood In Your Eyes\" by Tove Lo; and \"Bright Lights, Big City\" by Keith Richards.", "Rockstar's shop lists the album on an exclusive vinyl and a standard vinyl."],
+      "facts": { "type": "Soundtrack album", "tracks": 34, "release_date": "November 19, 2026" },
+      "tags": ["soundtrack", "atlantic records", "album"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-music"], "verified": "2026-11-12"
     },
     {
       "slug": "radio-stations", "name": "Radio stations and podcasts",
@@ -568,16 +574,16 @@
     {
       "slug": "standard-edition", "name": "Standard Edition", "price": "$79.99",
       "summary": "The base game on PlayStation 5 or Xbox Series X|S.",
-      "body": ["Pre-orders include the Vintage Vice City Pack: the '55 Vapid Stanier with a garage by Ocean Beach, outfits and hairstyles for Jason and Lucia, and a weapon pattern."],
+      "body": ["Pre-orders include the Vintage Vice City Pack: the '55 Vapid Stanier with a garage by Ocean Beach, outfits and hairstyles for Jason and Lucia, and a weapon pattern.", "On the PlayStation Store, a digital pre-order includes one month of GTA+. It can be claimed until March 31 and renews as a paid subscription unless cancelled."],
       "related": ["vehicles/vapid-stanier-55"],
-      "tags": ["price", "buy", "pre-order", "vintage vice city pack"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "rockstar-media", "g6w-editions"], "verified": "2026-11-12"
+      "tags": ["price", "buy", "pre-order", "vintage vice city pack"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "rockstar-media", "g6w-editions", "playstation-vi"], "verified": "2026-11-12"
     },
     {
       "slug": "ultimate-edition", "name": "Ultimate Edition", "price": "$99.99",
       "summary": "The game plus an exclusive collection of items tied to Jason and Lucia's story.",
-      "body": ["Rockstar lists vehicles (among them the '95 Grotti Cheetah, '67 Vapid Dominator Buggy and Shitzu Squalo), the Hawk & Little Morgan Revolvers, personalized pistols, four shops that open only with this edition, a gang raid and a car-collecting commission. Each has its own entry."],
+      "body": ["Rockstar lists vehicles (among them the '95 Grotti Cheetah, '67 Vapid Dominator Buggy and Shitzu Squalo), the Hawk & Little Morgan Revolvers, personalized pistols, four shops that open only with this edition, a gang raid and a car-collecting commission. Each has its own entry.", "PlayStation's page groups the extras as vehicles and garages, weapons, looks, and a special commission and customs. Two of Rockstar's Ultimate Edition screenshot sets are titled \"Vice City Style\" and \"Goodtime Gear\".", "The PlayStation Store also lists an Ultimate Edition Upgrade as a separate add-on. On the PlayStation Store, a digital pre-order includes one month of GTA+. It can be claimed until March 31 and renews as a paid subscription unless cancelled."],
       "related": ["vehicles/vapid-dominator-buggy"],
-      "tags": ["price", "buy", "pre-order", "deluxe"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "g6w-kalaga", "rockstar-media", "g6w-editions"], "verified": "2026-11-12"
+      "tags": ["price", "buy", "pre-order", "deluxe"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "g6w-kalaga", "rockstar-media", "g6w-editions", "playstation-vi"], "verified": "2026-11-12"
     }
   ],
 
@@ -606,7 +612,10 @@
     { "slug": "has-it-been-delayed", "name": "Has GTA 6 been delayed?", "summary": "Twice. A 2025 window became May 26, 2026, which then became November 19, 2026.", "tags": ["delay", "release date"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
     { "slug": "how-much-does-it-cost", "name": "How much does GTA 6 cost?", "summary": "$79.99 for the Standard Edition and $99.99 for the Ultimate Edition.", "tags": ["price", "editions"], "confidence": "corroborated", "sources": ["g6w-news", "g6w-home"], "verified": "2026-11-11" },
     { "slug": "last-gen-consoles", "name": "Can I play it on PS4 or Xbox One?", "summary": "The only platforms announced are PlayStation 5 and Xbox Series X|S.", "tags": ["ps4", "xbox one", "platforms"], "confidence": "official", "sources": ["rockstar-vi"], "verified": "2026-11-11" },
-    { "slug": "gta-online", "name": "What about GTA Online?", "summary": "No date or detail yet. Rockstar has said the online component follows the single-player game rather than shipping with it.", "tags": ["online", "multiplayer"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11" }
+    { "slug": "gta-online", "name": "What about GTA Online?", "summary": "No date or detail yet. Rockstar has said the online component follows the single-player game rather than shipping with it.", "tags": ["online", "multiplayer"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11" },
+    {"slug": "age-rating", "name": "What is GTA 6 rated?", "summary": "ESRB Mature 17+, for Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, and Use of Drugs and Alcohol. The rating also notes In-Game Purchases.", "tags": ["rating", "esrb", "mature", "age"], "confidence": "official", "sources": ["rockstar-vi", "playstation-vi"], "verified": "2026-11-12"},
+    {"slug": "ps5-features", "name": "What does the PlayStation 5 version support?", "summary": "PlayStation lists it as PS5 Pro Enhanced, with Tempest 3D Audio, fast loading from the SSD, and the DualSense controller's haptic feedback, adaptive triggers and speaker. Remote Play is supported.", "body": ["The page gives no resolution or frame rate. It also says the game is not playable on PlayStation 4."], "tags": ["ps5", "ps5 pro", "dualsense", "haptics", "remote play"], "confidence": "official", "sources": ["playstation-vi"], "verified": "2026-11-12"},
+    {"slug": "offline-play", "name": "Can GTA 6 be played offline?", "summary": "PlayStation's store page lists it as a one-player game with offline play enabled.", "tags": ["offline", "single player", "internet"], "confidence": "official", "sources": ["playstation-vi"], "verified": "2026-11-12"}
   ],
 
   "map": {

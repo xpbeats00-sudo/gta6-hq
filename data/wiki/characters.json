@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "lori-heder",
+    "name": "Lori",
+    "role": "Brian Heder's wife",
+    "group": "supporting",
+    "summary": "Brian Heder's third wife. He still moves product through his boat yard with her.",
+    "body": [
+      "Rockstar names Lori once, in Brian Heder's profile. Nothing else about her has been published; her surname is not given."
+    ],
+    "related": [
+      "characters/brian-heder",
+      "businesses/brians-boat-yard",
+      "locations/leonida-keys"
+    ],
+    "tags": [
+      "leonida keys",
+      "boat yard",
+      "brian heder"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-leonida"
+    ],
+    "verified": "2026-11-12"
+  },
+  {
+    "slug": "dwnply",
+    "name": "DWNPLY",
+    "role": "Rapper",
+    "group": "supporting",
+    "summary": "A local rapper whose early hit single with Real Dimez lifted the duo.",
+    "body": [
+      "Rockstar names DWNPLY once, in Real Dimez's profile, as the local rapper on their early hit. Nothing else about DWNPLY has been published."
+    ],
+    "related": [
+      "characters/real-dimez",
+      "businesses/only-raw-records"
+    ],
+    "tags": [
+      "rap",
+      "music",
+      "real dimez"
+    ],
+    "confidence": "official",
+    "sources": [
+      "rockstar-leonida"
+    ],
+    "verified": "2026-11-12"
+  }
+]
