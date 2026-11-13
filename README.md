@@ -4,7 +4,7 @@
 
 **Sourced, labelled by how well each fact is supported, and built as a small Rust desktop app.**
 
-<img src="docs/media/splash.webp" alt="The app opening: the VI logo draws itself while a ring fills and a percentage counts up" width="860">
+<img src="docs/media/splash.webp" alt="The app opening: the VI logo appears, then nine panels of the cover art glide in around it while a ring fills and a percentage counts up" width="860">
 
 <a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Download for Windows" height="44"></a>
 <a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/macOS%20(preview)-7c3fd6?style=for-the-badge&logo=apple&logoColor=white" alt="macOS (preview)" height="44"></a>
