@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.19 (13 November 2026)
+
+- The intro is smoother: each panel glides in on a straight line, slows down and stops in its place, with no turning or overshoot.
+
 ## 0.2.18 (13 November 2026)
 
 - New intro: the VI logo opens first, then the nine panels of the cover art fly in one by one to build the full picture.

@@ -448,7 +448,7 @@ document.addEventListener('visibilitychange', () => {
 
 // How long the intro runs before the app opens: the logo, nine panels half a second apart, then a
 // short hold on the finished picture. Keep in step with the delays in styles.css.
-const SPLASH_MS = 7600;
+const SPLASH_MS = 8400;
 
 function runSplash(ready) {
   const splash = document.getElementById('splash');
