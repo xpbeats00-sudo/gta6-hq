@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.9 (12 November 2026)
+
+- The splash screen dissolves into Home while the app eases in behind it, instead of cutting to it. This now plays even when Windows animation effects are turned off.
+
 ## 0.2.8 (12 November 2026)
 
 - The police lights during an update flash about 1.5 times a second, the rate recommended for emergency lamps, with a low glow between flashes.

@@ -462,6 +462,8 @@ function runSplash(ready) {
   const tip = document.getElementById('splash-tip');
   const tips = ['Loading Leonida…', 'Warming up the engines…', 'Checking the Coast Guard radio…', 'Welcome to Vice City'];
   let finished = false;
+  /** How long the splash takes to dissolve into the app. The stylesheet uses the same time. */
+  const SPLASH_FADE_MS = 1200;
 
   const onKey = (e) => { if (e.key === 'Escape' || e.key === 'Enter') finish(); };
   const finish = async () => {
@@ -470,9 +472,11 @@ function runSplash(ready) {
     window.removeEventListener('keydown', onKey);
     await ready;
     fill(1);
+    // The splash dissolves while the app behind it eases in, instead of cutting from one to the other.
     splash.classList.add('is-done');
     document.body.classList.remove('is-loading');
-    setTimeout(() => { video.pause(); splash.remove(); }, 900);
+    document.body.classList.add('is-arriving');
+    setTimeout(() => { video.pause(); splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
   };
 
   const update = () => {
