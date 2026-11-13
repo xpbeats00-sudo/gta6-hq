@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.13 (13 November 2026)
+
+- Windows Security wrongly flagged the 0.2.12 program as a threat and removed it. This build is not flagged. The program now carries proper file details (name, version, description and icon).
+
 ## 0.2.12 (12 November 2026)
 
 - The **Update now** button in the update notice is a proper button again. Since 0.2.7 it was squeezed into a small circle with its text spilling over the edge.

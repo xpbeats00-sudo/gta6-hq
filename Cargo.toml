@@ -1,6 +1,6 @@
 [package]
 name = "gta6-hq"
-version = "0.2.12"
+version = "0.2.13"
 edition = "2021"
 description = "GTA 6 HQ - an unofficial Grand Theft Auto VI fan encyclopedia, as a Rust desktop app"
 
@@ -18,6 +18,9 @@ tao = "0.37"
 wry = "0.57"
 image = { version = "0.25", default-features = false, features = ["png"] }
 discord-rich-presence = "1.1.0"
+
+[build-dependencies]
+winresource = "0.1"
 
 [profile.release]
 opt-level = 3
