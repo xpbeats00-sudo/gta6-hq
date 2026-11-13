@@ -5,7 +5,7 @@ name: Build on Windows, macOS and Linux
 # It does not publish anything: releases are still made by hand.
 on:
   push:
-    branches: [main, mac-linux]
+    branches: [main]
   pull_request:
   workflow_dispatch:
 
@@ -38,7 +38,7 @@ jobs:
       - name: Install the libraries the window needs
         run: |
           sudo apt-get update
-          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libsoup-3.0-dev libjavascriptcoregtk-4.1-dev xvfb imagemagick
+          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libsoup-3.0-dev libjavascriptcoregtk-4.1-dev xvfb imagemagick x11-utils
       - name: Test
         run: cargo test --release
       - name: Lint
@@ -66,12 +66,23 @@ jobs:
         # Runs the app on a virtual screen. It must still be running after 25 seconds, by which
         # time the splash has given way to Home; the screen is saved as a picture.
         run: |
-          xvfb-run -a -s "-screen 0 1440x900x24" bash -c '
-            ./target/release/gta6-hq & pid=$!
-            sleep 25
-            kill -0 $pid || { echo "the app is not running"; exit 1; }
-            import -window root shots/window-linux.png
-            kill $pid'
+          mkdir -p shots
+          for mode in default no-dmabuf no-compositing; do
+            unset WEBKIT_DISABLE_DMABUF_RENDERER WEBKIT_DISABLE_COMPOSITING_MODE
+            if [ "$mode" = no-dmabuf ]; then export WEBKIT_DISABLE_DMABUF_RENDERER=1; fi
+            if [ "$mode" = no-compositing ]; then export WEBKIT_DISABLE_COMPOSITING_MODE=1; fi
+            export MODE="$mode"
+            xvfb-run -a -s "-screen 0 1440x900x24" bash -c '
+              ./target/release/gta6-hq 2> "shots/stderr-$MODE.txt" & pid=$!
+              sleep 25
+              kill -0 $pid || { echo "the app is not running"; cat "shots/stderr-$MODE.txt"; exit 1; }
+              xwininfo -root -tree | head -24
+              import -window root "shots/window-linux-$MODE.png"
+              kill $pid'
+            echo "--- $mode: stderr"; cat "shots/stderr-$mode.txt" | head -20
+            identify -format "%f brightness=%[fx:mean]
+" "shots/window-linux-$mode.png"
+          done
       - uses: actions/upload-artifact@v4
         if: always()
         with:

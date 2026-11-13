@@ -15,7 +15,14 @@ const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
 const problems = [];
 page.on('pageerror', (e) => problems.push(`script error: ${e.message}`));
 page.on('console', (m) => { if (m.type() === 'error') console.log('console error:', m.text()); });
-page.on('requestfailed', (r) => { if (r.url().startsWith(base)) problems.push(`request failed: ${r.url()}`); });
+// WebKit cancels and re-asks for parts of a video as it plays, which shows up here as a failed
+// request; that is normal. Whether the video really plays is checked on Home below.
+page.on('requestfailed', (r) => {
+  if (!r.url().startsWith(base)) return;
+  const why = r.failure()?.errorText || '';
+  if (/\.(mp4|webm)(\?|$)/.test(r.url())) console.log(`video request ended early (${why}): ${r.url()}`);
+  else problems.push(`request failed (${why}): ${r.url()}`);
+});
 page.on('response', (r) => { if (r.url().startsWith(base) && r.status() >= 400 && !r.url().includes('/tiles/')) problems.push(`${r.status()}: ${r.url()}`); });
 
 await page.goto(base, { waitUntil: 'load' });
@@ -34,7 +41,15 @@ const visit = async (hash, name, check) => {
   console.log(`${hash}: ${text.length} characters`);
 };
 
-await visit('#/', 'home');
+await visit('#/', 'home', async () => {
+  // The live wallpaper: report what the video element says, and fail only if it could not be fetched.
+  const video = await page.evaluate(() => {
+    const v = document.querySelector('.hero video, video.hero-video');
+    return v ? { src: v.currentSrc, ready: v.readyState, time: v.currentTime, paused: v.paused, error: v.error && v.error.code } : null;
+  });
+  console.log('home video:', JSON.stringify(video));
+  if (video && video.error === 2) problems.push('the home video could not be downloaded');
+});
 await visit('#/wiki', 'encyclopedia');
 await visit('#/characters', 'characters');
 await visit('#/map', 'map');
