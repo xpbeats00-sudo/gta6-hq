@@ -630,6 +630,7 @@ a.card:hover h3 { color: var(--accent-pink); }
 .timeline .conf { justify-self: start; margin-bottom: var(--s1); }
 .timeline h3 { margin-bottom: var(--s1); }
 .timeline p { margin: 0; color: var(--text-secondary); font-size: 0.92rem; }
+.timeline p + p { grid-column: 2; margin-top: var(--s2); }
 .editions { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s4); margin-bottom: var(--s7); }
 .editions p { font-size: 0.92rem; margin-bottom: var(--s2); }
 .editions h3 { margin: var(--s1) 0 var(--s2); }
@@ -777,6 +778,7 @@ body[data-page='map'] .footer { display: none; }
   .grid-lead, .cast, .trio, .editions { grid-template-columns: 1fr; }
   .timeline li { grid-template-columns: 1fr; }
   .timeline time { grid-row: auto; }
+  .timeline p + p { grid-column: auto; }
   .editorial { padding-top: var(--s8); }
   .editorial-head { grid-template-columns: 1fr; }
   .editorial-head .more { grid-column: 1; grid-row: auto; }

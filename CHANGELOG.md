@@ -2,6 +2,12 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.14 (13 November 2026)
+
+- Four new items on the Intel timeline, each checked at its source: Grand Theft Auto VI: The Festival, the 30 frames per second target and PlayStation 5 Pro details, Take-Two saying development is complete, and the free poster and map of Leonida on launch day.
+- A new question on frame rate, and a corrected answer on Xbox One: the game will stream to it through Xbox Cloud Gaming.
+- Timeline items can now show further detail under their summary.
+
 ## 0.2.13 (13 November 2026)
 
 - Windows Security wrongly flagged the 0.2.12 program as a threat and removed it. This build is not flagged. The program now carries proper file details (name, version, description and icon).

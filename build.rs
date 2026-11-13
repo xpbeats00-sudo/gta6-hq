@@ -4,6 +4,7 @@
 
 fn main() {
     println!("cargo:rerun-if-changed=build.rs");
+    println!("cargo:rerun-if-changed=Cargo.toml"); // the version shown in the file details
     println!("cargo:rerun-if-changed=installer/gta6-hq.ico");
     if std::env::var("CARGO_CFG_TARGET_OS").as_deref() != Ok("windows") {
         return;

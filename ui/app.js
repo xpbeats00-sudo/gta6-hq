@@ -680,9 +680,11 @@ function renderHome() {
   }).catch(() => {});
 }
 
-function timelineItem(item) {
+function timelineItem(item, full = false) {
+  // The Intel page passes full = true to show the further detail under each item.
+  const more = full === true ? (item.body || []).map((line) => `<p>${esc(line)}</p>`).join('') : '';
   return `<li><time datetime="${esc(item.date)}">${esc(formatDate(item.date))}</time> ${badge(item.confidence)}
-    <h3>${esc(item.name)}</h3><p>${esc(summaryOf('news', item))}</p></li>`;
+    <h3>${esc(item.name)}</h3><p>${esc(summaryOf('news', item))}</p>${more}</li>`;
 }
 
 let countdownTimer;
@@ -985,7 +987,7 @@ function renderIntel() {
     <section class="block split">
       <div>
         <div class="block-head"><h2>Timeline</h2></div>
-        <ol class="timeline">${news.map(timelineItem).join('')}</ol>
+        <ol class="timeline">${news.map((item) => timelineItem(item, true)).join('')}</ol>
       </div>
       <div>
         <div class="block-head"><h2>Editions</h2></div>
