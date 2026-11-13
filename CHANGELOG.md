@@ -2,6 +2,14 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.16 (13 November 2026)
+
+- Launch time: Rockstar's support site says the game releases at midnight local time in every region. Pre-load start times are recorded too.
+- Editions: the boxed version holds a download code and no disc, there is no boxed Ultimate Edition, and the Vintage Vice City Pack comes with purchases made before November 20.
+- New question in Intel: "Is there a disc version?", with the region rules for download codes.
+- News: press reports of a first update (1.002.000) ahead of launch. Rockstar has published no patch notes.
+- Vice City, Leonida Keys, Grassrivers and Leonida Penitentiary gain district, island and town names recorded by the GTA Wiki community, marked as fan readings.
+
 ## 0.2.15 (13 November 2026)
 
 - Lori's entry has a picture, from Rockstar's official screenshot "Brian Heder 04". Rockstar does not name the woman in it, and the entry says so.

@@ -5,7 +5,9 @@
     "region": "State of Leonida",
     "summary": "The prison Lucia Caminos has just left when the story begins.",
     "body": [
-      "Rockstar's profile of Lucia says fighting for her family landed her in the Leonida Penitentiary, and sheer luck got her out. Where it stands on the map has not been published."
+      "Rockstar's profile of Lucia says fighting for her family landed her in the Leonida Penitentiary, and sheer luck got her out.",
+      "The prison opens Trailer 1, with Lucia inside, and returns in Trailer 2, where Jason collects her on her release.",
+      "According to the GTA Wiki, Lucia's jumpsuit and a staff name badge show it is run by the Leonida Department of Corrections, and fan mapping puts it in Hamlet, southwest of Vice City. Rockstar has not published where it stands."
     ],
     "facts": {
       "type": "Prison"
@@ -16,12 +18,15 @@
     "tags": [
       "prison",
       "lucia",
-      "jail"
+      "jail",
+      "hamlet",
+      "department of corrections"
     ],
-    "confidence": "official",
+    "confidence": "corroborated",
     "sources": [
-      "rockstar-leonida"
+      "rockstar-leonida",
+      "gtafandom-penitentiary"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13"
   }
 ]

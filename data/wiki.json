@@ -48,7 +48,14 @@
     "rockstar-nw-preload-now": { "title": "Pre-Load Grand Theft Auto VI Now", "publisher": "Rockstar Games Newswire", "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now", "type": "official", "accessed": "2026-11-13" },
     "rockstar-nw-festival": { "title": "Grand Theft Auto VI: The Festival", "publisher": "Rockstar Games Newswire", "url": "https://www.rockstargames.com/newswire/article/o39o87a435a25a/grand-theft-auto-vi-the-festival", "type": "official", "accessed": "2026-11-13" },
     "rockstar-nw-preload-dates": { "title": "Grand Theft Auto VI Pre-Load Begins on November 10", "publisher": "Rockstar Games Newswire", "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10", "type": "official", "accessed": "2026-11-13" },
-    "ttwo-q2-fy27-call": { "title": "Take-Two (TTWO) Q2 2027 Earnings Call Transcript", "publisher": "The Motley Fool", "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/take-two-ttwo-q2-2027-earnings-call-transcript/", "type": "secondary", "accessed": "2026-11-13" }
+    "ttwo-q2-fy27-call": { "title": "Take-Two (TTWO) Q2 2027 Earnings Call Transcript", "publisher": "The Motley Fool", "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/take-two-ttwo-q2-2027-earnings-call-transcript/", "type": "secondary", "accessed": "2026-11-13" },
+    "rockstar-support-times": { "title": "Grand Theft Auto VI regional pre-load and release times", "publisher": "Rockstar Games Customer Support", "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s", "type": "official", "accessed": "2026-11-13" },
+    "rockstar-support-editions": { "title": "Grand Theft Auto VI Platforms, Editions, and Versions", "publisher": "Rockstar Games Customer Support", "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions", "type": "official", "accessed": "2026-11-13" },
+    "comicbook-first-update": { "title": "GTA 6 First Update Released Ahead of Launch", "publisher": "ComicBook.com", "url": "https://comicbook.com/gaming/news/gta-6-update-patch-notes-1002000/", "type": "secondary", "accessed": "2026-11-13" },
+    "gtafandom-penitentiary": { "title": "GTA Wiki: Leonida Penitentiary", "publisher": "GTA Wiki on Fandom (community, CC BY-SA)", "url": "https://gta.fandom.com/wiki/Leonida_Penitentiary", "type": "community", "accessed": "2026-11-13" },
+    "gtafandom-grassrivers": { "title": "GTA Wiki: Grassrivers", "publisher": "GTA Wiki on Fandom (community, CC BY-SA)", "url": "https://gta.fandom.com/wiki/Grassrivers", "type": "community", "accessed": "2026-11-13" },
+    "gtafandom-keys": { "title": "GTA Wiki: Leonida Keys", "publisher": "GTA Wiki on Fandom (community, CC BY-SA)", "url": "https://gta.fandom.com/wiki/Leonida_Keys", "type": "community", "accessed": "2026-11-13" },
+    "gtafandom-vice-city": { "title": "GTA Wiki: Vice City (HD Universe)", "publisher": "GTA Wiki on Fandom (community, CC BY-SA)", "url": "https://gta.fandom.com/wiki/Vice_City_(HD_Universe)", "type": "community", "accessed": "2026-11-13" }
   },
 
   "categories": [
@@ -253,36 +260,36 @@
       "summary": "The crowded heart of Leonida, and the series' first return to its Miami stand-in since 2002.",
       "body": [
         "Rockstar's own description covers the pastel art deco hotels and white sands of Ocean Beach, the bakeries of Little Cuba, the bootleg brands of the Tisha-Wocka flea market and VC Port, billed as the cruise ship capital of the world.",
-        "Other districts named in official material are La Perle, Stockyard, Tequesta and Vice Beach. Rockstar has not published a full district list."
+        "Other districts named in official material are La Perle, Stockyard, Tequesta and Vice Beach. Rockstar has not published a full district list.", "The GTA Wiki's fan-compiled list adds Belville, Crosstown, Downtown, Ekanfinaka, Peacock Bay, Rockridge and Southside. It treats Vice Beach, with Ocean Beach and Washington Beach, as a neighbouring city across the bay, and records two venues, Fleeca Field and Sahara Arena. These are community readings of the trailers and screenshots, not a list from Rockstar."
       ],
       "art": "city", "x": 0.685, "y": 0.525,
       "related": ["characters/boobie-ike", "businesses/tisha-wocka-flea-market", "businesses/fleeca"],
       "tags": ["miami", "ocean beach", "vice beach", "little cuba", "tequesta", "stockyard", "la perle", "vc port"],
-      "confidence": "corroborated", "sources": ["g6w-vice-city", "rockstar-vi"], "verified": "2026-11-11"
+      "confidence": "corroborated", "sources": ["g6w-vice-city", "rockstar-vi", "gtafandom-vice-city"], "verified": "2026-11-13"
     },
     {
       "slug": "leonida-keys", "name": "Leonida Keys", "aliases": ["The Keys"], "region": "Mariana County", "basedOn": "The Florida Keys",
       "summary": "The island chain south of Vice City: easy living on some of the most beautiful and dangerous water around. Jason's story starts here.",
       "body": [
         "Life in the Keys is not flashy, but it is easy. Official images show divers over coral, party boats, jet skis and a crowded beach bar.",
-        "It is also smuggling country. Brian Heder runs his operation from a boat yard here, and Jason works for the local drug runners."
+        "It is also smuggling country. Brian Heder runs his operation from a boat yard here, and Jason works for the local drug runners.", "Fans have picked out four island names so far: Key Lento, East Key, Catalan Key and Goose Key. A Leonida Keys road sign appears in the Launch Trailer. The island names are community readings recorded by the GTA Wiki, not a list from Rockstar."
       ],
       "art": "keys", "x": 0.4, "y": 0.935,
       "related": ["characters/jason-duval", "characters/brian-heder", "businesses/brians-boat-yard"],
       "tags": ["florida keys", "islands", "smuggling", "boats", "diving"],
-      "confidence": "corroborated", "sources": ["g6w-keys"], "verified": "2026-11-11"
+      "confidence": "corroborated", "sources": ["g6w-keys", "gtafandom-keys"], "verified": "2026-11-13"
     },
     {
       "slug": "grassrivers", "name": "Grassrivers", "region": "Mariana County", "basedOn": "The Everglades",
       "summary": "Leonida's vast wetlands, where you never quite know what is under the surface.",
       "body": [
         "Grassrivers is swamp, mangroves and open shallow water between the city and the interior. The alligators are the famous attraction, though Rockstar hints at deadlier predators and stranger finds.",
-        "Official images show airboats, alligators and a police helicopter chasing a pickup through the swamp."
+        "Official images show airboats, alligators and a police helicopter chasing a pickup through the swamp.", "The GTA Wiki lists Watson Bay as the one town in the wetlands, and suggests the name nods to The Everglades: River of Grass, the 1947 book by Marjory Stoneman Douglas. Both are community notes, not statements from Rockstar."
       ],
       "art": "swamp", "x": 0.43, "y": 0.745,
       "related": ["wildlife/alligator", "vehicles/airboat"],
       "tags": ["everglades", "swamp", "wetlands", "alligators", "airboat", "mangroves"],
-      "confidence": "corroborated", "sources": ["g6w-grassrivers"], "verified": "2026-11-11"
+      "confidence": "corroborated", "sources": ["g6w-grassrivers", "gtafandom-grassrivers"], "verified": "2026-11-13"
     },
     {
       "slug": "port-gellhorn", "name": "Port Gellhorn", "region": "Kelly County", "basedOn": "Florida's faded Gulf Coast resort towns",
@@ -578,24 +585,25 @@
     {
       "slug": "standard-edition", "name": "Standard Edition", "price": "$79.99",
       "summary": "The base game on PlayStation 5 or Xbox Series X|S.",
-      "body": ["Pre-orders include the Vintage Vice City Pack: the '55 Vapid Stanier with a garage by Ocean Beach, outfits and hairstyles for Jason and Lucia, and a weapon pattern.", "On the PlayStation Store, a digital pre-order includes one month of GTA+. It can be claimed until March 31 and renews as a paid subscription unless cancelled."],
+      "body": ["Pre-orders include the Vintage Vice City Pack: the '55 Vapid Stanier with a garage by Ocean Beach, outfits and hairstyles for Jason and Lucia, and a weapon pattern.", "A digital pre-order on either console includes one month of GTA+. PlayStation's page adds that it can be claimed until March 31 and renews as a paid subscription unless cancelled.", "The boxed version holds a download code and no disc. The Vintage Vice City Pack comes with pre-orders and with purchases made before November 20, 2026."],
       "related": ["vehicles/vapid-stanier-55"],
-      "tags": ["price", "buy", "pre-order", "vintage vice city pack"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "rockstar-media", "g6w-editions", "playstation-vi"], "verified": "2026-11-12"
+      "tags": ["price", "buy", "pre-order", "vintage vice city pack"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "rockstar-media", "g6w-editions", "playstation-vi", "rockstar-support-editions"], "verified": "2026-11-13"
     },
     {
       "slug": "ultimate-edition", "name": "Ultimate Edition", "price": "$99.99",
       "summary": "The game plus an exclusive collection of items tied to Jason and Lucia's story.",
-      "body": ["Rockstar lists vehicles (among them the '95 Grotti Cheetah, '67 Vapid Dominator Buggy and Shitzu Squalo), the Hawk & Little Morgan Revolvers, personalized pistols, four shops that open only with this edition, a gang raid and a car-collecting commission. Each has its own entry.", "PlayStation's page groups the extras as vehicles and garages, weapons, looks, and a special commission and customs. Two of Rockstar's Ultimate Edition screenshot sets are titled \"Vice City Style\" and \"Goodtime Gear\".", "The PlayStation Store also lists an Ultimate Edition Upgrade as a separate add-on. On the PlayStation Store, a digital pre-order includes one month of GTA+. It can be claimed until March 31 and renews as a paid subscription unless cancelled."],
+      "body": ["Rockstar lists vehicles (among them the '95 Grotti Cheetah, '67 Vapid Dominator Buggy and Shitzu Squalo), the Hawk & Little Morgan Revolvers, personalized pistols, four shops that open only with this edition, a gang raid and a car-collecting commission. Each has its own entry.", "PlayStation's page groups the extras as vehicles and garages, weapons, looks, and a special commission and customs. Two of Rockstar's Ultimate Edition screenshot sets are titled \"Vice City Style\" and \"Goodtime Gear\".", "The PlayStation Store also lists an Ultimate Edition Upgrade as a separate add-on. A digital pre-order on either console includes one month of GTA+. PlayStation's page adds that it can be claimed until March 31 and renews as a paid subscription unless cancelled.", "There is no boxed Ultimate Edition. Standard Edition owners, boxed or digital, can buy the Ultimate Edition Upgrade from the PlayStation or Microsoft store once their copy is redeemed."],
       "related": ["vehicles/vapid-dominator-buggy"],
-      "tags": ["price", "buy", "pre-order", "deluxe"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "g6w-kalaga", "rockstar-media", "g6w-editions", "playstation-vi"], "verified": "2026-11-12"
+      "tags": ["price", "buy", "pre-order", "deluxe"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "g6w-kalaga", "rockstar-media", "g6w-editions", "playstation-vi", "rockstar-support-editions"], "verified": "2026-11-13"
     }
   ],
 
   "news": [
     { "slug": "the-festival", "name": "Grand Theft Auto VI: The Festival", "date": "2026-11-21", "summary": "A live launch event at Mana Wynwood in Miami, with two stages of artists from the game and its soundtrack.", "body": ["Announced by Rockstar on November 9, presented with PlayStation and produced by the creators of III Points. The announced performers include Travis Scott, Don Toliver, Kodak Black and Sofaygo (as Cactus Jack), Cardi B, Ca7riel & Paco Amoroso, Justice (DJ set), Metro Boomin and Tainy.", "Tickets went through a pre-sale lottery that closed on November 10, limited to two per code."], "tags": ["festival", "miami", "music", "event", "live"], "confidence": "official", "sources": ["rockstar-nw-festival"], "verified": "2026-11-13" },
-    { "slug": "launch-day", "name": "Launch day", "date": "2026-11-19", "summary": "Grand Theft Auto VI releases on PlayStation 5 and Xbox Series X|S.", "tags": ["release", "launch"], "confidence": "official", "sources": ["rockstar-vi"], "verified": "2026-11-11" },
+    { "slug": "launch-day", "name": "Launch day", "date": "2026-11-19", "summary": "Grand Theft Auto VI releases on PlayStation 5 and Xbox Series X|S. Rockstar's support site gives the time as midnight local time in every region.", "tags": ["release", "launch", "midnight", "time"], "confidence": "official", "sources": ["rockstar-vi", "rockstar-support-times"], "verified": "2026-11-13" },
+    { "slug": "pre-launch-update", "name": "A first update arrives before launch", "date": "2026-11-13", "summary": "Outlets report a mandatory update, version 1.002.000, of about 1 GB on PlayStation 5, rolling out six days before launch.", "body": ["Rockstar has published no patch notes, so what the update changes is not known.", "This comes from press reports of what consoles are downloading, not from a Rockstar announcement."], "tags": ["update", "patch", "1.002.000"], "confidence": "corroborated", "sources": ["comicbook-first-update"], "verified": "2026-11-13" },
     { "slug": "performance-details", "name": "30 frames per second, and what PS5 Pro adds", "date": "2026-11-10", "summary": "Rockstar says the game targets 30 frames per second on both consoles. PlayStation 5 Pro adds PSSR upscaling and ray-traced shadows.", "body": ["The same post says the game will be playable through Xbox Cloud Gaming on Xbox Series X|S and Xbox One consoles, using Xbox Series S graphics settings, and supports Remote Play on PlayStation and Xbox.", "It arrived with a new video set to \"Blood in Your Eyes\" by Tove Lo, from Grand Theft Auto VI: The Album."], "tags": ["frame rate", "fps", "performance", "ps5 pro", "pssr", "cloud", "xbox one", "tove lo"], "confidence": "official", "sources": ["rockstar-nw-preload-now"], "verified": "2026-11-13" },
-    { "slug": "pre-load-opens", "name": "Pre-load opens", "date": "2026-11-10", "summary": "Pre-loading begins on both consoles. Rockstar says the download needs up to 212 GB, depending on the console.", "tags": ["pre-load", "download", "size"], "confidence": "official", "sources": ["rockstar-nw-preload-dates", "rockstar-nw-preload-now"], "verified": "2026-11-13" },
+    { "slug": "pre-load-opens", "name": "Pre-load opens", "date": "2026-11-10", "summary": "Pre-loading begins on both consoles. PlayStation 5 pre-loads opened at midnight local time, and Xbox pre-loads opened worldwide at 12 a.m. GMT. Rockstar says the download needs up to 212 GB, depending on the console.", "tags": ["pre-load", "download", "size"], "confidence": "official", "sources": ["rockstar-nw-preload-dates", "rockstar-nw-preload-now", "rockstar-support-times"], "verified": "2026-11-13" },
     { "slug": "development-complete", "name": "Take-Two: development is complete", "date": "2026-11-09", "summary": "On Take-Two's earnings call, chief executive Strauss Zelnick said Rockstar has completed development and that pre-orders are far above the company's first expectations.", "body": ["The company gave no pre-order number. Figures quoted elsewhere are outside estimates."], "tags": ["take-two", "zelnick", "earnings", "pre-orders", "gold"], "confidence": "corroborated", "sources": ["ttwo-q2-fy27-call"], "verified": "2026-11-13" },
     { "slug": "launch-screenshots", "name": "Launch gallery: 39 new screenshots", "date": "2026-11-05", "summary": "Rockstar's launch gallery adds 39 screenshots, with captions naming a Fleeca bank, The Rusty Anchor bar and Delights Cabaret.", "tags": ["screenshots", "fleeca", "rusty anchor"], "confidence": "official", "sources": ["rockstar-vi", "g6w-news"], "verified": "2026-11-11" },
     { "slug": "launch-poster-and-map", "name": "A free poster and map of Leonida on launch day", "date": "2026-11-03", "summary": "Rockstar will add a printable cover art poster and map of Leonida to its site as a free download on November 19.", "body": ["A double-sided printed version follows from the Rockstar Store shortly after launch: $0.99 on its own, or free with any purchase.", "The same post dated the pre-load and said code-in-box copies should reach retailers from November 12."], "tags": ["poster", "map", "leonida", "free", "code-in-box", "physical"], "confidence": "official", "sources": ["rockstar-nw-preload-dates"], "verified": "2026-11-13" },
@@ -613,7 +621,7 @@
   ],
 
   "faq": [
-    { "slug": "when-does-it-come-out", "name": "When does GTA 6 come out?", "summary": "November 19, 2026, on PlayStation 5 and Xbox Series X|S.", "tags": ["release date"], "confidence": "official", "sources": ["rockstar-vi"], "verified": "2026-11-11" },
+    { "slug": "when-does-it-come-out", "name": "When does GTA 6 come out?", "summary": "November 19, 2026, on PlayStation 5 and Xbox Series X|S, at midnight local time in every region.", "tags": ["release date", "release time", "midnight"], "confidence": "official", "sources": ["rockstar-vi", "rockstar-support-times"], "verified": "2026-11-13" },
     { "slug": "is-it-coming-to-pc", "name": "Is GTA 6 coming to PC?", "summary": "A PC version has not been announced. The game is announced for PlayStation 5 and Xbox Series X|S.", "tags": ["pc", "platforms"], "confidence": "corroborated", "sources": ["g6w-gameplay", "rockstar-vi"], "verified": "2026-11-11" },
     { "slug": "where-is-it-set", "name": "Where is GTA 6 set?", "summary": "In the State of Leonida, with Vice City as its biggest city. Vice City is the series' stand-in for Miami.", "tags": ["setting", "leonida", "vice city", "florida"], "confidence": "official", "sources": ["rockstar-vi", "g6w-vice-city"], "verified": "2026-11-11" },
     { "slug": "who-are-the-protagonists", "name": "Who are the main characters?", "summary": "Lucia Caminos and Jason Duval, the two playable leads.", "tags": ["protagonists", "lucia", "jason"], "confidence": "official", "sources": ["rockstar-vi", "g6w-characters"], "verified": "2026-11-11" },
@@ -624,7 +632,8 @@
     { "slug": "gta-online", "name": "What about GTA Online?", "summary": "No date or detail yet. Rockstar has said the online component follows the single-player game rather than shipping with it.", "tags": ["online", "multiplayer"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11" },
     {"slug": "age-rating", "name": "What is GTA 6 rated?", "summary": "ESRB Mature 17+, for Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, and Use of Drugs and Alcohol. The rating also notes In-Game Purchases.", "tags": ["rating", "esrb", "mature", "age"], "confidence": "official", "sources": ["rockstar-vi", "playstation-vi"], "verified": "2026-11-12"},
     {"slug": "ps5-features", "name": "What does the PlayStation 5 version support?", "summary": "PlayStation lists it as PS5 Pro Enhanced, with Tempest 3D Audio, fast loading from the SSD, and the DualSense controller's haptic feedback, adaptive triggers and speaker. Remote Play is supported.", "body": ["Rockstar adds that PlayStation 5 Pro gets PSSR upscaling and ray-traced shadows, and that the game targets 30 frames per second. Neither page gives a resolution. PlayStation's page also says the game is not playable on PlayStation 4."], "tags": ["ps5", "ps5 pro", "dualsense", "haptics", "remote play"], "confidence": "official", "sources": ["playstation-vi", "rockstar-nw-preload-now"], "verified": "2026-11-13"},
-    {"slug": "offline-play", "name": "Can GTA 6 be played offline?", "summary": "PlayStation's store page lists it as a one-player game with offline play enabled.", "tags": ["offline", "single player", "internet"], "confidence": "official", "sources": ["playstation-vi"], "verified": "2026-11-12"}
+    {"slug": "offline-play", "name": "Can GTA 6 be played offline?", "summary": "PlayStation's store page lists it as a one-player game with offline play enabled.", "tags": ["offline", "single player", "internet"], "confidence": "official", "sources": ["playstation-vi"], "verified": "2026-11-12"},
+    {"slug": "disc-version", "name": "Is there a disc version?", "summary": "No. The boxed Standard Edition holds a download code and no disc, and there is no boxed Ultimate Edition.", "body": ["PlayStation codes work only on accounts in the region group they were sold for, so Rockstar recommends buying in the country of your platform account. Xbox codes are not region-locked.", "In Japan, codes expire 170 days after launch day."], "tags": ["disc", "physical", "boxed", "code", "region"], "confidence": "official", "sources": ["rockstar-support-editions"], "verified": "2026-11-13"}
   ],
 
   "map": {
