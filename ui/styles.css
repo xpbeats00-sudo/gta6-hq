@@ -129,8 +129,9 @@ body.is-arriving .announce, body.is-arriving .topbar, body.is-arriving #view { a
 .update-toast div { display: grid; gap: 2px; font-size: 0.9rem; }
 .update-toast span { color: var(--text-secondary); font-size: 0.8rem; }
 .update-toast .btn { flex: none; }
-.update-toast button { flex: none; width: 28px; height: 28px; border: 0; border-radius: 50%; background: none; color: var(--text-secondary); font-size: 1.2rem; line-height: 1; cursor: pointer; }
-.update-toast button:hover { background: rgba(255, 255, 255, 0.08); color: var(--text-primary); }
+/* The round close button only: "Update now" is a button too and keeps its own shape. */
+.update-toast button:not(.btn) { flex: none; width: 28px; height: 28px; border: 0; border-radius: 50%; background: none; color: var(--text-secondary); font-size: 1.2rem; line-height: 1; cursor: pointer; }
+.update-toast button:not(.btn):hover { background: rgba(255, 255, 255, 0.08); color: var(--text-primary); }
 @media (max-width: 520px) { .update-toast { left: var(--s4); right: var(--s4); flex-wrap: wrap; } }
 
 /* ---------- AppHeader ---------- */

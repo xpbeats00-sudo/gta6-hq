@@ -2,6 +2,11 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.12 (12 November 2026)
+
+- The **Update now** button in the update notice is a proper button again. Since 0.2.7 it was squeezed into a small circle with its text spilling over the edge.
+- macOS and Linux preview packages are attached to each release.
+
 ## 0.2.11 (12 November 2026)
 
 - More official detail, each item checked on Rockstar's or PlayStation's own page: the album's ten singles, the score's guest artists and physical releases, the ESRB rating, the GTA+ month and Ultimate Edition Upgrade on the PlayStation Store, and PlayStation 5 features.
