@@ -180,12 +180,22 @@ code { font-size: 0.9em; color: var(--text-secondary); }
 .spoiler.is-open * { visibility: visible; }
 
 /* Invitations to the Discord server: a cut-corner card on Home, and a band above the footer */
-.promo { position: relative; display: flex; align-items: center; justify-content: space-between; gap: var(--s6); width: min(var(--content), 100% - 2 * var(--gutter)); margin: var(--s7) auto 0; padding: var(--s6) var(--s7); background: linear-gradient(100deg, rgba(88, 101, 242, 0.42) 0%, rgba(124, 63, 214, 0.34) 48%, rgba(238, 63, 124, 0.3) 100%), var(--bg-panel); clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 28px 100%, 0 calc(100% - 28px)); }
-.promo::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--sunset); }
+.promo { position: relative; isolation: isolate; overflow: hidden; display: flex; align-items: center; gap: var(--s5); width: min(var(--content), 100% - 2 * var(--gutter)); min-height: 210px; margin: var(--s7) auto 0; padding: var(--s6) var(--s7); background: var(--bg-panel); clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 28px 100%, 0 calc(100% - 28px)); }
+.promo::before { content: ''; position: absolute; left: 0; right: 0; top: 0; height: 3px; background: var(--sunset); z-index: 1; }
+/* The wallpaper behind it: two layers that cross-fade, drifting slowly, under a Discord-blue wash that keeps the text readable */
+.promo-walls { position: absolute; inset: 0; z-index: -1; }
+.promo-walls img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; opacity: 0; transition: opacity 1.6s ease; animation: drift-a 26s ease-in-out infinite alternate; }
+.promo-walls img.is-on { opacity: 1; }
+.promo-walls::after { content: ''; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(24, 20, 62, 0.94) 0%, rgba(56, 62, 168, 0.8) 34%, rgba(88, 101, 242, 0.34) 62%, rgba(43, 16, 82, 0.5) 100%); }
+.promo-server { flex: none; width: 88px; height: 88px; border-radius: 26px; border: 2px solid rgba(255, 255, 255, 0.5); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45); object-fit: cover; }
+.promo-copy { flex: 1; min-width: 0; }
+.promo .kicker { display: inline-flex; align-items: center; gap: 8px; color: #fff; }
 .promo h2 { margin: var(--s2) 0; font-size: clamp(1.3rem, 2.4vw, 1.9rem); letter-spacing: 0.1em; }
-.promo p { max-width: 62ch; margin: 0; color: var(--text-secondary); }
-.promo .btn { flex: none; }
-@media (max-width: 760px) { .promo { flex-direction: column; align-items: flex-start; padding: var(--s5); } }
+.promo p { max-width: 58ch; margin: 0; color: #e6e1f2; }
+.discord-mark { flex: none; width: 1.35em; height: 1.35em; fill: currentColor; }
+.promo .btn-discord { display: inline-flex; align-items: center; gap: 10px; flex: none; padding: 12px 24px; border-color: #5865f2; background: #5865f2; color: #fff; }
+.promo .btn-discord:hover { border-color: #fff; background: #fff; color: #404eed; }
+@media (max-width: 760px) { .promo { flex-direction: column; align-items: flex-start; padding: var(--s5); } .promo-server { width: 64px; height: 64px; border-radius: 20px; } }
 .community-band { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--s3) var(--s5); padding: var(--s4) var(--gutter); border-top: 1px solid var(--border-subtle); background: linear-gradient(90deg, rgba(88, 101, 242, 0.2), rgba(124, 63, 214, 0.16), rgba(238, 63, 124, 0.16)), var(--bg-deep); }
 .community-band p { margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
 .community-band b { color: var(--text-primary); }
@@ -715,6 +725,7 @@ body[data-page='map'] .footer { display: none; }
   #view.is-entering { transition: none !important; }
   .rail { transition: opacity 0.5s ease !important; }
   .hero-video { transition: opacity 1.4s ease !important; }
+  .promo-walls img { transition: opacity 1.6s ease !important; animation: drift-a 26s ease-in-out infinite alternate !important; }
   .place-hero > img { animation: drift-a 28s ease-in-out infinite alternate !important; }
   .profile-portrait img { animation: drift-b 24s ease-in-out infinite alternate !important; }
   .card-media img, .topic-media img, .tile img { animation: drift-a 22s ease-in-out infinite alternate !important; }

@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.6 (12 November 2026)
+
+- The Discord invitation on Home has its own GTA VI wallpaper that changes every few seconds, the server's icon and the Discord logo.
+
 ## 0.2.5 (12 November 2026)
 
 - Setup no longer leaves a folder named after itself beside the setup file.
