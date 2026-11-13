@@ -1,0 +1,154 @@
+name: Build on Windows, macOS and Linux
+
+# Builds and tests the app on all three systems, starts it once on each to prove the window
+# opens, and keeps the macOS and Linux packages as downloadable artifacts of the run.
+# It does not publish anything: releases are still made by hand.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test
+        run: cargo test --release
+      - name: Lint
+        run: cargo clippy --release --all-targets -- -D warnings
+
+  linux:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install the libraries the window needs
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libsoup-3.0-dev libjavascriptcoregtk-4.1-dev xvfb imagemagick x11-utils dbus-daemon
+      - name: Test
+        run: cargo test --release
+      - name: Lint
+        run: cargo clippy --release --all-targets -- -D warnings
+      - name: Build
+        run: cargo build --release
+      - name: Check the data and the server
+        run: |
+          ./target/release/gta6-hq --validate > validate.md || { tail -20 validate.md; exit 1; }
+          ./target/release/gta6-hq --serve --port 4611 &
+          sleep 3
+          curl --fail --silent http://127.0.0.1:4611/api/health
+          curl --fail --silent --output /dev/null http://127.0.0.1:4611/
+          kill %1
+      - name: Open every page in WebKit
+        # WebKit is the engine behind the Linux and macOS windows. Fails on any script error.
+        run: |
+          npm install --no-save --silent playwright
+          npx playwright install --with-deps webkit
+          ./target/release/gta6-hq --serve --port 4612 &
+          sleep 3
+          node scripts/ci_pages.mjs http://127.0.0.1:4612 shots
+          kill %1
+      - name: Open the real window and photograph it
+        # Runs the app on a virtual screen inside a desktop session bus, as a Linux desktop provides
+        # (without one the window never appears). After 25 seconds, by which time the splash has
+        # given way to Home, the app must still be running, its window must exist at full size,
+        # and the picture of the screen must not be blank.
+        run: |
+          mkdir -p shots
+          dbus-run-session -- xvfb-run -a -s "-screen 0 1440x900x24" bash -c '
+            ./target/release/gta6-hq 2> shots/stderr-linux.txt & pid=$!
+            sleep 25
+            kill -0 $pid || { echo "the app is not running"; cat shots/stderr-linux.txt; exit 1; }
+            xwininfo -root -tree | grep "GTA 6 HQ" || { echo "the window is missing"; exit 1; }
+            import -window root shots/window-linux.png
+            kill $pid' 2> /dev/null
+          brightness=$(identify -format "%[fx:mean]" shots/window-linux.png)
+          echo "brightness of the picture: $brightness"
+          awk -v b="$brightness" 'BEGIN { exit !(b > 0.05) }' || { echo "the window is blank"; exit 1; }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots-linux
+          path: shots
+      - name: Package
+        run: |
+          python3 -m pip install --quiet pillow
+          python3 scripts/package_unix.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gta6-hq-linux
+          path: dist/*.tar.gz
+          if-no-files-found: error
+
+  macos:
+    runs-on: macos-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - name: Add the Intel target
+        run: rustup target add x86_64-apple-darwin aarch64-apple-darwin
+      - name: Test
+        run: cargo test --release
+      - name: Lint
+        run: cargo clippy --release --all-targets -- -D warnings
+      - name: Build for Apple silicon and Intel
+        run: |
+          cargo build --release --target aarch64-apple-darwin
+          cargo build --release --target x86_64-apple-darwin
+          mkdir -p target/universal
+          lipo -create -output target/universal/gta6-hq \
+            target/aarch64-apple-darwin/release/gta6-hq target/x86_64-apple-darwin/release/gta6-hq
+          lipo -info target/universal/gta6-hq
+      - name: Package
+        run: |
+          python3 -m pip install --quiet --break-system-packages pillow || python3 -m pip install --quiet pillow
+          python3 scripts/package_unix.py --binary target/universal/gta6-hq
+      - name: Check the data and the server
+        run: |
+          app="dist/GTA 6 HQ.app/Contents/MacOS/gta6-hq"
+          "$app" --validate > validate.md || { tail -20 validate.md; exit 1; }
+          "$app" --serve --port 4611 &
+          sleep 3
+          curl --fail --silent http://127.0.0.1:4611/api/health
+          kill %1
+      - name: Open every page in WebKit
+        run: |
+          npm install --no-save --silent playwright
+          npx playwright install webkit
+          "dist/GTA 6 HQ.app/Contents/MacOS/gta6-hq" --serve --port 4612 &
+          sleep 3
+          node scripts/ci_pages.mjs http://127.0.0.1:4612 shots
+          kill %1
+      - name: Open the real window and photograph it
+        # Starts the packaged app; it must still be running after 25 seconds. The screen is saved as a picture.
+        run: |
+          "dist/GTA 6 HQ.app/Contents/MacOS/gta6-hq" &
+          pid=$!
+          sleep 25
+          kill -0 "$pid"
+          screencapture -x shots/window-macos.png || echo "no screen to photograph"
+          kill "$pid"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots-macos
+          path: shots
+      - uses: actions/upload-artifact@v4
+        with:
+          name: gta6-hq-macos
+          path: dist/*.zip
+          if-no-files-found: error

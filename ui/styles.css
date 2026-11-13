@@ -270,6 +270,8 @@ body.is-wanted .rail-right { animation: cop-rail-right 0.7s ease-in-out infinite
 body[data-page='map'] .community-band { display: none; }
 .window-controls { display: flex; align-self: stretch; flex: none; margin-right: calc(8px - var(--gutter)); }
 .window-controls[hidden] { display: none; }
+/* macOS draws its close, minimise and zoom buttons over the top-left corner: keep that corner clear. */
+html[data-os='macos'] .topbar { padding-left: 88px; }
 .window-controls button { display: grid; place-items: center; flex: none; width: 46px; height: 100%; padding: 0; border: 0; background: none; color: #f3d9ea; cursor: pointer; transition: background var(--ease), color var(--ease); }
 .window-controls svg { display: block; grid-area: 1 / 1; width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 1.2; stroke-linecap: round; stroke-linejoin: round; }
 .window-controls button:hover { background: rgba(255, 143, 184, 0.2); color: #fff; }
