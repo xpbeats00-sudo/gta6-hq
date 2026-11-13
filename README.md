@@ -41,7 +41,7 @@ When a newer version is published, the app shows a notice with a link. Nothing d
 
 ## What's inside
 
-<img src="docs/media/tabs.webp" alt="The Home wallpaper playing, then Encyclopedia, Characters, Vehicles and a location page, with picture cards sliding down the side margins" width="860">
+<img src="docs/media/tabs.webp" alt="The Home wallpaper playing and the Discord invitation below it, then Encyclopedia, Characters, Vehicles and a location page, with picture cards sliding across the page headers" width="860">
 
 | | |
 |---|---|
