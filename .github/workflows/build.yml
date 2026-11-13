@@ -38,7 +38,7 @@ jobs:
       - name: Install the libraries the window needs
         run: |
           sudo apt-get update
-          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libsoup-3.0-dev libjavascriptcoregtk-4.1-dev xvfb imagemagick x11-utils
+          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libsoup-3.0-dev libjavascriptcoregtk-4.1-dev xvfb imagemagick x11-utils dbus-daemon
       - name: Test
         run: cargo test --release
       - name: Lint
@@ -63,25 +63,22 @@ jobs:
           node scripts/ci_pages.mjs http://127.0.0.1:4612 shots
           kill %1
       - name: Open the real window and photograph it
-        # Runs the app on a virtual screen. It must still be running after 25 seconds, by which
-        # time the splash has given way to Home; the screen is saved as a picture.
+        # Runs the app on a virtual screen inside a desktop session bus, as a Linux desktop provides
+        # (without one the window never appears). After 25 seconds, by which time the splash has
+        # given way to Home, the app must still be running, its window must exist at full size,
+        # and the picture of the screen must not be blank.
         run: |
           mkdir -p shots
-          sudo apt-get install -y gdb dbus-daemon > /dev/null
-          for mode in plain dbus; do
-            export MODE="$mode"
-            wrap=""; if [ "$mode" = dbus ]; then wrap="dbus-run-session --"; fi
-            $wrap xvfb-run -a -s "-screen 0 1440x900x24" bash -c '
-              ./target/release/gta6-hq 2> "shots/stderr-$MODE.txt" & pid=$!
-              sleep 25
-              kill -0 $pid || { echo "the app is not running"; cat "shots/stderr-$MODE.txt"; exit 1; }
-              xwininfo -root -tree | head -24
-              import -window root "shots/window-linux-$MODE.png"
-              if [ "$MODE" = plain ]; then sudo gdb -p $pid -batch -ex "thread apply all bt 14" 2>/dev/null | grep -E "^Thread|^#" | head -80; fi
-              kill $pid'
-            echo "--- $mode: stderr"; head -20 "shots/stderr-$mode.txt"
-            identify -format "%f brightness=%[fx:mean] " "shots/window-linux-$mode.png"; echo
-          done
+          dbus-run-session -- xvfb-run -a -s "-screen 0 1440x900x24" bash -c '
+            ./target/release/gta6-hq 2> shots/stderr-linux.txt & pid=$!
+            sleep 25
+            kill -0 $pid || { echo "the app is not running"; cat shots/stderr-linux.txt; exit 1; }
+            xwininfo -root -tree | grep "GTA 6 HQ" || { echo "the window is missing"; exit 1; }
+            import -window root shots/window-linux.png
+            kill $pid' 2> /dev/null
+          brightness=$(identify -format "%[fx:mean]" shots/window-linux.png)
+          echo "brightness of the picture: $brightness"
+          awk -v b="$brightness" 'BEGIN { exit !(b > 0.05) }' || { echo "the window is blank"; exit 1; }
       - uses: actions/upload-artifact@v4
         if: always()
         with:
