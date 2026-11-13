@@ -67,19 +67,19 @@ jobs:
         # time the splash has given way to Home; the screen is saved as a picture.
         run: |
           mkdir -p shots
-          for mode in default no-dmabuf no-compositing; do
-            unset WEBKIT_DISABLE_DMABUF_RENDERER WEBKIT_DISABLE_COMPOSITING_MODE
-            if [ "$mode" = no-dmabuf ]; then export WEBKIT_DISABLE_DMABUF_RENDERER=1; fi
-            if [ "$mode" = no-compositing ]; then export WEBKIT_DISABLE_COMPOSITING_MODE=1; fi
+          sudo apt-get install -y gdb dbus-daemon > /dev/null
+          for mode in plain dbus; do
             export MODE="$mode"
-            xvfb-run -a -s "-screen 0 1440x900x24" bash -c '
+            wrap=""; if [ "$mode" = dbus ]; then wrap="dbus-run-session --"; fi
+            $wrap xvfb-run -a -s "-screen 0 1440x900x24" bash -c '
               ./target/release/gta6-hq 2> "shots/stderr-$MODE.txt" & pid=$!
               sleep 25
               kill -0 $pid || { echo "the app is not running"; cat "shots/stderr-$MODE.txt"; exit 1; }
               xwininfo -root -tree | head -24
               import -window root "shots/window-linux-$MODE.png"
+              if [ "$MODE" = plain ]; then sudo gdb -p $pid -batch -ex "thread apply all bt 14" 2>/dev/null | grep -E "^Thread|^#" | head -80; fi
               kill $pid'
-            echo "--- $mode: stderr"; cat "shots/stderr-$mode.txt" | head -20
+            echo "--- $mode: stderr"; head -20 "shots/stderr-$mode.txt"
             identify -format "%f brightness=%[fx:mean] " "shots/window-linux-$mode.png"; echo
           done
       - uses: actions/upload-artifact@v4
