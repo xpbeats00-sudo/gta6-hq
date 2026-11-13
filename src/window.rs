@@ -1,4 +1,5 @@
-//! The native app window: a tao window hosting a wry (WebView2) view.
+//! The native app window: a tao window hosting a wry web view (WebView2 on Windows,
+//! the system WebKit on macOS, WebKitGTK on Linux).
 
 use std::path::Path;
 
@@ -58,8 +59,8 @@ pub fn run(url: &str, root: &Path) -> ! {
 
     theme_window_frame(&window);
 
-    // Keep WebView2's profile in the app's cache folder rather than beside the exe.
-    let mut context = WebContext::new(Some(root.join("cache").join("webview")));
+    // Keep the web view's profile in the app's cache folder rather than beside the program.
+    let mut context = WebContext::new(Some(crate::cache_dir(root).join("webview")));
     let app_origin = url.trim_end_matches('/').to_string();
     let stay_in_app = {
         let app_origin = app_origin.clone();
@@ -71,7 +72,9 @@ pub fn run(url: &str, root: &Path) -> ! {
             false
         }
     };
-    let webview = WebViewBuilder::new_with_web_context(&mut context)
+    let builder = WebViewBuilder::new_with_web_context(&mut context)
+        // The page asks which system it is on: macOS keeps its own window buttons.
+        .with_initialization_script(concat_os_script())
         .with_url(url)
         .with_background_color(BACKGROUND)
         .with_autoplay(true)
@@ -95,12 +98,29 @@ pub fn run(url: &str, root: &Path) -> ! {
                 open_in_browser(&target);
             }
             NewWindowResponse::Deny
-        })
-        .build(&window);
+        });
+    #[cfg(any(windows, target_os = "macos"))]
+    let webview = builder.build(&window);
+    // On Linux the view goes inside the window's GTK box, which works on Wayland as well as X11.
+    #[cfg(not(any(windows, target_os = "macos")))]
+    let webview = {
+        use tao::platform::unix::WindowExtUnix;
+        use wry::WebViewBuilderExtUnix;
+        match window.default_vbox() {
+            Some(vbox) => builder.build_gtk(vbox),
+            None => builder.build(&window),
+        }
+    };
     let webview = webview.unwrap_or_else(|e| {
-        error_dialog(&format!(
-            "GTA 6 HQ could not start its web view.\n\nThe Microsoft Edge WebView2 Runtime is required (it ships with Windows 11).\n\n{e}"
-        ));
+        let needs = if cfg!(windows) {
+            "The Microsoft Edge WebView2 Runtime is required (it ships with Windows 11)."
+        } else if cfg!(target_os = "macos") {
+            "macOS 11 or later is required."
+        } else {
+            "WebKitGTK 4.1 is required (the package is usually called libwebkit2gtk-4.1-0 or webkit2gtk4.1)."
+        };
+        eprintln!("GTA 6 HQ could not start its web view. {needs} {e}");
+        error_dialog(&format!("GTA 6 HQ could not start its web view.\n\n{needs}\n\n{e}"));
         std::process::exit(1);
     });
 
@@ -141,9 +161,31 @@ fn undecorated(builder: WindowBuilder) -> WindowBuilder {
     builder.with_decorations(false).with_undecorated_shadow(true)
 }
 
-#[cfg(not(windows))]
+/// macOS keeps its own frame, so the window has the system's close, minimise and zoom buttons,
+/// rounded corners and edge resizing; the title bar is made see-through and the page runs under it.
+#[cfg(target_os = "macos")]
+fn undecorated(builder: WindowBuilder) -> WindowBuilder {
+    use tao::platform::macos::WindowBuilderExtMacOS;
+    builder
+        .with_titlebar_transparent(true)
+        .with_fullsize_content_view(true)
+        .with_title_hidden(true)
+}
+
+#[cfg(not(any(windows, target_os = "macos")))]
 fn undecorated(builder: WindowBuilder) -> WindowBuilder {
     builder.with_decorations(false)
+}
+
+/// A one-line script that tells the page which system it is running on.
+fn concat_os_script() -> &'static str {
+    if cfg!(target_os = "macos") {
+        "window.__OS__ = 'macos';"
+    } else if cfg!(windows) {
+        "window.__OS__ = 'windows';"
+    } else {
+        "window.__OS__ = 'linux';"
+    }
 }
 
 fn is_app_url(target: &str, app_origin: &str) -> bool {

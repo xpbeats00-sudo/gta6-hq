@@ -26,8 +26,7 @@ pub fn get(root: &Path, z: u8, y: u32, x: u32) -> Result<Vec<u8>, TileError> {
     if z > MAX_ZOOM || x >= (1 << z) || y >= (1 << z) {
         return Err(TileError::NotFound);
     }
-    let cached = root
-        .join("cache")
+    let cached = crate::cache_dir(root)
         .join("tiles")
         .join(z.to_string())
         .join(y.to_string())

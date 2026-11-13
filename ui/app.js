@@ -1774,13 +1774,16 @@ function setupAnnouncement(game) {
 }
 
 // ---------- the desktop window ----------
-// The desktop app has no Windows title bar: these are its buttons, and the bars are what you drag.
+// The desktop app has no title bar: these are its buttons, and the bars are what you drag.
 // In a browser there is no `window.ipc`, so none of this is switched on.
+// On macOS the window keeps the system's own buttons and edges, so only dragging is ours.
 if (window.ipc?.postMessage) {
   const send = (message) => window.ipc.postMessage(message);
+  const mac = window.__OS__ === 'macos';
   const controls = document.getElementById('window-controls');
-  controls.hidden = false;
+  controls.hidden = mac;
   document.documentElement.classList.add('is-desktop');
+  document.documentElement.dataset.os = window.__OS__ || 'windows';
   controls.addEventListener('click', (e) => {
     const button = e.target.closest('[data-window]');
     if (button) send(button.dataset.window);
@@ -1793,7 +1796,7 @@ if (window.ipc?.postMessage) {
   document.addEventListener('dblclick', (e) => { if (onBar(e)) send('maximize'); });
 
   // Thin strips along the edges and corners stand in for the frame you would normally resize by.
-  for (const edge of ['n', 's', 'e', 'w', 'ne', 'nw', 'se', 'sw']) {
+  for (const edge of mac ? [] : ['n', 's', 'e', 'w', 'ne', 'nw', 'se', 'sw']) {
     const strip = document.createElement('div');
     strip.className = `resize-edge resize-${edge}`;
     strip.addEventListener('mousedown', (e) => { if (e.button === 0) { e.preventDefault(); send(`resize:${edge}`); } });

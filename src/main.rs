@@ -123,9 +123,42 @@ fn fail(message: &str) -> ! {
     std::process::exit(1);
 }
 
+/// Where the app keeps what it downloads and what the web view stores (map tiles, the profile).
+///
+/// Normally `cache/` beside the app, as on Windows. On macOS the app is a bundle, which must
+/// not be written into (and may be run from a read-only place), and on Linux the app may sit
+/// somewhere read-only; then the user's own cache folder is used. `GTA6_HQ_CACHE` overrides both.
+pub fn cache_dir(root: &Path) -> PathBuf {
+    if let Some(explicit) = std::env::var_os("GTA6_HQ_CACHE").filter(|v| !v.is_empty()) {
+        return PathBuf::from(explicit);
+    }
+    let beside = root.join("cache");
+    if cfg!(windows) {
+        return beside;
+    }
+    let in_bundle = root
+        .components()
+        .any(|part| part.as_os_str().to_string_lossy().ends_with(".app"));
+    if !in_bundle && std::fs::create_dir_all(&beside).is_ok() {
+        return beside;
+    }
+    let home = std::env::var_os("HOME").map(PathBuf::from);
+    let user_cache = if cfg!(target_os = "macos") {
+        home.map(|h| h.join("Library").join("Caches").join("GTA6HQ"))
+    } else {
+        std::env::var_os("XDG_CACHE_HOME")
+            .filter(|v| !v.is_empty())
+            .map(PathBuf::from)
+            .or_else(|| home.map(|h| h.join(".cache")))
+            .map(|c| c.join("gta6-hq"))
+    };
+    user_cache.unwrap_or(beside)
+}
+
 /// The app folder holds `ui/`, `data/`, `images/` and `wallpapers/`.
 /// Look next to the executable and upwards (covers `target/release/`),
-/// then the current directory.
+/// then the current directory. In a macOS bundle the folders are in
+/// `Contents/Resources`, beside the `Contents/MacOS` the program is in.
 fn find_root() -> Option<PathBuf> {
     let is_root = |p: &Path| p.join("ui").join("index.html").is_file();
 
@@ -136,8 +169,14 @@ fn find_root() -> Option<PathBuf> {
         }
     }
     if let Ok(exe) = std::env::current_exe() {
-        if let Some(found) = exe.ancestors().skip(1).find(|p| is_root(p)) {
-            return Some(found.to_path_buf());
+        for folder in exe.ancestors().skip(1) {
+            if is_root(folder) {
+                return Some(folder.to_path_buf());
+            }
+            let resources = folder.join("Resources");
+            if is_root(&resources) {
+                return Some(resources);
+            }
         }
     }
     let cwd = std::env::current_dir().ok()?;
