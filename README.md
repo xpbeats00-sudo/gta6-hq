@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.18**: a new intro built from the cover art, and updates found while the app stays open.
 - **0.2.17**: fan-compiled lists of vehicles, weapons, brands and minor characters, marked as community research, plus the last gaps from Rockstar's own posts.
 - **0.2.16**: launch time, boxed-copy details and fan-recorded place names, each labelled by source.
 - **0.2.15**: a picture for Lori's entry, marked as an unconfirmed identification.

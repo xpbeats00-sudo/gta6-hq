@@ -2,6 +2,11 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.18 (13 November 2026)
+
+- New intro: the VI logo opens first, then the nine panels of the cover art fly in one by one to build the full picture.
+- Updates are found while the app is open: it now checks at most once every half hour, and when its window comes back into view, so a new release is offered without closing and reopening the app.
+
 ## 0.2.17 (13 November 2026)
 
 - Fan lists: five new entries name the vehicles, weapons, brands, minor characters and animals that the GTA Wiki community has picked out of trailers and screenshots. Each is marked as community research, and items the wiki flags as coming from the 2022 leak are left out.

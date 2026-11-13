@@ -12,9 +12,20 @@
 <body class="is-loading">
   <a class="skip-link" href="#view">Skip to content</a>
 
-  <!-- Loading screen: plays the splash video once per launch -->
+  <!-- Loading screen: the VI logo arrives first, then the nine panels of the cover art fly in around it -->
   <div id="splash" role="status" aria-label="Loading GTA 6 HQ">
-    <video id="splash-video" src="/wallpapers/gta6splashscreen.mp4#t=2" autoplay muted playsinline preload="auto"></video>
+    <div class="splash-stage" aria-hidden="true">
+      <img class="sp sp-logo" src="/images/splash/logo.webp" alt="">
+      <img class="sp sp-1" src="/images/splash/p1.webp" alt="">
+      <img class="sp sp-2" src="/images/splash/p2.webp" alt="">
+      <img class="sp sp-3" src="/images/splash/p3.webp" alt="">
+      <img class="sp sp-4" src="/images/splash/p4.webp" alt="">
+      <img class="sp sp-5" src="/images/splash/p5.webp" alt="">
+      <img class="sp sp-6" src="/images/splash/p6.webp" alt="">
+      <img class="sp sp-7" src="/images/splash/p7.webp" alt="">
+      <img class="sp sp-8" src="/images/splash/p8.webp" alt="">
+      <img class="sp sp-9" src="/images/splash/p9.webp" alt="">
+    </div>
     <div class="splash-foot">
       <button id="splash-skip" type="button">Skip intro</button>
       <div class="splash-load">

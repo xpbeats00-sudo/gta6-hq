@@ -98,7 +98,9 @@ pub fn scan(root: &Path) -> Catalogue {
         videos: Vec::new(),
     };
     for file in files_on_disk(root) {
-        if HIDDEN.contains(&file.to_lowercase().as_str()) {
+        let lower = file.to_lowercase();
+        // The intro's cut-up cover art is app chrome too.
+        if HIDDEN.contains(&lower.as_str()) || lower.starts_with("images/splash/") {
             continue;
         }
         let asset = by_file.get(file.as_str()).copied();

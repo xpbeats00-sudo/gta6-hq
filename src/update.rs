@@ -1,7 +1,8 @@
 //! Update check: asks GitHub whether a newer release of the app exists.
 //!
 //! One request to `api.github.com` for the repository named in
-//! `data/update.json`, at most once every six hours while the app is open.
+//! `data/update.json`, at most once every half hour while the app is open, so a
+//! release published while the app is running is offered without a restart.
 //! Turn it off with `"enabled": false` in `data/update.json`.
 //!
 //! Nothing is downloaded or installed by itself. When the reader presses
@@ -23,7 +24,7 @@ use serde::Deserialize;
 use serde_json::{json, Value};
 
 const CURRENT: &str = env!("CARGO_PKG_VERSION");
-const RECHECK: Duration = Duration::from_secs(6 * 60 * 60);
+const RECHECK: Duration = Duration::from_secs(30 * 60);
 const MAX_BYTES: u64 = 1024 * 1024;
 const MAX_NOTES: usize = 600;
 /// The setup program is about 56 MB; anything far larger is not ours.

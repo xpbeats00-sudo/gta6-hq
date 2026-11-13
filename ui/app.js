@@ -446,15 +446,12 @@ document.addEventListener('visibilitychange', () => {
 
 // ---------- splash ----------
 
-// Seconds of the splash video to skip: its opening is a near-black outline
-// that reads as a stalled screen. Keep in step with `#t=` in index.html.
-const SPLASH_START = 2;
-// The clip is made to loop: its last quarter-second is its opening again. Stop on the finished logo, before that.
-const SPLASH_END = 9.3;
+// How long the intro runs before the app opens: the logo, nine panels half a second apart, then a
+// short hold on the finished picture. Keep in step with the delays in styles.css.
+const SPLASH_MS = 7600;
 
 function runSplash(ready) {
   const splash = document.getElementById('splash');
-  const video = document.getElementById('splash-video');
   const percent = document.getElementById('splash-percent');
   const ring = document.getElementById('splash-ring');
   const RING = 2 * Math.PI * 46; // the ring's circumference, in its own units
@@ -465,43 +462,38 @@ function runSplash(ready) {
   /** How long the splash takes to dissolve into the app. The stylesheet uses the same time. */
   const SPLASH_FADE_MS = 1200;
 
-  const onKey = (e) => { if (e.key === 'Escape' || e.key === 'Enter') finish(); };
-  const finish = async () => {
+  const onKey = (e) => { if (e.key === 'Escape' || e.key === 'Enter') finish(true); };
+  const finish = async (skipped) => {
     if (finished) return;
     finished = true;
     window.removeEventListener('keydown', onKey);
+    // Skipping shows the whole picture at once instead of leaving it half built while it fades.
+    if (skipped === true) splash.classList.add('is-skipped');
     await ready;
     fill(1);
     // The splash dissolves while the app behind it eases in, instead of cutting from one to the other.
     splash.classList.add('is-done');
     document.body.classList.remove('is-loading');
     document.body.classList.add('is-arriving');
-    setTimeout(() => { video.pause(); splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
+    setTimeout(() => { splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
   };
 
-  const update = () => {
-    if (!video.duration) return;
-    const end = Math.min(SPLASH_END, video.duration);
-    // Hold the finished logo on screen while the splash fades out.
-    if (video.currentTime >= end) { video.pause(); finish(); }
-    const done = Math.min(1, Math.max(0, (video.currentTime - SPLASH_START) / (end - SPLASH_START)));
+  // The percentage follows the intro's own clock, counted every frame so it climbs smoothly.
+  const started = performance.now();
+  const everyFrame = (now) => {
+    if (finished) return;
+    const done = Math.min(1, (now - started) / SPLASH_MS);
     fill(done);
     tip.textContent = tips[Math.min(tips.length - 1, Math.floor(done * tips.length))];
+    if (done >= 1) finish(); else requestAnimationFrame(everyFrame);
   };
-  video.addEventListener('timeupdate', update);
-  // Count every frame while the window is being drawn, so the percentage climbs smoothly.
-  const everyFrame = () => { if (!finished) { update(); requestAnimationFrame(everyFrame); } };
   requestAnimationFrame(everyFrame);
-  video.addEventListener('ended', finish);
-  video.addEventListener('error', finish);
-  document.getElementById('splash-skip').addEventListener('click', finish);
+  // A window that is not being drawn gets no frames; the timer still ends the intro.
+  setTimeout(finish, SPLASH_MS + 500);
+  document.getElementById('splash-skip').addEventListener('click', () => finish(true));
   // Stays attached until the splash ends, so pressing some other key first
   // does not disable Enter and Esc.
   window.addEventListener('keydown', onKey);
-
-  // If the video cannot autoplay, don't leave people on a black screen.
-  video.play().catch(() => setTimeout(finish, 1500));
-  setTimeout(() => { if (video.currentTime <= SPLASH_START) finish(); }, 4000);
 }
 
 // ---------- home ----------
@@ -1586,14 +1578,24 @@ function startPromoWalls(card) {
 /** The community server's permanent invite. Also written in index.html (top bar and footer). */
 const DISCORD_INVITE = 'https://discord.gg/YhMHr8N4an';
 
+/** The version the notice on screen offers, or 'busy' once an update has started. */
+let updateOffered = '';
+/** How often an open app asks again. The app itself asks GitHub at most once every half hour. */
+const UPDATE_RECHECK_MS = 30 * 60 * 1000;
+
 /** Offer a newer release if GitHub has one. Dismissing it is remembered for that version. */
 async function checkForUpdate() {
+  if (updateOffered === 'busy') return;
   let status;
   try { status = await getJson('/api/update'); } catch { return; }
   const link = status.url || status.download;
   if (!status.available || !link) return;
   const key = 'update-dismissed';
   try { if (localStorage.getItem(key) === status.latest) return; } catch { /* storage unavailable */ }
+  // Asked again while the app stays open: keep the notice that is already up, replace an older one.
+  if (updateOffered === status.latest && document.querySelector('.update-toast')) return;
+  document.querySelector('.update-toast')?.remove();
+  updateOffered = status.latest;
   const toast = document.createElement('aside');
   toast.className = 'update-toast';
   toast.setAttribute('role', 'status');
@@ -1607,7 +1609,7 @@ async function checkForUpdate() {
     try { localStorage.setItem(key, status.latest); } catch { /* storage unavailable */ }
     toast.remove();
   });
-  toast.querySelector('[data-update]')?.addEventListener('click', () => { toast.remove(); beginUpdate(status); });
+  toast.querySelector('[data-update]')?.addEventListener('click', () => { toast.remove(); updateOffered = 'busy'; beginUpdate(status); });
   document.body.append(toast);
 }
 
@@ -1838,6 +1840,10 @@ const ready = getJson('/api/wiki')
     state.wiki = wiki;
     setupAnnouncement(wiki.game);
     checkForUpdate();
+    // Keep asking while the app stays open, and when its window comes back into view, so a
+    // release published in the meantime is offered without closing and reopening the app.
+    setInterval(checkForUpdate, UPDATE_RECHECK_MS);
+    document.addEventListener('visibilitychange', () => { if (!document.hidden) checkForUpdate(); });
     syncRails();
     window.addEventListener('hashchange', navigate);
     route();
