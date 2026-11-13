@@ -1,6 +1,6 @@
 # Repository inventory
 
-Generated 2026-11-12 18:54 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-12 19:17 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
@@ -9,13 +9,13 @@ Generated 2026-11-12 18:54 by `scripts/current_state.py`. Do not edit by hand.
 | `data/` | 10 | 0.2 MB |
 | `images/` | 109 | 21.7 MB |
 | `wallpapers/` | 6 | 21.2 MB |
-| `docs/` | 214 | 104.2 MB |
+| `docs/` | 215 | 110.2 MB |
 | `scripts/` | 11 | 0.1 MB |
-| `cache/` | 1856 | 450.6 MB |
+| `cache/` | 846 | 90.8 MB |
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 1 | 0.0 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 2613 | 990.0 MB |
+| `target/release/` | 2630 | 999.1 MB |
 
 ## Source files
 
@@ -36,7 +36,7 @@ Generated 2026-11-12 18:54 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/art.js` | 83 |
 | `ui/manual.js` | 413 |
 | `ui/manual.css` | 271 |
-| `ui/styles.css` | 810 |
+| `ui/styles.css` | 809 |
 | `ui/index.html` | 120 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 2486 |

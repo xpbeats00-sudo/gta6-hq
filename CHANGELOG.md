@@ -2,6 +2,11 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.8 (12 November 2026)
+
+- The police lights during an update flash about 1.5 times a second, the rate recommended for emergency lamps, with a low glow between flashes.
+- The text on the update stage sits on a darker shade, as intended.
+
 ## 0.2.7 (12 November 2026)
 
 - An installed copy can update itself. "Update now" downloads the new setup from the release on GitHub, checks it against the release's checksums, then the app closes, updates and opens again. A portable copy still gets a link.

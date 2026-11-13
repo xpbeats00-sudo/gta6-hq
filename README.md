@@ -93,6 +93,7 @@ Click any picture to see it full screen.
 
 ## What's new
 
+**0.2.8**: the police lights flash at a real emergency-lamp rate, and the update stage is easier to read.
 **0.2.7**: the app can update itself from Home, with police lights down the sides while it does.
 **0.2.6**: the Discord invitation on Home has a changing wallpaper, the server's icon and the Discord logo.
 **0.2.5**: Setup no longer leaves a stray folder beside the setup file.
