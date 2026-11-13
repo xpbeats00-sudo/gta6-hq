@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.15**: a picture for Lori's entry, marked as an unconfirmed identification.
 - **0.2.14**: the latest official news on the Intel timeline: The Festival, the frame rate, Xbox Cloud Gaming and the launch-day poster.
 - **0.2.13**: replaces 0.2.12, which Windows Security wrongly flagged and removed.
 - **0.2.12**: the Update now button in the update notice looks right again.

@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.15 (13 November 2026)
+
+- Lori's entry has a picture, from Rockstar's official screenshot "Brian Heder 04". Rockstar does not name the woman in it, and the entry says so.
+
 ## 0.2.14 (13 November 2026)
 
 - Four new items on the Intel timeline, each checked at its source: Grand Theft Auto VI: The Festival, the 30 frames per second target and PlayStation 5 Pro details, Take-Two saying development is complete, and the free poster and map of Leonida on launch day.
