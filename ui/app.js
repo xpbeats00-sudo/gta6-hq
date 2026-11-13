@@ -1669,8 +1669,8 @@ const updater = {
 
 // Police lights down both sides of the window for as long as an update is running, as if the
 // cops are on you. There is nothing to see but the light itself, as a background: red and blue
-// thrown in from each side, by turns, bursting three times at the very edge and washing over
-// the page beside it. They belong to the update, not to Home, so they stay on whichever page
+// thrown in from each side, by turns, each flashing about 1.4 times a second (the 1 to 2 Hz
+// that SAE recommends for emergency lamps) and washing over the page beside it. They belong to the update, not to Home, so they stay on whichever page
 // is open, and go out when it finishes, fails or is put aside.
 const policeLights = document.createElement('div');
 policeLights.className = 'police-lights';
