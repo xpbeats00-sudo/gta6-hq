@@ -1,27 +1,29 @@
 <div align="center">
 
-# GTA 6 HQ
+<h1><img src="docs/media/readme/banner.png" alt="GTA 6 HQ: the unofficial Grand Theft Auto VI encyclopedia, map and field manual for Windows" width="860"></h1>
 
-**An unofficial Grand Theft Auto VI encyclopedia and field manual for Windows.**
-Sourced, labelled by how well each fact is supported, and built as a small Rust desktop app.
+**Sourced, labelled by how well each fact is supported, and built as a small Rust desktop app.**
 
 <img src="docs/media/splash.webp" alt="The app opening: the VI logo draws itself while a ring fills and a percentage counts up" width="860">
 
 <a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows" height="44"></a>
 
-[![Latest version](https://img.shields.io/github/v/release/xpbeats00-sudo/gta6-hq?label=latest%20version&color=ee3f7c)](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/xpbeats00-sudo/gta6-hq/total?label=downloads&color=7c3fd6)](https://github.com/xpbeats00-sudo/gta6-hq/releases)
-[![Join the Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/YhMHr8N4an)
-![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f7a13c)
-![Built with Rust](https://img.shields.io/badge/built%20with-Rust-2b1052)
+[![Latest version](https://img.shields.io/github/v/release/xpbeats00-sudo/gta6-hq?label=latest&style=for-the-badge&labelColor=160a2e&color=ee3f7c)](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/xpbeats00-sudo/gta6-hq/total?label=downloads&style=for-the-badge&labelColor=160a2e&color=7c3fd6)](https://github.com/xpbeats00-sudo/gta6-hq/releases)
+[![Join the Discord](https://img.shields.io/badge/Discord-join-ee3f7c?style=for-the-badge&labelColor=160a2e&logo=discord&logoColor=white)](https://discord.gg/YhMHr8N4an)
+![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f7a13c?style=for-the-badge&labelColor=160a2e)
+![Built with Rust](https://img.shields.io/badge/built%20with-Rust-7c3fd6?style=for-the-badge&labelColor=160a2e)
 
 [Install](#install) · [What's inside](#whats-inside) · [The Field Manual](#the-field-manual) · [What's new](#whats-new) · [Creators welcome](#creators-welcome) · [Questions](#questions) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
+
+<img src="docs/media/readme/rule.png" alt="" width="860">
 
 </div>
 
 > **Unofficial fan project.** Not published, approved or endorsed by Rockstar Games or Take-Two Interactive. Everything here was written before the game's release on 19 November 2026, from official footage, Rockstar's interviews and press previews.
 
-## Install
+<a id="install"></a>
+<p align="center"><img src="docs/media/readme/h-install.png" alt="Install" width="860"></p>
 
 1. Go to the [latest release](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest).
 2. Download `GTA6HQ-<version>-Setup.exe` and run it. It installs for your user account only and needs no administrator access.
@@ -43,9 +45,12 @@ When a newer version is published, the app shows a notice. In an installed copy,
 <img src="docs/media/update.webp" alt="Updating from Home: the hero keeps its live wallpaper while a ring fills to 100% around the turning logo, and red and blue police light plays down both sides of the window" width="860">
 </div>
 
-## What's inside
+<a id="whats-inside"></a>
+<p align="center"><img src="docs/media/readme/h-inside.png" alt="What's inside" width="860"></p>
 
+<div align="center">
 <img src="docs/media/tabs.webp" alt="The Home wallpaper playing and the Discord invitation below it, then Encyclopedia, Characters, Vehicles and a location page, with picture cards sliding across the page headers" width="860">
+</div>
 
 | | |
 |---|---|
@@ -71,9 +76,12 @@ When a newer version is published, the app shows a notice. In an installed copy,
 </tr>
 </table>
 
-## The Field Manual
+<a id="the-field-manual"></a>
+<p align="center"><img src="docs/media/readme/h-manual.png" alt="The Field Manual" width="860"></p>
 
+<div align="center">
 <img src="docs/media/manual.webp" alt="Opening the Field Manual, turning to its chapters, opening a picture full screen, and switching to night reading" width="860">
+</div>
 
 Ten chapters, written like the manual that used to come in the box:
 
@@ -91,7 +99,8 @@ Click any picture to see it full screen.
 </tr>
 </table>
 
-## What's new
+<a id="whats-new"></a>
+<p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
 **0.2.10**: the Field Manual's day and night switch is a small Vice City scene, and the new look spreads across the page from it.
 **0.2.9**: the splash screen dissolves smoothly into Home.
@@ -107,7 +116,8 @@ Click any picture to see it full screen.
 
 The full list is in [CHANGELOG.md](CHANGELOG.md), and every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases).
 
-## Creators welcome
+<a id="creators-welcome"></a>
+<p align="center"><img src="docs/media/readme/h-creators.png" alt="Creators welcome" width="860"></p>
 
 Download it, review it, stream it, make videos about it. You do not need to ask.
 
@@ -115,7 +125,8 @@ Download it, review it, stream it, make videos about it. You do not need to ask.
 - The [press kit](docs/press/README.md) has a description to copy, screenshots and animations.
 - Made something? Post it in the [Discord server](https://discord.gg/YhMHr8N4an) and we will share it.
 
-## Questions
+<a id="questions"></a>
+<p align="center"><img src="docs/media/readme/h-questions.png" alt="Questions" width="860"></p>
 
 <details>
 <summary><b>Windows says it "protected my PC". Is the app safe?</b></summary>
@@ -165,7 +176,8 @@ Yes. In the app's folder, open `data/discord.json` or `data/update.json` and set
 Please [open an issue](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose) and say where you saw it and what your source is. Everything was written before release, so corrections from the finished game are welcome.
 </details>
 
-## How far to trust it
+<a id="how-far-to-trust-it"></a>
+<p align="center"><img src="docs/media/readme/h-trust.png" alt="How far to trust it" width="860"></p>
 
 Nothing is written from memory or carried over from earlier games. Every claim in the manual carries one of these labels:
 
@@ -179,7 +191,8 @@ Nothing is written from memory or carried over from earlier games. Every claim i
 
 Every chapter was written before release, so all of it needs checking against the finished game. The evidence behind the manual is in [`docs/manual/research/`](docs/manual/research/), and the current state of the project is in [`docs/status/CURRENT-STATE.md`](docs/status/CURRENT-STATE.md).
 
-## Privacy
+<a id="privacy"></a>
+<p align="center"><img src="docs/media/readme/h-privacy.png" alt="Privacy" width="860"></p>
 
 - No account, no telemetry, no analytics.
 - The app asks GitHub whether a newer version exists, and the map downloads its tiles from gta6-wiki.org the first time each area is viewed.
@@ -187,7 +200,8 @@ Every chapter was written before release, so all of it needs checking against th
 
 The update check and the Discord status can each be turned off in the app's `data` folder. Details: [`docs/architecture/NETWORK-AND-PRIVACY.md`](docs/architecture/NETWORK-AND-PRIVACY.md).
 
-## Credits and rights
+<a id="credits-and-rights"></a>
+<p align="center"><img src="docs/media/readme/h-credits.png" alt="Credits and rights" width="860"></p>
 
 - **Pictures, footage frames and artwork** are official Rockstar Games material and remain the property of Rockstar Games and Take-Two Interactive. Their source and rights status are recorded per file in `data/media.json`; none is licensed for redistribution, as [`docs/compliance/MEDIA-RIGHTS-AUDIT.md`](docs/compliance/MEDIA-RIGHTS-AUDIT.md) sets out. If you are a rights holder and want something removed, [open a rights request](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose).
 - **Map tiles**: the GTA VI mapping community via gtadb.org, CC BY 4.0, served by gta6-wiki.org and cached locally on first view.
@@ -195,7 +209,8 @@ The update check and the Discord status can each be turned off in the app's `dat
 
 Grand Theft Auto and related names are trademarks of their owners.
 
-## For developers
+<a id="for-developers"></a>
+<p align="center"><img src="docs/media/readme/h-developers.png" alt="For developers" width="860"></p>
 
 <details>
 <summary>Building, adding content and how it is put together</summary>
@@ -317,3 +332,10 @@ The file people download is the setup window in `installer/shell` (a small Rust 
 The installer puts the app in the user's own programs folder, so it needs no administrator access and the app can write its map cache beside itself.
 
 </details>
+
+<div align="center">
+<img src="docs/media/readme/rule.png" alt="" width="860">
+
+**GTA 6 HQ** is an unofficial fan project. [Download](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) · [Discord](https://discord.gg/YhMHr8N4an) · [Press kit](docs/press/README.md)
+
+</div>
