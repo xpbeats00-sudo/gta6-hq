@@ -2,12 +2,15 @@ name: Build on Windows, macOS and Linux
 
 # Builds and tests the app on all three systems, starts it once on each to prove the window
 # opens, and keeps the macOS and Linux packages as downloadable artifacts of the run.
-# It does not publish anything: releases are still made by hand.
+# When a release is published (by hand, with the Windows files), the macOS and Linux packages
+# built here are added to that release, each with a .sha256 file to check it against.
 on:
   push:
     branches: [main]
   pull_request:
   workflow_dispatch:
+  release:
+    types: [published]
 
 permissions:
   contents: read
@@ -33,6 +36,8 @@ jobs:
   linux:
     runs-on: ubuntu-22.04
     timeout-minutes: 30
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Install the libraries the window needs
@@ -95,10 +100,22 @@ jobs:
           name: gta6-hq-linux
           path: dist/*.tar.gz
           if-no-files-found: error
+      - name: Add the package to the release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          for file in *.tar.gz; do
+            shasum -a 256 "$file" > "$file.sha256"
+            gh release upload "${{ github.event.release.tag_name }}" "$file" "$file.sha256" --clobber --repo "${{ github.repository }}"
+          done
 
   macos:
     runs-on: macos-latest
     timeout-minutes: 45
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Add the Intel target
@@ -154,3 +171,13 @@ jobs:
           name: gta6-hq-macos
           path: dist/*.zip
           if-no-files-found: error
+      - name: Add the package to the release
+        if: github.event_name == 'release'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd dist
+          for file in *.zip; do
+            shasum -a 256 "$file" > "$file.sha256"
+            gh release upload "${{ github.event.release.tag_name }}" "$file" "$file.sha256" --clobber --repo "${{ github.repository }}"
+          done

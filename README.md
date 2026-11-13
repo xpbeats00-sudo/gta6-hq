@@ -33,17 +33,25 @@ The same app runs on all three. Each picture below is the real app, photographed
 
 <img src="docs/media/os/windows.jpg" alt="GTA 6 HQ on Windows: Home with the live wallpaper, the countdown, and the app's own window buttons at the top right" width="860">
 
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows" height="40"></a>
+
 **macOS**
 
 <img src="docs/media/os/macos.jpg" alt="GTA 6 HQ on macOS: the app under the Mac menu bar with the system's red, yellow and green window buttons, and its VI logo in the Dock" width="860">
+
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20macOS%20(preview)-7c3fd6?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS (preview)" height="40"></a>
 
 **Linux**
 
 <img src="docs/media/os/linux.jpg" alt="GTA 6 HQ on Linux: Home with the live wallpaper, the countdown, and the app's own window buttons at the top right" width="860">
 
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Linux%20(preview)-f58a2e?style=for-the-badge&logo=linux&logoColor=white" alt="Download for Linux (preview)" height="40"></a>
+
 </div>
 
-Windows is the released version. The macOS and Linux versions are built and tested automatically on every change (the two pictures come from those test machines), but they are not on the releases page yet, because nobody has tried them on a desktop of their own. Want to? Ask in the [Discord server](https://discord.gg/YhMHr8N4an).
+Each button opens the latest release. Pick `…-Setup.exe` for Windows, `…-macos.zip` for macOS or `…-linux-x86_64.tar.gz` for Linux.
+
+The macOS and Linux versions are **previews**. They are built and tested automatically on every change (the two pictures come from those test machines), but few people have used them on a desktop of their own yet. If something is wrong, say so in the [Discord server](https://discord.gg/YhMHr8N4an) or [open an issue](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose). How to open them is under [Install](#install).
 
 <a id="install"></a>
 <p align="center"><img src="docs/media/readme/h-install.png" alt="Install" width="860"></p>
@@ -59,6 +67,12 @@ Windows is the released version. The macOS and Linux versions are built and test
 From version 0.2.4 the setup is its own window in the app's look. It still installs the ordinary way underneath, so the Start menu entry and the uninstaller work as on any Windows app.
 
 Prefer no installer? Download the portable zip from the same page, extract it anywhere and run `gta6-hq.exe`.
+
+**macOS (preview).** Download `GTA6HQ-<version>-macos.zip`, open it, and drag **GTA 6 HQ** into Applications. It runs on Apple silicon and Intel Macs with macOS 11 or later. The app is not signed with an Apple developer account, so the first time macOS refuses to open it: go to System Settings → Privacy & Security, scroll down and choose **Open Anyway**. On older macOS versions, right-click the app and choose **Open** instead.
+
+**Linux (preview).** Download `GTA6HQ-<version>-linux-x86_64.tar.gz`, extract it and run `./gta6-hq` inside the `GTA6HQ` folder; `./install.sh` adds it to your applications menu. It needs WebKitGTK 4.1 (the package is usually `libwebkit2gtk-4.1-0` or `webkit2gtk4.1`) and was built on Ubuntu 22.04, so it needs a distribution at least that recent.
+
+The macOS and Linux versions have no setup window and do not update themselves; the app's update notice links to the new release instead.
 
 The app is not code-signed, so Windows SmartScreen may show "Windows protected your PC" the first time. Choose **More info**, then **Run anyway**. Windows 11 already includes the WebView2 runtime the app needs.
 
