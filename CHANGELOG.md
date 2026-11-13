@@ -2,6 +2,12 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.11 (12 November 2026)
+
+- More official detail, each item checked on Rockstar's or PlayStation's own page: the album's ten singles, the score's guest artists and physical releases, the ESRB rating, the GTA+ month and Ultimate Edition Upgrade on the PlayStation Store, and PlayStation 5 features.
+- New entries for Lori, DWNPLY and Leonida Penitentiary, and new questions in Intel about the rating, the PlayStation 5 version and offline play.
+- The app now also builds and runs on macOS and Linux. Those versions are tested automatically but are not released yet.
+
 ## 0.2.10 (12 November 2026)
 
 - The Field Manual's day and night switch is a small Vice City scene. By day: pastel hotels, palms and the sun on the bay. Press it and the sun sets, the moon rises, and the windows and neon signs come on. The new look spreads across the page in a circle from the switch.
