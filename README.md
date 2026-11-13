@@ -102,17 +102,17 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
-**0.2.10**: the Field Manual's day and night switch is a small Vice City scene, and the new look spreads across the page from it.
-**0.2.9**: the splash screen dissolves smoothly into Home.
-**0.2.8**: the police lights flash at a real emergency-lamp rate, and the update stage is easier to read.
-**0.2.7**: the app can update itself from Home, with police lights down the sides while it does.
-**0.2.6**: the Discord invitation on Home has a changing wallpaper, the server's icon and the Discord logo.
-**0.2.5**: Setup no longer leaves a stray folder beside the setup file.
-**0.2.4**: a new setup window in the app's look, Discord invitations on Home and above the footer, and click-to-reveal spoilers.
-**0.2.3**: a link to the [community Discord server](https://discord.gg/YhMHr8N4an) in the top bar, on Home and in the footer.
-**0.2.2**: stricter security for the app's pages, and manual pictures can be opened from the keyboard.
-**0.2.1**: Home plays every live wallpaper in turn, pictures drift slowly, and the full-screen picture viewer is fixed.
-**0.2.0**: a new look with the app's own window buttons, a 38-page manual with two new chapters, and pictures across the encyclopedia.
+- **0.2.10**: the Field Manual's day and night switch is a small Vice City scene, and the new look spreads across the page from it.
+- **0.2.9**: the splash screen dissolves smoothly into Home.
+- **0.2.8**: the police lights flash at a real emergency-lamp rate, and the update stage is easier to read.
+- **0.2.7**: the app can update itself from Home, with police lights down the sides while it does.
+- **0.2.6**: the Discord invitation on Home has a changing wallpaper, the server's icon and the Discord logo.
+- **0.2.5**: Setup no longer leaves a stray folder beside the setup file.
+- **0.2.4**: a new setup window in the app's look, Discord invitations on Home and above the footer, and click-to-reveal spoilers.
+- **0.2.3**: a link to the [community Discord server](https://discord.gg/YhMHr8N4an) in the top bar, on Home and in the footer.
+- **0.2.2**: stricter security for the app's pages, and manual pictures can be opened from the keyboard.
+- **0.2.1**: Home plays every live wallpaper in turn, pictures drift slowly, and the full-screen picture viewer is fixed.
+- **0.2.0**: a new look with the app's own window buttons, a 38-page manual with two new chapters, and pictures across the encyclopedia.
 
 The full list is in [CHANGELOG.md](CHANGELOG.md), and every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases).
 
