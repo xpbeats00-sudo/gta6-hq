@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "fan-identified-vehicles",
+    "name": "Vehicles fans have identified",
+    "summary": "More than 100 vehicle models that fans have picked out of the trailers and screenshots, most of them familiar from earlier games.",
+    "body": [
+      "Named models on the wiki's list: 8F Drafter, Airboat 09, Aleutian, Alvino V1, Asterope GZ, Astron, Avarus, Banshee, Bison, Blazer, BMX, BTN Delmar, Buccaneer, Buccaneer Custom, Buffalo, Buffalo STX Pursuit, Burrito, Buzzard Attack Chopper, Caracara 4x4, Carbon RS, Carbonizzare, Cheetah Classic, Chino Custom, Comet Retro Custom, Comet S2 Cabrio, Contender, Coquette, Coquette D10, Cruiser, Cypher, Dashound, Dinghy, Dodo, Dominator, Dominator ASP, Dominator GT, Dominator GTX, Dorado, Double T, Dubsta, Duster, Elegy Retro Custom, Faggio, Furia, Gauntlet Hellfire, Gauntlet Interceptor, Granger, Granger 3600LX, Growler, Hellion, Impaler SZ, Infernus Classic, Itali GTO, Jet, Journey II, Jubilee, Jugular, Kamacho, Landstalker XL, Mammatus, Manchez, Marquis, Maverick, Mesa, Moonbeam, Mule, Nimbus, Novak, Outlaw, Packer, Paragon R, Phantom, Phantom Custom, PMP 700, Police Maverick, Police Riot, Primo, Primo Custom, Rubble, Ruiner, S23, Sanchez, Sandking XL, Schafter V12, Sea Sparrow, Seashark, Shamal, Speedo, Stratum, Sugoi, SuperVolito, Tailgater, Tempesta, Tulip, Tulip M-100, V-STR, Vapid Reclaimer, Vectre, Verus, Vigero ZX Convertible, Walton L35 Stock, Yosemite 1500, Youga Classic, Zombie, Zorrusso.",
+      "The wiki also records about 90 vehicles with no known name, described by what they resemble: yachts, speedboats, a shrimp boat and a cruise ship; police cars, boats and a helicopter; monster trucks, swamp buggies and donked-out cars; buses, vans, a motorhome and a mobility scooter; freight and passenger trains.",
+      "This is a fan-compiled list from the GTA Wiki, read from trailers and screenshots. Rockstar has not published it, names carried over from earlier games may change, and anything the wiki marks as coming from the 2022 leak is left out."
+    ],
+    "class": "Fan list",
+    "tags": [
+      "fan list",
+      "community",
+      "cars",
+      "boats",
+      "aircraft",
+      "trains"
+    ],
+    "confidence": "community",
+    "sources": [
+      "gtafandom-cat-vehicles"
+    ],
+    "verified": "2026-11-13"
+  }
+]

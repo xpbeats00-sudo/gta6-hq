@@ -2,6 +2,13 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.17 (13 November 2026)
+
+- Fan lists: five new entries name the vehicles, weapons, brands, minor characters and animals that the GTA Wiki community has picked out of trailers and screenshots. Each is marked as community research, and items the wiki flags as coming from the 2022 leak are left out.
+- News: the Rockstar Store clothing and collectibles range, and the full contents of the collector's box.
+- The Launch Trailer entry carries Rockstar's own story summary. Radio entries add earbuds and Mud Dog Mike of Back Country Radio.
+- The score, album and radio news items now cite Rockstar's own posts.
+
 ## 0.2.16 (13 November 2026)
 
 - Launch time: Rockstar's support site says the game releases at midnight local time in every region. Pre-load start times are recorded too.

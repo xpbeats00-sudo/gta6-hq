@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "fan-identified-wildlife",
+    "name": "Other animals fans have spotted",
+    "summary": "Animals that fans have picked out of the trailers and screenshots, beyond the ones with their own entries.",
+    "body": [
+      "On the wiki's list: cats, cranes, dolphins, double-crested cormorants, ducks, eels, fish, flamingos, foxes, iguanas, pelicans, raccoons, seagulls, sharks, snakes, spoonbills, squirrels.",
+      "This is a fan-compiled list from the GTA Wiki, read from trailers and screenshots. Rockstar has not published it, names carried over from earlier games may change, and anything the wiki marks as coming from the 2022 leak is left out."
+    ],
+    "art": "swamp",
+    "tags": [
+      "fan list",
+      "community",
+      "animals",
+      "birds",
+      "fish",
+      "cats",
+      "cranes",
+      "dolphins",
+      "double-crested cormorants",
+      "ducks",
+      "eels",
+      "fish",
+      "flamingos",
+      "foxes",
+      "iguanas",
+      "pelicans",
+      "raccoons",
+      "seagulls",
+      "sharks",
+      "snakes",
+      "spoonbills",
+      "squirrels"
+    ],
+    "confidence": "community",
+    "sources": [
+      "gtafandom-cat-animals"
+    ],
+    "verified": "2026-11-13"
+  }
+]

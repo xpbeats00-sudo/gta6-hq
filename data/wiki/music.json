@@ -55,9 +55,13 @@
     "confidence": "official",
     "sources": [
       "rockstar-music",
-      "g6w-music"
+      "g6w-music",
+      "rockstar-nw-radio"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-13",
+    "body": [
+      "Rockstar also names Mud Dog Mike, the station's roving reporter and swamp meteorologist, who checks in from his Grassrivers airboat."
+    ]
   },
   {
     "slug": "afrobank-fm",

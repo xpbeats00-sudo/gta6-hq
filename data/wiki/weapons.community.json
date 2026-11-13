@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "fan-identified-weapons",
+    "name": "Weapons fans have identified",
+    "summary": "Weapons and tools that fans have picked out of the trailers and screenshots, beyond the ones Rockstar has named.",
+    "body": [
+      "Named on the wiki's list: Baseball Bat, Crowbar, Flashbangs, Flashlight, Grenade Launcher, Grenades, Hammer, Knife, Molotov Cocktails, Mustang .357, Pistol, Pool Cue.",
+      "It also records weapons with no known name: two pistols, a Capo pistol, a double-barreled shotgun, a submachine gun, three Duke rifles and carbines, and a mini golf club.",
+      "This is a fan-compiled list from the GTA Wiki, read from trailers and screenshots. Rockstar has not published it, names carried over from earlier games may change, and anything the wiki marks as coming from the 2022 leak is left out."
+    ],
+    "tags": [
+      "fan list",
+      "community",
+      "guns",
+      "melee",
+      "throwables"
+    ],
+    "confidence": "community",
+    "sources": [
+      "gtafandom-cat-weapons"
+    ],
+    "verified": "2026-11-13"
+  }
+]
