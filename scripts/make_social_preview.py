@@ -95,9 +95,9 @@ def main():
     left = 70 * S
     spaced(d, (left, 148 * S), 'UNOFFICIAL FAN PROJECT', font('bahnschrift.ttf', 22, 600), GOLD, 5)
     spaced(d, (left - 4 * S, 186 * S), 'GTA 6 HQ', font('bahnschrift.ttf', 112, 700), PAPER, 12)
-    body = font('segoeui.ttf', 29)
-    d.text((left, 342 * S), 'The Grand Theft Auto VI encyclopedia,', font=body, fill=(206, 198, 224))
-    d.text((left, 386 * S), 'map and field manual for Windows.', font=body, fill=(206, 198, 224))
+    body = font('segoeui.ttf', 26)
+    d.text((left, 342 * S), 'The Grand Theft Auto VI encyclopedia, map', font=body, fill=(206, 198, 224))
+    d.text((left, 386 * S), 'and field manual for Windows, Mac and Linux.', font=body, fill=(206, 198, 224))
     d.rounded_rectangle([left, 470 * S, left + 260 * S, 526 * S], radius=28 * S, fill=PINK)
     label = font('bahnschrift.ttf', 21, 700)
     end = spaced(d, (0, -200 * S), 'FREE DOWNLOAD', label, PINK, 3)  # measured off the canvas

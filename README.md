@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><img src="docs/media/readme/banner.png" alt="GTA 6 HQ: the unofficial Grand Theft Auto VI encyclopedia, map and field manual for Windows" width="860"></h1>
+<h1><img src="docs/media/readme/banner.png" alt="GTA 6 HQ: the unofficial Grand Theft Auto VI encyclopedia, map and field manual for Windows, Mac and Linux" width="860"></h1>
 
 **Sourced, labelled by how well each fact is supported, and built as a small Rust desktop app.**
 

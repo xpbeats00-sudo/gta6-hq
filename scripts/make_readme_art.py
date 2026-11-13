@@ -109,8 +109,8 @@ def banner():
     spaced(d, (left, 62 * S), 'UNOFFICIAL FAN PROJECT', font('bahnschrift.ttf', 14, 600), GOLD, 3.5)
     spaced(d, (left - 3 * S, 84 * S), 'GTA 6 HQ', font('bahnschrift.ttf', 78, 700), PAPER, 8)
     body = font('segoeui.ttf', 19)
-    d.text((left, 182 * S), 'The Grand Theft Auto VI encyclopedia,', font=body, fill=(206, 198, 224))
-    d.text((left, 210 * S), 'map and field manual for Windows.', font=body, fill=(206, 198, 224))
+    d.text((left, 182 * S), 'The Grand Theft Auto VI encyclopedia, map', font=body, fill=(206, 198, 224))
+    d.text((left, 210 * S), 'and field manual for Windows, Mac and Linux.', font=body, fill=(206, 198, 224))
     d.text((left, 256 * S), 'Not affiliated with Rockstar Games or Take-Two Interactive.',
            font=font('segoeui.ttf', 11.5), fill=(140, 132, 162))
     mask = Image.new('L', (w, h), 0)
