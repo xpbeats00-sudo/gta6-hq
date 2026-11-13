@@ -6,12 +6,16 @@
 
 <img src="docs/media/splash.webp" alt="The app opening: the VI logo draws itself while a ring fills and a percentage counts up" width="860">
 
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows" height="44"></a>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Download for Windows" height="44"></a>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/macOS%20(preview)-7c3fd6?style=for-the-badge&logo=apple&logoColor=white" alt="macOS (preview)" height="44"></a>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Linux%20(preview)-f58a2e?style=for-the-badge&logo=linux&logoColor=white" alt="Linux (preview)" height="44"></a>
 
 [![Latest version](https://img.shields.io/github/v/release/xpbeats00-sudo/gta6-hq?label=latest&style=for-the-badge&labelColor=160a2e&color=ee3f7c)](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/xpbeats00-sudo/gta6-hq/total?label=downloads&style=for-the-badge&labelColor=160a2e&color=7c3fd6)](https://github.com/xpbeats00-sudo/gta6-hq/releases)
 [![Join the Discord](https://img.shields.io/badge/Discord-join-ee3f7c?style=for-the-badge&labelColor=160a2e&logo=discord&logoColor=white)](https://discord.gg/YhMHr8N4an)
-![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f7a13c?style=for-the-badge&labelColor=160a2e)
+![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-ee3f7c?style=for-the-badge&labelColor=160a2e&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white)
+![macOS 11 or later](https://img.shields.io/badge/macOS-11%2B-7c3fd6?style=for-the-badge&labelColor=160a2e&logo=apple&logoColor=white)
+![Linux, 64-bit](https://img.shields.io/badge/Linux-x86__64-f58a2e?style=for-the-badge&labelColor=160a2e&logo=linux&logoColor=white)
 ![Built with Rust](https://img.shields.io/badge/built%20with-Rust-7c3fd6?style=for-the-badge&labelColor=160a2e)
 
 [Windows, Mac and Linux](#windows-mac-and-linux) · [Install](#install) · [What's inside](#whats-inside) · [The Field Manual](#the-field-manual) · [What's new](#whats-new) · [Creators welcome](#creators-welcome) · [Questions](#questions) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
@@ -33,7 +37,7 @@ The same app runs on all three. Each picture below is the real app, photographed
 
 <img src="docs/media/os/windows.jpg" alt="GTA 6 HQ on Windows: Home with the live wallpaper, the countdown, and the app's own window buttons at the top right" width="860">
 
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=windows&logoColor=white" alt="Download for Windows" height="40"></a>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Download for Windows" height="40"></a>
 
 **macOS**
 
