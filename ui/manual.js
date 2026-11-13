@@ -224,7 +224,39 @@
     return `<div class="m-toolbar">
       <a class="m-tool" href="#/manual">Contents</a>
       <form class="m-search" role="search"><input type="search" name="q" value="${esc(query || '')}" placeholder="Search the manual" aria-label="Search the manual" autocomplete="off"></form>
-      <button class="m-tool" type="button" data-action="theme" aria-pressed="${night}">${night ? 'Paper view' : 'Night reading'}</button>
+      <button class="m-skyswitch" type="button" role="switch" data-action="theme" aria-checked="${night}" aria-label="Night reading" title="Switch between day and night reading">
+        <span class="m-sky" aria-hidden="true">
+          <svg viewBox="0 0 128 44" width="128" height="44">
+            <defs>
+              <linearGradient id="m-sky-day" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3aaed2"/><stop offset=".42" stop-color="#9fdcd6"/><stop offset=".72" stop-color="#ffd9b3"/><stop offset=".86" stop-color="#ffa6c2"/></linearGradient>
+              <linearGradient id="m-sky-dusk" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a2fc0"/><stop offset=".5" stop-color="#ee3f7c"/><stop offset=".86" stop-color="#ffab4a"/></linearGradient>
+              <linearGradient id="m-sky-night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#060212"/><stop offset=".5" stop-color="#27105a"/><stop offset=".76" stop-color="#7d2a8d"/><stop offset=".86" stop-color="#ff4f9a"/></linearGradient>
+              <linearGradient id="m-sea-day" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#63cdd3"/><stop offset="1" stop-color="#2b86b4"/></linearGradient>
+              <linearGradient id="m-sea-night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a1466"/><stop offset="1" stop-color="#0a0418"/></linearGradient>
+              <radialGradient id="m-sun"><stop offset="0" stop-color="#fffbe0"/><stop offset=".55" stop-color="#ffd76a"/><stop offset="1" stop-color="#ff9a3c"/></radialGradient>
+              <radialGradient id="m-halo"><stop offset="0" stop-color="#fff2c0" stop-opacity=".75"/><stop offset="1" stop-color="#fff2c0" stop-opacity="0"/></radialGradient>
+              <g id="m-palm" fill="none" stroke-linecap="round"><path stroke-width="1.3" d="M0 0q1.6-8-.6-16"/><path stroke-width="1.1" d="M-.6-16q-4-3.5-8.5-.5M-.6-16q-3.5-5.5-8-4.5M-.6-16q-.5-5.5 3-7.5M-.6-16q4-5 8.5-3M-.6-16q5-2 8 2.5M-.6-16q-3 .5-5 5M-.6-16q2.5 1 3.5 5.5"/></g>
+            </defs>
+            <rect width="128" height="44" fill="url(#m-sky-day)"/>
+            <rect class="m-dusk" width="128" height="44" fill="url(#m-sky-dusk)"/>
+            <rect class="m-night" width="128" height="44" fill="url(#m-sky-night)"/>
+            <g class="m-stars" fill="#fff"><circle cx="14" cy="7" r=".6"/><circle cx="27" cy="13" r=".45"/><circle cx="41" cy="5" r=".7"/><circle cx="58" cy="4" r=".45"/><circle cx="68" cy="10" r=".55"/><circle cx="82" cy="5" r=".45"/><circle cx="112" cy="8" r=".6"/><circle cx="120" cy="16" r=".45"/><circle cx="6" cy="17" r=".45"/><circle cx="74" cy="15" r=".4" fill="#ffc4e4"/><circle cx="35" cy="9" r=".4" fill="#c9b6ff"/></g>
+            <g class="m-sun"><circle cx="38" cy="17" r="15" fill="url(#m-halo)"/><circle cx="38" cy="17" r="7" fill="url(#m-sun)"/></g>
+            <g class="m-moon"><circle cx="97" cy="12" r="10" fill="url(#m-halo)" opacity=".5"/><path fill="#fff3d2" d="M99.5 5.2a7 7 0 1 0 4.4 11.2a5.6 5.6 0 0 1-4.4-11.2z"/></g>
+            <path class="m-far" d="M0 37V29h4v-3h5v3h9v-6h4v6h7v-9h5v9h12v-4h4v-4h5v8h14v-7h6v7h9v-5h5v5h13v-8h5v8h8v-4h6v4h3v8z"/>
+            <g class="m-near"><rect class="m-b-pe" x="8" y="24" width="12" height="13"/><rect class="m-b-pe" x="10" y="22" width="8" height="2"/><rect class="m-b-li" x="22" y="15" width="8" height="22"/><rect class="m-b-li" x="25.6" y="11" width="0.8" height="4"/><rect class="m-b-pk" x="33" y="27" width="14" height="10"/><rect class="m-b-pk" x="50" y="12" width="10" height="25"/><rect class="m-b-pk" x="52" y="10" width="6" height="2"/><rect class="m-b-pk" x="54.6" y="6" width="0.8" height="4"/><rect class="m-b-pe" x="63" y="21" width="11" height="16"/><rect class="m-b-pe" x="65" y="19" width="7" height="2"/><rect class="m-b-li" x="77" y="17" width="7" height="20"/><rect class="m-b-li" x="80.1" y="14" width="0.8" height="3"/><rect class="m-b-pk" x="88" y="26" width="14" height="11"/><rect class="m-b-pe" x="105" y="19" width="9" height="18"/><rect class="m-b-pe" x="107" y="17" width="5" height="2"/></g>
+            <g class="m-shade"><rect x="15.4" y="24" width="4.6" height="13"/><rect x="27.0" y="15" width="3.0" height="22"/><rect x="41.7" y="27" width="5.3" height="10"/><rect x="56.2" y="12" width="3.8" height="25"/><rect x="69.8" y="21" width="4.2" height="16"/><rect x="81.3" y="17" width="2.7" height="20"/><rect x="96.7" y="26" width="5.3" height="11"/><rect x="110.6" y="19" width="3.4" height="18"/></g>
+            <g class="m-windows"><rect class="m-w" x="16" y="26" width="1.3" height="1.3"/><rect class="m-wc" x="10" y="29" width="1.3" height="1.3"/><rect class="m-w" x="13" y="29" width="1.3" height="1.3"/><rect class="m-w" x="16" y="29" width="1.3" height="1.3"/><rect class="m-w" x="10" y="32" width="1.3" height="1.3"/><rect class="m-wc" x="24" y="17" width="1.3" height="1.3"/><rect class="m-w" x="27" y="17" width="1.3" height="1.3"/><rect class="m-w" x="24" y="20" width="1.3" height="1.3"/><rect class="m-w" x="27" y="20" width="1.3" height="1.3"/><rect class="m-wp" x="24" y="23" width="1.3" height="1.3"/><rect class="m-w" x="27" y="29" width="1.3" height="1.3"/><rect class="m-wp" x="24" y="32" width="1.3" height="1.3"/><rect class="m-w" x="27" y="32" width="1.3" height="1.3"/><rect class="m-w" x="41" y="29" width="1.3" height="1.3"/><rect class="m-w" x="44" y="29" width="1.3" height="1.3"/><rect class="m-wp" x="35" y="32" width="1.3" height="1.3"/><rect class="m-w" x="38" y="32" width="1.3" height="1.3"/><rect class="m-w" x="52" y="14" width="1.3" height="1.3"/><rect class="m-w" x="55" y="14" width="1.3" height="1.3"/><rect class="m-wp" x="52" y="17" width="1.3" height="1.3"/><rect class="m-w" x="55" y="23" width="1.3" height="1.3"/><rect class="m-wp" x="52" y="26" width="1.3" height="1.3"/><rect class="m-w" x="55" y="26" width="1.3" height="1.3"/><rect class="m-wc" x="52" y="29" width="1.3" height="1.3"/><rect class="m-w" x="55" y="29" width="1.3" height="1.3"/><rect class="m-w" x="52" y="32" width="1.3" height="1.3"/><rect class="m-wp" x="65" y="23" width="1.3" height="1.3"/><rect class="m-w" x="68" y="26" width="1.3" height="1.3"/><rect class="m-w" x="71" y="26" width="1.3" height="1.3"/><rect class="m-wp" x="65" y="29" width="1.3" height="1.3"/><rect class="m-w" x="68" y="29" width="1.3" height="1.3"/><rect class="m-w" x="71" y="32" width="1.3" height="1.3"/><rect class="m-wp" x="79" y="19" width="1.3" height="1.3"/><rect class="m-w" x="79" y="22" width="1.3" height="1.3"/><rect class="m-wc" x="79" y="25" width="1.3" height="1.3"/><rect class="m-w" x="79" y="28" width="1.3" height="1.3"/><rect class="m-w" x="79" y="31" width="1.3" height="1.3"/><rect class="m-w" x="79" y="34" width="1.3" height="1.3"/><rect class="m-wp" x="90" y="28" width="1.3" height="1.3"/><rect class="m-w" x="93" y="28" width="1.3" height="1.3"/><rect class="m-wc" x="96" y="28" width="1.3" height="1.3"/><rect class="m-wp" x="96" y="31" width="1.3" height="1.3"/><rect class="m-w" x="99" y="31" width="1.3" height="1.3"/><rect class="m-wc" x="90" y="34" width="1.3" height="1.3"/><rect class="m-w" x="93" y="34" width="1.3" height="1.3"/><rect class="m-wp" x="107" y="21" width="1.3" height="1.3"/><rect class="m-w" x="110" y="21" width="1.3" height="1.3"/><rect class="m-wc" x="107" y="24" width="1.3" height="1.3"/><rect class="m-w" x="110" y="30" width="1.3" height="1.3"/><rect class="m-wc" x="107" y="33" width="1.3" height="1.3"/><rect class="m-w" x="110" y="33" width="1.3" height="1.3"/></g>
+            <g class="m-neon"><rect x="33" y="26.2" width="14" height="1" fill="#ff4fa0"/><rect x="88" y="25.2" width="14" height="1" fill="#57e6ff"/><rect x="55.6" y="14" width="1" height="9" fill="#ff4fa0"/><rect x="8" y="23.2" width="12" height=".8" fill="#ffb347"/></g>
+            <rect width="128" height="7" y="37" fill="url(#m-sea-day)"/>
+            <rect class="m-night" width="128" height="7" y="37" fill="url(#m-sea-night)"/>
+            <g class="m-glint" fill="#fff1c9"><rect x="33" y="38.4" width="10" height=".7"/><rect x="35" y="40" width="6" height=".7"/><rect x="36.5" y="41.6" width="3" height=".7"/></g>
+            <g class="m-neon m-wake"><rect x="35" y="38.2" width="10" height=".8" fill="#ff4fa0"/><rect x="37" y="40" width="6" height=".7" fill="#ff4fa0"/><rect x="90" y="38.2" width="10" height=".8" fill="#57e6ff"/><rect x="92" y="40" width="6" height=".7" fill="#57e6ff"/><rect x="94" y="41.6" width="7" height=".7" fill="#fff3d2"/><rect x="12" y="38.6" width="6" height=".7" fill="#ffb347"/></g>
+            <g class="m-palms"><use href="#m-palm" transform="translate(7 46) scale(1.35)"/><use href="#m-palm" transform="translate(17 45) scale(.85 .95)"/><use href="#m-palm" transform="translate(120 46) scale(-1.4 1.4)"/><use href="#m-palm" transform="translate(110 45) scale(.8 .9)"/><use href="#m-palm" transform="translate(70 45) scale(-.7 .78)"/></g>
+          </svg>
+        </span>
+        <span class="m-sky-word">${night ? 'Night' : 'Day'}</span>
+      </button>
       <button class="m-tool" type="button" data-action="copy">Copy link</button>
     </div>`;
   }
@@ -331,9 +363,32 @@
       e.preventDefault();
       location.hash = `#/manual/search?q=${encodeURIComponent(e.target.elements.q.value)}`;
     });
-    root.querySelector('[data-action="theme"]').addEventListener('click', () => {
-      store.set('theme', store.get('theme') === 'night' ? 'paper' : 'night');
-      draw();
+    // Day and night reading. The switch is a small sky: the sun sets and the moon rises over the
+    // skyline, and the new look spreads across the whole page in a circle from the switch itself.
+    const sky = root.querySelector('[data-action="theme"]');
+    sky.addEventListener('click', () => {
+      const night = store.get('theme') !== 'night';
+      store.set('theme', night ? 'night' : 'paper');
+      const apply = () => {
+        root.classList.toggle('manual-night', night);
+        sky.setAttribute('aria-checked', String(night));
+        sky.querySelector('.m-sky-word').textContent = night ? 'Night' : 'Day';
+        sky.classList.remove('is-turning');
+        void sky.offsetWidth; // so the dusk glow plays again on a second press
+        sky.classList.add('is-turning');
+      };
+      if (!document.startViewTransition) { apply(); return; }
+      const box = sky.querySelector('.m-sky').getBoundingClientRect();
+      const x = box.left + box.width / 2, y = box.top + box.height / 2;
+      const reach = Math.hypot(Math.max(x, window.innerWidth - x), Math.max(y, window.innerHeight - y));
+      const html = document.documentElement;
+      html.classList.add('m-sky-turn');
+      const turn = document.startViewTransition(apply);
+      turn.ready.then(() => html.animate(
+        { clipPath: [`circle(0px at ${x}px ${y}px)`, `circle(${Math.ceil(reach)}px at ${x}px ${y}px)`] },
+        { duration: 950, easing: 'cubic-bezier(0.45, 0, 0.2, 1)', pseudoElement: '::view-transition-new(root)' },
+      )).catch(() => {});
+      turn.finished.finally(() => html.classList.remove('m-sky-turn'));
     });
     // Every picture can also be reached with Tab and opened with Enter or Space.
     root.querySelectorAll('.m-page img').forEach((img) => {

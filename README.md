@@ -93,6 +93,7 @@ Click any picture to see it full screen.
 
 ## What's new
 
+**0.2.10**: the Field Manual's day and night switch is a small Vice City scene, and the new look spreads across the page from it.
 **0.2.9**: the splash screen dissolves smoothly into Home.
 **0.2.8**: the police lights flash at a real emergency-lamp rate, and the update stage is easier to read.
 **0.2.7**: the app can update itself from Home, with police lights down the sides while it does.

@@ -67,6 +67,52 @@
   cursor: pointer;
 }
 .m-tool:hover, .m-turn:hover { border-color: #ee3f7c; background: rgba(238, 63, 124, 0.16); }
+
+/* The day and night switch: a small window onto Vice City. By day it is the cover-art look: an
+   aqua sky going peach and pink at the horizon, pastel hotels, violet palms and the sun on the
+   water. Press it and the sun sets into the bay, the sky passes through a hot sunset, and it is
+   night: the moon and stars, lit windows, neon signs and their colours lying on the water.
+   It is a switch (role="switch"), so it also works from the keyboard. */
+.m-skyswitch { display: inline-flex; align-items: center; gap: 10px; padding: 0 12px 0 0; border: 0; background: none; cursor: pointer;
+  color: #f7f3f7; font: 700 0.72rem var(--manual-display); letter-spacing: 0.12em; text-transform: uppercase;
+  --m-pk: #ffadc6; --m-pe: #ffc9a3; --m-li: #c9a9ef; }
+.m-skyswitch[aria-checked="true"] { --m-pk: #160a2c; --m-pe: #1b0d33; --m-li: #110826; }
+.m-sky { display: block; flex: none; padding: 2px; border-radius: 24px; background: var(--manual-sunset);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5); transition: box-shadow 0.3s ease; }
+.m-skyswitch:hover .m-sky { box-shadow: 0 0 20px rgba(238, 63, 124, 0.7); }
+.m-sky svg { display: block; border-radius: 22px; }
+.m-sky svg * { transition: fill 0.9s ease, stroke 0.9s ease, opacity 0.9s ease; }
+.m-sky .m-dusk, .m-sky .m-night, .m-sky .m-stars, .m-sky .m-neon { opacity: 0; }
+.m-sky .m-b-pk { fill: var(--m-pk); } .m-sky .m-b-pe { fill: var(--m-pe); } .m-sky .m-b-li { fill: var(--m-li); }
+.m-sky .m-far { fill: #d7a2d8; opacity: 0.75; }
+.m-sky .m-shade { fill: #6a3fa8; opacity: 0.24; }
+.m-sky .m-windows rect { fill: #7b4fb5; opacity: 0.4; }
+.m-sky .m-palms { stroke: #56389a; }
+.m-sky .m-neon { filter: drop-shadow(0 0 1.2px #ff4fa0); }
+.m-sky .m-sun { transition: transform 0.85s cubic-bezier(0.2, 0.7, 0.3, 1) 0.35s; }
+.m-sky .m-moon { transform: translateY(36px); transition: transform 0.8s cubic-bezier(0.5, 0, 0.75, 0.4); }
+.m-skyswitch[aria-checked="true"] .m-night { opacity: 1; }
+.m-skyswitch[aria-checked="true"] .m-stars { opacity: 1; transition-delay: 0.5s; }
+.m-skyswitch[aria-checked="true"] .m-sun { transform: translateY(30px); transition: transform 0.85s cubic-bezier(0.5, 0, 0.75, 0.4); }
+.m-skyswitch[aria-checked="true"] .m-moon { transform: none; transition: transform 0.85s cubic-bezier(0.2, 0.7, 0.3, 1) 0.4s; }
+.m-skyswitch[aria-checked="true"] .m-far { fill: #2a1560; opacity: 1; }
+.m-skyswitch[aria-checked="true"] .m-shade { opacity: 0; }
+.m-skyswitch[aria-checked="true"] .m-glint { opacity: 0; }
+.m-skyswitch[aria-checked="true"] .m-palms { stroke: #05020c; }
+.m-skyswitch[aria-checked="true"] .m-windows rect { opacity: 1; transition-delay: 0.6s; }
+.m-skyswitch[aria-checked="true"] .m-windows .m-w { fill: #ffd76a; }
+.m-skyswitch[aria-checked="true"] .m-windows .m-wp { fill: #ff7fc0; }
+.m-skyswitch[aria-checked="true"] .m-windows .m-wc { fill: #7fe9ff; }
+.m-skyswitch[aria-checked="true"] .m-neon { opacity: 1; transition-delay: 0.75s; }
+.m-skyswitch[aria-checked="true"] .m-wake { opacity: 0.8; }
+.m-skyswitch.is-turning .m-dusk { animation: m-sky-dusk 1.05s ease both; }
+@keyframes m-sky-dusk { 0% { opacity: 0; } 42% { opacity: 1; } 100% { opacity: 0; } }
+.m-sky-word { min-width: 3.6em; text-align: left; }
+/* While the look changes, the new page is drawn over the old one and uncovered in a growing circle
+   (driven from manual.js); the browser's own cross-fade is switched off for that moment. */
+html.m-sky-turn::view-transition-old(root), html.m-sky-turn::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+html.m-sky-turn::view-transition-old(root) { z-index: 1; }
+html.m-sky-turn::view-transition-new(root) { z-index: 2; }
 .m-turn[rel="next"] { border-color: transparent; background: var(--manual-sunset); }
 .m-turn[rel="next"]:hover { filter: brightness(1.12); }
 .m-turn.is-off { opacity: 0.35; cursor: default; }
@@ -264,6 +310,15 @@
   .m-chapmark { font-size: 5rem; opacity: 0.35; }
 }
 @media (prefers-reduced-motion: reduce) {
+  /* The sky switch still plays: the owner asked for the app's motion to run with Windows animation effects off. */
+  .m-sky svg * { transition: fill 0.9s ease, stroke 0.9s ease, opacity 0.9s ease !important; }
+  .m-skyswitch[aria-checked="true"] .m-sky .m-stars, .m-skyswitch[aria-checked="true"] .m-sky .m-windows rect,
+  .m-skyswitch[aria-checked="true"] .m-sky .m-neon { transition: fill 0.9s ease 0.6s, opacity 0.9s ease 0.6s !important; }
+  .m-skyswitch .m-sky .m-sun { transition: transform 0.85s cubic-bezier(0.2, 0.7, 0.3, 1) 0.35s !important; }
+  .m-skyswitch[aria-checked="true"] .m-sky .m-sun { transition: transform 0.85s cubic-bezier(0.5, 0, 0.75, 0.4) !important; }
+  .m-skyswitch .m-sky .m-moon { transition: transform 0.8s cubic-bezier(0.5, 0, 0.75, 0.4) !important; }
+  .m-skyswitch[aria-checked="true"] .m-sky .m-moon { transition: transform 0.85s cubic-bezier(0.2, 0.7, 0.3, 1) 0.4s !important; }
+  .m-skyswitch.is-turning .m-sky .m-dusk { animation: m-sky-dusk 1.05s ease both !important; }
   .m-entry.has-image .m-figure img { transition: none; }
 }
 

@@ -2,6 +2,11 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.10 (12 November 2026)
+
+- The Field Manual's day and night switch is a small Vice City scene. By day: pastel hotels, palms and the sun on the bay. Press it and the sun sets, the moon rises, and the windows and neon signs come on. The new look spreads across the page in a circle from the switch.
+- The link card shown when the repository is shared is redrawn so every picture shows a face and sits inside the frame; `scripts/make_social_preview.py` draws it.
+
 ## 0.2.9 (12 November 2026)
 
 - The splash screen dissolves into Home while the app eases in behind it, instead of cutting to it. This now plays even when Windows animation effects are turned off.
