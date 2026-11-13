@@ -39,6 +39,10 @@ The app is not code-signed, so Windows SmartScreen may show "Windows protected y
 
 When a newer version is published, the app shows a notice. In an installed copy, **Update now** downloads the new setup from this page's releases, checks it against the release's checksums, and installs it while the app restarts. A portable copy gets a link to the release instead. Nothing downloads or installs unless you press the button.
 
+<div align="center">
+<img src="docs/media/update.webp" alt="Updating from Home: the hero keeps its live wallpaper while a ring fills to 100% around the turning logo, and red and blue police light plays down both sides of the window" width="860">
+</div>
+
 ## What's inside
 
 <img src="docs/media/tabs.webp" alt="The Home wallpaper playing and the Discord invitation below it, then Encyclopedia, Characters, Vehicles and a location page, with picture cards sliding across the page headers" width="860">

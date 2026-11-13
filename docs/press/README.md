@@ -29,6 +29,7 @@ All of these are in [`docs/media`](../media). Use any of them.
 | [`tabs.webp`](../media/tabs.webp) | A tour of the main pages (animation) |
 | [`manual.webp`](../media/manual.webp) | The Field Manual (animation) |
 | [`installer.webp`](../media/installer.webp) | The setup window (animation) |
+| [`update.webp`](../media/update.webp) | The app updating itself on Home, with police lights (animation) |
 | [`home.jpg`](../media/home.jpg), [`home-cast.jpg`](../media/home-cast.jpg) | Home |
 | [`encyclopedia.jpg`](../media/encyclopedia.jpg) | The encyclopedia |
 | [`characters.jpg`](../media/characters.jpg), [`location.jpg`](../media/location.jpg), [`vehicles.jpg`](../media/vehicles.jpg) | Characters, a location, vehicles |
