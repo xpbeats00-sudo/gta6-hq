@@ -14,13 +14,36 @@
 ![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-f7a13c?style=for-the-badge&labelColor=160a2e)
 ![Built with Rust](https://img.shields.io/badge/built%20with-Rust-7c3fd6?style=for-the-badge&labelColor=160a2e)
 
-[Install](#install) · [What's inside](#whats-inside) · [The Field Manual](#the-field-manual) · [What's new](#whats-new) · [Creators welcome](#creators-welcome) · [Questions](#questions) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
+[Windows, Mac and Linux](#windows-mac-and-linux) · [Install](#install) · [What's inside](#whats-inside) · [The Field Manual](#the-field-manual) · [What's new](#whats-new) · [Creators welcome](#creators-welcome) · [Questions](#questions) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
 
 <img src="docs/media/readme/rule.png" alt="" width="860">
 
 </div>
 
 > **Unofficial fan project.** Not published, approved or endorsed by Rockstar Games or Take-Two Interactive. Everything here was written before the game's release on 19 November 2026, from official footage, Rockstar's interviews and press previews.
+
+<a id="windows-mac-and-linux"></a>
+<p align="center"><img src="docs/media/readme/h-systems.png" alt="Windows, Mac and Linux" width="860"></p>
+
+The same app runs on all three. Each picture below is the real app, photographed on that system.
+
+<div align="center">
+
+**Windows**
+
+<img src="docs/media/os/windows.jpg" alt="GTA 6 HQ on Windows: Home with the live wallpaper, the countdown, and the app's own window buttons at the top right" width="860">
+
+**macOS**
+
+<img src="docs/media/os/macos.jpg" alt="GTA 6 HQ on macOS: the app under the Mac menu bar with the system's red, yellow and green window buttons, and its VI logo in the Dock" width="860">
+
+**Linux**
+
+<img src="docs/media/os/linux.jpg" alt="GTA 6 HQ on Linux: Home with the live wallpaper, the countdown, and the app's own window buttons at the top right" width="860">
+
+</div>
+
+Windows is the released version. The macOS and Linux versions are built and tested automatically on every change (the two pictures come from those test machines), but they are not on the releases page yet, because nobody has tried them on a desktop of their own. Want to? Ask in the [Discord server](https://discord.gg/YhMHr8N4an).
 
 <a id="install"></a>
 <p align="center"><img src="docs/media/readme/h-install.png" alt="Install" width="860"></p>
@@ -54,7 +77,7 @@ When a newer version is published, the app shows a notice. In an installed copy,
 
 | | |
 |---|---|
-| **Encyclopedia** | 73 entries in 12 categories: characters, locations, vehicles, gameplay, activities, wildlife, businesses, factions, music, weapons. Each entry has a confidence label and its sources. |
+| **Encyclopedia** | 76 entries in 10 categories: characters, locations, vehicles, gameplay, activities, wildlife, businesses, factions, music, weapons. Each entry has a confidence label and its sources. |
 | **Field Manual** | A 38-page printed-style manual with two-page spreads, search and night reading. |
 | **Map** | A zoomable map of Leonida with pins for regions, districts and landmarks. |
 | **Media** | Every picture and video in the app, each with where it came from and its rights status. |

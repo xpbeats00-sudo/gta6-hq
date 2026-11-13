@@ -20,7 +20,7 @@ SUNSET = [(255, 196, 107), (238, 63, 124), (139, 63, 217)]
 PAPER, GOLD = (246, 240, 250), (255, 196, 107)
 
 HEADINGS = {
-    'install': 'Install', 'inside': "What's inside", 'manual': 'The Field Manual', 'new': "What's new",
+    'systems': 'Windows, Mac and Linux', 'install': 'Install', 'inside': "What's inside", 'manual': 'The Field Manual', 'new': "What's new",
     'creators': 'Creators welcome', 'questions': 'Questions', 'trust': 'How far to trust it',
     'privacy': 'Privacy', 'credits': 'Credits and rights', 'developers': 'For developers',
 }
