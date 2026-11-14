@@ -172,12 +172,16 @@ html.m-sky-turn::view-transition-new(root) { z-index: 2; }
 .m-refs { margin-left: 2px; color: var(--manual-accent-ink); font: 700 0.62rem var(--manual-display); }
 .m-dotted { border: 0; border-top: 1px solid var(--manual-dotted); margin: 14px 0; }
 
-.m-badge { display: inline-block; margin-right: 6px; padding: 1px 7px 0; border: 1px solid currentColor; border-radius: 2px; font: 700 0.56rem/1.75 var(--manual-display); letter-spacing: 0.12em; text-transform: uppercase; white-space: nowrap; vertical-align: 2px; color: var(--manual-muted); }
-.m-badge-demonstrated, .m-badge-verified-after-release { background: var(--manual-accent-ink); border-color: var(--manual-accent-ink); color: #fff; }
+/* Evidence tags: solid, slanted plates. The top one carries an R with a star set into it. */
+.m-badge { display: inline-flex; align-items: center; gap: 4px; margin-right: 6px; padding: 0 7px; border: 1px solid currentColor; border-radius: 4px; font: italic 800 0.58rem/1.8 var(--manual-display); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; vertical-align: 2px; color: var(--manual-muted); }
+.m-badge-demonstrated, .m-badge-conf-official { padding-left: 4px; background: #b79df0; border-color: #b79df0; color: #24104a; }
+.m-badge-mark { display: inline-flex; padding: 1px 2px; border: 1.5px solid currentColor; border-radius: 3px; }
+.m-badge-mark svg { display: block; height: 0.72rem; width: auto; }
+.m-badge-verified-after-release { background: #8fe3b4; border-color: #8fe3b4; color: #0c3320; }
 .m-badge-developer-described { background: var(--manual-violet); border-color: var(--manual-violet); color: #fff; }
-.manual-night .m-badge-demonstrated, .manual-night .m-badge-verified-after-release, .manual-night .m-badge-developer-described { color: #1b1024; }
-.m-badge-preview-reported { color: var(--manual-orange); }
-.manual:not(.manual-night) .m-badge-preview-reported { color: #b25a08; }
+.manual-night .m-badge-developer-described { color: #1b1024; }
+.m-badge-preview-reported { background: #f5b469; border-color: #f5b469; color: #40220a; }
+.m-badge-interpretation { background: #9fd4f5; border-color: #9fd4f5; color: #0b2a40; }
 .m-badge-unknown { border-style: dashed; }
 
 /* ---------- numbered entries ---------- */

@@ -6,7 +6,7 @@ const state = { wiki: null, map: null };
 
 const FIXED_LABELS = { news: 'News', editions: 'Edition', faq: 'FAQ' };
 const CONFIDENCE = {
-  official: ['Official', 'Stated by Rockstar Games'],
+  official: ['Verified', 'Stated by Rockstar Games in its own published material'],
   corroborated: ['Corroborated', 'Reported by a secondary source citing official material'],
   community: ['Community', 'Community research, not confirmed by Rockstar'],
   rumor: ['Rumor', 'Unconfirmed rumor'],
@@ -112,10 +112,15 @@ function picture(entry, kind) {
   return postcard(entry.slug || entry.name, kind);
 }
 
+/** The R and star of the top evidence tag, drawn as a single mark. The star's outline is the tag's own colour. */
+const R_STAR = '<svg viewBox="0 0 20 16" aria-hidden="true"><text x="0.5" y="13.2" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="15.5" fill="currentColor">R</text><polygon points="14,5.6 15.3,9.2 19.1,9.3 16.1,11.7 17.2,15.4 14,13.2 10.8,15.4 11.9,11.7 8.9,9.3 12.7,9.2" fill="currentColor" stroke="#b79df0" stroke-width="1.3" stroke-linejoin="round" paint-order="stroke"/></svg>';
+
 function badge(confidence) {
   const key = confidence in CONFIDENCE ? confidence : 'unknown';
   const [label, meaning] = CONFIDENCE[key];
-  return `<span class="conf conf-${key}" title="${esc(meaning)}">${label}</span>`;
+  // The top label reads "R★ Verified": an R with a star set into its corner, drawn here as one mark.
+  const mark = key === 'official' ? `<b class="conf-mark">${R_STAR}</b><span class="sr-only">Rockstar </span>` : '';
+  return `<span class="conf conf-${key}" title="${esc(meaning)}">${mark}${label}</span>`;
 }
 
 function formatDate(iso) {

@@ -11,14 +11,16 @@
   ));
 
   const EVIDENCE = {
-    demonstrated: ['Demonstrated', 'Visible in official Rockstar footage or other official material.'],
+    demonstrated: ['Verified', 'Visible in official Rockstar footage or other official material.'],
     'developer-described': ['Developer-described', 'Described by a Rockstar developer in an interview.'],
     'preview-reported': ['Preview-reported', 'Reported by journalists or creators who saw a preview build.'],
     interpretation: ['Interpretation', 'A reasonable reading of footage or reporting, not a confirmed rule.'],
     unknown: ['Unknown', 'Not established by the sources available.'],
     'verified-after-release': ['Verified after release', 'Checked against the released game.'],
   };
-  const CONFIDENCE = { official: 'Official', corroborated: 'Corroborated', community: 'Community', rumor: 'Rumor' };
+  const CONFIDENCE = { official: 'Verified', corroborated: 'Corroborated', community: 'Community', rumor: 'Rumor' };
+  /** The R and star in front of the top label, drawn as a single mark. */
+  const MARK = '<b class="m-badge-mark"><svg viewBox="0 0 20 16" aria-hidden="true"><text x="0.5" y="13.2" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="15.5" fill="currentColor">R</text><polygon points="14,5.6 15.3,9.2 19.1,9.3 16.1,11.7 17.2,15.4 14,13.2 10.8,15.4 11.9,11.7 8.9,9.3 12.7,9.2" fill="currentColor" stroke="#b79df0" stroke-width="1.3" stroke-linejoin="round" paint-order="stroke"/></svg></b><span class="sr-only">Rockstar </span>';
   const WIDE = matchMedia('(min-width: 1180px)');
   const store = {
     get(key) { try { return localStorage.getItem(`gta6hq-manual-${key}`); } catch { return null; } },
@@ -95,7 +97,7 @@
   function badge(evidence) {
     if (!evidence) return '';
     const [label, meaning] = EVIDENCE[evidence] || EVIDENCE.unknown;
-    return `<span class="m-badge m-badge-${esc(evidence)}" title="${esc(meaning)}">${esc(label)}</span>`;
+    return `<span class="m-badge m-badge-${esc(evidence)}" title="${esc(meaning)}">${evidence === 'demonstrated' ? MARK : ''}${esc(label)}</span>`;
   }
 
   /** Footnote markers for a block's sources; `notes` collects the page's sources in order. */
@@ -140,7 +142,7 @@
             ${b.frame ? `<figure class="m-frame m-frame-entry"><img src="${esc(b.frame)}" alt="${esc(b.frameAlt || '')}" loading="lazy">${b.frameCredit ? `<figcaption><span>${esc(b.frameCredit)}.</span></figcaption>` : ''}</figure>` : ''}
             <p>${esc(b.text)}${refs(b.sources, notes)}</p>
             ${b.meta ? `<p class="m-meta">— ${esc(b.meta)}</p>` : ''}
-            <p class="m-entry-foot">${badge(b.evidence)}${b.confidence ? `<span class="m-badge">${esc(CONFIDENCE[b.confidence] || 'Unverified')}</span>` : ''}
+            <p class="m-entry-foot">${badge(b.evidence)}${b.confidence ? `<span class="m-badge m-badge-conf-${esc(b.confidence)}">${b.confidence === 'official' ? MARK : ''}${esc(CONFIDENCE[b.confidence] || 'Unverified')}</span>` : ''}
               ${b.link ? `<a class="m-more" href="${esc(b.link)}">Open the full entry</a>` : ''}</p>
           </div>
         </section>`;

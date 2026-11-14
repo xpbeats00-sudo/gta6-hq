@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.20 (13 November 2026)
+
+- Evidence labels are now solid tags. The top one, for anything stated or shown in Rockstar's own published material, reads "R★ Verified" (it was "Official" in the encyclopedia and "Demonstrated" in the Field Manual). It does not mean Rockstar has reviewed this app.
+
 ## 0.2.19 (13 November 2026)
 
 - The intro is smoother: each panel glides in on a straight line, slows down and stops in its place, with no turning or overshoot.

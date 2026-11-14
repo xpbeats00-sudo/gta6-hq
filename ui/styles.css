@@ -551,12 +551,15 @@ a.card:hover h3 { color: var(--accent-pink); }
 
 /* ---------- confidence, sources, related ---------- */
 
-.conf { display: inline-block; padding: 1px 8px; border: 1px solid currentColor; border-radius: var(--pill); font: 700 0.6rem/1.7 var(--font-display); letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; vertical-align: middle; }
-.conf-official { color: var(--ok); }
-.conf-corroborated { color: var(--info); }
-.conf-community { color: var(--accent-yellow); }
-.conf-rumor { color: var(--danger); }
-.conf-unknown { color: var(--text-muted); border-style: dashed; }
+/* Evidence tags: solid, slanted plates. The top one carries an R with a star set into it. */
+.conf { display: inline-flex; align-items: center; gap: 5px; padding: 0 8px; border: 1px solid transparent; border-radius: 4px; font: italic 800 0.62rem/1.85 var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; vertical-align: middle; }
+.conf-official { background: #b79df0; color: #24104a; padding-left: 4px; }
+.conf-mark { display: inline-flex; padding: 1px 2px; border: 1.5px solid currentColor; border-radius: 3px; }
+.conf-mark svg { display: block; height: 0.78rem; width: auto; }
+.conf-corroborated { background: #9fd4f5; color: #0b2a40; }
+.conf-community { background: #ffd28a; color: #3a2500; }
+.conf-rumor { background: #ff9aa2; color: #40060c; }
+.conf-unknown { color: var(--text-muted); border-color: currentColor; border-style: dashed; }
 
 .provenance ul { list-style: none; margin: 0; padding: 0; }
 .provenance li { padding: var(--s2) 0; border-bottom: 1px solid var(--border-subtle); display: flex; flex-wrap: wrap; gap: var(--s1) var(--s3); align-items: baseline; }
@@ -631,7 +634,7 @@ a.card:hover h3 { color: var(--accent-pink); }
 .fact-table dt { padding-top: 3px; font: 700 0.68rem var(--font-display); letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent-yellow); }
 .fact-table dd { margin: 0; overflow-wrap: anywhere; }
 
-.conf-spoiler { color: var(--accent-pink); }
+.conf-spoiler { background: var(--accent-pink); color: #3a0a1e; }
 .spoiler-gate h2 { margin-top: 0; }
 .spoiler-gate .conf { margin-right: var(--s2); }
 .spoiler-note { display: flex; align-items: center; gap: var(--s3); }
