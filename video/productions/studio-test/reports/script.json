@@ -1,0 +1,48 @@
+{
+ "audit": "script",
+ "verdict": "PASS",
+ "generated": "2026-11-12 15:17",
+ "checks": [
+  {
+   "name": "Script exists",
+   "status": "PASS",
+   "detail": "231 words"
+  },
+  {
+   "name": "Script covers every scene",
+   "status": "PASS",
+   "detail": "5 scenes"
+  },
+  {
+   "name": "On-screen and spoken wording is the approved script wording",
+   "status": "PASS",
+   "detail": "every title, caption, card and narration line appears in script.md"
+  },
+  {
+   "name": "Narration pace",
+   "status": "PASS",
+   "detail": "no line needs more than 175 words a minute"
+  },
+  {
+   "name": "On-screen text can be read in the time given",
+   "status": "PASS",
+   "detail": "at most 4 words a second in every scene; credits at most 5.5 a second, counting only the time they are fully on screen"
+  },
+  {
+   "name": "Says \"unofficial\"",
+   "status": "PASS",
+   "detail": "present on screen or in narration"
+  },
+  {
+   "name": "Says \"test narration\"",
+   "status": "PASS",
+   "detail": "present on screen or in narration"
+  },
+  {
+   "name": "No banned wording",
+   "status": "PASS",
+   "detail": "official app, release date absent"
+  }
+ ],
+ "facts": {}
+}

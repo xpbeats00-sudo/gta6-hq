@@ -1,0 +1,124 @@
+{
+ "claims": [
+  {
+   "id": "c1",
+   "kind": "fact",
+   "text": "GTA 6 HQ is an unofficial Grand Theft Auto VI encyclopedia and field manual for Windows.",
+   "source": "README.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "README.md",
+    "needle": "An unofficial Grand Theft Auto VI encyclopedia and field manual for Windows."
+   }
+  },
+  {
+   "id": "c2",
+   "kind": "fact",
+   "text": "The Home page has a live wallpaper and a countdown.",
+   "source": "README.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "README.md",
+    "needle": "Home page with a live wallpaper and a countdown"
+   }
+  },
+  {
+   "id": "c3",
+   "kind": "fact",
+   "text": "The encyclopedia has 73 entries in 12 categories; each entry has a confidence label and its sources.",
+   "source": "README.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "README.md",
+    "needle": "73 entries in 12 categories"
+   }
+  },
+  {
+   "id": "c4",
+   "kind": "fact",
+   "text": "The app has a zoomable map of Leonida with 15 markers.",
+   "source": "docs/status/DATA-AND-MANUAL-COUNTS.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "docs/status/DATA-AND-MANUAL-COUNTS.md",
+    "needle": "Map markers: 15"
+   }
+  },
+  {
+   "id": "c5",
+   "kind": "fact",
+   "text": "The Field Manual is 38 pages, with two-page spreads.",
+   "source": "README.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "README.md",
+    "needle": "A 38-page printed-style manual with two-page spreads"
+   }
+  },
+  {
+   "id": "c6",
+   "kind": "fact",
+   "text": "The source registry lists 23 sources.",
+   "source": "docs/status/DATA-AND-MANUAL-COUNTS.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "docs/status/DATA-AND-MANUAL-COUNTS.md",
+    "needle": "Sources in the registry: 23"
+   }
+  },
+  {
+   "id": "c8",
+   "kind": "fact",
+   "text": "The setup installs for the user account only and needs no administrator access.",
+   "source": "README.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "README.md",
+    "needle": "It installs for your user account only and needs no administrator access"
+   }
+  },
+  {
+   "id": "c9",
+   "kind": "fact",
+   "text": "The app is downloaded for Windows from github.com/xpbeats00-sudo/gta6-hq (the releases page).",
+   "source": "README.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "README.md",
+    "needle": "https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"
+   }
+  },
+  {
+   "id": "c10",
+   "kind": "fact",
+   "text": "The pictures and video shown in the app are Rockstar Games material; the project is not published, approved or endorsed by Rockstar Games or Take-Two Interactive.",
+   "source": "README.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "README.md",
+    "needle": "Not published, approved or endorsed by Rockstar Games or Take-Two Interactive"
+   }
+  },
+  {
+   "id": "c11",
+   "kind": "fact",
+   "text": "The music file's own metadata names the track livelyfe and its producer vairaaa.",
+   "source": "ffprobe of audio/XPTrailersong.mp3, read on 2026-11-12 by the main session and again by the QA auditor",
+   "evidence": {
+    "type": "observed",
+    "note": "tags artist=vairaaa and a title containing livelyfe, read with ffprobe; recorded in assets.json"
+   }
+  },
+  {
+   "id": "c12",
+   "kind": "fact",
+   "text": "The map tiles come from the GTA VI mapping community via gtadb.org, under CC BY 4.0.",
+   "source": "README.md",
+   "evidence": {
+    "type": "text_in_file",
+    "file": "README.md",
+    "needle": "the GTA VI mapping community via gtadb.org, CC BY 4.0"
+   }
+  }
+ ]
+}

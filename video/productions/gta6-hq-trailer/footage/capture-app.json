@@ -1,0 +1,16 @@
+{"clips": [
+ {"name": "warmup", "save": false, "steps": [{"wait": 12}]},
+ {"name": "splash", "steps": [{"reload": true}, {"wait": 11.5}]},
+ {"name": "home", "steps": [{"record": false}, {"hash": "#/"}, {"wait": 1.0},
+   {"eval": "(() => { const v = document.querySelector('.hero-video.is-on'); v.src = '/wallpapers/jason-and-lucia-vice-city-sunset-gta-vi.mp4'; v.play(); return v.src; })()"},
+   {"wait": 1.2}, {"record": true}, {"wait": 6.5}]},
+ {"name": "manual", "steps": [{"record": false}, {"hash": "#/manual"}, {"wait": 2.0}, {"record": true}, {"wait": 3.0},
+   {"hash": "#/manual/getting-started/1"}, {"wait": 3.0}, {"hash": "#/manual/law-enforcement/1"}, {"wait": 3.0}, {"hash": "#/manual/robberies/1"}, {"wait": 3.0}]},
+ {"name": "encyclopedia", "stepped": true, "steps": [{"record": false}, {"hash": "#/wiki"}, {"wait": 1.5}, {"record": true}, {"wait": 0.8}, {"scroll": 1500, "over": 4.2}, {"wait": 0.4}]},
+ {"name": "characters", "stepped": true, "steps": [{"record": false}, {"hash": "#/characters"}, {"wait": 1.5}, {"record": true}, {"wait": 0.5}, {"scroll": 620, "over": 2.2}, {"wait": 0.2},
+   {"hash": "#/characters/cal-hampton"}, {"wait": 1.6}, {"scroll": 520, "over": 1.8}, {"wait": 0.4}]},
+ {"name": "vehicles", "stepped": true, "steps": [{"record": false}, {"hash": "#/vehicles"}, {"wait": 1.5}, {"record": true}, {"wait": 0.6}, {"scroll": 1000, "over": 3.6}, {"wait": 0.4}]},
+ {"name": "map", "stepped": true, "steps": [{"record": false}, {"hash": "#/map"}, {"wait": 3.0}, {"record": true}, {"wait": 0.8},
+   {"eval": "document.querySelectorAll('.map-side li button')[2]?.click()"}, {"wait": 2.2},
+   {"eval": "document.querySelectorAll('.map-side li button')[7]?.click()"}, {"wait": 2.2}]}
+]}

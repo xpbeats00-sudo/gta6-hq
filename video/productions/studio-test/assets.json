@@ -1,0 +1,134 @@
+{
+ "assets": [
+  {
+   "file": "audio/mix.wav",
+   "kind": "final mix",
+   "source": "Synthesised by video/engine/audio.py (mix also contains the test narration)",
+   "creator": "GTA 6 HQ video studio (generated on this machine)",
+   "licence": "Owned by the project owner",
+   "attribution": "None required",
+   "permission": "Not needed",
+   "commercial_use": "No limit from this asset",
+   "rights_status": "owned",
+   "sha256": "d327c5f75ebc2ec814692169376d989921243a83bb7ffb51960920a4137569a9"
+  },
+  {
+   "file": "audio/music.wav",
+   "kind": "music stem",
+   "source": "Synthesised by video/engine/audio.py",
+   "creator": "GTA 6 HQ video studio (generated on this machine)",
+   "licence": "Owned by the project owner",
+   "attribution": "None required",
+   "permission": "Not needed",
+   "commercial_use": "No limit from this asset",
+   "rights_status": "owned",
+   "sha256": "fe7f261b453b6f2294ae0e0a00986ef041d3cfb5361a8e1f6439324965bbce2c"
+  },
+  {
+   "file": "audio/narration-01.wav",
+   "kind": "test narration (synthetic voice)",
+   "source": "Windows built-in speech synthesiser (System.Speech), driven by video/engine/audio.py",
+   "creator": "Generated on this machine; voice by Microsoft",
+   "licence": "Microsoft Windows licence terms for the built-in voice",
+   "attribution": "None; label as test narration",
+   "permission": "Not requested",
+   "commercial_use": "Test use only: do not publish as a voice-over without checking the Windows voice terms",
+   "rights_status": "system",
+   "sha256": "731dacdf9ea9bf84d755b76fe56477c3cc33e002833e81d63c3989f963a78d91"
+  },
+  {
+   "file": "audio/narration-02.wav",
+   "kind": "test narration (synthetic voice)",
+   "source": "Windows built-in speech synthesiser (System.Speech), driven by video/engine/audio.py",
+   "creator": "Generated on this machine; voice by Microsoft",
+   "licence": "Microsoft Windows licence terms for the built-in voice",
+   "attribution": "None; label as test narration",
+   "permission": "Not requested",
+   "commercial_use": "Test use only: do not publish as a voice-over without checking the Windows voice terms",
+   "rights_status": "system",
+   "sha256": "9aefc508ae5735d8ce6673d258704098b68531a72b5fd8f69be028a2bd6c39f0"
+  },
+  {
+   "file": "audio/narration-03.wav",
+   "kind": "test narration (synthetic voice)",
+   "source": "Windows built-in speech synthesiser (System.Speech), driven by video/engine/audio.py",
+   "creator": "Generated on this machine; voice by Microsoft",
+   "licence": "Microsoft Windows licence terms for the built-in voice",
+   "attribution": "None; label as test narration",
+   "permission": "Not requested",
+   "commercial_use": "Test use only: do not publish as a voice-over without checking the Windows voice terms",
+   "rights_status": "system",
+   "sha256": "b0e12a7be75fe7b4fac89e7cee2e91aeda8fa662d74d4b589e8c406196a72673"
+  },
+  {
+   "file": "audio/narration-04.wav",
+   "kind": "test narration (synthetic voice)",
+   "source": "Windows built-in speech synthesiser (System.Speech), driven by video/engine/audio.py",
+   "creator": "Generated on this machine; voice by Microsoft",
+   "licence": "Microsoft Windows licence terms for the built-in voice",
+   "attribution": "None; label as test narration",
+   "permission": "Not requested",
+   "commercial_use": "Test use only: do not publish as a voice-over without checking the Windows voice terms",
+   "rights_status": "system",
+   "sha256": "64d9e55469258c85ee07b931ec7191e37f15b0f37be17fe8926e8ed7eceda5d0"
+  },
+  {
+   "file": "audio/narration.wav",
+   "kind": "test narration (synthetic voice)",
+   "source": "Windows built-in speech synthesiser (System.Speech), driven by video/engine/audio.py",
+   "creator": "Generated on this machine; voice by Microsoft",
+   "licence": "Microsoft Windows licence terms for the built-in voice",
+   "attribution": "None; label as test narration",
+   "permission": "Not requested",
+   "commercial_use": "Test use only: do not publish as a voice-over without checking the Windows voice terms",
+   "rights_status": "system",
+   "sha256": "b42f9158d0b995219e9b21760e3606a30da6c16fd79b5cc4a17d9c45957c0f03"
+  },
+  {
+   "file": "audio/sfx.wav",
+   "kind": "effects stem",
+   "source": "Synthesised by video/engine/audio.py",
+   "creator": "GTA 6 HQ video studio (generated on this machine)",
+   "licence": "Owned by the project owner",
+   "attribution": "None required",
+   "permission": "Not needed",
+   "commercial_use": "No limit from this asset",
+   "rights_status": "owned",
+   "sha256": "4ae71410f2cbce13df3db9ba5569f7fefa788b494499e7ed19818da8dd7522e9"
+  },
+  {
+   "file": "footage/test-pattern.mp4",
+   "kind": "generated footage",
+   "source": "ffmpeg lavfi mandelbrot source (see production-log.md)",
+   "creator": "GTA 6 HQ video studio (generated on this machine)",
+   "licence": "Owned by the project owner",
+   "attribution": "None required",
+   "permission": "Not needed",
+   "commercial_use": "No limit from this asset",
+   "rights_status": "owned",
+   "sha256": "3ecace85a55d85f448656295b499b9131756fa29b48e3b207428396d32003de4"
+  },
+  {
+   "file": "(font) C:/Windows/Fonts/bahnschrift.ttf",
+   "kind": "font",
+   "source": "Installed with Windows",
+   "creator": "Microsoft",
+   "licence": "Microsoft font licence (bundled with Windows)",
+   "attribution": "None required",
+   "permission": "Covered by the Windows licence for use on this machine",
+   "commercial_use": "Rendering text into video is permitted; the font file itself must not be redistributed",
+   "rights_status": "system"
+  },
+  {
+   "file": "(font) C:/Windows/Fonts/segoeui.ttf, segoeuib.ttf",
+   "kind": "font",
+   "source": "Installed with Windows",
+   "creator": "Microsoft",
+   "licence": "Microsoft font licence (bundled with Windows)",
+   "attribution": "None required",
+   "permission": "Covered by the Windows licence for use on this machine",
+   "commercial_use": "Rendering text into video is permitted; the font file itself must not be redistributed",
+   "rights_status": "system"
+  }
+ ]
+}

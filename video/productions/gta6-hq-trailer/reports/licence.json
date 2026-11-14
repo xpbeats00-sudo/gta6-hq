@@ -1,0 +1,43 @@
+{
+ "audit": "licence",
+ "verdict": "PASS WITH WARNINGS",
+ "generated": "2026-11-12 15:13",
+ "checks": [
+  {
+   "name": "Asset register exists",
+   "status": "PASS",
+   "detail": "14 assets"
+  },
+  {
+   "name": "Every file used is in the register",
+   "status": "PASS",
+   "detail": "12 files used, all registered"
+  },
+  {
+   "name": "Every record is complete",
+   "status": "PASS",
+   "detail": "source, creator, licence, attribution, permission, commercial limits and status all filled in"
+  },
+  {
+   "name": "Every record has a recognised rights status",
+   "status": "PASS",
+   "detail": "owned, licensed, permission, system, uncleared"
+  },
+  {
+   "name": "Recorded checksums match the files",
+   "status": "PASS",
+   "detail": "all match"
+  },
+  {
+   "name": "Third-party rights",
+   "status": "WARN",
+   "detail": "8 asset(s) contain third-party material with no licence or permission: footage/characters.mp4, footage/encyclopedia.mp4, footage/home.mp4, footage/installer.mp4, footage/manual.mp4, footage/map.mp4, footage/splash.mp4, footage/vehicles.mp4. The video is not cleared for public or commercial release until the owner decides; nothing here is legal advice."
+  },
+  {
+   "name": "Points the owner must confirm",
+   "status": "WARN",
+   "detail": "audio/XPTrailersong.mp3: the file metadata names vairaaa as the producer and sets non-profit terms, while the owner described the beat as their own. If the owner is the producer, the credit can be changed and the limits dropped; if not, keep the credit and do not monetise"
+  }
+ ],
+ "facts": {}
+}

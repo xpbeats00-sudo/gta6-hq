@@ -1,0 +1,28 @@
+1
+00:00:01,000 --> 00:00:03,988
+This is test narration
+for the video studio.
+
+2
+00:00:05,400 --> 00:00:08,742
+The studio runs eight audits,
+renders three formats,
+
+3
+00:00:08,742 --> 00:00:12,006
+and has templates for
+seven kinds of video.
+
+4
+00:00:13,900 --> 00:00:17,173
+This scene plays a generated
+test pattern as footage.
+
+5
+00:00:19,800 --> 00:00:24,325
+Every production goes from research
+to script, storyboard, audio,
+
+6
+00:00:24,325 --> 00:00:26,009
+render and audit.

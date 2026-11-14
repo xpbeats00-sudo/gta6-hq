@@ -1,0 +1,105 @@
+{
+ "audit": "technical",
+ "verdict": "PASS",
+ "generated": "2026-11-12 15:17",
+ "checks": [
+  {
+   "name": "Render file exists",
+   "status": "PASS",
+   "detail": "studio-test-16x9-final.mp4, 10.11 MB"
+  },
+  {
+   "name": "Container is MP4",
+   "status": "PASS",
+   "detail": "mov,mp4,m4a,3gp,3g2,mj2"
+  },
+  {
+   "name": "Video stream present",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Video codec is H.264",
+   "status": "PASS",
+   "detail": "h264 (High)"
+  },
+  {
+   "name": "Pixel format is yuv420p",
+   "status": "PASS",
+   "detail": "yuv420p"
+  },
+  {
+   "name": "Resolution matches the render plan",
+   "status": "PASS",
+   "detail": "1920x1080, planned 1920x1080"
+  },
+  {
+   "name": "Frame rate matches the render plan",
+   "status": "PASS",
+   "detail": "30 fps, planned 30"
+  },
+  {
+   "name": "Duration matches the timeline",
+   "status": "PASS",
+   "detail": "35.800s, planned 35.800s"
+  },
+  {
+   "name": "Final render is full resolution",
+   "status": "PASS",
+   "detail": "1920x1080 for 16x9"
+  },
+  {
+   "name": "Square pixels",
+   "status": "PASS",
+   "detail": "not stated"
+  },
+  {
+   "name": "Audio codec is AAC",
+   "status": "PASS",
+   "detail": "aac, 48000 Hz, 2 ch"
+  },
+  {
+   "name": "Audio sample rate is 48 kHz",
+   "status": "PASS",
+   "detail": "48000"
+  },
+  {
+   "name": "Audio and video lengths agree",
+   "status": "PASS",
+   "detail": "video 35.800s, audio 35.800s, difference 0.000s"
+  },
+  {
+   "name": "Audio and video start together",
+   "status": "PASS",
+   "detail": "video starts 0.000s, audio 0.000s"
+  },
+  {
+   "name": "Whole file decodes without errors",
+   "status": "PASS",
+   "detail": "ffmpeg decoded every frame and sample, no messages"
+  },
+  {
+   "name": "Decoded frame count matches",
+   "status": "PASS",
+   "detail": "1074 frames decoded, 1074 planned"
+  },
+  {
+   "name": "Fast start (index before media data)",
+   "status": "PASS",
+   "detail": "moov atom is at the front"
+  }
+ ],
+ "facts": {
+  "file": "C:\\GTA6Wiki\\video\\productions\\studio-test\\renders\\studio-test-16x9-final.mp4",
+  "size_bytes": 10603626,
+  "sha256": "25072e2186f4df6cd39f7ea9efae7114363e96a98894b789e3abc4517cbc2a16",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30.0,
+  "duration": 35.8,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "bit_rate": 2369525,
+  "mode": "final"
+ }
+}

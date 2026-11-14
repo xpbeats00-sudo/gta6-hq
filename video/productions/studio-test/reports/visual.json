@@ -1,0 +1,70 @@
+{
+ "audit": "visual",
+ "verdict": "PASS",
+ "generated": "2026-11-12 15:01",
+ "checks": [
+  {
+   "name": "Every referenced asset exists",
+   "status": "PASS",
+   "detail": "2 files checked"
+  },
+  {
+   "name": "No forbidden logo in the picture",
+   "status": "PASS",
+   "detail": "searched 72 frames (2 a second) for: Rockstar Games logo. Finds the whole mark at 12 px wide or more; a partly hidden or very small mark needs a person"
+  },
+  {
+   "name": "No black stretches",
+   "status": "PASS",
+   "detail": "none of 0.5s or longer"
+  },
+  {
+   "name": "No frozen picture",
+   "status": "PASS",
+   "detail": "no freeze of 2.0s or longer"
+  },
+  {
+   "name": "Aspect ratio matches the format",
+   "status": "PASS",
+   "detail": "1920x1080 for 16x9"
+  },
+  {
+   "name": "No renderer warnings (missing or short footage)",
+   "status": "PASS",
+   "detail": "none"
+  },
+  {
+   "name": "All on-screen text inside the safe area",
+   "status": "PASS",
+   "detail": "30 text blocks inside [96, 54, 1824, 1026]"
+  },
+  {
+   "name": "Text blocks do not overlap each other",
+   "status": "PASS",
+   "detail": "no title, label, badge, card line or credit overlaps another in the same scene"
+  },
+  {
+   "name": "Footage is not enlarged beyond its resolution",
+   "status": "PASS",
+   "detail": "largest enlargement x0.89"
+  },
+  {
+   "name": "Transitions change the picture and never go black",
+   "status": "PASS",
+   "detail": "4 transitions sampled before, during and after"
+  },
+  {
+   "name": "No scene is nearly black at its midpoint",
+   "status": "PASS",
+   "detail": "5 scenes sampled"
+  },
+  {
+   "name": "Contact sheet written",
+   "status": "PASS",
+   "detail": "reports/contact-sheet-16x9-final.jpg (one frame per scene, for the human or QA agent to look at)"
+  }
+ ],
+ "facts": {
+  "file": "C:\\GTA6Wiki\\video\\productions\\studio-test\\renders\\studio-test-16x9-final.mp4"
+ }
+}

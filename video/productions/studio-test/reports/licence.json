@@ -1,0 +1,38 @@
+{
+ "audit": "licence",
+ "verdict": "PASS",
+ "generated": "2026-11-12 15:17",
+ "checks": [
+  {
+   "name": "Asset register exists",
+   "status": "PASS",
+   "detail": "11 assets"
+  },
+  {
+   "name": "Every file used is in the register",
+   "status": "PASS",
+   "detail": "9 files used, all registered"
+  },
+  {
+   "name": "Every record is complete",
+   "status": "PASS",
+   "detail": "source, creator, licence, attribution, permission, commercial limits and status all filled in"
+  },
+  {
+   "name": "Every record has a recognised rights status",
+   "status": "PASS",
+   "detail": "owned, licensed, permission, system, uncleared"
+  },
+  {
+   "name": "Recorded checksums match the files",
+   "status": "PASS",
+   "detail": "all match"
+  },
+  {
+   "name": "Third-party rights",
+   "status": "PASS",
+   "detail": "no uncleared third-party material"
+  }
+ ],
+ "facts": {}
+}

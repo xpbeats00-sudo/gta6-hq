@@ -1,0 +1,22 @@
+{
+ "duration": 60.50559999999999,
+ "sample_rate": 48000,
+ "stems": {
+  "music": "audio/music.wav",
+  "sfx": "audio/sfx.wav"
+ },
+ "narration": [],
+ "notes": [
+  "music from file audio/XPTrailersong.mp3, starting 32.030s into it"
+ ],
+ "music": {
+  "file": "audio/XPTrailersong.mp3",
+  "start": 32.03
+ },
+ "loudnorm_input": {
+  "input_lufs": -16.5,
+  "output_lufs": -14.2,
+  "output_true_peak": -2.6,
+  "gain_db": 3.0
+ }
+}

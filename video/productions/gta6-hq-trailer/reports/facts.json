@@ -1,0 +1,63 @@
+{
+ "audit": "facts",
+ "verdict": "PASS WITH WARNINGS",
+ "generated": "2026-11-12 15:13",
+ "checks": [
+  {
+   "name": "Research notes exist",
+   "status": "PASS",
+   "detail": "research.md"
+  },
+  {
+   "name": "Claims register exists",
+   "status": "PASS",
+   "detail": "11 claims"
+  },
+  {
+   "name": "Every claim has text, kind and source",
+   "status": "PASS",
+   "detail": "complete"
+  },
+  {
+   "name": "Every claim is marked fact, speculation, opinion or quote",
+   "status": "PASS",
+   "detail": "marked"
+  },
+  {
+   "name": "Every fact re-checked against its source",
+   "status": "PASS",
+   "detail": "10 of 11 facts verified now by wording or count, against the files in this repository"
+  },
+  {
+   "name": "Facts whose wording was not machine-checked",
+   "status": "WARN",
+   "detail": "c11: evidence is only that a file exists or that someone observed it; a person must confirm these"
+  },
+  {
+   "name": "Scenes cite only claims that exist",
+   "status": "PASS",
+   "detail": "all references resolve"
+  },
+  {
+   "name": "Every scene with wording cites its claims",
+   "status": "PASS",
+   "detail": "each scene lists claims, or is marked no_claims (branding or credits only)"
+  },
+  {
+   "name": "Speculation is never shown as fact",
+   "status": "PASS",
+   "detail": "no speculation used on screen"
+  },
+  {
+   "name": "Every number on screen is backed by a cited claim",
+   "status": "PASS",
+   "detail": "all numbers trace to a claim"
+  },
+  {
+   "name": "No unsourced quotations",
+   "status": "PASS",
+   "detail": "no quotations used"
+  }
+ ],
+ "facts": {}
+}

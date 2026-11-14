@@ -1,0 +1,105 @@
+{
+ "audit": "technical",
+ "verdict": "PASS",
+ "generated": "2026-11-12 15:14",
+ "checks": [
+  {
+   "name": "Render file exists",
+   "status": "PASS",
+   "detail": "gta6-hq-trailer-16x9-final.mp4, 32.66 MB"
+  },
+  {
+   "name": "Container is MP4",
+   "status": "PASS",
+   "detail": "mov,mp4,m4a,3gp,3g2,mj2"
+  },
+  {
+   "name": "Video stream present",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "name": "Video codec is H.264",
+   "status": "PASS",
+   "detail": "h264 (High)"
+  },
+  {
+   "name": "Pixel format is yuv420p",
+   "status": "PASS",
+   "detail": "yuv420p"
+  },
+  {
+   "name": "Resolution matches the render plan",
+   "status": "PASS",
+   "detail": "1920x1080, planned 1920x1080"
+  },
+  {
+   "name": "Frame rate matches the render plan",
+   "status": "PASS",
+   "detail": "30 fps, planned 30"
+  },
+  {
+   "name": "Duration matches the timeline",
+   "status": "PASS",
+   "detail": "60.500s, planned 60.500s"
+  },
+  {
+   "name": "Final render is full resolution",
+   "status": "PASS",
+   "detail": "1920x1080 for 16x9"
+  },
+  {
+   "name": "Square pixels",
+   "status": "PASS",
+   "detail": "not stated"
+  },
+  {
+   "name": "Audio codec is AAC",
+   "status": "PASS",
+   "detail": "aac, 48000 Hz, 2 ch"
+  },
+  {
+   "name": "Audio sample rate is 48 kHz",
+   "status": "PASS",
+   "detail": "48000"
+  },
+  {
+   "name": "Audio and video lengths agree",
+   "status": "PASS",
+   "detail": "video 60.500s, audio 60.500s, difference 0.000s"
+  },
+  {
+   "name": "Audio and video start together",
+   "status": "PASS",
+   "detail": "video starts 0.000s, audio 0.000s"
+  },
+  {
+   "name": "Whole file decodes without errors",
+   "status": "PASS",
+   "detail": "ffmpeg decoded every frame and sample, no messages"
+  },
+  {
+   "name": "Decoded frame count matches",
+   "status": "PASS",
+   "detail": "1815 frames decoded, 1815 planned"
+  },
+  {
+   "name": "Fast start (index before media data)",
+   "status": "PASS",
+   "detail": "moov atom is at the front"
+  }
+ ],
+ "facts": {
+  "file": "C:\\GTA6Wiki\\video\\productions\\gta6-hq-trailer\\renders\\gta6-hq-trailer-16x9-final.mp4",
+  "size_bytes": 34241415,
+  "sha256": "e297f2ef086aeb9d355d47faa03b9c63ab7ef730bcd28db4481a47fc58c78011",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30.0,
+  "duration": 60.5,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "bit_rate": 4527790,
+  "mode": "final"
+ }
+}
