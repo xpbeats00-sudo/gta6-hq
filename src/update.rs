@@ -25,6 +25,8 @@ use serde_json::{json, Value};
 
 const CURRENT: &str = env!("CARGO_PKG_VERSION");
 const RECHECK: Duration = Duration::from_secs(30 * 60);
+/// How long a failed check (offline, timed out) stands before GitHub is asked again.
+const RETRY_FAILED: Duration = Duration::from_secs(5 * 60);
 const MAX_BYTES: u64 = 1024 * 1024;
 const MAX_NOTES: usize = 600;
 /// The setup program is about 56 MB; anything far larger is not ours.
@@ -77,17 +79,29 @@ pub fn status(root: &Path) -> Value {
             }
         }
     }
+    static FAILURES: OnceLock<Mutex<Option<(Instant, String, Value)>>> = OnceLock::new();
+    let failures = FAILURES.get_or_init(|| Mutex::new(None));
+    if let Ok(guard) = failures.lock() {
+        if let Some((at, repository, value)) = guard.as_ref() {
+            if at.elapsed() < RETRY_FAILED && *repository == config.repository {
+                return value.clone();
+            }
+        }
+    }
     let value = match fetch(&config.repository) {
         Ok(Some(release)) => describe(&release, CURRENT),
         // A repository with no release yet is not an error.
         Ok(None) => json!({"enabled": true, "current": CURRENT, "available": false, "latest": null}),
         Err(error) => json!({"enabled": true, "current": CURRENT, "available": false, "error": error}),
     };
-    // A failed check is not remembered, so the next page load tries again.
+    // A failed check is remembered only briefly (see RETRY_FAILED), so being offline does not mean
+    // waiting out the timeout every time the window comes back into view.
     if value.get("error").is_none() {
         if let Ok(mut guard) = cache.lock() {
             *guard = Some((Instant::now(), config.repository.clone(), value.clone()));
         }
+    } else if let Ok(mut guard) = failures.lock() {
+        *guard = Some((Instant::now(), config.repository.clone(), value.clone()));
     }
     value
 }

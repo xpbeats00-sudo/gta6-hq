@@ -1,0 +1,316 @@
+{
+ "homeStart": {
+  "heapMb": 1.6,
+  "nodes": 511,
+  "videos": 5,
+  "playing": 1,
+  "longTasks": 0,
+  "longestTaskMs": 0
+ },
+ "homeEnd": {
+  "heapMb": 1.5,
+  "nodes": 511,
+  "videos": 5,
+  "playing": 2,
+  "longTasks": 0,
+  "longestTaskMs": 0
+ },
+ "homePaused": {
+  "heapMb": 1.7,
+  "nodes": 511,
+  "videos": 5,
+  "playing": 0,
+  "longTasks": 0,
+  "longestTaskMs": 0
+ },
+ "idleOtherPage": {
+  "heapMb": 1.6,
+  "nodes": 1565,
+  "videos": 0,
+  "playing": 0,
+  "longTasks": 1,
+  "longestTaskMs": 50
+ },
+ "navigation": {
+  "perPlace": {
+   "#/": {
+    "n": 5,
+    "min": 218.9,
+    "median": 226.5,
+    "p95": 230.1,
+    "max": 230.1
+   },
+   "#/wiki": {
+    "n": 5,
+    "min": 226.2,
+    "median": 229.8,
+    "p95": 231.4,
+    "max": 231.4
+   },
+   "#/characters": {
+    "n": 5,
+    "min": 207.9,
+    "median": 211.3,
+    "p95": 218,
+    "max": 218
+   },
+   "#/characters/jason-duval": {
+    "n": 5,
+    "min": 211.2,
+    "median": 214.4,
+    "p95": 218.6,
+    "max": 218.6
+   },
+   "#/locations": {
+    "n": 5,
+    "min": 211.5,
+    "median": 214.4,
+    "p95": 218,
+    "max": 218
+   },
+   "#/locations/vice-city": {
+    "n": 5,
+    "min": 209.6,
+    "median": 213.5,
+    "p95": 218.1,
+    "max": 218.1
+   },
+   "#/vehicles": {
+    "n": 5,
+    "min": 210.2,
+    "median": 215.4,
+    "p95": 218.8,
+    "max": 218.8
+   },
+   "#/wiki/businesses": {
+    "n": 5,
+    "min": 210,
+    "median": 212.3,
+    "p95": 219.8,
+    "max": 219.8
+   },
+   "#/intel": {
+    "n": 5,
+    "min": 210.6,
+    "median": 216.1,
+    "p95": 218.5,
+    "max": 218.5
+   },
+   "#/media": {
+    "n": 5,
+    "min": 212.5,
+    "median": 214.8,
+    "p95": 230.7,
+    "max": 230.7
+   },
+   "#/wiki/weapons": {
+    "n": 5,
+    "min": 380.8,
+    "median": 651.3,
+    "p95": 691.7,
+    "max": 691.7
+   },
+   "#/wiki/music": {
+    "n": 5,
+    "min": 207.1,
+    "median": 214,
+    "p95": 217.8,
+    "max": 217.8
+   }
+  },
+  "all": {
+   "n": 60,
+   "min": 207.1,
+   "median": 216.5,
+   "p95": 651.3,
+   "max": 691.7
+  },
+  "after": {
+   "heapMb": 2.1,
+   "nodes": 389,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 1,
+   "longestTaskMs": 50
+  }
+ },
+ "searchApi": {
+  "vi": {
+   "results": 28,
+   "n": 30,
+   "min": 6.1,
+   "median": 7.3,
+   "p95": 8.5,
+   "max": 8.6
+  },
+  "jason": {
+   "results": 24,
+   "n": 30,
+   "min": 6.5,
+   "median": 7.5,
+   "p95": 8.5,
+   "max": 10.5
+  },
+  "vice city": {
+   "results": 17,
+   "n": 30,
+   "min": 5.9,
+   "median": 6.6,
+   "p95": 7.3,
+   "max": 7.3
+  },
+  "radio": {
+   "results": 9,
+   "n": 30,
+   "min": 5.7,
+   "median": 6.5,
+   "p95": 7.2,
+   "max": 7.3
+  },
+  "zzzzqq": {
+   "results": 0,
+   "n": 30,
+   "min": 5.8,
+   "median": 6.5,
+   "p95": 7.6,
+   "max": 7.8
+  }
+ },
+ "routes": {
+  "/api/wiki": {
+   "bytes": 89187,
+   "n": 15,
+   "min": 6.3,
+   "median": 7.1,
+   "p95": 7.5,
+   "max": 7.5
+  },
+  "/api/media": {
+   "bytes": 88471,
+   "n": 15,
+   "min": 15.4,
+   "median": 16,
+   "p95": 16.5,
+   "max": 16.5
+  },
+  "/api/manual": {
+   "bytes": 64138,
+   "n": 15,
+   "min": 2.2,
+   "median": 2.3,
+   "p95": 2.5,
+   "max": 2.5
+  },
+  "/api/health": {
+   "bytes": 33283,
+   "n": 15,
+   "min": 198.4,
+   "median": 207.1,
+   "p95": 221.5,
+   "max": 221.5
+  },
+  "/app.js": {
+   "bytes": 92897,
+   "n": 15,
+   "min": 1.7,
+   "median": 1.9,
+   "p95": 2.1,
+   "max": 2.1
+  },
+  "/styles.css": {
+   "bytes": 70141,
+   "n": 15,
+   "min": 1.7,
+   "median": 1.8,
+   "p95": 2.3,
+   "max": 2.3
+  }
+ },
+ "searchPage": {
+  "n": 5,
+  "min": 4.7,
+  "median": 6.2,
+  "p95": 205.5,
+  "max": 205.5
+ },
+ "manualOpenMs": 264.2000000476837,
+ "manualPageTurn": null,
+ "manualNightSwitch": {
+  "n": 6,
+  "min": 11.9,
+  "median": 24.3,
+  "p95": 54.2,
+  "max": 54.2
+ },
+ "manualAfter": {
+  "heapMb": 2.1,
+  "nodes": 477,
+  "videos": 0,
+  "playing": 0,
+  "longTasks": 2,
+  "longestTaskMs": 58
+ },
+ "mapFirst": {
+  "settledMs": 326,
+  "tilesShown": 2,
+  "tileRequests": 2,
+  "tileBytes": 31918,
+  "slowestTileMs": 4
+ },
+ "mapRevisit": {
+  "settledMs": 332,
+  "tilesShown": 2,
+  "tileRequests": 2,
+  "tileBytes": 0,
+  "slowestTileMs": 2
+ },
+ "mapAfter": {
+  "heapMb": 2.6,
+  "nodes": 366,
+  "videos": 0,
+  "playing": 0,
+  "longTasks": 2,
+  "longestTaskMs": 58
+ },
+ "mediaOpenMs": 210.5999999642372,
+ "mediaStart": {
+  "heapMb": 2.4,
+  "nodes": 850,
+  "videos": 41,
+  "playing": 0,
+  "longTasks": 2,
+  "longestTaskMs": 58,
+  "pictures": 144,
+  "loaded": 37,
+  "lazy": 138
+ },
+ "mediaScrolled": {
+  "heapMb": 2.5,
+  "nodes": 850,
+  "videos": 41,
+  "playing": 0,
+  "longTasks": 2,
+  "longestTaskMs": 58,
+  "loaded": 144
+ },
+ "mediaViewerOpen": {
+  "n": 20,
+  "min": 13.4,
+  "median": 17.9,
+  "p95": 30.4,
+  "max": 30.4
+ },
+ "mediaAfterViewer": {
+  "heapMb": 2.5,
+  "nodes": 853,
+  "videos": 41,
+  "playing": 1,
+  "longTasks": 2,
+  "longestTaskMs": 58
+ },
+ "shutdown": {
+  "closeMs": 70,
+  "processesBefore": 8,
+  "stillAliveAfter3s": 0
+ }
+}

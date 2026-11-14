@@ -181,8 +181,12 @@ async fn search_wiki(State(state): State<AppState>, Query(params): Query<SearchP
     }
 }
 
-async fn media_catalogue(State(state): State<AppState>) -> Json<media::Catalogue> {
-    Json(media::scan(&state.root))
+async fn media_catalogue(State(state): State<AppState>) -> Response {
+    let root = state.root.clone();
+    match tokio::task::spawn_blocking(move || media::catalogue_json(&root)).await {
+        Ok(json) => ([(header::CONTENT_TYPE, "application/json")], json).into_response(),
+        Err(_) => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
+    }
 }
 
 /// The data integrity report (hashes every media file, so it runs off the
@@ -190,10 +194,11 @@ async fn media_catalogue(State(state): State<AppState>) -> Json<media::Catalogue
 /// The Field Manual's content, `data/manual.json`. Read on each request so
 /// edits show on refresh; it is one small file.
 async fn manual(State(state): State<AppState>) -> Response {
-    match validate::load_manual(&state.root) {
-        Ok(Some(manual)) => Json(manual).into_response(),
-        Ok(None) => StatusCode::NOT_FOUND.into_response(),
-        Err(_) => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
+    let root = state.root.clone();
+    match tokio::task::spawn_blocking(move || validate::load_manual(&root)).await {
+        Ok(Ok(Some(manual))) => Json(manual).into_response(),
+        Ok(Ok(None)) => StatusCode::NOT_FOUND.into_response(),
+        _ => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
     }
 }
 

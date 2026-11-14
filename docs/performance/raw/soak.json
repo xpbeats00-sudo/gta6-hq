@@ -1,0 +1,155 @@
+{
+ "minutes": 30,
+ "checkpoints": [
+  {
+   "minute": 0.2,
+   "heapMb": 1.6,
+   "nodes": 511,
+   "videos": 5,
+   "playing": 2,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 2.2,
+   "heapMb": 2.4,
+   "nodes": 293,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 4.2,
+   "heapMb": 2.6,
+   "nodes": 823,
+   "videos": 33,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 6.3,
+   "heapMb": 2.8,
+   "nodes": 407,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 8.3,
+   "heapMb": 2.8,
+   "nodes": 1544,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 10.3,
+   "heapMb": 2.8,
+   "nodes": 469,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 12.3,
+   "heapMb": 2.9,
+   "nodes": 482,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 14.5,
+   "heapMb": 2.7,
+   "nodes": 516,
+   "videos": 5,
+   "playing": 2,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 16.5,
+   "heapMb": 2.7,
+   "nodes": 292,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 18.5,
+   "heapMb": 2.8,
+   "nodes": 822,
+   "videos": 33,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 20.6,
+   "heapMb": 2.9,
+   "nodes": 407,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 22.6,
+   "heapMb": 2.9,
+   "nodes": 1545,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 24.7,
+   "heapMb": 2.8,
+   "nodes": 469,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 26.7,
+   "heapMb": 2.8,
+   "nodes": 480,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 28.8,
+   "heapMb": 2.8,
+   "nodes": 515,
+   "videos": 5,
+   "playing": 2,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  },
+  {
+   "minute": 30,
+   "heapMb": 2.8,
+   "nodes": 469,
+   "videos": 0,
+   "playing": 0,
+   "longTasks": 0,
+   "longestTaskMs": 0
+  }
+ ],
+ "pagesVisited": 402,
+ "shutdown": {
+  "closeMs": 61,
+  "processesBefore": 7,
+  "stillAliveAfter3s": 0
+ }
+}

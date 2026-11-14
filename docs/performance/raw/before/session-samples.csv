@@ -1,0 +1,84 @@
+time,label,processes,cpu_pct,private_mb,working_set_mb,threads,handles,gpu_pct,gpu_decode_pct
+01:41:24,B04 home, live wallpaper playing,8,,801.4,848.5,261,3890,4.7,2.4
+01:41:39,B04 home, live wallpaper playing,8,25,530.9,719.4,268,4186,3.6,2.2
+01:41:46,B04 home, live wallpaper playing,8,15.2,518.4,701,268,4214,8.6,5.1
+01:41:53,B04 home, live wallpaper playing,8,7.3,430.1,662.1,269,4258,11.8,6.2
+01:42:00,B04 home, live wallpaper playing,8,8.9,413.4,660,265,4222,6,3.3
+01:42:08,B04 home, live wallpaper playing,8,17,433.5,669.9,265,4249,11.4,5.8
+01:42:15,B04 home, live wallpaper playing,8,11.1,434.1,670.5,265,4232,4.9,2.4
+01:42:22,B04 home, live wallpaper playing,8,17.3,440.2,666.7,256,4228,17.3,9.4
+01:42:30,B04 home, live wallpaper playing,8,17.3,429.9,661.8,257,4215,6.2,2.7
+01:42:37,B04 home, live wallpaper playing,8,11,428.5,664.5,256,4230,7.5,3.5
+01:42:44,B04 home, live wallpaper playing,8,15.3,427.5,664.5,256,4235,10.9,5.3
+01:42:51,B04 home, live wallpaper playing,8,18,417.8,662.7,256,4210,4.9,2.4
+01:42:59,B04 home, live wallpaper playing,8,12.9,455.1,689.4,256,4228,10.4,4.7
+01:43:06,B04 home, live wallpaper playing,8,17.4,434.5,666.4,256,4203,7,2.5
+01:43:13,B04 home, live wallpaper playing,8,16.7,463.5,691,256,4228,11.5,5.3
+01:43:20,B04 home, live wallpaper playing,8,7.8,431.5,662.6,256,4201,4.3,2.3
+01:43:28,B04 home, live wallpaper playing,8,19.1,429.7,666,254,4219,10.2,4.9
+01:43:35,B04 home, live wallpaper playing,8,10,439.2,679,254,4227,9.7,4.3
+01:43:42,B04 home, live wallpaper playing,8,9.5,421.4,672,242,4168,11.3,5.4
+01:43:50,B04 home, live wallpaper playing,8,16.6,450.7,678.6,242,4186,7.1,3
+01:43:57,B04 home, live wallpaper playing,8,9.6,436,662.4,241,4157,6.2,2.9
+01:44:04,B04 home, live wallpaper playing,8,15.8,438.4,658.9,244,4183,14,7.4
+01:44:12,B04 home, live wallpaper playing,8,14.5,429.8,656.1,244,4160,11.1,5.1
+01:44:19,B04 home, live wallpaper playing,8,8.4,437.4,665.5,244,4180,11.6,5.2
+01:44:27,B04 home, live wallpaper playing,8,11.3,439.1,657.6,243,4182,10.1,4.8
+01:44:34,B04 home, live wallpaper playing,8,14,425.9,655.5,243,4153,9.4,5.1
+01:44:41,B04 home, live wallpaper playing,8,12.7,445.2,668.6,248,4205,3.6,2.3
+01:44:49,B04 home, live wallpaper playing,8,15.7,427.2,664.3,246,4163,3.8,2.4
+01:44:56,B04 home, live wallpaper playing,8,12.8,464.4,678.2,246,4188,12.2,6.5
+01:45:03,B04 home, live wallpaper playing,8,11.8,434,656.4,248,4165,12.8,5.7
+01:45:11,B04 home, live wallpaper playing,8,17.9,455.3,683.9,248,4191,9.3,4
+01:45:18,B04 home, live wallpaper playing,8,9.4,443.7,671.3,248,4190,11.4,6.1
+01:45:25,B04 home, live wallpaper playing,8,12.4,420.9,652.9,247,4163,3.8,1.8
+01:45:33,B04 home, live wallpaper playing,8,19.4,459.9,676.3,247,4188,7.5,3.5
+01:45:40,B04 home, live wallpaper playing,8,10.7,431.8,659.4,247,4163,4.6,2.1
+01:45:47,B04 home, live wallpaper playing,8,13.3,470.2,684.8,247,4188,14,8
+01:45:54,B04 home, live wallpaper playing,8,16.5,430.9,650.3,242,4151,8.7,4.3
+01:46:02,B04 home, live wallpaper playing,8,11.2,461.2,682.1,242,4171,6.5,2.8
+01:46:09,B04 home, live wallpaper playing,8,14.2,435.5,668.2,242,4168,12.6,7
+01:46:16,B04 home, live wallpaper playing,8,16.7,421.2,654.3,239,4144,4.2,2.3
+01:46:23,B05 home, wallpaper paused,8,9.9,433.8,656.8,248,4152,0.3,0
+01:46:31,B05 home, wallpaper paused,8,12.8,427.4,639.1,249,4139,0.7,0
+01:46:38,B05 home, wallpaper paused,8,4.2,404.9,632,246,4133,0.1,0
+01:46:45,B05 home, wallpaper paused,8,2,400,627.2,245,4132,0.1,0
+01:46:52,B05 home, wallpaper paused,8,6.3,400,627.2,245,4132,0.1,0
+01:46:59,B05 home, wallpaper paused,8,2.4,397,626.1,245,4132,0.1,0
+01:47:06,B05 home, wallpaper paused,8,2.2,394.1,625.7,245,4132,0.1,0
+01:47:13,B05 home, wallpaper paused,8,5.7,389.8,625.7,245,4132,0.1,0
+01:47:20,B05 home, wallpaper paused,8,2.7,389.8,625.7,245,4132,0.1,0
+01:47:27,B05 home, wallpaper paused,8,3.3,389.9,622.9,247,4155,0,0
+01:47:34,B05 home, wallpaper paused,8,5.3,390,623,247,4155,0.1,0
+01:47:42,B05 home, wallpaper paused,8,2,389.9,623.1,245,4145,0.1,0
+01:47:49,B05 home, wallpaper paused,8,2.7,389.9,623.1,245,4145,0.1,0
+01:47:56,B03 idle on another page (Encyclopedia),8,6.4,390.3,623.4,245,4145,3.5,0
+01:48:03,B03 idle on another page (Encyclopedia),8,30.3,651.6,728.7,320,4183,5.4,0
+01:48:11,B03 idle on another page (Encyclopedia),8,17.2,522.9,666.3,270,4141,5.3,0
+01:48:18,B03 idle on another page (Encyclopedia),8,16,521.3,665.1,267,4138,4.6,0
+01:48:25,B03 idle on another page (Encyclopedia),8,11.2,523.6,628.3,267,4131,4.6,0
+01:48:33,B03 idle on another page (Encyclopedia),8,18.3,503.2,622.8,251,4115,5.1,0
+01:48:40,B03 idle on another page (Encyclopedia),8,15.8,462.7,619.5,245,4109,4.8,0
+01:48:48,B03 idle on another page (Encyclopedia),8,13.6,457.8,615.2,245,4109,5.5,0
+01:48:55,B03 idle on another page (Encyclopedia),8,16.7,457.7,614.6,241,4107,4.8,0
+01:49:02,B03 idle on another page (Encyclopedia),8,15.4,458.8,627.1,238,4106,4.5,0
+01:49:10,B03 idle on another page (Encyclopedia),8,12.3,461.5,619.4,235,4101,4.7,0
+01:49:17,B03 idle on another page (Encyclopedia),8,18.3,454.5,613.1,226,4067,4.9,0
+01:49:25,B06 navigation,8,13.9,453.9,600,226,4063,4.8,0
+01:49:32,B06 navigation,8,49.5,1143.4,1102.1,254,4120,21.8,13.5
+01:49:42,B06 navigation,8,136.8,1580.4,1491.6,280,5065,39.2,29.5
+01:49:49,B06 navigation,8,88.6,1519.4,1442.3,280,5050,82,73.7
+01:49:58,B06 navigation,8,104.3,1321.8,1317.4,261,4248,18.9,15.1
+01:50:06,B07 search,8,93,1329.7,1367.5,262,4342,3.3,0
+01:50:15,B09 field manual,8,115,1231.8,1102.3,262,5022,0.1,0
+01:50:22,B09 field manual,8,42.7,875.2,859,263,4250,0,0
+01:50:29,B09 field manual,8,0.9,868.1,799.9,262,4241,0,0
+01:50:36,B09 field manual,8,0,866.7,798.8,262,4241,0,0
+01:50:43,B09 field manual,8,0.7,864.7,797.1,232,4091,0,0
+01:50:50,B09 field manual,8,0,864.5,791.6,232,4091,0,0
+01:50:57,B09 field manual,8,0.2,863.6,788.3,232,4093,0,0
+01:51:04,B09 field manual,8,0.2,738.7,749.9,232,4092,0,0
+01:51:11,B09 field manual,8,0,737.8,749.2,232,4092,11.3,0
+01:51:19,B12 media gallery,8,56.8,798.7,787.5,234,4104,33.3,30
+01:51:27,B12 media gallery,8,71.9,1175.2,1259,276,5039,33.1,20.8
+01:51:35,closing,8,93.2,1521.8,1370.7,277,5115,15.1,6.8

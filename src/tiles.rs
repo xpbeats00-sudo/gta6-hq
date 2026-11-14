@@ -7,12 +7,21 @@
 //! never pruned automatically; delete `cache/tiles/` to reset it (the whole
 //! pyramid is about 360 tiles).
 
-use std::{fs, path::Path, sync::OnceLock, time::Duration};
+use std::{
+    collections::HashMap,
+    fs,
+    path::Path,
+    sync::{Mutex, OnceLock},
+    time::{Duration, Instant},
+};
 
 const UPSTREAM: &str = "https://gta6-wiki.org/maps/tiles/yanis-17";
 pub const MAX_ZOOM: u8 = 5;
 /// Anything larger than this is not a map tile.
 const MAX_TILE_BYTES: u64 = 4 * 1024 * 1024;
+/// A tile that could not be fetched is not asked for again for this long. Offline, every tile on the
+/// map would otherwise wait out the full timeout again each time the map is opened or moved.
+const RETRY_AFTER: Duration = Duration::from_secs(60);
 
 #[derive(Debug, PartialEq, Eq)]
 pub enum TileError {
@@ -21,6 +30,9 @@ pub enum TileError {
     /// Offline, timed out, rate limited or a provider error.
     Unavailable,
 }
+
+/// When each tile (zoom, row, column) last failed to download.
+type Failures = HashMap<(u8, u32, u32), Instant>;
 
 pub fn get(root: &Path, z: u8, y: u32, x: u32) -> Result<Vec<u8>, TileError> {
     if z > MAX_ZOOM || x >= (1 << z) || y >= (1 << z) {
@@ -37,9 +49,27 @@ pub fn get(root: &Path, z: u8, y: u32, x: u32) -> Result<Vec<u8>, TileError> {
         }
     }
 
-    let bytes = fetch(&format!("{UPSTREAM}/{z}/{y}/{x}.webp"))?;
-    store(&cached, &bytes);
-    Ok(bytes)
+    static FAILED: OnceLock<Mutex<Failures>> = OnceLock::new();
+    let failed = FAILED.get_or_init(|| Mutex::new(HashMap::new()));
+    if let Ok(guard) = failed.lock() {
+        if guard.get(&(z, y, x)).is_some_and(|at| at.elapsed() < RETRY_AFTER) {
+            return Err(TileError::Unavailable);
+        }
+    }
+    match fetch(&format!("{UPSTREAM}/{z}/{y}/{x}.webp")) {
+        Ok(bytes) => {
+            store(&cached, &bytes);
+            Ok(bytes)
+        }
+        Err(error) => {
+            if error == TileError::Unavailable {
+                if let Ok(mut guard) = failed.lock() {
+                    guard.insert((z, y, x), Instant::now());
+                }
+            }
+            Err(error)
+        }
+    }
 }
 
 fn fetch(url: &str) -> Result<Vec<u8>, TileError> {

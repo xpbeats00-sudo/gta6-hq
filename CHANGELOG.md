@@ -2,6 +2,13 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.21 (14 November 2026)
+
+- Home: 28 new live wallpapers made from Rockstar's artwork and screenshots. Each is the original picture, gently moved (depth, drifting camera, swaying palms, rippling water, pulsing neon); nothing is redrawn and no AI video model is used.
+- Intro: Rockstar's character clips play first, then continue inside the shape of the VI logo before the logo and cover panels arrive.
+- Top bar: each section has its own icon, drawn for the app.
+- Faster and lighter, measured on the real app: page changes are steadier, the Encyclopedia no longer re-reads every picture and video on each visit, the Media page shows a still poster instead of loading every video, and the Home wallpaper stops playing when it is scrolled out of view or hidden under the intro. Numbers are in docs/performance.
+
 ## 0.2.20 (13 November 2026)
 
 - Evidence labels are now solid tags. The top one, for anything stated or shown in Rockstar's own published material, reads "R★ Verified" (it was "Official" in the encyclopedia and "Demonstrated" in the Field Manual). It does not mean Rockstar has reviewed this app.

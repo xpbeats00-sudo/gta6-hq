@@ -104,6 +104,14 @@ function artKind(section, entry) {
   return entry.art || category(section)?.art || 'city';
 }
 
+/** A wallpaper as a tile. With a poster on file the video itself is not fetched until it is played;
+    without one, its own frame four seconds in stands as the picture. */
+function videoTile(item, extra = '') {
+  return item.poster
+    ? `<video src="${esc(item.src)}" poster="${esc(item.poster)}" muted ${extra} playsinline preload="none" aria-hidden="true"></video>`
+    : `<video src="${esc(item.src)}#t=4" muted ${extra} playsinline preload="metadata" aria-hidden="true"></video>`;
+}
+
 /** A photo if the entry has one, otherwise the "no artwork on file" panel. */
 function picture(entry, kind) {
   if (entry.image) {
@@ -251,7 +259,13 @@ function markPastHero() {
   document.body.classList.toggle('has-hero', Boolean(hero));
   document.body.classList.toggle('past-hero', !hero || hero.getBoundingClientRect().bottom <= (bar ? bar.getBoundingClientRect().bottom : 0) + 24);
 }
-window.addEventListener('scroll', markPastHero, { passive: true });
+// Scrolling fires many events a frame; the check reads layout, so it runs at most once a frame.
+let pastHeroQueued = false;
+window.addEventListener('scroll', () => {
+  if (pastHeroQueued) return;
+  pastHeroQueued = true;
+  requestAnimationFrame(() => { pastHeroQueued = false; markPastHero(); });
+}, { passive: true });
 window.addEventListener('resize', markPastHero);
 
 
@@ -449,11 +463,27 @@ document.addEventListener('visibilitychange', () => {
   });
 });
 
+// Pictures on cards drift slowly (the owner's choice). One that is off screen has nothing to show,
+// so its drift rests until it scrolls back; a long page was animating every picture on it all the time.
+const driftWatch = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => entry.target.classList.toggle('is-resting', !entry.isIntersecting));
+}, { rootMargin: '200px' });
+let driftQueued = false;
+function watchDrift() {
+  driftWatch.disconnect();
+  document.querySelectorAll('.card-media img, .topic-media img, .tile img, .place-hero > img, .profile-portrait img').forEach((img) => driftWatch.observe(img));
+}
+new MutationObserver(() => {
+  if (driftQueued) return;
+  driftQueued = true;
+  setTimeout(() => { driftQueued = false; watchDrift(); }, 250);
+}).observe(document.getElementById('view'), { childList: true, subtree: true });
+
 // ---------- splash ----------
 
-// How long the intro runs before the app opens: the logo, nine panels half a second apart, then a
-// short hold on the finished picture. Keep in step with the delays in styles.css.
-const SPLASH_MS = 8400;
+// How long the intro runs before the app opens: the montage, the clips inside the logo, nine panels,
+// then a short hold on the finished picture. Keep in step with the delays in styles.css.
+const SPLASH_MS = 10600;
 
 function runSplash(ready) {
   const splash = document.getElementById('splash');
@@ -480,8 +510,17 @@ function runSplash(ready) {
     splash.classList.add('is-done');
     document.body.classList.remove('is-loading');
     document.body.classList.add('is-arriving');
-    setTimeout(() => { splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
+    document.dispatchEvent(new Event('app-arrived'));
+    setTimeout(() => { montages.forEach((video) => video.pause()); splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
   };
+
+  // The montage plays in two layers at once (see styles.css). Without it the logo still fades in on
+  // time: the clips are an extra, not a requirement.
+  const montages = [...splash.querySelectorAll('.splash-montage')];
+  montages.forEach((video) => {
+    video.addEventListener('error', () => video.parentElement.remove());
+    video.play().catch(() => {});
+  });
 
   // The percentage follows the intro's own clock, counted every frame so it climbs smoothly.
   const started = performance.now();
@@ -513,8 +552,8 @@ function renderHome() {
   view.innerHTML = `
     <section class="hero" aria-label="${esc(game.title)}">
       <video class="hero-video is-on" src="${HERO_WALLPAPERS[0]}"
-        poster="/images/muscle-car-pastel-palms.jpg" autoplay muted playsinline aria-hidden="true"></video>
-      <video class="hero-video" muted playsinline preload="auto" aria-hidden="true"></video>
+        poster="/images/muscle-car-pastel-palms.jpg" muted playsinline preload="metadata" aria-hidden="true"></video>
+      <video class="hero-video" muted playsinline preload="none" aria-hidden="true"></video>
       <div class="hero-shade"></div>
       <div class="hero-content">
         <span class="kicker">Unofficial fan encyclopedia</span>
@@ -622,6 +661,7 @@ function renderHome() {
   let playing = 0;   // which wallpaper it is playing
   let switching = false;
   const upNext = () => {
+    if (!layers[0].isConnected) return; // the page has been left; load nothing more
     const next = layers[1 - front];
     // Loaded and ready, but not playing until its turn.
     next.autoplay = false;
@@ -648,7 +688,21 @@ function renderHome() {
     // A wallpaper that will not play is skipped, never left as a black screen.
     layer.addEventListener('error', () => { if (layer === layers[front]) crossFade(); });
   });
-  upNext();
+  // The wallpaper starts once the intro is over, not underneath it, where it would decode unseen
+  // beside the intro's own clips.
+  const begin = () => { if (!layers[0].isConnected) return; layers[front].play().catch(() => {}); upNext(); };
+  if (document.body.classList.contains('is-loading')) document.addEventListener('app-arrived', begin, { once: true });
+  else begin();
+  // Scrolled out of sight, the wallpaper stops decoding; it picks up again when it comes back,
+  // unless the reader paused it themselves.
+  const heroEl = view.querySelector('.hero');
+  let away = false;
+  new IntersectionObserver(([entry]) => {
+    if (!layers[0].isConnected) return;
+    const video = layers[front];
+    if (!entry.isIntersecting) { away = !video.paused; if (away) video.pause(); }
+    else if (away && !document.hidden) { away = false; video.play().catch(() => {}); }
+  }, { threshold: 0.02 }).observe(heroEl);
   const setPaused = (paused) => {
     const video = layers[front];
     if (paused) video.pause(); else video.play().catch(() => {});
@@ -671,7 +725,7 @@ function renderHome() {
     if (!strip) return;
     strip.innerHTML = media.videos.slice(0, 3).map((v) => `
       <a class="tile tile-video" href="#/media" aria-label="${esc(v.title)}, in the gallery">
-        <video src="${esc(v.src)}#t=4" muted playsinline preload="metadata" aria-hidden="true"></video>
+        ${videoTile(v)}
         <span class="play" aria-hidden="true"></span><span class="tile-title">${esc(v.title)}</span>
       </a>`).join('');
   }).catch(() => {});
@@ -1034,7 +1088,7 @@ async function renderMedia() {
     gallery.innerHTML = shown.map((item) => `
       <button type="button" class="tile ${item.type === 'video' ? 'tile-video' : ''}" data-index="${items.indexOf(item)}" aria-label="Open ${esc(item.title)}">
         ${item.type === 'video'
-          ? `<video src="${esc(item.src)}#t=4" muted loop playsinline preload="metadata" aria-hidden="true"></video><span class="play" aria-hidden="true"></span>`
+          ? `${videoTile(item, 'loop')}<span class="play" aria-hidden="true"></span>`
           : `<img src="${esc(item.src)}" alt="${esc(item.alt)}" loading="lazy">`}
         <span class="tile-title">${esc(item.title)}</span>
       </button>`).join('') || '<p class="muted">Nothing here yet.</p>';
@@ -1508,6 +1562,34 @@ const HERO_WALLPAPERS = [
   '/wallpapers/gta-vi-pier-showdown-jason-lucia.mp4',
   '/wallpapers/gta-6-dawn-of-the-heist.mp4',
   '/wallpapers/gta-vi-pink-neon-logo-reflection.mp4',
+  '/wallpapers/gta-vi-jason-lucia-gas-station.mp4',
+  '/wallpapers/gta-vi-cal-hampton-boat.mp4',
+  '/wallpapers/gta-vi-boobie-ike-club.mp4',
+  '/wallpapers/gta-vi-drequan-priest-jack-of-hearts.mp4',
+  '/wallpapers/gta-vi-real-dimez-ocean-view.mp4',
+  '/wallpapers/gta-vi-raul-bautista-duffel.mp4',
+  '/wallpapers/gta-vi-brian-heder-boat-yard.mp4',
+  '/wallpapers/gta-vi-jason-lucia-nightclub.mp4',
+  '/wallpapers/gta-vi-jason-lucia-bank-robbery.mp4',
+  '/wallpapers/gta-vi-hilltop-sunset.mp4',
+  '/wallpapers/gta-vi-jason-lucia-car-window.mp4',
+  '/wallpapers/gta-vi-rusty-anchor-bar.mp4',
+  '/wallpapers/gta-vi-lucia-shootout-convertible.mp4',
+  '/wallpapers/gta-vi-jason-lucia-convertible-night.mp4',
+  '/wallpapers/gta-vi-jason-motorbike-police.mp4',
+  '/wallpapers/gta-vi-jason-biker-standoff.mp4',
+  '/wallpapers/gta-vi-dirt-bikes-hallway.mp4',
+  '/wallpapers/gta-vi-canal-police-raid.mp4',
+  '/wallpapers/gta-vi-dancer-money.mp4',
+  '/wallpapers/gta-vi-dog-and-owner.mp4',
+  '/wallpapers/gta-vi-trap-house-crew.mp4',
+  '/wallpapers/gta-vi-tattooed-crew.mp4',
+  '/wallpapers/gta-vi-ricardo-gas-station.mp4',
+  '/wallpapers/gta-vi-dressing-room.mp4',
+  '/wallpapers/gta-vi-car-meet-selfie.mp4',
+  '/wallpapers/gta-vi-club-vip.mp4',
+  '/wallpapers/gta-vi-vice-city-skyline-night.mp4',
+  '/wallpapers/gta-vi-delights-cabaret.mp4',
 ];
 const HERO_FADE_MS = 1400;
 // ---------- inline spoilers ----------

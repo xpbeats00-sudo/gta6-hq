@@ -5,10 +5,12 @@
 //! area for media whose source and rights have not been recorded yet.
 
 use std::{
-    collections::BTreeMap,
+    collections::{BTreeMap, HashMap},
     fs,
     io::Read,
     path::{Path, PathBuf},
+    sync::{Mutex, OnceLock},
+    time::SystemTime,
 };
 
 use serde::{Deserialize, Serialize};
@@ -19,7 +21,11 @@ use crate::content::IMAGE_EXTENSIONS;
 pub const VIDEO_EXTENSIONS: [&str; 3] = ["mp4", "webm", "mov"];
 pub const RIGHTS_STATES: [&str; 4] = ["approved", "permission_required", "unknown", "rejected"];
 /// App chrome, not gallery material.
-const HIDDEN: [&str; 2] = ["images/gta6.png", "wallpapers/gta6splashscreen.mp4"];
+const HIDDEN: [&str; 3] = [
+    "images/gta6.png",
+    "wallpapers/gta6splashscreen.mp4",
+    "wallpapers/gta6-intro-montage.mp4",
+];
 
 /// One record in `data/media.json`.
 #[derive(Deserialize, Debug, Clone, Default)]
@@ -57,6 +63,9 @@ pub struct Item {
     pub rights: String,
     pub credit: String,
     pub related: Vec<String>,
+    /// A still picture to show before a video loads (`wallpapers/posters/<name>.jpg`), if one exists.
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub poster: Option<String>,
 }
 
 #[derive(Serialize)]
@@ -89,6 +98,32 @@ pub fn files_on_disk(root: &Path) -> Vec<String> {
     found
 }
 
+/// The catalogue as JSON, rebuilt only when the manifest or the list of files changes. Home and the
+/// Media page both ask for it on every visit; reading and joining the manifest each time is wasted work.
+pub fn catalogue_json(root: &Path) -> String {
+    static CACHE: OnceLock<Mutex<Option<(String, String)>>> = OnceLock::new();
+    let manifest = fs::metadata(root.join("data").join("media.json")).ok();
+    let key = format!(
+        "{:?}|{:?}|{}",
+        manifest.as_ref().map(fs::Metadata::len),
+        manifest.as_ref().and_then(|m| m.modified().ok()),
+        files_on_disk(root).join("\n")
+    );
+    let cache = CACHE.get_or_init(|| Mutex::new(None));
+    if let Ok(guard) = cache.lock() {
+        if let Some((cached_key, json)) = guard.as_ref() {
+            if *cached_key == key {
+                return json.clone();
+            }
+        }
+    }
+    let json = serde_json::to_string(&scan(root)).unwrap_or_else(|_| String::from("{\"images\":[],\"videos\":[]}"));
+    if let Ok(mut guard) = cache.lock() {
+        *guard = Some((key, json.clone()));
+    }
+    json
+}
+
 pub fn scan(root: &Path) -> Catalogue {
     let manifest = load_manifest(root).unwrap_or_default();
     let by_file: BTreeMap<&str, &Asset> = manifest.assets.iter().map(|a| (a.file.as_str(), a)).collect();
@@ -115,7 +150,12 @@ pub fn scan(root: &Path) -> Catalogue {
             .unwrap_or_default();
         let fallback_title = title_from(&stem);
         let parts: Vec<&str> = file.split('/').collect();
+        let poster = (parts[0] == "wallpapers")
+            .then(|| format!("wallpapers/posters/{stem}.jpg"))
+            .filter(|p| to_path(root, p).is_file())
+            .map(|p| format!("/{p}"));
         let item = Item {
+            poster,
             src: format!("/{file}"),
             title: asset
                 .map(|a| a.title.clone())
@@ -152,8 +192,33 @@ fn credit(asset: &Asset) -> String {
         .join(" · ")
 }
 
-/// SHA-256 of a file, as lowercase hex.
+/// Each hashed file's size, modified time and hash.
+type Hashes = HashMap<PathBuf, (u64, SystemTime, String)>;
+
+/// SHA-256 of a file, as lowercase hex. A file whose size and modified time have not changed since
+/// it was last hashed is not read again: the integrity report runs on every Encyclopedia visit, and
+/// re-reading every picture and video each time cost hundreds of megabytes of disk reads.
 pub fn sha256(path: &Path) -> Option<String> {
+    static SEEN: OnceLock<Mutex<Hashes>> = OnceLock::new();
+    let seen = SEEN.get_or_init(|| Mutex::new(HashMap::new()));
+    let stamp = fs::metadata(path)
+        .ok()
+        .and_then(|m| Some((m.len(), m.modified().ok()?)));
+    if let (Some((len, modified)), Ok(guard)) = (stamp, seen.lock()) {
+        if let Some((seen_len, seen_modified, hash)) = guard.get(path) {
+            if *seen_len == len && *seen_modified == modified {
+                return Some(hash.clone());
+            }
+        }
+    }
+    let hash = sha256_uncached(path)?;
+    if let (Some((len, modified)), Ok(mut guard)) = (stamp, seen.lock()) {
+        guard.insert(path.to_path_buf(), (len, modified, hash.clone()));
+    }
+    Some(hash)
+}
+
+fn sha256_uncached(path: &Path) -> Option<String> {
     let mut file = fs::File::open(path).ok()?;
     let mut hasher = Sha256::new();
     let mut buffer = [0u8; 64 * 1024];

@@ -101,24 +101,30 @@ body.is-arriving .announce, body.is-arriving .topbar, body.is-arriving #view { a
    (percentages of the stage) and flies in with its own move. Times are in step with runSplash. */
 #splash { background: #000; overflow: hidden; display: grid; place-items: center; padding: 22px 22px 128px; }
 .splash-stage { position: relative; height: min(100%, calc((100vw - 44px) * 1093 / 988)); aspect-ratio: 988 / 1093; }
-.sp { position: absolute; display: block; max-width: none; opacity: 0; will-change: transform, opacity; animation: 1.3s cubic-bezier(0.16, 1, 0.3, 1) both; }
-.sp-logo { left: 14.879%; top: 27.539%; width: 61.943%; height: 44.19%; z-index: 2; animation: sp-logo 1.9s cubic-bezier(0.45, 0, 0.2, 1) 0.15s both; }
-.sp-1 { left: 30.061%; top: 2.47%; width: 39.17%; height: 30.375%; animation-name: sp-drop; animation-delay: 1.7s; }
-.sp-2 { left: 2.632%; top: 69.259%; width: 31.579%; height: 28.271%; animation-name: sp-drive; animation-delay: 2.2s; }
-.sp-3 { left: 35.324%; top: 62.306%; width: 31.275%; height: 15.919%; animation-name: sp-lunge; animation-delay: 2.7s; }
-.sp-4 { left: 2.733%; top: 2.47%; width: 26.316%; height: 25.618%; animation-name: sp-fly; animation-delay: 3.2s; }
-.sp-5 { left: 35.223%; top: 77.859%; width: 31.275%; height: 19.762%; animation-name: sp-rise; animation-delay: 3.7s; }
-.sp-6 { left: 77.024%; top: 32.113%; width: 20.243%; height: 32.388%; animation-name: sp-slide-left; animation-delay: 4.2s; }
-.sp-7 { left: 2.632%; top: 28.545%; width: 31.478%; height: 42.452%; animation-name: sp-swing; animation-delay: 4.7s; }
-.sp-8 { left: 70.344%; top: 2.47%; width: 26.923%; height: 29.552%; animation-name: sp-wheelie; animation-delay: 5.2s; }
-.sp-9 { left: 67.611%; top: 63.861%; width: 29.757%; height: 33.76%; animation-name: sp-skid; animation-delay: 5.7s; }
-/* The logo opens large and glowing, then settles to its place in the picture. */
-@keyframes sp-logo {
-  0% { opacity: 0; transform: scale(1.5); filter: drop-shadow(0 0 0 rgba(255, 110, 180, 0)); }
-  30% { opacity: 1; transform: scale(1.36); filter: drop-shadow(0 0 40px rgba(255, 110, 180, 0.6)); }
-  55% { opacity: 1; transform: scale(1.34); filter: drop-shadow(0 0 30px rgba(255, 150, 90, 0.45)); }
-  100% { opacity: 1; transform: scale(1); filter: drop-shadow(0 0 0 rgba(255, 150, 90, 0)); }
-}
+.sp { position: absolute; display: block; max-width: none; opacity: 0; will-change: transform, opacity; animation: 1.1s cubic-bezier(0.16, 1, 0.3, 1) both; }
+.sp-logo { left: 14.879%; top: 27.539%; width: 61.943%; height: 44.19%; z-index: 2; animation: sp-logo 1.2s ease 5.3s both; }
+.sp-1 { left: 30.061%; top: 2.47%; width: 39.17%; height: 30.375%; animation-name: sp-drop; animation-delay: 6.70s; }
+.sp-2 { left: 2.632%; top: 69.259%; width: 31.579%; height: 28.271%; animation-name: sp-drive; animation-delay: 6.95s; }
+.sp-3 { left: 35.324%; top: 62.306%; width: 31.275%; height: 15.919%; animation-name: sp-lunge; animation-delay: 7.20s; }
+.sp-4 { left: 2.733%; top: 2.47%; width: 26.316%; height: 25.618%; animation-name: sp-fly; animation-delay: 7.45s; }
+.sp-5 { left: 35.223%; top: 77.859%; width: 31.275%; height: 19.762%; animation-name: sp-rise; animation-delay: 7.70s; }
+.sp-6 { left: 77.024%; top: 32.113%; width: 20.243%; height: 32.388%; animation-name: sp-slide-left; animation-delay: 7.95s; }
+.sp-7 { left: 2.632%; top: 28.545%; width: 31.478%; height: 42.452%; animation-name: sp-swing; animation-delay: 8.20s; }
+.sp-8 { left: 70.344%; top: 2.47%; width: 26.923%; height: 29.552%; animation-name: sp-wheelie; animation-delay: 8.45s; }
+.sp-9 { left: 67.611%; top: 63.861%; width: 29.757%; height: 33.76%; animation-name: sp-skid; animation-delay: 8.70s; }
+/* The opening. The same montage of character clips plays in two layers: across the whole window, and
+   inside the shape of the VI logo where the logo will stand. The window layer fades away, so the clips
+   are left playing only inside the VI, which eases down to size; then the real logo fades in over it. */
+.splash-cine { position: absolute; inset: 0; z-index: 3; background: #000; animation: cine-out 1.4s ease 2.8s both; }
+.splash-cine video, .sp-clip video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.sp-clip { position: absolute; left: 14.879%; top: 27.539%; width: 61.943%; height: 44.19%; z-index: 1;
+  -webkit-mask: url(/images/splash/logo.webp) no-repeat center / 100% 100%; mask: url(/images/splash/logo.webp) no-repeat center / 100% 100%;
+  animation: clip-settle 3.6s cubic-bezier(0.3, 0, 0.2, 1) 2.6s both, cine-out 1.2s ease 5.6s forwards; }
+@keyframes clip-settle { from { transform: scale(1.22); } to { transform: none; } }
+@keyframes cine-out { to { opacity: 0; visibility: hidden; } }
+.splash-foot { z-index: 4; }
+#splash.is-skipped .splash-cine, #splash.is-skipped .sp-clip { display: none; }
+@keyframes sp-logo { from { opacity: 0; } to { opacity: 1; } }
 /* Each panel glides in on a straight line from its own side and slows to a stop in its place. */
 @keyframes sp-drop { from { opacity: 0; transform: translateY(-120%); } 25% { opacity: 1; } to { opacity: 1; transform: none; } }
 @keyframes sp-drive { from { opacity: 0; transform: translateX(-130%); } 25% { opacity: 1; } to { opacity: 1; transform: none; } }
@@ -197,6 +203,24 @@ body.is-arriving .announce, body.is-arriving .topbar, body.is-arriving #view { a
   letter-spacing: 0.16em;
   text-transform: uppercase;
   white-space: nowrap;
+}
+/* Each section has its own icon, drawn for this app on a 24-unit grid. Filled parts carry class "f". */
+#nav a { gap: 6px; letter-spacing: 0.12em; }
+.nav-icon { flex: none; width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; transition: color var(--ease); }
+.nav-icon .f { fill: currentColor; stroke: none; }
+#nav a.is-active .nav-icon { color: #ff9ec4; }
+/* Between the full bar and the phone menu there is not room for nine icons and nine words, so only
+   the open section keeps its word; the rest show their icon, with the name on hover and for screen readers. */
+@media (min-width: 1041px) and (max-width: 1410px) {
+  #nav { gap: var(--s5); }
+  .nav-icon { width: 19px; height: 19px; }
+  #nav a:not(.is-active) span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
+/* The desktop window also carries its own window buttons, so it runs out of room a little sooner. */
+@media (min-width: 1411px) and (max-width: 1540px) {
+  .is-desktop #nav { gap: var(--s5); }
+  .is-desktop .nav-icon { width: 19px; height: 19px; }
+  .is-desktop #nav a:not(.is-active) span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
 #nav a::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: #fff; transform: scaleX(0); transition: transform var(--ease); }
 #nav a:hover { color: var(--text-primary); }
@@ -450,6 +474,8 @@ main { flex: 1; outline: none; }
 .place-hero > img { animation: drift-a 28s ease-in-out infinite alternate; }
 .profile-portrait img { animation: drift-b 24s ease-in-out infinite alternate; }
 .card-media img, .topic-media img, .tile img { animation: drift-a 22s ease-in-out infinite alternate; }
+/* Off screen, a drifting picture rests (set by watchDrift in app.js). */
+img.is-resting { animation-play-state: paused !important; }
 .grid > :nth-child(even) .card-media img, .index > :nth-child(even) .topic-media img, .gallery > :nth-child(even) img { animation-name: drift-b; animation-duration: 26s; }
 .grid > :nth-child(3n) .card-media img, .index > :nth-child(3n) .topic-media img, .gallery > :nth-child(3n) img { animation-delay: -9s; }
 .hero-shade {
@@ -852,17 +878,19 @@ body[data-page='map'] .footer { display: none; }
   .grid > :nth-child(even) .card-media img, .index > :nth-child(even) .topic-media img, .gallery > :nth-child(even) img { animation: drift-b 26s ease-in-out infinite alternate !important; }
   .splash-coin { animation: splash-spin 2.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite !important; }
   /* The intro plays here too: the owner asked for motion to run with Windows animation effects off. */
-  .sp { animation-duration: 1.3s !important; animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1) !important; animation-fill-mode: both !important; }
-  .sp-logo { animation: sp-logo 1.9s cubic-bezier(0.45, 0, 0.2, 1) 0.15s both !important; }
-  .sp-1 { animation-name: sp-drop !important; animation-delay: 1.7s !important; }
-  .sp-2 { animation-name: sp-drive !important; animation-delay: 2.2s !important; }
-  .sp-3 { animation-name: sp-lunge !important; animation-delay: 2.7s !important; }
-  .sp-4 { animation-name: sp-fly !important; animation-delay: 3.2s !important; }
-  .sp-5 { animation-name: sp-rise !important; animation-delay: 3.7s !important; }
-  .sp-6 { animation-name: sp-slide-left !important; animation-delay: 4.2s !important; }
-  .sp-7 { animation-name: sp-swing !important; animation-delay: 4.7s !important; }
-  .sp-8 { animation-name: sp-wheelie !important; animation-delay: 5.2s !important; }
-  .sp-9 { animation-name: sp-skid !important; animation-delay: 5.7s !important; }
+  .splash-cine { animation: cine-out 1.4s ease 2.8s both !important; }
+  .sp-clip { animation: clip-settle 3.6s cubic-bezier(0.3, 0, 0.2, 1) 2.6s both, cine-out 1.2s ease 5.6s forwards !important; }
+  .sp-logo { animation: sp-logo 1.2s ease 5.3s both !important; }
+  .sp { animation-duration: 1.1s !important; animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1) !important; animation-fill-mode: both !important; }
+  .sp-1 { animation-name: sp-drop !important; animation-delay: 6.70s !important; }
+  .sp-2 { animation-name: sp-drive !important; animation-delay: 6.95s !important; }
+  .sp-3 { animation-name: sp-lunge !important; animation-delay: 7.20s !important; }
+  .sp-4 { animation-name: sp-fly !important; animation-delay: 7.45s !important; }
+  .sp-5 { animation-name: sp-rise !important; animation-delay: 7.70s !important; }
+  .sp-6 { animation-name: sp-slide-left !important; animation-delay: 7.95s !important; }
+  .sp-7 { animation-name: sp-swing !important; animation-delay: 8.20s !important; }
+  .sp-8 { animation-name: sp-wheelie !important; animation-delay: 8.45s !important; }
+  .sp-9 { animation-name: sp-skid !important; animation-delay: 8.70s !important; }
   #splash.is-skipped .sp { animation: none !important; }
   .head-card img { transition: transform 1.1s cubic-bezier(0.22, 0.8, 0.26, 1) !important; }
   .head-card img.is-above { transition: none !important; }
