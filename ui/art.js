@@ -66,6 +66,9 @@
    * @param {string} seedText  anything stable, usually the entry's slug
    * @param {string} kind      city | keys | swamp | port | refinery | mountain | portrait
    */
+  // Shared with the Microsoft Store edition's own artwork (store-art.js, only in that edition).
+  window.postcardParts = { LINES, palm, hash, rng };
+
   window.postcard = function postcard(seedText, kind) {
     const rand = rng(hash(seedText));
     const portrait = kind === 'portrait';

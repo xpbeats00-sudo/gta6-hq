@@ -1,6 +1,10 @@
 // GTA 6 HQ front end: splash screen, hash router, and one render function per page.
 // All content comes from the Rust server (/api/wiki, /api/search, /api/media, /api/health).
 
+/** The Microsoft Store edition ships none of the game's pictures or clips and draws its own
+    (store-art.js). scripts/package_store.py marks the page; everywhere else this is false. */
+const STORE = document.documentElement.dataset.edition === 'store';
+
 const view = document.getElementById('view');
 const state = { wiki: null, map: null };
 
@@ -127,7 +131,7 @@ function badge(confidence) {
   const key = confidence in CONFIDENCE ? confidence : 'unknown';
   const [label, meaning] = CONFIDENCE[key];
   // The top label reads "R★ Verified": an R with a star set into its corner, drawn here as one mark.
-  const mark = key === 'official' ? `<b class="conf-mark">${R_STAR}</b><span class="sr-only">Rockstar </span>` : '';
+  const mark = key === 'official' && !STORE ? `<b class="conf-mark">${R_STAR}</b><span class="sr-only">Rockstar </span>` : '';
   return `<span class="conf conf-${key}" title="${esc(meaning)}">${mark}${label}</span>`;
 }
 
@@ -483,7 +487,7 @@ new MutationObserver(() => {
 
 // How long the intro runs before the app opens: the montage, the clips inside the logo, nine panels,
 // then a short hold on the finished picture. Keep in step with the delays in styles.css.
-const SPLASH_MS = 10600;
+const SPLASH_MS = STORE ? 4200 : 10600;
 
 function runSplash(ready) {
   const splash = document.getElementById('splash');
@@ -551,9 +555,9 @@ function renderHome() {
 
   view.innerHTML = `
     <section class="hero" aria-label="${esc(game.title)}">
-      <video class="hero-video is-on" src="${HERO_WALLPAPERS[0]}"
+      ${STORE ? heroScene() : `<video class="hero-video is-on" src="${HERO_WALLPAPERS[0]}"
         poster="/images/muscle-car-pastel-palms.jpg" muted playsinline preload="metadata" aria-hidden="true"></video>
-      <video class="hero-video" muted playsinline preload="none" aria-hidden="true"></video>
+      <video class="hero-video" muted playsinline preload="none" aria-hidden="true"></video>`}
       <div class="hero-shade"></div>
       <div class="hero-content">
         <span class="kicker">Unofficial fan encyclopedia</span>
@@ -566,7 +570,7 @@ function renderHome() {
           <a class="btn" href="${DISCORD_INVITE}" target="_blank" rel="noopener noreferrer">Join the Discord</a>
         </div>
       </div>
-      <button class="hero-pause" type="button" aria-pressed="false" aria-label="Pause background video">❚❚</button>
+      <button class="hero-pause" type="button" aria-pressed="false" aria-label="${STORE ? 'Pause the moving picture' : 'Pause background video'}">❚❚</button>
       <a class="scroll-cue" href="#/">Scroll</a>
     </section>
 
@@ -576,9 +580,9 @@ function renderHome() {
 
     <aside class="promo" aria-label="Community">
       <div class="promo-walls" aria-hidden="true">
-        <img class="is-on" src="${PROMO_WALLS[0]}" alt=""><img src="${PROMO_WALLS[1]}" alt="">
+        ${STORE ? '' : `<img class="is-on" src="${PROMO_WALLS[0]}" alt=""><img src="${PROMO_WALLS[1]}" alt="">`}
       </div>
-      <img class="promo-server" src="/images/community/server-icon.png" alt="">
+      <img class="promo-server" src="${STORE ? '/brand.png' : '/images/community/server-icon.png'}" alt="">
       <div class="promo-copy">
         <span class="kicker">${DISCORD_MARK} Discord community</span>
         <h2>Grand Theft Auto VI HQ</h2>
@@ -630,7 +634,7 @@ function renderHome() {
       <div class="trio">${rides.map((v) => card('vehicles', v, kickerOf(v))).join('')}</div>
     </section>` : ''}
 
-    <section class="editorial">
+    ${STORE ? '' : `<section class="editorial">
       <header class="editorial-head">
         <span class="kicker">Gallery</span>
         <h2>Media</h2>
@@ -638,7 +642,7 @@ function renderHome() {
         <a class="more" href="#/media">Open the gallery →</a>
       </header>
       <div class="trio" id="home-media"></div>
-    </section>
+    </section>`}
 
     <section class="editorial">
       <header class="editorial-head">
@@ -655,8 +659,19 @@ function renderHome() {
   // Hero: every live wallpaper in turn, for as long as the page is open. Two video layers sit on
   // top of each other; shortly before one clip ends the next starts underneath and they cross-fade,
   // so there is never a cut or a black frame.
-  const layers = [...view.querySelectorAll('.hero-video')];
   const pause = view.querySelector('.hero-pause');
+  if (STORE) {
+    // The drawn scene has no clips to load: the button just holds it still.
+    const scene = view.querySelector('.hero-scene');
+    pause.addEventListener('click', () => {
+      const paused = scene.classList.toggle('is-paused');
+      pause.setAttribute('aria-pressed', String(paused));
+      pause.setAttribute('aria-label', paused ? 'Play the moving picture' : 'Pause the moving picture');
+      pause.textContent = paused ? '▶' : '❚❚';
+    });
+  }
+  const layers = STORE ? [] : [...view.querySelectorAll('.hero-video')];
+  if (!STORE) {
   let front = 0;     // which layer is showing
   let playing = 0;   // which wallpaper it is playing
   let switching = false;
@@ -713,6 +728,7 @@ function renderHome() {
   // The live wallpapers always play on arrival (the owner's choice); the
   // button is how anyone who prefers a still picture stops them.
   pause.addEventListener('click', () => setPaused(!layers[front].paused));
+  }
   startPromoWalls(view.querySelector('.promo'));
   mountUpdateStage(view);
   view.querySelector('.scroll-cue').addEventListener('click', (e) => {
@@ -796,7 +812,7 @@ function renderEncyclopedia() {
           const count = (state.wiki[c.key] || []).length;
           const href = ['characters', 'locations', 'vehicles'].includes(c.key) ? `#/${c.key}` : `#/wiki/${c.key}`;
           // The cover is the first entry in the category that has a picture and is not hidden.
-          const cover = c.key === 'characters' ? { image: '/images/manual/jason-and-lucia-waterfront.jpg' }
+          const cover = c.key === 'characters' && !STORE ? { image: '/images/manual/jason-and-lucia-waterfront.jpg' }
             : (state.wiki[c.key] || []).find((e) => e.image && !isHidden(c.key, e));
           return `<a class="topic${count ? '' : ' is-bare'}" href="${href}">
             <div class="topic-media">${cover ? `<img src="${esc(cover.image)}" alt="" loading="lazy">` : postcard(c.key, c.art || 'city')}</div>
@@ -1648,6 +1664,7 @@ const PROMO_EVERY_MS = 7000;
 function startPromoWalls(card) {
   if (!card) return;
   const layers = [...card.querySelectorAll('.promo-walls img')];
+  if (layers.length < 2) return; // the Store edition has a drawn background instead
   let front = 0, showing = 0;
   const timer = setInterval(() => {
     if (!card.isConnected) { clearInterval(timer); return; }

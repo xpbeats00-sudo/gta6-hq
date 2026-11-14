@@ -1,0 +1,16 @@
+HQ Guide is an unofficial fan project.
+
+It is not published, approved or endorsed by Rockstar Games or Take-Two Interactive. Grand Theft Auto is a trademark of its owner and is named here only to say what the guide is about.
+
+The screenshots and artwork in this edition were published by Rockstar Games on its official website and remain the property of Rockstar Games. They are shown with their source and are not licensed to this project. This edition contains no video from the game, and its icon, intro and Home picture are drawn by the app itself. The text is written for this project from published sources, which are listed with each entry.
+
+The map's tiles are made by the GTA VI mapping community (via gtadb.org) and are used under the Creative Commons Attribution 4.0 licence.
+
+What the app does on your computer:
+
+- It needs the Microsoft Edge WebView2 Runtime, which Windows 11 already has.
+- The map downloads its tiles from gta6-wiki.org the first time each area is viewed, and keeps them in a cache folder in your user profile.
+- Links to websites and to the community Discord server open in your web browser.
+- Updates arrive through the Microsoft Store. The app does not check for updates itself.
+
+There is no telemetry, no advertising and no account. The app collects nothing about you.

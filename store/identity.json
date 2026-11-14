@@ -1,0 +1,11 @@
+{
+  "_about": "Names for the Microsoft Store edition. identity_name, publisher and publisher_display_name are copied from Partner Center (Product management > Product identity) for Store ID 9PC51B19N4BW, reserved on 14 November 2026.",
+  "app_name": "HQ Guide",
+  "store_name": "HQ Guide for GTA 6 (Unofficial)",
+  "executable": "hq-guide.exe",
+  "description": "An unofficial fan encyclopedia and field manual for Grand Theft Auto VI. Not affiliated with Rockstar Games or Take-Two Interactive.",
+  "identity_name": "XPLabs.HQGuideforGTA6Unofficial",
+  "publisher": "CN=BE275EB9-048F-4D70-BA7F-AB0D08B73F08",
+  "publisher_display_name": "XPLabs",
+  "store_id": "9PC51B19N4BW"
+}

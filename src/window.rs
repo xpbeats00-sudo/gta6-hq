@@ -47,13 +47,13 @@ pub fn run(url: &str, root: &Path) -> ! {
     let event_loop = EventLoopBuilder::<Command>::with_user_event().build();
     let commands = event_loop.create_proxy();
     let window = undecorated(WindowBuilder::new())
-        .with_title("GTA 6 HQ")
+        .with_title(crate::APP_NAME)
         .with_inner_size(LogicalSize::new(1440.0, 900.0))
         .with_min_inner_size(LogicalSize::new(900.0, 600.0))
         .with_window_icon(load_icon(&root.join("images").join("gta6.png")))
         .build(&event_loop)
         .unwrap_or_else(|e| {
-            error_dialog(&format!("GTA 6 HQ could not open its window.\n\n{e}"));
+            error_dialog(&format!("{} could not open its window.\n\n{e}", crate::APP_NAME));
             std::process::exit(1);
         });
 
@@ -119,8 +119,11 @@ pub fn run(url: &str, root: &Path) -> ! {
         } else {
             "WebKitGTK 4.1 is required (the package is usually called libwebkit2gtk-4.1-0 or webkit2gtk4.1)."
         };
-        eprintln!("GTA 6 HQ could not start its web view. {needs} {e}");
-        error_dialog(&format!("GTA 6 HQ could not start its web view.\n\n{needs}\n\n{e}"));
+        eprintln!("{} could not start its web view. {needs} {e}", crate::APP_NAME);
+        error_dialog(&format!(
+            "{} could not start its web view.\n\n{needs}\n\n{e}",
+            crate::APP_NAME
+        ));
         std::process::exit(1);
     });
 
@@ -225,7 +228,7 @@ pub fn error_dialog(message: &str) {
         }
         const MB_ICONERROR: u32 = 0x10;
         let wide = |s: &str| s.encode_utf16().chain(std::iter::once(0)).collect::<Vec<u16>>();
-        let (text, caption) = (wide(message), wide("GTA 6 HQ"));
+        let (text, caption) = (wide(message), wide(crate::APP_NAME));
         // SAFETY: both pointers are valid, NUL-terminated UTF-16 buffers that
         // outlive the call, and a null owner window is allowed.
         unsafe {

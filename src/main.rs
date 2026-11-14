@@ -25,6 +25,9 @@ mod window;
 
 use std::path::{Path, PathBuf};
 
+/// The name on the window and in messages. The Microsoft Store edition is built under its own.
+pub const APP_NAME: &str = env!("APP_NAME");
+
 fn main() {
     let args: Vec<String> = std::env::args().skip(1).collect();
     let has = |flag: &str| args.iter().any(|a| a == flag);
@@ -37,7 +40,7 @@ fn main() {
         .unwrap_or(if serve_only { 4600 } else { 0 });
 
     let root = find_root().unwrap_or_else(|| {
-        fail("GTA 6 HQ could not find its files.\n\nKeep the program together with its ui, data, images and wallpapers folders, or set GTA6_HQ_ROOT to the folder that holds them.")
+        fail(&format!("{APP_NAME} could not find its files.\n\nKeep the program together with its ui, data, images and wallpapers folders, or set GTA6_HQ_ROOT to the folder that holds them."))
     });
 
     let value_of = |flag: &str| {
@@ -93,14 +96,14 @@ fn main() {
     // Loopback only: the app is never reachable from other machines.
     let listener = runtime
         .block_on(tokio::net::TcpListener::bind(("127.0.0.1", port)))
-        .unwrap_or_else(|e| fail(&format!("GTA 6 HQ could not start on 127.0.0.1:{port}.\n\n{e}")));
+        .unwrap_or_else(|e| fail(&format!("{APP_NAME} could not start on 127.0.0.1:{port}.\n\n{e}")));
     let url = format!("http://{}/", listener.local_addr().expect("local address"));
     // Discord Rich Presence belongs to the desktop app, not to server-only mode.
     let presence = if serve_only { None } else { discord::start(&root) };
     let app = server::router(server::AppState::new(root.clone(), presence));
 
     if serve_only {
-        println!("GTA 6 HQ running at {url}");
+        println!("{APP_NAME} running at {url}");
         runtime
             .block_on(async { axum::serve(listener, app).await })
             .expect("server stopped");
@@ -134,7 +137,15 @@ pub fn cache_dir(root: &Path) -> PathBuf {
     }
     let beside = root.join("cache");
     if cfg!(windows) {
-        return beside;
+        // A copy installed from the Microsoft Store sits in a folder Windows keeps read-only;
+        // then the cache goes to the user's own app data folder.
+        if writable(&beside) {
+            return beside;
+        }
+        return std::env::var_os("LOCALAPPDATA")
+            .filter(|v| !v.is_empty())
+            .map(|base| PathBuf::from(base).join(APP_NAME.replace(' ', "")).join("cache"))
+            .unwrap_or(beside);
     }
     let in_bundle = root
         .components()
@@ -153,6 +164,17 @@ pub fn cache_dir(root: &Path) -> PathBuf {
             .map(|c| c.join("gta6-hq"))
     };
     user_cache.unwrap_or(beside)
+}
+
+/// Whether files can be created in `folder` (creating it first if need be).
+fn writable(folder: &Path) -> bool {
+    if std::fs::create_dir_all(folder).is_err() {
+        return false;
+    }
+    let probe = folder.join(".write-test");
+    let ok = std::fs::write(&probe, b"").is_ok();
+    let _ = std::fs::remove_file(&probe);
+    ok
 }
 
 /// The app folder holds `ui/`, `data/`, `images/` and `wallpapers/`.
