@@ -2,6 +2,14 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.22 (15 November 2026)
+
+- New preview details from the creator TGG's pre-launch guide (15 November), all labelled as preview reports: the four states of the criminal profile; bank balance, carried cash and loot, with deposits at ATMs; fences and what they unlock; tools, trackers and garages for stolen cars; fuel and public transport; what can be carried; a few reported controls; chapters and a story length of about 80 hours for Rob Nelson's own playthrough.
+- Field Manual: ten new pages (50 in all) across Getting Started, Robberies & Stealing and Law Enforcement. Six "not yet known" notes were removed or narrowed where the video answers them.
+- Encyclopedia: 17 new Gameplay entries and one Wildlife entry; Robberies, Stealing cars, the wanted level, Racing, Water sports and Hunting and fishing gained paragraphs. 99 entries in all.
+- Intel: a news item for the guide.
+- For people building from source: the Microsoft Store packer gained options to include Rockstar's published pictures, the intro, or the whole GitHub edition. The app you download here is unchanged by that.
+
 ## 0.2.21 (14 November 2026)
 
 - Home: 28 new live wallpapers made from Rockstar's artwork and screenshots. Each is the original picture, gently moved (depth, drifting camera, swaying palms, rippling water, pulsing neon); nothing is redrawn and no AI video model is used.

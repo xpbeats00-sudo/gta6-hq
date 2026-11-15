@@ -1,0 +1,455 @@
+[
+  {
+    "slug": "criminal-profile",
+    "name": "Criminal profile",
+    "summary": "A devil icon, sometimes with a halo, tracks how each lead operates. TGG reports four states: professional, aggressive, violent and psycho.",
+    "body": [
+      "TGG, who attended Rockstar's preview, says Rob Nelson told him it is not the honor system from Red Dead Redemption 2: you switch between states instead of moving along a bar. Restraint and control move it up; shooting people you do not need to shoot moves it down.",
+      "Jason and Lucia each have their own profile, shown on the HUD and in a menu tab. Its notifications can be switched off, but your actions still count.",
+      "Pushed far enough, the icon cracks and then shatters. As Nelson described it to TGG, the bottom state can lock in for the rest of the playthrough. TGG was told there could be consequences for the story; what they are is not known."
+    ],
+    "related": [
+      "characters/jason-duval",
+      "characters/lucia-caminos"
+    ],
+    "tags": [
+      "profile",
+      "professional",
+      "psycho",
+      "honor",
+      "devil",
+      "halo"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "cash-bank-and-loot",
+    "name": "Cash, the bank and loot",
+    "summary": "Money is held three ways: a bank balance, the cash you carry, and the value of loot you have not yet sold.",
+    "body": [
+      "TGG reports that banked money is safe, while cash on you can be lost if you are busted or wasted. Nelson told him that putting cash in the bank means going to an ATM; the phone still handles banking, payments and transfers.",
+      "Loot carried in a duffel bag shows as its own figure and cannot be spent until it is sold to a fence or laundered. The banking app's name is heard in the video as \"Buck Me\"; its spelling is not confirmed.",
+      "Nelson also told him that at some points the story needs you to reach a cash goal before it moves on, and that how you earn it is up to you."
+    ],
+    "tags": [
+      "money",
+      "bank",
+      "atm",
+      "cash",
+      "loot",
+      "duffel bag"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "fences-and-laundering",
+    "name": "Fences and laundering",
+    "summary": "Fences buy what you steal. TGG reports that drugs, jewelry and cars each go to a different fence.",
+    "body": [
+      "Fences can also pass on information, such as texting you the code to a store's safe. Working for them unlocks more: a vehicle fence TGG names as Randy keeps a list of cars he wants, and removing a high-end tracker needs a fence you have done enough work for.",
+      "TGG relays another creator's preview that described a service for dirty or marked cash. He says it does not look as though you own and run businesses yourself in the story."
+    ],
+    "tags": [
+      "fence",
+      "launder",
+      "randy",
+      "safe code",
+      "stolen goods"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "carrying-weapons",
+    "name": "What you can carry",
+    "summary": "TGG reports a limit of two handguns and two long guns. One long gun goes on your back; a second has to stay in your hands.",
+    "body": [
+      "People react to a long gun held in the hand even if you do not aim it. Your selected loadout stays with your personal vehicle. Weapons you bought can be recovered; ones you only picked up can be lost for good.",
+      "The limit applies to firearms: the weapon wheel also has room for melee weapons, gadgets and throwables, with a separate tab for items such as healing. The two leads can hand a gun to each other.",
+      "Nelson told TGG that the trunks of police cars can hold a shotgun, a carbine and sometimes body armor."
+    ],
+    "tags": [
+      "weapon wheel",
+      "loadout",
+      "handgun",
+      "long gun",
+      "trunk",
+      "body armor"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "focus",
+    "name": "Focus",
+    "summary": "Focus slows a fight down and picks out weak points: aim at a red area for a lethal shot, a yellow one to incapacitate.",
+    "body": [
+      "TGG stresses that you still aim and fire yourself; it does not mark targets and shoot for you. Hit markers then tell you the result: white for a hit, yellow for incapacitated, red for a kill.",
+      "Out of combat, Focus highlights useful objects, doors you can use and loot. From a vehicle it lets you target the driver, tires, engine block or fuel tank. Nelson told TGG it is also how you see police through walls, since they are not on the minimap."
+    ],
+    "tags": [
+      "focus",
+      "slow motion",
+      "incapacitate",
+      "hit marker",
+      "eagle eye"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "fighting-and-movement",
+    "name": "Fighting and movement",
+    "summary": "TGG reports that crouching is back, with strafing while crouched, along with shoulder switching and a cover system.",
+    "body": [
+      "Hand-to-hand fights involve blocking, dodging and grappling. TGG relays other previews that you can hold a block or time a parry, and that Lucia fights more like a kickboxer while Jason is a street brawler.",
+      "Automatic weapons kick hard enough that Nelson fired in short bursts in the demo, and pistols fire faster than in Grand Theft Auto V. A bad fall can leave your character dazed for a moment.",
+      "Kill cams and a crash camera can each be switched off. Nelson mentioned to TGG that many people who worked on Max Payne 3 are on this game."
+    ],
+    "tags": [
+      "crouch",
+      "cover",
+      "melee",
+      "parry",
+      "recoil",
+      "kill cam"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "controls",
+    "name": "Reported controls",
+    "summary": "A few PlayStation controls have been reported by TGG. No full layout has been published.",
+    "body": [
+      "Sprint is a click of the left stick. Cover is on R1. In a vehicle the handbrake is X (A on Xbox), with L1 and R1 used for shooting while driving. Filling up at a gas station is done by holding R2.",
+      "TGG relays another preview that the default walking speed can be changed in settings, including to a jog."
+    ],
+    "tags": [
+      "buttons",
+      "sprint",
+      "handbrake",
+      "cover",
+      "settings"
+    ],
+    "facts": {
+      "type": "Controls",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "garages-and-personal-vehicles",
+    "name": "Garages and personal vehicles",
+    "summary": "A stolen car can be registered as your own and kept in a garage. TGG reports that more garages can be bought around the map.",
+    "body": [
+      "Nelson told him you can keep as many personal vehicles as you have spaces for. A phone app, heard in the video as \"Scooter Bros\", brings your personal vehicle to you and recovers it if it was destroyed.",
+      "The trunks of most vehicles can be opened, and other people's loot taken from them."
+    ],
+    "tags": [
+      "garage",
+      "personal vehicle",
+      "register",
+      "trunk",
+      "scooter bros"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "driving-and-handling",
+    "name": "Driving and handling",
+    "summary": "Nelson told TGG the team kept the best of Grand Theft Auto IV's weight with Grand Theft Auto V's accessibility.",
+    "body": [
+      "The handling is rebuilt so that drivetrain, tires, suspension and steering all feed the physics. In the demo Nelson spun a muscle car by accelerating too hard. Fast cars and bikes reach higher top speeds than before, and a supercar handles badly off-road.",
+      "You can swap between driver and passenger during a free-roam chase, and tell a partner who is driving to hurry up. Nelson said no single mod shop does everything: each has a speciality, such as off-road builds or lowriders."
+    ],
+    "tags": [
+      "handling",
+      "physics",
+      "mod shop",
+      "passenger",
+      "top speed"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "fuel-and-transport",
+    "name": "Fuel and public transport",
+    "summary": "Cars need fuel. TGG watched Nelson fill up at a gas station, which offers a repair or a fill.",
+    "body": [
+      "Electric vehicles can be charged; TGG did not see how. He reports that you can take a bus and skip the journey, that the ride service also lets you skip the ride, and that trains and buses run.",
+      "He relays Edge magazine's preview that buses follow routes and arrive at stops at set times."
+    ],
+    "tags": [
+      "fuel",
+      "gas station",
+      "electric",
+      "bus",
+      "train",
+      "fast travel"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "story-structure",
+    "name": "Chapters and story length",
+    "summary": "TGG reports that the story is divided into chapters, and that choices you make can affect later events.",
+    "body": [
+      "He says Rob Nelson's most recent playthrough took about 80 hours, including the story and some optional content.",
+      "He relays IGN's preview that the tower-block escape seen in the Extended Look has more than one route out, and that another mission suggests an escape route without forcing it. Whether every mission is that open is not known."
+    ],
+    "related": [
+      "characters/jason-duval",
+      "characters/lucia-caminos"
+    ],
+    "tags": [
+      "chapters",
+      "length",
+      "hours",
+      "choices",
+      "missions"
+    ],
+    "facts": {
+      "type": "Story",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "relationship",
+    "name": "Jason and Lucia's relationship",
+    "summary": "A relationship between the two leads rises and falls with the time they spend together. TGG reports that the romance is optional.",
+    "body": [
+      "They stay partners in crime either way. You can text the other lead and spend time together anywhere: dates are not booked in advance as in earlier games.",
+      "He relays Edge magazine's preview that there are four levels of closeness, and IGN's that doing missions together is not enough to keep a romance going."
+    ],
+    "related": [
+      "characters/jason-duval",
+      "characters/lucia-caminos"
+    ],
+    "tags": [
+      "relationship",
+      "romance",
+      "dates",
+      "closeness"
+    ],
+    "facts": {
+      "type": "Story",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "food-sleep-and-fitness",
+    "name": "Food, sleep and the gym",
+    "summary": "Eating, sleeping and exercise change each lead's stats and looks. Nelson told TGG the story can be finished without managing them.",
+    "body": [
+      "At the gym TGG saw, the pair signed in at a front desk. Three exercises fill a workout ring and give a temporary boost. Strength training raises health; cardio helps stamina. A coffee or energy drink beforehand makes the workout easier.",
+      "He relays other previews that each lead's menu shows body fat, muscle and sleep quality, and that a lead who has not slept gets bags under the eyes. Newer information he cites says hair does not grow by itself."
+    ],
+    "related": [
+      "characters/jason-duval",
+      "characters/lucia-caminos"
+    ],
+    "tags": [
+      "gym",
+      "stats",
+      "stamina",
+      "sleep",
+      "food",
+      "drive-thru"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "safehouses",
+    "name": "Safehouses",
+    "summary": "Where Jason and Lucia live changes as the story moves through its chapters. Nelson told TGG you cannot buy more safehouses.",
+    "body": [
+      "Garages can be bought; homes come through the story. Inside you can open doors, switch lights, eat, shower, shave or cut your hair, watch television and sleep.",
+      "Barbers can take you straight from short hair to a longer style, and some styles are only offered at particular shops. At home you can only shorten it."
+    ],
+    "related": [
+      "characters/jason-duval",
+      "characters/lucia-caminos"
+    ],
+    "tags": [
+      "safehouse",
+      "home",
+      "barber",
+      "hair",
+      "sleep"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "phone-apps",
+    "name": "Phone apps",
+    "summary": "Each lead has their own phone, with their own apps and people they follow. You see it held in the character's hand.",
+    "body": [
+      "Apps TGG lists: banking, the WAINK car scanner, a fitness tracker, Snapmatic, a messaging app heard as \"What Up\", and the app that delivers your personal vehicle. Names given as heard are not confirmed spellings."
+    ],
+    "tags": [
+      "phone",
+      "apps",
+      "waink",
+      "snapmatic",
+      "messages"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "display-options",
+    "name": "HUD, photo and streamer options",
+    "summary": "TGG reports a \"classic\" option that keeps the minimap on screen at all times, and a compass option in its place.",
+    "body": [
+      "There is a photo studio mode. He saw no director mode at the preview. A streamer mode turns off copyrighted music, which he says he asked about directly.",
+      "A red and blue light at the edge of the screen shows which direction the police are chasing you from."
+    ],
+    "tags": [
+      "hud",
+      "minimap",
+      "compass",
+      "photo mode",
+      "streamer mode"
+    ],
+    "facts": {
+      "type": "Options",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  },
+  {
+    "slug": "weather",
+    "name": "Weather and storms",
+    "summary": "TGG relays Game Informer's preview that tropical storms and hurricanes are in the game, and that weather is local.",
+    "body": [
+      "You can stand in sunshine and watch rain fall in the distance. Puddles stay after a storm, and rainbows can appear. How often storms come, and whether they are tied to the story, is not known.",
+      "He relays Edge magazine's preview that rough weather can lightly damage aircraft, that sheltered water changes how boats handle, and that it mentions seasons without explaining them."
+    ],
+    "tags": [
+      "weather",
+      "hurricane",
+      "storm",
+      "rain",
+      "seasons"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "TGG preview report, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  }
+]

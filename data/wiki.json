@@ -404,34 +404,34 @@
     {
       "slug": "character-switching", "name": "Switching between Jason and Lucia",
       "summary": "Control passes between the two leads through most of the game: instantly when they are together, after a few seconds when apart.",
-      "body": ["The lead you are not playing acts on their own and can be called by phone. Some story sequences lock the swap. This is what the Extended Look footage showed; Rockstar has not described it in writing."],
+      "body": ["The lead you are not playing acts on their own and can be called by phone. Some story sequences lock the swap. This is what the Extended Look footage showed; Rockstar has not described it in writing.", "TGG reports that each lead has their own stats and their own criminal profile, and that Nelson described checking in with the other lead and switching when they are available."],
       "related": ["characters/jason-duval", "characters/lucia-caminos"],
-      "tags": ["swap", "protagonists", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "tags": ["swap", "protagonists", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
     },
     {
       "slug": "wanted-level", "image": "/images/manual/footage/footage-firefight-1408.jpg", "name": "Six-star wanted level",
       "summary": "Six stars are back. Police react to what is witnessed or caught on camera, and track your description, clothes and vehicle separately.",
-      "body": ["Changing clothes or vehicle, or covering your face beforehand, changes how long the heat lasts. Shown in the Extended Look, not published as a feature list."],
-      "tags": ["police", "stars", "heat", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "body": ["Changing clothes or vehicle, or covering your face beforehand, changes how long the heat lasts. Shown in the Extended Look, not published as a feature list.", "TGG, who attended Rockstar's preview, reports that Rob Nelson told him a six-star search covers the whole map, and that Rockstar would not say what else six stars brings.", "Other details from his November 2026 guide: stars flash white once you break the line of sight; police set up a perimeter outside a store you have just robbed; a respray removes the description of your car; and hiding underwater works better in deep or murky water. He relays Edge magazine's preview of a police dog pinning Jason after a spike strip stopped his motorbike."],
+      "tags": ["police", "stars", "heat", "extended look", "six stars", "perimeter", "respray", "police dog"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
     },
     {
       "slug": "combat", "name": "Combat",
       "summary": "Enemies can be wounded or disarmed rather than killed, and heavy hits pull the camera into slow motion.",
-      "body": ["Shown in the Extended Look. Rockstar has not published written detail."],
-      "tags": ["shooting", "slow motion", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "body": ["Shown in the Extended Look. Rockstar has not published written detail.", "For what previews have since reported about carrying weapons, Focus and hand-to-hand fighting, see the separate entries in this category."],
+      "tags": ["shooting", "slow motion", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
     },
     {
       "slug": "car-theft", "name": "Stealing cars",
       "summary": "From breaking a window to working the lock with a slim jim; better cars carry electronic locks, alarms and trackers.",
-      "body": ["A phone app scans a car first and reports what it is worth and how it is protected. Shown in the Extended Look."],
-      "tags": ["slim jim", "alarm", "tracker", "phone", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "body": ["A phone app scans a car first and reports what it is worth and how it is protected. Shown in the Extended Look.", "TGG reports that a driver can resist being pulled out, as a quick-time interaction, and that he watched a passenger throw Nelson back out. A slim jim, worked with the analog sticks, opens older cars quietly.", "Some cars cannot be hot-wired at all and need a key cloner. The scanner app shows a car's security level, the tool it needs, its tracker, its resale value and the cost of registering it. A high-end tracker beeps faster and faster if you slow down, then alerts the police."],
+      "tags": ["slim jim", "alarm", "tracker", "phone", "extended look", "key cloner", "hot-wire", "security level"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
     },
     {
       "slug": "robberies", "name": "Robberies",
       "summary": "Robberies trade speed against take: forcing a safe is quicker but damages what is inside.",
-      "body": ["There are second exits for when the front door stops being an option. Shown in the Extended Look."],
+      "body": ["There are second exits for when the front door stops being an option. Shown in the Extended Look.", "TGG reports that Nelson told him any store you walk into can be robbed, whether or not it shows a robbery icon. Bigger targets can show their potential take on the map. A safe's code may be texted by a fence or found in the store; blowing it open damages the loot.", "Customers and staff may rush you, grab for your gun or draw their own. Camera recordings can be destroyed so you are not identified, though he relays another preview of a shop that kept its footage in the cloud. How many duffel bags you can take depends on the vehicle you brought."],
       "related": ["characters/raul-bautista", "businesses/fleeca"],
-      "tags": ["heist", "safe", "bank", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "tags": ["heist", "safe", "bank", "extended look", "safe code", "cctv", "duffel bag", "store"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
     }
   ],
 
@@ -439,13 +439,15 @@
     {
       "slug": "racing", "name": "Racing",
       "summary": "Races on tarmac and on dirt both appeared in the Extended Look.",
-      "tags": ["race", "dirt"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "body": ["TGG's November 2026 guide points out three kinds in the Extended Look: a circuit race with a lap counter and position, a street race at night in which nitrous is used, and an off-road race with bikes and cars together."],
+      "tags": ["race", "dirt", "nitrous", "circuit", "street race"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
     },
     {
       "slug": "water-sports", "name": "Water sports",
       "summary": "Jet skis, kayaking and diving were all shown, with the Keys as the natural home for them.",
+      "body": ["TGG notes that scuba diving has an oxygen meter."],
       "related": ["locations/leonida-keys", "vehicles/jet-ski"],
-      "tags": ["jet ski", "kayak", "diving", "scuba"], "confidence": "corroborated", "sources": ["g6w-gameplay", "g6w-keys"], "verified": "2026-11-11"
+      "tags": ["jet ski", "kayak", "diving", "scuba", "oxygen"], "confidence": "corroborated", "sources": ["g6w-gameplay", "g6w-keys", "tgg-pre-launch-guide"], "verified": "2026-11-15"
     },
     {
       "slug": "sports-and-leisure", "name": "Sports and leisure",
@@ -455,8 +457,9 @@
     {
       "slug": "hunting-and-fishing", "name": "Hunting, fishing and off-roading",
       "summary": "Rockstar pitches Mount Kalaga National Park for its hunting, fishing and off-road trails.",
+      "body": ["TGG reports that Rob Nelson told him fishing is catch and release, with challenges, collectibles and some story content tied to it, and that hunting can earn money through a character who knows Jason."],
       "related": ["locations/mount-kalaga-national-park"],
-      "tags": ["hunt", "fish", "trails"], "confidence": "corroborated", "sources": ["g6w-kalaga"], "verified": "2026-11-11"
+      "tags": ["hunt", "fish", "trails", "catch and release"], "confidence": "corroborated", "sources": ["g6w-kalaga", "tgg-pre-launch-guide"], "verified": "2026-11-15"
     },
     {
       "slug": "everyday-life", "name": "Everyday life",
@@ -612,6 +615,7 @@
   "news": [
     { "slug": "the-festival", "name": "Grand Theft Auto VI: The Festival", "date": "2026-11-21", "summary": "A live launch event at Mana Wynwood in Miami, with two stages of artists from the game and its soundtrack.", "body": ["Announced by Rockstar on November 9, presented with PlayStation and produced by the creators of III Points. The announced performers include Travis Scott, Don Toliver, Kodak Black and Sofaygo (as Cactus Jack), Cardi B, Ca7riel & Paco Amoroso, Justice (DJ set), Metro Boomin and Tainy.", "Tickets went through a pre-sale lottery that closed on November 10, limited to two per code."], "tags": ["festival", "miami", "music", "event", "live"], "confidence": "official", "sources": ["rockstar-nw-festival"], "verified": "2026-11-13" },
     { "slug": "launch-day", "name": "Launch day", "date": "2026-11-19", "summary": "Grand Theft Auto VI releases on PlayStation 5 and Xbox Series X|S. Rockstar's support site gives the time as midnight local time in every region.", "tags": ["release", "launch", "midnight", "time"], "confidence": "official", "sources": ["rockstar-vi", "rockstar-support-times"], "verified": "2026-11-13" },
+    {"slug": "tgg-pre-launch-guide", "name": "TGG's pre-launch guide adds preview details", "date": "2026-11-15", "summary": "The creator TGG, who watched Rockstar play the game in July, published a 55-minute guide with details not reported before.", "body": ["New to this app from it: the four states of the criminal profile, ATMs and the three kinds of money, tools and trackers for stealing cars, garages, fuel, a handful of controls, and a story length of about 80 hours for Rob Nelson's own playthrough.", "Everything from the video is labelled as a preview report. It is his account of what he saw and was told, not a Rockstar statement. He also mentions two radio stations, Vice City FM and V-Rock, that Rockstar's own music page does not list."], "tags": ["tgg", "preview", "guide", "criminal profile", "gameplay"], "confidence": "corroborated", "sources": ["tgg-pre-launch-guide"], "verified": "2026-11-15"},
     { "slug": "pre-launch-update", "name": "A first update arrives before launch", "date": "2026-11-13", "summary": "Outlets report a mandatory update, version 1.002.000, of about 1 GB on PlayStation 5, rolling out six days before launch.", "body": ["Rockstar has published no patch notes, so what the update changes is not known.", "This comes from press reports of what consoles are downloading, not from a Rockstar announcement."], "tags": ["update", "patch", "1.002.000"], "confidence": "corroborated", "sources": ["comicbook-first-update"], "verified": "2026-11-13" },
     { "slug": "performance-details", "name": "30 frames per second, and what PS5 Pro adds", "date": "2026-11-10", "summary": "Rockstar says the game targets 30 frames per second on both consoles. PlayStation 5 Pro adds PSSR upscaling and ray-traced shadows.", "body": ["The same post says the game will be playable through Xbox Cloud Gaming on Xbox Series X|S and Xbox One consoles, using Xbox Series S graphics settings, and supports Remote Play on PlayStation and Xbox.", "It arrived with a new video set to \"Blood in Your Eyes\" by Tove Lo, from Grand Theft Auto VI: The Album."], "tags": ["frame rate", "fps", "performance", "ps5 pro", "pssr", "cloud", "xbox one", "tove lo"], "confidence": "official", "sources": ["rockstar-nw-preload-now"], "verified": "2026-11-13" },
     { "slug": "pre-load-opens", "name": "Pre-load opens", "date": "2026-11-10", "summary": "Pre-loading begins on both consoles. PlayStation 5 pre-loads opened at midnight local time, and Xbox pre-loads opened worldwide at 12 a.m. GMT. Rockstar says the download needs up to 212 GB, depending on the console.", "tags": ["pre-load", "download", "size"], "confidence": "official", "sources": ["rockstar-nw-preload-dates", "rockstar-nw-preload-now", "rockstar-support-times"], "verified": "2026-11-13" },

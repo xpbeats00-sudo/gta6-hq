@@ -1,0 +1,13 @@
+GTA 6 HQ is an unofficial fan project.
+
+It is not published, approved or endorsed by Rockstar Games or Take-Two Interactive. Grand Theft Auto and related names, logos, screenshots, artwork and footage belong to their owners and are not licensed to this project.
+
+What the app does on your computer:
+
+- It needs the Microsoft Edge WebView2 Runtime, which Windows 11 already has.
+- The map downloads its tiles from gta6-wiki.org the first time each area is viewed, and keeps them in a cache folder in your user profile.
+- If Discord is running, it can show "GTA 6 HQ" and the page you are reading on your Discord profile.
+- Links to websites and to the community Discord server open in your web browser.
+- Updates arrive through the Microsoft Store. The app does not check for updates itself.
+
+There is no telemetry, no advertising and no account. The app collects nothing about you.

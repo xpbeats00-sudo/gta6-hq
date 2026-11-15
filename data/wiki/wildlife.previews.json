@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "species-count",
+    "name": "How many animals",
+    "art": "swamp",
+    "summary": "TGG relays Game Informer's preview that the game has more than 170 animal species, native and invasive.",
+    "body": [
+      "He relays The Guardian's preview that 62 of them are birds. Manatees, iguanas and macaque monkeys are named alongside alligators and flamingos, with rare and legendary animals to find.",
+      "These counts come from press previews as he reports them, not from Rockstar's own pages."
+    ],
+    "tags": [
+      "species",
+      "birds",
+      "animals",
+      "count"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "tgg-pre-launch-guide"
+    ],
+    "verified": "2026-11-15"
+  }
+]

@@ -1,13 +1,13 @@
 # Data and manual counts
 
-Generated 2026-11-12 19:24 by `scripts/current_state.py` from the live data files. Do not edit by hand.
+Generated 2026-11-15 00:52 by `scripts/current_state.py` from the live data files. Do not edit by hand.
 
 ## Encyclopedia
 
 | Category | Entries | Drafts | Spoilers | Without a source |
 |---|---|---|---|---|
-| Characters | 8 | 0 | 0 | 0 |
-| Locations | 6 | 0 | 0 | 0 |
+| Characters | 10 | 0 | 0 | 0 |
+| Locations | 7 | 0 | 0 | 0 |
 | Vehicles | 14 | 0 | 0 | 0 |
 | Gameplay | 5 | 0 | 0 | 0 |
 | Activities | 7 | 0 | 0 | 0 |
@@ -18,43 +18,43 @@ Generated 2026-11-12 19:24 by `scripts/current_state.py` from the live data file
 | Weapons | 3 | 0 | 0 | 0 |
 | Missions and Story | 0 | 0 | 0 | 0 |
 | Collectibles | 0 | 0 | 0 | 0 |
-| **Total** | **73** | 0 | 0 | 0 |
+| **Total** | **76** | 0 | 0 | 0 |
 
-Sources in the registry: 23. Map markers: 15 in 7 categories.
+Sources in the registry: 47. Map markers: 15 in 7 categories.
 
 ## Field Manual
 
 | No. | Chapter | State | Pages |
 |---|---|---|---|
 | 00 | How to Read This Manual | Published, written for the manual | 2 |
-| 01 | Getting Started | Published, written for the manual | 4 |
-| 02 | Leonida & Vice City | Published, 6 encyclopedia entries | 2 |
-| 03 | Characters | Published, 8 encyclopedia entries | 2 |
+| 01 | Getting Started | Published, written for the manual | 9 |
+| 02 | Leonida & Vice City | Published, 7 encyclopedia entries | 3 |
+| 03 | Characters | Published, 10 encyclopedia entries | 3 |
 | 04 | Vehicles | Published, 14 encyclopedia entries | 3 |
 | 05 | Activities | Published, 7 encyclopedia entries | 2 |
-| 06 | Robberies & Stealing | Published, written for the manual | 4 |
-| 07 | Law Enforcement | Published, written for the manual | 11 |
+| 06 | Robberies & Stealing | Published, written for the manual | 8 |
+| 07 | Law Enforcement | Published, written for the manual | 12 |
 | 08 | Weapons & Equipment | Published, 3 encyclopedia entries | 1 |
-| 09 | Reference & Sources | Published, 13 sources | 6 |
-| | **Whole book, as the reader counts it (contents is page 1; the cover is unnumbered)** | | **38** |
+| 09 | Reference & Sources | Published, 14 sources | 6 |
+| | **Whole book, as the reader counts it (contents is page 1; the cover is unnumbered)** | | **50** |
 
-Manual sources: 13 checked, 1 listed but not checked.
+Manual sources: 14 checked, 1 listed but not checked.
 
 ## Evidence labels in written chapters
 
 | Chapter | demonstrated | developer-described | interpretation | preview-reported | unknown |
 |---|---|---|---|---|---|
-| Getting Started | 9 | 15 | 1 | 4 | 0 |
-| Robberies & Stealing | 6 | 20 | 1 | 4 | 0 |
-| Law Enforcement | 15 | 28 | 13 | 9 | 2 |
+| Getting Started | 9 | 15 | 1 | 34 | 0 |
+| Robberies & Stealing | 6 | 20 | 1 | 28 | 0 |
+| Law Enforcement | 15 | 28 | 13 | 15 | 2 |
 
 ## Media
 
-Records in `data/media.json`: 115.
+Records in `data/media.json`: 183.
 
 | Rights status | Records |
 |---|---|
-| permission_required | 100 |
+| permission_required | 168 |
 | unknown | 15 |
 
-Files on disk: `images/` 109 (21.7 MB), `wallpapers/` 6 (21.2 MB). Map tile cache: 874 files (102.3 MB).
+Files on disk: `images/` 149 (30.0 MB), `wallpapers/` 70 (98.1 MB). Map tile cache: 1972 files (284.0 MB).

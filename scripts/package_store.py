@@ -4,6 +4,23 @@
     python scripts/package_store.py                    (no pictures from the game at all)
     python scripts/package_store.py --official-media   (adds Rockstar's published screenshots and artwork)
 
+    python scripts/package_store.py --official-media --game-intro   (also the GitHub edition's intro)
+
+    python scripts/package_store.py --full                          (the GitHub edition, unchanged)
+
+With --full the package holds exactly what the GitHub release holds: the same program, pages,
+data, every picture, every live wallpaper and the intro. Only two things differ, because the
+Store requires them: the update check is left out (the Store delivers updates), and the package
+carries the Store identity in store/identity.json. All of that material is Rockstar's and
+Take-Two's; shipping it is the owner's decision.
+
+Add --store-version 1.2.22.0 to give the package a version other than the one worked out from
+Cargo.toml (an update must have a higher version than the package already in the Store).
+
+With --game-intro the edition opens with the same intro as the GitHub edition: clips from the
+trailers, the game's logo and the cover art. That is the material most clearly Rockstar's and
+Take-Two's (a trademarked logo, cover art and video); shipping it is the owner's decision.
+
 With --official-media the edition also carries the still pictures recorded in data/media.json as
 Rockstar's own published screenshots, artwork and trailer frames, each shown with its credit. It
 still leaves out every clip and live wallpaper, the cover art, the game's logo and anything whose
@@ -35,19 +52,28 @@ cargo_version = re.search(r'^version\s*=\s*"([^"]+)"', open('Cargo.toml', encodi
 # The Store refuses versions that start with 0 and keeps the fourth part for itself.
 major, minor, patch = (int(n) for n in cargo_version.split('.'))
 VERSION = f'{max(1, major)}.{minor}.{patch}.0'
+if '--store-version' in sys.argv:
+    VERSION = sys.argv[sys.argv.index('--store-version') + 1]
+    if not re.fullmatch(r'[1-9]\d*\.\d+\.\d+\.0', VERSION):
+        sys.exit('--store-version must look like 1.2.22.0 (not starting with 0, ending in .0).')
+FULL = '--full' in sys.argv
 OUT = os.path.join('dist', 'store')
 APP = os.path.join(OUT, 'app')
 MEDIA = ('/images/', '/wallpapers/', 'images/', 'wallpapers/')
 OFFICIAL = '--official-media' in sys.argv
+GAME_INTRO = '--game-intro' in sys.argv
+INTRO_FILES = ('images/splash/', 'wallpapers/gta6-intro-montage.mp4')
 
 
 def allowed_pictures():
     """Still pictures under images/ that the media record credits to Rockstar's published material."""
-    if not OFFICIAL:
-        return {}
     keep = {}
     for asset in json.load(open('data/media.json', encoding='utf-8'))['assets']:
         file = asset['file']
+        if GAME_INTRO and file.startswith(INTRO_FILES) and os.path.exists(file):
+            keep[file] = asset
+        if not OFFICIAL:
+            continue
         published = asset['license'].startswith('Copyright Rockstar Games.') and asset['creator'] == 'Rockstar Games'
         if published and file.startswith('images/') and not file.startswith('images/splash/') and os.path.exists(file):
             keep[file] = asset
@@ -58,11 +84,30 @@ KEEP = allowed_pictures()
 
 
 def build():
-    env = dict(os.environ, GTA6_HQ_APP_NAME=NAME, GTA6_HQ_APP_ICON='store/app.ico')
-    done = subprocess.run(['cargo', 'build', '--release', '--target-dir', 'target/store'], env=env)
+    if FULL:  # the GitHub edition's own program, name and icon
+        env, target = dict(os.environ), 'target'
+    else:
+        env, target = dict(os.environ, GTA6_HQ_APP_NAME=NAME, GTA6_HQ_APP_ICON='store/app.ico'), os.path.join('target', 'store')
+    done = subprocess.run(['cargo', 'build', '--release', '--target-dir', target], env=env)
     if done.returncode != 0:
         sys.exit('The build failed.')
-    return os.path.join('target', 'store', 'release', 'gta6-hq.exe')
+    return os.path.join(target, 'release', 'gta6-hq.exe')
+
+
+def full(exe):
+    """The GitHub edition as released, minus the update check."""
+    shutil.copyfile('store/NOTICE-full.txt', os.path.join(APP, 'NOTICE.txt'))
+    for top in ('ui', 'data', 'images', 'wallpapers'):
+        shutil.copytree(top, os.path.join(APP, top), ignore=shutil.ignore_patterns('stream.*', 'social-preview.png', 'update.json'))
+    page_path = os.path.join(APP, 'ui', 'index.html')
+    page = open(page_path, encoding='utf-8').read()
+    page = re.sub(r'\s*<link rel="stylesheet" href="/stream\.css">', '', page)
+    page = re.sub(r'\s*<!-- Stream mode:.*?-->\s*<script src="/stream\.js"></script>', '', page, flags=re.S)
+    open(page_path, 'w', encoding='utf-8', newline='').write(page)
+    report = subprocess.run([exe, '--validate'], env=dict(os.environ, GTA6_HQ_ROOT=os.path.abspath(APP)), capture_output=True, text=True)
+    print('Data check:', next((line for line in report.stdout.splitlines() if 'errors' in line), 'no output'))
+    if report.returncode != 0:
+        sys.exit('The data check found errors.')
 
 
 def is_media(value):
@@ -107,7 +152,7 @@ def data():
         content = strip(json.load(open(path, encoding='utf-8-sig')))
         text = json.dumps(drop_orphans(content), ensure_ascii=False, indent=1)
         open(os.path.join(APP, path), 'w', encoding='utf-8', newline='\n').write(text)
-    about = ('Rights record for the pictures in the Microsoft Store edition.' if OFFICIAL
+    about = ('Rights record for the pictures in the Microsoft Store edition.' if KEEP
              else 'The Microsoft Store edition ships no pictures or clips, so this record is empty.')
     for file in KEEP:
         os.makedirs(os.path.dirname(os.path.join(APP, file)), exist_ok=True)
@@ -142,14 +187,15 @@ def ui():
             sys.exit(f'index.html has changed: could not find {old[:70]!r}')
         page = page.replace(old, new) if count == 0 else page.replace(old, new, count)
 
-    swap('<html lang="en">', '<html lang="en" data-edition="store" data-media="official">' if OFFICIAL else '<html lang="en" data-edition="store">')
+    marks = 'data-edition="store"' + (' data-media="official"' if OFFICIAL else '') + (' data-intro="game"' if GAME_INTRO else '')
+    swap('<html lang="en">', f'<html lang="en" {marks}>')
     swap('<link rel="icon" href="/images/gta6.png">', '<link rel="icon" href="/brand.png">')
     swap('<link rel="stylesheet" href="/manual.css">', '<link rel="stylesheet" href="/manual.css">\n  <link rel="stylesheet" href="/store.css">')
     swap('<script src="/art.js"></script>', '<script src="/art.js"></script>\n  <script src="/store-art.js"></script>')
     page = re.sub(r'\s*<link rel="stylesheet" href="/stream\.css">', '', page)
     page = re.sub(r'\s*<!-- Stream mode:.*?-->\s*<script src="/stream\.js"></script>', '', page, flags=re.S)
-    # The intro: the app's own mark instead of the cover art and clips.
-    intro, found = re.subn(
+    # The intro: the app's own mark instead of the cover art and clips, unless --game-intro keeps them.
+    intro, found = (page, 1) if GAME_INTRO else re.subn(
         r'<!-- Loading screen:.*?-->\s*<div id="splash" role="status" aria-label="Loading GTA 6 HQ">.*?(?=<div class="splash-foot">)',
         f'''<!-- Loading screen: the app's own mark over a dark sky -->
   <div id="splash" class="splash-own" role="status" aria-label="Loading {NAME}">
@@ -162,7 +208,7 @@ def ui():
     if found != 1:
         sys.exit('index.html has changed: could not find the loading screen.')
     page = intro
-    swap('<img src="/images/gta6.png" alt="">', '<img src="/brand.png" alt="">', 0)
+    swap('<img src="/images/gta6.png" alt="">', '<img src="/brand.png" alt="">', 0)  # top bar and the loading dial
     swap('on the GTA 6 HQ Discord server', 'on the community Discord server')
     swap('GTA 6 HQ', NAME, 0)
     open(page_path, 'w', encoding='utf-8', newline='\n').write(page)
@@ -182,8 +228,8 @@ def check(exe):
                 if hit.strip('"').lstrip('/') not in KEEP:
                     problems.append(f'{name}: {hit}')
     page = open(os.path.join(APP, 'ui', 'index.html'), encoding='utf-8').read()
-    problems += [f'index.html: {hit}' for hit in re.findall(r'(?:src|href)="/(?:images|wallpapers)/[^"]*"', page)]
-    for banned in (() if OFFICIAL else ('images',)) + ('wallpapers', os.path.join('images', 'splash'), os.path.join('data', 'update.json'), os.path.join('data', 'discord.json')):
+    problems += [f'index.html: {hit}' for hit in re.findall(r'(?:src|href)="(/(?:images|wallpapers)/[^"]*)"', page) if hit.lstrip('/') not in KEEP]
+    for banned in (() if KEEP else ('images',)) + (() if GAME_INTRO else ('wallpapers', os.path.join('images', 'splash'))) + (os.path.join('data', 'update.json'), os.path.join('data', 'discord.json')):
         if os.path.exists(os.path.join(APP, banned)):
             problems.append(f'{banned} must not be in the Store edition')
     if problems:
@@ -237,17 +283,26 @@ def main():
             sys.exit('Run first: python scripts/make_store_art.py')
     exe = build()
     shutil.rmtree(OUT, ignore_errors=True)
-    os.makedirs(APP)
+    os.makedirs(APP, exist_ok=True)  # an open terminal sitting in the folder keeps the empty folder alive
+    if os.listdir(APP):
+        sys.exit(f'Could not clear {APP}: close the copy of the app that is running from it.')
     shutil.copyfile(exe, os.path.join(APP, EXE))
-    shutil.copyfile('store/NOTICE-official-media.txt' if OFFICIAL else 'store/NOTICE.txt', os.path.join(APP, 'NOTICE.txt'))
-    data()
-    ui()
-    check(os.path.join(APP, EXE))
+    if FULL:
+        full(os.path.join(APP, EXE))
+    else:
+        shutil.copyfile('store/NOTICE-official-media.txt' if OFFICIAL else 'store/NOTICE.txt', os.path.join(APP, 'NOTICE.txt'))
+        data()
+        ui()
+        check(os.path.join(APP, EXE))
     manifest()
     package = pack()
     size = sum(os.path.getsize(os.path.join(f, n)) for f, _, ns in os.walk(APP) for n in ns)
-    print(f"With {len(KEEP)} of Rockstar's published pictures." if OFFICIAL else 'With no pictures from the game.')
-    print(f'{NAME} {VERSION}: {APP} ({size / 1e6:.1f} MB)' + (f', {package} ({os.path.getsize(package) / 1e6:.1f} MB)' if package else ''))
+    if FULL:
+        print('The GitHub edition in full: every picture, live wallpaper and the intro.')
+    else:
+        print(f"With {len(KEEP)} of Rockstar's pictures and clips" + (", including the game's logo, cover art and trailer clips in the intro." if GAME_INTRO else '.') if KEEP else 'With no pictures from the game.')
+    name = 'GTA 6 HQ' if FULL else NAME
+    print(f'{name} {VERSION}: {APP} ({size / 1e6:.1f} MB)' + (f', {package} ({os.path.getsize(package) / 1e6:.1f} MB)' if package else ''))
 
 
 if __name__ == '__main__':

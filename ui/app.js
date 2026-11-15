@@ -487,7 +487,8 @@ new MutationObserver(() => {
 
 // How long the intro runs before the app opens: the montage, the clips inside the logo, nine panels,
 // then a short hold on the finished picture. Keep in step with the delays in styles.css.
-const SPLASH_MS = STORE ? 4200 : 10600;
+// The Store edition's own intro is short; built with the GitHub edition's intro it runs the full length.
+const SPLASH_MS = STORE && document.documentElement.dataset.intro !== 'game' ? 4200 : 10600;
 
 function runSplash(ready) {
   const splash = document.getElementById('splash');

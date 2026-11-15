@@ -1,21 +1,16 @@
 # GTA 6 HQ: current state
 
-Generated 2026-11-12 19:24 by `scripts/current_state.py`. **This is the one authoritative status report.** Older reports are history; see `REPORT-INDEX.md`.
+Generated 2026-11-15 00:52 by `scripts/current_state.py`. **This is the one authoritative status report.** Older reports are history; see `REPORT-INDEX.md`.
 
 | Item | Now |
 |---|---|
-| App version | 0.2.9 (`Cargo.toml`) |
-| Version control | Commit 1eac95a on main, 11 uncommitted paths. |
-| Encyclopedia | 73 entries in 12 categories; 2 categories empty |
-| Field Manual | 10 chapters, 38 pages; 0 chapter in development |
-| Media records | 115: 100 permission_required, 15 unknown |
-| Map | 15 markers; tile cache 874 files, 102.3 MB; never pruned, limited to 1,365 tiles by the zoom limit |
-| Formatting | Pass |
-| Clippy, warnings as errors | Pass |
-| Tests | Pass. 64 passed, 0 failed |
-| Release build | Pass |
-| Data validator | Pass. 0 errors, 115 warnings; by check: empty-category 2, rights-unconfirmed 115 |
-| JavaScript syntax | 3 of 3 files pass `node --check` |
+| App version | 0.2.21 (`Cargo.toml`) |
+| Version control | Commit c0e6459 on main, 21 uncommitted paths. |
+| Encyclopedia | 76 entries in 12 categories; 2 categories empty |
+| Field Manual | 10 chapters, 50 pages; 0 chapter in development |
+| Media records | 183: 168 permission_required, 15 unknown |
+| Map | 15 markers; tile cache 1972 files, 284.0 MB; never pruned, limited to 1,365 tiles by the zoom limit |
+| Checks | Not run in this generation; see `BASELINE-TEST-RESULTS.md` for the last run |
 
 Detail: `DATA-AND-MANUAL-COUNTS.md`, `REPOSITORY-INVENTORY.md`, `BASELINE-TEST-RESULTS.md`, `../compliance/MEDIA-RIGHTS-AUDIT.md`.
 

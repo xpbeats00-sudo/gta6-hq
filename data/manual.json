@@ -4,7 +4,7 @@
   "tagline": "An Unofficial Guide to Leonida",
   "notice": "Unofficial fan-made reference. Not published, approved or endorsed by Rockstar Games. Written before release from published footage and press coverage; see the evidence label on each item.",
   "cover": "/images/locations/vice-city.jpg",
-  "snapshot": "2026-11-11",
+  "snapshot": "2026-11-15",
   "sources": {
     "ign-interview": {
       "title": "GTA 6: The Big Interview",
@@ -135,6 +135,16 @@
       "sourceType": "preview coverage",
       "lastCheckedAt": "2026-11-12",
       "notes": "From a separate, later 90-minute session; quotes Rob Nelson and Aaron Garbut. Read by a research pass."
+    },
+    "tgg-guide": {
+      "title": "GTA 6: Everything You NEED To Know (3 Days Left)",
+      "publisher": "TGG (YouTube)",
+      "author": "TGG",
+      "publishedAt": "2026-11-14",
+      "url": "https://www.youtube.com/watch?v=wEGdTkRL-uI",
+      "sourceType": "preview coverage",
+      "lastCheckedAt": "2026-11-15",
+      "notes": "A 55-minute guide by a creator who attended Rockstar's preview in July 2026. Read as auto-generated captions, so names he only says aloud may be misspelled here. His own observations, Rob Nelson's words as he reports them, and other previews he relays."
     }
   },
   "uncheckedSources": [
@@ -357,8 +367,7 @@
             {
               "type": "unknown",
               "items": [
-                "Controls. No button layout has been published.",
-                "Whether the display can be changed or switched off."
+                "The full button layout. The few controls reported so far are on the Controls & Display page."
               ]
             }
           ]
@@ -519,7 +528,7 @@
               "items": [
                 "Whether health comes back on its own. Nelson is relayed as saying only that rest affects how some attributes regenerate.",
                 "Whether sprinting drains stamina, and what happens when it runs out.",
-                "Body armour. One creator believes it can be taken from police cars; no developer has described it.",
+                "Body armour. TGG reports Nelson telling him police car trunks sometimes hold it; nothing else is known.",
                 "What food exists, what it costs, and how much can be carried.",
                 "\"Adrenaline\": Nelson names it during a shootout and does not explain it."
               ]
@@ -616,7 +625,7 @@
             {
               "type": "unknown",
               "items": [
-                "What the criminal profile changes.",
+                "What the criminal profile changes in the story. Its states are on the Criminal Profile page.",
                 "How the relationship affects the story.",
                 "Saving the game: nothing has been published."
               ]
@@ -735,6 +744,485 @@
               "items": [
                 "Prices, payouts and what money buys.",
                 "Property, businesses and investments."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Criminal Profile",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Your criminal",
+              "accent": "profile"
+            },
+            {
+              "type": "intro",
+              "text": "The devil icon that appears during robberies, sometimes with a halo. This is the creator TGG's account of what Rob Nelson showed and told him."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Four states",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Professional, aggressive, violent and psycho. You switch between states; it is not a marker sliding along a bar."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Not the honor system",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "TGG asked whether it was Red Dead Redemption 2's honor system. Nelson said it is quite different. It describes how you operate as a criminal, not how good a person you are."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "What moves it",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Restraint and control move it up. Shooting people you do not need to shoot moves it down."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "One each",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Jason and Lucia have separate profiles, shown on the HUD and in a menu tab with their relationship status."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Hiding it",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "The notifications can be switched off. Your actions still count."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "It can break",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Pushed far enough, the icon cracks and then shatters. As Nelson described it, the bottom state can lock in for the rest of the playthrough."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "What the profile changes in the story. TGG was told there could be consequences; none have been described.",
+                "How quickly it moves, and whether a locked state can ever be undone."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Cash, Bank & Loot",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Cash, bank",
+              "accent": "and loot"
+            },
+            {
+              "type": "intro",
+              "text": "Where money is kept, and how stolen goods become money you can spend. From TGG's account of the preview."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Three figures",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A bank balance, the cash you are carrying, and the value of loot you have not sold. Loot in a duffel bag shows as its own figure."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Bank it at an ATM",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Banked money is safe; carried cash is not. Nelson told TGG that depositing cash means going to an ATM. The phone still does banking, payments and transfers."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Fences",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Loot cannot be spent until a fence buys it or it is laundered. Drugs, jewelry and cars each go to a different fence."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "What fences give back",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Information, such as a safe code by text. Doing work for them unlocks more of what they can do for you."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Cash goals",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "At some points the story needs a certain amount before it moves on. Nelson told TGG you choose how to earn it."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "What money buys",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Clothes, weapons, car upgrades, garages, and registering stolen vehicles as your own."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "Whether the bank balance is shared between Jason and Lucia: one creator says so, and TGG is unsure when it would apply.",
+                "Large purchases. Nelson acknowledged the question to TGG without answering it."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Body, Sleep & Home",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Body, sleep",
+              "accent": "and home"
+            },
+            {
+              "type": "intro",
+              "text": "What TGG saw at a gym and was told about the safehouse. Nelson told him the story can be finished without managing any of it."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Sign in",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "At the gym in the demo, Jason and Lucia first signed up at the front desk. There were changing rooms and a vending machine."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "The workout ring",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Three exercises fill a ring and give a temporary boost. Strength work raises health; cardio helps stamina."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Eat first",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Stamina was low when Nelson went in. A coffee or an energy drink beforehand gives a stamina boost that makes the workout easier."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Rest shows",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "TGG relays other previews that the menu shows body fat, muscle and sleep quality, and that a lead who has not slept gets bags under the eyes."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Home comes with the story",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "The safehouse changes as chapters pass. Nelson told TGG you cannot buy more of them; garages are what you buy."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Hair",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A barber can take you from short hair straight to a longer style. At home you can only shorten it. Newer information TGG cites says hair does not grow by itself."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "How long a boost lasts.",
+                "The length of an in-game day. TGG says only that it is longer than in Grand Theft Auto V."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Story & Relationship",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Story and",
+              "accent": "relationship"
+            },
+            {
+              "type": "intro",
+              "text": "How the story is laid out and how the two leads get on, as TGG reports it and as he relays other previews."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Chapters",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "The story is divided into chapters. Choices you make along the way can affect later events."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "About 80 hours",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "TGG says Nelson's most recent playthrough took about 80 hours, with the story and some optional content."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Dates are not booked",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "You bring Jason and Lucia together and do things; there is no planned date as in earlier games. You can also text the other lead."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Romance is optional",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Some creators were told the romance is up to you. The pair stay partners in crime either way."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Four levels",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "TGG relays Edge magazine's preview that closeness has four levels, built through time together."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Missions are not enough",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "He relays IGN's interview: doing missions together will not keep a romance going. You have to make time outside them."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "How the relationship and the criminal profile change the ending, if there is more than one."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Controls & Display",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Controls and",
+              "accent": "display"
+            },
+            {
+              "type": "intro",
+              "text": "The few controls and display options TGG reports. He watched the game being played and did not hold the controller."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "On foot",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Sprint is a click of the left stick. Cover is on R1. Crouching is back, and you can strafe while crouched. You can switch shoulders when aiming."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "In a vehicle",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "The handbrake is X on PlayStation and A on Xbox. L1 and R1 are used for shooting while driving."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "The minimap",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A \"classic\" option keeps the minimap up at all times. A compass option replaces it."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Cameras",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Kill cams and the crash camera can each be switched off."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Photo and streaming",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "There is a photo studio mode. A streamer mode turns off copyrighted music. TGG saw no director mode."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Where the police are",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A red and blue light at the edge of the screen shows the direction police are chasing you from."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "The full button layout.",
+                "Aim assist: TGG saw that settings exist but not what they are."
               ]
             }
           ]
@@ -1185,7 +1673,6 @@
             {
               "type": "unknown",
               "items": [
-                "How each tool is used: no source read describes a lock-picking step.",
                 "Which cars fences want, and what they pay."
               ]
             }
@@ -1297,9 +1784,387 @@
             {
               "type": "unknown",
               "items": [
-                "How weapons are chosen: no source read describes a weapon wheel or its replacement.",
                 "Cover, beyond the fact that it exists.",
-                "Silenced weapons, melee weapons and throwables.",
+                "Silenced weapons, melee weapons and throwables."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Robbery Details",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Robbery",
+              "accent": "details"
+            },
+            {
+              "type": "intro",
+              "text": "More on robbing stores, from TGG's account of the preview and the other previews he relays."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Any store",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Nelson told TGG you can try to rob any store you walk into. Small ones show no robbery icon; bigger targets can show their potential take on the map."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Finding the code",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A fence may text you a safe's code, or it may be somewhere in the store. In the demo Nelson searched a back room for one."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Heroes",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Customers and staff may rush you, try to take your gun, or draw their own. TGG saw both happen."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Cameras",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Nelson showed him that camera recordings can be destroyed. TGG relays another preview of a shop that kept its footage in the cloud."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Bags and vehicles",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Loot goes into duffel bags, and there is a limit to how many you can take. A bike gets away fast; a van carries more."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Other people's robberies",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "He relays previews in which masked robbers had crashed and spilled their loot, and two robbers were trapped in a jewelry store."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "How large the bag limit is for each vehicle."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tools, Trackers & Garages",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Tools, trackers",
+              "accent": "and garages"
+            },
+            {
+              "type": "intro",
+              "text": "Getting into a car, starting it, and keeping it. TGG reports what Rob Nelson showed and told him."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "The slim jim",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "For older cars. You work the lock with the analog sticks, and it gets you in without setting off the alarm."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "The key cloner",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Some cars cannot be hot-wired. Without a key or a cloner you can sit in one and go nowhere."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Occupied cars",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A driver can resist, as a quick-time interaction. TGG watched a passenger throw Nelson back out."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Tracker levels",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A fence removes trackers, but only the levels you have unlocked with him. A high-end tracker beeps faster as you slow down, then alerts the police."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Randy",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "TGG names one vehicle fence as Randy. He keeps a list of cars he wants, and tools come from progressing with contacts like him."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Garages",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A stolen car can be registered and stored. More garages can be bought; you keep as many cars as you have spaces. An app brings your car to you."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "What each tool costs and when it becomes available."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Driving, Fuel & Transport",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Driving, fuel",
+              "accent": "and transport"
+            },
+            {
+              "type": "intro",
+              "text": "How cars handle and how else you get around, as TGG reports it. He did not drive himself."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Weight",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Nelson told him the team kept the best of Grand Theft Auto IV's feel with Grand Theft Auto V's accessibility. In the demo a muscle car spun out under hard acceleration."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Off-road",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Fast cars and bikes reach higher top speeds than before. A supercar handles badly off the road."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Fuel",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Cars need fuel. A gas station offers a repair or a fill; you hold R2 while the character fills up. Electric vehicles can be charged."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Mod shops",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "No single shop does everything. Each has a speciality, such as off-road builds or lowriders."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Your partner drives",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "You can swap between driver and passenger in a free-roam chase, and tell a partner at the wheel to hurry."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Buses and rides",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "You can take a bus or a ride and skip the journey. TGG relays Edge magazine's preview that buses keep to routes and times."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "Whether an overturned car can be rocked back onto its wheels: one creator says not, and TGG could not check."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Carrying & Fighting",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Carrying and",
+              "accent": "fighting"
+            },
+            {
+              "type": "intro",
+              "text": "What fits on the weapon wheel and how a fight plays, from TGG's account of the preview."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Two and two",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Two handguns and two long guns. One long gun goes on your back; a second stays in your hands, where people can see it."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Kept and lost",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Your loadout stays with your personal vehicle. Weapons you bought can be recovered. Ones you only picked up can be gone for good."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "The rest of the wheel",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Melee weapons, gadgets and throwables have their own room, and items such as healing have a separate tab."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Focus in a fight",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Aim at a red area for a lethal shot or a yellow one to incapacitate. You still aim and fire yourself."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Recoil",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Automatic weapons kick: Nelson fired in short bursts. Pistols fire faster than in Grand Theft Auto V."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Hand to hand",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Blocking, dodging and grappling. TGG relays other previews that a block can be held or a parry timed."
+            },
+            {
+              "type": "unknown",
+              "items": [
                 "Ammunition: how it is bought and how much can be carried."
               ]
             }
@@ -2448,6 +3313,101 @@
               "title": "Not carried over",
               "items": [
                 "Nothing on this page is assumed from Grand Theft Auto V or earlier games."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Escaping: Preview Reports",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Escaping:",
+              "accent": "preview reports"
+            },
+            {
+              "type": "intro",
+              "text": "Details of the chase that the creator TGG reports from the preview. None has been stated by Rockstar in writing."
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Flashing stars",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Solid white stars mean the police can see you. Break their line of sight and the stars flash white. Red means you have escaped the chase but are still where you can be recognised."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Two circles",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "On the map, a darker red search area sits inside a lighter one. Getting outside both helps, and you can also hide inside them."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "The perimeter",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "When Nelson abandoned a robbery, TGG watched police set up a perimeter outside the store."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Six stars",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "Nelson told TGG that at six stars the police search the whole map. Rockstar would not say what else happens."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Ways out",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "A respray removes the description of your car. Underwater, the depth and clarity of the water affect whether police see you."
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Dogs and spikes",
+              "evidence": "preview-reported",
+              "sources": [
+                "tgg-guide"
+              ],
+              "text": "TGG relays Edge magazine's preview: a spike strip stopped Jason's motorbike and a police dog pinned him down."
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "Whether a prison sequence exists. TGG says Nelson described a busted screen and a respawn."
               ]
             }
           ]

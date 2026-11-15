@@ -1,7 +1,7 @@
 # Microsoft Store edition
 
 The same app, built for the Microsoft Store under its own name (working name: HQ Guide), icon,
-intro and Home picture. It never ships the game's clips, live wallpapers, cover art or logo, has
+intro and Home picture. Unless built with `--game-intro`, it ships none of the game's clips, cover art or logo; it never ships the live wallpapers. It has
 no update check (the Store delivers updates) and no Discord presence.
 
 ## Build
@@ -9,6 +9,8 @@ no update check (the Store delivers updates) and no Discord presence.
     python scripts/make_store_art.py
     python scripts/package_store.py                    # no pictures from the game
     python scripts/package_store.py --official-media   # adds Rockstar's published screenshots and artwork
+    python scripts/package_store.py --official-media --game-intro   # also opens with the GitHub edition's intro
+    python scripts/package_store.py --full --store-version 1.2.22.0   # the GitHub edition unchanged, every picture and wallpaper
 
 Output: `dist/store/app/` (the unpacked edition) and `dist/store/hq-guide-<version>-x64.msix`.
 The Store version is the Cargo version with a leading 1 (0.2.21 becomes 1.2.21.0), because the

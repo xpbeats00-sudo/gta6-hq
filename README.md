@@ -95,8 +95,8 @@ When a newer version is published, the app shows a notice. In an installed copy,
 
 | | |
 |---|---|
-| **Encyclopedia** | 76 entries in 10 categories: characters, locations, vehicles, gameplay, activities, wildlife, businesses, factions, music, weapons. Each entry has a confidence label and its sources. |
-| **Field Manual** | A 38-page printed-style manual with two-page spreads, search and night reading. |
+| **Encyclopedia** | 99 entries in 10 categories: characters, locations, vehicles, gameplay, activities, wildlife, businesses, factions, music, weapons. Each entry has a confidence label and its sources. |
+| **Field Manual** | A 50-page printed-style manual with two-page spreads, search and night reading. |
 | **Map** | A zoomable map of Leonida with pins for regions, districts and landmarks. |
 | **Media** | Every picture and video in the app, each with where it came from and its rights status. |
 | **Intel** | Release timeline, editions and the questions people ask most. |
@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.22**: new preview details from TGG's pre-launch guide: ten new Field Manual pages and 18 new encyclopedia entries, all labelled as preview reports.
 - **0.2.21**: 28 new live wallpapers on Home, a new intro with the character clips, icons in the top bar, and measured speed and memory fixes.
 - **0.2.20**: evidence labels restyled as tags, with "R★ Verified" for anything from Rockstar's own published material.
 - **0.2.19**: a smoother intro, with each panel gliding in and slowing to a stop.
