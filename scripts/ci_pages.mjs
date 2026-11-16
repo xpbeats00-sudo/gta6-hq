@@ -31,6 +31,21 @@ await page.waitForFunction(() => !document.body.classList.contains('is-loading')
   .catch(() => problems.push('the splash screen never left'));
 await page.waitForTimeout(1500);
 
+// A first opening asks about spoilers once. Answer it as a person would (it covers the page until
+// then), and check that the answer was saved, so the next opening does not ask again.
+const ask = page.locator('dialog.spoiler-ask');
+if (await ask.count()) {
+  await ask.screenshot({ path: `${out}/spoiler-warning.png` });
+  await ask.locator('button').click();
+  await page.waitForTimeout(600);
+  if (await ask.count()) problems.push('the spoiler warning did not close');
+  const saved = await page.evaluate(async () => (await fetch('/api/settings')).json());
+  if (saved['spoiler-notice'] !== '1') problems.push('the answer to the spoiler warning was not saved');
+} else {
+  const saved = await page.evaluate(async () => (await fetch('/api/settings')).json());
+  if (saved['spoiler-notice'] !== '1') problems.push('a first opening did not show the spoiler warning');
+}
+
 const visit = async (hash, name, check) => {
   await page.evaluate((h) => { location.hash = h; }, hash);
   await page.waitForTimeout(1800);
