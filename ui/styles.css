@@ -696,6 +696,7 @@ a.card:hover h3 { color: var(--accent-pink); }
 .editions { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s4); margin-bottom: var(--s7); }
 .editions p { font-size: 0.92rem; margin-bottom: var(--s2); }
 .editions h3 { margin: var(--s1) 0 var(--s2); }
+.edition-cover { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: var(--radius); margin-bottom: var(--s3); }
 .price { font: 700 1.9rem var(--font-display); letter-spacing: 0.04em; color: var(--accent-pink); }
 .faq details { border-bottom: 1px solid var(--border-subtle); }
 .faq summary { padding: var(--s4) 0; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: var(--s3); }

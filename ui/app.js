@@ -1060,7 +1060,7 @@ function renderIntel() {
       <div>
         <div class="block-head"><h2>Editions</h2></div>
         <div class="editions">${editions.map((e) => `
-          <div class="panel"><span class="price">${esc(e.price)}</span><h3>${esc(e.name)}</h3>
+          <div class="panel">${e.image && !STORE && !isHidden('editions', e) ? `<img class="edition-cover" src="${esc(e.image)}" alt="${esc(e.name)} cover art" loading="lazy">` : ''}<span class="price">${esc(e.price)}</span><h3>${esc(e.name)}</h3>
             <p>${esc(summaryOf('editions', e))}</p><p class="muted">${esc(isHidden('editions', e) ? '' : (e.body || []).join(' '))}</p>${badge(e.confidence)}</div>`).join('')}
         </div>
         <div class="block-head"><h2>FAQ</h2></div>

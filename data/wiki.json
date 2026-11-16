@@ -597,14 +597,14 @@
 
   "editions": [
     {
-      "slug": "standard-edition", "name": "Standard Edition", "price": "$79.99",
+      "slug": "standard-edition", "image": "/images/editions/standard-edition-cover-wide.jpg", "name": "Standard Edition", "price": "$79.99",
       "summary": "The base game on PlayStation 5 or Xbox Series X|S.",
       "body": ["Pre-orders include the Vintage Vice City Pack: the '55 Vapid Stanier with a garage by Ocean Beach, outfits and hairstyles for Jason and Lucia, and a weapon pattern.", "A digital pre-order on either console includes one month of GTA+. PlayStation's page adds that it can be claimed until March 31 and renews as a paid subscription unless cancelled.", "The boxed version holds a download code and no disc. The Vintage Vice City Pack comes with pre-orders and with purchases made before November 20, 2026."],
       "related": ["vehicles/vapid-stanier-55"],
       "tags": ["price", "buy", "pre-order", "vintage vice city pack"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "rockstar-media", "g6w-editions", "playstation-vi", "rockstar-support-editions"], "verified": "2026-11-13"
     },
     {
-      "slug": "ultimate-edition", "name": "Ultimate Edition", "price": "$99.99",
+      "slug": "ultimate-edition", "image": "/images/editions/ultimate-edition-cover-wide.jpg", "name": "Ultimate Edition", "price": "$99.99",
       "summary": "The game plus an exclusive collection of items tied to Jason and Lucia's story.",
       "body": ["Rockstar lists vehicles (among them the '95 Grotti Cheetah, '67 Vapid Dominator Buggy and Shitzu Squalo), the Hawk & Little Morgan Revolvers, personalized pistols, four shops that open only with this edition, a gang raid and a car-collecting commission. Each has its own entry.", "PlayStation's page groups the extras as vehicles and garages, weapons, looks, and a special commission and customs. Two of Rockstar's Ultimate Edition screenshot sets are titled \"Vice City Style\" and \"Goodtime Gear\".", "The PlayStation Store also lists an Ultimate Edition Upgrade as a separate add-on. A digital pre-order on either console includes one month of GTA+. PlayStation's page adds that it can be claimed until March 31 and renews as a paid subscription unless cancelled.", "There is no boxed Ultimate Edition. Standard Edition owners, boxed or digital, can buy the Ultimate Edition Upgrade from the PlayStation or Microsoft store once their copy is redeemed."],
       "related": ["vehicles/vapid-dominator-buggy"],

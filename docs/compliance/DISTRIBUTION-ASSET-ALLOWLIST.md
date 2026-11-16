@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-12 11:16 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-15 22:48 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,7 +8,7 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (100)
+## Local personal use only (214)
 
 - `images/activities/classic-car-collection.jpg`
 - `images/activities/everyday-life.jpg`
@@ -17,6 +17,34 @@ None. No media file is cleared for public distribution.
 - `images/activities/racing.jpg`
 - `images/activities/sports-and-leisure.jpg`
 - `images/activities/water-sports.jpg`
+- `images/artwork/boobie-ike-club.webp`
+- `images/artwork/brian-heder-boat-yard.webp`
+- `images/artwork/cal-hampton-boat.webp`
+- `images/artwork/canal-police-raid.webp`
+- `images/artwork/car-meet-selfie.webp`
+- `images/artwork/club-vip.webp`
+- `images/artwork/dancer-money.webp`
+- `images/artwork/delights-cabaret.webp`
+- `images/artwork/dirt-bikes-hallway.webp`
+- `images/artwork/dog-and-owner.webp`
+- `images/artwork/drequan-priest-jack-of-hearts.webp`
+- `images/artwork/dressing-room.webp`
+- `images/artwork/hilltop-sunset.webp`
+- `images/artwork/jason-biker-standoff.webp`
+- `images/artwork/jason-lucia-bank-robbery.webp`
+- `images/artwork/jason-lucia-car-window.webp`
+- `images/artwork/jason-lucia-convertible-night.webp`
+- `images/artwork/jason-lucia-gas-station.webp`
+- `images/artwork/jason-lucia-nightclub.webp`
+- `images/artwork/jason-motorbike-police.webp`
+- `images/artwork/lucia-shootout-convertible.webp`
+- `images/artwork/raul-bautista-duffel.webp`
+- `images/artwork/real-dimez-ocean-view.webp`
+- `images/artwork/ricardo-gas-station.webp`
+- `images/artwork/rusty-anchor-bar.webp`
+- `images/artwork/tattooed-crew.webp`
+- `images/artwork/trap-house-crew.webp`
+- `images/artwork/vice-city-skyline-night.webp`
 - `images/businesses/allied-crystal.jpg`
 - `images/businesses/brians-boat-yard.jpg`
 - `images/businesses/delights-cabaret.jpg`
@@ -32,9 +60,56 @@ None. No media file is cleared for public distribution.
 - `images/characters/cal-hampton.jpg`
 - `images/characters/drequan-priest.jpg`
 - `images/characters/jason-duval.jpg`
+- `images/characters/lori-heder.jpg`
 - `images/characters/lucia-caminos.jpg`
 - `images/characters/raul-bautista.jpg`
 - `images/characters/real-dimez.jpg`
+- `images/editions/classic-car-collection-02.jpg`
+- `images/editions/classic-car-collection-03.jpg`
+- `images/editions/classic-car-collection-04.jpg`
+- `images/editions/classic-car-collection-05.jpg`
+- `images/editions/classic-car-collection-06.jpg`
+- `images/editions/electric-fang-02.jpg`
+- `images/editions/electric-fang-03.jpg`
+- `images/editions/electric-fang-04.jpg`
+- `images/editions/goodtime-gear-01.jpg`
+- `images/editions/grotti-cheetah-95-interior.jpg`
+- `images/editions/grotti-cheetah-95-rear.jpg`
+- `images/editions/hawk-and-little-morgan-revolvers-01.jpg`
+- `images/editions/one-eyed-willie-01.jpg`
+- `images/editions/one-eyed-willie-02.jpg`
+- `images/editions/rideout-customs-01.jpg`
+- `images/editions/rideout-customs-02.jpg`
+- `images/editions/saras-salon-01.jpg`
+- `images/editions/saras-salon-02.jpg`
+- `images/editions/squalo-02.jpg`
+- `images/editions/squalo-03.jpg`
+- `images/editions/standard-edition-cover-wide.jpg`
+- `images/editions/standard-edition-cover.jpg`
+- `images/editions/stock-305-01.jpg`
+- `images/editions/stock-305-02.jpg`
+- `images/editions/stock-305-04.jpg`
+- `images/editions/ultimate-edition-cover-wide.jpg`
+- `images/editions/ultimate-edition-cover.jpg`
+- `images/editions/vapid-dominator-buggy-02.jpg`
+- `images/editions/vapid-dominator-buggy-03.jpg`
+- `images/editions/vapid-dominator-buggy-04.jpg`
+- `images/editions/vapid-stanier-55-02.jpg`
+- `images/editions/vapid-stanier-55-03.jpg`
+- `images/editions/vapid-stanier-55-04.jpg`
+- `images/editions/vice-city-style-01.jpg`
+- `images/editions/vice-city-style-02.jpg`
+- `images/editions/vice-city-style-03.jpg`
+- `images/editions/vice-city-style-04.jpg`
+- `images/editions/vice-city-style-05.jpg`
+- `images/editions/vintage-looks-01.jpg`
+- `images/editions/vintage-looks-02.jpg`
+- `images/editions/vintage-looks-03.jpg`
+- `images/editions/vintage-looks-04.jpg`
+- `images/editions/vintage-looks-05.jpg`
+- `images/editions/vintage-vice-city-pack-01.jpg`
+- `images/editions/vintage-vice-city-pack-02.jpg`
+- `images/editions/vintage-weapon-pattern-01.jpg`
 - `images/factions/ambrosia-biker-gang.jpg`
 - `images/factions/keys-drug-runners.jpg`
 - `images/factions/raul-bautistas-crew.jpg`
@@ -90,6 +165,16 @@ None. No media file is cleared for public distribution.
 - `images/music/soundtrack-album.jpg`
 - `images/music/the-chamber.jpg`
 - `images/music/trailer-1-song.jpg`
+- `images/splash/logo.webp`
+- `images/splash/p1.webp`
+- `images/splash/p2.webp`
+- `images/splash/p3.webp`
+- `images/splash/p4.webp`
+- `images/splash/p5.webp`
+- `images/splash/p6.webp`
+- `images/splash/p7.webp`
+- `images/splash/p8.webp`
+- `images/splash/p9.webp`
 - `images/vehicles/airboat.jpg`
 - `images/vehicles/aircraft.jpg`
 - `images/vehicles/crest-kayak.jpg`
@@ -110,9 +195,39 @@ None. No media file is cleared for public distribution.
 - `images/wildlife/alligator.jpg`
 - `images/wildlife/cougar.jpg`
 - `images/wildlife/dog.jpg`
+- `wallpapers/gta-vi-boobie-ike-club.mp4`
+- `wallpapers/gta-vi-brian-heder-boat-yard.mp4`
+- `wallpapers/gta-vi-cal-hampton-boat.mp4`
+- `wallpapers/gta-vi-canal-police-raid.mp4`
+- `wallpapers/gta-vi-car-meet-selfie.mp4`
+- `wallpapers/gta-vi-club-vip.mp4`
+- `wallpapers/gta-vi-dancer-money.mp4`
+- `wallpapers/gta-vi-delights-cabaret.mp4`
+- `wallpapers/gta-vi-dirt-bikes-hallway.mp4`
+- `wallpapers/gta-vi-dog-and-owner.mp4`
+- `wallpapers/gta-vi-drequan-priest-jack-of-hearts.mp4`
+- `wallpapers/gta-vi-dressing-room.mp4`
+- `wallpapers/gta-vi-hilltop-sunset.mp4`
+- `wallpapers/gta-vi-jason-biker-standoff.mp4`
+- `wallpapers/gta-vi-jason-lucia-bank-robbery.mp4`
+- `wallpapers/gta-vi-jason-lucia-car-window.mp4`
+- `wallpapers/gta-vi-jason-lucia-convertible-night.mp4`
+- `wallpapers/gta-vi-jason-lucia-gas-station.mp4`
+- `wallpapers/gta-vi-jason-lucia-nightclub.mp4`
+- `wallpapers/gta-vi-jason-motorbike-police.mp4`
+- `wallpapers/gta-vi-lucia-shootout-convertible.mp4`
+- `wallpapers/gta-vi-raul-bautista-duffel.mp4`
+- `wallpapers/gta-vi-real-dimez-ocean-view.mp4`
+- `wallpapers/gta-vi-ricardo-gas-station.mp4`
+- `wallpapers/gta-vi-rusty-anchor-bar.mp4`
+- `wallpapers/gta-vi-tattooed-crew.mp4`
+- `wallpapers/gta-vi-trap-house-crew.mp4`
+- `wallpapers/gta-vi-vice-city-skyline-night.mp4`
+- `wallpapers/gta6-intro-montage.mp4`
 
-## Unknown (14)
+## Unknown (50)
 
+- `images/community/server-icon.png`
 - `images/dawn-of-the-heist.jpg`
 - `images/gta6.png`
 - `images/muscle-car-pastel-palms.jpg`
@@ -127,6 +242,41 @@ None. No media file is cleared for public distribution.
 - `wallpapers/gta-vi-pink-neon-logo-reflection.mp4`
 - `wallpapers/gta6splashscreen.mp4`
 - `wallpapers/jason-and-lucia-vice-city-sunset-gta-vi.mp4`
+- `wallpapers/posters/gta-6-dawn-of-the-heist.jpg`
+- `wallpapers/posters/gta-vi-boobie-ike-club.jpg`
+- `wallpapers/posters/gta-vi-brian-heder-boat-yard.jpg`
+- `wallpapers/posters/gta-vi-cal-hampton-boat.jpg`
+- `wallpapers/posters/gta-vi-canal-police-raid.jpg`
+- `wallpapers/posters/gta-vi-car-meet-selfie.jpg`
+- `wallpapers/posters/gta-vi-club-vip.jpg`
+- `wallpapers/posters/gta-vi-couple-on-muscle-car-pastel-palms.jpg`
+- `wallpapers/posters/gta-vi-dancer-money.jpg`
+- `wallpapers/posters/gta-vi-delights-cabaret.jpg`
+- `wallpapers/posters/gta-vi-dirt-bikes-hallway.jpg`
+- `wallpapers/posters/gta-vi-dog-and-owner.jpg`
+- `wallpapers/posters/gta-vi-drequan-priest-jack-of-hearts.jpg`
+- `wallpapers/posters/gta-vi-dressing-room.jpg`
+- `wallpapers/posters/gta-vi-hilltop-sunset.jpg`
+- `wallpapers/posters/gta-vi-jason-biker-standoff.jpg`
+- `wallpapers/posters/gta-vi-jason-lucia-bank-robbery.jpg`
+- `wallpapers/posters/gta-vi-jason-lucia-car-window.jpg`
+- `wallpapers/posters/gta-vi-jason-lucia-convertible-night.jpg`
+- `wallpapers/posters/gta-vi-jason-lucia-gas-station.jpg`
+- `wallpapers/posters/gta-vi-jason-lucia-nightclub.jpg`
+- `wallpapers/posters/gta-vi-jason-motorbike-police.jpg`
+- `wallpapers/posters/gta-vi-lucia-shootout-convertible.jpg`
+- `wallpapers/posters/gta-vi-pier-showdown-jason-lucia.jpg`
+- `wallpapers/posters/gta-vi-pink-neon-logo-reflection.jpg`
+- `wallpapers/posters/gta-vi-raul-bautista-duffel.jpg`
+- `wallpapers/posters/gta-vi-real-dimez-ocean-view.jpg`
+- `wallpapers/posters/gta-vi-ricardo-gas-station.jpg`
+- `wallpapers/posters/gta-vi-rusty-anchor-bar.jpg`
+- `wallpapers/posters/gta-vi-tattooed-crew.jpg`
+- `wallpapers/posters/gta-vi-trap-house-crew.jpg`
+- `wallpapers/posters/gta-vi-vice-city-skyline-night.jpg`
+- `wallpapers/posters/gta6-intro-montage.jpg`
+- `wallpapers/posters/gta6splashscreen.jpg`
+- `wallpapers/posters/jason-and-lucia-vice-city-sunset-gta-vi.jpg`
 
 ## Rejected (0)
 

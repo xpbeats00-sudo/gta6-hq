@@ -2,6 +2,11 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.23 (15 November 2026)
+
+- Gallery: 46 more of Rockstar's pictures, from its editions page, under a new "editions" filter: the Standard and Ultimate Edition covers, the Vintage Vice City Pack, the Vice City Style outfits, more cars from the Classic Car Collection, and further views of the Ultimate Edition's shops, cars, boat and revolver. Each one records where it came from and that its rights are not confirmed.
+- Intel: the Standard and Ultimate Edition cards show their cover art.
+
 ## 0.2.22 (15 November 2026)
 
 - New preview details from the creator TGG's pre-launch guide (15 November), all labelled as preview reports: the four states of the criminal profile; bank balance, carried cash and loot, with deposits at ATMs; fences and what they unlock; tools, trackers and garages for stolen cars; fuel and public transport; what can be carried; a few reported controls; chapters and a story length of about 80 hours for Rob Nelson's own playthrough.
