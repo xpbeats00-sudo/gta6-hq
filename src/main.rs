@@ -18,6 +18,7 @@ mod import;
 mod media;
 mod search;
 mod server;
+mod settings;
 mod tiles;
 mod update;
 mod validate;

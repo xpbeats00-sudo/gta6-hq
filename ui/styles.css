@@ -298,11 +298,47 @@ body.is-wanted .rail-right { animation: cop-rail-right 0.7s ease-in-out infinite
 @keyframes update-pulse { from { transform: scale(0.9); opacity: 0.7; } to { transform: scale(1.1); opacity: 1; } }
 
 /* Spoilers: covered until clicked */
-.spoiler { padding: 0 4px; border-radius: 3px; background: #2b1052; color: transparent; cursor: pointer; user-select: none; box-shadow: inset 0 0 0 1px rgba(238, 63, 124, 0.45); transition: background var(--ease), color var(--ease); }
-.spoiler:hover, .spoiler:focus-visible { background: #3a1670; outline: none; box-shadow: inset 0 0 0 1px #ee3f7c; }
-.spoiler.is-open { background: rgba(238, 63, 124, 0.14); color: inherit; user-select: text; }
-.spoiler * { visibility: hidden; }
-.spoiler.is-open * { visibility: visible; }
+.spoiler { display: inline; padding: 0 5px; border-radius: 3px; background: rgba(238, 63, 124, 0.12); cursor: pointer; user-select: none; box-shadow: inset 0 0 0 1px rgba(238, 63, 124, 0.45); transition: background var(--ease), box-shadow var(--ease); }
+.spoiler:hover, .spoiler:focus-visible { background: rgba(238, 63, 124, 0.22); outline: none; box-shadow: inset 0 0 0 1px #ee3f7c; }
+.spoiler .eye { width: 0.95em; height: 0.95em; margin-right: 4px; vertical-align: -0.12em; }
+.spoiler-text { filter: blur(6px); transition: filter var(--ease); }
+.spoiler.is-open { user-select: text; }
+.spoiler.is-open .spoiler-text { filter: none; }
+.spoiler.is-open .eye { opacity: 0.5; }
+
+/* The eye: an outline drawn in the colour of the text around it */
+.eye { fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
+
+/* A closed spoiler entry: the real thing, blurred past reading and out of reach, under the eye that opens it */
+.veil { position: relative; display: grid; overflow: clip; border-radius: var(--radius); }
+.veil > * { grid-area: 1 / 1; min-width: 0; }
+.veil-content { filter: blur(18px) saturate(0.6); opacity: 0.7; pointer-events: none; user-select: none; }
+.veil-eye { place-self: center; z-index: 2; display: inline-flex; align-items: center; gap: var(--s2); padding: 10px 18px; border: 1px solid var(--border-strong); border-radius: var(--pill); background: rgba(14, 9, 28, 0.86); color: var(--text-primary); font: 600 0.85rem var(--font-body); cursor: pointer; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45); transition: border-color var(--ease), background var(--ease); }
+.veil-eye:hover, .veil-eye:focus-visible { border-color: var(--accent-pink-strong); background: rgba(33, 20, 56, 0.95); }
+.veil-eye .eye { width: 20px; height: 20px; color: var(--accent-pink-strong); }
+/* A whole page: the eye stays in view near the top while the page scrolls under it */
+.veil-page > .veil-eye { align-self: start; position: sticky; top: calc(var(--bar) + 22vh); margin: 22vh 0 var(--s8); }
+
+/* The eye in the top bar */
+.spoiler-switch { flex: none; align-self: center; display: grid; place-items: center; width: 32px; height: 32px; margin-left: var(--s3); padding: 0; border: 1px solid rgba(255, 255, 255, 0.45); border-radius: 50%; background: none; color: #fff; cursor: pointer; transition: background var(--ease), border-color var(--ease), color var(--ease); }
+.spoiler-switch[hidden] { display: none; }
+.spoiler-switch:hover, .spoiler-switch:focus-visible { background: rgba(255, 255, 255, 0.12); border-color: #fff; }
+.spoiler-switch.is-active { border-color: var(--accent-pink-strong); color: var(--accent-pink-strong); }
+.spoiler-switch .eye { width: 18px; height: 18px; }
+
+/* Asked once, on first opening */
+.spoiler-ask { width: min(520px, calc(100vw - 2 * var(--s4))); padding: 0; border: 1px solid var(--border-strong); border-top: 3px solid var(--accent-pink-strong); border-radius: var(--radius); background: var(--bg-panel-raised); color: var(--text-primary); box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6); }
+.spoiler-ask::backdrop { background: rgba(8, 7, 19, 0.82); backdrop-filter: blur(6px); }
+.spoiler-ask-art { display: block; width: 100%; height: auto; -webkit-mask-image: linear-gradient(#000 82%, transparent); mask-image: linear-gradient(#000 82%, transparent); }
+.spoiler-ask-art + form { padding-top: var(--s3); }
+.spoiler-ask form { display: grid; gap: var(--s4); padding: var(--s6); }
+.spoiler-ask h2 { margin: 0; font-size: 1.5rem; }
+.spoiler-ask p { margin: 0; line-height: 1.55; }
+.spoiler-ask .muted { font-size: 0.85rem; }
+.spoiler-ask-check { display: flex; align-items: center; gap: var(--s3); padding: var(--s3) var(--s4); border: 1px solid var(--border-subtle); border-radius: var(--radius); cursor: pointer; transition: border-color var(--ease); }
+.spoiler-ask-check:hover, .spoiler-ask-check:has(input:checked) { border-color: var(--accent-pink-strong); }
+.spoiler-ask-check input { flex: none; width: 20px; height: 20px; margin: 0; accent-color: var(--accent-pink-strong); cursor: pointer; }
+.spoiler-ask .btn { justify-self: start; }
 
 /* Invitations to the Discord server: a cut-corner card on Home, and a band above the footer */
 .promo { position: relative; isolation: isolate; overflow: hidden; display: flex; align-items: center; gap: var(--s5); width: min(var(--content), 100% - 2 * var(--gutter)); min-height: 210px; margin: var(--s7) auto 0; padding: var(--s6) var(--s7); background: var(--bg-panel); clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 28px, 100% 100%, 28px 100%, 0 calc(100% - 28px)); }
@@ -661,8 +697,6 @@ a.card:hover h3 { color: var(--accent-pink); }
 .fact-table dd { margin: 0; overflow-wrap: anywhere; }
 
 .conf-spoiler { background: var(--accent-pink); color: #3a0a1e; }
-.spoiler-gate h2 { margin-top: 0; }
-.spoiler-gate .conf { margin-right: var(--s2); }
 .spoiler-note { display: flex; align-items: center; gap: var(--s3); }
 
 /* ---------- profile and location pages ---------- */

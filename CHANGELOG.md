@@ -2,6 +2,11 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.24 (16 November 2026)
+
+- Spoilers: the first time the app opens it says that it can contain spoilers and asks whether to show them. Left unticked, anything marked as a spoiler is blurred under an eye button; pressing the eye shows that one. A new eye in the top bar shows or blurs all of them. Nothing is marked as a spoiler yet: what was known before launch, and anything in a trailer, is not one.
+- Settings are kept: the spoiler choice, the Manual's night theme and last page, and a dismissed update notice are now saved in a file in your own settings folder, so they are still there after a restart or an update. Before this they were forgotten each time the app closed.
+
 ## 0.2.23 (15 November 2026)
 
 - Gallery: 46 more of Rockstar's pictures, from its editions page, under a new "editions" filter: the Standard and Ultimate Edition covers, the Vintage Vice City Pack, the Vice City Style outfits, more cars from the Classic Car Collection, and further views of the Ultimate Edition's shops, cars, boat and revolver. Each one records where it came from and that its rights are not confirmed.

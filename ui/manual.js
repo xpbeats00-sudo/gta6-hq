@@ -24,8 +24,9 @@
   const MARK = STORE_EDITION ? '' : '<b class="m-badge-mark"><svg viewBox="0 0 20 16" aria-hidden="true"><text x="0.5" y="13.2" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="15.5" fill="currentColor">R</text><polygon points="14,5.6 15.3,9.2 19.1,9.3 16.1,11.7 17.2,15.4 14,13.2 10.8,15.4 11.9,11.7 8.9,9.3 12.7,9.2" fill="currentColor" stroke="#b79df0" stroke-width="1.3" stroke-linejoin="round" paint-order="stroke"/></svg></b><span class="sr-only">Rockstar </span>';
   const WIDE = matchMedia('(min-width: 1180px)');
   const store = {
-    get(key) { try { return localStorage.getItem(`gta6hq-manual-${key}`); } catch { return null; } },
-    set(key, value) { try { localStorage.setItem(`gta6hq-manual-${key}`, value); } catch { /* storage unavailable */ } },
+    // Kept with the app's other saved choices (app.js), so they survive a restart and an update.
+    get(key) { return window.hqPrefs ? window.hqPrefs.get(`manual-${key}`) : null; },
+    set(key, value) { if (window.hqPrefs) window.hqPrefs.set(`manual-${key}`, value); },
   };
 
   let manual = null;   // the loaded data

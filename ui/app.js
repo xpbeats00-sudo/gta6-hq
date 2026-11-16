@@ -26,56 +26,110 @@ const esc = (text) => String(text ?? '').replace(/[&<>"']/g, (c) => (
 const category = (key) => state.wiki.categories.find((c) => c.key === key);
 const sectionLabel = (key) => category(key)?.label || FIXED_LABELS[key] || key;
 
-/** Small per-computer preferences. Private windows and blocked storage simply forget them. */
+/** The reader's own choices. The app keeps them in a file in the user's settings folder
+    (/api/settings), so they are still there after a restart or an update. The web view's own
+    storage would not do: the window opens on a different port each time, and it forgets with it. */
 const prefs = {
-  get(key) { try { return localStorage.getItem(key); } catch { return null; } },
-  set(key, value) { try { localStorage.setItem(key, value); } catch { /* storage unavailable */ } },
+  saved: {},
+  /** Read once, before the first page is drawn. */
+  async load() { try { this.saved = await getJson('/api/settings'); } catch { /* start with none */ } },
+  get(key) { return Object.hasOwn(this.saved, key) ? this.saved[key] : null; },
+  set(key, value) { this.save({ [key]: String(value) }); },
+  save(changes) {
+    Object.assign(this.saved, changes);
+    fetch('/api/settings', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(changes), keepalive: true,
+    }).catch(() => { /* kept for this session only */ });
+  },
 };
+window.hqPrefs = prefs; // the Field Manual keeps its theme and last page here too
 
 // ---------- spoilers ----------
 
-// Entries marked `spoiler` stay closed until the reader opens them: one at a
-// time (for this session) or all at once with the remembered "show spoilers" switch.
-let showSpoilers = prefs.get('show-spoilers') === '1';
+// Entries marked `spoiler` stay blurred until the reader presses the eye on them: one at a
+// time (for this session) or all at once with the remembered switch in the top bar. On first
+// opening, the app says so and asks which the reader wants (askAboutSpoilers).
+let showSpoilers = false; // set from the saved choice at boot
 const revealed = new Set();
-const SPOILER_HINT = 'Spoiler hidden. Open the entry to reveal it.';
+const SPOILER_HINT = 'Spoiler hidden. Open the entry and press the eye to show it.';
 
 const isHidden = (section, entry) => entry.spoiler === true && !showSpoilers && !revealed.has(`${section}/${entry.slug}`);
-const summaryOf = (section, entry) => (isHidden(section, entry) ? SPOILER_HINT : entry.summary);
 const hasSpoilers = () => [...state.wiki.categories.map((c) => c.key), ...Object.keys(FIXED_LABELS)]
   .some((key) => (state.wiki[key] || []).some((e) => e.spoiler === true));
 const spoilerLabel = '<span class="conf conf-spoiler" title="Contains story or late-game details">Spoiler</span>';
+const EYE = '<svg class="eye" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.2 12S5.8 5.6 12 5.6 21.8 12 21.8 12 18.2 18.4 12 18.4 2.2 12 2.2 12z"/><circle cx="12" cy="12" r="3.1"/></svg>';
+const EYE_SHUT = EYE.replace('</svg>', '<path d="M4.2 3.8l15.6 16.4"/></svg>');
 
 /** The global switch. Shown only once the wiki actually holds spoiler entries. */
 const spoilerToggle = () => (hasSpoilers()
   ? `<button type="button" class="toggle${showSpoilers ? ' is-active' : ''}" data-spoilers="${showSpoilers ? 'off' : 'on'}" aria-pressed="${showSpoilers}">Spoilers: ${showSpoilers ? 'shown' : 'hidden'}</button>`
   : '');
 
+/** The eye in the top bar: open when spoilers are shown, struck through when they are blurred. */
+function syncSpoilerSwitch() {
+  const button = document.getElementById('spoiler-switch');
+  if (!button) return;
+  const label = showSpoilers ? 'Spoilers are shown. Press to blur them.' : 'Spoilers are blurred. Press to show them.';
+  button.dataset.spoilers = showSpoilers ? 'off' : 'on';
+  button.title = label;
+  button.setAttribute('aria-label', label);
+  button.classList.toggle('is-active', showSpoilers);
+  button.innerHTML = showSpoilers ? EYE : EYE_SHUT;
+  button.hidden = false;
+}
+
+/** Show or blur every spoiler, and remember it. */
+function setSpoilers(on, alsoSave = {}) {
+  showSpoilers = on;
+  if (!on) revealed.clear();
+  prefs.save({ 'show-spoilers': on ? '1' : '0', ...alsoSave });
+  syncSpoilerSwitch();
+}
+
 document.addEventListener('click', (event) => {
   const button = event.target.closest('[data-spoilers], [data-reveal]');
-  if (!button) return;
-  if (button.dataset.reveal) {
-    revealed.add(button.dataset.reveal);
-  } else {
-    showSpoilers = button.dataset.spoilers === 'on';
-    if (!showSpoilers) revealed.clear();
-    prefs.set('show-spoilers', showSpoilers ? '1' : '0');
-  }
+  if (!button || !state.wiki) return;
+  if (button.dataset.reveal) revealed.add(button.dataset.reveal);
+  else setSpoilers(button.dataset.spoilers === 'on');
   const top = window.scrollY;
   route();
   window.scrollTo(0, top);
 });
 
-/** What a closed spoiler entry shows instead of its text. */
-function spoilerGate(section, entry) {
-  return `<div class="panel spoiler-gate">
-    <h2>${spoilerLabel} Hidden</h2>
-    <p class="muted">This entry gives away story or late-game details, so its text, facts and picture are closed.</p>
-    <div class="hero-actions">
-      <button type="button" class="btn btn-primary" data-reveal="${esc(`${section}/${entry.slug}`)}">Reveal this entry</button>
-      <button type="button" class="btn" data-spoilers="on">Always show spoilers</button>
-    </div>
+/** A closed spoiler: what would be shown, blurred and out of reach, under an eye that opens it. */
+function veil(section, entry, html, kind = '') {
+  return `<div class="veil${kind ? ` veil-${kind}` : ''}">
+    <div class="veil-content" inert aria-hidden="true">${html}</div>
+    <button type="button" class="veil-eye" data-reveal="${esc(`${section}/${entry.slug}`)}" title="Contains story or late-game details">${EYE}<span>Show spoiler</span></button>
   </div>`;
+}
+
+/** `html` as it is, or blurred under an eye while the entry is a closed spoiler. */
+const closable = (section, entry, html) => (isHidden(section, entry) ? veil(section, entry, html) : html);
+
+/** Asked once, the first time the app is opened. The answer is saved, so an update does not ask again. */
+function askAboutSpoilers() {
+  const box = document.createElement('dialog');
+  box.className = 'spoiler-ask';
+  box.setAttribute('aria-labelledby', 'spoiler-ask-title');
+  // The Store edition carries none of the game's pictures, so there the box is text only.
+  box.innerHTML = `${STORE ? '' : '<img class="spoiler-ask-art" src="/images/vice-city-sunset.jpg" alt="">'}<form method="dialog">
+    <h2 id="spoiler-ask-title">This app can contain spoilers</h2>
+    <p>It covers the story, people and places of Grand Theft Auto VI. Anything marked as a spoiler is blurred, with an eye on it. Press the eye to show it.</p>
+    <label class="spoiler-ask-check"><input type="checkbox"><span>I don't mind spoilers. Show everything.</span></label>
+    <p class="muted">You can change this at any time with the eye in the top bar.</p>
+    <button class="btn btn-primary">Continue</button>
+  </form>`;
+  // Closing it any way (the button, Enter, Escape) is an answer: spoilers stay blurred unless the box is ticked.
+  box.addEventListener('close', () => {
+    setSpoilers(box.querySelector('input').checked, { 'spoiler-notice': '1' });
+    box.remove();
+    const top = window.scrollY;
+    route();
+    window.scrollTo(0, top);
+  });
+  document.body.append(box);
+  box.showModal();
 }
 
 /** The line above an open spoiler entry, with the way to close it again. */
@@ -144,13 +198,11 @@ const illustrated = (section, entry) => Boolean(entry.image) || section === 'cha
 
 /** FeatureTile: image-led card, or a text-only note when there is no artwork to lead with. */
 function card(section, entry, kicker) {
-  if (isHidden(section, entry)) {
-    return `<a class="note" href="${entryLink(section, entry.slug)}">
-      <div class="card-meta"><span class="kicker">${esc(sectionLabel(section))}</span>${spoilerLabel}</div>
-      <h3>${esc(entry.name)}</h3>
-      <p>${SPOILER_HINT}</p>
-    </a>`;
-  }
+  const tile = cardTile(section, entry, kicker);
+  return isHidden(section, entry) ? veil(section, entry, tile) : tile;
+}
+
+function cardTile(section, entry, kicker) {
   if (!illustrated(section, entry)) {
     return `<a class="note" href="${entryLink(section, entry.slug)}">
       <div class="card-meta"><span class="kicker">${esc(kicker || sectionLabel(section))}</span>${badge(entry.confidence)}</div>
@@ -168,7 +220,7 @@ function card(section, entry, kicker) {
 
 /** Image-led entries first in a feature grid, then the rest as text notes. */
 function entryGrid(section, entries, kicker, gridClass) {
-  const leads = (e) => illustrated(section, e) && !isHidden(section, e);
+  const leads = (e) => illustrated(section, e);
   const lead = entries.filter(leads);
   const rest = entries.filter((e) => !leads(e));
   return `${lead.length ? `<div class="grid ${gridClass}">${lead.map((e) => card(section, e, kicker(e))).join('')}</div>` : ''}
@@ -751,8 +803,8 @@ function renderHome() {
 function timelineItem(item, full = false) {
   // The Intel page passes full = true to show the further detail under each item.
   const more = full === true ? (item.body || []).map((line) => `<p>${esc(line)}</p>`).join('') : '';
-  return `<li><time datetime="${esc(item.date)}">${esc(formatDate(item.date))}</time> ${badge(item.confidence)}
-    <h3>${esc(item.name)}</h3><p>${esc(summaryOf('news', item))}</p>${more}</li>`;
+  return `<li>${closable('news', item, `<time datetime="${esc(item.date)}">${esc(formatDate(item.date))}</time> ${badge(item.confidence)}
+    <h3>${esc(item.name)}</h3><p>${esc(item.summary)}</p>${more}`)}</li>`;
 }
 
 let countdownTimer;
@@ -909,16 +961,14 @@ function renderEntry(key, slug) {
   const cat = category(key);
   const entry = (state.wiki[key] || []).find((e) => e.slug === slug);
   if (!cat || !entry) return renderNotFound();
-  const closed = isHidden(key, entry);
-  const lead = illustrated(key, entry) && !closed;
-  view.innerHTML = `
+  const lead = illustrated(key, entry);
+  const page = `
     <article class="profile ${lead ? 'profile-wide' : 'profile-text'}">
       ${lead ? `<div class="profile-portrait">${picture(entry, artKind(key, entry))}</div>` : ''}
       <div class="profile-body">
         <a class="back" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">← ${esc(cat.label)}</a>
-        <span class="kicker">${esc((!closed && kickerOf(entry)) || cat.label)}</span>
+        <span class="kicker">${esc(kickerOf(entry) || cat.label)}</span>
         <h1>${esc(entry.name)}</h1>
-        ${closed ? spoilerGate(key, entry) : `
         ${spoilerNote(entry)}
         <p class="lede">${esc(entry.summary)}</p>
         ${paragraphs(entry)}
@@ -926,9 +976,10 @@ function renderEntry(key, slug) {
         ${mapLink(key, entry)}
         ${related(entry)}
         ${provenance(entry)}
-        ${tags(entry)}`}
+        ${tags(entry)}
       </div>
     </article>`;
+  view.innerHTML = isHidden(key, entry) ? veil(key, entry, page, 'page') : page;
 }
 
 // ---------- characters, locations, vehicles ----------
@@ -958,15 +1009,13 @@ function renderCharacter(slug) {
   const c = characters.find((x) => x.slug === slug);
   if (!c) return renderNotFound();
   const others = characters.filter((x) => x.slug !== slug).slice(0, 4);
-  const closed = isHidden('characters', c);
-  view.innerHTML = `
-    <article class="profile${closed ? ' profile-text' : ''}">
-      ${closed ? '' : `<div class="profile-portrait">${picture(c, 'portrait')}</div>`}
+  const page = `
+    <article class="profile">
+      <div class="profile-portrait">${picture(c, 'portrait')}</div>
       <div class="profile-body">
         <a class="back" href="#/characters">← Characters</a>
-        <span class="kicker">${esc(closed ? 'Characters' : c.role)}</span>
+        <span class="kicker">${esc(c.role)}</span>
         <h1>${esc(c.name)}</h1>
-        ${closed ? spoilerGate('characters', c) : `
         ${spoilerNote(c)}
         <p class="lede">${esc(c.summary)}</p>
         ${paragraphs(c)}
@@ -975,9 +1024,11 @@ function renderCharacter(slug) {
         ${facts('characters', c)}
         ${related(c)}
         ${provenance(c)}
-        ${tags(c)}`}
+        ${tags(c)}
       </div>
-    </article>
+    </article>`;
+  view.innerHTML = `
+    ${isHidden('characters', c) ? veil('characters', c, page, 'page') : page}
     <section class="block"><div class="block-head"><h2>More characters</h2></div>
       <div class="grid grid-portrait">${others.map((o) => card('characters', o, o.role)).join('')}</div>
     </section>`;
@@ -998,19 +1049,9 @@ function renderLocations() {
 function renderLocation(slug) {
   const l = state.wiki.locations.find((x) => x.slug === slug);
   if (!l) return renderNotFound();
-  if (isHidden('locations', l)) {
-    view.innerHTML = `
-      <article class="profile profile-text"><div class="profile-body">
-        <a class="back" href="#/locations">← Locations</a>
-        <span class="kicker">Locations</span>
-        <h1>${esc(l.name)}</h1>
-        ${spoilerGate('locations', l)}
-      </div></article>`;
-    return;
-  }
   const ref = `locations/${slug}`;
   const onMap = mapPins().some((pin) => pin.ref === ref);
-  view.innerHTML = `
+  const page = `
     <article class="place">
       <div class="place-hero">${picture(l, artKind('locations', l))}<div class="hero-shade"></div>
         <div class="place-title">
@@ -1038,6 +1079,7 @@ function renderLocation(slug) {
         </aside>
       </div>
     </article>`;
+  view.innerHTML = isHidden('locations', l) ? veil('locations', l, page, 'page') : page;
 }
 
 function renderVehicles() {
@@ -1059,12 +1101,12 @@ function renderIntel() {
       </div>
       <div>
         <div class="block-head"><h2>Editions</h2></div>
-        <div class="editions">${editions.map((e) => `
-          <div class="panel">${e.image && !STORE && !isHidden('editions', e) ? `<img class="edition-cover" src="${esc(e.image)}" alt="${esc(e.name)} cover art" loading="lazy">` : ''}<span class="price">${esc(e.price)}</span><h3>${esc(e.name)}</h3>
-            <p>${esc(summaryOf('editions', e))}</p><p class="muted">${esc(isHidden('editions', e) ? '' : (e.body || []).join(' '))}</p>${badge(e.confidence)}</div>`).join('')}
+        <div class="editions">${editions.map((e) => closable('editions', e, `
+          <div class="panel">${e.image && !STORE ? `<img class="edition-cover" src="${esc(e.image)}" alt="${esc(e.name)} cover art" loading="lazy">` : ''}<span class="price">${esc(e.price)}</span><h3>${esc(e.name)}</h3>
+            <p>${esc(e.summary)}</p><p class="muted">${esc((e.body || []).join(' '))}</p>${badge(e.confidence)}</div>`)).join('')}
         </div>
         <div class="block-head"><h2>FAQ</h2></div>
-        <div class="faq">${faq.map((q) => `<details><summary>${esc(q.name)}</summary><p>${esc(summaryOf('faq', q))} ${badge(q.confidence)}</p></details>`).join('')}</div>
+        <div class="faq">${faq.map((q) => closable('faq', q, `<details><summary>${esc(q.name)}</summary><p>${esc(q.summary)} ${badge(q.confidence)}</p></details>`)).join('')}</div>
       </div>
     </section>`;
 }
@@ -1616,6 +1658,7 @@ const HERO_FADE_MS = 1400;
 // It works wherever the text appears, because it is applied to whatever the page draws.
 const SPOILER = /\|\|([^|]+?)\|\|/g;
 function hideSpoilers(root) {
+  if (root.closest && root.closest('.spoiler')) return; // the cover's own parts, just added
   const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
   const found = [];
   while (walker.nextNode()) {
@@ -1627,13 +1670,15 @@ function hideSpoilers(root) {
     if (parts.length < 3) continue;
     const piece = document.createDocumentFragment();
     parts.forEach((text, i) => {
-      if (i % 2 === 0) { piece.append(text); return; }
+      // With spoilers switched on the phrase is ordinary text.
+      if (i % 2 === 0 || showSpoilers) { piece.append(text); return; }
       const cover = document.createElement('span');
       cover.className = 'spoiler';
       cover.tabIndex = 0;
       cover.setAttribute('role', 'button');
       cover.setAttribute('aria-label', 'Spoiler, hidden. Activate to show.');
-      cover.textContent = text;
+      cover.innerHTML = `${EYE}<span class="spoiler-text"></span>`;
+      cover.lastChild.textContent = text;
       piece.append(cover);
     });
     node.replaceWith(piece);
@@ -1696,7 +1741,7 @@ async function checkForUpdate() {
   const link = status.url || status.download;
   if (!status.available || !link) return;
   const key = 'update-dismissed';
-  try { if (localStorage.getItem(key) === status.latest) return; } catch { /* storage unavailable */ }
+  if (prefs.get(key) === status.latest) return;
   // Asked again while the app stays open: keep the notice that is already up, replace an older one.
   if (updateOffered === status.latest && document.querySelector('.update-toast')) return;
   document.querySelector('.update-toast')?.remove();
@@ -1711,7 +1756,7 @@ async function checkForUpdate() {
       : `<a class="btn" href="${esc(link)}" target="_blank" rel="noopener noreferrer">Get the update</a>`}
     <button type="button" aria-label="Dismiss update notice">×</button>`;
   toast.querySelector('button[aria-label]').addEventListener('click', () => {
-    try { localStorage.setItem(key, status.latest); } catch { /* storage unavailable */ }
+    prefs.set(key, status.latest);
     toast.remove();
   });
   toast.querySelector('[data-update]')?.addEventListener('click', () => { toast.remove(); updateOffered = 'busy'; beginUpdate(status); });
@@ -1935,8 +1980,10 @@ window.addEventListener('keydown', (e) => {
 
 // ---------- boot ----------
 
-const ready = getJson('/api/wiki')
-  .then((wiki) => {
+const ready = Promise.all([getJson('/api/wiki'), prefs.load()])
+  .then(([wiki]) => {
+    showSpoilers = prefs.get('show-spoilers') === '1';
+    syncSpoilerSwitch();
     wiki.categories ||= [
       { key: 'characters', label: 'Characters', blurb: '', art: 'portrait' },
       { key: 'locations', label: 'Locations', blurb: '', art: 'city' },
@@ -1953,6 +2000,11 @@ const ready = getJson('/api/wiki')
     window.addEventListener('hashchange', navigate);
     route();
     enterView();
+    // First opening: say that there are spoilers and ask. It waits for the intro to finish.
+    if (prefs.get('spoiler-notice') !== '1') {
+      if (document.getElementById('splash')) document.addEventListener('app-arrived', askAboutSpoilers, { once: true });
+      else askAboutSpoilers();
+    }
   })
   .catch((error) => {
     view.innerHTML = `${pageHead('Busted', 'The wiki data could not be loaded.')}<p class="block muted">${esc(error.message)}</p>`;

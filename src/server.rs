@@ -19,7 +19,7 @@ use serde_json::Value;
 use tower::ServiceBuilder;
 use tower_http::{services::ServeDir, set_header::SetResponseHeaderLayer};
 
-use crate::{content, discord, media, search, tiles, update, validate};
+use crate::{content, discord, media, search, settings, tiles, update, validate};
 
 #[derive(Clone)]
 pub struct AppState {
@@ -49,6 +49,7 @@ pub fn router(state: AppState) -> Router {
         .route("/api/health", get(health))
         .route("/api/manual", get(manual))
         .route("/api/presence", post(presence).get(presence_status))
+        .route("/api/settings", get(settings_read).post(settings_write))
         .route("/api/update", get(update_status))
         .route("/api/update/download", post(update_download))
         .route("/api/update/progress", get(update_progress))
@@ -207,6 +208,26 @@ async fn health(State(state): State<AppState>) -> Response {
     match tokio::task::spawn_blocking(move || validate::validate(&root)).await {
         Ok(report) => Json(report).into_response(),
         Err(_) => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
+    }
+}
+
+/// The reader's saved choices, as `{ name: value }`.
+async fn settings_read(State(state): State<AppState>) -> Response {
+    let root = state.root.clone();
+    match tokio::task::spawn_blocking(move || settings::load(&settings::file(&root))).await {
+        Ok(saved) => ([(header::CACHE_CONTROL, "no-store")], Json(saved)).into_response(),
+        Err(_) => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
+    }
+}
+
+/// Save one or more choices; the rest stay as they were. Answers with all of them.
+async fn settings_write(State(state): State<AppState>, Json(changes): Json<Value>) -> Response {
+    let root = state.root.clone();
+    match tokio::task::spawn_blocking(move || settings::merge(&settings::file(&root), &changes)).await {
+        Ok(Ok(saved)) => Json(saved).into_response(),
+        Ok(Err(settings::Error::Invalid(reason))) => (StatusCode::BAD_REQUEST, reason).into_response(),
+        Ok(Err(settings::Error::Unwritable(reason))) => (StatusCode::INTERNAL_SERVER_ERROR, reason).into_response(),
+        _ => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
     }
 }
 

@@ -1,21 +1,21 @@
 # Repository inventory
 
-Generated 2026-11-15 22:48 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-16 14:05 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
-| `src/` | 11 | 0.2 MB |
+| `src/` | 12 | 0.2 MB |
 | `ui/` | 8 | 0.4 MB |
 | `data/` | 20 | 0.4 MB |
 | `images/` | 194 | 40.5 MB |
 | `wallpapers/` | 70 | 98.1 MB |
-| `docs/` | 253 | 102.9 MB |
+| `docs/` | 253 | 103.0 MB |
 | `scripts/` | 24 | 0.2 MB |
 | `cache/` | 1972 | 284.0 MB |
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 9 | 78.3 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 3263 | 1260.8 MB |
+| `target/release/` | 3320 | 1282.8 MB |
 
 ## Source files
 
@@ -24,20 +24,21 @@ Generated 2026-11-15 22:48 by `scripts/current_state.py`. Do not edit by hand.
 | `src/content.rs` | 570 |
 | `src/discord.rs` | 232 |
 | `src/import.rs` | 1044 |
-| `src/main.rs` | 206 |
+| `src/main.rs` | 207 |
 | `src/media.rs` | 346 |
 | `src/search.rs` | 624 |
-| `src/server.rs` | 347 |
+| `src/server.rs` | 368 |
+| `src/settings.rs` | 170 |
 | `src/tiles.rs` | 154 |
 | `src/update.rs` | 530 |
 | `src/validate.rs` | 1285 |
 | `src/window.rs` | 320 |
-| `ui/app.js` | 1967 |
+| `ui/app.js` | 2019 |
 | `ui/art.js` | 86 |
-| `ui/manual.js` | 471 |
+| `ui/manual.js` | 472 |
 | `ui/manual.css` | 330 |
-| `ui/styles.css` | 898 |
-| `ui/index.html` | 136 |
+| `ui/styles.css` | 932 |
+| `ui/index.html` | 138 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 3446 |
 | `data/media.json` | 234 |
