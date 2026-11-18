@@ -1,13 +1,13 @@
 # Repository inventory
 
-Generated 2026-11-16 14:05 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-18 12:33 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 12 | 0.2 MB |
 | `ui/` | 8 | 0.4 MB |
-| `data/` | 20 | 0.4 MB |
-| `images/` | 194 | 40.5 MB |
+| `data/` | 28 | 0.5 MB |
+| `images/` | 249 | 42.0 MB |
 | `wallpapers/` | 70 | 98.1 MB |
 | `docs/` | 253 | 103.0 MB |
 | `scripts/` | 24 | 0.2 MB |
@@ -15,7 +15,7 @@ Generated 2026-11-16 14:05 by `scripts/current_state.py`. Do not edit by hand.
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 9 | 78.3 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 3320 | 1282.8 MB |
+| `target/release/` | 3377 | 1304.7 MB |
 
 ## Source files
 
@@ -33,25 +33,33 @@ Generated 2026-11-16 14:05 by `scripts/current_state.py`. Do not edit by hand.
 | `src/update.rs` | 530 |
 | `src/validate.rs` | 1285 |
 | `src/window.rs` | 320 |
-| `ui/app.js` | 2019 |
+| `ui/app.js` | 2032 |
 | `ui/art.js` | 86 |
 | `ui/manual.js` | 472 |
 | `ui/manual.css` | 330 |
-| `ui/styles.css` | 932 |
+| `ui/styles.css` | 945 |
 | `ui/index.html` | 138 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 3446 |
-| `data/media.json` | 234 |
+| `data/media.json` | 289 |
 | `data/update.json` | 4 |
-| `data/wiki.json` | 689 |
+| `data/wiki.json` | 697 |
+| `data/wiki/achievements.json` | 1332 |
 | `data/wiki/activities.json` | 60 |
+| `data/wiki/activities.reviews.json` | 39 |
 | `data/wiki/businesses.community.json` | 26 |
 | `data/wiki/businesses.json` | 157 |
+| `data/wiki/categories.achievements.json` | 25 |
 | `data/wiki/characters.community.json` | 25 |
 | `data/wiki/characters.json` | 52 |
+| `data/wiki/collectibles.json` | 212 |
+| `data/wiki/gameplay.launch.json` | 320 |
 | `data/wiki/gameplay.previews.json` | 455 |
+| `data/wiki/gameplay.reviews.json` | 304 |
 | `data/wiki/locations.json` | 32 |
+| `data/wiki/missions.json` | 237 |
 | `data/wiki/music.json` | 187 |
+| `data/wiki/sources.launch.json` | 163 |
 | `data/wiki/sources.previews.json` | 9 |
 | `data/wiki/vehicles.community.json` | 26 |
 | `data/wiki/vehicles.json` | 220 |
@@ -60,7 +68,7 @@ Generated 2026-11-16 14:05 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/wildlife.community.json` | 41 |
 | `data/wiki/wildlife.previews.json` | 23 |
 | `scripts/audit_media.py` | 162 |
-| `scripts/ci_pages.mjs` | 81 |
+| `scripts/ci_pages.mjs` | 96 |
 | `scripts/current_state.py` | 209 |
 | `scripts/discord_announce_release.py` | 103 |
 | `scripts/discord_cards.py` | 100 |

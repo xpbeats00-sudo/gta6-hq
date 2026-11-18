@@ -1,0 +1,304 @@
+[
+  {
+    "slug": "switching-in-the-released-game",
+    "name": "Switching leads in the released game",
+    "summary": "Outside the missions that need one of them, you can switch between Jason and Lucia whenever you like.",
+    "body": [
+      "TheSixthAxis's review says switching puts you with the other lead somewhere else in the world, and that they are rarely in the middle of something when you arrive.",
+      "Push Square's review adds that each lead has activities of their own."
+    ],
+    "related": [
+      "gameplay/character-switching",
+      "characters/jason-duval",
+      "characters/lucia-caminos"
+    ],
+    "tags": [
+      "switch",
+      "jason",
+      "lucia",
+      "free roam"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review",
+      "pushsquare-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "profile-names-in-reviews",
+    "name": "Criminal profile: the names reviewers saw",
+    "summary": "TheSixthAxis's review names four profiles: Professional, Hardened, Violent and Irredeemable.",
+    "body": [
+      "It says Irredeemable is the only one that cannot be undone, that it comes from continued unprovoked violence, and that profiles change some interactions.",
+      "These names differ from the ones TGG reported before launch (professional, aggressive, violent, psycho). The review also speaks of five profiles while naming four, so the full set is not settled here."
+    ],
+    "related": [
+      "gameplay/criminal-profile"
+    ],
+    "tags": [
+      "profile",
+      "professional",
+      "hardened",
+      "violent",
+      "irredeemable"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "loadout-and-lockers",
+    "name": "Loadout and weapon lockers",
+    "summary": "Each lead carries two sidearms, two long guns, explosives, one melee weapon and equipment, and everything carried is visible on them.",
+    "body": [
+      "TheSixthAxis's review says police grow suspicious of long guns and that people react when a masked character walks in. Hats, sunglasses and masks can hide your face during a crime.",
+      "Weapons can be kept in weapon lockers or in vehicles you own. A weapon picked up in the world is lost when you quit unless it has been stored.",
+      "Guns have damage and range figures, and accessories change them."
+    ],
+    "related": [
+      "gameplay/carrying-weapons"
+    ],
+    "tags": [
+      "weapons",
+      "loadout",
+      "locker",
+      "holster",
+      "mask",
+      "disguise"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "aiming-and-focus-reviewed",
+    "name": "Aiming and Focus, as reviewed",
+    "summary": "Lock-on aiming is the default, and the settings allow free aim with aim assist switched off.",
+    "body": [
+      "TheSixthAxis's review says there is no full first-person view, though some guns can be aimed down their sights.",
+      "Focus works throughout the game: it highlights valuables, shows enemies in nearby rooms and reveals weak spots in a fight. Push Square's review describes a bullet-time mechanic and says cover shooting is improved, with enemies that can be put down by shots to non-vital areas."
+    ],
+    "related": [
+      "gameplay/focus",
+      "gameplay/combat"
+    ],
+    "tags": [
+      "aim",
+      "free aim",
+      "lock-on",
+      "first person",
+      "focus",
+      "bullet time",
+      "cover"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review",
+      "pushsquare-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "owning-cars-reviewed",
+    "name": "Stolen cars, trackers and registration",
+    "summary": "Taking a parked car can need a keyless-entry app that the story unlocks, and some cars carry trackers.",
+    "body": [
+      "TheSixthAxis's review says a tracked car has to be re-registered at a garage or sold, that the fee rises with the class of car, and that a registered car can be called up even when it has been impounded. Carjacking still works but draws the police.",
+      "An app on the phone scans a car and shows its sale value, its registration fee and whether it has a tracker or keyless entry.",
+      "Garages are the only kind of property you can buy. Mod shops change a car's looks, figures and handling, and Push Square's review notes that the engine sound changes with the modifications and that a delivery service brings a chosen car to you."
+    ],
+    "related": [
+      "gameplay/car-theft",
+      "gameplay/garages-and-personal-vehicles"
+    ],
+    "tags": [
+      "cars",
+      "tracker",
+      "keyless",
+      "registration",
+      "garage",
+      "impound",
+      "mod shop",
+      "scanner"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review",
+      "pushsquare-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "police-in-the-released-game",
+    "name": "Getting away from the police",
+    "summary": "Crimes can be done quietly or loudly, witnesses can call the police, and the police work from a description of you.",
+    "body": [
+      "TheSixthAxis's review says you can delete security footage, change or abandon vehicles, weapons and clothing, and change how you look so that you no longer match the description. The police know whether you are working alone or as a pair.",
+      "After an escape, the wanted area stays marked on the map for a while. Push Square's review says a robbery can end without a chase if you scout the target, change outfit and pick a getaway vehicle to suit the job."
+    ],
+    "related": [
+      "gameplay/wanted-level",
+      "gameplay/robberies"
+    ],
+    "tags": [
+      "police",
+      "wanted",
+      "witness",
+      "description",
+      "cctv",
+      "escape"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review",
+      "pushsquare-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fences-and-selling-reviewed",
+    "name": "Fences and selling",
+    "summary": "Robbery targets include stores, banks and gang properties, and fences buy what you take.",
+    "body": [
+      "TheSixthAxis's review says each fence specialises in certain goods and that prices follow demand. Pay 'n' Spray shops buy vehicles.",
+      "Some characters ask for particular stolen cars and pay more the better the condition, with a bonus for one delivered in mint condition."
+    ],
+    "related": [
+      "gameplay/fences-and-laundering",
+      "gameplay/robberies"
+    ],
+    "tags": [
+      "fence",
+      "sell",
+      "loot",
+      "pay n spray",
+      "stolen cars",
+      "money"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mission-failure",
+    "name": "How missions fail",
+    "summary": "The only outright failure in a mission is a lead dying; other setbacks are played through.",
+    "body": [
+      "TheSixthAxis's reviewer gives an example: crashing a plane during a delivery cut the payout instead of ending the mission."
+    ],
+    "tags": [
+      "missions",
+      "fail",
+      "failure",
+      "checkpoint",
+      "payout"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bond-in-the-released-game",
+    "name": "The bond between Jason and Lucia",
+    "summary": "What the two do together raises or lowers a bond between them.",
+    "body": [
+      "TheSixthAxis's review lists robbing stores, working out, texting and going out to eat as things that raise it, and leaving your partner behind while running from the police as something that lowers it.",
+      "Push Square's review mentions that the controller's haptics play when the two touch."
+    ],
+    "related": [
+      "gameplay/relationship"
+    ],
+    "tags": [
+      "relationship",
+      "bond",
+      "jason",
+      "lucia"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review",
+      "pushsquare-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "performance-reviewed",
+    "name": "Performance, as reviewed on PlayStation 5 Pro",
+    "summary": "Push Square's review, played on PlayStation 5 Pro, reports 30 frames per second with no 60 frames per second option.",
+    "body": [
+      "The reviewer describes steady frame pacing and very few slowdowns, including when flying or driving fast, and found the adaptive triggers too stiff.",
+      "The review does not cover the standard PlayStation 5 or Xbox."
+    ],
+    "tags": [
+      "performance",
+      "frame rate",
+      "30fps",
+      "60fps",
+      "ps5 pro",
+      "dualsense"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch reviews, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-review"
+    ],
+    "verified": "2026-11-18"
+  }
+]

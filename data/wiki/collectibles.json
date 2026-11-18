@@ -1,0 +1,212 @@
+[
+  {
+    "slug": "completion-checklist",
+    "name": "The 100% checklist",
+    "summary": "PowerPyx's guide to 100% completion lists what the game counts. Most lines ask for part of what exists, not all of it.",
+    "body": [
+      "Jobs: all 39 Gang Operations, all 22 Bank Jobs, all 7 Payday Loans, 34 of 35 Smash 'N' Grabs, 50 of 91 Stick Ups, all 8 vaults, and 100 optional tasks. Fencing targets are $100,000 each of narcotics and jewelry, $200,000 of vehicles and $250,000 of marked bills.",
+      "Activities: 30 of 40 races won, 10 of 13 race challenge gold medals, all 42 shooting range gold medals, all 42 drone time trials (14 places, three each), all 4 video games, 5 of 7 pool opponents, 2 of 3 mini golf courses, 90 of 100 basketball hoops, 70 of 80 challenges and all 15 of Bret's target decks.",
+      "Discovery: 200 of 277 base-model vehicles scanned, 50 of 66 standard weapons and 100 of 255 animals studied, plus 70 of 79 styles.",
+      "These are one guide's figures, published on launch day. The guide does not say how it counted them."
+    ],
+    "related": [
+      "achievements/a-long-road",
+      "collectibles/stunts",
+      "collectibles/collectible-cards"
+    ],
+    "tags": [
+      "100%",
+      "completion",
+      "checklist",
+      "gang operations",
+      "bank jobs",
+      "stick ups"
+    ],
+    "facts": {
+      "type": "Checklist"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "collectible-cards",
+    "name": "Collectible cards",
+    "summary": "PowerPyx counts 480 cards in 18 sets. The 100% checklist asks for 15 complete sets.",
+    "body": [
+      "The sets, with the number of cards in each: Vice City Flamingos (24); Vice City Narcos (24); Vice City Manatees (24); Vice City Club De Fútbol (30); Liberty City Swingers (24); Liberty City Penetrators (24); Liberty City Wrath (24); Los Santos Corkers (24); Los Santos Panic (24); Los Santos Pounders (24); Backyard Wrestling (12); America's Next Top Hooker (24); Delights Dancers (18); Jack of Hearts Dancers (36); Nine1Nine Dancers (36); The Legends of Ratface (36); Right Wing: America's Hero (36); Ed Comics Universe (36).",
+      "PowerPyx's guide says cards are picked up around the world: indoors on surfaces or stuck to walls, outdoors usually in yellow phone boxes or on tool boxes. They cannot be bought, so the supply is fixed. Some cards come in colour variants, and each variant counts as its own card.",
+      "Cards can be sold at pawn shops, for about $20 to more than $1,000 depending on rarity, and a sold card still counts as collected.",
+      "A silver trophy, Don't Touch My Deck, is earned at three complete sets. Fifteen sets for the 100% checklist means at least 372 of the 480 cards."
+    ],
+    "related": [
+      "achievements/dont-touch-my-deck"
+    ],
+    "tags": [
+      "cards",
+      "sets",
+      "deck",
+      "pawn shop",
+      "flamingos",
+      "narcos",
+      "manatees"
+    ],
+    "facts": {
+      "type": "Cards",
+      "total": 480
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-100",
+      "powerpyx-cards"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stunts",
+    "name": "Stunts",
+    "summary": "PowerPyx counts 397 stunts: 130 stunt jumps, 202 flights under bridges, 40 knife flights and 25 base jumps. The 100% checklist asks for 300.",
+    "body": [
+      "The Cunning Stunts trophy is earned at 250."
+    ],
+    "related": [
+      "achievements/cunning-stunts"
+    ],
+    "tags": [
+      "stunt jumps",
+      "under the bridge",
+      "knife flight",
+      "base jump"
+    ],
+    "facts": {
+      "type": "Stunts",
+      "total": 397
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-locations",
+    "name": "WAiNK locations",
+    "summary": "Places scanned with the WAiNK app. The 100% checklist and the You WAiNKer! trophy both ask for 100.",
+    "body": [
+      "PowerPyx's guide to the Progress database lists five kinds: 31 landmarks, 35 curiosities, 23 sculptures, 23 \"no flusher\" tags, and one more that was still unnamed when the guide was written."
+    ],
+    "related": [
+      "achievements/you-wainker"
+    ],
+    "tags": [
+      "waink",
+      "app",
+      "landmarks",
+      "curiosities",
+      "sculptures",
+      "tags",
+      "scan"
+    ],
+    "facts": {
+      "type": "Scans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-100",
+      "powerpyx-progress"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cocaine-flamingos",
+    "name": "Cocaine Flamingos",
+    "summary": "PowerPyx counts 125 to destroy. The 100% checklist asks for 100.",
+    "tags": [
+      "flamingo",
+      "destroy"
+    ],
+    "facts": {
+      "type": "Destructibles",
+      "total": 125
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "underwater-discoveries",
+    "name": "Underwater Discoveries",
+    "summary": "PowerPyx counts 33, and the 100% checklist asks for all of them.",
+    "tags": [
+      "underwater",
+      "diving",
+      "shipwreck"
+    ],
+    "facts": {
+      "type": "Discoveries",
+      "total": 33
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "meditation-spots",
+    "name": "Meditation spots",
+    "summary": "PowerPyx counts 18 spots across 10 places. The 100% checklist asks for 15.",
+    "body": [
+      "The Positive Mental Attitude trophy asks for every spot."
+    ],
+    "related": [
+      "achievements/positive-mental-attitude"
+    ],
+    "tags": [
+      "meditation",
+      "meditate",
+      "focus"
+    ],
+    "facts": {
+      "type": "Spots",
+      "total": 18
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "magazines-books-and-comics",
+    "name": "Magazines, books and comics",
+    "summary": "PowerPyx counts 34: 27 magazines, books and comics, and 7 book swaps. The 100% checklist asks for 30.",
+    "tags": [
+      "magazines",
+      "books",
+      "comics",
+      "book swap"
+    ],
+    "facts": {
+      "type": "Reading",
+      "total": 34
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

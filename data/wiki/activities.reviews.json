@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "activities-in-the-released-game",
+    "name": "Activities reviewers found",
+    "summary": "Launch reviews list gym workouts, meditation, shipwreck treasure hunting, fishing, hunting, street and off-road racing, shooting ranges, golf, collectible cards, and console and arcade games.",
+    "body": [
+      "TheSixthAxis's review says gym workouts raise stamina and health and meditation raises Focus. It adds that shops open and close on schedules, traffic changes with the time of day, people can be greeted, taunted or robbed at gunpoint, and a photo mode is there from the first day.",
+      "Push Square's review says Jason's home has a console with playable games, that his beach house can be decorated as an optional goal, and that the leads need to eat, exercise and refuel their cars."
+    ],
+    "related": [
+      "activities/sports-and-leisure",
+      "activities/hunting-and-fishing",
+      "activities/everyday-life",
+      "activities/racing"
+    ],
+    "tags": [
+      "gym",
+      "meditation",
+      "treasure",
+      "shipwreck",
+      "fishing",
+      "hunting",
+      "racing",
+      "shooting range",
+      "golf",
+      "cards",
+      "arcade",
+      "photo mode",
+      "beach house"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "sixthaxis-review",
+      "pushsquare-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

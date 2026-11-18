@@ -1,17 +1,17 @@
 # Media rights audit
 
-Generated 2026-11-16 14:05 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-18 12:33 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 264 |
-| Records in `data/media.json` | 229 |
+| Media files on disk (`images/`, `wallpapers/`) | 319 |
+| Records in `data/media.json` | 284 |
 | Files with no record | 35 |
 | Records with no file | 0 |
 | Groups of identical files | 0 |
-| Files not used anywhere | 83 |
+| Files not used anywhere | 138 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 15 |
 
@@ -22,7 +22,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Decision | Files | Meaning |
 |---|---|---|
 | approved_for_distribution | 0 | Cleared to ship in a public package |
-| local_personal_use_only | 214 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
+| local_personal_use_only | 269 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
 | unknown | 50 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
@@ -33,7 +33,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Kind | Records |
 |---|---|
 | evidence_frame | 23 |
-| official_illustration | 154 |
+| official_illustration | 209 |
 | owner_supplied_unverified | 52 |
 
 `evidence_frame`: a frame of Rockstar's official video, used as evidence in the manual or as an entry picture. `official_illustration`: an official Rockstar screenshot or artwork. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded.
@@ -88,6 +88,61 @@ None.
 
 On disk and recorded, but no entry, manual page or interface file points at them.
 
+- `images/achievements/a-classic-blitz-play.png`
+- `images/achievements/a-long-road.png`
+- `images/achievements/actions-speak-louder.png`
+- `images/achievements/bad-luck-i-guess.png`
+- `images/achievements/baited-my-tackle.png`
+- `images/achievements/break-the-bank.png`
+- `images/achievements/capital-offense.png`
+- `images/achievements/catch-me-if-you-can.png`
+- `images/achievements/challenging-tank.png`
+- `images/achievements/cunning-stunts.png`
+- `images/achievements/dime-on-the-dollar.png`
+- `images/achievements/dont-touch-my-deck.png`
+- `images/achievements/dwnfall.png`
+- `images/achievements/earn-cash-not-kudos.png`
+- `images/achievements/fair-game.png`
+- `images/achievements/family-matters.png`
+- `images/achievements/gunslinger.png`
+- `images/achievements/hi-jacked.png`
+- `images/achievements/hot-together.png`
+- `images/achievements/in-the-beginning.png`
+- `images/achievements/just-like-paradise.png`
+- `images/achievements/lets-go-bowling.png`
+- `images/achievements/little-boxes.png`
+- `images/achievements/master-of-none.png`
+- `images/achievements/maximum-withdrawal.png`
+- `images/achievements/on-the-spot.png`
+- `images/achievements/one-last-thing.png`
+- `images/achievements/paradise-lost.png`
+- `images/achievements/personal-best.png`
+- `images/achievements/pest-control.png`
+- `images/achievements/positive-mental-attitude.png`
+- `images/achievements/retail-therapy.png`
+- `images/achievements/road-to-rehabilitation.png`
+- `images/achievements/sneakthief.png`
+- `images/achievements/snow-storm.png`
+- `images/achievements/spin-on-this.png`
+- `images/achievements/stick-fiddler.png`
+- `images/achievements/strangers-and-freaks.png`
+- `images/achievements/supply-and-demand.png`
+- `images/achievements/t-s-ass-drug-money.png`
+- `images/achievements/ten-pin.png`
+- `images/achievements/the-goodtime-state.png`
+- `images/achievements/the-lone-rider.png`
+- `images/achievements/the-shootist.png`
+- `images/achievements/the-truth-is-out-there.png`
+- `images/achievements/this-was-no-boat-accident.png`
+- `images/achievements/top-fun.png`
+- `images/achievements/top-of-the-world-ma.png`
+- `images/achievements/treat-yo-self.png`
+- `images/achievements/trust.png`
+- `images/achievements/vice-city-baby.png`
+- `images/achievements/vice-got-a-price.png`
+- `images/achievements/whip-it-good.png`
+- `images/achievements/you-gotta-know-when-to-get-off.png`
+- `images/achievements/you-wainker.png`
 - `images/editions/classic-car-collection-02.jpg`
 - `images/editions/classic-car-collection-03.jpg`
 - `images/editions/classic-car-collection-04.jpg`

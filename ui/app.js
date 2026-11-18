@@ -194,7 +194,7 @@ function formatDate(iso) {
 }
 
 /** Entries that lead with a picture: anything with artwork, and all people and places. */
-const illustrated = (section, entry) => Boolean(entry.image) || section === 'characters' || section === 'locations';
+const illustrated = (section, entry) => section !== 'achievements' && (Boolean(entry.image) || section === 'characters' || section === 'locations');
 
 /** FeatureTile: image-led card, or a text-only note when there is no artwork to lead with. */
 function card(section, entry, kicker) {
@@ -202,7 +202,19 @@ function card(section, entry, kicker) {
   return isHidden(section, entry) ? veil(section, entry, tile) : tile;
 }
 
+/** A trophy: its icon beside its grade, name and requirement. Without the icon (the Store edition
+    carries none) a plain disc in the grade's colour stands in. */
+function trophyTile(entry) {
+  const grade = String(entry.facts?.grade || 'Trophy');
+  return `<a class="trophy trophy-${esc(grade.toLowerCase())}" href="${entryLink('achievements', entry.slug)}">
+    ${entry.image && !STORE ? `<img src="${esc(entry.image)}" alt="" loading="lazy" width="64" height="64">` : '<span class="trophy-disc" aria-hidden="true"></span>'}
+    <div><span class="kicker">${esc(grade)}${entry.facts?.secret === 'Yes' ? ', secret' : ''}${entry.facts?.gamerscore ? `, ${esc(entry.facts.gamerscore)}G` : ''}</span>
+      <h3>${esc(entry.name)}</h3><p>${esc(entry.summary)}</p></div>
+  </a>`;
+}
+
 function cardTile(section, entry, kicker) {
+  if (section === 'achievements') return trophyTile(entry);
   if (!illustrated(section, entry)) {
     return `<a class="note" href="${entryLink(section, entry.slug)}">
       <div class="card-meta"><span class="kicker">${esc(kicker || sectionLabel(section))}</span>${badge(entry.confidence)}</div>
@@ -967,6 +979,7 @@ function renderEntry(key, slug) {
       ${lead ? `<div class="profile-portrait">${picture(entry, artKind(key, entry))}</div>` : ''}
       <div class="profile-body">
         <a class="back" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">← ${esc(cat.label)}</a>
+        ${key === 'achievements' && entry.image && !STORE ? `<img class="trophy-icon" src="${esc(entry.image)}" alt="" width="96" height="96">` : ''}
         <span class="kicker">${esc(kickerOf(entry) || cat.label)}</span>
         <h1>${esc(entry.name)}</h1>
         ${spoilerNote(entry)}

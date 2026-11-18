@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.25**: the launch update: an Achievements section with all 55 trophies and their icons, missions by chapter, collectibles and the 100% checklist, cheats, challenges, and what launch reviews report, with post-launch details marked as spoilers.
 - **0.2.24**: a first-open spoiler warning, spoilers blurred under an eye button, and settings that are kept across restarts and updates.
 - **0.2.23**: 46 more pictures from Rockstar's editions page in the gallery, and cover art on the edition cards in Intel.
 - **0.2.22**: new preview details from TGG's pre-launch guide: ten new Field Manual pages and 18 new encyclopedia entries, all labelled as preview reports.

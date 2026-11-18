@@ -1,0 +1,320 @@
+[
+  {
+    "slug": "cheats",
+    "name": "Cheats",
+    "summary": "PowerPyx lists 61 cheats. They appear in the Progress menu only after the story is finished, and each has its own requirement before its code does anything.",
+    "body": [
+      "To enter one: press Up on the D-pad to open the phone, hold L1 (LB on Xbox), press R1 (RB), then enter the code. Using a cheat switches off trophies, achievements and saving.",
+      "The guide groups them as 10 player cheats, 11 combat cheats, 21 that spawn a vehicle, 3 for time and weather, and 16 screen filters.",
+      "Requirements vary: finishing the story unlocks $250,000, Unlimited Focus, Attack Force and Cycle Weather; others ask for things like 100 workouts (Body Armor), 50 stunt jumps (Unlimited Nitrous), shooting range medals (the ammo cheats) or sets of challenges (most of the vehicles).",
+      "Codes the guide gives, as D-pad presses: $250,000 is Up, Right, Down, Left, Up, Left, Down, Right. Raise Heat Level is Left, Down, Right, Down, Up, Down, Up. Cycle Weather is Down, Right, Up, Down, Right, Up, Right. Unlimited Focus is Down, Up, Up, Down, Up, Down, Up, Down, Up, Right. Body Armor is Down, Up, Left, Up, Up, Up, Up, Up, Down, Down. Max Ammo is Down, Up, Right, Down, Left, Left, Up, Up, Down, Left.",
+      "The guide had no code yet for most of the 61."
+    ],
+    "related": [
+      "gameplay/challenges",
+      "gameplay/progress-database"
+    ],
+    "tags": [
+      "cheats",
+      "codes",
+      "money",
+      "spawn",
+      "filters",
+      "weather",
+      "ammo"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "challenges",
+    "name": "Challenges",
+    "summary": "PowerPyx lists 80 challenges in eight groups of ten: Combat, Criminal, Exploration, Fitness, Shopping, Sports, Survival and Vehicle.",
+    "body": [
+      "Fifty of them earn the One Last Thing trophy, and the 100% checklist asks for 70.",
+      "Combat: Speed Kills, Melee Combat, Explosive Combat, Headshots, Drive-Bys, Stealth Sniping, Incendiary, Revolver Headshots, Long-Range Sniping, High Explosive.",
+      "Criminal: Mugging, Stick Ups, Carjacking, Mugging Spree, Cop Car Theft, Cop Weapon Theft, Stick Up Spree, Cop Tow, Carjacking Spree, Carjacking Pro.",
+      "Exploration: WAiNK Locations, Skyscrapers, Collectible Cards, Encyclopedia, Underwater Discoveries, Rail Tour, Underwater Treasures, Black Hole Wrecks, Road Trip, Helipad Flyovers.",
+      "Fitness: Gym Member, Foot Travel, Pro Cyclist, Pro Swimmer, Balanced Workout, Strength Regime, Cardio Regime, Waning Sands Run, Tequesta Swim, Southwind Cycle.",
+      "Shopping: Vehicle Modder, Grocery Shopper, Well Armed, Well Groomed, Stylishly Armed, Well Dressed, Custom Ride, Heavily Armed, Serious Modder, Nest Egg.",
+      "Sports: Basketball Rookie, Golf Rookie, Basketball Streak, Pool Streak, Basketball Tour, Golf Pro, Triple Bank, Basketball Pro, 8-Ball Break, Double Hole In One.",
+      "Survival: Alligator Kills, Big Fish, Marksman, Catch of the Day, Zoologist, Angler, Pro Marksman, Hunting Spree, Pro Angler, Legendary Hunter.",
+      "Vehicle: Vehicle Discovery, Wheelie, Winning Streak, Throttled, Drawbridge Jump, Top Speed, Train Landing, Oceanarium Jump, Rally Winner, Train Jump.",
+      "According to the cheats guide, finishing five or all ten of a group unlocks vehicle cheats."
+    ],
+    "related": [
+      "achievements/one-last-thing",
+      "collectibles/completion-checklist",
+      "gameplay/cheats"
+    ],
+    "tags": [
+      "challenges",
+      "combat",
+      "criminal",
+      "exploration",
+      "fitness",
+      "shopping",
+      "sports",
+      "survival",
+      "vehicle"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-challenges",
+      "powerpyx-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "progress-database",
+    "name": "The Progress database",
+    "summary": "The game keeps its own record of what you have found, opened from the map under Progress. PowerPyx puts it at about 3,000 things.",
+    "body": [
+      "Vehicles: 557, of which 277 are base models and 280 are \"Standout\" versions in 26 groups. The base models are 157 cars (29 sedans, 26 muscle cars, 23 SUVs, 18 coupes, 17 pickups, 14 vans, 13 sports cars, 9 supercars, 8 off-road), 29 bikes, 28 watercraft, 16 aircraft and 47 service vehicles.",
+      "Weapons: 196, made up of 53 guns, 9 melee weapons, 4 explosives and 130 variants. Equipment: 12.",
+      "Animals: 255, which the guide breaks into 61 hunts, 60 birds, 35 fish, 34 cats and dogs, 18 mammals, 18 aquatic animals, 6 reptiles and 23 others.",
+      "It also tracks 10 contacts, 9 gangs with 39 gang operations, 11 kinds of robbery, 80 challenges, 61 cheats and 19 kinds of store, from 14 mod shops to 118 street food vendors.",
+      "Some groups only appear once you have found something in them, so the guide's figures may not be final."
+    ],
+    "related": [
+      "collectibles/completion-checklist",
+      "gameplay/cheats",
+      "gameplay/challenges"
+    ],
+    "tags": [
+      "progress",
+      "database",
+      "vehicles",
+      "weapons",
+      "animals",
+      "how many",
+      "count"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-progress"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "after-the-story",
+    "name": "After the story",
+    "summary": "Free roam continues once the story is finished, but missions cannot be replayed.",
+    "body": [
+      "PowerPyx's guide says the whole map stays open afterwards, apart from a few buildings used only in missions. There are no gold medals for missions; the only medals are in the 42 shooting range challenges and the 13 race challenges.",
+      "It reports no difficulty settings, and says nothing counted by the 100% checklist can be missed.",
+      "On the map, mandatory story missions have pink icons with black letters, optional missions black icons with pink letters, and side tasks are purple. The guide counts five main regions, each with many smaller areas."
+    ],
+    "related": [
+      "missions/story-structure-released",
+      "collectibles/completion-checklist",
+      "gameplay/cheats"
+    ],
+    "tags": [
+      "free roam",
+      "post-game",
+      "mission replay",
+      "difficulty",
+      "missable",
+      "map icons"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-wiki",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "earning-the-platinum",
+    "name": "Earning the platinum",
+    "summary": "PowerPyx's trophy guide estimates about 200 hours for the platinum and rates the difficulty 4 out of 10.",
+    "body": [
+      "All 55 trophies are earned offline and one playthrough is enough. The guide's route is the story with its optional missions (about 60 to 80 hours), then the 100% checklist and 70 challenges (about 100 hours), then the remaining strangers (about 10 hours).",
+      "It flags one trophy that might be missed: Positive Mental Attitude, because the first meditation spot is at Jason's house in Chapter 1 and is not available after that chapter.",
+      "The hours and the difficulty rating are the guide writer's own estimates."
+    ],
+    "related": [
+      "achievements/vice-got-a-price",
+      "achievements/positive-mental-attitude",
+      "collectibles/completion-checklist"
+    ],
+    "tags": [
+      "platinum",
+      "trophy guide",
+      "roadmap",
+      "missable",
+      "hours"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fast-travel",
+    "name": "Fast travel",
+    "summary": "There is no fast travel from the map itself. You take a taxi and pay $100 to skip the ride.",
+    "body": [
+      "PowerPyx's guide gives two ways. Paradise Taxi can be called from the phone's contacts once the first mission, Gone Fishing, is done: set a destination on the map, which can be somewhere you have not been, get in, and pay a flat $100 on top of the fare.",
+      "The RydeMe app arrives in Chapter 2 and is quicker: a driver turns up within seconds, the fare rises with distance, and $100 skips the drive. If no RydeMe driver is free, Paradise Taxi still works."
+    ],
+    "related": [
+      "gameplay/fuel-and-transport",
+      "gameplay/phone-apps"
+    ],
+    "tags": [
+      "fast travel",
+      "taxi",
+      "paradise taxi",
+      "rydeme",
+      "app"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-fast-travel"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "making-money",
+    "name": "Making money",
+    "summary": "PowerPyx's money guide says the quickest money is robbing the vaults of large banks, which opens at the end of Chapter 4 and pays up to $205,000 for about five minutes' work.",
+    "body": [
+      "A vault robbery brings a four-star wanted level at once.",
+      "Before that, by chapter. Chapter 1: stores, gang operations and races, but the guide says saving up is pointless because the money is lost when the chapter ends. Chapter 2: selling cars without trackers to Moses, usually $1,000 or more each, with a wait of about two minutes between sales.",
+      "Chapter 3: jewelry stores pay $10,000 to $25,000 each; cars with standard trackers sell at any Pay 'n' Spray for around $4,000 or more; and once the key cloner is unlocked, Randy pays $30,000 or more for each of the 18 sports cars on his list in perfect condition. The story pays $120,000 at the end of the chapter.",
+      "These are one guide's figures from launch day."
+    ],
+    "related": [
+      "gameplay/fences-and-selling-reviewed",
+      "gameplay/cash-bank-and-loot",
+      "gameplay/owning-cars-reviewed"
+    ],
+    "tags": [
+      "money",
+      "cash",
+      "bank vault",
+      "jewelry",
+      "selling cars",
+      "moses",
+      "randy",
+      "pay n spray"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-money"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "accessibility-options",
+    "name": "Accessibility options",
+    "summary": "Can I Play That? has gathered the accessibility settings seen in reviews and live streams. There are no difficulty levels; instead there are separate assists.",
+    "body": [
+      "Play and controls: a toggle that lowers enemy health and the damage you and your vehicle take; simplified minigames; five levels of tap assist for quick-time events; holds that can become toggles, with a delay setting against accidental presses; three controller presets; adjustable stick and trigger sensitivity and haptics; adjustable aim assist, with separate toggles for drive-by and general shooting help; and an auto-drive option.",
+      "Sound: subtitles and captions that can be resized, with optional background and speaker names; a toggle that removes the ringing after explosions; mono audio; and separate volume sliders for effects, interface, dialogue, music and media.",
+      "Sight: narration for most menus, a screen reader from the first start, and a separate audio description toggle; a high contrast mode and a colourblind option that strengthens the Focus trail colours; adjustable text size, interface colours, objective marker size and map icon size; an always-on minimap and a compass; an adjustable reticle; settings for motion blur, head bob, camera movement and screen effects; reduced flashbang intensity; and adjustable blood and gore, with dismemberment able to be switched off.",
+      "The site could not confirm button remapping and thinks it is probably missing.",
+      "This was not tested hands-on: the site says Rockstar gave no review copies to accessibility outlets, so the list comes from other reviews and streams, may be incomplete, and may have details wrong."
+    ],
+    "related": [
+      "gameplay/display-options",
+      "gameplay/controls",
+      "gameplay/aiming-and-focus-reviewed"
+    ],
+    "tags": [
+      "accessibility",
+      "subtitles",
+      "colourblind",
+      "colorblind",
+      "screen reader",
+      "narration",
+      "aim assist",
+      "remapping",
+      "difficulty"
+    ],
+    "facts": {
+      "type": "Options",
+      "shown_in": "Launch coverage, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "caniplaythat-accessibility"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "console-comparison",
+    "name": "How it runs on each console",
+    "summary": "Digital Foundry's analysis, as summarised by Pure Xbox, ranks PlayStation 5 Pro the best version and Xbox Series S the hardest to recommend. All four target 30 frames per second.",
+    "body": [
+      "PlayStation 5 Pro: image quality close to 4K, solid frame rates, and ray-traced shadows that are a visible step up from the other three.",
+      "PlayStation 5 and Xbox Series X: a softer image of roughly 1440p. Both mostly hold 30 frames per second, with small drops on PlayStation 5 in ordinary play and drops on Series X in busy moments such as chases and explosions. Series X is described as slightly smoother on a 120Hz display with variable refresh rate.",
+      "Xbox Series S: 1080p output with visible cutbacks, and the least steady of the four. Much of the game runs in the mid to high 20s, and destroying vehicles can push it to about 20.",
+      "This is one site's write-up of Digital Foundry's video, not Digital Foundry's own article, and it gives no loading times."
+    ],
+    "related": [
+      "gameplay/performance-reviewed"
+    ],
+    "tags": [
+      "performance",
+      "frame rate",
+      "resolution",
+      "ps5",
+      "ps5 pro",
+      "xbox series x",
+      "xbox series s",
+      "digital foundry",
+      "ray tracing"
+    ],
+    "facts": {
+      "type": "Performance",
+      "shown_in": "Launch coverage, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "purexbox-digital-foundry"
+    ],
+    "verified": "2026-11-18"
+  }
+]

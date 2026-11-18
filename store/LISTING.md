@@ -5,7 +5,7 @@ The name is a working choice; change it in `store/identity.json` and here togeth
 
 ## Product name (reserve this)
 
-HQ Guide for GTA 6 (Unofficial)
+Leonida HQ (Unofficial Fan Guide)
 
 ## Short description (shown under the name)
 

@@ -2,6 +2,17 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.25 (18 November 2026)
+
+The launch update: what is known now that the game is out. Everything names its source. Entries that describe what is in the game are marked as spoilers and stay blurred unless you chose to see spoilers.
+
+- Achievements: a new section with all 55 PlayStation 5 trophies, each with its icon, grade, requirement and Xbox Gamerscore, from Exophase's reading of the platforms' own lists.
+- Missions and Story: how the story is divided (a prologue and five chapters), the mission names for each chapter, and the Strangers and Freaks side missions, from PowerPyx's walkthrough.
+- Collectibles: the 100% checklist, all 18 collectible card sets, stunts, WAiNK locations, Cocaine Flamingos, Underwater Discoveries, meditation spots, and magazines, books and comics.
+- Gameplay: what two launch reviews report (switching leads, loadout and weapon lockers, aiming and Focus, trackers and registration, escaping the police, fences, how missions fail, the bond between the leads), plus cheats, the 80 challenges, the game's Progress database, fast travel, making money, what happens after the story, earning the platinum, accessibility options, and how the game runs on each console.
+- Intel: the rollout from New Zealand, review scores (99 on Metacritic from 147 PlayStation 5 reviews on 18 November), eight Game Awards nominations, the PlayStation 5 system update, the second pre-launch update, and new answers on how long the game is and what to do when it will not download.
+- Microsoft Store edition: its Store name is now "Leonida HQ (Unofficial Fan Guide)", after Microsoft refused the earlier name for containing the game's title.
+
 ## 0.2.24 (16 November 2026)
 
 - Spoilers: the first time the app opens it says that it can contain spoilers and asks whether to show them. Left unticked, anything marked as a spoiler is blurred under an eye button; pressing the eye shows that one. A new eye in the top bar shows or blurs all of them. Nothing is marked as a spoiler yet: what was known before launch, and anything in a trailer, is not one.

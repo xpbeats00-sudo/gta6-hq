@@ -1,0 +1,237 @@
+[
+  {
+    "slug": "story-structure-released",
+    "name": "How the story is divided",
+    "summary": "PowerPyx's walkthrough lists a prologue and five chapters. The trophy list agrees: there is a trophy for finishing each of Chapters 1 to 4 and one for the final mission.",
+    "body": [
+      "Counting the walkthrough's entries that are not marked optional gives 25, 18, 31, 34 and 10 for the five chapters. Some of those are short errands, and other guides count differently, so there is no agreed total yet.",
+      "The mission names for each chapter are on the pages that follow. They are names only, with no plot."
+    ],
+    "related": [
+      "missions/chapter-1",
+      "missions/chapter-2",
+      "missions/chapter-3",
+      "missions/chapter-4",
+      "missions/chapter-5",
+      "gameplay/story-structure"
+    ],
+    "tags": [
+      "chapters",
+      "story",
+      "missions",
+      "structure",
+      "prologue"
+    ],
+    "facts": {
+      "type": "Overview"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-walkthrough",
+      "exophase-trophies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chapter-1",
+    "name": "Chapter 1 missions",
+    "summary": "The 25 missions PowerPyx's walkthrough lists for Chapter 1, from Gone Fishing to Discharge Time.",
+    "body": [
+      "In the order the walkthrough gives them: Gone Fishing; Gear Up; Lab Fees; Just a Scratch; Unwanted Attention; Pipework; Hey Arnold!; Island Dreams; Feng Shui; Coming Home; Clean Up After Donnie; Buck Me; Down to Earth; Deposit Cash Into BuckMe; Save for the Future; Day Release; Clear Skies; Building a Life; Swamped; Don Gone; Donnie's Lost Drugs; Recalibration; Tourist Trap; Home Sweet Home; Discharge Time.",
+      "Names only. A few are errands more than missions, and guides differ on which to count."
+    ],
+    "related": [
+      "missions/story-structure-released"
+    ],
+    "tags": [
+      "missions",
+      "walkthrough",
+      "chapter 1",
+      "gone fishing",
+      "gear up",
+      "lab fees"
+    ],
+    "facts": {
+      "chapter": "Chapter 1",
+      "order": 1,
+      "type": "Mission list"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chapter-2",
+    "name": "Chapter 2 missions",
+    "summary": "The 18 missions PowerPyx's walkthrough lists for Chapter 2, from What's in the Bag? to Checking Out.",
+    "body": [
+      "In the order the walkthrough gives them: What's in the Bag?; Take Care of Jason; Overnight Charges; Just Moved In; Girl's Trip; Moses; New Look; How Do I Look?; Painkiller Supplier; Ambulance Chaser; Behind on Payments; Slam Dunk; Daily Driver; Breakfast Run; Coffee Break; Prepare for Vice City; Afternoon Delight; Checking Out.",
+      "Names only. A few are errands more than missions, and guides differ on which to count."
+    ],
+    "related": [
+      "missions/story-structure-released"
+    ],
+    "tags": [
+      "missions",
+      "walkthrough",
+      "chapter 2",
+      "what's in the bag?",
+      "take care of jason",
+      "overnight charges"
+    ],
+    "facts": {
+      "chapter": "Chapter 2",
+      "order": 2,
+      "type": "Mission list"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chapter-3",
+    "name": "Chapter 3 missions",
+    "summary": "The 31 missions PowerPyx's walkthrough lists for Chapter 3, from Welcome to Vice City to The Cartel Heist.",
+    "body": [
+      "In the order the walkthrough gives them: Welcome to Vice City; Dealer's Choice; Dubious Provenance; Mami Knows Best; Here, Kitty Kitty; Send Money to Lorena; Encrypted Hard Drive; Boobie Time; Meet the Heders; Yasmani's Jewelry Jobs; Car Service; Send More Money to Lorena; Top Billing; First Impressions; Crosstown Traffic; Credit Check; Clonin' Keys, Makin' GS; Ride Or Die; Raul's Next Job; Sinfrontera National Bank; Security Expert; Caught Slipping; Heist Planning; Company Property; Safe Word; The Missing Link; Cooties; Hidden Charges; Bricked Up; South Leonida Real Estate; The Cartel Heist.",
+      "The walkthrough groups eight of these under The Cartel Heist: Sinfrontera National Bank, Security Expert, Heist Planning, Company Property, Safe Word, The Missing Link, Hidden Charges and the heist itself.",
+      "Names only. A few are errands more than missions, and guides differ on which to count."
+    ],
+    "related": [
+      "missions/story-structure-released"
+    ],
+    "tags": [
+      "missions",
+      "walkthrough",
+      "chapter 3",
+      "welcome to vice city",
+      "dealer's choice",
+      "dubious provenance"
+    ],
+    "facts": {
+      "chapter": "Chapter 3",
+      "order": 3,
+      "type": "Mission list"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chapter-4",
+    "name": "Chapter 4 missions",
+    "summary": "The 34 missions PowerPyx's walkthrough lists for Chapter 4, from Ocean Beach to Starting From Zero.",
+    "body": [
+      "In the order the walkthrough gives them: Ocean Beach; Another Life; Pool Day; Company Cars; Lawyer Up; It's A Date!; Party Hard; Pay Abe's Fee; Photo/Shoot; Making Gainz; Blood Sweat and Gear; Too Much Baggage; Watch It; Amateur Hour; Call Nate; Cash Injections; Dirty Work; Nate Will Be in Touch; Adventures in Babysitting; Rafa's Kidnapping; Fresh Evidence; Child's Play; Power Play; Close Surveillance; Delivery Method; Team Building; Fully Catered; Heist Plans in Place; Headliners; VCIA Takedown; Tie Up Loose Ends; Call Valentina Back; Sunset; Starting From Zero.",
+      "The walkthrough groups the preparation jobs from Making Gainz to Heist Plans in Place, and the finale, under VCIA Takedown.",
+      "Names only. A few are errands more than missions, and guides differ on which to count."
+    ],
+    "related": [
+      "missions/story-structure-released"
+    ],
+    "tags": [
+      "missions",
+      "walkthrough",
+      "chapter 4",
+      "ocean beach",
+      "another life",
+      "pool day"
+    ],
+    "facts": {
+      "chapter": "Chapter 4",
+      "order": 4,
+      "type": "Mission list"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chapter-5",
+    "name": "Chapter 5 missions",
+    "summary": "The 10 missions PowerPyx's walkthrough lists for Chapter 5, from Bird in the Hand to The End of the Road.",
+    "body": [
+      "In the order the walkthrough gives them: Bird in the Hand; Taking Liberties; Doggie Bag; VC Baby; Operation Savage Glory; Honest Abe; Unfinished Business; Pay Abe's Fee; Protective Custody; The End of the Road.",
+      "Names only. A few are errands more than missions, and guides differ on which to count."
+    ],
+    "related": [
+      "missions/story-structure-released"
+    ],
+    "tags": [
+      "missions",
+      "walkthrough",
+      "chapter 5",
+      "bird in the hand",
+      "taking liberties",
+      "doggie bag"
+    ],
+    "facts": {
+      "chapter": "Chapter 5",
+      "order": 5,
+      "type": "Mission list"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "strangers-and-freaks",
+    "name": "Strangers and Freaks",
+    "summary": "Side missions given by people you meet. PowerPyx's guide lists 14 of them with 39 missions between them.",
+    "body": [
+      "With the number of missions each has, by the chapter in which they can first be started: Chapter 1: Shirley (2), Kirk (3). Chapter 2: Kyle (3), Moses (1), Bret Vogel (2), Billy (5). Chapter 3: Yago (4), Andy (5), Yasmani (4), Randy (1), Tyrone (2), Dunk (1). Chapter 4: Eddie Acosta (1), Pilot Pete (5).",
+      "Most can be played as either lead. The guide marks Andy's as Lucia only and Pilot Pete's as Jason only, with single missions for Kirk, Bret Vogel and Yago tied to one lead.",
+      "The Strangers & Freaks trophy asks for eight of these strands to be finished, and five strangers have a trophy of their own: Andy, Kenton, Billy, Randy and Tyrone. Kenton is in the trophy list but not in this guide's list, so the list may be incomplete.",
+      "The totals are a count of the guide's entries; the guide does not state them itself."
+    ],
+    "related": [
+      "achievements/strangers-and-freaks",
+      "missions/story-structure-released"
+    ],
+    "tags": [
+      "strangers",
+      "freaks",
+      "side missions",
+      "shirley",
+      "kirk",
+      "kyle",
+      "moses",
+      "bret vogel",
+      "billy",
+      "yago",
+      "andy",
+      "yasmani",
+      "randy",
+      "tyrone",
+      "dunk",
+      "eddie acosta",
+      "pilot pete"
+    ],
+    "facts": {
+      "type": "Side missions"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-strangers",
+      "exophase-trophies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

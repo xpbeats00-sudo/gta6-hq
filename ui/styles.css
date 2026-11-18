@@ -699,6 +699,19 @@ a.card:hover h3 { color: var(--accent-pink); }
 .conf-spoiler { background: var(--accent-pink); color: #3a0a1e; }
 .spoiler-note { display: flex; align-items: center; gap: var(--s3); }
 
+/* Trophies: icon, grade, name and requirement in a row */
+.trophy { display: flex; align-items: flex-start; gap: var(--s4); padding: var(--s4) 0; border-top: 1px solid var(--border-subtle); color: var(--text-primary); }
+.trophy img, .trophy-disc { flex: none; width: 64px; height: 64px; border-radius: var(--radius); }
+.trophy-disc { border-radius: 50%; background: currentColor; opacity: 0.85; }
+.trophy h3 { margin: 2px 0 4px; }
+.trophy p { margin: 0; color: var(--text-secondary); font-size: 0.9rem; }
+.trophy:hover h3 { color: var(--accent-pink-strong); }
+.trophy-platinum .kicker, .trophy-platinum .trophy-disc { color: #cfe3ff; }
+.trophy-gold .kicker, .trophy-gold .trophy-disc { color: #ffc46b; }
+.trophy-silver .kicker, .trophy-silver .trophy-disc { color: #c9ced6; }
+.trophy-bronze .kicker, .trophy-bronze .trophy-disc { color: #d99466; }
+.trophy-icon { display: block; width: 96px; height: 96px; margin-bottom: var(--s4); border-radius: var(--radius); }
+
 /* ---------- profile and location pages ---------- */
 
 .profile { display: grid; grid-template-columns: minmax(280px, 0.9fr) 1.1fr; gap: var(--s8); padding: var(--s7) 0 var(--s5); align-items: start; }

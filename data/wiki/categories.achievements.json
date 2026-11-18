@@ -1,0 +1,25 @@
+[
+  {
+    "key": "achievements",
+    "label": "Achievements",
+    "blurb": "The 55 PlayStation 5 trophies: 1 platinum, 2 gold, 6 silver and 46 bronze. 28 are secret. Xbox has the same 55 as achievements, worth 1,000 Gamerscore in all.",
+    "art": "city",
+    "fields": [
+      {
+        "key": "grade",
+        "label": "Trophy",
+        "type": "text"
+      },
+      {
+        "key": "secret",
+        "label": "Secret trophy",
+        "type": "text"
+      },
+      {
+        "key": "gamerscore",
+        "label": "Xbox Gamerscore",
+        "type": "number"
+      }
+    ]
+  }
+]

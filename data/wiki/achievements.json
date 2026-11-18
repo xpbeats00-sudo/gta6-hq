@@ -1,0 +1,1332 @@
+[
+  {
+    "slug": "vice-got-a-price",
+    "name": "Vice Got a Price!",
+    "summary": "Congratulations! You're a Leonida Legend.",
+    "body": [
+      "The platinum trophy is awarded for earning every other trophy in the game.",
+      "On Xbox the same name is an achievement worth no Gamerscore, for earning all the others."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "platinum"
+    ],
+    "facts": {
+      "grade": "Platinum",
+      "secret": "No",
+      "gamerscore": 0
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "just-like-paradise",
+    "name": "Just Like Paradise",
+    "summary": "Complete Gone Fishing.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "paradise-lost",
+    "name": "Paradise Lost",
+    "summary": "Complete Chapter 1.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "t-s-ass-drug-money",
+    "name": "T**s Ass Drug Money",
+    "summary": "Complete Chapter 2.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-city-baby",
+    "name": "Vice City, Baby!",
+    "summary": "Complete Chapter 3.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-of-the-world-ma",
+    "name": "Top Of The World, Ma",
+    "summary": "Complete Chapter 4.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "you-gotta-know-when-to-get-off",
+    "name": "You Gotta Know When to Get Off",
+    "summary": "Complete the final mission.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "gold",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Gold",
+      "secret": "Yes",
+      "gamerscore": 50
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "trust",
+    "name": "Trust",
+    "summary": "Complete Breakfast Run.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "break-the-bank",
+    "name": "Break the Bank",
+    "summary": "Complete The Cartel Heist.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 25
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "family-matters",
+    "name": "Family Matters",
+    "summary": "Complete Child's Play.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dwnfall",
+    "name": "DWNFALL",
+    "summary": "Complete Headliners.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hi-jacked",
+    "name": "Hi-Jacked",
+    "summary": "Complete VCIA Takedown.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 25
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "snow-storm",
+    "name": "Snow Storm",
+    "summary": "Complete Operation Savage Glory.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 25
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "a-long-road",
+    "name": "A Long Road",
+    "summary": "Attain 100% Completion.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "gold"
+    ],
+    "facts": {
+      "grade": "Gold",
+      "secret": "No",
+      "gamerscore": 100
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cunning-stunts",
+    "name": "Cunning Stunts",
+    "summary": "Complete 250 Stunts.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "silver"
+    ],
+    "facts": {
+      "grade": "Silver",
+      "secret": "No",
+      "gamerscore": 40
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "master-of-none",
+    "name": "Master of None",
+    "summary": "Try each type of activity once.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-shootist",
+    "name": "The Shootist",
+    "summary": "Earn a gold medal in all Shooting Range challenges.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "silver"
+    ],
+    "facts": {
+      "grade": "Silver",
+      "secret": "No",
+      "gamerscore": 40
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun",
+    "name": "Top Fun",
+    "summary": "Win a Top Fun Drone Race at every location.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "earn-cash-not-kudos",
+    "name": "Earn Cash, Not Kudos",
+    "summary": "Win 20 different races.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "baited-my-tackle",
+    "name": "Baited My Tackle",
+    "summary": "Beat Cal in a fishing challenge.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stick-fiddler",
+    "name": "Stick Fiddler",
+    "summary": "Complete an arcade game.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "road-to-rehabilitation",
+    "name": "Road to Rehabilitation",
+    "summary": "Complete the final mission for Andy.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "this-was-no-boat-accident",
+    "name": "This Was No Boat Accident",
+    "summary": "Complete the final mission for Kenton.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-lone-rider",
+    "name": "The Lone Rider",
+    "summary": "Complete the final mission for Billy.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "strangers-and-freaks",
+    "name": "Strangers & Freaks",
+    "summary": "Complete 8 mission strands for strangers across the state of Leonida.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "silver"
+    ],
+    "facts": {
+      "grade": "Silver",
+      "secret": "No",
+      "gamerscore": 30
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "supply-and-demand",
+    "name": "Supply & Demand",
+    "summary": "Complete the final mission for Randy.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "spin-on-this",
+    "name": "Spin On This!",
+    "summary": "Complete the final mission for Tyrone.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "positive-mental-attitude",
+    "name": "Positive Mental Attitude",
+    "summary": "Meditate at every spot across Leonida.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true,
+    "body": [
+      "PowerPyx's trophy guide warns this may be the one trophy that can be missed: the first meditation spot is at Jason's house in Chapter 1 and is not available after that chapter."
+    ]
+  },
+  {
+    "slug": "fair-game",
+    "name": "Fair Game",
+    "summary": "Hunt a unique animal for Bret.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dont-touch-my-deck",
+    "name": "Don't Touch My Deck",
+    "summary": "Complete 3 Collectible Card sets.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "silver"
+    ],
+    "facts": {
+      "grade": "Silver",
+      "secret": "No",
+      "gamerscore": 30
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "you-wainker",
+    "name": "You WAiNKer!",
+    "summary": "WAiNK It at 100 locations.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "silver"
+    ],
+    "facts": {
+      "grade": "Silver",
+      "secret": "No",
+      "gamerscore": 30
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "one-last-thing",
+    "name": "One Last Thing",
+    "summary": "Complete 50 Challenges.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hot-together",
+    "name": "Hot Together",
+    "summary": "Lose a 4 star Wanted Level with your partner and escape the heat.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "retail-therapy",
+    "name": "Retail Therapy",
+    "summary": "Rob 3 shops back-to-back with your partner without losing your Wanted Level.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "whip-it-good",
+    "name": "Whip It Good",
+    "summary": "Discover 100 vehicles.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gunslinger",
+    "name": "Gunslinger",
+    "summary": "Take down 5 enemies in a single use of Combat Focus.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "catch-me-if-you-can",
+    "name": "Catch Me If You Can",
+    "summary": "Make an unscheduled departure at VCIA.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "challenging-tank",
+    "name": "Challenging Tank",
+    "summary": "Kinda hot in these Rhinos.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sneakthief",
+    "name": "Sneakthief",
+    "summary": "Rob a jewelry store without being detected.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maximum-withdrawal",
+    "name": "Maximum Withdrawal",
+    "summary": "Rob 5 Bank Vaults and escape.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "silver"
+    ],
+    "facts": {
+      "grade": "Silver",
+      "secret": "No",
+      "gamerscore": 40
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "a-classic-blitz-play",
+    "name": "A Classic Blitz Play",
+    "summary": "Rob an Armored Truck and escape.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-goodtime-state",
+    "name": "The Goodtime State",
+    "summary": "Explore all of Leonida.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pest-control",
+    "name": "Pest Control",
+    "summary": "Rob an Illegal Operation belonging to each gang.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "in-the-beginning",
+    "name": "In The Beginning…",
+    "summary": "Enjoy a cocktail with a view on Ocean Beach.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "capital-offense",
+    "name": "Capital Offense",
+    "summary": "Smash your way out of a vehicle showroom in classic style.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lets-go-bowling",
+    "name": "Let’s Go Bowling",
+    "summary": "Follow-through at the Kolt & Associates' bowling alley.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "personal-best",
+    "name": "Personal Best",
+    "summary": "A partnership with mass appeal.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "actions-speak-louder",
+    "name": "Actions Speak Louder",
+    "summary": "Choices made (for better or worse).",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bad-luck-i-guess",
+    "name": "Bad Luck, I Guess",
+    "summary": "Second time's the charm.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-truth-is-out-there",
+    "name": "The Truth Is Out There",
+    "summary": "What the hell just happened?",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ten-pin",
+    "name": "Ten Pin",
+    "summary": "Bowl 'em over with a melee drive-by.",
+    "body": [
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+    ],
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze",
+      "secret"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "Yes",
+      "gamerscore": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dime-on-the-dollar",
+    "name": "Dime on the Dollar",
+    "summary": "Earn $250,000 laundering Marked Bills through your contacts.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 20
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "treat-yo-self",
+    "name": "Treat Yo Self",
+    "summary": "Spend $100,000 across all shops.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "little-boxes",
+    "name": "Little Boxes",
+    "summary": "Purchase all garage properties.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "on-the-spot",
+    "name": "On the Spot",
+    "summary": "Register 10 vehicles to the Scooter Bros app.",
+    "tags": [
+      "trophy",
+      "achievement",
+      "bronze"
+    ],
+    "facts": {
+      "grade": "Bronze",
+      "secret": "No",
+      "gamerscore": 15
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "exophase-trophies",
+      "exophase-achievements"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

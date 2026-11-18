@@ -1,6 +1,6 @@
 # Data and manual counts
 
-Generated 2026-11-16 14:05 by `scripts/current_state.py` from the live data files. Do not edit by hand.
+Generated 2026-11-18 12:33 by `scripts/current_state.py` from the live data files. Do not edit by hand.
 
 ## Encyclopedia
 
@@ -16,9 +16,9 @@ Generated 2026-11-16 14:05 by `scripts/current_state.py` from the live data file
 | Factions | 3 | 0 | 0 | 0 |
 | Music and Radio | 10 | 0 | 0 | 0 |
 | Weapons | 3 | 0 | 0 | 0 |
-| Missions and Story | 0 | 0 | 0 | 0 |
-| Collectibles | 0 | 0 | 0 | 0 |
-| **Total** | **76** | 0 | 0 | 0 |
+| Missions and Story | 7 | 0 | 7 | 0 |
+| Collectibles | 8 | 0 | 8 | 0 |
+| **Total** | **91** | 0 | 15 | 0 |
 
 Sources in the registry: 47. Map markers: 15 in 7 categories.
 
@@ -50,11 +50,11 @@ Manual sources: 14 checked, 1 listed but not checked.
 
 ## Media
 
-Records in `data/media.json`: 229.
+Records in `data/media.json`: 284.
 
 | Rights status | Records |
 |---|---|
-| permission_required | 214 |
+| permission_required | 269 |
 | unknown | 15 |
 
-Files on disk: `images/` 194 (40.5 MB), `wallpapers/` 70 (98.1 MB). Map tile cache: 1972 files (284.0 MB).
+Files on disk: `images/` 249 (42.0 MB), `wallpapers/` 70 (98.1 MB). Map tile cache: 1972 files (284.0 MB).

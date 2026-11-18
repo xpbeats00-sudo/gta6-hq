@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-16 14:05 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-18 12:33 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,8 +8,63 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (214)
+## Local personal use only (269)
 
+- `images/achievements/a-classic-blitz-play.png`
+- `images/achievements/a-long-road.png`
+- `images/achievements/actions-speak-louder.png`
+- `images/achievements/bad-luck-i-guess.png`
+- `images/achievements/baited-my-tackle.png`
+- `images/achievements/break-the-bank.png`
+- `images/achievements/capital-offense.png`
+- `images/achievements/catch-me-if-you-can.png`
+- `images/achievements/challenging-tank.png`
+- `images/achievements/cunning-stunts.png`
+- `images/achievements/dime-on-the-dollar.png`
+- `images/achievements/dont-touch-my-deck.png`
+- `images/achievements/dwnfall.png`
+- `images/achievements/earn-cash-not-kudos.png`
+- `images/achievements/fair-game.png`
+- `images/achievements/family-matters.png`
+- `images/achievements/gunslinger.png`
+- `images/achievements/hi-jacked.png`
+- `images/achievements/hot-together.png`
+- `images/achievements/in-the-beginning.png`
+- `images/achievements/just-like-paradise.png`
+- `images/achievements/lets-go-bowling.png`
+- `images/achievements/little-boxes.png`
+- `images/achievements/master-of-none.png`
+- `images/achievements/maximum-withdrawal.png`
+- `images/achievements/on-the-spot.png`
+- `images/achievements/one-last-thing.png`
+- `images/achievements/paradise-lost.png`
+- `images/achievements/personal-best.png`
+- `images/achievements/pest-control.png`
+- `images/achievements/positive-mental-attitude.png`
+- `images/achievements/retail-therapy.png`
+- `images/achievements/road-to-rehabilitation.png`
+- `images/achievements/sneakthief.png`
+- `images/achievements/snow-storm.png`
+- `images/achievements/spin-on-this.png`
+- `images/achievements/stick-fiddler.png`
+- `images/achievements/strangers-and-freaks.png`
+- `images/achievements/supply-and-demand.png`
+- `images/achievements/t-s-ass-drug-money.png`
+- `images/achievements/ten-pin.png`
+- `images/achievements/the-goodtime-state.png`
+- `images/achievements/the-lone-rider.png`
+- `images/achievements/the-shootist.png`
+- `images/achievements/the-truth-is-out-there.png`
+- `images/achievements/this-was-no-boat-accident.png`
+- `images/achievements/top-fun.png`
+- `images/achievements/top-of-the-world-ma.png`
+- `images/achievements/treat-yo-self.png`
+- `images/achievements/trust.png`
+- `images/achievements/vice-city-baby.png`
+- `images/achievements/vice-got-a-price.png`
+- `images/achievements/whip-it-good.png`
+- `images/achievements/you-gotta-know-when-to-get-off.png`
+- `images/achievements/you-wainker.png`
 - `images/activities/classic-car-collection.jpg`
 - `images/activities/everyday-life.jpg`
 - `images/activities/hunting-and-fishing.jpg`
