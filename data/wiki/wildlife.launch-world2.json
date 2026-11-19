@@ -524,7 +524,7 @@
       "species": "Possum",
       "habitat": "Land"
     },
-    "confidence": "corroborated",
+    "confidence": "community",
     "sources": [
       "destructoid-wildlife",
       "mashable-animals"
@@ -549,7 +549,7 @@
       "species": "Rat",
       "habitat": "Land"
     },
-    "confidence": "corroborated",
+    "confidence": "community",
     "sources": [
       "destructoid-wildlife",
       "mashable-animals"
@@ -562,7 +562,9 @@
     "name": "Dolores",
     "summary": "Jason's pet snake at his Leonida Keys house; feeding her a mouse gives a small focus boost.",
     "body": [
-      "Mashable says Dolores is a snake living at Jason's house in the Leonida Keys, that feeding her a mouse gives him a small focus boost, and, citing Cultured Vultures, that she is the only pet Jason can keep in the story."
+      "Mashable says Dolores is a snake living at Jason's house in the Leonida Keys, that feeding her a mouse gives him a small focus boost, and, citing Cultured Vultures, that she is the only pet Jason can keep in the story.",
+      "Polygon says the snake's terrarium stands near the kitchen in Jason's living room, and that each feeding gives 3% Focus, limited to once a day.",
+      "Polygon pairs it with the basketball hoop below the house, worth 2% Focus per basket up to five times before it resets, as early Focus boosts you lose access to once you no longer live there."
     ],
     "tags": [
       "animal",
@@ -577,9 +579,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "mashable-animals"
+      "mashable-animals",
+      "r8-poly-what-first"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   }
 ]

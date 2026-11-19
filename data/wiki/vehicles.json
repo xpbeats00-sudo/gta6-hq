@@ -9,14 +9,19 @@
     "summary": "A mid-1990s Grotti sports car that comes with the Ultimate Edition, in a pared-back retro-futuristic livery.",
     "body": [
       "Rockstar's Ultimate Edition description calls it Grotti's signature sports car of the mid '90s and a tribute to Shore Drive, and says it becomes available for later-stage action.",
-      "Its in-game class, performance and price have not been published."
+      "Its in-game class, performance and price have not been published.",
+      "GTABase's page for the Grotti Cheetah '95 lists a registration cost of $32,750 and a stolen sell value of $16,775.",
+      "GTABase says it carries a Advanced Tracker.",
+      "GTABase lists its specialist type as Luxury."
     ],
     "facts": {
       "manufacturer": "Grotti",
       "model": "Cheetah",
       "year": "1995",
       "class": "Sports car",
-      "availability": "Ultimate Edition"
+      "availability": "Ultimate Edition",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "related": [
       "editions/ultimate-edition",
@@ -32,9 +37,10 @@
     "confidence": "official",
     "sources": [
       "rockstar-media",
-      "g6w-editions"
+      "g6w-editions",
+      "r8gb-vehicles-cheetah-classic"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-19"
   },
   {
     "slug": "vapid-stanier-55",
@@ -87,13 +93,19 @@
       "Rockstar describes the Retro Build as adding muscle and classic styling to the truck. One of its images shows Jason driving a Ganado in yellow paint with a red racing stripe.",
       "IGN says the Ultimate Edition Retro Build for Jason's Vapid '70 Ganado is claimed at Coastal Auto Care, whose owner Joey texts its location shortly after Chapter 1 begins, adding a Fix Your Car objective that IGN says slightly raises Jason's relationship with Lucia.",
       "IGN says the required repairs, including the engine and a respray, come first; the build is then under Pro Builds, Full Kits, as Retro Build: Ultimate Edition.",
-      "IGN says the Retro Build is more than a cosmetic change, giving the Ganado slightly better speed and acceleration."
+      "IGN says the Retro Build is more than a cosmetic change, giving the Ganado slightly better speed and acceleration.",
+      "Game8 says Jason's '70 Ganado is obtained after the first main mission, Gone Fishing, parked at Brian's marina; it gives 2 seats, a Muscle specialist, speed 4.7 and acceleration 5.3.",
+      "Eurogamer says the Retro Build is claimed at Coastal Auto Care during Fix Your Car, after the repair and respray, under Pro Builds > Full Kits > 'Retro Build: Ultimate Edition', and that it slightly raises speed and acceleration.",
+      "Eurogamer's report on Ultimate Edition unlocks says the retro Ganado, like Jason's other safehouse vehicles, is usable only during Chapter 1.",
+      "GTABase's page for the Vapid Ganado '70 lists a registration cost of $6,500 and a stolen sell value of $1,980.",
+      "GTABase says it carries no tracker."
     ],
     "facts": {
       "manufacturer": "Vapid",
       "model": "Ganado",
       "class": "Pickup",
-      "year": "1970"
+      "year": "1970",
+      "seats": 2
     },
     "related": [
       "characters/jason-duval",
@@ -113,7 +125,11 @@
     "sources": [
       "rockstar-media",
       "g6w-editions",
-      "ign-ganado-retro-build"
+      "ign-ganado-retro-build",
+      "r7-g8-ganado",
+      "r8-eg-ganado-retro",
+      "r8-eg-ue-temporary",
+      "r8gb-vehicles-ganado"
     ],
     "verified": "2026-11-19"
   },
@@ -166,13 +182,14 @@
     "summary": "A motorcycle in Army-fatigue colours, one of the two safehouse vehicles for Jason in the Ultimate Edition.",
     "body": [
       "Rockstar lists it with the Crest Kayak under Jason's Safehouse Vehicles.",
-      "IGN calls it the Dinka '72 Enduro and says this Ultimate Edition motorcycle is stored underneath Jason's Key Lento house."
+      "IGN calls it the Dinka '72 Enduro and says this Ultimate Edition motorcycle is stored underneath Jason's Key Lento house.",
+      "Eurogamer, citing IGN's unlock details, says Jason's Ultimate Edition Dinka Enduro and Crest Kayak can only be used during Chapter 1."
     ],
     "facts": {
       "manufacturer": "Dinka",
       "model": "Enduro",
       "class": "Motorcycle",
-      "availability": "Ultimate Edition",
+      "availability": "Ultimate Edition, Chapter 1 only",
       "year": "1972"
     },
     "related": [
@@ -193,7 +210,8 @@
     "sources": [
       "rockstar-media",
       "g6w-editions",
-      "ign-beginners-guide"
+      "ign-beginners-guide",
+      "r8-eg-ue-temporary"
     ],
     "verified": "2026-11-19"
   },
@@ -202,11 +220,12 @@
     "name": "Crest Kayak",
     "summary": "A kayak, one of the two safehouse vehicles for Jason in the Ultimate Edition.",
     "body": [
-      "Rockstar lists it with the Dinka Enduro motorcycle under Jason's Safehouse Vehicles. One of its images shows an orange one."
+      "Rockstar lists it with the Dinka Enduro motorcycle under Jason's Safehouse Vehicles. One of its images shows an orange one.",
+      "Eurogamer, citing IGN's unlock details, says the Ultimate Edition Crest Kayak, like the Dinka Enduro, can only be used during Chapter 1."
     ],
     "facts": {
       "class": "Kayak",
-      "availability": "Ultimate Edition"
+      "availability": "Ultimate Edition, Chapter 1 only"
     },
     "related": [
       "characters/jason-duval",
@@ -225,8 +244,9 @@
     "confidence": "official",
     "sources": [
       "rockstar-media",
-      "g6w-editions"
+      "g6w-editions",
+      "r8-eg-ue-temporary"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-19"
   }
 ]

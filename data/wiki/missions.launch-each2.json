@@ -43,7 +43,10 @@
       "PC Gamer's mission list has it sixth in Chapter 4, after Party Hard and before Photo/Shoot; Dexerto's list puts it in the same place.",
       "Disagreement: PowerPyx's hub does not list a mission called Heavy Lifting; in the same stretch it has It's A Date!, Party Hard, Pay Abe's Fee and Photo/Shoot.",
       "KeenGamer's walkthrough lists it sixth in Chapter 4 as a delivery job involving Jason and Lucia, and Push Square's and games.gg's lists also include it.",
-      "TechWiser's 38-mission Chapter 4 list, like PowerPyx's, has no mission called Heavy Lifting."
+      "TechWiser's 38-mission Chapter 4 list, like PowerPyx's, has no mission called Heavy Lifting.",
+      "PowerPyx's walkthrough (November 19, 2026) does list Heavy Lifting (Bring Raul the Hard Drive), as the 80th main mission, settling the app's note that PowerPyx's hub lacked it.",
+      "PowerPyx says Raul gives it shortly after Lawyer Up; it starts at a storage locker in Crosstown, Vice City, moves on to Raul's houseboat in Leonard County and Ajax Gym, and gives no reward.",
+      "Disagreement: PowerPyx puts Heavy Lifting (80th) before Party Hard (81st), whereas PC Gamer and Dexerto have it after Party Hard."
     ],
     "tags": [
       "chapter 4",
@@ -55,7 +58,10 @@
     "facts": {
       "protagonist": "Lucia and Jason",
       "chapter": "Chapter 4",
-      "type": "Main mission"
+      "type": "Main mission",
+      "giver": "Raul",
+      "location": "Storage locker, Crosstown, Vice City",
+      "reward": "None"
     },
     "confidence": "corroborated",
     "sources": [
@@ -67,7 +73,8 @@
       "keengamer-walkthrough",
       "pushsquare-chapters",
       "gamesgg-missions",
-      "techwiser-missions"
+      "techwiser-missions",
+      "r7-ppx-heavy-lifting"
     ],
     "verified": "2026-11-19",
     "spoiler": true

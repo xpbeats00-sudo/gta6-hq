@@ -2,6 +2,18 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.30 (19 November 2026)
+
+Launch-day news, 66 standout vehicles, 29 places and about 160 more pictures.
+
+- Entries: 3,051, up from 2,928; 2,593 show a picture.
+- Vehicles (383): 66 standout vehicles from GTABase's map, Moses' Sultan, and registration cost, sell value, seats and drive for more cars.
+- Places (157): landmarks, police stations, hospitals and marinas.
+- Weapons: exact spots or prices for about 85 unique weapons, story-mode prices, shop unlock rules, the ADB PD-90.
+- Missions: giver, start and reward for more Chapter 1 to 4 missions and side lines, with mission screenshots; no plot.
+- Easter eggs and extras: UFO abduction, giant crab, lifeguard dog, Sam Houser's cameo, Arthur Morgan's hat, Kitty Litter labs, house repairs.
+- Intel (81 news items): Rockstar's launch post and support articles, Sensor Tower's ~19 million estimate, final streaming numbers, autosave reports, boxed-copy code problems.
+
 ## 0.2.29 (19 November 2026)
 
 Two pictures put back on the right entries.

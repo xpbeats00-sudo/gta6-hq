@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "collect-moses-gift",
+    "name": "Collect Moses' Gift",
+    "summary": "Moses' last side job: after every requested car is delivered, a unique Sultan waits in the small garage beside his shop.",
+    "body": [
+      "PowerPyx lists Collect Moses' Gift as an optional side mission given by Moses, starting at his shop in Port Gellhorn, Kelly County, and playable as Lucia or Jason.",
+      "PowerPyx says it opens once every vehicle in Steal Vehicles for Moses has been delivered, when Moses texts that a gift is waiting at his shop.",
+      "PowerPyx gives the questline order as Moses, Daily Driver, Steal Vehicles for Moses, then Collect Moses' Gift.",
+      "PowerPyx says the reward, Moses' Sultan, is a unique Street Racer kept behind the door of the smaller garage next to the main one, and that it can be sold or registered and kept."
+    ],
+    "tags": [
+      "moses",
+      "port gellhorn",
+      "side mission",
+      "sultan"
+    ],
+    "facts": {
+      "giver": "Moses",
+      "location": "Moses' shop, Port Gellhorn, Kelly County",
+      "reward": "Moses' Sultan (unique Street Racer)",
+      "protagonist": "Lucia or Jason",
+      "type": "Optional mission",
+      "unlocks": [
+        "Moses' Sultan"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r7-ppx-collect-moses-gift"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cal-catch-a-bigger-fish",
+    "name": "Catch A Bigger Fish",
+    "summary": "Cal's Chapter 1 fishing challenge for Jason: land a Stoplight Parrotfish heavier than 2 lb at a marked spot in Gambit Bay.",
+    "body": [
+      "PowerPyx lists Catch A Bigger Fish as a side quest from Cal, starting in Gambit Bay, Mariana County, and playable only as Jason.",
+      "PowerPyx says Cal texts the challenge after the Chapter 1 main mission Feng Shui, asking for a Stoplight Parrotfish over 2 lb.",
+      "PowerPyx says that after Chapter 1 the boat at Jason's house is gone, so a boat has to be taken elsewhere; it suggests the docks near The Rusty Anchor, where fishing boats usually sit.",
+      "PowerPyx says the anchor is dropped from the vehicle menu (hold Left on the D-pad, then the right stick up).",
+      "PowerPyx gives the reward as a Focus increase and the Baited My Tackle trophy or achievement."
+    ],
+    "tags": [
+      "cal",
+      "fishing",
+      "gambit bay",
+      "side mission",
+      "trophy"
+    ],
+    "facts": {
+      "giver": "Cal",
+      "location": "Gambit Bay, Mariana County",
+      "reward": "Focus increase; Baited My Tackle trophy",
+      "protagonist": "Jason",
+      "chapter": "Chapter 1",
+      "type": "Optional mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r7-ppx-bigger-fish"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

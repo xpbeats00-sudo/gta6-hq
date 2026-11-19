@@ -10,11 +10,15 @@
     "body": [
       "Rockstar says the styling comes from the Vercetti Estate: grips etched with palm trees, engraved detailing and a high-performance scope.",
       "Damage, ammunition and how the pair is unlocked in play have not been published.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
+      "GTABase lists an ammo capacity of 6.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "facts": {
       "type": "Revolver",
-      "availability": "Ultimate Edition"
+      "availability": "Ultimate Edition",
+      "magazine": "6",
+      "manufacturer": "Hawk & Little"
     },
     "related": [
       "editions/ultimate-edition"
@@ -30,7 +34,8 @@
     "sources": [
       "rockstar-media",
       "g6w-editions",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-morgan-revolver"
     ],
     "verified": "2026-11-19"
   },
@@ -44,7 +49,9 @@
     "body": [
       "It is named in Rockstar's description of the Personalized Weapon Variants, alongside Lucia's Klose K17. No stats have been published.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
-      "IGN rates it damage 4.2, accuracy 5.2, handling 8.4 and range 4.4 with a 15-round magazine, as a Girardi military pistol in 9mm; Game8's list gives the same ratings."
+      "IGN rates it damage 4.2, accuracy 5.2, handling 8.4 and range 4.4 with a 15-round magazine, as a Girardi military pistol in 9mm; Game8's list gives the same ratings.",
+      "GTABase gives the Girardi ES9 a story mode price of $700 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "facts": {
       "type": "Pistol",
@@ -53,7 +60,8 @@
       "manufacturer": "Girardi",
       "slot": "sidearm",
       "magazine": "15",
-      "fire_mode": "Semi-auto"
+      "fire_mode": "Semi-auto",
+      "price": "$700"
     },
     "related": [
       "characters/jason-duval",
@@ -73,7 +81,8 @@
       "rockstar-media",
       "g6w-editions",
       "ign-weapons-guide",
-      "game8-weapons-hub"
+      "game8-weapons-hub",
+      "r8gb-weapons-girardi-es9"
     ],
     "verified": "2026-11-19"
   },
@@ -87,7 +96,9 @@
     "body": [
       "It is named in Rockstar's description of the Personalized Weapon Variants, alongside Jason's Girardi ES9. No stats have been published.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
-      "IGN rates it damage 4, accuracy 4.2, handling 8.5 and range 3.8 with a 17-round magazine, as a Klose service pistol in 9mm; Game8's list gives the same ratings."
+      "IGN rates it damage 4, accuracy 4.2, handling 8.5 and range 3.8 with a 17-round magazine, as a Klose service pistol in 9mm; Game8's list gives the same ratings.",
+      "GTABase gives the Klose K17 a story mode price of $975 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "facts": {
       "type": "Pistol",
@@ -96,7 +107,8 @@
       "manufacturer": "Klose",
       "slot": "sidearm",
       "magazine": "17",
-      "fire_mode": "Semi-auto"
+      "fire_mode": "Semi-auto",
+      "price": "$975"
     },
     "related": [
       "characters/lucia-caminos",
@@ -116,7 +128,8 @@
       "rockstar-media",
       "g6w-editions",
       "ign-weapons-guide",
-      "game8-weapons-hub"
+      "game8-weapons-hub",
+      "r8gb-weapons-klose-k17"
     ],
     "verified": "2026-11-19"
   }

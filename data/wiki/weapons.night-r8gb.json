@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "adb-pd-90",
+    "name": "ADB PD-90",
+    "summary": "An ADB submachine gun sold at Ammu-Nation for $3,350, according to GTABase.",
+    "body": [
+      "GTABase lists the ADB PD-90 as a SMG weapon made by ADB, with an ammo capacity of 30.",
+      "GTABase says it is bought at Ammu-Nation for $3,350 in story mode and can be modified with attachments and tints.",
+      "Dexerto's weapon page lists in-game ratings of damage 4.2, accuracy 4.8, handling 6.6 and range 4.2, a 30-round magazine and full auto fire, and calls it an Assault SMG.",
+      "Dexerto gives its caliber as 5.7x28mm, full-auto fire, and the maker's full name as Armurerie de Belgique."
+    ],
+    "tags": [
+      "adb",
+      "ammu-nation",
+      "smg",
+      "weapon"
+    ],
+    "facts": {
+      "type": "smg",
+      "manufacturer": "ADB",
+      "availability": "Ammu-Nation",
+      "magazine": "30",
+      "price": "$3,350",
+      "ammo": "5.7x28mm",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-weapons-pd-90",
+      "r10-dex-w-adb-pd-90"
+    ],
+    "verified": "2026-11-19",
+    "spoiler": true
+  }
+]

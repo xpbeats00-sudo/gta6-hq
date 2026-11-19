@@ -1,0 +1,25 @@
+[
+  {
+    "slug": "drumboyz",
+    "name": "Drumboyz",
+    "summary": "A gang with a compound in the Waning Sands area, which GTABase's map describes as Scouse.",
+    "body": [
+      "GTABase's map lists a Drumboyz gang compound in its Waning Sands area and calls the gang Scouse."
+    ],
+    "tags": [
+      "compound",
+      "gang",
+      "waning sands"
+    ],
+    "facts": {
+      "type": "Gang",
+      "territory": "Compound in the Waning Sands area (GTABase's map)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-gang-compound"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

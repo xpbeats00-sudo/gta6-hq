@@ -1,0 +1,60 @@
+[
+  {
+    "slug": "ufo-abduction-easter-egg",
+    "name": "UFO abduction",
+    "summary": "A rare night-time UFO encounter on a Kelly County road that ends in an abduction and unlocks The Truth Is Out There.",
+    "body": [
+      "PowerPyx says the UFO appears on the road north-west of the Starlet Motel in Kelly County at night after 2:00 AM, only when the player is alone, and that the spawn is random.",
+      "PowerPyx says the sign is a car with blinking lights at the roadside; if it is missing, drive away and come back.",
+      "According to PowerPyx, a path beside the car leads into the woods to a bright blue light in the sky, where the UFO drops a woman it had taken.",
+      "PowerPyx says agreeing to help her and walking back to her car brings the UFO back to take the player, who wakes three days later in the morning.",
+      "PowerPyx says the encounter unlocks The Truth Is Out There trophy or achievement."
+    ],
+    "tags": [
+      "aliens",
+      "easter egg",
+      "kelly county",
+      "trophy",
+      "ufo"
+    ],
+    "facts": {
+      "type": "Easter egg",
+      "shown_in": "PowerPyx guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r7-ppx-ufo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "police-car-trunk-loot",
+    "name": "Looting police cars",
+    "summary": "Parked police cars can be opened with the Slim Jim and their trunks searched for guns, ammo, armor and cash.",
+    "body": [
+      "Sportskeeda says the Slim Jim, given in a Chapter 2 story mission, opens the driver's door of a parked police car.",
+      "Sportskeeda says sitting inside switches off the trunk alarm, so the trunk can then be opened without setting it off.",
+      "Sportskeeda reports finding assault rifles and once a shotgun, ammunition in a storage crate, a stun gun, and sometimes money and body armor.",
+      "PC Gamer says police pickups such as the Bravado Bison have a storage crate in the bed that can be opened without any alarm, and may hold weapons, ammo and stun guns.",
+      "PC Gamer says a cruiser's trunk is alarmed, but breaking into the car with the slim jim from the Chapter 2 mission Moses unlocks the trunk, which often holds an assault rifle, a shotgun or body armour; without the slim jim a screwdriver opens it and sets off the alarm."
+    ],
+    "tags": [
+      "loot",
+      "police",
+      "slim jim",
+      "trunk"
+    ],
+    "facts": {
+      "type": "Crime",
+      "shown_in": "Sportskeeda guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r7-sk-police-cars",
+      "r8-pcg-cop-trunks"
+    ],
+    "verified": "2026-11-19",
+    "spoiler": true
+  }
+]

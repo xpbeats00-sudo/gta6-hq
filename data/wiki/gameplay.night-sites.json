@@ -36,7 +36,16 @@
       "According to GameSpot, airliners are at Vice City International Airport in south-west Vice-Dale County; crossing the restricted gate brings a 3-star wanted level, some planes are locked, and they need a long runway.",
       "GameSpot found jets only at Mile Zero Air Station in the far south-west, west of Key Lento, and suggests reaching it by boat on its west side; whether a jet is waiting is down to chance.",
       "GameSpot says helicopters often sit on skyscraper helipads, naming Maven Residences south-west of Panos Plaza downtown and Crimson Palms in north Washington Beach, and that a large helicopter guarded by three men sits on a helipad in the gated Lake Tallaloko community north of Millport.",
-      "GameSpot warns that flying stolen aircraft through restricted airspace is an easy way to reach a 6-star wanted level, and says aircraft were scarce even across the main story."
+      "GameSpot warns that flying stolen aircraft through restricted airspace is an easy way to reach a 6-star wanted level, and says aircraft were scarce even across the main story.",
+      "PowerPyx warns that jets taken from Vice City International Airport carry trackers and bring fighter jets, and recommends unguarded airstrips instead.",
+      "PowerPyx lists planes at the Key Lento airstrip near Jason's house (good for revealing the map because its fuel lasts), west of the Mariana County swamps, south of Port Gellhorn, in central Kelly County and on an airstrip in north Kelly County, plus a plane on Flamingo Island.",
+      "PowerPyx lists helicopters on a helipad east of Hamlet, on the hospital roof (not always there; reached by ladder), on Vice City skyscraper roofs marked H on the map (via the lobby elevator), on a hotel roof at Ocean Beach, on Flamingo Island, at the airstrip south of Port Gellhorn, in north Ambrosia and in the far north of Lummox County; Sportskeeda lists the same helipads.",
+      "Game8 lists crop dusters at Pelican Valley, military aircraft at Mile Zero Air Station, airliners at VCIA, and small propeller planes at Wild Hog Point, North Kelly County and Grassrivers.",
+      "Game8 adds helipads on the Southwind coast, Washington Island, across from the Y Hotel Fitness Club, near the Ocean Beach bridge, on the Acai Dreams Rooftop Bar, Penmarch Isle, Downtown, VCIA, Peacock Bay and inside Leonida State Prison.",
+      "PC Gamer says the nearest aircraft to Jason's Key Lento house are about 2.5 miles south-west along the Sunbelt Highway (Route 1) in Southwind, at the lot signed for Sherwin Boatworks and Chicki's Tiki Bar.",
+      "PC Gamer says a small hangar to the south of that lot usually holds a few Mammoth Dodo seaplanes, with more moored off the dock, and that a Buckingham Maverick helicopter sits on the dock through an open gate to the east; nobody guards either.",
+      "TheGamer adds a small runway near Port Gellhorn, planes parked in the driveways of the wealthy housing area north of Belville (best tried at night), and a rooftop helipad at the Southside medical centre reached by stairs on the left of the building, whose helicopter is usually unlocked and untracked.",
+      "TheGamer says helicopters on Vice City's tallest towers tend to carry advanced trackers, and that taking a plane at Vice City International Airport no longer means an instant five stars."
     ],
     "tags": [
       "aircraft",
@@ -50,9 +59,15 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "gs-get-plane"
+      "gs-get-plane",
+      "r7-ppx-aircraft",
+      "r7-sk-aircraft",
+      "r7-g8-airports",
+      "r7-g8-helicopters",
+      "r8-pcg-first-plane",
+      "r8-tg-planes-helis"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

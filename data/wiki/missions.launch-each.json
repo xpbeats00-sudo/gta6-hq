@@ -5,7 +5,11 @@
     "summary": "The opening mission for Lucia.",
     "body": [
       "PowerPyx counts it as the 1st main mission of the game.",
-      "GTABase's story list has it as mission 1, in Prologue."
+      "GTABase's story list has it as mission 1, in Prologue.",
+      "Eurogamer says an inmate called Yolanda sits stuck on a crossword in the opening cell block, and talking to her lets Lucia offer an answer for the planet of love.",
+      "Eurogamer says the choices are Venus, Uranus and Mars, that Venus is correct and earns her thanks, and that wrong answers only change the dialogue.",
+      "Eurogamer calls the prison Leonida Penitentiary, while the app's facts give the location as Hamlet Prison.",
+      "GTABase names the prison Hamlet Correctional and says the flashback police chase is scripted: it cannot be escaped, and the game returns to the counsellor's office on its own after a while."
     ],
     "tags": [
       "lucia",
@@ -25,9 +29,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-prologue",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8-eg-crossword",
+      "r8gb-prologue"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -80,7 +86,11 @@
       "GTABase's story list has it as mission 3, in Chapter 1.",
       "IGN's walkthrough says the mission starts by walking into Chuck's Tackle & Shot, the Ammu-Nation in Key Lento, about 0.10 mi from Jason's home, and that the cashier is named Andrew.",
       "Disagreement: IGN's table lists the reward as None, while the app's earlier sources describe the longarm bought during the mission as the reward.",
-      "IGN's walkthrough mentions the Hawk & Little Mediator tactical rifle at $450 there, with its first magazine upgrade at $55."
+      "IGN's walkthrough mentions the Hawk & Little Mediator tactical rifle at $450 there, with its first magazine upgrade at $55.",
+      "Eurogamer, which calls it Pick Up Another Gun, suggests first taking another $1,000 from the stash under Jason's bedroom floorboards to afford attachments.",
+      "Eurogamer says the clerk offers a choice of two longarms, a shotgun or a tactical rifle, with discounted attachments marked by a yellow label, and that a group of Kingfishers starts a fist fight outside afterwards.",
+      "Eurogamer lists Lab Fees (Collect Brian's Rent), Fix Your Car and Go See Cal as the missions that can follow.",
+      "GTABase says the longarm is bought from Andrew, the Ammu-Nation clerk, and that the choice is between a shotgun and a tactical rifle."
     ],
     "tags": [
       "chapter 1",
@@ -102,7 +112,9 @@
       "powerpyx-walkthrough",
       "powerpyx-gear-up-pick-up-another-gun",
       "gtabase-missions",
-      "ign-gear-up"
+      "ign-gear-up",
+      "r8-eg-another-gun",
+      "r8gb-missions-gear-up"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -118,7 +130,10 @@
       "PowerPyx's page uses this mission to explain fences: stolen narcotics, jewelry and marked bills can be sold at green map icons, and more fences open with story progress.",
       "GTABase's story list has it as mission 6, in Chapter 1.",
       "IGN's walkthrough says the job is to collect Brian's rent from the owner of the Moonstone Boutique on the south-west side of Key Lento.",
-      "Disagreement: IGN's table lists the reward as None, while the app's earlier sources give $600."
+      "Disagreement: IGN's table lists the reward as None, while the app's earlier sources give $600.",
+      "Eurogamer gives the code for the lab door at the back of the Moonstone Boutique as 0420, with the keypad to the right of the sofa and eye tapestry.",
+      "Eurogamer says threatening the clerk makes him pull a bat that you can grab, after which he hands over the code; the code is also written on the back of a red notebook on a table at the back left of the store.",
+      "Eurogamer warns that trying the door without talking to the clerk first makes him turn violent."
     ],
     "tags": [
       "chapter 1",
@@ -140,7 +155,8 @@
       "powerpyx-walkthrough",
       "powerpyx-lab-fees-collect-brians-rent",
       "gtabase-missions",
-      "ign-lab-fees"
+      "ign-lab-fees",
+      "r8-eg-lab-code"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -155,7 +171,11 @@
       "PowerPyx lists it as opening after Gone Fishing.",
       "PowerPyx notes that registering new personal vehicles is not possible yet and opens in Chapter 2 through story progress.",
       "GTABase's story list has it as mission 7, in Chapter 1.",
-      "IGN's walkthrough says the mission begins with a text from Joey and takes place at Joey's mod shop, and lists the reward as a free repair and repaint for Jason's Vapid '70 Ganado truck."
+      "IGN's walkthrough says the mission begins with a text from Joey and takes place at Joey's mod shop, and lists the reward as a free repair and repaint for Jason's Vapid '70 Ganado truck.",
+      "Eurogamer, which calls the mission Fix Your Car, says it raises Jason's bond with Lucia if done before she comes home.",
+      "Eurogamer says that after it Joey can be called from the phone's Contacts app to repair the Ganado or bring it to you, and that Mod Shops and Pay 'n' Sprays open up at this point.",
+      "GTABase lists a Retro Build kit for the Ganado among the mission's unlocks, free with the Ultimate Edition.",
+      "GTABase says the Ganado is Jason's car for the rest of Chapter 1 but is replaced later, losing any upgrades, and that registering a new personal vehicle only becomes possible in Chapter 2."
     ],
     "tags": [
       "chapter 1",
@@ -170,14 +190,21 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 4,
-      "type": "Main mission"
+      "type": "Main mission",
+      "unlocks": [
+        "Mod Shops",
+        "Pay 'n' Spray",
+        "Joey's repair and delivery call"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-just-a-scratch-fix-your-car",
       "gtabase-missions",
-      "ign-just-a-scratch"
+      "ign-just-a-scratch",
+      "r8-eg-fix-your-car",
+      "r8gb-missions-just-a-scratch"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -192,7 +219,8 @@
       "PowerPyx lists it as opening after Gone Fishing.",
       "GTABase's story list has it as mission 4, in Chapter 1.",
       "IGN's walkthrough lists the reward as $200, plus $150 picked up during the mission.",
-      "Disagreement: the app's earlier sources give $150 and the police radio scanner; IGN's table does not mention the scanner."
+      "Disagreement: the app's earlier sources give $150 and the police radio scanner; IGN's table does not mention the scanner.",
+      "GTABase points out a second way into the Hamlet impound: a lift at the back of the lot goes up to the roof, from where the parked cars can be scanned."
     ],
     "tags": [
       "chapter 1",
@@ -217,7 +245,8 @@
       "powerpyx-walkthrough",
       "powerpyx-unwanted-attention-go-see-cal",
       "gtabase-missions",
-      "ign-unwanted-attention"
+      "ign-unwanted-attention",
+      "r8gb-missions-unwanted-attention"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -401,8 +430,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-20cee90b17fb.jpg"
+    "spoiler": true
   },
   {
     "slug": "buy-flowers",
@@ -435,8 +463,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-3ed8f8f898e3.jpg"
+    "spoiler": true
   },
   {
     "slug": "buy-lucia-a-necklace",
@@ -469,8 +496,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-f44684ec481e.jpg"
+    "spoiler": true
   },
   {
     "slug": "get-the-chop",
@@ -504,8 +530,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-aa51b7f27fa2.jpg"
+    "spoiler": true
   },
   {
     "slug": "get-lucias-clothes",
@@ -623,7 +648,9 @@
       "PowerPyx lists it as opening after Coming Home.",
       "PowerPyx explains that money moved into Family Savings can never be withdrawn or lost, and that each savings goal unlocks price-reduction perks.",
       "GTABase's story list has it as mission 15, in Chapter 1.",
-      "IGN's walkthrough says Lucia asks Jason to meet her at the nearby Fleeca bank, and lists a possible relationship buff with Lucia as the reward, depending on the choice made inside the bank."
+      "IGN's walkthrough says Lucia asks Jason to meet her at the nearby Fleeca bank, and lists a possible relationship buff with Lucia as the reward, depending on the choice made inside the bank.",
+      "Eurogamer, which calls the mission Get A Bank Account, says the bank manager turns Jason down and sets him up with BuckMe instead.",
+      "Eurogamer says BuckMe then allows ATM deposits and withdrawals and buying items that need a bank account, such as special guns at Ammu-Nation, and that Deposit Cash into BuckMe and Save for the Future follow it."
     ],
     "tags": [
       "chapter 1",
@@ -648,7 +675,8 @@
       "powerpyx-walkthrough",
       "powerpyx-buck-me-set-up-bank-account",
       "gtabase-missions",
-      "ign-buck-me"
+      "ign-buck-me",
+      "r8-eg-bank-account"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -723,8 +751,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-44aa8717275f.jpg"
+    "spoiler": true
   },
   {
     "slug": "save-for-the-future",
@@ -772,7 +799,10 @@
       "PowerPyx lists it as opening after Down to Earth.",
       "GTABase's story list has it as an optional mission in Chapter 1.",
       "IGN's walkthrough says Cal offers it by text in Chapter 1, that it is missable, and that it has four search areas; selling the packages pays $2,720 at Brian's Lockup or $3,400 at Donnie's Trailer.",
-      "IGN recommends finishing it before Clear Skies, since afterwards only one place is left to sell to, and it pays less."
+      "IGN recommends finishing it before Clear Skies, since afterwards only one place is left to sell to, and it pays less.",
+      "Eurogamer calls this job Donnie's Packages and says Cal texts four new package locations after the first package is delivered and the BuckMe account is set up.",
+      "Eurogamer places the packages in the Thorpe Adventures theme park (in a hut left of the entrance), two on an alligator-covered island in Pelican Valley, two at a beach cove and a broken jetty in the Recreation Area, and one in a burnt shack in the Burnt Wetland Homes area.",
+      "Eurogamer warns that the packages count as a grab bag, so they are lost if you are arrested or killed, and says they can go to Brian's lockup or Donnie's trailer."
     ],
     "tags": [
       "chapter 1",
@@ -794,7 +824,8 @@
       "powerpyx-walkthrough",
       "powerpyx-find-the-lost-drugs",
       "gtabase-missions",
-      "ign-find-the-lost-drugs"
+      "ign-find-the-lost-drugs",
+      "r8-eg-donnies-packages"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -867,8 +898,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-ff22bc97b872.jpg"
+    "spoiler": true
   },
   {
     "slug": "clear-skies",
@@ -1046,8 +1076,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-8db7a6f8114d.jpg"
+    "spoiler": true
   },
   {
     "slug": "recalibration",
@@ -1803,7 +1832,8 @@
     "body": [
       "PowerPyx labels it an optional mission.",
       "PowerPyx lists it as opening after Coffee Break.",
-      "GTABase's story list has it as an optional mission in Chapter 2."
+      "GTABase's story list has it as an optional mission in Chapter 2.",
+      "GTABase says Avery Pawn is one of the four jobs marked on the map after Coffee Break, and that the stolen goods are fenced afterwards."
     ],
     "tags": [
       "chapter 2",
@@ -1823,11 +1853,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-hit-avery-pawn",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-strangers-hit-avery-pawn"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-691105284572.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "hit-kingpin-bowling",
@@ -1862,8 +1892,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-b143b7486c63.jpg"
+    "spoiler": true
   },
   {
     "slug": "impounded-vehicle",
@@ -1895,8 +1924,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-ec59730a83ef.jpg"
+    "spoiler": true
   },
   {
     "slug": "prepare-for-vice-city",
@@ -1975,7 +2003,9 @@
       "PowerPyx gives \"Move to Vice City\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx says it needs every Chapter 2 main mission done and at least $15,000, and that starting it is a point of no return that ends Chapter 2.",
       "GTABase's story list has it as mission 46, in Chapter 2.",
-      "IGN's walkthrough lists no reward and says the mission unlocks after Afternoon Delight; having $15,000 in the BuckMe checking account makes it unlock sooner."
+      "IGN's walkthrough lists no reward and says the mission unlocks after Afternoon Delight; having $15,000 in the BuckMe checking account makes it unlock sooner.",
+      "GTABase warns of a bug: dying during the motorbike chase can make Jason vanish as an objective and leave a police search area that cannot be escaped, so it advises restarting the mission if that happens.",
+      "GTABase also says starting the mission means losing the Starlet Motel as a home for good."
     ],
     "tags": [
       "chapter 2",
@@ -1996,7 +2026,8 @@
       "powerpyx-walkthrough",
       "powerpyx-checking-out-move-to-vice-city",
       "gtabase-missions",
-      "ign-checking-out"
+      "ign-checking-out",
+      "r8gb-missions-checking-out"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2069,8 +2100,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-79267ce652d4.jpg"
+    "spoiler": true
   },
   {
     "slug": "dubious-provenance",
@@ -2081,7 +2111,8 @@
       "PowerPyx gives \"Visit the Antique Store\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Dealer's Choice.",
       "PowerPyx splits the mission into three parts and says the part 1 reward depends on a choice.",
-      "GTABase's story list has it as mission 50, in Chapter 3."
+      "GTABase's story list has it as mission 50, in Chapter 3.",
+      "GTABase says a '32 Hustler is parked by the storage container at the end of the mission and can be kept or sold."
     ],
     "tags": [
       "chapter 3",
@@ -2101,11 +2132,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-dubious-provenance-visit-the-antique-store",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-dubious-provenance"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-acdb5319a0a9.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "mami-knows-best",
@@ -2140,8 +2171,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-507c082bc617.jpg"
+    "spoiler": true
   },
   {
     "slug": "get-your-wheels",
@@ -2181,7 +2211,8 @@
       "PowerPyx counts it as the 48th main mission of the game.",
       "PowerPyx gives \"Speak with Tyrone\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Dubious Provenance.",
-      "GTABase's story list has it as mission 54, in Chapter 3."
+      "GTABase's story list has it as mission 54, in Chapter 3.",
+      "GTABase says it becomes available after the first part of Dubious Provenance, by going back to Tyrone at the apartment complex in La Perle as Jason."
     ],
     "tags": [
       "chapter 3",
@@ -2204,11 +2235,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-here-kitty-kitty-speak-with-tyrone",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-here-kitty-kitty"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-88b1a0280f90.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "send-money-to-lorena",
@@ -2279,7 +2310,8 @@
       "PowerPyx gives \"Talk to Boobie\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Dubious Provenance.",
       "PowerPyx says Yasmani pays more for jewelry and marked bills than the other drop-offs.",
-      "GTABase's story list has it as mission 60, in Chapter 3."
+      "GTABase's story list has it as mission 60, in Chapter 3.",
+      "GTABase says it is started by going to the Jack of Hearts as Jason once the first part of Dubious Provenance is complete."
     ],
     "tags": [
       "chapter 3",
@@ -2302,11 +2334,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-boobie-time-talk-to-boobie",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-boobie-time"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-3ceb06536653.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "meet-the-heders",
@@ -2316,7 +2348,10 @@
       "PowerPyx counts it as the 52nd main mission of the game.",
       "PowerPyx gives \"Meet Brian & Lori\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Dealer's Choice.",
-      "GTABase's story list has it as mission 49, in Chapter 3."
+      "GTABase's story list has it as mission 49, in Chapter 3.",
+      "GTABase says Brian gets in touch a day or two after Cal has checked the hard drive at the Bayside apartment, and that the mission is started from the bag of clothes in the bedroom.",
+      "GTABase's walkthrough says ordering the Surf and Turf that Lucia asks for gives a small relationship boost.",
+      "GTABase adds that the other orange SCOOP containers can be opened with the Cut-off Tool afterwards, and that the first one holds a cigar and $600 in small boxes."
     ],
     "tags": [
       "chapter 3",
@@ -2339,9 +2374,10 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-meet-the-heders",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-meet-the-heders"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2354,7 +2390,8 @@
       "PowerPyx lists it as opening after Boobie Time.",
       "PowerPyx lists three targets that can be done in any order (Casa de Empeno, Richardson Jewelry and Donovan Banks & Co.) and recommends delivering after the first one, because that is when the Snap Gun is handed over.",
       "PowerPyx also lists it first among Yasmani's jobs on its Strangers & Freaks page, and says Yasmani's jobs do not count toward the Strangers & Freaks trophy.",
-      "GTABase's story list has no entry under this name."
+      "GTABase's story list has no entry under this name.",
+      "GTABase says that at Richardson Jewelry and Donovan Banks the player can slip away after opening the safe, or go into the front of the shop and empty the display cases for more money."
     ],
     "tags": [
       "chapter 3",
@@ -2377,11 +2414,11 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
-      "powerpyx-yasmanis-jewelry-jobs"
+      "powerpyx-yasmanis-jewelry-jobs",
+      "r8gb-strangers-yasmanis-jewelry-jobs"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-fda4d866fbd9.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "car-service",
@@ -2392,7 +2429,9 @@
       "PowerPyx gives \"Steal The Car for Raul\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Meet the Heders.",
       "PowerPyx says Randy then accepts vehicles with Standard Trackers and vehicles from his request list, and that the wanted areas in Port Gellhorn and Key Lento are cleared.",
-      "GTABase's story list has it as mission 57, in Chapter 3."
+      "GTABase's story list has it as mission 57, in Chapter 3.",
+      "GTABase says the mission opens about a day after Meet the Heders, when Raul sends a message from a blocked number, and that it starts at a marker in Salton, south Vice City.",
+      "GTABase's walkthrough warns that a dog usually waits beside one of the gate guards and advises leaving it alone unless it attacks, because hurting dogs counts heavily against the criminal profile."
     ],
     "tags": [
       "chapter 3",
@@ -2416,11 +2455,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-car-service-steal-the-car-for-raul",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-car-service"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-478cc0b6687b.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "send-more-money-to-lorena",
@@ -2462,7 +2501,8 @@
       "PowerPyx gives \"Watch the Real Dimez\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Car Service.",
       "GTABase's story list has it as mission 59, in Chapter 3.",
-      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none."
+      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none.",
+      "GTABase says Dre'Quan invites the pair to the Jack of Hearts after Car Service, and that is where the mission starts."
     ],
     "tags": [
       "chapter 3",
@@ -2482,7 +2522,8 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-top-billing-watch-the-real-dimez",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-top-billing"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2518,8 +2559,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-32bf3b28c78f.jpg"
+    "spoiler": true
   },
   {
     "slug": "crosstown-traffic",
@@ -2552,8 +2592,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-102c2a2b48ec.jpg"
+    "spoiler": true
   },
   {
     "slug": "credit-check",
@@ -2563,7 +2602,9 @@
       "PowerPyx counts it as the 59th main mission of the game.",
       "PowerPyx gives \"Meet Raul's Crew\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Crosstown Traffic.",
-      "GTABase's story list has it as mission 64, in Chapter 3."
+      "GTABase's story list has it as mission 64, in Chapter 3.",
+      "GTABase says the mission starts at the marker near the Vice Vinyl mod shop, using the intercom with both Jason and Lucia present.",
+      "GTABase advises disarming guards or shooting them in the knees rather than killing them to keep a Professional criminal rating."
     ],
     "tags": [
       "chapter 3",
@@ -2587,11 +2628,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-credit-check-meet-rauls-crew",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-credit-check"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-755b4579e426.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "clonin-keys-makin-gs",
@@ -2602,7 +2643,9 @@
       "PowerPyx gives \"Steal the Zorrusso for Randy\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Crosstown Traffic.",
       "PowerPyx says delivering every vehicle on Randy's list is not needed for the story but is needed for the Supply & Demand trophy.",
-      "GTABase's story list has it under the name \"Steal the Zorrusso for Randy\" as mission 65, in Chapter 3."
+      "GTABase's story list has it under the name \"Steal the Zorrusso for Randy\" as mission 65, in Chapter 3.",
+      "GTABase says the Zorrusso is kept in the walled parking garage of the Hathaway Apartments in Ocean Beach, on the ground floor on the east side, and that climbing over the wall is the way in.",
+      "GTABase says the Key Cloner is installed from the phone and works for both characters, and that the car's advanced tracker reports its position to the police if it is driven too slowly, switching off once it gets near Randy's showroom."
     ],
     "tags": [
       "chapter 3",
@@ -2627,11 +2670,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-clonin-keys-makin-gs-steal-the-zorrusso-for-randy",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-steal-the-zorrusso-for-randy"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-780a648ec6f7.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "ride-or-die",
@@ -2666,8 +2709,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-9322a29c838f.jpg"
+    "spoiler": true
   },
   {
     "slug": "rauls-next-job",
@@ -2733,8 +2775,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-26134e6ab640.jpg"
+    "spoiler": true
   },
   {
     "slug": "security-expert",
@@ -2769,8 +2810,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-68f385f15732.jpg"
+    "spoiler": true
   },
   {
     "slug": "caught-slipping",
@@ -2780,7 +2820,8 @@
       "PowerPyx counts it as the 65th main mission of the game.",
       "PowerPyx lists it as opening after Boobie Time and First Impressions.",
       "GTABase's story list has it as mission 62, in Chapter 3.",
-      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none."
+      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none.",
+      "GTABase says the mission begins on its own the next time either lead tries to enter the Bayside apartment in Chapter 3, once Boobie Time and First Impressions are done."
     ],
     "tags": [
       "chapter 3",
@@ -2800,11 +2841,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-caught-slipping",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-caught-slipping"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-3231aa1d1431.jpg"
+    "spoiler": true
   },
   {
     "slug": "heist-planning",
@@ -2871,8 +2912,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-5aeba2a6220a.jpg"
+    "spoiler": true
   },
   {
     "slug": "safe-word",
@@ -2907,8 +2947,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-0943cfaa14b0.jpg"
+    "spoiler": true
   },
   {
     "slug": "the-missing-link",
@@ -3047,8 +3086,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-cee72054f4df.jpg"
+    "spoiler": true
   },
   {
     "slug": "south-leonida-real-estate",
@@ -3058,7 +3096,8 @@
       "PowerPyx counts it as the 73rd main mission of the game.",
       "PowerPyx gives \"Meet Mia\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Mami Knows Best.",
-      "GTABase's story list has it as mission 52, in Chapter 3."
+      "GTABase's story list has it as mission 52, in Chapter 3.",
+      "GTABase says Mia can take several in-game days to contact Lucia again after Mami Knows Best, and that the mission is started from the note on the door of her office in Hamlet."
     ],
     "tags": [
       "chapter 3",
@@ -3079,11 +3118,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-south-leonida-real-estate-meet-mia",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8gb-missions-south-leonida-real-estate"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-80f30b0b0e86.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "the-cartel-heist",
@@ -3133,7 +3172,10 @@
       "GTABase had not published its step-by-step walkthrough for this mission when checked, so it gives no start point, reward or unlocks.",
       "PowerPyx's trophy guide says the \"Vice City, Baby!\" trophy (Complete Chapter 3) cannot be missed and unlocks after the first two Chapter 4 missions, Ocean Beach and Another Life; GTABase shows that trophy on its Ocean Beach page.",
       "PowerPyx's Cartel Heist page says Ocean Beach is the mission that starts Chapter 4 and can be gone to straight after The Cartel Heist, with an option to hang out first.",
-      "PowerPyx's walkthrough hub lists it first in Chapter 4 but still had no page for it when re-checked."
+      "PowerPyx's walkthrough hub lists it first in Chapter 4 but still had no page for it when re-checked.",
+      "PowerPyx counts Ocean Beach as the 75th main mission, starting at the Bayside apartment in Vice City after The Cartel Heist, either straight away or on the next return there.",
+      "PowerPyx gives the reward as Room 701 at the Y Hotel, and says new outfits are in the suite's wardrobe from this chapter on.",
+      "Disagreement: PowerPyx numbers it 75th, GTABase 78th."
     ],
     "tags": [
       "chapter 4",
@@ -3144,8 +3186,12 @@
       "chapter": "Chapter 4",
       "order": 1,
       "type": "Main mission",
-      "reward": "Vice City, Baby! trophy (PowerPyx: awarded after Ocean Beach and Another Life)",
-      "protagonist": "Lucia and Jason"
+      "reward": "Room 701 at the Y Hotel",
+      "protagonist": "Lucia and Jason",
+      "location": "Bayside apartment, Vice City (start); Y Hotel (destination)",
+      "unlocks": [
+        "Room 701, Y Hotel"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
@@ -3153,9 +3199,10 @@
       "gtabase-missions",
       "gtabase-ocean-beach",
       "powerpyx-trophy-guide",
-      "powerpyx-cartel-heist"
+      "powerpyx-cartel-heist",
+      "r7-ppx-ocean-beach"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3169,7 +3216,9 @@
       "GTABase had not published its step-by-step walkthrough for this mission when checked, so it gives no start point, reward or unlocks.",
       "PowerPyx's trophy guide says the \"Vice City, Baby!\" trophy (Complete Chapter 3) cannot be missed and unlocks after the first two Chapter 4 missions, Ocean Beach and Another Life; GTABase shows that trophy on its Ocean Beach page.",
       "PowerPyx's walkthrough hub lists it second in Chapter 4 but still had no page for it when re-checked.",
-      "KeenGamer's walkthrough describes it as following Lucia's story at the start of the chapter."
+      "KeenGamer's walkthrough describes it as following Lucia's story at the start of the chapter.",
+      "PowerPyx counts Another Life as the 76th main mission; it starts as soon as Ocean Beach ends, playing as Lucia.",
+      "PowerPyx gives the reward as the BuckMe Black Account, with a $2,000,000 account limit, plus the Vice City, Baby! trophy."
     ],
     "tags": [
       "chapter 4",
@@ -3180,8 +3229,12 @@
       "chapter": "Chapter 4",
       "order": 2,
       "type": "Main mission",
-      "reward": "Vice City, Baby! trophy (PowerPyx: awarded after Ocean Beach and Another Life)",
-      "protagonist": "Lucia"
+      "reward": "BuckMe Black Account ($2,000,000 limit) and Vice City, Baby! trophy",
+      "protagonist": "Lucia",
+      "giver": "Lucia",
+      "unlocks": [
+        "BuckMe Black Account"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
@@ -3189,7 +3242,8 @@
       "gtabase-missions",
       "gtabase-another-life",
       "powerpyx-trophy-guide",
-      "keengamer-walkthrough"
+      "keengamer-walkthrough",
+      "r7-ppx-another-life"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3206,7 +3260,10 @@
       "PowerPyx's Eddie Acosta page says Pool Day is triggered at the start of Chapter 4 in the Y Hotel room in Ocean Beach by talking to Lucia on the balcony and agreeing to go to the pool; if the player declines she waits there until they agree.",
       "PowerPyx says Eddie Acosta is met at the pool bar during this mission, and that a few days later he sends a text inviting the player to the optional mission Attend Eddie Acosta's Party in Heathcliff Heights.",
       "PowerPyx's page for The Last Mile: Passing the Torch says Pilot Pete's phone call that starts his strand comes early in Chapter 4, shortly after Pool Day.",
-      "PowerPyx's walkthrough hub lists it third in Chapter 4 but still had no page for it when re-checked."
+      "PowerPyx's walkthrough hub lists it third in Chapter 4 but still had no page for it when re-checked.",
+      "PowerPyx counts Pool Day as the 77th main mission, starting straight after Another Life in Washington Beach, Vice Beach, with no reward.",
+      "PowerPyx says Lucia is given a Tequila Sunrise from the pool bar, and that Valentina's call at the end marks the next two missions.",
+      "Disagreement: the app places it at the Y Hotel in Ocean Beach; PowerPyx gives the starting area as Washington Beach."
     ],
     "tags": [
       "chapter 4",
@@ -3222,7 +3279,8 @@
       "unlocks": [
         "Attend Eddie Acosta's Party (optional stranger mission, by text a few days later)",
         "Pilot Pete's The Last Mile strand (phone call shortly afterwards)"
-      ]
+      ],
+      "reward": "None"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3230,9 +3288,10 @@
       "gtabase-missions",
       "gtabase-pool-day",
       "powerpyx-eddie-acostas-party",
-      "powerpyx-last-mile-passing-the-torch"
+      "powerpyx-last-mile-passing-the-torch",
+      "r7-ppx-pool-day"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3247,7 +3306,12 @@
       "PowerPyx's garage guide lists Thompson Court Garage (2 parking spots) as an automatic story reward for finishing Company Cars (Speak to the Concierge).",
       "PowerPyx's walkthrough hub lists it fourth in Chapter 4 but still had no page for it when re-checked.",
       "KeenGamer's walkthrough (November 19, 2026) says the mission is to meet the concierge and collect the vehicles needed for the next jobs.",
-      "TechWiser's mission list gives the same map label, Speak to the Concierge."
+      "TechWiser's mission list gives the same map label, Speak to the Concierge.",
+      "PowerPyx counts Company Cars (Speak to the Concierge) as the 78th main mission, given by Santino in the hotel lobby in Washington Beach after Pool Day; the marker may show a lock but can still be started.",
+      "PowerPyx says Santino offers a ride to the Status Auto Imports dealership through the hotel's car service, which also works as a free taxi from the front of the hotel.",
+      "PowerPyx says a car is picked for Jason and then for Lucia and both are kept, to upgrade or sell; it names the Pfister Comet S2 as the one with the highest base stats.",
+      "PowerPyx says the cars on show inside the dealership can be scanned with WAiNK for collections.",
+      "Disagreement: the app has the concierge as giver (KeenGamer); PowerPyx names him as Santino."
     ],
     "tags": [
       "chapter 4",
@@ -3258,12 +3322,13 @@
       "chapter": "Chapter 4",
       "order": 4,
       "type": "Main mission",
-      "reward": "Thompson Court Garage (2 parking spots)",
+      "reward": "A new car each for Jason and Lucia (PowerPyx); Thompson Court Garage (PowerPyx garage guide)",
       "protagonist": "Lucia and Jason",
       "unlocks": [
         "Thompson Court Garage (2 parking spots)"
       ],
-      "giver": "The concierge (KeenGamer)"
+      "giver": "Santino, the Y Hotel concierge",
+      "location": "Y Hotel, Washington Beach; Status Auto Imports"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3272,7 +3337,8 @@
       "gtabase-company-cars",
       "powerpyx-garages",
       "keengamer-walkthrough",
-      "techwiser-missions"
+      "techwiser-missions",
+      "r7-ppx-company-cars"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3288,7 +3354,9 @@
       "GTABase had not published its step-by-step walkthrough for this mission when checked, so it gives no start point, reward or unlocks.",
       "PowerPyx's walkthrough hub lists it fifth in Chapter 4 but still had no page for it when re-checked.",
       "KeenGamer's walkthrough says the mission is to meet Abe Gonzalez, and TechWiser's list gives the map label Meet Abe Gonzalez.",
-      "Tech2Geek's mission list says a Pay Abe's Fee objective appears after Lawyer Up and advises having enough cash by the time you reach Ocean Beach; it gives no amount."
+      "Tech2Geek's mission list says a Pay Abe's Fee objective appears after Lawyer Up and advises having enough cash by the time you reach Ocean Beach; it gives no amount.",
+      "PowerPyx counts Lawyer Up (Meet Abe Gonzalez) as the 79th main mission, given by Valentina after Pool Day, starting at Abe's office in Downtown Vice City, with no reward.",
+      "PowerPyx says the receptionist sends the player to Abe's assistant Sandy before the meeting upstairs."
     ],
     "tags": [
       "chapter 4",
@@ -3300,7 +3368,9 @@
       "order": 5,
       "type": "Main mission",
       "protagonist": "Lucia and Jason",
-      "giver": "Abe Gonzalez"
+      "giver": "Abe Gonzalez",
+      "location": "Abe Gonzalez's office, Downtown, Vice City",
+      "reward": "None"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3309,7 +3379,8 @@
       "gtabase-lawyer-up",
       "keengamer-walkthrough",
       "techwiser-missions",
-      "tech2geek-missions"
+      "tech2geek-missions",
+      "r7-ppx-lawyer-up"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3354,7 +3425,9 @@
       "GTABase lists no trophy or achievement for it.",
       "GTABase had not published its step-by-step walkthrough for this mission when checked, so it gives no start point, reward or unlocks.",
       "PowerPyx's walkthrough hub lists it seventh in Chapter 4 but still had no page for it when re-checked.",
-      "KeenGamer's walkthrough says the job is working personal security at a celebrity event, matching the map label Work Personal Security on TechWiser's list."
+      "KeenGamer's walkthrough says the job is working personal security at a celebrity event, matching the map label Work Personal Security on TechWiser's list.",
+      "PowerPyx counts Party Hard (Work Personal Security) as the 81st main mission, given by Valentina after Lawyer Up, starting at VCIA in Vice-Dale County, with no reward.",
+      "PowerPyx says the job takes in a drink pick-up in Little Cuba and the Megamundo offices in Downtown, and ends by landing a helicopter on the building's rooftop helipad."
     ],
     "tags": [
       "chapter 4",
@@ -3365,7 +3438,10 @@
       "chapter": "Chapter 4",
       "order": 7,
       "type": "Main mission",
-      "protagonist": "Lucia and Jason"
+      "protagonist": "Lucia and Jason",
+      "giver": "Valentina",
+      "location": "VCIA, Vice-Dale County",
+      "reward": "None"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3373,7 +3449,8 @@
       "gtabase-missions",
       "gtabase-party-hard",
       "keengamer-walkthrough",
-      "techwiser-missions"
+      "techwiser-missions",
+      "r7-ppx-party-hard"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3425,7 +3502,10 @@
       "GTABase lists no trophy or achievement for it.",
       "GTABase had not published its step-by-step walkthrough for this mission when checked, so it gives no start point, reward or unlocks.",
       "PowerPyx's walkthrough hub lists it ninth in Chapter 4 but still had no page for it when re-checked.",
-      "KeenGamer's walkthrough says you join Dre'Quan for a promotional photo shoot; TechWiser's label is Shoot a Promo."
+      "KeenGamer's walkthrough says you join Dre'Quan for a promotional photo shoot; TechWiser's label is Shoot a Promo.",
+      "PowerPyx counts Photo/Shoot (Shoot a Promo) as the 83rd main mission, given by Dre'Quan after Party Hard and starting in Tequesta, Vice City.",
+      "PowerPyx gives the reward as $6,000 plus two unique weapon variants, Roxy's W-10 and Bae-Lux's W-10.",
+      "PowerPyx says pictures are taken with the phone camera (Up on the D-pad, then R2/RT)."
     ],
     "tags": [
       "chapter 4",
@@ -3437,7 +3517,13 @@
       "order": 9,
       "type": "Main mission",
       "protagonist": "Lucia and Jason",
-      "giver": "Dre'Quan (KeenGamer)"
+      "giver": "Dre'Quan (KeenGamer)",
+      "location": "Tequesta, Vice City",
+      "reward": "$6,000, Roxy's W-10 and Bae-Lux's W-10",
+      "unlocks": [
+        "Roxy's W-10",
+        "Bae-Lux's W-10"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
@@ -3445,7 +3531,8 @@
       "gtabase-missions",
       "gtabase-photo-shoot",
       "keengamer-walkthrough",
-      "techwiser-missions"
+      "techwiser-missions",
+      "r7-ppx-photoshoot"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3459,7 +3546,12 @@
       "GTABase's page names no playable lead for it.",
       "GTABase lists no trophy or achievement for it.",
       "GTABase had not published its step-by-step walkthrough for this mission when checked, so it gives no start point, reward or unlocks.",
-      "PowerPyx's walkthrough hub lists it as an optional Chapter 4 mission but still had no page for it when re-checked."
+      "PowerPyx's walkthrough hub lists it as an optional Chapter 4 mission but still had no page for it when re-checked.",
+      "PowerPyx's new walkthrough gives the start as a bar in Millport, Lummox County, and the quest giver as Andrea; either Lucia or Jason can start it.",
+      "PowerPyx says it opens after the Chapter 4 mission Party Hard and is missable: it is gone for good once the Chapter 4 mission Power Play is completed.",
+      "PowerPyx lists three objectives: look for Felipe, chase him, and deal with him.",
+      "PowerPyx says the ending choice sets the reward: $20,000 from Andrea for one outcome, or for the other the optional follow-up mission Collect Felipe's Gift, which hands over his vehicle.",
+      "This updates the app's earlier note that PowerPyx had no page for the mission."
     ],
     "tags": [
       "chapter 4",
@@ -3469,15 +3561,23 @@
     "facts": {
       "chapter": "Chapter 4",
       "order": 10,
-      "type": "Optional mission"
+      "type": "Optional mission",
+      "giver": "Andrea",
+      "location": "Bar in Millport, Lummox County",
+      "protagonist": "Either",
+      "reward": "$20,000 from Andrea, or the follow-up mission Collect Felipe's Gift (his vehicle), depending on the ending choice",
+      "unlocks": [
+        "Collect Felipe's Gift (one of the two outcomes)"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "gtabase-missions",
-      "gtabase-bad-driver"
+      "gtabase-bad-driver",
+      "r10-pp-bad-driver"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -4342,8 +4442,7 @@
       "keengamer-walkthrough"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-18f83d7bc478.jpg"
+    "spoiler": true
   },
   {
     "slug": "call-valentina-back",
@@ -4796,7 +4895,10 @@
       "PowerPyx says Shirley first appears once Pipework is available and calls out to Jason near his house.",
       "PowerPyx's mission page says Jason starts it; the site's lists carry no character tag for it.",
       "GTABase's story list includes it as an optional mission in Chapter 1, marked missable.",
-      "IGN's walkthrough says Shirley, Jason's neighbour on Peach Palm Dr in Key Lento, asks for a bottle of Salty Squid rum after the Pipework mission, and lists a positive Criminal Profile increase as the reward."
+      "IGN's walkthrough says Shirley, Jason's neighbour on Peach Palm Dr in Key Lento, asks for a bottle of Salty Squid rum after the Pipework mission, and lists a positive Criminal Profile increase as the reward.",
+      "Push Square says Shirley either calls out as Jason pulls up at home after Unwanted Attention or phones while he heads to Pipework (Collect Mandy's Rent).",
+      "Push Square says the rum is picked up from the clerk at Three Sheets Liquor, marked by a purple bottle icon south of the house in Key Lento, and taken back to Shirley.",
+      "Disagreement: Push Square says the mission is missed once you reach Chapter 2, while PowerPyx says it closes when the Chapter 1 mission Tourist Trap starts."
     ],
     "tags": [
       "chapter 1",
@@ -4822,7 +4924,8 @@
       "powerpyx-walkthrough",
       "powerpyx-get-shirleys-rum",
       "gtabase-missions",
-      "ign-shirley-get-shirleys-rum"
+      "ign-shirley-get-shirleys-rum",
+      "r8-ps-shirleys-rum"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -4837,7 +4940,10 @@
       "PowerPyx's walkthrough hub also places it as an optional mission at position 8 of its Chapter 1 list.",
       "PowerPyx says it needs Get Shirley's Rum first and is missable: it becomes unavailable once the Chapter 1 mission Tourist Trap starts. It is not needed for any trophy or for completion.",
       "PowerPyx's mission page says Jason starts it; the site's lists carry no character tag for it.",
-      "GTABase's story list includes it as an optional mission in Chapter 1, marked missable."
+      "GTABase's story list includes it as an optional mission in Chapter 1, marked missable.",
+      "Polygon says Shirley calls Jason over around the time Down to Earth is done and asks him to steal her friend Peggy's pink scooter, which she blames for Peggy's depression.",
+      "Polygon says Peggy's house is behind Shirley's across the water and that Peggy often stands on her balcony and calls the police if she sees the theft, so it is best to wait until she leaves.",
+      "Polygon says the reward is permission to take Shirley's sparkly pink car whenever you like, and that a day or so later Snapmatic shows Shirley and Peggy partying together."
     ],
     "tags": [
       "chapter 1",
@@ -4854,18 +4960,19 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 2,
-      "type": "Stranger mission"
+      "type": "Stranger mission",
+      "reward": "Use of Shirley's pink car"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-strangers-freaks",
       "powerpyx-walkthrough",
       "powerpyx-steal-the-scooter",
-      "gtabase-missions"
+      "gtabase-missions",
+      "r8-poly-peggy-scooter"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-1d821f353e37.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "kirk-search-for-the-skunk-ape",
@@ -4901,8 +5008,7 @@
       "pg-tree-effigies"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-7bd8dc6ea5d4.jpg"
+    "spoiler": true
   },
   {
     "slug": "kirk-search-for-tree-effigies",
@@ -5088,8 +5194,7 @@
       "powerpyx-buddy-check-on-kyle"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-e9c70f0dbe65.jpg"
+    "spoiler": true
   },
   {
     "slug": "moses-steal-vehicles-for-moses",
@@ -5099,7 +5204,13 @@
       "PowerPyx's 100% guide says vehicles can be fenced after the Chapter 2 main mission Moses (Take A Vehicle to Moses), and that at first only cars without trackers can be delivered, to Moses' garage in Port Gellhorn.",
       "PowerPyx says cars with Standard Trackers can later, in Chapter 3, be delivered to any Pay 'n' Spray instead.",
       "PowerPyx's 100% guide says each car delivery for Moses adds one to the 100 Optional Tasks requirement, and that fenced vehicles count toward the $200,000 Vehicles Fenced requirement.",
-      "PowerPyx's Strangers & Freaks page lists it under Moses in Chapter 2 without marking it as counting toward the Strangers & Freaks trophy, and still had no separate page for it."
+      "PowerPyx's Strangers & Freaks page lists it under Moses in Chapter 2 without marking it as counting toward the Strangers & Freaks trophy, and still had no separate page for it.",
+      "PowerPyx says the job opens after Daily Driver, can be played as Lucia or Jason, and pays per car plus a bonus for delivering it in good condition; Moses sends new targets only after the earlier ones are delivered.",
+      "PowerPyx lists the six cars and payouts in order: Declasse Yosemite 1500 on Bastion St, south-west Port Gellhorn, being towed away ($1,850); Karin Futo in a lockup at the Draper Island Docks ($1,500); Annis Hellion in a driveway on Orchard Avenue, south Port Gellhorn ($1,400); BF Bandito driven by a group in Buckskin Swamp, south-east Kelly County ($3,350); Declasse Vamos in a shed north-east of Grayson ($4,200); Western Nightblade at the Final Chapter gang site in Ambrosia ($6,310).",
+      "PowerPyx says the Vamos shed opens with keypad code 2727, shown on signs inside the nearby trailer, and that the Bandito has one seat.",
+      "PowerPyx says the questline continues with Collect Moses' Gift.",
+      "PC Gamer says Moses wants older, low-profile cars, usually pays from one to a few thousand dollars each, often says where the cars he wants are, and will not take another car for a while after each sale.",
+      "PC Gamer says Randy, the car buyer from Chapter 3, pays much more because he wants flashier high-end cars."
     ],
     "tags": [
       "chapter 2",
@@ -5113,14 +5224,21 @@
       "chapter": "Chapter 2",
       "order": 1,
       "type": "Stranger mission",
-      "location": "Moses' garage, Port Gellhorn"
+      "location": "Moses' garage, Port Gellhorn",
+      "reward": "$1,400 to $6,310 per car plus a condition bonus",
+      "protagonist": "Lucia or Jason",
+      "unlocks": [
+        "Collect Moses' Gift"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-strangers-freaks",
-      "powerpyx-100-checklist"
+      "powerpyx-100-checklist",
+      "r7-ppx-steal-for-moses",
+      "r8-pcg-money"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -5160,8 +5278,7 @@
       "powerpyx-veteran-hunted-meet-bret"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-1ebb3b3b3376.jpg"
+    "spoiler": true
   },
   {
     "slug": "bret-vogel-brets-hunting-decks",
@@ -5172,7 +5289,8 @@
       "PowerPyx says that after his first mission, Veteran Hunted, Bret marks hunting spots with purple map icons; the player hunts the animals he asks for and brings them to him as Jason.",
       "PowerPyx says progress is tracked under Map > Activities > Target Deck, that there are 15 Target Decks, and that all 15 are needed for the 100% checklist.",
       "PowerPyx says the Fair Game trophy (hunt a unique animal for Bret) comes along the way, and that which animal triggers it was still being confirmed.",
-      "PowerPyx says animals killed with one clean shot stay in pristine condition and pay more, which is not required for the strand, and that the Killtelligence SM-69 rifle given in Veteran Hunted can be collected from any Ammu-Nation weapon locker."
+      "PowerPyx says animals killed with one clean shot stay in pristine condition and pay more, which is not required for the strand, and that the Killtelligence SM-69 rifle given in Veteran Hunted can be collected from any Ammu-Nation weapon locker.",
+      "PC Gamer reports Bret paying $2,500 for a large boar shot in the woods and coming to collect the carcass himself, and says smaller kills are bought straight from the trunk when you walk into Bret's building."
     ],
     "tags": [
       "bret vogel",
@@ -5193,9 +5311,10 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-strangers-freaks",
-      "powerpyx-trophy-guide"
+      "powerpyx-trophy-guide",
+      "r8-pcg-money"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -5268,8 +5387,7 @@
       "powerpyx-twist-wrist-smash-grab-join-billy-on-a-job"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-caccf0c2eccf.jpg"
+    "spoiler": true
   },
   {
     "slug": "billy-mall-rats",
@@ -5307,8 +5425,7 @@
       "powerpyx-mall-rats"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-bcb9c48d08a8.jpg"
+    "spoiler": true
   },
   {
     "slug": "billy-the-impaler",
@@ -5342,8 +5459,7 @@
       "powerpyx-the-impaler-steal-the-impaler"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-f67460e1053b.jpg"
+    "spoiler": true
   },
   {
     "slug": "billy-hometown-heroes",
@@ -5380,8 +5496,7 @@
       "powerpyx-hometown-heroes"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-57a565b3447c.jpg"
+    "spoiler": true
   },
   {
     "slug": "yago-join-a-street-race",
@@ -5418,8 +5533,7 @@
       "powerpyx-join-a-street-race"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-42f10ba51916.jpg"
+    "spoiler": true
   },
   {
     "slug": "yago-bumper-to-bumper",
@@ -5431,7 +5545,8 @@
       "PowerPyx gives \"Mentor Yago\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx's walkthrough hub also places it as an optional mission at position 14 of its Chapter 3 list.",
       "PowerPyx lists it as opening after Join a Street Race.",
-      "PowerPyx says it takes several in-game days to appear after the first race."
+      "PowerPyx says it takes several in-game days to appear after the first race.",
+      "GTABase says the mission appears in Little Cuba a few in-game days after Join a Street Race; if its marker shows a lock icon, Yago is not available yet, and sleeping at the apartment and coming back in the afternoon or evening fixes it."
     ],
     "tags": [
       "chapter 3",
@@ -5454,11 +5569,11 @@
     "sources": [
       "powerpyx-strangers-freaks",
       "powerpyx-walkthrough",
-      "powerpyx-bumper-to-bumper-mentor-yago"
+      "powerpyx-bumper-to-bumper-mentor-yago",
+      "r8gb-strangers-bumper-to-bumper"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-95172e294a35.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "yago-race-against-yago",
@@ -5498,8 +5613,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-c40606f11634.jpg"
+    "spoiler": true
   },
   {
     "slug": "yago-brother-to-brother",
@@ -5535,8 +5649,7 @@
       "powerpyx-brother-to-brother-back-up-yago"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-38de1efb3c87.jpg"
+    "spoiler": true
   },
   {
     "slug": "andy-climbing-the-cellerichain",
@@ -5570,8 +5683,7 @@
       "powerpyx-climbing-the-cellerichain"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-96d07bb49a5a.jpg"
+    "spoiler": true
   },
   {
     "slug": "andy-pay-the-cellerica-fee",
@@ -5604,8 +5716,7 @@
       "powerpyx-pay-the-cellerica-fee"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-0a55009caa63.jpg"
+    "spoiler": true
   },
   {
     "slug": "andy-peach",
@@ -5638,8 +5749,7 @@
       "powerpyx-peach-join-the-cellerica-initiation"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-4f1e4fd09a0e.jpg"
+    "spoiler": true
   },
   {
     "slug": "andy-read-the-label",
@@ -5673,8 +5783,7 @@
       "powerpyx-read-the-label-retrieve-the-cellerica-van"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-a07dd49c3063.jpg"
+    "spoiler": true
   },
   {
     "slug": "andy-puff-puff-pass",
@@ -5710,8 +5819,7 @@
       "powerpyx-puff-puff-pass-meet-at-the-warehouse"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-44b719781741.jpg"
+    "spoiler": true
   },
   {
     "slug": "yasmani-yasmanis-atm-jobs",
@@ -5925,8 +6033,7 @@
       "powerpyx-spin-on-this-shut-down-the-labs"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-f61b45591982.jpg"
+    "spoiler": true
   },
   {
     "slug": "dunk-dunks-robbery-tips",
@@ -6028,8 +6135,7 @@
       "powerpyx-the-last-mile-passing-the-torch-recover-petes-plane"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-16461e8c537f.jpg"
+    "spoiler": true
   },
   {
     "slug": "pilot-pete-the-last-mile-backseat-pilot",
@@ -6063,8 +6169,7 @@
       "powerpyx-the-last-mile-backseat-pilot-deliver-packages"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-876e07246f72.jpg"
+    "spoiler": true
   },
   {
     "slug": "pilot-pete-petes-deliveries-southpoint-airfield",
@@ -6098,8 +6203,7 @@
       "powerpyx-petes-deliveries-southpoint-airfield-avery-allen-co"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-e426c6b75f2c.jpg"
+    "spoiler": true
   },
   {
     "slug": "pilot-pete-petes-deliveries-avery-allen-and-co",

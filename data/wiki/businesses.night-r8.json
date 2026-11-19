@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "kitty-litter-lab-balsero",
+    "name": "Balsero Kitty Litter Lab",
+    "summary": "One of the Kitty Litter drug labs Tyrone asks you to destroy, in Balsero, Vice City.",
+    "body": [
+      "Push Square places it between NW 16th St and NW 17th St in Balsero, in a small garage unit at the north-west corner of NW 12th Ave with purple chemicals outside and a chimney on the roof.",
+      "Push Square says a few criminals loiter nearby and that shooting the propane tank inside destroys the lab.",
+      "PowerPyx, in the app, counts three labs in Balsero; this is the one on Push Square's list.",
+      "Push Square lists it among the labs for Tyrone's Take Out Kitty Litter job, tracked under Robberies in the pause menu."
+    ],
+    "tags": [
+      "balsero",
+      "drug lab",
+      "kitty litter",
+      "tyrone",
+      "vice city"
+    ],
+    "facts": {
+      "type": "drug lab",
+      "location": "Balsero, Vice City, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-ps-kitty-labs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kitty-litter-lab-salton",
+    "name": "Salton Kitty Litter Lab",
+    "summary": "One of the Kitty Litter drug labs Tyrone asks you to destroy, in Salton, Vice City.",
+    "body": [
+      "Push Square places it at the map marker on SW 7th Ave in Salton, in an area with few buildings.",
+      "Push Square says to climb a dumpster at the back and go in through an open window, deal with two criminals, then carry the propane tank from the kitchen to the equipment and shoot it.",
+      "Push Square lists it among the labs for Tyrone's Take Out Kitty Litter job, tracked under Robberies in the pause menu."
+    ],
+    "tags": [
+      "drug lab",
+      "kitty litter",
+      "salton",
+      "tyrone",
+      "vice city"
+    ],
+    "facts": {
+      "type": "drug lab",
+      "location": "Salton, Vice City, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-ps-kitty-labs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kitty-litter-lab-crosstown",
+    "name": "Crosstown Kitty Litter Lab",
+    "summary": "One of the Kitty Litter drug labs Tyrone asks you to destroy, in Crosstown, Vice City.",
+    "body": [
+      "Push Square places it in a block of flats on NE 10th St in Crosstown, with piping and smoke on the left side of the building.",
+      "Push Square says the lab is up the stairs on the second floor behind the door with chemicals outside, that a note sits on the kitchen counter, and that the kitchen propane tank or explosives destroy it.",
+      "PowerPyx, in the app, counts three labs in Crosstown; this is the one on Push Square's list.",
+      "Push Square lists it among the labs for Tyrone's Take Out Kitty Litter job, tracked under Robberies in the pause menu."
+    ],
+    "tags": [
+      "crosstown",
+      "drug lab",
+      "kitty litter",
+      "tyrone",
+      "vice city"
+    ],
+    "facts": {
+      "type": "drug lab",
+      "location": "Crosstown, Vice City, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-ps-kitty-labs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kitty-litter-lab-rockridge",
+    "name": "Rockridge Kitty Litter Lab",
+    "summary": "One of the Kitty Litter drug labs Tyrone asks you to destroy, in Rockridge, Vice City.",
+    "body": [
+      "Push Square places it in a small set of apartments on Santiago Ave in Rockridge, just west of Bump & Grind Coffee; Apartment 5, on the left, has piping and lab equipment outside.",
+      "Push Square says to break in, deal with the person inside and destroy the equipment with gas or explosives before getting away.",
+      "Push Square lists it among the labs for Tyrone's Take Out Kitty Litter job, tracked under Robberies in the pause menu."
+    ],
+    "tags": [
+      "drug lab",
+      "kitty litter",
+      "rockridge",
+      "tyrone",
+      "vice city"
+    ],
+    "facts": {
+      "type": "drug lab",
+      "location": "Rockridge, Vice City, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-ps-kitty-labs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kitty-litter-lab-little-cuba",
+    "name": "Little Cuba Kitty Litter Lab",
+    "summary": "One of the Kitty Litter drug labs Tyrone asks you to destroy, in Little Cuba, Vice City.",
+    "body": [
+      "Push Square places it between NW 3rd Ave and I-97 in Little Cuba, with discarded Kitty Litter materials near the parking spaces.",
+      "Push Square says the door to use has a pipe coming out of the window, and that the kitchen propane tank or explosives destroy the lab once the person inside is dealt with.",
+      "Push Square lists it among the labs for Tyrone's Take Out Kitty Litter job, tracked under Robberies in the pause menu."
+    ],
+    "tags": [
+      "drug lab",
+      "kitty litter",
+      "little cuba",
+      "tyrone",
+      "vice city"
+    ],
+    "facts": {
+      "type": "drug lab",
+      "location": "Little Cuba, Vice City, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-ps-kitty-labs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

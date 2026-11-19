@@ -173,7 +173,9 @@
     "summary": "A military air base on an island at the south-west edge of the map, where fighter jets and tanks are parked.",
     "body": [
       "PowerPyx says the jets stand around the airfield in the northern half of the base and the tanks in the south.",
-      "PowerPyx says taking a jet brings a four-star wanted level and taking a tank a three-star one."
+      "PowerPyx says taking a jet brings a four-star wanted level and taking a tank a three-star one.",
+      "PC Gamer places Mile Zero Air Station on Goose Key in the far south-west of the map, in Mariana County, not far from Jason's first house in Key Lento.",
+      "PC Gamer says being spotted on base brings a wanted level and a gunfight, that it is the easiest place to steal a tank or a combat jet, and that the Mile Zero Air Station Southeast stunt jump, over a dirt mound on the southern access road, lands you inside the fence."
     ],
     "region": "Mariana County",
     "tags": [
@@ -198,9 +200,10 @@
     "sources": [
       "ppx-map",
       "ppx-jet",
-      "ppx-tank"
+      "ppx-tank",
+      "r8-pcg-military-base"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -209,7 +212,8 @@
     "summary": "A sub-region of Mariana County that takes in the Riquezas Keys, Permit Keys, Maroon Key and Abismo Key.",
     "body": [
       "PowerPyx lists the Riquezas Keys, Permit Keys, Maroon Key, Abismo Key and Leonida Bay under Southwind.",
-      "PowerPyx lists a Pay 'n' Spray and a Xero gas station in Southwind."
+      "PowerPyx lists a Pay 'n' Spray and a Xero gas station in Southwind.",
+      "PC Gamer and TheGamer both point to Southwind, beside Mile Zero Air Station, as the easiest early place to take an aircraft: seaplanes at a hangar by Sherwin Boatworks and Chicki's Tiki Bar, and a helicopter on the dock."
     ],
     "region": "Mariana County",
     "tags": [
@@ -234,9 +238,11 @@
     "sources": [
       "ppx-map",
       "ppx-spray",
-      "ppx-gas"
+      "ppx-gas",
+      "r8-pcg-first-plane",
+      "r8-tg-planes-helis"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -479,7 +485,9 @@
     "body": [
       "PowerPyx lists VCIA as its own sub-region of Vice-Dale County.",
       "PowerPyx lists train stations called Vice City Airport Village and Vice City Airport Central, and a station on a line it calls the Mule Airport Line.",
-      "The pages read give only the abbreviation VCIA; none of them spells the name out."
+      "The pages read give only the abbreviation VCIA; none of them spells the name out.",
+      "PC Gamer places Vice City International Airport on the west side of Vice-Dale County, recognisable by its two huge runways in a wedge shape.",
+      "PC Gamer says commercial jets are always parked on both runways and can be stolen, along with maintenance vehicles, and that the central terminal has many ATMs to break into; it notes few activity icons there."
     ],
     "region": "Vice-Dale County",
     "tags": [
@@ -500,9 +508,10 @@
       "ppx-map",
       "ppx-banks",
       "ppx-fastfood",
-      "ppx-trains"
+      "ppx-trains",
+      "r8-pcg-airport"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2444,7 +2453,11 @@
     "name": "Monument of Leonidan Supremacy",
     "summary": "A monument in Manifest Canyon, Kelly County, recorded as a WAiNK sculpture scan.",
     "body": [
-      "PowerPyx lists it among 23 sculpture scans."
+      "PowerPyx lists it among 23 sculpture scans.",
+      "TheGamer reports a player finding that the controller vibrates near the monument and the statue beeps in a pattern that may be Morse code.",
+      "TheGamer says four stallions circle the statue, each with a different symbol on its podium and head, one of them wearing a traffic cone.",
+      "TheGamer quotes the placard as dating the statue to 1982 and saying the stallions stand for wildlife, corruption, humanity and yeyo, with the pillar and globe standing for worldwide 'Leonidafication'.",
+      "TheGamer says nobody yet knows what the symbols mean and treats talk of a Mount Chiliad-style mystery as speculation."
     ],
     "region": "Manifest Canyon, Kelly County",
     "tags": [
@@ -2461,9 +2474,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-sculpt"
+      "ppx-sculpt",
+      "r8-tg-monument-symbols"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

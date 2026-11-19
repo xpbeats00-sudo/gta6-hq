@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "arthur-morgan-cowboy-hat",
+    "name": "Arthur Morgan's cowboy hat",
+    "summary": "A yard sale in southern Port Gellhorn sells a $5 'Genuine Cowboy Hat' that matches Arthur Morgan's hat from Red Dead Redemption 2.",
+    "body": [
+      "PC Gamer reports finding a hat that matches Arthur Morgan's from Red Dead Redemption 2 for sale at a yard sale, listed in the game as a \"Genuine Cowboy Hat\" for $5.",
+      "PC Gamer says roadside \"Yard Sale\" signs with balloons lead to it in Port Gellhorn, Kelly County, on the west coast.",
+      "According to PC Gamer, the sale is in a small cluster of about five houses at the southern tip of Port Gellhorn, just north-west of the Dirt Merchants mod shop.",
+      "PC Gamer describes the driveway as full of furniture, electronics, balloons, a large American flag and a cowboy cut-out, with the hat on a guitar case on a couch towards the back.",
+      "PC Gamer adds that a shirt, a cap and shoes are also on sale there, and that it wore the hat as Jason."
+    ],
+    "tags": [
+      "clothing",
+      "easter egg",
+      "port gellhorn",
+      "red dead redemption 2"
+    ],
+    "facts": {
+      "type": "Easter egg",
+      "shown_in": "PC Gamer article, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r10-pcg-arthur-hat"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "belville-simulation-house",
+    "name": "The house from the 2021 San Andreas photo",
+    "summary": "A Belville house matching a mystery photo hidden in 2021's San Andreas remaster; its garage holds a conspiracy theorist's notes about living in a simulation.",
+    "body": [
+      "Dexerto reports that a picture of a suburban house with palm trees and a UFO overhead, spotted in 2021 on the wall of the Lil' Probe'Inn bar in GTA: The Trilogy - The Definitive Edition's San Andreas, matches a house in GTA 6.",
+      "Dexerto credits a player called Jared from a GTA 6 mapping community with finding it on launch day in Belville, Leonard County, and says the house, garage, palm trees and plants look almost the same as in the 2021 picture.",
+      "According to Dexerto, breaking into the garage reveals the hideout of a conspiracy theorist who believes he lives inside a video game.",
+      "Dexerto says his notes describe failing to buy a plane ticket to Los Santos or drive out of the state, thinking of leaving by boat, and noticing identical-looking people, neighbours who cannot get into their homes and locked buildings with nothing behind them.",
+      "Dexerto also mentions a chart of rising violent crime, many references to the number six, and notes naming two people, J and L, who seem exempt from the limits he describes."
+    ],
+    "tags": [
+      "belville",
+      "easter egg",
+      "leonard county",
+      "san andreas"
+    ],
+    "facts": {
+      "type": "Easter egg",
+      "shown_in": "Dexerto article, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r10-dex-sa-house"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

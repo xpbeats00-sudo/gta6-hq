@@ -1,0 +1,27 @@
+[
+  {
+    "slug": "merlins-palace-casino",
+    "name": "Merlin's Palace Casino",
+    "summary": "A casino building in Balsero whose interior cannot be entered; Game8 says there are no casino games in the game.",
+    "body": [
+      "Game8 places Merlin's Palace Casino in Balsero and says its interior is closed to players.",
+      "Game8 says casino games cannot be played at launch and that the casinos are only scenery in the open world."
+    ],
+    "tags": [
+      "balsero",
+      "casino",
+      "gambling"
+    ],
+    "facts": {
+      "type": "Casino",
+      "location": "Balsero",
+      "purchasable": false
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r7-g8-casino"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

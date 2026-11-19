@@ -4,7 +4,11 @@
     "name": "Vice City Oceanarium",
     "summary": "An oceanarium under a dome on the north-east of Catalan Key, with a big shark-mouth display.",
     "body": [
-      "The Big Lead names the Vice City Oceanarium as the dome on the north-east of Catalan Key and says a Vice City Manatees card sits by the turtle decoration inside its big shark-mouth display."
+      "The Big Lead names the Vice City Oceanarium as the dome on the north-east of Catalan Key and says a Vice City Manatees card sits by the turtle decoration inside its big shark-mouth display.",
+      "TheGamer gives the address as Barentine Drive, east of Catalan Key, and says its dome-like buildings can be spotted across Vice City and on the map.",
+      "TheGamer lists flamingos, manatees and an orca among its animals, and says that in its writer's experience the manatees and the orca are found only here, which matters for scanning every animal.",
+      "TheGamer says the tank can be entered for a swim at night.",
+      "According to TheGamer, visiting the entrance at night starts an unmarked side quest about protesters, which nothing else points to and which is easy to miss."
     ],
     "tags": [
       "catalan key",
@@ -19,9 +23,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tbl-collectibles"
+      "tbl-collectibles",
+      "r10-tg-oceanarium"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

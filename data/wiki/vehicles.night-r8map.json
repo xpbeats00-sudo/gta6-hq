@@ -1,0 +1,1787 @@
+[
+  {
+    "slug": "progen-purple-drank-emerus",
+    "name": "Progen Purple Drank Emerus",
+    "summary": "A standout Emerus that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Progen Purple Drank Emerus in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Emerus; the app's Progen Emerus entry covers the regular model."
+    ],
+    "tags": [
+      "emerus",
+      "progen",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Progen",
+      "model": "Emerus",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pfister-class-act-comet",
+    "name": "Pfister Class Act Comet",
+    "summary": "A standout Comet that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Pfister Class Act Comet in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Pfister Comet."
+    ],
+    "tags": [
+      "comet",
+      "pfister",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Pfister",
+      "model": "Comet",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "truffade-andrew-nodes-thrax",
+    "name": "Truffade Andrew Node's Thrax",
+    "summary": "A standout Thrax that GTABase's map places in the Vice Beach area.",
+    "body": [
+      "GTABase's interactive map lists the Truffade Andrew Node's Thrax in its Standout Vehicle category, filed under the Vice Beach area.",
+      "It is a standout version of the Thrax; the app's Truffade Thrax entry covers the regular model."
+    ],
+    "tags": [
+      "standout vehicle",
+      "thrax",
+      "truffade",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Truffade",
+      "model": "Thrax",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice Beach area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "progen-royal-ruby-emerus",
+    "name": "Progen Royal Ruby Emerus",
+    "summary": "A standout Emerus that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Progen Royal Ruby Emerus in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Emerus; the app's Progen Emerus entry covers the regular model."
+    ],
+    "tags": [
+      "emerus",
+      "progen",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Progen",
+      "model": "Emerus",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-valiant-tempesta",
+    "name": "Pegassi Valiant Tempesta",
+    "summary": "A standout Tempesta that GTABase's map places in the Vice Beach area.",
+    "body": [
+      "GTABase's interactive map lists the Pegassi Valiant Tempesta in its Standout Vehicle category, filed under the Vice Beach area.",
+      "It is a standout version of the Tempesta; the app's Pegassi Tempesta entry covers the regular model."
+    ],
+    "tags": [
+      "pegassi",
+      "standout vehicle",
+      "tempesta",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Tempesta",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice Beach area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-bourbon-windsor",
+    "name": "Buckingham Bourbon Windsor",
+    "summary": "A standout Windsor that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Buckingham Bourbon Windsor in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Windsor; the app's Buckingham Windsor entry covers the regular model."
+    ],
+    "tags": [
+      "buckingham",
+      "standout vehicle",
+      "vehicle",
+      "windsor"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Windsor",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-charred-toros",
+    "name": "Pegassi Charred Toros",
+    "summary": "A standout Toros that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Pegassi Charred Toros in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Toros; the app's Pegassi Toros entry covers the regular model."
+    ],
+    "tags": [
+      "pegassi",
+      "standout vehicle",
+      "toros",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Toros",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-pink-gin-tulip",
+    "name": "Declasse Pink Gin Tulip",
+    "summary": "A standout Tulip that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Pink Gin Tulip in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Declasse Tulip."
+    ],
+    "tags": [
+      "declasse",
+      "standout vehicle",
+      "tulip",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Tulip",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benefactor-nightlight-schafer",
+    "name": "Benefactor Nightlight Schafer",
+    "summary": "A standout Schafter that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Benefactor Nightlight Schafer in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Schafter; the app's Benefactor Schafter entry covers the regular model.",
+      "The map spells the base model \"Schafer\"; the app has the Benefactor Schafter."
+    ],
+    "tags": [
+      "benefactor",
+      "schafter",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Benefactor",
+      "model": "Schafter",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dundreary-cherry-bomb-chino",
+    "name": "Dundreary Cherry Bomb Chino",
+    "summary": "A standout Chino that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Dundreary Cherry Bomb Chino in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Chino; the app's '65 Dundreary Chino entry covers the regular model."
+    ],
+    "tags": [
+      "chino",
+      "dundreary",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Dundreary",
+      "model": "Chino",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-speedy-boomazoom",
+    "name": "Maibatsu Speedy Boomazoom",
+    "summary": "A standout Boomazoom that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Maibatsu Speedy Boomazoom in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Boomazoom; the app's Maibatsu Boomazoom entry covers the regular model."
+    ],
+    "tags": [
+      "boomazoom",
+      "maibatsu",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Boomazoom",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "imponte-bloodbath-phoenix",
+    "name": "Imponte Bloodbath Phoenix",
+    "summary": "A standout Phoenix that GTABase's map places in the Gloriana Key area.",
+    "body": [
+      "GTABase's interactive map lists the Imponte Bloodbath Phoenix in its Standout Vehicle category, filed under the Gloriana Key area.",
+      "It is a standout version of the Phoenix; the app's Imponte Phoenix entry covers the regular model."
+    ],
+    "tags": [
+      "imponte",
+      "phoenix",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Imponte",
+      "model": "Phoenix",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Gloriana Key area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-tropical-manchez",
+    "name": "Maibatsu Tropical Manchez",
+    "summary": "A standout Manchez that GTABase's map places in the Hamlet area.",
+    "body": [
+      "GTABase's interactive map lists the Maibatsu Tropical Manchez in its Standout Vehicle category, filed under the Hamlet area.",
+      "It is a standout version of the Manchez; the app's Maibatsu Manchez entry covers the regular model."
+    ],
+    "tags": [
+      "maibatsu",
+      "manchez",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Manchez",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "granforma-tsunami-zorrusso",
+    "name": "Granforma Tsunami Zorrusso",
+    "summary": "A standout Zorrusso that GTABase's map places in the Hamlet area.",
+    "body": [
+      "GTABase's interactive map lists the Granforma Tsunami Zorrusso in its Standout Vehicle category, filed under the Hamlet area.",
+      "It is a standout version of the Zorrusso; the app's Granforma Zorrusso entry covers the regular model."
+    ],
+    "tags": [
+      "granforma",
+      "standout vehicle",
+      "vehicle",
+      "zorrusso"
+    ],
+    "facts": {
+      "manufacturer": "Granforma",
+      "model": "Zorrusso",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tuff-immortal-bmx",
+    "name": "Tuff Immortal BMX",
+    "summary": "A standout BMX that GTABase's map places in the Hamlet area.",
+    "body": [
+      "GTABase's interactive map lists the Tuff Immortal BMX in its Standout Vehicle category, filed under the Hamlet area.",
+      "It is a standout version of the BMX; the app's Tuff BMX entry covers the regular model."
+    ],
+    "tags": [
+      "bmx",
+      "standout vehicle",
+      "tuff",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Tuff",
+      "model": "BMX",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lcc-midnight-sun-avarus",
+    "name": "LCC Midnight Sun Avarus",
+    "summary": "A standout Avarus that GTABase's map places in the Hamlet area.",
+    "body": [
+      "GTABase's interactive map lists the LCC Midnight Sun Avarus in its Standout Vehicle category, filed under the Hamlet area.",
+      "It is a standout version of the Avarus; the app's LCC Avarus entry covers the regular model."
+    ],
+    "tags": [
+      "avarus",
+      "lcc",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "LCC",
+      "model": "Avarus",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bf-blood-moon-bandito",
+    "name": "BF Blood Moon Bandito",
+    "summary": "A standout Bandito that GTABase's map places in the Hamlet area.",
+    "body": [
+      "GTABase's interactive map lists the BF Blood Moon Bandito in its Standout Vehicle category, filed under the Hamlet area.",
+      "It is a standout version of the Bandito; the app's '77 BF Bandito entry covers the regular model."
+    ],
+    "tags": [
+      "bandito",
+      "bf",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "BF",
+      "model": "Bandito",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-mountain-yosemite",
+    "name": "Declasse Mountain Yosemite",
+    "summary": "A standout Yosemite that GTABase's map places in the Hamlet area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Mountain Yosemite in its Standout Vehicle category, filed under the Hamlet area.",
+      "It is a standout version of the Declasse Yosemite."
+    ],
+    "tags": [
+      "declasse",
+      "standout vehicle",
+      "vehicle",
+      "yosemite"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Yosemite",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brute-cherry-popper-boxville",
+    "name": "Brute Cherry Popper Boxville",
+    "summary": "A standout Boxville that GTABase's map places in the Watson Bay area.",
+    "body": [
+      "GTABase's interactive map lists the Brute Cherry Popper Boxville in its Standout Vehicle category, filed under the Watson Bay area.",
+      "It is a standout version of the Boxville; the app's Brute Boxville entry covers the regular model."
+    ],
+    "tags": [
+      "boxville",
+      "brute",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Boxville",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-caliente-picador",
+    "name": "Declasse Caliente Picador",
+    "summary": "A standout Picador that GTABase's map places in the Hamlet area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Caliente Picador in its Standout Vehicle category, filed under the Hamlet area.",
+      "It is a standout version of the Picador; the app's Cheval Picador entry covers the regular model."
+    ],
+    "tags": [
+      "declasse",
+      "picador",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Picador",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "canis-black-moth-kamacho",
+    "name": "Canis Black Moth Kamacho",
+    "summary": "A standout Kamacho that GTABase's map places in the Watson Bay area.",
+    "body": [
+      "GTABase's interactive map lists the Canis Black Moth Kamacho in its Standout Vehicle category, filed under the Watson Bay area.",
+      "It is a standout version of the Kamacho; the app's Canis Kamacho entry covers the regular model.",
+      "The map spells the maker \"Camus\"; the app and GTABase's vehicle pages use Canis."
+    ],
+    "tags": [
+      "canis",
+      "kamacho",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Canis",
+      "model": "Kamacho",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "western-magma-cliffhanger",
+    "name": "Western Magma Cliffhanger",
+    "summary": "A standout Cliffhanger that GTABase's map places in the Watson Bay area.",
+    "body": [
+      "GTABase's interactive map lists the Western Magma Cliffhanger in its Standout Vehicle category, filed under the Watson Bay area.",
+      "It is a standout version of the Cliffhanger; the app's Western Cliffhanger entry covers the regular model."
+    ],
+    "tags": [
+      "cliffhanger",
+      "standout vehicle",
+      "vehicle",
+      "western"
+    ],
+    "facts": {
+      "manufacturer": "Western",
+      "model": "Cliffhanger",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lapwing-stolen-valor-300-h",
+    "name": "Lapwing Stolen Valor 300-H",
+    "summary": "A standout 300-H that GTABase's map places in the Watson Bay area.",
+    "body": [
+      "GTABase's interactive map lists the Lapwing Stolen Valor 300-H in its Standout Vehicle category, filed under the Watson Bay area.",
+      "It is a standout version of the Lapwing 300-H."
+    ],
+    "tags": [
+      "300-h",
+      "lapwing",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Lapwing",
+      "model": "300-H",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-beach-candy-bobcat",
+    "name": "Declasse Beach Candy Bobcat",
+    "summary": "A standout Bobcat that GTABase's map places in the Capri area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Beach Candy Bobcat in its Standout Vehicle category, filed under the Capri area.",
+      "It is a standout version of the Declasse Bobcat."
+    ],
+    "tags": [
+      "bobcat",
+      "declasse",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Bobcat",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-bugstars-burrito",
+    "name": "Declasse Bugstars Burrito",
+    "summary": "A standout Burrito that GTABase's map places in the Capri area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Bugstars Burrito in its Standout Vehicle category, filed under the Capri area.",
+      "It is a standout version of the Burrito; the app's '98 Declasse Burrito entry covers the regular model."
+    ],
+    "tags": [
+      "burrito",
+      "declasse",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Burrito",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-ghosts-exposed-parkland",
+    "name": "Declasse Ghosts Exposed Parkland",
+    "summary": "A standout Parkland that GTABase's map places in the Capri area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Ghosts Exposed Parkland in its Standout Vehicle category, filed under the Capri area.",
+      "It is a standout version of the Parkland; the app's '71 Declasse Parkland entry covers the regular model."
+    ],
+    "tags": [
+      "declasse",
+      "parkland",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Parkland",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "invetero-enforcer-coquette",
+    "name": "Invetero Enforcer Coquette",
+    "summary": "A standout Coquette that GTABase's map places in the Capri area.",
+    "body": [
+      "GTABase's interactive map lists the Invetero Enforcer Coquette in its Standout Vehicle category, filed under the Capri area.",
+      "It is a standout version of the Coquette; the app's Invetero Coquette entry covers the regular model."
+    ],
+    "tags": [
+      "coquette",
+      "invetero",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Invetero",
+      "model": "Coquette",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-red-hot-hustler",
+    "name": "Vapid Red Hot Hustler",
+    "summary": "A standout Hustler that GTABase's map places in the Capri area.",
+    "body": [
+      "GTABase's interactive map lists the Vapid Red Hot Hustler in its Standout Vehicle category, filed under the Capri area.",
+      "It is a standout version of the Hustler; the app's Vapid Hustler entry covers the regular model."
+    ],
+    "tags": [
+      "hustler",
+      "standout vehicle",
+      "vapid",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Hustler",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-elven-queen-youga",
+    "name": "Bravado Elven Queen Youga",
+    "summary": "A standout Youga that GTABase's map places in the Capri area.",
+    "body": [
+      "GTABase's interactive map lists the Bravado Elven Queen Youga in its Standout Vehicle category, filed under the Capri area.",
+      "It is a standout version of the Bravado Youga."
+    ],
+    "tags": [
+      "bravado",
+      "standout vehicle",
+      "vehicle",
+      "youga"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Youga",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-smush-ganado",
+    "name": "Vapid Smush! Ganado",
+    "summary": "A standout Ganado that GTABase's map places in the Capri area.",
+    "body": [
+      "GTABase's interactive map lists the Vapid Smush! Ganado in its Standout Vehicle category, filed under the Capri area.",
+      "It is a standout version of the Ganado; the app's Vapid Ganado entry covers the regular model."
+    ],
+    "tags": [
+      "ganado",
+      "standout vehicle",
+      "vapid",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Ganado",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "airgator-naughty-boy-airboat",
+    "name": "Airgator Naughty Boy Airboat",
+    "summary": "A standout Airboat that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Airgator Naughty Boy Airboat in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Airboat; the app's Airboat 09 entry covers the regular model."
+    ],
+    "tags": [
+      "airboat",
+      "airgator",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Airgator",
+      "model": "Airboat",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "canis-gunrunner-kamacho",
+    "name": "Canis Gunrunner Kamacho",
+    "summary": "A standout Kamacho that GTABase's map places in the Vice City area.",
+    "body": [
+      "GTABase's interactive map lists the Canis Gunrunner Kamacho in its Standout Vehicle category, filed under the Vice City area.",
+      "It is a standout version of the Kamacho; the app's Canis Kamacho entry covers the regular model."
+    ],
+    "tags": [
+      "canis",
+      "kamacho",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Canis",
+      "model": "Kamacho",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ocelot-bloodless-jugular",
+    "name": "Ocelot Bloodless Jugular",
+    "summary": "A standout Jugular that GTABase's map places in the Waning Sands area.",
+    "body": [
+      "GTABase's interactive map lists the Ocelot Bloodless Jugular in its Standout Vehicle category, filed under the Waning Sands area.",
+      "It is a standout version of the Ocelot Jugular."
+    ],
+    "tags": [
+      "jugular",
+      "ocelot",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Ocelot",
+      "model": "Jugular",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "western-searing-zombie-bobber",
+    "name": "Western Searing Zombie Bobber",
+    "summary": "A standout Zombie Bobber that GTABase's map places in the Waning Sands area.",
+    "body": [
+      "GTABase's interactive map lists the Western Searing Zombie Bobber in its Standout Vehicle category, filed under the Waning Sands area.",
+      "It is a standout version of the Zombie Bobber; the app's Western Zombie Bobber entry covers the regular model."
+    ],
+    "tags": [
+      "standout vehicle",
+      "vehicle",
+      "western",
+      "zombie bobber"
+    ],
+    "facts": {
+      "manufacturer": "Western",
+      "model": "Zombie Bobber",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-hung-carbos-rs",
+    "name": "Nagasaki Hung Carbos RS",
+    "summary": "A standout Carbon RS that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Nagasaki Hung Carbos RS in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Carbon RS; the app's Nagasaki Carbon RS entry covers the regular model.",
+      "The map spells the base model \"Carbos RS\"; the app has the Nagasaki Carbon RS."
+    ],
+    "tags": [
+      "carbon rs",
+      "nagasaki",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Carbon RS",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lcc-monarch-avarus",
+    "name": "LCC Monarch Avarus",
+    "summary": "A standout Avarus that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the LCC Monarch Avarus in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Avarus; the app's LCC Avarus entry covers the regular model."
+    ],
+    "tags": [
+      "avarus",
+      "lcc",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "LCC",
+      "model": "Avarus",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-copperheads-gauntlet",
+    "name": "Bravado Copperheads Gauntlet",
+    "summary": "A standout Gauntlet that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Bravado Copperheads Gauntlet in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Bravado Gauntlet."
+    ],
+    "tags": [
+      "bravado",
+      "gauntlet",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Gauntlet",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-devils-rope-gauntlet",
+    "name": "Bravado Devil's Rope Gauntlet",
+    "summary": "A standout Gauntlet that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Bravado Devil's Rope Gauntlet in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Bravado Gauntlet."
+    ],
+    "tags": [
+      "bravado",
+      "gauntlet",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Gauntlet",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-gold-rope-infernus",
+    "name": "Pegassi Gold Rope Infernus",
+    "summary": "A standout Infernus that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Pegassi Gold Rope Infernus in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Infernus; the app's Pegassi Infernus entry covers the regular model."
+    ],
+    "tags": [
+      "infernus",
+      "pegassi",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Infernus",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "classique-emancipator-stallion",
+    "name": "Classique Emancipator Stallion",
+    "summary": "A standout Stallion that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Classique Emancipator Stallion in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Stallion; the app's Classique Stallion entry covers the regular model."
+    ],
+    "tags": [
+      "classique",
+      "stallion",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Classique",
+      "model": "Stallion",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-beer-monster-marshall",
+    "name": "Vapid Beer Monster Marshall",
+    "summary": "A standout Marshall that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Vapid Beer Monster Marshall in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Vapid Marshall."
+    ],
+    "tags": [
+      "marshall",
+      "standout vehicle",
+      "vapid",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Marshall",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bf-sludge-wraith-injection",
+    "name": "BF Sludge Wraith Injection",
+    "summary": "A standout Injection that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the BF Sludge Wraith Injection in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Injection; the app's BF Injection entry covers the regular model."
+    ],
+    "tags": [
+      "bf",
+      "injection",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "BF",
+      "model": "Injection",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-third-eye-youga",
+    "name": "Bravado Third Eye Youga",
+    "summary": "A standout Youga that GTABase's map places in the Port Gellhorn area.",
+    "body": [
+      "GTABase's interactive map lists the Bravado Third Eye Youga in its Standout Vehicle category, filed under the Port Gellhorn area.",
+      "It is a standout version of the Bravado Youga."
+    ],
+    "tags": [
+      "bravado",
+      "standout vehicle",
+      "vehicle",
+      "youga"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Youga",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "canis-nancys-crawler",
+    "name": "Canis Nancy's Crawler",
+    "summary": "A standout Crawler that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Canis Nancy's Crawler in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Crawler; the app's '82 Canis Crawler entry covers the regular model."
+    ],
+    "tags": [
+      "canis",
+      "crawler",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Canis",
+      "model": "Crawler",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-myways-manchez",
+    "name": "Maibatsu MyWays Manchez",
+    "summary": "A standout Manchez that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Maibatsu MyWays Manchez in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Manchez; the app's Maibatsu Manchez entry covers the regular model."
+    ],
+    "tags": [
+      "maibatsu",
+      "manchez",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Manchez",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "del-perro-midsummer-erode",
+    "name": "Del Perro Midsummer Erode",
+    "summary": "A standout Erode that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Del Perro Midsummer Erode in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Erode; the app's Del Perro Erode entry covers the regular model."
+    ],
+    "tags": [
+      "del perro",
+      "erode",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Del Perro",
+      "model": "Erode",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-gradys-slamvan",
+    "name": "Vapid Grady's Slamvan",
+    "summary": "A standout Slamvan that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Vapid Grady's Slamvan in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Slamvan; the app's Vapid Slamvan '56 entry covers the regular model."
+    ],
+    "tags": [
+      "slamvan",
+      "standout vehicle",
+      "vapid",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Slamvan",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "albany-verdant-buccaneer",
+    "name": "Albany Verdant Buccaneer",
+    "summary": "A standout Buccaneer that GTABase's map places in the Waning Sands area.",
+    "body": [
+      "GTABase's interactive map lists the Albany Verdant Buccaneer in its Standout Vehicle category, filed under the Waning Sands area.",
+      "It is a standout version of the Buccaneer; the app's '65 Albany Buccaneer entry covers the regular model."
+    ],
+    "tags": [
+      "albany",
+      "buccaneer",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "Buccaneer",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-finns-reclaimer",
+    "name": "Vapid Finns Reclaimer",
+    "summary": "A standout Reclaimer that GTABase's map places in the Waning Sands area.",
+    "body": [
+      "GTABase's interactive map lists the Vapid Finns Reclaimer in its Standout Vehicle category, filed under the Waning Sands area.",
+      "It is a standout version of the Vapid Reclaimer."
+    ],
+    "tags": [
+      "reclaimer",
+      "standout vehicle",
+      "vapid",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Reclaimer",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-truther-burrito",
+    "name": "Declasse Truther Burrito",
+    "summary": "A standout Burrito that GTABase's map places in the Waning Sands area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Truther Burrito in its Standout Vehicle category, filed under the Waning Sands area.",
+      "It is a standout version of the Burrito; the app's '98 Declasse Burrito entry covers the regular model."
+    ],
+    "tags": [
+      "burrito",
+      "declasse",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Burrito",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-flower-powered-rancher",
+    "name": "Declasse Flower Powered Rancher",
+    "summary": "A standout Rancher that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Flower Powered Rancher in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Rancher; the app's Declasse Rancher entry covers the regular model."
+    ],
+    "tags": [
+      "declasse",
+      "rancher",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Rancher",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "albany-driveshaft-devanity",
+    "name": "Albany Driveshaft Devanity",
+    "summary": "A standout DeVanity that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Albany Driveshaft Devanity in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the DeVanity; the app's Albany DeVanity '59 entry covers the regular model."
+    ],
+    "tags": [
+      "albany",
+      "devanity",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "DeVanity",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-red-apple-orchard-rancher",
+    "name": "Declasse Red Apple Orchard Rancher",
+    "summary": "A standout Rancher that GTABase's map places in the Port Gellhorn area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Red Apple Orchard Rancher in its Standout Vehicle category, filed under the Port Gellhorn area.",
+      "It is a standout version of the Rancher; the app's Declasse Rancher entry covers the regular model."
+    ],
+    "tags": [
+      "declasse",
+      "rancher",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Rancher",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-circles-of-hell-youga",
+    "name": "Bravado Circles of Hell Youga",
+    "summary": "A standout Youga that GTABase's map places in the Port Gellhorn area.",
+    "body": [
+      "GTABase's interactive map lists the Bravado Circles of Hell Youga in its Standout Vehicle category, filed under the Port Gellhorn area.",
+      "It is a standout version of the Bravado Youga."
+    ],
+    "tags": [
+      "bravado",
+      "standout vehicle",
+      "vehicle",
+      "youga"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Youga",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "karin-busted-cheater-rebel",
+    "name": "Karin Busted Cheater Rebel",
+    "summary": "A standout Rebel that GTABase's map places in the Port Gellhorn area.",
+    "body": [
+      "GTABase's interactive map lists the Karin Busted Cheater Rebel in its Standout Vehicle category, filed under the Port Gellhorn area.",
+      "It is a standout version of the Karin Rebel."
+    ],
+    "tags": [
+      "karin",
+      "rebel",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Rebel",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-fruit-outlet-walton",
+    "name": "Declasse Fruit Outlet Walton",
+    "summary": "A standout Walton that GTABase's map places in the Port Gellhorn area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Fruit Outlet Walton in its Standout Vehicle category, filed under the Port Gellhorn area.",
+      "It is a standout version of the Walton; the app's Declasse Walton L35 entry covers the regular model."
+    ],
+    "tags": [
+      "declasse",
+      "standout vehicle",
+      "vehicle",
+      "walton"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Walton",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "walter-ghost-cruiser",
+    "name": "Walter Ghost Cruiser",
+    "summary": "A standout Cruiser that GTABase's map places in the Port Gellhorn area.",
+    "body": [
+      "GTABase's interactive map lists the Walter Ghost Cruiser in its Standout Vehicle category, filed under the Port Gellhorn area.",
+      "It is a standout version of the Cruiser; the app's Walter Cruiser entry covers the regular model."
+    ],
+    "tags": [
+      "cruiser",
+      "standout vehicle",
+      "vehicle",
+      "walter"
+    ],
+    "facts": {
+      "manufacturer": "Walter",
+      "model": "Cruiser",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "seashark-westbound-azure",
+    "name": "Seashark Westbound Azure",
+    "summary": "A standout Azure that GTABase's map places in the Watson Bay area.",
+    "body": [
+      "GTABase's interactive map lists the Seashark Westbound Azure in its Standout Vehicle category, filed under the Watson Bay area.",
+      "It is a standout version of the Azure; the app's Seashark Azure entry covers the regular model."
+    ],
+    "tags": [
+      "azure",
+      "seashark",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Seashark",
+      "model": "Azure",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "airgator-dr-sheehans-airboat",
+    "name": "Airgator Dr Sheehan's Airboat",
+    "summary": "A standout Airboat that GTABase's map places in the Watson Bay area.",
+    "body": [
+      "GTABase's interactive map lists the Airgator Dr Sheehan's Airboat in its Standout Vehicle category, filed under the Watson Bay area.",
+      "It is a standout version of the Airboat; the app's Airboat 09 entry covers the regular model."
+    ],
+    "tags": [
+      "airboat",
+      "airgator",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Airgator",
+      "model": "Airboat",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lure-predator-rainbow-ripple-l20s",
+    "name": "Lure Predator Rainbow Ripple L20S",
+    "summary": "A standout Predator L20S that GTABase's map places in the Key Lento area.",
+    "body": [
+      "GTABase's interactive map lists the Lure Predator Rainbow Ripple L20S in its Standout Vehicle category, filed under the Key Lento area.",
+      "It is a standout version of the Predator L20S; the app's Lure Predator L20S entry covers the regular model."
+    ],
+    "tags": [
+      "lure",
+      "predator l20s",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Lure",
+      "model": "Predator L20S",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-rudolph-tao",
+    "name": "Nagasaki Rudolph Tao",
+    "summary": "A standout Tao that GTABase's map places in the Key Lento area.",
+    "body": [
+      "GTABase's interactive map lists the Nagasaki Rudolph Tao in its Standout Vehicle category, filed under the Key Lento area.",
+      "It is a standout version of the Tao; the app's Nagasaki Tao entry covers the regular model."
+    ],
+    "tags": [
+      "nagasaki",
+      "standout vehicle",
+      "tao",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Tao",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-shrimp-and-save-shifter",
+    "name": "Vapid Shrimp and Save Shifter",
+    "summary": "A standout Shifter that GTABase's map places in the Key Lento area.",
+    "body": [
+      "GTABase's interactive map lists the Vapid Shrimp and Save Shifter in its Standout Vehicle category, filed under the Key Lento area.",
+      "It is a standout version of the Shifter; the app's Shifter entry covers the regular model."
+    ],
+    "tags": [
+      "shifter",
+      "standout vehicle",
+      "vapid",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Shifter",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-cousin-carlos-akane",
+    "name": "Declasse Cousin Carlo's Akane",
+    "summary": "A standout Akane that GTABase's map places in the Key Lento area.",
+    "body": [
+      "GTABase's interactive map lists the Declasse Cousin Carlo's Akane in its Standout Vehicle category, filed under the Key Lento area.",
+      "It is a standout version of the Akane; the app's Declasse Akane entry covers the regular model."
+    ],
+    "tags": [
+      "akane",
+      "declasse",
+      "standout vehicle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Akane",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-tropic-dawn-youga",
+    "name": "Bravado Tropic Dawn Youga",
+    "summary": "A standout Youga that GTABase's map places in the Key Lento area.",
+    "body": [
+      "GTABase's interactive map lists the Bravado Tropic Dawn Youga in its Standout Vehicle category, filed under the Key Lento area.",
+      "It is a standout version of the Bravado Youga."
+    ],
+    "tags": [
+      "bravado",
+      "standout vehicle",
+      "vehicle",
+      "youga"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Youga",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sirius-61-sungrazer-standout",
+    "name": "Sirius '61 Sungrazer (standout)",
+    "summary": "A standout Sungrazer that GTABase's map places in the Watson Bay area.",
+    "body": [
+      "GTABase's interactive map lists the Sirius '61 Sungrazer in its Standout Vehicle category, filed under the Watson Bay area.",
+      "It is a standout version of the Sirius Sungrazer '61, which GTABase lists as a coupe."
+    ],
+    "tags": [
+      "sirius",
+      "standout vehicle",
+      "sungrazer",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Sirius",
+      "model": "Sungrazer",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sirius-holdout-sungrazer",
+    "name": "Sirius Holdout Sungrazer",
+    "summary": "A standout Sungrazer that GTABase's map places in the Ambrosia area.",
+    "body": [
+      "GTABase's interactive map lists the Sirius Holdout Sungrazer in its Standout Vehicle category, filed under the Ambrosia area.",
+      "It is a standout version of the Sirius Sungrazer '61, which GTABase lists as a coupe."
+    ],
+    "tags": [
+      "sirius",
+      "standout vehicle",
+      "sungrazer",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Sirius",
+      "model": "Sungrazer",
+      "class": "Standout vehicle",
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-standout-vehicle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

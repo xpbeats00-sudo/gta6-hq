@@ -6,7 +6,8 @@
     "body": [
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Interstate Ambulance; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
       "Those lists give the unlock condition as: find the Interstate Ambulance in the Progress menu.",
-      "GTABase's cheat page treats it as an ambulance; its vehicle database has a separate page titled just \"Ambulance\" (maker Brute, Emergency class), and it is not clear whether that is the same vehicle."
+      "GTABase's cheat page treats it as an ambulance; its vehicle database has a separate page titled just \"Ambulance\" (maker Brute, Emergency class), and it is not clear whether that is the same vehicle.",
+      "GTABase lists 4 seats and AWD drive for the Interstate Ambulance."
     ],
     "tags": [
       "ambulance",
@@ -19,7 +20,9 @@
       "manufacturer": "Interstate",
       "model": "Ambulance",
       "class": "Emergency",
-      "availability": "Spawn cheat after the story; unlock: find the Interstate Ambulance in the Progress menu"
+      "availability": "Spawn cheat after the story; unlock: find the Interstate Ambulance in the Progress menu",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
@@ -27,9 +30,10 @@
       "pressstart-cheats",
       "gamerant-cheats",
       "screenrant-cheats",
-      "gtabase-cheats"
+      "gtabase-cheats",
+      "r8gb-vehicles-ambulance"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -219,7 +223,10 @@
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the '65 Vapid Dominator; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
       "Those lists give the unlock condition as: complete all fitness challenges.",
       "GTABase has a page for a Vapid Dominator '67 (Muscle class) but none was found for a '65; the two may be different model years.",
-      "DayOne's list from the released game names it and files it under Muscle Cars."
+      "DayOne's list from the released game names it and files it under Muscle Cars.",
+      "GTABase's page for the Vapid Dominator '65 lists a registration cost of $6,900 and a stolen sell value of $2,035.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Muscle."
     ],
     "tags": [
       "cheat",
@@ -233,7 +240,8 @@
       "model": "Dominator",
       "year": "1965",
       "availability": "Spawn cheat after the story; unlock: complete all fitness challenges",
-      "class": "Muscle Cars"
+      "class": "Muscle Cars",
+      "seats": 2
     },
     "confidence": "corroborated",
     "sources": [
@@ -241,9 +249,10 @@
       "pressstart-cheats",
       "gamerant-cheats",
       "screenrant-cheats",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-dominator-67"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/screenrant-1f20628797d2.jpg"
   },
@@ -317,7 +326,8 @@
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the MTL Pumper; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
       "Those lists give the unlock condition as: find the MTL Pumper in the Progress menu, according to Press Start, Game Rant and Screen Rant (PowerPyx lists the condition as unknown).",
       "GTABase's GTA VI database files it under the Emergency class with MTL as the maker, under the page title \"Pumper\".",
-      "GTABase's cheat page describes the Pumper as a fire truck."
+      "GTABase's cheat page describes the Pumper as a fire truck.",
+      "Game8 says MTL Pumpers are found at fire stations around Leonida, out front, in the car park or in an open garage, and sometimes at random fire events; it gives 5 seats and says it has advanced security."
     ],
     "tags": [
       "cheat",
@@ -331,7 +341,8 @@
       "manufacturer": "MTL",
       "model": "Pumper",
       "class": "Emergency",
-      "availability": "Spawn cheat after the story; unlock: find the MTL Pumper in the Progress menu, according to Press Start, Game Rant and Screen Rant (PowerPyx lists the condition as unknown)"
+      "availability": "Spawn cheat after the story; unlock: find the MTL Pumper in the Progress menu, according to Press Start, Game Rant and Screen Rant (PowerPyx lists the condition as unknown)",
+      "seats": 5
     },
     "confidence": "corroborated",
     "sources": [
@@ -340,9 +351,10 @@
       "gamerant-cheats",
       "screenrant-cheats",
       "gtabase-vehicles",
-      "gtabase-cheats"
+      "gtabase-cheats",
+      "r7-g8-pumper"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1220,7 +1232,10 @@
       "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
       "PowerPyx says the questline is tracked on the map under Exploration, Find Cars for Wyman, with a task called Find Transgressors.",
       "IGN places all three Transgressor wrecks in Port Gellhorn: on a slab behind the trailer park behind McCarthy's Fresh Fruit & Veg off US-9, in an open shed at a blue house on Gellhorn Avenue east of Brooks Boatworks, and against the back fence of a trailer park beside the Dirt Merchants bike store in the far south of town.",
-      "IGN says Wyman asks 1,500 dollars for labour once all three are scanned, after which the '67 Transgressor is collected from his scrapyard."
+      "IGN says Wyman asks 1,500 dollars for labour once all three are scanned, after which the '67 Transgressor is collected from his scrapyard.",
+      "GTABase's page for the Sirius Transgressor '67 lists a registration cost of $21,500 and a stolen sell value of $6,060.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Muscle."
     ],
     "tags": [
       "classic",
@@ -1232,12 +1247,14 @@
     "facts": {
       "model": "Transgressor",
       "year": "1967",
-      "availability": "Ultimate Edition only; Wyman's classic car questline"
+      "availability": "Ultimate Edition only; Wyman's classic car questline",
+      "seats": 2
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-ultimate",
-      "ign-wymans-cars"
+      "ign-wymans-cars",
+      "r8gb-vehicles-sirius"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1380,7 +1397,9 @@
     "body": [
       "PowerPyx's walkthrough says the Crawler is parked by the old Trader's Union building and is driven to Moses's garage in Port Gellhorn, with a $500 bonus for delivering it in good condition.",
       "GTABase's GTA VI database files it under the Vans class with Canis as the maker, under the page title \"Canis Crawler '82\".",
-      "DayOne's list from the released game names it and files it under SUVs."
+      "DayOne's list from the released game names it and files it under SUVs.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Off-Road."
     ],
     "tags": [
       "canis",
@@ -1394,15 +1413,17 @@
       "model": "Crawler",
       "year": "1982",
       "class": "SUVs",
-      "availability": "Stolen for Moses in the mission Daily Driver"
+      "availability": "Stolen for Moses in the mission Daily Driver",
+      "seats": 2
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-daily-driver",
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-jeep-scrambler-cj-8"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1411,7 +1432,10 @@
     "summary": "The Karin Futo is a car that Moses asks the player to fetch from Draper Island in Kelly County.",
     "body": [
       "PowerPyx's Delights Dancers card guide mentions a building on the south edge of Draper Island, Kelly County, as the place where the Karin Futo requested by Moses is found.",
-      "DayOne's list from the released game names it and files it under Coupes."
+      "DayOne's list from the released game names it and files it under Coupes.",
+      "GTABase's page for the Karin Futo '85 lists a registration cost of $4,750 and a stolen sell value of $1,430.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Tuner."
     ],
     "tags": [
       "draper island",
@@ -1423,14 +1447,17 @@
       "manufacturer": "Karin",
       "model": "Futo",
       "availability": "Requested by Moses; located on Draper Island, Kelly County",
-      "class": "Coupes"
+      "class": "Coupes",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-delights-cards",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-futo"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1527,7 +1554,10 @@
     "body": [
       "PowerPyx's walkthrough says Jason takes the car out of the impound, through a Pay 'n' Spray and on to Brian's storage.",
       "GTABase's GTA VI database files it under the Muscle class with Imponte as the maker.",
-      "DayOne's list from the released game names it and files it under Muscle Cars."
+      "DayOne's list from the released game names it and files it under Muscle Cars.",
+      "GTABase's page for the Imponte Phoenix '77 lists a registration cost of $11,900 and a stolen sell value of $3,575.",
+      "GTABase says it carries a Standard Tracker.",
+      "GTABase lists its specialist type as Muscle."
     ],
     "tags": [
       "brian",
@@ -1541,15 +1571,18 @@
       "manufacturer": "Imponte",
       "model": "Phoenix",
       "class": "Muscle Cars",
-      "availability": "Mission vehicle in Unwanted Attention (Go See Cal)"
+      "availability": "Mission vehicle in Unwanted Attention (Go See Cal)",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-unwanted-attention",
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-phoenix"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "obey-8f-drafter",
@@ -1558,7 +1591,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase's page for the Obey 8F Drafter lists a registration cost of $18,650 and a stolen sell value of $5,555.",
+      "GTABase says it carries a Standard Tracker.",
+      "GTABase lists its specialist type as Tuner."
     ],
     "tags": [
       "8f",
@@ -1570,13 +1606,16 @@
     "facts": {
       "manufacturer": "Obey",
       "model": "8F Drafter",
-      "class": "Sports car"
+      "class": "Sports car",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r8gb-vehicles-8f-drafter"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1612,7 +1651,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Service - Utility Vehicles."
+      "DayOne's list from the released game names it and files it under Service - Utility Vehicles.",
+      "GTABase lists 2 seats and FWD drive for the HVY Airtug."
     ],
     "tags": [
       "airtug",
@@ -1621,14 +1661,17 @@
     "facts": {
       "manufacturer": "HVY",
       "model": "Airtug",
-      "class": "Service - Utility Vehicles"
+      "class": "Service - Utility Vehicles",
+      "seats": 2,
+      "drivetrain": "FWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-service"
+      "dayone-service",
+      "r8gb-vehicles-airtug"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1638,7 +1681,9 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under SUVs."
+      "DayOne's list from the released game names it and files it under SUVs.",
+      "GTABase's page for the Vapid Aleutian lists a registration cost of $8,150 and a stolen sell value of $2,420.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "aleutian",
@@ -1648,14 +1693,17 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Aleutian",
-      "class": "SUVs"
+      "class": "SUVs",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-aleutian"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1693,7 +1741,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Sedans."
+      "DayOne's list from the released game names it and files it under Sedans.",
+      "GTABase's page for the Karin Asterope GZ lists a registration cost of $1,650 and a stolen sell value of $495.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Donks."
     ],
     "tags": [
       "asterope",
@@ -1704,14 +1755,17 @@
     "facts": {
       "manufacturer": "Karin",
       "model": "Asterope GZ",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-asterope-gz"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "lcc-avarus",
@@ -1853,7 +1907,10 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Pickups."
+      "DayOne's list from the released game names it and files it under Pickups.",
+      "Game8 says the '95 Bison 900 is parked at car parks along the Sunbelt Highway in north Key Lento; it gives 4 seats and an Off-Road specialist.",
+      "GTABase's page for the Bravado Bison 900 '95 lists a registration cost of $7,400 and a stolen sell value of $2,200.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "900",
@@ -1866,14 +1923,19 @@
       "manufacturer": "Bravado",
       "model": "Bison 900 '95",
       "year": "'95",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 4,
+      "availability": "Car parks on the Sunbelt Highway, north Key Lento (Game8)",
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r7-g8-bison-900",
+      "r8gb-vehicles-bison-900-1995"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "bravado-bison-900-95-monster-truck",
@@ -1882,7 +1944,9 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase's page for the Bravado Bison 900 '95 (Lifted) lists a stolen sell value of $3,080 but shows no registration cost.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "900",
@@ -1898,13 +1962,15 @@
       "manufacturer": "Bravado",
       "model": "Bison 900 '95 Monster Truck",
       "year": "'95",
-      "class": "Off-Road"
+      "class": "Off-Road",
+      "seats": 4
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r8gb-vehicles-bison-900-monster-truck"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1969,7 +2035,10 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Sedans."
+      "DayOne's list from the released game names it and files it under Sedans.",
+      "GTABase's page for the Willard Grouse '92 lists a registration cost of $1,400 and a stolen sell value of $440.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Donks."
     ],
     "tags": [
       "92",
@@ -1981,14 +2050,16 @@
       "manufacturer": "Willard",
       "model": "Grouse '92",
       "year": "'92",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-buick-skylark-6th-gen"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2112,7 +2183,10 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase's page for the Declasse Impaler '20 lists a registration cost of $5,400 and a stolen sell value of $1,595.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Donks."
     ],
     "tags": [
       "20",
@@ -2124,13 +2198,15 @@
       "manufacturer": "Declasse",
       "model": "Impaler '20",
       "year": "'20",
-      "class": "Sedan"
+      "class": "Sedan",
+      "seats": 4
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r8gb-vehicles-chevrolet-impala-10th-gen"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2170,7 +2246,10 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Coupes."
+      "DayOne's list from the released game names it and files it under Coupes.",
+      "GTABase's page for the Declasse Akane lists a registration cost of $5,250 and a stolen sell value of $1,595.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Tuner."
     ],
     "tags": [
       "akane",
@@ -2180,14 +2259,16 @@
     "facts": {
       "manufacturer": "Declasse",
       "model": "Akane",
-      "class": "Coupes"
+      "class": "Coupes",
+      "seats": 2
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-chevrolet-sonic"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2224,7 +2305,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Vans."
+      "DayOne's list from the released game names it and files it under Vans.",
+      "Game8 says Sojourns are parked in north Key Lento, outside Ammu-Nation, by the gas station and beside the Hamilton Private Health Clinic; it calls it a minivan with 4 seats."
     ],
     "tags": [
       "bravado",
@@ -2234,14 +2316,17 @@
     "facts": {
       "manufacturer": "Bravado",
       "model": "Sojourn",
-      "class": "Vans"
+      "class": "Vans",
+      "seats": 4,
+      "availability": "Car parks in north Key Lento (Game8)"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r7-g8-sojourn"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2329,7 +2414,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase's page for the Invetero Coquette '64 lists a registration cost of $29,150 and a stolen sell value of $12,320.",
+      "GTABase says it carries a Standard Tracker.",
+      "GTABase lists its specialist type as Muscle."
     ],
     "tags": [
       "classic",
@@ -2340,13 +2428,16 @@
     "facts": {
       "manufacturer": "Invetero",
       "model": "Coquette Classic",
-      "class": "Sports classic"
+      "class": "Sports classic",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r8gb-vehicles-coquette-classic"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3236,7 +3327,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Sedans."
+      "DayOne's list from the released game names it and files it under Sedans.",
+      "GTABase's page for the Declasse Impaler '80 lists a registration cost of $3,500 and a stolen sell value of $1,045.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Lowriders."
     ],
     "tags": [
       "80",
@@ -3249,14 +3343,17 @@
       "manufacturer": "Declasse",
       "model": "Impaler '80",
       "year": "'80",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-impaler-lx"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3266,7 +3363,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Sedans."
+      "DayOne's list from the released game names it and files it under Sedans.",
+      "GTABase's page for the Declasse Impaler SZ '95 lists a registration cost of $5,400 and a stolen sell value of $1,595.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Muscle."
     ],
     "tags": [
       "car",
@@ -3278,14 +3378,17 @@
     "facts": {
       "manufacturer": "Declasse",
       "model": "Impaler SZ",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-impaler-sz"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "pegassi-infernus-96",
@@ -3416,7 +3519,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Vans."
+      "DayOne's list from the released game names it and files it under Vans.",
+      "GTABase lists 6 seats and FWD drive for the Osprey Journey '78."
     ],
     "tags": [
       "journey",
@@ -3426,14 +3530,17 @@
     "facts": {
       "manufacturer": "Osprey",
       "model": "Journey",
-      "class": "Vans"
+      "class": "Vans",
+      "seats": 6,
+      "drivetrain": "FWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-journey"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3496,7 +3603,10 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase's page for the Dundreary Arcturus '93 lists a registration cost of $3,250 and a stolen sell value of $990.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Donks."
     ],
     "tags": [
       "93",
@@ -3508,13 +3618,15 @@
       "manufacturer": "Dundreary",
       "model": "Arcturus '93",
       "year": "'93",
-      "class": "Coupe"
+      "class": "Coupe",
+      "seats": 2
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r8gb-vehicles-lincoln-mark-viii"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3631,7 +3743,10 @@
     "summary": "GTABase's GTA VI vehicle database lists the Albany Manana in its Sports Classics class, made by Albany.",
     "body": [
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Muscle Cars."
+      "DayOne's list from the released game names it and files it under Muscle Cars.",
+      "GTABase's page for the Albany Manana '77 lists a registration cost of $4,900 and a stolen sell value of $1,430.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Lowriders."
     ],
     "tags": [
       "albany",
@@ -3642,14 +3757,17 @@
     "facts": {
       "manufacturer": "Albany",
       "model": "Manana",
-      "class": "Muscle Cars"
+      "class": "Muscle Cars",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-manana"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "dinka-marquis",
@@ -3895,7 +4013,9 @@
     "summary": "GTABase's GTA VI vehicle database lists the Mammoth Patriot Mil-Spec in its Off-Road class, made by Mammoth.",
     "body": [
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase's page for the Mammoth Patriot '92 lists a stolen sell value of $10,835 but shows no registration cost.",
+      "GTABase says it carries a Military Tracker."
     ],
     "tags": [
       "mammoth",
@@ -3908,13 +4028,16 @@
     "facts": {
       "manufacturer": "Mammoth",
       "model": "Patriot Mil-Spec",
-      "class": "Off-Road"
+      "class": "Off-Road",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r8gb-vehicles-patriot-mil-spec"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/gtabase-ebe6601473b3.jpg"
   },
@@ -3954,7 +4077,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Service - Trucks."
+      "DayOne's list from the released game names it and files it under Service - Trucks.",
+      "GTABase lists 5 seats and RWD drive for the JoBuilt Phantom Custom '81."
     ],
     "tags": [
       "commercial",
@@ -3965,14 +4089,17 @@
     "facts": {
       "manufacturer": "JoBuilt",
       "model": "Phantom Custom",
-      "class": "Service - Trucks"
+      "class": "Service - Trucks",
+      "seats": 5,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-service"
+      "dayone-service",
+      "r8gb-vehicles-phantom-custom"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -4262,7 +4389,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Pickups."
+      "DayOne's list from the released game names it and files it under Pickups.",
+      "GTABase's page for the Declasse Rancher '86 lists a registration cost of $4,750 and a stolen sell value of $1,180.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Off-Road."
     ],
     "tags": [
       "declasse",
@@ -4273,14 +4403,17 @@
     "facts": {
       "manufacturer": "Declasse",
       "model": "Rancher",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-rancher"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "ubermacht-rebla-gts",
@@ -4289,7 +4422,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under SUVs."
+      "DayOne's list from the released game names it and files it under SUVs.",
+      "Game8 says the Rebla GTS is sometimes parked at commercial car parks along the Sunbelt Highway in north Key Lento; it gives 4 seats and a Tuner specialist."
     ],
     "tags": [
       "gts",
@@ -4300,14 +4434,17 @@
     "facts": {
       "manufacturer": "Übermacht",
       "model": "Rebla GTS",
-      "class": "SUVs"
+      "class": "SUVs",
+      "seats": 4,
+      "availability": "Car parks on the Sunbelt Highway, north Key Lento (Game8)"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r7-g8-rebla"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "vapid-reclaimer",
@@ -4316,7 +4453,9 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Pickups."
+      "DayOne's list from the released game names it and files it under Pickups.",
+      "Game8 says Reclaimers turn up in car parks in north Key Lento, such as outside Ammu-Nation, by the gas station and beside the Hamilton Private Health Clinic, and that one cannot be driven until the Clone Key is unlocked in Chapter 3.",
+      "Game8 gives 4 seats and an Off-Road specialist, with speed 4, acceleration 5.3 and off-road handling 6.7."
     ],
     "tags": [
       "off",
@@ -4327,14 +4466,17 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Reclaimer",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 4,
+      "availability": "Car parks in north Key Lento; needs the Clone Key (Chapter 3) (Game8)"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r7-g8-reclaimer"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "rental-bus",
@@ -4370,7 +4512,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "Game8 says one or two '95 Trotters are parked beside the Key Lento Tourist Information building, sometimes swapped for a Moocher and a Journey; it gives 2 seats."
     ],
     "tags": [
       "95",
@@ -4382,13 +4525,16 @@
       "manufacturer": "Willard",
       "model": "Trotter '95",
       "year": "'95",
-      "class": "Van"
+      "class": "Van",
+      "seats": 2,
+      "availability": "Beside the Key Lento Tourist Information building (Game8)"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r7-g8-trotter"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -4555,7 +4701,10 @@
     "summary": "GTABase's GTA VI vehicle database lists the Übermacht Sentinel Classic in its Sports Classics class, made by Übermacht.",
     "body": [
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Sports Cars."
+      "DayOne's list from the released game names it and files it under Sports Cars.",
+      "GTABase's page for the Übermacht Sentinel '85 lists a registration cost of $6,000 and a stolen sell value of $1,760.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Tuner."
     ],
     "tags": [
       "classic",
@@ -4566,14 +4715,17 @@
     "facts": {
       "manufacturer": "Übermacht",
       "model": "Sentinel Classic",
-      "class": "Sports Cars"
+      "class": "Sports Cars",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-sentinel-classic"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "buckingham-shamal",
@@ -4713,7 +4865,8 @@
     "summary": "GTABase's GTA VI vehicle database lists the Brute Stockade in its Commercial class, made by Brute.",
     "body": [
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase lists 4 seats and RWD drive for the Interstate Stockade '99."
     ],
     "tags": [
       "brute",
@@ -4723,13 +4876,16 @@
     "facts": {
       "manufacturer": "Brute",
       "model": "Stockade",
-      "class": "Commercial"
+      "class": "Commercial",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r8gb-vehicles-stockade"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "mammoth-streamer216",
@@ -4975,7 +5131,10 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under SUVs."
+      "DayOne's list from the released game names it and files it under SUVs.",
+      "GTABase's page for the Karin Allander lists a registration cost of $2,650 and a stolen sell value of $770.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Tuner."
     ],
     "tags": [
       "allander",
@@ -4985,14 +5144,16 @@
     "facts": {
       "manufacturer": "Karin",
       "model": "Allander",
-      "class": "SUVs"
+      "class": "SUVs",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-toyota-rav4-5th-gen"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -5217,7 +5378,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Pickups."
+      "DayOne's list from the released game names it and files it under Pickups.",
+      "GTABase's page for the Declasse Walton '81 lists a registration cost of $3,400 and a stolen sell value of $1,045.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Off-Road."
     ],
     "tags": [
       "declasse",
@@ -5229,14 +5393,17 @@
     "facts": {
       "manufacturer": "Declasse",
       "model": "Walton L35",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-walton-l35"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "wastelander",
@@ -5384,7 +5551,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Coupes."
+      "DayOne's list from the released game names it and files it under Coupes.",
+      "GTABase's page for the Übermacht Apoc lists a registration cost of $6,000 and a stolen sell value of $1,760.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Tuner."
     ],
     "tags": [
       "apoc",
@@ -5394,14 +5564,17 @@
     "facts": {
       "manufacturer": "Übermacht",
       "model": "Apoc",
-      "class": "Coupes"
+      "class": "Coupes",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-zion"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

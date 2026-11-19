@@ -494,7 +494,9 @@
     "summary": "A garage in Crosstown that GTABase lists as exclusive to GTA+ members.",
     "body": [
       "GTABase says it unlocks on reaching Chapter 3 with an active GTA+ membership.",
-      "PowerPyx's list of 12 in-game garages does not include it."
+      "PowerPyx's list of 12 in-game garages does not include it.",
+      "Polygon describes it as a single-car garage that comes with the '90 Annis Venturas BLVD Elegy, has a weapon locker and can fence stolen goods, with both available from Chapter 3.",
+      "Polygon says the GTA+ perks last only while the $7.99-a-month membership is active, and can be switched off under Account > GTA Plus Boosts in the pause menu."
     ],
     "tags": [
       "city",
@@ -512,9 +514,10 @@
     "confidence": "corroborated",
     "sources": [
       "gtabase-prop",
-      "ppx-garages"
+      "ppx-garages",
+      "r8-poly-gta-plus"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "vice-city-real-estate",
@@ -647,8 +650,7 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-e167dbb8874b.jpg"
+    "spoiler": true
   },
   {
     "slug": "capri-classic",
@@ -6363,7 +6365,9 @@
     "summary": "A taxi firm called from the phone contacts that can skip the ride to any map marker for a flat $100 on top of the fare.",
     "body": [
       "PowerPyx says it is available from the end of the first mission and works for places not yet discovered.",
-      "PowerPyx says a taxi cannot reach Dalton Island."
+      "PowerPyx says a taxi cannot reach Dalton Island.",
+      "GTABase says Paradise Taxi is called from Contacts on the phone, is paid with the cash Jason or Lucia is carrying, and cannot reach isolated spots such as the remote keys or deep swamp.",
+      "GTABase says skipping the ride by focusing on the driver costs an extra $100."
     ],
     "tags": [
       "contact",
@@ -6383,9 +6387,10 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-fasttravel",
-      "ppx-drone"
+      "ppx-drone",
+      "r8gb-articles-how-to-fast-travel-in-gta-6"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6393,7 +6398,9 @@
     "name": "RydeMe",
     "summary": "A ride-hailing phone app whose fare grows with distance, with a $100 option to skip the trip.",
     "body": [
-      "PowerPyx says the app unlocks in Chapter 2 and that Paradise Taxi can be called instead when no driver is free."
+      "PowerPyx says the app unlocks in Chapter 2 and that Paradise Taxi can be called instead when no driver is free.",
+      "GTABase says RydeMe needs the bank account set up in the Buck Me mission, after which the app appears on the phone by itself; fares come out of the bank account and grow with distance.",
+      "GTABase says skipping a RydeMe ride also costs an extra $100."
     ],
     "tags": [
       "app",
@@ -6412,9 +6419,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-fasttravel"
+      "ppx-fasttravel",
+      "r8gb-articles-how-to-fast-travel-in-gta-6"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6462,7 +6470,11 @@
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
       "IGN says Sunrise RV Park is a Kingfishers Illegal Operation for cocaine shipments and exotic animal breeding on the north side of Cottonmouth Lake, north-west of Key Lento, most easily reached by the road south-west out of Hamlet; IGN rates its security High.",
       "IGN lists three Key Valuables: a codeless safe behind the office desk with 1,332 dollars, a safe in the dock building by a 'LIVE BAIT & TACKLE' sign holding 2,259 dollars, whose code 6769 is on a notepad beside the first safe, and the Kingfishers Akulus Revolver on the bed of an orange and white RV.",
-      "IGN says a further small safe in that RV's bathroom holds 1,022 dollars, recommends a shotgun and warns of fast dogs, and says Dunk pays 2,400 dollars for the cocaine there in Chapter 2. IGN puts the payout at 6,500 to 9,300 dollars."
+      "IGN says a further small safe in that RV's bathroom holds 1,022 dollars, recommends a shotgun and warns of fast dogs, and says Dunk pays 2,400 dollars for the cocaine there in Chapter 2. IGN puts the payout at 6,500 to 9,300 dollars.",
+      "Game8 puts Sunrise RV Park in central Pelican Valley, between the other two Kingfishers operations, and calls it the hardest of the three.",
+      "Game8 suggests climbing the sniper's nest on the south side, which holds a rifle, and attacking from the southern docks where most of the loot is; it warns that dogs can smell the player.",
+      "Game8 says the vault code (6769) is on a notepad in the shack east of the roundabout, and gives the repeatable average cash take as $3,100 to $3,700, with cocaine too.",
+      "Disagreement: IGN places it on the north side of Cottonmouth Lake; Game8 says central Pelican Valley."
     ],
     "tags": [
       "gang",
@@ -6483,7 +6495,8 @@
     "sources": [
       "ppx-gang",
       "ign-sunrise-rv-park",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "r7-g8-sunrise-rv"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -6887,7 +6900,8 @@
       "IGN says a talking parrot in a cage in the middle of the yard, asked about the cash several times, mentions a generator; a vent at the base of the generator to its left holds the 1,366 dollar reward. IGN gives no security level.",
       "Polygon suggests skipping the shop floor: go out, take the path between Three Sheets Liquor and the Pay 'N Spray next door, hop the wall, draw the armed men out and fight from behind a container.",
       "Polygon says the police arrive almost as soon as the last guard falls; the red parrot in the middle cage says 'generator' when asked twice, and the cash is in the small vent beside the generator.",
-      "Polygon says starting the robbery and leaving before the reward makes it unavailable for a while, being caught loses the cash, and the haul is over $1,000; it suggests escaping south over the fences."
+      "Polygon says starting the robbery and leaving before the reward makes it unavailable for a while, being caught loses the cash, and the haul is over $1,000; it suggests escaping south over the fences.",
+      "Eurogamer says the operation first shows on the map labelled 'Strange Noises' once Shirley's rum has been fetched, and that after collecting the $1,366 from the generator vent you can thank the parrot before leaving."
     ],
     "tags": [
       "animals",
@@ -6909,7 +6923,8 @@
       "ppx-gang",
       "ign-exotic-animals-front",
       "ign-illegal-operations",
-      "pg-exotic-animal-front"
+      "pg-exotic-animal-front",
+      "r8-eg-exotic-animals"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -7134,7 +7149,9 @@
     "summary": "Hidden labs making the drug Kitty Litter, marked by a purple search area and pink gas.",
     "body": [
       "PowerPyx counts 14 labs and groups them by area: Balsero (3), Crosstown (3), Central Rockridge, Decor District, Little Cuba, Salton, Tequesta and wider Vice-Dale, plus one reached in a story mission.",
-      "PowerPyx ties destroying them to a side-mission chain."
+      "PowerPyx ties destroying them to a side-mission chain.",
+      "Push Square says Tyrone sometimes texts lab locations and that progress is tracked under Touch Pad > Robberies > Take Out Kitty Litter.",
+      "Push Square says labs can also be spotted by discarded chemicals, purple smoke from buildings and cat graffiti nearby, and that its work-in-progress list so far covers labs in Balsero, Salton, Crosstown, Rockridge and Little Cuba."
     ],
     "tags": [
       "city",
@@ -7156,11 +7173,11 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-labs",
-      "ppx-100"
+      "ppx-100",
+      "r8-ps-kitty-labs"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-548d51f5743a.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "outback-gas-junkie",

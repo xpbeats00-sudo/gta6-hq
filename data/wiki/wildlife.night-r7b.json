@@ -1,0 +1,83 @@
+[
+  {
+    "slug": "white-river-otter",
+    "name": "White River Otter",
+    "summary": "An uncommon white-furred river otter that DayOne lists among the animals you can hunt in the wetlands.",
+    "body": [
+      "DayOne's hunting guide (November 18, 2026) lists the White River Otter among the game's huntable animals, gives its habitat as wetland and recommends the Wortham W-22 for it.",
+      "DayOne describes it as an uncommon white-furred form of the North American river otter, found along Leonida's waterways and wetlands, and counts it among the rare and uncommon animals its writers had found so far.",
+      "Only DayOne names this white form; the app's Otter entry covers otters in general."
+    ],
+    "tags": [
+      "hunting",
+      "otter",
+      "rare variant",
+      "wetland"
+    ],
+    "facts": {
+      "species": "White River Otter",
+      "habitat": "Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mottled-duck",
+    "name": "Mottled Duck",
+    "summary": "A wetland duck that DayOne lists as huntable; the rarer Mosaic Mottled Duck is a colour form of it.",
+    "body": [
+      "DayOne's hunting guide (November 18, 2026) lists the Mottled Duck as a huntable wetland animal and recommends the Wortham W-22 for it.",
+      "DayOne describes the Mosaic Mottled Duck, which the app already has, as a rare colour form of the mottled duck found around fresh water in the wetlands.",
+      "GTA Tracker's wildlife database (updated November 18, 2026) also lists the Mottled Duck as a wetland dabbling duck, marked as seen in the game."
+    ],
+    "tags": [
+      "bird",
+      "duck",
+      "hunting",
+      "wetland"
+    ],
+    "facts": {
+      "species": "Mottled Duck",
+      "habitat": "Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting-animals",
+      "gtatracker-mottled-duck"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pit-bull",
+    "name": "Pit Bull",
+    "summary": "A pit bull in a spiked gold collar appears beside a San4San member in one of Rockstar's official launch screenshots.",
+    "body": [
+      "GTA Tracker's wildlife database lists the pit bull as an urban dog and says it appears with a San4San member, wearing a spiked gold collar, in one of Rockstar's official launch screenshots of Vice City.",
+      "TechWiser's animal list (November 19, 2026) also includes the Pit Bull among the game's land animals.",
+      "Neither page says what players can do with pit bulls in the game."
+    ],
+    "tags": [
+      "breed",
+      "dog",
+      "san4san",
+      "vice city"
+    ],
+    "facts": {
+      "species": "Pit Bull",
+      "habitat": "Urban"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtatracker-pit-bull",
+      "techwiser-animals"
+    ],
+    "verified": "2026-11-18"
+  }
+]

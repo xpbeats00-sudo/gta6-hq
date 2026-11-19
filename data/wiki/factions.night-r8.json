@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "the-furverts",
+    "name": "The Furverts",
+    "summary": "An underground group of outlawed furries in Leonida; street encounters let you watch police corner one or help them escape.",
+    "body": [
+      "GamesRadar+ says in-game news and social media show Leonida's governor, Mike Jimenez, banning furries before the story begins, with a headline declaring the state furry-free.",
+      "GamesRadar+ and TheGamer both describe a TV spot from an Anti-Furry Association telling citizens to report furry activity and saying licensed hunters may shoot people in fursuits on sight.",
+      "TheGamer says the underground movement calling itself The Furverts appears on the Snapmatic app and in random street encounters where police surround a furry with guns drawn and a helicopter spotlight overhead.",
+      "TheGamer says that if you only watch, the encounter ends with the police shooting the furry, and that you can instead help them escape to their hideouts.",
+      "GamesRadar+, citing CNET, says you can help a persecuted furry lose the cops, meet up with other furries and get them to a secure compound."
+    ],
+    "tags": [
+      "furries",
+      "furverts",
+      "random event",
+      "satire",
+      "snapmatic"
+    ],
+    "facts": {
+      "type": "Underground group",
+      "enemies": [
+        "Anti-Furry Association",
+        "Police"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-tg-furverts",
+      "r8-gr-furverts"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

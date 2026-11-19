@@ -1,0 +1,48 @@
+[
+  {
+    "slug": "baller-dealership",
+    "name": "Baller Dealership",
+    "summary": "A Baller car dealership on El Joven Boulevard in Southside, Vice City, per GTABase's map.",
+    "body": [
+      "GTABase's map lists a Baller car dealership on El Joven Boulevard in Southside, Vice City."
+    ],
+    "tags": [
+      "dealership",
+      "southside",
+      "vehicles"
+    ],
+    "facts": {
+      "type": "Car dealership",
+      "location": "El Joven Boulevard, Southside, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-vehicle-dealer"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-dealership",
+    "name": "Vapid Dealership",
+    "summary": "A Vapid car dealership in Southside, Vice City, per GTABase's map.",
+    "body": [
+      "GTABase's map lists a Vapid car dealership in Southside, Vice City."
+    ],
+    "tags": [
+      "dealership",
+      "southside",
+      "vehicles"
+    ],
+    "facts": {
+      "type": "Car dealership",
+      "location": "Southside, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-vehicle-dealer"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

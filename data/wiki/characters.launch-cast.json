@@ -656,7 +656,8 @@
     "summary": "A Vice City street racer whose four-mission strand begins at a race in Salton.",
     "body": [
       "PowerPyx says Yago is met at a Hit 'n' Run VC race in Salton after a text from Manuel, and that he then offers three more missions, two of them for Jason only.",
-      "PowerPyx counts his strand toward the Strangers & Freaks trophy."
+      "PowerPyx counts his strand toward the Strangers & Freaks trophy.",
+      "GTABase says Yago first appears in the Extended Look, shouting at rival racers while Jason drives his Annis Elegy '90."
     ],
     "role": "Street racer, Vice City",
     "group": "supporting",
@@ -675,9 +676,10 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-streetrace",
-      "ppx-strangers"
+      "ppx-strangers",
+      "r8gb-characters-yago"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

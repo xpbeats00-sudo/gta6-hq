@@ -89,7 +89,8 @@
     "summary": "A snake named as one of three kill targets in the Hunting Spree challenge.",
     "body": [
       "PowerPyx lists a Hunting Spree challenge that requires killing a boar, a rattlesnake and a panther within 15 minutes without taking damage from enemies or animals.",
-      "Red Bull and Gfinity Esports listed snakes in general among the animals shown before launch, without naming a kind."
+      "Red Bull and Gfinity Esports listed snakes in general among the animals shown before launch, without naming a kind.",
+      "DayOne's hunting guide (November 18, 2026) names the species as the Eastern Diamondback Rattlesnake, found in coastal and forest areas, and recommends the Wortham W-22 for it; GTA Tracker's wildlife database lists it under the same name."
     ],
     "tags": [
       "challenge",
@@ -99,16 +100,19 @@
       "snake"
     ],
     "facts": {
-      "species": "Rattlesnake",
-      "huntable": true
+      "species": "Eastern Diamondback Rattlesnake",
+      "huntable": true,
+      "habitat": "Coastal, Forest"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-challenges",
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "dayone-hunting-animals",
+      "gtatracker-rattlesnake"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -465,21 +469,25 @@
     "name": "Armadillo",
     "summary": "A small armored mammal among the land animals shown or named before launch.",
     "body": [
-      "Red Bull listed the armadillo from trailers and screenshots, and Gfinity Esports reported the nine-banded armadillo from Game Informer's Rockstar interview."
+      "Red Bull listed the armadillo from trailers and screenshots, and Gfinity Esports reported the nine-banded armadillo from Game Informer's Rockstar interview.",
+      "DayOne's hunting guide (November 18, 2026) lists the Nine-Banded Armadillo as a huntable forest animal and recommends the Wortham W-22 for it."
     ],
     "tags": [
       "armadillo",
       "mammal"
     ],
     "facts": {
-      "species": "Nine-banded armadillo"
+      "species": "Nine-banded armadillo",
+      "habitat": "Forest",
+      "huntable": true
     },
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "dayone-hunting-animals"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "raccoon",
@@ -550,28 +558,34 @@
     "name": "Squirrel",
     "summary": "Squirrels are among the small animals shown or named before launch.",
     "body": [
-      "Red Bull and Gfinity Esports both listed squirrels among the game's animals."
+      "Red Bull and Gfinity Esports both listed squirrels among the game's animals.",
+      "DayOne's hunting guide (November 18, 2026) names the species as the Eastern Gray Squirrel, found in coastal, forest, urban and wetland areas, and recommends the Wortham W-22 for it; GTA Tracker's wildlife database lists it under the same name."
     ],
     "tags": [
       "mammal",
       "squirrel"
     ],
     "facts": {
-      "species": "Squirrel"
+      "species": "Eastern Gray Squirrel",
+      "habitat": "Coastal, Forest, Urban, Wetland",
+      "huntable": true
     },
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "dayone-hunting-animals",
+      "gtatracker-gray-squirrel"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "green-iguana",
     "name": "Iguana",
     "summary": "Iguanas are among the reptiles shown or named before launch.",
     "body": [
-      "Red Bull listed the green iguana from trailers and screenshots, and Gfinity Esports reported iguanas from Game Informer's Rockstar interview."
+      "Red Bull listed the green iguana from trailers and screenshots, and Gfinity Esports reported iguanas from Game Informer's Rockstar interview.",
+      "DayOne's hunting guide (November 18, 2026) lists the Green Iguana as huntable in coastal, urban and wetland areas and recommends the Wortham W-22 for it."
     ],
     "tags": [
       "iguana",
@@ -579,14 +593,17 @@
       "reptile"
     ],
     "facts": {
-      "species": "Green iguana"
+      "species": "Green iguana",
+      "habitat": "Coastal, Urban, Wetland",
+      "huntable": true
     },
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "dayone-hunting-animals"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "rhesus-macaque",

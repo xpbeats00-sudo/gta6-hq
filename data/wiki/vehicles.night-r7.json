@@ -1,0 +1,28 @@
+[
+  {
+    "slug": "moses-sultan",
+    "name": "Moses' Sultan",
+    "summary": "A unique Street Racer version of the Sultan, given by Moses as the reward for Collect Moses' Gift.",
+    "body": [
+      "PowerPyx says Moses' Sultan is a unique Street Racer collected from the smaller garage beside Moses' shop in Port Gellhorn at the end of his questline.",
+      "PowerPyx says it can be sold or registered and kept."
+    ],
+    "tags": [
+      "moses",
+      "street racer",
+      "sultan",
+      "unique vehicle"
+    ],
+    "facts": {
+      "model": "Sultan (Moses' unique Street Racer)",
+      "class": "Street Racer",
+      "availability": "Reward for Collect Moses' Gift, Moses' shop, Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r7-ppx-collect-moses-gift"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

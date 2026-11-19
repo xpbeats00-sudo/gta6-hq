@@ -8,7 +8,9 @@
       "IGN gives ratings out of 10 of damage 5, accuracy 5.8, handling 6.8 and range 5.8, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN also lists a separate \"Clunker 556 (Fully Modded)\" row with altered ratings.",
-      "IGN's unique-variant guide says it can be taken during the Brooks Boatworks Illegal Operation, in Port Gellhorn."
+      "IGN's unique-variant guide says it can be taken during the Brooks Boatworks Illegal Operation, in Port Gellhorn.",
+      "GTABase says it is in a case in the second-floor office of the small two-storey building at the Brooks Boatworks illegal operation in north Port Gellhorn.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -28,7 +30,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-clunker-556"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -76,7 +79,9 @@
       "IGN gives ratings out of 10 of damage 5, accuracy 7.5, handling 4 and range 7.3, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN also lists a separate \"Cold War 556 (Fully Modded)\" row with altered ratings.",
-      "IGN's unique-variant guide places it just inside a bunker in Big Pine of North Mariana County."
+      "IGN's unique-variant guide places it just inside a bunker in Big Pine of North Mariana County.",
+      "GTABase says it leans against a wooden crate just inside a bunker in Big Pine, North Mariana County, entered from the south-west.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -91,12 +96,13 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Bunker in Big Pine, North Mariana County"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-cold-war-556"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -109,7 +115,9 @@
       "IGN's sortable weapons table lists the Drug Mule KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 5.4, accuracy 4.5, handling 5.9 and range 6.5, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it beneath a sunken ship off the north coast of Riquezas Keys, northwest of the Mile Zero Air Station."
+      "IGN's unique-variant guide places it beneath a sunken ship off the north coast of Riquezas Keys, northwest of the Mile Zero Air Station.",
+      "GTABase says it is underwater below a sunken speedboat off the north coast of Riquezas Keys, north-west of Mile Zero Air Station, marked by floating packages.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "kozlov",
@@ -124,12 +132,13 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Under a sunken speedboat off Riquezas Keys"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-drug-mule-kz-59"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -143,7 +152,9 @@
       "IGN gives ratings out of 10 of damage 5, accuracy 6.3, handling 5.9 and range 5.8, with a magazine of 40.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's table marks it with a Y in its Ultimate Edition column.",
-      "IGN's unique-variant guide says it can be taken during the Leonida Carrier Warehouse Illegal Operation, in central Balsero."
+      "IGN's unique-variant guide says it can be taken during the Leonida Carrier Warehouse Illegal Operation, in central Balsero.",
+      "GTABase places the Leonida Carrier Warehouse illegal operation, where it is looted, in the centre of Balsero.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -164,7 +175,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-grx-556"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -177,7 +189,9 @@
       "IGN's sortable weapons table lists the Guardia Brothers FRA as a longarm assault rifle (Battle Rifle subtype) made by Armurerie De Belgique, firing 7.62x51mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 5.8, accuracy 4.6, handling 6 and range 6.5, with a magazine of 30.",
       "IGN's inventory column is blank for it, so how it is obtained is not stated.",
-      "IGN's unique-variant guide says it can be taken during the Casa Guardia Illegal Operation in the north-east corner of Little Cuba."
+      "IGN's unique-variant guide says it can be taken during the Casa Guardia Illegal Operation in the north-east corner of Little Cuba.",
+      "GTABase places the Casa Guardia illegal operation, where it is looted, in the north-east corner of Little Cuba.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "armurerie-de-belgique",
@@ -197,7 +211,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-guardia-brothers-fra"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -210,7 +225,9 @@
       "IGN's sortable weapons table lists the Kingpin Heathen as a longarm assault rifle (Bullpup subtype) made by Hillinger, firing 5.56x45mm rounds in 3-round burst mode.",
       "IGN gives ratings out of 10 of damage 5, accuracy 6.9, handling 5.1 and range 6.6, with a magazine of 20.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Vespucci Mansion Illegal Operation, on Vespucci Island."
+      "IGN's unique-variant guide says it can be taken during the Vespucci Mansion Illegal Operation, on Vespucci Island.",
+      "GTABase places the Vespucci Mansion illegal operation, where it is looted, on Vespucci Island, the central island of the Rialto Islands.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "hillinger",
@@ -230,7 +247,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-kingpin-heathen"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -244,7 +262,9 @@
       "IGN gives ratings out of 10 of damage 5, accuracy 7.5, handling 5.2 and range 6.1, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN also lists a separate \"Kolt & Associates 556 (Fully Modded)\" row with altered ratings.",
-      "IGN's unique-variant guide says it can be taken during the Stash House Illegal Operation, in Port Gellhorn."
+      "IGN's unique-variant guide says it can be taken during the Stash House Illegal Operation, in Port Gellhorn.",
+      "GTABase places the Stash House illegal operation, where it is looted, in north Port Gellhorn, a little east of Brooks Boatworks.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -264,7 +284,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-kolt-associates-556"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -277,7 +298,9 @@
       "IGN's sortable weapons table lists the La Polilla Negra KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 5.4, accuracy 5.2, handling 5.2 and range 6.5, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Palmer Fishing Warehouse Illegal Operation, in Watson Bay, west of Hamlet."
+      "IGN's unique-variant guide says it can be taken during the Palmer Fishing Warehouse Illegal Operation, in Watson Bay, west of Hamlet.",
+      "GTABase places the Palmer Fishing Warehouse illegal operation, where it is looted, on the south-east tip of the Bobcat Keys sandbar near Watson Bay.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "kozlov",
@@ -297,7 +320,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-la-polilla-negra-kz-59"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -310,7 +334,9 @@
       "IGN's sortable weapons table lists the La Polilla Negra VF-G1 as a longarm assault rifle (Special subtype) made by Vom Feuer, firing 5.56x45mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 5, accuracy 6.2, handling 6.2 and range 5.6, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Watson Bay Safehouse Illegal Operation, in Watson Bay, west of Hamlet."
+      "IGN's unique-variant guide says it can be taken during the Watson Bay Safehouse Illegal Operation, in Watson Bay, west of Hamlet.",
+      "GTABase places the Watson Bay Safehouse illegal operation, where it is looted, just east of Watson Bay.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "rifle",
@@ -330,7 +356,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-la-polilla-negra-vf-g1"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -378,7 +405,9 @@
       "IGN's sortable weapons table lists the Marabunta Grande KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 5.4, accuracy 4.5, handling 6 and range 6.5, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Nova Auto Junkyard Illegal Operation, in Hamlet."
+      "IGN's unique-variant guide says it can be taken during the Nova Auto Junkyard Illegal Operation, in Hamlet.",
+      "GTABase places the Nova Auto Junkyard illegal operation, where it is looted, in central Hamlet behind Sara's Unisex Salon and Maximo Grill.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "kozlov",
@@ -398,7 +427,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-marabunta-grande-kz-59"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -503,7 +533,9 @@
       "IGN's sortable weapons table lists the San4San KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 5.4, accuracy 5.3, handling 5.5 and range 6.5, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Janjak's Garage Illegal Operation, in the south part of La Perle in Vice City."
+      "IGN's unique-variant guide says it can be taken during the Janjak's Garage Illegal Operation, in the south part of La Perle in Vice City.",
+      "GTABase places the Janjak's Garage illegal operation, where it is looted, in south La Perle, Vice City.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "kozlov",
@@ -523,7 +555,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-san4san-kz-59"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -537,7 +570,9 @@
       "IGN gives ratings out of 10 of damage 5, accuracy 6.6, handling 5.3 and range 6.2, with a magazine of 40.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Phil's Ammu-Nation for $3,050.",
-      "IGN places that shop in Southside, on the South Vice-Dale County line."
+      "IGN places that shop in Southside, on the South Vice-Dale County line.",
+      "GTABase says Phil's Ammu-Nation in Southside, Vice City, sells it for $3,050.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -558,7 +593,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-star-spangled-556"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -572,7 +608,9 @@
       "IGN gives ratings out of 10 of damage 5, accuracy 7.4, handling 5.1 and range 6.2, with a magazine of 20.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Prestige Firearms for $5,150.",
-      "IGN places that shop on the north side of Ocean Beach."
+      "IGN places that shop on the north side of Ocean Beach.",
+      "GTABase says the Prestige Firearms Ammu-Nation on the north side of Ocean Beach sells it for $5,150.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "hillinger",
@@ -593,7 +631,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-vice-city-heathen"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -636,7 +675,9 @@
       "IGN's sortable weapons table lists the Mercenary LMG 6 as a longarm machine gun (Assault subtype) made by Goodwin, firing 7.62x51mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 6.8, accuracy 3.6, handling 2.3 and range 6.5, with a magazine of 100.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in a yellow \"Scoop\" shipping container on the northern part of the cargo area in Port Vice City in Vice-Dale County."
+      "IGN's unique-variant guide places it in a yellow \"Scoop\" shipping container on the northern part of the cargo area in Port Vice City in Vice-Dale County.",
+      "GTABase says it is in a yellow Scoop container in the northern part of the Port Vice City cargo area; it suggests coming in from the water and climbing the ladder, then jumping from the blue container to the beige one to avoid the guards.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "goodwin",
@@ -651,12 +692,13 @@
       "slot": "long gun",
       "magazine": "100",
       "fire_mode": "Full Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Yellow Scoop container, northern Port Vice City cargo area"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-mercenary-lmg-6"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -669,7 +711,9 @@
       "IGN's sortable weapons table lists the Assassin Nipper .38 as a sidearm pistol (Compact subtype) made by Scorpio, firing .380 Cal rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 2.8, accuracy 3.5, handling 8.7 and range 2.7, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in a small floor hatch of a shipwrecked boat on the south-east edge of Permit Keys, east of Mile Zero Air Station, and ties it to a spy-boat puzzle side activity."
+      "IGN's unique-variant guide places it in a small floor hatch of a shipwrecked boat on the south-east edge of Permit Keys, east of Mile Zero Air Station, and ties it to a spy-boat puzzle side activity.",
+      "GTABase places it in a small floor hatch of a shipwrecked boat on the south-east edge of Permit Keys, east of Mile Zero Air Station, as part of the spy boat puzzle.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -684,12 +728,13 @@
       "slot": "sidearm",
       "magazine": "8",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Shipwrecked boat, south-east Permit Keys (part of the spy boat puzzle)"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-assassin-nipper-38"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -702,7 +747,9 @@
       "IGN's sortable weapons table lists the Black Eagle Import Kalinga as a sidearm pistol (.50 Cal subtype) made by Fairview Firearms, firing .50 Magnum rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 7, accuracy 4.2, handling 7.6 and range 5, with a magazine of 7.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it inside the Black Eagle warehouse beside the Black Eagle store in Balsero."
+      "IGN's unique-variant guide places it inside the Black Eagle warehouse beside the Black Eagle store in Balsero.",
+      "GTABase says it sits in the safe of the keypad-locked office in the front corner of the Black Eagle warehouse beside the Black Eagle store in Balsero; the safe code appears on the login screen of the office computer.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fairview-firearms",
@@ -717,12 +764,13 @@
       "slot": "sidearm",
       "magazine": "7",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Office safe, Black Eagle warehouse, Balsero"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-black-eagle-import-kalinga"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -828,7 +876,9 @@
       "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
-      "IGN's unique-variant guide places it inside a mobile home on the south bank of the Moreau River in East Lummox County."
+      "IGN's unique-variant guide places it inside a mobile home on the south bank of the Moreau River in East Lummox County.",
+      "GTABase says it is on the floor of a mobile home on the south bank of the Moreau River in East Lummox County.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -843,12 +893,13 @@
       "slot": "sidearm",
       "magazine": "8",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Mobile home on the Moreau River, East Lummox County"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-deadringer-1992"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -980,7 +1031,9 @@
       "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
-      "IGN's unique-variant guide places it in the fireplace of an old, abandoned \"Outlaw's Cabin\" in Moreau."
+      "IGN's unique-variant guide places it in the fireplace of an old, abandoned \"Outlaw's Cabin\" in Moreau.",
+      "GTABase says it is in the fireplace of the abandoned Outlaw's Cabin in Moreau, reached through the cellar on the south-east side and up the stairs to the main room.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -995,12 +1048,13 @@
       "slot": "sidearm",
       "magazine": "8",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Fireplace of the Outlaw's Cabin, Moreau"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-marthas-1992"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1014,7 +1068,9 @@
       "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
-      "IGN's unique-variant guide places it inside a mobile home on the south bank of the Moreau River in East Lummox County."
+      "IGN's unique-variant guide places it inside a mobile home on the south bank of the Moreau River in East Lummox County.",
+      "GTABase says it is on the couch of a mobile home on the south bank of the Moreau River in East Lummox County.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -1029,12 +1085,13 @@
       "slot": "sidearm",
       "magazine": "8",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Mobile home on the Moreau River, East Lummox County"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-money-bag-1992"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1047,7 +1104,9 @@
       "IGN's sortable weapons table lists the Monty's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
+      "GTABase says it is picked up from the floor of the photo room during the main mission The Missing Link.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -1061,13 +1120,15 @@
       "manufacturer": "Duke",
       "slot": "sidearm",
       "magazine": "8",
-      "fire_mode": "Semi-Auto"
+      "fire_mode": "Semi-Auto",
+      "availability": "Photo room floor during The Missing Link"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-montys-1992"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1079,7 +1140,9 @@
       "IGN gives ratings out of 10 of damage 4, accuracy 4.9, handling 8 and range 4.1, with a magazine of 17.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Black Eagle for $2,050.",
-      "IGN places that shop in Balsero, west of Vice City, by Bucksin Swamp."
+      "IGN places that shop in Balsero, west of Vice City, by Bucksin Swamp.",
+      "GTABase says the Black Eagle Ammu-Nation in Balsero, west of Vice City, sells it for $2,050.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "klose",
@@ -1100,7 +1163,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-nite-raptor-k17"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1113,7 +1177,9 @@
       "IGN's sortable weapons table lists the PTT Youngin$ K17 as a sidearm pistol (Service subtype) made by Klose, firing 9mm rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 4, accuracy 4.5, handling 7.9 and range 4.1; its magazine cell is blank or shows 0, so no capacity is recorded here.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Kamar Devon Community Center Illegal Operation, in Southside, just north of South Vice-Dale County."
+      "IGN's unique-variant guide says it can be taken during the Kamar Devon Community Center Illegal Operation, in Southside, just north of South Vice-Dale County.",
+      "GTABase places the Kamar Devon Community Center illegal operation, where it is looted, in Southside just north of South Vice-Dale County.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "klose",
@@ -1132,7 +1198,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-ptt-youngin-k17"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1146,7 +1213,9 @@
       "IGN gives ratings out of 10 of damage 4.2, accuracy 5.6, handling 8.3 and range 4.2, with a magazine of 15.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN also lists a separate \"Quarter Mile ES9 (Fully Modded)\" row with altered ratings.",
-      "IGN's unique-variant guide says it can be taken during the Chatfield Storage & Logistics Illegal Operation, in Waxman Island, east of Downtown Vice City."
+      "IGN's unique-variant guide says it can be taken during the Chatfield Storage & Logistics Illegal Operation, in Waxman Island, east of Downtown Vice City.",
+      "GTABase places the Chatfield Storage & Logistics illegal operation, where it is looted, on Waxman Island east of Downtown Vice City.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "girardi",
@@ -1166,7 +1235,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-quarter-mile-es9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1211,7 +1281,9 @@
       "IGN gives ratings out of 10 of damage 4, accuracy 4.4, handling 8 and range 4.2, with a magazine of 17.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Quickscope for $4,410.",
-      "IGN places that shop across the street from Kensinger Tower in Downtown Vice City."
+      "IGN places that shop across the street from Kensinger Tower in Downtown Vice City.",
+      "GTABase says the Quickscope Ammu-Nation, across the street from Kensinger Tower in Downtown Vice City, sells it for $4,410.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -1232,7 +1304,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-rogue-alpha-drx"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1310,7 +1383,9 @@
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Game8's weapons list (updated November 19, 2026) also shows it, as a pistol by Girardi in 9mm with damage 4.2, accuracy 5.2, handling 8.4, range 4.4 and a magazine of 15, and files it under its Unique filter.",
       "IGN's unique-variant guide says it is sold at Big Shots for $1,470.",
-      "IGN places that shop on the east side of Hamlet."
+      "IGN places that shop on the east side of Hamlet.",
+      "GTABase says the Big Shots Ammu-Nation on the east side of Hamlet sells it for $1,470.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "girardi",
@@ -1332,7 +1407,8 @@
     "sources": [
       "ign-weapons-guide",
       "game8-weapons-hub",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-sand-storm-es9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1346,7 +1422,9 @@
       "IGN gives ratings out of 10 of damage 4, accuracy 3.2, handling 7.3 and range 4.2; its magazine cell is blank or shows 0, so no capacity is recorded here.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN also lists a separate \"Stoner K17 MCD (Fully Modded)\" row with altered ratings.",
-      "IGN's unique-variant guide places it at the Big Day Motel off of US-35 just north of Ambrosia, inside room 115."
+      "IGN's unique-variant guide places it at the Big Day Motel off of US-35 just north of Ambrosia, inside room 115.",
+      "GTABase says it is on the nightstand right of the bed in room 115 of the Big Day Motel, off US-35 just north of Ambrosia.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "klose",
@@ -1360,12 +1438,13 @@
       "manufacturer": "Klose",
       "slot": "sidearm",
       "fire_mode": "Full Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Room 115, Big Day Motel, north of Ambrosia"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-stoner-k17-mcd"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1378,7 +1457,9 @@
       "IGN's sortable weapons table lists the The Guardian ES18 as a sidearm pistol (Burst subtype) made by Girardi, firing 9mm rounds in 3-round burst mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 4.6, handling 7.7 and range 4.8, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Saber Shipping Yard Illegal Operation, in Little Cuba, Vice City."
+      "IGN's unique-variant guide says it can be taken during the Saber Shipping Yard Illegal Operation, in Little Cuba, Vice City.",
+      "GTABase places the Saber Shipping Yard illegal operation, where it is looted, in Little Cuba, Vice City.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "girardi",
@@ -1398,7 +1479,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-the-guardian-es18"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1411,7 +1493,9 @@
       "IGN's sortable weapons table lists the The Patriarch DRX as a sidearm pistol (Tactical subtype) made by Schlamm, firing 9mm rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 4, accuracy 4.9, handling 7.2 and range 4.2, with a magazine of 21.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in a submerged car in the south west part of the Kalaga Reservoir."
+      "IGN's unique-variant guide places it in a submerged car in the south west part of the Kalaga Reservoir.",
+      "GTABase says it is underwater next to a sunken car in the south-west of Kalaga Reservoir; luggage scattered along the bank marks where to dive in, past the algae.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -1426,12 +1510,13 @@
       "slot": "sidearm",
       "magazine": "21",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Sunken car, south-west Kalaga Reservoir"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-the-patriarch-drx"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1448,7 +1533,9 @@
       "Game8's weapons list (updated November 19, 2026) also shows it, as a pistol by Duke in .45 Cal with damage 5.5, accuracy 5.1, handling 8.1, range 4.6 and a magazine of 8, and files it under its Unique filter.",
       "Game8 spells it The Silver 1922.",
       "IGN's unique-variant guide says it is sold at Big Shots for $2,210, a shop on the east side of Hamlet.",
-      "IGN describes it as a shiny steel heavy pistol with CAPO on the side of the barrel."
+      "IGN describes it as a shiny steel heavy pistol with CAPO on the side of the barrel.",
+      "GTABase says the Big Shots Ammu-Nation on the east side of Hamlet sells it for $2,210.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -1470,7 +1557,8 @@
     "sources": [
       "ign-weapons-guide",
       "game8-weapons-hub",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-the-silver-1922"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1483,7 +1571,9 @@
       "IGN's sortable weapons table lists the Turnt Nipper .38 as a sidearm pistol (Compact subtype) made by Scorpio, firing .380 Cal rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 2.8, accuracy 3.2, handling 8.8 and range 3, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in a crashed paraglider strung from a tree in Bobcat Bight."
+      "IGN's unique-variant guide places it in a crashed paraglider strung from a tree in Bobcat Bight.",
+      "GTABase says it is on the seat of a crashed paratrike stuck in a tree at Bobcat Bight, on the northern tip of Bobcat Bay.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -1498,12 +1588,13 @@
       "slot": "sidearm",
       "magazine": "8",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Crashed paratrike in a tree, Bobcat Bight"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-turnt-nipper-38"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1516,7 +1607,9 @@
       "IGN's sortable weapons table lists the Zodiac Nipper .38 as a sidearm pistol (Compact subtype) made by Scorpio, firing .380 Cal rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 2.8, accuracy 3.5, handling 8.8 and range 3, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Ocean Beach Lab Illegal Operation, which IGN places in \"Ocean City\"."
+      "IGN's unique-variant guide says it can be taken during the Ocean Beach Lab Illegal Operation, which IGN places in \"Ocean City\".",
+      "GTABase places the Ocean Beach Lab illegal operation, where it is looted, in Ocean City.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -1536,7 +1629,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-zodiac-nipper-38"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1549,7 +1643,9 @@
       "IGN's sortable weapons table lists the Cargo H&L .38 as a sidearm revolver (Double Action subtype) made by Hawk & Little, firing .38 Special rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 2.5, accuracy 5, handling 8.6 and range 4.5, with a magazine of 6.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in a yellow \"Scoop\" shipping container in the cargo area of Port Vice City."
+      "IGN's unique-variant guide places it in a yellow \"Scoop\" shipping container in the cargo area of Port Vice City.",
+      "GTABase says it is locked in a yellow Scoop shipping container in the Port Vice City cargo area, reached by climbing the short container behind it, crossing to the rust-coloured one and going over the black one.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "hawk-and-little",
@@ -1564,12 +1660,13 @@
       "slot": "sidearm",
       "magazine": "6",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Yellow Scoop container, Port Vice City cargo area"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-cargo-h-l-38"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1582,7 +1679,9 @@
       "IGN's sortable weapons table lists the Couch Potato Mustang .357 as a sidearm revolver (Magnum subtype) made by Duke, firing .357 Magnum rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 5.7, accuracy 4.5, handling 8.4 and range 5.1, with a magazine of 6.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it hidden inside a couch hanging from a tree in front of a mobile home off of Tanglewood Ln."
+      "IGN's unique-variant guide places it hidden inside a couch hanging from a tree in front of a mobile home off of Tanglewood Ln.",
+      "GTABase says it is hidden in a couch hanging from a tree outside a mobile home off Tanglewood Ln. in Port Gellhorn: shoot the ropes to drop the couch, then sit on it to find the revolver.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -1597,12 +1696,13 @@
       "slot": "sidearm",
       "magazine": "6",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Couch hanging in a tree off Tanglewood Ln., Port Gellhorn"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-couch-potato-mustang-357"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1617,7 +1717,9 @@
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Game8's weapons list (updated November 19, 2026) also shows it, as a pistol by Duke in .357 Magnum with damage 5.7, accuracy 5, handling 7.2, range 5.9 and a magazine of 6, and files it under its Unique filter.",
       "IGN's unique-variant guide says it is sold at Phil's Ammu-Nation for $3,780.",
-      "IGN places that shop in Southside, at the southern edge of Vice City."
+      "IGN places that shop in Southside, at the southern edge of Vice City.",
+      "GTABase says Phil's Ammu-Nation in Southside, at the southern end of Vice City, sells it for $3,780.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "duke",
@@ -1639,7 +1741,8 @@
     "sources": [
       "ign-weapons-guide",
       "game8-weapons-hub",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-honky-tonk-mustang-357"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1653,7 +1756,9 @@
       "IGN gives ratings out of 10 of damage 2.2, accuracy 4.1, handling 8.8 and range 4.7; its magazine cell is blank or shows 0, so no capacity is recorded here.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Iron & Oak for $1,260.",
-      "IGN places that shop in Stockyard, at the northern end of Vice City."
+      "IGN places that shop in Stockyard, at the northern end of Vice City.",
+      "GTABase says Iron & Oak in Stockyard, at the northern end of Vice City, sells it for $1,260.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -1673,7 +1778,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-iron-oak-wcr-1"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1687,7 +1793,10 @@
       "IGN gives ratings out of 10 of damage 2.5, accuracy 5.2, handling 8 and range 4.9, with a magazine of 6.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's table marks it with a Y in its Ultimate Edition column.",
-      "IGN's unique-variant guide says it is only available to owners of the Ultimate Edition."
+      "IGN's unique-variant guide says it is only available to owners of the Ultimate Edition.",
+      "GTABase says this Ultimate Edition revolver is sold for $2,260 at Biff's Gun Supply in the north-west corner of Ambrosia.",
+      "GTABase says that, as a unique variant, it cannot be modified.",
+      "GTABase gives the Hawk & Little Jack Sheepe H&L .38 a story mode price of $2,260 at Ammu-Nation."
     ],
     "tags": [
       "hawk-and-little",
@@ -1703,12 +1812,14 @@
       "slot": "sidearm",
       "magazine": "6",
       "fire_mode": "Semi-Auto",
-      "availability": "Ultimate Edition only (IGN)"
+      "availability": "Ultimate Edition only (IGN)",
+      "price": "$2,260"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-jack-sheepe-h-l-38"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1721,7 +1832,9 @@
       "IGN's sortable weapons table lists the Kingfishers Akulus as a sidearm revolver (Heavy subtype) made by Scorpio, firing .44 Magnum rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 7, accuracy 5.3, handling 7.2 and range 6.4, with a magazine of 6.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Sunrise RV Park Illegal Operation; IGN puts the RV park north of Cottonmouth Lake, north-west of Key Lento and Gambit Bay."
+      "IGN's unique-variant guide says it can be taken during the Sunrise RV Park Illegal Operation; IGN puts the RV park north of Cottonmouth Lake, north-west of Key Lento and Gambit Bay.",
+      "GTABase places the Sunrise RV Park illegal operation, where it is looted, north of Cottonmouth Lake and north-west of Key Lento and Gambit Bay.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -1741,7 +1854,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-kingfishers-akulus"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1754,7 +1868,9 @@
       "IGN's sortable weapons table lists the Lyle's H&L .38 as a sidearm revolver (Double Action subtype) made by Hawk & Little, firing .38 Special rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 2.5, accuracy 5, handling 9 and range 4.1, with a magazine of 6.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in the trunk of a car inside an old barn at the dead end of a road in Bonanza."
+      "IGN's unique-variant guide places it in the trunk of a car inside an old barn at the dead end of a road in Bonanza.",
+      "GTABase says it is in the trunk of a car inside an old barn at the dead end of a road in Bonanza, entered by the side door.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "hawk-and-little",
@@ -1769,12 +1885,13 @@
       "slot": "sidearm",
       "magazine": "6",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Car trunk in an old barn, Bonanza"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-lyles-h-l-38"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1787,7 +1904,9 @@
       "IGN's sortable weapons table lists the Ride Free H&L .38 as a sidearm revolver (Double Action subtype) made by Hawk & Little, firing .38 Special rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 2.5, accuracy 5.3, handling 8.2 and range 4.9, with a magazine of 6.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Biker Hideout Illegal Operation, in Leonard County."
+      "IGN's unique-variant guide says it can be taken during the Biker Hideout Illegal Operation, in Leonard County.",
+      "GTABase places the Biker Hideout illegal operation, where it is looted, in a small building on the southern shore of Lake Leonida west of Ambrosia, Leonard County.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "hawk-and-little",
@@ -1807,7 +1926,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-ride-free-h-l-38"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1820,7 +1940,9 @@
       "IGN's sortable weapons table lists the Swamp Bait Akulus as a sidearm revolver (Heavy subtype) made by Scorpio, firing .44 Magnum rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 7, accuracy 4.2, handling 7.2 and range 6.4, with a magazine of 6.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in the marsh just south west of Hamlet inside a waterfront structure."
+      "IGN's unique-variant guide places it in the marsh just south west of Hamlet inside a waterfront structure.",
+      "GTABase says it is on the floor of the larger waterfront building in the marsh south-west of Hamlet.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -1835,12 +1957,13 @@
       "slot": "sidearm",
       "magazine": "6",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Waterfront building in the marsh south-west of Hamlet"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-swamp-bait-akulus"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1854,7 +1977,9 @@
       "IGN gives ratings out of 10 of damage 8, accuracy 3.6, handling 6.4 and range 2, with a magazine of 2.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Zenon's Pawn Shop for $2,502.",
-      "IGN places that shop in La Perle, in the north of Vice City."
+      "IGN places that shop in La Perle, in the north of Vice City.",
+      "GTABase says Zenon's Pawn Shop in La Perle, north Vice City, sells it for $2,502.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "shotgun",
@@ -1875,7 +2000,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-backdoor-hobo"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1888,7 +2014,9 @@
       "IGN's sortable weapons table lists the Basher Gorse 425 as a longarm shotgun (Stubby subtype) made by Fortune & Son, firing 12-Gauge rounds in pump action mode.",
       "IGN gives ratings out of 10 of damage 7.5, accuracy 4.1, handling 5.9 and range 2, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it is sold at the Pawn & Gun store in Port Gellhorn, without giving a price."
+      "IGN's unique-variant guide says it is sold at the Pawn & Gun store in Port Gellhorn, without giving a price.",
+      "GTABase says it is on sale at the Pawn & Gun Ammu-Nation on the south side of Port Gellhorn.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fortune-and-son",
@@ -1908,7 +2036,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-basher-gorse-425"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1922,7 +2051,9 @@
       "IGN gives ratings out of 10 of damage 7.4, accuracy 4.2, handling 5.3 and range 2.5, with a magazine of 7.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Vice City Gun & Pawn for $5,930.",
-      "IGN places that shop on the south side of Rockridge in Vice City."
+      "IGN places that shop on the south side of Rockridge in Vice City.",
+      "GTABase says Vice City Gun & Pawn, on the south side of Rockridge, sells it for $5,930.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "girardi",
@@ -1943,7 +2074,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-bruiser-super400"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1987,7 +2119,9 @@
       "IGN's sortable weapons table lists the Darknite Drifter as a longarm shotgun (Double Barrel subtype) made by Shrewsbury, firing 12-Gauge rounds in break action mode.",
       "IGN gives ratings out of 10 of damage 8, accuracy 4.7, handling 4.7 and range 2.5, with a magazine of 2.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it is sold for $2,420 at an Ammu-Nation on the north-west edge of Port Gellhorn, which IGN calls the Shrewsbury Drifter (the same name as the base shotgun)."
+      "IGN's unique-variant guide says it is sold for $2,420 at an Ammu-Nation on the north-west edge of Port Gellhorn, which IGN calls the Shrewsbury Drifter (the same name as the base shotgun).",
+      "GTABase says it is sold at the Shrewsbury Drifter Ammu-Nation on the north-west edge of Port Gellhorn.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "shotgun",
@@ -2008,7 +2142,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-darknite-drifter"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2021,7 +2156,9 @@
       "IGN's sortable weapons table lists the Dirty Drifter as a longarm shotgun (Double Barrel subtype) made by Shrewsbury, firing 12-Gauge rounds in break action mode.",
       "IGN gives ratings out of 10 of damage 8, accuracy 4.3, handling 4.8 and range 2.5, with a magazine of 2.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in the trunk of a blue car stuck in a mudslide, just off the coastal road in Bonanza."
+      "IGN's unique-variant guide places it in the trunk of a blue car stuck in a mudslide, just off the coastal road in Bonanza.",
+      "GTABase says it is in the trunk of a blue car caught in a mudslide just off the coastal road in Bonanza.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "shotgun",
@@ -2036,12 +2173,13 @@
       "slot": "long gun",
       "magazine": "2",
       "fire_mode": "Break Action",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Car trunk in a mudslide, Bonanza"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-dirty-drifter"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2054,7 +2192,9 @@
       "IGN's sortable weapons table lists the Final Chapter KVGA-12 as a longarm shotgun (Auto subtype) made by Kozlov, firing 12-Gauge rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 7.2, accuracy 5.5, handling 4.5 and range 2.1, with a magazine of 12.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Irons Building Supply Illegal Operation, in Ambrosia, south-west of Lake Leonida."
+      "IGN's unique-variant guide says it can be taken during the Irons Building Supply Illegal Operation, in Ambrosia, south-west of Lake Leonida.",
+      "GTABase places the Irons Building Supply illegal operation, where it is looted, in Ambrosia, south-west of Lake Leonida.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "kozlov",
@@ -2074,7 +2214,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-final-chapter-kvga-12"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2087,7 +2228,9 @@
       "IGN's sortable weapons table lists the Final Chapter Shortstraw as a longarm shotgun (Sporting Sawed-Off subtype) made by Mason & Keen, firing 12-Gauge rounds in break action mode.",
       "IGN gives ratings out of 10 of damage 8, accuracy 3.6, handling 6 and range 2.4, with a magazine of 2.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Hog Stars Garage Illegal Operation, in Ambrosia."
+      "IGN's unique-variant guide says it can be taken during the Hog Stars Garage Illegal Operation, in Ambrosia.",
+      "GTABase places the Hog Stars Garage illegal operation, where it is looted, in Ambrosia near the Pay 'N' Spray.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "mason-and-keen",
@@ -2107,7 +2250,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-final-chapter-shortstraw"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2120,7 +2264,9 @@
       "IGN's sortable weapons table lists the Hellspawn Comshot 12 as a longarm shotgun (Combat subtype) made by Goodwin, firing 12-Gauge rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 7.7, accuracy 4.2, handling 4 and range 2.5, with a magazine of 7.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it is the reward for a challenge at a campsite off a side road in the mountains in the west of North Kelly County."
+      "IGN's unique-variant guide says it is the reward for a challenge at a campsite off a side road in the mountains in the west of North Kelly County.",
+      "GTABase says it is the reward for a challenge at a mountain campsite off a side road in western North Kelly County: eat the offering on the carved wooden throne and survive, and the shotgun appears against the throne together with a Circles of Hell shirt.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "goodwin",
@@ -2135,12 +2281,13 @@
       "slot": "long gun",
       "magazine": "7",
       "fire_mode": "Semi-Auto",
-      "availability": "Reward for a challenge (IGN)"
+      "availability": "Throne challenge at a mountain campsite, western North Kelly County"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-hellspawn-comshot-12"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2153,7 +2300,9 @@
       "IGN's sortable weapons table lists the Hostile Super400 as a longarm shotgun (Heavy subtype) made by Girardi, firing 12-Gauge rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 7.4, accuracy 4.3, handling 5.3 and range 3.3, with a magazine of 7.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Mill Station Radar Base Illegal Operation, in Grassrivers."
+      "IGN's unique-variant guide says it can be taken during the Mill Station Radar Base Illegal Operation, in Grassrivers.",
+      "GTABase places the Mill Station Radar Base illegal operation, where it is looted, in Grassrivers, north of Watson Bay.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "girardi",
@@ -2173,7 +2322,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-hostile-super400"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2217,7 +2367,9 @@
       "IGN gives ratings out of 10 of damage 7.4, accuracy 5.1, handling 5.8 and range 2.1, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Black Eagle for $4,830.",
-      "IGN places that shop right by the Griffin Shooting Range, on the north side of Balsero."
+      "IGN places that shop right by the Griffin Shooting Range, on the north side of Balsero.",
+      "GTABase says the Black Eagle Ammu-Nation next to the Griffin Shooting Range in north Balsero sells it for $4,830.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "girardi",
@@ -2238,7 +2390,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-nitepower-az1200"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2251,7 +2404,9 @@
       "IGN's sortable weapons table lists the San4San Gorse 425 as a longarm shotgun (Stubby subtype) made by Fortune & Son, firing 12-Gauge rounds in pump action mode.",
       "IGN gives ratings out of 10 of damage 7.5, accuracy 3.6, handling 6.7 and range 2, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Parlor Apartments Illegal Operation, in Rockridge."
+      "IGN's unique-variant guide says it can be taken during the Parlor Apartments Illegal Operation, in Rockridge.",
+      "GTABase places the Parlor Apartments illegal operation, where it is looted, in Rockridge across the street from the Rockridge Blood Center.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fortune-and-son",
@@ -2271,7 +2426,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-san4san-gorse-425"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2284,7 +2440,9 @@
       "IGN's sortable weapons table lists the Smuggler Gorse 425 as a longarm shotgun (Stubby subtype) made by Fortune & Son, firing 12-Gauge rounds in pump action mode.",
       "IGN gives ratings out of 10 of damage 7.5, accuracy 3.8, handling 6.2 and range 2, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in an abandoned smuggler's boat washed up on the shore of a small island east of Mile Zero Air Station, in Permit Keys."
+      "IGN's unique-variant guide places it in an abandoned smuggler's boat washed up on the shore of a small island east of Mile Zero Air Station, in Permit Keys.",
+      "GTABase says it is in an abandoned smuggler's boat washed up on a small island east of Mile Zero Air Station, Permit Keys.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fortune-and-son",
@@ -2299,12 +2457,13 @@
       "slot": "long gun",
       "magazine": "5",
       "fire_mode": "Pump Action",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Washed-up smuggler's boat, Permit Keys"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-smuggler-gorse-425"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2317,7 +2476,8 @@
       "IGN's sortable weapons table lists the Throttler Vero as a longarm shotgun (Semi-Auto Stubby subtype) made by Girardi, firing 12-Gauge rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 7.4, accuracy 4.2, handling 6.6 and range 2, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Farm Fix Meth Lab Illegal Operation, in the northern half of Belville, south of Lake Leonida."
+      "IGN's unique-variant guide says it can be taken during the Farm Fix Meth Lab Illegal Operation, in the northern half of Belville, south of Lake Leonida.",
+      "GTABase says the Throttler is a unique variant of the Verro shotgun, looted during the Farm Fix meth lab illegal operation in northern Belville, south of Lake Leonida, and that it cannot be modified."
     ],
     "tags": [
       "girardi",
@@ -2337,7 +2497,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-throttler-verro"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2350,7 +2511,9 @@
       "IGN's sortable weapons table lists the Unpacked Comshot 12 as a longarm shotgun (Combat subtype) made by Goodwin, firing 12-Gauge rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 7.7, accuracy 4.5, handling 3.7 and range 2.5, with a magazine of 7.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in an ensuite upstairs bathroom behind the door in a house on the northwest coast of Key Lento."
+      "IGN's unique-variant guide places it in an ensuite upstairs bathroom behind the door in a house on the northwest coast of Key Lento.",
+      "GTABase says it is in a house on the north-west coast of Key Lento: climb the outside stairs, break into the second floor and go to the back bedroom, where it leans against the wall behind the en-suite bathroom door.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "goodwin",
@@ -2365,12 +2528,13 @@
       "slot": "long gun",
       "magazine": "7",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "House on the north-west coast of Key Lento"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-unpacked-comshot-12"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2384,7 +2548,9 @@
       "IGN gives ratings out of 10 of damage 7.5, accuracy 4.4, handling 5 and range 2.5, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Tactical Outlet Guns for $1,470.",
-      "IGN places that shop on the far west side of Belville."
+      "IGN places that shop on the far west side of Belville.",
+      "GTABase says Tactical Outlet Guns, on the far west side of Belville, sells it for $1,470.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fortune-and-son",
@@ -2405,7 +2571,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-watcher-pro-moreland-850"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2419,7 +2586,9 @@
       "IGN gives ratings out of 10 of damage 8, accuracy 4.4, handling 5 and range 2.5, with a magazine of 2.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Woodhatch for $2,990.",
-      "IGN places that shop in Capri, west of North Mariana County."
+      "IGN places that shop in Capri, west of North Mariana County.",
+      "GTABase says the Woodhatch Ammu-Nation in Capri sells it for $2,990.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "mason-and-keen",
@@ -2440,7 +2609,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-woodhatch-longshot"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2453,7 +2623,9 @@
       "IGN's sortable weapons table lists the Kingfishers W-22 as a longarm small game rifle made by Wortham, firing .22LR rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 1.5, accuracy 8.4, handling 5.4 and range 6.7, with a magazine of 15.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Fishing Shacks Illegal Operation, in Wetman Bay, in the swamp south-west of Hamlet."
+      "IGN's unique-variant guide says it can be taken during the Fishing Shacks Illegal Operation, in Wetman Bay, in the swamp south-west of Hamlet.",
+      "GTABase places the Fishing Shacks illegal operation, where it is looted, in Wetman Bay, the swamp south-west of Hamlet.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "rifle",
@@ -2473,7 +2645,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-kingfishers-w-22"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2489,7 +2662,9 @@
       "Game8's weapons list (updated November 19, 2026) also shows it, as a tactical rifle by Hawk & Little in 9mm with damage 4.8, accuracy 8.1, handling 5.1, range 7 and a magazine of 17, and files it under its Unique filter.",
       "Disagreement: IGN lists it as a Wortham small game rifle in .22LR, while Game8 lists it as a Hawk & Little tactical rifle in 9mm, matching the standard Mediator.",
       "IGN's unique-variant guide says it is sold at Barrage Gun Supply for $1,890.",
-      "IGN places that shop in Southwind, next to Mile Zero Air Station at the southern tip of Leonida."
+      "IGN places that shop in Southwind, next to Mile Zero Air Station at the southern tip of Leonida.",
+      "GTABase says Barrage Gun Supply in Southwind, near Mile Zero Air Station, sells it for $1,890.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "rifle",
@@ -2511,7 +2686,8 @@
     "sources": [
       "ign-weapons-guide",
       "game8-weapons-hub",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-mossy-mediator"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2524,7 +2700,9 @@
       "IGN's sortable weapons table lists the Redneck W-22 as a longarm small game rifle made by Wortham, firing .22LR rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 1.5, accuracy 8.3, handling 5.6 and range 7, with a magazine of 15.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it inside a yellow, abandoned train car on the north bank of a river in Moreau."
+      "IGN's unique-variant guide places it inside a yellow, abandoned train car on the north bank of a river in Moreau.",
+      "GTABase says it is at the back of an abandoned yellow train car on the north bank of a river in Moreau, entered from the south side.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "rifle",
@@ -2539,12 +2717,13 @@
       "slot": "long gun",
       "magazine": "15",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Abandoned train car, Moreau"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-redneck-w-22"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2557,7 +2736,9 @@
       "IGN's sortable weapons table lists the Cruel Huntsman's SM-69 as a longarm sniper rifle (Hunting subtype) made by Shrewsbury, firing 7.62x51mm rounds in bolt action mode.",
       "IGN gives ratings out of 10 of damage 6.8, accuracy 9.2, handling 2.3 and range 9.2, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it on the boardwalk of a hunter's cabin in the Pelican Valley marsh."
+      "IGN's unique-variant guide places it on the boardwalk of a hunter's cabin in the Pelican Valley marsh.",
+      "GTABase says it is on the boardwalk between the two buildings of a hunter's cabin in the Pelican Valley marsh, beside some alligator carcasses.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "shrewsbury",
@@ -2572,12 +2753,13 @@
       "slot": "long gun",
       "magazine": "5",
       "fire_mode": "Bolt Action",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Hunter's cabin boardwalk, Pelican Valley marsh"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-cruel-huntsmans-sm-69"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2591,7 +2773,9 @@
       "IGN gives ratings out of 10 of damage 6.8, accuracy 8.6, handling 2.2 and range 8.8, with a magazine of 6.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide places it at the top of a skyscraper in Vice Beach, between two hospitals.",
-      "IGN says it only appears there after a related mission has been completed."
+      "IGN says it only appears there after a related mission has been completed.",
+      "GTABase says it is on top of a skyscraper in Vice Beach between two hospitals, and only appears once a related mission is done.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "shrewsbury",
@@ -2606,12 +2790,13 @@
       "slot": "long gun",
       "magazine": "6",
       "fire_mode": "Bolt Action",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Skyscraper rooftop in Vice Beach (after a related mission)"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-fib-sm-69"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2627,7 +2812,9 @@
       "Game8's weapons list (updated November 19, 2026) also shows it, as a sniper rifle by Fortune & Son in 6.5mm with damage 6.5, accuracy 9.2, handling 3.1, range 9.4 and a magazine of 5, and files it under its Unique filter.",
       "Disagreement: IGN gives a magazine of 6, Game8 a magazine of 5.",
       "IGN's unique-variant guide says it is sold at Guns Aplenty! for $2,000.",
-      "IGN places that shop in Watson Bay, west of Hamlet and the Gullet Marsh."
+      "IGN places that shop in Watson Bay, west of Hamlet and the Gullet Marsh.",
+      "GTABase says Guns Aplenty! in Watson Bay sells it for $2,000.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fortune-and-son",
@@ -2649,7 +2836,8 @@
     "sources": [
       "ign-weapons-guide",
       "game8-weapons-hub",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-fincredible-laird-350"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2663,7 +2851,9 @@
       "IGN gives ratings out of 10 of damage 6.8, accuracy 9.2, handling 1.7 and range 9.8, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at R. Willis Jr. Supplies for $3,890.",
-      "IGN places that shop in Lummox County, northwest of Kalaga Reservoir."
+      "IGN places that shop in Lummox County, northwest of Kalaga Reservoir.",
+      "GTABase says the R. Willis Jr. Supplies Ammu-Nation in Lummox County, north-west of Kalaga Reservoir, sells it for $3,890.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "shrewsbury",
@@ -2684,7 +2874,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-firebreak-sm-69"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2726,7 +2917,10 @@
     "body": [
       "IGN's sortable weapons table lists the Hunter's Laird 350 as a longarm sniper rifle (Sporting subtype) made by Fortune & Son, firing 6.5mm rounds in bolt action mode.",
       "IGN gives ratings out of 10 of damage 6.5, accuracy 9.6, handling 3.1 and range 8.9, with a magazine of 5.",
-      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Sportskeeda says it comes from a random event at the intersection south of Hamlet: two people, one on the ground, need a truck; bringing the truck from the road opposite and driving them to any hospital earns the rifle and a 3% Focus boost.",
+      "Sportskeeda says the event is random and so missable, and that killing the pair once the rifle is put down also gives the weapon.",
+      "Disagreement: Sportskeeda gives range 8.0 and accuracy 8.8, IGN range 8.9 and accuracy 9.6."
     ],
     "tags": [
       "fortune-and-son",
@@ -2740,13 +2934,15 @@
       "manufacturer": "Fortune & Son",
       "slot": "long gun",
       "magazine": "5",
-      "fire_mode": "Bolt Action"
+      "fire_mode": "Bolt Action",
+      "availability": "Reward from a random event at the intersection south of Hamlet (Sportskeeda)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r7-sk-hunters-laird"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2758,7 +2954,9 @@
       "IGN gives ratings out of 10 of damage 6.8, accuracy 8.8, handling 2.8 and range 8, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide places it on the very top of the roof of Aichi Condominiums on Northside Ave on Washington Beach.",
-      "IGN says it only appears there after a related mission has been completed."
+      "IGN says it only appears there after a related mission has been completed.",
+      "GTABase says it is at the very top of the roof of the Aichi Condominiums on Northside Ave, Washington Beach, and only appears once a related mission is done.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "shrewsbury",
@@ -2773,12 +2971,13 @@
       "slot": "long gun",
       "magazine": "5",
       "fire_mode": "Bolt Action",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Roof of the Aichi Condominiums, Washington Beach (after a related mission)"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-iaa-sms-01"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2791,7 +2990,9 @@
       "IGN's sortable weapons table lists the Internal Affairs FF-SR as a longarm sniper rifle (Combat subtype) made by Fairview Firearms, firing .338 Magnum rounds in bolt action mode.",
       "IGN gives ratings out of 10 of damage 8, accuracy 9.3, handling 2 and range 8.7, with a magazine of 10.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it at the top of a skyscraper on Washington Beach, where there's a helicopter pad."
+      "IGN's unique-variant guide places it at the top of a skyscraper on Washington Beach, where there's a helicopter pad.",
+      "GTABase says it is on the north-west edge of the roof of the tallest building on Northside Ave, Washington Beach, the one with a helipad.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fairview-firearms",
@@ -2806,12 +3007,13 @@
       "slot": "long gun",
       "magazine": "10",
       "fire_mode": "Bolt Action",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Rooftop with a helipad, Northside Ave, Washington Beach"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-internal-affairs-ff-sr"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2854,7 +3056,9 @@
       "IGN's sortable weapons table lists the Kingfishers Laird 350 as a longarm sniper rifle (Sporting subtype) made by Fortune & Son, firing 6.5mm rounds in bolt action mode.",
       "IGN gives ratings out of 10 of damage 6.5, accuracy 8.6, handling 3.9 and range 8.4, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Manatee Motel Illegal Operation, in Gullet Marsh, south-west of Hamlet."
+      "IGN's unique-variant guide says it can be taken during the Manatee Motel Illegal Operation, in Gullet Marsh, south-west of Hamlet.",
+      "GTABase places the Manatee Motel illegal operation, where it is looted, in Gullet Marsh, south-west of Hamlet.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fortune-and-son",
@@ -2874,7 +3078,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-kingfishers-laird-350"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2887,7 +3092,9 @@
       "IGN's sortable weapons table lists the Twin's Laird 350 as a longarm sniper rifle (Sporting subtype) made by Fortune & Son, firing 6.5mm rounds in bolt action mode.",
       "IGN gives ratings out of 10 of damage 6.5, accuracy 9.1, handling 3.7 and range 8, with a magazine of 5.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it below a small hunting platform in the woods just east of Kalaga Reservoir in Lummox County."
+      "IGN's unique-variant guide places it below a small hunting platform in the woods just east of Kalaga Reservoir in Lummox County.",
+      "GTABase says it is on the ground by a small hunting platform in the woods east of Kalaga Reservoir, Lummox County.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "fortune-and-son",
@@ -2902,12 +3109,13 @@
       "slot": "long gun",
       "magazine": "5",
       "fire_mode": "Bolt Action",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Hunting platform east of Kalaga Reservoir"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-twins-laird-350"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2920,7 +3128,9 @@
       "IGN's sortable weapons table lists the Chronic Vatra as a longarm submachine gun (Heavy subtype) made by Bohemia Zbran Industries, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 5.5, handling 4.6 and range 3.6, with a magazine of 50.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Industrial Weed Grow Illegal Operation, in North Mariana County."
+      "IGN's unique-variant guide says it can be taken during the Industrial Weed Grow Illegal Operation, in North Mariana County.",
+      "GTABase places the Industrial Weed Grow illegal operation, where it is looted, in North Mariana County, north of Tola Bay and Big Pine.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "bohemia-zbran-industries",
@@ -2940,7 +3150,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-chronic-vatra"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2954,7 +3165,9 @@
       "IGN gives ratings out of 10 of damage 4.2, accuracy 4.2, handling 7.1 and range 4.5, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN also lists a separate \"Crabshack VF5 (Fully Modded)\" row with altered ratings.",
-      "IGN's unique-variant guide places it in a boat shack, part of an abandoned research outpost in Pelican Valley."
+      "IGN's unique-variant guide places it in a boat shack, part of an abandoned research outpost in Pelican Valley.",
+      "GTABase says it is in a boat shack at an abandoned research outpost in Pelican Valley, opened with a door code from the boardwalk.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -2969,12 +3182,13 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Boat shack at an abandoned research outpost, Pelican Valley"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-crabshack-vf5"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2988,7 +3202,8 @@
       "IGN gives ratings out of 10 of damage 4.2, accuracy 6.3, handling 4.6 and range 4.2, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Iron & Oak for $3,680.",
-      "IGN places that shop in Stockyard, at the northern end of Vice City."
+      "IGN places that shop in Stockyard, at the northern end of Vice City.",
+      "GTABase names this gun the Schlamm Dazzler DW-9, an exclusive variant of the DW-9 sold only at Iron & Oak for $3,680, and says that, like all exclusive variants, it cannot be modified."
     ],
     "tags": [
       "schlamm",
@@ -3009,7 +3224,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-dazzler-dw-9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3022,7 +3238,9 @@
       "IGN's sortable weapons table lists the Double Cross Vatra as a longarm submachine gun (Heavy subtype) made by Bohemia Zbran Industries, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 3.8, handling 6.5 and range 3.6, with a magazine of 36.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it at the bottom of Gulf Leonida, west of Bobcat Key in Mariana County."
+      "IGN's unique-variant guide places it at the bottom of Gulf Leonida, west of Bobcat Key in Mariana County.",
+      "GTABase says it lies on the seabed of Gulf Leonida west of Bobcat Key, Mariana County, where three bodies floating near the surface mark the spot.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "bohemia-zbran-industries",
@@ -3037,12 +3255,13 @@
       "slot": "long gun",
       "magazine": "36",
       "fire_mode": "Full Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Seabed west of Bobcat Key, Mariana County"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-double-cross-vatra"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3086,7 +3305,9 @@
       "IGN gives ratings out of 10 of damage 4.2, accuracy 6.7, handling 4.5 and range 4.2, with a magazine of 40.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN also lists a separate \"Guardia Brothers VF5 (Fully Modded)\" row with altered ratings.",
-      "IGN's unique-variant guide says it can be taken during the Saber Shipping Facility Illegal Operation, in Balsero."
+      "IGN's unique-variant guide says it can be taken during the Saber Shipping Facility Illegal Operation, in Balsero.",
+      "GTABase places the Saber Shipping Facility illegal operation, where it is looted, on the east side of Balsero by the river facing Rockridge.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -3106,7 +3327,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-guardia-brothers-vf5"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3119,7 +3341,9 @@
       "IGN's sortable weapons table lists the Kolt & Associates Vatra as a longarm submachine gun (Heavy subtype) made by Bohemia Zbran Industries, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 4.8, handling 5.3 and range 3.6, with a magazine of 50.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the June Warehouse Illegal Operation, in Port Gellhorn."
+      "IGN's unique-variant guide says it can be taken during the June Warehouse Illegal Operation, in Port Gellhorn.",
+      "GTABase places the June Warehouse illegal operation, where it is looted, in Port Gellhorn across the street from Sarena's Bargain Store.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "bohemia-zbran-industries",
@@ -3139,7 +3363,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-kolt-associates-vatra"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3183,7 +3408,9 @@
       "IGN's sortable weapons table lists the Scrapper VF5C as a longarm submachine gun (Compact Military subtype) made by Vom Feuer, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 3.5, handling 8.2 and range 3.7, with a magazine of 40.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the La Cascara Motel Illegal Operation, in Port Gellhorn."
+      "IGN's unique-variant guide says it can be taken during the La Cascara Motel Illegal Operation, in Port Gellhorn.",
+      "GTABase places the La Cascara Motel illegal operation, where it is looted, in Port Gellhorn on the shore of Draper Bay, south-west of Gellhorn Outfitters.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -3203,7 +3430,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-scrapper-vf5c"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3217,7 +3445,9 @@
       "IGN gives ratings out of 10 of damage 4.2, accuracy 4, handling 6.3 and range 4, with a magazine of 20.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Jackson Firearms for $2,520.",
-      "IGN places that shop in the south-east corner of Balsero, in north-west Vice City."
+      "IGN places that shop in the south-east corner of Balsero, in north-west Vice City.",
+      "GTABase says Jackson Firearms, in the south-east corner of Balsero, sells it for $2,520.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "bohemia-zbran-industries",
@@ -3238,7 +3468,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-spangled-vatra"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3250,7 +3481,8 @@
     "body": [
       "IGN's sortable weapons table lists the Bae-Lux's W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 3.2, handling 7.5 and range 3.5, with a magazine of 20.",
-      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "PowerPyx lists Bae-Lux's W-10 as part of the reward for the Chapter 4 main mission Photo/Shoot (Shoot a Promo), alongside $6,000 and Roxy's W-10."
     ],
     "tags": [
       "smg",
@@ -3264,13 +3496,15 @@
       "manufacturer": "Wortham",
       "slot": "sidearm",
       "magazine": "20",
-      "fire_mode": "Full Auto"
+      "fire_mode": "Full Auto",
+      "availability": "Reward for the Chapter 4 mission Photo/Shoot (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r7-ppx-photoshoot"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3281,7 +3515,9 @@
       "IGN's sortable weapons table lists the Chromium W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 3.1, handling 6.9 and range 3.2, with a magazine of 50.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the La Perle Trap House Illegal Operation, on the north side of Vice City."
+      "IGN's unique-variant guide says it can be taken during the La Perle Trap House Illegal Operation, on the north side of Vice City.",
+      "GTABase places the La Perle Trap House illegal operation, where it is looted, in La Perle, north Vice City.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -3301,7 +3537,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-chromium-w-10"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3314,7 +3551,9 @@
       "IGN's sortable weapons table lists the Conspiracist Type 9 as a sidearm submachine gun (Machine Pistol subtype) made by Zhang Wu, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 5, handling 5.8 and range 3.9, with a magazine of 21.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in an underground armory beneath a hatch in a mobile home in Balsero, just south west of the Griffin Shooting Range."
+      "IGN's unique-variant guide places it in an underground armory beneath a hatch in a mobile home in Balsero, just south west of the Griffin Shooting Range.",
+      "GTABase says it lies on a table in an underground armoury reached through a hatch in a mobile home in Balsero, south-west of the Griffin Shooting Range.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -3329,12 +3568,13 @@
       "slot": "sidearm",
       "magazine": "21",
       "fire_mode": "Full Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Underground armoury below a mobile home, Balsero"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-conspiracist-type-9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3347,7 +3587,9 @@
       "IGN's sortable weapons table lists the Eris Fresh DSG as a sidearm submachine gun (Tactical subtype) made by Deever Tech, firing 9mm rounds in 3-round burst mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 3.8, handling 7.3 and range 4, with a magazine of 30.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says this tactical SMG can be taken during the Illegal Goods Store Illegal Operation at the north end of Southside in Vice City."
+      "IGN's unique-variant guide says this tactical SMG can be taken during the Illegal Goods Store Illegal Operation at the north end of Southside in Vice City.",
+      "GTABase places the Illegal Goods Store illegal operation, where it is looted, at the northern end of Southside in Vice City.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "deever-tech",
@@ -3367,7 +3609,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-eris-fresh-dsg"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3380,7 +3623,9 @@
       "IGN's sortable weapons table lists the Little Friend W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 3.4, handling 6.6 and range 3.2, with a magazine of 50.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it in a room on the second floor of the Sunlite Motel in Ocean Beach off of Shore Drive."
+      "IGN's unique-variant guide places it in a room on the second floor of the Sunlite Motel in Ocean Beach off of Shore Drive.",
+      "GTABase says it is just inside a blood-stained doorway on the second floor of the Sunlite Motel off Shore Drive in Ocean Beach, up the stairs under the red awning.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -3395,12 +3640,13 @@
       "slot": "sidearm",
       "magazine": "50",
       "fire_mode": "Full Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Second floor of the Sunlite Motel, Ocean Beach"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-little-friend-w-10"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3413,7 +3659,9 @@
       "IGN's sortable weapons table lists the Marabunta Grande Type 9 as a sidearm submachine gun (Machine Pistol subtype) made by Zhang Wu, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 4.5, handling 6.7 and range 3.5, with a magazine of 20.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide says it can be taken during the Weed Grow Illegal Operation, in East Lummox County."
+      "IGN's unique-variant guide says it can be taken during the Weed Grow Illegal Operation, in East Lummox County.",
+      "GTABase places the Weed Grow illegal operation, where it is looted, in East Lummox County on the north-east shore of Lake Tallaloko.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -3433,7 +3681,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-marabunta-grande-type-9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3448,7 +3697,9 @@
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Game8's weapons list (updated November 19, 2026) also shows it, as a submachine gun by Wortham in 9mm with damage 4.2, accuracy 3.2, handling 6.5, range 3.9 and a magazine of 50, and files it under its Unique filter.",
       "IGN's unique-variant guide says it is sold at Tequesta Guns & Ammo for $1,557.",
-      "IGN places that shop in the southwest part of Tequesta."
+      "IGN places that shop in the southwest part of Tequesta.",
+      "GTABase says Tequesta Guns & Ammo, in the south-west of Tequesta, sells it for $1,557.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -3470,7 +3721,8 @@
     "sources": [
       "ign-weapons-guide",
       "game8-weapons-hub",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-moneymaker-w-10"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3484,7 +3736,9 @@
       "IGN gives ratings out of 10 of damage 4.2, accuracy 4.3, handling 6.6 and range 3.9, with a magazine of 20.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Vice City Firearms for $2,310.",
-      "IGN places that shop in Salton."
+      "IGN places that shop in Salton.",
+      "GTABase says Vice City Firearms in Salton sells it for $2,310.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "smg",
@@ -3505,7 +3759,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-neon-sunset-type-9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3517,7 +3772,8 @@
     "body": [
       "IGN's sortable weapons table lists the Roxy's W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
       "IGN gives ratings out of 10 of damage 4.2, accuracy 3.2, handling 7.5 and range 3.5, with a magazine of 20.",
-      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "PowerPyx lists Roxy's W-10 as part of the reward for the Chapter 4 main mission Photo/Shoot (Shoot a Promo), alongside $6,000 and Bae-Lux's W-10."
     ],
     "tags": [
       "smg",
@@ -3531,13 +3787,15 @@
       "manufacturer": "Wortham",
       "slot": "sidearm",
       "magazine": "20",
-      "fire_mode": "Full Auto"
+      "fire_mode": "Full Auto",
+      "availability": "Reward for the Chapter 4 mission Photo/Shoot (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r7-ppx-photoshoot"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3608,7 +3866,9 @@
       "IGN's sortable weapons table lists the Black Eagle Import M306 TMR as a longarm tactical rifle (Marksman Elite Rifle subtype) made by Hillinger, firing 7.62x51mm rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 6.2, accuracy 9.5, handling 4.1 and range 7.5, with a magazine of 20.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
-      "IGN's unique-variant guide places it inside the Black Eagle warehouse beside the Black Eagle Ammu-Nation store in Balsero."
+      "IGN's unique-variant guide places it inside the Black Eagle warehouse beside the Black Eagle Ammu-Nation store in Balsero.",
+      "GTABase says it is inside the Black Eagle warehouse next to the Black Eagle Ammu-Nation in Balsero, and that only Lucia can reach it: enter through the garage opening, pass the barred door behind the cargo truck, turn left and squeeze between the boxes and the chain-link fence.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "hillinger",
@@ -3623,12 +3883,13 @@
       "slot": "long gun",
       "magazine": "20",
       "fire_mode": "Semi-Auto",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Black Eagle warehouse, Balsero (Lucia only)"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-black-eagle-import-m306-tmr"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3640,7 +3901,9 @@
     "body": [
       "IGN's sortable weapons table lists the Schlamm DRX as a sidearm pistol (Tactical subtype) made by Schlamm, firing 9mm rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 4, accuracy 4.2, handling 8.2 and range 4.2, with a magazine of 17.",
-      "IGN's inventory column puts it in the Standard and Hunting Ammu-Nation stock; it is one of the standard guns, not a unique variant."
+      "IGN's inventory column puts it in the Standard and Hunting Ammu-Nation stock; it is one of the standard guns, not a unique variant.",
+      "GTABase gives the Schlamm DRX a story mode price of $2,100 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "pistol",
@@ -3655,13 +3918,15 @@
       "slot": "sidearm",
       "availability": "Standard or Hunting Ammu-Nation inventory (IGN)",
       "magazine": "17",
-      "fire_mode": "Semi-Auto"
+      "fire_mode": "Semi-Auto",
+      "price": "$2,100"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-drx"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3728,7 +3993,8 @@
       "IGN's weapons guide (updated November 18, 2026) lists the EDC Knife as a melee weapon of the Knife type.",
       "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
       "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
-      "IGN gives no stats, maker, price or location for it."
+      "IGN gives no stats, maker, price or location for it.",
+      "Dexerto's weapon page (published November 19, 2026) lists it in the shop at $275, sold at Big Shots."
     ],
     "tags": [
       "knife",
@@ -3736,13 +4002,16 @@
       "weapons"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "price": "$275",
+      "availability": "Sold at Big Shots (Dexerto)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r10-dex-w-edc-knife"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3754,7 +4023,8 @@
       "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
       "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
       "IGN's table files it under Knife with Switchblade as its class.",
-      "IGN gives no stats, maker, price or location for it."
+      "IGN gives no stats, maker, price or location for it.",
+      "Dexerto's weapon page (published November 19, 2026) lists it in the shop at $290, sold at Big Shots."
     ],
     "tags": [
       "knife",
@@ -3762,13 +4032,16 @@
       "weapons"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "price": "$290",
+      "availability": "Sold at Big Shots (Dexerto)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r10-dex-w-switchblade"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3779,7 +4052,8 @@
       "IGN's weapons guide (updated November 18, 2026) lists the Combat Knife as a melee weapon of the Knife type.",
       "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
       "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
-      "IGN gives no stats, maker, price or location for it."
+      "IGN gives no stats, maker, price or location for it.",
+      "Dexerto's weapon page (published November 19, 2026) lists it in the shop at $285, sold at Big Shots."
     ],
     "tags": [
       "knife",
@@ -3787,13 +4061,16 @@
       "weapons"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "price": "$285",
+      "availability": "Sold at Big Shots (Dexerto)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r10-dex-w-combat-knife"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3805,7 +4082,8 @@
       "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
       "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
       "IGN's table files it under Knife with Survival Knife as its class.",
-      "IGN gives no stats, maker, price or location for it."
+      "IGN gives no stats, maker, price or location for it.",
+      "Dexerto's weapon page (published November 19, 2026) lists it in the shop at $315, sold at Big Shots."
     ],
     "tags": [
       "knife",
@@ -3813,13 +4091,16 @@
       "weapons"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "price": "$315",
+      "availability": "Sold at Big Shots (Dexerto)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r10-dex-w-survival-knife"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3857,7 +4138,8 @@
       "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
       "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
       "IGN's table files it under the Bludgeon type.",
-      "IGN gives no stats, maker, price or location for it."
+      "IGN gives no stats, maker, price or location for it.",
+      "Dexerto's weapon page (published November 19, 2026) lists it in the shop at $160, sold at Big Shots."
     ],
     "tags": [
       "bludgeon",
@@ -3865,13 +4147,16 @@
       "weapons"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "price": "$160",
+      "availability": "Sold at Big Shots (Dexerto)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r10-dex-w-baton"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3932,7 +4217,9 @@
       "It is the only bat row in IGN's table.",
       "IGN gives no stats, maker, price or location for it.",
       "IGN's unique-variant guide places it in one of the batting cages at Dino Golf off SR-32 in Frogswater.",
-      "IGN describes it as a metallic green bat with orange accents."
+      "IGN describes it as a metallic green bat with orange accents.",
+      "GTABase says it is in one of the right-hand batting cages at Dino Golf, off SR-32 in Frogswater.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "bat",
@@ -3941,12 +4228,13 @@
     ],
     "facts": {
       "type": "Melee Weapon",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Batting cages at Dino Golf, Frogswater"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-brontasaurus-bat"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3959,7 +4247,9 @@
       "IGN's weapons guide (updated November 18, 2026) lists the Explorer's Knife as a melee weapon of the Knife type.",
       "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
       "IGN gives no stats, maker, price or location for it.",
-      "IGN's unique-variant guide places it in the underground portion of Emerald River, accessible through Selkie Hole."
+      "IGN's unique-variant guide places it in the underground portion of Emerald River, accessible through Selkie Hole.",
+      "GTABase says it is in the underground part of Emerald River: go through Selkie Hole, take the scuba gear and flashlight, then dive and follow the yellow guide rope north past the warning sign.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "knife",
@@ -3968,12 +4258,13 @@
     ],
     "facts": {
       "type": "Melee Weapon",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Underground Emerald River, via Selkie Hole"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-explorers-knife"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3986,7 +4277,9 @@
       "IGN's weapons guide (updated November 18, 2026) lists the Shark Knife as a melee weapon of the Knife type.",
       "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
       "IGN gives no stats, maker, price or location for it.",
-      "IGN's unique-variant guide places it on the sea floor in an underwater ravine north of the Saint Attaway Islands, next to a shark cage."
+      "IGN's unique-variant guide places it on the sea floor in an underwater ravine north of the Saint Attaway Islands, next to a shark cage.",
+      "GTABase says it is stuck in the ground of an underwater ravine next to a shark cage, on the seabed north of the Saint Attaway Islands.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "knife",
@@ -3995,12 +4288,13 @@
     ],
     "facts": {
       "type": "Melee Weapon",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Underwater ravine north of the Saint Attaway Islands"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-shark-knife"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -4013,7 +4307,9 @@
       "IGN's weapons guide (updated November 18, 2026) lists the Soldier's Combat Knife as a melee weapon of the Knife type.",
       "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
       "IGN gives no stats, maker, price or location for it.",
-      "IGN's unique-variant guide places it in a partially submerged tank on the central west shore between Bobcat Bight and Bobcat Key."
+      "IGN's unique-variant guide places it in a partially submerged tank on the central west shore between Bobcat Bight and Bobcat Key.",
+      "GTABase says it is inside the hatch of a partly sunken tank on the west shore between Bobcat Bight and Bobcat Key.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "knife",
@@ -4022,12 +4318,13 @@
     ],
     "facts": {
       "type": "Melee Weapon",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Hatch of a sunken tank near Bobcat Key"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-soldiers-combat-knife"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -4040,7 +4337,9 @@
       "IGN's weapons guide (updated November 18, 2026) lists the Tallaloko Knife as a melee weapon of the Knife type.",
       "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
       "IGN gives no stats, maker, price or location for it.",
-      "IGN's unique-variant guide places it on the second floor of a cabin called Evergreen in a small complex of cabins on the west side of Lake Tallaloko in East Lummox County."
+      "IGN's unique-variant guide places it on the second floor of a cabin called Evergreen in a small complex of cabins on the west side of Lake Tallaloko in East Lummox County.",
+      "GTABase says it is behind the locked second-floor door of the Evergreen cabin on the west side of Lake Tallaloko, East Lummox County, where a lockbox also holds more than $7,000 in jewellery.",
+      "GTABase says that, as a unique variant, it cannot be modified."
     ],
     "tags": [
       "knife",
@@ -4049,12 +4348,13 @@
     ],
     "facts": {
       "type": "Melee Weapon",
-      "availability": "Found in the open world (IGN)"
+      "availability": "Evergreen cabin, Lake Tallaloko, East Lummox County"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-tallaloko-knife"
     ],
     "verified": "2026-11-19",
     "spoiler": true

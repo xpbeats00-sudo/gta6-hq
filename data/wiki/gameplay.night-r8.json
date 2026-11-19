@@ -1,0 +1,90 @@
+[
+  {
+    "slug": "dog-island-and-cool-dog",
+    "name": "Dog Island and Cool Dog",
+    "summary": "A jet-ski-riding lifeguard dog that rescues stranded swimmers and can carry you to a small island of dogs in southern Grassrivers.",
+    "body": [
+      "TheGamer says that after swimming away from a boat in open water for about 20 to 30 seconds you hear barking, and Focus Mode points to a dog in a life vest driving a jet ski, called Cool Dog.",
+      "According to TheGamer, Cool Dog serves as a way back to shore when you are stranded or your boat is destroyed; choosing Praise while focused on him lets you climb aboard.",
+      "TheGamer says staying aboard eventually brings you to Dog Island in the southern part of the Grassrivers region, where Cool Dog joins other dogs under an overturned boat.",
+      "TheGamer reports that Cool Dog digs up a wallet holding $1,200 there, and that the Sports Wrap Shade sunglasses lie in a small hole left of the boat and are added to Jason's wardrobe when picked up.",
+      "TheGamer says throwing the Frisbee or mini-football for the dogs adds a little Focus progress, that you can ride off on Cool Dog's jet ski, and that your own boat respawns at home for free.",
+      "TheGamer says it can be reached as soon as Jason's first day is done, suggesting a trip west from Key Lento into Leonida Bay, and that Lucia can do it later in the story."
+    ],
+    "tags": [
+      "cool dog",
+      "dog island",
+      "dogs",
+      "easter egg",
+      "grassrivers",
+      "jet ski",
+      "sunglasses"
+    ],
+    "facts": {
+      "type": "Easter egg",
+      "shown_in": "TheGamer guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-tg-dog-island"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "giant-crab-research-site",
+    "name": "Giant crab at the abandoned research site",
+    "summary": "An abandoned research site north of Key Lento hides a crab the size of a loveseat, a nod to the 'giant enemy crab' E3 2006 meme.",
+    "body": [
+      "Polygon says an apparently abandoned research site lies north of the Key Lento starting area, with a broken fish tank, small dead crabs and industrial water tanks.",
+      "Polygon describes a computer there with a crab logo above its password field, holding field notes for an experiment.",
+      "According to Polygon, Jason hears scuttling and a crab the size of a loveseat drops from the rafters and pins him down.",
+      "Polygon calls it a random discovery rather than a full side quest, and ties it to the 'giant enemy crab' line from Sony's E3 2006 presentation of Genji 2."
+    ],
+    "tags": [
+      "crab",
+      "e3",
+      "easter egg",
+      "key lento",
+      "meme",
+      "research site"
+    ],
+    "facts": {
+      "type": "Easter egg",
+      "shown_in": "Polygon article, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-poly-giant-crab"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sam-houser-cameo",
+    "name": "Sam Houser cameo",
+    "summary": "Rockstar president Sam Houser appears as a silent floor-sweeper at a club during a later mission with Boobie.",
+    "body": [
+      "GameSpot reports that in one of the later missions, when Boobie meets Big Mike at a new club, the worker sweeping the floor whom Boobie teases is Rockstar Games president Sam Houser.",
+      "GameSpot says the digital Houser does not say a word and wears a white T-shirt with the Rockstar Games logo.",
+      "GameSpot notes earlier Houser cameos: an Ammu-Nation clerk voice in GTA 3, a statue of that clerk in GTA: San Andreas, and minor background voice roles in San Andreas and GTA 4."
+    ],
+    "tags": [
+      "boobie",
+      "cameo",
+      "easter egg",
+      "rockstar",
+      "sam houser"
+    ],
+    "facts": {
+      "type": "Easter egg",
+      "shown_in": "GameSpot article, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-gs-houser-cameo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

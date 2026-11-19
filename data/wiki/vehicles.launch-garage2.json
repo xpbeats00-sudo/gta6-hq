@@ -316,7 +316,9 @@
     "summary": "The '85 Dinka Blista is a coupe listed in the released game's vehicle database (style Compact, era 1980s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.5, acceleration 4.7, asphalt handling 3.8, off-road handling 4.2, strength 3.0."
+      "DayOne gives its stats as speed 4.5, acceleration 4.7, asphalt handling 3.8, off-road handling 4.2, strength 3.0.",
+      "GTABase's page for the Dinka Blista '85 lists a registration cost of $2,750 and a stolen sell value of $825.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "blista",
@@ -328,13 +330,16 @@
       "manufacturer": "Dinka",
       "model": "Blista",
       "year": "1985",
-      "class": "Coupes"
+      "class": "Coupes",
+      "seats": 2,
+      "drivetrain": "FWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-blista-compact"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -369,7 +374,9 @@
     "summary": "The '90 Annis Elegy is a coupe listed in the released game's vehicle database (style Sports, era 1990s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 5.5, acceleration 6.4, asphalt handling 4.9, off-road handling 3.9, strength 3.0."
+      "DayOne gives its stats as speed 5.5, acceleration 6.4, asphalt handling 4.9, off-road handling 3.9, strength 3.0.",
+      "GTABase's page for the Annis Elegy '90 lists a registration cost of $14,250 and a stolen sell value of $4,235.",
+      "GTABase says it carries a Standard Tracker."
     ],
     "tags": [
       "annis",
@@ -381,13 +388,16 @@
       "manufacturer": "Annis",
       "model": "Elegy",
       "year": "1990",
-      "class": "Coupes"
+      "class": "Coupes",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-elegy-retro-custom"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -427,7 +437,10 @@
     "summary": "The Maibatsu Penumbra is a coupe listed in the released game's vehicle database (style Sports, era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 5.2, acceleration 5.7, asphalt handling 4.2, off-road handling 4.3, strength 3.0."
+      "DayOne gives its stats as speed 5.2, acceleration 5.7, asphalt handling 4.2, off-road handling 4.3, strength 3.0.",
+      "Game8 says a Penumbra is at Shirley's house, two houses from Jason's near the intersection, after both of her Strangers and Freaks missions, Get Shirley's Rum and Steal the Scooter, are done.",
+      "Game8 gives 2 seats, 2 storage, a 2000s era and a Tuner specialist, with base ratings of 512 on asphalt and 331 off-road.",
+      "Disagreement: Game8 gives speed 5.3, DayOne 5.2."
     ],
     "tags": [
       "coupe",
@@ -438,13 +451,16 @@
     "facts": {
       "manufacturer": "Maibatsu",
       "model": "Penumbra",
-      "class": "Coupes"
+      "class": "Coupes",
+      "seats": 2,
+      "availability": "At Shirley's house in Key Lento after Get Shirley's Rum and Steal the Scooter (Game8)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r7-g8-penumbra"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -507,7 +523,9 @@
     "summary": "The '65 Albany Buccaneer is a muscle car listed in the released game's vehicle database (era 1960s Antique).",
     "body": [
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.2, acceleration 4.1, asphalt handling 3.2, off-road handling 3.9, strength 3.0."
+      "DayOne gives its stats as speed 4.2, acceleration 4.1, asphalt handling 3.2, off-road handling 3.9, strength 3.0.",
+      "GTABase's page for the Albany Buccaneer '65 lists a registration cost of $9,400 and a stolen sell value of $2,805.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "albany",
@@ -519,13 +537,16 @@
       "manufacturer": "Albany",
       "model": "Buccaneer",
       "year": "1965",
-      "class": "Muscle Cars"
+      "class": "Muscle Cars",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-buccaneer"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -534,7 +555,9 @@
     "summary": "The '72 Declasse Tulip is a muscle car listed in the released game's vehicle database (era 1970s Antique).",
     "body": [
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
-      "DayOne gives its stats as speed 5.1, acceleration 4.8, asphalt handling 3.4, off-road handling 3.9, strength 3.0."
+      "DayOne gives its stats as speed 5.1, acceleration 4.8, asphalt handling 3.4, off-road handling 3.9, strength 3.0.",
+      "GTABase's page for the Declasse Tulip '72 lists a registration cost of $9,400 and a stolen sell value of $2,805.",
+      "GTABase says it carries a Standard Tracker."
     ],
     "tags": [
       "car",
@@ -546,13 +569,16 @@
       "manufacturer": "Declasse",
       "model": "Tulip",
       "year": "1972",
-      "class": "Muscle Cars"
+      "class": "Muscle Cars",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-tulip"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -622,7 +648,9 @@
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
       "DayOne gives its stats as speed 3.7, acceleration 3.7, asphalt handling 3.2, off-road handling 3.8, strength 3.0.",
       "DayOne prints the name as \"78 Declasse Tuliop M-100\".",
-      "The same DayOne page lists a '72 Declasse Tulip, so the model is given here as Tulip M-100."
+      "The same DayOne page lists a '72 Declasse Tulip, so the model is given here as Tulip M-100.",
+      "GTABase's page for the Declasse Tulip M-100 '78 lists a registration cost of $8,200 and a stolen sell value of $2,420.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "100",
@@ -635,13 +663,16 @@
       "manufacturer": "Declasse",
       "model": "Tulip M-100",
       "year": "1978",
-      "class": "Muscle Cars"
+      "class": "Muscle Cars",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-tulip-m-100"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -735,7 +766,8 @@
     "summary": "The Bravado Bison is a pickup listed in the released game's vehicle database (era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.2, acceleration 4.6, asphalt handling 3.8, off-road handling 5.0, strength 3.0."
+      "DayOne gives its stats as speed 4.2, acceleration 4.6, asphalt handling 3.8, off-road handling 5.0, strength 3.0.",
+      "Game8 says Bisons are often parked at car parks along the Sunbelt Highway in north Key Lento and by the highway further south; it gives 6 seats, a 2000s era and an Off-Road specialist."
     ],
     "tags": [
       "bison",
@@ -745,13 +777,16 @@
     "facts": {
       "manufacturer": "Bravado",
       "model": "Bison",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 6,
+      "availability": "Car parks on the Sunbelt Highway, north Key Lento (Game8)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r7-g8-bison"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -760,7 +795,9 @@
     "summary": "The '84 Declasse Bobcat XL is a pickup listed in the released game's vehicle database (era 1980s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.2, acceleration 4.7, asphalt handling 3.2, off-road handling 4.9, strength 3.2."
+      "DayOne gives its stats as speed 4.2, acceleration 4.7, asphalt handling 3.2, off-road handling 4.9, strength 3.2.",
+      "GTABase's page for the Declasse Bobcat XL '84 lists a registration cost of $7,250 and a stolen sell value of $2,145.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "bobcat",
@@ -772,13 +809,16 @@
       "manufacturer": "Declasse",
       "model": "Bobcat XL",
       "year": "1984",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-bobcat-xl"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -812,7 +852,8 @@
     "summary": "The Karin Contender is a pickup listed in the released game's vehicle database (era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.5, acceleration 5.5, asphalt handling 3.4, off-road handling 6.7, strength 3.0."
+      "DayOne gives its stats as speed 4.5, acceleration 5.5, asphalt handling 3.4, off-road handling 6.7, strength 3.0.",
+      "Game8 says Contenders are parked along the Sunbelt Highway in north Key Lento, for example at the Hamilton Private Health Clinic, and need the Clone Key from Chapter 3 to start; it gives 6 seats."
     ],
     "tags": [
       "contender",
@@ -822,13 +863,16 @@
     "facts": {
       "manufacturer": "Karin",
       "model": "Contender",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 6,
+      "availability": "Car parks along the Sunbelt Highway, north Key Lento; needs the Clone Key (Game8)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r7-g8-contender"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -840,7 +884,8 @@
       "DayOne gives its stats as speed 2.6, acceleration 2.5, asphalt handling 2.9, off-road handling 3.6, strength 3.0.",
       "GTABase calls it the Vapid Reclaimer '70s and says it is new to the series, modelled on the 2019-2023 Ford Ranger (T6), with Off-Road as its specialist shop.",
       "GTABase gives it four seats, a registration cost of $7,500, no tracker and a stolen sell value of $2,255.",
-      "GTABase files it under off-road vehicles; the app (from DayOne) has it under pickups."
+      "GTABase files it under off-road vehicles; the app (from DayOne) has it under pickups.",
+      "Disagreement: Game8 gives the '70 Reclaimer 2 seats; GTABase gives four."
     ],
     "tags": [
       "pickup",
@@ -857,7 +902,8 @@
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-v-reclaimer"
+      "gtabase-v-reclaimer",
+      "r7-g8-reclaimer-70"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -950,7 +996,8 @@
     "summary": "The '07 Bravado Buffalo is a sedan listed in the released game's vehicle database (style Sports, era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 5.2, acceleration 5.4, asphalt handling 4.3, off-road handling 4.5, strength 3.0."
+      "DayOne gives its stats as speed 5.2, acceleration 5.4, asphalt handling 4.3, off-road handling 4.5, strength 3.0.",
+      "GTABase's page for the Bravado Buffalo '07 lists a registration cost of $8,000 and a stolen sell value of $2,365."
     ],
     "tags": [
       "bravado",
@@ -962,13 +1009,16 @@
       "manufacturer": "Bravado",
       "model": "Buffalo",
       "year": "2007",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-buffalo"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1004,7 +1054,9 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
       "DayOne gives its stats as speed 5.0, acceleration 5.4, asphalt handling 4.0, off-road handling 4.5, strength 3.0.",
-      "DayOne prints the era as 1980s Classic although the name carries '98, so the model year is left out here."
+      "DayOne prints the era as 1980s Classic although the name carries '98, so the model year is left out here.",
+      "GTABase's page for the Karin Feroci '98 lists a registration cost of $3,150 and a stolen sell value of $935.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "feroci",
@@ -1015,13 +1067,16 @@
     "facts": {
       "manufacturer": "Karin",
       "model": "Feroci",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-feroci"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1286,7 +1341,8 @@
     "summary": "The Invetero Coquette D10 is a sports car listed in the released game's vehicle database (era 2020s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sports Cars and names Luxury as its mod shop specialist.",
-      "DayOne gives its stats as speed 7.0, acceleration 7.5, asphalt handling 6.5, off-road handling 3.6, strength 3.0."
+      "DayOne gives its stats as speed 7.0, acceleration 7.5, asphalt handling 6.5, off-road handling 3.6, strength 3.0.",
+      "Game8 says the Coquette D10 is a rare sight on the Sunbelt Highway, sometimes parked by the gas station or the Hamilton Private Health Clinic in north Key Lento, and needs the Clone Key from Chapter 3."
     ],
     "tags": [
       "car",
@@ -1298,13 +1354,15 @@
     "facts": {
       "manufacturer": "Invetero",
       "model": "Coquette D10",
-      "class": "Sports Cars"
+      "class": "Sports Cars",
+      "availability": "Rare on the Sunbelt Highway, north Key Lento; needs the Clone Key (Game8)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r7-g8-coquette-d10"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1372,7 +1430,9 @@
     "summary": "The Pfister Astron is an SUV listed in the released game's vehicle database (style Sports, era 2020s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under SUVs and names Luxury as its mod shop specialist.",
-      "DayOne gives its stats as speed 5.3, acceleration 6.5, asphalt handling 5.1, off-road handling 4.5, strength 3.0."
+      "DayOne gives its stats as speed 5.3, acceleration 6.5, asphalt handling 5.1, off-road handling 4.5, strength 3.0.",
+      "GTABase's page for the Pfister Astron lists a registration cost of $15,500 and a stolen sell value of $4,620.",
+      "GTABase says it carries a Standard Tracker."
     ],
     "tags": [
       "astron",
@@ -1383,13 +1443,16 @@
     "facts": {
       "manufacturer": "Pfister",
       "model": "Astron",
-      "class": "SUVs"
+      "class": "SUVs",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-astron"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1476,7 +1539,9 @@
     "summary": "The '95 Annis Hellion is an SUV listed in the released game's vehicle database (style Off-Road, era 1990s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under SUVs and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 3.1, acceleration 3.4, asphalt handling 3.0, off-road handling 6.7, strength 3.0."
+      "DayOne gives its stats as speed 3.1, acceleration 3.4, asphalt handling 3.0, off-road handling 6.7, strength 3.0.",
+      "GTABase's page for the Annis Hellion '95 lists a registration cost of $4,400 and a stolen sell value of $1,320.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "annis",
@@ -1489,13 +1554,16 @@
       "manufacturer": "Annis",
       "model": "Hellion",
       "year": "1995",
-      "class": "SUVs"
+      "class": "SUVs",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-hellion"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1557,7 +1625,9 @@
     "summary": "The '98 Declasse Burrito is a van listed in the released game's vehicle database (style Commercial, era 1990s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Vans.",
-      "DayOne gives its stats as speed 3.4, acceleration 3.8, asphalt handling 3.4, off-road handling 3.3, strength 3.0."
+      "DayOne gives its stats as speed 3.4, acceleration 3.8, asphalt handling 3.4, off-road handling 3.3, strength 3.0.",
+      "GTABase's page for the Declasse Burrito '98 lists a registration cost of $8,000 and a stolen sell value of $2,365.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "burrito",
@@ -1569,13 +1639,16 @@
       "manufacturer": "Declasse",
       "model": "Burrito",
       "year": "1998",
-      "class": "Vans"
+      "class": "Vans",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-burrito"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1584,7 +1657,8 @@
     "summary": "The '83 Willard Moocher is a van listed in the released game's vehicle database (style Motorhome, era 1980s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Vans.",
-      "DayOne gives its stats as speed 2.5, acceleration 1.4, asphalt handling 2.8, off-road handling 2.6, strength 3.0."
+      "DayOne gives its stats as speed 2.5, acceleration 1.4, asphalt handling 2.8, off-road handling 2.6, strength 3.0.",
+      "GTABase lists 4 seats for the Willard Moocher '83."
     ],
     "tags": [
       "moocher",
@@ -1596,13 +1670,15 @@
       "manufacturer": "Willard",
       "model": "Moocher",
       "year": "1983",
-      "class": "Vans"
+      "class": "Vans",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-moocher"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1663,7 +1739,9 @@
     "summary": "The '74 Bravado Youga is a van listed in the released game's vehicle database (style Commercial, era 1970s Antique).",
     "body": [
       "DayOne's list of the game's vehicles files it under Vans.",
-      "DayOne gives its stats as speed 3.0, acceleration 2.6, asphalt handling 3.2, off-road handling 3.1, strength 3.0."
+      "DayOne gives its stats as speed 3.0, acceleration 2.6, asphalt handling 3.2, off-road handling 3.1, strength 3.0.",
+      "GTABase's page for the Bravado Youga '74 lists a registration cost of $5,400 and a stolen sell value of $1,595.",
+      "GTABase says it carries no tracker."
     ],
     "tags": [
       "bravado",
@@ -1675,13 +1753,16 @@
       "manufacturer": "Bravado",
       "model": "Youga",
       "year": "1974",
-      "class": "Vans"
+      "class": "Vans",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "r8gb-vehicles-youga-classic"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1718,7 +1799,8 @@
     "summary": "The '97 Interstate Benson is a truck listed in the released game's vehicle database (era 1990s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Trucks.",
-      "DayOne gives its stats as speed 2.4, acceleration 1.7, asphalt handling 2.6, off-road handling 2.5, strength 3.0."
+      "DayOne gives its stats as speed 2.4, acceleration 1.7, asphalt handling 2.6, off-road handling 2.5, strength 3.0.",
+      "GTABase lists 2 seats and AWD drive for the Interstate Benson '97."
     ],
     "tags": [
       "benson",
@@ -1729,13 +1811,16 @@
       "manufacturer": "Interstate",
       "model": "Benson",
       "year": "1997",
-      "class": "Service - Trucks"
+      "class": "Service - Trucks",
+      "seats": 2,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "r8gb-vehicles-benson"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

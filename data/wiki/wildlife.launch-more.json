@@ -534,7 +534,8 @@
     "summary": "The Parrotfish is a fish Cal asks the player to catch early in the game, at a weight above 2 kg.",
     "body": [
       "Push Square's trophy guide says Cal's request is to land a Parrotfish over 2kg in an area marked on the map, and that a boat with a fishing rod is needed.",
-      "PowerPyx reports the Progress database counts 35 fish; no page read lists the others."
+      "PowerPyx reports the Progress database counts 35 fish; no page read lists the others.",
+      "Sportskeeda's walkthrough of Catch a Bigger Fish says Cal's photo shows a stoplight parrotfish and that the goal is to land one heavier than 2 lbs; Push Square gives the target as over 2kg, so the two guides disagree on the unit."
     ],
     "tags": [
       "cal",
@@ -542,15 +543,16 @@
       "fishing"
     ],
     "facts": {
-      "species": "Parrotfish",
+      "species": "Stoplight parrotfish",
       "habitat": "Marked fishing area for Cal's challenge, reached by boat"
     },
     "confidence": "corroborated",
     "sources": [
       "pushsquare-trophies",
-      "powerpyx-progress-database"
+      "powerpyx-progress-database",
+      "sportskeeda-catch-bigger-fish"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/pushsquare-14c309dbd9ae.jpg"
   }

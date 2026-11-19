@@ -6,7 +6,10 @@
     "body": [
       "Game8 lists Jack of Hearts as one of three strip clubs in GTA 6 and puts it in the eastern part of the Vice City map.",
       "Game8 says a dancer can be greeted and paid $300 for a private dance, and that repeated $50 tips during the dance unlock more explicit moments.",
-      "Game8 says nothing beyond the private dance can be bought, and that the clubs have a bar where drinks can be ordered and the bartender tipped."
+      "Game8 says nothing beyond the private dance can be bought, and that the clubs have a bar where drinks can be ordered and the bartender tipped.",
+      "Polygon describes Jack of Hearts as a hip-hop-themed club on Mirimar Dr in Vice City, in a small shopping area north-west of three very tall skyscrapers near the bridge, and says it opens at the start of Chapter 3.",
+      "Disagreement: Polygon says a private dance here costs $1,000, the most expensive of the clubs, while Game8 in the app gives $300.",
+      "GamesRadar+ places Jack of Hearts at the north end of Crosstown and PC Gamer directly north of NINE1NINE; both say it stays locked until a Chapter 3 story mission, and PC Gamer was refused entry before then."
     ],
     "tags": [
       "nightlife",
@@ -15,15 +18,18 @@
     ],
     "facts": {
       "type": "strip club",
-      "location": "East Vice City",
+      "location": "North Crosstown, Vice City",
       "purchasable": false,
       "availability": "Private dance $300, tip $50, bar drinks"
     },
     "confidence": "corroborated",
     "sources": [
-      "game8-strip-clubs"
+      "game8-strip-clubs",
+      "r8-poly-strip-clubs",
+      "r10-gr-strip-clubs",
+      "r10-pcg-strip-clubs"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -32,7 +38,12 @@
     "summary": "One of three strip clubs Game8 lists in GTA 6, found in the east of Vice City.",
     "body": [
       "Game8 lists Nine1Nine as one of three strip clubs in GTA 6, along with Delights Cabaret and Jack of Hearts, and puts it in the eastern part of the Vice City map.",
-      "Game8 says the strip clubs share the same services: a $300 private dance, $50 tips that extend it, and a bar for drinks."
+      "Game8 says the strip clubs share the same services: a $300 private dance, $50 tips that extend it, and a bar for drinks.",
+      "Polygon describes NINE1NINE Bar as a high-end strip club in the heart of Vice City, next to The Vault on NE 7th Street, open from Chapter 1, with private dances at $300.",
+      "Polygon says private dances are paid in cash only, plus tips during the dance, that Lucia can buy them too, and that the clubs' ATMs, bar drinks with temporary stat boosts and dancing are also available; dancing together can improve Jason and Lucia's relationship.",
+      "PC Gamer and GamesRadar+ both place NINE1NINE in Downtown Vice City; PC Gamer puts it next door to The Vault club and GamesRadar+ just south of the overpass, about five miles from Jason's Key Lento home.",
+      "PC Gamer confirms a $300 private dance and $50 tip, and says a private dance can also be bought from the person at the entrance to the private rooms; it found no stage dancing here, unlike at Delights.",
+      "Disagreement: Game8, cited earlier in this entry, puts it in the eastern part of the Vice City map; PC Gamer and GamesRadar+ call the area Downtown, GamesRadar+ saying the north of Downtown."
     ],
     "tags": [
       "nightlife",
@@ -41,15 +52,18 @@
     ],
     "facts": {
       "type": "strip club",
-      "location": "East Vice City",
+      "location": "Downtown Vice City, next to The Vault",
       "purchasable": false,
       "availability": "Private dance $300, tip $50, bar drinks"
     },
     "confidence": "corroborated",
     "sources": [
-      "game8-strip-clubs"
+      "game8-strip-clubs",
+      "r8-poly-strip-clubs",
+      "r10-gr-strip-clubs",
+      "r10-pcg-strip-clubs"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

@@ -486,10 +486,14 @@
     "confidence": "corroborated",
     "sources": [
       "exophase-trophies",
-      "exophase-achievements"
+      "exophase-achievements",
+      "r7-ppx-bigger-fish"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "body": [
+      "PowerPyx says it is earned through Cal's side quest Catch A Bigger Fish, which asks Jason for a Stoplight Parrotfish over 2 lb in Gambit Bay after the Chapter 1 mission Feng Shui."
+    ]
   },
   {
     "slug": "stick-fiddler",
@@ -1194,7 +1198,8 @@
     "name": "The Truth Is Out There",
     "summary": "What the hell just happened?",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "PowerPyx says it unlocks through the UFO encounter on the road north-west of the Starlet Motel in Kelly County, at night after 2:00 AM and only when alone; the spawn is random."
     ],
     "tags": [
       "trophy",
@@ -1210,9 +1215,10 @@
     "confidence": "corroborated",
     "sources": [
       "exophase-trophies",
-      "exophase-achievements"
+      "exophase-achievements",
+      "r7-ppx-ufo"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

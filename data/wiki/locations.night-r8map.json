@@ -1,0 +1,642 @@
+[
+  {
+    "slug": "palaestra-tower",
+    "name": "Palaestra Tower",
+    "summary": "A tower on Catalan Boulevard in Bayside, Vice City, listed as a landmark on GTABase's map.",
+    "body": [
+      "GTABase's map lists Palaestra Tower as a landmark and places it on Catalan Boulevard in Bayside, Vice City."
+    ],
+    "tags": [
+      "bayside",
+      "landmark",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Tower",
+      "districts": [
+        "Bayside"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "galina-ballet-opera-house",
+    "name": "Galina Ballet Opera House",
+    "summary": "Vice City's ballet and opera house on Catalan Boulevard, Bayside, per GTABase's map.",
+    "body": [
+      "GTABase's map lists the Galina Ballet Opera House as a landmark: the city's ballet and opera venue, on Catalan Boulevard in Bayside, Vice City."
+    ],
+    "tags": [
+      "bayside",
+      "landmark",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Opera house",
+      "districts": [
+        "Bayside"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "piker-financial-center",
+    "name": "Piker Financial Center",
+    "summary": "An office tower on Catalan Boulevard in Downtown Vice City, per GTABase's map.",
+    "body": [
+      "GTABase's map lists the Piker Financial Center as a landmark office tower on Catalan Boulevard, Downtown Vice City."
+    ],
+    "tags": [
+      "downtown",
+      "landmark",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Office tower",
+      "districts": [
+        "Downtown"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "catalan-boulevard-bridge",
+    "name": "Catalan Boulevard Bridge",
+    "summary": "The bridge that carries Catalan Boulevard in Vice City, listed as a landmark by GTABase.",
+    "body": [
+      "GTABase's map lists the Catalan Boulevard Bridge as a landmark of Vice City."
+    ],
+    "tags": [
+      "bridge",
+      "landmark",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Bridge"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "el-gabeto-center",
+    "name": "El Gabeto Center",
+    "summary": "A building in Little Cuba, Vice City, listed as a landmark on GTABase's map.",
+    "body": [
+      "GTABase's map lists the El Gabeto Center as a landmark building in Little Cuba, Vice City."
+    ],
+    "tags": [
+      "landmark",
+      "little cuba",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Building",
+      "districts": [
+        "Little Cuba"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stockyard-walls",
+    "name": "Stockyard Walls",
+    "summary": "The mural district of Stockyard, Vice City, which GTABase compares to Miami's Wynwood.",
+    "body": [
+      "GTABase's map lists the Stockyard Walls, the murals of Stockyard in Vice City, as a landmark and likens the area to Miami's Wynwood.",
+      "GTABase says more than 50 real street artists made murals for the game, some of them here."
+    ],
+    "tags": [
+      "landmark",
+      "murals",
+      "stockyard",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Mural district",
+      "districts": [
+        "Stockyard"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "star-island-bridge",
+    "name": "Star Island Bridge",
+    "summary": "The bridge to Star Island in Vice-Dale County, listed as a landmark by GTABase.",
+    "body": [
+      "GTABase's map lists the Star Island Bridge, which leads to Star Island in Vice-Dale County, as a landmark."
+    ],
+    "region": "Vice-Dale County",
+    "tags": [
+      "bridge",
+      "landmark",
+      "star island"
+    ],
+    "facts": {
+      "type": "Bridge",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "catalan-key-lighthouse",
+    "name": "Catalan Key Lighthouse",
+    "summary": "The lighthouse on Catalan Key, listed as a landmark on GTABase's map.",
+    "body": [
+      "GTABase's map lists the lighthouse on Catalan Key as a landmark."
+    ],
+    "tags": [
+      "catalan key",
+      "landmark",
+      "lighthouse"
+    ],
+    "facts": {
+      "type": "Lighthouse"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "seven-mile-bridge",
+    "name": "Seven Mile Bridge",
+    "summary": "A long Leonida Keys bridge near Key Lento that GTABase likens to Florida's Seven Mile Bridge.",
+    "body": [
+      "GTABase's map lists the Seven Mile Bridge as a landmark in the Key Lento area and says it looks based on today's Seven Mile Bridge together with parts of the disused old one."
+    ],
+    "tags": [
+      "bridge",
+      "landmark",
+      "leonida keys"
+    ],
+    "facts": {
+      "type": "Bridge"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "goose-key-naval-air-station",
+    "name": "Naval Air Station (Goose Key)",
+    "summary": "A naval air station with two crossing runways on Goose Key, at the south-west end of the Leonida Keys.",
+    "body": [
+      "GTABase's map lists a naval air station on Goose Key, at the south-western end of the Leonida Keys, with two crossing runways, and compares Goose Key to Florida's Boca Chica Key."
+    ],
+    "tags": [
+      "airfield",
+      "goose key",
+      "landmark",
+      "leonida keys"
+    ],
+    "facts": {
+      "type": "Military airfield"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ocean-view-hotel",
+    "name": "Ocean View Hotel",
+    "summary": "The hotel from GTA Vice City, back on Shore Drive in Ocean Beach, per GTABase's map.",
+    "body": [
+      "GTABase's map lists the Ocean View Hotel as a landmark on Shore Drive, Ocean Beach, and notes it is the hotel known from GTA Vice City."
+    ],
+    "tags": [
+      "hotel",
+      "landmark",
+      "ocean beach",
+      "vice beach"
+    ],
+    "facts": {
+      "type": "Hotel",
+      "districts": [
+        "Ocean Beach"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "y-vice-city-hotel",
+    "name": "Y Vice City Hotel",
+    "summary": "A Washington Beach hotel with an interior that can be entered, per GTABase's map.",
+    "body": [
+      "GTABase's map lists the Y Vice City Hotel as a landmark in Washington Beach, Vice Beach, and says its whole interior can be entered."
+    ],
+    "tags": [
+      "hotel",
+      "landmark",
+      "vice beach"
+    ],
+    "facts": {
+      "type": "Hotel",
+      "districts": [
+        "Washington Beach"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bocamar-bridge",
+    "name": "Bocamar Bridge",
+    "summary": "A bridge in Port Gellhorn listed as a landmark on GTABase's map.",
+    "body": [
+      "GTABase's map lists the Bocamar Bridge as a landmark in Port Gellhorn."
+    ],
+    "tags": [
+      "bridge",
+      "landmark",
+      "port gellhorn"
+    ],
+    "facts": {
+      "type": "Bridge"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gellhorn-roadhouse-sign",
+    "name": "Gellhorn Roadhouse Sign",
+    "summary": "The roadhouse sign in Port Gellhorn, listed as a landmark on GTABase's map.",
+    "body": [
+      "GTABase's map lists the roadhouse sign in Port Gellhorn as a landmark."
+    ],
+    "tags": [
+      "landmark",
+      "port gellhorn"
+    ],
+    "facts": {
+      "type": "Sign"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-landmark"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-beach-police-department",
+    "name": "Vice Beach Police Department",
+    "summary": "A police station on Shorefront Avenue in Ocean Beach, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Vice Beach Police Department among its police stations, on Shorefront Avenue in Ocean Beach."
+    ],
+    "tags": [
+      "police station",
+      "vice beach"
+    ],
+    "facts": {
+      "type": "Police station"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-police-station"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tequesta-police-station",
+    "name": "Tequesta Police Station",
+    "summary": "A police station in Tequesta, Vice City, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Tequesta Police Station among its police stations, in Tequesta, Vice City."
+    ],
+    "tags": [
+      "police station",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Police station"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-police-station"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "key-lento-police-station",
+    "name": "Key Lento Police Station",
+    "summary": "A police station in the Key Lento area, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Key Lento Police Station among its police stations, in the Key Lento area."
+    ],
+    "tags": [
+      "key lento",
+      "police station"
+    ],
+    "facts": {
+      "type": "Police station"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-police-station"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "port-gellhorn-police-station",
+    "name": "Port Gellhorn Police Station",
+    "summary": "A police station in Port Gellhorn, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Port Gellhorn Police Station among its police stations, in Port Gellhorn."
+    ],
+    "tags": [
+      "police station",
+      "port gellhorn"
+    ],
+    "facts": {
+      "type": "Police station"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-police-station"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ambrosia-police-department",
+    "name": "Ambrosia Police Department",
+    "summary": "A police station in Ambrosia, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Ambrosia Police Department among its police stations, in Ambrosia."
+    ],
+    "tags": [
+      "ambrosia",
+      "police station"
+    ],
+    "facts": {
+      "type": "Police station"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-police-station"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waning-sands-police-department",
+    "name": "Waning Sands Police Department",
+    "summary": "A police station in Waning Sands, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Waning Sands Police Department among its police stations, in Waning Sands."
+    ],
+    "tags": [
+      "police station",
+      "waning sands"
+    ],
+    "facts": {
+      "type": "Police station"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-police-station"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-beach-hospital",
+    "name": "Vice Beach Hospital",
+    "summary": "A hospital in Vice Beach, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Vice Beach Hospital in Vice Beach."
+    ],
+    "tags": [
+      "hospital"
+    ],
+    "facts": {
+      "type": "Hospital"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-hospital"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "southside-hospital",
+    "name": "Southside Hospital",
+    "summary": "A hospital in Southside, Vice City, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Southside Hospital in Southside, Vice City."
+    ],
+    "tags": [
+      "hospital"
+    ],
+    "facts": {
+      "type": "Hospital"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-hospital"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bayside-marina",
+    "name": "Bayside Marina",
+    "summary": "A marina in Bayside, Vice City, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Bayside Marina in Bayside, Vice City in its marinas category."
+    ],
+    "tags": [
+      "marina"
+    ],
+    "facts": {
+      "type": "Marina"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-marinas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shoreline-marina",
+    "name": "Shoreline Marina",
+    "summary": "A marina in Shoreline, Vice City, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Shoreline Marina in Shoreline, Vice City in its marinas category."
+    ],
+    "tags": [
+      "marina"
+    ],
+    "facts": {
+      "type": "Marina"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-marinas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ocean-beach-marina",
+    "name": "Vice Beach Marina (Ocean Beach)",
+    "summary": "A marina in Ocean Beach, Vice Beach, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Vice Beach Marina (Ocean Beach) in Ocean Beach, Vice Beach in its marinas category."
+    ],
+    "tags": [
+      "marina"
+    ],
+    "facts": {
+      "type": "Marina"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-marinas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "peacock-bay-marina",
+    "name": "Peacock Bay Marina",
+    "summary": "A marina in Peacock Bay, Vice City, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Peacock Bay Marina in Peacock Bay, Vice City in its marinas category."
+    ],
+    "tags": [
+      "marina"
+    ],
+    "facts": {
+      "type": "Marina"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-marinas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "key-lento-marina-club",
+    "name": "Key Lento Marina Club",
+    "summary": "A marina in Key Lento, Leonida Keys, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Key Lento Marina Club in Key Lento, Leonida Keys in its marinas category."
+    ],
+    "tags": [
+      "marina"
+    ],
+    "facts": {
+      "type": "Marina"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-marinas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "key-lento-marina",
+    "name": "Key Lento Marina",
+    "summary": "A marina in Key Lento, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Key Lento Marina in Key Lento in its marinas category."
+    ],
+    "tags": [
+      "marina"
+    ],
+    "facts": {
+      "type": "Marina"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-marinas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckskin-marina",
+    "name": "Buckskin Marina",
+    "summary": "A marina in Buckskin, from GTABase's map.",
+    "body": [
+      "GTABase's map lists the Buckskin Marina in Buckskin in its marinas category."
+    ],
+    "tags": [
+      "marina"
+    ],
+    "facts": {
+      "type": "Marina"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-map-marinas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

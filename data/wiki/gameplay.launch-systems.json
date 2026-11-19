@@ -579,7 +579,9 @@
       "DayOne's review gives different figures: five outfit slots reachable from an owned vehicle's trunk and upwards of a dozen outfits saved in the closet at home.",
       "PowerPyx lists 17 footwear stores under the brands Podium Sports (6), Callus (5) and WHS (5) plus Flip Flop House, and says some Ammu-Nations and mod shops also sell clothes.",
       "GameSpot says the story hands out free clothes from several sources, and PowerPyx lists a Shopping challenge for spending over 5,000 dollars on clothing.",
-      "PowerPyx says the Ultimate Edition adds two outfits per lead to the wardrobe, one set from Chapter 4 and one from Chapter 5."
+      "PowerPyx says the Ultimate Edition adds two outfits per lead to the wardrobe, one set from Chapter 4 and one from Chapter 5.",
+      "Eurogamer says up to five outfits can be stored in a personal vehicle's trunk using the 'add to trunk' prompt on a saved or named outfit in a wardrobe, and stored outfits show a car icon.",
+      "Eurogamer says the vehicle must be available, not impounded or badly damaged, and that stored outfits are put on through the hanger icon in the weapon wheel while seated, or the trunk's loadout option."
     ],
     "tags": [
       "clothing",
@@ -600,11 +602,11 @@
       "ppx-footwear",
       "gs-spend-money",
       "ppx-challenge-list",
-      "ppx-ultimate"
+      "ppx-ultimate",
+      "r8-eg-car-outfits"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-b3f4261b4824.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "discovered-styles",
@@ -1018,7 +1020,9 @@
       "GamesRadar+ says electric vehicles use Electric Vehicle Chargers, listed as Electric Chargers under the Vehicles tab of the map index.",
       "PowerPyx's 57 stations are 7 in Mariana County, 26 in Vice-Dale County, 12 in Kelly County and 6 each in Leonard and Lummox counties, under brands including Xero, 247, Globe Oil, LTD, Arrow, Ron and Alpha.",
       "GameSpot, citing a streamer's clip, reports pump prices in Key Lento of 4.29 dollars a gallon for unleaded and 5.22 for diesel.",
-      "PowerPyx notes that jets burn fuel faster than a crop duster plane."
+      "PowerPyx notes that jets burn fuel faster than a crop duster plane.",
+      "GTABase says a vehicle that has run dry can still be pushed from the front or back, with a button held to shove harder, and that a personal vehicle can instead be delivered by calling Joey from the phone's contacts.",
+      "GTABase warns that stolen cars do not always have a full tank, and says holding Left on the D-pad while driving shows the vehicle's stats, fuel included."
     ],
     "tags": [
       "charging",
@@ -1037,9 +1041,10 @@
       "ppx-gas",
       "ppx-tips",
       "gs-gas-prices",
-      "ppx-game-length"
+      "ppx-game-length",
+      "r8gb-gta-6-fuel-system-explained-how-vehicle-refuelling-works"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

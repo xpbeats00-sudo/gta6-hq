@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.30**: 3,051 entries; 66 standout vehicles, landmarks, mission screenshots, Easter eggs and launch-day news.
 - **0.2.29**: the Florida panther and Nuestra Señora de la Noche pictures are back on their own entries.
 - **0.2.28**: 2,928 entries, collectible cards, stunts, knife flights and basketball hoops with its location, the official credits and more radio songs.
 - **0.2.27**: pictures for 1,282 entries, each tied to its entry by name and none repeated; 210 weapons with every named variant; shipwrecks, WAiNK spots, more animals and launch news.

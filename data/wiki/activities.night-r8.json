@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "jasons-house-repairs",
+    "name": "Jason's house repairs",
+    "summary": "Five optional DIY jobs at Jason's Key Lento house, marked by paintbrush icons, that improve Lucia's homecoming in Coming Home.",
+    "body": [
+      "Eurogamer and Push Square both list five jobs, each marked with a small paintbrush icon: fix the bedroom wall, paint that wall, fix the outdoor steps, fix the leaky roof and fix the railing.",
+      "Push Square places the steps job at the planks at the foot of the stairs where Jason's car is parked, the roof job up the ladder beside the front door, and the railing job on the outdoor gym balcony between the squat rack and the ladder.",
+      "Eurogamer says painting the wall opens once the wall is fixed and offers Tropical Green, Stormy Blue or Pastel Peach, which differ only in looks.",
+      "Eurogamer says each job is a short button prompt followed by a brief scene, can be done at any time of day, and that finishing all five brings a 'house repairs complete' notice.",
+      "Eurogamer says doing the repairs boosts the relationship with Lucia and changes the scene when she arrives at the house in Coming Home; Push Square calls it an early optional task that is easy to miss if you rush into missions.",
+      "Disagreement: GameSpot, cited in the app's 'Homes and what they offer' entry, counts four projects; Eurogamer and Push Square list painting the wall as a fifth."
+    ],
+    "tags": [
+      "chapter 1",
+      "home improvement",
+      "jason",
+      "key lento",
+      "lucia",
+      "relationship"
+    ],
+    "facts": {
+      "type": "Home improvement (optional)",
+      "location": "Jason's house, Key Lento",
+      "players": "Jason"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8-eg-home-improvements",
+      "r8-ps-repair-house"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

@@ -1252,7 +1252,9 @@
     "body": [
       "PowerPyx gives one place to read it: the tool shed under Jason's house, in Mariana County > Key Lento.",
       "PowerPyx marks this place as missable, because Jason's house cannot be entered after Chapter 1, and says the item can also be read elsewhere.",
-      "It is one of 27 items in the Magazines, Books & Comics list, which with the 7 book swaps counts toward the 30 of 34 on the 100% checklist (PowerPyx)."
+      "It is one of 27 items in the Magazines, Books & Comics list, which with the 7 book swaps counts toward the 30 of 34 on the 100% checklist (PowerPyx).",
+      "GameSpot says leafing through Off The Hook in the shed at Jason's home to the page listing five fishing spots adds those spots to the map automatically.",
+      "GameSpot says other reading works the same way, with a workout magazine adding a gym to the map and street flyers (one outside a liquor store) adding phone contacts, one of which starts a side quest; the page must be opened, as zooming on the cover is not enough."
     ],
     "tags": [
       "books",
@@ -1262,13 +1264,15 @@
     ],
     "facts": {
       "type": "Magazine, book or comic",
-      "region": "Mariana County > Key Lento"
+      "region": "Mariana County > Key Lento",
+      "reward": "Five fishing spots added to the map"
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-magazines"
+      "powerpyx-magazines",
+      "r8-gs-read-everything"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

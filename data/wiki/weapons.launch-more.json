@@ -8,21 +8,25 @@
       "Game8 gives no stats, brand, price or location for it yet.",
       "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read.",
       "IGN's weapons guide (updated November 18, 2026) names it among its melee weapon types (Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton) and its table files it under the Knife type, with no stats.",
-      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price."
+      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price.",
+      "Dexerto's weapon page (published November 19, 2026) lists it in the shop at $230, sold at Big Shots and Chuck's Tackle & Shot."
     ],
     "tags": [
       "knife",
       "melee"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "price": "$230",
+      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)"
     },
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
       "powerpyx-progress-database",
       "ign-weapons-guide",
-      "game8-weapons-hub"
+      "game8-weapons-hub",
+      "r10-dex-w-bushcraft-knife"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -36,21 +40,25 @@
       "Game8 gives no stats, brand, price or location for it yet.",
       "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read.",
       "IGN's weapons guide (updated November 18, 2026) names it among its melee weapon types (Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton) and its table files it under the Knife type, with no stats.",
-      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price."
+      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price.",
+      "Dexerto's weapon page (published November 19, 2026) lists it in the shop at $300, sold at Big Shots and Chuck's Tackle & Shot."
     ],
     "tags": [
       "knife",
       "melee"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "price": "$300",
+      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)"
     },
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
       "powerpyx-progress-database",
       "ign-weapons-guide",
-      "game8-weapons-hub"
+      "game8-weapons-hub",
+      "r10-dex-w-diving-knife"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -64,21 +72,25 @@
       "Game8 gives no stats, brand, price or location for it yet.",
       "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read.",
       "IGN's weapons guide (updated November 18, 2026) names it among its melee weapon types (Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton) and its table files it under the Knife type, with no stats.",
-      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price."
+      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price.",
+      "Dexerto's weapon page (published November 19, 2026) lists it in the shop at $125, sold at Big Shots and Chuck's Tackle & Shot."
     ],
     "tags": [
       "knife",
       "melee"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "price": "$125",
+      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)"
     },
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
       "powerpyx-progress-database",
       "ign-weapons-guide",
-      "game8-weapons-hub"
+      "game8-weapons-hub",
+      "r10-dex-w-hunting-knife"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -198,7 +210,9 @@
     "name": "Donnie's H&L .38",
     "summary": "Donnie's H&L .38 is a missable unique revolver variant found in the trunk of Donnie's car.",
     "body": [
-      "PowerPyx says it must be taken from the trunk during Don Gone before the car is destroyed, otherwise it is missed."
+      "PowerPyx says it must be taken from the trunk during Don Gone before the car is destroyed, otherwise it is missed.",
+      "GTABase lists an ammo capacity of 6.",
+      "GTABase says it cannot be modified."
     ],
     "tags": [
       "missable",
@@ -208,13 +222,16 @@
     ],
     "facts": {
       "type": "Variant",
-      "availability": "Trunk of Donnie's car in Don Gone (Jason, after Chapter 1 Swamped); missable"
+      "availability": "Trunk of Donnie's car in Don Gone (Jason, after Chapter 1 Swamped); missable",
+      "magazine": "6",
+      "manufacturer": "Hawk & Little"
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-don-gone"
+      "powerpyx-don-gone",
+      "r8gb-weapons-donnies-h-l-38"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -222,7 +239,9 @@
     "name": "Gil's Kalinga .50",
     "summary": "Gil's Kalinga .50 is a pistol variant given for opening the practice safe at the end of Safe Word.",
     "body": [
-      "PowerPyx says the player receives it, plus $1,500 from the safe, on finishing the optional safecracking practice at Raul's compound."
+      "PowerPyx says the player receives it, plus $1,500 from the safe, on finishing the optional safecracking practice at Raul's compound.",
+      "GTABase lists an ammo capacity of 7.",
+      "GTABase says it cannot be modified."
     ],
     "tags": [
       "pistol",
@@ -232,13 +251,16 @@
     ],
     "facts": {
       "type": "Variant",
-      "availability": "Reward for completing the safecracking practice in Safe Word (Chapter 3)"
+      "availability": "Reward for completing the safecracking practice in Safe Word (Chapter 3)",
+      "magazine": "7",
+      "manufacturer": "Fairview"
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-safe-word"
+      "powerpyx-safe-word",
+      "r8gb-weapons-gils-kalinga-50"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -275,7 +297,9 @@
     "name": "Mister Mangrove Laird 350",
     "summary": "The Mister Mangrove Laird 350 is a tranquilizer-rifle variant of the Laird 350 handed over by Kirk.",
     "body": [
-      "PowerPyx says Kirk gives it to Lucia in his helicopter at the start of Help Kirk Find Mr. Mangrove, a night-only side mission for Lucia."
+      "PowerPyx says Kirk gives it to Lucia in his helicopter at the start of Help Kirk Find Mr. Mangrove, a night-only side mission for Lucia.",
+      "GTABase lists an ammo capacity of 5.",
+      "GTABase says it cannot be modified."
     ],
     "tags": [
       "rifle",
@@ -285,15 +309,17 @@
     ],
     "facts": {
       "type": "Variant (tranquilizer rifle)",
-      "availability": "Given by Kirk in Help Kirk Find Mr. Mangrove (Lucia only, night only)"
+      "availability": "Given by Kirk in Help Kirk Find Mr. Mangrove (Lucia only, night only)",
+      "magazine": "5",
+      "manufacturer": "Fortune & Son"
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-mr-mangrove"
+      "powerpyx-mr-mangrove",
+      "r8gb-weapons-mister-mangrove-laird-350"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-c17b4a174c03.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "unique-weapon-variants-overview",

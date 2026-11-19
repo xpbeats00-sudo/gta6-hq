@@ -420,7 +420,9 @@
       "IGN lists Oval as race 1 of the Demolition Race group at Ambrosia Raceway, one of the 39 races on its racing page.",
       "IGN gives a buy-in from $190, a rental from $150, 6 laps, 12 racers, and a maximum payout of $1,900.",
       "IGN says it is a demolition race run in rental vehicles only.",
-      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required.",
+      "PC Gamer says the Ambrosia Raceway demolition races are easy money for bad drivers, since you win by default once every other car is wrecked, and that a rental car costs a few hundred dollars.",
+      "Disagreement: PC Gamer says the oval pays over $3,000 and the figure-eight double that, and mentions eight laps, while IGN's figures in the app are a $1,900 maximum payout and 6 laps."
     ],
     "tags": [
       "ambrosia raceway",
@@ -433,9 +435,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "r8-pcg-money"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

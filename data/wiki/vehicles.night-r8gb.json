@@ -1,0 +1,91 @@
+[
+  {
+    "slug": "karin-rebel-84",
+    "name": "Karin Rebel '84",
+    "summary": "A two-seat Karin off-road pickup that GTABase lists at $6,750 to register.",
+    "body": [
+      "GTABase lists the Karin Rebel '84 as a Off-Road vehicle made by Karin, with 2 seats, AWD drive and 5 gears.",
+      "GTABase gives a registration cost of $6,750, a stolen sell value of $2,035, and no tracker.",
+      "GTABase lists its specialist type as Off-Road and its era as 1980s Restored."
+    ],
+    "tags": [
+      "karin",
+      "off-road",
+      "rebel",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Rebel",
+      "year": "1984",
+      "class": "Off-Road",
+      "seats": 2,
+      "drivetrain": "AWD"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-vehicles-rebel"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-gauntlet-custom-69",
+    "name": "Bravado Gauntlet Custom '69",
+    "summary": "A two-seat Bravado muscle car that GTABase lists at $23,750 to register, with a Standard Tracker.",
+    "body": [
+      "GTABase lists the Bravado Gauntlet Custom '69 as a Muscle vehicle made by Bravado, with 2 seats, RWD drive and 5 gears.",
+      "GTABase gives a registration cost of $23,750, a stolen sell value of $7,095, and a Standard Tracker.",
+      "GTABase lists its specialist type as Muscle and its era as 1960s Restored."
+    ],
+    "tags": [
+      "bravado",
+      "gauntlet custom",
+      "muscle",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Gauntlet Custom",
+      "year": "1969",
+      "class": "Muscle",
+      "seats": 2,
+      "drivetrain": "RWD"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-vehicles-gauntlet-classic"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sirius-sungrazer-61",
+    "name": "Sirius Sungrazer '61",
+    "summary": "A two-seat Sirius coupe that GTABase lists at $15,500 to register, new to the series.",
+    "body": [
+      "GTABase lists the Sirius Sungrazer '61 as a coupe made by Sirius, with two seats, and calls it a vehicle new to the series in GTA VI.",
+      "GTABase gives a registration cost of $15,500, a stolen sell value of $4,620, and a Standard Tracker.",
+      "GTABase lists its specialist type as Lowriders and its era as 1960s Restored."
+    ],
+    "tags": [
+      "coupe",
+      "sirius",
+      "sungrazer",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Sirius",
+      "model": "Sungrazer",
+      "year": "1961",
+      "class": "Coupes",
+      "seats": 2
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r8gb-vehicles-mercury-comet-1st-gen"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

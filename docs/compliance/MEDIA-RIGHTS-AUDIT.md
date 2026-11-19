@@ -1,17 +1,17 @@
 # Media rights audit
 
-Generated 2026-11-19 08:44 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-19 12:12 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 2729 |
-| Records in `data/media.json` | 2694 |
+| Media files on disk (`images/`, `wallpapers/`) | 2817 |
+| Records in `data/media.json` | 2782 |
 | Files with no record | 35 |
 | Records with no file | 0 |
-| Groups of identical files | 1 |
-| Files not used anywhere | 2247 |
+| Groups of identical files | 0 |
+| Files not used anywhere | 2383 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 15 |
 
@@ -22,7 +22,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Decision | Files | Meaning |
 |---|---|---|
 | approved_for_distribution | 0 | Cleared to ship in a public package |
-| local_personal_use_only | 2679 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
+| local_personal_use_only | 2767 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
 | unknown | 50 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
@@ -33,7 +33,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Kind | Records |
 |---|---|
 | evidence_frame | 23 |
-| official_illustration | 2619 |
+| official_illustration | 2707 |
 | owner_supplied_unverified | 52 |
 
 `evidence_frame`: a frame of Rockstar's official video, used as evidence in the manual or as an entry picture. `official_illustration`: an official Rockstar screenshot or artwork. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded.
@@ -82,7 +82,7 @@ None.
 
 ## Identical files
 
-- `images/news/console-resolutions-confirmed.jpg` = `images/news/digital-foundry-ps5-analysis.jpg`
+None.
 
 ## Files not used anywhere
 
@@ -262,6 +262,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/activities/gym-workouts.jpg`
 - `images/activities/hit-n-run-vc.jpg`
 - `images/activities/how-fishing-works.jpg`
+- `images/activities/jasons-house-repairs.jpg`
 - `images/activities/meditation.jpg`
 - `images/activities/mini-golf.jpg`
 - `images/activities/pool-opponents-by-venue.jpg`
@@ -356,6 +357,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/businesses/chaceys.jpg`
 - `images/businesses/chucks-tackle-and-shot.jpg`
 - `images/businesses/clip-and-fade.jpg`
+- `images/businesses/coastal-auto-care.jpg`
 - `images/businesses/covgari.jpg`
 - `images/businesses/cross-my-heart.jpg`
 - `images/businesses/crosstown-cutz.jpg`
@@ -401,6 +403,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/businesses/industrial-weed-grow.jpg`
 - `images/businesses/iron-and-oak.jpg`
 - `images/businesses/island-dreams-boat-charters.jpg`
+- `images/businesses/jack-of-hearts-strip-club.jpg`
 - `images/businesses/jackson-firearms.jpg`
 - `images/businesses/jacobs-tavern.jpg`
 - `images/businesses/janjaks-garage.jpg`
@@ -408,6 +411,12 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/businesses/june-warehouse.jpg`
 - `images/businesses/king-gator-adventure-golf.jpg`
 - `images/businesses/kingpin-bowling.jpg`
+- `images/businesses/kitty-litter-lab-balsero.jpg`
+- `images/businesses/kitty-litter-lab-crosstown.jpg`
+- `images/businesses/kitty-litter-lab-little-cuba.jpg`
+- `images/businesses/kitty-litter-lab-rockridge.jpg`
+- `images/businesses/kitty-litter-lab-salton.jpg`
+- `images/businesses/kitty-litter-labs.jpg`
 - `images/businesses/kolt-associates-stash-house.jpg`
 - `images/businesses/kowaachobee-cafe-and-bar.jpg`
 - `images/businesses/kowalski.jpg`
@@ -1141,6 +1150,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/collectibles/cocaine-flamingos-la-perle.jpg`
 - `images/collectibles/cocaine-flamingos-watson-bay.jpg`
 - `images/collectibles/crowex-octane-orca.jpg`
+- `images/collectibles/egg-in-the-tower-nest.jpg`
 - `images/collectibles/kenton-treasure-ancient-snuff-box.jpg`
 - `images/collectibles/kenton-treasure-antique-candlestick.jpg`
 - `images/collectibles/kenton-treasure-battered-doubloon.jpg`
@@ -1194,6 +1204,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/collectibles/knife-flights.jpg`
 - `images/collectibles/liberty-city-mob-memoir.jpg`
 - `images/collectibles/meditation-jasons-house-meditation.jpg`
+- `images/collectibles/meditation-seaside-meditation.jpg`
 - `images/collectibles/meteorite-chunks.jpg`
 - `images/collectibles/new-austin-western-novel.jpg`
 - `images/collectibles/no-flusher-ocean-beach-banana-hole.jpg`
@@ -1576,6 +1587,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/collectibles/waink-christmas-house.jpg`
 - `images/collectibles/waink-colossus.jpg`
 - `images/collectibles/waink-courtland-park-stadium.jpg`
+- `images/collectibles/waink-curiosities.jpg`
 - `images/collectibles/waink-dead-sharks.jpg`
 - `images/collectibles/waink-derelict-spy-vessel.jpg`
 - `images/collectibles/waink-desert-island-piano.jpg`
@@ -1627,6 +1639,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/collectibles/waink-promotional-sand-vehicles.jpg`
 - `images/collectibles/waink-riquezas-keys-radome.jpg`
 - `images/collectibles/waink-sahara-arena.jpg`
+- `images/collectibles/waink-sculptures.jpg`
 - `images/collectibles/waink-selkie-hole.jpg`
 - `images/collectibles/waink-sky-ride.jpg`
 - `images/collectibles/waink-spaceship-house.jpg`
@@ -1697,23 +1710,37 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/editions/vintage-looks-05.jpg`
 - `images/editions/vintage-vice-city-pack-01.jpg`
 - `images/editions/vintage-vice-city-pack-02.jpg`
+- `images/factions/kingfishers.jpg`
 - `images/factions/la-polilla-negra.jpg`
 - `images/factions/m7.jpg`
+- `images/factions/the-furverts.jpg`
 - `images/gameplay/after-the-story.jpg`
+- `images/gameplay/arthur-morgan-cowboy-hat.jpg`
 - `images/gameplay/assist-toggles-and-control-options.jpg`
 - `images/gameplay/bank-jobs.jpg`
 - `images/gameplay/bank-vaults.jpg`
+- `images/gameplay/belville-simulation-house.jpg`
 - `images/gameplay/buckme-account-limits.jpg`
 - `images/gameplay/buckme-checking-and-family-savings.jpg`
 - `images/gameplay/carrying-weapons.jpg`
 - `images/gameplay/cash-bank-and-loot.jpg`
+- `images/gameplay/challenges-combat.jpg`
+- `images/gameplay/challenges-criminal.jpg`
+- `images/gameplay/challenges-exploration.jpg`
+- `images/gameplay/challenges-fitness.jpg`
+- `images/gameplay/challenges-shopping.jpg`
+- `images/gameplay/challenges-sports.jpg`
+- `images/gameplay/challenges-survival.jpg`
 - `images/gameplay/cheats.jpg`
 - `images/gameplay/cinematic-auto-drive.jpg`
+- `images/gameplay/clothing-stores-and-outfits.jpg`
 - `images/gameplay/controls.jpg`
 - `images/gameplay/criminal-profile-tiers.jpg`
 - `images/gameplay/discovered-styles.jpg`
 - `images/gameplay/display-options.jpg`
+- `images/gameplay/dog-island-and-cool-dog.jpg`
 - `images/gameplay/earning-the-platinum.jpg`
+- `images/gameplay/fast-travel.jpg`
 - `images/gameplay/fences-and-laundering.jpg`
 - `images/gameplay/fences-and-selling-reviewed.jpg`
 - `images/gameplay/fences.jpg`
@@ -1743,6 +1770,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/gameplay/petting-cats-and-dogs.jpg`
 - `images/gameplay/phone-apps-at-launch.jpg`
 - `images/gameplay/phone-apps.jpg`
+- `images/gameplay/police-car-trunk-loot.jpg`
 - `images/gameplay/police-in-the-released-game.jpg`
 - `images/gameplay/progress-database.jpg`
 - `images/gameplay/purchasable-garages.jpg`
@@ -1751,6 +1779,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/gameplay/road-rules-tolls-and-signals.jpg`
 - `images/gameplay/robbery-types.jpg`
 - `images/gameplay/safehouses.jpg`
+- `images/gameplay/sam-houser-cameo.jpg`
 - `images/gameplay/scooter-bros-delivery.jpg`
 - `images/gameplay/settings-menu-categories.jpg`
 - `images/gameplay/sleeping-and-the-clock.jpg`
@@ -1759,6 +1788,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/gameplay/street-interactions.jpg`
 - `images/gameplay/strength-cardio-and-focus-levels.jpg`
 - `images/gameplay/switching-in-the-released-game.jpg`
+- `images/gameplay/ufo-abduction-easter-egg.jpg`
 - `images/gameplay/vehicle-damage-repairs-and-car-washes.jpg`
 - `images/gameplay/vehicle-fencing.jpg`
 - `images/gameplay/wanted-star-colours.jpg`
@@ -1767,34 +1797,41 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/gameplay/where-to-find-aircraft.jpg`
 - `images/gameplay/workout-windows-and-gyms.jpg`
 - `images/gameplay/zombix-adrenaline-and-healing.jpg`
+- `images/locations/ambrosia-police-department.jpg`
 - `images/locations/avery-allen-and-co.jpg`
 - `images/locations/balsero.jpg`
 - `images/locations/bayside.jpg`
 - `images/locations/belpoint-lighthouse.jpg`
 - `images/locations/belpoint.jpg`
 - `images/locations/belville.jpg`
+- `images/locations/bocamar-bridge.jpg`
 - `images/locations/bonanza.jpg`
 - `images/locations/buckskin-swamp.jpg`
 - `images/locations/camp-moonflower.jpg`
 - `images/locations/capri.jpg`
+- `images/locations/catalan-key.jpg`
 - `images/locations/corsair-key.jpg`
 - `images/locations/crosstown-police-station.jpg`
 - `images/locations/crosstown.jpg`
 - `images/locations/dalton-island.jpg`
 - `images/locations/decor-district.jpg`
+- `images/locations/dexter-morgans-apartment.jpg`
 - `images/locations/dock-ring.jpg`
 - `images/locations/downtown.jpg`
 - `images/locations/draper-island.jpg`
 - `images/locations/emerald-river.jpg`
+- `images/locations/evergreen-mall.jpg`
 - `images/locations/farmer-scrumpys-apple-orchard.jpg`
 - `images/locations/frogswater.jpg`
 - `images/locations/gellhorn-fun-fair.jpg`
+- `images/locations/gellhorn-roadhouse-sign.jpg`
 - `images/locations/gellhorn.jpg`
 - `images/locations/gloriana-key.jpg`
 - `images/locations/grayson-assembly.jpg`
 - `images/locations/grayson.jpg`
 - `images/locations/hamlet.jpg`
 - `images/locations/imperial-spanish-ruins.jpg`
+- `images/locations/jasons-safehouse-key-lento.jpg`
 - `images/locations/kalaga-lookout.jpg`
 - `images/locations/kelly-county.jpg`
 - `images/locations/key-lento.jpg`
@@ -1816,9 +1853,14 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/locations/mount-kalaga.jpg`
 - `images/locations/neptune-rises.jpg`
 - `images/locations/north-kelly-county.jpg`
+- `images/locations/ocean-beach-marina.jpg`
 - `images/locations/ocean-beach.jpg`
+- `images/locations/ocean-view-hotel.jpg`
+- `images/locations/palaestra-tower.jpg`
+- `images/locations/peacock-bay-marina.jpg`
 - `images/locations/peacock-bay.jpg`
 - `images/locations/pelican-valley.jpg`
+- `images/locations/piker-financial-center.jpg`
 - `images/locations/pixel-fountain.jpg`
 - `images/locations/port-vice-city.jpg`
 - `images/locations/princes-robot-bubblegum-statue.jpg`
@@ -1830,11 +1872,13 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/locations/southside.jpg`
 - `images/locations/southwind.jpg`
 - `images/locations/starfish-island.jpg`
+- `images/locations/stockyard-walls.jpg`
 - `images/locations/stockyard.jpg`
 - `images/locations/tequesta-retreat.jpg`
 - `images/locations/tequesta.jpg`
 - `images/locations/triangler-sculpture.jpg`
 - `images/locations/vcia.jpg`
+- `images/locations/vice-beach-police-department.jpg`
 - `images/locations/vice-beach.jpg`
 - `images/locations/vice-city-ferry.jpg`
 - `images/locations/vice-city-oceanarium.jpg`
@@ -1846,67 +1890,129 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/locations/waxman-island.jpg`
 - `images/locations/west-kalaga.jpg`
 - `images/locations/west-vice-dale-county.jpg`
+- `images/locations/y-vice-city-hotel.jpg`
 - `images/manual/footage/circuit-race-1742.jpg`
 - `images/manual/jason-and-lucia-in-car.jpg`
 - `images/missions/afternoon-delight.jpg`
 - `images/missions/ambulance-chaser.jpg`
+- `images/missions/andy-climbing-the-cellerichain.jpg`
+- `images/missions/andy-pay-the-cellerica-fee.jpg`
+- `images/missions/andy-peach.jpg`
+- `images/missions/andy-puff-puff-pass.jpg`
+- `images/missions/andy-read-the-label.jpg`
+- `images/missions/another-life.jpg`
+- `images/missions/bad-driver.jpg`
 - `images/missions/behind-on-payments.jpg`
+- `images/missions/billy-hometown-heroes.jpg`
+- `images/missions/billy-mall-rats.jpg`
+- `images/missions/billy-the-impaler.jpg`
 - `images/missions/billy-thrillbillies.jpg`
+- `images/missions/billy-twist-wrist-smash-grab.jpg`
+- `images/missions/boobie-time.jpg`
 - `images/missions/breakfast-run.jpg`
+- `images/missions/bret-vogel-veteran-hunted.jpg`
+- `images/missions/bricked-up.jpg`
 - `images/missions/buck-me.jpg`
 - `images/missions/building-a-life.jpg`
+- `images/missions/buy-flowers.jpg`
+- `images/missions/buy-lucia-a-necklace.jpg`
+- `images/missions/cal-catch-a-bigger-fish.jpg`
 - `images/missions/cal-ring-the-bell.jpg`
+- `images/missions/car-service.jpg`
+- `images/missions/caught-slipping.jpg`
 - `images/missions/checking-out.jpg`
 - `images/missions/clean-up-after-donnie.jpg`
 - `images/missions/clear-skies.jpg`
+- `images/missions/clock-out.jpg`
+- `images/missions/clonin-keys-makin-gs.jpg`
 - `images/missions/coffee-break.jpg`
+- `images/missions/collect-moses-gift.jpg`
 - `images/missions/coming-home.jpg`
+- `images/missions/company-cars.jpg`
+- `images/missions/company-property.jpg`
 - `images/missions/cooties.jpg`
+- `images/missions/credit-check.jpg`
+- `images/missions/crosstown-traffic.jpg`
 - `images/missions/daily-driver.jpg`
 - `images/missions/day-release.jpg`
+- `images/missions/dealers-choice.jpg`
+- `images/missions/deposit-cash-into-buckme.jpg`
 - `images/missions/discharge-time.jpg`
 - `images/missions/don-gone.jpg`
+- `images/missions/donnies-lost-drugs.jpg`
 - `images/missions/down-to-earth.jpg`
+- `images/missions/dubious-provenance.jpg`
 - `images/missions/eddie-acosta-attend-eddie-acostas-party.jpg`
 - `images/missions/feng-shui.jpg`
 - `images/missions/find-the-lost-drugs.jpg`
+- `images/missions/first-impressions.jpg`
 - `images/missions/gear-up.jpg`
 - `images/missions/get-lucias-clothes.jpg`
+- `images/missions/get-the-chop.jpg`
 - `images/missions/girls-trip.jpg`
 - `images/missions/gone-fishing.jpg`
 - `images/missions/got-pills.jpg`
+- `images/missions/heavy-lifting.jpg`
+- `images/missions/here-kitty-kitty.jpg`
 - `images/missions/hey-arnold.jpg`
 - `images/missions/hidden-charges.jpg`
+- `images/missions/hit-avery-pawn.jpg`
+- `images/missions/hit-kingpin-bowling.jpg`
 - `images/missions/home-sweet-home.jpg`
 - `images/missions/how-do-i-look.jpg`
+- `images/missions/impounded-vehicle.jpg`
 - `images/missions/island-dreams.jpg`
 - `images/missions/just-a-scratch.jpg`
 - `images/missions/just-moved-in.jpg`
 - `images/missions/kirk-help-kirk-find-mr-mangrove.jpg`
+- `images/missions/kirk-search-for-the-skunk-ape.jpg`
 - `images/missions/kirk-search-for-tree-effigies.jpg`
+- `images/missions/kyle-buddy.jpg`
 - `images/missions/kyle-check-out-mckittrick-farm.jpg`
 - `images/missions/kyle-collect-chemicals-for-kyle.jpg`
 - `images/missions/lab-fees.jpg`
+- `images/missions/lawyer-up.jpg`
+- `images/missions/mami-knows-best.jpg`
 - `images/missions/meet-the-heders.jpg`
 - `images/missions/moses-steal-vehicles-for-moses.jpg`
 - `images/missions/moses.jpg`
 - `images/missions/new-look.jpg`
+- `images/missions/ocean-beach.jpg`
 - `images/missions/overnight-charges.jpg`
+- `images/missions/party-hard.jpg`
 - `images/missions/pick-up-a-gun.jpg`
+- `images/missions/pick-up-groceries.jpg`
+- `images/missions/pilot-pete-petes-deliveries-southpoint-airfield.jpg`
+- `images/missions/pilot-pete-the-last-mile-backseat-pilot.jpg`
+- `images/missions/pilot-pete-the-last-mile-passing-the-torch.jpg`
 - `images/missions/pipework.jpg`
+- `images/missions/pool-day.jpg`
 - `images/missions/prologue.jpg`
 - `images/missions/recalibration.jpg`
+- `images/missions/ride-or-die.jpg`
+- `images/missions/safe-word.jpg`
+- `images/missions/security-expert.jpg`
 - `images/missions/shirley-get-shirleys-rum.jpg`
+- `images/missions/shirley-steal-the-scooter.jpg`
+- `images/missions/sinfrontera-national-bank.jpg`
 - `images/missions/slam-dunk.jpg`
+- `images/missions/south-leonida-real-estate.jpg`
 - `images/missions/swamped.jpg`
 - `images/missions/take-care-of-jason.jpg`
+- `images/missions/thats-where-the-money-is.jpg`
 - `images/missions/the-cartel-heist.jpg`
 - `images/missions/the-missing-link.jpg`
 - `images/missions/top-billing.jpg`
 - `images/missions/tourist-trap.jpg`
+- `images/missions/tyrone-spin-on-this.jpg`
 - `images/missions/unwanted-attention.jpg`
 - `images/missions/welcome-to-vice-city.jpg`
 - `images/missions/whats-in-the-bag.jpg`
+- `images/missions/yago-brother-to-brother.jpg`
+- `images/missions/yago-bumper-to-bumper.jpg`
+- `images/missions/yago-join-a-street-race.jpg`
+- `images/missions/yago-race-against-yago.jpg`
+- `images/missions/yasmanis-jewelry-jobs.jpg`
 - `images/music/honey-fm.jpg`
 - `images/music/the-album-track-list.jpg`
 - `images/music/the-sniper-of-la-perle.jpg`
@@ -1960,12 +2066,15 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/buckingham-valkyrie.jpg`
 - `images/vehicles/buckingham-volatus.jpg`
 - `images/vehicles/buckingham-windsor-drop.jpg`
+- `images/vehicles/buster.jpg`
+- `images/vehicles/caddy.jpg`
 - `images/vehicles/calder-yakuruna.jpg`
 - `images/vehicles/canis-kamacho.jpg`
 - `images/vehicles/canis-mesa.jpg`
 - `images/vehicles/canis-terminus.jpg`
 - `images/vehicles/cartwright-biff.jpg`
 - `images/vehicles/cartwright-hauler.png`
+- `images/vehicles/clarion.jpg`
 - `images/vehicles/classique-stallion.jpg`
 - `images/vehicles/coil-raiden.jpg`
 - `images/vehicles/declasse-akane.jpg`
@@ -1990,6 +2099,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/dinka-verus.jpg`
 - `images/vehicles/dundreary-arcturus-93.jpg`
 - `images/vehicles/dundreary-landstalker-xl.jpg`
+- `images/vehicles/emperor-sultan.jpg`
 - `images/vehicles/emperor-vectre.jpg`
 - `images/vehicles/endurex-race-bike.jpg`
 - `images/vehicles/fathom-fr36.jpg`
@@ -2016,6 +2126,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/karin-contender.jpg`
 - `images/vehicles/karin-feroci-98.jpg`
 - `images/vehicles/karin-futo.jpg`
+- `images/vehicles/karin-rebel-84.jpg`
 - `images/vehicles/karin-vivanite.jpg`
 - `images/vehicles/kentons-huntress.jpg`
 - `images/vehicles/l35p-police-boat.jpg`
@@ -2032,6 +2143,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/mammoth-dodo.jpg`
 - `images/vehicles/mer-can-blast.jpg`
 - `images/vehicles/mer-can-outlaw.jpg`
+- `images/vehicles/moses-sultan.jpg`
 - `images/vehicles/mtl-packer.jpg`
 - `images/vehicles/mtl-pumper.jpg`
 - `images/vehicles/nagasaki-nimbe.jpg`
@@ -2064,6 +2176,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/reynolds-kit-car.jpg`
 - `images/vehicles/schyster-pmp-700.jpg`
 - `images/vehicles/schyster-woodland-85.jpg`
+- `images/vehicles/shasa.jpg`
 - `images/vehicles/shifter.jpg`
 - `images/vehicles/sirius.jpg`
 - `images/vehicles/swamp-blaster.jpg`
@@ -2100,6 +2213,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/walter-cruiser.jpg`
 - `images/vehicles/western-company-duster.jpg`
 - `images/vehicles/western-nightblade.jpg`
+- `images/vehicles/western-sovereign-107.jpg`
 - `images/vehicles/western-zombie-chopper.jpg`
 - `images/vehicles/whiffler-dashound.jpg`
 - `images/vehicles/willard-faction-custom-donk.jpg`
@@ -2112,19 +2226,24 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vi-logo-reveal.jpg`
 - `images/weapons/adb-fra.jpg`
 - `images/weapons/adb-m350.jpg`
+- `images/weapons/adb-pd-90.jpg`
 - `images/weapons/arras-bullhead.jpg`
 - `images/weapons/assassin-nipper-38.jpg`
 - `images/weapons/backdoor-hobo.jpg`
 - `images/weapons/bae-luxs-w-10.jpg`
+- `images/weapons/baseball-bat.jpg`
 - `images/weapons/basher-gorse-425.jpg`
+- `images/weapons/baton.jpg`
 - `images/weapons/binoculars.jpg`
 - `images/weapons/black-eagle-import-kalinga.jpg`
 - `images/weapons/black-eagle-import-m306-tmr.jpg`
 - `images/weapons/body-armor.jpg`
 - `images/weapons/brainwasher-1992.jpg`
+- `images/weapons/brass-knuckles.jpg`
 - `images/weapons/brians-1992.jpg`
 - `images/weapons/brontasaurus-bat.jpg`
 - `images/weapons/bruiser-super400.jpg`
+- `images/weapons/bzi-vatra.jpg`
 - `images/weapons/caminos-signature-k17.jpg`
 - `images/weapons/cargo-handl-38.jpg`
 - `images/weapons/chromium-w-10.jpg`
@@ -2143,6 +2262,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/darknite-drifter.jpg`
 - `images/weapons/dazzler-dq-9.jpg`
 - `images/weapons/deadringer-1992.jpg`
+- `images/weapons/deever-tech-dsg.jpg`
 - `images/weapons/deever-tech-glr40.jpg`
 - `images/weapons/dirty-drifter.jpg`
 - `images/weapons/donnies-handl-38.jpg`
@@ -2157,6 +2277,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/explorers-knife.jpg`
 - `images/weapons/fairview-ff-50.jpg`
 - `images/weapons/fairview-ff-sr.jpg`
+- `images/weapons/fairview-kalinga-50.jpg`
 - `images/weapons/fib-sm-69.jpg`
 - `images/weapons/final-chapter-kvga-12.jpg`
 - `images/weapons/final-chapter-shortstraw.jpg`
@@ -2170,6 +2291,8 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/franciscos-lmg-6.jpg`
 - `images/weapons/furry-dw-9.jpg`
 - `images/weapons/gils-kalinga-50.jpg`
+- `images/weapons/girardi-es18.jpg`
+- `images/weapons/girardi-super400.jpg`
 - `images/weapons/grx-556.jpg`
 - `images/weapons/guardia-brothers-vf5.jpg`
 - `images/weapons/gun-nut-sms-01.jpg`
@@ -2177,9 +2300,11 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/hauners-h-at.jpg`
 - `images/weapons/hawk-and-little-38.jpg`
 - `images/weapons/hawk-and-little-mediator.jpg`
+- `images/weapons/headphones.jpg`
 - `images/weapons/hellspawn-comshot-12.jpg`
 - `images/weapons/hillinger-boomer.jpg`
 - `images/weapons/hillinger-heathen.jpg`
+- `images/weapons/hillinger-m306.jpg`
 - `images/weapons/honky-tonk-mustang-357.jpg`
 - `images/weapons/hostile-super400.jpg`
 - `images/weapons/hunters-laird-350.jpg`
@@ -2193,9 +2318,11 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/kingfishers-laird-350.jpg`
 - `images/weapons/kingfishers-w-22.jpg`
 - `images/weapons/kingpin-heathen.jpg`
+- `images/weapons/klose-k17-mcd.jpg`
 - `images/weapons/kolt-and-associates-556.jpg`
 - `images/weapons/kolt-and-associates-vatra.jpg`
 - `images/weapons/kozlov-hind.jpg`
+- `images/weapons/kozlov-kvga-12.jpg`
 - `images/weapons/kozlov-kz-59.jpg`
 - `images/weapons/la-polilla-negra-kz-59.jpg`
 - `images/weapons/la-polilla-negra-vf-g1.jpg`
@@ -2212,6 +2339,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/mercenary-lmg-6.jpg`
 - `images/weapons/metal-detector.jpg`
 - `images/weapons/midlife-crisis-vf5.jpg`
+- `images/weapons/mister-mangrove-laird-350.jpg`
 - `images/weapons/money-bag-1992.jpg`
 - `images/weapons/moneymaker-w-10.jpg`
 - `images/weapons/montys-1992.jpg`
@@ -2235,6 +2363,8 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/san4san-k17.jpg`
 - `images/weapons/san4san-kz-59.jpg`
 - `images/weapons/sand-storm-es9.jpg`
+- `images/weapons/schlamm-dw-9.jpg`
+- `images/weapons/scorpio-akulus.jpg`
 - `images/weapons/scorpio-nipper-38.jpg`
 - `images/weapons/scrapper-vf5c.jpg`
 - `images/weapons/shark-knife.jpg`
@@ -2262,9 +2392,14 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/unpacked-comshot-12.jpg`
 - `images/weapons/vice-city-heathen.jpg`
 - `images/weapons/vom-feuer-vf-g1.jpg`
+- `images/weapons/vom-feuer-vf5.jpg`
+- `images/weapons/vom-feuer-vf5c.jpg`
 - `images/weapons/watcher-pro-moreland-850.jpg`
 - `images/weapons/woodhatch-longshot.jpg`
+- `images/weapons/wortham-w-10.jpg`
+- `images/weapons/wortham-w-22.jpg`
 - `images/weapons/wortham-wcr1.jpg`
+- `images/weapons/zhang-wu-type-9.jpg`
 - `images/weapons/zodiac-nipper-38.jpg`
 - `images/wildlife/american-alligator.jpg`
 - `images/wildlife/australian-shepherd.jpg`
@@ -2292,6 +2427,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/wildlife/manatee.jpg`
 - `images/wildlife/orca.jpg`
 - `images/wildlife/pelican.jpg`
+- `images/wildlife/pit-bull.jpg`
 - `images/wildlife/raccoon.jpg`
 - `images/wildlife/seagull.jpg`
 - `images/wildlife/shark.jpg`

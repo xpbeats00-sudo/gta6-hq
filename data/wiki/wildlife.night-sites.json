@@ -10,7 +10,10 @@
       "GameSpot's Easter egg list gives the location as Gullet Marsh and says the encounter is hard to miss because a particular mission leads to it.",
       "GamesRadar+ reported on November 18, 2026 that several players had already found Bigfoot and described it as tied to a single location.",
       "Disagreement: Insider Gaming places it at Cottonmouth Lake below Hamlet, while GameSpot names Gullet Marsh; neither page says whether the two are the same area.",
-      "No page read says whether this Bigfoot is the creature Kirk calls the Skunk Ape or Mr. Mangrove."
+      "No page read says whether this Bigfoot is the creature Kirk calls the Skunk Ape or Mr. Mangrove.",
+      "PowerPyx says Bigfoot can be met on the road south of Hamlet feeding on a dead deer; following it through the swamp leads to an effigy in green mist, and breathing the mist knocks the player out while Bigfoot comes to look.",
+      "PowerPyx says this is the creature Kirk calls the Skunk Ape and Mr. Mangrove, hunted in his Strangers and Freaks chain (Search for the Skunk Ape, Search for Tree Effigies, Help Kirk Find Mr. Mangrove), which answers the app's open question.",
+      "PowerPyx says the final choice is whether to shoot it, and that neither outcome has a lasting effect."
     ],
     "tags": [
       "bigfoot",
@@ -21,15 +24,17 @@
     ],
     "facts": {
       "species": "Bigfoot (Sasquatch)",
-      "habitat": "Swamp south of Hamlet: Cottonmouth Lake (Insider Gaming) or Gullet Marsh (GameSpot)"
+      "habitat": "Swamp south of Hamlet: Cottonmouth Lake (Insider Gaming) or Gullet Marsh (GameSpot)",
+      "huntable": true
     },
     "confidence": "corroborated",
     "sources": [
       "ig-bigfoot",
       "gs-easter-eggs",
-      "gr-bigfoot-news"
+      "gr-bigfoot-news",
+      "r7-ppx-bigfoot"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -42,7 +47,11 @@
       "Insider Gaming says the player can climb onto the jet ski and be carried to the dog's small sanctuary, and that story progress does not affect when it can happen.",
       "According to Insider Gaming, throwing the dog a ball and interacting with it makes it show the player around the island, and it eventually digs up a hidden stash worth $1,200.",
       "Insider Gaming says no achievement seems to be linked to it.",
-      "GameSpot reports that the streamer ChizPlays met a dog on a wave runner after heading far out to sea, but that GameSpot could not make it happen in its own test and thinks it may be a random event."
+      "GameSpot reports that the streamer ChizPlays met a dog on a wave runner after heading far out to sea, but that GameSpot could not make it happen in its own test and thinks it may be a random event.",
+      "Game8 calls it the Jetski Dog and places its encounter in Gambit Bay, west of Key Lento: jump off a boat and wait, then choose Question and Praise when the dog pulls up, and Ride to board.",
+      "Game8 says a corpse straight ahead from the beach where the dog lands has a wallet with $1,218, and that the island can be reached directly to skip the dog.",
+      "Game8 says that if the dog does not come, riding and jumping off different boats resets the stranded condition.",
+      "Disagreement: Insider Gaming says the dog digs up a $1,200 stash; Game8 describes a $1,218 wallet on a body."
     ],
     "tags": [
       "dog",
@@ -59,9 +68,10 @@
     "confidence": "corroborated",
     "sources": [
       "ig-lucky-dog",
-      "gs-leave-leonida"
+      "gs-leave-leonida",
+      "r7-g8-jetski-dog"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   }
 ]

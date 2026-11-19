@@ -47,7 +47,10 @@
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
       "Tracker Network's database lists it as the 1922 under Handguns.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
-      "Spelling disagreement: IGN calls it the Duke 1992, while Game8's list, DayOne and Tracker Network call it the 1922."
+      "Spelling disagreement: IGN calls it the Duke 1992, while Game8's list, DayOne and Tracker Network call it the 1922.",
+      "GTABase gives the Duke Arms 1992 a story mode price of $1,050 at Ammu-Nation.",
+      "GTABase lists an extended magazine of 36 rounds.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "1922",
@@ -62,7 +65,8 @@
       "slot": "sidearm",
       "magazine": "8",
       "fire_mode": "Semi-auto",
-      "availability": "Standard or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
+      "price": "$1,050"
     },
     "confidence": "corroborated",
     "sources": [
@@ -70,7 +74,8 @@
       "trackergg",
       "gamerant-weapons",
       "ign-weapons-guide",
-      "game8-weapons-hub"
+      "game8-weapons-hub",
+      "r8gb-weapons-heavy-pistol"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -82,7 +87,11 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.4, handling 8.2 and range 4.8, with a capacity of 30 rounds and 3-round burst fire.",
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Girardi ES18 a story mode price of $1,550 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page calls it a Burst Pistol and lists ratings of damage 4.2, accuracy 4.6, handling 7.7 and range 4.8.",
+      "Disagreement: DayOne, cited earlier in this entry, gives damage 4.2, accuracy 4.4, handling 8.2 and range 4.8."
     ],
     "tags": [
       "burst",
@@ -99,13 +108,16 @@
       "slot": "sidearm",
       "magazine": "30",
       "fire_mode": "3-round burst",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$1,550"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-es18",
+      "r10-dex-w-girardi-es18"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -117,7 +129,11 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.0, accuracy 3.2, handling 8.0 and range 4.2, with a capacity of 24 rounds and full auto fire.",
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Klose K17 MCD a story mode price of $1,700 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page calls it an Automatic Pistol and lists ratings of damage 4, accuracy 3.2, handling 7.7 and range 4.2.",
+      "Disagreement: DayOne, cited earlier in this entry, gives damage 4.0, accuracy 3.2, handling 8.0 and range 4.2."
     ],
     "tags": [
       "automatic",
@@ -135,17 +151,19 @@
       "slot": "sidearm",
       "magazine": "24",
       "fire_mode": "Full auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$1,700"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-k17-mcd",
+      "r10-dex-w-klose-k17-mcd"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/gamerant-cc22dc6e645e.jpg"
+    "spoiler": true
   },
   {
     "slug": "fairview-kalinga-50",
@@ -154,7 +172,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 7.0, accuracy 4.0, handling 7.8 and range 5.0, with a capacity of 7 rounds and semi-auto fire.",
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Fairview Kalinga .50 a story mode price of $3,100 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       ".50",
@@ -171,13 +191,15 @@
       "slot": "sidearm",
       "magazine": "7",
       "fire_mode": "Semi-auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$3,100"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-kalinga-50"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -190,7 +212,9 @@
       "DayOne lists in-game ratings out of 10 of damage 2.5, accuracy 5.0, handling 8.6 and range 4.5, with a capacity of 6 rounds and semi-auto fire.",
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
       "DayOne groups revolvers with pistols; this one is described as a revolver.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Hawk & Little .38 a story mode price of $1,075 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       ".38",
@@ -207,13 +231,15 @@
       "slot": "sidearm",
       "magazine": "6",
       "fire_mode": "Semi-auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,075"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-38"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -226,7 +252,9 @@
       "DayOne lists in-game ratings out of 10 of damage 5.7, accuracy 4.5, handling 8.0 and range 5.5, with a capacity of 6 rounds and semi-auto fire.",
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
       "Tracker Network's database lists it as the Mustang .357 Revolver under Handguns.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
+      "GTABase gives the Duke Arms Mustang .357 Revolver a story mode price of $1,800 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       ".357",
@@ -243,14 +271,16 @@
       "slot": "sidearm",
       "magazine": "6",
       "fire_mode": "Semi-auto",
-      "availability": "Standard or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
+      "price": "$1,800"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "trackergg",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-mustang-357-revolver"
     ],
     "verified": "2026-11-19"
   },
@@ -261,7 +291,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 2.2, accuracy 3.8, handling 9.0 and range 4.5, with a capacity of 5 rounds and semi-auto fire.",
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Wortham WCR1 a story mode price of $600 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "handgun",
@@ -278,13 +310,15 @@
       "slot": "sidearm",
       "magazine": "5",
       "fire_mode": "Semi-auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$600"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-wcr1"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -296,7 +330,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 7.0, accuracy 4.2, handling 7.6 and range 6.0, with a capacity of 6 rounds and semi-auto fire.",
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\".",
+      "GTABase gives the Scorpio Akulus a story mode price of $3,000 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "akulus",
@@ -312,13 +348,15 @@
       "slot": "sidearm",
       "magazine": "6",
       "fire_mode": "Semi-auto",
-      "availability": "Expanded or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Expanded or Hunting Ammu-Nation stock (IGN)",
+      "price": "$3,000"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-akulus"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -330,7 +368,12 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 5.0, handling 6.7 and range 4.5, with a capacity of 30 rounds and full auto fire.",
       "DayOne's write-up of the in-game description calls it a longarm; its table heading misspells the maker while the brand field reads Vom Feuer.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Vom Feuer VF5 a story mode price of $2,325 at Ammu-Nation.",
+      "GTABase lists an extended magazine of 100 rounds.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page (published November 19, 2026) calls it a Military SMG; its price, magazine size and ratings (damage 4.2, accuracy 5, handling 6.7, range 4.5) match DayOne's figures already in the app.",
+      "Naming: Dexerto spells it \"Vom Feuer VFS\" (with an S); IGN, GTABase and the app use VF5."
     ],
     "tags": [
       "feuer",
@@ -346,16 +389,18 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$2,325"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-smg",
+      "r10-dex-w-vom-feuer-vf5"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/playday-61303dbe33b3.jpg"
+    "spoiler": true
   },
   {
     "slug": "wortham-w-10",
@@ -364,7 +409,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 3.2, handling 7.5 and range 3.5, with a capacity of 20 rounds and full auto fire.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
-      "IGN also gives it a 20-round magazine, matching DayOne."
+      "IGN also gives it a 20-round magazine, matching DayOne.",
+      "GTABase gives the Wortham W-10 a story mode price of $825 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "10",
@@ -378,12 +425,14 @@
       "manufacturer": "Wortham",
       "magazine": "20",
       "fire_mode": "Full auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$825"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-mac-11"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -395,7 +444,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 3.8, handling 7.8 and range 3.5, with a capacity of 10 rounds and full auto fire.",
       "DayOne files it under submachine guns although the description calls it a machine pistol.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Zhang Wu Type 9 a story mode price of $1,100 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "machine pistol",
@@ -411,12 +462,14 @@
       "manufacturer": "Zhang Wu",
       "magazine": "10",
       "fire_mode": "Full auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,100"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-type-9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -427,7 +480,9 @@
     "summary": "A Deever Tech 9mm submachine gun that fires three-round bursts.",
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.2, handling 6.9 and range 4.0, with a capacity of 30 rounds and 3-round burst fire.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Deever Tech DSG a story mode price of $1,350 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "burst",
@@ -443,12 +498,14 @@
       "manufacturer": "Deever Tech",
       "magazine": "30",
       "fire_mode": "3-round burst",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,350"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-spp-mp9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -459,7 +516,12 @@
     "summary": "The shortened version of the Vom Feuer VF5 submachine gun.",
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 5.0, handling 6.9 and range 4.0, with a capacity of 30 rounds and full auto fire.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Vom Feuer VF5C a story mode price of $2,600 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page calls it a Compact Military SMG and lists ratings of damage 4.2, accuracy 4, handling 7.9 and range 4.",
+      "Disagreement: DayOne, cited earlier in this entry, gives damage 4.2, accuracy 5.0, handling 6.9 and range 4.0.",
+      "Naming: Dexerto spells it \"Vom Feuer VFSC\" (with an S); IGN, GTABase and the app use VF5."
     ],
     "tags": [
       "compact",
@@ -475,12 +537,15 @@
       "manufacturer": "Vom Feuer",
       "magazine": "30",
       "fire_mode": "Full auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$2,600"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-vf5c",
+      "r10-dex-w-vom-feuer-vf5c"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -492,7 +557,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.5, handling 6.8 and range 4.0, with a capacity of 30 rounds and full auto fire.",
       "DayOne's write-up of the in-game description calls it a longarm.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Schlamm DW-9 a story mode price of $1,750 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "dw",
@@ -508,12 +575,14 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,750"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-dw9"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -524,7 +593,10 @@
     "summary": "A fully automatic 9mm submachine gun from Bohemia Zbran Industries (BZI).",
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 3.8, handling 6.5 and range 4.0, with a capacity of 20 rounds and full auto fire.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the BZI Vatra a story mode price of $1,200 at Ammu-Nation.",
+      "GTABase lists an extended magazine of 30 rounds.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "bzi",
@@ -538,12 +610,14 @@
       "manufacturer": "Bohemia Zbran Industries",
       "magazine": "20",
       "fire_mode": "Full auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,200"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-micro-smg"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -588,7 +662,11 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 8.0, accuracy 4.1, handling 5.0 and range 2.5, with a capacity of 2 rounds and break action fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
+      "GTABase gives the Mason & Keen Longshot a story mode price of $1,425 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page (published November 19, 2026) calls it a Sporting Shotgun; its price, magazine size and ratings (damage 8, accuracy 4.1, handling 5, range 2.5) match DayOne's figures already in the app.",
+      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there."
     ],
     "tags": [
       "double barrel",
@@ -605,13 +683,16 @@
       "slot": "long gun",
       "magazine": "2",
       "fire_mode": "Break action",
-      "availability": "Standard or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
+      "price": "$1,425"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-longshot",
+      "r10-dex-w-mason-and-keen-longshot"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -625,7 +706,9 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "Tracker Network's database lists it as the Moreland 850 under Shotguns.",
       "PowerPyx reports a unique variant, the Gutterball Moreland 850, lying on a table in the north-east corner of Kingpin Bowling.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
+      "GTABase gives the Fortune & Son Moreland 850 a story mode price of $700 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "850",
@@ -643,7 +726,8 @@
       "slot": "long gun",
       "magazine": "5",
       "fire_mode": "Pump action",
-      "availability": "Standard or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
+      "price": "$700"
     },
     "confidence": "corroborated",
     "sources": [
@@ -652,7 +736,8 @@
       "ppx-trophy",
       "ppx-kingpin",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-moreland-850"
     ],
     "verified": "2026-11-19"
   },
@@ -663,7 +748,11 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 7.4, accuracy 3.9, handling 6.5 and range 2.0, with a capacity of 5 rounds and semi-auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Girardi Verro a story mode price of $2,700 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page (published November 19, 2026) calls it a Semi-Auto Stubby Shotgun; its price, magazine size and ratings (damage 7.4, accuracy 3.9, handling 6.5, range 2) match DayOne's figures already in the app.",
+      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there."
     ],
     "tags": [
       "girardi",
@@ -678,13 +767,16 @@
       "slot": "long gun",
       "magazine": "5",
       "fire_mode": "Semi-auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$2,700"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-verro",
+      "r10-dex-w-girardi-verro"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -696,7 +788,11 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 7.4, accuracy 4.5, handling 5.8 and range 2.5, with a capacity of 5 rounds and semi-auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
+      "GTABase gives the Girardi AZ1200 a story mode price of $2,300 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page (published November 19, 2026) calls it a Semi-Auto Shotgun; its price, magazine size and ratings (damage 7.4, accuracy 4.5, handling 5.8, range 2.5) match DayOne's figures already in the app.",
+      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there."
     ],
     "tags": [
       "az1200",
@@ -711,13 +807,16 @@
       "slot": "long gun",
       "magazine": "5",
       "fire_mode": "Semi-auto",
-      "availability": "Standard or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
+      "price": "$2,300"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-az1200",
+      "r10-dex-w-girardi-az1200"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -730,7 +829,9 @@
       "DayOne lists in-game ratings out of 10 of damage 7.5, accuracy 3.8, handling 6.2 and range 2.0, with a capacity of 5 rounds and pump action fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "Tracker Network's database lists it as the Gorse 425 under Shotguns.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Fortune & Son Gorse 425 a story mode price of $850 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "425",
@@ -747,14 +848,16 @@
       "slot": "long gun",
       "magazine": "5",
       "fire_mode": "Pump action",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$850"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "trackergg",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-gorse-425"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -767,7 +870,9 @@
       "DayOne lists in-game ratings out of 10 of damage 8.0, accuracy 4.1, handling 5.0 and range 2.5, with a capacity of 2 rounds and break action fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "Tracker Network's database lists it as the Drifter under Shotguns.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
+      "GTABase gives the Shrewsbury Drifter a story mode price of $1,150 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "double barrel",
@@ -783,14 +888,16 @@
       "slot": "long gun",
       "magazine": "2",
       "fire_mode": "Break action",
-      "availability": "Standard or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
+      "price": "$1,150"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "trackergg",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-double-barrel-shotgun"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -803,7 +910,9 @@
       "DayOne lists in-game ratings out of 10 of damage 8.0, accuracy 3.6, handling 6.4 and range 2.0, with a capacity of 2 rounds and break action fire.",
       "Tracker Network's database lists it as the Hobo under Shotguns.",
       "No source read states which carry slot this sawn-off gun uses.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Shrewsbury Hobo a story mode price of $1,325 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "double barrel",
@@ -819,13 +928,15 @@
       "manufacturer": "Shrewsbury",
       "magazine": "2",
       "fire_mode": "Break action",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,325"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "trackergg",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-hobo"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -839,7 +950,11 @@
       "DayOne gives no description for it.",
       "PowerPyx says the 'Explosive Shotgun' cheat adds a Mason & Keen Shortstraw to the loadout.",
       "No source read states which carry slot it uses.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Mason & Keen Shortstraw a story mode price of $1,625 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page (published November 19, 2026) calls it a Sporting Sawed-Off; its price, magazine size and ratings (damage 8, accuracy 3.6, handling 6.4, range 2) match DayOne's figures already in the app.",
+      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there."
     ],
     "tags": [
       "cheat",
@@ -855,13 +970,16 @@
       "manufacturer": "Mason & Keen",
       "magazine": "2",
       "fire_mode": "Break action",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,625"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "ppx-cheats",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-shortstraw",
+      "r10-dex-w-mason-and-keen-shortstraw"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -873,7 +991,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 7.7, accuracy 4.2, handling 4.0 and range 2.5, with a capacity of 7 rounds and semi-auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Goodwin Comshot 12 a story mode price of $3,825 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "12",
@@ -889,13 +1009,15 @@
       "slot": "long gun",
       "magazine": "7",
       "fire_mode": "Semi-auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$3,825"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-comshot-12"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -907,7 +1029,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 7.4, accuracy 4.2, handling 5.3 and range 2.5, with a capacity of 7 rounds and semi-auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Girardi Super400 a story mode price of $2,825 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "girardi",
@@ -923,13 +1047,15 @@
       "slot": "long gun",
       "magazine": "7",
       "fire_mode": "Semi-auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$2,825"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-super400"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -942,7 +1068,9 @@
       "DayOne lists in-game ratings out of 10 of damage 7.2, accuracy 4.5, handling 5.1 and range 2.5, with a capacity of 8 rounds and full auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "DayOne spells the maker 'Kozlove' in the name but gives the brand as Kozlov.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Kozlov KVGA-12 a story mode price of $3,650 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "12",
@@ -958,13 +1086,15 @@
       "slot": "long gun",
       "magazine": "8",
       "fire_mode": "Full auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$3,650"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-kvga-12"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -976,7 +1106,10 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 5.4, accuracy 5.2, handling 5.2 and range 6.5, with a capacity of 30 rounds and full auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Kozlov KZ-59 a story mode price of $1,250 at Ammu-Nation.",
+      "GTABase lists an extended magazine of 100 rounds.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "59",
@@ -992,13 +1125,15 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,250"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-assault-rifle"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1011,7 +1146,10 @@
       "DayOne lists in-game ratings out of 10 of damage 5.0, accuracy 6.2, handling 5.8 and range 6.2, and 3-round burst fire.",
       "DayOne's table gives its magazine size as 3, which may be a slip; the capacity is unverified.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Hillinger Heathen a story mode price of $2,450 at Ammu-Nation.",
+      "GTABase lists an ammo capacity of 30.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "assault rifle",
@@ -1026,13 +1164,16 @@
       "manufacturer": "Hillinger",
       "slot": "long gun",
       "fire_mode": "3-round burst",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$2,450",
+      "magazine": "30"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-heathen"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1046,7 +1187,10 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "Tracker Network's database lists it as the 556 under Assault Rifles.",
       "PowerPyx recommends it for the Gunslinger trophy because of its accuracy and automatic fire.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
+      "GTABase gives the Duke Arms 556 Assault Rifle a story mode price of $1,450 at Ammu-Nation.",
+      "GTABase lists an extended magazine of 60 rounds.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "556",
@@ -1061,7 +1205,8 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full auto",
-      "availability": "Standard or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
+      "price": "$1,450"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1069,7 +1214,8 @@
       "trackergg",
       "ppx-trophy",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-service-carbine"
     ],
     "verified": "2026-11-19"
   },
@@ -1080,7 +1226,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 5.4, accuracy 4.5, handling 6.1 and range 4.5, with a capacity of 30 rounds and full auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Kozlov Hind a story mode price of $1,700 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "assault rifle",
@@ -1096,13 +1244,15 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$1,700"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-compact-rifle"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1114,7 +1264,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 5.0, accuracy 6.2, handling 5.8 and range 6.5, with a capacity of 30 rounds and full auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Vom Feuer VF-G1 a story mode price of $3,700 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "assault rifle",
@@ -1131,13 +1283,15 @@
       "slot": "long gun",
       "magazine": "30",
       "fire_mode": "Full auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$3,700"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-vf-g1"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1149,7 +1303,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 5.8, accuracy 5.0, handling 5.3 and range 6.9, with a capacity of 20 rounds and full auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the ADB FRA a story mode price of $2,900 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "adb",
@@ -1165,13 +1321,15 @@
       "slot": "long gun",
       "magazine": "20",
       "fire_mode": "Full auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$2,900"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-fra"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1222,7 +1380,9 @@
       "DayOne lists in-game ratings out of 10 of damage 6.2, accuracy 7.5, handling 4.8 and range 7.5, with a capacity of 20 rounds and semi-auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "DayOne lists it in a combined 'Tactical and Sniper Rifles' group without saying which of the two it is.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\".",
+      "GTABase gives the Hillinger M306 a story mode price of $2,375 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "hillinger",
@@ -1237,13 +1397,15 @@
       "slot": "long gun",
       "magazine": "20",
       "fire_mode": "Semi-auto",
-      "availability": "Expanded or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Expanded or Hunting Ammu-Nation stock (IGN)",
+      "price": "$2,375"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-springfield-armory-m1a-sniper"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1300,7 +1462,11 @@
       "DayOne lists in-game ratings out of 10 of damage 5.8, accuracy 7.5, handling 5.2 and range 7.2, with a capacity of 20 rounds and semi-auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "Tracker Network's database lists it as the W-14 under Tactical Rifles.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "GTABase gives the Wortham W-14 a story mode price of $1,400 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page (published November 19, 2026) calls it a Combat Rifle; its price, magazine size and ratings (damage 5.8, accuracy 7.5, handling 5.2, range 7.2) match DayOne's figures already in the app.",
+      "Dexerto gives an unlock requirement for buying it: requires a bank account."
     ],
     "tags": [
       "14",
@@ -1315,14 +1481,17 @@
       "slot": "long gun",
       "magazine": "20",
       "fire_mode": "Semi-auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Ammu-Nation; unlock requirement: requires a bank account (Dexerto)",
+      "price": "$1,400"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "trackergg",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-w-14",
+      "r10-dex-w-wortham-w-14"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1335,7 +1504,11 @@
       "DayOne lists in-game ratings out of 10 of damage 6.2, accuracy 7.8, handling 5.5 and range 7.5, with a capacity of 20 rounds and semi-auto fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "DayOne lists it in a combined 'Tactical and Sniper Rifles' group without saying which of the two it is.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the Hillinger M306 TMR a story mode price of $2,550 at Ammu-Nation.",
+      "GTABase says it can be modified with attachments and tints.",
+      "Dexerto's weapon page (published November 19, 2026) calls it a Marksman Elite Rifle; its price, magazine size and ratings (damage 6.2, accuracy 7.8, handling 5.5, range 7.5) match DayOne's figures already in the app.",
+      "Dexerto gives an unlock requirement for buying it: get gold in all ranges."
     ],
     "tags": [
       "hillinger",
@@ -1351,13 +1524,16 @@
       "slot": "long gun",
       "magazine": "20",
       "fire_mode": "Semi-auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Ammu-Nation; unlock requirement: get gold in all ranges (Dexerto)",
+      "price": "$2,550"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-m306-tmr",
+      "r10-dex-w-hillinger-m306-tmr"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1532,7 +1708,9 @@
       "PowerPyx lists it at $2,150 at Expanded Ammu-Nation stores and says it unlocks after Bret Vogel's ninth hunting quest, a questline that begins with the optional Chapter 2 mission Veteran Hunted.",
       "It does not appear in DayOne's weapon list, so its calibre and ratings are unverified.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\".",
-      "IGN's column says Expanded or Hunting stock; other guides say it is unlocked through Bret's hunting quests."
+      "IGN's column says Expanded or Hunting stock; other guides say it is unlocked through Bret's hunting quests.",
+      "GTABase lists an ammo capacity of 5.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "bret",
@@ -1546,12 +1724,14 @@
       "type": "sniper",
       "manufacturer": "Shrewsbury",
       "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms) after Bret Vogel's ninth hunting quest",
-      "price": "$2,150"
+      "price": "$2,150",
+      "magazine": "5"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-sniper",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-sms-01"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1595,7 +1775,10 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 6.5, accuracy 3.0, handling 3.2 and range 6.2, with a capacity of 100 rounds and full auto fire.",
       "PowerPyx says Expanded Ammu-Nation stores are the ones that stock light machine guns, without naming the models.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "GTABase gives the ADB M350 a story mode price of $10,000 at Ammu-Nation.",
+      "GTABase lists an extended magazine of 200 rounds.",
+      "GTABase says it can be modified with attachments and tints."
     ],
     "tags": [
       "adb",
@@ -1610,13 +1793,15 @@
       "manufacturer": "Armurerie de Belgique",
       "magazine": "100",
       "fire_mode": "Full auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "price": "$10,000"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "ppx-ammunation",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "r8gb-weapons-combat-mg"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1741,7 +1926,8 @@
       "PowerPyx says Bret hands it over at the start of the optional mission Veteran Hunted (Meet Bret) and counts it as a Unique Weapon Variant.",
       "PowerPyx adds that it can be collected again from any Ammu-Nation weapon locker.",
       "Insider Gaming says unique weapons carry a gold icon and cannot be modified.",
-      "IGN's unique-variant guide says Bret Vogel hands it over when his hunting side quests begin."
+      "IGN's unique-variant guide says Bret Vogel hands it over when his hunting side quests begin.",
+      "GTABase lists an ammo capacity of 5."
     ],
     "tags": [
       "bret",
@@ -1753,7 +1939,9 @@
     ],
     "facts": {
       "type": "sniper",
-      "availability": "Given by Bret Vogel at the start of his hunting side quests (IGN)"
+      "availability": "Given by Bret Vogel at the start of his hunting side quests (IGN)",
+      "magazine": "5",
+      "manufacturer": "Shrewsbury"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1761,7 +1949,8 @@
       "ppx-100",
       "ppx-trophy",
       "insider-weapons",
-      "ign-unique-weapon-variants"
+      "ign-unique-weapon-variants",
+      "r8gb-weapons-killtelligence-sm-69"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2117,7 +2306,10 @@
     "name": "Key Cloner",
     "summary": "A phone app that defeats keyless-entry security so high-end cars can be stolen.",
     "body": [
-      "PowerPyx says it is given automatically at the start of the Chapter 3 mission Clonin' Keys, Makin' GS and is installed on the phone rather than bought."
+      "PowerPyx says it is given automatically at the start of the Chapter 3 mission Clonin' Keys, Makin' GS and is installed on the phone rather than bought.",
+      "PC Gamer says the key cloner arrives in Chapter 3 during the mission it calls 'Steal the Zorruso for Randy'; GameSpot says Randy hands it over around the halfway point of the story.",
+      "PC Gamer says you stand by a keyless car's door, interact and pick Clone Key, using the control stick to find a sweet spot that speeds it up; GameSpot adds that no hot-wiring is needed afterwards.",
+      "Gamer Guides also names the mission Steal the Zorruso, given by Randy in Chapter 3, as the one that hands over the key cloner, and says it both opens and starts keyless cars."
     ],
     "tags": [
       "car theft",
@@ -2133,9 +2325,12 @@
     "sources": [
       "dayone-equipment",
       "ppx-keycloner",
-      "ppx-trophy"
+      "ppx-trophy",
+      "r8-pcg-clone-keys",
+      "r8-gs-steal-cars-trackers",
+      "r8-gg-steal-cars"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
