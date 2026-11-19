@@ -1,0 +1,585 @@
+[
+  {
+    "slug": "australian-shepherd",
+    "name": "Australian Shepherd",
+    "summary": "A dog breed reported in Leonida that gets its own entry in the wildlife log.",
+    "body": [
+      "Destructoid lists it among the land animals it spotted, and Mashable says there are reports of it among the dog breeds; Mashable adds that cat and dog breeds get separate wildlife-log entries and that dogs can be petted and, with the owner's permission, given a treat."
+    ],
+    "tags": [
+      "animal",
+      "dog",
+      "pet"
+    ],
+    "facts": {
+      "species": "Australian Shepherd",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chihuahua",
+    "name": "Chihuahua",
+    "summary": "A dog breed reported in Leonida that gets its own entry in the wildlife log.",
+    "body": [
+      "Destructoid lists it among the land animals it spotted, and Mashable says there are reports of it among the dog breeds; Mashable adds that cat and dog breeds get separate wildlife-log entries and that dogs can be petted and, with the owner's permission, given a treat."
+    ],
+    "tags": [
+      "animal",
+      "dog",
+      "pet"
+    ],
+    "facts": {
+      "species": "Chihuahua",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "doberman",
+    "name": "Doberman",
+    "summary": "A dog breed reported in Leonida that gets its own entry in the wildlife log.",
+    "body": [
+      "Destructoid lists it among the land animals it spotted, and Mashable says there are reports of it among the dog breeds; Mashable adds that cat and dog breeds get separate wildlife-log entries and that dogs can be petted and, with the owner's permission, given a treat."
+    ],
+    "tags": [
+      "animal",
+      "dog",
+      "pet"
+    ],
+    "facts": {
+      "species": "Doberman",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "german-shepherd",
+    "name": "German Shepherd",
+    "summary": "A dog breed reported in Leonida that gets its own entry in the wildlife log.",
+    "body": [
+      "Destructoid lists it among the land animals it spotted, and Mashable says there are reports of it among the dog breeds; Mashable adds that cat and dog breeds get separate wildlife-log entries and that dogs can be petted and, with the owner's permission, given a treat."
+    ],
+    "tags": [
+      "animal",
+      "dog",
+      "pet"
+    ],
+    "facts": {
+      "species": "German Shepherd",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "labrador",
+    "name": "Labrador",
+    "summary": "A dog breed reported in Leonida that gets its own entry in the wildlife log.",
+    "body": [
+      "Destructoid lists it among the land animals it spotted, and Mashable says there are reports of it among the dog breeds; Mashable adds that cat and dog breeds get separate wildlife-log entries and that dogs can be petted and, with the owner's permission, given a treat."
+    ],
+    "tags": [
+      "animal",
+      "dog",
+      "pet"
+    ],
+    "facts": {
+      "species": "Labrador",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rottweiler",
+    "name": "Rottweiler",
+    "summary": "A dog breed reported in Leonida that gets its own entry in the wildlife log.",
+    "body": [
+      "Destructoid lists it among the land animals it spotted, and Mashable says there are reports of it among the dog breeds; Mashable adds that cat and dog breeds get separate wildlife-log entries and that dogs can be petted and, with the owner's permission, given a treat."
+    ],
+    "tags": [
+      "animal",
+      "dog",
+      "pet"
+    ],
+    "facts": {
+      "species": "Rottweiler",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "festive-poodle",
+    "name": "Festive Poodle",
+    "summary": "A unique dog to scan in the garden of a Christmas-themed house on Key Lento's north seafront.",
+    "body": [
+      "The Big Lead calls the Festive Poodle a unique dog to scan and places it in the garden of the Christmas-themed house in the north seafront row of Key Lento."
+    ],
+    "tags": [
+      "animal",
+      "dog",
+      "unique"
+    ],
+    "facts": {
+      "species": "Poodle (unique)",
+      "habitat": "Key Lento, Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cartoon-labrador",
+    "name": "Cartoon Labrador",
+    "summary": "A unique dog to scan at a party house in the south-east corner of Key Lento.",
+    "body": [
+      "The Big Lead calls the Cartoon Labrador another unique dog and places it at a party house in the south-east corner of Key Lento."
+    ],
+    "tags": [
+      "animal",
+      "dog",
+      "unique"
+    ],
+    "facts": {
+      "species": "Labrador (unique)",
+      "habitat": "Key Lento, Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "yorkshire-terrier",
+    "name": "Yorkshire Terrier",
+    "summary": "A dog The Big Lead heard barking inside an abandoned laundry in north-west Belville.",
+    "body": [
+      "The Big Lead mentions a barking Yorkshire Terrier inside an abandoned laundry with a blocked door at the north-west of Belville, south of the Biker Hideout."
+    ],
+    "tags": [
+      "animal",
+      "dog"
+    ],
+    "facts": {
+      "species": "Yorkshire Terrier"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "florida-panther",
+    "name": "Florida panther",
+    "summary": "A big cat listed as Cougar/Florida Panther, seen stalking deer at Mount Kalaga and named as a hunting target.",
+    "body": [
+      "Destructoid lists it as Cougar/Florida Panther among land animals.",
+      "Mashable points to a Rockstar screenshot of a cougar stalking deer at Mount Kalaga and says some hunting challenges send players after a panther."
+    ],
+    "tags": [
+      "animal",
+      "cat",
+      "hunting",
+      "predator"
+    ],
+    "facts": {
+      "species": "Cougar / Florida panther",
+      "habitat": "Land; Mount Kalaga",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "american-alligator",
+    "name": "American Alligator",
+    "summary": "Leonida's alligator, which Mashable notes can eat the player.",
+    "body": [
+      "Destructoid lists the American Alligator, placing it under sea animals.",
+      "Mashable names alligators among Florida-specific wildlife and says they can eat you."
+    ],
+    "tags": [
+      "animal",
+      "predator",
+      "reptile"
+    ],
+    "facts": {
+      "species": "American alligator",
+      "hostile": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "cow",
+    "name": "Cow",
+    "summary": "A land animal that two launch-day wildlife guides name in Leonida.",
+    "body": [
+      "Destructoid lists cows among land animals and Mashable says cows have been spotted."
+    ],
+    "tags": [
+      "animal",
+      "land"
+    ],
+    "facts": {
+      "species": "Cow",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "frog",
+    "name": "Frog",
+    "summary": "A land animal that two launch-day wildlife guides name in Leonida.",
+    "body": [
+      "Destructoid lists frogs among land animals and Mashable says frogs have been spotted."
+    ],
+    "tags": [
+      "animal",
+      "land"
+    ],
+    "facts": {
+      "species": "Frog",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "heron",
+    "name": "Heron",
+    "summary": "A bird species that two launch-day wildlife guides name in Leonida.",
+    "body": [
+      "Destructoid lists herons among birds and Mashable names herons among the birds along the water."
+    ],
+    "tags": [
+      "animal",
+      "birds"
+    ],
+    "facts": {
+      "species": "Heron",
+      "habitat": "Birds (Destructoid group)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pigeon",
+    "name": "Pigeon",
+    "summary": "A bird species that two launch-day wildlife guides name in Leonida.",
+    "body": [
+      "Destructoid lists pigeons among birds and Mashable says pigeons have turned up."
+    ],
+    "tags": [
+      "animal",
+      "birds"
+    ],
+    "facts": {
+      "species": "Pigeon",
+      "habitat": "Birds (Destructoid group)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "crayfish",
+    "name": "Crayfish",
+    "summary": "A sea animal that two launch-day wildlife guides name in Leonida.",
+    "body": [
+      "Destructoid lists crayfish among sea animals and Mashable includes crayfish among water sightings."
+    ],
+    "tags": [
+      "animal",
+      "sea"
+    ],
+    "facts": {
+      "species": "Crayfish",
+      "habitat": "Sea"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hammerhead-shark",
+    "name": "Hammerhead Shark",
+    "summary": "A sea animal that two launch-day wildlife guides name in Leonida.",
+    "body": [
+      "Destructoid lists the hammerhead shark among sea animals and Mashable includes hammerhead sharks among water sightings."
+    ],
+    "tags": [
+      "animal",
+      "sea"
+    ],
+    "facts": {
+      "species": "Hammerhead Shark",
+      "habitat": "Sea"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "manta-ray",
+    "name": "Manta Ray",
+    "summary": "A sea animal that two launch-day wildlife guides name in Leonida.",
+    "body": [
+      "Destructoid lists the manta ray among sea animals and Mashable includes manta rays among water sightings."
+    ],
+    "tags": [
+      "animal",
+      "sea"
+    ],
+    "facts": {
+      "species": "Manta Ray",
+      "habitat": "Sea"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "eagle",
+    "name": "Eagle",
+    "summary": "A bird that Mashable says has turned up along Leonida's waters.",
+    "body": [
+      "Mashable lists eagles among the birds seen; Destructoid's shorter bird list does not include them."
+    ],
+    "tags": [
+      "animal",
+      "bird"
+    ],
+    "facts": {
+      "species": "Eagle"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stork",
+    "name": "Stork",
+    "summary": "A bird that Mashable says has turned up along Leonida's waters.",
+    "body": [
+      "Mashable lists storks among the birds seen; Destructoid's shorter bird list does not include them."
+    ],
+    "tags": [
+      "animal",
+      "bird"
+    ],
+    "facts": {
+      "species": "Stork"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cormorant",
+    "name": "Cormorant",
+    "summary": "A bird that Mashable says has turned up along Leonida's waters.",
+    "body": [
+      "Mashable lists cormorants among the birds seen; Destructoid's shorter bird list does not include them."
+    ],
+    "tags": [
+      "animal",
+      "bird"
+    ],
+    "facts": {
+      "species": "Cormorant"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "horse",
+    "name": "Horse",
+    "summary": "An animal Mashable says players have spotted in Leonida.",
+    "body": [
+      "Mashable lists horses alongside cows, cats and dogs among the animals spotted; Destructoid's list does not include horses."
+    ],
+    "tags": [
+      "animal",
+      "land"
+    ],
+    "facts": {
+      "species": "Horse",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "possum",
+    "name": "Possum",
+    "summary": "A land animal on Destructoid's list whose presence other lists dispute.",
+    "body": [
+      "Destructoid lists the possum among land animals.",
+      "Mashable says GTABase lists possums while IGN leaves them off, so the sighting is disputed."
+    ],
+    "tags": [
+      "animal",
+      "disputed",
+      "land"
+    ],
+    "facts": {
+      "species": "Possum",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rat",
+    "name": "Rat",
+    "summary": "A land animal on Destructoid's list whose presence other lists dispute.",
+    "body": [
+      "Destructoid lists the rat among land animals.",
+      "Mashable says GTABase lists rats while IGN leaves them off, so the sighting is disputed."
+    ],
+    "tags": [
+      "animal",
+      "disputed",
+      "land"
+    ],
+    "facts": {
+      "species": "Rat",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "destructoid-wildlife",
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dolores-the-snake",
+    "name": "Dolores",
+    "summary": "Jason's pet snake at his Leonida Keys house; feeding her a mouse gives a small focus boost.",
+    "body": [
+      "Mashable says Dolores is a snake living at Jason's house in the Leonida Keys, that feeding her a mouse gives him a small focus boost, and, citing Cultured Vultures, that she is the only pet Jason can keep in the story."
+    ],
+    "tags": [
+      "animal",
+      "jason",
+      "pet",
+      "snake"
+    ],
+    "facts": {
+      "species": "Snake (pet)",
+      "habitat": "Jason's house, Leonida Keys",
+      "huntable": false
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "mashable-animals"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

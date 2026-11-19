@@ -15,7 +15,11 @@
       "Body Armor: Down, Up, Left, Up, Up, Up, Up, Up, Down, Down (PowerPyx, Game Rant, GamesRadar+, Screen Rant, GameSpot); DayOne prints the same code with one extra Up, eleven presses in all; complete 100 workouts.",
       "Repair Vehicle: no code published yet; take 1st place in 10 races at Gellhorn Raceway, Thrillbilly Mud Club and Boone Speedway.",
       "Unlimited Nitrous: no code published yet; complete 50 stunt jumps.",
-      "Five of the ten player codes were published in the guides read; the rest were still marked unknown."
+      "Five of the ten player codes were published in the guides read; the rest were still marked unknown.",
+      "PlayStation Universe and Gamer Tweak (both November 18, 2026) print the same five player codes as PowerPyx and list the other five, including Raise Wanted Level, as not yet found.",
+      "Game8's cheat list (updated November 19, 2026) prints the $250,000, Raise Heat Level and Unlimited Focus codes but shows Body Armor's code as still to be found.",
+      "Disagreement: Game8 gives Raise Heat Level's unlock as completing the game, where PowerPyx and the others say losing a 3-star wanted level 25 times.",
+      "As of November 19, 2026, no guide read had codes for Drunk, Raise Wanted Level (apart from GamesRadar+, Screen Rant and GameSpot), No Fall Damage, Parachute, Repair Vehicle or Unlimited Nitrous."
     ],
     "tags": [
       "armor",
@@ -38,10 +42,14 @@
       "gamespot-cheats",
       "dayone-cheats",
       "pressstart-cheats",
-      "eurogamer-cheats"
+      "eurogamer-cheats",
+      "psu-cheats",
+      "gamertweak-cheats",
+      "game8-cheats"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "image": "/images/web/gamerant-t-c21848c3a257.jpg"
   },
   {
     "slug": "cheats-combat",
@@ -60,7 +68,10 @@
       "Attack Force: Down, Up, Left, Left, Right, Down, Down, Up, Down (PowerPyx, Game Rant, GamesRadar+, Screen Rant, DayOne, Press Start, Eurogamer); GameSpot prints it with a single Left, eight presses; finish the story.",
       "Exploding Balls: Down, Up, Left, Left, Right, Down, Down, Up, Right; hit 20 enemies with explosive damage (PowerPyx, Game Rant, GamesRadar+, Screen Rant, GameSpot; DayOne and Eurogamer give the code only).",
       "Vehicle Force: Down, Up, Left, Left, Right, Down, Left, Up, Down; kill 25 enemies with a vehicle, and PowerPyx, GamesRadar+ and Screen Rant say civilians count (DayOne and Press Start had no code).",
-      "Six of the eleven combat codes were published in the guides read."
+      "Six of the eleven combat codes were published in the guides read.",
+      "PlayStation Universe and Gamer Tweak print the same six combat codes as PowerPyx, with Attack Force at nine presses as PowerPyx has it.",
+      "Game8's cheat list prints only the Attack Force and Exploding Balls codes, showing Max Ammo, Infinite Ammo, No Reload and Vehicle Force as still to be found, and gives Exploding Balls' unlock as completing the game rather than hitting 20 enemies with explosive damage.",
+      "All Explosive Weapons, Incendiary Ammo, Exploding Bottles, Explosive Shotgun and Hauners H-AT still had no published code in any guide read."
     ],
     "tags": [
       "ammo",
@@ -82,9 +93,12 @@
       "gamespot-cheats",
       "dayone-cheats",
       "pressstart-cheats",
-      "eurogamer-cheats"
+      "eurogamer-cheats",
+      "psu-cheats",
+      "gamertweak-cheats",
+      "game8-cheats"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -115,7 +129,10 @@
       "Truffade Thrax: no code published yet; complete all shopping challenges.",
       "Western Zombie Bobber: no code published yet; complete all criminal challenges.",
       "The three codes are as printed by PowerPyx, Game Rant, GamesRadar+, Screen Rant and GameSpot; DayOne also prints the Boomazoom code, and Press Start had none of the three.",
-      "The requirements match across PowerPyx, DayOne, Press Start, Game Rant, GamesRadar+ and Screen Rant apart from the MTL Pumper note above."
+      "The requirements match across PowerPyx, DayOne, Press Start, Game Rant, GamesRadar+ and Screen Rant apart from the MTL Pumper note above.",
+      "PlayStation Universe and Gamer Tweak print the same three codes (Maibatsu Boomazoom, MTL Pumper, HVY Bulldozer) and both give the MTL Pumper's unlock as discovering it in the Progress menu.",
+      "Game8's cheat list shows all 21 vehicle codes as still to be found; its requirements match the other guides.",
+      "The other 18 vehicle codes were still unpublished in every guide read."
     ],
     "tags": [
       "challenges",
@@ -136,9 +153,12 @@
       "screenrant-cheats",
       "gamespot-cheats",
       "dayone-cheats",
-      "pressstart-cheats"
+      "pressstart-cheats",
+      "psu-cheats",
+      "gamertweak-cheats",
+      "game8-cheats"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -150,7 +170,9 @@
       "Move Time Forward: no code published yet; find 10 collectible watches.",
       "Pause Time of Day: no code published yet; find 20 collectible watches.",
       "Cycle Weather: Down, Right, Up, Down, Right, Up, Right (PowerPyx, Game Rant, GamesRadar+, Screen Rant, GameSpot).",
-      "The guides disagree on what unlocks Cycle Weather: PowerPyx, Game Rant and GameSpot say finishing the story, while DayOne, Press Start, GamesRadar+ and Screen Rant say revealing the entire map."
+      "The guides disagree on what unlocks Cycle Weather: PowerPyx, Game Rant and GameSpot say finishing the story, while DayOne, Press Start, GamesRadar+ and Screen Rant say revealing the entire map.",
+      "PlayStation Universe and Gamer Tweak print the Cycle Weather code and give finishing the story as its unlock; Game8 shows the code as still to be found and gives revealing the entire map.",
+      "Move Time Forward and Pause Time of Day still had no published code in any guide read."
     ],
     "tags": [
       "cheats",
@@ -171,9 +193,12 @@
       "screenrant-cheats",
       "gamespot-cheats",
       "dayone-cheats",
-      "pressstart-cheats"
+      "pressstart-cheats",
+      "psu-cheats",
+      "gamertweak-cheats",
+      "game8-cheats"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -199,7 +224,10 @@
       "Pixel Art (pixelated): no code published yet; make $250,000 selling collectibles.",
       "Hellscape (red and orange with heat haze): no code published yet; steal 100 cop vehicles.",
       "The Cataclysm, Dollhouse and Faded Glory codes are as printed by PowerPyx, Game Rant, GamesRadar+, Screen Rant and GameSpot; DayOne lists Dollhouse's code but no code for the other two.",
-      "Across all five groups, 19 of the 61 codes had been published in the guides read on November 18, 2026."
+      "Across all five groups, 19 of the 61 codes had been published in the guides read on November 18, 2026.",
+      "PlayStation Universe and Gamer Tweak print the Cataclysm, Dollhouse and Faded Glory codes and list Pinhole as not yet found, unlike DayOne.",
+      "Game8's cheat list prints only the Dollhouse code and gives its unlock as completing the game, where the other guides say spending 8 hours with your partner; Game8 spells the Yesteryear vehicle Ridgway.",
+      "No guide read on November 18 or 19, 2026 had more than the 19 codes already known; 42 of the 61 remained unpublished."
     ],
     "tags": [
       "cheats",
@@ -219,10 +247,14 @@
       "screenrant-cheats",
       "gamespot-cheats",
       "dayone-cheats",
-      "pressstart-cheats"
+      "pressstart-cheats",
+      "psu-cheats",
+      "gamertweak-cheats",
+      "game8-cheats"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "image": "/images/web/gamesradar-t-ab823fa574d7.jpg"
   },
   {
     "slug": "challenges-combat",
@@ -554,7 +586,8 @@
       "gamerant-cheats"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/playday-t-0c6974558b15.jpg"
   },
   {
     "slug": "bank-jobs-by-branch",
@@ -586,7 +619,8 @@
       "eurogamer-robberies"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/powerpyx-t-f78d3f621276.jpg"
   },
   {
     "slug": "bank-vaults-by-branch",
@@ -614,7 +648,8 @@
       "ppx-banks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/powerpyx-t-84fc21a0367f.jpg"
   },
   {
     "slug": "payday-loans-by-store",

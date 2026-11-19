@@ -28,7 +28,8 @@
       "gfinity-wildlife"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/gfinityesports-079e0a54005f.jpg"
   },
   {
     "slug": "unique-animals",
@@ -186,8 +187,7 @@
       "gfinity-wildlife",
       "ppx-challenges"
     ],
-    "verified": "2026-11-18",
-    "image": "/images/editions/squalo-03.jpg"
+    "verified": "2026-11-18"
   },
   {
     "slug": "orca",
@@ -392,7 +392,8 @@
       "redbull-wildlife",
       "gfinity-wildlife"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-18",
+    "image": "/images/web/gfinityesports-t-e85a4945d886.jpg"
   },
   {
     "slug": "duck",

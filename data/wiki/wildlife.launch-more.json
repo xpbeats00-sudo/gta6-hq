@@ -24,7 +24,8 @@
       "pushsquare-bret-decks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/pushsquare-3ca39da587f5.jpg"
   },
   {
     "slug": "american-crocodile",
@@ -172,7 +173,8 @@
       "pushsquare-bret-decks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/pushsquare-t-b20b0db96fcd.jpg"
   },
   {
     "slug": "gray-fox",
@@ -296,7 +298,8 @@
       "pushsquare-bret-decks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/pushsquare-t-a9b36f4e1bf0.jpg"
   },
   {
     "slug": "mosaic-mottled-duck",
@@ -497,7 +500,8 @@
       "pushsquare-bret-decks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/pushsquare-t-f82097a0f94a.jpg"
   },
   {
     "slug": "whitetail-doe",
@@ -549,6 +553,7 @@
       "powerpyx-progress-database"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/pushsquare-14c309dbd9ae.jpg"
   }
 ]

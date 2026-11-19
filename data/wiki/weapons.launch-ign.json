@@ -1,0 +1,3746 @@
+[
+  {
+    "slug": "clunker-556",
+    "name": "Clunker 556",
+    "summary": "Named Duke assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Clunker 556 as a longarm assault rifle (Carbine subtype) made by Duke, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 5.8, handling 6.8 and range 5.8, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Clunker 556 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "duke",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cockroach-xtreme-556",
+    "name": "Cockroach Xtreme 556",
+    "summary": "Named Duke assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Cockroach Xtreme 556 as a longarm assault rifle (Carbine subtype) made by Duke, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 6.1, handling 6.1 and range 5.5, with a magazine of 40.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Cockroach Xtreme 556 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "duke",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "40",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cold-war-556",
+    "name": "Cold War 556",
+    "summary": "Named Duke assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Cold War 556 as a longarm assault rifle (Carbine subtype) made by Duke, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 7.5, handling 4 and range 7.3, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Cold War 556 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "duke",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "drug-mule-kz-59",
+    "name": "Drug Mule KZ-59",
+    "summary": "Named Kozlov assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Drug Mule KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5.4, accuracy 4.5, handling 5.9 and range 6.5, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "kozlov",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x39mm",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "grx-556",
+    "name": "GRX 556",
+    "summary": "Named Duke assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the GRX 556 as a longarm assault rifle (Carbine subtype) made by Duke, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 6.3, handling 5.9 and range 5.8, with a magazine of 40.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN's table marks it with a Y in its Ultimate Edition column."
+    ],
+    "tags": [
+      "duke",
+      "rifle",
+      "ultimate edition",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "40",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "guardia-brothers-fra",
+    "name": "Guardia Brothers FRA",
+    "summary": "Named Armurerie De Belgique assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Guardia Brothers FRA as a longarm assault rifle (Battle Rifle subtype) made by Armurerie De Belgique, firing 7.62x51mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5.8, accuracy 4.6, handling 6 and range 6.5, with a magazine of 30.",
+      "IGN's inventory column is blank for it, so how it is obtained is not stated."
+    ],
+    "tags": [
+      "armurerie-de-belgique",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Armurerie De Belgique",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kingpin-heathen",
+    "name": "Kingpin Heathen",
+    "summary": "Named Hillinger assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Kingpin Heathen as a longarm assault rifle (Bullpup subtype) made by Hillinger, firing 5.56x45mm rounds in 3-round burst mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 6.9, handling 5.1 and range 6.6, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "hillinger",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Hillinger",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "3-Round Burst"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kolt-and-associates-556",
+    "name": "Kolt & Associates 556",
+    "summary": "Named Duke assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Kolt & Associates 556 as a longarm assault rifle (Carbine subtype) made by Duke, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 7.5, handling 5.2 and range 6.1, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Kolt & Associates 556 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "duke",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "la-polilla-negra-kz-59",
+    "name": "La Polilla Negra KZ-59",
+    "summary": "Named Kozlov assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the La Polilla Negra KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5.4, accuracy 5.2, handling 5.2 and range 6.5, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "kozlov",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x39mm",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "la-polilla-negra-vf-g1",
+    "name": "La Polilla Negra VF-G1",
+    "summary": "Named Vom Feuer assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the La Polilla Negra VF-G1 as a longarm assault rifle (Special subtype) made by Vom Feuer, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 6.2, handling 6.2 and range 5.6, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "rifle",
+      "variant",
+      "vom-feuer",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Vom Feuer",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "little-cuba-hind",
+    "name": "Little Cuba Hind",
+    "summary": "Named Kozlov assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Little Cuba Hind as a longarm assault rifle (Compact subtype) made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5.4, accuracy 2.5, handling 7.8 and range 4.5, with a magazine of 40.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "kozlov",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x39mm",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "40",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marabunta-grande-kz-59",
+    "name": "Marabunta Grande KZ-59",
+    "summary": "Named Kozlov assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Marabunta Grande KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5.4, accuracy 4.5, handling 6 and range 6.5, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "kozlov",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x39mm",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "petes-kz-59",
+    "name": "Pete's KZ-59",
+    "summary": "Named Kozlov assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Pete's KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5.4, accuracy 5.5, handling 5.7 and range 6.1, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "kozlov",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x39mm",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rauls-cqb-556",
+    "name": "Raul's CQB 556",
+    "summary": "Named Duke assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Raul's CQB 556 as a longarm assault rifle (Carbine subtype) made by Duke, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 5.7, handling 6.9 and range 5.6, with a magazine of 40.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Raul's CQB 556 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "duke",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "40",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rauls-heist-556",
+    "name": "Raul's Heist 556",
+    "summary": "Named Duke assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Raul's Heist 556 as a longarm assault rifle (Carbine subtype) made by Duke, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 6.5, handling 6.5 and range 6.5, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Raul's Heist 556 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "duke",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "san4san-kz-59",
+    "name": "San4San KZ-59",
+    "summary": "Named Kozlov assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the San4San KZ-59 as a longarm assault rifle made by Kozlov, firing 7.62x39mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5.4, accuracy 5.3, handling 5.5 and range 6.5, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "kozlov",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x39mm",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "star-spangled-556",
+    "name": "Star Spangled 556",
+    "summary": "Named Duke assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Star Spangled 556 as a longarm assault rifle (Carbine subtype) made by Duke, firing 5.56x45mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 6.6, handling 5.3 and range 6.2, with a magazine of 40.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "duke",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "40",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-city-heathen",
+    "name": "Vice City Heathen",
+    "summary": "Named Hillinger assault rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Vice City Heathen as a longarm assault rifle (Bullpup subtype) made by Hillinger, firing 5.56x45mm rounds in 3-round burst mode.",
+      "IGN gives ratings out of 10 of damage 5, accuracy 7.4, handling 5.1 and range 6.2, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "hillinger",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Hillinger",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "3-Round Burst"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "franciscos-lmg-6",
+    "name": "Francisco's LMG 6",
+    "summary": "Named Goodwin machine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Francisco's LMG 6 as a longarm machine gun (Assault subtype) made by Goodwin, firing 7.62x51mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 6.8, accuracy 3.9, handling 2 and range 6.5, with a magazine of 100.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "goodwin",
+      "lmg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "lmg",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Goodwin",
+      "slot": "long gun",
+      "magazine": "100",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mercenary-lmg-6",
+    "name": "Mercenary LMG 6",
+    "summary": "Named Goodwin machine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Mercenary LMG 6 as a longarm machine gun (Assault subtype) made by Goodwin, firing 7.62x51mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 6.8, accuracy 3.6, handling 2.3 and range 6.5, with a magazine of 100.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "goodwin",
+      "lmg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "lmg",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Goodwin",
+      "slot": "long gun",
+      "magazine": "100",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "assassin-nipper-38",
+    "name": "Assassin Nipper .38",
+    "summary": "Named Scorpio pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Assassin Nipper .38 as a sidearm pistol (Compact subtype) made by Scorpio, firing .380 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.8, accuracy 3.5, handling 8.7 and range 2.7, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "scorpio",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".380 Cal",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "black-eagle-import-kalinga",
+    "name": "Black Eagle Import Kalinga",
+    "summary": "Named Fairview Firearms pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Black Eagle Import Kalinga as a sidearm pistol (.50 Cal subtype) made by Fairview Firearms, firing .50 Magnum rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7, accuracy 4.2, handling 7.6 and range 5, with a magazine of 7.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fairview-firearms",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".50 Magnum",
+      "manufacturer": "Fairview Firearms",
+      "slot": "sidearm",
+      "magazine": "7",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brainwasher-1992",
+    "name": "Brainwasher 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Brainwasher 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brians-1992",
+    "name": "Brian's 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Brian's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 5.1, handling 8.1 and range 4.6, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "convict-kalinga-50",
+    "name": "Convict Kalinga .50",
+    "summary": "Named Fairview Firearms pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Convict Kalinga .50 as a sidearm pistol (.50 Cal subtype) made by Fairview Firearms, firing .50 Magnum rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7, accuracy 4.2, handling 7.4 and range 5, with a magazine of 7.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fairview-firearms",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".50 Magnum",
+      "manufacturer": "Fairview Firearms",
+      "slot": "sidearm",
+      "magazine": "7",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "deadringer-1992",
+    "name": "Deadringer 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Deadringer 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dumpster-k17-mcd",
+    "name": "Dumpster K17 MCD",
+    "summary": "Named Klose pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Dumpster K17 MCD as a sidearm pistol (Automatic subtype) made by Klose, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 3.7, handling 6.8 and range 4.5; its magazine cell is blank or shows 0, so no capacity is recorded here.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Dumpster K17 MCD (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "klose",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Klose",
+      "slot": "sidearm",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dwnplys-k17",
+    "name": "DWNPLY's K17",
+    "summary": "Named Klose pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the DWNPLY's K17 as a sidearm pistol (Service subtype) made by Klose, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 4.5, handling 8.2 and range 4.1; its magazine cell is blank or shows 0, so no capacity is recorded here.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "klose",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Klose",
+      "slot": "sidearm",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ejs-k17",
+    "name": "EJ's K17",
+    "summary": "Named Klose pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the EJ's K17 as a sidearm pistol (Service subtype) made by Klose, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 4.5, handling 8.5 and range 3.8; its magazine cell is blank or shows 0, so no capacity is recorded here.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "klose",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Klose",
+      "slot": "sidearm",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "low-point-nipper-38",
+    "name": "Low Point Nipper .38",
+    "summary": "Named Scorpio pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Low Point Nipper .38 as a sidearm pistol (Compact subtype) made by Scorpio, firing .380 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.8, accuracy 3, handling 9 and range 3, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "scorpio",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".380 Cal",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marthas-1992",
+    "name": "Martha's 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Martha's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "money-bag-1992",
+    "name": "Money Bag 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Money Bag 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "montys-1992",
+    "name": "Monty's 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Monty's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nite-raptor-k17",
+    "name": "Nite Raptor K17",
+    "summary": "Named Klose pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Nite Raptor K17 as a sidearm pistol (Service subtype) made by Klose, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 4.9, handling 8 and range 4.1, with a magazine of 17.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "klose",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Klose",
+      "slot": "sidearm",
+      "magazine": "17",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ptt-youngins-k17",
+    "name": "PTT Youngin$ K17",
+    "summary": "Named Klose pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the PTT Youngin$ K17 as a sidearm pistol (Service subtype) made by Klose, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 4.5, handling 7.9 and range 4.1; its magazine cell is blank or shows 0, so no capacity is recorded here.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "klose",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Klose",
+      "slot": "sidearm",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "quarter-mile-es9",
+    "name": "Quarter Mile ES9",
+    "summary": "Named Girardi pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Quarter Mile ES9 as a sidearm pistol (Military subtype) made by Girardi, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 5.6, handling 8.3 and range 4.2, with a magazine of 15.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Quarter Mile ES9 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "girardi",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Girardi",
+      "slot": "sidearm",
+      "magazine": "15",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rauls-1992",
+    "name": "Raul's 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Raul's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 5.3, handling 7.6 and range 4.9, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rogue-alpha-drx",
+    "name": "Rogue Alpha DRX",
+    "summary": "Named Schlamm pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Rogue Alpha DRX as a sidearm pistol (Tactical subtype) made by Schlamm, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 4.4, handling 8 and range 4.2, with a magazine of 17.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "schlamm",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Schlamm",
+      "slot": "sidearm",
+      "magazine": "17",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "russos-1992",
+    "name": "Russo's 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Russo's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "san4san-k17",
+    "name": "San4San K17",
+    "summary": "Named Klose pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the San4San K17 as a sidearm pistol (Service subtype) made by Klose, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 4.6, handling 7.8 and range 3.8; its magazine cell is blank or shows 0, so no capacity is recorded here.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "klose",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Klose",
+      "slot": "sidearm",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sand-storm-es9",
+    "name": "Sand Storm ES9",
+    "summary": "Named Girardi pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Sand Storm ES9 as a sidearm pistol (Military subtype) made by Girardi, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 5.2, handling 8.4 and range 4.4, with a magazine of 15.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Game8's weapons list (updated November 19, 2026) also shows it, as a pistol by Girardi in 9mm with damage 4.2, accuracy 5.2, handling 8.4, range 4.4 and a magazine of 15, and files it under its Unique filter."
+    ],
+    "tags": [
+      "girardi",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Girardi",
+      "slot": "sidearm",
+      "magazine": "15",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide",
+      "game8-weapons-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stoner-k17-mcd",
+    "name": "Stoner K17 MCD",
+    "summary": "Named Klose pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Stoner K17 MCD as a sidearm pistol (Automatic subtype) made by Klose, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 3.2, handling 7.3 and range 4.2; its magazine cell is blank or shows 0, so no capacity is recorded here.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Stoner K17 MCD (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "klose",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Klose",
+      "slot": "sidearm",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-guardian-es18",
+    "name": "The Guardian ES18",
+    "summary": "Named Girardi pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the The Guardian ES18 as a sidearm pistol (Burst subtype) made by Girardi, firing 9mm rounds in 3-round burst mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 4.6, handling 7.7 and range 4.8, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "girardi",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Girardi",
+      "slot": "sidearm",
+      "magazine": "30",
+      "fire_mode": "3-Round Burst"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-patriarch-drx",
+    "name": "The Patriarch DRX",
+    "summary": "Named Schlamm pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the The Patriarch DRX as a sidearm pistol (Tactical subtype) made by Schlamm, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 4.9, handling 7.2 and range 4.2, with a magazine of 21.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "schlamm",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Schlamm",
+      "slot": "sidearm",
+      "magazine": "21",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-silver-1992",
+    "name": "The Silver 1992",
+    "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the The Silver 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.5, accuracy 5.1, handling 8.1 and range 4.6, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
+      "Game8's weapons list (updated November 19, 2026) also shows it, as a pistol by Duke in .45 Cal with damage 5.5, accuracy 5.1, handling 8.1, range 4.6 and a magazine of 8, and files it under its Unique filter.",
+      "Game8 spells it The Silver 1922."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45 Cal",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide",
+      "game8-weapons-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "turnt-nipper-38",
+    "name": "Turnt Nipper .38",
+    "summary": "Named Scorpio pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Turnt Nipper .38 as a sidearm pistol (Compact subtype) made by Scorpio, firing .380 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.8, accuracy 3.2, handling 8.8 and range 3, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "scorpio",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".380 Cal",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "zodiac-nipper-38",
+    "name": "Zodiac Nipper .38",
+    "summary": "Named Scorpio pistol variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Zodiac Nipper .38 as a sidearm pistol (Compact subtype) made by Scorpio, firing .380 Cal rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.8, accuracy 3.5, handling 8.8 and range 3, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "scorpio",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".380 Cal",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cargo-handl-38",
+    "name": "Cargo H&L .38",
+    "summary": "Named Hawk & Little revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Cargo H&L .38 as a sidearm revolver (Double Action subtype) made by Hawk & Little, firing .38 Special rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.5, accuracy 5, handling 8.6 and range 4.5, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "hawk-and-little",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".38 Special",
+      "manufacturer": "Hawk & Little",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "couch-potato-mustang-357",
+    "name": "Couch Potato Mustang .357",
+    "summary": "Named Duke revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Couch Potato Mustang .357 as a sidearm revolver (Magnum subtype) made by Duke, firing .357 Magnum rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.7, accuracy 4.5, handling 8.4 and range 5.1, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".357 Magnum",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "honky-tonk-mustang-357",
+    "name": "Honky Tonk Mustang .357",
+    "summary": "Named Duke revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Honky Tonk Mustang .357 as a sidearm revolver (Magnum subtype) made by Duke, firing .357 Magnum rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.7, accuracy 5, handling 7.2 and range 5.9, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Game8's weapons list (updated November 19, 2026) also shows it, as a pistol by Duke in .357 Magnum with damage 5.7, accuracy 5, handling 7.2, range 5.9 and a magazine of 6, and files it under its Unique filter."
+    ],
+    "tags": [
+      "duke",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".357 Magnum",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide",
+      "game8-weapons-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "iron-and-oak-wcr-1",
+    "name": "Iron & Oak WCR-1",
+    "summary": "Named Wortham revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Iron & Oak WCR-1 as a sidearm revolver (Compact subtype) made by Wortham, firing .38 Special rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.2, accuracy 4.1, handling 8.8 and range 4.7; its magazine cell is blank or shows 0, so no capacity is recorded here.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".38 Special",
+      "manufacturer": "Wortham",
+      "slot": "sidearm",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "jack-sheepe-handl-38",
+    "name": "Jack Sheepe H&L .38",
+    "summary": "Named Hawk & Little revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Jack Sheepe H&L .38 as a sidearm revolver (Double Action subtype) made by Hawk & Little, firing .38 Special rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.5, accuracy 5.2, handling 8 and range 4.9, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN's table marks it with a Y in its Ultimate Edition column."
+    ],
+    "tags": [
+      "hawk-and-little",
+      "pistol",
+      "ultimate edition",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".38 Special",
+      "manufacturer": "Hawk & Little",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kingfishers-akulus",
+    "name": "Kingfishers Akulus",
+    "summary": "Named Scorpio revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Kingfishers Akulus as a sidearm revolver (Heavy subtype) made by Scorpio, firing .44 Magnum rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7, accuracy 5.3, handling 7.2 and range 6.4, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "scorpio",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".44 Magnum",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lyles-handl-38",
+    "name": "Lyle's H&L .38",
+    "summary": "Named Hawk & Little revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Lyle's H&L .38 as a sidearm revolver (Double Action subtype) made by Hawk & Little, firing .38 Special rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.5, accuracy 5, handling 9 and range 4.1, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "hawk-and-little",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".38 Special",
+      "manufacturer": "Hawk & Little",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ride-free-handl-38",
+    "name": "Ride Free H&L .38",
+    "summary": "Named Hawk & Little revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Ride Free H&L .38 as a sidearm revolver (Double Action subtype) made by Hawk & Little, firing .38 Special rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 2.5, accuracy 5.3, handling 8.2 and range 4.9, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "hawk-and-little",
+      "pistol",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".38 Special",
+      "manufacturer": "Hawk & Little",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "swamp-bait-akulus",
+    "name": "Swamp Bait Akulus",
+    "summary": "Named Scorpio revolver variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Swamp Bait Akulus as a sidearm revolver (Heavy subtype) made by Scorpio, firing .44 Magnum rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7, accuracy 4.2, handling 7.2 and range 6.4, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "pistol",
+      "scorpio",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".44 Magnum",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "backdoor-hobo",
+    "name": "Backdoor Hobo",
+    "summary": "Named Shrewsbury shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Backdoor Hobo as a longarm shotgun (Double Barrel Sawed-Off subtype) made by Shrewsbury, firing 12-Gauge rounds in break action mode.",
+      "IGN gives ratings out of 10 of damage 8, accuracy 3.6, handling 6.4 and range 2, with a magazine of 2.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shotgun",
+      "shrewsbury",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "2",
+      "fire_mode": "Break Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basher-gorse-425",
+    "name": "Basher Gorse 425",
+    "summary": "Named Fortune & Son shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Basher Gorse 425 as a longarm shotgun (Stubby subtype) made by Fortune & Son, firing 12-Gauge rounds in pump action mode.",
+      "IGN gives ratings out of 10 of damage 7.5, accuracy 4.1, handling 5.9 and range 2, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Pump Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bruiser-super400",
+    "name": "Bruiser Super400",
+    "summary": "Named Girardi shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Bruiser Super400 as a longarm shotgun (Heavy subtype) made by Girardi, firing 12-Gauge rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7.4, accuracy 4.2, handling 5.3 and range 2.5, with a magazine of 7.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "girardi",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Girardi",
+      "slot": "long gun",
+      "magazine": "7",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cpd-moreland-850",
+    "name": "CPD Moreland 850",
+    "summary": "Named Fortune & Son shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the CPD Moreland 850 as a longarm shotgun (Pump Action subtype) made by Fortune & Son, firing 12-Gauge rounds in pump action mode.",
+      "IGN gives ratings out of 10 of damage 7.5, accuracy 4.9, handling 4.9 and range 2.5, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"CPD Moreland 850 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "8",
+      "fire_mode": "Pump Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "darknite-drifter",
+    "name": "Darknite Drifter",
+    "summary": "Named Shrewsbury shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Darknite Drifter as a longarm shotgun (Double Barrel subtype) made by Shrewsbury, firing 12-Gauge rounds in break action mode.",
+      "IGN gives ratings out of 10 of damage 8, accuracy 4.7, handling 4.7 and range 2.5, with a magazine of 2.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shotgun",
+      "shrewsbury",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "2",
+      "fire_mode": "Break Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dirty-drifter",
+    "name": "Dirty Drifter",
+    "summary": "Named Shrewsbury shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Dirty Drifter as a longarm shotgun (Double Barrel subtype) made by Shrewsbury, firing 12-Gauge rounds in break action mode.",
+      "IGN gives ratings out of 10 of damage 8, accuracy 4.3, handling 4.8 and range 2.5, with a magazine of 2.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shotgun",
+      "shrewsbury",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "2",
+      "fire_mode": "Break Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "final-chapter-kvga-12",
+    "name": "Final Chapter KVGA-12",
+    "summary": "Named Kozlov shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Final Chapter KVGA-12 as a longarm shotgun (Auto subtype) made by Kozlov, firing 12-Gauge rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 7.2, accuracy 5.5, handling 4.5 and range 2.1, with a magazine of 12.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "kozlov",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "12",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "final-chapter-shortstraw",
+    "name": "Final Chapter Shortstraw",
+    "summary": "Named Mason & Keen shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Final Chapter Shortstraw as a longarm shotgun (Sporting Sawed-Off subtype) made by Mason & Keen, firing 12-Gauge rounds in break action mode.",
+      "IGN gives ratings out of 10 of damage 8, accuracy 3.6, handling 6 and range 2.4, with a magazine of 2.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "mason-and-keen",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Mason & Keen",
+      "slot": "long gun",
+      "magazine": "2",
+      "fire_mode": "Break Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hellspawn-comshot-12",
+    "name": "Hellspawn Comshot 12",
+    "summary": "Named Goodwin shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Hellspawn Comshot 12 as a longarm shotgun (Combat subtype) made by Goodwin, firing 12-Gauge rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7.7, accuracy 4.2, handling 4 and range 2.5, with a magazine of 7.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "goodwin",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Goodwin",
+      "slot": "long gun",
+      "magazine": "7",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hostile-super400",
+    "name": "Hostile Super400",
+    "summary": "Named Girardi shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Hostile Super400 as a longarm shotgun (Heavy subtype) made by Girardi, firing 12-Gauge rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7.4, accuracy 4.3, handling 5.3 and range 3.3, with a magazine of 7.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "girardi",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Girardi",
+      "slot": "long gun",
+      "magazine": "7",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marabunta-grande-hobo",
+    "name": "Marabunta Grande Hobo",
+    "summary": "Named Shrewsbury shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Marabunta Grande Hobo as a longarm shotgun (Double Barrel Sawed-Off subtype) made by Shrewsbury, firing 12-Gauge rounds in break action mode.",
+      "IGN gives ratings out of 10 of damage 8, accuracy 3.6, handling 6.4 and range 2, with a magazine of 2.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shotgun",
+      "shrewsbury",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "2",
+      "fire_mode": "Break Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nitepower-az1200",
+    "name": "Nitepower AZ1200",
+    "summary": "Named Girardi shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Nitepower AZ1200 as a longarm shotgun (Semi-Auto subtype) made by Girardi, firing 12-Gauge rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7.4, accuracy 5.1, handling 5.8 and range 2.1, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "girardi",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Girardi",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "san4san-gorse-425",
+    "name": "San4San Gorse 425",
+    "summary": "Named Fortune & Son shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the San4San Gorse 425 as a longarm shotgun (Stubby subtype) made by Fortune & Son, firing 12-Gauge rounds in pump action mode.",
+      "IGN gives ratings out of 10 of damage 7.5, accuracy 3.6, handling 6.7 and range 2, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Pump Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "smuggler-gorse-425",
+    "name": "Smuggler Gorse 425",
+    "summary": "Named Fortune & Son shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Smuggler Gorse 425 as a longarm shotgun (Stubby subtype) made by Fortune & Son, firing 12-Gauge rounds in pump action mode.",
+      "IGN gives ratings out of 10 of damage 7.5, accuracy 3.8, handling 6.2 and range 2, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Pump Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "throttler-vero",
+    "name": "Throttler Vero",
+    "summary": "Named Girardi shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Throttler Vero as a longarm shotgun (Semi-Auto Stubby subtype) made by Girardi, firing 12-Gauge rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7.4, accuracy 4.2, handling 6.6 and range 2, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "girardi",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Girardi",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "unpacked-comshot-12",
+    "name": "Unpacked Comshot 12",
+    "summary": "Named Goodwin shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Unpacked Comshot 12 as a longarm shotgun (Combat subtype) made by Goodwin, firing 12-Gauge rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 7.7, accuracy 4.5, handling 3.7 and range 2.5, with a magazine of 7.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "goodwin",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Goodwin",
+      "slot": "long gun",
+      "magazine": "7",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "watcher-pro-moreland-850",
+    "name": "Watcher Pro Moreland 850",
+    "summary": "Named Fortune & Son shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Watcher Pro Moreland 850 as a longarm shotgun (Pump Action subtype) made by Fortune & Son, firing 12-Gauge rounds in pump action mode.",
+      "IGN gives ratings out of 10 of damage 7.5, accuracy 4.4, handling 5 and range 2.5, with a magazine of 8.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "8",
+      "fire_mode": "Pump Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "woodhatch-longshot",
+    "name": "Woodhatch Longshot",
+    "summary": "Named Mason & Keen shotgun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Woodhatch Longshot as a longarm shotgun (Sporting subtype) made by Mason & Keen, firing 12-Gauge rounds in break action mode.",
+      "IGN gives ratings out of 10 of damage 8, accuracy 4.4, handling 5 and range 2.5, with a magazine of 2.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "mason-and-keen",
+      "shotgun",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-Gauge",
+      "manufacturer": "Mason & Keen",
+      "slot": "long gun",
+      "magazine": "2",
+      "fire_mode": "Break Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kingfishers-w-22",
+    "name": "Kingfishers W-22",
+    "summary": "Named Wortham small game rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Kingfishers W-22 as a longarm small game rifle made by Wortham, firing .22LR rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 1.5, accuracy 8.4, handling 5.4 and range 6.7, with a magazine of 15.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "rifle",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": ".22LR",
+      "manufacturer": "Wortham",
+      "slot": "long gun",
+      "magazine": "15",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mossy-mediator",
+    "name": "Mossy Mediator",
+    "summary": "Named Wortham small game rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Mossy Mediator as a longarm small game rifle made by Wortham, firing .22LR rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4.8, accuracy 8.1, handling 5.1 and range 7, with a magazine of 17.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Game8's weapons list (updated November 19, 2026) also shows it, as a tactical rifle by Hawk & Little in 9mm with damage 4.8, accuracy 8.1, handling 5.1, range 7 and a magazine of 17, and files it under its Unique filter.",
+      "Disagreement: IGN lists it as a Wortham small game rifle in .22LR, while Game8 lists it as a Hawk & Little tactical rifle in 9mm, matching the standard Mediator."
+    ],
+    "tags": [
+      "rifle",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": ".22LR",
+      "manufacturer": "Wortham",
+      "slot": "long gun",
+      "magazine": "17",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide",
+      "game8-weapons-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "redneck-w-22",
+    "name": "Redneck W-22",
+    "summary": "Named Wortham small game rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Redneck W-22 as a longarm small game rifle made by Wortham, firing .22LR rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 1.5, accuracy 8.3, handling 5.6 and range 7, with a magazine of 15.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "rifle",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": ".22LR",
+      "manufacturer": "Wortham",
+      "slot": "long gun",
+      "magazine": "15",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cruel-huntsmans-sm-69",
+    "name": "Cruel Huntsman's SM-69",
+    "summary": "Named Shrewsbury sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Cruel Huntsman's SM-69 as a longarm sniper rifle (Hunting subtype) made by Shrewsbury, firing 7.62x51mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.8, accuracy 9.2, handling 2.3 and range 9.2, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shrewsbury",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fib-sm-69",
+    "name": "FIB SM-69",
+    "summary": "Named Shrewsbury sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the FIB SM-69 as a longarm sniper rifle (Hunting subtype) made by Shrewsbury, firing 7.62x51mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.8, accuracy 8.6, handling 2.2 and range 8.8, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shrewsbury",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "6",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fincredible-laird-350",
+    "name": "Fincredible Laird 350",
+    "summary": "Named Fortune & Son sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Fincredible Laird 350 as a longarm sniper rifle (Sporting subtype) made by Fortune & Son, firing 6.5mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.5, accuracy 9.2, handling 3.1 and range 9.4, with a magazine of 6.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Game8's weapons list (updated November 19, 2026) also shows it, as a sniper rifle by Fortune & Son in 6.5mm with damage 6.5, accuracy 9.2, handling 3.1, range 9.4 and a magazine of 5, and files it under its Unique filter.",
+      "Disagreement: IGN gives a magazine of 6, Game8 a magazine of 5."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "6.5mm",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "6",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide",
+      "game8-weapons-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "firebreak-sm-69",
+    "name": "Firebreak SM-69",
+    "summary": "Named Shrewsbury sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Firebreak SM-69 as a longarm sniper rifle (Hunting subtype) made by Shrewsbury, firing 7.62x51mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.8, accuracy 9.2, handling 1.7 and range 9.8, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shrewsbury",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gun-nut-sms-01",
+    "name": "Gun Nut SMS-01",
+    "summary": "Named Shrewsbury sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Gun Nut SMS-01 as a longarm sniper rifle (Advanced subtype) made by Shrewsbury, firing 7.62x51mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.8, accuracy 9.4, handling 1.9 and range 9.2, with a magazine of 10.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shrewsbury",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "10",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hunters-laird-350",
+    "name": "Hunter's Laird 350",
+    "summary": "Named Fortune & Son sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Hunter's Laird 350 as a longarm sniper rifle (Sporting subtype) made by Fortune & Son, firing 6.5mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.5, accuracy 9.6, handling 3.1 and range 8.9, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "6.5mm",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "iaa-sms-01",
+    "name": "IAA SMS-01",
+    "summary": "Named Shrewsbury sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the IAA SMS-01 as a longarm sniper rifle (Advanced subtype) made by Shrewsbury, firing 7.62x51mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.8, accuracy 8.8, handling 2.8 and range 8, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "shrewsbury",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "internal-affairs-ff-sr",
+    "name": "Internal Affairs FF-SR",
+    "summary": "Named Fairview Firearms sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Internal Affairs FF-SR as a longarm sniper rifle (Combat subtype) made by Fairview Firearms, firing .338 Magnum rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 8, accuracy 9.3, handling 2 and range 8.7, with a magazine of 10.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fairview-firearms",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": ".338 Magnum",
+      "manufacturer": "Fairview Firearms",
+      "slot": "long gun",
+      "magazine": "10",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "island-poacher-ff-50",
+    "name": "Island Poacher FF-50",
+    "summary": "Named Fairview Firearms sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Island Poacher FF-50 as a longarm sniper rifle (Heavy subtype) made by Fairview Firearms, firing .50 BFG rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 8.5, accuracy 9, handling 1.4 and range 8.5, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fairview-firearms",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": ".50 BFG",
+      "manufacturer": "Fairview Firearms",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kingfishers-laird-350",
+    "name": "Kingfishers Laird 350",
+    "summary": "Named Fortune & Son sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Kingfishers Laird 350 as a longarm sniper rifle (Sporting subtype) made by Fortune & Son, firing 6.5mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.5, accuracy 8.6, handling 3.9 and range 8.4, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "6.5mm",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "twins-laird-350",
+    "name": "Twin's Laird 350",
+    "summary": "Named Fortune & Son sniper rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Twin's Laird 350 as a longarm sniper rifle (Sporting subtype) made by Fortune & Son, firing 6.5mm rounds in bolt action mode.",
+      "IGN gives ratings out of 10 of damage 6.5, accuracy 9.1, handling 3.7 and range 8, with a magazine of 5.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "fortune-and-son",
+      "sniper",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "6.5mm",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Bolt Action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chronic-vatra",
+    "name": "Chronic Vatra",
+    "summary": "Named Bohemia Zbran Industries submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Chronic Vatra as a longarm submachine gun (Heavy subtype) made by Bohemia Zbran Industries, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 5.5, handling 4.6 and range 3.6, with a magazine of 50.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "bohemia-zbran-industries",
+      "smg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Bohemia Zbran Industries",
+      "slot": "long gun",
+      "magazine": "50",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "crabshack-vf5",
+    "name": "Crabshack VF5",
+    "summary": "Named Vom Feuer submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Crabshack VF5 as a longarm submachine gun (Military subtype) made by Vom Feuer, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 4.2, handling 7.1 and range 4.5, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Crabshack VF5 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "vom-feuer",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Vom Feuer",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dazzler-dq-9",
+    "name": "Dazzler DQ-9",
+    "summary": "Named Schlamm submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Dazzler DQ-9 as a longarm submachine gun (Combat subtype) made by Schlamm, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 6.3, handling 4.6 and range 4.2, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "schlamm",
+      "smg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Schlamm",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "double-cross-vatra",
+    "name": "Double Cross Vatra",
+    "summary": "Named Bohemia Zbran Industries submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Double Cross Vatra as a longarm submachine gun (Heavy subtype) made by Bohemia Zbran Industries, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 3.8, handling 6.5 and range 3.6, with a magazine of 36.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "bohemia-zbran-industries",
+      "smg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Bohemia Zbran Industries",
+      "slot": "long gun",
+      "magazine": "36",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "furry-dw-9",
+    "name": "Furry DW-9",
+    "summary": "Named Schlamm submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Furry DW-9 as a longarm submachine gun (Combat subtype) made by Schlamm, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 4.2, handling 7.1 and range 4, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "schlamm",
+      "smg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Schlamm",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "guardia-brothers-vf5",
+    "name": "Guardia Brothers VF5",
+    "summary": "Named Vom Feuer submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Guardia Brothers VF5 as a longarm submachine gun (Military subtype) made by Vom Feuer, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 6.7, handling 4.5 and range 4.2, with a magazine of 40.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Guardia Brothers VF5 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "vom-feuer",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Vom Feuer",
+      "slot": "long gun",
+      "magazine": "40",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kolt-and-associates-vatra",
+    "name": "Kolt & Associates Vatra",
+    "summary": "Named Bohemia Zbran Industries submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Kolt & Associates Vatra as a longarm submachine gun (Heavy subtype) made by Bohemia Zbran Industries, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 4.8, handling 5.3 and range 3.6, with a magazine of 50.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "bohemia-zbran-industries",
+      "smg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Bohemia Zbran Industries",
+      "slot": "long gun",
+      "magazine": "50",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "midlife-crisis-vf5",
+    "name": "Midlife Crisis VF5",
+    "summary": "Named Vom Feuer submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Midlife Crisis VF5 as a longarm submachine gun (Military subtype) made by Vom Feuer, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 5.3, handling 6 and range 4.5, with a magazine of 40.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "IGN also lists a separate \"Midlife Crisis VF5 (Fully Modded)\" row with altered ratings."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "vom-feuer",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Vom Feuer",
+      "slot": "long gun",
+      "magazine": "40",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "scrapper-vf5c",
+    "name": "Scrapper VF5C",
+    "summary": "Named Vom Feuer submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Scrapper VF5C as a longarm submachine gun (Compact Military subtype) made by Vom Feuer, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 3.5, handling 8.2 and range 3.7, with a magazine of 40.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "vom-feuer",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Vom Feuer",
+      "slot": "long gun",
+      "magazine": "40",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "spangled-vatra",
+    "name": "Spangled Vatra",
+    "summary": "Named Bohemia Zbran Industries submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Spangled Vatra as a longarm submachine gun (Heavy subtype) made by Bohemia Zbran Industries, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 4, handling 6.3 and range 4, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "bohemia-zbran-industries",
+      "smg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Bohemia Zbran Industries",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bae-luxs-w-10",
+    "name": "Bae-Lux's W-10",
+    "summary": "Named Wortham submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Bae-Lux's W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 3.2, handling 7.5 and range 3.5, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Wortham",
+      "slot": "sidearm",
+      "magazine": "20",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chromium-w-10",
+    "name": "Chromium W-10",
+    "summary": "Named Wortham submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Chromium W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 3.1, handling 6.9 and range 3.2, with a magazine of 50.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Wortham",
+      "slot": "sidearm",
+      "magazine": "50",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "conspiracist-type-9",
+    "name": "Conspiracist Type 9",
+    "summary": "Named Zhang Wu submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Conspiracist Type 9 as a sidearm submachine gun (Machine Pistol subtype) made by Zhang Wu, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 5, handling 5.8 and range 3.9, with a magazine of 21.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "zhang-wu"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Zhang Wu",
+      "slot": "sidearm",
+      "magazine": "21",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "eris-fresh-dsg",
+    "name": "Eris Fresh DSG",
+    "summary": "Named Deever Tech submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Eris Fresh DSG as a sidearm submachine gun (Tactical subtype) made by Deever Tech, firing 9mm rounds in 3-round burst mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 3.8, handling 7.3 and range 4, with a magazine of 30.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "deever-tech",
+      "smg",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Deever Tech",
+      "slot": "sidearm",
+      "magazine": "30",
+      "fire_mode": "3-Round Burst"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "little-friend-w-10",
+    "name": "Little Friend W-10",
+    "summary": "Named Wortham submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Little Friend W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 3.4, handling 6.6 and range 3.2, with a magazine of 50.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Wortham",
+      "slot": "sidearm",
+      "magazine": "50",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marabunta-grande-type-9",
+    "name": "Marabunta Grande Type 9",
+    "summary": "Named Zhang Wu submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Marabunta Grande Type 9 as a sidearm submachine gun (Machine Pistol subtype) made by Zhang Wu, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 4.5, handling 6.7 and range 3.5, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "zhang-wu"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Zhang Wu",
+      "slot": "sidearm",
+      "magazine": "20",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "moneymaker-w-10",
+    "name": "Moneymaker W-10",
+    "summary": "Named Wortham submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Moneymaker W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 3.2, handling 6.5 and range 3.9, with a magazine of 50.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
+      "Game8's weapons list (updated November 19, 2026) also shows it, as a submachine gun by Wortham in 9mm with damage 4.2, accuracy 3.2, handling 6.5, range 3.9 and a magazine of 50, and files it under its Unique filter."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Wortham",
+      "slot": "sidearm",
+      "magazine": "50",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide",
+      "game8-weapons-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "neon-sunset-type-9",
+    "name": "Neon Sunset Type 9",
+    "summary": "Named Zhang Wu submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Neon Sunset Type 9 as a sidearm submachine gun (Machine Pistol subtype) made by Zhang Wu, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 4.3, handling 6.6 and range 3.9, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "zhang-wu"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Zhang Wu",
+      "slot": "sidearm",
+      "magazine": "20",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "roxys-w-10",
+    "name": "Roxy's W-10",
+    "summary": "Named Wortham submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Roxy's W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 3.2, handling 7.5 and range 3.5, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Wortham",
+      "slot": "sidearm",
+      "magazine": "20",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tyrones-w-10",
+    "name": "Tyrone's W-10",
+    "summary": "Named Wortham submachine gun variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Tyrone's W-10 as a sidearm submachine gun (Micro subtype) made by Wortham, firing 9mm rounds in full auto mode.",
+      "IGN gives ratings out of 10 of damage 4.2, accuracy 4.7, handling 5.4 and range 3.5, with a magazine of 50.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "smg",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Wortham",
+      "slot": "sidearm",
+      "magazine": "50",
+      "fire_mode": "Full Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "copperheads-w-14",
+    "name": "Copperheads W-14",
+    "summary": "Named Wortham tactical rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Copperheads W-14 as a longarm tactical rifle (Combat Rifle subtype) made by Wortham, firing 5.56x45mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 5.8, accuracy 7.9, handling 5.2 and range 6.3, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "rifle",
+      "variant",
+      "weapons",
+      "wortham"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Wortham",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "black-eagle-import-m306-tmr",
+    "name": "Black Eagle Import M306 TMR",
+    "summary": "Named Hillinger tactical rifle variant listed in IGN's GTA 6 weapons table.",
+    "body": [
+      "IGN's sortable weapons table lists the Black Eagle Import M306 TMR as a longarm tactical rifle (Marksman Elite Rifle subtype) made by Hillinger, firing 7.62x51mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 6.2, accuracy 9.5, handling 4.1 and range 7.5, with a magazine of 20.",
+      "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified."
+    ],
+    "tags": [
+      "hillinger",
+      "rifle",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Hillinger",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "schlamm-drx",
+    "name": "Schlamm DRX",
+    "summary": "Standard Schlamm tactical pistol in 9mm, listed in IGN's weapons table and sold in Standard and Hunting Ammu-Nation stock.",
+    "body": [
+      "IGN's sortable weapons table lists the Schlamm DRX as a sidearm pistol (Tactical subtype) made by Schlamm, firing 9mm rounds in semi-auto mode.",
+      "IGN gives ratings out of 10 of damage 4, accuracy 4.2, handling 8.2 and range 4.2, with a magazine of 17.",
+      "IGN's inventory column puts it in the Standard and Hunting Ammu-Nation stock; it is one of the standard guns, not a unique variant."
+    ],
+    "tags": [
+      "pistol",
+      "schlamm",
+      "sidearm",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Schlamm",
+      "slot": "sidearm",
+      "availability": "Standard or Hunting Ammu-Nation inventory (IGN)",
+      "magazine": "17",
+      "fire_mode": "Semi-Auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mahi-nipper-38",
+    "name": "Mahi Nipper .38",
+    "summary": "Unique Scorpio pistol variant of the Nipper .38, shown in Game8's weapons list.",
+    "body": [
+      "Game8's weapons list (updated November 19, 2026) shows the Mahi Nipper .38 as a semi-auto Scorpio pistol in .380 calibre with damage 2.8, accuracy 3, handling 9, range 3 and a magazine of 8, the same ratings it gives the standard Nipper .38.",
+      "Game8 files it under its Unique filter.",
+      "IGN's table does not list a Mahi Nipper .38; its Nipper variants are the Assassin, Low Point, Turnt and Zodiac."
+    ],
+    "tags": [
+      "pistol",
+      "scorpio",
+      "variant",
+      "weapons"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".380",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-weapons-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "baseball-bat",
+    "name": "Baseball Bat",
+    "summary": "Melee weapon (bat type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Baseball Bat as a melee weapon of the Bat type.",
+      "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
+      "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
+      "IGN names it first in its list of melee weapon types; its sortable table has no plain Baseball Bat row, only a Brontasaurus Bat.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "bat",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "edc-knife",
+    "name": "EDC Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the EDC Knife as a melee weapon of the Knife type.",
+      "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
+      "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "switchblade",
+    "name": "Switchblade",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Switchblade as a melee weapon of the Knife type.",
+      "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
+      "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
+      "IGN's table files it under Knife with Switchblade as its class.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "combat-knife",
+    "name": "Combat Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Combat Knife as a melee weapon of the Knife type.",
+      "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
+      "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "survival-knife",
+    "name": "Survival Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Survival Knife as a melee weapon of the Knife type.",
+      "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
+      "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
+      "IGN's table files it under Knife with Survival Knife as its class.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brass-knuckles",
+    "name": "Brass Knuckles",
+    "summary": "Melee weapon (fist type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Brass Knuckles as a melee weapon of the Fist type.",
+      "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
+      "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
+      "IGN's table files it under the Fist type.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "fist",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "baton",
+    "name": "Baton",
+    "summary": "Melee weapon (bludgeon type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Baton as a melee weapon of the Bludgeon type.",
+      "IGN names it among its melee weapon types: Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton.",
+      "Disagreement: IGN says there are nine melee weapon types and that 9 melee weapons count toward a full arsenal, but its list names ten; PowerPyx's Progress database also counts 9.",
+      "IGN's table files it under the Bludgeon type.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "bludgeon",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cursed-knife",
+    "name": "Cursed Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Cursed Knife as a melee weapon of the Knife type.",
+      "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "donnies-knife",
+    "name": "Donnie's Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Donnie's Knife as a melee weapon of the Knife type.",
+      "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brontasaurus-bat",
+    "name": "Brontasaurus Bat",
+    "summary": "Melee weapon (bat type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Brontasaurus Bat as a melee weapon of the Bat type.",
+      "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
+      "It is the only bat row in IGN's table.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "bat",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "explorers-knife",
+    "name": "Explorer's Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Explorer's Knife as a melee weapon of the Knife type.",
+      "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shark-knife",
+    "name": "Shark Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Shark Knife as a melee weapon of the Knife type.",
+      "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "soldiers-combat-knife",
+    "name": "Soldier's Combat Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Soldier's Combat Knife as a melee weapon of the Knife type.",
+      "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tallaloko-knife",
+    "name": "Tallaloko Knife",
+    "summary": "Melee weapon (knife type) listed in IGN's GTA 6 weapons guide.",
+    "body": [
+      "IGN's weapons guide (updated November 18, 2026) lists the Tallaloko Knife as a melee weapon of the Knife type.",
+      "It does not appear in IGN's list of melee weapon types, only as a row of its sortable table, so it may be a named version of one of those types; IGN does not say.",
+      "IGN gives no stats, maker, price or location for it."
+    ],
+    "tags": [
+      "knife",
+      "melee",
+      "weapons"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-weapons-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

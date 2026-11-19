@@ -2,6 +2,19 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.27 (19 November 2026)
+
+Pictures for almost everything, and 226 more entries.
+
+- Pictures: 1,282 of 1,636 entries now show a picture. Each is tied to its entry by name on the page it came from (Rockstar's own pages where they exist, otherwise guide and news sites, recorded with each picture), no picture is used twice, and none is smaller than 480 by 260 pixels. Pictures taken from guide sites illustrate their entries only and stay out of the Media gallery.
+- Weapons: 210, up from 84. IGN's weapons guide names every melee weapon, confirms the four explosives, adds the Schlamm DRX, and lists the named weapon variants, each with maker, ammunition, magazine and fire mode. About 50 guns gain their Ammu-Nation stock tier.
+- Collectibles: 154, including six named shipwrecks with their treasure and 26 more WAiNK spots.
+- Wildlife: 81, including dog breeds, the Florida panther, sharks and birds.
+- Places and businesses: islands, the Oceanarium, a police station, motels and dealerships.
+- Missions: Chapter 4 and 5 missions gain who gives them and where they start.
+- Intel: eight news items with pictures (the streaming record, analysts' forecasts, the Australian broadband record, the Miami Heat's Vice City night, the union vote and others), shown on the timeline. The PC and GTA Online answers say nothing was announced at launch.
+- Characters: the fan-compiled list of minor characters is removed, and named characters such as Kenton, Donnie and Mandy have pictures from Rockstar's footage.
+
 ## 0.2.26 (19 November 2026)
 
 The game is out, and the encyclopedia has grown from 233 entries to 1,471. Every entry names its source. Entries that describe what is in the game are marked as spoilers and stay blurred unless you chose to see spoilers.

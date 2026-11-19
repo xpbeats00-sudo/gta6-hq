@@ -32,7 +32,8 @@
       "powerpyx-cheats"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/powerpyx-t-e3db716318a9.jpg"
   },
   {
     "slug": "challenges",
@@ -76,7 +77,8 @@
       "powerpyx-cheats"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/powerpyx-2578163f02f4-2.jpg"
   },
   {
     "slug": "progress-database",
@@ -208,7 +210,8 @@
       "powerpyx-fast-travel"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/powerpyx-t-ffc6531dd123.jpg"
   },
   {
     "slug": "making-money",
@@ -244,8 +247,7 @@
       "powerpyx-money"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/artwork/jason-lucia-bank-robbery.webp"
+    "spoiler": true
   },
   {
     "slug": "accessibility-options",
@@ -282,7 +284,8 @@
     "sources": [
       "caniplaythat-accessibility"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-18",
+    "image": "/images/web/caniplaythat-t-1b7cdb2e4f6f.jpg"
   },
   {
     "slug": "console-comparison",
@@ -316,6 +319,7 @@
     "sources": [
       "purexbox-digital-foundry"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-18",
+    "image": "/images/web/purexbox-ee1487d17417.jpg"
   }
 ]

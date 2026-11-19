@@ -816,7 +816,7 @@ function timelineItem(item, full = false) {
   // The Intel page passes full = true to show the further detail under each item.
   const more = full === true ? (item.body || []).map((line) => `<p>${esc(line)}</p>`).join('') : '';
   return `<li>${closable('news', item, `<time datetime="${esc(item.date)}">${esc(formatDate(item.date))}</time> ${badge(item.confidence)}
-    <h3>${esc(item.name)}</h3><p>${esc(item.summary)}</p>${more}`)}</li>`;
+    <h3>${esc(item.name)}</h3><p>${esc(item.summary)}</p>${full === true && item.image && !STORE ? `<img class="timeline-pic" src="${esc(item.image)}" alt="" loading="lazy">` : ''}${more}`)}</li>`;
 }
 
 let countdownTimer;
@@ -1152,7 +1152,9 @@ async function renderMedia() {
 
   const items = [
     ...media.videos.map((v) => ({ ...v, type: 'video', group: 'wallpapers' })),
-    ...media.images.map((i) => ({ ...i, type: 'image', group: i.group || 'artwork' })),
+    // Pictures taken from guide pages illustrate their entries only. They stay out of the gallery:
+    // they are not artwork, and many show what the spoiler rule keeps covered.
+    ...media.images.filter((i) => i.group !== 'web').map((i) => ({ ...i, type: 'image', group: i.group || 'artwork' })),
   ];
   const groups = ['all', ...new Set(items.map((i) => i.group))];
 

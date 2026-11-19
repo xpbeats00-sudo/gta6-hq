@@ -6,7 +6,9 @@
     "body": [
       "Game8's work-in-progress melee list, updated on launch eve, shows three entries so far: Bushcraft Knife, Diving Knife and Hunting Knife.",
       "Game8 gives no stats, brand, price or location for it yet.",
-      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read."
+      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read.",
+      "IGN's weapons guide (updated November 18, 2026) names it among its melee weapon types (Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton) and its table files it under the Knife type, with no stats.",
+      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price."
     ],
     "tags": [
       "knife",
@@ -18,9 +20,11 @@
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
-      "powerpyx-progress-database"
+      "powerpyx-progress-database",
+      "ign-weapons-guide",
+      "game8-weapons-hub"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -30,7 +34,9 @@
     "body": [
       "Game8's work-in-progress melee list, updated on launch eve, shows three entries so far: Bushcraft Knife, Diving Knife and Hunting Knife.",
       "Game8 gives no stats, brand, price or location for it yet.",
-      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read."
+      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read.",
+      "IGN's weapons guide (updated November 18, 2026) names it among its melee weapon types (Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton) and its table files it under the Knife type, with no stats.",
+      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price."
     ],
     "tags": [
       "knife",
@@ -42,9 +48,11 @@
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
-      "powerpyx-progress-database"
+      "powerpyx-progress-database",
+      "ign-weapons-guide",
+      "game8-weapons-hub"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -54,7 +62,9 @@
     "body": [
       "Game8's work-in-progress melee list, updated on launch eve, shows three entries so far: Bushcraft Knife, Diving Knife and Hunting Knife.",
       "Game8 gives no stats, brand, price or location for it yet.",
-      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read."
+      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read.",
+      "IGN's weapons guide (updated November 18, 2026) names it among its melee weapon types (Baseball Bat, Hunting Knife, Bushcraft Knife, EDC Knife, Diving Knife, Switchblade, Combat Knife, Survival Knife, Brass Knuckles and Baton) and its table files it under the Knife type, with no stats.",
+      "Game8's main weapons list, updated November 19, 2026, still shows it as a melee weapon with no stats, brand or price."
     ],
     "tags": [
       "knife",
@@ -66,9 +76,11 @@
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
-      "powerpyx-progress-database"
+      "powerpyx-progress-database",
+      "ign-weapons-guide",
+      "game8-weapons-hub"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -78,7 +90,9 @@
     "body": [
       "Game8's work-in-progress explosives list shows two entries so far: Frag Grenade and Sticky Bomb, without stats or prices.",
       "PowerPyx's cheat list says the All Explosive Weapons cheat is unlocked by throwing 100 grenades.",
-      "PowerPyx reports the Progress database counts 4 explosives; no page read lists all four by name."
+      "PowerPyx reports the Progress database counts 4 explosives; no page read lists all four by name.",
+      "IGN's weapons guide counts 4 explosives and its table lists them as Molotov, Sticky Bomb, Flash Grenade and Frag Grenade; its text list names only Frag Grenade and Sticky Bomb.",
+      "Game8's main weapons list, updated November 19, 2026, shows Frag Grenade and Sticky Bomb as its only explosives."
     ],
     "tags": [
       "explosive",
@@ -91,9 +105,11 @@
     "confidence": "corroborated",
     "sources": [
       "game8-explosives",
-      "powerpyx-cheats"
+      "powerpyx-cheats",
+      "ign-weapons-guide",
+      "game8-weapons-hub"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -103,7 +119,8 @@
     "body": [
       "PowerPyx says a molotov thrown through the doorway is one way to burn a Kitty Litter lab, and that the Exploding Bottles cheat is unlocked by throwing 100 molotovs.",
       "IGN and Eurogamer both recorded, before launch, that Lucia uses a Molotov to burn a getaway car in Rockstar's Extended Look.",
-      "No page read confirms whether the Progress database files it under Explosives or what its exact in-game name is."
+      "No page read confirms whether the Progress database files it under Explosives or what its exact in-game name is.",
+      "IGN's weapons guide counts 4 explosives and its table lists them as Molotov, Sticky Bomb, Flash Grenade and Frag Grenade; its text list names only Frag Grenade and Sticky Bomb. That places the Molotov among the four database explosives, under the name Molotov."
     ],
     "tags": [
       "fire",
@@ -111,16 +128,18 @@
       "throwable"
     ],
     "facts": {
-      "type": "Throwable"
+      "type": "Explosive"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-kitty-litter-labs",
       "powerpyx-cheats",
       "ign-weapons-list",
-      "eurogamer-weapon-list"
+      "eurogamer-weapon-list",
+      "ign-weapons-guide"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19",
+    "image": "/images/web/ign-2bde806570a0.jpg"
   },
   {
     "slug": "flash-grenades",
@@ -129,7 +148,8 @@
     "body": [
       "PowerPyx's walkthrough says the contact leaves Flash Grenades and a silenced Klose K17 in a nearby trunk, and that using them is optional.",
       "PowerPyx's Cartel Heist walkthrough also describes a SWAT team using a flashbang on the player.",
-      "No page read confirms whether Flash Grenades are one of the 4 database Explosives."
+      "No page read confirms whether Flash Grenades are one of the 4 database Explosives.",
+      "IGN's weapons guide counts 4 explosives and its table lists them as Molotov, Sticky Bomb, Flash Grenade and Frag Grenade; its text list names only Frag Grenade and Sticky Bomb. IGN writes the name in the singular, Flash Grenade."
     ],
     "tags": [
       "grenade",
@@ -137,14 +157,15 @@
       "throwable"
     ],
     "facts": {
-      "type": "Throwable",
+      "type": "Explosive",
       "availability": "Car trunk during Car Service (Steal The Car for Raul)"
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-car-service"
+      "powerpyx-car-service",
+      "ign-weapons-guide"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -226,7 +247,8 @@
     "summary": "Bae-Luxe's Bat is a melee variant weapon given as the reward for the mission Cooties.",
     "body": [
       "PowerPyx lists it as the mission reward and says the Dimez hand Lucia a bat to hit DWNPLY's car during the video shoot.",
-      "No page read names the standard bat it is a variant of."
+      "No page read names the standard bat it is a variant of.",
+      "IGN's weapons guide names Baseball Bat as one of the melee weapon types; it does not say which type Bae-Lux's bat belongs to, and its table has no row named for Bae-Lux's bat."
     ],
     "tags": [
       "bat",
@@ -241,10 +263,12 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-cooties"
+      "powerpyx-cooties",
+      "ign-weapons-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "image": "/images/web/powerpyx-a580fcec3bc2.jpg"
   },
   {
     "slug": "mister-mangrove-laird-350",
@@ -268,7 +292,8 @@
       "powerpyx-mr-mangrove"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/web/powerpyx-t-c17b4a174c03.jpg"
   },
   {
     "slug": "unique-weapon-variants-overview",
@@ -277,7 +302,13 @@
     "body": [
       "PowerPyx says each of the 24 Ammu-Nation stores sells at least one unique variant, sometimes several, and that variants are not needed for 100% completion.",
       "PowerPyx says illegal gang operations usually hold a unique variant among their key valuables.",
-      "No page read lists all 130 by name."
+      "No page read lists all 130 by name.",
+      "IGN's weapons guide counts 127 unique variant weapons, plus two more with the Ultimate Edition; PowerPyx's figure is 130.",
+      "IGN says unique variants come from the story, illegal operations and exploring, that some sit in Ammu-Nation display cases at a high price, that they cannot be modified or recoloured, and that collecting one unlocks it for both Jason and Lucia.",
+      "IGN says they show a yellow gun icon in the world and a yellow name in the loadout and Weapons Locker menus.",
+      "IGN's table marks the GRX 556 and the Jack Sheepe H&L .38 in its Ultimate Edition column.",
+      "Game8's main weapons list, updated November 19, 2026, shows seven items under its Unique filter, among them the Fincredible Laird 350, Honky Tonk Mustang .357, Mahi Nipper .38, Moneymaker W-10, Mossy Mediator and Sand Storm ES9.",
+      "IGN also says there are 53 guns (16 sidearms and 37 longarms), that 52 weapons can be bought across 26 Ammu-Nation locations, and that only stores with Hunting stock sell the Wortham W-22; PowerPyx counts 24 Ammu-Nation stores."
     ],
     "tags": [
       "collectible",
@@ -291,9 +322,12 @@
     "sources": [
       "powerpyx-ammu-nations",
       "powerpyx-gang-operations",
-      "powerpyx-progress-database"
+      "powerpyx-progress-database",
+      "ign-weapons-guide",
+      "game8-weapons-hub"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "image": "/images/web/powerpyx-bba2d6250aa0-12.jpg"
   }
 ]

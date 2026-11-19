@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "kentons-huntress",
+    "name": "Huntress",
+    "summary": "Kenton's boat, docked at Island Dreams, used to sail out to the shipwreck dive sites.",
+    "body": [
+      "Push Square says the player can sail to the Underwater Discoveries in Kenton's Huntress, docked at Island Dreams, or in the Rugger Fortune after the mission Maritime Disputes.",
+      "GTA BOOM says the boat from the Island Dreams mission is back at the dock afterwards with scuba tanks at the stern; it does not name the boat."
+    ],
+    "tags": [
+      "boat",
+      "diving",
+      "kenton"
+    ],
+    "facts": {
+      "model": "Huntress",
+      "class": "Boat",
+      "availability": "Docked at Island Dreams Boat Charters, Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater",
+      "boom-treasure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "imponte-soaring-phoenix",
+    "name": "Imponte Soaring Phoenix",
+    "summary": "A Phoenix variant The Big Lead found parked in a Watson Bay garage.",
+    "body": [
+      "The Big Lead mentions an Imponte Soaring Phoenix parked in a garage just over the river south of a Los Santos Pounders card location in Watson Bay."
+    ],
+    "tags": [
+      "car",
+      "imponte"
+    ],
+    "facts": {
+      "manufacturer": "Imponte",
+      "model": "Soaring Phoenix",
+      "availability": "Garage in Watson Bay"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "invetero-spiderweb-coquette",
+    "name": "Invetero Spiderweb Coquette",
+    "summary": "A unique Coquette in a party house garage in south-east Key Lento, opened with keypad code 092319.",
+    "body": [
+      "The Big Lead says a unique Invetero Spiderweb Coquette sits in the garage of the party house in the south-east corner of Key Lento, and gives 092319 as the garage keypad code."
+    ],
+    "tags": [
+      "car",
+      "invetero",
+      "unique"
+    ],
+    "facts": {
+      "manufacturer": "Invetero",
+      "model": "Spiderweb Coquette",
+      "availability": "Party house garage, south-east Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

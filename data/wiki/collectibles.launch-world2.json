@@ -1,0 +1,1242 @@
+[
+  {
+    "slug": "wreck-nuestra-senora-del-ocio",
+    "name": "Nuestra Señora del Ocio",
+    "summary": "A shipwreck off Key Lento that Push Square says the player finds automatically during the story mission Island Dreams.",
+    "body": [
+      "Push Square places Nuestra Señora del Ocio in Key Lento, Mariana County, and says it is found automatically as part of the story mission Island Dreams.",
+      "Push Square says 10 doubloons have to be collected there to clear the wreck from the map.",
+      "Push Square says 33 Underwater Discoveries exist in all, that scuba gear is needed and that progress shows under Progress > Collections > Kenton's Treasures / Exploration."
+    ],
+    "tags": [
+      "kenton",
+      "key lento",
+      "shipwreck",
+      "treasure",
+      "underwater discovery"
+    ],
+    "facts": {
+      "type": "Underwater Discovery (shipwreck)",
+      "region": "Mariana County",
+      "total": 10
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wreck-nuestra-senora-de-la-noche",
+    "name": "Nuestra Señora de la Noche",
+    "summary": "A shipwreck south of Key Lento holding seven of Kenton's treasures.",
+    "body": [
+      "Push Square places Nuestra Señora de la Noche south of Key Lento in Mariana County and lists seven treasures there: Antique Candlestick, Dragon Pipe, Ivory Saint, Pewter Gauntlet, Purple Gemstone, Serpentine Statue and Stained Doubloon.",
+      "GTA BOOM agrees on the seven finds and puts the wreck in the search circle southeast of the tip of Key Lento, the nearer of two circles, in the Leonida Straits.",
+      "GTA BOOM says one of the seven is a separate chest on the seabed that shows an Open prompt rather than Treasure, and that Kenton paid $200 for that chest in its run.",
+      "Push Square says 33 Underwater Discoveries exist in all, that scuba gear is needed and that progress shows under Progress > Collections > Kenton's Treasures / Exploration."
+    ],
+    "tags": [
+      "kenton",
+      "key lento",
+      "shipwreck",
+      "treasure",
+      "underwater discovery"
+    ],
+    "facts": {
+      "type": "Underwater Discovery (Kenton's treasure set)",
+      "region": "Mariana County",
+      "total": 7
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater",
+      "boom-treasure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wreck-nuestra-senora-de-la-etica-laxa",
+    "name": "Nuestra Señora de la Ética Laxa",
+    "summary": "A shipwreck south of Key Lento and Abismo Key holding five of Kenton's treasures.",
+    "body": [
+      "Push Square places Nuestra Señora de la Ética Laxa south of Key Lento and Abismo Key in Mariana County, with five treasures: Ancient Snuff Box, Battered Doubloon, Ceremonial Spoon, Golden Chalice and Golden Pendant.",
+      "GTA BOOM also gives five treasures and says it is the farther south of the two marked circles, off the coast near Abismo Key.",
+      "Push Square says 33 Underwater Discoveries exist in all, that scuba gear is needed and that progress shows under Progress > Collections > Kenton's Treasures / Exploration."
+    ],
+    "tags": [
+      "kenton",
+      "key lento",
+      "shipwreck",
+      "treasure",
+      "underwater discovery"
+    ],
+    "facts": {
+      "type": "Underwater Discovery (Kenton's treasure set)",
+      "region": "Mariana County",
+      "total": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater",
+      "boom-treasure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wreck-urca-de-cinco-torres",
+    "name": "Urca de Cinco Torres",
+    "summary": "A shipwreck off south-eastern Key Lento holding six of Kenton's treasures.",
+    "body": [
+      "Push Square places the Urca de Cinco Torres off the south-eastern coast of Key Lento in Mariana County, near a group of green islands.",
+      "Push Square lists six treasures there: Ancient Ceremonial Mask, Ceremonial Plate, Golden Glove, Jade-Eye Cup, Rusty Doubloon and Sacred Necklace.",
+      "Push Square says 33 Underwater Discoveries exist in all, that scuba gear is needed and that progress shows under Progress > Collections > Kenton's Treasures / Exploration."
+    ],
+    "tags": [
+      "kenton",
+      "key lento",
+      "shipwreck",
+      "treasure",
+      "underwater discovery"
+    ],
+    "facts": {
+      "type": "Underwater Discovery (Kenton's treasure set)",
+      "region": "Mariana County",
+      "total": 6
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wreck-nuestra-senora-lujuriosa",
+    "name": "Nuestra Señora Lujuriosa",
+    "summary": "A shipwreck off south-eastern Key Lento holding six of Kenton's treasures.",
+    "body": [
+      "Push Square places Nuestra Señora Lujuriosa off the south-eastern coast of Key Lento in Mariana County, near the same group of green islands as the Urca de Cinco Torres.",
+      "Push Square lists six treasures there: Ceremonial Bowl, Ceremonial Knife, Golden Llama, Golden Statuette, Jade-Lobe Tankard and Shiny Doubloon.",
+      "Push Square says 33 Underwater Discoveries exist in all, that scuba gear is needed and that progress shows under Progress > Collections > Kenton's Treasures / Exploration."
+    ],
+    "tags": [
+      "kenton",
+      "key lento",
+      "shipwreck",
+      "treasure",
+      "underwater discovery"
+    ],
+    "facts": {
+      "type": "Underwater Discovery (Kenton's treasure set)",
+      "region": "Mariana County",
+      "total": 6
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wreck-urca-de-santa-sierra",
+    "name": "Urca de Santa Sierra",
+    "summary": "A shipwreck east of Key Lento holding six of Kenton's treasures.",
+    "body": [
+      "Push Square places the Urca de Santa Sierra east of Key Lento in Mariana County.",
+      "Push Square lists six treasures there: Brass Spyglass, Dividing Compass, Ornate Pocket Watch, Santa Sierra Bell, Silver Hip Flask and Worn Doubloon.",
+      "Push Square says 33 Underwater Discoveries exist in all, that scuba gear is needed and that progress shows under Progress > Collections > Kenton's Treasures / Exploration."
+    ],
+    "tags": [
+      "kenton",
+      "key lento",
+      "shipwreck",
+      "treasure",
+      "underwater discovery"
+    ],
+    "facts": {
+      "type": "Underwater Discovery (Kenton's treasure set)",
+      "region": "Mariana County",
+      "total": 6
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-downtown-periscope",
+    "name": "Downtown Periscope",
+    "summary": "A WAiNK landmark near Catalan Blvd in Downtown Vice City.",
+    "body": [
+      "Push Square places the Downtown Periscope close to Catalan Blvd, Downtown, Vice City, Vice-Dale County.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "landmark",
+      "vice city",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK landmark",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-landmarks",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-sky-ride",
+    "name": "Sky Ride",
+    "summary": "A tall WAiNK landmark east of the Emerald River in Emerald Springs.",
+    "body": [
+      "Push Square places the Sky Ride east of the Emerald River in Emerald Springs, Kelly County, and says its height makes it visible through the trees.",
+      "The Big Lead says it can be seen by looking south from the Black Bear Cafe in Emerald Springs.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "emerald springs",
+      "landmark",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK landmark",
+      "region": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-landmarks",
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-hoffman-observatory",
+    "name": "Hoffman Observatory",
+    "summary": "A hilltop observatory in western North Kelly County that counts as a WAiNK landmark.",
+    "body": [
+      "Push Square places the Hoffman Observatory in the western part of North Kelly County, on a hill overlooking Vice City.",
+      "The Big Lead puts it at the top of the peak at the west end of North Kelly County and says a Nine1Nine Dancers card and a tattoo magazine are inside the building.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "landmark",
+      "observatory",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK landmark",
+      "region": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-landmarks",
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-howe-dairy-farms-big-udder",
+    "name": "Howe Dairy Farm's Big Udder",
+    "summary": "A silo painted like a cow just south of CR 62 in Emerald Springs.",
+    "body": [
+      "Push Square places Howe Dairy Farm's Big Udder just south of CR 62 in Emerald Springs, Kelly County, and describes it as a giant silo painted like a cow that can be seen from the highway.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "farm",
+      "landmark",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK landmark",
+      "region": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-landmarks",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-tuckers-citrus-farms-water-tower",
+    "name": "Tucker's Citrus Farms Water Tower",
+    "summary": "A water tower at Tucker's Citrus Farms in Emerald Springs, east of Port Gellhorn.",
+    "body": [
+      "Push Square places Tucker's Citrus Farms Water Tower at Tucker's Citrus Farms in Emerald Springs, Kelly County, east of Port Gellhorn, and calls it one of the easier landmarks to find.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "farm",
+      "landmark",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK landmark",
+      "region": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-landmarks",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-gimme-all-your-oil",
+    "name": "Gimme All Your Oil",
+    "summary": "A WAiNK sculpture on Catalan Blvd in the Decor District of Vice City.",
+    "body": [
+      "Push Square places Gimme All Your Oil on Catalan Blvd, Decor District, Vice City, south-east of the Blanc & Giroux jewelry store.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "sculpture",
+      "vice city",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK sculpture",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-sculptures",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-junkyard-t-rex",
+    "name": "Junkyard T-Rex",
+    "summary": "A WAiNK sculpture off Sassafrass Rd north of the Kalaga Reservoir, just east of Bret's hunting cabin.",
+    "body": [
+      "Push Square places the Junkyard T-Rex off Sassafrass Rd north of the Kalaga Reservoir in Mount Kalaga National Park, Lummox County, just east of Bret's hunting cabin.",
+      "Push Square's writer reports getting into a fist fight with hippies at the spot.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "mount kalaga",
+      "sculpture",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK sculpture",
+      "region": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-sculptures",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-fatal-incursion-plaque",
+    "name": "Fatal Incursion Plaque",
+    "summary": "A WAiNK sculpture at the south-western tip of Key Lento, west of the Barnacle Beauties salon.",
+    "body": [
+      "Push Square places the Fatal Incursion Plaque at the very south-western tip of Key Lento, off Sunbelt Hwy, west of the Barnacle Beauties salon.",
+      "The Big Lead also lists it as a sculpture by the sea on the southwest point of Key Lento.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "key lento",
+      "sculpture",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK sculpture",
+      "region": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-sculptures",
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-large-lure",
+    "name": "Large Lure",
+    "summary": "A WAiNK sculpture in the park on Thompson Ave, Ocean Beach, directly south of Lucciano's.",
+    "body": [
+      "Push Square places the Large Lure in the park area on Thompson Ave, Ocean Beach, Vice Beach, directly south of Lucciano's.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "ocean beach",
+      "sculpture",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK sculpture",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-sculptures",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-the-wonder-whale",
+    "name": "The Wonder Whale",
+    "summary": "A whale sculpture south of The Wonder Whale store beside Sunbelt Hwy in Key Lento.",
+    "body": [
+      "Push Square says to scan the whale south of The Wonder Whale store, next to Sunbelt Hwy in Key Lento, Mariana County.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "key lento",
+      "sculpture",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK sculpture",
+      "region": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-sculptures",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-grassrivers-visitor-center-statue",
+    "name": "Grassrivers Visitor Center Statue",
+    "summary": "A WAiNK sculpture outside the Grassrivers Cafe & Deli in the Shoeless Keys.",
+    "body": [
+      "The Big Lead lists the Grassrivers Visitor Center Statue as a WAiNK sculpture outside the Grassrivers Cafe & Deli in the Shoeless Keys.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "grassrivers",
+      "sculpture",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK sculpture",
+      "region": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-blanco-memorial",
+    "name": "Blanco Memorial",
+    "summary": "A WAiNK sculpture on Salton Memorial Island, above Starfish Island.",
+    "body": [
+      "The Big Lead lists the Blanco Memorial as a WAiNK sculpture on Salton Memorial Island, above Starfish Island.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "sculpture",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK sculpture"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-fingerpost",
+    "name": "Fingerpost",
+    "summary": "A signpost pointing toward Liberty City, hidden in trees on an island in Permit Keys.",
+    "body": [
+      "Push Square places the Fingerpost in the northern, sandy part of the largest island in Permit Keys, immediately east of Barrage Gun Supply in Southwind, among trees and shrubs.",
+      "The Big Lead describes it as a signpost pointing the way to Liberty City on the large middle island in Permit Keys; the two guides differ on whether to call it the largest or the middle island.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "curiosity",
+      "permit keys",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK curiosity",
+      "region": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-curiosities",
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-derelict-spy-vessel",
+    "name": "Derelict Spy Vessel",
+    "summary": "A WAiNK curiosity on the southern tip of the south-eastern island in Permit Keys.",
+    "body": [
+      "The Big Lead places the Derelict Spy Vessel on the southern tip of the south-eastern island in Permit Keys and says an Assassin Nipper pistol and an old note are inside the ship.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "curiosity",
+      "permit keys",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK curiosity"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-hovercraft-crash",
+    "name": "Hovercraft Crash",
+    "summary": "A WAiNK curiosity on the southernmost island of the Sandbars, north of Belpoint Island.",
+    "body": [
+      "The Big Lead places the Hovercraft Crash on the north section of the southernmost island in the Sandbars, north of Belpoint Island, with a tattoo magazine by the nearby deck chairs.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "curiosity",
+      "sandbars",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK curiosity"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-wreck-of-the-meerwunder",
+    "name": "Wreck of the Meerwunder",
+    "summary": "A huge shipwreck on the south-east island of the Featherstone Islands, scanned as a WAiNK curiosity.",
+    "body": [
+      "The Big Lead lists the Wreck of the Meerwunder as a WAiNK curiosity on the north side of the south-east island in the Featherstone Islands.",
+      "The same guide puts three Cocaine Flamingos on the nearby beach, a meteorite under the fallen mast and a Jack of Hearts Dancers card at the top of the control room.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "curiosity",
+      "shipwreck",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK curiosity"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-halloween-house",
+    "name": "Halloween House",
+    "summary": "A WAiNK scan in the grid of six streets south of Tortoise Lake in Capri.",
+    "body": [
+      "The Big Lead places the Halloween House in the middle of the grid of six streets south of Tortoise Lake in Capri, and says the vehicle there has a livery to scan and the garden has a Cocaine Flamingo.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "capri",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-belville-topiary",
+    "name": "Belville Topiary",
+    "summary": "A hedge trim in a back garden south-east of the Celerica campus in Belville.",
+    "body": [
+      "The Big Lead lists the Belville Topiary as a hedge trim in the back garden of a house south-east of the Celerica campus in Belville.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "belville",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-fossilized-prints",
+    "name": "Fossilized Prints",
+    "summary": "A WAiNK spot south-east of Moreau, by the river north-west of Taco Bomb West Kalaga.",
+    "body": [
+      "The Big Lead places the Fossilized Prints south-east of Moreau, by the river north-west of Taco Bomb West Kalaga.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "moreau",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-selkie-hole",
+    "name": "Selkie Hole",
+    "summary": "A dive spot on the west edge of Emerald Springs with underwater tunnels.",
+    "body": [
+      "The Big Lead says the Selkie Hole is reached down the stairs at the diving spot on the west edge of Emerald Springs, by buildings with a small lake behind them.",
+      "The same guide says five meteorite chunks sit in its underwater tunnels.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "diving",
+      "emerald springs",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-riquezas-keys-radome",
+    "name": "Riquezas Keys Radome",
+    "summary": "A large dome on the large south-western island, scanned with WAiNK.",
+    "body": [
+      "The Big Lead lists the Riquezas Keys Radome as a big dome on the large island to the south-west, the same island as a Cocaine Flamingo and a Liberty City Penetrators card.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "riquezas keys",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-noflusher-homestead",
+    "name": "Noflusher Homestead",
+    "summary": "A WAiNK scan on the middle island in Wetman Bay, east of the Fishing Stacks outpost.",
+    "body": [
+      "The Big Lead places the Noflusher Homestead on the middle island in Wetman Bay, east of the Fishing Stacks outpost.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "no flusher",
+      "waink",
+      "wetman bay"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-st-lucia-lighthouse",
+    "name": "St Lucia Lighthouse",
+    "summary": "A WAiNK scan at the north of Little Hardin Island.",
+    "body": [
+      "The Big Lead places the St Lucia Lighthouse at the north of Little Hardin Island.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "lighthouse",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-unidentified-building",
+    "name": "Unidentified Building",
+    "summary": "A fenced-off bunker entrance on a small sandy island south of Little Hardin Island.",
+    "body": [
+      "The Big Lead describes the Unidentified Building as a fenced-off bunker entrance on the small sandy island south of Little Hardin Island.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "bunker",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-bobcat-key-experimental-dome",
+    "name": "Bobcat Key Experimental Dome",
+    "summary": "A dome sitting in the water at the south of Bobcat Key.",
+    "body": [
+      "The Big Lead places the Bobcat Key Experimental Dome on the curve of land at the south of Bobcat Key, sitting in the water almost directly south of the B in the region name on the map.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "bobcat key",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waink-beach-party-site",
+    "name": "Beach Party Site",
+    "summary": "A WAiNK scan just north-east of the Fingerpost on a Permit Keys island.",
+    "body": [
+      "The Big Lead places the Beach Party Site just north-east of the Fingerpost on the same Permit Keys island, with a Jack of Hearts Dancers card there.",
+      "The Big Lead does not say which WAiNK category it belongs to.",
+      "Scans count toward the 100 of 112 WAiNK locations needed for the You WAiNKer! trophy and 100% completion, as GameTrek lists them."
+    ],
+    "tags": [
+      "permit keys",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK location (category not stated)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "no-flusher-ocean-beach-buckingham",
+    "name": "Vice City Utility Marking #1",
+    "summary": "A No Flusher utility marking on the ground on Shore Dr, Ocean Beach, across from The Buckingham.",
+    "body": [
+      "Push Square places this utility marking on the floor on Shore Dr in Ocean Beach, Vice Beach, across from The Buckingham.",
+      "Push Square says Cal first texts the player about these markings, that they are scanned with WAiNK, and that it did not yet know how many exist; GameTrek gives 23 No Flusher Tags."
+    ],
+    "tags": [
+      "no flusher",
+      "ocean beach",
+      "utility marking",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK No Flusher Tag",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-noflusher",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "no-flusher-ocean-beach-banana-hole",
+    "name": "Vice City Utility Marking #2",
+    "summary": "A No Flusher utility marking outside The Banana Hole bar on Shore Dr, Ocean Beach.",
+    "body": [
+      "Push Square places this utility marking outside The Banana Hole bar on Shore Dr in Ocean Beach, Vice Beach.",
+      "Push Square says Cal first texts the player about these markings, that they are scanned with WAiNK, and that it did not yet know how many exist; GameTrek gives 23 No Flusher Tags."
+    ],
+    "tags": [
+      "no flusher",
+      "ocean beach",
+      "utility marking",
+      "waink"
+    ],
+    "facts": {
+      "type": "WAiNK No Flusher Tag",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-noflusher",
+      "gmtreks-waink"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "no-flusher-washington-beach-manhole",
+    "name": "Washington Beach utility marking",
+    "summary": "A utility marking on a manhole cover on the Washington Beach sidewalk.",
+    "body": [
+      "The Big Lead places a WAiNK utility marking on a manhole cover on the sidewalk outside the second building from the north with a helipad in Washington Beach.",
+      "The Big Lead says Cal adds the player to a chat about these markings."
+    ],
+    "tags": [
+      "no flusher",
+      "utility marking",
+      "waink",
+      "washington beach"
+    ],
+    "facts": {
+      "type": "WAiNK No Flusher Tag",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "reading-1159-survivalist-culture",
+    "name": "11:59 Survivalist Culture",
+    "summary": "A magazine at a lookout east of the Kalaga Reservoir, near Dawson Dam in Mount Kalaga National Park.",
+    "body": [
+      "Push Square places 11:59 Survivalist Culture up a ladder at a lookout point in woodland east of the Kalaga Reservoir, not far from Dawson Dam in Mount Kalaga National Park.",
+      "Push Square says Twin's Laird 350 sniper rifle can be picked up at the same lookout, and that the 27 magazines, books and comics are tracked under Progress > Collections > Exploration."
+    ],
+    "tags": [
+      "magazine",
+      "mount kalaga",
+      "reading"
+    ],
+    "facts": {
+      "type": "Magazine",
+      "region": "Lummox County",
+      "total": 27
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-magazines"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "reading-trigger-happy-issue-99",
+    "name": "Trigger Happy (Issue 99)",
+    "summary": "A magazine in a house in the north middle of Key Lento.",
+    "body": [
+      "The Big Lead says Trigger Happy issue 99 is found by breaking into a house in the north middle of Key Lento, the same house as a Liberty City Wrath card on the fireplace."
+    ],
+    "tags": [
+      "key lento",
+      "magazine",
+      "reading"
+    ],
+    "facts": {
+      "type": "Magazine",
+      "region": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "reading-peche-issue-69",
+    "name": "Peche (Issue 69)",
+    "summary": "A magazine inside the party house in the south-east corner of Key Lento.",
+    "body": [
+      "The Big Lead places Peche issue 69 inside the party house in the south-east corner of Key Lento."
+    ],
+    "tags": [
+      "key lento",
+      "magazine",
+      "reading"
+    ],
+    "facts": {
+      "type": "Magazine",
+      "region": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "style-sunset-blush-makeup",
+    "name": "Sunset Blush makeup",
+    "summary": "A makeup style scanned from a magazine in a house on Key Lento's northern coast.",
+    "body": [
+      "The Big Lead says the Sunset Blush makeup style comes from scanning a magazine in the bedroom of a house on the northern coast of Key Lento, which has to be broken into."
+    ],
+    "tags": [
+      "magazine",
+      "makeup",
+      "style"
+    ],
+    "facts": {
+      "type": "Lucia's magazine style",
+      "region": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "style-goth-garnet-makeup",
+    "name": "Goth Garnet makeup",
+    "summary": "A makeup style from a magazine in a Hamlet warehouse office, above Hamlet Police Department.",
+    "body": [
+      "The Big Lead places the Goth Garnet makeup style in a magazine in the back office of a warehouse in Hamlet, just above Hamlet Police Department on the map."
+    ],
+    "tags": [
+      "magazine",
+      "makeup",
+      "style"
+    ],
+    "facts": {
+      "type": "Lucia's magazine style",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "style-diamond-adorned-pink-cat-eye",
+    "name": "Diamond Adorned Pink Cat Eye makeup",
+    "summary": "A makeup style from a magazine in a Belville town centre house with mannequins.",
+    "body": [
+      "The Big Lead says this makeup style is scanned from a magazine on the living-room table of the house with mannequins in the northern row of Belville town centre."
+    ],
+    "tags": [
+      "magazine",
+      "makeup",
+      "style"
+    ],
+    "facts": {
+      "type": "Lucia's magazine style"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "style-hugh-bun-and-mymy-clip",
+    "name": "Hugh Bun and Mymy Clip hairstyle",
+    "summary": "A hairstyle magazine upstairs in a house on Capri's south-east finger.",
+    "body": [
+      "The Big Lead says a magazine with the Hugh Bun and Mymy Clip hairstyle for Lucia is upstairs in a house at the start of the south-east finger of Capri."
+    ],
+    "tags": [
+      "hairstyle",
+      "magazine",
+      "style"
+    ],
+    "facts": {
+      "type": "Lucia's magazine style"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "style-spiky-bun-and-framing",
+    "name": "Spiky Bun and Framing hairstyle",
+    "summary": "A hairstyle magazine for Lucia on a skyscraper roof at the south of Vice Beach.",
+    "body": [
+      "The Big Lead places the Spiky Bun and Framing hairstyle magazine for Lucia on the roof of the large skyscraper at the south of Vice Beach, above three clothing stores."
+    ],
+    "tags": [
+      "hairstyle",
+      "magazine",
+      "style"
+    ],
+    "facts": {
+      "type": "Lucia's magazine style",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "style-ear-web-buzz-cut",
+    "name": "Ear Web Buzz Cut hairstyle",
+    "summary": "A hairstyle magazine in a trailer park house just west of Righto Cash & Carry in Hamlet.",
+    "body": [
+      "The Big Lead places the Ear Web Buzz Cut hairstyle on a magazine in the trailer park house just west of Righto Cash & Carry in Hamlet; it does not say whose style it is."
+    ],
+    "tags": [
+      "hairstyle",
+      "magazine",
+      "style"
+    ],
+    "facts": {
+      "type": "Magazine style (character not stated)",
+      "region": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "style-light-blond-wavy-spikes",
+    "name": "Light Blond Wavy Spikes hairstyle",
+    "summary": "A hairstyle magazine for Jason on a sunbed in a gated community at the south of Catalan Key.",
+    "body": [
+      "The Big Lead says the Light Blond Wavy Spikes hairstyle magazine for Jason is on a sunbed in a back garden of one of the middle houses in the gated community at the south of Catalan Key."
+    ],
+    "tags": [
+      "hairstyle",
+      "magazine",
+      "style"
+    ],
+    "facts": {
+      "type": "Jason's magazine style"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tattoo-graffiti-point",
+    "name": "Graffiti Point tattoo",
+    "summary": "A tattoo design from a magazine at the top of the Mount Kalaga fire watch tower.",
+    "body": [
+      "The Big Lead says the Graffiti Point tattoo is scanned from a magazine at the top of the fire watch tower on Mount Kalaga."
+    ],
+    "tags": [
+      "magazine",
+      "style",
+      "tattoo"
+    ],
+    "facts": {
+      "type": "Magazine tattoo",
+      "region": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tattoo-tower-and-high-priestess-tarot",
+    "name": "The Tower Tarot and The High Priestess Tarot tattoos",
+    "summary": "Two tarot tattoo designs from a magazine on a mattress inside the Hoffman Observatory.",
+    "body": [
+      "The Big Lead says The Tower Tarot and The High Priestess Tarot tattoo designs are on a magazine lying on a mattress on the ground floor of the Hoffman Observatory."
+    ],
+    "tags": [
+      "magazine",
+      "style",
+      "tattoo"
+    ],
+    "facts": {
+      "type": "Magazine tattoo",
+      "region": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tattoo-glide-or-die-hovercraft",
+    "name": "Glide or Die Hovercraft tattoo",
+    "summary": "A tattoo design from a magazine by the deck chairs near the Hovercraft Crash in the Sandbars.",
+    "body": [
+      "The Big Lead places the Glide or Die Hovercraft tattoo on a magazine next to the deck chairs near the Hovercraft Crash in the Sandbars."
+    ],
+    "tags": [
+      "magazine",
+      "style",
+      "tattoo"
+    ],
+    "facts": {
+      "type": "Magazine tattoo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tattoo-humanatee-and-seductive-mermaid",
+    "name": "Humanatee and Seductive Mermaid tattoos",
+    "summary": "Tattoo designs from a magazine in a small warehouse room on the north-east of Catalan Key.",
+    "body": [
+      "The Big Lead says the Humanatee and Seductive Mermaid tattoo designs come from a magazine in a small warehouse room on the north-east of Catalan Key."
+    ],
+    "tags": [
+      "magazine",
+      "style",
+      "tattoo"
+    ],
+    "facts": {
+      "type": "Magazine tattoo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "meteorite-chunks",
+    "name": "Meteorite chunks",
+    "summary": "Glowing meteorite pieces scattered across Leonida that The Big Lead says are easiest to spot at night.",
+    "body": [
+      "The Big Lead lists meteorite chunks as a collectible and advises searching at night because they glow in the dark.",
+      "It places five in the underwater tunnels of the Selkie Hole in Emerald Springs, one under a bed in a Belville garage, one on a desk in the Sands of Time home in Waning Sands, and one beside the Wreck of the Meerwunder.",
+      "Other spots it gives include the rocks below the tower south-east of Killtelligence Provisions, the Sandbars, the Zephyr, Saint Attaway, Hyde and Frampton islands, under the pier on Belpoint, under a lighthouse in Leonida Bay and two on an island west of Leonida Bay south of Bobcat Key.",
+      "The guide gives no total, and the app's Kenton entry records that DayOne lists meteorites sold among Kenton's stats."
+    ],
+    "tags": [
+      "exploration",
+      "meteorite",
+      "night"
+    ],
+    "facts": {
+      "type": "Meteorite chunk"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

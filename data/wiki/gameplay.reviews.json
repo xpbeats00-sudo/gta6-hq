@@ -28,8 +28,7 @@
       "pushsquare-review"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/artwork/jason-lucia-car-window.webp"
+    "spoiler": true
   },
   {
     "slug": "profile-names-in-reviews",
@@ -89,8 +88,7 @@
       "sixthaxis-review"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/editions/hawk-and-little-morgan-revolvers-01.jpg"
+    "spoiler": true
   },
   {
     "slug": "aiming-and-focus-reviewed",
@@ -159,8 +157,7 @@
       "pushsquare-review"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/artwork/car-meet-selfie.webp"
+    "spoiler": true
   },
   {
     "slug": "police-in-the-released-game",
@@ -192,8 +189,7 @@
       "pushsquare-review"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/artwork/jason-motorbike-police.webp"
+    "spoiler": true
   },
   {
     "slug": "fences-and-selling-reviewed",
@@ -279,7 +275,7 @@
     ],
     "verified": "2026-11-18",
     "spoiler": true,
-    "image": "/images/artwork/jason-lucia-convertible-night.webp"
+    "image": "/images/web/thesixthaxis-t-003c021656d9.jpg"
   },
   {
     "slug": "performance-reviewed",
@@ -305,6 +301,7 @@
     "sources": [
       "pushsquare-review"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-18",
+    "image": "/images/web/pushsquare-0069076766a8.jpg"
   }
 ]

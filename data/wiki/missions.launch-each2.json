@@ -41,7 +41,9 @@
       "GTABase's mission page classes it as a mandatory story mission, number 85 in its story order, in Chapter 4, with Lucia and Jason as the playable leads, and marks it as required for 100% completion.",
       "GTABase lists no trophy for it and had not published its walkthrough when checked.",
       "PC Gamer's mission list has it sixth in Chapter 4, after Party Hard and before Photo/Shoot; Dexerto's list puts it in the same place.",
-      "Disagreement: PowerPyx's hub does not list a mission called Heavy Lifting; in the same stretch it has It's A Date!, Party Hard, Pay Abe's Fee and Photo/Shoot."
+      "Disagreement: PowerPyx's hub does not list a mission called Heavy Lifting; in the same stretch it has It's A Date!, Party Hard, Pay Abe's Fee and Photo/Shoot.",
+      "KeenGamer's walkthrough lists it sixth in Chapter 4 as a delivery job involving Jason and Lucia, and Push Square's and games.gg's lists also include it.",
+      "TechWiser's 38-mission Chapter 4 list, like PowerPyx's, has no mission called Heavy Lifting."
     ],
     "tags": [
       "chapter 4",
@@ -61,9 +63,13 @@
       "gtabase-missions",
       "pcgamer-mission-list",
       "dexerto-mission-list",
-      "powerpyx-walkthrough"
+      "powerpyx-walkthrough",
+      "keengamer-walkthrough",
+      "pushsquare-chapters",
+      "gamesgg-missions",
+      "techwiser-missions"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   }
 ]

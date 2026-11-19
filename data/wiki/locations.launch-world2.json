@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "vice-city-oceanarium",
+    "name": "Vice City Oceanarium",
+    "summary": "An oceanarium under a dome on the north-east of Catalan Key, with a big shark-mouth display.",
+    "body": [
+      "The Big Lead names the Vice City Oceanarium as the dome on the north-east of Catalan Key and says a Vice City Manatees card sits by the turtle decoration inside its big shark-mouth display."
+    ],
+    "tags": [
+      "catalan key",
+      "oceanarium",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Oceanarium",
+      "districts": [
+        "Catalan Key"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "salton-memorial-island",
+    "name": "Salton Memorial Island",
+    "summary": "An island above Starfish Island where The Big Lead places the Blanco Memorial sculpture.",
+    "body": [
+      "The Big Lead places Salton Memorial Island above Starfish Island and says the Blanco Memorial WAiNK sculpture is there."
+    ],
+    "tags": [
+      "island",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Island"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "casanova-island",
+    "name": "Casanova Island",
+    "summary": "An island of houses in Vice City where The Big Lead found two collectible cards.",
+    "body": [
+      "The Big Lead places a Vice City Manatees card in a garage on the south edge of Casanova Island and a Los Santos Pounders card upstairs in a house at its north."
+    ],
+    "tags": [
+      "island",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Island"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vespucci-island",
+    "name": "Vespucci Island",
+    "summary": "An island with a mansion robbery opportunity and several card-holding garages.",
+    "body": [
+      "The Big Lead mentions a Vespucci Mansion robbery opportunity on Vespucci Island and several cards in garages there, including one south of the bridge out of the island."
+    ],
+    "tags": [
+      "island",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Island"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "oldby-island",
+    "name": "Oldby Island",
+    "summary": "An island in Vice Beach where Push Square places the Ajax Gym on Vickery Dr.",
+    "body": [
+      "Push Square places the Ajax Gym on Vickery Dr, Oldby Island, Vice Beach, Vice-Dale County."
+    ],
+    "region": "Vice-Dale County",
+    "tags": [
+      "island",
+      "vice beach"
+    ],
+    "facts": {
+      "type": "Island",
+      "county": "Vice-Dale County",
+      "districts": [
+        "Vice Beach"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-magazines"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "crosstown-police-station",
+    "name": "Crosstown Police Station",
+    "summary": "A gated police station on NW 9th St in Crosstown with a multi-level car park.",
+    "body": [
+      "Push Square places the Crosstown Police Station on NW 9th St, Crosstown, Vice City, behind a gate, and says Randy's Pegassi Infernus waits on the 7th level of its car park, where a stunt jump leads out."
+    ],
+    "region": "Vice-Dale County",
+    "tags": [
+      "crosstown",
+      "police",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Police station",
+      "county": "Vice-Dale County",
+      "districts": [
+        "Crosstown"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-randy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brets-hunting-cabin",
+    "name": "Bret's hunting cabin",
+    "summary": "Bret's cabin north of the Kalaga Reservoir, just west of the Junkyard T-Rex sculpture.",
+    "body": [
+      "Push Square places the Junkyard T-Rex just east of Bret's hunting cabin, off Sassafrass Rd north of the Kalaga Reservoir in Mount Kalaga National Park."
+    ],
+    "region": "Lummox County",
+    "tags": [
+      "bret",
+      "hunting",
+      "mount kalaga"
+    ],
+    "facts": {
+      "type": "Cabin",
+      "county": "Lummox County",
+      "districts": [
+        "Mount Kalaga National Park"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-sculptures"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

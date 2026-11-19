@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.27**: pictures for 1,282 entries, each tied to its entry by name and none repeated; 210 weapons with every named variant; shipwrecks, WAiNK spots, more animals and launch news.
 - **0.2.26**: the game is out: 1,471 entries (295 vehicles, 174 missions, 364 places and businesses, 84 weapons, all 22 radio stations), a Field Manual checked against launch coverage, and 130 new vehicle pictures.
 - **0.2.25**: the launch update: an Achievements section with all 55 trophies and their icons, missions by chapter, collectibles and the 100% checklist, cheats, challenges, and what launch reviews report, with post-launch details marked as spoilers.
 - **0.2.24**: a first-open spoiler warning, spoilers blurred under an eye button, and settings that are kept across restarts and updates.

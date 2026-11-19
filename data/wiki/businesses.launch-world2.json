@@ -1,0 +1,179 @@
+[
+  {
+    "slug": "island-dreams-boat-charters",
+    "name": "Island Dreams Boat Charters",
+    "summary": "Kenton's yellow boat charter shop in Key Lento, where treasure is sold.",
+    "body": [
+      "GTA BOOM describes Island Dreams Boat Charters as a yellow shop in Key Lento where Kenton buys treasure at the counter.",
+      "Push Square says Kenton's boat, the Huntress, is docked at Island Dreams."
+    ],
+    "tags": [
+      "boat",
+      "kenton",
+      "key lento"
+    ],
+    "facts": {
+      "type": "Boat charter shop",
+      "location": "Key Lento, Mariana County",
+      "owner": "Kenton"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "boom-treasure",
+      "ps-underwater"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-auto-world",
+    "name": "Leonida Auto World",
+    "summary": "The place where Randy can be talked to for hints on his wish-list cars.",
+    "body": [
+      "Push Square says talking to Randy at Leonida Auto World sometimes gives hints about where to find each wish-list car."
+    ],
+    "tags": [
+      "cars",
+      "randy"
+    ],
+    "facts": {
+      "type": "Car dealership",
+      "availability": "Randy's Wish List"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-randy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sweetbay-inn",
+    "name": "Sweetbay Inn",
+    "summary": "An inn on East Buckley Dr in Capri where Push Square found the Bravado Banshee late at night.",
+    "body": [
+      "Push Square found Randy's Bravado Banshee parked outside the Sweetbay Inn on East Buckley Dr in Capri at around 3am."
+    ],
+    "tags": [
+      "capri",
+      "hotel"
+    ],
+    "facts": {
+      "type": "Inn",
+      "location": "East Buckley Dr, Capri"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-randy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "traders-union",
+    "name": "Trader's Union",
+    "summary": "A gated yard on Gellhorn Ave, Port Gellhorn, where the '82 Canis Crawler is stolen for Moses.",
+    "body": [
+      "Push Square places the white '82 Canis Crawler at Trader's Union, Gellhorn Ave, Port Gellhorn, behind a locked gate, with a man repairing the car."
+    ],
+    "tags": [
+      "moses",
+      "port gellhorn"
+    ],
+    "facts": {
+      "type": "Building (Trader's Union)",
+      "location": "Gellhorn Ave, Port Gellhorn, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-moses"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "starlet-motel",
+    "name": "Starlet Motel",
+    "summary": "A motel on US-183 in Port Gellhorn whose reception and kitchen hold two Chapter 2 books.",
+    "body": [
+      "Push Square places the Starlet Motel on US-183, Port Gellhorn, Kelly County, with Help Me, Help You, Help Me in reception and Children of Wizard Wang in the kitchen, both to be read before the end of Chapter 2."
+    ],
+    "tags": [
+      "motel",
+      "port gellhorn"
+    ],
+    "facts": {
+      "type": "Motel",
+      "location": "US-183, Port Gellhorn, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-magazines"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "grayson-motel",
+    "name": "Grayson Motel",
+    "summary": "A motel on Rockledge Rd north of Taco Bomb West Kalaga, with a book in reception.",
+    "body": [
+      "Push Square places the Grayson Motel on Rockledge Rd, north of the Taco Bomb West Kalaga in Moreau, Lummox County, with The Cowboy's Prayer Is to Die Young on a table in reception."
+    ],
+    "tags": [
+      "lummox",
+      "motel"
+    ],
+    "facts": {
+      "type": "Motel",
+      "location": "Rockledge Rd, Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-magazines"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sands-of-time",
+    "name": "Sands of Time",
+    "summary": "An old people's home on the Vinewood Beach strip in Waning Sands.",
+    "body": [
+      "The Big Lead describes Sands of Time as the old people's home near Vinewood Beach in Waning Sands, the large enterable building in the middle of the beach strip, with a meteorite chunk on a downstairs office desk."
+    ],
+    "tags": [
+      "waning sands"
+    ],
+    "facts": {
+      "type": "Retirement home",
+      "location": "Vinewood Beach, Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "tbl-collectibles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-buckingham",
+    "name": "The Buckingham",
+    "summary": "A building on Shore Dr, Ocean Beach, across from a No Flusher marking.",
+    "body": [
+      "Push Square places a No Flusher utility marking on the ground on Shore Dr, Ocean Beach, across from The Buckingham."
+    ],
+    "tags": [
+      "ocean beach"
+    ],
+    "facts": {
+      "location": "Shore Dr, Ocean Beach, Vice Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-noflusher"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]
