@@ -1,6 +1,6 @@
 # Media rights audit
 
-Generated 2026-11-19 08:06 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-19 08:44 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Generated 2026-11-19 08:06 by `scripts/audit_media.py` from the files on disk an
 | Files with no record | 35 |
 | Records with no file | 0 |
 | Groups of identical files | 1 |
-| Files not used anywhere | 2246 |
+| Files not used anywhere | 2247 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 15 |
 
@@ -248,7 +248,6 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/activities/basketball-hoops.jpg`
 - `images/activities/basketball-records.jpg`
 - `images/activities/boone-speedway.jpg`
-- `images/activities/brets-target-decks.jpg`
 - `images/activities/crashed-plane-south-of-hamlet.jpg`
 - `images/activities/fishing-challenges.jpg`
 - `images/activities/gellhorn-international-raceway.jpg`
@@ -1649,6 +1648,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/collectibles/waink-wild-hog-point-radar-base.jpg`
 - `images/collectibles/waink-wreck-of-the-meerwunder.jpg`
 - `images/collectibles/wreck-nuestra-senora-de-la-etica-laxa.jpg`
+- `images/collectibles/wreck-nuestra-senora-de-la-noche.jpg`
 - `images/collectibles/wreck-nuestra-senora-del-ocio.jpg`
 - `images/collectibles/wreck-nuestra-senora-lujuriosa.jpg`
 - `images/collectibles/wreck-urca-de-cinco-torres.jpg`
@@ -2279,6 +2279,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/wildlife/eastern-spotted-skunk.jpg`
 - `images/wildlife/eel.jpg`
 - `images/wildlife/flamingo.jpg`
+- `images/wildlife/florida-panther.jpg`
 - `images/wildlife/german-shepherd.jpg`
 - `images/wildlife/green-iguana.jpg`
 - `images/wildlife/hammerhead-shark.jpg`

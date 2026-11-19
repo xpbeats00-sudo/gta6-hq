@@ -2,6 +2,13 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.29 (19 November 2026)
+
+Two pictures put back on the right entries.
+
+- Florida panther: Rockstar's picture is back on its entry; in 0.2.28 it showed on Bret's Target Decks.
+- Nuestra Señora de la Noche: the wreck's own picture is back on its entry instead of the general Underwater discoveries entry.
+
 ## 0.2.28 (19 November 2026)
 
 Collectible cards, stunts and races, the official credits, and 1,292 more entries.

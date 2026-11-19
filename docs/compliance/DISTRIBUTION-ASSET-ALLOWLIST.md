@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-19 08:06 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-19 08:44 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -170,7 +170,6 @@ None. No media file is cleared for public distribution.
 - `images/activities/basketball-hoops.jpg`
 - `images/activities/basketball-records.jpg`
 - `images/activities/boone-speedway.jpg`
-- `images/activities/brets-target-decks.jpg`
 - `images/activities/classic-car-collection.jpg`
 - `images/activities/crashed-plane-south-of-hamlet.jpg`
 - `images/activities/everyday-life.jpg`
@@ -1539,7 +1538,6 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/under-the-bridge-west-vice-dale-county-northeast.jpg`
 - `images/collectibles/under-the-bridge-west-vice-dale-county-south.jpg`
 - `images/collectibles/under-the-bridge-xero-billboard.jpg`
-- `images/collectibles/underwater-discoveries.jpg`
 - `images/collectibles/waink-abismo-key-carcass.jpg`
 - `images/collectibles/waink-anti-sugar-residence.jpg`
 - `images/collectibles/waink-aqua-stadium.jpg`
@@ -1632,6 +1630,7 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/waink-wild-hog-point-radar-base.jpg`
 - `images/collectibles/waink-wreck-of-the-meerwunder.jpg`
 - `images/collectibles/wreck-nuestra-senora-de-la-etica-laxa.jpg`
+- `images/collectibles/wreck-nuestra-senora-de-la-noche.jpg`
 - `images/collectibles/wreck-nuestra-senora-del-ocio.jpg`
 - `images/collectibles/wreck-nuestra-senora-lujuriosa.jpg`
 - `images/collectibles/wreck-urca-de-cinco-torres.jpg`
@@ -2639,6 +2638,7 @@ None. No media file is cleared for public distribution.
 - `images/wildlife/eastern-spotted-skunk.jpg`
 - `images/wildlife/eel.jpg`
 - `images/wildlife/flamingo.jpg`
+- `images/wildlife/florida-panther.jpg`
 - `images/wildlife/german-shepherd.jpg`
 - `images/wildlife/green-iguana.jpg`
 - `images/wildlife/hammerhead-shark.jpg`

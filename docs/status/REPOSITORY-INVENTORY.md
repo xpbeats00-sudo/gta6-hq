@@ -1,6 +1,6 @@
 # Repository inventory
 
-Generated 2026-11-19 08:06 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-19 08:44 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
@@ -9,13 +9,13 @@ Generated 2026-11-19 08:06 by `scripts/current_state.py`. Do not edit by hand.
 | `data/` | 74 | 4.8 MB |
 | `images/` | 2659 | 239.3 MB |
 | `wallpapers/` | 70 | 98.1 MB |
-| `docs/` | 253 | 103.5 MB |
+| `docs/` | 253 | 104.0 MB |
 | `scripts/` | 24 | 0.2 MB |
 | `cache/` | 1972 | 284.0 MB |
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 9 | 78.3 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 3548 | 1370.3 MB |
+| `target/release/` | 3605 | 1392.1 MB |
 
 ## Source files
 
