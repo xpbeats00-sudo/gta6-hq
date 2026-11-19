@@ -49,6 +49,8 @@ if (await ask.count()) {
 const visit = async (hash, name, check) => {
   await page.evaluate((h) => { location.hash = h; }, hash);
   await page.waitForTimeout(1800);
+  // A slow runner can take longer to fill a page (the manual loads its own data): wait up to 10 s more.
+  await page.waitForFunction(() => (document.querySelector('#view')?.innerText || '').trim().length >= 40, null, { timeout: 10000 }).catch(() => {});
   const text = (await page.locator('#view').innerText()).trim();
   if (text.length < 40) problems.push(`${hash}: the page is almost empty`);
   if (check) await check();
