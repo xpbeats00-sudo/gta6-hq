@@ -1,0 +1,2047 @@
+[
+  {
+    "slug": "scorpio-nipper-38",
+    "name": "Scorpio Nipper .38",
+    "summary": "A small, easily hidden Scorpio pistol in .380 with an eight-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 2.8, accuracy 3.0, handling 9.0 and range 3.0, with a capacity of 8 rounds and semi-auto fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
+      "Tracker Network's database lists it as the Nipper .38 under Handguns."
+    ],
+    "tags": [
+      ".38",
+      "compact",
+      "handgun",
+      "nipper",
+      "pistol",
+      "scorpio"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".380",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "duke-1922",
+    "name": "Duke 1922",
+    "summary": "A .45-calibre Duke semi-automatic pistol with an eight-round magazine and above-average stopping power.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.5, accuracy 4.8, handling 8.0 and range 4.6, with a capacity of 8 rounds and semi-auto fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
+      "Tracker Network's database lists it as the 1922 under Handguns."
+    ],
+    "tags": [
+      "1922",
+      "duke",
+      "handgun",
+      "pistol"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".45",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "8",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "girardi-es18",
+    "name": "Girardi ES18",
+    "summary": "A Girardi 9mm machine pistol that fires three-round bursts from a 30-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.4, handling 8.2 and range 4.8, with a capacity of 30 rounds and 3-round burst fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel."
+    ],
+    "tags": [
+      "burst",
+      "es18",
+      "girardi",
+      "handgun",
+      "machine pistol",
+      "pistol"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Girardi",
+      "slot": "sidearm",
+      "magazine": "30",
+      "fire_mode": "3-round burst"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "klose-k17-mcd",
+    "name": "Klose K17 MCD",
+    "summary": "A converted Klose K17 that fires fully automatic from a 24-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.0, accuracy 3.2, handling 8.0 and range 4.2, with a capacity of 24 rounds and full auto fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel."
+    ],
+    "tags": [
+      "automatic",
+      "handgun",
+      "k17",
+      "klose",
+      "machine pistol",
+      "mcd",
+      "pistol"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": "9mm",
+      "manufacturer": "Klose",
+      "slot": "sidearm",
+      "magazine": "24",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fairview-kalinga-50",
+    "name": "Fairview Kalinga .50",
+    "summary": "A heavy .50 Magnum pistol from Fairview Firearms with a seven-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.0, accuracy 4.0, handling 7.8 and range 5.0, with a capacity of 7 rounds and semi-auto fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel."
+    ],
+    "tags": [
+      ".50",
+      "fairview",
+      "handgun",
+      "heavy pistol",
+      "kalinga",
+      "pistol"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".50 Magnum",
+      "manufacturer": "Fairview Firearms",
+      "slot": "sidearm",
+      "magazine": "7",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hawk-and-little-38",
+    "name": "Hawk & Little .38",
+    "summary": "A traditional six-shot Hawk & Little revolver chambered in .38 Special.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 2.5, accuracy 5.0, handling 8.6 and range 4.5, with a capacity of 6 rounds and semi-auto fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
+      "DayOne groups revolvers with pistols; this one is described as a revolver."
+    ],
+    "tags": [
+      ".38",
+      "handgun",
+      "hawk",
+      "little",
+      "pistol",
+      "revolver"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".38 Special",
+      "manufacturer": "Hawk & Little",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "duke-mustang-357",
+    "name": "Duke Mustang .357",
+    "summary": "A six-shot Duke revolver in .357 Magnum with a strong kick.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.7, accuracy 4.5, handling 8.0 and range 5.5, with a capacity of 6 rounds and semi-auto fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
+      "Tracker Network's database lists it as the Mustang .357 Revolver under Handguns."
+    ],
+    "tags": [
+      ".357",
+      "duke",
+      "handgun",
+      "mustang",
+      "pistol",
+      "revolver"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".357 Magnum",
+      "manufacturer": "Duke",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "wortham-wcr1",
+    "name": "Wortham WCR1",
+    "summary": "A five-shot snub-nosed Wortham revolver in .38 Special that is easy to hide.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 2.2, accuracy 3.8, handling 9.0 and range 4.5, with a capacity of 5 rounds and semi-auto fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel."
+    ],
+    "tags": [
+      "handgun",
+      "pistol",
+      "revolver",
+      "snubnose",
+      "wcr1",
+      "wortham"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".38 Special",
+      "manufacturer": "Wortham",
+      "slot": "sidearm",
+      "magazine": "5",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "scorpio-akulus",
+    "name": "Scorpio Akulus",
+    "summary": "A heavy six-shot Scorpio revolver in .44 Magnum.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.0, accuracy 4.2, handling 7.6 and range 6.0, with a capacity of 6 rounds and semi-auto fire.",
+      "Game Rant says pistols occupy the sidearm slots of the weapon wheel."
+    ],
+    "tags": [
+      "akulus",
+      "handgun",
+      "pistol",
+      "revolver",
+      "scorpio"
+    ],
+    "facts": {
+      "type": "pistol",
+      "ammo": ".44 Magnum",
+      "manufacturer": "Scorpio",
+      "slot": "sidearm",
+      "magazine": "6",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vom-feuer-vf5",
+    "name": "Vom Feuer VF5",
+    "summary": "A classic Vom Feuer 9mm submachine gun with a 30-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 5.0, handling 6.7 and range 4.5, with a capacity of 30 rounds and full auto fire.",
+      "DayOne's write-up of the in-game description calls it a longarm; its table heading misspells the maker while the brand field reads Vom Feuer."
+    ],
+    "tags": [
+      "feuer",
+      "smg",
+      "submachine gun",
+      "vf5",
+      "vom"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Vom Feuer",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wortham-w-10",
+    "name": "Wortham W-10",
+    "summary": "A light Wortham 9mm submachine gun with a 20-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 3.2, handling 7.5 and range 3.5, with a capacity of 20 rounds and full auto fire."
+    ],
+    "tags": [
+      "10",
+      "smg",
+      "submachine gun",
+      "wortham"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Wortham",
+      "magazine": "20",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "zhang-wu-type-9",
+    "name": "Zhang Wu Type 9",
+    "summary": "A small mass-produced Zhang Wu 9mm machine pistol suited to close range.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 3.8, handling 7.8 and range 3.5, with a capacity of 10 rounds and full auto fire.",
+      "DayOne files it under submachine guns although the description calls it a machine pistol."
+    ],
+    "tags": [
+      "machine pistol",
+      "smg",
+      "submachine gun",
+      "type",
+      "wu",
+      "zhang"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Zhang Wu",
+      "magazine": "10",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "deever-tech-dsg",
+    "name": "Deever Tech DSG",
+    "summary": "A Deever Tech 9mm submachine gun that fires three-round bursts.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.2, handling 6.9 and range 4.0, with a capacity of 30 rounds and 3-round burst fire."
+    ],
+    "tags": [
+      "burst",
+      "deever",
+      "dsg",
+      "smg",
+      "submachine gun",
+      "tech"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Deever Tech",
+      "magazine": "30",
+      "fire_mode": "3-round burst"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vom-feuer-vf5c",
+    "name": "Vom Feuer VF5C",
+    "summary": "The shortened version of the Vom Feuer VF5 submachine gun.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 5.0, handling 6.9 and range 4.0, with a capacity of 30 rounds and full auto fire."
+    ],
+    "tags": [
+      "compact",
+      "feuer",
+      "smg",
+      "submachine gun",
+      "vf5c",
+      "vom"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Vom Feuer",
+      "magazine": "30",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "schlamm-dw-9",
+    "name": "Schlamm DW-9",
+    "summary": "A tactical Schlamm 9mm submachine gun with a 30-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.5, handling 6.8 and range 4.0, with a capacity of 30 rounds and full auto fire.",
+      "DayOne's write-up of the in-game description calls it a longarm."
+    ],
+    "tags": [
+      "dw",
+      "dw9",
+      "schlamm",
+      "smg",
+      "submachine gun"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Schlamm",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bzi-vatra",
+    "name": "BZI Vatra",
+    "summary": "A fully automatic 9mm submachine gun from Bohemia Zbran Industries (BZI).",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 3.8, handling 6.5 and range 4.0, with a capacity of 20 rounds and full auto fire."
+    ],
+    "tags": [
+      "bzi",
+      "smg",
+      "submachine gun",
+      "vatra"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "9mm",
+      "manufacturer": "Bohemia Zbran Industries",
+      "magazine": "20",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "adb-pd-80",
+    "name": "ADB PD-80",
+    "summary": "A compact personal-defence submachine gun from Armurerie de Belgique (AdB) in 5.7x28mm.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.8, handling 6.6 and range 4.2, with a capacity of 30 rounds and full auto fire."
+    ],
+    "tags": [
+      "80",
+      "adb",
+      "pd",
+      "pdw",
+      "smg",
+      "submachine gun"
+    ],
+    "facts": {
+      "type": "smg",
+      "ammo": "5.7x28mm",
+      "manufacturer": "Armurerie de Belgique",
+      "magazine": "30",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mason-and-keen-longshot",
+    "name": "Mason & Keen Longshot",
+    "summary": "A British two-shot break-action hunting shotgun from Mason & Keen.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 8.0, accuracy 4.1, handling 5.0 and range 2.5, with a capacity of 2 rounds and break action fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "double barrel",
+      "hunting",
+      "keen",
+      "longshot",
+      "mason",
+      "shotgun"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Mason & Keen",
+      "slot": "long gun",
+      "magazine": "2",
+      "fire_mode": "Break action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fortune-and-son-moreland-850",
+    "name": "Fortune & Son Moreland 850",
+    "summary": "A five-shell pump-action shotgun made by Fortune & Son.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.5, accuracy 4.2, handling 5.6 and range 2.5, with a capacity of 5 rounds and pump action fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "Tracker Network's database lists it as the Moreland 850 under Shotguns.",
+      "PowerPyx reports a unique variant, the Gutterball Moreland 850, lying on a table in the north-east corner of Kingpin Bowling."
+    ],
+    "tags": [
+      "850",
+      "fortune",
+      "gutterball",
+      "moreland",
+      "pump",
+      "shotgun",
+      "son"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Pump action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "ppx-trophy",
+      "ppx-kingpin",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "girardi-verro",
+    "name": "Girardi Verro",
+    "summary": "A short, light semi-automatic Girardi shotgun holding five shells.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.4, accuracy 3.9, handling 6.5 and range 2.0, with a capacity of 5 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "girardi",
+      "semi-auto",
+      "shotgun",
+      "verro"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Girardi",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "girardi-az1200",
+    "name": "Girardi AZ1200",
+    "summary": "A semi-automatic Girardi shotgun holding five shells.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.4, accuracy 4.5, handling 5.8 and range 2.5, with a capacity of 5 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "az1200",
+      "girardi",
+      "semi-auto",
+      "shotgun"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Girardi",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fortune-and-son-gorse-425",
+    "name": "Fortune & Son Gorse 425",
+    "summary": "A short pump-action shotgun from Fortune & Son.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.5, accuracy 3.8, handling 6.2 and range 2.0, with a capacity of 5 rounds and pump action fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "Tracker Network's database lists it as the Gorse 425 under Shotguns."
+    ],
+    "tags": [
+      "425",
+      "fortune",
+      "gorse",
+      "pump",
+      "shotgun",
+      "son"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "magazine": "5",
+      "fire_mode": "Pump action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shrewsbury-drifter",
+    "name": "Shrewsbury Drifter",
+    "summary": "A side-by-side Shrewsbury hunting shotgun with two barrels.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 8.0, accuracy 4.1, handling 5.0 and range 2.5, with a capacity of 2 rounds and break action fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "Tracker Network's database lists it as the Drifter under Shotguns."
+    ],
+    "tags": [
+      "double barrel",
+      "drifter",
+      "hunting",
+      "shotgun",
+      "shrewsbury"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "magazine": "2",
+      "fire_mode": "Break action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shrewsbury-hobo",
+    "name": "Shrewsbury Hobo",
+    "summary": "A sawn-off version of the Shrewsbury hunting shotgun, short enough for tight spaces.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 8.0, accuracy 3.6, handling 6.4 and range 2.0, with a capacity of 2 rounds and break action fire.",
+      "Tracker Network's database lists it as the Hobo under Shotguns.",
+      "No source read states which carry slot this sawn-off gun uses."
+    ],
+    "tags": [
+      "double barrel",
+      "hobo",
+      "sawed-off",
+      "sawn-off",
+      "shotgun",
+      "shrewsbury"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Shrewsbury",
+      "magazine": "2",
+      "fire_mode": "Break action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mason-and-keen-shortstraw",
+    "name": "Mason & Keen Shortstraw",
+    "summary": "A two-shot break-action Mason & Keen shotgun.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 8.0, accuracy 3.6, handling 6.4 and range 2.0, with a capacity of 2 rounds and break action fire.",
+      "DayOne gives no description for it.",
+      "PowerPyx says the 'Explosive Shotgun' cheat adds a Mason & Keen Shortstraw to the loadout.",
+      "No source read states which carry slot it uses."
+    ],
+    "tags": [
+      "cheat",
+      "double barrel",
+      "keen",
+      "mason",
+      "shortstraw",
+      "shotgun"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Mason & Keen",
+      "magazine": "2",
+      "fire_mode": "Break action"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "goodwin-comshot-12",
+    "name": "Goodwin Comshot 12",
+    "summary": "A sturdy seven-shell semi-automatic shotgun from Goodwin.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.7, accuracy 4.2, handling 4.0 and range 2.5, with a capacity of 7 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "12",
+      "comshot",
+      "goodwin",
+      "semi-auto",
+      "shotgun"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Goodwin",
+      "slot": "long gun",
+      "magazine": "7",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "girardi-super400",
+    "name": "Girardi Super400",
+    "summary": "A tactical seven-shell semi-automatic Girardi shotgun with military associations.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.4, accuracy 4.2, handling 5.3 and range 2.5, with a capacity of 7 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "girardi",
+      "semi-auto",
+      "shotgun",
+      "super400",
+      "tactical"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Girardi",
+      "slot": "long gun",
+      "magazine": "7",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kozlov-kvga-12",
+    "name": "Kozlov KVGA-12",
+    "summary": "A fully automatic Kozlov shotgun with an eight-round capacity.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 7.2, accuracy 4.5, handling 5.1 and range 2.5, with a capacity of 8 rounds and full auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "DayOne spells the maker 'Kozlove' in the name but gives the brand as Kozlov."
+    ],
+    "tags": [
+      "12",
+      "automatic",
+      "kozlov",
+      "kvga",
+      "shotgun"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "ammo": "12-gauge",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "8",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kozlov-kz-59",
+    "name": "Kozlov KZ-59",
+    "summary": "A hard-hitting Kozlov assault rifle in 7.62x39mm with a 30-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.4, accuracy 5.2, handling 5.2 and range 6.5, with a capacity of 30 rounds and full auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "59",
+      "assault rifle",
+      "kozlov",
+      "kz",
+      "rifle"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x39mm",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hillinger-heathen",
+    "name": "Hillinger Heathen",
+    "summary": "A Hillinger 5.56mm assault rifle that fires three-round bursts.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.0, accuracy 6.2, handling 5.8 and range 6.2, and 3-round burst fire.",
+      "DayOne's table gives its magazine size as 3, which may be a slip; the capacity is unverified.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "assault rifle",
+      "burst",
+      "heathen",
+      "hillinger",
+      "rifle"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Hillinger",
+      "slot": "long gun",
+      "fire_mode": "3-round burst"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "duke-556",
+    "name": "Duke 556",
+    "summary": "A fully automatic Duke 5.56mm assault rifle with a 30-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.0, accuracy 6.0, handling 5.8 and range 6.2, with a capacity of 30 rounds and full auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "Tracker Network's database lists it as the 556 under Assault Rifles.",
+      "PowerPyx recommends it for the Gunslinger trophy because of its accuracy and automatic fire."
+    ],
+    "tags": [
+      "556",
+      "assault rifle",
+      "duke",
+      "rifle"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Duke",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "ppx-trophy",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "kozlov-hind",
+    "name": "Kozlov Hind",
+    "summary": "A cut-down Kozlov KZ-59 assault rifle modified for close quarters.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.4, accuracy 4.5, handling 6.1 and range 4.5, with a capacity of 30 rounds and full auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "assault rifle",
+      "compact",
+      "hind",
+      "kozlov",
+      "rifle"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x39mm",
+      "manufacturer": "Kozlov",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vom-feuer-vf-g1",
+    "name": "Vom Feuer VF-G1",
+    "summary": "A modern modular Vom Feuer assault rifle in 5.56mm.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.0, accuracy 6.2, handling 5.8 and range 6.5, with a capacity of 30 rounds and full auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "assault rifle",
+      "feuer",
+      "g1",
+      "rifle",
+      "vf",
+      "vom"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Vom Feuer",
+      "slot": "long gun",
+      "magazine": "30",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "adb-fra",
+    "name": "ADB FRA",
+    "summary": "A 7.62x51mm battle rifle from Armurerie de Belgique (AdB) with heavy recoil.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.8, accuracy 5.0, handling 5.3 and range 6.9, with a capacity of 20 rounds and full auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots."
+    ],
+    "tags": [
+      "adb",
+      "assault rifle",
+      "battle rifle",
+      "fra",
+      "rifle"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Armurerie de Belgique",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wortham-w-22",
+    "name": "Wortham W-22",
+    "summary": "A low-powered Wortham .22 rifle meant for hunting small animals.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 1.5, accuracy 8.0, handling 5.8 and range 7.0, with a capacity of 15 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "DayOne lists it in a combined 'Tactical and Sniper Rifles' group without saying which of the two it is.",
+      "DayOne's hunting guide names it as the recommended weapon for small game such as rabbits, squirrels, ducks, turkeys and iguanas."
+    ],
+    "tags": [
+      "22",
+      "hunting",
+      "rifle",
+      "small game",
+      "tactical rifle",
+      "wortham"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": ".22 LR",
+      "manufacturer": "Wortham",
+      "slot": "long gun",
+      "magazine": "15",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "dayone-hunting",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hillinger-m306",
+    "name": "Hillinger M306",
+    "summary": "A powerful semi-automatic Hillinger rifle in 7.62x51mm with a military past.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 6.2, accuracy 7.5, handling 4.8 and range 7.5, with a capacity of 20 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "DayOne lists it in a combined 'Tactical and Sniper Rifles' group without saying which of the two it is."
+    ],
+    "tags": [
+      "hillinger",
+      "m306",
+      "rifle",
+      "tactical rifle"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Hillinger",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hawk-and-little-mediator",
+    "name": "Hawk & Little Mediator",
+    "summary": "A modern Hawk & Little 9mm carbine with a 17-round magazine.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 4.8, accuracy 7.8, handling 5.6 and range 7.0, with a capacity of 17 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "Tracker Network's database lists it as the Mediator under Tactical Rifles.",
+      "DayOne's hunting guide names it as the recommended weapon for foxes, bobcats and coyotes."
+    ],
+    "tags": [
+      "carbine",
+      "hawk",
+      "hunting",
+      "little",
+      "mediator",
+      "rifle",
+      "tactical rifle"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "9mm",
+      "manufacturer": "Hawk & Little",
+      "slot": "long gun",
+      "magazine": "17",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "dayone-hunting",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wortham-w-14",
+    "name": "Wortham W-14",
+    "summary": "A small, tough Wortham tactical rifle in 5.56mm.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 5.8, accuracy 7.5, handling 5.2 and range 7.2, with a capacity of 20 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "Tracker Network's database lists it as the W-14 under Tactical Rifles."
+    ],
+    "tags": [
+      "14",
+      "rifle",
+      "tactical rifle",
+      "wortham"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Wortham",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "trackergg",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hillinger-m306-tmr",
+    "name": "Hillinger M306 TMR",
+    "summary": "A modernised Hillinger M306 rifle built for the game's Navy ORCAs unit.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 6.2, accuracy 7.8, handling 5.5 and range 7.5, with a capacity of 20 rounds and semi-auto fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "DayOne lists it in a combined 'Tactical and Sniper Rifles' group without saying which of the two it is."
+    ],
+    "tags": [
+      "hillinger",
+      "m306",
+      "rifle",
+      "tactical rifle",
+      "tmr"
+    ],
+    "facts": {
+      "type": "rifle",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Hillinger",
+      "slot": "long gun",
+      "magazine": "20",
+      "fire_mode": "Semi-auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fairview-ff-sr",
+    "name": "Fairview FF-SR",
+    "summary": "A military-issue bolt-action sniper rifle from Fairview Firearms in .338 Magnum.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 8.0, accuracy 7.5, handling 3.8 and range 7.5, with a capacity of 10 rounds and bolt action fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "PowerPyx lists it among the five sniper rifles sold at Expanded Ammu-Nation stores, priced at $2,950.",
+      "DayOne spells the maker 'Faireview' for this rifle; PowerPyx and DayOne's other entries use Fairview."
+    ],
+    "tags": [
+      "fairview",
+      "ff",
+      "sniper",
+      "sniper rifle",
+      "sr"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": ".338 Magnum",
+      "manufacturer": "Fairview Firearms",
+      "slot": "long gun",
+      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
+      "magazine": "10",
+      "fire_mode": "Bolt action",
+      "price": "$2,950"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-sniper",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shrewsbury-sm-69",
+    "name": "Shrewsbury SM-69",
+    "summary": "A dependable five-round bolt-action Shrewsbury sniper rifle used for hunting large animals.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 6.8, accuracy 7.6, handling 4.0 and range 7.5, with a capacity of 5 rounds and bolt action fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "PowerPyx lists it among the five sniper rifles sold at Expanded Ammu-Nation stores, priced at $1,850.",
+      "DayOne's hunting guide names it as the recommended weapon for alligators, crocodiles, black bears and wild boar.",
+      "PowerPyx says Bret hands over a unique variant, the Killtelligence SM-69, in the mission Veteran Hunted, and that it can afterwards be taken from any weapon locker."
+    ],
+    "tags": [
+      "69",
+      "hunting",
+      "killtelligence",
+      "shrewsbury",
+      "sm",
+      "sniper",
+      "sniper rifle"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Shrewsbury",
+      "slot": "long gun",
+      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
+      "magazine": "5",
+      "fire_mode": "Bolt action",
+      "price": "$1,850"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-sniper",
+      "dayone-hunting",
+      "ppx-bret",
+      "ppx-100",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fortune-and-son-laird-350",
+    "name": "Fortune & Son Laird 350",
+    "summary": "A five-round bolt-action hunting sniper rifle from Fortune & Son, the cheapest of its class.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 6.5, accuracy 8.0, handling 4.5 and range 7.5, with a capacity of 5 rounds and bolt action fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "PowerPyx lists it among the five sniper rifles sold at Expanded Ammu-Nation stores, priced at $950.",
+      "Tracker Network's database lists it as the Laird 350 under Sniper Rifles."
+    ],
+    "tags": [
+      "350",
+      "fortune",
+      "hunting",
+      "laird",
+      "sniper",
+      "sniper rifle",
+      "son"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": "6.5mm",
+      "manufacturer": "Fortune & Son",
+      "slot": "long gun",
+      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
+      "magazine": "5",
+      "fire_mode": "Bolt action",
+      "price": "$950"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-sniper",
+      "trackergg",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fairview-ff-50",
+    "name": "Fairview FF-50",
+    "summary": "A .50-calibre bolt-action anti-materiel rifle from Fairview Firearms.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 8.5, accuracy 7.0, handling 3.5 and range 7.5, with a capacity of 5 rounds and bolt action fire.",
+      "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
+      "PowerPyx lists it among the five sniper rifles sold at Expanded Ammu-Nation stores, priced at $3,975."
+    ],
+    "tags": [
+      "50",
+      "anti-materiel",
+      "fairview",
+      "ff",
+      "sniper",
+      "sniper rifle"
+    ],
+    "facts": {
+      "type": "sniper",
+      "ammo": ".50 BFG",
+      "manufacturer": "Fairview Firearms",
+      "slot": "long gun",
+      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
+      "magazine": "5",
+      "fire_mode": "Bolt action",
+      "price": "$3,975"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-sniper",
+      "gamerant-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shrewsbury-sms-01",
+    "name": "Shrewsbury SMS-01",
+    "summary": "A Shrewsbury sniper rifle that only goes on sale after finishing Bret Vogel's ninth hunting job.",
+    "body": [
+      "PowerPyx lists it at $2,150 at Expanded Ammu-Nation stores and says it unlocks after Bret Vogel's ninth hunting quest, a questline that begins with the optional Chapter 2 mission Veteran Hunted.",
+      "It does not appear in DayOne's weapon list, so its calibre and ratings are unverified."
+    ],
+    "tags": [
+      "bret",
+      "shrewsbury",
+      "sms-01",
+      "sniper",
+      "sniper rifle",
+      "unlock"
+    ],
+    "facts": {
+      "type": "sniper",
+      "manufacturer": "Shrewsbury",
+      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms) after Bret Vogel's ninth hunting quest",
+      "price": "$2,150"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sniper"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "goodwin-lmg-6",
+    "name": "Goodwin LMG 6",
+    "summary": "A Goodwin light machine gun in 7.62x51mm fed from a 100-round supply.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 6.8, accuracy 2.8, handling 2.8 and range 6.5, with a capacity of 100 rounds and full auto fire.",
+      "PowerPyx says Expanded Ammu-Nation stores are the ones that stock light machine guns, without naming the models."
+    ],
+    "tags": [
+      "goodwin",
+      "light machine gun",
+      "lmg",
+      "machine gun"
+    ],
+    "facts": {
+      "type": "lmg",
+      "ammo": "7.62x51mm",
+      "manufacturer": "Goodwin",
+      "magazine": "100",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-ammunation"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "adb-m350",
+    "name": "ADB M350",
+    "summary": "A 5.56mm light machine gun from Armurerie de Belgique (AdB) with a 100-round supply.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 6.5, accuracy 3.0, handling 3.2 and range 6.2, with a capacity of 100 rounds and full auto fire.",
+      "PowerPyx says Expanded Ammu-Nation stores are the ones that stock light machine guns, without naming the models."
+    ],
+    "tags": [
+      "adb",
+      "light machine gun",
+      "lmg",
+      "m350",
+      "machine gun"
+    ],
+    "facts": {
+      "type": "lmg",
+      "ammo": "5.56x45mm",
+      "manufacturer": "Armurerie de Belgique",
+      "magazine": "100",
+      "fire_mode": "Full auto"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-ammunation"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hillinger-boomer",
+    "name": "Hillinger Boomer",
+    "summary": "A single-shot military 40mm grenade launcher made by Hillinger.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 9.2, accuracy 5.0, handling 6.0 and range 4.0, with a capacity of 1 rounds and single shot fire.",
+      "PowerPyx calls it the Hillinger Boomer and prices it at $12,000 at Expanded Ammu-Nation stores; DayOne writes the name as Hillinger Boomers."
+    ],
+    "tags": [
+      "boomer",
+      "boomers",
+      "explosive",
+      "grenade launcher",
+      "hillinger",
+      "launcher"
+    ],
+    "facts": {
+      "type": "explosive",
+      "ammo": "40mm grenade",
+      "manufacturer": "Hillinger",
+      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
+      "magazine": "1",
+      "fire_mode": "Single shot",
+      "price": "$12,000"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-launchers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "deever-tech-glr40",
+    "name": "Deever Tech GLR40",
+    "summary": "A six-shot rotary 40mm grenade launcher made by Deever Tech.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 9.2, accuracy 6.0, handling 5.0 and range 4.0, with a capacity of 6 rounds and semi-auto fire.",
+      "PowerPyx prices it at $15,500 at Expanded Ammu-Nation stores."
+    ],
+    "tags": [
+      "deever",
+      "explosive",
+      "glr40",
+      "grenade launcher",
+      "launcher",
+      "tech"
+    ],
+    "facts": {
+      "type": "explosive",
+      "ammo": "40mm grenade",
+      "manufacturer": "Deever Tech",
+      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
+      "magazine": "6",
+      "fire_mode": "Semi-auto",
+      "price": "$15,500"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-launchers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hauners-h-at",
+    "name": "Hauners H-AT",
+    "summary": "A single-shot shoulder-fired 66mm rocket launcher from Hauners Industries, strong against vehicles.",
+    "body": [
+      "DayOne lists in-game ratings out of 10 of damage 9.6, accuracy 4.5, handling 3.0 and range 8.0, with a capacity of 1 rounds and single shot fire.",
+      "PowerPyx calls it the Hauners H-AT Rocket Launcher, the game's only rocket launcher, priced at $16,000 at Expanded Ammu-Nation stores; DayOne lists it simply as H-AT.",
+      "PowerPyx also lists a cheat that adds a Hauners H-AT to the loadout."
+    ],
+    "tags": [
+      "at",
+      "cheat",
+      "explosive",
+      "hauners",
+      "launcher",
+      "rocket launcher",
+      "rpg"
+    ],
+    "facts": {
+      "type": "explosive",
+      "ammo": "66mm rocket",
+      "manufacturer": "Hauners Industries",
+      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
+      "magazine": "1",
+      "fire_mode": "Single shot",
+      "price": "$16,000"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-weapons",
+      "ppx-launchers",
+      "ppx-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "killtelligence-sm-69",
+    "name": "Killtelligence SM-69",
+    "summary": "A one-of-a-kind hunting variant of the SM-69 rifle that Bret gives the player.",
+    "body": [
+      "PowerPyx says Bret hands it over at the start of the optional mission Veteran Hunted (Meet Bret) and counts it as a Unique Weapon Variant.",
+      "PowerPyx adds that it can be collected again from any Ammu-Nation weapon locker.",
+      "Insider Gaming says unique weapons carry a gold icon and cannot be modified."
+    ],
+    "tags": [
+      "bret",
+      "hunting",
+      "sm-69",
+      "sniper",
+      "unique",
+      "variant"
+    ],
+    "facts": {
+      "type": "sniper",
+      "availability": "Given by Bret in Veteran Hunted; afterwards in any weapon locker"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-bret",
+      "ppx-100",
+      "ppx-trophy",
+      "insider-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gutterball-moreland-850",
+    "name": "Gutterball Moreland 850",
+    "summary": "A unique variant of the Moreland 850 shotgun found inside Kingpin Bowling.",
+    "body": [
+      "PowerPyx says it lies on a table in the north-east corner of the bowling alley, is marked with a gold icon, and is one of three key valuables for the Let's Go Bowling trophy."
+    ],
+    "tags": [
+      "kingpin bowling",
+      "moreland",
+      "shotgun",
+      "unique",
+      "variant"
+    ],
+    "facts": {
+      "type": "shotgun",
+      "availability": "Found at Kingpin Bowling during the optional job Hit Kingpin Bowling"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-kingpin",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "duval-signature-es9",
+    "name": "Duval Signature ES9",
+    "summary": "Jason's engraved Ultimate Edition variant of the Girardi ES9 pistol.",
+    "body": [
+      "Cultured Vultures says it is available from Chapter 1 in the Ammu-Nation weapon locker, under the ES9's Variants option, and cannot be customised or upgraded.",
+      "PowerPyx likewise says it is redeemed from a weapon locker at Ammu-Nation.",
+      "Cultured Vultures says either lead can use the other's signature pistol."
+    ],
+    "tags": [
+      "es9",
+      "jason",
+      "pistol",
+      "signature",
+      "ultimate edition",
+      "variant"
+    ],
+    "facts": {
+      "type": "pistol",
+      "manufacturer": "Girardi",
+      "availability": "Ultimate Edition; Ammu-Nation weapon locker from Chapter 1"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "cv-variants",
+      "ppx-ultimate"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "caminos-signature-k17",
+    "name": "Caminos Signature K17",
+    "summary": "Lucia's engraved Ultimate Edition variant of the Klose K17 pistol.",
+    "body": [
+      "Cultured Vultures says it unlocks in Chapter 2, roughly 10 to 15 hours in, and is taken from the Ammu-Nation weapon locker under the K17's Variants option.",
+      "PowerPyx likewise says it is redeemed from a weapon locker at Ammu-Nation.",
+      "Cultured Vultures says it cannot be customised or upgraded."
+    ],
+    "tags": [
+      "k17",
+      "lucia",
+      "pistol",
+      "signature",
+      "ultimate edition",
+      "variant"
+    ],
+    "facts": {
+      "type": "pistol",
+      "manufacturer": "Klose",
+      "availability": "Ultimate Edition; Ammu-Nation weapon locker from Chapter 2"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "cv-variants",
+      "ppx-ultimate"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sticky-bombs",
+    "name": "Sticky Bombs",
+    "summary": "Plantable explosives sold at Ammu-Nation and used to blow open safes and armoured truck doors.",
+    "body": [
+      "PowerPyx advises buying them at Ammu-Nation before robbing Kingpin Bowling, where they destroy the office safe.",
+      "PowerPyx also describes using them on shop back-room safes and on the rear door of an armoured truck, and says some are found in the back of Yasmani's shop after his jobs."
+    ],
+    "tags": [
+      "explosive",
+      "robbery",
+      "safe",
+      "sticky bomb"
+    ],
+    "facts": {
+      "type": "explosive",
+      "availability": "Ammu-Nation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-kingpin",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "binoculars",
+    "name": "Binoculars",
+    "summary": "Used to scout distant targets such as enemies and robbery sites, and to study animals from afar.",
+    "body": [
+      "PowerPyx says they are picked from the weapon wheel and used to study animals for the 100% checklist."
+    ],
+    "tags": [
+      "animals",
+      "binoculars",
+      "equipment",
+      "scouting"
+    ],
+    "facts": {
+      "type": "equipment"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment",
+      "ppx-100",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "flashlight",
+    "name": "Flashlight",
+    "summary": "A hand torch for lighting dark places; it is not a weapon.",
+    "tags": [
+      "equipment",
+      "flashlight",
+      "torch"
+    ],
+    "facts": {
+      "type": "equipment"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "duffel-bag",
+    "name": "Duffel Bag",
+    "summary": "A bag for hauling valuables such as marked bills, jewellery and drugs to a drop-off.",
+    "tags": [
+      "duffel bag",
+      "equipment",
+      "loot",
+      "robbery"
+    ],
+    "facts": {
+      "type": "equipment"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "headphones",
+    "name": "Headphones",
+    "summary": "Let the player listen to radio, playlists and podcasts while on foot.",
+    "body": [
+      "DayOne says they are sold at electronics shops."
+    ],
+    "tags": [
+      "equipment",
+      "headphones",
+      "music",
+      "radio"
+    ],
+    "facts": {
+      "type": "equipment",
+      "availability": "Electronics stores"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pry-bar",
+    "name": "Pry Bar",
+    "summary": "Opens sealed crates, which can raise the take on some robberies.",
+    "tags": [
+      "crates",
+      "equipment",
+      "pry bar",
+      "robbery"
+    ],
+    "facts": {
+      "type": "equipment"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "masks",
+    "name": "Masks",
+    "summary": "Worn to hide the face from police during crimes.",
+    "body": [
+      "DayOne notes the mask should come off again once out of sight."
+    ],
+    "tags": [
+      "disguise",
+      "equipment",
+      "mask",
+      "police"
+    ],
+    "facts": {
+      "type": "equipment"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "metal-detector",
+    "name": "Metal Detector",
+    "summary": "Finds metal objects at short range, including underwater, for Kenton's treasure hunts.",
+    "body": [
+      "PowerPyx says it is used while diving to dig up treasure in Kenton's questline."
+    ],
+    "tags": [
+      "diving",
+      "equipment",
+      "kenton",
+      "metal detector",
+      "treasure"
+    ],
+    "facts": {
+      "type": "equipment"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment",
+      "ppx-100",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "slim-jim",
+    "name": "Slim Jim",
+    "summary": "A tool for quietly getting into locked vehicles; quieter than force but slower.",
+    "tags": [
+      "car theft",
+      "equipment",
+      "slim jim"
+    ],
+    "facts": {
+      "type": "equipment"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "snap-gun",
+    "name": "Snap Gun",
+    "summary": "A mechanical lockpick that opens locked doors quietly without setting off alarms.",
+    "body": [
+      "PowerPyx says it is unlocked through Yasmani's Jewelry Jobs in Chapter 3, stays in the inventory permanently and is used to rob a jewellery store unseen."
+    ],
+    "tags": [
+      "equipment",
+      "lockpick",
+      "snap gun",
+      "stealth",
+      "yasmani"
+    ],
+    "facts": {
+      "type": "equipment",
+      "availability": "Unlocked by Yasmani's Jewelry Jobs (Chapter 3)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cut-off-tool",
+    "name": "Cut-Off Tool",
+    "summary": "A small handheld cutter for the locks on heavy-duty containers and certain vehicles; effective but loud.",
+    "tags": [
+      "containers",
+      "cut-off tool",
+      "equipment",
+      "locks"
+    ],
+    "facts": {
+      "type": "equipment"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "key-cloner",
+    "name": "Key Cloner",
+    "summary": "A phone app that defeats keyless-entry security so high-end cars can be stolen.",
+    "body": [
+      "PowerPyx says it is given automatically at the start of the Chapter 3 mission Clonin' Keys, Makin' GS and is installed on the phone rather than bought."
+    ],
+    "tags": [
+      "car theft",
+      "equipment",
+      "key cloner",
+      "phone app"
+    ],
+    "facts": {
+      "type": "equipment",
+      "availability": "Story unlock in Clonin' Keys, Makin' GS (Chapter 3)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment",
+      "ppx-keycloner",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dye-pack-jammer",
+    "name": "Dye Pack Jammer",
+    "summary": "Automatically disables exploding dye packs, which is needed for robbing banks and payday loan stores.",
+    "body": [
+      "PowerPyx says it is unlocked by the Chapter 3 mission Credit Check and allows marked bills to be fenced."
+    ],
+    "tags": [
+      "bank",
+      "dye pack jammer",
+      "equipment",
+      "robbery"
+    ],
+    "facts": {
+      "type": "equipment",
+      "availability": "Unlocked by Credit Check (Chapter 3)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-equipment",
+      "ppx-100",
+      "ppx-banks",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "body-armor",
+    "name": "Body Armor",
+    "summary": "A bulletproof vest that adds a blue bar above health and soaks up gunfire until it is used up.",
+    "body": [
+      "PowerPyx says it is sold in the Equipment section at Ammu-Nation and switched on from the item wheel.",
+      "PowerPyx also lists a cheat that adds body armor.",
+      "Insider Gaming says body armor bought at Ammu-Nation is delivered to the trunk of an owned car."
+    ],
+    "tags": [
+      "armour",
+      "body armor",
+      "equipment",
+      "vest"
+    ],
+    "facts": {
+      "type": "equipment",
+      "availability": "Ammu-Nation (Equipment section)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-armor",
+      "ppx-cheats",
+      "insider-weapons"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "parachute",
+    "name": "Parachute",
+    "summary": "A hidden pack that can be opened during long falls from aircraft or buildings.",
+    "body": [
+      "PowerPyx says it is sold in the Equipment section at Ammu-Nation and shares an item-wheel slot with body armor.",
+      "PowerPyx also lists a cheat that adds a parachute."
+    ],
+    "tags": [
+      "base jump",
+      "equipment",
+      "parachute"
+    ],
+    "facts": {
+      "type": "equipment",
+      "availability": "Ammu-Nation (Equipment section)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-parachute",
+      "ppx-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

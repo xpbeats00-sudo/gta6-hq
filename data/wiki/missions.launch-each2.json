@@ -1,0 +1,69 @@
+[
+  {
+    "slug": "tyrone",
+    "name": "Tyrone",
+    "summary": "Chapter 3 mission played as Jason and given by Tyrone, listed by GTABase, PC Gamer and Dexerto just before Here, Kitty Kitty.",
+    "body": [
+      "GTABase's mission page classes it as a mandatory story mission, number 53 in its story order, in Chapter 3, with Jason as the playable lead and Tyrone as the mission giver, and marks it as required for 100% completion.",
+      "GTABase lists no trophy for it and had not published its walkthrough when checked.",
+      "PC Gamer's mission list has it seventh in Chapter 3, between South Leonida Real Estate and Here, Kitty Kitty; Dexerto's list puts it in the same place.",
+      "Disagreement: PowerPyx's hub has no separate mission called Tyrone; it lists Here, Kitty Kitty with the map label Speak with Tyrone, so the two names may refer to one stretch of play that other sites split in two."
+    ],
+    "tags": [
+      "chapter 3",
+      "jason",
+      "main story",
+      "missions",
+      "tyrone"
+    ],
+    "facts": {
+      "giver": "Tyrone",
+      "protagonist": "Jason",
+      "chapter": "Chapter 3",
+      "type": "Main mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-tyrone",
+      "gtabase-missions",
+      "pcgamer-mission-list",
+      "dexerto-mission-list",
+      "powerpyx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "heavy-lifting",
+    "name": "Heavy Lifting",
+    "summary": "Chapter 4 mission played with both leads, listed by GTABase, PC Gamer and Dexerto between Party Hard and Photo/Shoot.",
+    "body": [
+      "GTABase's mission page classes it as a mandatory story mission, number 85 in its story order, in Chapter 4, with Lucia and Jason as the playable leads, and marks it as required for 100% completion.",
+      "GTABase lists no trophy for it and had not published its walkthrough when checked.",
+      "PC Gamer's mission list has it sixth in Chapter 4, after Party Hard and before Photo/Shoot; Dexerto's list puts it in the same place.",
+      "Disagreement: PowerPyx's hub does not list a mission called Heavy Lifting; in the same stretch it has It's A Date!, Party Hard, Pay Abe's Fee and Photo/Shoot."
+    ],
+    "tags": [
+      "chapter 4",
+      "jason",
+      "lucia",
+      "main story",
+      "missions"
+    ],
+    "facts": {
+      "protagonist": "Lucia and Jason",
+      "chapter": "Chapter 4",
+      "type": "Main mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-heavy-lifting",
+      "gtabase-missions",
+      "pcgamer-mission-list",
+      "dexerto-mission-list",
+      "powerpyx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

@@ -1,0 +1,953 @@
+[
+  {
+    "slug": "top-fun-drones-hamlet",
+    "name": "Top Fun Drones: Hamlet",
+    "summary": "Drone racing site at Hamlet with three time trials: Deep Roots, Power Station South and Power Station North.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 1 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Deep Roots (1:31), Power Station South (1:26) and Power Station North (2:04).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "drones",
+      "hamlet",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Hamlet"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-watson-bay",
+    "name": "Top Fun Drones: Watson Bay",
+    "summary": "Drone racing site at Watson Bay with three time trials: Leonida RC Raceway, Watson Bay and Marshland Animal Park.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 2 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Leonida RC Raceway (1:27), Watson Bay (1:34) and Marshland Animal Park (1:17).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "drones",
+      "time trials",
+      "top fun",
+      "watson bay"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Watson Bay"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-capri",
+    "name": "Top Fun Drones: Capri",
+    "summary": "Drone racing site at Capri with three time trials: Capri Train Station, Ravella Drive and Capri Lake.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 3 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Capri Train Station (1:50), Ravella Drive (1:51) and Capri Lake (2:01).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "capri",
+      "drones",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Capri"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-buckskin-swamp",
+    "name": "Top Fun Drones: Buckskin Swamp",
+    "summary": "Drone racing site at Buckskin Swamp with three time trials: Kowaachobee Village, Swampy Sal's Safari Park and Camp Moonflower.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 4 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Kowaachobee Village (1:24), Swampy Sal's Safari Park (1:40) and Camp Moonflower (1:48).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "buckskin swamp",
+      "drones",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Buckskin Swamp"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-balsero",
+    "name": "Top Fun Drones: Balsero",
+    "summary": "Drone racing site at Balsero with three time trials: Navitrak, Apollo Aggregates and Tisha-Wocka Flea Market.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 5 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Navitrak (1:29), Apollo Aggregates (1:27) and Tisha-Wocka Flea Market (1:08).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "balsero",
+      "drones",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Balsero"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-downtown",
+    "name": "Top Fun Drones: Downtown",
+    "summary": "Drone racing site at Downtown with three time trials: Future Leonida Art Museum, Shoreline Market and Wildland Zoo.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 6 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Future Leonida Art Museum (1:47), Shoreline Market (2:01) and Wildland Zoo (1:30).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "downtown",
+      "drones",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Downtown"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-dalton-island",
+    "name": "Top Fun Drones: Dalton Island",
+    "summary": "Drone racing site at Dalton Island with three time trials: Avarice Petroleum, The Jamaica and Ivory Towers.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 7 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Avarice Petroleum (1:53), The Jamaica (1:16) and Ivory Towers (1:42).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished.",
+      "PowerPyx says Dalton Island cannot be reached by taxi, only by boat or aircraft."
+    ],
+    "tags": [
+      "dalton island",
+      "drones",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Dalton Island"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-vice-beach",
+    "name": "Top Fun Drones: Vice Beach",
+    "summary": "Drone racing site at Vice Beach with three time trials: Leaf Links, Vice Regal Hotel and St. Vitus Medical Center.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 8 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Leaf Links (1:30), Vice Regal Hotel (1:41) and St. Vitus Medical Center (2:00).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "drones",
+      "time trials",
+      "top fun",
+      "vice beach"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Vice Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-waning-sands",
+    "name": "Top Fun Drones: Waning Sands",
+    "summary": "Drone racing site at Waning Sands with three time trials: Hot Skidz, Thundergolf and Evergreen Mall.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 9 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Hot Skidz (1:39), Thundergolf (1:57) and Evergreen Mall (1:52).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "drones",
+      "time trials",
+      "top fun",
+      "waning sands"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-ambrosia",
+    "name": "Top Fun Drones: Ambrosia",
+    "summary": "Drone racing site at Ambrosia with three time trials: Captain O'Malley Marina, Allied Crystal and Waste Transfer Services.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 10 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Captain O'Malley Marina (2:03), Allied Crystal (2:02) and Waste Transfer Services (1:55).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "ambrosia",
+      "drones",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Ambrosia"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-port-gellhorn",
+    "name": "Top Fun Drones: Port Gellhorn",
+    "summary": "Drone racing site at Port Gellhorn with three time trials: Manifest Canyon, Red Apple Orchard and Port Gellhorn.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 11 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Manifest Canyon (1:28), Red Apple Orchard (1:12) and Port Gellhorn (1:39).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "drones",
+      "port gellhorn",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-draper-island",
+    "name": "Top Fun Drones: Draper Island",
+    "summary": "Drone racing site at Draper Island with three time trials: Draper Island Terminal, Draper Refinery East and Draper Refinery West.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 12 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Draper Island Terminal (1:49), Draper Refinery East (1:44) and Draper Refinery West (1:51).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "draper island",
+      "drones",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Draper Island"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-moreau-sawmill",
+    "name": "Top Fun Drones: Moreau Sawmill",
+    "summary": "Drone racing site at Moreau Sawmill with three time trials: Abandoned Mining Pit, Adler Creek and Macalister Gold Mine.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 13 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Abandoned Mining Pit (1:03), Adler Creek (1:21) and Macalister Gold Mine (0:59).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "drones",
+      "moreau sawmill",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Moreau Sawmill"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drones-millport",
+    "name": "Top Fun Drones: Millport",
+    "summary": "Drone racing site at Millport with three time trials: Millport, Rushwood Logging and Tallaloko Lakeside Resort.",
+    "body": [
+      "PowerPyx lists this as Top Fun drone site 14 of 14, counting from south to north, with three time trials.",
+      "The trials and par times PowerPyx gives are Millport (1:31), Rushwood Logging (2:08) and Tallaloko Lakeside Resort (2:05).",
+      "PowerPyx says the first two par times must be beaten to open the third, which only has to be finished."
+    ],
+    "tags": [
+      "drones",
+      "millport",
+      "time trials",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (3)",
+      "location": "Millport"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "griffin-3-point-range",
+    "name": "Griffin 3-Point Range",
+    "summary": "One of six timed courses at Griffin Shooting Range, with three medal tiers.",
+    "body": [
+      "PowerPyx describes it as three weapon stations, each with a different weapon.",
+      "PowerPyx lists the tiers as Beginner, Intermediate and Advanced, each with its own gold medal.",
+      "PowerPyx says Griffin courses are timed runs in which a bullseye takes one second off, and that Lucia suits them because she runs faster.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal times."
+    ],
+    "tags": [
+      "griffin",
+      "medals",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (3 tiers)",
+      "location": "Griffin Shooting Range, north-west Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "griffin-hook-range",
+    "name": "Griffin Hook Range",
+    "summary": "One of six timed courses at Griffin Shooting Range, with three medal tiers.",
+    "body": [
+      "PowerPyx describes it as a course shot on the move, with a set of five small red spinning targets.",
+      "PowerPyx lists the tiers as Beginner, Intermediate and Advanced, each with its own gold medal.",
+      "PowerPyx says Griffin courses are timed runs in which a bullseye takes one second off, and that Lucia suits them because she runs faster.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal times."
+    ],
+    "tags": [
+      "griffin",
+      "medals",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (3 tiers)",
+      "location": "Griffin Shooting Range, north-west Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "griffin-loop-range",
+    "name": "Griffin Loop Range",
+    "summary": "One of six timed courses at Griffin Shooting Range, with three medal tiers.",
+    "body": [
+      "PowerPyx describes it as a moving course much like Hook Range, again with small red spinning targets.",
+      "PowerPyx lists the tiers as Beginner, Intermediate and Advanced, each with its own gold medal.",
+      "PowerPyx says Griffin courses are timed runs in which a bullseye takes one second off, and that Lucia suits them because she runs faster.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal times."
+    ],
+    "tags": [
+      "griffin",
+      "medals",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (3 tiers)",
+      "location": "Griffin Shooting Range, north-west Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "griffin-maze-range",
+    "name": "Griffin Maze Range",
+    "summary": "One of six timed courses at Griffin Shooting Range, with three medal tiers.",
+    "body": [
+      "PowerPyx describes it as a moving course similar to Hook and Loop.",
+      "PowerPyx lists the tiers as Beginner, Intermediate and Master, each with its own gold medal.",
+      "PowerPyx says Griffin courses are timed runs in which a bullseye takes one second off, and that Lucia suits them because she runs faster.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal times."
+    ],
+    "tags": [
+      "griffin",
+      "medals",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (3 tiers)",
+      "location": "Griffin Shooting Range, north-west Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "griffin-compound-range",
+    "name": "Griffin Compound Range",
+    "summary": "One of six timed courses at Griffin Shooting Range, with three medal tiers.",
+    "body": [
+      "PowerPyx describes it as a run through a building where targets pop up and fresh weapons are picked up along the way, on a lenient timer.",
+      "PowerPyx lists the tiers as Beginner, Intermediate and Master, each with its own gold medal.",
+      "PowerPyx says Griffin courses are timed runs in which a bullseye takes one second off, and that Lucia suits them because she runs faster.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal times."
+    ],
+    "tags": [
+      "griffin",
+      "medals",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (3 tiers)",
+      "location": "Griffin Shooting Range, north-west Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "griffin-villa-range",
+    "name": "Griffin Villa Range",
+    "summary": "One of six timed courses at Griffin Shooting Range, with three medal tiers.",
+    "body": [
+      "PowerPyx describes it as targets that only appear when approached, some inside small side buildings in the later tiers, so the route matters.",
+      "PowerPyx lists the tiers as Beginner, Intermediate and Master, each with its own gold medal.",
+      "PowerPyx says Griffin courses are timed runs in which a bullseye takes one second off, and that Lucia suits them because she runs faster.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal times."
+    ],
+    "tags": [
+      "griffin",
+      "medals",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (3 tiers)",
+      "location": "Griffin Shooting Range, north-west Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rodgers-ranch-market-range",
+    "name": "Rodgers Ranch Market Range",
+    "summary": "One of six score-based courses at Rodgers Ranch, with four medal tiers.",
+    "body": [
+      "PowerPyx lists the weapons as Pistol on all four tiers.",
+      "PowerPyx's advice is that speed matters more than accuracy and the red bullseye is not needed.",
+      "PowerPyx says Rodgers Ranch courses are shot from a fixed spot for points, with a multiplier that drops on a miss, and that the tiers are Beginner, Intermediate, Advanced and Master.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal scores."
+    ],
+    "tags": [
+      "medals",
+      "rodgers ranch",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (4 tiers)",
+      "location": "Rodgers Ranch & Shooting Range, north-east of Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rodgers-ranch-zombie-range",
+    "name": "Rodgers Ranch Zombie Range",
+    "summary": "One of six score-based courses at Rodgers Ranch, with four medal tiers.",
+    "body": [
+      "PowerPyx lists the weapons as SMG for Beginner, Shotgun for Intermediate, Assault Rifle for Advanced and Shotgun for Master.",
+      "PowerPyx's advice is that the SMG tier is the hardest of the four, and body shots build the multiplier faster than headshots there.",
+      "PowerPyx says Rodgers Ranch courses are shot from a fixed spot for points, with a multiplier that drops on a miss, and that the tiers are Beginner, Intermediate, Advanced and Master.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal scores."
+    ],
+    "tags": [
+      "medals",
+      "rodgers ranch",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (4 tiers)",
+      "location": "Rodgers Ranch & Shooting Range, north-east of Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rodgers-ranch-hunting-range",
+    "name": "Rodgers Ranch Hunting Range",
+    "summary": "One of six score-based courses at Rodgers Ranch, with four medal tiers.",
+    "body": [
+      "PowerPyx lists the weapons as Pistol for Beginner, Shotgun for Intermediate, Tactical Rifle for Advanced and Pistol for Master.",
+      "PowerPyx's advice is that animal heads score the same as the red weak points, and the Master tier allows no missed shot.",
+      "PowerPyx says Rodgers Ranch courses are shot from a fixed spot for points, with a multiplier that drops on a miss, and that the tiers are Beginner, Intermediate, Advanced and Master.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal scores."
+    ],
+    "tags": [
+      "medals",
+      "rodgers ranch",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (4 tiers)",
+      "location": "Rodgers Ranch & Shooting Range, north-east of Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rodgers-ranch-saloon-range",
+    "name": "Rodgers Ranch Saloon Range",
+    "summary": "One of six score-based courses at Rodgers Ranch, with four medal tiers.",
+    "body": [
+      "PowerPyx lists the weapons as Revolver for Beginner and Advanced, Tactical Rifle for Intermediate and Master.",
+      "PowerPyx's advice is that one or two body hits before the head build the multiplier quickly.",
+      "PowerPyx says Rodgers Ranch courses are shot from a fixed spot for points, with a multiplier that drops on a miss, and that the tiers are Beginner, Intermediate, Advanced and Master.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal scores."
+    ],
+    "tags": [
+      "medals",
+      "rodgers ranch",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (4 tiers)",
+      "location": "Rodgers Ranch & Shooting Range, north-east of Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rodgers-ranch-cops-and-robbers-range",
+    "name": "Rodgers Ranch Cops & Robbers Range",
+    "summary": "One of six score-based courses at Rodgers Ranch, with four medal tiers.",
+    "body": [
+      "PowerPyx lists the weapons as Sniper Rifle on all four tiers.",
+      "PowerPyx's advice is that every target is a headshot, and the cop target must be left alone on the Advanced tier.",
+      "PowerPyx says Rodgers Ranch courses are shot from a fixed spot for points, with a multiplier that drops on a miss, and that the tiers are Beginner, Intermediate, Advanced and Master.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal scores."
+    ],
+    "tags": [
+      "medals",
+      "rodgers ranch",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (4 tiers)",
+      "location": "Rodgers Ranch & Shooting Range, north-east of Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rodgers-ranch-alien-range",
+    "name": "Rodgers Ranch Alien Range",
+    "summary": "One of six score-based courses at Rodgers Ranch, with four medal tiers.",
+    "body": [
+      "PowerPyx lists the weapons as Pistol and Revolver for Beginner, Intermediate and Master, SMG and Assault Rifle for Advanced.",
+      "PowerPyx's advice is that two body hits and then the head build the multiplier quickly.",
+      "PowerPyx says Rodgers Ranch courses are shot from a fixed spot for points, with a multiplier that drops on a miss, and that the tiers are Beginner, Intermediate, Advanced and Master.",
+      "DayOne lists the course among the ranges that track level, medal, best score, bullseyes and accuracy.",
+      "Neither guide gives the medal scores."
+    ],
+    "tags": [
+      "medals",
+      "rodgers ranch",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range course (4 tiers)",
+      "location": "Rodgers Ranch & Shooting Range, north-east of Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shooting-range-medal-counts",
+    "name": "Shooting range medal counts",
+    "summary": "How the guides count shooting range courses and gold medals, including figures that do not agree.",
+    "body": [
+      "PowerPyx's range guide names six courses at each of the two ranges, 12 in all, with 18 gold medals at Griffin and 24 at Rodgers Ranch, 42 in total.",
+      "PowerPyx's hub page and progress database page instead say 14 shooting range challenges with 42 gold medals.",
+      "The same PowerPyx guide also gives totals of 54 medals for Griffin and 72 for Rodgers Ranch when bronze and silver are counted.",
+      "DayOne lists the same 12 course names, six per range.",
+      "PowerPyx says a $5 waiver pass from the clerk opens the challenges at each range and a missing weapon type can be rented for $10."
+    ],
+    "tags": [
+      "counts",
+      "medals",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting ranges (2 venues, 12 named courses)",
+      "location": "Vice City; Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "ppx-progress",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenges-by-name",
+    "name": "Race challenges by name",
+    "summary": "The 13 race challenges as PowerPyx names them, compared with the nine trials DayOne lists.",
+    "body": [
+      "PowerPyx lists them in menu order: Ambrosia Raceway Trial, Hamlet BMX Stunt Run, Boone Speedway Trial, Gellhorn Raceway Trial, Gellhorn Dragway Trial, Kalaga Cycling Trial, Mud Club Air Time Stunt Run, Mud Club Drag Trial, Mud Club Hill Climb Trial, Mud Club Dirt Track Trial, Mud Club Oval Trial, Mud Club Swamp Run Trial and Waning Sands Motocross Stunt Run.",
+      "DayOne lists nine trials, each tracking a best time and a medal: Boone Speedway, Gellhorn Raceway, Kalaga Cycling and the six Mud Club events; it does not list the Ambrosia, Hamlet BMX, Gellhorn Dragway or Waning Sands events.",
+      "PowerPyx says each has bronze, silver and gold medals for beating a time or score, and that 10 gold medals count for the completion checklist.",
+      "Neither guide states the vehicle used or the medal thresholds for any of them."
+    ],
+    "tags": [
+      "medals",
+      "races",
+      "trials"
+    ],
+    "facts": {
+      "type": "Time trials and stunt runs (13)",
+      "location": "Ambrosia, Hamlet, Boone Speedway, Gellhorn, Kalaga, Thrillbilly Mud Club, Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-race-challenges",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tenebrae-lux",
+    "name": "Tenebrae Lux",
+    "summary": "Puzzle walking game on the home JoySystem console, one of the four playable video games.",
+    "body": [
+      "PowerPyx says it is played from the controller at the TV in the player's home, is unavailable during the second chapter and returns from the third.",
+      "DayOne describes it as a walking simulator about solving puzzles on an island to reach a lighthouse, with 12 puzzles, 11 notebook pages, 33 credits and 20 shadow creature sightings tracked.",
+      "Press Start calls it a send-up of showpiece walking simulators that is nonetheless rather good."
+    ],
+    "tags": [
+      "joysystem",
+      "minigame",
+      "video games"
+    ],
+    "facts": {
+      "type": "Video game (home console)",
+      "location": "TV console at the player's home"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-videogames",
+      "dayone-leisure",
+      "pressstart-videogames"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "street-trash-iii",
+    "name": "Street Trash III",
+    "summary": "Zombie shooter on the home JoySystem console, one of the four playable video games.",
+    "body": [
+      "PowerPyx names it Street Trash III; DayOne calls it Street Trash 3: Dezombifier and Press Start writes Street Trash 3: DeZombifier.",
+      "PowerPyx says it is played at the home TV console, with the same second-chapter gap as the other home games.",
+      "DayOne describes runs through a zombie outbreak in which a character is built up each time, and lists tracked goals such as extracting after a 666 kill streak, a 666 Mode, 66 core cards and 6 obsidian cards.",
+      "Press Start describes it as an extraction shooter and the most rounded of the home console games."
+    ],
+    "tags": [
+      "joysystem",
+      "minigame",
+      "video games",
+      "zombies"
+    ],
+    "facts": {
+      "type": "Video game (home console)",
+      "location": "TV console at the player's home"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-videogames",
+      "dayone-leisure",
+      "pressstart-videogames"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "time-jackers-rewind",
+    "name": "Time Jackers Rewind",
+    "summary": "Top-down twin-stick shooter on the home JoySystem console, one of the four playable video games.",
+    "body": [
+      "PowerPyx names it Time Jackers Rewind; DayOne and Press Start write Time Jackers: Rewind.",
+      "DayOne describes a top-down, twin-stick, retro-future shooter with time powers, seven zones, and tracked goals such as finishing in under 20 minutes.",
+      "Press Start describes it as a slow-paced twin-stick shooter in a cyberpunk setting.",
+      "PowerPyx says it is played at the home TV console and cannot be played during the second chapter."
+    ],
+    "tags": [
+      "joysystem",
+      "minigame",
+      "video games"
+    ],
+    "facts": {
+      "type": "Video game (home console)",
+      "location": "TV console at the player's home"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-videogames",
+      "dayone-leisure",
+      "pressstart-videogames"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bang-for-your-buck",
+    "name": "Bang For Your Buck",
+    "summary": "Light-gun hunting arcade game found on cabinets out in the world, the only one of the four video games not on the home console.",
+    "body": [
+      "PowerPyx says it is only on arcade machines, for example outside the Bargain World clothing store in Port Gellhorn.",
+      "Press Start says it is found in bars and venues, plays like a light-gun hunting cabinet with several stages and power-ups, and rewards shooting bucks while sparing does.",
+      "DayOne lists three stages, 15 cabinets with a top spot to take, and tracked kills by shotgun, rifle and minigun.",
+      "PowerPyx says starting each of the four games once is enough for the completion checklist, and finishing all levels of any one earns the Stick Fiddler trophy."
+    ],
+    "tags": [
+      "arcade",
+      "hunting",
+      "minigame",
+      "video games"
+    ],
+    "facts": {
+      "type": "Video game (arcade cabinet)",
+      "location": "Arcade machines in bars and venues; one outside Bargain World, Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-videogames",
+      "dayone-leisure",
+      "pressstart-videogames"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "golf-rounds-and-records",
+    "name": "Golf rounds and records",
+    "summary": "What the game tracks at each of the five golf venues, per DayOne, set beside PowerPyx's locations.",
+    "body": [
+      "DayOne lists 9-hole and 18-hole games, best scores and holes in one for King Gator Adventure Golf and Frontier Adventure Golf.",
+      "DayOne lists a single full challenge, a best score and holes in one for Dino Golf Challenge, Leaf Links and Mount Hailes, plus a driving range record at Dino Golf Challenge and at Mount Hailes.",
+      "PowerPyx places King Gator in Buckskin Swamp, Frontier in Waning Sands, Dino Golf Challenge in Frogswater, Leaf Links in Vice Beach and Mount Hailes at the Mount Hailes Club in Waning Sands.",
+      "DayOne spells the Vice Beach course Leaf Link; PowerPyx writes Leaf Links."
+    ],
+    "tags": [
+      "driving range",
+      "golf",
+      "mini golf",
+      "stats"
+    ],
+    "facts": {
+      "type": "Golf (3 mini golf, 2 full courses)",
+      "location": "Buckskin Swamp; Waning Sands; Frogswater; Vice Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-leisure",
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pool-opponents-by-venue",
+    "name": "Pool opponents by venue",
+    "summary": "The six pool opponents located so far and where each table sits, with the seventh still unfound on November 18, 2026.",
+    "body": [
+      "PowerPyx places the tables as follows: Skeeter's on the south edge of Hamlet, table on the south side; Zotico's on the western edge of Balsero, table on the east side; The Thirsty Wolf on the north-west edge of Belville, table on the north side.",
+      "Also per PowerPyx: Jacob's Tavern on the east side of Millport beside the Pay 'n' Spray, table on the north side; Delights Cabaret in Port Gellhorn, table in the centre; Kowaachobee Cafe & Bar off the highway through Buckskin Swamp, table on the west side.",
+      "PowerPyx had not found the seventh opponent, and says there are 17 tables in all but only some have an opponent.",
+      "PowerPyx's pool guide files Skeeter's under Mariana County while placing it in Hamlet, which its race guide puts in Vice-Dale County.",
+      "DayOne says the game tracks tables played, opponents defeated, games won and games played with the partner."
+    ],
+    "tags": [
+      "bars",
+      "opponents",
+      "pool"
+    ],
+    "facts": {
+      "type": "Bar sport (7 opponents)",
+      "location": "Hamlet; Balsero; Belville; Millport; Port Gellhorn; Buckskin Swamp"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pool",
+      "dayone-leisure"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-records",
+    "name": "Basketball records",
+    "summary": "What the game tracks for basketball, per DayOne, including an Eris Challenge checkbox.",
+    "body": [
+      "DayOne lists hoops scored, jump shots, layups, longest scoring streak and shots among the tracked figures.",
+      "DayOne also lists a checkbox for an Eris Challenge and does not explain what it involves.",
+      "PowerPyx counts 100 hoops; no guide read lists where individual hoops are."
+    ],
+    "tags": [
+      "basketball",
+      "eris",
+      "stats"
+    ],
+    "facts": {
+      "type": "Basketball shooting (100 hoops)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-leisure",
+      "ppx-progress"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

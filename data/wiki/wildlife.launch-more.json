@@ -1,0 +1,554 @@
+[
+  {
+    "slug": "american-black-bear",
+    "name": "American Black Bear",
+    "summary": "A bear of the forests and wetlands that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetland and recommends the Shrewsbury SM-69.",
+      "DayOne groups bears with the larger or more dangerous animals best shot from a distance.",
+      "Push Square says Bret collects large carcasses such as bears himself."
+    ],
+    "tags": [
+      "bear",
+      "hunt",
+      "mammal"
+    ],
+    "facts": {
+      "species": "American Black Bear",
+      "habitat": "Forest, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting",
+      "pushsquare-bret-decks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "american-crocodile",
+    "name": "American Crocodile",
+    "summary": "A crocodile found on the coast that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Coastal and recommends the Shrewsbury SM-69."
+    ],
+    "tags": [
+      "crocodile",
+      "hunt",
+      "reptile"
+    ],
+    "facts": {
+      "species": "American Crocodile",
+      "habitat": "Coastal",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "american-red-fox",
+    "name": "American Red Fox",
+    "summary": "A fox of the forests and wetlands that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetland and recommends the Hawk & Little Mediator."
+    ],
+    "tags": [
+      "fox",
+      "hunt",
+      "mammal"
+    ],
+    "facts": {
+      "species": "American Red Fox",
+      "habitat": "Forest, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "blue-axanthic-iguana",
+    "name": "Blue Axanthic Iguana",
+    "summary": "A rare bright-blue iguana found in coastal and urban areas of the warm south.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Coastal, Urban and recommends the Wortham W-22."
+    ],
+    "tags": [
+      "hunt",
+      "iguana",
+      "rare",
+      "reptile"
+    ],
+    "facts": {
+      "species": "Blue Axanthic Iguana",
+      "habitat": "Coastal, Urban",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "box-turtle",
+    "name": "Box Turtle",
+    "summary": "A small turtle found in most habitats that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Coastal, Forest, Urban, Wetland and recommends the Wortham W-22."
+    ],
+    "tags": [
+      "hunt",
+      "reptile",
+      "turtle"
+    ],
+    "facts": {
+      "species": "Box Turtle",
+      "habitat": "Coastal, Forest, Urban, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "eastern-cottontail-rabbit",
+    "name": "Eastern Cottontail Rabbit",
+    "summary": "A rabbit of the forests and wetlands that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetland and recommends the Wortham W-22."
+    ],
+    "tags": [
+      "hunt",
+      "mammal",
+      "rabbit"
+    ],
+    "facts": {
+      "species": "Eastern Cottontail Rabbit",
+      "habitat": "Forest, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "eastern-spotted-skunk",
+    "name": "Eastern Spotted Skunk",
+    "summary": "A night-active skunk found in forests, towns and wetlands that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Urban, Wetland and recommends the Wortham W-22.",
+      "Push Square says it is nocturnal, appeared after about 8pm in grassy areas, and is a target in Bret's second deck, Hog Endocrine Glands (Adler Creek, Bonanza, Mount Kalaga National Park)."
+    ],
+    "tags": [
+      "hunt",
+      "mammal",
+      "nocturnal",
+      "skunk"
+    ],
+    "facts": {
+      "species": "Eastern Spotted Skunk",
+      "habitat": "Forest, Urban, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting",
+      "pushsquare-bret-decks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gray-fox",
+    "name": "Gray Fox",
+    "summary": "A fox of the forests and wetlands that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetland and recommends the Hawk & Little Mediator."
+    ],
+    "tags": [
+      "fox",
+      "hunt",
+      "mammal"
+    ],
+    "facts": {
+      "species": "Gray Fox",
+      "habitat": "Forest, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-bobcat",
+    "name": "Leonida Bobcat",
+    "summary": "A wild cat of the forests and wetlands that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetland and recommends the Hawk & Little Mediator."
+    ],
+    "tags": [
+      "bobcat",
+      "cat",
+      "hunt",
+      "mammal"
+    ],
+    "facts": {
+      "species": "Leonida Bobcat",
+      "habitat": "Forest, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-cottonmouth",
+    "name": "Leonida Cottonmouth",
+    "summary": "A snake of coastal and wetland areas that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Coastal, Wetland and recommends the Wortham W-22."
+    ],
+    "tags": [
+      "hunt",
+      "reptile",
+      "snake"
+    ],
+    "facts": {
+      "species": "Leonida Cottonmouth",
+      "habitat": "Coastal, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-wild-turkey",
+    "name": "Leonida Wild Turkey",
+    "summary": "A wild turkey of the forests and wetlands that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetlands and recommends the Wortham W-22."
+    ],
+    "tags": [
+      "bird",
+      "hunt",
+      "turkey"
+    ],
+    "facts": {
+      "species": "Leonida Wild Turkey",
+      "habitat": "Forest, Wetlands",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-wild-white-tom",
+    "name": "Leonida Wild White Tom",
+    "summary": "An uncommon white-feathered wild turkey that Bret asks for in his second Target Deck.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetlands and recommends the Wortham W-22.",
+      "Push Square says it is found in grassy or forested areas and that Bret only accepts the white-feathered kind; deck areas are Adler Creek, Bonanza and Mount Kalaga National Park."
+    ],
+    "tags": [
+      "bird",
+      "hunt",
+      "rare",
+      "turkey"
+    ],
+    "facts": {
+      "species": "Leonida Wild White Tom",
+      "habitat": "Forest, Wetlands",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting",
+      "pushsquare-bret-decks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mosaic-mottled-duck",
+    "name": "Mosaic Mottled Duck",
+    "summary": "A rare colour form of the mottled duck seen around fresh water in the wetlands.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Wetland and recommends the Wortham W-22."
+    ],
+    "tags": [
+      "bird",
+      "duck",
+      "hunt",
+      "rare"
+    ],
+    "facts": {
+      "species": "Mosaic Mottled Duck",
+      "habitat": "Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nile-monitor",
+    "name": "Nile Monitor",
+    "summary": "A large wetland lizard that can be hunted and is asked for in Bret's third Target Deck.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Wetland and recommends the Wortham W-22.",
+      "Push Square lists it in Bret's third deck, Cane Toad Venom Glands, with marked areas West Buckskin Swamp, East Buckskin Swamp and Pelican Valley."
+    ],
+    "tags": [
+      "hunt",
+      "lizard",
+      "reptile"
+    ],
+    "facts": {
+      "species": "Nile Monitor",
+      "habitat": "Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting",
+      "pushsquare-bret-decks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "northern-coyote",
+    "name": "Northern Coyote",
+    "summary": "A coyote of the forests and wetlands that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetland and recommends the Hawk & Little Mediator."
+    ],
+    "tags": [
+      "coyote",
+      "hunt",
+      "mammal"
+    ],
+    "facts": {
+      "species": "Northern Coyote",
+      "habitat": "Forest, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nutria",
+    "name": "Nutria",
+    "summary": "A wetland rodent that can be hunted and is asked for in Bret's third Target Deck.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Wetland and recommends the Wortham W-22.",
+      "Push Square lists it in Bret's third deck, Cane Toad Venom Glands, with marked areas West Buckskin Swamp, East Buckskin Swamp and Pelican Valley."
+    ],
+    "tags": [
+      "hunt",
+      "mammal",
+      "rodent"
+    ],
+    "facts": {
+      "species": "Nutria",
+      "habitat": "Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting",
+      "pushsquare-bret-decks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "piebald-whitetail-buck",
+    "name": "Piebald Whitetail Buck",
+    "summary": "A rare, unusually coloured whitetail buck seen now and then in forests and wetlands.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Forest, Wetland and recommends the Shrewsbury SM-69."
+    ],
+    "tags": [
+      "deer",
+      "hunt",
+      "mammal",
+      "rare"
+    ],
+    "facts": {
+      "species": "Piebald Whitetail Buck",
+      "habitat": "Forest, Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "round-tailed-muskrat",
+    "name": "Round-Tailed Muskrat",
+    "summary": "A small wetland rodent that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Wetland and recommends the Wortham W-22."
+    ],
+    "tags": [
+      "hunt",
+      "mammal",
+      "rodent"
+    ],
+    "facts": {
+      "species": "Round-Tailed Muskrat",
+      "habitat": "Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "snapping-turtle",
+    "name": "Snapping Turtle",
+    "summary": "A wetland turtle that can be hunted.",
+    "body": [
+      "DayOne lists it among the huntable animals with key habitats Wetland and recommends the Wortham W-22."
+    ],
+    "tags": [
+      "hunt",
+      "reptile",
+      "turtle"
+    ],
+    "facts": {
+      "species": "Snapping Turtle",
+      "habitat": "Wetland",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-hunting"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "whitetail-buck",
+    "name": "Whitetail Buck",
+    "summary": "The Whitetail Buck is one of the two animals Bret asks for in his first Target Deck.",
+    "body": [
+      "Push Square says Bret's first deck, Adrenal Glands and Venison, needs a Whitetail Buck and a Whitetail Doe.",
+      "Push Square says both are found in forested areas or near streams, are easily startled, and are marked at Mount Kalaga National Park and the Abandoned Concrete Plant.",
+      "Push Square's writer used a Shrewsbury SM-69 at long range for a clean headshot."
+    ],
+    "tags": [
+      "bret",
+      "deer",
+      "hunt",
+      "mammal"
+    ],
+    "facts": {
+      "species": "Whitetail Buck",
+      "habitat": "Forested areas and near streams; Mount Kalaga National Park, Abandoned Concrete Plant",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-bret-decks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "whitetail-doe",
+    "name": "Whitetail Doe",
+    "summary": "The Whitetail Doe is one of the two animals Bret asks for in his first Target Deck.",
+    "body": [
+      "Push Square says Bret's first deck, Adrenal Glands and Venison, needs a Whitetail Buck and a Whitetail Doe.",
+      "Push Square says both are found in forested areas or near streams, are easily startled, and are marked at Mount Kalaga National Park and the Abandoned Concrete Plant.",
+      "Push Square's writer used a Shrewsbury SM-69 at long range for a clean headshot."
+    ],
+    "tags": [
+      "bret",
+      "deer",
+      "hunt",
+      "mammal"
+    ],
+    "facts": {
+      "species": "Whitetail Doe",
+      "habitat": "Forested areas and near streams; Mount Kalaga National Park, Abandoned Concrete Plant",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-bret-decks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "parrotfish",
+    "name": "Parrotfish",
+    "summary": "The Parrotfish is a fish Cal asks the player to catch early in the game, at a weight above 2 kg.",
+    "body": [
+      "Push Square's trophy guide says Cal's request is to land a Parrotfish over 2kg in an area marked on the map, and that a boat with a fishing rod is needed.",
+      "PowerPyx reports the Progress database counts 35 fish; no page read lists the others."
+    ],
+    "tags": [
+      "cal",
+      "fish",
+      "fishing"
+    ],
+    "facts": {
+      "species": "Parrotfish",
+      "habitat": "Marked fishing area for Cal's challenge, reached by boat"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-trophies",
+      "powerpyx-progress-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

@@ -1,0 +1,534 @@
+[
+  {
+    "slug": "emotion-98-3",
+    "name": "Emotion 98.3",
+    "summary": "A soft rock station that returns from Grand Theft Auto: Vice City, found in the released game by GameSpot, CULTR and The Big Lead.",
+    "body": [
+      "Rockstar did not announce this station before launch; it is reported by outlets playing the released game.",
+      "Songs GameSpot reports hearing on it: The Cars - Drive; Cliff Richard - Devil Woman; Phil Collins - In the Air Tonight; Roxette - Listen to Your Heart; Captain & Tennille - But I Think It's a Dream; Scritti Politti - Overnite; Carly Simon - Coming Around Again; Elton John - I Guess That's Why They Call It the Blues; Phil Collins - Against All Odds; Stevie Nicks ft. Tom Petty - Stop Draggin' My Heart Around; Dr. Hook - When You're In Love With A Beautiful Woman; Chris Rea - Fool (If You Think It's Over).",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "radio",
+      "returning",
+      "soft rock",
+      "station",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Soft rock",
+      "frequency": "98.3"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-city-fm",
+    "name": "Vice City FM",
+    "summary": "A station of 1980s pop and new wave, confirmed in the released game by GameSpot, CULTR and The Big Lead.",
+    "body": [
+      "GameSpot notes the station had been seen on a real-world advert before launch. Rockstar's own pre-launch pages did not list it.",
+      "Songs GameSpot reports hearing on it: Stevie Nicks - Wild Heart; Echo & The Bunnymen - Lips Like Sugar; Curiosity Killed the Cat - Name and Number; Feargal Sharkey - A Good Heart; New Order - Thieves Like Us; Bryan Ferry - Kiss and Tell; Billy Ocean - Loverboy; Johnny Hates Jazz - Shattered Dreams; Jermaine Stewart - We Don't Have To Take Our Clothes Off; Culture Club - Miss Me Blind.",
+      "No host is named by any of the three outlets.",
+      "Kotaku reports that one of its hosts is \"Weird Al\" Yankovic, and says its writer confirmed this with Rockstar."
+    ],
+    "tags": [
+      "80s",
+      "new wave",
+      "pop",
+      "radio",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "1980s pop and new wave"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio",
+      "kotaku-weirdal"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stockyard-fm",
+    "name": "Stockyard FM",
+    "summary": "An indie and dance station in the released game, listed by GameSpot, CULTR and The Big Lead.",
+    "body": [
+      "Songs GameSpot reports hearing on it: Justice & Tame Impala - One Night / All Night; Neil Frances - You Move Me; Fischerspooner - Emerge; Roisin Murphy - Overpowered; Tommy Richman - Million Dollar Baby; CMD/CTRL - No Stress; ANOTR - Paradise; Rampa & WhoMadeWho - Abu Simbel.",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "dance",
+      "indie",
+      "radio",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Indie and dance"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vcrr",
+    "name": "VCRR",
+    "summary": "The modern rap station in the released game, listed by GameSpot, CULTR and The Big Lead.",
+    "body": [
+      "Songs GameSpot reports hearing on it: BunnaB - Go Go Go; Drake - Nokia; Gunna - Count Up; Pooh Shiesty - Got Dat; Offset - I Just Came To Pop It; Denzel Curry - Fla Flow; Migos ft. Lil Uzi Vert - Bad and Boujee; Young Nudy - Don Da Da; French Montana & Swae Lee - Unforgettable; Cardi B - Don't Chart; Playboi Carti - Ahh Yea; Kodak Black & Don Toliver - Let's Rock; Travis Scott - RHYNO; Yung Lean ft. Future & Metro Boomin - That's It; Tee Grizzley - IKYFL.",
+      "Several of these are tracks from Grand Theft Auto VI: The Album. GameSpot's list for this station is longer than the fifteen given here.",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "hip-hop",
+      "radio",
+      "rap",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Modern rap"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "honey-fm",
+    "name": "Honey FM",
+    "summary": "An R&B and soul station in the released game, listed by GameSpot, CULTR and The Big Lead.",
+    "body": [
+      "GameSpot and CULTR describe it as 1990s R&B and soul.",
+      "Songs GameSpot reports hearing on it: D'Angelo - Lady; Sounds of Blackness - Optimistic; Zhané - Hey Mr. DJ; Montell Jordan - Get It On Tonite; T-Pain - Buy U a Drank; Color Me Badd - I Adore Mi Amor; Jagged Edge - Where the Party At; Akon ft. Styles P - Locked Up; Usher - Bad Girl; Next - Too Close; Tony! Toni! Toné! - Feels Good; 112 - Dance With Me; Groove Theory - Tell Me.",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "90s",
+      "r&b",
+      "radio",
+      "soul",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "R&B and soul"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "radio-la-ola",
+    "name": "Radio La Ola",
+    "summary": "A classic Latin station in the released game, described by GameSpot as the golden-age counterpart to Cocoteo FM.",
+    "body": [
+      "Songs GameSpot reports hearing on it: Cachao - Descarga Cubana; El Gran Combo de Puerto Rico - No Hay Cama Pa' Tanta Gente; Celia Cruz ft. Johnny Pacheco - Besito de Coco; Gloria Estefan - Mi Tierra; Banda Blanca - Sopa de Caracol; Orquesta Harlow - La Cartera; Willy Chirino - Soy Guajiro; Charlie Palmieri - La Hija de Lola; Willie Colon & Ruben Blades - Ligia Elena; Roberto Torres - Caballo Viejo; Willie Colon & Ruben Blades - Pedro Navaja.",
+      "No host is named by GameSpot, CULTR or The Big Lead."
+    ],
+    "tags": [
+      "classic",
+      "latin",
+      "radio",
+      "salsa",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Classic Latin"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "radio-on-u",
+    "name": "Radio On-U",
+    "summary": "A reggae and dub station in the released game, which GameSpot says is named after Adrian Sherwood's On-U Sound label.",
+    "body": [
+      "The outlets describe it differently: The Big Lead calls it reggae, CULTR reggae, dub and lovers rock, while GameSpot says it mostly plays fairly relaxed rock with some exceptions.",
+      "Songs GameSpot reports hearing on it: Adrian Sherwood - Dub Inspector; Louisa Mark - Caught You in a Lie; Horace Andy - Skylarking; Carroll Thompson - I'm So Sorry; Freddie McGregor - Big Ship; Ken Boothe - Everything I Own.",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "dub",
+      "radio",
+      "reggae",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Reggae, dub and lovers rock"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "v-rock",
+    "name": "V-Rock",
+    "summary": "The rock station from Grand Theft Auto: Vice City returns in the released game, now leaning to classic rock rather than heavy metal.",
+    "body": [
+      "GameSpot says it keeps its vulture logo. Metal has moved to The Chamber 106.6.",
+      "Songs GameSpot reports hearing on it: Bon Jovi - Runaway; The Rolling Stones - Emotional Rescue; Huey Lewis & The News - I Want A New Drug; Lindsey Buckingham - Go Insane; Van Halen - Panama; Poison - Nothin' But A Good Time; Eric Clapton - Cocaine; Harry Nilsson - Jump Into the Fire; The Who - Bargain; Eddie Money - Take Me Home Tonight; John Mellencamp - Jack and Diane; Motley Crue - Dr. Feelgood; Pete Townshend - Let My Love Open the Door; Loverboy - Lovin' Every Minute of It; KISS - Sure Know Something.",
+      "No host is named by GameSpot, CULTR or The Big Lead."
+    ],
+    "tags": [
+      "classic rock",
+      "radio",
+      "returning",
+      "rock",
+      "station",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Classic rock"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gloriana-blues-radio",
+    "name": "Gloriana Blues Radio",
+    "summary": "A blues station in the released game, listed by GameSpot, CULTR and The Big Lead.",
+    "body": [
+      "Songs GameSpot reports hearing on it: Ella Fitzgerald - Trouble in Mind; Memphis Minnie - Me and My Chauffeur; Jimmy Rogers - That's All Right; John Lee Hooker - Boogie Chillen; Sister Rosetta Tharpe - Didn't It Rain; Koko Taylor - I Got What It Takes; Earl Hooker - Blue Guitar; Freddie King - Yonder Wall.",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "blues",
+      "gloriana",
+      "radio",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Blues"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-jazz-radio",
+    "name": "Leonida Jazz Radio",
+    "summary": "A jazz fusion station in the released game, listed by GameSpot, CULTR and The Big Lead.",
+    "body": [
+      "Songs GameSpot reports hearing on it: Return to Forever - Sorceress; Casiopea - Time Limit; Bob James - Night Crawlers; Stanley Clarke - School Days; Stanley Clarke, Yussef Dayes and Robert Glasper - Overtown Lights.",
+      "Overtown Lights is the closing track of Grand Theft Auto VI: The Album.",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "fusion",
+      "jazz",
+      "radio",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Jazz fusion"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio",
+      "apple-music-album"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "symphony-fm",
+    "name": "Symphony FM",
+    "summary": "The classical station in the released game, listed by GameSpot, CULTR and The Big Lead.",
+    "body": [
+      "Works GameSpot reports hearing on it: Handel - Messiah; Liszt - Les Préludes; Lutosławski - Concerto for Orchestra; Prokofiev - Piano Concerto No. 2; Sibelius - Symphony No. 5 (third movement); Mahler - Symphony No. 6 (Allegro energico); Debussy - Nocturnes (Fêtes).",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "classical",
+      "radio",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Classical"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "worldwide-fm",
+    "name": "Worldwide FM",
+    "summary": "Worldwide FM returns from Grand Theft Auto V and GTA Online in the released game, according to GameSpot.",
+    "body": [
+      "GameSpot describes it as world music and jazz; CULTR and The Big Lead describe it as global club music.",
+      "Songs GameSpot reports hearing on it: Facta ft. Warrior Queen and Killa P - Slope VIP; Dongurizu - Yoppa Ratta; Fejão ft. Samtheman - Brasil de Capoeira; Cloud One - Atmosphere Strut; Jamiroquai - Smile; Garfield Fleming - Don't Send Me Away; Roberta Flack - The First Time Ever I Saw Your Face; Atmos Blaq - Skhaftin Saka Fonque; 4hero - Star Chasers.",
+      "No host is named by any of the three outlets."
+    ],
+    "tags": [
+      "club",
+      "jazz",
+      "radio",
+      "returning",
+      "station",
+      "world"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "World music, jazz and global club"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "circoloco-records-radio",
+    "name": "CircoLoco Records Radio",
+    "summary": "A club music station in the released game, named after the label Rockstar co-founded with the Ibiza party CircoLoco in 2021.",
+    "body": [
+      "Songs GameSpot reports hearing on it: Skream - Floral; Michael Bibi - Rhythm of the Night; Mind Against - Let It Go.",
+      "GameSpot and CULTR list this station. The Big Lead's table does not include it.",
+      "No host is named."
+    ],
+    "tags": [
+      "circoloco",
+      "club",
+      "house",
+      "radio",
+      "station",
+      "techno"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "House and techno club music"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kaleidoscope-fm",
+    "name": "Kaleidoscope FM",
+    "summary": "A station of foreign-language covers and global pop oddities in the released game, hosted by the actor Jeremy Irons.",
+    "body": [
+      "Rockstar's vice president of music, Ivan Pavlovich, told GameSpot the idea came from studio co-founder Sam Houser's love of foreign-language covers of his favourite songs, and that tracing rights holders was hard in some countries.",
+      "Pavlovich said Jeremy Irons plays a well-travelled host who tells tall tales of his adventures, and recorded the part in one session.",
+      "Songs GameSpot reports hearing on it: Rolf Bergstrom - Rokkibaby; Trevor M. Simpson & Hi Lo Singers - Stupid Girl; Phuong Thanh - Chia Tay Trong Mua; Marianne Rosenberg - Herz Aus Glas; Ron - Hai Capito O No?; Alim Qasimov & Farghana Qasimova - Say It Right.",
+      "GameSpot's managing editor also mentions a South Asian cover of Careless Whisper, without naming the performer."
+    ],
+    "tags": [
+      "covers",
+      "global pop",
+      "jeremy irons",
+      "radio",
+      "station"
+    ],
+    "facts": {
+      "type": "Radio station",
+      "genre": "Global pop and foreign-language covers",
+      "host": [
+        "Jeremy Irons"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "gamespot-kaleidoscope",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wktt",
+    "name": "WKTT",
+    "summary": "A conservative talk station, short for We Know The Truth, that returns from Grand Theft Auto IV in the released game.",
+    "body": [
+      "GameSpot says its logo has a bald eagle and a flag and that it carries the series' call-in satire.",
+      "GameSpot, CULTR and The Big Lead all list it as a talk station. None of them names a host or a show."
+    ],
+    "tags": [
+      "radio",
+      "returning",
+      "satire",
+      "station",
+      "talk"
+    ],
+    "facts": {
+      "type": "Talk station",
+      "genre": "Conservative talk"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-wipe",
+    "name": "The Wipe",
+    "summary": "A talk station in the released game about the absurd side of life in Leonida.",
+    "body": [
+      "GameSpot says it offers trivia about Leonida, including odd goings-on a player may not have come across yet. CULTR calls it podcast-style talk.",
+      "GameSpot, CULTR and The Big Lead all list it. None of them names a host."
+    ],
+    "tags": [
+      "leonida",
+      "radio",
+      "station",
+      "talk"
+    ],
+    "facts": {
+      "type": "Talk station",
+      "genre": "Talk"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-album-track-list",
+    "name": "Grand Theft Auto VI: The Album track list",
+    "summary": "Apple Music's listing for the official soundtrack album names all 34 tracks, opening with Justice and Michael McDonald and closing with Stanley Clarke.",
+    "body": [
+      "The 34 tracks in order, as Apple Music lists them: 1. Justice - Starting From Zero (feat. Michael McDonald); 2. Yung Lean - That's It (feat. Future & Metro Boomin); 3. Playboi Carti - AHH YEA; 4. Travis Scott - RHYNO; 5. CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.., Etienne de Crécy - Sexy Magic; 6. Justice, SZA, King Gizzard & The Lizard Wizard, Tame Impala - Flower In A Hurricane; 7. Dua Lipa - Go Easy; 8. Morgan Wallen - Last Thing You Need; 9. JHAYCO - X; 10. Fuerza Regida - Suzuki; 11. Rauw Alejandro - Macacoa 2000; 12. A Boogie wit da Hoodie - Dance With Me (feat. elkan); 13. Burna Boy - Bigger; 14. Gunna - COUNT UP; 15. Kodak Black, Don Toliver - Let's Rock; 16. Young Thug - WAKIN UP FLEX; 17. Tee Grizzley - IKYFL; 18. Don Toliver - TF?; 19. Cardi B - Don't Chart; 20. JT - GMA; 21. JENNIE - Power Trip; 22. Tove Lo - Blood In Your Eyes; 23. Zara Larsson - Fast Emotion; 24. Camila Cabello - Sweet Like Candy; 25. Fcukers - Only One; 26. Arca - Sandunguea; 27. Rina Sawayama - TRDWFE; 28. Rose Gray - All Again; 29. Lana Del Rey - Crazy For You; 30. Kali Uchis, Helado Negro - Largate; 31. Omar Apollo - NO ME BUSQUES; 32. Keith Richards - Bright Lights, Big City; 33. Jesse Johnson, DāM FunK - Stone Kold Krazy Luuv; 34. Stanley Clarke, Robert Glasper, Yussef Dayes - Overtown Lights.",
+      "Apple Music credits the recording to Atlantic Recording Corporation and Take-Two Interactive Software.",
+      "Apple Music's New Zealand store dates the album November 20, 2026 and still marked it as a pre-release when read. Rockstar's music page says it is coming November 19.",
+      "Rockstar itself has only named the ten singles on its music page; it has not published the full list on its own site."
+    ],
+    "tags": [
+      "album",
+      "atlantic records",
+      "soundtrack",
+      "track list",
+      "tracklist"
+    ],
+    "facts": {
+      "type": "Album",
+      "artists": [
+        "Justice",
+        "Yung Lean",
+        "Playboi Carti",
+        "Travis Scott",
+        "CA7RIEL & Paco Amoroso",
+        "PinkPantheress",
+        "Fred again..",
+        "Etienne de Crécy",
+        "Dua Lipa",
+        "Morgan Wallen",
+        "JHAYCO",
+        "Fuerza Regida",
+        "Rauw Alejandro",
+        "A Boogie wit da Hoodie",
+        "Burna Boy",
+        "Gunna",
+        "Kodak Black",
+        "Don Toliver",
+        "Young Thug",
+        "Tee Grizzley",
+        "Cardi B",
+        "JT",
+        "JENNIE",
+        "Tove Lo",
+        "Zara Larsson",
+        "Camila Cabello",
+        "Fcukers",
+        "Arca",
+        "Rina Sawayama",
+        "Rose Gray",
+        "Lana Del Rey",
+        "Kali Uchis",
+        "Helado Negro",
+        "Omar Apollo",
+        "Keith Richards",
+        "Jesse Johnson",
+        "DāM FunK",
+        "Stanley Clarke",
+        "Robert Glasper",
+        "Yussef Dayes"
+      ],
+      "tracks": 34,
+      "release_date": "2026-11-19 (Rockstar); 2026-11-20 (Apple Music New Zealand listing)"
+    },
+    "confidence": "official",
+    "sources": [
+      "apple-music-album",
+      "rockstar-music"
+    ],
+    "verified": "2026-11-18"
+  }
+]

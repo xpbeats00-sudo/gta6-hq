@@ -1,0 +1,2274 @@
+[
+  {
+    "slug": "lapwing-300-h",
+    "name": "Lapwing 300-H",
+    "summary": "The Lapwing 300-H is an aircraft listed in the released game's vehicle database (style Plane, era 1990s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Aircraft."
+    ],
+    "tags": [
+      "300",
+      "aircraft",
+      "lapwing",
+      "plane"
+    ],
+    "facts": {
+      "manufacturer": "Lapwing",
+      "model": "300-H",
+      "class": "Aircraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mammoth-dodo",
+    "name": "Mammoth Dodo",
+    "summary": "The Mammoth Dodo is an aircraft listed in the released game's vehicle database (style Plane, era 1940s Antique).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Aircraft."
+    ],
+    "tags": [
+      "aircraft",
+      "dodo",
+      "mammoth",
+      "plane"
+    ],
+    "facts": {
+      "manufacturer": "Mammoth",
+      "model": "Dodo",
+      "class": "Aircraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-maverick",
+    "name": "Buckingham Maverick",
+    "summary": "The Buckingham Maverick is an aircraft listed in the released game's vehicle database (style Helicopter, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Aircraft."
+    ],
+    "tags": [
+      "aircraft",
+      "buckingham",
+      "helicopter",
+      "maverick"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Maverick",
+      "class": "Aircraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-superovolito",
+    "name": "Buckingham Superovolito",
+    "summary": "The Buckingham Superovolito is an aircraft listed in the released game's vehicle database (style Helicopter, era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Aircraft.",
+      "The spelling \"Superovolito\" is as DayOne prints it and has not been checked against a second source."
+    ],
+    "tags": [
+      "aircraft",
+      "buckingham",
+      "helicopter",
+      "superovolito"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Superovolito",
+      "class": "Aircraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-aphid",
+    "name": "Bravado Aphid",
+    "summary": "The Bravado Aphid is a bike listed in the released game's vehicle database (style Dirt Bike, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Bikes.",
+      "DayOne gives its stats as speed 2.1, acceleration 3.6, asphalt handling 2.9, off-road handling 6.8, strength 4.0."
+    ],
+    "tags": [
+      "aphid",
+      "bike",
+      "bravado",
+      "dirt"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Aphid",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shift-e-fan-e",
+    "name": "Shift-E Fan-E",
+    "summary": "The Shift-E Fan-E is a bike listed in the released game's vehicle database (style Scooter, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Bikes.",
+      "DayOne gives its stats as speed 0.7, acceleration 0.2, asphalt handling 1.1, off-road handling 1.3, strength 4.0."
+    ],
+    "tags": [
+      "bike",
+      "fan",
+      "scooter",
+      "shift"
+    ],
+    "facts": {
+      "manufacturer": "Shift-E",
+      "model": "Fan-E",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "del-perro-erode",
+    "name": "Del Perro Erode",
+    "summary": "The Del Perro Erode is a bike listed in the released game's vehicle database (style Bike, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Bikes."
+    ],
+    "tags": [
+      "bike",
+      "del",
+      "erode",
+      "perro"
+    ],
+    "facts": {
+      "manufacturer": "Del Perro",
+      "model": "Erode",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "western-nightblade",
+    "name": "Western Nightblade",
+    "summary": "The Western Nightblade is a bike listed in the released game's vehicle database (style Chopper, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Bikes and names Chopper as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.4, acceleration 5.9, asphalt handling 5.8, off-road handling 3.0, strength 4.0."
+    ],
+    "tags": [
+      "bike",
+      "chopper",
+      "nightblade",
+      "western"
+    ],
+    "facts": {
+      "manufacturer": "Western",
+      "model": "Nightblade",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "taci-ragno",
+    "name": "Taci Ragno",
+    "summary": "The Taci Ragno is a bike listed in the released game's vehicle database (style Scooter, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Bikes.",
+      "DayOne gives its stats as speed 2.6, acceleration 3.6, asphalt handling 3.6, off-road handling 1.8, strength 4.0."
+    ],
+    "tags": [
+      "bike",
+      "ragno",
+      "scooter",
+      "taci"
+    ],
+    "facts": {
+      "manufacturer": "Taci",
+      "model": "Ragno",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-sfb-1000",
+    "name": "Nagasaki SFB 1000",
+    "summary": "The Nagasaki SFB 1000 is a bike listed in the released game's vehicle database (style Sports Bike, era 2020s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Bikes and names Sports Bike as its mod shop specialist.",
+      "DayOne gives its stats as speed 7.1, acceleration 8.1, asphalt handling 8.1, off-road handling 2.3, strength 4.0."
+    ],
+    "tags": [
+      "1000",
+      "bike",
+      "nagasaki",
+      "sfb",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "SFB 1000",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-street-blazer",
+    "name": "Nagasaki Street Blazer",
+    "summary": "The Nagasaki Street Blazer is a bike listed in the released game's vehicle database (style Quad Bike, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Bikes and names Dirt Bike as its mod shop specialist.",
+      "DayOne gives its stats as speed 2.8, acceleration 5.4, asphalt handling 3.4, off-road handling 7.5, strength 4.0."
+    ],
+    "tags": [
+      "bike",
+      "blazer",
+      "nagasaki",
+      "quad",
+      "street"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Street Blazer",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dinka-verus",
+    "name": "Dinka Verus",
+    "summary": "The Dinka Verus is a bike listed in the released game's vehicle database (style Quad Bike, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Bikes and names Dirt Bike as its mod shop specialist.",
+      "DayOne gives its stats as speed 2.8, acceleration 4.6, asphalt handling 3.3, off-road handling 7.1, strength 4.0."
+    ],
+    "tags": [
+      "bike",
+      "dinka",
+      "quad",
+      "verus"
+    ],
+    "facts": {
+      "manufacturer": "Dinka",
+      "model": "Verus",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dinka-blista-85",
+    "name": "'85 Dinka Blista",
+    "summary": "The '85 Dinka Blista is a coupe listed in the released game's vehicle database (style Compact, era 1980s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.5, acceleration 4.7, asphalt handling 3.8, off-road handling 4.2, strength 3.0."
+    ],
+    "tags": [
+      "blista",
+      "compact",
+      "coupe",
+      "dinka"
+    ],
+    "facts": {
+      "manufacturer": "Dinka",
+      "model": "Blista",
+      "year": "1985",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ubermacht-cypher",
+    "name": "Ubermacht Cypher",
+    "summary": "The Ubermacht Cypher is a coupe listed in the released game's vehicle database (style Sports, era 2020s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 6.5, acceleration 7.2, asphalt handling 4.9, off-road handling 4.5, strength 3.0."
+    ],
+    "tags": [
+      "coupe",
+      "cypher",
+      "sports",
+      "ubermacht"
+    ],
+    "facts": {
+      "manufacturer": "Ubermacht",
+      "model": "Cypher",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "annis-elegy-90",
+    "name": "'90 Annis Elegy",
+    "summary": "The '90 Annis Elegy is a coupe listed in the released game's vehicle database (style Sports, era 1990s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 5.5, acceleration 6.4, asphalt handling 4.9, off-road handling 3.9, strength 3.0."
+    ],
+    "tags": [
+      "annis",
+      "coupe",
+      "elegy",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Annis",
+      "model": "Elegy",
+      "year": "1990",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "willard-lasso-90",
+    "name": "'90 Willard Lasso",
+    "summary": "The '90 Willard Lasso is a coupe listed in the released game's vehicle database (style Convertible, era 1990s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Coupes.",
+      "DayOne gives its stats as speed 4.7, acceleration 4.9, asphalt handling 3.7, off-road handling 4.2, strength 3.0."
+    ],
+    "tags": [
+      "convertible",
+      "coupe",
+      "lasso",
+      "willard"
+    ],
+    "facts": {
+      "manufacturer": "Willard",
+      "model": "Lasso",
+      "year": "1990",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-penumbra",
+    "name": "Maibatsu Penumbra",
+    "summary": "The Maibatsu Penumbra is a coupe listed in the released game's vehicle database (style Sports, era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 5.2, acceleration 5.7, asphalt handling 4.2, off-road handling 4.3, strength 3.0."
+    ],
+    "tags": [
+      "coupe",
+      "maibatsu",
+      "penumbra",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Penumbra",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "imponte-runner-82",
+    "name": "'82 Imponte Runner",
+    "summary": "The '82 Imponte Runner is a coupe listed in the released game's vehicle database (style Muscle, era 1980s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Coupes and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.5, acceleration 4.6, asphalt handling 3.7, off-road handling 4.1, strength 3.0."
+    ],
+    "tags": [
+      "coupe",
+      "imponte",
+      "muscle",
+      "runner"
+    ],
+    "facts": {
+      "manufacturer": "Imponte",
+      "model": "Runner",
+      "year": "1982",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benefactor-shutzen",
+    "name": "Benefactor Shutzen",
+    "summary": "The Benefactor Shutzen is a coupe listed in the released game's vehicle database (style Convertible, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Coupes and names Luxury as its mod shop specialist.",
+      "DayOne gives its stats as speed 6.7, acceleration 7.1, asphalt handling 5.9, off-road handling 3.6, strength 3.0.",
+      "The spelling \"Shutzen\" is as DayOne prints it and has not been checked against a second source."
+    ],
+    "tags": [
+      "benefactor",
+      "convertible",
+      "coupe",
+      "shutzen"
+    ],
+    "facts": {
+      "manufacturer": "Benefactor",
+      "model": "Shutzen",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "albany-buccaneer-65",
+    "name": "'65 Albany Buccaneer",
+    "summary": "The '65 Albany Buccaneer is a muscle car listed in the released game's vehicle database (era 1960s Antique).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.2, acceleration 4.1, asphalt handling 3.2, off-road handling 3.9, strength 3.0."
+    ],
+    "tags": [
+      "albany",
+      "buccaneer",
+      "car",
+      "muscle"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "Buccaneer",
+      "year": "1965",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-tulip-72",
+    "name": "'72 Declasse Tulip",
+    "summary": "The '72 Declasse Tulip is a muscle car listed in the released game's vehicle database (era 1970s Antique).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 5.1, acceleration 4.8, asphalt handling 3.4, off-road handling 3.9, strength 3.0."
+    ],
+    "tags": [
+      "car",
+      "declasse",
+      "muscle",
+      "tulip"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Tulip",
+      "year": "1972",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dundreary-chino-65",
+    "name": "'65 Dundreary Chino",
+    "summary": "The '65 Dundreary Chino is a muscle car listed in the released game's vehicle database (era 1960s Antique).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Muscle Cars and names Lowrider as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.9, acceleration 4.2, asphalt handling 3.3, off-road handling 4.0, strength 3.0."
+    ],
+    "tags": [
+      "car",
+      "chino",
+      "dundreary",
+      "muscle"
+    ],
+    "facts": {
+      "manufacturer": "Dundreary",
+      "model": "Chino",
+      "year": "1965",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-dominator",
+    "name": "Vapid Dominator",
+    "summary": "The Vapid Dominator is a muscle car listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 5.6, acceleration 6.0, asphalt handling 4.4, off-road handling 3.9, strength 3.0.",
+      "This is the 2000s car; DayOne lists it separately from the '65 Dominator and the Dominator GT."
+    ],
+    "tags": [
+      "car",
+      "dominator",
+      "muscle",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Dominator",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-tulip-m-100-78",
+    "name": "'78 Declasse Tulip M-100",
+    "summary": "The '78 Declasse Tulip M-100 is a muscle car listed in the released game's vehicle database (era 1970s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.7, acceleration 3.7, asphalt handling 3.2, off-road handling 3.8, strength 3.0.",
+      "DayOne prints the name as \"78 Declasse Tuliop M-100\".",
+      "The same DayOne page lists a '72 Declasse Tulip, so the model is given here as Tulip M-100."
+    ],
+    "tags": [
+      "100",
+      "car",
+      "declasse",
+      "muscle",
+      "tulip"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Tulip M-100",
+      "year": "1978",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-vamos-74",
+    "name": "'74 Declasse Vamos",
+    "summary": "The '74 Declasse Vamos is a muscle car listed in the released game's vehicle database (era 1970s Antique).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.4, acceleration 3.9, asphalt handling 3.3, off-road handling 3.7, strength 3.0.",
+      "DayOne prints the name as \"74 Declass Vamos\"."
+    ],
+    "tags": [
+      "car",
+      "declasse",
+      "muscle",
+      "vamos"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Vamos",
+      "year": "1974",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bf-bandito-77",
+    "name": "'77 BF Bandito",
+    "summary": "The '77 BF Bandito is an off-road vehicle listed in the released game's vehicle database (era 1970s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Off-Road Vehicles and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.6, acceleration 6.0, asphalt handling 3.5, off-road handling 7.6, strength 3.5."
+    ],
+    "tags": [
+      "bandito",
+      "bf",
+      "off",
+      "road",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "BF",
+      "model": "Bandito",
+      "year": "1977",
+      "class": "Off-Road Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mer-can-outlaw",
+    "name": "Mer-Can Outlaw",
+    "summary": "The Mer-Can Outlaw is an off-road vehicle listed in the released game's vehicle database.",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Off-Road Vehicles and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.3, acceleration 5.8, asphalt handling 3.2, off-road handling 8.4, strength 3.5.",
+      "DayOne prints the era as \"2010s Antique\", which looks like an error on the page."
+    ],
+    "tags": [
+      "can",
+      "mer",
+      "off",
+      "outlaw",
+      "road",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Mer-Can",
+      "model": "Outlaw",
+      "class": "Off-Road Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-bison",
+    "name": "Bravado Bison",
+    "summary": "The Bravado Bison is a pickup listed in the released game's vehicle database (era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.2, acceleration 4.6, asphalt handling 3.8, off-road handling 5.0, strength 3.0."
+    ],
+    "tags": [
+      "bison",
+      "bravado",
+      "pickup"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Bison",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-bobcat-xl-84",
+    "name": "'84 Declasse Bobcat XL",
+    "summary": "The '84 Declasse Bobcat XL is a pickup listed in the released game's vehicle database (era 1980s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.2, acceleration 4.7, asphalt handling 3.2, off-road handling 4.9, strength 3.2."
+    ],
+    "tags": [
+      "bobcat",
+      "declasse",
+      "pickup",
+      "xl"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Bobcat XL",
+      "year": "1984",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-caracara-4x4",
+    "name": "Vapid Caracara 4×4",
+    "summary": "The Vapid Caracara 4×4 is a pickup listed in the released game's vehicle database (era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.2, acceleration 5.1, asphalt handling 3.3, off-road handling 6.7, strength 3.0."
+    ],
+    "tags": [
+      "caracara",
+      "pickup",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Caracara 4×4",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "karin-contender",
+    "name": "Karin Contender",
+    "summary": "The Karin Contender is a pickup listed in the released game's vehicle database (era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.5, acceleration 5.5, asphalt handling 3.4, off-road handling 6.7, strength 3.0."
+    ],
+    "tags": [
+      "contender",
+      "karin",
+      "pickup"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Contender",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-reclaimer-70",
+    "name": "'70 Vapid Reclaimer",
+    "summary": "The '70 Vapid Reclaimer is a pickup listed in the released game's vehicle database (era 1970s Antique).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 2.6, acceleration 2.5, asphalt handling 2.9, off-road handling 3.6, strength 3.0."
+    ],
+    "tags": [
+      "pickup",
+      "reclaimer",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Reclaimer",
+      "year": "1970",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-riata",
+    "name": "Vapid Riata",
+    "summary": "The Vapid Riata is a pickup listed in the released game's vehicle database (era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.4, acceleration 5.7, asphalt handling 3.8, off-road handling 6.6, strength 3.0.",
+      "This is the modern pickup in DayOne's list; the '70 Riata rebuilt in Wyman's questline is a separate entry in the app."
+    ],
+    "tags": [
+      "pickup",
+      "riata",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Riata",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-sandking-xl",
+    "name": "Vapid Sandking XL",
+    "summary": "The Vapid Sandking XL is a pickup listed in the released game's vehicle database (era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.6, acceleration 4.3, asphalt handling 3.4, off-road handling 4.6, strength 3.0."
+    ],
+    "tags": [
+      "pickup",
+      "sandking",
+      "vapid",
+      "xl"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Sandking XL",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "obey-animus",
+    "name": "Obey Animus",
+    "summary": "The Obey Animus is a sedan listed in the released game's vehicle database (style Luxury, era 2020s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.6, acceleration 5.6, asphalt handling 4.4, off-road handling 4.4, strength 3.0."
+    ],
+    "tags": [
+      "animus",
+      "luxury",
+      "obey",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Obey",
+      "model": "Animus",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-buffalo-07",
+    "name": "'07 Bravado Buffalo",
+    "summary": "The '07 Bravado Buffalo is a sedan listed in the released game's vehicle database (style Sports, era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 5.2, acceleration 5.4, asphalt handling 4.3, off-road handling 4.5, strength 3.0."
+    ],
+    "tags": [
+      "bravado",
+      "buffalo",
+      "sedan",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Buffalo",
+      "year": "2007",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "albany-emperor-85",
+    "name": "'85 Albany Emperor",
+    "summary": "The '85 Albany Emperor is a sedan listed in the released game's vehicle database (era 1980s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans and names Lowrider as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.3, acceleration 3.0, asphalt handling 2.7, off-road handling 3.3, strength 3.0."
+    ],
+    "tags": [
+      "albany",
+      "emperor",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "Emperor",
+      "year": "1985",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "karin-feroci-98",
+    "name": "'98 Karin Feroci",
+    "summary": "The '98 Karin Feroci is a sedan listed in the released game's vehicle database (style Sports).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 5.0, acceleration 5.4, asphalt handling 4.0, off-road handling 4.5, strength 3.0.",
+      "DayOne prints the era as 1980s Classic although the name carries '98, so the model year is left out here."
+    ],
+    "tags": [
+      "feroci",
+      "karin",
+      "sedan",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Feroci",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-parkland-71",
+    "name": "'71 Declasse Parkland",
+    "summary": "The '71 Declasse Parkland is a sedan listed in the released game's vehicle database (style Station Wagon, era 1970s Antique).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.5, acceleration 3.3, asphalt handling 3.2, off-road handling 3.1, strength 3.0."
+    ],
+    "tags": [
+      "declasse",
+      "parkland",
+      "sedan",
+      "station",
+      "wagon"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Parkland",
+      "year": "1971",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "schyster-pmp-700",
+    "name": "Schyster PMP 700",
+    "summary": "The Schyster PMP 700 is a sedan listed in the released game's vehicle database (style Luxury, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans.",
+      "DayOne gives its stats as speed 5.8, acceleration 6.4, asphalt handling 4.3, off-road handling 4.5, strength 3.0."
+    ],
+    "tags": [
+      "700",
+      "luxury",
+      "pmp",
+      "schyster",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Schyster",
+      "model": "PMP 700",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "albany-primo",
+    "name": "Albany Primo",
+    "summary": "The Albany Primo is a sedan listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans.",
+      "DayOne gives its stats as speed 4.0, acceleration 4.1, asphalt handling 3.0, off-road handling 4.1, strength 3.0."
+    ],
+    "tags": [
+      "albany",
+      "primo",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "Primo",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benefactor-shafter-s",
+    "name": "Benefactor Shafter S",
+    "summary": "The Benefactor Shafter S is a sedan listed in the released game's vehicle database (style Sports, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.8, acceleration 5.7, asphalt handling 4.4, off-road handling 4.5, strength 3.0.",
+      "DayOne spells the model \"Shafter\"; the app's pre-launch entry is \"Benefactor Schafter\", and DayOne lists two models (Shafter S, a sedan, and Shafter V12, a sports car)."
+    ],
+    "tags": [
+      "benefactor",
+      "sedan",
+      "shafter",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Benefactor",
+      "model": "Shafter S",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-stanier-98",
+    "name": "'98 Vapid Stanier",
+    "summary": "The '98 Vapid Stanier is a sedan listed in the released game's vehicle database (style Muscle).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans.",
+      "DayOne gives its stats as speed 4.5, acceleration 4.6, asphalt handling 4.0, off-road handling 4.2, strength 3.0.",
+      "DayOne prints the era as \"1990s Muscle\", which looks like an error on the page."
+    ],
+    "tags": [
+      "muscle",
+      "sedan",
+      "stanier",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Stanier",
+      "year": "1998",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-stanier-g2",
+    "name": "Vapid Stanier G2",
+    "summary": "The Vapid Stanier G2 is a sedan listed in the released game's vehicle database (style Muscle, era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sedans and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.5, acceleration 4.7, asphalt handling 4.2, off-road handling 4.3, strength 3.0.",
+      "DayOne prints the name as \"Vpaid Stanier G2\".",
+      "The app already has the Stanier G2 Taxi as a separate cheat-spawn entry."
+    ],
+    "tags": [
+      "g2",
+      "muscle",
+      "sedan",
+      "stanier",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Stanier G2",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "grotti-carbonizzare",
+    "name": "Grotti Carbonizzare",
+    "summary": "The Grotti Carbonizzare is a sports car listed in the released game's vehicle database (style Convertible, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sports Cars and names Luxury as its mod shop specialist.",
+      "DayOne gives its stats as speed 6.3, acceleration 7.1, asphalt handling 6.0, off-road handling 3.6, strength 3.0."
+    ],
+    "tags": [
+      "car",
+      "carbonizzare",
+      "convertible",
+      "grotti",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Grotti",
+      "model": "Carbonizzare",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pfister-comet-s2",
+    "name": "Pfister Comet S2",
+    "summary": "The Pfister Comet S2 is a sports car listed in the released game's vehicle database (style Convertible, era 2020s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sports Cars and names Luxury as its mod shop specialist.",
+      "DayOne gives its stats as speed 7.7, acceleration 8.0, asphalt handling 7.6, off-road handling 3.6, strength 3.0."
+    ],
+    "tags": [
+      "car",
+      "comet",
+      "convertible",
+      "pfister",
+      "s2",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Pfister",
+      "model": "Comet S2",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pfister-comet-88",
+    "name": "'88 Pfister Comet",
+    "summary": "The '88 Pfister Comet is a sports car listed in the released game's vehicle database (era 1980s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sports Cars and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 6.1, acceleration 6.4, asphalt handling 6.5, off-road handling 4.0, strength 3.7."
+    ],
+    "tags": [
+      "car",
+      "comet",
+      "pfister",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Pfister",
+      "model": "Comet",
+      "year": "1988",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "invetero-coquette-d10",
+    "name": "Invetero Coquette D10",
+    "summary": "The Invetero Coquette D10 is a sports car listed in the released game's vehicle database (era 2020s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sports Cars and names Luxury as its mod shop specialist.",
+      "DayOne gives its stats as speed 7.0, acceleration 7.5, asphalt handling 6.5, off-road handling 3.6, strength 3.0."
+    ],
+    "tags": [
+      "car",
+      "coquette",
+      "d10",
+      "invetero",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Invetero",
+      "model": "Coquette D10",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benefactor-shafter-v12",
+    "name": "Benefactor Shafter V12",
+    "summary": "The Benefactor Shafter V12 is a sports car listed in the released game's vehicle database (style Luxury, era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sports Cars and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 6.0, acceleration 6.6, asphalt handling 4.5, off-road handling 4.5, strength 3.0.",
+      "DayOne spells the model \"Shafter\"; the app's pre-launch entry is \"Benefactor Schafter\", and DayOne lists two models (Shafter S, a sedan, and Shafter V12, a sports car)."
+    ],
+    "tags": [
+      "benefactor",
+      "car",
+      "luxury",
+      "shafter",
+      "sports",
+      "v12"
+    ],
+    "facts": {
+      "manufacturer": "Benefactor",
+      "model": "Shafter V12",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "emperor-sultan",
+    "name": "Emperor Sultan",
+    "summary": "The Emperor Sultan is a sports car listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Sports Cars and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.9, acceleration 6.1, asphalt handling 4.4, off-road handling 4.5, strength 3.0."
+    ],
+    "tags": [
+      "car",
+      "emperor",
+      "sports",
+      "sultan"
+    ],
+    "facts": {
+      "manufacturer": "Emperor",
+      "model": "Sultan",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pfister-astron",
+    "name": "Pfister Astron",
+    "summary": "The Pfister Astron is an SUV listed in the released game's vehicle database (style Sports, era 2020s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under SUVs and names Luxury as its mod shop specialist.",
+      "DayOne gives its stats as speed 5.3, acceleration 6.5, asphalt handling 5.1, off-road handling 4.5, strength 3.0."
+    ],
+    "tags": [
+      "astron",
+      "pfister",
+      "sports",
+      "suv"
+    ],
+    "facts": {
+      "manufacturer": "Pfister",
+      "model": "Astron",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gallivanter-baller",
+    "name": "Gallivanter Baller",
+    "summary": "The Gallivanter Baller is an SUV listed in the released game's vehicle database (style Sports, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under SUVs and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 5.1, acceleration 6.2, asphalt handling 4.4, off-road handling 5.0, strength 3.0.",
+      "DayOne prints the name as \"Gallvanter Baller\"."
+    ],
+    "tags": [
+      "baller",
+      "gallivanter",
+      "sports",
+      "suv"
+    ],
+    "facts": {
+      "manufacturer": "Gallivanter",
+      "model": "Baller",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-granger",
+    "name": "Declasse Granger",
+    "summary": "The Declasse Granger is an SUV listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under SUVs and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.6, acceleration 4.0, asphalt handling 3.7, off-road handling 4.2, strength 3.0."
+    ],
+    "tags": [
+      "declasse",
+      "granger",
+      "suv"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Granger",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-granger-3600lx",
+    "name": "Declasse Granger 3600LX",
+    "summary": "The Declasse Granger 3600LX is an SUV listed in the released game's vehicle database (era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under SUVs and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.0, acceleration 4.5, asphalt handling 3.8, off-road handling 4.4, strength 3.0."
+    ],
+    "tags": [
+      "3600lx",
+      "declasse",
+      "granger",
+      "suv"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Granger 3600LX",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "annis-hellion-95",
+    "name": "'95 Annis Hellion",
+    "summary": "The '95 Annis Hellion is an SUV listed in the released game's vehicle database (style Off-Road, era 1990s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under SUVs and names Off-Road as its mod shop specialist.",
+      "DayOne gives its stats as speed 3.1, acceleration 3.4, asphalt handling 3.0, off-road handling 6.7, strength 3.0."
+    ],
+    "tags": [
+      "annis",
+      "hellion",
+      "off",
+      "road",
+      "suv"
+    ],
+    "facts": {
+      "manufacturer": "Annis",
+      "model": "Hellion",
+      "year": "1995",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dundreary-landstalker-xl",
+    "name": "Dundreary Landstalker XL",
+    "summary": "The Dundreary Landstalker XL is an SUV listed in the released game's vehicle database (style Luxury, era 2020s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under SUVs and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.4, acceleration 5.2, asphalt handling 3.9, strength 3.0; the page leaves the off-road handling value blank."
+    ],
+    "tags": [
+      "dundreary",
+      "landstalker",
+      "luxury",
+      "suv",
+      "xl"
+    ],
+    "facts": {
+      "manufacturer": "Dundreary",
+      "model": "Landstalker XL",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brute-boxville",
+    "name": "Brute Boxville",
+    "summary": "The Brute Boxville is a van listed in the released game's vehicle database (style Commercial, era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Vans.",
+      "DayOne gives its stats as speed 2.6, acceleration 2.7, asphalt handling 2.7, off-road handling 3.4, strength 3.0."
+    ],
+    "tags": [
+      "boxville",
+      "brute",
+      "commercial",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Boxville",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-burrito-98",
+    "name": "'98 Declasse Burrito",
+    "summary": "The '98 Declasse Burrito is a van listed in the released game's vehicle database (style Commercial, era 1990s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Vans.",
+      "DayOne gives its stats as speed 3.4, acceleration 3.8, asphalt handling 3.4, off-road handling 3.3, strength 3.0."
+    ],
+    "tags": [
+      "burrito",
+      "commercial",
+      "declasse",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Burrito",
+      "year": "1998",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "willard-moocher-83",
+    "name": "'83 Willard Moocher",
+    "summary": "The '83 Willard Moocher is a van listed in the released game's vehicle database (style Motorhome, era 1980s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Vans.",
+      "DayOne gives its stats as speed 2.5, acceleration 1.4, asphalt handling 2.8, off-road handling 2.6, strength 3.0."
+    ],
+    "tags": [
+      "moocher",
+      "motorhome",
+      "van",
+      "willard"
+    ],
+    "facts": {
+      "manufacturer": "Willard",
+      "model": "Moocher",
+      "year": "1983",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-rumpo",
+    "name": "Vapid Rumpo",
+    "summary": "The Vapid Rumpo is a van listed in the released game's vehicle database (style Commercial, era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Vans.",
+      "DayOne gives its stats as speed 3.2, acceleration 3.7, asphalt handling 3.1, off-road handling 3.3, strength 3.0."
+    ],
+    "tags": [
+      "commercial",
+      "rumpo",
+      "van",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Rumpo",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-speedo",
+    "name": "Vapid Speedo",
+    "summary": "The Vapid Speedo is a van listed in the released game's vehicle database (style Commercial, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Vans.",
+      "DayOne gives its stats as speed 3.4, acceleration 3.6, asphalt handling 3.1, off-road handling 3.6, strength 3.0."
+    ],
+    "tags": [
+      "commercial",
+      "speedo",
+      "van",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Speedo",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-youga-74",
+    "name": "'74 Bravado Youga",
+    "summary": "The '74 Bravado Youga is a van listed in the released game's vehicle database (style Commercial, era 1970s Antique).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Vans.",
+      "DayOne gives its stats as speed 3.0, acceleration 2.6, asphalt handling 3.2, off-road handling 3.1, strength 3.0."
+    ],
+    "tags": [
+      "bravado",
+      "commercial",
+      "van",
+      "youga"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Youga",
+      "year": "1974",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-youga-xl-79",
+    "name": "'79 Bravado Youga XL",
+    "summary": "The '79 Bravado Youga XL is a van listed in the released game's vehicle database (style Commercial, era 1970s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Vans.",
+      "DayOne gives its stats as speed 3.2, acceleration 3.1, asphalt handling 3.2, off-road handling 3.3, strength 3.0."
+    ],
+    "tags": [
+      "bravado",
+      "commercial",
+      "van",
+      "xl",
+      "youga"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Youga XL",
+      "year": "1979",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "interstate-benson-97",
+    "name": "'97 Interstate Benson",
+    "summary": "The '97 Interstate Benson is a truck listed in the released game's vehicle database (era 1990s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Trucks.",
+      "DayOne gives its stats as speed 2.4, acceleration 1.7, asphalt handling 2.6, off-road handling 2.5, strength 3.0."
+    ],
+    "tags": [
+      "benson",
+      "interstate",
+      "truck"
+    ],
+    "facts": {
+      "manufacturer": "Interstate",
+      "model": "Benson",
+      "year": "1997",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-guardian-tx2",
+    "name": "Vapid Guardian TX2",
+    "summary": "The Vapid Guardian TX2 is a truck listed in the released game's vehicle database (era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Trucks.",
+      "DayOne gives its stats as speed 2.6, acceleration 2.1, asphalt handling 2.6, off-road handling 3.4, strength 3.0."
+    ],
+    "tags": [
+      "guardian",
+      "truck",
+      "tx2",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Guardian TX2",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "jobuilt-mb2-10",
+    "name": "Jobuilt MB2-10",
+    "summary": "The Jobuilt MB2-10 is a truck listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Trucks.",
+      "DayOne gives its stats as speed 1.8, acceleration 1.4, asphalt handling 2.2, off-road handling 2.2, strength 3.0."
+    ],
+    "tags": [
+      "10",
+      "jobuilt",
+      "mb2",
+      "truck"
+    ],
+    "facts": {
+      "manufacturer": "Jobuilt",
+      "model": "MB2-10",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-mule",
+    "name": "Maibatsu Mule",
+    "summary": "The Maibatsu Mule is a truck listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Trucks.",
+      "DayOne gives its stats as speed 2.6, acceleration 1.9, asphalt handling 2.5, off-road handling 2.8, strength 3.0."
+    ],
+    "tags": [
+      "maibatsu",
+      "mule",
+      "truck"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Mule",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brute-taco-van",
+    "name": "Brute Taco Van",
+    "summary": "The Brute Taco Van is a utility vehicle listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Utility Vehicles."
+    ],
+    "tags": [
+      "brute",
+      "taco",
+      "utility",
+      "van",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Taco Van",
+      "class": "Service - Utility Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "interstate-yankee-80",
+    "name": "'80 Interstate Yankee",
+    "summary": "The '80 Interstate Yankee is a utility vehicle listed in the released game's vehicle database (era 1980s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Utility Vehicles."
+    ],
+    "tags": [
+      "interstate",
+      "utility",
+      "vehicle",
+      "yankee"
+    ],
+    "facts": {
+      "manufacturer": "Interstate",
+      "model": "Yankee",
+      "year": "1980",
+      "class": "Service - Utility Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-ambulance",
+    "name": "Declasse Ambulance",
+    "summary": "The Declasse Ambulance is an emergency vehicle listed in the released game's vehicle database (era 1990s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Emergency Vehicles.",
+      "DayOne gives its stats as speed 3.0, acceleration 2.6, asphalt handling 2.9, off-road handling 2.9, strength 3.0.",
+      "The spawn-cheat lists already in the app name an \"Interstate Ambulance\"; DayOne's list instead has a Declasse Ambulance, and it is not confirmed whether these are one vehicle."
+    ],
+    "tags": [
+      "ambulance",
+      "declasse",
+      "emergency",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Ambulance",
+      "class": "Service - Emergency Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hauners-brigade",
+    "name": "Hauners Brigade",
+    "summary": "The Hauners Brigade is an emergency vehicle listed in the released game's vehicle database (era 2000s Military).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Emergency Vehicles.",
+      "DayOne gives its stats as speed 1.6, acceleration 1.1, asphalt handling 1.9, off-road handling 5.4, strength 3.4."
+    ],
+    "tags": [
+      "brigade",
+      "emergency",
+      "hauners",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Hauners",
+      "model": "Brigade",
+      "class": "Service - Emergency Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dingus-garda",
+    "name": "Dingus Garda",
+    "summary": "The Dingus Garda is an emergency vehicle listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Emergency Vehicles.",
+      "Although it is a boat, DayOne files it under Emergency Vehicles."
+    ],
+    "tags": [
+      "dingus",
+      "emergency",
+      "garda",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Dingus",
+      "model": "Garda",
+      "class": "Service - Emergency Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hauners-cargobob",
+    "name": "Hauners Cargobob",
+    "summary": "The Hauners Cargobob is a military vehicle listed in the released game's vehicle database (era 2000s Military).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Military Vehicles.",
+      "Although it is a helicopter, DayOne files it under Military Vehicles."
+    ],
+    "tags": [
+      "cargobob",
+      "hauners",
+      "military",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Hauners",
+      "model": "Cargobob",
+      "class": "Service - Military Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stanely-furrow-tc-2350",
+    "name": "Stanely Furrow TC 2350",
+    "summary": "The Stanely Furrow TC 2350 is an industrial vehicle listed in the released game's vehicle database (era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Industrial Vehicles.",
+      "DayOne prints the maker as \"Stanely\"; the app's pre-launch Fieldmaster tractor entry uses \"Stanley\", and it is not confirmed whether they are the same vehicle."
+    ],
+    "tags": [
+      "2350",
+      "furrow",
+      "industrial",
+      "stanely",
+      "tc",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Stanely",
+      "model": "Furrow TC 2350",
+      "class": "Service - Industrial Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "whiffler-dashound",
+    "name": "Whiffler Dashound",
+    "summary": "The Whiffler Dashound is a transport vehicle listed in the released game's vehicle database (era 2000s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Transport Vehicles.",
+      "DayOne gives its stats as speed 2.0, acceleration 1.3, asphalt handling 2.1, off-road handling 2.5, strength 3.0.",
+      "The spelling \"Dashound\" is as DayOne prints it and has not been checked against a second source."
+    ],
+    "tags": [
+      "dashound",
+      "transport",
+      "vehicle",
+      "whiffler"
+    ],
+    "facts": {
+      "manufacturer": "Whiffler",
+      "model": "Dashound",
+      "class": "Service - Transport Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "seashark-azure",
+    "name": "Seashark Azure",
+    "summary": "The Seashark Azure is a watercraft listed in the released game's vehicle database (style Personal Watercraft, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "azure",
+      "personal",
+      "seashark",
+      "watercraft"
+    ],
+    "facts": {
+      "manufacturer": "Seashark",
+      "model": "Azure",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "blade-500",
+    "name": "Blade 500",
+    "summary": "The Blade 500 is a watercraft listed in the released game's vehicle database (style Speedboat, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft.",
+      "DayOne prints no separate maker for this boat."
+    ],
+    "tags": [
+      "500",
+      "blade",
+      "speedboat",
+      "watercraft"
+    ],
+    "facts": {
+      "model": "Blade 500",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dingus-como",
+    "name": "Dingus Como",
+    "summary": "The Dingus Como is a watercraft listed in the released game's vehicle database (style Powerboat, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "como",
+      "dingus",
+      "powerboat",
+      "watercraft"
+    ],
+    "facts": {
+      "manufacturer": "Dingus",
+      "model": "Como",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rugger-fortune",
+    "name": "Rugger Fortune",
+    "summary": "The Rugger Fortune is a watercraft listed in the released game's vehicle database (style Workboat, era 1950s Vintage).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "fortune",
+      "rugger",
+      "watercraft",
+      "workboat"
+    ],
+    "facts": {
+      "manufacturer": "Rugger",
+      "model": "Fortune",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rugger-hemming",
+    "name": "Rugger Hemming",
+    "summary": "The Rugger Hemming is a watercraft listed in the released game's vehicle database (style Powerboat, era 1980s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "hemming",
+      "powerboat",
+      "rugger",
+      "watercraft"
+    ],
+    "facts": {
+      "manufacturer": "Rugger",
+      "model": "Hemming",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "seashark-hydroblast",
+    "name": "Seashark Hydroblast",
+    "summary": "The Seashark Hydroblast is a watercraft listed in the released game's vehicle database (style Personal Watercraft, era 2010s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "hydroblast",
+      "personal",
+      "seashark",
+      "watercraft"
+    ],
+    "facts": {
+      "manufacturer": "Seashark",
+      "model": "Hydroblast",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dingus-nepa",
+    "name": "Dingus Nepa",
+    "summary": "The Dingus Nepa is a watercraft listed in the released game's vehicle database (style Workboat, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "dingus",
+      "nepa",
+      "watercraft",
+      "workboat"
+    ],
+    "facts": {
+      "manufacturer": "Dingus",
+      "model": "Nepa",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lure-predator-l20s",
+    "name": "Lure Predator L20S",
+    "summary": "The Lure Predator L20S is a watercraft listed in the released game's vehicle database (style Riverboat, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft.",
+      "DayOne does not separate maker from model for this boat, so no manufacturer is recorded."
+    ],
+    "tags": [
+      "l20s",
+      "lure",
+      "predator",
+      "riverboat",
+      "watercraft"
+    ],
+    "facts": {
+      "model": "Lure Predator L20S",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rugger-rhode",
+    "name": "Rugger Rhode",
+    "summary": "The Rugger Rhode is a watercraft listed in the released game's vehicle database (style Powerboat, era 2010s Current).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "powerboat",
+      "rhode",
+      "rugger",
+      "watercraft"
+    ],
+    "facts": {
+      "manufacturer": "Rugger",
+      "model": "Rhode",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hulls-sea-enchantress",
+    "name": "Hulls Sea Enchantress",
+    "summary": "The Hulls Sea Enchantress is a watercraft listed in the released game's vehicle database (style Powerboat, era 1990s Classic).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "enchantress",
+      "hulls",
+      "powerboat",
+      "sea",
+      "watercraft"
+    ],
+    "facts": {
+      "manufacturer": "Hulls",
+      "model": "Sea Enchantress",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "calder-torlan",
+    "name": "Calder Torlan",
+    "summary": "The Calder Torlan is a watercraft listed in the released game's vehicle database (style Powerboat, era 2020s Modern).",
+    "body": [
+      "DayOne's list of the game's vehicles files it under Watercraft."
+    ],
+    "tags": [
+      "calder",
+      "powerboat",
+      "torlan",
+      "watercraft"
+    ],
+    "facts": {
+      "manufacturer": "Calder",
+      "model": "Torlan",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

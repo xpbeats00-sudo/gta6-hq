@@ -194,7 +194,7 @@ function formatDate(iso) {
 }
 
 /** Entries that lead with a picture: anything with artwork, and all people and places. */
-const illustrated = (section, entry) => section !== 'achievements' && (Boolean(entry.image) || section === 'characters' || section === 'locations');
+const illustrated = (section, entry) => section !== 'achievements' && Boolean(entry.image);
 
 /** FeatureTile: image-led card, or a text-only note when there is no artwork to lead with. */
 function card(section, entry, kicker) {
@@ -660,13 +660,13 @@ function renderHome() {
       <header class="editorial-head">
         <span class="kicker">People</span>
         <h2>The Cast</h2>
-        <p>Two leads and the six supporting characters Rockstar has named so far.</p>
+        <p>The two leads and the supporting characters Rockstar introduced before launch. The full cast is in the encyclopedia.</p>
         <a class="more" href="#/characters">All characters →</a>
       </header>
       <div class="cast">
         ${leads.map((c) => card('characters', c, c.role)).join('')}
         <div class="roster">
-          ${supporting.map((c) => `<a href="#/characters/${c.slug}"><b>${esc(c.name)}</b><span>${esc(c.role)}</span><i aria-hidden="true">→</i></a>`).join('')}
+          ${supporting.filter((c) => c.image && !isHidden('characters', c)).slice(0, 9).map((c) => `<a href="#/characters/${c.slug}"><b>${esc(c.name)}</b><span>${esc(c.role)}</span><i aria-hidden="true">→</i></a>`).join('')}
         </div>
       </div>
     </section>
@@ -675,7 +675,7 @@ function renderHome() {
       <header class="editorial-head">
         <span class="kicker">Places</span>
         <h2>Vice City and Beyond</h2>
-        <p>Six regions make up the State of Leonida. Open any of them, or find them on the map.</p>
+        <p>The regions of the State of Leonida. Open any of them, or find them on the map.</p>
         <a class="more" href="#/map">Open the map →</a>
       </header>
       <div class="feature">
@@ -684,7 +684,7 @@ function renderHome() {
           <span><span class="kicker">${esc(lead.region)}</span><h3>${esc(lead.name)}</h3></span>
         </a>
         <div class="roster">
-          ${locations.map((l) => `<a href="#/locations/${l.slug}"><b>${esc(l.name)}</b><span>${esc(l.region)}</span><i aria-hidden="true">→</i></a>`).join('')}
+          ${locations.filter((l) => l.image && !isHidden('locations', l)).slice(0, 9).map((l) => `<a href="#/locations/${l.slug}"><b>${esc(l.name)}</b><span>${esc(l.region)}</span><i aria-hidden="true">→</i></a>`).join('')}
         </div>
       </div>
     </section>
@@ -719,7 +719,7 @@ function renderHome() {
       <ol class="timeline">${news.slice(0, 4).map(timelineItem).join('')}</ol>
     </section>`;
 
-  startCountdown(game.releaseDate);
+  startCountdown(game.launchedAt || game.releaseDate);
 
   // Hero: every live wallpaper in turn, for as long as the page is open. Two video layers sit on
   // top of each other; shortly before one clip ends the next starts underneath and they cross-fade,
@@ -823,7 +823,7 @@ let countdownTimer;
 function startCountdown(releaseDate) {
   clearInterval(countdownTimer);
   // Midnight at the start of release day, in this computer's time zone.
-  const target = new Date(releaseDate + 'T00:00:00').getTime();
+  const target = new Date(String(releaseDate).includes('T') ? releaseDate : `${releaseDate}T00:00:00`).getTime();
   const tick = () => {
     const el = document.getElementById('countdown');
     if (!el) return clearInterval(countdownTimer);
@@ -877,7 +877,9 @@ function renderEncyclopedia() {
           const count = (state.wiki[c.key] || []).length;
           const href = ['characters', 'locations', 'vehicles'].includes(c.key) ? `#/${c.key}` : `#/wiki/${c.key}`;
           // The cover is the first entry in the category that has a picture and is not hidden.
+          // The cover is the category's own picture if it names one, else its first entry with a picture.
           const cover = c.key === 'characters' && !STORE ? { image: '/images/manual/jason-and-lucia-waterfront.jpg' }
+            : c.image && !STORE ? { image: c.image }
             : (state.wiki[c.key] || []).find((e) => e.image && !isHidden(c.key, e));
           return `<a class="topic${count ? '' : ' is-bare'}" href="${href}">
             <div class="topic-media">${cover ? `<img src="${esc(cover.image)}" alt="" loading="lazy">` : postcard(c.key, c.art || 'city')}</div>
@@ -1013,7 +1015,7 @@ function renderCharacters() {
     items: others,
     text: (c) => filterText('characters', c),
     sorts: ENTRY_SORTS,
-    render: (visible) => `<div class="grid grid-portrait">${visible.map((c) => card('characters', c, c.role)).join('')}</div>`,
+    render: (visible) => entryGrid('characters', visible, (c) => c.role, 'grid-portrait'),
   });
 }
 
@@ -1023,8 +1025,8 @@ function renderCharacter(slug) {
   if (!c) return renderNotFound();
   const others = characters.filter((x) => x.slug !== slug).slice(0, 4);
   const page = `
-    <article class="profile">
-      <div class="profile-portrait">${picture(c, 'portrait')}</div>
+    <article class="profile${c.image ? '' : ' profile-text'}">
+      ${c.image ? `<div class="profile-portrait">${picture(c, 'portrait')}</div>` : ''}
       <div class="profile-body">
         <a class="back" href="#/characters">← Characters</a>
         <span class="kicker">${esc(c.role)}</span>
@@ -1043,7 +1045,7 @@ function renderCharacter(slug) {
   view.innerHTML = `
     ${isHidden('characters', c) ? veil('characters', c, page, 'page') : page}
     <section class="block"><div class="block-head"><h2>More characters</h2></div>
-      <div class="grid grid-portrait">${others.map((o) => card('characters', o, o.role)).join('')}</div>
+      ${entryGrid('characters', others, (o) => o.role, 'grid-portrait')}
     </section>`;
 }
 
@@ -1055,7 +1057,7 @@ function renderLocations() {
     items: state.wiki.locations,
     text: (l) => filterText('locations', l),
     sorts: ENTRY_SORTS,
-    render: (visible, sort) => `<div class="grid${sort === 'default' ? ' grid-feature' : ''}">${visible.map((l) => card('locations', l, l.region)).join('')}</div>`,
+    render: (visible, sort) => entryGrid('locations', visible, (l) => l.region, sort === 'default' ? 'grid-feature' : ''),
   });
 }
 
@@ -1066,7 +1068,7 @@ function renderLocation(slug) {
   const onMap = mapPins().some((pin) => pin.ref === ref);
   const page = `
     <article class="place">
-      <div class="place-hero">${picture(l, artKind('locations', l))}<div class="hero-shade"></div>
+      <div class="place-hero${l.image ? '' : ' is-bare'}">${l.image ? `${picture(l, artKind('locations', l))}<div class="hero-shade"></div>` : ''}
         <div class="place-title">
           <a class="back" href="#/locations">← Locations</a>
           <span class="kicker">${esc(l.region)}</span>
@@ -1920,7 +1922,8 @@ function mountUpdateStage(view) {
 
 function setupAnnouncement(game) {
   const bar = document.getElementById('announce');
-  const release = new Date(game.releaseDate + 'T00:00:00');
+  // Out once the first region has launched (launchedAt); before that, this computer's own midnight.
+  const release = new Date(game.launchedAt || `${game.releaseDate}T00:00:00`);
   if (Number.isNaN(release.getTime()) && !game.announcement) return;
   const platforms = (game.facts || []).find((f) => f.label === 'Platforms')?.value;
   const text = game.announcement

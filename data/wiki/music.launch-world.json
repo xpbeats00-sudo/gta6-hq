@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "the-vault-radio",
+    "name": "The Vault Radio",
+    "summary": "An unlockable station tied to The Vault nightclub in Vice City, added to the radio list by scanning a poster inside the club.",
+    "body": [
+      "PowerPyx says a single red poster just past the entrance of The Vault nightclub in Downtown Vice City unlocks it, after which it appears under Radio as The Vault.",
+      "The Big Lead describes it as a secret electronic and rave station that plays the music heard inside the club, unlocked by scanning a poster showing a pink gas mask with the phone.",
+      "PowerPyx counts it as one of two Unique Playlists required for full completion.",
+      "GameSpot confirms the unlock: scan the poster with a pink gas mask inside The Vault nightclub, near the middle of Vice City, and the station then plays the dance and electronic tracks heard in the club."
+    ],
+    "tags": [
+      "electronic",
+      "nightclub",
+      "playlist",
+      "radio",
+      "rave",
+      "unlockable",
+      "vault"
+    ],
+    "facts": {
+      "type": "Radio station (unlockable)",
+      "genre": "Electronic, rave"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-playlists",
+      "biglead-radio",
+      "ppx-100",
+      "gamespot-radio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-sniper-of-la-perle",
+    "name": "The Sniper of La Perle",
+    "summary": "An unlockable on-demand playlist earned by scanning four posters around La Perle and Crosstown in Vice City.",
+    "body": [
+      "PowerPyx places the four posters at Aunt Zola's Soul Food, TWA Ponya Tattoo and the Drip Drops clothing store in La Perle, and in a recording booth at the Jack of Hearts club in Crosstown.",
+      "PowerPyx says it is then played from a car radio or headphones under the On Demand menu, and that it is one of two Unique Playlists needed for full completion.",
+      "The guide does not say what the playlist contains."
+    ],
+    "tags": [
+      "crosstown",
+      "la perle",
+      "on demand",
+      "playlist",
+      "posters",
+      "unlockable"
+    ],
+    "facts": {
+      "type": "On-demand playlist (unlockable)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-playlists",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "on-demand-audio",
+    "name": "On Demand audio and podcasts",
+    "summary": "Besides live radio, the game has an On Demand menu for podcasts and unlocked playlists, usable in vehicles and through headphones.",
+    "body": [
+      "Rockstar's music page says the game's audio runs from classic rock to talk radio and includes podcasts, but it names no podcast.",
+      "PowerPyx reports that both the Radio and On Demand menus can be used from a car radio or from headphones.",
+      "No source read for this research named an individual podcast or its host.",
+      "As of launch day, none of the radio guides read (GameSpot, CULTR, The Big Lead) names an individual podcast or its host, and Rockstar has not listed any."
+    ],
+    "tags": [
+      "headphones",
+      "on demand",
+      "podcasts",
+      "radio",
+      "talk"
+    ],
+    "facts": {
+      "type": "Feature"
+    },
+    "confidence": "official",
+    "sources": [
+      "rockstar-music",
+      "ppx-playlists",
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio",
+      "rockstar-nw-radio"
+    ],
+    "verified": "2026-11-18"
+  }
+]

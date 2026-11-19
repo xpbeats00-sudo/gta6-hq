@@ -2,9 +2,9 @@
   "title": "Grand Theft Auto VI",
   "subtitle": "Field Manual",
   "tagline": "An Unofficial Guide to Leonida",
-  "notice": "Unofficial fan-made reference. Not published, approved or endorsed by Rockstar Games. Written before release from published footage and press coverage; see the evidence label on each item.",
+  "notice": "Unofficial fan-made reference. Not published, approved or endorsed by Rockstar Games. These pages were written before release from published footage and press coverage. Since release they have been compared with launch reviews and guides, not with the game itself; see the evidence label on each item. Fuller launch findings are in the Encyclopedia.",
   "cover": "/images/locations/vice-city.jpg",
-  "snapshot": "2026-11-15",
+  "snapshot": "2026-11-18",
   "sources": {
     "ign-interview": {
       "title": "GTA 6: The Big Interview",
@@ -145,6 +145,489 @@
       "sourceType": "preview coverage",
       "lastCheckedAt": "2026-11-15",
       "notes": "A 55-minute guide by a creator who attended Rockstar's preview in July 2026. Read as auto-generated captions, so names he only says aloud may be misspelled here. His own observations, Rob Nelson's words as he reports them, and other previews he relays."
+    },
+    "caniplaythat-accessibility": {
+      "title": "Early looks at GTA VI accessibility features",
+      "publisher": "Can I Play That?",
+      "url": "https://caniplaythat.com/2026/11/18/early-looks-at-gta-vi-accessibility-features/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-cheats": {
+      "title": "GTA 6 All Cheats",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-convenience": {
+      "title": "GTA 6 All Convenience Stores Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-100": {
+      "title": "GTA 6 100% Completion Checklist & Guide",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-cafes": {
+      "title": "GTA 6 All Cafes & Takeout Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-cafes-takeout-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-street": {
+      "title": "GTA 6 All Street Food Vendors Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-street-food-vendors-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-stats": {
+      "title": "GTA 6 How to Increase Character Stats (Health, Cardio, Focus)",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-increase-character-stats-health-cardio-focus/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-challenges": {
+      "title": "GTA 6 All Challenges Guide",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-trophies": {
+      "title": "GTA 6 Trophy Guide & Roadmap",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-armor": {
+      "title": "GTA 6 How to Equip Body Armor",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-equip-body-armor/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-cheats": {
+      "title": "GTA 6 All Cheats",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-cheats/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "insider-weapons": {
+      "title": "How Do Weapons Work in GTA 6? Buying and Storing Guns, Explained",
+      "publisher": "Insider Gaming",
+      "url": "https://insider-gaming.com/gta-6-full-weapons-guide-types-and-how-to-buy/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "sixthaxis-review": {
+      "title": "Grand Theft Auto VI Review",
+      "publisher": "TheSixthAxis",
+      "url": "https://www.thesixthaxis.com/2026/11/18/grand-theft-auto-6-review/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "pushsquare-review": {
+      "title": "GTA 6 Review (PS5)",
+      "publisher": "Push Square",
+      "url": "https://www.pushsquare.com/reviews/ps5/grand-theft-auto-6",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-fast-travel": {
+      "title": "GTA 6 How to Fast Travel",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-fast-travel/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-fasttravel": {
+      "title": "GTA 6 How to Fast Travel",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-fast-travel/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-drone": {
+      "title": "GTA 6 All Top Fun Drone Race Time Trial Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-database": {
+      "title": "GTA 6 Collectible Guide - Progress Database",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-gangops": {
+      "title": "GTA 6 All Illegal Gang Operations Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-illegal-gang-operations-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-payday": {
+      "title": "GTA 6 All Payday Loans Jobs Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-payday-loans-jobs-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-banks": {
+      "title": "GTA 6 All Bank Jobs Locations & Bank Vaults",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-bank-jobs-locations-bank-vaults/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-fences": {
+      "title": "GTA 6 All Fence Locations & How to Fence Stolen Goods",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-money": {
+      "title": "GTA 6 Money Guide - How to Get Money Fast",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-smash": {
+      "title": "GTA 6 All Smash 'n' Grabs Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-money": {
+      "title": "GTA 6 Money Guide - How to Get Money Fast",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-money-guide-how-to-get-money-fast/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-garages": {
+      "title": "GTA 6 All Garage Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-car": {
+      "title": "GTA 6 How to Get New Personal Car",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-get-new-personal-car/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "gtabase-prop": {
+      "title": "GTA 6 Properties & Safehouses: Full List & Guide",
+      "publisher": "GTABase",
+      "url": "https://www.gtabase.com/gta-6/properties/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-clothing": {
+      "title": "GTA 6 All Clothing Stores Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-clothing-stores-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-guns": {
+      "title": "GTA 6 All Ammu-Nation (Gun Stores) Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-ammu-nation-gun-stores-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-mod": {
+      "title": "GTA 6 All Mod Shops Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-mod-shops-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-meditation": {
+      "title": "GTA 6 All Meditation Spot Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-walkthrough": {
+      "title": "GTA 6 Full Walkthrough - All Missions",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-full-walkthrough-all-missions/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "exophase-trophies": {
+      "title": "Grand Theft Auto VI Trophies - PS5",
+      "publisher": "Exophase",
+      "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-trophy-guide": {
+      "title": "GTA 6 (Grand Theft Auto VI) Trophy Guide & Roadmap",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-kingpin": {
+      "title": "GTA 6 Hit Kingpin Bowling Walkthrough",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-hit-kingpin-bowling-walkthrough/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-trophy": {
+      "title": "GTA 6 Trophy Guide & Roadmap",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "dayone-equipment": {
+      "title": "Equipment and Gadgets in GTA 6",
+      "publisher": "DayOne",
+      "url": "https://playday.one/2026/11/18/equipment-and-gadgets-in-gta-6/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-100": {
+      "title": "GTA 6 100% Completion Checklist & Guide",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-progress": {
+      "title": "GTA 6 Collectible Guide - Progress Database",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-keycloner": {
+      "title": "GTA 6 How to Get Key Cloner",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-get-key-cloner/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-bret": {
+      "title": "GTA 6 Veteran Hunted (Meet Bret) Walkthrough",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-veteran-hunted-meet-bret-walkthrough/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "cv-variants": {
+      "title": "GTA 6: How To Get Your Personalised Weapon Variants (Ultimate Edition)",
+      "publisher": "Cultured Vultures",
+      "url": "https://culturedvultures.com/gta-6-how-to-get-your-personalised-weapon-variants-ultimate-edition/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-ultimate": {
+      "title": "GTA 6 How to Get Ultimate Edition Rewards",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-spray": {
+      "title": "GTA 6 All Pay 'n' Spray Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-pay-n-spray-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-gas": {
+      "title": "GTA 6 All Gas Stations Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-gas-stations-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-wiki": {
+      "title": "GTA 6 (Grand Theft Auto VI) Wiki & Strategy Guide",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-wiki-strategy-guide/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-races": {
+      "title": "GTA 6 All Unique Race Locations (Racing Activities)",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-videogames": {
+      "title": "GTA 6 All Video Game Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-video-game-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "dayone-weapons": {
+      "title": "All Weapons in GTA 6",
+      "publisher": "DayOne",
+      "url": "https://playday.one/2026/11/18/all-weapons-in-gta-6/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-sniper": {
+      "title": "GTA 6 How to Get Sniper Rifle",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-get-sniper-rifle/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "gamerant-weapons": {
+      "title": "Weapon System in GTA 6, Explained",
+      "publisher": "Game Rant",
+      "url": "https://gamerant.com/gta-6-how-weapons-work/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-fence": {
+      "title": "GTA 6 All Fence Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-fence-locations-how-to-fence-stolen-goods/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-challenges": {
+      "title": "GTA 6 All Challenges Guide",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-cards": {
+      "title": "GTA 6 All Collectible Card Sets Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-parachute": {
+      "title": "GTA 6 How to Get Parachute",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-how-to-get-parachute/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-stores": {
+      "title": "GTA 6 All Convenience Stores Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-convenience-stores-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "powerpyx-strangers": {
+      "title": "GTA 6 All Strangers & Freaks Side Missions",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "purexbox-digital-foundry": {
+      "title": "Three Big Takeaways From Digital Foundry's GTA 6 Analysis For Xbox Series X|S",
+      "publisher": "Pure Xbox",
+      "url": "https://www.purexbox.com/news/2026/11/three-big-takeaways-from-digital-foundrys-gta-6-analysis-for-xbox-series-xs",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-ranges": {
+      "title": "GTA 6 All Shooting Range Gold Medal Challenges",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-shooting-range-gold-medal-challenges/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-pool": {
+      "title": "GTA 6 All Pool Opponent Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-pool-opponent-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-race-challenges": {
+      "title": "GTA 6 All Race Challenge Locations (Gold Medals)",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-drones": {
+      "title": "GTA 6 All Top Fun Drone Race Time Trial Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-golf": {
+      "title": "GTA 6 All Golf Course Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-arnold": {
+      "title": "Hey Arnold! (Meet Brian) Walkthrough",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-hey-arnold-meet-brian-walkthrough/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-slamdunk": {
+      "title": "Slam Dunk (Find Painkillers) Walkthrough",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-slam-dunk-walkthrough/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-girlstrip": {
+      "title": "Girl's Trip (Find Painkillers) Walkthrough",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-girls-trip-find-painkillers-walkthrough/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-hair": {
+      "title": "GTA 6 All Hair & Beauty Salon Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-hair-beauty-salon-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
+    },
+    "ppx-carwash": {
+      "title": "GTA 6 All Car Washes Locations",
+      "publisher": "PowerPyx",
+      "url": "https://www.powerpyx.com/gta-6-all-car-washes-locations/",
+      "sourceType": "launch review or guide",
+      "lastCheckedAt": "2026-11-18"
     }
   },
   "uncheckedSources": [
@@ -173,7 +656,7 @@
             },
             {
               "type": "intro",
-              "text": "This is a fan-made field guide, laid out like the paper manuals that used to come in the box. It was written before the game came out, so it is careful about what it claims."
+              "text": "This is a fan-made field guide, laid out like the paper manuals that used to come in the box. Most of it was written before the game came out, and it is careful about what it claims."
             },
             {
               "type": "image",
@@ -190,7 +673,7 @@
             },
             {
               "type": "callout",
-              "text": "Nothing in this manual is official. When the game is out, each chapter will be checked against it and relabelled."
+              "text": "Nothing in this manual is official. Now that the game is out, items are being compared with launch reviews and guides and relabelled one by one."
             }
           ]
         },
@@ -272,7 +755,7 @@
             },
             {
               "type": "intro",
-              "text": "What the game puts on screen, as it appears in Rockstar's own footage. The display may change before release."
+              "text": "What the game puts on screen, as it appeared in Rockstar's own pre-release footage. The launch reviews and guides read so far do not describe the display in detail, so these pages still rest on that footage."
             },
             {
               "type": "image",
@@ -367,7 +850,7 @@
             {
               "type": "unknown",
               "items": [
-                "The full button layout. The few controls reported so far are on the Controls & Display page."
+                "||The full button layout. Can I Play That? reports three controller presets and could not confirm button remapping, and PowerPyx's cheats guide says Up on the D-pad opens the phone. The few controls reported before launch are on the Controls & Display page.||"
               ]
             }
           ]
@@ -450,9 +933,13 @@
               "sources": [
                 "ign-interview",
                 "tgg-preview",
-                "ign-preview"
+                "ign-preview",
+                "ppx-convenience",
+                "ppx-100",
+                "ppx-cafes",
+                "ppx-street"
               ],
-              "text": "In IGN's demo Jason takes a drink from the safehouse fridge. TGG reports goods being picked off a convenience store shelf and bought, an order at a drive-thru that gave a temporary boost, and a vending machine at a gym. IGN's writers saw food marked with a heart or a lightning bolt."
+              "text": "In IGN's demo Jason takes a drink from the safehouse fridge. TGG reports goods being picked off a convenience store shelf and bought, an order at a drive-thru that gave a temporary boost, and a vending machine at a gym. IGN's writers saw food marked with a heart or a lightning bolt. ||PowerPyx's launch guides say convenience stores sell a healing item called Zombix and groceries for the fridge at home, and that cafes, takeout counters and street food vendors sell food that boosts stats.||"
             },
             {
               "type": "rule"
@@ -484,9 +971,12 @@
               "title": "Weight and muscle",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "ppx-stats",
+                "ppx-challenges",
+                "ppx-trophies"
               ],
-              "text": "Overeat and you put on weight. Gyms let you work out and go up in levels of muscularity or strength. Jason and Lucia can train together, which Nelson calls a two-for-one for managing their stats."
+              "text": "Overeat and you put on weight. Gyms let you work out and go up in levels of muscularity or strength. Jason and Lucia can train together, which Nelson calls a two-for-one for managing their stats. ||PowerPyx's launch guide agrees on the gym: weights raise Strength, treadmills and bikes raise Cardio, and the two leads can train together at a fitness studio. The launch sources read do not mention putting on weight.||"
             },
             {
               "type": "rule"
@@ -528,8 +1018,8 @@
               "items": [
                 "Whether health comes back on its own. Nelson is relayed as saying only that rest affects how some attributes regenerate.",
                 "Whether sprinting drains stamina, and what happens when it runs out.",
-                "Body armour. TGG reports Nelson telling him police car trunks sometimes hold it; nothing else is known.",
-                "What food exists, what it costs, and how much can be carried.",
+                "||Body armour is no longer unknown. PowerPyx's guide says it is sold in the Equipment section at Ammu-Nation, is switched on from the item wheel and adds a blue bar above health that soaks up gunfire until it is used up. Insider Gaming says armour bought there is delivered to the trunk of a car you own. Whether police car trunks hold it, as TGG was told, is not covered.||",
+                "||What food costs and how much can be carried. PowerPyx's guides name some of what exists: a healing item called Zombix and groceries at convenience stores, and stat-boosting food at cafes, takeout counters and street food vendors.||",
                 "\"Adrenaline\": Nelson names it during a shootout and does not explain it."
               ]
             }
@@ -551,11 +1041,13 @@
               "type": "numbered",
               "n": 1,
               "title": "Switching",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "You can switch between Jason and Lucia. Nelson says the team kept this as open as possible, though the story sometimes rules it out."
+              "text": "||You can switch between Jason and Lucia. Before launch Nelson said the team kept this as open as possible, though the story sometimes rules it out. TheSixthAxis's review agrees: outside the missions that need one of them, you can switch whenever you like.||"
             },
             {
               "type": "rule"
@@ -566,9 +1058,11 @@
               "title": "The other one carries on",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "The lead you are not playing keeps a routine: sometimes at the safehouse, sometimes out. Switch seats in a car and the other drives."
+              "text": "The lead you are not playing keeps a routine: sometimes at the safehouse, sometimes out. Switch seats in a car and the other drives. ||TheSixthAxis's review says switching puts you with the other lead somewhere else in the world, and that they are rarely in the middle of something when you arrive. Push Square's review says each lead has activities of their own.||"
             },
             {
               "type": "rule"
@@ -592,9 +1086,11 @@
               "title": "The relationship",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "A relationship system grows when the pair spend time together: exploring, playing pool or mini golf, kayaking, or robbing places. IGN reports that the romance is optional. Nelson says it gives no particular gameplay benefit: they stay partners in crime either way."
+              "text": "A relationship system grows when the pair spend time together: exploring, playing pool or mini golf, kayaking, or robbing places. IGN reports that the romance is optional. Nelson says it gives no particular gameplay benefit: they stay partners in crime either way. ||TheSixthAxis's review calls it a bond that can go up or down: robbing stores, working out, texting and going out to eat raise it, and leaving your partner behind while running from the police lowers it.||"
             },
             {
               "type": "rule"
@@ -603,11 +1099,12 @@
               "type": "numbered",
               "n": 5,
               "title": "Your criminal profile",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review"
               ],
-              "text": "A separate system tracks what sort of criminal you are. Doing what a job needs is fair game; going beyond what is necessary, again and again, may shift the profile."
+              "text": "A separate system tracks what sort of criminal you are. Doing what a job needs is fair game; going beyond what is necessary, again and again, may shift the profile. ||TheSixthAxis's review confirms the system and says continued unprovoked violence leads to the worst profile, which it calls Irredeemable.||"
             },
             {
               "type": "rule"
@@ -625,9 +1122,9 @@
             {
               "type": "unknown",
               "items": [
-                "What the criminal profile changes in the story. Its states are on the Criminal Profile page.",
+                "||What the criminal profile changes in the story. TheSixthAxis's review says only that profiles change some interactions. The profile names are on the Criminal Profile page.||",
                 "How the relationship affects the story.",
-                "Saving the game: nothing has been published."
+                "||Saving the game: little has been published. PowerPyx's cheats guide says using a cheat switches off saving, and TheSixthAxis's review says a weapon picked up in the world is lost when you quit unless it has been stored.||"
               ]
             }
           ]
@@ -654,9 +1151,11 @@
               "title": "Scanner",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Hold the phone over a vehicle to learn whether it is locked, alarmed or tracked, what it is worth at a Pay n' Spray or a specialty car fence, and what registering it for yourself would cost."
+              "text": "Hold the phone over a vehicle to learn whether it is locked, alarmed or tracked, what it is worth at a Pay n' Spray or a specialty car fence, and what registering it for yourself would cost. ||TheSixthAxis's review describes the same app in the released game: it scans a car and shows its sale value, its registration fee and whether it has a tracker or keyless entry. The review also says Pay 'n' Spray shops buy vehicles.||"
             },
             {
               "type": "rule"
@@ -678,11 +1177,14 @@
               "type": "numbered",
               "n": 3,
               "title": "Rides",
-              "evidence": "preview-reported",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "powerpyx-fast-travel",
+                "ppx-fasttravel",
+                "ppx-drone"
               ],
-              "text": "In IGN's demo the pair travel by Ryde Me, which IGN describes as the game's version of Uber."
+              "text": "||In IGN's demo the pair travelled by a ride app that IGN described as the game's version of Uber. PowerPyx's launch guide spells it RydeMe and says the app arrives in Chapter 2: the fare rises with distance, and $100 more skips the drive. Before that, and when no driver is free, Paradise Taxi can be called from the phone's contacts.||"
             },
             {
               "type": "rule"
@@ -703,11 +1205,19 @@
             },
             {
               "type": "table",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "ppx-database",
+                "ppx-gangops",
+                "ppx-payday",
+                "ppx-100",
+                "ppx-banks",
+                "ppx-fences",
+                "ppx-trophies",
+                "sixthaxis-review"
               ],
-              "caption": "Ways of earning that Nelson names or shows in the interview.",
+              "caption": "||Ways of earning that Nelson named or showed in the interview before launch. PowerPyx's launch guides list all four in the released game: robberies of stores, banks and payday loan stores, stolen cars sold to buyers who pay more for better condition, goods sold to fences, and 39 gang operations.||",
               "columns": [
                 "How",
                 "What he says"
@@ -742,8 +1252,8 @@
             {
               "type": "unknown",
               "items": [
-                "Prices, payouts and what money buys.",
-                "Property, businesses and investments."
+                "||Prices and payouts are now reported, though only as one guide's launch-day figures. PowerPyx puts pawn shops at $1,000 to $12,000, the best jewelry stores at up to $25,000, small banks at $5,000 to $45,000 and large bank vaults at about $65,000 to $205,000, and prices the eight garages for sale at $160,000 in total.||",
+                "||Property: TheSixthAxis's review says garages are the only kind of property you can buy. Nothing in the launch sources read describes businesses or investments to own.||"
               ]
             }
           ]
@@ -763,12 +1273,13 @@
             {
               "type": "numbered",
               "n": 1,
-              "title": "Four states",
-              "evidence": "preview-reported",
+              "title": "The profiles",
+              "evidence": "launch-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review"
               ],
-              "text": "Professional, aggressive, violent and psycho. You switch between states; it is not a marker sliding along a bar."
+              "text": "||Before launch TGG reported four states: professional, aggressive, violent and psycho. TheSixthAxis's review of the released game names them Professional, Hardened, Violent and Irredeemable, and speaks of five profiles while naming only four, so the full set is not settled. TGG's account that you switch between states, and that it is not a marker sliding along a bar, has not been checked against a launch source.||"
             },
             {
               "type": "rule"
@@ -792,9 +1303,10 @@
               "title": "What moves it",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review"
               ],
-              "text": "Restraint and control move it up. Shooting people you do not need to shoot moves it down."
+              "text": "Restraint and control move it up. Shooting people you do not need to shoot moves it down. ||TheSixthAxis's review agrees on the direction: it says the worst profile, Irredeemable, comes from continued unprovoked violence.||"
             },
             {
               "type": "rule"
@@ -831,15 +1343,16 @@
               "title": "It can break",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review"
               ],
-              "text": "Pushed far enough, the icon cracks and then shatters. As Nelson described it, the bottom state can lock in for the rest of the playthrough."
+              "text": "Pushed far enough, the icon cracks and then shatters. As Nelson described it, the bottom state can lock in for the rest of the playthrough. ||TheSixthAxis's review says the same of the released game: Irredeemable is the only profile that cannot be undone. The review does not describe the cracking icon.||"
             },
             {
               "type": "unknown",
               "items": [
-                "What the profile changes in the story. TGG was told there could be consequences; none have been described.",
-                "How quickly it moves, and whether a locked state can ever be undone."
+                "||What the profile changes in the story. TheSixthAxis's review says profiles change some interactions and gives no detail.||",
+                "||How quickly it moves. On locking, TheSixthAxis's review says Irredeemable is the only profile that cannot be undone, so the others can be.||"
               ]
             }
           ]
@@ -886,11 +1399,17 @@
               "type": "numbered",
               "n": 3,
               "title": "Fences",
-              "evidence": "preview-reported",
+              "evidence": "launch-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-fences",
+                "ppx-100",
+                "ppx-banks",
+                "ppx-payday",
+                "ppx-trophies",
+                "sixthaxis-review"
               ],
-              "text": "Loot cannot be spent until a fence buys it or it is laundered. Drugs, jewelry and cars each go to a different fence."
+              "text": "Loot cannot be spent until a fence buys it or it is laundered. Drugs, jewelry and cars each go to a different fence. ||PowerPyx's launch guide names seven fences and says each pays different rates: Tyrone pays best for narcotics, Yasmani for jewelry and marked bills, Moses takes only cars without a tracker and Randy takes certain high-end cars. It adds that cash from banks and payday loan stores is marked and needs a tool called the Dye Pack Jammer before a fence will take it.||"
             },
             {
               "type": "rule"
@@ -901,9 +1420,13 @@
               "title": "What fences give back",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-banks",
+                "ppx-100",
+                "ppx-money",
+                "ppx-trophies"
               ],
-              "text": "Information, such as a safe code by text. Doing work for them unlocks more of what they can do for you."
+              "text": "Information, such as a safe code by text. Doing work for them unlocks more of what they can do for you. ||PowerPyx's launch guide gives one example, and it is sold, not given: once two payday loan stores have been robbed, the fence Yasmani sells tips on security vans for $10,000.||"
             },
             {
               "type": "rule"
@@ -925,17 +1448,25 @@
               "type": "numbered",
               "n": 6,
               "title": "What money buys",
-              "evidence": "preview-reported",
+              "evidence": "launch-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-garages",
+                "ppx-car",
+                "gtabase-prop",
+                "sixthaxis-review",
+                "pushsquare-review",
+                "ppx-clothing",
+                "ppx-guns",
+                "ppx-mod"
               ],
-              "text": "Clothes, weapons, car upgrades, garages, and registering stolen vehicles as your own."
+              "text": "Clothes, weapons, car upgrades, garages, and registering stolen vehicles as your own. ||Launch sources back each of these: PowerPyx lists clothing stores, gun stores, mod shops and eight garages for sale, and TheSixthAxis's review says registering a car costs a fee that rises with its class.||"
             },
             {
               "type": "unknown",
               "items": [
                 "Whether the bank balance is shared between Jason and Lucia: one creator says so, and TGG is unsure when it would apply.",
-                "Large purchases. Nelson acknowledged the question to TGG without answering it."
+                "||Large purchases. TheSixthAxis's review says garages are the only kind of property you can buy. PowerPyx lists eight for sale through a phone app called Vice City Real Estate, from $4,000 to $40,000 each and $160,000 in all.||"
               ]
             }
           ]
@@ -958,9 +1489,12 @@
               "title": "Sign in",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-stats",
+                "ppx-challenges",
+                "ppx-trophies"
               ],
-              "text": "At the gym in the demo, Jason and Lucia first signed up at the front desk. There were changing rooms and a vending machine."
+              "text": "At the gym in the demo, Jason and Lucia first signed up at the front desk. There were changing rooms and a vending machine. ||PowerPyx's launch guide says fitness studios charge a membership fee, and that there are also weights at the first home.||"
             },
             {
               "type": "rule"
@@ -971,9 +1505,12 @@
               "title": "The workout ring",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-stats",
+                "ppx-challenges",
+                "ppx-trophies"
               ],
-              "text": "Three exercises fill a ring and give a temporary boost. Strength work raises health; cardio helps stamina."
+              "text": "Three exercises fill a ring and give a temporary boost. Strength work raises health; cardio helps stamina. ||PowerPyx's launch guide names the stats Strength and Cardio: weights raise Strength, treadmills and bikes raise Cardio, an unfinished workout gives no gain, and protein afterwards speeds recovery.||"
             },
             {
               "type": "rule"
@@ -1008,11 +1545,15 @@
               "type": "numbered",
               "n": 5,
               "title": "Home comes with the story",
-              "evidence": "preview-reported",
+              "evidence": "launch-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review",
+                "pushsquare-review",
+                "ppx-meditation",
+                "ppx-100"
               ],
-              "text": "The safehouse changes as chapters pass. Nelson told TGG you cannot buy more of them; garages are what you buy."
+              "text": "The safehouse changes as chapters pass. Nelson told TGG you cannot buy more of them; garages are what you buy. ||TheSixthAxis's review confirms that garages are the only kind of property you can buy, and PowerPyx's guides speak of a first home whose meditation spot is only available in Chapter 1.||"
             },
             {
               "type": "rule"
@@ -1054,9 +1595,11 @@
               "title": "Chapters",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "powerpyx-walkthrough",
+                "exophase-trophies"
               ],
-              "text": "The story is divided into chapters. Choices you make along the way can affect later events."
+              "text": "The story is divided into chapters. Choices you make along the way can affect later events. ||PowerPyx's walkthrough lists a prologue and five chapters, and the trophy list has a trophy for finishing each of Chapters 1 to 4 and one for the final mission. The launch sources read do not say whether choices change later events.||"
             },
             {
               "type": "rule"
@@ -1067,9 +1610,10 @@
               "title": "About 80 hours",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "powerpyx-trophy-guide"
               ],
-              "text": "TGG says Nelson's most recent playthrough took about 80 hours, with the story and some optional content."
+              "text": "TGG says Nelson's most recent playthrough took about 80 hours, with the story and some optional content. ||PowerPyx's trophy guide gives a similar figure for the released game: about 60 to 80 hours for the story with its optional missions, and about 200 hours for everything. These are the guide writer's own estimates.||"
             },
             {
               "type": "rule"
@@ -1080,9 +1624,11 @@
               "title": "Dates are not booked",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "You bring Jason and Lucia together and do things; there is no planned date as in earlier games. You can also text the other lead."
+              "text": "You bring Jason and Lucia together and do things; there is no planned date as in earlier games. You can also text the other lead. ||TheSixthAxis's review lists texting, working out, robbing stores and going out to eat among the things that raise the pair's bond.||"
             },
             {
               "type": "rule"
@@ -1175,9 +1721,10 @@
               "title": "The minimap",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "caniplaythat-accessibility"
               ],
-              "text": "A \"classic\" option keeps the minimap up at all times. A compass option replaces it."
+              "text": "A \"classic\" option keeps the minimap up at all times. A compass option replaces it. ||Can I Play That?, which gathered its list from reviews and streams and had not played the game, also lists an always-on minimap and a compass among the options.||"
             },
             {
               "type": "rule"
@@ -1221,9 +1768,330 @@
             {
               "type": "unknown",
               "items": [
-                "The full button layout.",
-                "Aim assist: TGG saw that settings exist but not what they are."
+                "The full button layout. ||Can I Play That? reports three controller presets and could not confirm button remapping.||",
+                "||Aim assist. TheSixthAxis's review says lock-on aiming is the default and that the settings allow free aim with aim assist switched off. Can I Play That?, which had not played the game itself, lists adjustable aim assist with separate toggles for drive-by and general shooting help.||"
               ]
+            }
+          ]
+        },
+        {
+          "title": "Found at Launch: Systems",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Found at launch:",
+              "accent": "systems"
+            },
+            {
+              "type": "intro",
+              "text": "What launch reviews and guides report that these pages did not cover. Each item is covered until you choose to see spoilers; fuller entries are in the Encyclopedia."
+            },
+            {
+              "type": "numbered",
+              "title": "Fast travel by taxi",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-fast-travel",
+                "ppx-fasttravel",
+                "ppx-drone"
+              ],
+              "text": "||PowerPyx's guide says there is no fast travel from the map itself. Paradise Taxi can be called from the phone's contacts once the first mission is done: set a destination, get in, and pay a flat $100 on top of the fare to skip the ride. The RydeMe app arrives in Chapter 2; its fare rises with distance and $100 skips the drive. PowerPyx says a taxi cannot reach Dalton Island.||",
+              "n": 1
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Cheats",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-cheats"
+              ],
+              "text": "||PowerPyx lists 61 cheats, which appear in the Progress menu only after the story is finished; each has its own requirement before its code works. To enter one, the guide says to open the phone with Up on the D-pad, hold L1 (LB on Xbox), press R1 (RB), then enter the code. Using a cheat switches off trophies, achievements and saving.||",
+              "n": 2
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Garages for sale",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-garages",
+                "ppx-car",
+                "gtabase-prop",
+                "ppx-fence",
+                "ppx-100",
+                "sixthaxis-review"
+              ],
+              "text": "||TheSixthAxis's review says garages are the only kind of property you can buy. PowerPyx lists eight one-car garages sold through a phone app called Vice City Real Estate, which arrives late in Chapter 2; prices run from $4,000 to $40,000 and $160,000 in all. Each parking spot lets one more vehicle be registered, up to 18 in all, and other garages are handed over by the story. PowerPyx says you start with one slot at Moses' garage; GTABase says three.||",
+              "n": 3
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Challenges",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-challenges",
+                "powerpyx-cheats",
+                "ppx-challenges",
+                "ppx-100"
+              ],
+              "text": "||PowerPyx lists 80 challenges in eight groups of ten: Combat, Criminal, Exploration, Fitness, Shopping, Sports, Survival and Vehicle. They are available from the start. The 100% checklist asks for 70, and 50 earn a trophy. According to PowerPyx's cheats guide, finishing five or all ten of a group unlocks vehicle cheats.||",
+              "n": 4
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "The Progress database and the 100% checklist",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-progress",
+                "powerpyx-100",
+                "powerpyx-cards",
+                "powerpyx-trophy-guide",
+                "powerpyx-wiki"
+              ],
+              "text": "||The game keeps its own record of what you have found, opened from the map under Progress. PowerPyx puts it at about 3,000 things, including 557 vehicles, 196 weapons and 255 animals. PowerPyx's 100% checklist mostly asks for part of what exists, not all of it, for example 300 of 397 stunts and 15 of 18 card sets. PowerPyx says nothing the checklist counts can be missed, and estimates about 200 hours for the platinum trophy. These are one guide's launch-day figures.||",
+              "n": 5
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Gun stores and weapon lockers",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-guns",
+                "sixthaxis-review",
+                "ppx-bret",
+                "ppx-100",
+                "ppx-trophy",
+                "insider-weapons"
+              ],
+              "text": "||PowerPyx lists 24 gun stores and sorts their stock as Limited, Standard, Hunting or Expanded; it says Expanded stores have the widest range, including machine guns, sniper rifles and launchers. Every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant. TheSixthAxis's review says weapons can be kept in weapon lockers or in vehicles you own; PowerPyx says unique variants can be collected again from an Ammu-Nation weapon locker.||",
+              "n": 6
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Body armor, parachute and equipment",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-armor",
+                "ppx-cheats",
+                "insider-weapons",
+                "ppx-parachute",
+                "dayone-equipment",
+                "ppx-100"
+              ],
+              "text": "||PowerPyx says body armor is sold in the Equipment section at Ammu-Nation, is switched on from the item wheel and adds a blue bar above health; the parachute is sold there too and shares its slot. DayOne's equipment guide lists tools the Manual does not mention: binoculars for scouting, a pry bar for sealed crates, a cut-off tool for heavy locks, a metal detector, a flashlight and headphones. PowerPyx says the Dye Pack Jammer, unlocked in Chapter 3, is needed before marked bills from banks and payday loan stores can be fenced.||",
+              "n": 7
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Fences by name",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-fences",
+                "ppx-100",
+                "ppx-money",
+                "ppx-banks",
+                "ppx-payday",
+                "ppx-trophies"
+              ],
+              "text": "||PowerPyx lists seven fences: Brian and Donnie in Key Lento early on, Moses and Dunk in Port Gellhorn, and Tyrone, Yasmani and Randy in Vice City. It says Tyrone pays best for narcotics, Yasmani for jewelry and marked bills, Moses takes only cars without a tracker and Randy takes certain high-end cars. Goods are dropped at a fence's container, and garages later allow drop-offs to a chosen fence. TheSixthAxis's review adds that prices follow demand.||",
+              "n": 8
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Robbery types and counts",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-database",
+                "ppx-gangops",
+                "ppx-100",
+                "ppx-challenges",
+                "ppx-stores",
+                "ppx-money"
+              ],
+              "text": "||PowerPyx says the Progress menu groups robberies into 11 kinds, of which it itemises seven: convenience stores, liquor stores, fast food outlets, jewelry stores, pawn shops, payday loan stores and banks. Its counts are 35 smash 'n' grabs (20 jewelry stores and 15 pawn shops), seven payday loan stores, 22 banks of which eight have vaults, and 39 gang operations that restock after being robbed. Pawn shops open during Chapter 2, jewelry stores, small banks and payday loan stores during Chapter 3, and vaults late in Chapter 4. PowerPyx's two pages disagree on the number of stick-up stores (91 or 109).||",
+              "n": 9
+            }
+          ]
+        },
+        {
+          "title": "Found at Launch: The World",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Found at launch:",
+              "accent": "the world"
+            },
+            {
+              "type": "intro",
+              "text": "What launch reviews and guides report that these pages did not cover. Each item is covered until you choose to see spoilers; fuller entries are in the Encyclopedia."
+            },
+            {
+              "type": "numbered",
+              "title": "Making money, chapter by chapter",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-money",
+                "ppx-banks",
+                "ppx-100",
+                "ppx-money",
+                "ppx-trophies"
+              ],
+              "text": "||PowerPyx's money guide says the quickest money is robbing the vaults of large banks, which pays up to $205,000 and brings four stars at once. Earlier on it recommends selling tracker-free cars to Moses in Chapter 2 and robbing jewelry stores in Chapter 3. The guide says saving up in Chapter 1 is pointless because that money is lost when the chapter ends. These are one guide's launch-day figures.||",
+              "n": 1
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "After the story, mission rules and difficulty",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-wiki",
+                "powerpyx-trophy-guide",
+                "sixthaxis-review",
+                "powerpyx-walkthrough",
+                "exophase-trophies",
+                "powerpyx-strangers"
+              ],
+              "text": "||PowerPyx's guide says free roam continues after the story, missions cannot be replayed, and there are no difficulty settings or mission medals. On the map, story missions have pink icons with black letters, optional missions black icons with pink letters, and side tasks are purple. TheSixthAxis's review says the only outright failure in a mission is a lead dying; other setbacks are played through. PowerPyx also lists 14 strangers with side missions of their own.||",
+              "n": 2
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Aiming and camera",
+              "evidence": "launch-reported",
+              "sources": [
+                "sixthaxis-review",
+                "pushsquare-review"
+              ],
+              "text": "||TheSixthAxis's review says lock-on aiming is the default and that the settings allow free aim with aim assist switched off. It says there is no full first-person view, though some guns can be aimed down their sights. Push Square's review says cover shooting is improved.||",
+              "n": 3
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Accessibility options",
+              "evidence": "launch-reported",
+              "sources": [
+                "caniplaythat-accessibility"
+              ],
+              "text": "||Can I Play That? has gathered the accessibility settings seen in reviews and streams; it had not played the game itself, so the list may be incomplete. There are no difficulty levels. Instead there are separate assists, such as a toggle that lowers enemy health and damage taken, simplified minigames, tap assist for quick-time events and an auto-drive option. It also lists a screen reader, resizable subtitles, a high contrast mode and adjustable blood and gore, and could not confirm button remapping.||",
+              "n": 4
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Performance on each console",
+              "evidence": "launch-reported",
+              "sources": [
+                "purexbox-digital-foundry",
+                "pushsquare-review"
+              ],
+              "text": "||Push Square's review, played on PlayStation 5 Pro, reports 30 frames per second with no 60 frames per second option. Pure Xbox's summary of Digital Foundry's analysis says all four consoles target 30 frames per second, ranks PlayStation 5 Pro best and says Xbox Series S is the least steady.||",
+              "n": 5
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Character stats and how to raise them",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-stats",
+                "ppx-challenges",
+                "ppx-trophies",
+                "ppx-ranges",
+                "ppx-pool",
+                "ppx-100"
+              ],
+              "text": "||PowerPyx's guide says weights raise Strength and treadmills or bikes raise Cardio, at home early on and at paid fitness studios later. It says finishing or quitting a shooting range challenge permanently raises the Focus stat, and names pool and fishing as other ways to raise Focus. An unfinished workout gives no gain, and protein afterwards speeds recovery.||",
+              "n": 6
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Launch activities: races, ranges, drones, games and sports",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-races",
+                "ppx-100",
+                "ppx-database",
+                "ppx-race-challenges",
+                "ppx-ranges",
+                "ppx-stats"
+              ],
+              "text": "||PowerPyx counts 40 races in six groups and 13 separate race challenges with bronze, silver and gold medals. It lists two shooting ranges with 42 gold medals between them, 42 drone time trials at 14 sites, four playable video games, three mini golf courses, 100 basketball hoops and 18 meditations. Hunting assignments from Bret Vogel can only be played as Jason, according to PowerPyx.||",
+              "n": 7
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Gangs tracked by the game",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-gangops",
+                "ppx-100",
+                "ppx-trophies",
+                "ppx-arnold",
+                "ppx-slamdunk",
+                "ppx-trophy"
+              ],
+              "text": "||PowerPyx says the Progress menu tracks nine gangs with 39 robbable operations between them. It counts them by owner: Kingfishers 3, Kolts & Associates 5, M7 2, La Polilla Negra 2, Final Chapter 4, San4San 5, PTT Youngin$ 2, The Guardia Brothers 3 and other criminals 13. A site shows a yellow icon until visited and counts as done only when every key valuable is taken.||",
+              "n": 8
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "title": "Stores and services: fuel, resprays, salons and clothing",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-gas",
+                "ppx-spray",
+                "ppx-car",
+                "ppx-100",
+                "ppx-mod",
+                "ppx-hair"
+              ],
+              "text": "||PowerPyx counts 57 gas stations, 19 Pay 'n' Spray shops, 14 mod shops, 18 hair and beauty salons and 67 clothing stores. A Pay 'n' Spray repairs and repaints a vehicle, and from early Chapter 3 it also buys stolen vehicles and registers ones with standard trackers. PowerPyx says all salons offer the standard hairstyles and some add their own, and that beauty salons also let Lucia change nail color and makeup.||",
+              "n": 9
             }
           ]
         }
@@ -1235,11 +2103,11 @@
       "title": "Leonida & Vice City",
       "accent": "Vice City",
       "status": "published",
-      "intro": "Six regions make up the State of Leonida. These are the places Rockstar has named, in its own order of billing.",
+      "intro": "||Before launch Rockstar named six places in the State of Leonida, listed here in its own order of billing. PowerPyx's launch guide divides the released map differently, into five main regions, and its lists use five counties: Mariana, Vice-Dale, Leonard, Kelly and Lummox.||",
       "kicker": "Places",
       "heading": {
         "text": "Places:",
-        "accent": "the six regions"
+        "accent": "the regions"
       },
       "wiki": {
         "section": "locations",
@@ -1271,7 +2139,7 @@
       "title": "Vehicles",
       "accent": "Vehicles",
       "status": "published",
-      "intro": "Vehicles and vehicle types seen in official material. Names appear only where Rockstar has published them.",
+      "intro": "||Vehicles and vehicle types seen in official material before launch, with names only where Rockstar published them. The released game has far more: PowerPyx's guide to the Progress database counts 557 vehicles, 277 base models and 280 Standout versions.||",
       "kicker": "Garage",
       "heading": {
         "text": "Garage:",
@@ -1289,7 +2157,7 @@
       "title": "Activities",
       "accent": "Activities",
       "status": "published",
-      "intro": "Things to do between missions, as shown in Rockstar's Extended Look. Footage, not a published feature list.",
+      "intro": "||Things to do between missions. The first entries come from Rockstar's Extended Look; launch guides have since listed races, shooting ranges, drone time trials, pool, golf, basketball, fishing, hunting, meditation and playable video games.||",
       "kicker": "Pastimes",
       "heading": {
         "text": "Pastimes:",
@@ -1335,9 +2203,14 @@
             {
               "type": "paragraph",
               "evidence": "developer-described",
-              "text": "The callout is Nelson's phrase. The targets he names are shops, banks and payday loan places, and in the demo he points at a shop that sells headphones as somewhere you could rob.",
+              "text": "The callout is Nelson's phrase. The targets he names are shops, banks and payday loan places, and in the demo he points at a shop that sells headphones as somewhere you could rob. ||PowerPyx's launch guides list all three in the released game: stick ups at convenience stores, liquor stores and fast food outlets, 22 banks and seven payday loan stores, plus jewelry stores, pawn shops and gang operations.||",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "ppx-database",
+                "ppx-gangops",
+                "ppx-100",
+                "ppx-banks",
+                "ppx-payday"
               ]
             },
             {
@@ -1430,9 +2303,11 @@
               "title": "Prepare",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Nelson says he should really be preparing, for example by putting a vehicle out front. He goes in without."
+              "text": "Nelson says he should really be preparing, for example by putting a vehicle out front. He goes in without. ||Push Square's review of the released game makes the same point: a robbery can end without a chase if you scout the target, change outfit and pick a getaway vehicle to suit the job.||"
             },
             {
               "type": "rule"
@@ -1456,9 +2331,11 @@
               "title": "Open the safe",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "ppx-kingpin",
+                "ppx-trophy"
               ],
-              "text": "He finds the safe, then tracks down its combination. He also carries an explosive, which he says would damage some of the take."
+              "text": "He finds the safe, then tracks down its combination. He also carries an explosive, which he says would damage some of the take. ||PowerPyx's launch guides describe using sticky bombs, sold at Ammu-Nation, to blow open back-room safes. They do not say whether that costs you part of the take.||"
             },
             {
               "type": "rule"
@@ -1482,9 +2359,15 @@
               "title": "The quiet way",
               "evidence": "developer-described",
               "sources": [
-                "famitsu"
+                "famitsu",
+                "dayone-equipment",
+                "ppx-trophy",
+                "ppx-smash",
+                "ppx-trophies",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "In translation, Nelson describes a tool he calls a snap gun for opening a back door quietly; kicking the door in sets off the alarm. Break the security camera and you are not seen; disable the security system and the alarm stays silent, and cash can be taken from the register without anyone knowing."
+              "text": "In translation, Nelson describes a tool he calls a snap gun for opening a back door quietly; kicking the door in sets off the alarm. Break the security camera and you are not seen; disable the security system and the alarm stays silent, and cash can be taken from the register without anyone knowing. ||Launch sources agree on the tool: DayOne lists the Snap Gun as a lockpick that opens locked doors quietly without setting off alarms, and PowerPyx says it is unlocked in Chapter 3 and used to enter a jewelry store by the back door unseen. TheSixthAxis's review says security footage can be deleted.||"
             },
             {
               "type": "rule"
@@ -1493,11 +2376,13 @@
               "type": "numbered",
               "n": 6,
               "title": "Masks",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "famitsu"
+                "famitsu",
+                "dayone-equipment",
+                "sixthaxis-review"
               ],
-              "text": "If the police were told about a masked person, taking the mask off afterwards makes you harder to recognise. Nelson's advice, in translation: get out of the car and take it off."
+              "text": "If the police were told about a masked person, taking the mask off afterwards makes you harder to recognise. Nelson's advice, in translation: get out of the car and take it off. ||DayOne's launch equipment guide says the same: a mask hides your face from the police during a crime and should come off again once you are out of sight.||"
             },
             {
               "type": "rule"
@@ -1531,17 +2416,18 @@
             {
               "type": "paragraph",
               "evidence": "preview-reported",
-              "text": "TGG reports that loot is carried in duffel bags, with its value shown on screen, and that how many bags you can take depends on the vehicle.",
+              "text": "TGG reports that loot is carried in duffel bags, with its value shown on screen, and that how many bags you can take depends on the vehicle. ||DayOne's launch equipment guide lists the Duffel Bag as the way valuables such as marked bills, jewelry and drugs are hauled to a drop-off.||",
               "sources": [
-                "tgg-preview"
+                "tgg-preview",
+                "dayone-equipment"
               ]
             },
             {
               "type": "unknown",
               "items": [
-                "How much each kind of target pays.",
-                "Whether a crew can be hired, and whether large robberies are planned in advance.",
-                "How long police take to arrive, and what changes it."
+                "||How much each kind of target pays is now reported by PowerPyx's launch guides, as one guide's figures: pawn shops $1,000 to $12,000, the best jewelry stores up to $25,000, payday loan stores $2,000 to $25,000, small banks $5,000 to $45,000 and large bank vaults about $65,000 to $205,000.||",
+                "||Whether a crew can be hired. On planning, PowerPyx's walkthrough groups a run of preparation missions under each of two story heists, and Push Square's review says scouting a target first can let a robbery end without a chase.||",
+                "How long police take to arrive, and what changes it. ||The one figure in the launch guides read: PowerPyx says robbing a large bank's vault brings four stars at once.||"
               ]
             }
           ]
@@ -1564,17 +2450,21 @@
               "title": "Scan it first",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "The phone's scanner tells you whether a car is locked, alarmed or tracked, and what it is worth. In the demo it reports a car as locked, with an alarm and no tracker."
+              "text": "The phone's scanner tells you whether a car is locked, alarmed or tracked, and what it is worth. In the demo it reports a car as locked, with an alarm and no tracker. ||TheSixthAxis's review confirms the app in the released game: it shows a car's sale value, its registration fee and whether it has a tracker or keyless entry.||"
             },
             {
               "type": "paragraph",
               "evidence": "preview-reported",
-              "text": "Edge, IGN and TGG give the scanner app's name as WAINK.",
+              "text": "Edge, IGN and TGG give the scanner app's name as WAINK. ||PowerPyx's launch guides write it WAiNK and also use it for scanning places: the 100% checklist asks for 100 WAiNK locations.||",
               "sources": [
                 "edge",
-                "tgg-preview"
+                "tgg-preview",
+                "powerpyx-100",
+                "powerpyx-progress"
               ]
             },
             {
@@ -1587,9 +2477,14 @@
               "evidence": "developer-described",
               "sources": [
                 "ign-interview",
-                "famitsu"
+                "famitsu",
+                "dayone-equipment",
+                "ppx-keycloner",
+                "ppx-trophy",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Nelson names a slim jim, and a key cloner for newer and luxury cars that comes later. Some parked cars cannot be taken until you have the right tool; a car with a driver in it can always be carjacked. In translation, he adds that smashing a window sets off the alarm."
+              "text": "Nelson names a slim jim, and a key cloner for newer and luxury cars that comes later. Some parked cars cannot be taken until you have the right tool; a car with a driver in it can always be carjacked. In translation, he adds that smashing a window sets off the alarm. ||Launch guides confirm both tools: DayOne lists the Slim Jim as a quiet but slower way into locked vehicles, and PowerPyx says the Key Cloner is a phone app handed over at the start of a Chapter 3 mission, not something you buy. TheSixthAxis's review says taking a parked car can need a keyless-entry app that the story unlocks.||"
             },
             {
               "type": "rule"
@@ -1600,9 +2495,14 @@
               "title": "Trackers",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "ppx-100",
+                "ppx-money",
+                "ppx-fences",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "A car with what Nelson calls an advanced tracker gives its position to the police if it is driven slowly, so it has to be driven fast."
+              "text": "A car with what Nelson calls an advanced tracker gives its position to the police if it is driven slowly, so it has to be driven fast. ||Launch sources confirm trackers and add a distinction: PowerPyx's guide separates cars with no tracker, a standard tracker and an advanced tracker, each sold to a different buyer, and TheSixthAxis's review says a tracked car has to be re-registered at a garage or sold. Neither repeats the detail about driving fast.||"
             },
             {
               "type": "rule"
@@ -1613,9 +2513,11 @@
               "title": "Taking one that is occupied",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "You can aim your weapon and tell people to get out of their car, without having to pull anybody out."
+              "text": "You can aim your weapon and tell people to get out of their car, without having to pull anybody out. ||TheSixthAxis's review says carjacking still works but draws the police.||"
             },
             {
               "type": "paragraph",
@@ -1638,11 +2540,15 @@
               "type": "numbered",
               "n": 5,
               "title": "Deliver it in good condition",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "ppx-100",
+                "ppx-money",
+                "ppx-fences"
               ],
-              "text": "A car fence pays less for a damaged car. Nelson says he can repair the car first."
+              "text": "A car fence pays less for a damaged car. Nelson says he can repair the car first. ||TheSixthAxis's review confirms it: buyers pay more the better the condition, with a bonus for a car delivered in mint condition. PowerPyx puts a wish-list car in perfect condition at $30,000 or more.||"
             },
             {
               "type": "rule"
@@ -1651,11 +2557,13 @@
               "type": "numbered",
               "n": 6,
               "title": "Keep it",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "The scanner also shows what it would cost to register a car as your own."
+              "text": "The scanner also shows what it would cost to register a car as your own. ||TheSixthAxis's review confirms the fee is shown and says it rises with the class of car.||"
             },
             {
               "type": "rule"
@@ -1666,14 +2574,16 @@
               "title": "Your own car",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Your personal vehicle can be called to you, and spare outfits can be kept in its trunk."
+              "text": "Your personal vehicle can be called to you, and spare outfits can be kept in its trunk. ||TheSixthAxis's review says a registered car can be called up even when it has been impounded, and Push Square's mentions a delivery service that brings a chosen car to you. Neither mentions outfits in the trunk.||"
             },
             {
               "type": "unknown",
               "items": [
-                "Which cars fences want, and what they pay."
+                "||Which cars fences want is now reported. PowerPyx's launch guides say Moses buys cars with no tracker for $1,000 or more, any Pay 'n' Spray buys cars with a standard tracker for around $4,000 from Chapter 3, and Randy pays $30,000 or more for each of the 18 sports cars on his list in perfect condition.||"
               ]
             }
           ]
@@ -1702,9 +2612,11 @@
               "title": "More than one way to end it",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Nelson says a situation can be handled by threatening, knocking someone out, shooting to incapacitate, or killing. In his demo, aiming a gun without firing made the people he had angered run."
+              "text": "Nelson says a situation can be handled by threatening, knocking someone out, shooting to incapacitate, or killing. In his demo, aiming a gun without firing made the people he had angered run. ||Push Square's review of the released game says enemies can be put down by shots to non-vital areas.||"
             },
             {
               "type": "rule"
@@ -1736,9 +2648,10 @@
               "title": "Long guns show",
               "evidence": "developer-described",
               "sources": [
-                "famitsu"
+                "famitsu",
+                "sixthaxis-review"
               ],
-              "text": "In translation, Nelson says long guns can no longer be hidden. One on your back draws little reaction; one in your hands makes people leave or turn hostile, and the police warn you first."
+              "text": "In translation, Nelson says long guns can no longer be hidden. One on your back draws little reaction; one in your hands makes people leave or turn hostile, and the police warn you first. ||TheSixthAxis's review confirms it for the released game: everything you carry is visible on the character, and police grow suspicious of long guns.||"
             },
             {
               "type": "rule"
@@ -1747,12 +2660,19 @@
               "type": "numbered",
               "n": 4,
               "title": "Where your guns are kept",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
                 "ign-interview",
-                "famitsu"
+                "famitsu",
+                "sixthaxis-review",
+                "ppx-bret",
+                "ppx-100",
+                "ppx-trophy",
+                "insider-weapons",
+                "cv-variants",
+                "ppx-ultimate"
               ],
-              "text": "Nelson says every weapon you have bought is always available in the back of your personal vehicle. In translation, he adds that Ammu-Nation has lockers where your guns can be collected."
+              "text": "Nelson says every weapon you have bought is always available in the back of your personal vehicle. In translation, he adds that Ammu-Nation has lockers where your guns can be collected. ||TheSixthAxis's review agrees: weapons can be kept in weapon lockers or in vehicles you own. PowerPyx's guides place the lockers at Ammu-Nation.||"
             },
             {
               "type": "rule"
@@ -1777,15 +2697,17 @@
               "evidence": "developer-described",
               "sources": [
                 "ign-interview",
-                "tgg-preview"
+                "tgg-preview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Nelson compares Focus to Eagle Eye. TGG relays him as saying it can slow combat down."
+              "text": "Nelson compares Focus to Eagle Eye. TGG relays him as saying it can slow combat down. ||TheSixthAxis's review says Focus works throughout the released game: it highlights valuables, shows enemies in nearby rooms and reveals weak spots in a fight. Push Square's review describes a bullet-time mechanic.||"
             },
             {
               "type": "unknown",
               "items": [
-                "Cover, beyond the fact that it exists.",
-                "Silenced weapons, melee weapons and throwables."
+                "Cover, beyond the fact that it exists. ||Push Square's review says only that cover shooting is improved.||",
+                "||Silenced weapons. Melee weapons and explosives are confirmed: TheSixthAxis's review says each lead carries one melee weapon and explosives, PowerPyx's guide to the Progress database counts 9 melee weapons and 4 explosives, and its guides describe sticky bombs sold at Ammu-Nation. TheSixthAxis's review says accessories change a gun's damage and range figures; no launch source read names a silencer.||"
               ]
             }
           ]
@@ -1847,9 +2769,11 @@
               "title": "Cameras",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Nelson showed him that camera recordings can be destroyed. TGG relays another preview of a shop that kept its footage in the cloud."
+              "text": "Nelson showed him that camera recordings can be destroyed. TGG relays another preview of a shop that kept its footage in the cloud. ||TheSixthAxis's review confirms that security footage can be deleted.||"
             },
             {
               "type": "rule"
@@ -1903,9 +2827,10 @@
               "title": "The slim jim",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "dayone-equipment"
               ],
-              "text": "For older cars. You work the lock with the analog sticks, and it gets you in without setting off the alarm."
+              "text": "For older cars. You work the lock with the analog sticks, and it gets you in without setting off the alarm. ||DayOne's launch equipment guide describes the Slim Jim the same way: a quiet way into locked vehicles, slower than force.||"
             },
             {
               "type": "rule"
@@ -1942,9 +2867,14 @@
               "title": "Tracker levels",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-100",
+                "ppx-money",
+                "ppx-fences",
+                "ppx-spray",
+                "ppx-car"
               ],
-              "text": "A fence removes trackers, but only the levels you have unlocked with him. A high-end tracker beeps faster as you slow down, then alerts the police."
+              "text": "A fence removes trackers, but only the levels you have unlocked with him. A high-end tracker beeps faster as you slow down, then alerts the police. ||PowerPyx's launch guides describe the same ladder from the selling side: Moses takes only cars with no tracker, Pay 'n' Spray shops buy and register cars with a standard tracker from Chapter 3, and Randy takes wish-list cars with advanced trackers once you have the Key Cloner.||"
             },
             {
               "type": "rule"
@@ -1953,11 +2883,17 @@
               "type": "numbered",
               "n": 5,
               "title": "Randy",
-              "evidence": "preview-reported",
+              "evidence": "launch-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-100",
+                "ppx-money",
+                "ppx-fences",
+                "dayone-equipment",
+                "ppx-keycloner",
+                "ppx-trophy"
               ],
-              "text": "TGG names one vehicle fence as Randy. He keeps a list of cars he wants, and tools come from progressing with contacts like him."
+              "text": "||TGG named one vehicle fence as Randy. He keeps a list of cars he wants, and tools come from progressing with contacts like him. PowerPyx's launch guides confirm him: Randy is a fence in Vice City who takes certain high-end cars, his list has 18 sports cars, and the Key Cloner arrives with a job done for him.||"
             },
             {
               "type": "rule"
@@ -1966,16 +2902,21 @@
               "type": "numbered",
               "n": 6,
               "title": "Garages",
-              "evidence": "preview-reported",
+              "evidence": "launch-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-garages",
+                "gtabase-prop",
+                "ppx-car",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "A stolen car can be registered and stored. More garages can be bought; you keep as many cars as you have spaces. An app brings your car to you."
+              "text": "A stolen car can be registered and stored. More garages can be bought; you keep as many cars as you have spaces. An app brings your car to you. ||Launch sources confirm each part: PowerPyx lists eight garages for sale through the Vice City Real Estate app and says each parking spot lets one more vehicle be registered, up to 18 in all, and Push Square's review mentions a delivery service that brings a chosen car to you.||"
             },
             {
               "type": "unknown",
               "items": [
-                "What each tool costs and when it becomes available."
+                "||What each tool costs. On timing, PowerPyx's launch guides say the Key Cloner is handed over at the start of a Chapter 3 mission and is not bought, and that the Snap Gun and the Dye Pack Jammer are also unlocked through Chapter 3 jobs.||"
               ]
             }
           ]
@@ -2024,9 +2965,10 @@
               "title": "Fuel",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-gas"
               ],
-              "text": "Cars need fuel. A gas station offers a repair or a fill; you hold R2 while the character fills up. Electric vehicles can be charged."
+              "text": "Cars need fuel. A gas station offers a repair or a fill; you hold R2 while the character fills up. Electric vehicles can be charged. ||PowerPyx's launch guide confirms fuel: it counts 57 gas stations, says every vehicle burns fuel and stops when the tank is empty, and says nearby stations are flagged on the map when fuel runs low. It does not cover charging or the controls.||"
             },
             {
               "type": "rule"
@@ -2035,11 +2977,12 @@
               "type": "numbered",
               "n": 4,
               "title": "Mod shops",
-              "evidence": "preview-reported",
+              "evidence": "launch-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-mod"
               ],
-              "text": "No single shop does everything. Each has a speciality, such as off-road builds or lowriders."
+              "text": "No single shop does everything. Each has a speciality, such as off-road builds or lowriders. ||PowerPyx's launch guide confirms it: it lists 14 mod shops, each tied to one kind of vehicle, for example retro cars, muscle cars or sports bikes.||"
             },
             {
               "type": "rule"
@@ -2063,9 +3006,10 @@
               "title": "Buses and rides",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "powerpyx-fast-travel"
               ],
-              "text": "You can take a bus or a ride and skip the journey. TGG relays Edge magazine's preview that buses keep to routes and times."
+              "text": "You can take a bus or a ride and skip the journey. TGG relays Edge magazine's preview that buses keep to routes and times. ||PowerPyx's launch guide confirms the ride: a Paradise Taxi or a RydeMe car will skip the trip for $100, and there is no fast travel from the map itself. The launch entries read do not cover buses.||"
             },
             {
               "type": "unknown",
@@ -2093,9 +3037,10 @@
               "title": "Two and two",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review"
               ],
-              "text": "Two handguns and two long guns. One long gun goes on your back; a second stays in your hands, where people can see it."
+              "text": "Two handguns and two long guns. One long gun goes on your back; a second stays in your hands, where people can see it. ||TheSixthAxis's review gives the full loadout for the released game: two sidearms, two long guns, explosives, one melee weapon and equipment, all of it visible on the character.||"
             },
             {
               "type": "rule"
@@ -2104,11 +3049,12 @@
               "type": "numbered",
               "n": 2,
               "title": "Kept and lost",
-              "evidence": "preview-reported",
+              "evidence": "launch-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review"
               ],
-              "text": "Your loadout stays with your personal vehicle. Weapons you bought can be recovered. Ones you only picked up can be gone for good."
+              "text": "Your loadout stays with your personal vehicle. Weapons you bought can be recovered. Ones you only picked up can be gone for good. ||TheSixthAxis's review confirms it: weapons can be kept in weapon lockers or in vehicles you own, and a weapon picked up in the world is lost when you quit unless it has been stored.||"
             },
             {
               "type": "rule"
@@ -2119,9 +3065,16 @@
               "title": "The rest of the wheel",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review",
+                "dayone-equipment",
+                "ppx-100",
+                "ppx-trophy",
+                "ppx-armor",
+                "ppx-cheats",
+                "insider-weapons"
               ],
-              "text": "Melee weapons, gadgets and throwables have their own room, and items such as healing have a separate tab."
+              "text": "Melee weapons, gadgets and throwables have their own room, and items such as healing have a separate tab. ||TheSixthAxis's review lists explosives, one melee weapon and equipment alongside the guns. PowerPyx's guides speak of a weapon wheel, where binoculars are picked, and an item wheel, where body armor is switched on.||"
             },
             {
               "type": "rule"
@@ -2132,9 +3085,11 @@
               "title": "Focus in a fight",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Aim at a red area for a lethal shot or a yellow one to incapacitate. You still aim and fire yourself."
+              "text": "Aim at a red area for a lethal shot or a yellow one to incapacitate. You still aim and fire yourself. ||TheSixthAxis's review says Focus reveals weak spots in a fight.||"
             },
             {
               "type": "rule"
@@ -2165,7 +3120,7 @@
             {
               "type": "unknown",
               "items": [
-                "Ammunition: how it is bought and how much can be carried."
+                "||Ammunition: how much can be carried. PowerPyx's launch guide says every gun store sells it.||"
               ]
             }
           ]
@@ -2235,18 +3190,22 @@
               "type": "paragraph",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Rob Nelson says the icons show what the police know about you. In his demo they knew what he looked like, what he was wearing, what the pair were driving, and that they were a couple. A crime has to be seen by a witness, or set off an alarm, before it is reported at all."
+              "text": "Rob Nelson says the icons show what the police know about you. In his demo they knew what he looked like, what he was wearing, what the pair were driving, and that they were a couple. A crime has to be seen by a witness, or set off an alarm, before it is reported at all. ||TheSixthAxis's review describes the released game the same way: witnesses can call the police, the police work from a description of you, and they know whether you are working alone or as a pair.||"
             },
             {
               "type": "table",
               "evidence": "developer-described",
               "sources": [
                 "ign-interview",
-                "extended-look"
+                "extended-look",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "caption": "What the police know, and what to do about it, are from Nelson's interview. Matching each to an icon is this manual's reading of the footage, not a Rockstar statement.",
+              "caption": "||What the police know, and what to do about it, are from Nelson's interview, and TheSixthAxis's review confirms that changing your looks, clothing and vehicle stops you matching the description. Matching each to an icon is still this manual's reading of the footage, not a Rockstar statement.||",
               "columns": [
                 "What police know",
                 "Icon in the footage",
@@ -2281,9 +3240,11 @@
               "sources": [
                 "gtabase",
                 "gr-heat",
-                "vice"
+                "vice",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "caption": "These two icons are in the footage, but only guides and creators say what they mean.",
+              "caption": "||These two icons are in the footage. No source read names them, but TheSixthAxis's review supports the reading: it says security footage can be deleted and that weapons, like vehicles and clothing, can be changed or abandoned so you no longer match the description.||",
               "columns": [
                 "Icon in the footage",
                 "How guides read it"
@@ -2318,7 +3279,7 @@
             {
               "type": "paragraph",
               "evidence": "unknown",
-              "text": "This chapter was written before release. Exact numbers, timers, distances and thresholds are not known, and none are given here."
+              "text": "||This chapter was written before release. Launch reviews and guides have since confirmed its outline, but the ones read give no timers, distances or thresholds, and none are given here.||"
             }
           ]
         },
@@ -2405,7 +3366,7 @@
             {
               "type": "paragraph",
               "evidence": "unknown",
-              "text": "What it takes to reach each star has not been published. Treat any table of \"this crime equals that many stars\" as a guess until it has been tested in the released game."
+              "text": "||What it takes to reach each star has still not been published in full. The one figure in the launch guides read is PowerPyx's: robbing a large bank's vault brings four stars at once. Treat any fuller table of \"this crime equals that many stars\" as a guess until it has been tested.||"
             },
             {
               "type": "warning",
@@ -2582,11 +3543,13 @@
               "type": "numbered",
               "n": 1,
               "title": "A witness",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Nelson has said the wanted system needs someone to witness the crime for it to be reported. In his demo, a bystander called an incident in."
+              "text": "Nelson has said the wanted system needs someone to witness the crime for it to be reported. In his demo, a bystander called an incident in. ||TheSixthAxis's review confirms that witnesses can call the police.||"
             },
             {
               "type": "rule"
@@ -2662,9 +3625,11 @@
               "type": "paragraph",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Nelson points to icons on screen that show what the police know. In his demo they knew what he looked like, what he was wearing, what the pair were driving, and that they were a couple."
+              "text": "Nelson points to icons on screen that show what the police know. In his demo they knew what he looked like, what he was wearing, what the pair were driving, and that they were a couple. ||TheSixthAxis's review confirms that the police work from a description of you and know whether you are alone or a pair.||"
             },
             {
               "type": "paragraph",
@@ -2692,11 +3657,13 @@
               "type": "numbered",
               "n": 1,
               "title": "Appearance",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "The police know what you look like. Glasses, a hat or a new haircut change your appearance, but not what you are wearing."
+              "text": "The police know what you look like. Glasses, a hat or a new haircut change your appearance, but not what you are wearing. ||TheSixthAxis's review confirms it: you can change how you look so that you no longer match the description, and hats, sunglasses and masks can hide your face during a crime.||"
             },
             {
               "type": "rule"
@@ -2705,11 +3672,13 @@
               "type": "numbered",
               "n": 2,
               "title": "Clothing",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "The police know your outfit. Nelson calls an outfit they have seen compromised."
+              "text": "The police know your outfit. Nelson calls an outfit they have seen compromised. ||TheSixthAxis's review lists clothing among the things you can change or abandon to stop matching the description.||"
             },
             {
               "type": "rule"
@@ -2718,11 +3687,16 @@
               "type": "numbered",
               "n": 3,
               "title": "Vehicle",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review",
+                "ppx-spray",
+                "ppx-car",
+                "ppx-100"
               ],
-              "text": "The police know what you are driving."
+              "text": "The police know what you are driving. ||TheSixthAxis's review confirms that changing or abandoning the vehicle is one way to stop matching the description, and PowerPyx's guide says a Pay 'n' Spray repaints a vehicle so the police no longer recognise it.||"
             }
           ]
         },
@@ -2738,11 +3712,13 @@
               "type": "numbered",
               "n": 4,
               "title": "Accomplice",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "The police can know that Jason and Lucia are together."
+              "text": "The police can know that Jason and Lucia are together. ||TheSixthAxis's review confirms that the police know whether you are working alone or as a pair.||"
             },
             {
               "type": "rule"
@@ -2762,9 +3738,11 @@
               "evidence": "interpretation",
               "sources": [
                 "gtabase",
-                "gr-heat"
+                "gr-heat",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Guides read the pistol icon as the police knowing which weapon was used. Rockstar has not described it in the sources read."
+              "text": "||Guides read the pistol icon as the police knowing which weapon was used. Rockstar has not described it in the sources read, but TheSixthAxis's review lists weapons among the things you can change or abandon so that you no longer match the description.||"
             },
             {
               "type": "rule"
@@ -2788,9 +3766,11 @@
               "sources": [
                 "gtabase",
                 "gr-heat",
-                "vice"
+                "vice",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Guides and creators read the camera icon as being caught on security camera. Rockstar has not described it in the sources read."
+              "text": "||Guides and creators read the camera icon as being caught on security camera. Rockstar has not described it in the sources read, but TheSixthAxis's review says security footage can be deleted as one way of getting away.||"
             },
             {
               "type": "rule"
@@ -2816,7 +3796,7 @@
               "title": "About the icons",
               "items": [
                 "The icon pictures in this chapter are frames from Rockstar's official footage, not redrawn artwork.",
-                "What each icon is called, and exactly what it does, will be rechecked after launch."
+                "||What each icon is called is still not given in the launch reviews and guides read; they describe what the police know, not the icons.||"
               ]
             }
           ]
@@ -2951,9 +3931,11 @@
               "evidence": "preview-reported",
               "sources": [
                 "gr-nelson",
-                "vice"
+                "vice",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "That Focus shows police through walls is TGG's own description, not a Nelson quote."
+              "text": "That Focus shows police through walls is TGG's own description, not a Nelson quote. ||TheSixthAxis's review says Focus shows enemies in nearby rooms; it does not mention police specifically.||"
             },
             {
               "type": "paragraph",
@@ -2988,7 +3970,7 @@
             {
               "type": "unknown",
               "items": [
-                "How far Focus reaches, how long it lasts and whether it works in every situation.",
+                "||How far Focus reaches and how long it lasts. TheSixthAxis's review says it works throughout the game, and PowerPyx lists an Unlimited Focus cheat.||",
                 "How far officers can see or hear, and how quickly they react.",
                 "Whether individual police units ever appear on the minimap."
               ]
@@ -3015,11 +3997,13 @@
             },
             {
               "type": "paragraph",
-              "evidence": "developer-described",
+              "evidence": "launch-reported",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "text": "Checking the map in his demo, Nelson calls the place of an incident a hot area: the police are there and will hang around for a while, and the map still shows a star over it."
+              "text": "Checking the map in his demo, Nelson calls the place of an incident a hot area: the police are there and will hang around for a while, and the map still shows a star over it. ||TheSixthAxis's review confirms that after an escape the wanted area stays marked on the map for a while.||"
             },
             {
               "type": "paragraph",
@@ -3107,9 +4091,11 @@
               "type": "table",
               "evidence": "developer-described",
               "sources": [
-                "ign-interview"
+                "ign-interview",
+                "sixthaxis-review",
+                "pushsquare-review"
               ],
-              "caption": "What Nelson describes doing in IGN's interview. Verify each in the released game.",
+              "caption": "||What Nelson described doing in IGN's interview. TheSixthAxis's review confirms for the released game that changing looks, clothing and vehicle stops you matching the description, and that the police know whether you are alone or a pair. The cautions are still Nelson's.||",
               "columns": [
                 "What police know",
                 "Described response",
@@ -3144,9 +4130,14 @@
               "sources": [
                 "gtabase",
                 "vice",
-                "gr-heat"
+                "gr-heat",
+                "sixthaxis-review",
+                "pushsquare-review",
+                "ppx-spray",
+                "ppx-car",
+                "ppx-100"
               ],
-              "caption": "From guides and creators' previews only; not described by Rockstar in the sources read.",
+              "caption": "||First reported by guides and creators' previews. Launch sources now back four of the five: TheSixthAxis's review says masks hide your face, weapons can be changed or abandoned and security footage deleted, and PowerPyx says a Pay 'n' Spray repaints a vehicle so the police no longer recognise it. That splitting up takes a star off is still one creator's report.||",
               "columns": [
                 "What police know",
                 "Reported response"
@@ -3230,7 +4221,7 @@
             },
             {
               "type": "intro",
-              "text": "What has been described about police tactics and equipment so far. This page will grow after release."
+              "text": "||What was described about police tactics and equipment before launch. The launch reviews and guides read add little on tactics, so most of this page still rests on pre-release accounts.||"
             },
             {
               "type": "image",
@@ -3387,9 +4378,12 @@
               "title": "Ways out",
               "evidence": "preview-reported",
               "sources": [
-                "tgg-guide"
+                "tgg-guide",
+                "ppx-spray",
+                "ppx-car",
+                "ppx-100"
               ],
-              "text": "A respray removes the description of your car. Underwater, the depth and clarity of the water affect whether police see you."
+              "text": "A respray removes the description of your car. Underwater, the depth and clarity of the water affect whether police see you. ||PowerPyx's launch guide confirms the respray: a Pay 'n' Spray repairs a vehicle and repaints it so the police no longer recognise it. The underwater detail is not covered.||"
             },
             {
               "type": "rule"
@@ -3426,7 +4420,7 @@
         "credit": "Official Rockstar Games screenshot (\"Jason Duval 09\"), rockstargames.com/VI/media/screenshots"
       },
       "kicker": "Armoury",
-      "intro": "The few weapons Rockstar has named so far, all from its descriptions of the game's editions. No stats have been published; handling, damage and the full list will be written from the released game.",
+      "intro": "||Before launch Rockstar had named only a few weapons, all in its descriptions of the game's editions. Launch guides now list many more: PowerPyx's guide to the Progress database counts 196 weapons (53 guns, 9 melee weapons, 4 explosives and 130 variants) and 12 pieces of equipment, and DayOne publishes in-game ratings out of 10 for damage, accuracy, handling and range.||",
       "wiki": {
         "section": "weapons",
         "perPage": 3,

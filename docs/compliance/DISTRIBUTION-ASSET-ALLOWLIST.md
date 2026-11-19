@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-18 12:33 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-18 17:15 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,7 +8,7 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (269)
+## Local personal use only (399)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -230,20 +230,150 @@ None. No media file is cleared for public distribution.
 - `images/splash/p7.webp`
 - `images/splash/p8.webp`
 - `images/splash/p9.webp`
+- `images/vehicles/64-mamba-gt.jpg`
+- `images/vehicles/airboat-09.jpg`
 - `images/vehicles/airboat.jpg`
 - `images/vehicles/aircraft.jpg`
+- `images/vehicles/airport-bus.jpg`
+- `images/vehicles/airtug.jpg`
+- `images/vehicles/albany-cavalcade-xl.jpg`
+- `images/vehicles/albany-manana.jpg`
+- `images/vehicles/albany-v-str.jpg`
+- `images/vehicles/ascot-paragon.jpg`
+- `images/vehicles/benefactor-spritz.jpg`
+- `images/vehicles/benefactor-xls.jpg`
+- `images/vehicles/bf-surfer.jpg`
+- `images/vehicles/bison-1800-police.jpg`
+- `images/vehicles/bottcher-buzzard-attack-chopper.jpg`
+- `images/vehicles/bravado-bison-1800.png`
+- `images/vehicles/bravado-bison-900-95-monster-truck.jpg`
+- `images/vehicles/bravado-bison-900-95.jpg`
+- `images/vehicles/bravado-bogan.jpg`
+- `images/vehicles/bravado-dorado.png`
+- `images/vehicles/bravado-gresley-xt.jpg`
+- `images/vehicles/bravado-sojourn.jpg`
+- `images/vehicles/brute-stockade.jpg`
+- `images/vehicles/brute-tipper-6-wheels.jpg`
+- `images/vehicles/buckingham-luxor.jpg`
+- `images/vehicles/buckingham-shamal.jpg`
+- `images/vehicles/buckingham-swift.png`
+- `images/vehicles/buckingham-valkyrie.jpg`
+- `images/vehicles/buckingham-volatus.jpg`
+- `images/vehicles/buckingham-windsor-drop.jpg`
+- `images/vehicles/buckingham-windsor.jpg`
+- `images/vehicles/buster.jpg`
+- `images/vehicles/caddy.jpg`
+- `images/vehicles/calder-yakuruna.jpg`
+- `images/vehicles/canis-kamacho.jpg`
+- `images/vehicles/canis-terminus.jpg`
+- `images/vehicles/cartwright-biff.jpg`
+- `images/vehicles/cartwright-hauler.png`
+- `images/vehicles/classique-stallion.jpg`
+- `images/vehicles/coil-raiden.jpg`
 - `images/vehicles/crest-kayak.jpg`
+- `images/vehicles/declasse-akane.jpg`
+- `images/vehicles/declasse-impaler-20.jpg`
+- `images/vehicles/declasse-impaler-80.jpg`
+- `images/vehicles/declasse-impaler-sz.jpg`
+- `images/vehicles/declasse-rancher.jpg`
+- `images/vehicles/declasse-vigero-zx-convertible.jpg`
+- `images/vehicles/declasse-walton-l35.jpg`
+- `images/vehicles/declasse-yosemite-1500.jpg`
+- `images/vehicles/dinka-double-t.jpg`
 - `images/vehicles/dinka-enduro.jpg`
+- `images/vehicles/dinka-marquis.jpg`
+- `images/vehicles/dinka-sugoi.jpg`
+- `images/vehicles/dundreary-arcturus-93.jpg`
+- `images/vehicles/emperor-vectre.jpg`
+- `images/vehicles/endurex-race-bike.jpg`
+- `images/vehicles/fathom-fr36.jpg`
+- `images/vehicles/gallivanter-baller-st-d.jpg`
+- `images/vehicles/granger-police.jpg`
+- `images/vehicles/granger-taxi.jpg`
 - `images/vehicles/grotti-cheetah-95.jpg`
+- `images/vehicles/grotti-itali-gto.jpg`
+- `images/vehicles/grotti-itali-rsx.jpg`
+- `images/vehicles/hvy-excavator.jpg`
+- `images/vehicles/imponte-phoenix.jpg`
+- `images/vehicles/invetero-coquette-classic.jpg`
+- `images/vehicles/invetero-coquette.jpg`
 - `images/vehicles/jet-ski.jpg`
+- `images/vehicles/jobuilt-flatbed.jpg`
+- `images/vehicles/jobuilt-phantom-custom.jpg`
+- `images/vehicles/jobuilt-rubble.jpg`
+- `images/vehicles/karin-asterope-gz.png`
+- `images/vehicles/karin-vivanite.jpg`
+- `images/vehicles/l35p-police-boat.jpg`
+- `images/vehicles/lapwing-mallard.jpg`
+- `images/vehicles/lapwing-mammatus.jpg`
+- `images/vehicles/lapwing-nimbus.jpg`
+- `images/vehicles/lcc-avarus.jpg`
+- `images/vehicles/lifta.png`
+- `images/vehicles/lure-predator-l35p.jpg`
+- `images/vehicles/maibatsu-iota.jpg`
+- `images/vehicles/maibatsu-manchez.jpg`
+- `images/vehicles/maibatsu-penumbra-ff.jpg`
+- `images/vehicles/mer-can-blast.jpg`
+- `images/vehicles/mtl-packer.jpg`
+- `images/vehicles/mtl-pumper.jpg`
 - `images/vehicles/muscle-car.jpg`
+- `images/vehicles/nagasaki-carbon-rs.jpg`
+- `images/vehicles/nagasaki-dinghy.jpg`
+- `images/vehicles/nagasaki-nimbe.jpg`
+- `images/vehicles/obey-8f-drafter.jpg`
+- `images/vehicles/obey-tailgater-s.jpg`
+- `images/vehicles/osprey-journey.jpg`
+- `images/vehicles/ped-scorcher.jpg`
+- `images/vehicles/pegassi-bati-801.jpg`
+- `images/vehicles/pegassi-faggio.jpg`
+- `images/vehicles/pegassi-infernus-96.jpg`
+- `images/vehicles/pegassi-police-tempesta.jpg`
+- `images/vehicles/pegassi-tempesta.jpg`
+- `images/vehicles/pfister-growler.jpg`
+- `images/vehicles/pfister-neon.jpg`
 - `images/vehicles/pickup-truck.jpg`
+- `images/vehicles/police-buzzard.jpg`
+- `images/vehicles/police-ghost-stanier-le.png`
+- `images/vehicles/police-landstalker-xl.jpg`
+- `images/vehicles/police-montagne.jpg`
+- `images/vehicles/police-riot.jpg`
+- `images/vehicles/principe-alvino-v1.jpg`
+- `images/vehicles/principe-lectro.jpg`
+- `images/vehicles/progen-emerus.jpg`
+- `images/vehicles/rental-bus.jpg`
+- `images/vehicles/shifter.jpg`
 - `images/vehicles/shitzu-squalo.jpg`
 - `images/vehicles/speedboat.jpg`
 - `images/vehicles/sports-car.jpg`
+- `images/vehicles/swamp-blaster.jpg`
+- `images/vehicles/tow-truck.jpg`
+- `images/vehicles/truffade-thrax.jpg`
+- `images/vehicles/tuff-bmx.jpg`
+- `images/vehicles/ubermacht-apoc-cabrio.jpg`
+- `images/vehicles/ubermacht-apoc.jpg`
+- `images/vehicles/ubermacht-fcr-1000.jpg`
+- `images/vehicles/ubermacht-rebla-gts.jpg`
+- `images/vehicles/ubermacht-sentinel-classic.jpg`
+- `images/vehicles/utility-truck.jpg`
+- `images/vehicles/vapid-aleutian.jpg`
+- `images/vehicles/vapid-dominator-67.jpg`
 - `images/vehicles/vapid-dominator-buggy.jpg`
+- `images/vehicles/vapid-dominator-gt.jpg`
 - `images/vehicles/vapid-ganado.jpg`
+- `images/vehicles/vapid-lowline.jpg`
+- `images/vehicles/vapid-montagne.jpg`
+- `images/vehicles/vapid-reclaimer.jpg`
+- `images/vehicles/vapid-sandking-xt.jpg`
 - `images/vehicles/vapid-stanier-55.jpg`
+- `images/vehicles/vapid-stanier-g2-taxi.jpg`
+- `images/vehicles/walter-cruiser.jpg`
+- `images/vehicles/western-company-duster.jpg`
+- `images/vehicles/western-sovereign-107.jpg`
+- `images/vehicles/western-zombie-chopper.jpg`
+- `images/vehicles/willard-faction-custom-donk.jpg`
+- `images/vehicles/willard-transient.jpg`
+- `images/vehicles/willard-trotter-95.jpg`
+- `images/vehicles/zoot.jpg`
 - `images/weapons/girardi-es9.jpg`
 - `images/weapons/hawk-and-little-morgan-revolvers.jpg`
 - `images/weapons/klose-k17.jpg`

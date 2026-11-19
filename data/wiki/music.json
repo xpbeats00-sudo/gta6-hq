@@ -25,9 +25,16 @@
     "confidence": "official",
     "sources": [
       "rockstar-music",
-      "g6w-music"
+      "g6w-music",
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-18",
+    "body": [
+      "GameSpot and The Big Lead report that El Martillo is Bad Bunny and La Gata is RaiNao. Rockstar's own pages give only the character names.",
+      "Songs GameSpot reports hearing on it: Bad Bunny - EoO; Romeo Santos ft. El Chaval de la Bachata - Canalla; Axel Rulay ft. Farruko and El Alfa - Si Es Trucho Es Trucho (Remix); Myke Towers - Girl; Young Miko - Ni Le Cabe; Bad Bunny - Otra Noche en Miami; Chimbala & Omega - Se Me Nota (Agarrame); Don Omar - Intocable; Fuerza Regida - Suzuki; Rauw Alejandro - Macacoa 2000; Tainy & Bad Bunny - Mojabi Ghost; Calle 13 - Suave Mix (Blass Remix)."
+    ]
   },
   {
     "slug": "back-country-radio",
@@ -56,11 +63,16 @@
     "sources": [
       "rockstar-music",
       "g6w-music",
-      "rockstar-nw-radio"
+      "rockstar-nw-radio",
+      "gamespot-radio",
+      "cultr-radio",
+      "nme-album-tracklist"
     ],
-    "verified": "2026-11-13",
+    "verified": "2026-11-18",
     "body": [
-      "Rockstar also names Mud Dog Mike, the station's roving reporter and swamp meteorologist, who checks in from his Grassrivers airboat."
+      "Rockstar also names Mud Dog Mike, the station's roving reporter and swamp meteorologist, who checks in from his Grassrivers airboat.",
+      "GameSpot, CULTR and NME report that MW is Morgan Wallen, Delta Dawne is Lana Del Rey and Mud Dog Mike is Jeremy Dufrene. Rockstar's own pages give only the character names.",
+      "Songs GameSpot reports hearing on it: David Allan Coe - Need a Little Time Off for Bad Behavior; Glen Campbell - Rhinestone Cowboy; Mel McDaniel - Louisiana Saturday Night; George Strait - The Fireman; Loretta Lynn - Don't Come Home A-Drinkin' (With Lovin' On Your Mind); Hank Williams Jr. ft. Waylon Jennings - The Conversation; Tony Joe White - Polk Salad Annie; The Kentucky Headhunters - Walk Softly On This Heart of Mine."
     ]
   },
   {
@@ -91,9 +103,16 @@
     "confidence": "official",
     "sources": [
       "rockstar-music",
-      "g6w-music"
+      "g6w-music",
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-18",
+    "body": [
+      "GameSpot, CULTR and The Big Lead report that Burna is Burna Boy and Palmsy is the DJ and producer Palms Trax.",
+      "Songs GameSpot reports hearing on it: Tony Allen & The Afro Messengers - No Discrimination; Alafia - Assanssan; Uncle Waffles - Wadibusa; Asake - Joha; Pat Thomas ft. Ebo Taylor - Gye Wani; DJ Lag & Robot Boii ft. Kamo Mphela - Shay'sana; Hugh Masekela - Run No More; Manu Dibango - Goro City."
+    ]
   },
   {
     "slug": "the-chamber",
@@ -103,7 +122,9 @@
     ],
     "summary": "An in-game radio station playing metal, hosted by DJ Kerry and DJ Tom.",
     "body": [
-      "Rockstar's music page labels it The Chamber. The preview clip on the same page is named The Chamber 106.6."
+      "Rockstar's music page labels it The Chamber. The preview clip on the same page is named The Chamber 106.6.",
+      "GameSpot, CULTR and The Big Lead report that DJ Kerry and DJ Tom are Slayer's Kerry King and Tom Araya.",
+      "Songs GameSpot reports hearing on it: Slayer - Raining Blood; Black Sabbath - I; Pantera - I'm Broken; Megadeth - Symphony of Destruction; Metallica - Master of Puppets; Mastodon - Blood and Thunder; Anthrax - I Am The Law; Metallica - Battery; Metallica - Seek & Destroy; Sepultura - Territory; System of a Down - Sugar; TOOL - Sober; Overkill - Rotten to the Core."
     ],
     "facts": {
       "type": "Radio station",
@@ -124,9 +145,12 @@
     "confidence": "official",
     "sources": [
       "rockstar-music",
-      "g6w-music"
+      "g6w-music",
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-18"
   },
   {
     "slug": "flash-fm",
@@ -151,9 +175,17 @@
     "confidence": "official",
     "sources": [
       "rockstar-music",
-      "g6w-music"
+      "g6w-music",
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-18",
+    "body": [
+      "GameSpot, CULTR and The Big Lead report that the hosts are the singer Robyn and the model Alex Consani.",
+      "Songs GameSpot reports hearing on it: Charli XCX - Good Ones; MGMT - Electric Feel; Zara Larsson and PinkPantheress - Midnight Sun; Ciara and Justin Timberlake - Love Sex Magic; Kylie Minogue - Spinning Around; Drake - Hold On, We're Going Home; X-Press 2 ft. David Byrne - Lazy; Addison Rae - Fame Is a Gun; Katseye - Gabriela; Ariana Grande - Break Free; Chappell Roan - Hot To Go!; Dua Lipa - Houdini; Billie Eilish - Lunch; Gorillaz - Dare; Daft Punk - Around the World.",
+      "GameSpot's list for this station runs to more than thirty songs."
+    ]
   },
   {
     "slug": "dirty-south-classics",
@@ -180,8 +212,15 @@
     "confidence": "official",
     "sources": [
       "rockstar-music",
-      "g6w-music"
+      "g6w-music",
+      "gamespot-radio",
+      "cultr-radio",
+      "biglead-radio"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-18",
+    "body": [
+      "GameSpot, CULTR and The Big Lead report that the hosts are the Miami rappers Trick Daddy and Trina.",
+      "Songs GameSpot reports hearing on it: David Banner ft. Lil' Flip - Like a Pimp; JT Money ft. Solé - Who Dat; DJ Khaled ft. Trick Daddy, Rick Ross and Pitbull - Born N Raised; Juvenile ft. Soulja Slim - Slow Motion; Petey Pablo - Freek-A-Leek; Trick Daddy - I'm a Thug; Young Buck - Shorty Wanna Ride; Lil Wayne - A Milli; Chingy ft. Ludacris & Snoop Dogg - Holidae Inn; Dem Franchize Boyz - White Boy; Birdman ft. Lil Wayne - Pop Bottles; Outkast - Players Ball; 2Pac ft. Trick Daddy - Still Ballin'; Shawty Lo - Dew Know."
+    ]
   }
 ]

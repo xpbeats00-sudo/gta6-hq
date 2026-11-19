@@ -1,0 +1,324 @@
+[
+  {
+    "slug": "kingfishers",
+    "name": "Kingfishers",
+    "summary": "One of the nine gangs tracked in the game, with three robbable operations.",
+    "body": [
+      "PowerPyx lists three Kingfishers operations: the Fishing Shacks, Sunrise RV Park and the Manatee Motel.",
+      "PowerPyx's walkthrough mentions the Kingfishers as a group Brian Heder has had a run-in with."
+    ],
+    "tags": [
+      "fishing shacks",
+      "gang",
+      "gang operations",
+      "kingfishers",
+      "manatee motel"
+    ],
+    "facts": {
+      "type": "Gang (one of nine tracked under Progress > Gangs)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gangops",
+      "ppx-arnold"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kolts-and-associates",
+    "name": "Kolts & Associates",
+    "summary": "A gang around Port Gellhorn that deals pills and runs five robbable operations, including Kingpin Bowling.",
+    "body": [
+      "PowerPyx lists five operations for the gang: Kingpin Bowling, June Warehouse, La Cascara Motel, Brooks Boatworks and one more not yet named.",
+      "PowerPyx says the Kolts sell painkillers and are based at docks and a compound, and that Kingpin Bowling is in Port Gellhorn.",
+      "Spelling varies: PowerPyx's gang guide writes Kolts & Associates, while the trophy text it quotes says Kolt & Associates."
+    ],
+    "tags": [
+      "associates",
+      "gang",
+      "kingpin bowling",
+      "kolt",
+      "kolts",
+      "pills",
+      "port gellhorn"
+    ],
+    "facts": {
+      "type": "Gang (one of nine tracked)",
+      "territory": "Port Gellhorn area, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gangops",
+      "ppx-slamdunk",
+      "ppx-trophy",
+      "ppx-girlstrip"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "m7",
+    "name": "M7",
+    "summary": "One of the nine tracked gangs, with a compound and one other robbable operation.",
+    "body": [
+      "PowerPyx lists the M7 Compound and one unnamed robbery opportunity for M7, and mentions M7 members living next to a house Mia Caminos is selling.",
+      "GTA Wiki's Marabunta Grande page says members with M7 tattoos appear in the launch trailer, treating M7 as that gang."
+    ],
+    "tags": [
+      "compound",
+      "gang",
+      "m7",
+      "marabunta grande"
+    ],
+    "facts": {
+      "type": "Gang (one of nine tracked)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gangops",
+      "ppx-mia",
+      "gtawiki-marabunta"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "la-polilla-negra",
+    "name": "La Polilla Negra",
+    "summary": "A Colombian cartel that launders money through Sinfrontera National Bank in Vice City.",
+    "body": [
+      "PowerPyx describes La Polilla Negra as a Colombian cartel using the Sinfrontera National Bank in Tequesta and does not name its leader.",
+      "PowerPyx lists two operations for it, one being the Palmer Fishing Warehouse, and names Monty as a senior enforcer."
+    ],
+    "tags": [
+      "cartel",
+      "colombian",
+      "la polilla negra",
+      "money laundering",
+      "sinfrontera"
+    ],
+    "facts": {
+      "type": "Colombian drug cartel (one of nine tracked gangs)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sinfrontera",
+      "ppx-gangops",
+      "ppx-andrea",
+      "ppx-security"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "san4san",
+    "name": "San4San",
+    "summary": "A Haitian street gang in Vice City with five robbable operations.",
+    "body": [
+      "GTABase describes San4San as a Haitian street gang in Vice City and says it was revealed through official trailers and screenshots.",
+      "PowerPyx lists five San4San operations, including a studio named after Sound4Sound and JanJak's Garage."
+    ],
+    "tags": [
+      "gang",
+      "haitian",
+      "janjak",
+      "san4san",
+      "sound4sound",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Haitian street gang",
+      "territory": "Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-gangs",
+      "ppx-gangops"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "ptt-youngins",
+    "name": "PTT Youngin$",
+    "summary": "A street gang from Southside, Vice City, with two robbable operations plus one tied to the Ultimate Edition.",
+    "body": [
+      "GTABase and GTA Wiki both place the gang in Southside, Vice City, in Vice-Dale County; neither names a leader.",
+      "PowerPyx lists two operations for it and says a third robbery exclusive to the Ultimate Edition is not counted in gang progress."
+    ],
+    "tags": [
+      "ptt",
+      "southside",
+      "street gang",
+      "vice city",
+      "youngin$",
+      "youngins"
+    ],
+    "facts": {
+      "type": "Street gang",
+      "territory": "Southside, Vice City (Vice-Dale County)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-gangs",
+      "gtawiki-ptt",
+      "ppx-gangops"
+    ],
+    "verified": "2026-11-18",
+    "image": "/images/activities/ptt-youngins-raid.jpg"
+  },
+  {
+    "slug": "guardia-brothers",
+    "name": "The Guardia Brothers",
+    "summary": "A Vice City gang that moves shipments by boat on the Vice River and has three robbable operations.",
+    "body": [
+      "PowerPyx lists three Guardia Brothers operations, one named Casa Guardia.",
+      "PowerPyx's walkthrough shows the gang running a boat convoy on the Vice River."
+    ],
+    "tags": [
+      "casa guardia",
+      "gang",
+      "guardia brothers",
+      "vice city",
+      "vice river"
+    ],
+    "facts": {
+      "type": "Gang (one of nine tracked)",
+      "territory": "Vice City (Vice River)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gangops",
+      "ppx-crosstown"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "other-criminals",
+    "name": "Other Criminals",
+    "summary": "The ninth gang category in the game's progress screen, covering 13 unaffiliated illegal operations.",
+    "body": [
+      "PowerPyx lists 13 operations under this heading, among them an exotic animals front, Slator Towing Inc, Chatfield Storage & Logistics and a cigar import front."
+    ],
+    "tags": [
+      "fronts",
+      "gang operations",
+      "illegal operations",
+      "other criminals"
+    ],
+    "facts": {
+      "type": "Catch-all category for unaffiliated criminal operations"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gangops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cellerica",
+    "name": "Cellerica",
+    "summary": "A recruiting group that sells Manifestick vapes and assigns each new member a mentor called a pillar.",
+    "body": [
+      "PowerPyx says Cellerica provides members with housing, charges a fee, holds an initiation, and hands out a welcome kit with a cap and a Manifestick.",
+      "PowerPyx does not say whether it is a company or something else, and also spells the name Celeria in places."
+    ],
+    "tags": [
+      "andy",
+      "celeria",
+      "cellerica",
+      "manifestick",
+      "pillar",
+      "vape"
+    ],
+    "facts": {
+      "type": "Vape-selling membership group",
+      "territory": "Belville, Leonard County (Andy's house)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-cellerichain",
+      "ppx-strangers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "thrillbilly-mud-club-crew",
+    "name": "Thrillbilly Mud Club crew",
+    "summary": "Billy's dirt bike crew, based around the Thrillbilly Mud Club racing venue in Kelly County.",
+    "body": [
+      "PowerPyx says the Mud Club hosts dirt races for prize money and has a merchandise shop, and lists Billy, Wyman, Ricky and Brittney as the crew."
+    ],
+    "tags": [
+      "billy",
+      "dirt bike",
+      "kelly county",
+      "mud club",
+      "races",
+      "thrillbilly"
+    ],
+    "facts": {
+      "type": "Dirt bike racing crew",
+      "territory": "Thrillbilly Mud Club, Kelly County",
+      "leader": "Billy"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-thrillbillies",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hit-n-run-vc",
+    "name": "Hit 'n' Run VC",
+    "summary": "A street racing group that holds cash races in Salton, Vice City.",
+    "body": [
+      "PowerPyx says the player can race with the Hit 'n' Run VC racers in Salton for prize money, with $3,000 for first place in the first race."
+    ],
+    "tags": [
+      "hit n run",
+      "salton",
+      "street racing",
+      "vice city",
+      "yago"
+    ],
+    "facts": {
+      "type": "Street racing group",
+      "territory": "Salton, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-streetrace"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kordells-crew",
+    "name": "Kordell's crew",
+    "summary": "A crew led by Kordell that the player helps in Chapter 4.",
+    "body": [
+      "PowerPyx's walkthrough names the crew in two mission titles and gives no description."
+    ],
+    "tags": [
+      "chapter 4",
+      "crew",
+      "kordell"
+    ],
+    "facts": {
+      "type": "Crew",
+      "leader": "Kordell"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

@@ -699,6 +699,10 @@ a.card:hover h3 { color: var(--accent-pink); }
 .conf-spoiler { background: var(--accent-pink); color: #3a0a1e; }
 .spoiler-note { display: flex; align-items: center; gap: var(--s3); }
 
+/* A place with no picture: its title sits on the page, not over an empty banner */
+.place-hero.is-bare { min-height: 0; height: auto; aspect-ratio: auto; padding: var(--s7) 0 var(--s4); }
+.place-hero.is-bare .place-title { position: static; }
+
 /* Trophies: icon, grade, name and requirement in a row */
 .trophy { display: flex; align-items: flex-start; gap: var(--s4); padding: var(--s4) 0; border-top: 1px solid var(--border-subtle); color: var(--text-primary); }
 .trophy img, .trophy-disc { flex: none; width: 64px; height: 64px; border-radius: var(--radius); }

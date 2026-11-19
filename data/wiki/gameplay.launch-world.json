@@ -1,0 +1,308 @@
+[
+  {
+    "slug": "gang-operations",
+    "name": "Gang operations",
+    "summary": "Thirty-nine gang-run sites can be raided for cash, narcotics, luxury watches and unique weapon variants.",
+    "body": [
+      "PowerPyx counts them by owner: Kingfishers 3, Kolts & Associates 5, M7 2, La Polilla Negra 2, Final Chapter 4, San4San 5, PTT Youngin$ 2, The Guardia Brothers 3 and other criminals 13.",
+      "PowerPyx says a site shows a yellow icon and reads Robbery Opportunity until visited, counts as done only when every key valuable is taken, and later restocks so it can be hit again.",
+      "According to PowerPyx, 19 are marked through story progress, all 39 count for the completion checklist, and an extra PTT Youngin$ site comes with the Ultimate Edition.",
+      "Named sites in PowerPyx's list include Kingpin Bowling, Manatee Motel, Sunrise RV Park, M7 Compound, Casa Guardia and Farm Fix Meth Lab; its list was still incomplete at 32 of 39."
+    ],
+    "tags": [
+      "gang",
+      "guardia",
+      "illegal operations",
+      "kingfishers",
+      "kolts",
+      "m7",
+      "narcotics",
+      "operations",
+      "robbery",
+      "san4san",
+      "watches"
+    ],
+    "facts": {
+      "type": "Job",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gangops",
+      "ppx-100",
+      "ppx-trophies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bank-jobs",
+    "name": "Bank jobs",
+    "summary": "Twenty-two banks can be robbed: 14 small branches and 8 large banks that also have a vault.",
+    "body": [
+      "PowerPyx says small banks open up partway through the third chapter and are complete once both the cash drawer and the safe are emptied.",
+      "PowerPyx lists branches of Fleeca, Shorefront and Lombank plus Gibson Brothers Bank and Druthers State Bank, with small-bank takes ranging from 5,000 to 45,000 dollars.",
+      "According to PowerPyx, bank cash comes as marked bills that need the Dye Pack Jammer before a fence will take them, and all 22 banks count for the completion checklist."
+    ],
+    "tags": [
+      "bank",
+      "fleeca",
+      "lombank",
+      "marked bills",
+      "robbery",
+      "safe",
+      "shorefront"
+    ],
+    "facts": {
+      "type": "Job",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-banks",
+      "ppx-100",
+      "ppx-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bank-vaults",
+    "name": "Bank vaults",
+    "summary": "The eight large banks have vaults that can only be entered while a security van crew is making a delivery.",
+    "body": [
+      "PowerPyx says the method is to tail a security van until it stops at a bank, then get into the vault while the guard's delivery holds it open.",
+      "PowerPyx gives takes of roughly 65,000 to 205,000 dollars per bank, the highest at two Lombank branches, and says the robbery brings an immediate four-star wanted level.",
+      "According to PowerPyx, vaults unlock through an optional job late in the fourth chapter, and Yasmani then sells van tips for 10,000 dollars once two payday loan stores have been robbed.",
+      "PowerPyx lists a trophy for robbing five vaults and says a vault job also satisfies the trophy for robbing an armored truck."
+    ],
+    "tags": [
+      "armored truck",
+      "bank",
+      "four stars",
+      "robbery",
+      "security van",
+      "vault"
+    ],
+    "facts": {
+      "type": "Job",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-banks",
+      "ppx-100",
+      "ppx-money",
+      "ppx-trophies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "payday-loans",
+    "name": "Payday loans",
+    "summary": "Seven payday loan stores can be held up for counter cash and a back-room safe.",
+    "body": [
+      "PowerPyx lists six in Vice-Dale County and one, Cash Flow, in Kelly County, with takes from 2,000 up to 25,000 dollars.",
+      "PowerPyx describes the job as threatening the teller, taking the cash from the counter, emptying the safe in the back and then losing the police.",
+      "According to PowerPyx they unlock at the same point as small banks, pay in marked bills, and all seven count for the completion checklist."
+    ],
+    "tags": [
+      "marked bills",
+      "payday loans",
+      "quick buck",
+      "robbery",
+      "safe"
+    ],
+    "facts": {
+      "type": "Job",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-payday",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "smash-n-grabs",
+    "name": "Smash 'n' grabs",
+    "summary": "Thirty-five shops, 20 jewelry stores and 15 pawn shops, can be robbed by breaking display cases and cracking the back-room safe.",
+    "body": [
+      "PowerPyx says pawn shops open up during the second chapter and jewelry stores during the third.",
+      "PowerPyx gives takes of 1,000 to 12,000 dollars for pawn shops and up to 25,000 dollars for the best jewelry stores, with the goods sold on to a fence.",
+      "According to PowerPyx, a store counts as done only once its safe is looted, and 34 of the 35 are needed for the completion checklist.",
+      "PowerPyx's trophy guide mentions a Snap Gun for entering a jewelry store by the back door unseen."
+    ],
+    "tags": [
+      "fence",
+      "jewelry",
+      "pawn shop",
+      "robbery",
+      "smash and grab",
+      "snap gun"
+    ],
+    "facts": {
+      "type": "Job",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash",
+      "ppx-100",
+      "ppx-money",
+      "ppx-trophies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stick-ups",
+    "name": "Stick ups",
+    "summary": "Convenience stores, liquor stores and fast food outlets can be held up at gunpoint for the register cash.",
+    "body": [
+      "PowerPyx's completion checklist counts 91 stick ups and asks for any 50.",
+      "PowerPyx's progress database instead lists 72 convenience stores, 14 liquor stores and 23 fast food outlets, which adds up to 109; the two PowerPyx pages do not agree.",
+      "PowerPyx lists Criminal challenges for robbing three stores in a day and two stores in each of the five counties within 20 minutes."
+    ],
+    "tags": [
+      "convenience store",
+      "fast food",
+      "liquor store",
+      "register",
+      "stick up",
+      "store robbery"
+    ],
+    "facts": {
+      "type": "Job",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-100",
+      "ppx-database",
+      "ppx-challenges",
+      "ppx-stores",
+      "ppx-money"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fences",
+    "name": "Fences",
+    "summary": "Seven contacts buy stolen goods, each paying different rates for narcotics, jewelry, marked bills or cars.",
+    "body": [
+      "PowerPyx lists Brian and Donnie in Key Lento early on, Moses and Dunk in Port Gellhorn, and Tyrone, Yasmani and Randy in Vice City.",
+      "According to PowerPyx, Tyrone pays best for narcotics, Yasmani pays best for jewelry and marked bills, Moses takes only cars without a tracker and Randy takes certain high-end cars.",
+      "PowerPyx says goods are dropped at a fence's container, and that garages later allow drop-offs to a chosen fence."
+    ],
+    "tags": [
+      "cars",
+      "fence",
+      "jewelry",
+      "marked bills",
+      "narcotics",
+      "stolen goods"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fences",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marked-bills",
+    "name": "Marked bills and the Dye Pack Jammer",
+    "summary": "Cash from banks and payday loan stores is marked and has to be laundered through a fence using the Dye Pack Jammer.",
+    "body": [
+      "PowerPyx says the jammer is obtained partway through the third chapter, at the point where bank and payday loan jobs open.",
+      "According to PowerPyx, fencing 250,000 dollars of marked bills counts for the completion checklist and for a trophy."
+    ],
+    "tags": [
+      "dye pack",
+      "fence",
+      "jammer",
+      "laundering",
+      "marked bills"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-100",
+      "ppx-banks",
+      "ppx-payday",
+      "ppx-trophies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vehicle-fencing",
+    "name": "Selling stolen vehicles",
+    "summary": "Stolen cars can be sold to different buyers depending on what kind of tracker they carry.",
+    "body": [
+      "PowerPyx says Moses in Port Gellhorn buys cars with no tracker, Pay 'n' Spray shops (19 in all) take cars with a standard tracker from the third chapter, and Randy buys wish-list cars with advanced trackers once the Key Cloner is available.",
+      "PowerPyx's money guide puts typical prices at 1,000 dollars or more from Moses, around 4,000 dollars at a Pay 'n' Spray and 30,000 dollars or more for a wish-list car in perfect condition; Randy's list has 18 cars.",
+      "According to PowerPyx, 200,000 dollars of vehicle sales counts for the completion checklist."
+    ],
+    "tags": [
+      "car theft",
+      "key cloner",
+      "moses",
+      "pay n spray",
+      "randy",
+      "tracker",
+      "wish list"
+    ],
+    "facts": {
+      "type": "Job",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-100",
+      "ppx-money",
+      "ppx-fences"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "robbery-types",
+    "name": "Robbery types",
+    "summary": "The game's progress menu groups robberies into 11 kinds, from store stick ups to bank vaults.",
+    "body": [
+      "PowerPyx's database heading gives 11 types but itemises seven: convenience stores, liquor stores, fast food joints, jewelry stores, pawn shops, payday loans and bank jobs.",
+      "Gang operations appear under the same Robberies map filter as Illegal Operations, according to PowerPyx."
+    ],
+    "tags": [
+      "map filter",
+      "robberies",
+      "robbery",
+      "types"
+    ],
+    "facts": {
+      "type": "Job",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-database",
+      "ppx-gangops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

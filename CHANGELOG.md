@@ -2,6 +2,24 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.26 (19 November 2026)
+
+The game is out, and the encyclopedia has grown from 233 entries to 1,471. Every entry names its source. Entries that describe what is in the game are marked as spoilers and stay blurred unless you chose to see spoilers.
+
+- Out now: Home and the top bar show the game as released from the moment the first region launched, not from midnight on your own computer.
+- Vehicles: 295, up from 15. Names and classes from a transcription of the game's own vehicle list, with 148 pictured. 70 still rest on a fan site's pre-launch identification and are labelled Community.
+- Missions and Story: one entry for each of 174 missions (who gives it, where it starts, which lead plays it, the reward, what it unlocks). No plot.
+- Places and businesses: 119 locations (the five counties, their sub-regions, the parts of Vice City, landmarks) and 245 businesses (garages for sale with prices, gun stores, mod shops, banks, shop chains).
+- Weapons and equipment: 84, with maker, calibre, magazine size and fire mode.
+- Characters and gangs: 62 characters and 15 gangs and groups.
+- Music: all 22 radio stations with songs heard on each, and the album's 34 tracks.
+- Collectibles: 104 entries: each card set, named scans, books, meditation spots, stunts by county.
+- Gameplay: 106 entries, adding everyday systems (phone apps, bank and cash limits, stats, wanted stars, homes, garages, vehicle registration, saving), every cheat with its requirement, all 80 challenges, and job sites with payouts.
+- Activities and wildlife: 66 activities (race venues, shooting courses, all 42 drone trials, the playable video games) and 56 animals.
+- Field Manual: compared with launch reviews and guides. 101 items corrected or extended, 18 launch topics added in two new pages, and a new evidence label, "Reported at launch".
+- Pictures: 130 vehicle pictures (crops of Rockstar's trailers and screenshots, as published by GTABase). People and places without a picture now show as text entries instead of "No artwork on file" tiles, and the Missions, Collectibles and Achievements tiles have covers.
+- Intel: the 22-station count, the album track list, Sam Houser's statement, an outside estimate of pre-launch sales, and answers on who plays the leads and who made the game.
+
 ## 0.2.25 (18 November 2026)
 
 The launch update: what is known now that the game is out. Everything names its source. Entries that describe what is in the game are marked as spoilers and stay blurred unless you chose to see spoilers.

@@ -1,0 +1,5394 @@
+[
+  {
+    "slug": "interstate-ambulance",
+    "name": "Interstate Ambulance",
+    "summary": "The Interstate Ambulance is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Interstate Ambulance; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: find the Interstate Ambulance in the Progress menu.",
+      "GTABase's cheat page treats it as an ambulance; its vehicle database has a separate page titled just \"Ambulance\" (maker Brute, Emergency class), and it is not clear whether that is the same vehicle."
+    ],
+    "tags": [
+      "ambulance",
+      "cheat",
+      "emergency",
+      "interstate",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Interstate",
+      "model": "Ambulance",
+      "class": "Emergency",
+      "availability": "Spawn cheat after the story; unlock: find the Interstate Ambulance in the Progress menu"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "airboat-09",
+    "name": "Airboat 09",
+    "summary": "The Airboat 09 is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Airboat 09; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete 5 survival challenges.",
+      "GTABase's GTA VI database files it under the Boats class with Airgator as the maker, under the page title \"Airgator Airboat 09\".",
+      "The cheat lists call it simply Airboat 09; the Airgator maker name comes from GTABase alone.",
+      "DayOne's list from the released game names it and files it under Watercraft."
+    ],
+    "tags": [
+      "airboat",
+      "boat",
+      "cheat",
+      "spawn",
+      "swamp"
+    ],
+    "facts": {
+      "manufacturer": "Airgator",
+      "model": "Airboat 09",
+      "class": "Watercraft",
+      "availability": "Spawn cheat after the story; unlock: complete 5 survival challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles",
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "bravado-banshee",
+    "name": "Bravado Banshee",
+    "summary": "The Bravado Banshee is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Bravado Banshee; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all combat challenges.",
+      "PowerPyx's trophy guide also puts the Bravado Banshee on Randy's Wish List, the 16 high-end cars Randy asks the player to steal and deliver to his garage in the west of Vice City.",
+      "DayOne's list from the released game names it and files it under Sports Cars."
+    ],
+    "tags": [
+      "banshee",
+      "bravado",
+      "cheat",
+      "randy",
+      "spawn",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Banshee",
+      "availability": "Spawn cheat after the story; unlock: complete all combat challenges; also a Randy's Wish List target",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "powerpyx-trophies",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tuff-bmx",
+    "name": "Tuff BMX",
+    "summary": "The Tuff BMX is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Tuff BMX; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete 5 fitness challenges.",
+      "GTABase's GTA VI database files it under the Cycles class with Tuff as the maker.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "bicycle",
+      "bmx",
+      "cheat",
+      "spawn",
+      "tuff"
+    ],
+    "facts": {
+      "manufacturer": "Tuff",
+      "model": "BMX",
+      "class": "Bikes",
+      "availability": "Spawn cheat after the story; unlock: complete 5 fitness challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-boomazoom",
+    "name": "Maibatsu Boomazoom",
+    "summary": "The Maibatsu Boomazoom is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Maibatsu Boomazoom; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete 5 shopping challenges.",
+      "GTABase's GTA VI database files it under the Motorcycles class with Maibatsu as the maker, under the page title \"Maibatsu Boomazoom (Mobility Scooter)\".",
+      "GTABase describes the Boomazoom as a mobility scooter.",
+      "Press Start spells it Boomazoom in its heading and Boombazoom in its text.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "boomazoom",
+      "cheat",
+      "maibatsu",
+      "mobility scooter",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Boomazoom",
+      "class": "Bikes",
+      "availability": "Spawn cheat after the story; unlock: complete 5 shopping challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-carbon-rs",
+    "name": "Nagasaki Carbon RS",
+    "summary": "The Nagasaki Carbon RS is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Nagasaki Carbon RS; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all exploration challenges.",
+      "GTABase's GTA VI database files it under the Motorcycles class with Nagasaki as the maker.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "bike",
+      "carbon",
+      "cheat",
+      "nagasaki",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Carbon RS",
+      "class": "Bikes",
+      "availability": "Spawn cheat after the story; unlock: complete all exploration challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "65-vapid-dominator",
+    "name": "'65 Vapid Dominator",
+    "summary": "The '65 Vapid Dominator is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the '65 Vapid Dominator; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all fitness challenges.",
+      "GTABase has a page for a Vapid Dominator '67 (Muscle class) but none was found for a '65; the two may be different model years.",
+      "DayOne's list from the released game names it and files it under Muscle Cars."
+    ],
+    "tags": [
+      "cheat",
+      "dominator",
+      "muscle",
+      "spawn",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Dominator",
+      "year": "1965",
+      "availability": "Spawn cheat after the story; unlock: complete all fitness challenges",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "progen-emerus",
+    "name": "Progen Emerus",
+    "summary": "The Progen Emerus is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Progen Emerus; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all vehicle challenges.",
+      "GTABase's GTA VI database files it under the Super class with Progen as the maker.",
+      "DayOne's list from the released game names it and files it under Supercars."
+    ],
+    "tags": [
+      "cheat",
+      "emerus",
+      "progen",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Progen",
+      "model": "Emerus",
+      "class": "Supercars",
+      "availability": "Spawn cheat after the story; unlock: complete all vehicle challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "inflatable-flamingo",
+    "name": "Inflatable Flamingo",
+    "summary": "The Inflatable Flamingo is one of the 21 spawnable cheat vehicles; none of the cheat lists read say what kind of vehicle it is.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Inflatable Flamingo; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: destroy 50 cocaine flamingos."
+    ],
+    "tags": [
+      "cheat",
+      "flamingo",
+      "inflatable",
+      "spawn"
+    ],
+    "facts": {
+      "model": "Inflatable Flamingo",
+      "availability": "Spawn cheat after the story; unlock: destroy 50 cocaine flamingos"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mtl-pumper",
+    "name": "MTL Pumper",
+    "summary": "The MTL Pumper is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the MTL Pumper; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: find the MTL Pumper in the Progress menu, according to Press Start, Game Rant and Screen Rant (PowerPyx lists the condition as unknown).",
+      "GTABase's GTA VI database files it under the Emergency class with MTL as the maker, under the page title \"Pumper\".",
+      "GTABase's cheat page describes the Pumper as a fire truck."
+    ],
+    "tags": [
+      "cheat",
+      "emergency",
+      "fire truck",
+      "mtl",
+      "pumper",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "MTL",
+      "model": "Pumper",
+      "class": "Emergency",
+      "availability": "Spawn cheat after the story; unlock: find the MTL Pumper in the Progress menu, according to Press Start, Game Rant and Screen Rant (PowerPyx lists the condition as unknown)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles",
+      "gtabase-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-stanier-g2-taxi",
+    "name": "Vapid Stanier G2 Taxi",
+    "summary": "The Vapid Stanier G2 Taxi is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Vapid Stanier G2 Taxi; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete 5 sports challenges.",
+      "GTABase's GTA VI database files it under the Service class with Vapid as the maker, under the page title \"Stanier Taxi\".",
+      "Screen Rant's list spells the name \"Stainer\"; the other three use Stanier."
+    ],
+    "tags": [
+      "cheat",
+      "service",
+      "spawn",
+      "stanier",
+      "taxi",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Stanier G2 Taxi",
+      "class": "Service",
+      "availability": "Spawn cheat after the story; unlock: complete 5 sports challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "hauners-p-996-lazer",
+    "name": "Hauners P-996 Lazer",
+    "summary": "The Hauners P-996 Lazer is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Hauners P-996 Lazer; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all challenges.",
+      "GTABase's cheat page describes the P-996 Lazer as a fighter jet.",
+      "PowerPyx separately reports unnamed military fighter jets parked at Mile Zero Air Station in Mariana County, which bring a 4-star wanted level when taken; it does not name the model."
+    ],
+    "tags": [
+      "996",
+      "aircraft",
+      "cheat",
+      "hauners",
+      "jet",
+      "lazer",
+      "military",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Hauners",
+      "model": "P-996 Lazer",
+      "class": "Fighter jet",
+      "availability": "Spawn cheat after the story; unlock: complete all challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hvy-bulldozer",
+    "name": "HVY Bulldozer",
+    "summary": "The HVY Bulldozer is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the HVY Bulldozer; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: find the HVY Bulldozer in the Progress menu.",
+      "GTABase's GTA VI database files it under the Industrial class with HVY as the maker."
+    ],
+    "tags": [
+      "bulldozer",
+      "cheat",
+      "hvy",
+      "industrial",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "HVY",
+      "model": "Bulldozer",
+      "class": "Industrial",
+      "availability": "Spawn cheat after the story; unlock: find the HVY Bulldozer in the Progress menu"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lapwing-mallard",
+    "name": "Lapwing Mallard",
+    "summary": "The Lapwing Mallard is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Lapwing Mallard; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete 5 vehicle challenges.",
+      "GTABase's GTA VI database files it under the Planes class with Lapwing as the maker.",
+      "DayOne's list from the released game names it and files it under Aircraft."
+    ],
+    "tags": [
+      "aircraft",
+      "cheat",
+      "lapwing",
+      "mallard",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Lapwing",
+      "model": "Mallard",
+      "class": "Aircraft",
+      "availability": "Spawn cheat after the story; unlock: complete 5 vehicle challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles",
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "brimstone-golfer",
+    "name": "Brimstone Golfer",
+    "summary": "The Brimstone Golfer is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Brimstone Golfer; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all sports challenges."
+    ],
+    "tags": [
+      "brimstone",
+      "cheat",
+      "golfer",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Brimstone",
+      "model": "Golfer",
+      "availability": "Spawn cheat after the story; unlock: complete all sports challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hauners-rhino-tank",
+    "name": "Hauners Rhino Tank",
+    "summary": "The Hauners Rhino Tank is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Hauners Rhino Tank; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all survival challenges.",
+      "GTABase's GTA VI database files it under the Military class with Hauners as the maker.",
+      "PowerPyx says military tanks stand in the south of Mile Zero Air Station, an island at the south-west edge of the map in Mariana County, and that stealing one brings an instant 3-star wanted level.",
+      "PowerPyx adds that tanks are too big to store as a personal vehicle, and that stealing one earns the Challenging Tank trophy, whose description calls them Rhinos.",
+      "DayOne's list from the released game names it and files it under Service - Military Vehicles."
+    ],
+    "tags": [
+      "cheat",
+      "hauners",
+      "mile zero",
+      "military",
+      "rhino",
+      "spawn",
+      "tank"
+    ],
+    "facts": {
+      "manufacturer": "Hauners",
+      "model": "Rhino Tank",
+      "class": "Service - Military Vehicles",
+      "availability": "Spawn cheat after the story; unlock: complete all survival challenges; tanks are also parked at Mile Zero Air Station"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles",
+      "powerpyx-tank",
+      "powerpyx-trophies",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-sanchez",
+    "name": "Maibatsu Sanchez",
+    "summary": "The Maibatsu Sanchez is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Maibatsu Sanchez; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete 5 criminal challenges.",
+      "PowerPyx's Thrillbillies walkthrough says a Sanchez can be rented for the mud club race and is faster but pricier than the Manchez.",
+      "A separate mission bike is named the Highwayman Sanchez by PowerPyx; see that entry.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "cheat",
+      "dirt bike",
+      "maibatsu",
+      "sanchez",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Sanchez",
+      "availability": "Spawn cheat after the story; unlock: complete 5 criminal challenges",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "powerpyx-thrillbillies",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-sea-sparrow",
+    "name": "Nagasaki Sea Sparrow",
+    "summary": "The Nagasaki Sea Sparrow is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Nagasaki Sea Sparrow; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete 5 exploration challenges.",
+      "DayOne's list from the released game names it and files it under Aircraft."
+    ],
+    "tags": [
+      "cheat",
+      "nagasaki",
+      "sea",
+      "sparrow",
+      "spawn"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Sea Sparrow",
+      "availability": "Spawn cheat after the story; unlock: complete 5 exploration challenges",
+      "class": "Aircraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "speeder-700-gt",
+    "name": "Speeder 700 GT",
+    "summary": "The Speeder 700 GT is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Speeder 700 GT; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete 5 combat challenges.",
+      "None of the cheat lists read say what kind of vehicle it is. GTABase's boat menus mention a vehicle called Speeder, but no page confirming it is the same thing was read.",
+      "DayOne's list from the released game names it and files it under Watercraft."
+    ],
+    "tags": [
+      "700",
+      "cheat",
+      "spawn",
+      "speeder"
+    ],
+    "facts": {
+      "model": "Speeder 700 GT",
+      "availability": "Spawn cheat after the story; unlock: complete 5 combat challenges",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "truffade-thrax",
+    "name": "Truffade Thrax",
+    "summary": "The Truffade Thrax is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Truffade Thrax; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all shopping challenges.",
+      "GTABase's GTA VI database files it under the Super class with Truffade as the maker."
+    ],
+    "tags": [
+      "cheat",
+      "spawn",
+      "thrax",
+      "truffade"
+    ],
+    "facts": {
+      "manufacturer": "Truffade",
+      "model": "Thrax",
+      "class": "Supercar",
+      "availability": "Spawn cheat after the story; unlock: complete all shopping challenges"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "western-zombie-bobber",
+    "name": "Western Zombie Bobber",
+    "summary": "The Western Zombie Bobber is one of the 21 vehicles that can be spawned with a cheat in the released game.",
+    "body": [
+      "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Western Zombie Bobber; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
+      "Those lists give the unlock condition as: complete all criminal challenges.",
+      "GTABase has a page for a Western Zombie Chopper (Motorcycles class); no Zombie Bobber page was found there.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "bobber",
+      "cheat",
+      "motorcycle",
+      "spawn",
+      "western",
+      "zombie"
+    ],
+    "facts": {
+      "manufacturer": "Western",
+      "model": "Zombie Bobber",
+      "availability": "Spawn cheat after the story; unlock: complete all criminal challenges",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "screenrant-cheats",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "granforma-zorrusso",
+    "name": "Granforma Zorrusso",
+    "summary": "The Granforma Zorrusso is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "PowerPyx says the Zorrusso is the first car on the list and is delivered automatically during the Chapter 3 main mission Clonin' Keys, Makin' Gs, which also unlocks the Key Cloner.",
+      "GTABase's related-vehicle links use the same name, Granforma Zorrusso.",
+      "DayOne's list from the released game names it and files it under Supercars."
+    ],
+    "tags": [
+      "granforma",
+      "randy",
+      "steal",
+      "wish list",
+      "zorrusso"
+    ],
+    "facts": {
+      "manufacturer": "Granforma",
+      "model": "Zorrusso",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City",
+      "class": "Supercars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-vitello",
+    "name": "Pegassi Vitello",
+    "summary": "The Pegassi Vitello is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "GTABase's GTA VI database files it under the Super class with Pegassi as the maker.",
+      "PowerPyx's Los Santos Pounders card guide places the Vitello task for the Wish List at a villa in Waning Sands, Leonard County.",
+      "DayOne's list from the released game names it and files it under Supercars."
+    ],
+    "tags": [
+      "pegassi",
+      "randy",
+      "steal",
+      "vitello",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Vitello",
+      "class": "Supercars",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles",
+      "powerpyx-pounders-cards",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-infernus",
+    "name": "Pegassi Infernus",
+    "summary": "The Pegassi Infernus is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "GTABase has a page titled Pegassi Infernus '96 in its Sports Classics class; whether that is the same car as the wish-list Infernus is not stated."
+    ],
+    "tags": [
+      "infernus",
+      "pegassi",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Infernus",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-windsor-drop",
+    "name": "Buckingham Windsor Drop",
+    "summary": "The Buckingham Windsor Drop is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "GTABase's GTA VI database files it under the Coupes class with Buckingham as the maker.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "buckingham",
+      "drop",
+      "randy",
+      "steal",
+      "windsor",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Windsor Drop",
+      "class": "Coupes",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-toros",
+    "name": "Pegassi Toros",
+    "summary": "The Pegassi Toros is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "pegassi",
+      "randy",
+      "steal",
+      "toros",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Toros",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-tempesta",
+    "name": "Pegassi Tempesta",
+    "summary": "The Pegassi Tempesta is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "GTABase's GTA VI database files it under the Super class with Pegassi as the maker.",
+      "DayOne's list from the released game names it and files it under Supercars."
+    ],
+    "tags": [
+      "pegassi",
+      "randy",
+      "steal",
+      "tempesta",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Tempesta",
+      "class": "Supercars",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ascot-paragon",
+    "name": "Ascot Paragon",
+    "summary": "The Ascot Paragon is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "GTABase's GTA VI database files it under the Sports class with Ascot as the maker.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "ascot",
+      "paragon",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Ascot",
+      "model": "Paragon",
+      "class": "Coupes",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "ocelot-jagular",
+    "name": "Ocelot Jagular",
+    "summary": "The Ocelot Jagular is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "The spelling Jagular is PowerPyx's; no second source for the spelling was read.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "jagular",
+      "ocelot",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Ocelot",
+      "model": "Jagular",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-jubilee",
+    "name": "Buckingham Jubilee",
+    "summary": "The Buckingham Jubilee is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "buckingham",
+      "jubilee",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Jubilee",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "grotti-itali-rsx",
+    "name": "Grotti Itali RSX",
+    "summary": "The Grotti Itali RSX is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "GTABase's GTA VI database files it under the Sports class with Grotti as the maker.",
+      "DayOne's list from the released game names it and files it under Supercars."
+    ],
+    "tags": [
+      "grotti",
+      "itali",
+      "randy",
+      "rsx",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Grotti",
+      "model": "Itali RSX",
+      "class": "Supercars",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "pfister-growler",
+    "name": "Pfister Growler",
+    "summary": "The Pfister Growler is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "GTABase's GTA VI database files it under the Sports class with Pfister as the maker."
+    ],
+    "tags": [
+      "growler",
+      "pfister",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Pfister",
+      "model": "Growler",
+      "class": "Sports car",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-gauntlet-hellfire",
+    "name": "Bravado Gauntlet Hellfire",
+    "summary": "The Bravado Gauntlet Hellfire is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "DayOne's list from the released game names it and files it under Muscle Cars."
+    ],
+    "tags": [
+      "bravado",
+      "gauntlet",
+      "hellfire",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Gauntlet Hellfire",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "piccia-furia",
+    "name": "Piccia Furia",
+    "summary": "The Piccia Furia is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "Sources disagree on the maker's spelling: PowerPyx writes Piccia Furia, while GTABase's related-vehicle links write Piccio Furia.",
+      "DayOne's list from the released game names it and files it under Supercars."
+    ],
+    "tags": [
+      "furia",
+      "piccia",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Piccia",
+      "model": "Furia",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City",
+      "class": "Supercars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benefactor-dubsta",
+    "name": "Benefactor Dubsta",
+    "summary": "The Benefactor Dubsta is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "benefactor",
+      "dubsta",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Benefactor",
+      "model": "Dubsta",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gallivanter-baller-st-d",
+    "name": "Gallivanter Baller ST-D",
+    "summary": "The Gallivanter Baller ST-D is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+    "body": [
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
+      "GTABase's GTA VI database files it under the SUVs class with Gallivanter as the maker.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "baller",
+      "gallivanter",
+      "randy",
+      "steal",
+      "wish list"
+    ],
+    "facts": {
+      "manufacturer": "Gallivanter",
+      "model": "Baller ST-D",
+      "class": "SUVs",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-trophies",
+      "gtabase-vehicles",
+      "dayone-cars",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "67-transgressor",
+    "name": "'67 Transgressor",
+    "summary": "The '67 Transgressor is one of five classic cars restored through Wyman's Ultimate Edition questline.",
+    "body": [
+      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
+      "PowerPyx says the questline is tracked on the map under Exploration, Find Cars for Wyman, with a task called Find Transgressors."
+    ],
+    "tags": [
+      "classic",
+      "rebuild",
+      "transgressor",
+      "ultimate edition",
+      "wyman"
+    ],
+    "facts": {
+      "model": "Transgressor",
+      "year": "1967",
+      "availability": "Ultimate Edition only; Wyman's classic car questline"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-ultimate"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "70-riata",
+    "name": "'70 Riata",
+    "summary": "The '70 Riata is one of five classic cars restored through Wyman's Ultimate Edition questline.",
+    "body": [
+      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
+      "GTABase's GTA VI database files it under the SUVs class with Vapid as the maker, under the page title \"Vapid Riata Classic\".",
+      "PowerPyx gives no maker; the Vapid attribution is GTABase's, whose page pictures the car with Rockstar's Wyman car collection artwork."
+    ],
+    "tags": [
+      "classic",
+      "rebuild",
+      "riata",
+      "ultimate edition",
+      "wyman"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Riata",
+      "year": "1970",
+      "class": "SUV",
+      "availability": "Ultimate Edition only; Wyman's classic car questline"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-ultimate",
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "image": "/images/editions/classic-car-collection-03.jpg"
+  },
+  {
+    "slug": "64-mamba-gt",
+    "name": "'64 Mamba GT",
+    "summary": "The '64 Mamba GT is one of five classic cars restored through Wyman's Ultimate Edition questline.",
+    "body": [
+      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
+      "GTABase's GTA VI database files it under the Sports Classics class with Declasse as the maker, under the page title \"Declasse Mamba GT\".",
+      "PowerPyx gives no maker; the Declasse attribution is GTABase's.",
+      "DayOne's list from the released game names it and files it under Sports Cars."
+    ],
+    "tags": [
+      "classic",
+      "mamba",
+      "rebuild",
+      "ultimate edition",
+      "wyman"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Mamba GT",
+      "year": "1964",
+      "class": "Sports Cars",
+      "availability": "Ultimate Edition only; Wyman's classic car questline"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-ultimate",
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "reynolds-kit-car",
+    "name": "Reynolds Kit Car",
+    "summary": "The Reynolds Kit Car is one of five classic cars restored through Wyman's Ultimate Edition questline.",
+    "body": [
+      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected."
+    ],
+    "tags": [
+      "car",
+      "classic",
+      "kit",
+      "rebuild",
+      "reynolds",
+      "ultimate edition",
+      "wyman"
+    ],
+    "facts": {
+      "model": "Kit Car",
+      "availability": "Ultimate Edition only; Wyman's classic car questline"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-ultimate"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "72-deviant",
+    "name": "'72 Deviant",
+    "summary": "The '72 Deviant is one of five classic cars restored through Wyman's Ultimate Edition questline.",
+    "body": [
+      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
+      "GTABase's GTA VI database files it under the Muscle class with Schyster as the maker, under the page title \"Schyster Deviant\".",
+      "PowerPyx gives no maker; the Schyster attribution is GTABase's."
+    ],
+    "tags": [
+      "classic",
+      "deviant",
+      "rebuild",
+      "ultimate edition",
+      "wyman"
+    ],
+    "facts": {
+      "manufacturer": "Schyster",
+      "model": "Deviant",
+      "year": "1972",
+      "class": "Muscle car",
+      "availability": "Ultimate Edition only; Wyman's classic car questline"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-ultimate",
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "image": "/images/editions/classic-car-collection-06.jpg"
+  },
+  {
+    "slug": "82-canis-crawler",
+    "name": "'82 Canis Crawler",
+    "summary": "The '82 Canis Crawler is a white jeep that Moses has the player steal in the Chapter 2 mission Daily Driver.",
+    "body": [
+      "PowerPyx's walkthrough says the Crawler is parked by the old Trader's Union building and is driven to Moses's garage in Port Gellhorn, with a $500 bonus for delivering it in good condition.",
+      "GTABase's GTA VI database files it under the Vans class with Canis as the maker, under the page title \"Canis Crawler '82\".",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "canis",
+      "crawler",
+      "daily driver",
+      "jeep",
+      "moses"
+    ],
+    "facts": {
+      "manufacturer": "Canis",
+      "model": "Crawler",
+      "year": "1982",
+      "class": "SUVs",
+      "availability": "Stolen for Moses in the mission Daily Driver"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-daily-driver",
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "karin-futo",
+    "name": "Karin Futo",
+    "summary": "The Karin Futo is a car that Moses asks the player to fetch from Draper Island in Kelly County.",
+    "body": [
+      "PowerPyx's Delights Dancers card guide mentions a building on the south edge of Draper Island, Kelly County, as the place where the Karin Futo requested by Moses is found.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "draper island",
+      "futo",
+      "karin",
+      "moses"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Futo",
+      "availability": "Requested by Moses; located on Draper Island, Kelly County",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-delights-cards",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "police-impaler",
+    "name": "Police Impaler",
+    "summary": "The Police Impaler is a black-and-white police car stolen from the Ambrosia Police Department impound for Billy and Wyman.",
+    "body": [
+      "PowerPyx's walkthrough of the side mission The Impaler says it is the only black-and-white police car in the impound and is left in a tunnel after the theft.",
+      "PowerPyx's Hometown Heroes walkthrough says Billy modifies the stolen police car for the next mission at a racing track.",
+      "GTABase has pages for a Declasse Impaler '80, Impaler SZ and Impaler '20, but none read names the police version."
+    ],
+    "tags": [
+      "ambrosia",
+      "billy",
+      "impaler",
+      "police",
+      "wyman"
+    ],
+    "facts": {
+      "model": "Impaler",
+      "class": "Police car",
+      "availability": "Stolen in Billy's side mission The Impaler"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-impaler",
+      "powerpyx-hometown-heroes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "highwayman-sanchez",
+    "name": "Highwayman Sanchez",
+    "summary": "The Highwayman Sanchez is a dirt racing bike Billy hands the player for the mission Twist Wrist, Smash, Grab.",
+    "body": [
+      "PowerPyx's walkthrough says the bike handles off-road stunt jumps well and suggests parking it in a garage after the mission and registering it with Moses to keep it."
+    ],
+    "tags": [
+      "billy",
+      "dirt bike",
+      "highwayman",
+      "sanchez",
+      "stunt jumps"
+    ],
+    "facts": {
+      "model": "Sanchez",
+      "class": "Dirt bike",
+      "availability": "Provided in Billy's mission Twist Wrist, Smash, Grab; can be kept by garaging and registering it"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-twist-wrist"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-manchez",
+    "name": "Maibatsu Manchez",
+    "summary": "The Manchez is a dirt bike that can be rented for the mud club race in the mission Thrillbillies.",
+    "body": [
+      "PowerPyx's Thrillbillies walkthrough offers a choice between renting a Manchez or a Sanchez and says the Sanchez costs more but is faster.",
+      "GTABase's GTA VI database files it under the Motorcycles and Off-Road class with Maibatsu as the maker.",
+      "The Maibatsu maker name comes from GTABase; PowerPyx just calls it the Manchez.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "dirt bike",
+      "maibatsu",
+      "manchez",
+      "mud club",
+      "thrillbillies"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Manchez",
+      "class": "Bikes",
+      "availability": "Rentable for the Thrillbilly Mud Club race"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-thrillbillies",
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "imponte-phoenix",
+    "name": "Imponte Phoenix",
+    "summary": "An Imponte Phoenix sits in the Hamlet police impound in the mission Unwanted Attention, with a payment hidden in its trunk.",
+    "body": [
+      "PowerPyx's walkthrough says Jason takes the car out of the impound, through a Pay 'n' Spray and on to Brian's storage.",
+      "GTABase's GTA VI database files it under the Muscle class with Imponte as the maker.",
+      "DayOne's list from the released game names it and files it under Muscle Cars."
+    ],
+    "tags": [
+      "brian",
+      "cal",
+      "hamlet",
+      "imponte",
+      "impound",
+      "phoenix"
+    ],
+    "facts": {
+      "manufacturer": "Imponte",
+      "model": "Phoenix",
+      "class": "Muscle Cars",
+      "availability": "Mission vehicle in Unwanted Attention (Go See Cal)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-unwanted-attention",
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "obey-8f-drafter",
+    "name": "Obey 8F Drafter",
+    "summary": "GTABase's GTA VI vehicle database lists the Obey 8F Drafter in its Sports class, made by Obey.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "8f",
+      "car",
+      "drafter",
+      "obey",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Obey",
+      "model": "8F Drafter",
+      "class": "Sports car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "airport-bus",
+    "name": "Airport Bus",
+    "summary": "GTABase's GTA VI vehicle database lists the Airport Bus in its Service class, made by Brute.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "airport",
+      "bus",
+      "service"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Airport Bus",
+      "class": "Service"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "airtug",
+    "name": "Airtug",
+    "summary": "GTABase's GTA VI vehicle database lists the Airtug in its Utility class, made by HVY.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Service - Utility Vehicles."
+    ],
+    "tags": [
+      "airtug",
+      "utility"
+    ],
+    "facts": {
+      "manufacturer": "HVY",
+      "model": "Airtug",
+      "class": "Service - Utility Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-aleutian",
+    "name": "Vapid Aleutian",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Aleutian in its SUVs class, made by Vapid.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "aleutian",
+      "suv",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Aleutian",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "principe-alvino-v1",
+    "name": "Principe Alvino V1",
+    "summary": "GTABase's GTA VI vehicle database lists the Principe Alvino V1 in its Motorcycles class, made by Principe.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "alvino",
+      "motorcycle",
+      "principe",
+      "v1"
+    ],
+    "facts": {
+      "manufacturer": "Principe",
+      "model": "Alvino V1",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "karin-asterope-gz",
+    "name": "Karin Asterope GZ",
+    "summary": "GTABase's GTA VI vehicle database lists the Karin Asterope GZ in its Sedans class, made by Karin.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "asterope",
+      "gz",
+      "karin",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Asterope GZ",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "lcc-avarus",
+    "name": "LCC Avarus",
+    "summary": "GTABase's GTA VI vehicle database lists the LCC Avarus in its Motorcycles class, made by LCC.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "avarus",
+      "lcc",
+      "motorcycle"
+    ],
+    "facts": {
+      "manufacturer": "LCC",
+      "model": "Avarus",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "pegassi-bati-801",
+    "name": "Pegassi Bati 801",
+    "summary": "GTABase's GTA VI vehicle database lists the Pegassi Bati 801 in its Motorcycles class, made by Pegassi.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "801",
+      "bati",
+      "motorcycle",
+      "pegassi"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Bati 801",
+      "class": "Motorcycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "grotti-bestia-gts",
+    "name": "Grotti Bestia GTS",
+    "summary": "GTABase's GTA VI vehicle database lists the Grotti Bestia GTS in its Sports class, made by Grotti.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "bestia",
+      "car",
+      "grotti",
+      "gts",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Grotti",
+      "model": "Bestia GTS",
+      "class": "Sports car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cartwright-biff",
+    "name": "Cartwright Biff",
+    "summary": "GTABase's GTA VI vehicle database lists the Cartwright Biff in its Commercial class, made by Cartwright.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Service - Trucks."
+    ],
+    "tags": [
+      "biff",
+      "cartwright",
+      "commercial"
+    ],
+    "facts": {
+      "manufacturer": "Cartwright",
+      "model": "Biff",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "bison-1800-police",
+    "name": "Bison 1800 (Police)",
+    "summary": "GTABase's GTA VI vehicle database lists the Bison 1800 (Police) in its Emergency class, made by Bravado.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "1800",
+      "bison",
+      "emergency",
+      "police"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Bison 1800 (Police)",
+      "class": "Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "bravado-bison-900-95",
+    "name": "Bravado Bison 900 '95",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Bison 900 '95 in its Vans class, made by Bravado.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "900",
+      "95",
+      "bison",
+      "bravado",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Bison 900 '95",
+      "year": "'95",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "bravado-bison-900-95-monster-truck",
+    "name": "Bravado Bison 900 '95 Monster Truck",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Bison 900 '95 Monster Truck in its Off-Road class, made by Bravado.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "900",
+      "95",
+      "bison",
+      "bravado",
+      "monster",
+      "off",
+      "road",
+      "truck"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Bison 900 '95 Monster Truck",
+      "year": "'95",
+      "class": "Off-Road"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-bison-1800",
+    "name": "Bravado Bison 1800",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Bison 1800 in its Vans class, made by Bravado.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "1800",
+      "bison",
+      "bravado",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Bison 1800",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "willard-transient",
+    "name": "Willard Transient",
+    "summary": "GTABase's GTA VI vehicle database lists the Willard Transient in its Sedans class, made by Willard.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "sedan",
+      "transient",
+      "willard"
+    ],
+    "facts": {
+      "manufacturer": "Willard",
+      "model": "Transient",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "willard-grouse-92",
+    "name": "Willard Grouse '92",
+    "summary": "GTABase's GTA VI vehicle database lists the Willard Grouse '92 in its Sedans class, made by Willard.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "92",
+      "grouse",
+      "sedan",
+      "willard"
+    ],
+    "facts": {
+      "manufacturer": "Willard",
+      "model": "Grouse '92",
+      "year": "'92",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buster",
+    "name": "Buster",
+    "summary": "GTABase's GTA VI vehicle database lists the Buster in its Service class, with no maker given.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "buster",
+      "service"
+    ],
+    "facts": {
+      "model": "Buster",
+      "class": "Service"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bottcher-buzzard-attack-chopper",
+    "name": "Bottcher Buzzard Attack Chopper",
+    "summary": "GTABase's GTA VI vehicle database lists the Bottcher Buzzard Attack Chopper in its Helicopters class, made by Bottcher.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Service - Military Vehicles."
+    ],
+    "tags": [
+      "attack",
+      "bottcher",
+      "buzzard",
+      "chopper",
+      "helicopter"
+    ],
+    "facts": {
+      "manufacturer": "Bottcher",
+      "model": "Buzzard Attack Chopper",
+      "class": "Service - Military Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "caddy",
+    "name": "Caddy",
+    "summary": "GTABase's GTA VI vehicle database lists the Caddy in its Utility class, made by Nagasaki.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Service - Utility Vehicles."
+    ],
+    "tags": [
+      "caddy",
+      "utility"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Caddy",
+      "class": "Service - Utility Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "albany-cavalcade-xl",
+    "name": "Albany Cavalcade XL",
+    "summary": "GTABase's GTA VI vehicle database lists the Albany Cavalcade XL in its SUVs class, made by Albany.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "albany",
+      "cavalcade",
+      "suv",
+      "xl"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "Cavalcade XL",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "declasse-impaler-20",
+    "name": "Declasse Impaler '20",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse Impaler '20 in its Sedans class, made by Declasse.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "20",
+      "declasse",
+      "impaler",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Impaler '20",
+      "year": "'20",
+      "class": "Sedan"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-d7700",
+    "name": "Declasse D7700",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse D7700 in its Commercial class, made by Declasse.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Service - Trucks."
+    ],
+    "tags": [
+      "commercial",
+      "d7700",
+      "declasse"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "D7700",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-akane",
+    "name": "Declasse Akane",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse Akane in its Coupes class, made by Declasse.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "akane",
+      "coupe",
+      "declasse"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Akane",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-bogan",
+    "name": "Bravado Bogan",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Bogan in its Sedans class, made by Bravado.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "bogan",
+      "bravado",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Bogan",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-sojourn",
+    "name": "Bravado Sojourn",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Sojourn in its Vans class, made by Bravado.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Vans."
+    ],
+    "tags": [
+      "bravado",
+      "sojourn",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Sojourn",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "clarion",
+    "name": "Clarion",
+    "summary": "GTABase's GTA VI vehicle database lists the Clarion in its Boats class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Watercraft."
+    ],
+    "tags": [
+      "boat",
+      "clarion"
+    ],
+    "facts": {
+      "model": "Clarion",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "western-cliffhanger",
+    "name": "Western Cliffhanger",
+    "summary": "GTABase's GTA VI vehicle database lists the Western Cliffhanger in its Motorcycles class, made by Western.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "cliffhanger",
+      "motorcycle",
+      "western"
+    ],
+    "facts": {
+      "manufacturer": "Western",
+      "model": "Cliffhanger",
+      "class": "Motorcycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "invetero-coquette",
+    "name": "Invetero Coquette",
+    "summary": "GTABase's GTA VI vehicle database lists the Invetero Coquette in its Sports class, made by Invetero.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Sports Cars."
+    ],
+    "tags": [
+      "car",
+      "coquette",
+      "invetero",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Invetero",
+      "model": "Coquette",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "invetero-coquette-classic",
+    "name": "Invetero Coquette Classic",
+    "summary": "GTABase's GTA VI vehicle database lists the Invetero Coquette Classic in its Sports Classics class, made by Invetero.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "classic",
+      "coquette",
+      "invetero",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Invetero",
+      "model": "Coquette Classic",
+      "class": "Sports classic"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-tao",
+    "name": "Nagasaki Tao",
+    "summary": "GTABase's GTA VI vehicle database lists the Nagasaki Tao in its Boats class, made by Nagasaki.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Watercraft."
+    ],
+    "tags": [
+      "boat",
+      "nagasaki",
+      "tao"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Tao",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "walter-cruiser",
+    "name": "Walter Cruiser",
+    "summary": "GTABase's GTA VI vehicle database lists the Walter Cruiser in its Cycles class, made by Walter.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "cruiser",
+      "cycle",
+      "walter"
+    ],
+    "facts": {
+      "manufacturer": "Walter",
+      "model": "Cruiser",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-dinghy",
+    "name": "Nagasaki Dinghy",
+    "summary": "GTABase's GTA VI vehicle database lists the Nagasaki Dinghy in its Boats class, made by Nagasaki.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "boat",
+      "dinghy",
+      "nagasaki"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Dinghy",
+      "class": "Boat"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-gresley-xt",
+    "name": "Bravado Gresley XT",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Gresley XT in its SUVs class, made by Bravado.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "bravado",
+      "gresley",
+      "suv",
+      "xt"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Gresley XT",
+      "class": "SUV"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-dominator-67",
+    "name": "Vapid Dominator '67",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Dominator '67 in its Muscle class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "67",
+      "car",
+      "dominator",
+      "muscle",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Dominator '67",
+      "year": "'67",
+      "class": "Muscle car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "vapid-dominator-gt",
+    "name": "Vapid Dominator GT",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Dominator GT in its Muscle class, made by Vapid.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Muscle Cars."
+    ],
+    "tags": [
+      "car",
+      "dominator",
+      "gt",
+      "muscle",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Dominator GT",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-dorado",
+    "name": "Bravado Dorado",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Dorado in its SUVs class, made by Bravado.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "bravado",
+      "dorado",
+      "suv"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Dorado",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dinka-double-t",
+    "name": "Dinka Double-T",
+    "summary": "GTABase's GTA VI vehicle database lists the Dinka Double-T in its Motorcycles class, made by Dinka.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "dinka",
+      "double",
+      "motorcycle"
+    ],
+    "facts": {
+      "manufacturer": "Dinka",
+      "model": "Double-T",
+      "class": "Motorcycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "western-company-duster",
+    "name": "Western Company Duster",
+    "summary": "GTABase's GTA VI vehicle database lists the Western Company Duster in its Planes class, made by Western Company.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game has a Bottcher Duster under Aircraft, which may be this vehicle under another maker's name."
+    ],
+    "tags": [
+      "company",
+      "duster",
+      "plane",
+      "western"
+    ],
+    "facts": {
+      "manufacturer": "Western Company",
+      "model": "Duster",
+      "class": "Plane"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "zoot",
+    "name": "Zoot",
+    "summary": "GTABase's GTA VI vehicle database lists the Zoot in its Cycles class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "cycle",
+      "zoot"
+    ],
+    "facts": {
+      "model": "Zoot",
+      "class": "Cycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "endurex-race-bike",
+    "name": "Endurex Race Bike",
+    "summary": "GTABase's GTA VI vehicle database lists the Endurex Race Bike in its Cycles class, with no maker given.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "bike",
+      "cycle",
+      "endurex",
+      "race"
+    ],
+    "facts": {
+      "model": "Endurex Race Bike",
+      "class": "Cycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hvy-excavator",
+    "name": "HVY Excavator",
+    "summary": "GTABase's GTA VI vehicle database lists the HVY Excavator in its Industrial class, made by HVY.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game has a B3000 Excavator under Service - Industrial Vehicles, which may be this vehicle under another maker's name."
+    ],
+    "tags": [
+      "excavator",
+      "hvy",
+      "industrial"
+    ],
+    "facts": {
+      "manufacturer": "HVY",
+      "model": "Excavator",
+      "class": "Industrial"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "willard-faction-custom-donk",
+    "name": "Willard Faction Custom Donk",
+    "summary": "GTABase's GTA VI vehicle database lists the Willard Faction Custom Donk in its Muscle class, made by Willard.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "car",
+      "custom",
+      "donk",
+      "faction",
+      "muscle",
+      "willard"
+    ],
+    "facts": {
+      "manufacturer": "Willard",
+      "model": "Faction Custom Donk",
+      "class": "Muscle car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-faggio",
+    "name": "Pegassi Faggio",
+    "summary": "GTABase's GTA VI vehicle database lists the Pegassi Faggio in its Motorcycles class, made by Pegassi.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "faggio",
+      "motorcycle",
+      "pegassi"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Faggio",
+      "class": "Motorcycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ubermacht-fcr-1000",
+    "name": "Übermacht FCR 1000",
+    "summary": "GTABase's GTA VI vehicle database lists the Übermacht FCR 1000 in its Motorcycles class, made by Übermacht.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "1000",
+      "fcr",
+      "motorcycle",
+      "ubermacht"
+    ],
+    "facts": {
+      "manufacturer": "Übermacht",
+      "model": "FCR 1000",
+      "class": "Motorcycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "fieldmaster",
+    "name": "Fieldmaster",
+    "summary": "GTABase's GTA VI vehicle database lists the Fieldmaster in its Utility class, made by Stanley.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "fieldmaster",
+      "utility"
+    ],
+    "facts": {
+      "manufacturer": "Stanley",
+      "model": "Fieldmaster",
+      "class": "Utility"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "jobuilt-flatbed",
+    "name": "JoBuilt Flatbed",
+    "summary": "GTABase's GTA VI vehicle database lists the JoBuilt Flatbed in its Industrial class, made by JoBuilt.",
+    "body": [
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "flatbed",
+      "industrial",
+      "jobuilt"
+    ],
+    "facts": {
+      "manufacturer": "JoBuilt",
+      "model": "Flatbed",
+      "class": "Industrial"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-montagne-xl",
+    "name": "Vapid Montagne XL",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Montagne XL in its SUVs class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "montagne",
+      "suv",
+      "vapid",
+      "xl"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Montagne XL",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-montagne",
+    "name": "Vapid Montagne",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Montagne in its SUVs class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "montagne",
+      "suv",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Montagne",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-montagne-pickup",
+    "name": "Vapid Montagne Pickup",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Montagne Pickup in its Off-Road class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "montagne",
+      "off",
+      "pickup",
+      "road",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Montagne Pickup",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "montagne-pickup-lifeguard",
+    "name": "Montagne Pickup (Lifeguard)",
+    "summary": "GTABase's GTA VI vehicle database lists the Montagne Pickup (Lifeguard) in its Emergency class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "emergency",
+      "lifeguard",
+      "montagne",
+      "pickup"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Montagne Pickup (Lifeguard)",
+      "class": "Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "police-montagne",
+    "name": "Police Montagne",
+    "summary": "GTABase's GTA VI vehicle database lists the Police Montagne in its Emergency class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "emergency",
+      "montagne",
+      "police"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Police Montagne",
+      "class": "Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "vapid-lowline",
+    "name": "Vapid Lowline",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Lowline in its Sedans class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "lowline",
+      "sedan",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Lowline",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-shuttle",
+    "name": "Vapid Shuttle",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Shuttle in its Vans class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "shuttle",
+      "van",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Shuttle",
+      "class": "Van"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shifter",
+    "name": "Shifter",
+    "summary": "GTABase's GTA VI vehicle database lists the Shifter in its Vans class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Vans."
+    ],
+    "tags": [
+      "shifter",
+      "van"
+    ],
+    "facts": {
+      "model": "Shifter",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lifta",
+    "name": "Lifta",
+    "summary": "GTABase's GTA VI vehicle database lists the Lifta in its Utility class, made by HVY.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "lifta",
+      "utility"
+    ],
+    "facts": {
+      "manufacturer": "HVY",
+      "model": "Lifta",
+      "class": "Utility"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fathom-fr36",
+    "name": "Fathom FR36",
+    "summary": "GTABase's GTA VI vehicle database lists the Fathom FR36 in its Coupes class, made by Fathom.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "coupe",
+      "fathom",
+      "fr36"
+    ],
+    "facts": {
+      "manufacturer": "Fathom",
+      "model": "FR36",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "amloco",
+    "name": "Amloco",
+    "summary": "GTABase's GTA VI vehicle database lists the Amloco in its Service class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "amloco",
+      "service"
+    ],
+    "facts": {
+      "model": "Amloco",
+      "class": "Service"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "granger-police",
+    "name": "Granger Police",
+    "summary": "GTABase's GTA VI vehicle database lists the Granger Police in its Emergency class, made by Declasse.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "emergency",
+      "granger",
+      "police"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Granger Police",
+      "class": "Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "granger-taxi",
+    "name": "Granger Taxi",
+    "summary": "GTABase's GTA VI vehicle database lists the Granger Taxi in its Service class, made by Declasse.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "granger",
+      "service",
+      "taxi"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Granger Taxi",
+      "class": "Service"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cartwright-hauler",
+    "name": "Cartwright Hauler",
+    "summary": "GTABase's GTA VI vehicle database lists the Cartwright Hauler in its Commercial class, made by Cartwright.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Service - Trucks."
+    ],
+    "tags": [
+      "cartwright",
+      "commercial",
+      "hauler"
+    ],
+    "facts": {
+      "manufacturer": "Cartwright",
+      "model": "Hauler",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dinka-chavos-xs",
+    "name": "Dinka Chavos XS",
+    "summary": "GTABase's GTA VI vehicle database lists the Dinka Chavos XS in its Sedans class, made by Dinka.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "chavos",
+      "dinka",
+      "sedan",
+      "xs"
+    ],
+    "facts": {
+      "manufacturer": "Dinka",
+      "model": "Chavos XS",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-hustler",
+    "name": "Vapid Hustler",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Hustler in its Muscle class, made by Vapid.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "car",
+      "hustler",
+      "muscle",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Hustler",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-impaler-80",
+    "name": "Declasse Impaler '80",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse Impaler '80 in its Muscle class, made by Declasse.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "80",
+      "car",
+      "declasse",
+      "impaler",
+      "muscle"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Impaler '80",
+      "year": "'80",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-impaler-sz",
+    "name": "Declasse Impaler SZ",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse Impaler SZ in its Muscle class, made by Declasse.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "car",
+      "declasse",
+      "impaler",
+      "muscle",
+      "sz"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Impaler SZ",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "pegassi-infernus-96",
+    "name": "Pegassi Infernus '96",
+    "summary": "GTABase's GTA VI vehicle database lists the Pegassi Infernus '96 in its Sports Classics class, made by Pegassi.",
+    "body": [
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Supercars."
+    ],
+    "tags": [
+      "96",
+      "classic",
+      "infernus",
+      "pegassi",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Infernus '96",
+      "year": "'96",
+      "class": "Supercars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "bf-injection",
+    "name": "BF Injection",
+    "summary": "GTABase's GTA VI vehicle database lists the BF Injection in its Off-Road class, made by BF.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Off-Road Vehicles."
+    ],
+    "tags": [
+      "bf",
+      "injection",
+      "off",
+      "road"
+    ],
+    "facts": {
+      "manufacturer": "BF",
+      "model": "Injection",
+      "class": "Off-Road Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-iota",
+    "name": "Maibatsu Iota",
+    "summary": "GTABase's GTA VI vehicle database lists the Maibatsu Iota in its Commercial class, made by Maibatsu.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Service - Trucks."
+    ],
+    "tags": [
+      "commercial",
+      "iota",
+      "maibatsu"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Iota",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "grotti-itali-gto",
+    "name": "Grotti Itali GTO",
+    "summary": "GTABase's GTA VI vehicle database lists the Grotti Itali GTO in its Sports class, made by Grotti.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "car",
+      "grotti",
+      "gto",
+      "itali",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Grotti",
+      "model": "Itali GTO",
+      "class": "Sports car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "osprey-journey",
+    "name": "Osprey Journey",
+    "summary": "GTABase's GTA VI vehicle database lists the Osprey Journey in its Vans class, made by Osprey.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Vans."
+    ],
+    "tags": [
+      "journey",
+      "osprey",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "Osprey",
+      "model": "Journey",
+      "class": "Vans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "canis-kamacho",
+    "name": "Canis Kamacho",
+    "summary": "GTABase's GTA VI vehicle database lists the Canis Kamacho in its Off-Road class, made by Canis.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "canis",
+      "kamacho",
+      "off",
+      "road"
+    ],
+    "facts": {
+      "manufacturer": "Canis",
+      "model": "Kamacho",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "principe-lectro",
+    "name": "Principe Lectro",
+    "summary": "GTABase's GTA VI vehicle database lists the Principe Lectro in its Motorcycles class, made by Principe.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "lectro",
+      "motorcycle",
+      "principe"
+    ],
+    "facts": {
+      "manufacturer": "Principe",
+      "model": "Lectro",
+      "class": "Motorcycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dundreary-arcturus-93",
+    "name": "Dundreary Arcturus '93",
+    "summary": "GTABase's GTA VI vehicle database lists the Dundreary Arcturus '93 in its Coupes class, made by Dundreary.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "93",
+      "arcturus",
+      "coupe",
+      "dundreary"
+    ],
+    "facts": {
+      "manufacturer": "Dundreary",
+      "model": "Arcturus '93",
+      "year": "'93",
+      "class": "Coupe"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lombike",
+    "name": "Lombike",
+    "summary": "GTABase's GTA VI vehicle database lists the Lombike in its Cycles class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "cycle",
+      "lombike"
+    ],
+    "facts": {
+      "model": "Lombike",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lure-predator-l35p",
+    "name": "Lure Predator L35P",
+    "summary": "GTABase's GTA VI vehicle database lists the Lure Predator L35P in its Boats class, made by Lure Predator.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Watercraft."
+    ],
+    "tags": [
+      "boat",
+      "l35p",
+      "lure",
+      "predator"
+    ],
+    "facts": {
+      "manufacturer": "Lure Predator",
+      "model": "L35P",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "buckingham-luxor",
+    "name": "Buckingham Luxor",
+    "summary": "GTABase's GTA VI vehicle database lists the Buckingham Luxor in its Planes class, made by Buckingham.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "buckingham",
+      "luxor",
+      "plane"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Luxor",
+      "class": "Plane"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lapwing-mammatus",
+    "name": "Lapwing Mammatus",
+    "summary": "GTABase's GTA VI vehicle database lists the Lapwing Mammatus in its Planes class, made by Lapwing.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Aircraft."
+    ],
+    "tags": [
+      "lapwing",
+      "mammatus",
+      "plane"
+    ],
+    "facts": {
+      "manufacturer": "Lapwing",
+      "model": "Mammatus",
+      "class": "Aircraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "albany-manana",
+    "name": "Albany Manana",
+    "summary": "GTABase's GTA VI vehicle database lists the Albany Manana in its Sports Classics class, made by Albany.",
+    "body": [
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Muscle Cars."
+    ],
+    "tags": [
+      "albany",
+      "classic",
+      "manana",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "Manana",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "dinka-marquis",
+    "name": "Dinka Marquis",
+    "summary": "GTABase's GTA VI vehicle database lists the Dinka Marquis in its Boats class, made by Dinka.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "boat",
+      "dinka",
+      "marquis"
+    ],
+    "facts": {
+      "manufacturer": "Dinka",
+      "model": "Marquis",
+      "class": "Boat"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benefactor-schafter",
+    "name": "Benefactor Schafter",
+    "summary": "GTABase's GTA VI vehicle database lists the Benefactor Schafter in its Sedans class, made by Benefactor.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "benefactor",
+      "schafter",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Benefactor",
+      "model": "Schafter",
+      "class": "Sedan"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benefactor-spritz",
+    "name": "Benefactor Spritz",
+    "summary": "GTABase's GTA VI vehicle database lists the Benefactor Spritz in its Vans class, made by Benefactor.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "benefactor",
+      "spritz",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "Benefactor",
+      "model": "Spritz",
+      "class": "Van"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "canis-mesa",
+    "name": "Canis Mesa",
+    "summary": "GTABase's GTA VI vehicle database lists the Canis Mesa in its SUVs class, made by Canis.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "canis",
+      "mesa",
+      "suv"
+    ],
+    "facts": {
+      "manufacturer": "Canis",
+      "model": "Mesa",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "metromule",
+    "name": "Metromule",
+    "summary": "GTABase's GTA VI vehicle database lists the Metromule in its Service class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "metromule",
+      "service"
+    ],
+    "facts": {
+      "model": "Metromule",
+      "class": "Service"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vysser-neo",
+    "name": "Vysser Neo",
+    "summary": "GTABase's GTA VI vehicle database lists the Vysser Neo in its Sports class, made by Vysser.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "car",
+      "neo",
+      "sports",
+      "vysser"
+    ],
+    "facts": {
+      "manufacturer": "Vysser",
+      "model": "Neo",
+      "class": "Sports car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pfister-neon",
+    "name": "Pfister Neon",
+    "summary": "GTABase's GTA VI vehicle database lists the Pfister Neon in its Sports class, made by Pfister.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sports Cars."
+    ],
+    "tags": [
+      "car",
+      "neon",
+      "pfister",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Pfister",
+      "model": "Neon",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lapwing-nimbus",
+    "name": "Lapwing Nimbus",
+    "summary": "GTABase's GTA VI vehicle database lists the Lapwing Nimbus in its Planes class, made by Lapwing.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Aircraft."
+    ],
+    "tags": [
+      "lapwing",
+      "nimbus",
+      "plane"
+    ],
+    "facts": {
+      "manufacturer": "Lapwing",
+      "model": "Nimbus",
+      "class": "Aircraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-aircraft"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mtl-packer",
+    "name": "MTL Packer",
+    "summary": "GTABase's GTA VI vehicle database lists the MTL Packer in its Commercial class, made by MTL.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Service - Trucks."
+    ],
+    "tags": [
+      "commercial",
+      "mtl",
+      "packer"
+    ],
+    "facts": {
+      "manufacturer": "MTL",
+      "model": "Packer",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mammoth-patriot-mil-spec",
+    "name": "Mammoth Patriot Mil-Spec",
+    "summary": "GTABase's GTA VI vehicle database lists the Mammoth Patriot Mil-Spec in its Off-Road class, made by Mammoth.",
+    "body": [
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "mammoth",
+      "mil",
+      "off",
+      "patriot",
+      "road",
+      "spec"
+    ],
+    "facts": {
+      "manufacturer": "Mammoth",
+      "model": "Patriot Mil-Spec",
+      "class": "Off-Road"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "maibatsu-penumbra-ff",
+    "name": "Maibatsu Penumbra FF",
+    "summary": "GTABase's GTA VI vehicle database lists the Maibatsu Penumbra FF in its Sports class, made by Maibatsu.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "car",
+      "ff",
+      "maibatsu",
+      "penumbra",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Maibatsu",
+      "model": "Penumbra FF",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "jobuilt-phantom-custom",
+    "name": "JoBuilt Phantom Custom",
+    "summary": "GTABase's GTA VI vehicle database lists the JoBuilt Phantom Custom in its Commercial class, made by JoBuilt.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Service - Trucks."
+    ],
+    "tags": [
+      "commercial",
+      "custom",
+      "jobuilt",
+      "phantom"
+    ],
+    "facts": {
+      "manufacturer": "JoBuilt",
+      "model": "Phantom Custom",
+      "class": "Service - Trucks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cheval-picador",
+    "name": "Cheval Picador",
+    "summary": "GTABase's GTA VI vehicle database lists the Cheval Picador in its Muscle class, made by Cheval.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game has a '72 Declasse Picador under Muscle Cars, which may be this vehicle under another maker's name."
+    ],
+    "tags": [
+      "car",
+      "cheval",
+      "muscle",
+      "picador"
+    ],
+    "facts": {
+      "manufacturer": "Cheval",
+      "model": "Picador",
+      "class": "Muscle car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mer-can-blast",
+    "name": "Mer-Can Blast",
+    "summary": "GTABase's GTA VI vehicle database lists the Mer-Can Blast in its Off-Road class, made by Mer-Can.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Off-Road Vehicles."
+    ],
+    "tags": [
+      "blast",
+      "can",
+      "mer",
+      "off",
+      "road"
+    ],
+    "facts": {
+      "manufacturer": "Mer-Can",
+      "model": "Blast",
+      "class": "Off-Road Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "l35p-police-boat",
+    "name": "L35P Police Boat",
+    "summary": "GTABase's GTA VI vehicle database lists the L35P Police Boat in its Boats and Emergency class, made by Lure Predator.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "boat",
+      "emergency",
+      "l35p",
+      "police"
+    ],
+    "facts": {
+      "manufacturer": "Lure Predator",
+      "model": "L35P Police Boat",
+      "class": "Boat / Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "police-buzzard",
+    "name": "Police Buzzard",
+    "summary": "GTABase's GTA VI vehicle database lists the Police Buzzard in its Helicopters and Emergency class, made by Bottcher.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "buzzard",
+      "emergency",
+      "helicopter",
+      "police"
+    ],
+    "facts": {
+      "manufacturer": "Bottcher",
+      "model": "Police Buzzard",
+      "class": "Helicopter / Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "police-ghost-stanier-le",
+    "name": "Police Ghost (Stanier LE)",
+    "summary": "GTABase's GTA VI vehicle database lists the Police Ghost (Stanier LE) in its Emergency class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "emergency",
+      "ghost",
+      "le",
+      "police",
+      "stanier"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Police Ghost (Stanier LE)",
+      "class": "Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "police-landstalker-xl",
+    "name": "Police Landstalker XL",
+    "summary": "GTABase's GTA VI vehicle database lists the Police Landstalker XL in its Emergency class, made by Dundreary.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "emergency",
+      "landstalker",
+      "police",
+      "xl"
+    ],
+    "facts": {
+      "manufacturer": "Dundreary",
+      "model": "Police Landstalker XL",
+      "class": "Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "police-riot",
+    "name": "Police Riot",
+    "summary": "GTABase's GTA VI vehicle database lists the Police Riot in its Emergency class, made by Brute.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Service - Emergency Vehicles."
+    ],
+    "tags": [
+      "emergency",
+      "police",
+      "riot"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Police Riot",
+      "class": "Service - Emergency Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "pegassi-police-tempesta",
+    "name": "Pegassi Police Tempesta",
+    "summary": "GTABase's GTA VI vehicle database lists the Pegassi Police Tempesta in its Super class, made by Pegassi.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "pegassi",
+      "police",
+      "supercar",
+      "tempesta"
+    ],
+    "facts": {
+      "manufacturer": "Pegassi",
+      "model": "Police Tempesta",
+      "class": "Supercar"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "coil-raiden",
+    "name": "Coil Raiden",
+    "summary": "GTABase's GTA VI vehicle database lists the Coil Raiden in its Sports class, made by Coil.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "car",
+      "coil",
+      "raiden",
+      "sports"
+    ],
+    "facts": {
+      "manufacturer": "Coil",
+      "model": "Raiden",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bravado-bison-3800",
+    "name": "Bravado Bison 3800",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Bison 3800 in its Vans class, made by Bravado.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "3800",
+      "bison",
+      "bravado",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Bison 3800",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-rancher",
+    "name": "Declasse Rancher",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse Rancher in its Off-Road class, made by Declasse.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "declasse",
+      "off",
+      "rancher",
+      "road"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Rancher",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "ubermacht-rebla-gts",
+    "name": "Übermacht Rebla GTS",
+    "summary": "GTABase's GTA VI vehicle database lists the Übermacht Rebla GTS in its SUVs class, made by Übermacht.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "gts",
+      "rebla",
+      "suv",
+      "ubermacht"
+    ],
+    "facts": {
+      "manufacturer": "Übermacht",
+      "model": "Rebla GTS",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "vapid-reclaimer",
+    "name": "Vapid Reclaimer",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Reclaimer in its Off-Road class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "off",
+      "reclaimer",
+      "road",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Reclaimer",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "rental-bus",
+    "name": "Rental Bus",
+    "summary": "GTABase's GTA VI vehicle database lists the Rental Bus in its Service class, made by Brute.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Service - Transport Vehicles."
+    ],
+    "tags": [
+      "bus",
+      "rental",
+      "service"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Rental Bus",
+      "class": "Service - Transport Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "willard-trotter-95",
+    "name": "Willard Trotter '95",
+    "summary": "GTABase's GTA VI vehicle database lists the Willard Trotter '95 in its Vans class, made by Willard.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "95",
+      "trotter",
+      "van",
+      "willard"
+    ],
+    "facts": {
+      "manufacturer": "Willard",
+      "model": "Trotter '95",
+      "year": "'95",
+      "class": "Van"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "calder-yakuruna",
+    "name": "Calder Yakuruna",
+    "summary": "GTABase's GTA VI vehicle database lists the Calder Yakuruna in its Boats class, made by Calder.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "boat",
+      "calder",
+      "yakuruna"
+    ],
+    "facts": {
+      "manufacturer": "Calder",
+      "model": "Yakuruna",
+      "class": "Boat"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "jobuilt-rubble",
+    "name": "JoBuilt Rubble",
+    "summary": "GTABase's GTA VI vehicle database lists the JoBuilt Rubble in its Industrial class, made by JoBuilt.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "industrial",
+      "jobuilt",
+      "rubble"
+    ],
+    "facts": {
+      "manufacturer": "JoBuilt",
+      "model": "Rubble",
+      "class": "Industrial"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lure-predator-s23",
+    "name": "Lure Predator S23",
+    "summary": "GTABase's GTA VI vehicle database lists the Lure Predator S23 in its Boats class, made by Lure Predator.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game has a Bombora S23 CCS under Watercraft, which may be this vehicle under another maker's name."
+    ],
+    "tags": [
+      "boat",
+      "lure",
+      "predator",
+      "s23"
+    ],
+    "facts": {
+      "manufacturer": "Lure Predator",
+      "model": "S23",
+      "class": "Boat"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "vapid-sandking-xt",
+    "name": "Vapid Sandking XT",
+    "summary": "GTABase's GTA VI vehicle database lists the Vapid Sandking XT in its Off-Road class, made by Vapid.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "off",
+      "road",
+      "sandking",
+      "vapid",
+      "xt"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Sandking XT",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ped-scorcher",
+    "name": "PED Scorcher",
+    "summary": "GTABase's GTA VI vehicle database lists the PED Scorcher in its Cycles class, made by PED.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "cycle",
+      "ped",
+      "scorcher"
+    ],
+    "facts": {
+      "manufacturer": "PED",
+      "model": "Scorcher",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shasa",
+    "name": "Shasa",
+    "summary": "GTABase's GTA VI vehicle database lists the Shasa in its Boats class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Watercraft."
+    ],
+    "tags": [
+      "boat",
+      "shasa"
+    ],
+    "facts": {
+      "model": "Shasa",
+      "class": "Watercraft"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-watercraft"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "ubermacht-sentinel-classic",
+    "name": "Übermacht Sentinel Classic",
+    "summary": "GTABase's GTA VI vehicle database lists the Übermacht Sentinel Classic in its Sports Classics class, made by Übermacht.",
+    "body": [
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Sports Cars."
+    ],
+    "tags": [
+      "classic",
+      "sentinel",
+      "sports",
+      "ubermacht"
+    ],
+    "facts": {
+      "manufacturer": "Übermacht",
+      "model": "Sentinel Classic",
+      "class": "Sports Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "buckingham-shamal",
+    "name": "Buckingham Shamal",
+    "summary": "GTABase's GTA VI vehicle database lists the Buckingham Shamal in its Planes class, made by Buckingham.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "buckingham",
+      "plane",
+      "shamal"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Shamal",
+      "class": "Plane"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sirius",
+    "name": "Sirius",
+    "summary": "GTABase's GTA VI vehicle database lists the Sirius in its Muscle class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "car",
+      "muscle",
+      "sirius"
+    ],
+    "facts": {
+      "model": "Sirius",
+      "class": "Muscle car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "image": "/images/editions/classic-car-collection-02.jpg"
+  },
+  {
+    "slug": "western-sovereign-107",
+    "name": "Western Sovereign 107",
+    "summary": "GTABase's GTA VI vehicle database lists the Western Sovereign 107 in its Motorcycles class, made by Western.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "107",
+      "motorcycle",
+      "sovereign",
+      "western"
+    ],
+    "facts": {
+      "manufacturer": "Western",
+      "model": "Sovereign 107",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sovereign-107-police",
+    "name": "Sovereign 107 Police",
+    "summary": "GTABase's GTA VI vehicle database lists the Sovereign 107 Police in its Motorcycles and Emergency class, made by Western.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "107",
+      "emergency",
+      "motorcycle",
+      "police",
+      "sovereign"
+    ],
+    "facts": {
+      "manufacturer": "Western",
+      "model": "Sovereign 107 Police",
+      "class": "Motorcycle / Emergency"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "classique-stallion",
+    "name": "Classique Stallion",
+    "summary": "GTABase's GTA VI vehicle database lists the Classique Stallion in its Muscle class, made by Classique.",
+    "body": [
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Muscle Cars."
+    ],
+    "tags": [
+      "car",
+      "classique",
+      "muscle",
+      "stallion"
+    ],
+    "facts": {
+      "manufacturer": "Classique",
+      "model": "Stallion",
+      "class": "Muscle Cars"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "brute-stockade",
+    "name": "Brute Stockade",
+    "summary": "GTABase's GTA VI vehicle database lists the Brute Stockade in its Commercial class, made by Brute.",
+    "body": [
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "brute",
+      "commercial",
+      "stockade"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Stockade",
+      "class": "Commercial"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "mammoth-streamer216",
+    "name": "Mammoth Streamer216",
+    "summary": "GTABase's GTA VI vehicle database lists the Mammoth Streamer216 in its Planes class, made by Mammoth.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "mammoth",
+      "plane",
+      "streamer216"
+    ],
+    "facts": {
+      "manufacturer": "Mammoth",
+      "model": "Streamer216",
+      "class": "Plane"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dinka-sugoi",
+    "name": "Dinka Sugoi",
+    "summary": "GTABase's GTA VI vehicle database lists the Dinka Sugoi in its Sports class, made by Dinka.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "car",
+      "dinka",
+      "sports",
+      "sugoi"
+    ],
+    "facts": {
+      "manufacturer": "Dinka",
+      "model": "Sugoi",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "bf-surfer",
+    "name": "BF Surfer",
+    "summary": "GTABase's GTA VI vehicle database lists the BF Surfer in its Vans class, made by BF.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "bf",
+      "surfer",
+      "van"
+    ],
+    "facts": {
+      "manufacturer": "BF",
+      "model": "Surfer",
+      "class": "Van"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "swamp-blaster",
+    "name": "Swamp Blaster",
+    "summary": "GTABase's GTA VI vehicle database lists the Swamp Blaster in its Off-Road class, with no maker given.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "blaster",
+      "off",
+      "road",
+      "swamp"
+    ],
+    "facts": {
+      "model": "Swamp Blaster",
+      "class": "Off-Road"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-swift",
+    "name": "Buckingham Swift",
+    "summary": "GTABase's GTA VI vehicle database lists the Buckingham Swift in its Helicopters class, made by Buckingham.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "buckingham",
+      "helicopter",
+      "swift"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Swift",
+      "class": "Helicopter"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "obey-tailgater-s",
+    "name": "Obey Tailgater S",
+    "summary": "GTABase's GTA VI vehicle database lists the Obey Tailgater S in its Sedans class, made by Obey.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "obey",
+      "sedan",
+      "tailgater"
+    ],
+    "facts": {
+      "manufacturer": "Obey",
+      "model": "Tailgater S",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "canis-terminus",
+    "name": "Canis Terminus",
+    "summary": "GTABase's GTA VI vehicle database lists the Canis Terminus in its Off-Road class, made by Canis.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "canis",
+      "off",
+      "road",
+      "terminus"
+    ],
+    "facts": {
+      "manufacturer": "Canis",
+      "model": "Terminus",
+      "class": "Off-Road"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brute-tipper-6-wheels",
+    "name": "Brute Tipper (6 wheels)",
+    "summary": "GTABase's GTA VI vehicle database lists the Brute Tipper (6 wheels) in its Industrial class, made by Brute.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "brute",
+      "industrial",
+      "tipper",
+      "wheels"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Tipper (6 wheels)",
+      "class": "Industrial"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tow-truck",
+    "name": "Tow Truck",
+    "summary": "GTABase's GTA VI vehicle database lists the Tow Truck in its Utility class, made by Vapid.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "tow",
+      "truck",
+      "utility"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Tow Truck",
+      "class": "Utility"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "karin-allander",
+    "name": "Karin Allander",
+    "summary": "GTABase's GTA VI vehicle database lists the Karin Allander in its SUVs class, made by Karin.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "allander",
+      "karin",
+      "suv"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Allander",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "utility-truck",
+    "name": "Utility Truck",
+    "summary": "GTABase's GTA VI vehicle database lists the Utility Truck in its Utility class, made by Brute.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "truck",
+      "utility"
+    ],
+    "facts": {
+      "manufacturer": "Brute",
+      "model": "Utility Truck",
+      "class": "Utility"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "albany-v-str",
+    "name": "Albany V-STR",
+    "summary": "GTABase's GTA VI vehicle database lists the Albany V-STR in its Sports class, made by Albany.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "albany",
+      "car",
+      "sports",
+      "str"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "V-STR",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-valkyrie",
+    "name": "Buckingham Valkyrie",
+    "summary": "GTABase's GTA VI vehicle database lists the Buckingham Valkyrie in its Helicopters class, made by Buckingham.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "buckingham",
+      "helicopter",
+      "valkyrie"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Valkyrie",
+      "class": "Helicopter"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "emperor-vectre",
+    "name": "Emperor Vectre",
+    "summary": "GTABase's GTA VI vehicle database lists the Emperor Vectre in its Sports class, made by Emperor.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "car",
+      "emperor",
+      "sports",
+      "vectre"
+    ],
+    "facts": {
+      "manufacturer": "Emperor",
+      "model": "Vectre",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-vigero-zx-convertible",
+    "name": "Declasse Vigero ZX Convertible",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse Vigero ZX Convertible in its Muscle class, made by Declasse.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "car",
+      "convertible",
+      "declasse",
+      "muscle",
+      "vigero",
+      "zx"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Vigero ZX Convertible",
+      "class": "Muscle car"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "karin-vivanite",
+    "name": "Karin Vivanite",
+    "summary": "GTABase's GTA VI vehicle database lists the Karin Vivanite in its SUVs class, made by Karin.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "karin",
+      "suv",
+      "vivanite"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Vivanite",
+      "class": "SUV"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-volatus",
+    "name": "Buckingham Volatus",
+    "summary": "GTABase's GTA VI vehicle database lists the Buckingham Volatus in its Helicopters class, made by Buckingham.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "buckingham",
+      "helicopter",
+      "volatus"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Volatus",
+      "class": "Helicopter"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bf-greta",
+    "name": "BF Greta",
+    "summary": "GTABase's GTA VI vehicle database lists the BF Greta in its Sedans class, made by BF.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Sedans."
+    ],
+    "tags": [
+      "bf",
+      "greta",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "BF",
+      "model": "Greta",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-walton-l35",
+    "name": "Declasse Walton L35",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse Walton L35 in its Off-Road class, made by Declasse.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "declasse",
+      "l35",
+      "off",
+      "road",
+      "walton"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Walton L35",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "wastelander",
+    "name": "Wastelander",
+    "summary": "GTABase's GTA VI vehicle database lists the Wastelander in its Service class, made by MTL.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Off-Road Vehicles."
+    ],
+    "tags": [
+      "service",
+      "wastelander"
+    ],
+    "facts": {
+      "manufacturer": "MTL",
+      "model": "Wastelander",
+      "class": "Off-Road Vehicles"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckingham-windsor",
+    "name": "Buckingham Windsor",
+    "summary": "GTABase's GTA VI vehicle database lists the Buckingham Windsor in its Coupes class, made by Buckingham.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "buckingham",
+      "coupe",
+      "windsor"
+    ],
+    "facts": {
+      "manufacturer": "Buckingham",
+      "model": "Windsor",
+      "class": "Coupe"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benefactor-xls",
+    "name": "Benefactor XLS",
+    "summary": "GTABase's GTA VI vehicle database lists the Benefactor XLS in its SUVs class, made by Benefactor.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under SUVs."
+    ],
+    "tags": [
+      "benefactor",
+      "suv",
+      "xls"
+    ],
+    "facts": {
+      "manufacturer": "Benefactor",
+      "model": "XLS",
+      "class": "SUVs"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nagasaki-nimbe",
+    "name": "Nagasaki Nimbe",
+    "summary": "GTABase's GTA VI vehicle database lists the Nagasaki Nimbe in its Motorcycles class, made by Nagasaki.",
+    "body": [
+      "GTABase describes it as new to the series with GTA VI.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Bikes."
+    ],
+    "tags": [
+      "motorcycle",
+      "nagasaki",
+      "nimbe"
+    ],
+    "facts": {
+      "manufacturer": "Nagasaki",
+      "model": "Nimbe",
+      "class": "Bikes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-bikes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declasse-yosemite-1500",
+    "name": "Declasse Yosemite 1500",
+    "summary": "GTABase's GTA VI vehicle database lists the Declasse Yosemite 1500 in its Off-Road class, made by Declasse.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Pickups."
+    ],
+    "tags": [
+      "1500",
+      "declasse",
+      "off",
+      "road",
+      "yosemite"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Yosemite 1500",
+      "class": "Pickups"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ubermacht-apoc",
+    "name": "Übermacht Apoc",
+    "summary": "GTABase's GTA VI vehicle database lists the Übermacht Apoc in its Coupes class, made by Übermacht.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "DayOne's list from the released game names it and files it under Coupes."
+    ],
+    "tags": [
+      "apoc",
+      "coupe",
+      "ubermacht"
+    ],
+    "facts": {
+      "manufacturer": "Übermacht",
+      "model": "Apoc",
+      "class": "Coupes"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicles",
+      "dayone-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ubermacht-apoc-cabrio",
+    "name": "Übermacht Apoc (Cabrio)",
+    "summary": "GTABase's GTA VI vehicle database lists the Übermacht Apoc (Cabrio) in its Coupes class, made by Übermacht.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "apoc",
+      "cabrio",
+      "coupe",
+      "ubermacht"
+    ],
+    "facts": {
+      "manufacturer": "Übermacht",
+      "model": "Apoc (Cabrio)",
+      "class": "Coupe"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "western-zombie-chopper",
+    "name": "Western Zombie Chopper",
+    "summary": "GTABase's GTA VI vehicle database lists the Western Zombie Chopper in its Motorcycles class, made by Western.",
+    "body": [
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+    ],
+    "tags": [
+      "chopper",
+      "motorcycle",
+      "western",
+      "zombie"
+    ],
+    "facts": {
+      "manufacturer": "Western",
+      "model": "Zombie Chopper",
+      "class": "Motorcycle"
+    },
+    "confidence": "community",
+    "sources": [
+      "gtabase-vehicles"
+    ],
+    "verified": "2026-11-18"
+  }
+]

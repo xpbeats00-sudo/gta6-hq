@@ -1,0 +1,632 @@
+[
+  {
+    "slug": "hit-n-run-vc",
+    "name": "Hit 'N Run VC",
+    "summary": "A Vice City street racing group with nine races spread over four neighbourhoods.",
+    "body": [
+      "PowerPyx lists three races at Salton and two each at La Perle, Ocean Beach and Gloriana Key.",
+      "PowerPyx says an invitation arrives through a group chat, and that each race at a location must be run before the next one opens."
+    ],
+    "tags": [
+      "hit n run",
+      "race",
+      "street race",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Street races (9)",
+      "location": "Vice City: Salton, La Perle, Ocean Beach, Gloriana Key"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "animal-crackers-races",
+    "name": "Animal Crackers",
+    "summary": "A race group of eight events held at four spots in Lummox County and Mariana County.",
+    "body": [
+      "PowerPyx lists two races each at Grayson, Redshaw's, Ranchers and Big Pine, and gives no unlock condition."
+    ],
+    "tags": [
+      "animal crackers",
+      "lummox",
+      "mariana",
+      "race"
+    ],
+    "facts": {
+      "type": "Races (8)",
+      "location": "Lummox County and Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gellhorn-international-raceway",
+    "name": "Gellhorn International Raceway",
+    "summary": "A circuit south of Port Gellhorn in Kelly County that hosts eleven races and its own timed trials.",
+    "body": [
+      "PowerPyx says an introduction event opens a five-race amateur series called Keep It PG, which in turn opens the remaining races.",
+      "PowerPyx also lists a Gellhorn Raceway Trial and a Gellhorn Dragway Trial among the 13 race challenges."
+    ],
+    "tags": [
+      "circuit",
+      "drag",
+      "gellhorn",
+      "race",
+      "raceway"
+    ],
+    "facts": {
+      "type": "Circuit races (11)",
+      "location": "Kelly County, south of Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-race-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "boone-speedway",
+    "name": "Boone Speedway",
+    "summary": "A speedway in the south-west corner of Hamlet that runs two elimination races.",
+    "body": [
+      "PowerPyx lists two elimination races here and a separate Boone Speedway Trial among the race challenges."
+    ],
+    "tags": [
+      "elimination",
+      "hamlet",
+      "race",
+      "speedway"
+    ],
+    "facts": {
+      "type": "Elimination races (2)",
+      "location": "Hamlet, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-race-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ambrosia-raceway",
+    "name": "Ambrosia Raceway",
+    "summary": "A track in north Ambrosia, Kelly County, that runs two demolition races.",
+    "body": [
+      "PowerPyx lists two demolition races here and a separate Ambrosia Raceway Trial among the race challenges."
+    ],
+    "tags": [
+      "ambrosia",
+      "demolition",
+      "derby",
+      "race"
+    ],
+    "facts": {
+      "type": "Demolition races (2)",
+      "location": "North Ambrosia, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-race-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "thrillbilly-mud-club",
+    "name": "Thrillbilly Mud Club",
+    "summary": "An off-road venue in north Kelly County with eight races and six of the game's thirteen race challenges.",
+    "body": [
+      "PowerPyx lists six dirt track races and two oval races, introduced through an optional job during the second chapter.",
+      "Its race challenges, per PowerPyx, are an air time stunt run plus drag, hill climb, dirt track, oval and swamp run trials."
+    ],
+    "tags": [
+      "dirt track",
+      "mud",
+      "off-road",
+      "oval",
+      "race",
+      "thrillbilly"
+    ],
+    "facts": {
+      "type": "Off-road races (8) and trials (6)",
+      "location": "North Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-race-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "unique-races",
+    "name": "Unique races",
+    "summary": "The game counts 40 unique races in six groups, each paid for with an entry fee and a vehicle rental.",
+    "body": [
+      "PowerPyx gives the groups as Hit 'N Run VC (9), Animal Crackers (8), Gellhorn International Raceway (11), Boone Speedway (2), Ambrosia Raceway (2) and Thrillbilly Mud Club (8).",
+      "PowerPyx says race starts show as blue map icons from about 100 metres away, that winning 30 counts for the completion checklist and that winning 20 earns a trophy.",
+      "The guide gives no fee or prize amounts."
+    ],
+    "tags": [
+      "40",
+      "checklist",
+      "race",
+      "races"
+    ],
+    "facts": {
+      "type": "Races (40 in 6 groups)",
+      "location": "Vice City, Mariana, Kelly, Lummox and Vice-Dale counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-100",
+      "ppx-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenges",
+    "name": "Race challenges",
+    "summary": "Thirteen timed or scored solo events with bronze, silver and gold medals, separate from the 40 races.",
+    "body": [
+      "PowerPyx names them: Ambrosia Raceway Trial, Hamlet BMX Stunt Run, Boone Speedway Trial, Gellhorn Raceway Trial, Gellhorn Dragway Trial, Kalaga Cycling Trial, six Mud Club events and the Waning Sands Motocross Stunt Run.",
+      "According to PowerPyx, ten gold medals are needed for the completion checklist; the guide does not list the medal thresholds."
+    ],
+    "tags": [
+      "bmx",
+      "medals",
+      "motocross",
+      "race challenge",
+      "stunt run",
+      "time trial"
+    ],
+    "facts": {
+      "type": "Time trials and stunt runs (13)",
+      "location": "Ambrosia, Hamlet, Boone Speedway, Gellhorn, Kalaga, Mud Club, Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-race-challenges",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "griffin-shooting-range",
+    "name": "Griffin Shooting Range",
+    "summary": "A range in north-west Vice City with six courses, each offering three gold medals.",
+    "body": [
+      "PowerPyx names the courses as 3-Point, Hook, Loop, Maze, Compound and Villa, which adds up to 18 gold medals.",
+      "PowerPyx says a 5 dollar waiver pass from the clerk opens the challenges, a missing weapon type can be rented for 10 dollars, and Lucia is the better pick here because she moves faster."
+    ],
+    "tags": [
+      "focus",
+      "griffin",
+      "medals",
+      "shooting range",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Shooting range (6 courses, 18 gold medals)",
+      "location": "North-west Vice City",
+      "players": "Either lead; Lucia recommended by PowerPyx"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rodgers-ranch-shooting-range",
+    "name": "Rodgers Ranch Shooting Range",
+    "summary": "A range on the north-east edge of Port Gellhorn with six themed courses, each offering four gold medals.",
+    "body": [
+      "PowerPyx names the courses as Market, Zombie, Hunting, Saloon, Cops & Robbers and Alien, which adds up to 24 gold medals.",
+      "PowerPyx says the courses call for pistols, SMGs, shotguns, assault rifles, revolvers, tactical rifles and sniper rifles, and that finishing or quitting any challenge permanently raises the Focus stat."
+    ],
+    "tags": [
+      "focus",
+      "medals",
+      "port gellhorn",
+      "rodgers ranch",
+      "shooting range"
+    ],
+    "facts": {
+      "type": "Shooting range (6 courses, 24 gold medals)",
+      "location": "North-east Port Gellhorn, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ranges",
+      "ppx-stats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "top-fun-drone-races",
+    "name": "Top Fun drone races",
+    "summary": "Drone time trials flown at 14 sites, three per site, for 42 in total.",
+    "body": [
+      "PowerPyx lists the sites as Hamlet, Watson Bay, Capri, Buckskin Swamp, Balsero, Downtown, Dalton Island, Vice Beach, Waning Sands, Ambrosia, Port Gellhorn, Draper Island, Moreau Sawmill and Millport.",
+      "PowerPyx says beating the par time on the first two trials at a site opens the third, which only has to be finished, and that Dalton Island can only be reached by boat or aircraft.",
+      "According to PowerPyx all 42 are needed for the completion checklist, and winning one at every site earns a trophy."
+    ],
+    "tags": [
+      "drone",
+      "race",
+      "time trial",
+      "top fun"
+    ],
+    "facts": {
+      "type": "Drone time trials (42 at 14 sites)",
+      "location": "Across Leonida"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drones",
+      "ppx-100",
+      "ppx-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "video-games",
+    "name": "Playable video games",
+    "summary": "Four games can be played inside the game: three on a home console and one on arcade cabinets.",
+    "body": [
+      "PowerPyx names Tenebrae Lux, Street Trash III and Time Jackers Rewind as titles for the JoySystem console at the TV in the player's home.",
+      "PowerPyx says Bang For Your Buck is only found on arcade machines out in the world, for example outside the Bargain World clothing store in Port Gellhorn.",
+      "According to PowerPyx the home console cannot be used during the second chapter, and starting each game once is enough for the completion checklist."
+    ],
+    "tags": [
+      "arcade",
+      "bang for your buck",
+      "joysystem",
+      "street trash",
+      "tenebrae lux",
+      "time jackers",
+      "video games"
+    ],
+    "facts": {
+      "type": "Video games (4)",
+      "location": "Home TV console; arcade machines"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-videogames",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pool",
+    "name": "Pool",
+    "summary": "Pool is played against seven named-venue opponents in bars and cafes; the world has 17 tables in all.",
+    "body": [
+      "PowerPyx has located six opponents: Skeeter's in Hamlet, Zotico's in Balsero, The Thirsty Wolf in Belville, Jacob's Tavern in Millport, Delights Cabaret in Port Gellhorn and Kowaachobee Cafe & Bar in Buckskin Swamp; the seventh was not yet found.",
+      "According to PowerPyx, beating five different opponents counts for the completion checklist, and pool is one of the activities that raises Focus."
+    ],
+    "tags": [
+      "8-ball",
+      "bar",
+      "billiards",
+      "opponents",
+      "pool"
+    ],
+    "facts": {
+      "type": "Bar sport (7 opponents, 17 tables)",
+      "location": "Bars, taverns and cafes across Leonida"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pool",
+      "ppx-100",
+      "ppx-stats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mini-golf",
+    "name": "Mini golf",
+    "summary": "Three mini golf courses are open for play: King Gator, Frontier and Dino Golf.",
+    "body": [
+      "PowerPyx places King Gator Adventure Golf in Buckskin Swamp, Frontier Adventure Golf in Waning Sands and Dino Golf Challenge in Frogswater.",
+      "According to PowerPyx, finishing two of the three counts for the completion checklist, and the Sports challenges include 18-hole rounds at King Gator and Frontier."
+    ],
+    "tags": [
+      "dino golf",
+      "frontier",
+      "golf",
+      "king gator",
+      "mini golf"
+    ],
+    "facts": {
+      "type": "Mini golf (3 courses)",
+      "location": "Buckskin Swamp; Waning Sands; Frogswater"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-golf",
+      "ppx-100",
+      "ppx-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "golf-courses",
+    "name": "Golf courses",
+    "summary": "Two full-size golf challenges exist besides the mini golf: Leaf Links and Mount Hailes.",
+    "body": [
+      "PowerPyx places the Leaf Links Golf Challenge in Vice Beach and the Mount Hailes Golf Challenge at the Mount Hailes Club in Waning Sands.",
+      "PowerPyx says the large courses do not count toward the mini golf requirement on the completion checklist."
+    ],
+    "tags": [
+      "course",
+      "golf",
+      "leaf links",
+      "mount hailes"
+    ],
+    "facts": {
+      "type": "Golf (2 full courses)",
+      "location": "Leaf Links, Vice Beach; Mount Hailes Club, Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-golf",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoops",
+    "name": "Basketball hoops",
+    "summary": "There are 100 basketball hoops around Leonida, and the game tracks a scored shot at each.",
+    "body": [
+      "According to PowerPyx, scoring at 90 of the 100 hoops counts for the completion checklist.",
+      "PowerPyx lists Sports challenges for scoring at three hoops in a day, ten shots in a row, a hoop in every county and all 100 hoops."
+    ],
+    "tags": [
+      "100",
+      "basketball",
+      "hoops",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball shooting (100 hoops)",
+      "location": "All five counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-100",
+      "ppx-database",
+      "ppx-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "meditation",
+    "name": "Meditation",
+    "summary": "Ten meditation spots hold 18 meditations, because most spots can be completed once by each lead.",
+    "body": [
+      "PowerPyx names the spots as Jason's House, Smooth Sand, Swamp, Worn Stone, Red Rocks, Water Wheel, Jutting Cliff, Waterfall, Seaside and Ascent Mountain.",
+      "PowerPyx says the spot at Jason's house is only available in the first chapter, and that Ascent Mountain at the peak of Mount Kalaga appears only after the others are done.",
+      "According to PowerPyx, 15 of the 18 count for the completion checklist and spots show as purple map icons when close."
+    ],
+    "tags": [
+      "meditate",
+      "meditation",
+      "mount kalaga",
+      "spots"
+    ],
+    "facts": {
+      "type": "Meditation (18 at 10 spots)",
+      "location": "Mariana, Kelly, Lummox and Leonard counties",
+      "players": "Both leads, each counted separately"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-meditation",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gym-workouts",
+    "name": "Gym workouts",
+    "summary": "Weights raise Strength and treadmills or bikes raise Cardio, at home early on and at paid fitness studios later.",
+    "body": [
+      "PowerPyx says weights sit on the terrace of the first home, and that fitness studios charge a membership fee.",
+      "PowerPyx reports that an unfinished workout gives no gain, that protein afterwards speeds recovery, and that the two leads can train together at a studio.",
+      "PowerPyx lists Fitness challenges for joining a gym and for using every type of equipment in one day, and a trophy for maxing Strength on both leads at once."
+    ],
+    "tags": [
+      "cardio",
+      "fitness",
+      "gym",
+      "stats",
+      "strength",
+      "workout"
+    ],
+    "facts": {
+      "type": "Fitness",
+      "location": "Home terrace; fitness studios",
+      "players": "Both leads, alone or together"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-stats",
+      "ppx-challenges",
+      "ppx-trophies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brets-target-decks",
+    "name": "Bret's Target Decks",
+    "summary": "Fifteen hunting assignments from Bret Vogel, playable only as Jason, each asking for a specific animal.",
+    "body": [
+      "PowerPyx says they open during the second chapter with a first hunt in Lummox County near Mount Kalaga, where the target is a deer.",
+      "PowerPyx reports that Bret lends a hunting rifle called the Killtelligence SM-69, that clean head or heart shots pay more, and that the first hunt pays 500 dollars.",
+      "According to PowerPyx all 15 count for the completion checklist."
+    ],
+    "tags": [
+      "bret",
+      "hunting",
+      "jason",
+      "rifle",
+      "target decks"
+    ],
+    "facts": {
+      "type": "Hunting assignments (15)",
+      "location": "Starts at Bret's cabin, Lummox County",
+      "players": "Jason only"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-100",
+      "ppx-bret",
+      "ppx-trophies",
+      "ppx-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fishing-challenges",
+    "name": "Fishing challenges",
+    "summary": "Fishing covers 35 species, with contests against Cal and several Survival challenges built around it.",
+    "body": [
+      "PowerPyx counts 35 fish and lists a trophy for beating Cal in a fishing challenge, which opens early in the first chapter.",
+      "PowerPyx lists Survival challenges for landing a fish of 20 pounds or more, catching three fish with each lure type in a day, four species in six minutes and every species.",
+      "PowerPyx also names fishing as one way to raise Focus."
+    ],
+    "tags": [
+      "angler",
+      "cal",
+      "fish",
+      "fishing",
+      "lure"
+    ],
+    "facts": {
+      "type": "Fishing (35 species)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-database",
+      "ppx-trophies",
+      "ppx-challenges",
+      "ppx-stats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stunts",
+    "name": "Stunts",
+    "summary": "The game tracks 397 stunts: stunt jumps, flights under bridges, knife flights and base jumps.",
+    "body": [
+      "PowerPyx gives 130 stunt jumps, 202 under-the-bridge flights, 40 knife flights and 25 base jumps, with any 300 counting for the completion checklist."
+    ],
+    "tags": [
+      "base jump",
+      "knife flight",
+      "stunt jump",
+      "stunts",
+      "under the bridge"
+    ],
+    "facts": {
+      "type": "Stunts (397)",
+      "location": "Across Leonida"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-100",
+      "ppx-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "challenges",
+    "name": "Challenges",
+    "summary": "Eighty optional challenges sit in eight categories of ten and are available from the start.",
+    "body": [
+      "PowerPyx gives the categories as Combat, Criminal, Exploration, Fitness, Shopping, Sports, Survival and Vehicle.",
+      "According to PowerPyx, 70 of the 80 count for the completion checklist."
+    ],
+    "tags": [
+      "challenges",
+      "combat",
+      "criminal",
+      "exploration",
+      "fitness",
+      "shopping",
+      "sports",
+      "survival",
+      "vehicle"
+    ],
+    "facts": {
+      "type": "Challenges (80 in 8 categories)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-challenges",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "activity-types",
+    "name": "Activity types",
+    "summary": "A trophy asks the player to try each of nine activity types once.",
+    "body": [
+      "PowerPyx's trophy guide names hunting, fishing, golf, pool, basketball, shooting ranges and racing (a car race, race challenge or drone race) among the nine; it does not spell out the full nine in the text read."
+    ],
+    "tags": [
+      "activities",
+      "nine",
+      "sports",
+      "trophy"
+    ],
+    "facts": {
+      "type": "Activity categories (9)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-trophies",
+      "ppx-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

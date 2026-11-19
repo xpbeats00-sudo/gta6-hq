@@ -178,6 +178,7 @@ html.m-sky-turn::view-transition-new(root) { z-index: 2; }
 .m-badge-mark { display: inline-flex; padding: 1px 2px; border: 1.5px solid currentColor; border-radius: 3px; }
 .m-badge-mark svg { display: block; height: 0.72rem; width: auto; }
 .m-badge-verified-after-release { background: #8fe3b4; border-color: #8fe3b4; color: #0c3320; }
+.m-badge-launch-reported { background: #bfe6d0; border-color: #bfe6d0; color: #123524; }
 .m-badge-developer-described { background: var(--manual-violet); border-color: var(--manual-violet); color: #fff; }
 .manual-night .m-badge-developer-described { color: #1b1024; }
 .m-badge-preview-reported { background: #f5b469; border-color: #f5b469; color: #40220a; }

@@ -1,0 +1,299 @@
+[
+  {
+    "slug": "bushcraft-knife",
+    "name": "Bushcraft Knife",
+    "summary": "The Bushcraft Knife is one of the knives in the game's Melee Weapon class.",
+    "body": [
+      "Game8's work-in-progress melee list, updated on launch eve, shows three entries so far: Bushcraft Knife, Diving Knife and Hunting Knife.",
+      "Game8 gives no stats, brand, price or location for it yet.",
+      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read."
+    ],
+    "tags": [
+      "knife",
+      "melee"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-melee",
+      "powerpyx-progress-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "diving-knife",
+    "name": "Diving Knife",
+    "summary": "The Diving Knife is one of the knives in the game's Melee Weapon class.",
+    "body": [
+      "Game8's work-in-progress melee list, updated on launch eve, shows three entries so far: Bushcraft Knife, Diving Knife and Hunting Knife.",
+      "Game8 gives no stats, brand, price or location for it yet.",
+      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read."
+    ],
+    "tags": [
+      "knife",
+      "melee"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-melee",
+      "powerpyx-progress-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hunting-knife",
+    "name": "Hunting Knife",
+    "summary": "The Hunting Knife is one of the knives in the game's Melee Weapon class.",
+    "body": [
+      "Game8's work-in-progress melee list, updated on launch eve, shows three entries so far: Bushcraft Knife, Diving Knife and Hunting Knife.",
+      "Game8 gives no stats, brand, price or location for it yet.",
+      "PowerPyx reports that the Progress database counts 9 melee weapons in total, so six are still unnamed in the pages read."
+    ],
+    "tags": [
+      "knife",
+      "melee"
+    ],
+    "facts": {
+      "type": "Melee Weapon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-melee",
+      "powerpyx-progress-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "frag-grenade",
+    "name": "Frag Grenade",
+    "summary": "The Frag Grenade is a thrown explosive listed in the game's Explosive class.",
+    "body": [
+      "Game8's work-in-progress explosives list shows two entries so far: Frag Grenade and Sticky Bomb, without stats or prices.",
+      "PowerPyx's cheat list says the All Explosive Weapons cheat is unlocked by throwing 100 grenades.",
+      "PowerPyx reports the Progress database counts 4 explosives; no page read lists all four by name."
+    ],
+    "tags": [
+      "explosive",
+      "grenade",
+      "throwable"
+    ],
+    "facts": {
+      "type": "Explosive"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-explosives",
+      "powerpyx-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "molotov",
+    "name": "Molotov",
+    "summary": "The Molotov is a thrown fire bottle that the player can carry and use to burn vehicles and rooms.",
+    "body": [
+      "PowerPyx says a molotov thrown through the doorway is one way to burn a Kitty Litter lab, and that the Exploding Bottles cheat is unlocked by throwing 100 molotovs.",
+      "IGN and Eurogamer both recorded, before launch, that Lucia uses a Molotov to burn a getaway car in Rockstar's Extended Look.",
+      "No page read confirms whether the Progress database files it under Explosives or what its exact in-game name is."
+    ],
+    "tags": [
+      "fire",
+      "molotov",
+      "throwable"
+    ],
+    "facts": {
+      "type": "Throwable"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-kitty-litter-labs",
+      "powerpyx-cheats",
+      "ign-weapons-list",
+      "eurogamer-weapon-list"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "flash-grenades",
+    "name": "Flash Grenades",
+    "summary": "Flash Grenades are stun throwables left for the player in a car trunk during the mission Car Service.",
+    "body": [
+      "PowerPyx's walkthrough says the contact leaves Flash Grenades and a silenced Klose K17 in a nearby trunk, and that using them is optional.",
+      "PowerPyx's Cartel Heist walkthrough also describes a SWAT team using a flashbang on the player.",
+      "No page read confirms whether Flash Grenades are one of the 4 database Explosives."
+    ],
+    "tags": [
+      "grenade",
+      "stealth",
+      "throwable"
+    ],
+    "facts": {
+      "type": "Throwable",
+      "availability": "Car trunk during Car Service (Steal The Car for Raul)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-car-service"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "arras-bullhead",
+    "name": "Arras Bullhead",
+    "summary": "The Arras Bullhead is a harpoon used underwater, equipped from the left side of the weapon wheel.",
+    "body": [
+      "PowerPyx's Island Dreams walkthrough tells the player to equip the Arras Bullhead harpoon before a shark appears, and says two harpoon hits drive the shark off.",
+      "No page read gives its stats, price or whether it counts among the 53 database guns."
+    ],
+    "tags": [
+      "harpoon",
+      "shark",
+      "underwater"
+    ],
+    "facts": {
+      "type": "Harpoon",
+      "manufacturer": "Arras",
+      "availability": "Used in Island Dreams (Work for Kenton)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-island-dreams"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "donnies-handl-38",
+    "name": "Donnie's H&L .38",
+    "summary": "Donnie's H&L .38 is a missable unique revolver variant found in the trunk of Donnie's car.",
+    "body": [
+      "PowerPyx says it must be taken from the trunk during Don Gone before the car is destroyed, otherwise it is missed."
+    ],
+    "tags": [
+      "missable",
+      "revolver",
+      "unique",
+      "variant"
+    ],
+    "facts": {
+      "type": "Variant",
+      "availability": "Trunk of Donnie's car in Don Gone (Jason, after Chapter 1 Swamped); missable"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-don-gone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gils-kalinga-50",
+    "name": "Gil's Kalinga .50",
+    "summary": "Gil's Kalinga .50 is a pistol variant given for opening the practice safe at the end of Safe Word.",
+    "body": [
+      "PowerPyx says the player receives it, plus $1,500 from the safe, on finishing the optional safecracking practice at Raul's compound."
+    ],
+    "tags": [
+      "pistol",
+      "reward",
+      "unique",
+      "variant"
+    ],
+    "facts": {
+      "type": "Variant",
+      "availability": "Reward for completing the safecracking practice in Safe Word (Chapter 3)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-safe-word"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bae-luxes-bat",
+    "name": "Bae-Luxe's Bat",
+    "summary": "Bae-Luxe's Bat is a melee variant weapon given as the reward for the mission Cooties.",
+    "body": [
+      "PowerPyx lists it as the mission reward and says the Dimez hand Lucia a bat to hit DWNPLY's car during the video shoot.",
+      "No page read names the standard bat it is a variant of."
+    ],
+    "tags": [
+      "bat",
+      "melee",
+      "reward",
+      "unique",
+      "variant"
+    ],
+    "facts": {
+      "type": "Variant (melee)",
+      "availability": "Reward for Cooties (Shoot the Music Video), after Chapter 3 Ride or Die"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-cooties"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mister-mangrove-laird-350",
+    "name": "Mister Mangrove Laird 350",
+    "summary": "The Mister Mangrove Laird 350 is a tranquilizer-rifle variant of the Laird 350 handed over by Kirk.",
+    "body": [
+      "PowerPyx says Kirk gives it to Lucia in his helicopter at the start of Help Kirk Find Mr. Mangrove, a night-only side mission for Lucia."
+    ],
+    "tags": [
+      "rifle",
+      "tranquilizer",
+      "unique",
+      "variant"
+    ],
+    "facts": {
+      "type": "Variant (tranquilizer rifle)",
+      "availability": "Given by Kirk in Help Kirk Find Mr. Mangrove (Lucia only, night only)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-mr-mangrove"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "unique-weapon-variants-overview",
+    "name": "Unique weapon variants",
+    "summary": "The Progress database tracks 130 unique weapon variants, found in stores, gang operations and missions.",
+    "body": [
+      "PowerPyx says each of the 24 Ammu-Nation stores sells at least one unique variant, sometimes several, and that variants are not needed for 100% completion.",
+      "PowerPyx says illegal gang operations usually hold a unique variant among their key valuables.",
+      "No page read lists all 130 by name."
+    ],
+    "tags": [
+      "collectible",
+      "unique",
+      "variant"
+    ],
+    "facts": {
+      "type": "Variant"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "powerpyx-ammu-nations",
+      "powerpyx-gang-operations",
+      "powerpyx-progress-database"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

@@ -1,0 +1,1368 @@
+[
+  {
+    "slug": "kenton-rees",
+    "name": "Kenton Rees",
+    "summary": "A treasure hunter who runs the Island Dreams shop in Key Lento and sends the player diving on shipwrecks.",
+    "body": [
+      "PowerPyx calls Kenton a treasure hunter with an Island Dreams shop by the beach and says his jobs are marked by a green KR icon in Key Lento.",
+      "PowerPyx says he offers seven shipwreck treasure sets found with an underwater metal detector, is away for a while after Chapter 1, and stays available after the story.",
+      "GTA Wiki lists him as Trinidadian, a close friend of Brian Heder, and owner of a boat called the Sea Enchantress; it gives no voice actor."
+    ],
+    "role": "Treasure hunter, Key Lento",
+    "group": "supporting",
+    "tags": [
+      "contact",
+      "diving",
+      "island dreams",
+      "kenton",
+      "key lento",
+      "rees",
+      "shipwreck",
+      "treasure"
+    ],
+    "facts": {
+      "affiliation": "Brian Heder (friend)",
+      "occupation": "Treasure hunter; Island Dreams shop",
+      "home": "Key Lento, Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-island",
+      "ppx-100",
+      "ppx-trophy",
+      "gtawiki-kenton"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "donnie",
+    "name": "Donnie",
+    "summary": "A seaplane pilot tied to Brian Heder's operation who also buys stolen goods in south Key Lento during Chapter 1.",
+    "body": [
+      "PowerPyx lists Donnie as a Chapter 1 fence in south Key Lento who pays low prices for narcotics and very low prices for jewelry and marked bills.",
+      "PowerPyx's walkthrough has him meeting the player at a seaplane in Southwind, and a mission title places his home in a trailer.",
+      "GTA Wiki says he appears to work as a pilot for Brian's Boat Works & Marina and links him to Brian Heder and Cal Hampton; it gives no voice actor."
+    ],
+    "role": "Seaplane pilot and fence, Keys",
+    "group": "supporting",
+    "tags": [
+      "brian",
+      "donnie",
+      "fence",
+      "key lento",
+      "pilot",
+      "seaplane"
+    ],
+    "facts": {
+      "affiliation": "Brian Heder",
+      "occupation": "Pilot; fence (Chapter 1)",
+      "home": "South Key Lento, Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fences",
+      "ppx-clearskies",
+      "ppx-walkthrough",
+      "gtawiki-donnie"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "shirley",
+    "name": "Shirley",
+    "summary": "Jason's neighbour in Key Lento who hands out two small Chapter 1 errands.",
+    "body": [
+      "PowerPyx describes Shirley as Jason's neighbour in Key Lento, Mariana County, who asks him to fetch rum from Three Sheets Liquor.",
+      "PowerPyx says her two errands exist only in Chapter 1, can be missed, and do not count toward the Strangers & Freaks trophy."
+    ],
+    "role": "Jason's neighbour, Key Lento",
+    "group": "supporting",
+    "tags": [
+      "key lento",
+      "neighbour",
+      "rum",
+      "scooter",
+      "shirley",
+      "stranger"
+    ],
+    "facts": {
+      "affiliation": "Jason Duval (neighbour)",
+      "home": "Key Lento, Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-shirley",
+      "ppx-strangers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kirk",
+    "name": "Kirk",
+    "summary": "A man who hunts a bigfoot-like creature he calls the Skunk Ape or Mr. Mangrove in the Mariana County swamps.",
+    "body": [
+      "PowerPyx says Kirk searches at night with a drone near Pelican River and that the player reaches him by reading one of his flyers at Skeeter's bar in Hamlet and phoning him.",
+      "PowerPyx counts his three missions toward the Strangers & Freaks trophy; they are night-only and one is for Lucia only."
+    ],
+    "role": "Skunk Ape hunter, Mariana County",
+    "group": "supporting",
+    "tags": [
+      "bigfoot",
+      "hamlet",
+      "kirk",
+      "mr mangrove",
+      "skunk ape",
+      "stranger",
+      "swamp"
+    ],
+    "facts": {
+      "occupation": "Skunk Ape hunter",
+      "home": "Near Pelican River, Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-kirk",
+      "ppx-strangers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "arnold",
+    "name": "Arnold",
+    "summary": "Brian Heder's long-time broker, found in the Key Lento area.",
+    "body": [
+      "PowerPyx describes Arnold as Brian's long-time broker and places him by a small building in Key Lento during the Chapter 1 mission Hey Arnold!."
+    ],
+    "role": "Brian Heder's broker",
+    "group": "supporting",
+    "tags": [
+      "arnold",
+      "brian",
+      "broker",
+      "key lento"
+    ],
+    "facts": {
+      "affiliation": "Brian Heder",
+      "occupation": "Broker",
+      "home": "Key Lento area"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-arnold"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mandy",
+    "name": "Mandy",
+    "summary": "A Key Lento resident who rents one of Brian Heder's properties.",
+    "body": [
+      "GTA Wiki says Mandy lives on Peach Palm Drive in Key Lento and rents a property from Brian Heder.",
+      "PowerPyx's walkthrough has a Chapter 1 mission about collecting her rent."
+    ],
+    "role": "Brian's tenant, Key Lento",
+    "group": "supporting",
+    "tags": [
+      "brian",
+      "key lento",
+      "mandy",
+      "rent",
+      "tenant"
+    ],
+    "facts": {
+      "affiliation": "Brian Heder (landlord)",
+      "home": "Peach Palm Drive, Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtawiki-mandy",
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mattia",
+    "name": "Mattia",
+    "summary": "A friend of Jason and Lucia who offers them a job said to lead to better-paid work.",
+    "body": [
+      "PowerPyx says Mattia and Kat hang out with Jason and Lucia, starting from the Rusty Anchor bar in Key Lento, and that Mattia has a henchman called Burim.",
+      "PowerPyx does not state his occupation."
+    ],
+    "role": "Friend offering work",
+    "group": "supporting",
+    "tags": [
+      "burim",
+      "friend",
+      "kat",
+      "key lento",
+      "mattia"
+    ],
+    "facts": {
+      "affiliation": "Kat; Jason Duval and Lucia Caminos (friends)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-dayrelease",
+      "ppx-tourist"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kat",
+    "name": "Kat",
+    "summary": "A friend of Jason and Lucia who appears alongside Mattia.",
+    "body": [
+      "PowerPyx names Kat with Mattia in the Chapter 1 mission Day Release.",
+      "GTA Wiki lists her as a supporting character and friend of both leads, first shown in the second trailer; it gives no occupation or voice actor."
+    ],
+    "role": "Friend of Jason and Lucia",
+    "group": "supporting",
+    "tags": [
+      "friend",
+      "kat",
+      "mattia"
+    ],
+    "facts": {
+      "affiliation": "Mattia; Jason Duval and Lucia Caminos (friends)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-dayrelease",
+      "gtawiki-kat"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "burim",
+    "name": "Burim",
+    "summary": "A henchman who works for Mattia.",
+    "body": [
+      "PowerPyx identifies Burim only as Mattia's henchman."
+    ],
+    "role": "Mattia's henchman",
+    "group": "supporting",
+    "tags": [
+      "burim",
+      "henchman",
+      "mattia"
+    ],
+    "facts": {
+      "affiliation": "Mattia",
+      "occupation": "Henchman"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-dayrelease"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "linda",
+    "name": "Linda",
+    "summary": "The manager at the front desk of the Starlet Motel in Kelly County.",
+    "body": [
+      "PowerPyx says Linda works the front desk of the Starlet Motel in Kelly County, where the player pays for a room."
+    ],
+    "role": "Manager, Starlet Motel",
+    "group": "supporting",
+    "tags": [
+      "kelly county",
+      "linda",
+      "manager",
+      "starlet motel"
+    ],
+    "facts": {
+      "occupation": "Motel manager",
+      "home": "Starlet Motel, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-linda",
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vicki",
+    "name": "Vicki",
+    "summary": "A dancer at the Delights strip club in Port Gellhorn who lives at the Starlet Motel and points the player to local contacts.",
+    "body": [
+      "PowerPyx says Vicki works at Delights, lives in Room 10 of the Starlet Motel, and gives Chapter 2 missions.",
+      "PowerPyx says she is the one who refers the player to the mechanic Moses and that Dunk is her local dealer."
+    ],
+    "role": "Dancer, Delights strip club",
+    "group": "supporting",
+    "tags": [
+      "delights",
+      "port gellhorn",
+      "starlet motel",
+      "strip club",
+      "vicki"
+    ],
+    "facts": {
+      "affiliation": "Delights strip club",
+      "occupation": "Stripper",
+      "home": "Room 10, Starlet Motel, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-girlstrip",
+      "ppx-vicki",
+      "ppx-moses"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "frankie-delight",
+    "name": "Frankie Delight",
+    "summary": "Owner of the Delights strip club and Vicki's boss.",
+    "body": [
+      "PowerPyx names Frankie Delight as the owner of the Delights strip club, where Vicki works."
+    ],
+    "role": "Strip club owner",
+    "group": "supporting",
+    "tags": [
+      "delight",
+      "delights",
+      "frankie",
+      "owner",
+      "strip club"
+    ],
+    "facts": {
+      "affiliation": "Delights strip club",
+      "occupation": "Strip club owner"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-girlstrip",
+      "ppx-vicki"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dunk",
+    "name": "Dunk",
+    "summary": "A Port Gellhorn drug dealer who becomes a fence and marks robbery targets on the map.",
+    "body": [
+      "PowerPyx says Dunk lives in a trailer in Port Gellhorn, sells drugs at the town car wash, and is supplied by a man known as Doctor Bill.",
+      "PowerPyx lists him as a fence unlocked by the Chapter 2 mission Slam Dunk, paying low prices for narcotics and jewelry and very low prices for marked bills.",
+      "PowerPyx says he later phones with robbery tips that mark two locations on the map."
+    ],
+    "role": "Dealer and fence, Port Gellhorn",
+    "group": "supporting",
+    "tags": [
+      "dealer",
+      "dunk",
+      "fence",
+      "port gellhorn",
+      "robbery tips"
+    ],
+    "facts": {
+      "affiliation": "Doctor Bill (supplier)",
+      "occupation": "Drug dealer; fence",
+      "home": "Trailer in Port Gellhorn, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-girlstrip",
+      "ppx-slamdunk",
+      "ppx-fences"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "doctor-bill",
+    "name": "Doctor Bill",
+    "summary": "A retired doctor, nicknamed Doctor Bill with the Pill, who has been Dunk's pill supplier.",
+    "body": [
+      "PowerPyx says Doctor Bill has retired and no longer has access to prescriptions, and that he dealt with the Kolts gang through a dealer named Declan."
+    ],
+    "role": "Retired doctor, pill supplier",
+    "group": "supporting",
+    "tags": [
+      "doctor bill",
+      "dr bill",
+      "dunk",
+      "painkillers",
+      "pills"
+    ],
+    "facts": {
+      "affiliation": "Dunk; Kolts gang (via Declan)",
+      "occupation": "Retired doctor"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-girlstrip",
+      "ppx-slamdunk"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "declan",
+    "name": "Declan",
+    "summary": "A pill dealer inside the Kolts gang.",
+    "body": [
+      "PowerPyx identifies Declan as Doctor Bill's pill dealer within the Kolts gang."
+    ],
+    "role": "Kolts pill dealer",
+    "group": "supporting",
+    "tags": [
+      "dealer",
+      "declan",
+      "kolts",
+      "pills"
+    ],
+    "facts": {
+      "affiliation": "Kolts",
+      "occupation": "Pill dealer"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-slamdunk"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "moses",
+    "name": "Moses",
+    "summary": "A Port Gellhorn mechanic who registers stolen vehicles as personal cars and buys cars that have no tracker.",
+    "body": [
+      "PowerPyx says Moses runs an auto shop in Port Gellhorn, is unlocked by a Chapter 2 mission, stays available after the story, and also sends requests for specific vehicles.",
+      "PowerPyx says cars must be scanned with the Waink app first because he only takes those without a tracker.",
+      "GTA Wiki has a page for an unnamed fence and mechanic at Watkins Auto Parts in Port Gellhorn seen in the Extended Look video; it does not name him, so whether this is Moses is unconfirmed."
+    ],
+    "role": "Mechanic and car fence, Port Gellhorn",
+    "group": "supporting",
+    "tags": [
+      "cars",
+      "fence",
+      "mechanic",
+      "moses",
+      "personal vehicle",
+      "port gellhorn",
+      "vehicles"
+    ],
+    "facts": {
+      "occupation": "Mechanic; vehicle fence",
+      "home": "Port Gellhorn, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-moses",
+      "ppx-fences",
+      "ppx-100",
+      "gtawiki-pgfence"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kyle",
+    "name": "Kyle",
+    "summary": "A farmer at McKittrick Farm in Kelly County who needs help flying his crop duster and fetching chemicals.",
+    "body": [
+      "PowerPyx says Kyle hands out flyers, one of them outside the Starlet Motel reception, and that his farm's airstrip lies just east of the motel.",
+      "PowerPyx says his three missions count toward the Strangers & Freaks trophy and that he grows strawberries with his own chemical spray.",
+      "GTA Wiki's Kyle page instead describes a minor character who is a friend of Dobbs and Jeremy on a bachelor party at Island Dreams; the two pages disagree or describe two different people."
+    ],
+    "role": "Farmer and crop-duster pilot",
+    "group": "supporting",
+    "tags": [
+      "crop duster",
+      "farmer",
+      "kelly county",
+      "kyle",
+      "mckittrick farm",
+      "stranger"
+    ],
+    "facts": {
+      "occupation": "Farmer; crop-duster pilot",
+      "home": "McKittrick Farm, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-kyle-farm",
+      "ppx-kyle-chem",
+      "gtawiki-kyle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bret-vogel",
+    "name": "Bret Vogel",
+    "summary": "Jason's old army friend who runs the Killtelligence hunting business near Mount Kalaga and pays for hunted animals.",
+    "body": [
+      "PowerPyx says Bret texts only Jason during Chapter 2 and that his questline starts in the far north of Lummox County.",
+      "PowerPyx says he hands over a unique Killtelligence SM-69 hunting rifle, marks hunting spots on the map, and pays more for cleanly killed animals.",
+      "PowerPyx notes his contact entry appears under Progress > Contacts once met."
+    ],
+    "role": "Hunting contact, Lummox County",
+    "group": "supporting",
+    "tags": [
+      "army",
+      "bret",
+      "contact",
+      "hunting",
+      "killtelligence",
+      "lummox county",
+      "mount kalaga",
+      "vogel"
+    ],
+    "facts": {
+      "affiliation": "Jason Duval (army friend); Killtelligence",
+      "occupation": "Runs a hunting business",
+      "home": "Near Mount Kalaga, Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-bret",
+      "ppx-100",
+      "ppx-trophy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "billy",
+    "name": "Billy",
+    "summary": "Leader of a dirt bike crew based around the Thrillbilly Mud Club in Kelly County who brings the player along on jobs.",
+    "body": [
+      "PowerPyx says Billy's five-mission strand starts with a race at the Thrillbilly Mud Club and continues with jobs he phones in.",
+      "PowerPyx lists Wyman, Ricardo \"Ricky\" and Brittney as members of his crew."
+    ],
+    "role": "Dirt bike crew leader",
+    "group": "supporting",
+    "tags": [
+      "billy",
+      "crew",
+      "dirt bike",
+      "kelly county",
+      "mud club",
+      "thrillbilly"
+    ],
+    "facts": {
+      "affiliation": "Thrillbilly Mud Club crew",
+      "occupation": "Dirt bike racer",
+      "home": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-thrillbillies",
+      "ppx-trophy",
+      "ppx-strangers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wyman",
+    "name": "Wyman",
+    "summary": "A member of Billy's dirt bike crew who tells Jason and Lucia about the Mud Club races.",
+    "body": [
+      "PowerPyx says Wyman turns up at the Starlet Motel in Kelly County, recommends the Mud Club races, and rides with Billy's crew."
+    ],
+    "role": "Member of Billy's crew",
+    "group": "supporting",
+    "tags": [
+      "billy",
+      "mud club",
+      "starlet motel",
+      "wyman"
+    ],
+    "facts": {
+      "affiliation": "Billy's dirt bike crew"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-thrillbillies",
+      "ppx-coffee"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true,
+    "image": "/images/activities/classic-car-collection.jpg"
+  },
+  {
+    "slug": "ricky",
+    "name": "Ricardo \"Ricky\"",
+    "summary": "A rider in Billy's dirt bike crew.",
+    "body": [
+      "PowerPyx lists Ricardo, known as Ricky, among the members of Billy's dirt bike crew."
+    ],
+    "role": "Member of Billy's crew",
+    "group": "supporting",
+    "tags": [
+      "billy",
+      "dirt bike",
+      "ricardo",
+      "ricky"
+    ],
+    "facts": {
+      "affiliation": "Billy's dirt bike crew"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-thrillbillies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brittney",
+    "name": "Brittney",
+    "summary": "A rider in Billy's dirt bike crew.",
+    "body": [
+      "PowerPyx lists Brittney among the members of Billy's dirt bike crew."
+    ],
+    "role": "Member of Billy's crew",
+    "group": "supporting",
+    "tags": [
+      "billy",
+      "brittney",
+      "dirt bike"
+    ],
+    "facts": {
+      "affiliation": "Billy's dirt bike crew"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-thrillbillies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "yago",
+    "name": "Yago",
+    "summary": "A Vice City street racer whose four-mission strand begins at a race in Salton.",
+    "body": [
+      "PowerPyx says Yago is met at a Hit 'n' Run VC race in Salton after a text from Manuel, and that he then offers three more missions, two of them for Jason only.",
+      "PowerPyx counts his strand toward the Strangers & Freaks trophy."
+    ],
+    "role": "Street racer, Vice City",
+    "group": "supporting",
+    "tags": [
+      "racer",
+      "salton",
+      "stranger",
+      "street race",
+      "vice city",
+      "yago"
+    ],
+    "facts": {
+      "occupation": "Street racer",
+      "home": "Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-streetrace",
+      "ppx-strangers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "manuel",
+    "name": "Manuel",
+    "summary": "A contact of Dre'Quan who adds the player to a group chat and invites them to street races.",
+    "body": [
+      "PowerPyx says Manuel texts the player about the Salton street race a few minutes after the Chapter 3 mission Dealer's Choice."
+    ],
+    "role": "Dre'Quan's racing contact",
+    "group": "supporting",
+    "tags": [
+      "dre'quan",
+      "group chat",
+      "manuel",
+      "street race"
+    ],
+    "facts": {
+      "affiliation": "Dre'Quan Priest"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-streetrace"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "andy",
+    "name": "Andy",
+    "summary": "A woman who has joined the vape-selling group Cellerica and tries to recruit Lucia from her home in Belville.",
+    "body": [
+      "PowerPyx says Andy phones Lucia in Chapter 3 and texts a new home address in Belville, Leonard County; her five missions are for Lucia only.",
+      "PowerPyx says her house came from Cellerica and that her mentor in the group is called Bailey."
+    ],
+    "role": "Cellerica recruiter, Belville",
+    "group": "supporting",
+    "tags": [
+      "andy",
+      "belville",
+      "cellerica",
+      "lucia",
+      "manifestick",
+      "stranger",
+      "vape"
+    ],
+    "facts": {
+      "affiliation": "Cellerica",
+      "home": "Belville, Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-cellerichain",
+      "ppx-trophy",
+      "ppx-strangers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bailey",
+    "name": "Bailey",
+    "summary": "Andy's mentor, or \"pillar\", inside Cellerica.",
+    "body": [
+      "PowerPyx says new Cellerica members get a mentor called a pillar and names Bailey as Andy's."
+    ],
+    "role": "Cellerica mentor",
+    "group": "supporting",
+    "tags": [
+      "andy",
+      "bailey",
+      "cellerica",
+      "pillar"
+    ],
+    "facts": {
+      "affiliation": "Cellerica",
+      "occupation": "Pillar (mentor)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-cellerichain"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "yasmani",
+    "name": "Yasmani",
+    "summary": "A Little Cuba store owner who fences goods at the best jewelry prices and commissions robberies.",
+    "body": [
+      "PowerPyx lists Yasmani as a fence in Little Cuba, Vice City, paying high prices for jewelry and marked bills and medium prices for narcotics, and available after the story.",
+      "PowerPyx says he asks for specific pieces from jewelry stores, then offers ATM and payday loan jobs, and gives the player a Snap Gun.",
+      "PowerPyx says that after two payday loan robberies he sells armored van route tips for $10,000, and that goods can be dropped at the player's garage with him chosen as buyer."
+    ],
+    "role": "Fence, Little Cuba",
+    "group": "supporting",
+    "tags": [
+      "atm",
+      "fence",
+      "jewelry",
+      "little cuba",
+      "payday loans",
+      "snap gun",
+      "vice city",
+      "yasmani"
+    ],
+    "facts": {
+      "occupation": "Fence; store owner",
+      "home": "Little Cuba, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fences",
+      "ppx-yasmani",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "randy",
+    "name": "Randy",
+    "summary": "A Vice City car fence with a showroom who pays well for a wish list of high-end cars.",
+    "body": [
+      "PowerPyx places Randy in Balsero, Vice City, marks him with a green RK icon, and says his wish list has 16 sports cars whose locations he reveals one at a time.",
+      "PowerPyx says he takes high-end cars with advanced trackers, pays roughly $35,000 or more for one in perfect condition, and stays available after the story.",
+      "GTA Wiki also describes him as a car fence who asks Jason or Lucia to bring him vehicles."
+    ],
+    "role": "Car fence, Vice City",
+    "group": "supporting",
+    "tags": [
+      "balsero",
+      "cars",
+      "fence",
+      "key cloner",
+      "randy",
+      "showroom",
+      "vice city",
+      "wish list"
+    ],
+    "facts": {
+      "occupation": "Car fence",
+      "home": "Balsero, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fences",
+      "ppx-randy",
+      "ppx-trophy",
+      "ppx-100",
+      "gtawiki-randy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tyrone",
+    "name": "Tyrone",
+    "summary": "A La Perle contact who pays the best prices for narcotics and has Jason go after Kitty Litter drug labs.",
+    "body": [
+      "PowerPyx lists Tyrone as a fence in La Perle, Vice City, paying high prices for narcotics and medium prices for jewelry and marked bills, available after the story.",
+      "PowerPyx says he is found at an apartment complex in La Perle and that his lab missions are for Jason only.",
+      "GTA Wiki says he appears to be an acquaintance of Dre'Quan Priest and to share a La Perle residence with several people; it gives no voice actor."
+    ],
+    "role": "Fence, La Perle",
+    "group": "supporting",
+    "tags": [
+      "fence",
+      "kitty litter",
+      "la perle",
+      "labs",
+      "narcotics",
+      "tyrone",
+      "vice city"
+    ],
+    "facts": {
+      "affiliation": "Dre'Quan Priest (acquaintance, per GTA Wiki)",
+      "occupation": "Fence",
+      "home": "La Perle, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fences",
+      "ppx-kitty",
+      "ppx-trophy",
+      "gtawiki-tyrone"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "eddie-acosta",
+    "name": "Eddie Acosta",
+    "summary": "A crypto enthusiast met at a bar who invites the player to a party in Heathcliff Heights.",
+    "body": [
+      "PowerPyx says Eddie texts the invitation a few days after the Chapter 4 mission Pool Day and that it can only be taken up while playing solo."
+    ],
+    "role": "Crypto enthusiast",
+    "group": "supporting",
+    "tags": [
+      "acosta",
+      "crypto",
+      "eddie",
+      "heathcliff heights",
+      "party",
+      "stranger"
+    ],
+    "facts": {
+      "occupation": "Crypto enthusiast",
+      "home": "Party held in Heathcliff Heights"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-eddie",
+      "ppx-strangers"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pilot-pete",
+    "name": "Pilot Pete",
+    "summary": "A pilot who flies drug drops and hires Jason for paid air delivery jobs out of Sundown Private Airfield.",
+    "body": [
+      "PowerPyx says Pete phones Jason early in Chapter 4, that the work starts at Sundown Private Airfield in Leonard County, and that his strand is for Jason only.",
+      "PowerPyx gives his pay as $12,000 for the first job and $20,000 for later deliveries, and counts the strand toward the Strangers & Freaks trophy."
+    ],
+    "role": "Smuggling pilot",
+    "group": "supporting",
+    "tags": [
+      "airfield",
+      "deliveries",
+      "jason",
+      "leonard county",
+      "pete",
+      "pilot pete",
+      "plane",
+      "stranger"
+    ],
+    "facts": {
+      "occupation": "Pilot",
+      "home": "Sundown Private Airfield, Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pete",
+      "ppx-strangers",
+      "ppx-clearskies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mia-caminos",
+    "name": "Mia Caminos",
+    "summary": "Lucia's mother, who has just opened her own real estate business.",
+    "body": [
+      "PowerPyx says Mia gives Lucia-only missions in Chapter 3, one of them titled South Leonida Real Estate."
+    ],
+    "role": "Lucia's mother, realtor",
+    "group": "supporting",
+    "tags": [
+      "caminos",
+      "lucia",
+      "mia",
+      "mother",
+      "real estate"
+    ],
+    "facts": {
+      "affiliation": "Lucia Caminos (daughter)",
+      "occupation": "Real estate business owner"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mia",
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lorena",
+    "name": "Lorena",
+    "summary": "A person the player sends money to in two Chapter 3 objectives.",
+    "body": [
+      "PowerPyx's walkthrough lists the objectives Send Money to Lorena and Send More Money to Lorena and says nothing more about who she is."
+    ],
+    "role": "Recipient of money transfers",
+    "group": "supporting",
+    "tags": [
+      "lorena",
+      "money"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "felipe",
+    "name": "Felipe",
+    "summary": "The driver in Raul Bautista's robbery crew.",
+    "body": [
+      "PowerPyx says Felipe keeps a prepared vehicle outside the crew's planning room in Stockyard."
+    ],
+    "role": "Driver, Raul's crew",
+    "group": "supporting",
+    "tags": [
+      "crew",
+      "driver",
+      "felipe",
+      "raul",
+      "stockyard"
+    ],
+    "facts": {
+      "affiliation": "Raul Bautista's crew",
+      "occupation": "Driver",
+      "home": "Stockyard, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-creditcheck"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "karim",
+    "name": "Karim",
+    "summary": "The tech expert in Raul Bautista's crew, who cuts alarms and marks the next bank to rob.",
+    "body": [
+      "PowerPyx describes Karim's role in the crew and has Jason meet him at a boatyard in La Perle."
+    ],
+    "role": "Tech expert, Raul's crew",
+    "group": "supporting",
+    "tags": [
+      "alarms",
+      "bank jobs",
+      "crew",
+      "karim",
+      "raul",
+      "tech"
+    ],
+    "facts": {
+      "affiliation": "Raul Bautista's crew",
+      "occupation": "Tech expert"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-creditcheck",
+      "ppx-crosstown"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "andrea",
+    "name": "Andrea",
+    "summary": "The member of Raul Bautista's crew who handles comms and disguises and offers the player mask sets.",
+    "body": [
+      "PowerPyx says Andrea is found upstairs in the crew's planning room in Stockyard and gives missions to both Lucia and Jason."
+    ],
+    "role": "Comms and disguises, Raul's crew",
+    "group": "supporting",
+    "tags": [
+      "andrea",
+      "comms",
+      "crew",
+      "disguises",
+      "masks",
+      "raul"
+    ],
+    "facts": {
+      "affiliation": "Raul Bautista's crew",
+      "occupation": "Comms and disguises",
+      "home": "Stockyard, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-creditcheck",
+      "ppx-andrea",
+      "ppx-sinfrontera"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "monty",
+    "name": "Monty",
+    "summary": "A senior enforcer for the La Polilla Negra cartel.",
+    "body": [
+      "PowerPyx describes Monty as a high-up La Polilla Negra enforcer encountered at a cockfight in Watson Bay."
+    ],
+    "role": "La Polilla Negra enforcer",
+    "group": "supporting",
+    "tags": [
+      "cartel",
+      "enforcer",
+      "la polilla negra",
+      "monty",
+      "watson bay"
+    ],
+    "facts": {
+      "affiliation": "La Polilla Negra",
+      "occupation": "Enforcer"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-andrea"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nicole-park",
+    "name": "Nicole Park",
+    "summary": "A security expert for Sinfrontera National Bank who is guarded by La Polilla Negra.",
+    "body": [
+      "PowerPyx names Nicole Park as the bank's security expert and says she has a La Polilla Negra protection detail."
+    ],
+    "role": "Bank security expert",
+    "group": "supporting",
+    "tags": [
+      "bank",
+      "nicole",
+      "park",
+      "security",
+      "sinfrontera"
+    ],
+    "facts": {
+      "affiliation": "Sinfrontera National Bank",
+      "occupation": "Security expert"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sinfrontera",
+      "ppx-security"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "abe-gonzalez",
+    "name": "Abe Gonzalez",
+    "summary": "A man the player meets in the Chapter 4 mission Lawyer Up and then pays fees to.",
+    "body": [
+      "PowerPyx's walkthrough introduces him in a mission titled Lawyer Up (Meet Abe Gonzalez) and lists Pay Abe's Fee objectives in Chapters 4 and 5; it gives no other detail."
+    ],
+    "role": "Chapter 4 contact",
+    "group": "supporting",
+    "tags": [
+      "abe",
+      "fee",
+      "gonzalez",
+      "lawyer"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nate",
+    "name": "Nate",
+    "summary": "A contact Lucia calls and spends time with during the Chapter 4 airport job preparations.",
+    "body": [
+      "PowerPyx's walkthrough lists Call Nate and Cash Injections (Hang Out With Nate) as Lucia-only missions and gives no description of him."
+    ],
+    "role": "Chapter 4 contact",
+    "group": "supporting",
+    "tags": [
+      "chapter 4",
+      "lucia",
+      "nate"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kordell",
+    "name": "Kordell",
+    "summary": "Head of a crew the player helps during Chapter 4.",
+    "body": [
+      "PowerPyx's walkthrough lists Team Building (Meet Kordell), a Lucia-only mission, and two missions about helping Kordell's crew; it gives no description of him."
+    ],
+    "role": "Crew leader",
+    "group": "supporting",
+    "tags": [
+      "chapter 4",
+      "crew",
+      "kordell"
+    ],
+    "facts": {
+      "affiliation": "Kordell's crew"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "valentina",
+    "name": "Valentina",
+    "summary": "An associate of Andrés de León and Megamundo's corporate staff, also seen in GTA Online.",
+    "body": [
+      "GTA Wiki says Valentina is called Val by Lucia, appears to be a client of Mr. Faber, and first appeared in GTA Online's Money Fronts update; it cites the Extended Look video for her GTA VI role and gives no voice actor.",
+      "PowerPyx's walkthrough names her only in a Chapter 4 objective, Call Valentina Back."
+    ],
+    "role": "Associate of Andrés de León",
+    "group": "supporting",
+    "tags": [
+      "andres",
+      "gta online",
+      "megamundo",
+      "val",
+      "valentina"
+    ],
+    "facts": {
+      "affiliation": "Andrés de León; Petra Navarro; Mr. Faber"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtawiki-valentina",
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "andres-de-leon",
+    "name": "Andrés de León",
+    "summary": "A man connected to Megamundo's corporate staff for whom Jason works security.",
+    "body": [
+      "GTA Wiki says Andrés appears to be in the entertainment business and knows Valentina and Megamundo's Petra Navarro, citing the Extended Look video; it gives no voice actor.",
+      "PowerPyx's walkthrough lists a Jason-only Chapter 4 mission about working security for him."
+    ],
+    "role": "Security client",
+    "group": "supporting",
+    "tags": [
+      "andres",
+      "de leon",
+      "megamundo",
+      "security",
+      "valentina"
+    ],
+    "facts": {
+      "affiliation": "Valentina; Petra Navarro (Megamundo); Elonzo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtawiki-andres",
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "rafa",
+    "name": "Rafa",
+    "summary": "A character named in two Chapter 4 mission titles.",
+    "body": [
+      "PowerPyx's walkthrough names Rafa only in mission titles and does not say who he is."
+    ],
+    "role": "Chapter 4 character",
+    "group": "supporting",
+    "tags": [
+      "chapter 4",
+      "rafa"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mendez",
+    "name": "Méndez",
+    "summary": "A Vice City Police Department officer.",
+    "body": [
+      "GTA Wiki identifies him as a VCPD officer by his badge and cites the second trailer, the Extended Look video and the launch trailer; it gives no rank or voice actor.",
+      "PowerPyx's walkthrough refers to him as Captain Méndez."
+    ],
+    "role": "VCPD officer",
+    "group": "supporting",
+    "tags": [
+      "captain",
+      "mendez",
+      "police",
+      "vcpd",
+      "vice city"
+    ],
+    "facts": {
+      "affiliation": "Vice City Police Department",
+      "occupation": "Police officer",
+      "home": "Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtawiki-mendez",
+      "ppx-tourist"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "evelyn-andrews",
+    "name": "Evelyn Andrews",
+    "summary": "Owner of Evelyn Andrews Antiques in Capri.",
+    "body": [
+      "PowerPyx names her as the store's owner and a colleague of the antiques appraiser Benedict Halifax."
+    ],
+    "role": "Antique store owner, Capri",
+    "group": "supporting",
+    "tags": [
+      "andrews",
+      "antiques",
+      "capri",
+      "evelyn"
+    ],
+    "facts": {
+      "affiliation": "Benedict Halifax (colleague)",
+      "occupation": "Antique store owner",
+      "home": "Capri, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-dubious"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "benedict-halifax",
+    "name": "Benedict Halifax",
+    "summary": "A British antiques dealer who appraises items and is linked to the Capri antique store.",
+    "body": [
+      "PowerPyx describes Halifax as a British antiquer and a colleague of Evelyn Andrews."
+    ],
+    "role": "British antiques appraiser",
+    "group": "supporting",
+    "tags": [
+      "antiques",
+      "appraiser",
+      "benedict",
+      "british",
+      "halifax"
+    ],
+    "facts": {
+      "affiliation": "Evelyn Andrews Antiques",
+      "occupation": "Antiques appraiser"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-dubious"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dobbs",
+    "name": "Dobbs",
+    "summary": "One of three bachelor party guests who join Kenton's dive trip from Island Dreams.",
+    "body": [
+      "PowerPyx names Dobbs as one of the three bachelors on the dive.",
+      "GTA Wiki lists Dobbs and Jeremy as friends on Jeremy's bachelor party."
+    ],
+    "role": "Bachelor party tourist",
+    "group": "supporting",
+    "tags": [
+      "bachelor party",
+      "dobbs",
+      "island dreams",
+      "tourist"
+    ],
+    "facts": {
+      "affiliation": "Jeremy's bachelor party"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-island",
+      "gtawiki-kyle"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

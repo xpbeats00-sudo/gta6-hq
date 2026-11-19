@@ -162,13 +162,15 @@ pub fn validate(root: &Path) -> Report {
 }
 
 /// Evidence labels a Field Manual block may carry.
-pub const EVIDENCE_LABELS: [&str; 6] = [
+pub const EVIDENCE_LABELS: [&str; 7] = [
     "demonstrated",
     "developer-described",
     "preview-reported",
     "interpretation",
     "unknown",
     "verified-after-release",
+    // Reported by reviews or guides written from the released game; not checked in play by this app.
+    "launch-reported",
 ];
 
 /// `data/manual.json`: `Ok(None)` if there is no manual, `Err` if it cannot be read.

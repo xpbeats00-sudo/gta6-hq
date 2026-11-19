@@ -1,0 +1,3386 @@
+[
+  {
+    "slug": "mariana-county",
+    "name": "Mariana County",
+    "summary": "The southern county of Leonida, covering the Keys, the swamps of Pelican Valley, Grassrivers, Watson Bay and Capri.",
+    "body": [
+      "PowerPyx lists it as one of five counties on the in-game map and calls it the southern region.",
+      "PowerPyx lists its sub-regions as Mile Zero Air Station, Southwind, Key Lento, Pelican Valley, Watson Bay, Grassrivers, Capri and North Mariana County.",
+      "PowerPyx names the Nehrling River as a feature of North Mariana County."
+    ],
+    "region": "Leonida",
+    "tags": [
+      "county",
+      "keys",
+      "mariana",
+      "south"
+    ],
+    "facts": {
+      "type": "county",
+      "districts": [
+        "Mile Zero Air Station",
+        "Southwind",
+        "Key Lento",
+        "Pelican Valley",
+        "Watson Bay",
+        "Grassrivers",
+        "Capri",
+        "North Mariana County"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-dale-county",
+    "name": "Vice-Dale County",
+    "summary": "The county that holds Vice City, Vice Beach, the town of Hamlet and the airport, VCIA.",
+    "body": [
+      "PowerPyx lists it as one of five counties on the in-game map and labels it the main city region.",
+      "PowerPyx lists its sub-regions as Hamlet, South Vice-Dale County, VCIA, Vice City, West Vice-Dale County and Vice Beach."
+    ],
+    "region": "Leonida",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "vice"
+    ],
+    "facts": {
+      "type": "county",
+      "districts": [
+        "Hamlet",
+        "South Vice-Dale County",
+        "VCIA",
+        "Vice City",
+        "West Vice-Dale County",
+        "Vice Beach"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kelly-county",
+    "name": "Kelly County",
+    "summary": "The north-western county of Leonida, home to Port Gellhorn, Ambrosia, Draper Island and Buckskin Swamp.",
+    "body": [
+      "PowerPyx lists it as one of five counties on the in-game map and calls it the north-west region.",
+      "PowerPyx lists its sub-regions as South Kelly County, Port Gellhorn, Draper Island and North Kelly County.",
+      "PowerPyx's store lists also place Ambrosia in Kelly County, although Ambrosia is missing from its list of map regions.",
+      "GTABase likewise places Port Gellhorn and Ambrosia in Kelly County."
+    ],
+    "region": "Leonida",
+    "tags": [
+      "county",
+      "kelly",
+      "north",
+      "west"
+    ],
+    "facts": {
+      "type": "county",
+      "districts": [
+        "South Kelly County",
+        "Port Gellhorn",
+        "Draper Island",
+        "North Kelly County"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-spray",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonard-county",
+    "name": "Leonard County",
+    "summary": "The north-eastern county of Leonida, containing Belville, Waning Sands and Lake Leonida.",
+    "body": [
+      "PowerPyx lists it as one of five counties on the in-game map and calls it the north-east region.",
+      "PowerPyx lists its sub-regions as South Leonard County, Belville, Waning Sands and North Leonard County.",
+      "GTABase also places Belville in Leonard County."
+    ],
+    "region": "Leonida",
+    "tags": [
+      "county",
+      "east",
+      "leonard",
+      "north"
+    ],
+    "facts": {
+      "type": "county",
+      "districts": [
+        "South Leonard County",
+        "Belville",
+        "Waning Sands",
+        "North Leonard County"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lummox-county",
+    "name": "Lummox County",
+    "summary": "The northern county of Leonida, containing Mount Kalaga National Park, Grayson, Bonanza and Millport.",
+    "body": [
+      "PowerPyx lists it as one of five counties on the in-game map and calls it the northern region.",
+      "PowerPyx lists its sub-regions as South West Lummox County, Grayson, Bonanza, East Lummox County and Millport."
+    ],
+    "region": "Leonida",
+    "tags": [
+      "county",
+      "lummox",
+      "north"
+    ],
+    "facts": {
+      "type": "county",
+      "districts": [
+        "South West Lummox County",
+        "Grayson",
+        "Bonanza",
+        "East Lummox County",
+        "Millport"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mile-zero-air-station",
+    "name": "Mile Zero Air Station",
+    "summary": "A military air base on an island at the south-west edge of the map, where fighter jets and tanks are parked.",
+    "body": [
+      "PowerPyx says the jets stand around the airfield in the northern half of the base and the tanks in the south.",
+      "PowerPyx says taking a jet brings a four-star wanted level and taking a tank a three-star one."
+    ],
+    "region": "Mariana County",
+    "tags": [
+      "air",
+      "airfield",
+      "base",
+      "county",
+      "fighter",
+      "jet",
+      "mariana",
+      "mile",
+      "military",
+      "station",
+      "tank",
+      "zero"
+    ],
+    "facts": {
+      "type": "military base",
+      "county": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-jet",
+      "ppx-tank"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "southwind",
+    "name": "Southwind",
+    "summary": "A sub-region of Mariana County that takes in the Riquezas Keys, Permit Keys, Maroon Key and Abismo Key.",
+    "body": [
+      "PowerPyx lists the Riquezas Keys, Permit Keys, Maroon Key, Abismo Key and Leonida Bay under Southwind.",
+      "PowerPyx lists a Pay 'n' Spray and a Xero gas station in Southwind."
+    ],
+    "region": "Mariana County",
+    "tags": [
+      "county",
+      "keys",
+      "mariana",
+      "region",
+      "southwind"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Mariana County",
+      "districts": [
+        "Riquezas Keys",
+        "Permit Keys",
+        "Maroon Key",
+        "Abismo Key",
+        "Leonida Bay"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-spray",
+      "ppx-gas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "key-lento",
+    "name": "Key Lento",
+    "summary": "A sub-region of Mariana County in the Keys, with Gambit Bay, the Shoeless Keys, Corsair Key and Peregrine Bay.",
+    "body": [
+      "PowerPyx lists Gambit Bay, the Shoeless Keys, Corsair Key, Peregrine Bay and the Leonida Straits under Key Lento.",
+      "PowerPyx lists a Fleeca bank, a Pay 'n' Spray, a 247 gas station, a Marbles fast food store and a One Stop Liquor in Key Lento.",
+      "PowerPyx places the first two fences of the story in South Key Lento.",
+      "GTABase places the starting safehouse in Key Lento, Leonida Keys."
+    ],
+    "region": "Mariana County",
+    "tags": [
+      "county",
+      "key",
+      "keys",
+      "lento",
+      "mariana",
+      "region"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Mariana County",
+      "districts": [
+        "Gambit Bay",
+        "Shoeless Keys",
+        "Corsair Key",
+        "Peregrine Bay",
+        "Leonida Straits"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-banks",
+      "ppx-spray",
+      "ppx-fence",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pelican-valley",
+    "name": "Pelican Valley",
+    "summary": "A swamp region of Mariana County with Cottomouth Lake, Wetman Bay, Gullet Marsh and the Pelican River.",
+    "body": [
+      "PowerPyx labels Pelican Valley as swamps and spells the lake 'Cottomouth Lake'."
+    ],
+    "region": "Mariana County",
+    "tags": [
+      "county",
+      "mariana",
+      "pelican",
+      "swamp",
+      "swamps",
+      "valley"
+    ],
+    "facts": {
+      "type": "swamp",
+      "county": "Mariana County",
+      "districts": [
+        "Cottomouth Lake",
+        "Wetman Bay",
+        "Gullet Marsh",
+        "Pelican River"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "watson-bay",
+    "name": "Watson Bay",
+    "summary": "A sub-region of Mariana County that includes Bobcat Key and Bobcat Bight.",
+    "body": [
+      "PowerPyx lists a Shorefront bank, a Pay 'n' Spray and a Globe Oil gas station in Watson Bay.",
+      "PowerPyx lists a Top Fun drone location at Watson Bay with courses named Leonida RC Raceway, Watson Bay and Marshland Animal Park.",
+      "GTABase places the Ultimate Edition's Paradise Garage in Watson Bay."
+    ],
+    "region": "Mariana County",
+    "tags": [
+      "bay",
+      "county",
+      "mariana",
+      "region",
+      "watson"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Mariana County",
+      "districts": [
+        "Bobcat Key",
+        "Bobcat Bight"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-banks",
+      "ppx-spray",
+      "ppx-drone",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "capri",
+    "name": "Capri",
+    "summary": "A sub-region of Mariana County with Tortoise Lake, Capri Sound and Belpoint, plus a train station and formal clothing stores.",
+    "body": [
+      "PowerPyx lists Tortoise Lake, Capri Sound, Belpoint and the Gulf of Leonida under Capri.",
+      "PowerPyx lists a Capri train station, Nola and Ferruccio Tucci clothing stores, a Callus shoe store and Xero and LTD gas stations there.",
+      "GTABase places the Vela Rota Driver Garage in Capri, Mariana County."
+    ],
+    "region": "Mariana County",
+    "tags": [
+      "capri",
+      "county",
+      "mariana",
+      "region"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Mariana County",
+      "districts": [
+        "Tortoise Lake",
+        "Capri Sound",
+        "Belpoint",
+        "Gulf of Leonida"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-trains",
+      "ppx-clothing",
+      "ppx-footwear",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "belpoint",
+    "name": "Belpoint",
+    "summary": "A named area within Capri in Mariana County, site of the Belpoint Lighthouse.",
+    "body": [
+      "PowerPyx lists Belpoint under Capri and lists the Belpoint Lighthouse as a WAiNK landmark scan there."
+    ],
+    "region": "Capri, Mariana County",
+    "tags": [
+      "area",
+      "belpoint",
+      "county",
+      "mariana"
+    ],
+    "facts": {
+      "type": "area",
+      "county": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-landmarks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "corsair-key",
+    "name": "Corsair Key",
+    "summary": "A key listed under Key Lento in Mariana County, where the Triangler Sculpture stands.",
+    "body": [
+      "PowerPyx lists the Triangler Sculpture as a WAiNK sculpture scan at Corsair Key."
+    ],
+    "region": "Key Lento, Mariana County",
+    "tags": [
+      "corsair",
+      "county",
+      "island",
+      "key",
+      "mariana"
+    ],
+    "facts": {
+      "type": "island",
+      "county": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-sculpt"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hamlet",
+    "name": "Hamlet",
+    "summary": "A town south of Vice City in Vice-Dale County, with Boone Speedway in its south-west corner.",
+    "body": [
+      "PowerPyx describes Hamlet as the town south of Vice City.",
+      "PowerPyx lists a Pay 'n' Spray, Hamlet Traders gun store, Hamlet Pawn, Hamlet Thrift, a Quick Buck payday lender and a Pollo Diablo in Hamlet.",
+      "PowerPyx lists a Top Fun drone location at Hamlet with courses named Deep Roots, Power Station South and Power Station North.",
+      "PowerPyx's pool guide puts Skeeter's bar on the south edge of Hamlet but files it under Mariana County, which disagrees with its map list."
+    ],
+    "region": "Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "hamlet",
+      "town",
+      "vice"
+    ],
+    "facts": {
+      "type": "town",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-races",
+      "ppx-spray",
+      "ppx-drone",
+      "ppx-pool"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vcia",
+    "name": "VCIA",
+    "summary": "The airport region of Vice-Dale County; a large Fleeca bank and a Pollo Diablo carry its name.",
+    "body": [
+      "PowerPyx lists VCIA as its own sub-region of Vice-Dale County.",
+      "PowerPyx lists train stations called Vice City Airport Village and Vice City Airport Central, and a station on a line it calls the Mule Airport Line.",
+      "The pages read give only the abbreviation VCIA; none of them spells the name out."
+    ],
+    "region": "Vice-Dale County",
+    "tags": [
+      "airport",
+      "city",
+      "county",
+      "dale",
+      "international",
+      "vcia",
+      "vice"
+    ],
+    "facts": {
+      "type": "airport",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-banks",
+      "ppx-fastfood",
+      "ppx-trains"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "south-vice-dale-county",
+    "name": "South Vice-Dale County",
+    "summary": "A named sub-region in the south of Vice-Dale County.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "region",
+      "south",
+      "vice"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "west-vice-dale-county",
+    "name": "West Vice-Dale County",
+    "summary": "A named sub-region in the west of Vice-Dale County, with a Pay 'n' Spray and a Marbles fast food store.",
+    "body": [
+      "PowerPyx lists a Pay 'n' Spray and a Marbles in West Vice-Dale County."
+    ],
+    "region": "Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "region",
+      "vice",
+      "west"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-spray",
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-beach",
+    "name": "Vice Beach",
+    "summary": "A sub-region of Vice-Dale County made up of Ocean Beach and Washington Beach on the Atlantic side.",
+    "body": [
+      "PowerPyx lists Ocean Beach, Washington Beach and the Atlantic Ocean under Vice Beach.",
+      "PowerPyx lists a Top Fun drone location at Vice Beach with courses named Leaf Links, Vice Regal Hotel and St. Vitus Medical Center.",
+      "GTABase places the Bonita Court Garage in Vice Beach."
+    ],
+    "region": "Vice-Dale County",
+    "tags": [
+      "beach",
+      "county",
+      "dale",
+      "region",
+      "vice"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Vice-Dale County",
+      "districts": [
+        "Ocean Beach",
+        "Washington Beach"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-drone",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ocean-beach",
+    "name": "Ocean Beach",
+    "summary": "A district of Vice Beach packed with hotels, bars, banks and clothing stores.",
+    "body": [
+      "PowerPyx lists 60 bars in Ocean Beach, most of them hotel pool, rooftop and beach bars.",
+      "PowerPyx lists seven bank jobs in Ocean Beach, three small banks and four large vaults.",
+      "PowerPyx says supercars can be found at Ocean Beach hotels.",
+      "PowerPyx lists a Pay 'n' Spray, a Burger Shot, a Pollo Diablo, two Hit 'N Run VC street races and many clothing and shoe stores there.",
+      "GTABase places the Atlantic Court, Thompson Court and Shore Court garages in Ocean Beach."
+    ],
+    "region": "Vice Beach, Vice-Dale County",
+    "tags": [
+      "beach",
+      "county",
+      "dale",
+      "district",
+      "hotels",
+      "ocean",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-bars",
+      "ppx-banks",
+      "ppx-100",
+      "ppx-races",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true,
+    "image": "/images/artwork/real-dimez-ocean-view.webp"
+  },
+  {
+    "slug": "washington-beach",
+    "name": "Washington Beach",
+    "summary": "A district of Vice Beach with a Fleeca bank, a Pay 'n' Spray, beach vendors and several public sculptures.",
+    "body": [
+      "PowerPyx lists the sculptures Neptune Rises, the Vice Museum of Art Sculpture and the Princes Robot Bubblegum Statue at Washington Beach.",
+      "PowerPyx lists a Fleeca bank, a Pay 'n' Spray and an Endzone sportswear store there.",
+      "GTABase lists a Washington Beach Marina in Vice Beach without saying what it is used for."
+    ],
+    "region": "Vice Beach, Vice-Dale County",
+    "tags": [
+      "beach",
+      "county",
+      "dale",
+      "district",
+      "vice",
+      "washington"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-sculpt",
+      "ppx-banks",
+      "ppx-spray",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "southside",
+    "name": "Southside",
+    "summary": "A district of Vice City with Slinger clothing, Podium Sports shoes, a Xero car wash and a payday lender.",
+    "body": [
+      "PowerPyx lists a Slinger, a Podium Sports, a Xero Car Wash, a Payday Loans Store, a Chacey's and a Peewees in Southside.",
+      "PowerPyx places the PTT Youngin$ gang compound of the Ultimate Edition robbery in Southside."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "district",
+      "southside",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-clothing",
+      "ppx-carwash",
+      "ppx-payday",
+      "ppx-ue"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "peacock-bay",
+    "name": "Peacock Bay",
+    "summary": "A district of Vice City with Lombank and Fleeca branches, a Nola formal store and rooftop bars.",
+    "body": [
+      "PowerPyx lists small Lombank and Fleeca banks, a Slinger, a Nola, a Los Bollos cafe and two Peacock Bay tower rooftop bars."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "bay",
+      "city",
+      "county",
+      "dale",
+      "district",
+      "peacock",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-banks",
+      "ppx-clothing",
+      "ppx-bars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tequesta",
+    "name": "Tequesta",
+    "summary": "A district of Vice City with a large Fleeca bank, a train station and the Pixel Fountain sculpture.",
+    "body": [
+      "PowerPyx lists a large Fleeca vault, a Tequesta train station, Tequesta Guns & Ammo, a Tech Point, a Podium Sports and an Uncle Jack's Liquor.",
+      "PowerPyx lists the Pixel Fountain as a WAiNK sculpture scan in Tequesta."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "district",
+      "tequesta",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-banks",
+      "ppx-trains",
+      "ppx-guns",
+      "ppx-sculpt"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tequesta-retreat",
+    "name": "Tequesta Retreat",
+    "summary": "A district of Vice City that contains the Pegassi Residences building and its garage.",
+    "body": [
+      "PowerPyx describes underground parking at Pegassi Residences in Tequesta Retreat.",
+      "GTABase places the Pegassi Residences Garage in Tequesta Retreat."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "district",
+      "retreat",
+      "tequesta",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-ue",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "downtown",
+    "name": "Downtown",
+    "summary": "The central district of Vice City, with large Lombank and Fleeca vaults, train stations and the Dock Ring landmark.",
+    "body": [
+      "PowerPyx lists a small Shorefront bank and large Lombank and Fleeca vaults Downtown.",
+      "PowerPyx lists train stations named Downtown and Downtown North, a Pay 'n' Spray and the Dock Ring landmark scan.",
+      "PowerPyx lists a Top Fun drone location Downtown with courses named Future Leonida Art Museum, Shoreline Market and Wildland Zoo."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "district",
+      "downtown",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-banks",
+      "ppx-trains",
+      "ppx-landmarks",
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "little-cuba",
+    "name": "Little Cuba",
+    "summary": "A district of Vice City with a payday lender, a WHS shoe store and a souvenir store.",
+    "body": [
+      "PowerPyx lists a Payday Loans Store, a WHS and the Little Cuba Souvenir Store there.",
+      "PowerPyx says one of the Vice City fences operates from Little Cuba from Chapter 3."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "cuba",
+      "dale",
+      "district",
+      "little",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-payday",
+      "ppx-footwear",
+      "ppx-fence"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "salton",
+    "name": "Salton",
+    "summary": "A district of Vice City with a Pay 'n' Spray, a RON car wash and three Hit 'N Run VC street races.",
+    "body": [
+      "PowerPyx lists a Pay 'n' Spray, a RON Car Wash, a Marbles and a Chacey's in Salton.",
+      "GTABase places the 7th Avenue Garage in Salton."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "district",
+      "salton",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-spray",
+      "ppx-carwash",
+      "ppx-races",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rockridge",
+    "name": "Rockridge",
+    "summary": "A district of Vice City with a Shorefront bank, a payday lender and a Peewees.",
+    "body": [
+      "PowerPyx lists a small Shorefront bank, a Payday Loans Store and a Peewees in Rockridge."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "district",
+      "rockridge",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-banks",
+      "ppx-payday",
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "crosstown",
+    "name": "Crosstown",
+    "summary": "A district of Vice City with its own train station, a pawn-and-gun store and a barber.",
+    "body": [
+      "PowerPyx lists a Crosstown train station, Pawn & Gun - Crosstown and Crosstown Cutz.",
+      "PowerPyx lists three Kitty Litter Labs in Crosstown.",
+      "GTABase places the GTA+ member garage in Crosstown."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "crosstown",
+      "dale",
+      "district",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-trains",
+      "ppx-guns",
+      "ppx-hair",
+      "ppx-labs",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bayside",
+    "name": "Bayside",
+    "summary": "A district of Vice City with a Lombank branch, a RON car wash and an Uncle Jack's Liquor.",
+    "body": [
+      "PowerPyx lists a small Lombank, a RON Car Wash, an Uncle Jack's Liquor and an Alderney Joe's in Bayside.",
+      "GTABase lists a story safehouse on Catalan Boulevard in Bayside."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "bayside",
+      "city",
+      "county",
+      "dale",
+      "district",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-banks",
+      "ppx-carwash",
+      "ppx-liquor",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "la-perle",
+    "name": "La Perle",
+    "summary": "A district of Vice City with a Pay 'n' Spray, a Xero car wash, a Quick Buck lender and two street races.",
+    "body": [
+      "PowerPyx lists a Pay 'n' Spray, a Xero Car Wash and a Quick Buck in La Perle.",
+      "PowerPyx says one of the Vice City fences operates from La Perle from Chapter 3."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "district",
+      "la",
+      "perle",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-spray",
+      "ppx-carwash",
+      "ppx-payday",
+      "ppx-races",
+      "ppx-fence"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "balsero",
+    "name": "Balsero",
+    "summary": "A district of Vice City with a Pay 'n' Spray, a RON car wash, Zotico's bar and the Tisha-Wocka flea market drone course.",
+    "body": [
+      "PowerPyx lists a Top Fun drone location at Balsero with courses named Navitrak, Apollo Aggregates and Tisha-Wocka Flea Market.",
+      "PowerPyx puts Zotico's bar on the western edge of Balsero and lists three Kitty Litter Labs in the district.",
+      "PowerPyx says a fence who takes high-end cars operates from Balsero from Chapter 3."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "balsero",
+      "city",
+      "county",
+      "dale",
+      "district",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-spray",
+      "ppx-carwash",
+      "ppx-drone",
+      "ppx-pool",
+      "ppx-fence"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stockyard",
+    "name": "Stockyard",
+    "summary": "A district of Vice City with a Pay 'n' Spray, the Stockyard Speedshop and two Ultimate Edition shops.",
+    "body": [
+      "PowerPyx places Stock 305 and Electric Fang Tattoo in Stockyard.",
+      "PowerPyx lists a Pay 'n' Spray, the Stockyard Speedshop hot rod shop and a Chido! cafe.",
+      "GTABase places the NE 15th Street Garage in Stockyard."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "district",
+      "stockyard",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-ue",
+      "ppx-spray",
+      "ppx-mod",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "decor-district",
+    "name": "Decor District",
+    "summary": "A district of Vice City with branches of Slinger, This / That, Nola, Ferruccio Tucci and Callus.",
+    "body": [
+      "PowerPyx lists those five fashion stores, a Mezzasega Espresso and one Kitty Litter Lab in the Decor District."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "decor",
+      "district",
+      "vice"
+    ],
+    "facts": {
+      "type": "district",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-clothing",
+      "ppx-footwear",
+      "ppx-labs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leaf-links",
+    "name": "Leaf Links",
+    "summary": "A named area of Vice City that hosts the Leaf Links Golf Challenge, one of two full-size golf courses.",
+    "body": [
+      "PowerPyx's map list files Leaf Links under Vice City, while its golf and drone guides file it under Vice Beach."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "area",
+      "city",
+      "county",
+      "course",
+      "dale",
+      "golf",
+      "leaf",
+      "links",
+      "vice"
+    ],
+    "facts": {
+      "type": "golf course area",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-golf",
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rialto-islands",
+    "name": "Rialto Islands",
+    "summary": "A named island group within Vice City.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "islands",
+      "rialto",
+      "vice"
+    ],
+    "facts": {
+      "type": "islands",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "starfish-island",
+    "name": "Starfish Island",
+    "summary": "A named island within Vice City.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "island",
+      "starfish",
+      "vice"
+    ],
+    "facts": {
+      "type": "island",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waxman-island",
+    "name": "Waxman Island",
+    "summary": "An island in Vice City with a Pay 'n' Spray and one of the game's two ferry terminals.",
+    "body": [
+      "PowerPyx says the ferry runs between Waxman Island and Dalton Island for $50."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "island",
+      "vice",
+      "waxman"
+    ],
+    "facts": {
+      "type": "island",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-ferry",
+      "ppx-spray"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "port-vice-city",
+    "name": "Port Vice City",
+    "summary": "The named port area of Vice City.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "port",
+      "vice"
+    ],
+    "facts": {
+      "type": "port",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "catalan-key",
+    "name": "Catalan Key",
+    "summary": "A named key within Vice City, listed beside Catalan Bay.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "catalan",
+      "city",
+      "county",
+      "dale",
+      "island",
+      "key",
+      "vice"
+    ],
+    "facts": {
+      "type": "island",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gloriana-key",
+    "name": "Gloriana Key",
+    "summary": "A key within Vice City that hosts two Hit 'N Run VC street races.",
+    "body": [
+      "PowerPyx lists two of the nine Hit 'N Run VC races at Gloriana Key."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "gloriana",
+      "island",
+      "key",
+      "vice"
+    ],
+    "facts": {
+      "type": "island",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-races"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dalton-island",
+    "name": "Dalton Island",
+    "summary": "An island in Vice City reached by ferry from Waxman Island, or by boat or aircraft.",
+    "body": [
+      "PowerPyx says a taxi cannot take you to Dalton Island.",
+      "PowerPyx lists a Top Fun drone location there with courses named Avarice Petroleum, The Jamaica and Ivory Towers.",
+      "PowerPyx lists a curiosity scan called Big Entrance on Dalton Island, which that page files under Vice Beach."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "dalton",
+      "island",
+      "vice"
+    ],
+    "facts": {
+      "type": "island",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-ferry",
+      "ppx-drone",
+      "ppx-curio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "south-kelly-county",
+    "name": "South Kelly County",
+    "summary": "A sub-region of Kelly County containing Buckskin Swamp, the Emerald River, Emerald Springs and Gellhorn.",
+    "body": [
+      "PowerPyx lists those four places under South Kelly County."
+    ],
+    "region": "Kelly County",
+    "tags": [
+      "county",
+      "kelly",
+      "region",
+      "south"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Kelly County",
+      "districts": [
+        "Buckskin Swamp",
+        "Emerald River",
+        "Emerald Springs",
+        "Gellhorn"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckskin-swamp",
+    "name": "Buckskin Swamp",
+    "summary": "A swamp in South Kelly County crossed by a highway, with a lookout tower and Kowaachobee Cafe & Bar.",
+    "body": [
+      "PowerPyx places a meditation spot on a dock by a lookout tower in the middle of the swamp.",
+      "PowerPyx lists a Top Fun drone location there with courses named Kowaachobee Village, Swampy Sal's Safari Park and Camp Moonflower.",
+      "PowerPyx's golf guide files King Gator Adventure Golf under 'Vice-Dale County > Buckskin Swamp', which disagrees with its map list."
+    ],
+    "region": "South Kelly County",
+    "tags": [
+      "buckskin",
+      "county",
+      "kelly",
+      "swamp"
+    ],
+    "facts": {
+      "type": "swamp",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-meditation",
+      "ppx-drone",
+      "ppx-pool",
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "emerald-springs",
+    "name": "Emerald Springs",
+    "summary": "A named place in South Kelly County with a country store, a 247 and a hot dog stand.",
+    "body": [
+      "PowerPyx's map list spells it 'Emerland Springs'; its store lists spell it Emerald Springs."
+    ],
+    "region": "South Kelly County",
+    "tags": [
+      "county",
+      "emerald",
+      "kelly",
+      "springs",
+      "town"
+    ],
+    "facts": {
+      "type": "town",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-convenience",
+      "ppx-gas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "emerald-river",
+    "name": "Emerald River",
+    "summary": "A river in South Kelly County; Camp Moonflower and a meditation spot sit on its bank.",
+    "body": [
+      "PowerPyx places the Worn Stone meditation spot by the river at Camp Moonflower."
+    ],
+    "region": "South Kelly County",
+    "tags": [
+      "county",
+      "emerald",
+      "kelly",
+      "river"
+    ],
+    "facts": {
+      "type": "river",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-meditation"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gellhorn",
+    "name": "Gellhorn",
+    "summary": "A named place in South Kelly County, listed separately from Port Gellhorn, with a Taco Bomb and an Alpha store.",
+    "body": [
+      "PowerPyx lists Gellhorn and Port Gellhorn as different entries on the map.",
+      "PowerPyx lists a Taco Bomb, an Alpha Convenience Store and a Cody's road grill in Gellhorn."
+    ],
+    "region": "South Kelly County",
+    "tags": [
+      "county",
+      "gellhorn",
+      "kelly",
+      "town"
+    ],
+    "facts": {
+      "type": "town",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-fastfood",
+      "ppx-convenience",
+      "ppx-street"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "draper-island",
+    "name": "Draper Island",
+    "summary": "An island sub-region of Kelly County with a train station, a terminal and a refinery.",
+    "body": [
+      "PowerPyx lists Draper Bay under Draper Island and a Draper Island train station.",
+      "PowerPyx lists a Top Fun drone location there with courses named Draper Island Terminal, Draper Refinery East and Draper Refinery West."
+    ],
+    "region": "Kelly County",
+    "tags": [
+      "county",
+      "draper",
+      "island",
+      "kelly",
+      "refinery"
+    ],
+    "facts": {
+      "type": "island",
+      "county": "Kelly County",
+      "districts": [
+        "Draper Bay"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-trains",
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "north-kelly-county",
+    "name": "North Kelly County",
+    "summary": "A sub-region of Kelly County containing Frogswater and Manifest Canyon, and home to the Thrillbilly Mud Club.",
+    "body": [
+      "PowerPyx places the Thrillbilly Mud Club in North Kelly County."
+    ],
+    "region": "Kelly County",
+    "tags": [
+      "county",
+      "kelly",
+      "north",
+      "region"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Kelly County",
+      "districts": [
+        "Frogswater",
+        "Manifest Canyon"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-races"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "frogswater",
+    "name": "Frogswater",
+    "summary": "A named area of North Kelly County where the Dino Golf Challenge mini golf course is found.",
+    "body": [
+      "PowerPyx places Dino Golf Challenge at Frogswater."
+    ],
+    "region": "North Kelly County",
+    "tags": [
+      "area",
+      "county",
+      "frogswater",
+      "kelly"
+    ],
+    "facts": {
+      "type": "area",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "manifest-canyon",
+    "name": "Manifest Canyon",
+    "summary": "A canyon in North Kelly County with an apple orchard, a monument and a rail crossing.",
+    "body": [
+      "PowerPyx lists Farmer Scrumpy's Apple Orchard and the Monument of Leonidan Supremacy as scans in Manifest Canyon.",
+      "PowerPyx places the Red Rocks meditation spot near where train tracks cross the highway there."
+    ],
+    "region": "North Kelly County",
+    "tags": [
+      "canyon",
+      "county",
+      "kelly",
+      "manifest"
+    ],
+    "facts": {
+      "type": "canyon",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-landmarks",
+      "ppx-sculpt",
+      "ppx-meditation"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "south-leonard-county",
+    "name": "South Leonard County",
+    "summary": "A named sub-region in the south of Leonard County.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "Leonard County",
+    "tags": [
+      "county",
+      "leonard",
+      "region",
+      "south"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "belville",
+    "name": "Belville",
+    "summary": "A sub-region of Leonard County with fast food, convenience stores and The Thirsty Wolf bar.",
+    "body": [
+      "PowerPyx lists a Taco Bomb, a Peewees, a Xero Food Mart, a 247 and an Alpha Convenience Store in Belville.",
+      "PowerPyx puts The Thirsty Wolf bar on the north-west edge of Belville.",
+      "GTABase places the Persistence Road Garage in Belville."
+    ],
+    "region": "Leonard County",
+    "tags": [
+      "belville",
+      "county",
+      "leonard",
+      "town"
+    ],
+    "facts": {
+      "type": "town",
+      "county": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-fastfood",
+      "ppx-convenience",
+      "ppx-pool",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waning-sands",
+    "name": "Waning Sands",
+    "summary": "A sub-region of Leonard County with a train station, a Pay 'n' Spray, a mall and many fashion stores.",
+    "body": [
+      "PowerPyx lists the Leith River under Waning Sands.",
+      "PowerPyx lists a Waning Sands train station, a Pay 'n' Spray and branches of This / That, Mid, Alpha Sports, Ferruccio Tucci, Podium Sports and Callus.",
+      "PowerPyx lists a Top Fun drone location there with courses named Hot Skidz, Thundergolf and Evergreen Mall.",
+      "PowerPyx places Frontier Adventure Golf and the Mount Hailes Golf Challenge in Waning Sands."
+    ],
+    "region": "Leonard County",
+    "tags": [
+      "county",
+      "leonard",
+      "sands",
+      "town",
+      "waning"
+    ],
+    "facts": {
+      "type": "town",
+      "county": "Leonard County",
+      "districts": [
+        "Leith River"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-trains",
+      "ppx-spray",
+      "ppx-clothing",
+      "ppx-drone",
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "north-leonard-county",
+    "name": "North Leonard County",
+    "summary": "A sub-region of Leonard County containing Lake Leonida, Richard Barebone State Park and Little Hardin Island.",
+    "body": [
+      "PowerPyx lists those three places under North Leonard County."
+    ],
+    "region": "Leonard County",
+    "tags": [
+      "county",
+      "leonard",
+      "north",
+      "region"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Leonard County",
+      "districts": [
+        "Lake Leonida",
+        "Richard Barebone State Park",
+        "Little Hardin Island"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lake-leonida",
+    "name": "Lake Leonida",
+    "summary": "A lake in North Leonard County; the Ultimate Edition's One-Eyed Willie's Auto Shop is placed there.",
+    "body": [
+      "PowerPyx gives Lake Leonida as the location of One-Eyed Willie's Auto Shop."
+    ],
+    "region": "North Leonard County",
+    "tags": [
+      "county",
+      "lake",
+      "leonard",
+      "leonida"
+    ],
+    "facts": {
+      "type": "lake",
+      "county": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-ue"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "richard-barebone-state-park",
+    "name": "Richard Barebone State Park",
+    "summary": "A state park listed in North Leonard County.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "North Leonard County",
+    "tags": [
+      "barebone",
+      "county",
+      "leonard",
+      "park",
+      "richard",
+      "state"
+    ],
+    "facts": {
+      "type": "state park",
+      "county": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "little-hardin-island",
+    "name": "Little Hardin Island",
+    "summary": "An island listed in North Leonard County.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "North Leonard County",
+    "tags": [
+      "county",
+      "hardin",
+      "island",
+      "leonard",
+      "little"
+    ],
+    "facts": {
+      "type": "island",
+      "county": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "south-west-lummox-county",
+    "name": "South West Lummox County",
+    "summary": "A sub-region of Lummox County that contains the Zephyr Islands and Mount Kalaga National Park.",
+    "body": [
+      "PowerPyx lists the Zephyr Islands and Mount Kalaga National Park under it."
+    ],
+    "region": "Lummox County",
+    "tags": [
+      "county",
+      "lummox",
+      "region",
+      "south",
+      "west"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Lummox County",
+      "districts": [
+        "Zephyr Islands",
+        "Mount Kalaga National Park"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "grayson",
+    "name": "Grayson",
+    "summary": "A sub-region of Lummox County with a train station, a Pay 'n' Spray and the Grayson Assembly landmark.",
+    "body": [
+      "PowerPyx lists San Malo Bay and the Featherstone Islands under Grayson.",
+      "PowerPyx lists two Animal Crackers races at Grayson."
+    ],
+    "region": "Lummox County",
+    "tags": [
+      "county",
+      "grayson",
+      "lummox",
+      "town"
+    ],
+    "facts": {
+      "type": "town",
+      "county": "Lummox County",
+      "districts": [
+        "San Malo Bay",
+        "Featherstone Islands"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-trains",
+      "ppx-spray",
+      "ppx-landmarks",
+      "ppx-races"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bonanza",
+    "name": "Bonanza",
+    "summary": "A sub-region of Lummox County containing Moreau, the MacAlister Gold Mine and several islands.",
+    "body": [
+      "PowerPyx lists Okchioha Bay, Moreau, the MacAlister Gold Mine, the Saint Attaway Islands, Hyde Island and the Moreau River under Bonanza."
+    ],
+    "region": "Lummox County",
+    "tags": [
+      "bonanza",
+      "county",
+      "lummox",
+      "region"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Lummox County",
+      "districts": [
+        "Okchioha Bay",
+        "Moreau",
+        "MacAlister Gold Mine",
+        "Saint Attaway Islands",
+        "Hyde Island",
+        "Moreau River"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "moreau",
+    "name": "Moreau",
+    "summary": "A named place in Bonanza, Lummox County, with a paper mill, a sawmill and old Spanish ruins.",
+    "body": [
+      "PowerPyx lists the Lawton Co. Paper Mill landmark and the Imperial Spanish Ruins curiosity at Moreau.",
+      "PowerPyx places a meditation spot by a waterwheel at a ruined paper mill in south Moreau.",
+      "PowerPyx names a Top Fun drone location Moreau Sawmill, with courses called Abandoned Mining Pit, Adler Creek and Macalister Gold Mine."
+    ],
+    "region": "Bonanza, Lummox County",
+    "tags": [
+      "area",
+      "county",
+      "lummox",
+      "moreau"
+    ],
+    "facts": {
+      "type": "area",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-landmarks",
+      "ppx-curio",
+      "ppx-meditation",
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "macalister-gold-mine",
+    "name": "MacAlister Gold Mine",
+    "summary": "A gold mine listed in Bonanza, Lummox County; a drone time trial is named after it.",
+    "body": [
+      "PowerPyx lists it among the named map locations and as a Top Fun drone course at the Moreau Sawmill location."
+    ],
+    "region": "Bonanza, Lummox County",
+    "tags": [
+      "county",
+      "gold",
+      "landmark",
+      "lummox",
+      "macalister",
+      "mine"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "east-lummox-county",
+    "name": "East Lummox County",
+    "summary": "A sub-region of Lummox County with Lake Tallaloko, the Kalaga Reservoir and Dawson Dam.",
+    "body": [
+      "PowerPyx lists Partridge Bay, the Frampton Islands, Lake Tallaloko, the Kalaga Reservoir and Dawson Dam under it.",
+      "PowerPyx places a meditation spot overlooking a waterfall north-west of Tallaloko."
+    ],
+    "region": "Lummox County",
+    "tags": [
+      "county",
+      "east",
+      "lummox",
+      "region"
+    ],
+    "facts": {
+      "type": "region",
+      "county": "Lummox County",
+      "districts": [
+        "Partridge Bay",
+        "Frampton Islands",
+        "Lake Tallaloko",
+        "Kalaga Reservoir",
+        "Dawson Dam"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-meditation"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dawson-dam",
+    "name": "Dawson Dam",
+    "summary": "A dam listed in East Lummox County beside the Kalaga Reservoir.",
+    "body": [
+      "PowerPyx's list of named map regions places it there."
+    ],
+    "region": "East Lummox County",
+    "tags": [
+      "county",
+      "dam",
+      "dawson",
+      "landmark",
+      "lummox",
+      "reservoir"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "millport",
+    "name": "Millport",
+    "summary": "A sub-region of Lummox County with a train station, a Pay 'n' Spray and Jacob's Tavern.",
+    "body": [
+      "PowerPyx lists Millport Basin under Millport.",
+      "PowerPyx lists a Top Fun drone location there with courses named Millport, Rushwood Logging and Tallaloko Lakeside Resort.",
+      "PowerPyx puts Jacob's Tavern on the east side of Millport, beside the Pay 'n' Spray."
+    ],
+    "region": "Lummox County",
+    "tags": [
+      "county",
+      "lummox",
+      "millport",
+      "town"
+    ],
+    "facts": {
+      "type": "town",
+      "county": "Lummox County",
+      "districts": [
+        "Millport Basin"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-map",
+      "ppx-trains",
+      "ppx-spray",
+      "ppx-drone",
+      "ppx-pool"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "west-kalaga",
+    "name": "West Kalaga",
+    "summary": "A place name used for a Taco Bomb and a 247 store in Lummox County.",
+    "body": [
+      "PowerPyx's store lists use the name; it does not appear in PowerPyx's list of map regions."
+    ],
+    "region": "Lummox County",
+    "tags": [
+      "area",
+      "county",
+      "kalaga",
+      "lummox",
+      "west"
+    ],
+    "facts": {
+      "type": "area",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood",
+      "ppx-convenience"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lawton-co-paper-mill",
+    "name": "Lawton Co. Paper Mill",
+    "summary": "A paper mill at Moreau in Lummox County, recorded as a WAiNK landmark scan.",
+    "body": [
+      "PowerPyx lists it among 31 landmark scans."
+    ],
+    "region": "Moreau, Lummox County",
+    "tags": [
+      "co",
+      "county",
+      "landmark",
+      "lawton",
+      "lummox",
+      "mill",
+      "paper"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-landmarks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "farmer-scrumpys-apple-orchard",
+    "name": "Farmer Scrumpy's Apple Orchard",
+    "summary": "An apple orchard in Manifest Canyon, Kelly County, recorded as a WAiNK landmark scan.",
+    "body": [
+      "PowerPyx lists it among 31 landmark scans."
+    ],
+    "region": "Manifest Canyon, Kelly County",
+    "tags": [
+      "apple",
+      "county",
+      "farmer",
+      "kelly",
+      "landmark",
+      "orchard",
+      "scrumpy"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-landmarks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gellhorn-fun-fair",
+    "name": "Gellhorn Fun Fair",
+    "summary": "A fun fair at Port Gellhorn, recorded as a WAiNK landmark scan.",
+    "body": [
+      "PowerPyx lists it among 31 landmark scans."
+    ],
+    "region": "Port Gellhorn, Kelly County",
+    "tags": [
+      "county",
+      "fair",
+      "fun",
+      "gellhorn",
+      "kelly",
+      "landmark"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-landmarks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "belpoint-lighthouse",
+    "name": "Belpoint Lighthouse",
+    "summary": "A lighthouse at Belpoint in Mariana County, recorded as a WAiNK landmark scan.",
+    "body": [
+      "PowerPyx lists it among 31 landmark scans."
+    ],
+    "region": "Belpoint, Mariana County",
+    "tags": [
+      "belpoint",
+      "county",
+      "landmark",
+      "lighthouse",
+      "mariana"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-landmarks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kalaga-lookout",
+    "name": "Kalaga Lookout",
+    "summary": "A lookout in Mount Kalaga National Park, recorded as a WAiNK landmark scan.",
+    "body": [
+      "PowerPyx lists it among 31 landmark scans."
+    ],
+    "region": "Mount Kalaga National Park, Lummox County",
+    "tags": [
+      "county",
+      "kalaga",
+      "landmark",
+      "lookout",
+      "lummox"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-landmarks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dock-ring",
+    "name": "Dock Ring",
+    "summary": "A Downtown Vice City landmark recorded as a WAiNK landmark scan; a souvenir shop is named after it.",
+    "body": [
+      "PowerPyx lists it among 31 landmark scans and lists a Dock Ring Souvenirs store."
+    ],
+    "region": "Downtown, Vice City",
+    "tags": [
+      "county",
+      "dale",
+      "dock",
+      "landmark",
+      "ring",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-landmarks",
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "grayson-assembly",
+    "name": "Grayson Assembly",
+    "summary": "A landmark at Grayson in Lummox County, recorded as a WAiNK landmark scan.",
+    "body": [
+      "PowerPyx lists it among 31 landmark scans."
+    ],
+    "region": "Grayson, Lummox County",
+    "tags": [
+      "assembly",
+      "county",
+      "grayson",
+      "landmark",
+      "lummox"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-landmarks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "imperial-spanish-ruins",
+    "name": "Imperial Spanish Ruins",
+    "summary": "Ruins at Moreau in Lummox County, recorded as a WAiNK curiosity scan.",
+    "body": [
+      "PowerPyx lists it among 35 curiosity scans."
+    ],
+    "region": "Moreau, Lummox County",
+    "tags": [
+      "county",
+      "curiosity",
+      "imperial",
+      "lummox",
+      "ruins",
+      "spanish"
+    ],
+    "facts": {
+      "type": "curiosity",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-curio"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "triangler-sculpture",
+    "name": "Triangler Sculpture",
+    "summary": "A sculpture on Corsair Key, recorded as a WAiNK sculpture scan.",
+    "body": [
+      "PowerPyx lists it among 23 sculpture scans."
+    ],
+    "region": "Corsair Key, Mariana County",
+    "tags": [
+      "county",
+      "mariana",
+      "sculpture",
+      "triangler"
+    ],
+    "facts": {
+      "type": "sculpture",
+      "county": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sculpt"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pixel-fountain",
+    "name": "Pixel Fountain",
+    "summary": "A fountain sculpture in Tequesta, recorded as a WAiNK sculpture scan.",
+    "body": [
+      "PowerPyx lists it among 23 sculpture scans."
+    ],
+    "region": "Tequesta, Vice City",
+    "tags": [
+      "county",
+      "dale",
+      "fountain",
+      "pixel",
+      "sculpture",
+      "vice"
+    ],
+    "facts": {
+      "type": "sculpture",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sculpt"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "neptune-rises",
+    "name": "Neptune Rises",
+    "summary": "A sculpture at Washington Beach, recorded as a WAiNK sculpture scan.",
+    "body": [
+      "PowerPyx lists it among 23 sculpture scans."
+    ],
+    "region": "Washington Beach, Vice Beach",
+    "tags": [
+      "county",
+      "dale",
+      "neptune",
+      "rises",
+      "sculpture",
+      "vice"
+    ],
+    "facts": {
+      "type": "sculpture",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sculpt"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-museum-of-art-sculpture",
+    "name": "Vice Museum of Art Sculpture",
+    "summary": "A sculpture at Washington Beach tied to the Vice Museum of Art, recorded as a WAiNK scan.",
+    "body": [
+      "PowerPyx lists it among 23 sculpture scans."
+    ],
+    "region": "Washington Beach, Vice Beach",
+    "tags": [
+      "art",
+      "county",
+      "dale",
+      "museum",
+      "sculpture",
+      "vice"
+    ],
+    "facts": {
+      "type": "sculpture",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sculpt"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "princes-robot-bubblegum-statue",
+    "name": "Princes Robot Bubblegum Statue",
+    "summary": "A statue at Washington Beach, recorded as a WAiNK sculpture scan.",
+    "body": [
+      "PowerPyx lists it among 23 sculpture scans and spells it 'Princes Robot Bubblegum'."
+    ],
+    "region": "Washington Beach, Vice Beach",
+    "tags": [
+      "bubblegum",
+      "county",
+      "dale",
+      "princes",
+      "robot",
+      "sculpture",
+      "statue",
+      "vice"
+    ],
+    "facts": {
+      "type": "sculpture",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sculpt"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "monument-of-leonidan-supremacy",
+    "name": "Monument of Leonidan Supremacy",
+    "summary": "A monument in Manifest Canyon, Kelly County, recorded as a WAiNK sculpture scan.",
+    "body": [
+      "PowerPyx lists it among 23 sculpture scans."
+    ],
+    "region": "Manifest Canyon, Kelly County",
+    "tags": [
+      "county",
+      "kelly",
+      "leonidan",
+      "monument",
+      "sculpture",
+      "supremacy"
+    ],
+    "facts": {
+      "type": "sculpture",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-sculpt"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "camp-moonflower",
+    "name": "Camp Moonflower",
+    "summary": "A camp on the bank of the Emerald River in Kelly County, with a meditation spot and a drone time trial.",
+    "body": [
+      "PowerPyx places the Worn Stone meditation there and names a Buckskin Swamp drone course after it."
+    ],
+    "region": "Buckskin Swamp area, Kelly County",
+    "tags": [
+      "camp",
+      "county",
+      "kelly",
+      "landmark",
+      "moonflower"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-meditation",
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "southpoint-airfield",
+    "name": "Southpoint Airfield",
+    "summary": "An airfield in Mariana County that serves as the start point for one of a pilot's package delivery jobs.",
+    "body": [
+      "PowerPyx places it in Mariana County; the same page also writes the name once as 'Southport Airfield'.",
+      "PowerPyx separately says crop duster planes can be taken from airstrips in the south of the map near Key Lento."
+    ],
+    "region": "Mariana County",
+    "tags": [
+      "airfield",
+      "county",
+      "mariana",
+      "southpoint"
+    ],
+    "facts": {
+      "type": "airfield",
+      "county": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pete",
+      "ppx-plane"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "avery-allen-and-co",
+    "name": "Avery Allen & Co.",
+    "summary": "An airstrip business in Kelly County that serves as the start point for a package delivery job by plane.",
+    "body": [
+      "PowerPyx tells players to go to the airstrip in Kelly County to start it."
+    ],
+    "region": "Kelly County",
+    "tags": [
+      "airstrip",
+      "allen",
+      "avery",
+      "co",
+      "county",
+      "kelly"
+    ],
+    "facts": {
+      "type": "airstrip",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pete"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mount-kalaga",
+    "name": "Mount Kalaga",
+    "summary": "The peak in Mount Kalaga National Park; a stone circle at the top holds the final meditation spot.",
+    "body": [
+      "PowerPyx says the last meditation appears at the summit stone circle once all the others are done.",
+      "PowerPyx also places a meditation spot by a tower overlooking a mine in the park."
+    ],
+    "region": "Mount Kalaga National Park, Lummox County",
+    "tags": [
+      "county",
+      "kalaga",
+      "lummox",
+      "mount",
+      "mountain"
+    ],
+    "facts": {
+      "type": "mountain",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-meditation"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-rc-raceway",
+    "name": "Leonida RC Raceway",
+    "summary": "A named site in the Watson Bay area of Mariana County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Watson Bay drone location; the page does not describe the place itself."
+    ],
+    "region": "Watson Bay, Mariana County",
+    "tags": [
+      "county",
+      "drone",
+      "fun",
+      "landmark",
+      "leonida",
+      "mariana",
+      "raceway",
+      "rc",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marshland-animal-park",
+    "name": "Marshland Animal Park",
+    "summary": "A named site in the Watson Bay area of Mariana County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Watson Bay drone location; the page does not describe the place itself.",
+      "PowerPyx also lists a Marshland Burger Shack street vendor in Mariana County."
+    ],
+    "region": "Watson Bay, Mariana County",
+    "tags": [
+      "animal",
+      "county",
+      "drone",
+      "fun",
+      "landmark",
+      "mariana",
+      "marshland",
+      "park",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kowaachobee-village",
+    "name": "Kowaachobee Village",
+    "summary": "A named site in the Buckskin Swamp area of Kelly County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Buckskin Swamp drone location; the page does not describe the place itself."
+    ],
+    "region": "Buckskin Swamp, Kelly County",
+    "tags": [
+      "county",
+      "drone",
+      "fun",
+      "kelly",
+      "kowaachobee",
+      "landmark",
+      "top",
+      "village"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "swampy-sals-safari-park",
+    "name": "Swampy Sal's Safari Park",
+    "summary": "A named site in the Buckskin Swamp area of Kelly County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Buckskin Swamp drone location; the page does not describe the place itself."
+    ],
+    "region": "Buckskin Swamp, Kelly County",
+    "tags": [
+      "county",
+      "drone",
+      "fun",
+      "kelly",
+      "landmark",
+      "park",
+      "safari",
+      "sal",
+      "swampy",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "navitrak",
+    "name": "Navitrak",
+    "summary": "A named site in the Balsero area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Balsero drone location; the page does not describe the place itself."
+    ],
+    "region": "Balsero, Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "landmark",
+      "navitrak",
+      "top",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "apollo-aggregates",
+    "name": "Apollo Aggregates",
+    "summary": "A named site in the Balsero area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Balsero drone location; the page does not describe the place itself."
+    ],
+    "region": "Balsero, Vice-Dale County",
+    "tags": [
+      "aggregates",
+      "apollo",
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "landmark",
+      "top",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "future-leonida-art-museum",
+    "name": "Future Leonida Art Museum",
+    "summary": "A named site in the Downtown area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Downtown drone location; the page does not describe the place itself.",
+      "PowerPyx also lists a Future Leonida Art Museum Bar among the Vice-Dale County bars."
+    ],
+    "region": "Downtown, Vice-Dale County",
+    "tags": [
+      "art",
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "future",
+      "landmark",
+      "leonida",
+      "museum",
+      "top",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone",
+      "ppx-bars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shoreline-market",
+    "name": "Shoreline Market",
+    "summary": "A named site in the Downtown area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Downtown drone location; the page does not describe the place itself."
+    ],
+    "region": "Downtown, Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "landmark",
+      "market",
+      "shoreline",
+      "top",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wildland-zoo",
+    "name": "Wildland Zoo",
+    "summary": "A named site in the Downtown area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Downtown drone location; the page does not describe the place itself.",
+      "PowerPyx also lists a Wildland Zoo Beach Bar among the Vice-Dale County bars."
+    ],
+    "region": "Downtown, Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "landmark",
+      "top",
+      "vice",
+      "wildland",
+      "zoo"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone",
+      "ppx-bars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "avarice-petroleum",
+    "name": "Avarice Petroleum",
+    "summary": "A named site in the Dalton Island area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Dalton Island drone location; the page does not describe the place itself."
+    ],
+    "region": "Dalton Island, Vice-Dale County",
+    "tags": [
+      "avarice",
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "landmark",
+      "petroleum",
+      "top",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-jamaica",
+    "name": "The Jamaica",
+    "summary": "A named site in the Dalton Island area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Dalton Island drone location; the page does not describe the place itself."
+    ],
+    "region": "Dalton Island, Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "jamaica",
+      "landmark",
+      "top",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ivory-towers",
+    "name": "Ivory Towers",
+    "summary": "A named site in the Dalton Island area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Dalton Island drone location; the page does not describe the place itself."
+    ],
+    "region": "Dalton Island, Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "ivory",
+      "landmark",
+      "top",
+      "towers",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-regal-hotel",
+    "name": "Vice Regal Hotel",
+    "summary": "A named site in the Vice Beach area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Vice Beach drone location; the page does not describe the place itself."
+    ],
+    "region": "Vice Beach, Vice-Dale County",
+    "tags": [
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "hotel",
+      "landmark",
+      "regal",
+      "top",
+      "vice"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "st-vitus-medical-center",
+    "name": "St. Vitus Medical Center",
+    "summary": "A named site in the Vice Beach area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Vice Beach drone location; the page does not describe the place itself."
+    ],
+    "region": "Vice Beach, Vice-Dale County",
+    "tags": [
+      "center",
+      "county",
+      "dale",
+      "drone",
+      "fun",
+      "landmark",
+      "medical",
+      "st",
+      "top",
+      "vice",
+      "vitus"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hot-skidz",
+    "name": "Hot Skidz",
+    "summary": "A named site in the Waning Sands area of Leonard County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Waning Sands drone location; the page does not describe the place itself."
+    ],
+    "region": "Waning Sands, Leonard County",
+    "tags": [
+      "county",
+      "drone",
+      "fun",
+      "hot",
+      "landmark",
+      "leonard",
+      "skidz",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "thundergolf",
+    "name": "Thundergolf",
+    "summary": "A named site in the Waning Sands area of Leonard County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Waning Sands drone location; the page does not describe the place itself."
+    ],
+    "region": "Waning Sands, Leonard County",
+    "tags": [
+      "county",
+      "drone",
+      "fun",
+      "landmark",
+      "leonard",
+      "thundergolf",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "evergreen-mall",
+    "name": "Evergreen Mall",
+    "summary": "A named site in the Waning Sands area of Leonard County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Waning Sands drone location; the page does not describe the place itself."
+    ],
+    "region": "Waning Sands, Leonard County",
+    "tags": [
+      "county",
+      "drone",
+      "evergreen",
+      "fun",
+      "landmark",
+      "leonard",
+      "mall",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "captain-omalley-marina",
+    "name": "Captain O'Malley Marina",
+    "summary": "A named site in the Ambrosia area of Kelly County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Ambrosia drone location; the page does not describe the place itself."
+    ],
+    "region": "Ambrosia, Kelly County",
+    "tags": [
+      "captain",
+      "county",
+      "drone",
+      "fun",
+      "kelly",
+      "landmark",
+      "malley",
+      "marina",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waste-transfer-services",
+    "name": "Waste Transfer Services",
+    "summary": "A named site in the Ambrosia area of Kelly County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Ambrosia drone location; the page does not describe the place itself."
+    ],
+    "region": "Ambrosia, Kelly County",
+    "tags": [
+      "county",
+      "drone",
+      "fun",
+      "kelly",
+      "landmark",
+      "services",
+      "top",
+      "transfer",
+      "waste"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "red-apple-orchard",
+    "name": "Red Apple Orchard",
+    "summary": "A named site in the Port Gellhorn area of Kelly County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Port Gellhorn drone location; the page does not describe the place itself."
+    ],
+    "region": "Port Gellhorn, Kelly County",
+    "tags": [
+      "apple",
+      "county",
+      "drone",
+      "fun",
+      "kelly",
+      "landmark",
+      "orchard",
+      "red",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "draper-island-terminal",
+    "name": "Draper Island Terminal",
+    "summary": "A named site in the Draper Island area of Kelly County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Draper Island drone location; the page does not describe the place itself."
+    ],
+    "region": "Draper Island, Kelly County",
+    "tags": [
+      "county",
+      "draper",
+      "drone",
+      "fun",
+      "island",
+      "kelly",
+      "landmark",
+      "terminal",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "draper-refinery",
+    "name": "Draper Refinery",
+    "summary": "A named site in the Draper Island area of Kelly County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Draper Island drone location; the page does not describe the place itself.",
+      "PowerPyx lists two courses, Draper Refinery East and Draper Refinery West."
+    ],
+    "region": "Draper Island, Kelly County",
+    "tags": [
+      "county",
+      "draper",
+      "drone",
+      "fun",
+      "kelly",
+      "landmark",
+      "refinery",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "adler-creek",
+    "name": "Adler Creek",
+    "summary": "A named site in the Moreau Sawmill area of Lummox County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Moreau Sawmill drone location; the page does not describe the place itself."
+    ],
+    "region": "Moreau Sawmill, Lummox County",
+    "tags": [
+      "adler",
+      "county",
+      "creek",
+      "drone",
+      "fun",
+      "landmark",
+      "lummox",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rushwood-logging",
+    "name": "Rushwood Logging",
+    "summary": "A named site in the Millport area of Lummox County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Millport drone location; the page does not describe the place itself."
+    ],
+    "region": "Millport, Lummox County",
+    "tags": [
+      "county",
+      "drone",
+      "fun",
+      "landmark",
+      "logging",
+      "lummox",
+      "rushwood",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tallaloko-lakeside-resort",
+    "name": "Tallaloko Lakeside Resort",
+    "summary": "A named site in the Millport area of Lummox County that gives its name to a Top Fun drone time trial.",
+    "body": [
+      "PowerPyx lists a Top Fun drone time trial of this name at its Millport drone location; the page does not describe the place itself."
+    ],
+    "region": "Millport, Lummox County",
+    "tags": [
+      "county",
+      "drone",
+      "fun",
+      "lakeside",
+      "landmark",
+      "lummox",
+      "resort",
+      "tallaloko",
+      "top"
+    ],
+    "facts": {
+      "type": "landmark",
+      "county": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-rail-network",
+    "name": "Leonida rail network",
+    "summary": "Twenty-five train stations across all five counties let the player ride trains around the map.",
+    "body": [
+      "PowerPyx says stations work like bus stops except that you wait for the train to arrive, and they show as blue train icons once the map is uncovered.",
+      "PowerPyx lists Amloco Railway and Capri in Mariana County; Waning Sands in Leonard County; Ambrosia, Port Gellhorn and Draper Island in Kelly County; Grayson and Millport in Lummox County.",
+      "PowerPyx lists 17 Vice-Dale County stations, including Tequesta, Downtown, Downtown North, Shoreline Park, Courthouse, Vice City Arts Center, Crosstown, Vice City Central, Vice City Airport Village and Vice City Airport Central.",
+      "PowerPyx's list also uses the names Mule Airport Line, Mule City Line and Central Line for some stops."
+    ],
+    "region": "Leonida",
+    "tags": [
+      "leonida",
+      "mule",
+      "network",
+      "rail",
+      "station",
+      "train",
+      "transport"
+    ],
+    "facts": {
+      "type": "transport"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-trains"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-city-ferry",
+    "name": "Vice City ferry",
+    "summary": "A ferry links Waxman Island and Dalton Island in Vice City; each end has a terminal.",
+    "body": [
+      "PowerPyx counts two ferry terminals and says the crossing is a $50 fast-travel trip paid at the sign in front of the ferry."
+    ],
+    "region": "Vice City, Vice-Dale County",
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "fast",
+      "ferry",
+      "terminal",
+      "transport",
+      "travel",
+      "vice"
+    ],
+    "facts": {
+      "type": "transport",
+      "county": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ferry"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

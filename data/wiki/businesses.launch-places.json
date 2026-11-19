@@ -1,0 +1,7045 @@
+[
+  {
+    "slug": "mitchell-auto-center",
+    "name": "Mitchell Auto Center",
+    "summary": "A one-car garage the player can buy for $4,000 through the Vice City Real Estate phone app.",
+    "body": [
+      "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $4,000.",
+      "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
+      "GTABase gives its location as Historic Route 628, Kelly County.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "628",
+      "auto",
+      "center",
+      "county",
+      "estate",
+      "garage",
+      "historic",
+      "kelly",
+      "mitchell",
+      "property",
+      "real",
+      "route"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Historic Route 628, Kelly County",
+      "purchasable": true,
+      "availability": "After Chapter 2, via the Vice City Real Estate app"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "7th-avenue-garage",
+    "name": "7th Avenue Garage",
+    "summary": "A one-car garage the player can buy for $12,000 through the Vice City Real Estate phone app.",
+    "body": [
+      "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $12,000.",
+      "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
+      "GTABase gives its location as Salton, Vice City.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "7th",
+      "avenue",
+      "city",
+      "estate",
+      "garage",
+      "property",
+      "real",
+      "salton",
+      "vice"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Salton, Vice City",
+      "purchasable": true,
+      "availability": "After Chapter 2, via the Vice City Real Estate app"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vela-rota-driver-garage",
+    "name": "Vela Rota Driver Garage",
+    "summary": "A one-car garage the player can buy for $24,000 through the Vice City Real Estate phone app.",
+    "body": [
+      "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $24,000.",
+      "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
+      "GTABase gives its location as Capri, Mariana County.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "capri",
+      "county",
+      "driver",
+      "estate",
+      "garage",
+      "mariana",
+      "property",
+      "real",
+      "rota",
+      "vela"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Capri, Mariana County",
+      "purchasable": true,
+      "availability": "After Chapter 2, via the Vice City Real Estate app"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "persistence-road-garage",
+    "name": "Persistence Road Garage",
+    "summary": "A one-car garage the player can buy for $7,600 through the Vice City Real Estate phone app.",
+    "body": [
+      "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $7,600.",
+      "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
+      "GTABase gives its location as Belville, Leonard County.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "belville",
+      "county",
+      "estate",
+      "garage",
+      "leonard",
+      "persistence",
+      "property",
+      "real",
+      "road"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Belville, Leonard County",
+      "purchasable": true,
+      "availability": "After Chapter 2, via the Vice City Real Estate app"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wyatt-motors",
+    "name": "Wyatt Motors",
+    "summary": "A one-car garage the player can buy for $21,600 through the Vice City Real Estate phone app.",
+    "body": [
+      "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $21,600.",
+      "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
+      "GTABase gives its location as Allied Crystal, Ambrosia.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "allied",
+      "ambrosia",
+      "crystal",
+      "estate",
+      "garage",
+      "motors",
+      "property",
+      "real",
+      "wyatt"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Allied Crystal, Ambrosia",
+      "purchasable": true,
+      "availability": "After Chapter 2, via the Vice City Real Estate app"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bonita-court-garage",
+    "name": "Bonita Court Garage",
+    "summary": "A one-car garage the player can buy for $34,000 through the Vice City Real Estate phone app.",
+    "body": [
+      "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $34,000.",
+      "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
+      "GTABase gives its location as Vice Beach.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "beach",
+      "bonita",
+      "court",
+      "estate",
+      "garage",
+      "property",
+      "real",
+      "vice"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Vice Beach",
+      "purchasable": true,
+      "availability": "After Chapter 2, via the Vice City Real Estate app"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "atlantic-court-garage",
+    "name": "Atlantic Court Garage",
+    "summary": "A one-car garage the player can buy for $40,000 through the Vice City Real Estate phone app.",
+    "body": [
+      "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $40,000.",
+      "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
+      "GTABase gives its location as Ocean Beach, Vice Beach.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "atlantic",
+      "beach",
+      "court",
+      "estate",
+      "garage",
+      "ocean",
+      "property",
+      "real",
+      "vice"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Ocean Beach, Vice Beach",
+      "purchasable": true,
+      "availability": "After Chapter 2, via the Vice City Real Estate app"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "store-n-bolt",
+    "name": "Store n' Bolt",
+    "summary": "A one-car garage the player can buy for $16,800 through the Vice City Real Estate phone app.",
+    "body": [
+      "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $16,800.",
+      "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
+      "GTABase gives its location as Ambrosia, Kelly County.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "ambrosia",
+      "bolt",
+      "county",
+      "estate",
+      "garage",
+      "kelly",
+      "property",
+      "real",
+      "store"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Ambrosia, Kelly County",
+      "purchasable": true,
+      "availability": "After Chapter 2, via the Vice City Real Estate app"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "port-gellhorn-station-garage",
+    "name": "Port Gellhorn Station Garage",
+    "summary": "A story garage with 1 parking spot, handed over during Chapter 2 rather than bought.",
+    "body": [
+      "PowerPyx lists it as one of four story-related garages and says it comes from finishing a Chapter 2 mission.",
+      "GTABase gives its location as Port Gellhorn, Kelly County.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "county",
+      "garage",
+      "gellhorn",
+      "kelly",
+      "port",
+      "property",
+      "station",
+      "story"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Port Gellhorn, Kelly County",
+      "purchasable": false,
+      "availability": "Unlocked by story progress in Chapter 2"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "thompson-court-garage",
+    "name": "Thompson Court Garage",
+    "summary": "A story garage with 2 parking spots, handed over during Chapter 4 rather than bought.",
+    "body": [
+      "PowerPyx lists it as one of four story-related garages and says it comes from finishing a Chapter 4 mission.",
+      "GTABase gives its location as Ocean Beach, Vice Beach.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "beach",
+      "court",
+      "garage",
+      "ocean",
+      "property",
+      "story",
+      "thompson",
+      "vice"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Ocean Beach, Vice Beach",
+      "purchasable": false,
+      "availability": "Unlocked by story progress in Chapter 4"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ne-15th-street-garage",
+    "name": "NE 15th Street Garage",
+    "summary": "A story garage with 2 parking spots, handed over during Chapter 5 rather than bought.",
+    "body": [
+      "PowerPyx lists it as one of four story-related garages and says it comes from finishing a Chapter 5 mission.",
+      "GTABase gives its location as Stockyard, Vice City.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "15th",
+      "city",
+      "garage",
+      "ne",
+      "property",
+      "stockyard",
+      "story",
+      "street",
+      "vice"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Stockyard, Vice City",
+      "purchasable": false,
+      "availability": "Unlocked by story progress in Chapter 5"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-residences-garage",
+    "name": "Pegassi Residences Garage",
+    "summary": "A story garage with 3 parking spots, handed over during Chapter 5 rather than bought.",
+    "body": [
+      "PowerPyx lists it as one of four story-related garages and says it comes from finishing a Chapter 5 mission.",
+      "GTABase gives its location as Tequesta Retreat, Vice City.",
+      "PowerPyx says each parking slot lets one more vehicle be registered, up to 18 slots in all."
+    ],
+    "tags": [
+      "city",
+      "garage",
+      "pegassi",
+      "property",
+      "residences",
+      "retreat",
+      "story",
+      "tequesta",
+      "vice"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Tequesta Retreat, Vice City",
+      "purchasable": false,
+      "availability": "Unlocked by story progress in Chapter 5"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shore-court-garage",
+    "name": "Shore Court Garage",
+    "summary": "A garage on Shore Drive in Ocean Beach that GTABase lists as exclusive to the pre-order bonus.",
+    "body": [
+      "GTABase lists it as a pre-order bonus garage.",
+      "PowerPyx's list of 12 in-game garages does not include it."
+    ],
+    "tags": [
+      "beach",
+      "court",
+      "drive",
+      "garage",
+      "ocean",
+      "order",
+      "pre",
+      "shore"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Shore Drive, Ocean Beach",
+      "purchasable": false,
+      "availability": "Pre-order bonus"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-prop",
+      "ppx-garages"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "paradise-garage",
+    "name": "Paradise Garage",
+    "summary": "A garage in Watson Bay that GTABase lists as exclusive to the Ultimate Edition.",
+    "body": [
+      "GTABase lists it as an Ultimate Edition garage.",
+      "PowerPyx describes an Ultimate Edition car waiting inside a garage in Grassrivers, Mariana County, but does not name that garage."
+    ],
+    "tags": [
+      "bay",
+      "edition",
+      "garage",
+      "paradise",
+      "ultimate",
+      "watson"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Watson Bay",
+      "purchasable": false,
+      "availability": "Ultimate Edition"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-prop",
+      "ppx-ue"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "gta-crosstown-garage",
+    "name": "GTA+ Crosstown Garage",
+    "summary": "A garage in Crosstown that GTABase lists as exclusive to GTA+ members.",
+    "body": [
+      "GTABase says it unlocks on reaching Chapter 3 with an active GTA+ membership.",
+      "PowerPyx's list of 12 in-game garages does not include it."
+    ],
+    "tags": [
+      "city",
+      "crosstown",
+      "garage",
+      "gta",
+      "vice"
+    ],
+    "facts": {
+      "type": "garage",
+      "location": "Crosstown, Vice City",
+      "purchasable": false,
+      "availability": "GTA+ members, from Chapter 3"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-prop",
+      "ppx-garages"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "vice-city-real-estate",
+    "name": "Vice City Real Estate",
+    "summary": "The in-game phone app used to buy extra garages.",
+    "body": [
+      "PowerPyx says the app is delivered late in Chapter 2 and sells eight garages for $160,000 in total.",
+      "GTABase also says garages are bought through this app."
+    ],
+    "tags": [
+      "app",
+      "city",
+      "estate",
+      "game",
+      "garage",
+      "phone",
+      "property",
+      "real",
+      "vice"
+    ],
+    "facts": {
+      "type": "phone app",
+      "location": "In-game phone",
+      "availability": "Late Chapter 2 onward"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "ppx-car",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "moses-garage",
+    "name": "Moses' garage",
+    "summary": "A Port Gellhorn garage where cars without trackers can be sold or registered as personal vehicles.",
+    "body": [
+      "PowerPyx says it opens during Chapter 2 and stays available after the story.",
+      "PowerPyx says the player starts with a single garage slot there; GTABase instead speaks of three initial slots."
+    ],
+    "tags": [
+      "cars",
+      "county",
+      "fence",
+      "garage",
+      "gellhorn",
+      "kelly",
+      "moses",
+      "port",
+      "register",
+      "registration",
+      "vehicle"
+    ],
+    "facts": {
+      "type": "vehicle fence and registration",
+      "location": "Port Gellhorn, Kelly County",
+      "owner": "Moses",
+      "availability": "From Chapter 2"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-car",
+      "ppx-fence",
+      "ppx-100",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pegassi-residences",
+    "name": "Pegassi Residences",
+    "summary": "A residential building in Tequesta Retreat with underground parking beside its lobby entrance.",
+    "body": [
+      "PowerPyx describes the underground car park to the left of the lobby entrance.",
+      "GTABase lists the Pegassi Residences Garage in Tequesta Retreat."
+    ],
+    "tags": [
+      "building",
+      "city",
+      "pegassi",
+      "residences",
+      "residential",
+      "retreat",
+      "tequesta",
+      "vice"
+    ],
+    "facts": {
+      "type": "residential building",
+      "location": "Tequesta Retreat, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-ue",
+      "gtabase-prop"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "coastal-auto-care",
+    "name": "Coastal Auto Care",
+    "summary": "A mod shop in Mariana County that specialises in retro cars.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "auto",
+      "care",
+      "cars",
+      "coastal",
+      "county",
+      "mariana",
+      "mod",
+      "retro",
+      "shop",
+      "tuning"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "capri-classic",
+    "name": "Capri Classic",
+    "summary": "A mod shop in Mariana County that specialises in muscle cars.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "capri",
+      "cars",
+      "classic",
+      "county",
+      "mariana",
+      "mod",
+      "muscle",
+      "shop",
+      "tuning"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "two-wheel-fury-motorsport",
+    "name": "Two Wheel Fury Motorsport",
+    "summary": "A mod shop in Vice-Dale County that specialises in sports bikes.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "bikes",
+      "county",
+      "dale",
+      "fury",
+      "mod",
+      "motorsport",
+      "shop",
+      "sports",
+      "tuning",
+      "two",
+      "vice",
+      "wheel"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "euroform-automotive",
+    "name": "Euroform Automotive",
+    "summary": "A mod shop in Vice-Dale County that specialises in luxury cars.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "automotive",
+      "cars",
+      "county",
+      "dale",
+      "euroform",
+      "luxury",
+      "mod",
+      "shop",
+      "tuning",
+      "vice"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-auto-customs",
+    "name": "Vice Auto Customs",
+    "summary": "A mod shop in Vice-Dale County that specialises in tuner cars.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "auto",
+      "cars",
+      "county",
+      "customs",
+      "dale",
+      "mod",
+      "shop",
+      "tuner",
+      "tuning",
+      "vice"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lowballers-customs",
+    "name": "Lowballers Customs",
+    "summary": "A mod shop in Vice-Dale County that specialises in lowriders.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "county",
+      "customs",
+      "dale",
+      "lowballers",
+      "lowriders",
+      "mod",
+      "shop",
+      "tuning",
+      "vice"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-vinyl",
+    "name": "Vice Vinyl",
+    "summary": "A mod shop in Vice-Dale County that specialises in vinyl wraps and liveries.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "liveries",
+      "mod",
+      "shop",
+      "tuning",
+      "vice",
+      "vinyl",
+      "wraps"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stockyard-speedshop",
+    "name": "Stockyard Speedshop",
+    "summary": "A mod shop in Vice-Dale County that specialises in hot rods.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "hot",
+      "mod",
+      "rods",
+      "shop",
+      "speedshop",
+      "stockyard",
+      "tuning",
+      "vice"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "whisler-motorsport",
+    "name": "Whisler Motorsport",
+    "summary": "A mod shop in Kelly County that specialises in racing cars.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "cars",
+      "county",
+      "kelly",
+      "mod",
+      "motorsport",
+      "racing",
+      "shop",
+      "tuning",
+      "whisler"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dirt-merchants",
+    "name": "Dirt Merchants",
+    "summary": "A mod shop in Kelly County that specialises in dirt bikes.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "bikes",
+      "county",
+      "dirt",
+      "kelly",
+      "merchants",
+      "mod",
+      "shop",
+      "tuning"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wasteland-off-road",
+    "name": "Wasteland Off-Road",
+    "summary": "A mod shop in Kelly County that specialises in off-road cars.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "cars",
+      "county",
+      "kelly",
+      "mod",
+      "off",
+      "road",
+      "shop",
+      "tuning",
+      "wasteland"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ledford-motorcycle-workshop",
+    "name": "Ledford Motorcycle Workshop",
+    "summary": "A mod shop in Lummox County that specialises in choppers and classic American motorcycles.",
+    "body": [
+      "PowerPyx lists it as one of 14 mod shops, each tied to one kind of vehicle and offering performance and visual upgrades.",
+      "PowerPyx says mod shops appear as orange car icons once the map is uncovered."
+    ],
+    "tags": [
+      "american",
+      "choppers",
+      "classic",
+      "county",
+      "ledford",
+      "lummox",
+      "mod",
+      "motorcycle",
+      "motorcycles",
+      "shop",
+      "tuning",
+      "workshop"
+    ],
+    "facts": {
+      "type": "mod shop",
+      "location": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "barrage-gun-supply",
+    "name": "Barrage Gun Supply",
+    "summary": "A gun store in Mariana County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "barrage",
+      "county",
+      "gun",
+      "mariana",
+      "nation",
+      "standard",
+      "store",
+      "supply",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chucks-tackle-and-shot",
+    "name": "Chuck's Tackle & Shot",
+    "summary": "A gun store in Mariana County with a limited selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Limited'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "chuck",
+      "county",
+      "gun",
+      "limited",
+      "mariana",
+      "nation",
+      "shot",
+      "store",
+      "tackle",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "guns-aplenty",
+    "name": "Guns Aplenty!",
+    "summary": "A gun store in Mariana County with a hunting selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Hunting'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "aplenty",
+      "county",
+      "gun",
+      "guns",
+      "hunting",
+      "mariana",
+      "nation",
+      "store",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "richardson-hunting-supplies",
+    "name": "Richardson Hunting Supplies",
+    "summary": "A gun store in Mariana County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "gun",
+      "hunting",
+      "mariana",
+      "nation",
+      "richardson",
+      "standard",
+      "store",
+      "supplies",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "woodhatch",
+    "name": "Woodhatch",
+    "summary": "A gun store in Mariana County with a expanded selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Expanded'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant.",
+      "PowerPyx says expanded stores have the widest range, including machine guns, sniper rifles and launchers."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "expanded",
+      "gun",
+      "mariana",
+      "nation",
+      "store",
+      "weapons",
+      "woodhatch"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "big-shots",
+    "name": "Big Shots",
+    "summary": "A gun store in Vice-Dale County with a expanded selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Expanded'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant.",
+      "PowerPyx says expanded stores have the widest range, including machine guns, sniper rifles and launchers."
+    ],
+    "tags": [
+      "ammu",
+      "big",
+      "county",
+      "dale",
+      "expanded",
+      "gun",
+      "nation",
+      "shots",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hamlet-traders",
+    "name": "Hamlet Traders",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "dale",
+      "gun",
+      "hamlet",
+      "nation",
+      "standard",
+      "store",
+      "traders",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "phils-ammu-nation",
+    "name": "Phil's Ammu-Nation",
+    "summary": "A gun store in Vice-Dale County with a expanded selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Expanded'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant.",
+      "PowerPyx says expanded stores have the widest range, including machine guns, sniper rifles and launchers."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "dale",
+      "expanded",
+      "gun",
+      "nation",
+      "phil",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tequesta-guns-and-ammo",
+    "name": "Tequesta Guns & Ammo",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammo",
+      "ammu",
+      "county",
+      "dale",
+      "gun",
+      "guns",
+      "nation",
+      "standard",
+      "store",
+      "tequesta",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-city-firearms",
+    "name": "Vice City Firearms",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "city",
+      "county",
+      "dale",
+      "firearms",
+      "gun",
+      "nation",
+      "standard",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "martez-empenos",
+    "name": "Martez Empenos",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "dale",
+      "empenos",
+      "gun",
+      "martez",
+      "nation",
+      "standard",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "jackson-firearms",
+    "name": "Jackson Firearms",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "dale",
+      "firearms",
+      "gun",
+      "jackson",
+      "nation",
+      "standard",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-city-gun-and-pawn",
+    "name": "Vice City Gun & Pawn",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "city",
+      "county",
+      "dale",
+      "gun",
+      "nation",
+      "pawn",
+      "standard",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pawn-and-gun-crosstown",
+    "name": "Pawn & Gun - Crosstown",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "crosstown",
+      "dale",
+      "gun",
+      "nation",
+      "pawn",
+      "standard",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "quickscope",
+    "name": "Quickscope",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "dale",
+      "gun",
+      "nation",
+      "quickscope",
+      "standard",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "black-eagle",
+    "name": "Black Eagle",
+    "summary": "A gun store in Vice-Dale County with a expanded selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Expanded'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant.",
+      "PowerPyx says expanded stores have the widest range, including machine guns, sniper rifles and launchers."
+    ],
+    "tags": [
+      "ammu",
+      "black",
+      "county",
+      "dale",
+      "eagle",
+      "expanded",
+      "gun",
+      "nation",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "zenons-pawn-shop",
+    "name": "Zenon's Pawn Shop",
+    "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "dale",
+      "gun",
+      "nation",
+      "pawn",
+      "shop",
+      "standard",
+      "store",
+      "vice",
+      "weapons",
+      "zenon"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "iron-and-oak",
+    "name": "Iron & Oak",
+    "summary": "A gun store in Vice-Dale County with a expanded selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Expanded'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant.",
+      "PowerPyx says expanded stores have the widest range, including machine guns, sniper rifles and launchers."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "dale",
+      "expanded",
+      "gun",
+      "iron",
+      "nation",
+      "oak",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "prestige-firearms",
+    "name": "Prestige Firearms",
+    "summary": "A gun store in Vice-Dale County with a expanded selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Expanded'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant.",
+      "PowerPyx says expanded stores have the widest range, including machine guns, sniper rifles and launchers."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "dale",
+      "expanded",
+      "firearms",
+      "gun",
+      "nation",
+      "prestige",
+      "store",
+      "vice",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tactical-outlet-guns",
+    "name": "Tactical Outlet Guns",
+    "summary": "A gun store in Leonard County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "gun",
+      "guns",
+      "leonard",
+      "nation",
+      "outlet",
+      "standard",
+      "store",
+      "tactical",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pawn-and-gun-port-gellhorn",
+    "name": "Pawn & Gun - Port Gellhorn",
+    "summary": "A gun store in Kelly County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "gellhorn",
+      "gun",
+      "kelly",
+      "nation",
+      "pawn",
+      "port",
+      "standard",
+      "store",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gellhorn-outfitters",
+    "name": "Gellhorn Outfitters",
+    "summary": "A gun store in Kelly County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "gellhorn",
+      "gun",
+      "kelly",
+      "nation",
+      "outfitters",
+      "standard",
+      "store",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "biffs-gun-supply",
+    "name": "Biff's Gun Supply",
+    "summary": "A gun store in Kelly County with a standard selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "biff",
+      "county",
+      "gun",
+      "kelly",
+      "nation",
+      "standard",
+      "store",
+      "supply",
+      "weapons"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rusty-willis-jr-hunting-supplies",
+    "name": "Rusty Willis Jr. Hunting Supplies",
+    "summary": "A gun store in Lummox County with a hunting selection of weapons.",
+    "body": [
+      "PowerPyx lists it among 24 gun stores and labels its stock 'Hunting'.",
+      "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
+    ],
+    "tags": [
+      "ammu",
+      "county",
+      "gun",
+      "hunting",
+      "jr",
+      "lummox",
+      "nation",
+      "rusty",
+      "store",
+      "supplies",
+      "weapons",
+      "willis"
+    ],
+    "facts": {
+      "type": "gun store",
+      "location": "Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-guns"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-inked-mermaid",
+    "name": "The Inked Mermaid",
+    "summary": "A tattoo studio in Mariana County whose listed style is American Traditional.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "american",
+      "county",
+      "inked",
+      "mariana",
+      "mermaid",
+      "studio",
+      "tattoo",
+      "traditional"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "layin-ink",
+    "name": "Layin' Ink",
+    "summary": "A tattoo studio in Vice-Dale County whose listed style is Black & Gray.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "black",
+      "county",
+      "dale",
+      "gray",
+      "ink",
+      "layin",
+      "studio",
+      "tattoo",
+      "vice"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dominion-ink",
+    "name": "Dominion Ink",
+    "summary": "A tattoo studio in Vice-Dale County whose listed style is Anime.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "anime",
+      "county",
+      "dale",
+      "dominion",
+      "ink",
+      "studio",
+      "tattoo",
+      "vice"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hyper-ink",
+    "name": "Hyper Ink",
+    "summary": "A tattoo studio in Vice-Dale County whose listed style is Illustrative.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "hyper",
+      "illustrative",
+      "ink",
+      "studio",
+      "tattoo",
+      "vice"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cross-my-heart",
+    "name": "Cross My Heart",
+    "summary": "A tattoo studio in Vice-Dale County whose listed style is New School.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "county",
+      "cross",
+      "dale",
+      "heart",
+      "my",
+      "new",
+      "school",
+      "studio",
+      "tattoo",
+      "vice"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "inkomplete-tattoo-co",
+    "name": "Inkomplete Tattoo Co.",
+    "summary": "A tattoo studio in Vice-Dale County whose listed style is Old School.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "co",
+      "county",
+      "dale",
+      "inkomplete",
+      "old",
+      "school",
+      "studio",
+      "tattoo",
+      "vice"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "twa-ponya-tattoo",
+    "name": "Twa Ponya Tattoo",
+    "summary": "A tattoo studio in Vice-Dale County whose listed style is Neo-Traditional.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "neo",
+      "ponya",
+      "studio",
+      "tattoo",
+      "traditional",
+      "twa",
+      "vice"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "black-spot-tattoo",
+    "name": "Black Spot Tattoo",
+    "summary": "A tattoo studio in Vice-Dale County whose listed style is Geometric & Blackwork.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "black",
+      "blackwork",
+      "county",
+      "dale",
+      "geometric",
+      "spot",
+      "studio",
+      "tattoo",
+      "vice"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "blood-sugar-tattoo",
+    "name": "Blood Sugar Tattoo",
+    "summary": "A tattoo studio in Kelly County whose listed style is Lettering.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "blood",
+      "county",
+      "kelly",
+      "lettering",
+      "studio",
+      "sugar",
+      "tattoo"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "freedom-tattoo",
+    "name": "Freedom Tattoo",
+    "summary": "A tattoo studio in Kelly County whose listed style is Stick & Poke.",
+    "body": [
+      "PowerPyx lists it as one of 11 tattoo studios, shown as orange heart icons once the map is uncovered."
+    ],
+    "tags": [
+      "county",
+      "freedom",
+      "kelly",
+      "poke",
+      "stick",
+      "studio",
+      "tattoo"
+    ],
+    "facts": {
+      "type": "tattoo studio",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tattoo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "barnacle-beauties",
+    "name": "Barnacle Beauties",
+    "summary": "A unisex salon in Mariana County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: unisex salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "barnacle",
+      "beauties",
+      "county",
+      "hair",
+      "mariana",
+      "salon",
+      "unisex"
+    ],
+    "facts": {
+      "type": "unisex salon",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lori-scott-hair-and-beauty",
+    "name": "Lori Scott Hair & Beauty",
+    "summary": "A unisex salon in Mariana County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: unisex salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "beauty",
+      "county",
+      "hair",
+      "lori",
+      "mariana",
+      "salon",
+      "scott",
+      "unisex"
+    ],
+    "facts": {
+      "type": "unisex salon",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hair-by-clair",
+    "name": "Hair By Clair",
+    "summary": "A beauty salon in Mariana County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
+      "PowerPyx says beauty salons also let Lucia change nail color and makeup."
+    ],
+    "tags": [
+      "barber",
+      "beauty",
+      "by",
+      "clair",
+      "county",
+      "hair",
+      "mariana",
+      "salon"
+    ],
+    "facts": {
+      "type": "beauty salon",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kurts-barber-shop",
+    "name": "Kurt's Barber Shop",
+    "summary": "A barber in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: barber.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "county",
+      "dale",
+      "hair",
+      "kurt",
+      "salon",
+      "shop",
+      "vice"
+    ],
+    "facts": {
+      "type": "barber",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "au-courant",
+    "name": "AU Courant",
+    "summary": "A unisex salon in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: unisex salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "au",
+      "barber",
+      "county",
+      "courant",
+      "dale",
+      "hair",
+      "salon",
+      "unisex",
+      "vice"
+    ],
+    "facts": {
+      "type": "unisex salon",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "salon-p-rez",
+    "name": "Salon Pérez",
+    "summary": "A barber in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: barber.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "county",
+      "dale",
+      "hair",
+      "rez",
+      "salon",
+      "vice"
+    ],
+    "facts": {
+      "type": "barber",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bellissima-hair-salon",
+    "name": "Bellissima Hair Salon",
+    "summary": "A unisex salon in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: unisex salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "bellissima",
+      "county",
+      "dale",
+      "hair",
+      "salon",
+      "unisex",
+      "vice"
+    ],
+    "facts": {
+      "type": "unisex salon",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "salon-belle",
+    "name": "Salon Belle",
+    "summary": "A beauty salon in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
+      "PowerPyx says beauty salons also let Lucia change nail color and makeup."
+    ],
+    "tags": [
+      "barber",
+      "beauty",
+      "belle",
+      "county",
+      "dale",
+      "hair",
+      "salon",
+      "vice"
+    ],
+    "facts": {
+      "type": "beauty salon",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fabiolas-unisex-salon",
+    "name": "Fabiola's Unisex Salon",
+    "summary": "A beauty salon in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
+      "PowerPyx says beauty salons also let Lucia change nail color and makeup."
+    ],
+    "tags": [
+      "barber",
+      "beauty",
+      "county",
+      "dale",
+      "fabiola",
+      "hair",
+      "salon",
+      "unisex",
+      "vice"
+    ],
+    "facts": {
+      "type": "beauty salon",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "crosstown-cutz",
+    "name": "Crosstown Cutz",
+    "summary": "A barber in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: barber.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "county",
+      "crosstown",
+      "cutz",
+      "dale",
+      "hair",
+      "salon",
+      "vice"
+    ],
+    "facts": {
+      "type": "barber",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "clip-and-fade",
+    "name": "Clip & Fade",
+    "summary": "A barber in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: barber.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "clip",
+      "county",
+      "dale",
+      "fade",
+      "hair",
+      "salon",
+      "vice"
+    ],
+    "facts": {
+      "type": "barber",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "onyx-salon",
+    "name": "Onyx Salon",
+    "summary": "A beauty salon in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
+      "PowerPyx says beauty salons also let Lucia change nail color and makeup."
+    ],
+    "tags": [
+      "barber",
+      "beauty",
+      "county",
+      "dale",
+      "hair",
+      "onyx",
+      "salon",
+      "vice"
+    ],
+    "facts": {
+      "type": "beauty salon",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "oomph",
+    "name": "Oomph!",
+    "summary": "A beauty salon in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
+      "PowerPyx says beauty salons also let Lucia change nail color and makeup."
+    ],
+    "tags": [
+      "barber",
+      "beauty",
+      "county",
+      "dale",
+      "hair",
+      "oomph",
+      "salon",
+      "vice"
+    ],
+    "facts": {
+      "type": "beauty salon",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gabriel-wexler",
+    "name": "Gabriel Wexler",
+    "summary": "A beauty salon in Vice-Dale County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
+      "PowerPyx says beauty salons also let Lucia change nail color and makeup."
+    ],
+    "tags": [
+      "barber",
+      "beauty",
+      "county",
+      "dale",
+      "gabriel",
+      "hair",
+      "salon",
+      "vice",
+      "wexler"
+    ],
+    "facts": {
+      "type": "beauty salon",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "a-better-you",
+    "name": "A Better You",
+    "summary": "A beauty salon in Leonard County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
+      "PowerPyx says beauty salons also let Lucia change nail color and makeup."
+    ],
+    "tags": [
+      "barber",
+      "beauty",
+      "better",
+      "county",
+      "hair",
+      "leonard",
+      "salon",
+      "you"
+    ],
+    "facts": {
+      "type": "beauty salon",
+      "location": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pearl-house-hair-salon",
+    "name": "Pearl House Hair Salon",
+    "summary": "A unisex salon in Kelly County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: unisex salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "county",
+      "hair",
+      "house",
+      "kelly",
+      "pearl",
+      "salon",
+      "unisex"
+    ],
+    "facts": {
+      "type": "unisex salon",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "captain-starlings-barber-shop",
+    "name": "Captain Starlings Barber Shop",
+    "summary": "A unisex salon in Kelly County where the player can change hairstyle.",
+    "body": [
+      "PowerPyx lists it among 18 hair and beauty salons and classes it as: unisex salon.",
+      "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
+    ],
+    "tags": [
+      "barber",
+      "captain",
+      "county",
+      "hair",
+      "kelly",
+      "salon",
+      "shop",
+      "starlings",
+      "unisex"
+    ],
+    "facts": {
+      "type": "unisex salon",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-hair"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shorefront",
+    "name": "Shorefront",
+    "summary": "A bank chain with five small branches and one large Ocean Beach vault that can be robbed.",
+    "body": [
+      "PowerPyx lists small Shorefront banks in Watson Bay, Downtown, Rockridge, Ocean Beach and Ambrosia, and a large vault in Ocean Beach.",
+      "PowerPyx says small banks become targets about halfway through the story and large vaults near its end."
+    ],
+    "tags": [
+      "ambrosia",
+      "bank",
+      "bay",
+      "beach",
+      "downtown",
+      "ocean",
+      "robbery",
+      "rockridge",
+      "shorefront",
+      "vault",
+      "watson"
+    ],
+    "facts": {
+      "type": "bank",
+      "location": "Watson Bay, Downtown, Rockridge, Ocean Beach, Ambrosia"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-banks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lombank",
+    "name": "Lombank",
+    "summary": "A bank chain with small branches and large vaults across Vice City that can be robbed.",
+    "body": [
+      "PowerPyx lists small Lombank branches in Peacock Bay, Bayside and Ocean Beach, and large vaults Downtown and twice in Ocean Beach.",
+      "PowerPyx gives the Downtown Lombank vault the highest listed take, up to $205,000."
+    ],
+    "tags": [
+      "bank",
+      "bay",
+      "bayside",
+      "beach",
+      "downtown",
+      "lombank",
+      "ocean",
+      "peacock",
+      "robbery",
+      "vault"
+    ],
+    "facts": {
+      "type": "bank",
+      "location": "Peacock Bay, Bayside, Downtown, Ocean Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-banks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gibson-brothers-bank",
+    "name": "Gibson Brothers Bank",
+    "summary": "A small independent bank in Mariana County that can be robbed.",
+    "body": [
+      "PowerPyx lists it among 14 small banks with a take of $10,000 to $30,000."
+    ],
+    "tags": [
+      "bank",
+      "brothers",
+      "county",
+      "gibson",
+      "mariana",
+      "robbery"
+    ],
+    "facts": {
+      "type": "bank",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-banks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "druthers-state-bank",
+    "name": "Druthers State Bank",
+    "summary": "A small independent bank in Leonard County that can be robbed.",
+    "body": [
+      "PowerPyx lists it among 14 small banks with a take of $15,000 to $45,000."
+    ],
+    "tags": [
+      "bank",
+      "county",
+      "druthers",
+      "leonard",
+      "robbery",
+      "state"
+    ],
+    "facts": {
+      "type": "bank",
+      "location": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-banks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "quick-buck",
+    "name": "Quick Buck",
+    "summary": "A payday loan business that can be held up for marked bills.",
+    "body": [
+      "PowerPyx lists it among seven payday loan robbery locations with a take of $5,000 to $15,000.",
+      "PowerPyx says these jobs open up partway through the story, once marked bills can be fenced, and show as green hand icons."
+    ],
+    "tags": [
+      "buck",
+      "county",
+      "dale",
+      "hamlet",
+      "la",
+      "lender",
+      "loans",
+      "payday",
+      "perle",
+      "quick",
+      "robbery",
+      "vice"
+    ],
+    "facts": {
+      "type": "payday lender",
+      "location": "Hamlet and La Perle, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-payday"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "payline-loans-247",
+    "name": "Payline Loans 247",
+    "summary": "A payday loan business that can be held up for marked bills.",
+    "body": [
+      "PowerPyx lists it among seven payday loan robbery locations with a take of $5,000 to $15,000.",
+      "PowerPyx says these jobs open up partway through the story, once marked bills can be fenced, and show as green hand icons."
+    ],
+    "tags": [
+      "247",
+      "county",
+      "dale",
+      "lender",
+      "loans",
+      "payday",
+      "payline",
+      "robbery",
+      "vice"
+    ],
+    "facts": {
+      "type": "payday lender",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-payday"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "payday-loans-store",
+    "name": "Payday Loans Store",
+    "summary": "A payday loan business that can be held up for marked bills.",
+    "body": [
+      "PowerPyx lists it among seven payday loan robbery locations with a take of $5,000 to $25,000.",
+      "PowerPyx says these jobs open up partway through the story, once marked bills can be fenced, and show as green hand icons."
+    ],
+    "tags": [
+      "city",
+      "cuba",
+      "lender",
+      "little",
+      "loans",
+      "payday",
+      "robbery",
+      "rockridge",
+      "southside",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "payday lender",
+      "location": "Southside, Little Cuba and Rockridge, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-payday"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cash-flow",
+    "name": "Cash Flow",
+    "summary": "A payday loan business that can be held up for marked bills.",
+    "body": [
+      "PowerPyx lists it among seven payday loan robbery locations with a take of $2,000 to $10,000.",
+      "PowerPyx says these jobs open up partway through the story, once marked bills can be fenced, and show as green hand icons."
+    ],
+    "tags": [
+      "cash",
+      "county",
+      "flow",
+      "kelly",
+      "lender",
+      "loans",
+      "payday",
+      "robbery"
+    ],
+    "facts": {
+      "type": "payday lender",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-payday"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-sirens-chest",
+    "name": "The Siren's Chest",
+    "summary": "A jewelry store in Mariana County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "chest",
+      "county",
+      "grab",
+      "jewelry",
+      "mariana",
+      "robbery",
+      "siren",
+      "smash",
+      "store"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "timeless-peculiars",
+    "name": "Timeless Peculiars",
+    "summary": "A pawn shop in Mariana County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "grab",
+      "mariana",
+      "pawn",
+      "peculiars",
+      "robbery",
+      "shop",
+      "smash",
+      "timeless"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "victoria-lee-jeweler",
+    "name": "Victoria Lee Jeweler",
+    "summary": "A jewelry store in Mariana County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "grab",
+      "jeweler",
+      "jewelry",
+      "lee",
+      "mariana",
+      "robbery",
+      "smash",
+      "store",
+      "victoria"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hamlet-pawn",
+    "name": "Hamlet Pawn",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "hamlet",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "joyeria-empenos",
+    "name": "Joyeria Empenos",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "empenos",
+      "grab",
+      "joyeria",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ernestos-pawn",
+    "name": "Ernesto's Pawn",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "ernesto",
+      "grab",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "donovan-banks-and-co",
+    "name": "Donovan Banks & Co.",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "banks",
+      "co",
+      "county",
+      "dale",
+      "donovan",
+      "grab",
+      "jewelry",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "plush",
+    "name": "Plush",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "jewelry",
+      "plush",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pawn-city",
+    "name": "Pawn City",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "grab",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "icegem-diamonds-and-watches",
+    "name": "Icegem Diamonds & Watches",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "diamonds",
+      "grab",
+      "icegem",
+      "jewelry",
+      "robbery",
+      "smash",
+      "store",
+      "vice",
+      "watches"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "richardson-jewelry-and-diamonds",
+    "name": "Richardson Jewelry & Diamonds",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "diamonds",
+      "grab",
+      "jewelry",
+      "richardson",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "all-that-glitters",
+    "name": "All That Glitters",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "all",
+      "county",
+      "dale",
+      "glitters",
+      "grab",
+      "jewelry",
+      "robbery",
+      "smash",
+      "store",
+      "that",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "peacock",
+    "name": "Peacock",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "jewelry",
+      "peacock",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fast-cash",
+    "name": "Fast Cash",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "cash",
+      "county",
+      "dale",
+      "fast",
+      "grab",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-jewelry-place",
+    "name": "The Jewelry Place",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "jewelry",
+      "place",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "crown-jewels",
+    "name": "Crown Jewels",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "crown",
+      "dale",
+      "grab",
+      "jewelry",
+      "jewels",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dorado-pawn-shop",
+    "name": "Dorado Pawn Shop",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "dorado",
+      "grab",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "white-sands-jewelry-pawn",
+    "name": "White Sands Jewelry Pawn",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "jewelry",
+      "pawn",
+      "robbery",
+      "sands",
+      "shop",
+      "smash",
+      "vice",
+      "white"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "down-town-pawn",
+    "name": "Down Town Pawn",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "down",
+      "grab",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "town",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vice-city-pawn",
+    "name": "Vice City Pawn",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "grab",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pawn-stash",
+    "name": "Pawn Stash",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "stash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "blanc-and-giroux",
+    "name": "Blanc & Giroux",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "blanc",
+      "county",
+      "dale",
+      "giroux",
+      "grab",
+      "jewelry",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "roval-jewelry",
+    "name": "Roval Jewelry",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "jewelry",
+      "robbery",
+      "roval",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "covgari",
+    "name": "Covgari",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "covgari",
+      "dale",
+      "grab",
+      "jewelry",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "akoya-jewelers",
+    "name": "Akoya Jewelers",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "akoya",
+      "county",
+      "dale",
+      "grab",
+      "jewelers",
+      "jewelry",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marshals",
+    "name": "Marshal's",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "jewelry",
+      "marshal",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "casa-de-empeno",
+    "name": "Casa De Empeno",
+    "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "casa",
+      "county",
+      "dale",
+      "de",
+      "empeno",
+      "grab",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash",
+      "vice"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rococo-rich",
+    "name": "Rococo Rich",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "grab",
+      "jewelry",
+      "rich",
+      "robbery",
+      "rococo",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "legendary-custom-jewelry",
+    "name": "Legendary Custom Jewelry",
+    "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "custom",
+      "dale",
+      "grab",
+      "jewelry",
+      "legendary",
+      "robbery",
+      "smash",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brilliant-cuts",
+    "name": "Brilliant Cuts",
+    "summary": "A jewelry store in Leonard County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "brilliant",
+      "county",
+      "cuts",
+      "grab",
+      "jewelry",
+      "leonard",
+      "robbery",
+      "smash",
+      "store"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "skala",
+    "name": "Skala",
+    "summary": "A jewelry store in Leonard County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "grab",
+      "jewelry",
+      "leonard",
+      "robbery",
+      "skala",
+      "smash",
+      "store"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kowalski",
+    "name": "Kowalski",
+    "summary": "A jewelry store in Leonard County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "county",
+      "grab",
+      "jewelry",
+      "kowalski",
+      "leonard",
+      "robbery",
+      "smash",
+      "store"
+    ],
+    "facts": {
+      "type": "jewelry store",
+      "location": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bucks-jewelry-and-pawn",
+    "name": "Buck's Jewelry & Pawn",
+    "summary": "A pawn shop in Kelly County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "buck",
+      "county",
+      "grab",
+      "jewelry",
+      "kelly",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "avery-pawn",
+    "name": "Avery Pawn",
+    "summary": "A pawn shop in Kelly County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "avery",
+      "county",
+      "grab",
+      "kelly",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "florence-and-co",
+    "name": "Florence & Co.",
+    "summary": "A pawn shop in Kelly County that can be robbed as a Smash 'n' Grab.",
+    "body": [
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+    ],
+    "tags": [
+      "co",
+      "county",
+      "florence",
+      "grab",
+      "kelly",
+      "pawn",
+      "robbery",
+      "shop",
+      "smash"
+    ],
+    "facts": {
+      "type": "pawn shop",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-smash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "zekes-gadgets",
+    "name": "Zekes Gadgets",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "case",
+      "county",
+      "dale",
+      "electronics",
+      "gadgets",
+      "headphones",
+      "phone",
+      "store",
+      "vice",
+      "zekes"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tech-point",
+    "name": "Tech Point",
+    "summary": "An electronics store in Vice-Dale County with two branches.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "beach",
+      "case",
+      "county",
+      "dale",
+      "electronics",
+      "headphones",
+      "ocean",
+      "phone",
+      "point",
+      "store",
+      "tech",
+      "tequesta"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Tequesta and Ocean Beach, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "electronick",
+    "name": "Electronick",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "case",
+      "county",
+      "dale",
+      "electronick",
+      "electronics",
+      "headphones",
+      "phone",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "simply-sound",
+    "name": "Simply Sound",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "case",
+      "county",
+      "dale",
+      "electronics",
+      "headphones",
+      "phone",
+      "simply",
+      "sound",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "super-friki-inc",
+    "name": "Super Friki Inc.",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "case",
+      "county",
+      "dale",
+      "electronics",
+      "friki",
+      "headphones",
+      "inc",
+      "phone",
+      "store",
+      "super",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cell-phone-zone",
+    "name": "Cell Phone Zone",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "case",
+      "cell",
+      "county",
+      "dale",
+      "electronics",
+      "headphones",
+      "phone",
+      "store",
+      "vice",
+      "zone"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "electric-boulevard",
+    "name": "Electric Boulevard",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "boulevard",
+      "case",
+      "county",
+      "dale",
+      "electric",
+      "electronics",
+      "headphones",
+      "phone",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "best-priced-electrical-supplies",
+    "name": "Best Priced Electrical Supplies",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "best",
+      "case",
+      "county",
+      "dale",
+      "electrical",
+      "electronics",
+      "headphones",
+      "phone",
+      "priced",
+      "store",
+      "supplies",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "beta-audio-and-electronics",
+    "name": "Beta Audio and Electronics",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "audio",
+      "beta",
+      "case",
+      "county",
+      "dale",
+      "electronics",
+      "headphones",
+      "phone",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "easy-electronics",
+    "name": "Easy Electronics",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "case",
+      "county",
+      "dale",
+      "easy",
+      "electronics",
+      "headphones",
+      "phone",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "acpc",
+    "name": "ACPC",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "acpc",
+      "case",
+      "county",
+      "dale",
+      "electronics",
+      "headphones",
+      "phone",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "aural-expert",
+    "name": "Aural Expert",
+    "summary": "An electronics store in Vice-Dale County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "aural",
+      "case",
+      "county",
+      "dale",
+      "electronics",
+      "expert",
+      "headphones",
+      "phone",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "empowered-electronics",
+    "name": "Empowered Electronics",
+    "summary": "An electronics store in Leonard County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "case",
+      "county",
+      "electronics",
+      "empowered",
+      "headphones",
+      "leonard",
+      "phone",
+      "store"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "game-horde",
+    "name": "Game Horde",
+    "summary": "An electronics store in Kelly County.",
+    "body": [
+      "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
+    ],
+    "tags": [
+      "case",
+      "county",
+      "electronics",
+      "game",
+      "headphones",
+      "horde",
+      "kelly",
+      "phone",
+      "store"
+    ],
+    "facts": {
+      "type": "electronics store",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "one-stop-liquor",
+    "name": "One Stop Liquor",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "beach",
+      "key",
+      "lento",
+      "liquor",
+      "ocean",
+      "one",
+      "stick",
+      "stop",
+      "store",
+      "up"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Key Lento and Ocean Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "three-sheets-liquor",
+    "name": "Three Sheets Liquor",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "county",
+      "liquor",
+      "mariana",
+      "sheets",
+      "stick",
+      "store",
+      "three",
+      "up"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "discount-liquors",
+    "name": "Discount Liquors",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "county",
+      "dale",
+      "discount",
+      "liquor",
+      "liquors",
+      "stick",
+      "store",
+      "up",
+      "vice"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "uncle-jacks-liquor",
+    "name": "Uncle Jack's Liquor",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "bayside",
+      "gellhorn",
+      "jack",
+      "liquor",
+      "port",
+      "stick",
+      "store",
+      "tequesta",
+      "uncle",
+      "up"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Tequesta, Bayside and Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "palmis-liquor",
+    "name": "Palmis Liquor",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "county",
+      "dale",
+      "liquor",
+      "palmis",
+      "stick",
+      "store",
+      "up",
+      "vice"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dutch-courage",
+    "name": "Dutch Courage",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "county",
+      "courage",
+      "dale",
+      "dutch",
+      "liquor",
+      "stick",
+      "store",
+      "up",
+      "vice"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "zaks-liquor",
+    "name": "Zak's Liquor",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "county",
+      "dale",
+      "liquor",
+      "stick",
+      "store",
+      "up",
+      "vice",
+      "zak"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "corked-wine-bank",
+    "name": "Corked Wine Bank",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "bank",
+      "corked",
+      "county",
+      "dale",
+      "liquor",
+      "stick",
+      "store",
+      "up",
+      "vice",
+      "wine"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ocean-beach-liquor",
+    "name": "Ocean Beach Liquor",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "beach",
+      "county",
+      "dale",
+      "liquor",
+      "ocean",
+      "stick",
+      "store",
+      "up",
+      "vice"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Ocean Beach, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ambrosia-liquors",
+    "name": "Ambrosia Liquors",
+    "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "body": [
+      "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
+    ],
+    "tags": [
+      "alcohol",
+      "ambrosia",
+      "county",
+      "kelly",
+      "liquor",
+      "liquors",
+      "stick",
+      "store",
+      "up"
+    ],
+    "facts": {
+      "type": "liquor store",
+      "location": "Ambrosia, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-liquor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marbles",
+    "name": "Marbles",
+    "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "body": [
+      "PowerPyx lists it among 21 fast food stores and gives its locations as: Key Lento, Salton, West Vice-Dale County and Ambrosia."
+    ],
+    "tags": [
+      "ambrosia",
+      "county",
+      "dale",
+      "fast",
+      "food",
+      "key",
+      "lento",
+      "marbles",
+      "salton",
+      "vice",
+      "west"
+    ],
+    "facts": {
+      "type": "fast food",
+      "location": "Key Lento, Salton, West Vice-Dale County and Ambrosia"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pollo-diablo",
+    "name": "Pollo Diablo",
+    "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "body": [
+      "PowerPyx lists it among 21 fast food stores and gives its locations as: Hamlet, VCIA, Ocean Beach, Waning Sands and Millport."
+    ],
+    "tags": [
+      "beach",
+      "diablo",
+      "fast",
+      "food",
+      "hamlet",
+      "millport",
+      "ocean",
+      "pollo",
+      "sands",
+      "vcia",
+      "waning"
+    ],
+    "facts": {
+      "type": "fast food",
+      "location": "Hamlet, VCIA, Ocean Beach, Waning Sands and Millport"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chaceys",
+    "name": "Chacey's",
+    "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "body": [
+      "PowerPyx lists it among 21 fast food stores and gives its locations as: Southside and Salton."
+    ],
+    "tags": [
+      "chacey",
+      "fast",
+      "food",
+      "salton",
+      "southside"
+    ],
+    "facts": {
+      "type": "fast food",
+      "location": "Southside and Salton"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "peewees",
+    "name": "Peewees",
+    "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "body": [
+      "PowerPyx lists it among 21 fast food stores and gives its locations as: Southside, Rockridge and Belville."
+    ],
+    "tags": [
+      "belville",
+      "fast",
+      "food",
+      "peewees",
+      "rockridge",
+      "southside"
+    ],
+    "facts": {
+      "type": "fast food",
+      "location": "Southside, Rockridge and Belville"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "franks-waffles",
+    "name": "Frank's Waffles",
+    "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "body": [
+      "PowerPyx lists it among 21 fast food stores and gives its locations as: Vice-Dale County."
+    ],
+    "tags": [
+      "county",
+      "dale",
+      "fast",
+      "food",
+      "frank",
+      "vice",
+      "waffles"
+    ],
+    "facts": {
+      "type": "fast food",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "burger-shot",
+    "name": "Burger Shot",
+    "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "body": [
+      "PowerPyx lists it among 21 fast food stores and gives its locations as: Ocean Beach."
+    ],
+    "tags": [
+      "beach",
+      "burger",
+      "fast",
+      "food",
+      "ocean",
+      "shot"
+    ],
+    "facts": {
+      "type": "fast food",
+      "location": "Ocean Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "taco-bomb",
+    "name": "Taco Bomb",
+    "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "body": [
+      "PowerPyx lists it among 21 fast food stores and gives its locations as: Belville, Waning Sands, Gellhorn and West Kalaga."
+    ],
+    "tags": [
+      "belville",
+      "bomb",
+      "fast",
+      "food",
+      "gellhorn",
+      "kalaga",
+      "sands",
+      "taco",
+      "waning",
+      "west"
+    ],
+    "facts": {
+      "type": "fast food",
+      "location": "Belville, Waning Sands, Gellhorn and West Kalaga"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hanks-waffles",
+    "name": "Hank's Waffles",
+    "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "body": [
+      "PowerPyx lists it among 21 fast food stores and gives its locations as: Kelly County."
+    ],
+    "tags": [
+      "county",
+      "fast",
+      "food",
+      "hank",
+      "kelly",
+      "waffles"
+    ],
+    "facts": {
+      "type": "fast food",
+      "location": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fastfood"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "slinger",
+    "name": "Slinger",
+    "summary": "A clothing store selling casual and street clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under casual and street clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "bay",
+      "beach",
+      "casual",
+      "clothing",
+      "decor",
+      "district",
+      "downtown",
+      "ocean",
+      "peacock",
+      "slinger",
+      "southside",
+      "store"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Southside, Peacock Bay, Tequesta, Downtown, Decor District and Ocean Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "this-that",
+    "name": "This / That",
+    "summary": "A clothing store selling casual and street clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under casual and street clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "beach",
+      "casual",
+      "clothing",
+      "decor",
+      "district",
+      "ocean",
+      "sands",
+      "store",
+      "street",
+      "that",
+      "this",
+      "waning"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Decor District, Ocean Beach and Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mid",
+    "name": "Mid",
+    "summary": "A clothing store selling casual and street clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under casual and street clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "beach",
+      "casual",
+      "clothing",
+      "mid",
+      "ocean",
+      "sands",
+      "store",
+      "street",
+      "waning"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Ocean Beach and Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "suburban",
+    "name": "Suburban",
+    "summary": "A clothing store selling casual and street clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under casual and street clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "casual",
+      "clothing",
+      "county",
+      "dale",
+      "store",
+      "street",
+      "suburban",
+      "vice"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "urban-legendz",
+    "name": "Urban Legendz",
+    "summary": "A clothing store selling casual and street clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under casual and street clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "casual",
+      "clothing",
+      "county",
+      "dale",
+      "legendz",
+      "store",
+      "street",
+      "urban",
+      "vice"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "drip-drops",
+    "name": "Drip Drops",
+    "summary": "A clothing store selling casual and street clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under casual and street clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "casual",
+      "clothing",
+      "county",
+      "dale",
+      "drip",
+      "drops",
+      "store",
+      "street",
+      "vice"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "alpha-sports",
+    "name": "Alpha Sports",
+    "summary": "A clothing store selling sportswear.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under sportswear.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "alpha",
+      "beach",
+      "clothing",
+      "downtown",
+      "ocean",
+      "sands",
+      "sports",
+      "sportswear",
+      "store",
+      "waning"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Downtown, Ocean Beach and Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "endzone",
+    "name": "Endzone",
+    "summary": "A clothing store selling sportswear.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under sportswear.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "beach",
+      "clothing",
+      "downtown",
+      "endzone",
+      "ocean",
+      "sportswear",
+      "store",
+      "washington"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Downtown, Ocean Beach and Washington Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "eris",
+    "name": "Eris",
+    "summary": "A clothing store selling sportswear.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under sportswear.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "clothing",
+      "county",
+      "dale",
+      "eris",
+      "sportswear",
+      "store",
+      "vice"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nola",
+    "name": "Nola",
+    "summary": "A clothing store selling formal clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under formal clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "bay",
+      "beach",
+      "capri",
+      "clothing",
+      "decor",
+      "district",
+      "formal",
+      "nola",
+      "ocean",
+      "peacock",
+      "store"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Capri, Peacock Bay, Ocean Beach and Decor District"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ferruccio-tucci",
+    "name": "Ferruccio Tucci",
+    "summary": "A clothing store selling formal clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under formal clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "beach",
+      "capri",
+      "clothing",
+      "decor",
+      "district",
+      "ferruccio",
+      "formal",
+      "ocean",
+      "sands",
+      "store",
+      "tucci",
+      "waning"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Capri, Ocean Beach, Decor District and Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nifty-threads-island-wear",
+    "name": "Nifty Threads Island Wear",
+    "summary": "A clothing store selling thrift clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under thrift clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "clothing",
+      "county",
+      "island",
+      "mariana",
+      "nifty",
+      "store",
+      "threads",
+      "thrift",
+      "wear"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hamlet-thrift",
+    "name": "Hamlet Thrift",
+    "summary": "A clothing store selling thrift clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under thrift clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "clothing",
+      "county",
+      "dale",
+      "hamlet",
+      "store",
+      "thrift",
+      "vice"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "alines-thrift-store",
+    "name": "Aline's Thrift Store",
+    "summary": "A clothing store selling thrift clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under thrift clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "aline",
+      "clothing",
+      "county",
+      "dale",
+      "store",
+      "thrift",
+      "vice"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dr-froogal",
+    "name": "Dr Froogal",
+    "summary": "A clothing store selling thrift clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under thrift clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
+    ],
+    "tags": [
+      "clothing",
+      "county",
+      "dale",
+      "dr",
+      "froogal",
+      "store",
+      "thrift",
+      "vice"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bargain-world",
+    "name": "Bargain World",
+    "summary": "A clothing store selling thrift clothing.",
+    "body": [
+      "PowerPyx lists it among 67 clothing stores, under thrift clothing.",
+      "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms.",
+      "PowerPyx says an arcade machine with the game Bang For Your Buck stands outside it in Port Gellhorn."
+    ],
+    "tags": [
+      "bargain",
+      "clothing",
+      "county",
+      "gellhorn",
+      "kelly",
+      "port",
+      "store",
+      "thrift",
+      "world"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Port Gellhorn, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing",
+      "ppx-videogames"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "souvenir-and-swimwear-shops",
+    "name": "Souvenir and swimwear shops",
+    "summary": "Twenty-four gift and swimwear shops sell souvenir clothing, all of them in Mariana and Vice-Dale counties.",
+    "body": [
+      "PowerPyx lists Leroy's, The Wonder Whale, Billie's Key Lento Gift Shop, Key Lento Kahuna and Lost Mines Souvenirs in Mariana County.",
+      "PowerPyx lists 19 in Vice-Dale County, among them Dollar Domain, Little Cuba Souvenir Store, Telegraphe, Sea Swell Gifts, Starboard Souvenirs, Vice Style, Sunshine Sally's, Dock Ring Souvenirs, Coquina Box and Knick Knack Paddle Shack.",
+      "PowerPyx also lists Island Gifts, Washed Ashore Souvenirs, Coastal Souvenirs, De'luge Swimwear, Larry's Lagoon, Waves, Gifts A GoGo, Beach Please and a store simply called Souvenir Shop."
+    ],
+    "tags": [
+      "clothing",
+      "counties",
+      "dale",
+      "gift",
+      "mariana",
+      "shop",
+      "shops",
+      "souvenir",
+      "store",
+      "swimwear",
+      "vice"
+    ],
+    "facts": {
+      "type": "clothing store",
+      "location": "Mariana and Vice-Dale counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "flip-flop-house",
+    "name": "Flip Flop House",
+    "summary": "A shoe store; PowerPyx gives its locations as Mariana County.",
+    "body": [
+      "PowerPyx lists it among 17 footwear stores and gives its locations as: Mariana County."
+    ],
+    "tags": [
+      "county",
+      "flip",
+      "flop",
+      "footwear",
+      "house",
+      "mariana",
+      "shoes",
+      "store"
+    ],
+    "facts": {
+      "type": "footwear store",
+      "location": "Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-footwear"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "callus",
+    "name": "Callus",
+    "summary": "A shoe store; PowerPyx gives its locations as Capri, Decor District, Ocean Beach and Waning Sands.",
+    "body": [
+      "PowerPyx lists it among 17 footwear stores and gives its locations as: Capri, Decor District, Ocean Beach and Waning Sands."
+    ],
+    "tags": [
+      "beach",
+      "callus",
+      "capri",
+      "decor",
+      "district",
+      "footwear",
+      "ocean",
+      "sands",
+      "shoes",
+      "store",
+      "waning"
+    ],
+    "facts": {
+      "type": "footwear store",
+      "location": "Capri, Decor District, Ocean Beach and Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-footwear"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "podium-sports",
+    "name": "Podium Sports",
+    "summary": "A shoe store; PowerPyx gives its locations as Southside, Tequesta, Downtown, Ocean Beach and Waning Sands.",
+    "body": [
+      "PowerPyx lists it among 17 footwear stores and gives its locations as: Southside, Tequesta, Downtown, Ocean Beach and Waning Sands."
+    ],
+    "tags": [
+      "beach",
+      "downtown",
+      "footwear",
+      "ocean",
+      "podium",
+      "sands",
+      "shoes",
+      "southside",
+      "sports",
+      "store",
+      "tequesta",
+      "waning"
+    ],
+    "facts": {
+      "type": "footwear store",
+      "location": "Southside, Tequesta, Downtown, Ocean Beach and Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-footwear"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "whs",
+    "name": "WHS",
+    "summary": "A shoe store; PowerPyx gives its locations as Little Cuba, Downtown, Ocean Beach and Port Gellhorn.",
+    "body": [
+      "PowerPyx lists it among 17 footwear stores and gives its locations as: Little Cuba, Downtown, Ocean Beach and Port Gellhorn."
+    ],
+    "tags": [
+      "beach",
+      "cuba",
+      "downtown",
+      "footwear",
+      "gellhorn",
+      "little",
+      "ocean",
+      "port",
+      "shoes",
+      "store",
+      "whs"
+    ],
+    "facts": {
+      "type": "footwear store",
+      "location": "Little Cuba, Downtown, Ocean Beach and Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-footwear"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ron-car-wash",
+    "name": "RON Car Wash",
+    "summary": "A car wash chain with three Vice City branches where a dirty car can be cleaned.",
+    "body": [
+      "PowerPyx lists six car washes, all in Vice City, and says using them is optional because a repair also cleans the car.",
+      "PowerPyx also lists Ron gas stations and Ron Stop'N'Snack convenience stores in Vice-Dale County."
+    ],
+    "tags": [
+      "balsero",
+      "bayside",
+      "car",
+      "city",
+      "ron",
+      "salton",
+      "vice",
+      "wash"
+    ],
+    "facts": {
+      "type": "car wash",
+      "location": "Salton, Balsero and Bayside, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-carwash",
+      "ppx-gas",
+      "ppx-convenience"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "xero-car-wash",
+    "name": "Xero Car Wash",
+    "summary": "A car wash chain with two Vice City branches.",
+    "body": [
+      "PowerPyx lists six car washes, all in Vice City."
+    ],
+    "tags": [
+      "car",
+      "city",
+      "la",
+      "perle",
+      "southside",
+      "vice",
+      "wash",
+      "xero"
+    ],
+    "facts": {
+      "type": "car wash",
+      "location": "Southside and La Perle, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-carwash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "park-n-glow",
+    "name": "Park N Glow",
+    "summary": "An independent car wash in Vice City.",
+    "body": [
+      "PowerPyx lists six car washes, all in Vice City."
+    ],
+    "tags": [
+      "car",
+      "city",
+      "glow",
+      "park",
+      "vice",
+      "wash"
+    ],
+    "facts": {
+      "type": "car wash",
+      "location": "Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-carwash"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gas-stations-of-leonida",
+    "name": "Gas stations of Leonida",
+    "summary": "Fifty-seven gas stations refuel vehicles, which all burn fuel and stop when the tank is empty.",
+    "body": [
+      "PowerPyx counts 7 in Mariana, 26 in Vice-Dale, 12 in Kelly, 6 in Leonard and 6 in Lummox County.",
+      "PowerPyx names the chains Xero Gas, 247 Gas, Globe Oil Gas, LTD Gas, Arrow Gas, Ron Gas and Alpha Gas.",
+      "PowerPyx also names independents: Emilio's Auto Center Gas, Vargo's Gas, Emerald Springs Country Store Gas, Eager Beaver Gas, Oyster Point Gas Stop, Vortex & Percy's General Store, Jackson's Tire Co., Buck Creek Country Store and Redshaw's Gasoline.",
+      "PowerPyx says nearby stations are flagged on the map when fuel runs low."
+    ],
+    "tags": [
+      "247",
+      "all",
+      "alpha",
+      "arrow",
+      "counties",
+      "five",
+      "fuel",
+      "gas",
+      "globe",
+      "leonida",
+      "ltd",
+      "oil"
+    ],
+    "facts": {
+      "type": "gas station",
+      "location": "All five counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gas"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "convenience-stores-of-leonida",
+    "name": "Convenience stores of Leonida",
+    "summary": "Seventy-two convenience stores sell the healing item Zombix, pet food and groceries for the home fridge.",
+    "body": [
+      "PowerPyx counts 10 in Mariana, 37 in Vice-Dale, 5 in Leonard, 14 in Kelly and 6 in Lummox County.",
+      "PowerPyx names the chains Xero Food Mart, 247, Ron Stop'N'Snack, LTD Food Mart, Globe Oil Food Center and Alpha Convenience Store.",
+      "PowerPyx names independents including Randy's Big Gas Mart, Poppers Convenience Store, Jim's Mini Mart, Leonida Truck Stop, Righto Cash & Carry, Ramon's Groceries, Delgado & Sons, Hugo's Quick-Mart, XYZ Market, Rico's, Blessed Food Market, Vetiver Minimarket and A&L Surf Mart.",
+      "PowerPyx names Kelly and Lummox independents including Tucker's Citrus Farms, Cane Grocery, Bunch Farms Country Store, Sarena's Bargain Store, Dale's Shopwell, Eager Beaver Express, Huck's Pump N Go, Redshaw's General Store and Trotman's Supermarket.",
+      "PowerPyx's completion guide counts convenience, fast food and liquor stores together as stick-up targets."
+    ],
+    "tags": [
+      "247",
+      "all",
+      "convenience",
+      "counties",
+      "five",
+      "groceries",
+      "leonida",
+      "store",
+      "stores",
+      "xero",
+      "zombix"
+    ],
+    "facts": {
+      "type": "convenience store",
+      "location": "All five counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-convenience",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pay-n-spray",
+    "name": "Pay 'n' Spray",
+    "summary": "A chain of 19 spray shops that repair a vehicle and repaint it so police no longer recognise it.",
+    "body": [
+      "PowerPyx lists branches at Southwind, Key Lento, Watson Bay and Grassrivers in Mariana County.",
+      "PowerPyx lists Vice-Dale branches at Hamlet, Salton, West Vice-Dale County, Downtown, Balsero, La Perle, Stockyard, Waxman Island, Ocean Beach and Washington Beach.",
+      "PowerPyx lists branches at Waning Sands, Port Gellhorn, Ambrosia, Grayson and Millport.",
+      "PowerPyx says that from early Chapter 3 any Pay 'n' Spray can buy stolen vehicles and register ones fitted with standard trackers."
+    ],
+    "tags": [
+      "19",
+      "all",
+      "counties",
+      "five",
+      "locations",
+      "pay",
+      "repair",
+      "respray",
+      "spray",
+      "vehicle"
+    ],
+    "facts": {
+      "type": "vehicle repair and respray",
+      "location": "19 locations in all five counties",
+      "availability": "Selling and registering cars from Chapter 3"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-spray",
+      "ppx-car",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bars-of-leonida",
+    "name": "Bars of Leonida",
+    "summary": "The map tracks 122 bars that sell alcoholic drinks, well over half of them in Ocean Beach and the rest of Vice City.",
+    "body": [
+      "PowerPyx lists 13 in Mariana County, 43 in Vice-Dale County outside Ocean Beach, 60 in Ocean Beach, 2 in Leonard, 7 in Kelly and 2 in Lummox County, a few of which the tracker does not count.",
+      "PowerPyx names Mariana bars including Chicky's Tiki Bar, La Medusa, The Cheeky Mutineer, Tiki Touchdown, Manatee's Rest and Nate's Bar.",
+      "PowerPyx names Vice City bars including Bonds Bistro, Voodoo Tiki, Tides Bar, El Jardin, Arcadian Bar, Poppin' Caps, Trouble & Strife, Dunk's Bar, Jagua Club Lounge, Mariposa Bar, Zotico's and Lot6.",
+      "PowerPyx names Ocean Beach bars including La Cabine, Effluvia, The Atoll, Eden Grove, The Banana Hole, Janus Bar, Lucciano's, Mojito Mae's and Tipsy Palms Beach Bar, plus many hotel pool and rooftop bars.",
+      "PowerPyx names The Thirsty Wolf in Leonard County, The Hog House Bar, Home Bar, Anakala Sam's and Paradise Wines Vineyard Bar in Kelly County, and Jacob's Tavern and The Steel Drop in Lummox County."
+    ],
+    "tags": [
+      "all",
+      "bar",
+      "bars",
+      "counties",
+      "drinks",
+      "five",
+      "leonida",
+      "nightlife"
+    ],
+    "facts": {
+      "type": "bar",
+      "location": "All five counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-bars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cafes-and-takeout-of-leonida",
+    "name": "Cafes and takeout of Leonida",
+    "summary": "The map tracks 87 cafes and takeout counters that sell stat-boosting food; Lummox County has none.",
+    "body": [
+      "PowerPyx names the chains Mezzasega Espresso, Volcano Coffee Co., Brewtiful Coffee Co., Milk King, Los Bollos, Mamma Cita's Cafe, Alderney Joe's, Torreri Bread, Tasty Temaki, Spin-Itch!, Chido! and Homeslice.",
+      "PowerPyx names Mariana County spots including Shrimp & Save, Grassrivers Cafe & Deli, Carla's Pantry, Gator Shack and Vivi's Vegan Deli & Bakery.",
+      "PowerPyx names Vice-Dale spots including Valentin's Cuban Cuisine, Reggie's Family Soul Food, Blend Coffee House, Rosita's Cuban Cafe, Aunt Zola's Soul Food, Calypso's Crab House, Pizza Pete and Marzoli Italian Cafe.",
+      "PowerPyx names Kelly County spots including Kowaachobee Cafe & Bar, The Chomp Stop, Black Bear Cafe, Lola's Cantina and The Sweetie Pie Cafe.",
+      "PowerPyx notes a few extra white-icon outlets, such as Ajax Gym Deli/Cafe, that the map counter leaves out."
+    ],
+    "tags": [
+      "cafe",
+      "cafes",
+      "coffee",
+      "counties",
+      "dale",
+      "food",
+      "kelly",
+      "leonard",
+      "leonida",
+      "mariana",
+      "takeout",
+      "vice"
+    ],
+    "facts": {
+      "type": "cafe",
+      "location": "Mariana, Vice-Dale, Leonard and Kelly counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-cafes"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "street-food-vendors-of-leonida",
+    "name": "Street food vendors of Leonida",
+    "summary": "The map tracks 118 street food carts and stalls that sell stat-boosting snacks.",
+    "body": [
+      "PowerPyx says they appear as white food cart icons once the map is uncovered.",
+      "PowerPyx names recurring vendors including Chihuahua Hotdogs, Boiled Peanuts Stand, Big City Coconuts, Basic Beach, Juice Hut, La Sombrilla, Ice City Creamery, The Toss Spot and Cody's Famous Fresh Road Grill.",
+      "PowerPyx lists Thrillbilly Mud Club BBQ Tent and Merch Stall among the Kelly County vendors, and flea market stalls such as Tisha-Wocka Soul Food in Vice-Dale County."
+    ],
+    "tags": [
+      "all",
+      "cart",
+      "counties",
+      "dog",
+      "five",
+      "food",
+      "hot",
+      "leonida",
+      "street",
+      "vendor",
+      "vendors"
+    ],
+    "facts": {
+      "type": "street food vendor",
+      "location": "All five counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-street"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "skeeters",
+    "name": "Skeeter's",
+    "summary": "A bar on the south edge of Hamlet with a pool table and an opponent to play.",
+    "body": [
+      "PowerPyx lists it as one of seven places with a pool opponent to challenge, out of 17 pool tables in the game.",
+      "PowerPyx's pool guide files Hamlet under Mariana County, while its map list puts Hamlet in Vice-Dale County."
+    ],
+    "tags": [
+      "bar",
+      "hamlet",
+      "pool",
+      "skeeter",
+      "table",
+      "with"
+    ],
+    "facts": {
+      "type": "bar with pool table",
+      "location": "Hamlet"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pool"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "zoticos",
+    "name": "Zotico's",
+    "summary": "A bar on the western edge of Balsero, Vice City with a pool table and an opponent to play.",
+    "body": [
+      "PowerPyx lists it as one of seven places with a pool opponent to challenge, out of 17 pool tables in the game."
+    ],
+    "tags": [
+      "balsero",
+      "bar",
+      "city",
+      "pool",
+      "table",
+      "vice",
+      "with",
+      "zotico"
+    ],
+    "facts": {
+      "type": "bar with pool table",
+      "location": "Balsero, Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pool",
+      "ppx-bars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "the-thirsty-wolf",
+    "name": "The Thirsty Wolf",
+    "summary": "A bar on the north-west edge of Belville, Leonard County with a pool table and an opponent to play.",
+    "body": [
+      "PowerPyx lists it as one of seven places with a pool opponent to challenge, out of 17 pool tables in the game."
+    ],
+    "tags": [
+      "bar",
+      "belville",
+      "county",
+      "leonard",
+      "pool",
+      "table",
+      "thirsty",
+      "with",
+      "wolf"
+    ],
+    "facts": {
+      "type": "bar with pool table",
+      "location": "Belville, Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pool",
+      "ppx-bars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "jacobs-tavern",
+    "name": "Jacob's Tavern",
+    "summary": "A bar on the east side of Millport, beside the Pay 'n' Spray with a pool table and an opponent to play.",
+    "body": [
+      "PowerPyx lists it as one of seven places with a pool opponent to challenge, out of 17 pool tables in the game."
+    ],
+    "tags": [
+      "bar",
+      "county",
+      "jacob",
+      "lummox",
+      "millport",
+      "pool",
+      "table",
+      "tavern",
+      "with"
+    ],
+    "facts": {
+      "type": "bar with pool table",
+      "location": "Millport, Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pool",
+      "ppx-bars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kowaachobee-cafe-and-bar",
+    "name": "Kowaachobee Cafe & Bar",
+    "summary": "A bar on the just off the highway through Buckskin Swamp, Kelly County with a pool table and an opponent to play.",
+    "body": [
+      "PowerPyx lists it as one of seven places with a pool opponent to challenge, out of 17 pool tables in the game."
+    ],
+    "tags": [
+      "bar",
+      "buckskin",
+      "cafe",
+      "county",
+      "kelly",
+      "kowaachobee",
+      "pool",
+      "swamp",
+      "table",
+      "with"
+    ],
+    "facts": {
+      "type": "bar with pool table",
+      "location": "Buckskin Swamp, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-pool"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gellhorn-international-raceway",
+    "name": "Gellhorn International Raceway",
+    "summary": "A race circuit south of Port Gellhorn that hosts eleven of the game's forty unique races.",
+    "body": [
+      "PowerPyx says an introduction event opens a five-race amateur series called Keep it PG, and placing in those opens more races.",
+      "PowerPyx also lists a Gellhorn Raceway Trial and a Gellhorn Dragway Trial among the 13 race challenges."
+    ],
+    "tags": [
+      "county",
+      "dragway",
+      "gellhorn",
+      "international",
+      "kelly",
+      "port",
+      "race",
+      "raceway",
+      "racing",
+      "south",
+      "track"
+    ],
+    "facts": {
+      "type": "race track",
+      "location": "South of Port Gellhorn, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-racechal"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "boone-speedway",
+    "name": "Boone Speedway",
+    "summary": "A speedway in the south-west corner of Hamlet that hosts two elimination races.",
+    "body": [
+      "PowerPyx lists two unique races there and a Boone Speedway Trial among the race challenges."
+    ],
+    "tags": [
+      "boone",
+      "corner",
+      "county",
+      "dale",
+      "elimination",
+      "hamlet",
+      "race",
+      "racing",
+      "south",
+      "speedway",
+      "track",
+      "vice"
+    ],
+    "facts": {
+      "type": "race track",
+      "location": "South-west corner of Hamlet, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-racechal"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "ambrosia-raceway",
+    "name": "Ambrosia Raceway",
+    "summary": "A track in the north of Ambrosia that hosts two demolition races and has its own bar.",
+    "body": [
+      "PowerPyx calls it Ambrosia Raceway Track, says it is marked on the map when approached, and lists an Ambrosia Raceway Trial among the race challenges.",
+      "PowerPyx lists an Ambrosia Raceway Park Bar among the Kelly County bars."
+    ],
+    "tags": [
+      "ambrosia",
+      "county",
+      "demolition",
+      "kelly",
+      "north",
+      "race",
+      "raceway",
+      "racing",
+      "town",
+      "track"
+    ],
+    "facts": {
+      "type": "race track",
+      "location": "North of Ambrosia town, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-racechal",
+      "ppx-bars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "thrillbilly-mud-club",
+    "name": "Thrillbilly Mud Club",
+    "summary": "An off-road venue in North Kelly County with six dirt track races and two oval track races.",
+    "body": [
+      "PowerPyx says the player is introduced to it during Chapter 2 through an optional questline.",
+      "PowerPyx lists six Mud Club race challenges: Air Time Stunt Run, Drag Trial, Hill Climb Trial, Dirt Track Trial, Oval Trial and Swamp Run Trial.",
+      "PowerPyx lists a bar, a drinks tent, a BBQ tent and a merch stall on the grounds."
+    ],
+    "tags": [
+      "club",
+      "county",
+      "dirt",
+      "kelly",
+      "mud",
+      "north",
+      "off",
+      "race",
+      "racing",
+      "road",
+      "thrillbilly",
+      "track"
+    ],
+    "facts": {
+      "type": "off-road race venue",
+      "location": "North Kelly County",
+      "availability": "Introduced in Chapter 2"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races",
+      "ppx-racechal",
+      "ppx-bars",
+      "ppx-street"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hit-n-run-vc",
+    "name": "Hit 'N Run VC",
+    "summary": "A Vice City street racing scene with nine races spread over four districts.",
+    "body": [
+      "PowerPyx lists three races in Salton and two each in La Perle, Ocean Beach and Gloriana Key, opened up through the story in Chapter 3."
+    ],
+    "tags": [
+      "beach",
+      "city",
+      "crew",
+      "gloriana",
+      "hit",
+      "key",
+      "la",
+      "ocean",
+      "perle",
+      "race",
+      "racing",
+      "run"
+    ],
+    "facts": {
+      "type": "street racing crew",
+      "location": "Salton, La Perle, Ocean Beach and Gloriana Key, Vice City",
+      "availability": "From Chapter 3"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "animal-crackers",
+    "name": "Animal Crackers",
+    "summary": "A set of eight races held two apiece at four rural spots in Lummox and Mariana counties.",
+    "body": [
+      "PowerPyx names the four spots Grayson, Redshaw's, Ranchers and Big Pine."
+    ],
+    "tags": [
+      "animal",
+      "county",
+      "crackers",
+      "lummox",
+      "mariana",
+      "race",
+      "racing",
+      "series"
+    ],
+    "facts": {
+      "type": "race series",
+      "location": "Lummox County and Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-races"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "griffin-shooting-range",
+    "name": "Griffin Shooting Range",
+    "summary": "A shooting range north-west of Vice City with six challenges.",
+    "body": [
+      "PowerPyx says each of its six challenges awards three medal tiers."
+    ],
+    "tags": [
+      "challenges",
+      "city",
+      "griffin",
+      "north",
+      "range",
+      "shooting",
+      "vice",
+      "west"
+    ],
+    "facts": {
+      "type": "shooting range",
+      "location": "North-west of Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-range",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rodgers-ranch-and-shooting-range",
+    "name": "Rodgers Ranch & Shooting Range",
+    "summary": "A ranch and shooting range north-east of Port Gellhorn with six challenges.",
+    "body": [
+      "PowerPyx says each of its six challenges awards four medal tiers."
+    ],
+    "tags": [
+      "challenges",
+      "east",
+      "gellhorn",
+      "north",
+      "port",
+      "ranch",
+      "range",
+      "rodgers",
+      "shooting"
+    ],
+    "facts": {
+      "type": "shooting range",
+      "location": "North-east of Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-range",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "king-gator-adventure-golf",
+    "name": "King Gator Adventure Golf",
+    "summary": "A playable mini golf course at Buckskin Swamp.",
+    "body": [
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion.",
+      "PowerPyx files it under 'Vice-Dale County > Buckskin Swamp', although its map list puts Buckskin Swamp in Kelly County."
+    ],
+    "tags": [
+      "adventure",
+      "buckskin",
+      "course",
+      "gator",
+      "golf",
+      "king",
+      "mini",
+      "sport",
+      "swamp"
+    ],
+    "facts": {
+      "type": "mini golf course",
+      "location": "Buckskin Swamp"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "frontier-adventure-golf",
+    "name": "Frontier Adventure Golf",
+    "summary": "A playable mini golf course at Waning Sands, Leonard County.",
+    "body": [
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion."
+    ],
+    "tags": [
+      "adventure",
+      "county",
+      "course",
+      "frontier",
+      "golf",
+      "leonard",
+      "mini",
+      "sands",
+      "sport",
+      "waning"
+    ],
+    "facts": {
+      "type": "mini golf course",
+      "location": "Waning Sands, Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "dino-golf-challenge",
+    "name": "Dino Golf Challenge",
+    "summary": "A playable mini golf course at Frogswater, Kelly County.",
+    "body": [
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion."
+    ],
+    "tags": [
+      "challenge",
+      "county",
+      "course",
+      "dino",
+      "frogswater",
+      "golf",
+      "kelly",
+      "mini",
+      "sport"
+    ],
+    "facts": {
+      "type": "mini golf course",
+      "location": "Frogswater, Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leaf-links-golf-challenge",
+    "name": "Leaf Links Golf Challenge",
+    "summary": "A playable golf course at Leaf Links, Vice Beach.",
+    "body": [
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion."
+    ],
+    "tags": [
+      "beach",
+      "challenge",
+      "course",
+      "golf",
+      "leaf",
+      "links",
+      "sport",
+      "vice"
+    ],
+    "facts": {
+      "type": "golf course",
+      "location": "Leaf Links, Vice Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mount-hailes-golf-challenge",
+    "name": "Mount Hailes Golf Challenge",
+    "summary": "A playable golf course at Mount Hailes Club, Waning Sands, Leonard County.",
+    "body": [
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion."
+    ],
+    "tags": [
+      "challenge",
+      "club",
+      "county",
+      "course",
+      "golf",
+      "hailes",
+      "leonard",
+      "mount",
+      "sands",
+      "sport",
+      "waning"
+    ],
+    "facts": {
+      "type": "golf course",
+      "location": "Mount Hailes Club, Waning Sands, Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-golf"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hamlet-bmx",
+    "name": "Hamlet BMX",
+    "summary": "A BMX venue named in the Hamlet BMX Stunt Run race challenge.",
+    "body": [
+      "PowerPyx lists the Hamlet BMX Stunt Run among 13 race challenges; the page does not describe the venue."
+    ],
+    "tags": [
+      "bmx",
+      "challenge",
+      "course",
+      "hamlet",
+      "race",
+      "stunt"
+    ],
+    "facts": {
+      "type": "stunt course",
+      "location": "Hamlet"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-racechal"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "waning-sands-motocross",
+    "name": "Waning Sands Motocross",
+    "summary": "A motocross venue named in the Waning Sands Motocross Stunt Run race challenge.",
+    "body": [
+      "PowerPyx lists the stunt run among 13 race challenges; the page does not describe the venue."
+    ],
+    "tags": [
+      "challenge",
+      "course",
+      "motocross",
+      "race",
+      "sands",
+      "stunt",
+      "waning"
+    ],
+    "facts": {
+      "type": "stunt course",
+      "location": "Waning Sands"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-racechal"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "paradise-taxi",
+    "name": "Paradise Taxi",
+    "summary": "A taxi firm called from the phone contacts that can skip the ride to any map marker for a flat $100 on top of the fare.",
+    "body": [
+      "PowerPyx says it is available from the end of the first mission and works for places not yet discovered.",
+      "PowerPyx says a taxi cannot reach Dalton Island."
+    ],
+    "tags": [
+      "contact",
+      "fast",
+      "paradise",
+      "phone",
+      "service",
+      "statewide",
+      "taxi",
+      "travel"
+    ],
+    "facts": {
+      "type": "taxi service",
+      "location": "Phone contact, statewide",
+      "availability": "From the start of Chapter 1"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fasttravel",
+      "ppx-drone"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rydeme",
+    "name": "RydeMe",
+    "summary": "A ride-hailing phone app whose fare grows with distance, with a $100 option to skip the trip.",
+    "body": [
+      "PowerPyx says the app unlocks in Chapter 2 and that Paradise Taxi can be called instead when no driver is free."
+    ],
+    "tags": [
+      "app",
+      "fast",
+      "game",
+      "hailing",
+      "phone",
+      "ride",
+      "rydeme",
+      "travel"
+    ],
+    "facts": {
+      "type": "ride-hailing app",
+      "location": "In-game phone",
+      "availability": "From Chapter 2"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fasttravel"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fishing-shacks",
+    "name": "Fishing Shacks",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Kingfishers.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "fishing",
+      "gang",
+      "illegal",
+      "kingfishers",
+      "operation",
+      "robbery",
+      "shacks"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Kingfishers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sunrise-rv-park",
+    "name": "Sunrise RV Park",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Kingfishers.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "gang",
+      "illegal",
+      "kingfishers",
+      "operation",
+      "park",
+      "robbery",
+      "rv",
+      "sunrise"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Kingfishers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "manatee-motel",
+    "name": "Manatee Motel",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Kingfishers.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "gang",
+      "illegal",
+      "kingfishers",
+      "manatee",
+      "motel",
+      "operation",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Kingfishers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kingpin-bowling",
+    "name": "Kingpin Bowling",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Kolts & Associates.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "PowerPyx's walkthrough index treats hitting Kingpin Bowling as an optional Chapter 2 job, and it spells the gang 'Kolts & Associates'."
+    ],
+    "tags": [
+      "associates",
+      "bowling",
+      "gang",
+      "illegal",
+      "kingpin",
+      "kolts",
+      "operation",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Kolts & Associates"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-wiki"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "june-warehouse",
+    "name": "June Warehouse",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Kolts & Associates.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "associates",
+      "gang",
+      "illegal",
+      "june",
+      "kolts",
+      "operation",
+      "robbery",
+      "warehouse"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Kolts & Associates"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "la-cascara-motel",
+    "name": "La Cascara Motel",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Kolts & Associates.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "associates",
+      "cascara",
+      "gang",
+      "illegal",
+      "kolts",
+      "la",
+      "motel",
+      "operation",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Kolts & Associates"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "brooks-boatworks",
+    "name": "Brooks Boatworks",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Kolts & Associates.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "associates",
+      "boatworks",
+      "brooks",
+      "gang",
+      "illegal",
+      "kolts",
+      "operation",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Kolts & Associates"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "m7-compound",
+    "name": "M7 Compound",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under M7.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "compound",
+      "gang",
+      "illegal",
+      "m7",
+      "operation",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "M7"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "palmer-fishing-warehouse",
+    "name": "Palmer Fishing Warehouse",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under La Polilla Negra.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "fishing",
+      "gang",
+      "illegal",
+      "la",
+      "negra",
+      "operation",
+      "palmer",
+      "polilla",
+      "robbery",
+      "warehouse"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "La Polilla Negra"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "farm-fix-meth-lab",
+    "name": "Farm Fix Meth Lab",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Final Chapter.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "chapter",
+      "farm",
+      "final",
+      "fix",
+      "gang",
+      "illegal",
+      "lab",
+      "meth",
+      "operation",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Final Chapter"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "irons-building-supply",
+    "name": "Irons Building Supply",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Final Chapter.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "building",
+      "chapter",
+      "final",
+      "gang",
+      "illegal",
+      "irons",
+      "operation",
+      "robbery",
+      "supply"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Final Chapter"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sound4sond-studio",
+    "name": "Sound4Sond Studio",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under San4San.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "PowerPyx spells the name 'Sound4Sond Studio' while the gang is San4San."
+    ],
+    "tags": [
+      "gang",
+      "illegal",
+      "operation",
+      "robbery",
+      "san4san",
+      "sound4sond",
+      "studio"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "San4San"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "janjaks-garage",
+    "name": "JanJak's Garage",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under San4San.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "gang",
+      "garage",
+      "illegal",
+      "janjak",
+      "operation",
+      "robbery",
+      "san4san"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "San4San"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "casa-guardia",
+    "name": "Casa Guardia",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under The Guardia Brothers.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "brothers",
+      "casa",
+      "gang",
+      "guardia",
+      "illegal",
+      "operation",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "The Guardia Brothers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "exotic-animals-front",
+    "name": "Exotic Animals Front",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "animals",
+      "criminals",
+      "exotic",
+      "front",
+      "gang",
+      "illegal",
+      "operation",
+      "other",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "slator-towing-inc",
+    "name": "Slator Towing Inc",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "criminals",
+      "gang",
+      "illegal",
+      "inc",
+      "operation",
+      "other",
+      "robbery",
+      "slator",
+      "towing"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "chatfield-storage-and-logistics",
+    "name": "Chatfield Storage & Logistics",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "chatfield",
+      "criminals",
+      "gang",
+      "illegal",
+      "logistics",
+      "operation",
+      "other",
+      "robbery",
+      "storage"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-carrier-warehouse",
+    "name": "Leonida Carrier Warehouse",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "carrier",
+      "criminals",
+      "gang",
+      "illegal",
+      "leonida",
+      "operation",
+      "other",
+      "robbery",
+      "warehouse"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cigar-import-front",
+    "name": "Cigar Import Front",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "cigar",
+      "criminals",
+      "front",
+      "gang",
+      "illegal",
+      "import",
+      "operation",
+      "other",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "gas-station-meth-front",
+    "name": "Gas Station Meth Front",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "criminals",
+      "front",
+      "gang",
+      "gas",
+      "illegal",
+      "meth",
+      "operation",
+      "other",
+      "robbery",
+      "station"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "backroom-weed-front",
+    "name": "Backroom Weed Front",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "backroom",
+      "criminals",
+      "front",
+      "gang",
+      "illegal",
+      "operation",
+      "other",
+      "robbery",
+      "weed"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "carter-mining-boathouse",
+    "name": "Carter Mining Boathouse",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+    ],
+    "tags": [
+      "boathouse",
+      "carter",
+      "criminals",
+      "gang",
+      "illegal",
+      "mining",
+      "operation",
+      "other",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kitty-litter-labs",
+    "name": "Kitty Litter Labs",
+    "summary": "Hidden labs making the drug Kitty Litter, marked by a purple search area and pink gas.",
+    "body": [
+      "PowerPyx counts 14 labs and groups them by area: Balsero (3), Crosstown (3), Central Rockridge, Decor District, Little Cuba, Salton, Tequesta and wider Vice-Dale, plus one reached in a story mission.",
+      "PowerPyx ties destroying them to a side-mission chain."
+    ],
+    "tags": [
+      "city",
+      "county",
+      "dale",
+      "districts",
+      "drug",
+      "kitty",
+      "lab",
+      "labs",
+      "litter",
+      "synthetic",
+      "vice"
+    ],
+    "facts": {
+      "type": "drug lab",
+      "location": "Vice City districts, Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-labs",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "outback-gas-junkie",
+    "name": "Outback Gas Junkie",
+    "summary": "A Waning Sands spot with one of seven Book Swap little libraries.",
+    "body": [
+      "PowerPyx lists it as the only Book Swap location it had identified so far."
+    ],
+    "tags": [
+      "book",
+      "county",
+      "gas",
+      "junkie",
+      "leonard",
+      "library",
+      "outback",
+      "sands",
+      "swap",
+      "waning"
+    ],
+    "facts": {
+      "type": "book swap",
+      "location": "Waning Sands, Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-bookswap"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

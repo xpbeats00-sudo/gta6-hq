@@ -17,6 +17,7 @@
     interpretation: ['Interpretation', 'A reasonable reading of footage or reporting, not a confirmed rule.'],
     unknown: ['Unknown', 'Not established by the sources available.'],
     'verified-after-release': ['Verified after release', 'Checked against the released game.'],
+    'launch-reported': ['Reported at launch', 'Reported by reviews or guides written from the released game. Not checked in play by this app.'],
   };
   const CONFIDENCE = { official: 'Verified', corroborated: 'Corroborated', community: 'Community', rumor: 'Rumor' };
   /** The R and star in front of the top label, drawn as a single mark. */

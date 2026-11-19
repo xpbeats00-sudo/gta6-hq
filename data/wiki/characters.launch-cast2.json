@@ -1,0 +1,64 @@
+[
+  {
+    "slug": "raina",
+    "name": "Raina",
+    "summary": "A person named in a Chapter 4 objective of the airport job strand in PowerPyx's mission list.",
+    "body": [
+      "PowerPyx's full walkthrough lists a Chapter 4 objective that names Raina. The page read gives no description of who she is."
+    ],
+    "role": "Chapter 4 contact",
+    "group": "supporting",
+    "tags": [
+      "chapter-4"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shayna",
+    "name": "Shayna",
+    "summary": "A person Lucia can pick up in an optional, time-limited Chapter 4 objective listed by PowerPyx.",
+    "body": [
+      "PowerPyx's full walkthrough lists an optional Lucia-only objective to pick up Shayna, marked time-sensitive and missable. The page read gives no description of who she is."
+    ],
+    "role": "Chapter 4 optional contact",
+    "group": "supporting",
+    "tags": [
+      "chapter-4",
+      "missable",
+      "optional"
+    ],
+    "facts": {
+      "affiliation": "Lucia Caminos"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vinny",
+    "name": "Vinny",
+    "summary": "A person the player meets in a Chapter 5 objective listed in PowerPyx's walkthrough.",
+    "body": [
+      "PowerPyx's full walkthrough lists a Chapter 5 objective to meet Vinny. The page read gives no description of who he is."
+    ],
+    "role": "Chapter 5 contact",
+    "group": "supporting",
+    "tags": [
+      "chapter-5"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-walkthrough"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

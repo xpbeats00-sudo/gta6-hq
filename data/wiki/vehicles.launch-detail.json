@@ -1,0 +1,94 @@
+[
+  {
+    "slug": "the-ridgeway",
+    "name": "The Ridgeway",
+    "summary": "A vehicle named only in the unlock requirement for the Yesteryear screen filter cheat.",
+    "body": [
+      "PowerPyx and Game Rant say the Yesteryear filter unlocks by discovering the Ridgeway.",
+      "DayOne, Press Start, GamesRadar+ and Screen Rant spell it Ridgway.",
+      "None of these guides says what kind of vehicle it is, which group it belongs to or where it is found."
+    ],
+    "tags": [
+      "cheats",
+      "ridgeway",
+      "ridgway",
+      "yesteryear"
+    ],
+    "facts": {
+      "availability": "Location not given in the guides read"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-cheats",
+      "gamerant-cheats",
+      "dayone-cheats",
+      "pressstart-cheats",
+      "gamesradar-cheats",
+      "screenrant-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "marthas-vamos",
+    "name": "Martha's Vamos",
+    "summary": "A named vehicle whose discovery in the Progress menu unlocks the Cataclysm screen filter cheat.",
+    "body": [
+      "PowerPyx, DayOne, Press Start, Game Rant, GamesRadar+, Screen Rant and GameSpot all give discovering Martha's Vamos in the Progress menu as the requirement for the Cataclysm cheat.",
+      "None of these guides says where the vehicle is found or which standout group it belongs to."
+    ],
+    "tags": [
+      "cataclysm",
+      "cheats",
+      "vamos"
+    ],
+    "facts": {
+      "availability": "Location not given in the guides read"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-cheats",
+      "gamerant-cheats",
+      "gamesradar-cheats",
+      "screenrant-cheats",
+      "gamespot-cheats",
+      "dayone-cheats",
+      "pressstart-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "standout-vehicle-groups",
+    "name": "Standout vehicle groups",
+    "summary": "PowerPyx's count of the 280 standout vehicles in each of 25 groups; no guide read names them individually.",
+    "body": [
+      "PowerPyx counts 19 Ultra-Luxe, 16 Street Racer, 7 Stock Car, 11 Race Bikes, 6 Demolition Derby, 6 Mudder, 5 Donks, 5 Lowriders, 10 Hot Rods, 13 Ripped & Shredded, 20 Retro, 17 All-Terrain and 8 Driveshaft Famous.",
+      "It also counts 7 Chopper, 6 Topper, 15 Blinged Up, 16 Girlypop, 12 Patriot, 10 Swamp Style, 30 Leonida Man, 17 Fine Art, 5 Law & Order, 8 Clout Chaser, 6 Pedal Power and 5 Throwback.",
+      "PowerPyx's completion guide describes standout vehicles as unique vehicles in fixed locations that do not count toward the 200 base models to be scanned.",
+      "The cheat lists from PowerPyx, Press Start, Game Rant, GamesRadar+ and Screen Rant say discovering all 16 Girlypop vehicles unlocks the Neon Jungle filter.",
+      "No guide read on November 18, 2026 names the individual standout vehicles or gives their locations."
+    ],
+    "tags": [
+      "girlypop",
+      "groups",
+      "standout",
+      "vehicles"
+    ],
+    "facts": {
+      "class": "Standout (280 in 25 groups)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-progress",
+      "ppx-100",
+      "ppx-cheats",
+      "pressstart-cheats",
+      "gamerant-cheats",
+      "gamesradar-cheats",
+      "screenrant-cheats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

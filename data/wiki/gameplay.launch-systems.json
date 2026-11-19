@@ -1,0 +1,1341 @@
+[
+  {
+    "slug": "phone-apps-at-launch",
+    "name": "The phone and its apps in the released game",
+    "summary": "Launch guides name around fifteen phone apps, each character has their own handset, and several apps are installed by story missions.",
+    "body": [
+      "Game Rant lists the apps as WhatUp (texts), RydeMe (paid rides), Contacts, Camera, BuckMe (payments), Fitness, Gallery, Snapmatic, News, Weather and WAiNK (vehicle scanner), and says the phone opens with Up on the D-pad without pausing the game.",
+      "PowerPyx adds Scooter Bros (green car icon), which it says is installed after the Chapter 2 mission Moses, and Vice City Real Estate, which it says arrives as a notification shortly after the Chapter 2 mission Daily Driver and is used to buy garages.",
+      "PowerPyx says WAiNK unlocks automatically in Chapter 1 and can be raised without opening the phone by holding Up on the D-pad; GamesRadar+ says R1/RB then scans the vehicle.",
+      "PowerPyx's walkthrough places the BuckMe set-up in the Chapter 1 mission Buck Me, and GamesRadar+ and PowerPyx both put RydeMe in Chapter 2; PowerPyx says Paradise Taxi is a phone contact from the first mission onward.",
+      "Push Square and GameSpot describe a Reminders list, opened with Up then Square (X on Xbox), that gathers messages awaiting a reply, news articles and Snapmatic posts; PowerPyx says checking Snapmatic and News sometimes marks places on the map.",
+      "Game Rant says the phone's settings offer 11 ringtones, each with its own controller vibration and played through the DualSense speaker on PlayStation 5, and 25 wallpapers.",
+      "DayOne's review calls the handset an iFruit phone with a Recommended section at the top listing current actions; GameSpot says Jason and Lucia each have their own phone and that it can be opened while driving.",
+      "GameSpot's music guide calls the texting app Messages while Game Rant and GamesRadar+ call it WhatUp; no page read gave an unlock point for the Fitness, News or Weather apps."
+    ],
+    "tags": [
+      "apps",
+      "buckme",
+      "phone",
+      "rydeme",
+      "scooter bros",
+      "snapmatic",
+      "waink",
+      "whatup"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "grant-phone",
+      "ppx-trophy-guide",
+      "ppx-garages",
+      "ppx-summon",
+      "ppx-tips",
+      "gr-sell-cars",
+      "gr-fast-travel",
+      "ps-tips",
+      "gs-tips",
+      "gs-phone-music",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "headphones-and-radio-on-foot",
+    "name": "Headphones and listening on foot",
+    "summary": "Radio and podcasts can be heard away from vehicles once a character owns headphones, which are sold at electronics stores.",
+    "body": [
+      "GameSpot says there is no radio or podcast app: with headphones worn, holding Left on the D-pad outside a vehicle opens the station list, Down moves to podcasts, and X (A on Xbox) mutes.",
+      "GameSpot gives two kinds of headphones, over-ear at roughly 200 dollars and in-ear at 119 dollars, and names Zeke's Gadgets in northern Hamlet as the nearest electronics store to the starting area.",
+      "According to GameSpot, headphones can be put on from any wardrobe or toggled in the Items section of the loadout wheel.",
+      "PowerPyx counts 15 electronics stores (13 in Vice-Dale County, one each in Leonard and Kelly counties), marked by an orange headphone icon, and says they also sell phone cases."
+    ],
+    "tags": [
+      "electronics stores",
+      "headphones",
+      "phone",
+      "podcasts",
+      "radio"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-phone-music",
+      "ppx-electronics"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckme-account-limits",
+    "name": "BuckMe account limits",
+    "summary": "Rockstar Support says the BuckMe Checking and Family Savings accounts have limits that rise only through main-story progress.",
+    "body": [
+      "Rockstar's support article, dated November 19, 2026, answers players who cannot move more money into their BuckMe Checking or Family Savings accounts.",
+      "Rockstar says limits on BuckMe accounts increase as the story progresses, and that continuing the main story unlocks BuckMe account upgrades.",
+      "Rockstar adds that pending payments which cannot complete because the Checking account is full are processed once the account is upgraded through story progress.",
+      "Rockstar's article gives no dollar figures for any limit."
+    ],
+    "tags": [
+      "bank",
+      "buckme",
+      "checking",
+      "family savings",
+      "limits",
+      "official"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "official",
+    "sources": [
+      "rs-buckme-limit"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "buckme-checking-and-family-savings",
+    "name": "BuckMe checking, Family Savings and Premium",
+    "summary": "Launch guides describe a per-character checking account, a shared Family Savings pot that cannot be withdrawn, and a paid Premium tier.",
+    "body": [
+      "GamesRadar+ says the account is unlocked by the Chapter 1 mission Buck Me and that each character has a personal BuckMe Checking Account.",
+      "PowerPyx says purchases are taken from the bank balance even with no pocket cash, and that items over 1,000 dollars can only be paid through the banking app.",
+      "PowerPyx says money put into Family Savings is permanently gone and is not returned even after the story, but that investing there is needed to raise the checking account limit; its money guide puts the maximum Family Savings for the Save for the Future task at 2 million dollars.",
+      "GameSpot describes the savings account as shared between the two leads, with goals that bring better interest payments and strengthen their relationship; DayOne's review says hitting each chapter's savings target is rewarded with more money.",
+      "GamesRadar+ says a BuckMe Premium Account can be signed up for from Chapter 3 and that one perk is 20 percent off RydeMe journeys.",
+      "GamesRadar+ says the proceeds of a vehicle sold at a Pay 'n' Spray go straight into BuckMe unless the balance limit has been reached, and that RydeMe fares are drawn from BuckMe while Paradise Taxi takes pocket cash.",
+      "PowerPyx lists a Shopping challenge, Nest Egg, for banking 1,500,000 dollars in the BuckMe checking account."
+    ],
+    "tags": [
+      "bank",
+      "buckme",
+      "family savings",
+      "money",
+      "premium"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-atm",
+      "ppx-tips",
+      "ppx-money-guide",
+      "gs-spend-money",
+      "dayone-review",
+      "gr-fast-travel",
+      "gr-sell-cars",
+      "ppx-challenge-list"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pocket-cash-and-atms",
+    "name": "Pocket cash and ATMs",
+    "summary": "Each lead carries a capped amount of pocket cash that is at risk, and ATMs move money between pocket and the BuckMe account.",
+    "body": [
+      "GamesRadar+ says Jason and Lucia can each carry up to 20,000 dollars in pocket cash, that it can be taken by aggressive civilians, and that all of it is lost when Busted or Wasted.",
+      "GamesRadar+ says pocket cash only covers purchases up to 1,000 dollars, which matches PowerPyx's statement that dearer items must be paid through the banking app.",
+      "GamesRadar+ and Push Square both describe an ATM Finder at the bottom of the BuckMe app that sets a route to the nearest machine; GamesRadar+ says ATMs are also listed in the Personal section of the map index.",
+      "According to GamesRadar+, an ATM is used with Triangle (Y on Xbox) and offers Deposit, Withdraw and a list of recent transactions, with up to 20,000 dollars deposited or withdrawn at a time.",
+      "Push Square says both balances are shown by pressing Down on the D-pad.",
+      "DayOne's review says an ATM can also be pulled out of its wall with a vehicle able to tow, which brings a wanted level."
+    ],
+    "tags": [
+      "atm",
+      "buckme",
+      "cash",
+      "money",
+      "wallet"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-atm",
+      "ps-tips",
+      "ppx-tips",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wasted-and-busted-losses",
+    "name": "What is lost when Wasted or Busted",
+    "summary": "Launch guides agree that dying or being arrested costs all carried cash, loot bags and unowned gear, while banked money and owned items are kept.",
+    "body": [
+      "Game Rant says a character who dies respawns at a nearby location and loses pocket cash, vehicles that were not saved, weapons that were picked up instead of bought, and any stash bags.",
+      "Game Rant says owned vehicles and owned weapons are kept, that lost cash cannot be recovered, and that dying does not change the relationship or the criminal profile.",
+      "GamesRadar+ says pocket cash is lost in its entirety when Busted or Wasted, and Push Square says money in the BuckMe bank is safe in both cases.",
+      "GamesRadar+ says unowned weapons are lost for good when Wasted or Busted, while owned ones can be collected from the personal vehicle's trunk or an Ammu-Nation weapons locker.",
+      "GamesRadar+ says a personal vehicle being driven when the player is Wasted or Busted is impounded; GameSpot says bags left in an impounded car are lost too.",
+      "GameSpot says temporary stat buffs from eating, sleeping and showering last for the play session or until the character dies.",
+      "GamesRadar+ says the autosave triggers when Wasted or Busted. No page read gave a hospital bill, a fine or a bribe amount; Game Rant mentions hospital fees only as the penalty in earlier games."
+    ],
+    "tags": [
+      "arrest",
+      "busted",
+      "cash",
+      "death",
+      "impound",
+      "wasted"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "grant-wasted",
+      "gr-atm",
+      "ps-tips",
+      "gr-weapon-ownership",
+      "gr-personal-vehicles",
+      "gs-tips",
+      "gr-save"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "strength-cardio-and-focus-levels",
+    "name": "Strength, Cardio and Focus levels",
+    "summary": "Jason and Lucia each have three stats, Strength, Cardio and Focus, which guides say run to level 4.",
+    "body": [
+      "PowerPyx and Push Square give the icons as a pink heart for Strength (health), green lightning for Cardio (stamina) and a purple eye for Focus; GameSpot describes the stamina icon as blue lightning.",
+      "PowerPyx says the stats are viewed under Jason & Lucia in the menu, and Push Square says pressing Down in play shows all three meters.",
+      "DayOne's review says each stat has four levels for both characters; PowerPyx says Focus has four levels and lists challenges for holding Strength Level 4 and Cardio Level 4 with both leads for five consecutive days.",
+      "PowerPyx says Strength sets maximum health and rises with weight equipment, and Cardio sets maximum stamina and rises with treadmills, bikes, running, cycling or swimming.",
+      "PowerPyx says Focus sets how long Combat Focus (L3 plus R3 while aiming) lasts and rises through shooting range challenges, golf, pool and catching fish; it names the Market Range Beginner challenge at Rodgers Ranch & Shooting Range, entered with a 5 dollar waiver pass, as repeatable without limit.",
+      "PowerPyx's criminal profile guide says which combat actions raise Focus depends on the profile: stealth takedowns at Professional and Hardened, headshots at Violent and Psycho.",
+      "Push Square and GameSpot both say Strength and Cardio regress if neglected while Focus gains are permanent.",
+      "DayOne's review ties Focus gains to meditation spots and says higher Strength makes it easier to wrest a gun from an armed person; Game Rant's guide labels the first two stats Health and Stamina."
+    ],
+    "tags": [
+      "cardio",
+      "focus",
+      "health",
+      "stamina",
+      "stats",
+      "strength"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-stats",
+      "ps-workouts",
+      "gs-tips",
+      "dayone-review",
+      "ppx-trophy-guide",
+      "ppx-challenge-list",
+      "ppx-criminal-profile",
+      "grant-stats"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "workout-windows-and-gyms",
+    "name": "Workout windows and gym memberships",
+    "summary": "The Fitness app sets workout windows for Strength and Cardio; missing them loses progress, and gyms need a paid membership.",
+    "body": [
+      "Push Square says the Fitness app shows Hunger, the Strength and Cardio workout levels, the Focus level and Body Composition, plus Workout Windows in which a Strength or Cardio workout must be done or the stat regresses.",
+      "GameSpot says to stop once the fitness ring closes and that the window reopens roughly every in-game day; PowerPyx says a workout must be finished or its gains are lost.",
+      "Push Square and PowerPyx say a protein shake (kept in the fridge at home) or a protein bar (sold at fitness studios) straight after a workout shortens the wait for the next window.",
+      "GameSpot says strength exercises use both triggers, pressed quickly and released slowly, and names deadlifts and kettlebell swings; Game Rant names bench press, deadlifts and chest flys and gives L2 plus R2 as the input.",
+      "Game Rant says cardio machines are a timing minigame needing a score of at least 90, and names Venus Fitness in Vice City with a 600 dollar membership and a free punching bag under Jason's house.",
+      "PowerPyx says weights are on the terrace of the Chapter 1 house, that fitness clubs are filtered on the map under Activities, and that home workouts return after the story.",
+      "PowerPyx and GameSpot both say that when the two go to a gym together the character not being played completes a workout as well.",
+      "PowerPyx lists Fitness challenges for becoming a member at any gym and for completing a workout on each type of gym equipment in a day."
+    ],
+    "tags": [
+      "fitness app",
+      "gym",
+      "membership",
+      "protein",
+      "workout"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-workouts",
+      "gs-tips",
+      "ppx-stats",
+      "grant-stats",
+      "ppx-trophy-guide",
+      "ppx-challenge-list"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "zombix-adrenaline-and-healing",
+    "name": "Zombix, Adrenaline and healing",
+    "summary": "Health is restored with Zombix, Adrenaline, food and drink, and a slow natural regeneration up to a marked point on the bar.",
+    "body": [
+      "PowerPyx says Zombix is used with L1 plus Square (LB plus X) and restores only half health, while Adrenaline, on L1 plus Triangle (LB plus Y), gives a bigger boost and lengthens Combat Focus.",
+      "PowerPyx says Zombix and Adrenaline are bought at convenience stores; DayOne's review says an adrenaline shot fills the stat bars to gold for a short time.",
+      "GameSpot says food and drink marked with a pink heart restore health up to the maximum and items with an orange heart push it temporarily above the maximum.",
+      "GameSpot describes a tolerance mechanic: healing items used repeatedly during a fight become gradually less effective.",
+      "GameSpot says health regenerates slowly if no damage is taken, but only up to a solid white line on the bar, and that low stamina slows the regeneration.",
+      "PowerPyx says body armor is sold at Ammu-Nation under Equipment, is switched on from the item wheel, shows as a blue bar above health, and is refilled only by getting a new vest.",
+      "GameSpot says it saw no injuries needing special treatment, and mentions separate lung and oxygen gauges without explaining them."
+    ],
+    "tags": [
+      "adrenaline",
+      "body armor",
+      "healing",
+      "health",
+      "zombix"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-tips",
+      "ppx-trophy-guide",
+      "dayone-review",
+      "gs-heal",
+      "ppx-body-armor"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "eating-and-body-composition",
+    "name": "Eating, hunger and body composition",
+    "summary": "Food and drink give temporary stat boosts, and calories eaten against calories burned change each character's muscle and body fat.",
+    "body": [
+      "PowerPyx says fast food stores, cafes and takeouts, street food vendors and liquor stores all sell items that boost stats for a limited time, and advises eating or drinking at the start of each in-game day.",
+      "GameSpot says activities that affect a stat show its icon, and that eating, sleeping and showering each give a temporary buff.",
+      "Push Square says the Fitness app tracks Hunger and a Body Composition of muscle and body fat that decides how the character looks.",
+      "Push Square says overeating triggers a Calorie Surplus message and weight gain after sleeping, that an Overweight composition means low muscle with maximum body fat, and that limiting intake to protein shakes while keeping up workouts creates a Calorie Deficit.",
+      "Game Rant says food is needed after a full workout for the character to gain size, and that cardio burns calories; DayOne's review also says weight rises or falls with how much is eaten.",
+      "PowerPyx says convenience stores sell groceries for the fridge at home and pet food for domestic animals, and lists a Shopping challenge for spending over 250 dollars at convenience or liquor stores in a day.",
+      "PowerPyx warns that sleeping repeatedly without eating or working out runs the stats down quickly.",
+      "The two guides disagree on the Personal Best trophy: Push Square says it unlocks for becoming overweight, PowerPyx says it needs maximum Strength on both characters at once."
+    ],
+    "tags": [
+      "body fat",
+      "buffs",
+      "calories",
+      "food",
+      "hunger"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-fast-food",
+      "ppx-liquor",
+      "ppx-tips",
+      "gs-tips",
+      "ps-workouts",
+      "grant-stats",
+      "dayone-review",
+      "ppx-convenience",
+      "ppx-challenge-list",
+      "ppx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "sleeping-and-the-clock",
+    "name": "Sleeping and the in-game clock",
+    "summary": "Sleeping in a bed at home skips to one of four set times, and a full in-game day lasts 2 hours 24 minutes of real time.",
+    "body": [
+      "PowerPyx says the bed offers Sleep with four wake times: Morning (7:00 AM), Noon (12:30 PM), Evening (6:00 PM) and Night (12:01 AM).",
+      "GamesRadar+ says the sleep prompt is Square (X on Xbox) once the character is lying on the bed in the safehouse.",
+      "PowerPyx timed one in-game minute at 6 real seconds, so an hour is 6 minutes and a day is 144 minutes, and says the time shows in the top-left corner of the phone.",
+      "PowerPyx and GamesRadar+ both say a skipped taxi or RydeMe ride also moves the clock on by the length of the drive.",
+      "Push Square says sleeping at the end of the day helps recovery and starts the next workout window; DayOne's review says the characters need sleep every few days.",
+      "GamesRadar+ says police respond a little more slowly at night, especially far from a city, and that buildings which can be entered are more likely to be occupied at night.",
+      "GamesRadar+ says a cheat for changing the time of day becomes available after the story."
+    ],
+    "tags": [
+      "bed",
+      "clock",
+      "day length",
+      "sleep",
+      "time"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-skip-time",
+      "ppx-day-length",
+      "gr-time-of-day",
+      "ps-workouts",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wanted-stars-at-launch",
+    "name": "Wanted stars in the released game",
+    "summary": "Launch guides describe what raises the star count, what arrives at the higher levels, and a six-star level that cannot be shaken.",
+    "body": [
+      "GameSpot says killing a police officer brings three stars as soon as the crime is reported, and that breaking into Vice City's airport or the Mike Zero Air Station west of Key Lento brings four or five at once, with air support and tanks.",
+      "PowerPyx says robbing a bank vault always gives four stars immediately, that helicopters join from four stars, and that jets with advanced trackers also cause four stars.",
+      "GameSpot says about ten minutes of unbroken pursuit reaches five stars, when an on-screen notice warns that six will follow, and that a further 10 to 15 minutes of evasion is needed; it describes armored vehicles that ram head-on, faster police cars and several helicopters at that stage.",
+      "GamesRadar+'s writer reached six stars once, after mass destruction and a chase of more than 15 minutes, says the military joins, and found the cheat that raises the wanted level stops at five stars.",
+      "GamesRadar+ says there is no way to resolve six stars; DayOne's review says the Army covers the whole map and the player is eventually killed; GameSpot says the areas involved stay monitored until the character is caught or killed and need a full change of clothes, appearance and vehicle to re-enter.",
+      "PowerPyx separates the flashing red and blue search area from a larger red heat zone, and says its escape trophies only unlock on leaving the red zone or using a Pay 'n' Spray.",
+      "DayOne's review says each star widens the search zone and that higher levels take more in-game time away from the area to clear.",
+      "PowerPyx says police helicopters break off when shot at, and GameSpot says the pilot announces the retreat over the police radio. No page read listed what one and two stars bring."
+    ],
+    "tags": [
+      "heat zone",
+      "police",
+      "six stars",
+      "stars",
+      "wanted level"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-six-star",
+      "ppx-trophy-guide",
+      "ppx-tips",
+      "ppx-game-length",
+      "gr-six-star",
+      "dayone-review",
+      "gs-tips"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "heat-indicators-and-disguises",
+    "name": "Heat indicators and how to clear them",
+    "summary": "Red icons show what the police know about a suspect; launch guides list six and a matching way to remove each.",
+    "body": [
+      "GameSpot lists six things police use to identify the player: appearance, outfit, visible weapon, vehicle, CCTV footage and the partner.",
+      "GameSpot's remedies are a hat and bandana put on before a crime and removed after; a spare outfit from the trunk or a new one bought in a clothing store; unequipping a pistol and stowing or dropping longarms; ditching or changing vehicle; destroying the CCTV evidence in the back room; and splitting up.",
+      "GameSpot says that if every factor is dealt with out of sight of the police they cannot find the player, and that dropped weapons the player owns return to the trunk automatically.",
+      "PowerPyx says the bandana, glasses and hat are toggled from the item wheel, that the red icons sit in the top-right corner, and that holding Circle while driving ducks behind the wheel to pass police unnoticed.",
+      "PowerPyx says repainting at a Pay 'n' Spray removes vehicle heat once outside the immediate search area, and GamesRadar+ says abandoning a car clears its heat but usually gets it impounded.",
+      "DayOne's review says a mask hides the face but clothing can still be recognised, that a hat and glasses make the player harder to spot in a car, and that changing hair also lowers heat.",
+      "GamesRadar+ says a partner sent away can draw police off and removes one of the wanted conditions; Push Square says police know when the two are working as a pair."
+    ],
+    "tags": [
+      "cctv",
+      "disguise",
+      "heat",
+      "mask",
+      "police"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-tips",
+      "ppx-tips",
+      "gr-personal-vehicles",
+      "dayone-review",
+      "gr-switch",
+      "ps-change-characters"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "criminal-profile-tiers",
+    "name": "Criminal profile: the five tiers",
+    "summary": "PowerPyx lists five profile ratings from Professional to Irredeemable, what moves a character between them and what each changes.",
+    "body": [
+      "PowerPyx gives the order, best to worst, as Professional, Hardened, Violent, Psycho and Irredeemable, with a separate profile for each character.",
+      "PowerPyx says Professional comes from stealth, harming no one in robberies, destroying tapes and disabling alarms; Hardened from putting enemies down without killing them; Violent from killing enemies, police and civilians; Psycho from killing sprees, killing domestic animals or driving over gravestones.",
+      "PowerPyx says Irredeemable is permanent, and that at Psycho and Irredeemable police may shoot on sight and surrender is no longer possible.",
+      "According to PowerPyx the profile otherwise has little direct effect, though it sets which actions raise Focus, and Irredeemable has no passive way to raise it.",
+      "PowerPyx says the rating shows at the top of a character's page in the Jason & Lucia tab, and that a notification icon appears for each action if Criminal Profile is switched on under Settings, UI, HUD Notifications; a trophy counts 500 such actions.",
+      "DayOne's review instead describes four levels, naming professional, aggressive, psycho and irredeemable, and says an AI partner's kills do not count against either character.",
+      "GameSpot says a lead with a violent profile acts more violently when not being controlled, and GamesRadar+ says disabling police vehicles, even without killing, counts toward Hardened."
+    ],
+    "tags": [
+      "criminal profile",
+      "hardened",
+      "irredeemable",
+      "professional",
+      "psycho"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-criminal-profile",
+      "ppx-trophy-guide",
+      "dayone-review",
+      "gs-tips",
+      "gr-switch"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "clothing-stores-and-outfits",
+    "name": "Clothing stores, wardrobes and saved outfits",
+    "summary": "PowerPyx counts 67 clothing stores in five types and 17 footwear stores; clothes are worn from wardrobes, changing rooms or a car trunk.",
+    "body": [
+      "PowerPyx's breakdown is 17 Casual & Street, 11 Sportswear, 10 Formal, 24 Souvenir & Swimwear and 5 Thrift stores, selling tops, bottoms, footwear and accessories such as hats and sunglasses.",
+      "PowerPyx names the chains Slinger (6 stores), This / That (4), Mid (3), Alpha Sports (6), Endzone (4), Nola (5) and Ferruccio Tucci (5), with single stores including Suburban, Urban Legendz, Drip Drops, Eris and the Ultimate Edition's Stock 305.",
+      "PowerPyx says stores of one brand share the same stock, and that hovering over a store's map icon shows its type and brand.",
+      "PowerPyx says bought clothes are put on at the wardrobe at home, in a store's changing room or from clothes kept in the car trunk, and that 15 favourite outfits can be saved.",
+      "DayOne's review gives different figures: five outfit slots reachable from an owned vehicle's trunk and upwards of a dozen outfits saved in the closet at home.",
+      "PowerPyx lists 17 footwear stores under the brands Podium Sports (6), Callus (5) and WHS (5) plus Flip Flop House, and says some Ammu-Nations and mod shops also sell clothes.",
+      "GameSpot says the story hands out free clothes from several sources, and PowerPyx lists a Shopping challenge for spending over 5,000 dollars on clothing.",
+      "PowerPyx says the Ultimate Edition adds two outfits per lead to the wardrobe, one set from Chapter 4 and one from Chapter 5."
+    ],
+    "tags": [
+      "clothing",
+      "footwear",
+      "outfits",
+      "stores",
+      "wardrobe"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-clothing",
+      "ppx-tips",
+      "dayone-review",
+      "ppx-footwear",
+      "gs-spend-money",
+      "ppx-challenge-list",
+      "ppx-ultimate"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "discovered-styles",
+    "name": "Discovered Styles",
+    "summary": "The 79 Discovered Styles are a collection of magazine looks, magazine tattoos and luxury watches; 70 count for the completion checklist.",
+    "body": [
+      "PowerPyx's progress database splits the 79 into 13 Jason's Magazine Styles, 15 Lucia's Magazine Styles, 17 Magazine Tattoos and 34 Luxury Watches.",
+      "PowerPyx's completion checklist gives the same numbers but calls the first two groups Jason's and Lucia's Magazine Tattoos, so the exact labels differ between its own pages.",
+      "PowerPyx says the magazine entries are scanned with the WAiNK app, while the watches are picked up as collectibles, show a golden icon when looked at and are typically found at gang operations.",
+      "PowerPyx says any 70 of the 79 are needed and that progress is tracked under Progress, Collections, Discovered Styles.",
+      "No page read explained what a discovered style unlocks for the characters."
+    ],
+    "tags": [
+      "collectibles",
+      "magazines",
+      "styles",
+      "tattoos",
+      "watches"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-progress-db",
+      "ppx-checklist"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hair-salons-and-tattoo-studios",
+    "name": "Hair salons and tattoo studios",
+    "summary": "PowerPyx counts 18 hair and beauty salons and 11 tattoo studios, each studio with its own tattoo style.",
+    "body": [
+      "PowerPyx labels the salons as 4 barbers, 8 beauty salons and 6 unisex shops: 3 in Mariana County, 12 in Vice-Dale County, 1 in Leonard County and 2 in Kelly County.",
+      "PowerPyx says standard hairstyles are sold everywhere while some salons have signature styles of their own, and that in beauty salons Lucia can also change nail colour and makeup.",
+      "Salons named by PowerPyx include Kurt's Barber Shop, Salon Pérez, Crosstown Cutz, Clip & Fade, AU Courant, Onyx Salon and Captain Starlings Barber Shop; Sara's Unisex Salon is marked as Ultimate Edition only.",
+      "PowerPyx gives each tattoo studio a style: The Inked Mermaid (American Traditional), Layin' Ink (Black & Gray), Dominion Ink (Anime), Hyper Ink (Illustrative), Cross My Heart (New School), Inkomplete Tattoo Co. (Old School), Twa Ponya Tattoo (Neo-Traditional), Black Spot Tattoo (Geometric & Blackwork), Blood Sugar Tattoo (Lettering) and Freedom Tattoo (Stick & Poke).",
+      "PowerPyx says the eleventh, Electric Fang Tattoo, is Ultimate Edition only and has over 50 signature tattoos.",
+      "PowerPyx lists a Shopping challenge for spending over 1,000 dollars at barbershops, hairdressers or salons, and calls tattoos one of the dearest purchases.",
+      "DayOne's review says changing hair helps shed police recognition. No page read gave prices, tattoo removal rules or a statement on hair growth in the released game."
+    ],
+    "tags": [
+      "barbers",
+      "hair",
+      "makeup",
+      "salons",
+      "tattoos"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-salons",
+      "ppx-tattoos",
+      "ppx-ultimate",
+      "ppx-challenge-list",
+      "ppx-trophy-guide",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "loadout-wheel-slots",
+    "name": "Loadout wheel: weapon and item slots",
+    "summary": "The loadout opened with L1 has a Weapons tab and an Items tab, each with fixed slots, and extra gear lives in a vehicle trunk.",
+    "body": [
+      "GamesRadar+ says holding L1/LB opens the loadout on foot or in a vehicle and R1/RB switches between the Weapons and Items tabs.",
+      "GamesRadar+ lists the Weapons tab as two sidearm slots, hands, equipment, two longarm slots, a melee weapon and explosives.",
+      "GamesRadar+ lists the Items tab as single slots for Masks, Headgear, Headwear, Outfits, Bags, Gear, Eyewear and Smokes.",
+      "DayOne's review describes the same second wheel as holding sunglasses, hats, masks, headphones, cigarettes, cigars and cocaine that boosts stamina, and counts three equipment items.",
+      "GameSpot says carrying capacity cannot be upgraded at all and that extra items are kept in vehicle trunks.",
+      "GamesRadar+ says the trunk of a personal vehicle is opened with Triangle/Y, the loadout is then changed with L1/LB, and longarms are stowed with Square/X.",
+      "Game Rant says only one longarm can be holstered on the back, so a second is carried in the hands, which draws reactions from the public and questions from police; its own text is inconsistent on whether one or two longarms can be carried.",
+      "PowerPyx says equipment and weapons cannot be handed to the partner because each character has a separate inventory, whereas GamesRadar+ and DayOne say a weapon can be handed over."
+    ],
+    "tags": [
+      "items",
+      "loadout",
+      "masks",
+      "trunk",
+      "weapon wheel"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-loadout",
+      "dayone-review",
+      "gs-inventory",
+      "grant-weapons",
+      "ppx-hand-items",
+      "gr-switch"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "owned-and-unowned-weapons",
+    "name": "Owned and unowned weapons",
+    "summary": "Bought or gifted weapons are kept permanently and shared by both leads; weapons picked up in the world are temporary.",
+    "body": [
+      "GamesRadar+ says a weapon bought at Ammu-Nation, with pocket cash or BuckMe, or gifted in a mission is owned, and that a copy goes to both Jason and Lucia, who modify and equip it separately.",
+      "GamesRadar+ says a dropped owned weapon can be recovered from the personal vehicle's trunk or from the weapons locker in Ammu-Nation stores.",
+      "GamesRadar+ says weapons dropped by enemies or found lying around are unowned: they cannot be modified, are not kept for long, and are lost when Wasted or Busted; DayOne's review says they disappear at the next login.",
+      "GamesRadar+ says Unique Weapon Variants, marked by a golden gun icon and usually found at special spots and illegal operation hideouts, unlock permanently for both leads but cannot be modified.",
+      "GamesRadar+ says Ammu-Nation stock grows with the number of weapons bought overall, and that premium stores carry more weapons and exclusive cosmetics.",
+      "PowerPyx counts 24 Ammu-Nations labelled Limited, Standard, Hunting or Expanded, says Expanded stores stock light machine guns, sniper rifles and launchers, and that map icons flag stores with clothing, a weapon locker or fishing rods.",
+      "GamesRadar+'s loadout guide says every Ammu-Nation has a weapons locker, while its ownership guide says most do; PowerPyx's icon note implies only some."
+    ],
+    "tags": [
+      "ammu-nation",
+      "ownership",
+      "variants",
+      "weapon locker",
+      "weapons"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-weapon-ownership",
+      "dayone-review",
+      "ppx-ammu-nation",
+      "gr-loadout"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "homes-and-what-they-offer",
+    "name": "Homes and what they offer",
+    "summary": "Each chapter centres on a different home, where guides report a bed, wardrobe, fridge, shower, video games and nearby parking.",
+    "body": [
+      "GameSpot says the story's chapters are each built around a different safehouse, that the previous one cannot be revisited without an earlier save, and that new activities open up as the home changes.",
+      "PowerPyx reports a bed for sleeping, a wardrobe for bought clothes, and a fridge that holds protein shakes and groceries from convenience stores.",
+      "PowerPyx says washing the face or showering at home temporarily boosts Focus, and GameSpot counts showering among the temporary buffs.",
+      "PowerPyx says three of the four playable video games are started from the controller at the television at home, that this is unavailable during Chapter 2, and that home workouts are available in Chapter 1 and again after the story.",
+      "GamesRadar+ says an unowned vehicle can be kept by leaving it in a parking space outside the safehouse where there is one, and GameSpot says the character not being played usually stays near the current safehouse.",
+      "GameSpot says the Chapter 1 house has four repair projects (steps, leaky roof, railing and bedroom wall) that can only be done before a set point in that chapter and that improve the relationship.",
+      "Game Rant mentions stashing money at the safehouse before risky activity, without describing how. No page read described a weapon locker inside a home."
+    ],
+    "tags": [
+      "bed",
+      "fridge",
+      "home",
+      "safehouse",
+      "wardrobe"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-tips",
+      "ppx-stats",
+      "ppx-clothing",
+      "ppx-convenience",
+      "ppx-trophy-guide",
+      "ppx-checklist",
+      "gr-personal-vehicles",
+      "gs-house-projects",
+      "grant-wasted"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "purchasable-garages",
+    "name": "Garages: names, prices and parking spots",
+    "summary": "PowerPyx lists 12 garages, eight bought through the Vice City Real Estate app for 160,000 dollars in total and four given by the story.",
+    "body": [
+      "PowerPyx's purchasable garages, each with one parking spot, are Mitchell Auto Center (4,000 dollars), Persistence Road Garage (7,600), 7th Avenue Garage (12,000), Store n' Bolt (16,800), Wyatt Motors (21,600), Vela Rota Driver Garage (24,000), Bonita Court Garage (34,000) and Atlantic Court Garage (40,000).",
+      "PowerPyx's story garages are Port Gellhorn Station Garage (1 spot, after the Chapter 2 mission Daily Driver), Thompson Court Garage (2 spots, Chapter 4), NE 15th Street Garage (2 spots, Chapter 5) and Pegassi Residences Garage (3 spots, Chapter 5).",
+      "PowerPyx gives a maximum of 18 vehicle slots: 16 from garages plus the two personal vehicles parked where they were left.",
+      "GameSpot's list differs: it counts 10 garages, prices Persistence Road at 9,500 dollars and Vela Rota Drive at 30,000, and adds a free Paradise Garage in Watson Bay tied to an Ultimate Edition car.",
+      "GameSpot says garages can also be bought by visiting them, that some unbuyable garages appear on the map when the game stores a vehicle automatically, and that none are in Lummox County.",
+      "GameSpot says a garage also lets the player manage weapons, change loadout, boost Focus and drop off goods for sale; PowerPyx says loot can be left at a garage for a fence to collect.",
+      "Buying all eight earns the Little Boxes trophy, according to PowerPyx."
+    ],
+    "tags": [
+      "garages",
+      "parking",
+      "prices",
+      "property",
+      "vice city real estate"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-garages",
+      "gs-garages",
+      "gs-spend-money",
+      "ppx-money-guide",
+      "ppx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "registering-vehicles",
+    "name": "Registering and keeping vehicles",
+    "summary": "A stolen vehicle becomes a permanent personal vehicle only once it is registered for a fee and there is a free storage slot.",
+    "body": [
+      "PowerPyx says only Jason's own car is kept in Chapter 1, and that registration opens with the Chapter 2 mission Moses, at Moses's garage in Port Gellhorn, for vehicles without a tracker.",
+      "PowerPyx says vehicles with standard trackers can be registered at any Pay 'n' Spray from early in Chapter 3; Push Square says Register swaps the plates and the fee depends on the car's value.",
+      "GameSpot says Moses discounts the first registration, that later fees can reach tens of thousands of dollars, and that cheaper cars cost less; DayOne's review says each tracker level costs more to register and keep.",
+      "GameSpot says a vehicle with a standard tracker cannot be modified until it is registered.",
+      "PowerPyx says the player starts with one garage slot and must sell a vehicle when slots are full; GameSpot instead says there are four owned vehicle slots to begin with, so the starting number is disputed.",
+      "GamesRadar+ says Jason and Lucia each have one personal vehicle at a time, that its location is always shown in the Personal tab of the map index, and that its trunk holds the loadout, outfits, stash bags and hunting spoils.",
+      "GamesRadar+ says the last unowned vehicle left behind is marked on the map but cannot be recovered if destroyed, along with anything in its trunk.",
+      "GameSpot says stash bag space depends on the vehicle, with vans and trucks holding upwards of eight and motorcycles none; DayOne's review mentions up to six in a large trunk."
+    ],
+    "tags": [
+      "personal vehicle",
+      "registration",
+      "slots",
+      "trackers",
+      "vehicles"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-personal-car",
+      "ps-tips",
+      "gs-spend-money",
+      "gs-more-cars",
+      "dayone-review",
+      "gs-tips",
+      "gr-personal-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "scooter-bros-delivery",
+    "name": "Scooter Bros delivery and Premium",
+    "summary": "The Scooter Bros app delivers any registered vehicle for a fee, recovers wrecked ones, and sells a Premium upgrade.",
+    "body": [
+      "PowerPyx says the app arrives after the Chapter 2 mission Moses: pick a vehicle, choose Request, and it appears at once for a small fee.",
+      "Push Square says the fee depends on the delivery distance and the vehicle's condition, and GamesRadar+ says the service also returns the unwanted vehicle to storage.",
+      "PowerPyx says a Premium upgrade bought in the app for 12,500 dollars gives three free deliveries per day, and that those daily credits can also retrieve impounded vehicles for free.",
+      "GamesRadar+ says a personal vehicle that has been destroyed is recovered through the app for a fee.",
+      "PowerPyx says that in Chapter 1, before the app exists, a phone contact named Joey repairs Jason's car for free and delivers or respawns it.",
+      "GameSpot says the app's list is also a quick way to see every vehicle currently owned."
+    ],
+    "tags": [
+      "delivery",
+      "personal vehicle",
+      "phone",
+      "premium",
+      "scooter bros"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-summon",
+      "ps-tips",
+      "gr-personal-vehicles",
+      "gs-more-cars"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "impounded-vehicles",
+    "name": "Impounded vehicles",
+    "summary": "Police impound a personal vehicle that is abandoned during a chase or driven when its owner is Wasted or Busted.",
+    "body": [
+      "GamesRadar+ says dumping a vehicle to clear its heat will most likely end with the police impounding it, and that the same happens if the player is Wasted or Busted while driving a personal vehicle.",
+      "GamesRadar+ says Scooter Bros will fetch it from the impound lot for a significant fee, but stash bags hidden in the trunk may be lost; GameSpot also says bags in an impounded car are lost.",
+      "GamesRadar+ says the Personal section of the map index shows where the vehicle is held, and that the player can try to steal it back or check nearby police cars for loot already taken from the trunk.",
+      "PowerPyx says Scooter Bros Premium credits retrieve impounded vehicles for free.",
+      "No page read gave the impound fee or mentioned vehicle insurance."
+    ],
+    "tags": [
+      "impound",
+      "personal vehicle",
+      "police",
+      "scooter bros",
+      "stash bags"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-personal-vehicles",
+      "gs-tips",
+      "ppx-summon"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mod-shop-specialities",
+    "name": "Mod shops and their specialities",
+    "summary": "PowerPyx lists 14 mod shops, each tied to a kind of vehicle, selling performance upgrades and visual changes.",
+    "body": [
+      "PowerPyx's list: Coastal Auto Care (retro), Capri Classic (muscle cars), Two Wheel Fury Motorsport (sports bikes), Euroform Automotive (luxury cars), Vice Auto Customs (tuners), Lowballers Customs (lowriders), Vice Vinyl (wraps and liveries), Stockyard Speedshop (hot rods), Whisler Motorsport (racing cars), Dirt Merchants (dirt bikes), Wasteland Off-Road (off-road cars) and Ledford Motorcycle Workshop (choppers and classic American motorcycles).",
+      "PowerPyx marks two more as Ultimate Edition only: Rideout Customs (donk rims and interiors) and One-Eyed Willie's Auto Shop (off-road, hand-painted liveries).",
+      "PowerPyx places two shops in Mariana County, seven in Vice-Dale County, three in Kelly County and one each in Leonard and Lummox counties.",
+      "Push Square says generic upgrades are sold at any mod shop while specialist tuning for the current vehicle is at shops marked with a blue wrench icon in the map index.",
+      "DayOne's review mentions full body kits and tire swaps among the changes, and GamesRadar+ says mod shops also repair vehicles.",
+      "PowerPyx lists Shopping challenges for five modifications, for spending over 20,000 dollars in one visit and for spending over 125,000 dollars at mod shops overall.",
+      "No page read gave a full list of modification categories."
+    ],
+    "tags": [
+      "customisation",
+      "mod shops",
+      "tuning",
+      "ultimate edition",
+      "vehicles"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-mod-shops",
+      "ps-tips",
+      "dayone-review",
+      "gr-repair",
+      "ppx-challenge-list"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "pay-n-spray-services",
+    "name": "Pay 'n' Spray services",
+    "summary": "The 19 Pay 'n' Spray shops repair, repaint, register and buy vehicles, with the last two services opening later in the story.",
+    "body": [
+      "GamesRadar+ says Pay 'n' Sprays are unlocked by the Chapter 1 mission Just a Scratch, and that repair is the first option offered when a vehicle is driven in.",
+      "PowerPyx says a colour change stops police recognising the vehicle, and lists 19 shops: 4 in Mariana County, 10 in Vice-Dale County, 1 in Leonard County, 2 in Kelly County and 2 in Lummox County.",
+      "PowerPyx says selling stolen vehicles and registering ones with standard trackers at any Pay 'n' Spray both open early in Chapter 3.",
+      "GamesRadar+ says a Stored Vehicles tab, reached with R1/RB inside the shop, lets the player sell registered or garaged vehicles, and that a dedicated vehicle fence may pay more for an exotic car.",
+      "GamesRadar+ says whether a buyer accepts a vehicle depends on its tracker (none, standard or advanced) and that WAiNK shows the sale value and which fences are interested.",
+      "DayOne's review says only a set number of cars can be sold each day.",
+      "PowerPyx lists Criminal challenges that involve taking carjacked vehicles to a Pay 'n' Spray, including registering or respraying cars from 10 manufacturers in under 30 minutes."
+    ],
+    "tags": [
+      "pay n spray",
+      "registration",
+      "repair",
+      "respray",
+      "selling cars"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-sell-cars",
+      "gr-repair",
+      "ppx-pay-n-spray",
+      "ppx-personal-car",
+      "dayone-review",
+      "ppx-challenge-list"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "fuel-gauge-and-gas-stations",
+    "name": "Fuel, gas stations and chargers",
+    "summary": "Every vehicle, aircraft included, uses fuel; PowerPyx counts 57 gas stations, and electric vehicles use separate chargers.",
+    "body": [
+      "GamesRadar+ says pressing Down on the D-pad shows a gas pump icon between the vehicle name and the minimap: green for plenty of fuel, yellow for low and red for nearly empty.",
+      "PowerPyx says a low tank brings up a yellow gauge and marks nearby stations, and that a vehicle with no fuel stops; it says aircraft need fuel too.",
+      "GamesRadar+ says refuelling is done by driving up to a pump and pressing X/A, for a small fee, from a menu that also offers repairs.",
+      "GamesRadar+ says electric vehicles use Electric Vehicle Chargers, listed as Electric Chargers under the Vehicles tab of the map index.",
+      "PowerPyx's 57 stations are 7 in Mariana County, 26 in Vice-Dale County, 12 in Kelly County and 6 each in Leonard and Lummox counties, under brands including Xero, 247, Globe Oil, LTD, Arrow, Ron and Alpha.",
+      "GameSpot, citing a streamer's clip, reports pump prices in Key Lento of 4.29 dollars a gallon for unleaded and 5.22 for diesel.",
+      "PowerPyx notes that jets burn fuel faster than a crop duster plane."
+    ],
+    "tags": [
+      "charging",
+      "electric",
+      "fuel",
+      "gas stations",
+      "vehicles"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-refuel",
+      "ppx-gas",
+      "ppx-tips",
+      "gs-gas-prices",
+      "ppx-game-length"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vehicle-damage-repairs-and-car-washes",
+    "name": "Engine damage, repairs and car washes",
+    "summary": "An engine icon shows four damage states; Pay 'n' Sprays and mod shops repair fully, gas stations partly, and six car washes only clean.",
+    "body": [
+      "GamesRadar+ says pressing Down on the D-pad in a vehicle shows an engine icon: green for good condition, orange for moderate damage, red for critical damage and a red icon with a cross for a destroyed engine.",
+      "GamesRadar+ says a badly damaged engine first slows the car, then makes it swerve, and finally catches fire, and that burst tires or bent axles change how it steers.",
+      "GamesRadar+ says Pay 'n' Sprays and mod shops repair for a fee, while gas stations do minor repairs only, cannot fix critical damage and charge more.",
+      "PowerPyx counts six car washes, all in Vice City: three RON Car Washes (Salton, Balsero, Bayside), two Xero Car Washes (Southside, La Perle) and Park N Glow.",
+      "PowerPyx says car washes only clean the vehicle and that a repair cleans it as well.",
+      "PowerPyx and Push Square say the Reduced Vehicle Damage setting lowers the damage the player's vehicle takes."
+    ],
+    "tags": [
+      "car wash",
+      "damage",
+      "engine",
+      "repair",
+      "vehicles"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-repair",
+      "ppx-car-washes",
+      "ppx-tips",
+      "ps-tips"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "save-slots-and-autosave",
+    "name": "Save slots and the autosave",
+    "summary": "The game has 15 manual save slots and one autosave, with manual saving blocked during missions and after cheats.",
+    "body": [
+      "PowerPyx, GamesRadar+ and GameSpot all give 15 manual slots; PowerPyx and GamesRadar+ count the autosave as a separate sixteenth slot, while GameSpot says the autosave takes up one of the slots.",
+      "PowerPyx says saving is done from the pause menu under Game, then Save Game, anywhere in free roam, and is usually greyed out during missions; DayOne's review says it is also unavailable in combat.",
+      "GamesRadar+ says the autosave triggers after missions, when Wasted or Busted, and after major open-world encounters; PowerPyx says loading an older manual save overwrites the autosave too.",
+      "PowerPyx and GamesRadar+ say activating any cheat disables saving, and GamesRadar+ says the game must then be quit and a save reloaded.",
+      "All three guides advise keeping a save at the start and end of each of the five chapters because missions cannot be replayed; GameSpot adds that earlier homes can only be revisited this way.",
+      "DayOne's review reports that resuming through the console's Quick Resume caused visual glitches which saving and reloading fixed."
+    ],
+    "tags": [
+      "autosave",
+      "cheats",
+      "missions",
+      "save slots",
+      "saving"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-save",
+      "gr-save",
+      "gs-save",
+      "gs-tips",
+      "dayone-review",
+      "ppx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "settings-menu-categories",
+    "name": "Settings menu categories",
+    "summary": "Rockstar Support lists eight settings categories reached from the pause menu, with options to restore defaults.",
+    "body": [
+      "Rockstar says Settings is opened from the Pause Menu and is divided into Control Scheme, Controller, Gameplay, Display, UI, Camera, Audio and Account.",
+      "Rockstar says Control Scheme holds layouts tailored to On Foot, Aiming, Melee, Land / Water Vehicles, Aircraft, Bicycle, Swimming and Parachute.",
+      "Rockstar says Controller covers aim and look sensitivity, inverted controls and DualSense features on PlayStation 5; Gameplay covers Combat, Movement and Accessibility; Display covers Display, Visual Effects and High-Contrast Shaders.",
+      "Rockstar lists the UI groups as Scaling & Readability, Subtitles & Captions, Navigation, Reticle, Combat, HUD Notifications, Progress Notifications, Player & Vehicle Status, Prompt, Activities and Units of Measurement.",
+      "Rockstar says Camera covers On Foot, Land & Water Vehicles, Comfort, Aircraft, Underwater and Cinematic; Audio covers Setup, Volume and Narration; Account holds general and legal information.",
+      "Rockstar says Restore All and Restore Default at the bottom of the screen reset changed settings.",
+      "Rockstar's separate error article points console errors to PlayStation's and Xbox's own error-code pages and gives no in-game steps."
+    ],
+    "tags": [
+      "hud",
+      "menu",
+      "official",
+      "options",
+      "settings"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "official",
+    "sources": [
+      "rs-settings",
+      "rs-errors"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "assist-toggles-and-control-options",
+    "name": "Assist toggles, control schemes and HUD notifications",
+    "summary": "There is no difficulty setting, but two Gameplay toggles ease combat and vehicle damage, and controls and notifications can be changed.",
+    "body": [
+      "PowerPyx and GameSpot both say there are no difficulty levels.",
+      "Push Square says Accessible Combat and Reduced Vehicle Damage are options 24 and 25 at the bottom of Settings, Gameplay: the first lowers gunfight damage taken and raises damage dealt, the second lowers damage to the player's vehicle.",
+      "Push Square says the game warns that these change the balance of play, and that they do not alter the story or disable trophies.",
+      "Push Square says the Default control scheme puts running on L3 and jumping on Cross, and that a Classic scheme in the style of the previous game can be chosen under Control Scheme.",
+      "PowerPyx says notifications for collectibles and the criminal profile are switched on under Settings, UI, HUD Notifications, and that the fuel gauge and minimap can be set to appear only when Down is pressed.",
+      "DayOne's review says the aim dead zone can be adjusted and that button-mashing prompts can become holds.",
+      "PowerPyx says brightness is under Settings, Display, Brightness Calibration, and GameSpot says cheats that change the challenge unlock after the story."
+    ],
+    "tags": [
+      "accessibility",
+      "controls",
+      "difficulty",
+      "hud",
+      "notifications"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-trophy-guide",
+      "gs-difficulty",
+      "ps-tips",
+      "ppx-tips",
+      "ppx-gas",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "photo-mode-and-phone-camera",
+    "name": "Photo mode and the phone camera",
+    "summary": "A pause-menu photo mode offers camera, character, effects and overlay controls; the phone camera adds selfies with poses.",
+    "body": [
+      "Game Rant says photo mode is entered from the pause menu and is available from the prologue.",
+      "Game Rant lists the camera controls as speed, grid, roll, eight aspect ratios, field of view up to 48.5 degrees, depth of field, aperture, focus distance and a focus guide.",
+      "Game Rant lists effects for exposure, contrast, highlights, shadows, saturation, sharpness, grain, temperature, tint, gamma, lens flare, bloom and chromatic aberration, plus up to five added light sources.",
+      "Game Rant says overlays include 17 filters, a vignette, colour isolation and a toggle for gameplay effects, and that the controlled character can be hidden.",
+      "Game Rant says the phone's Camera app has a rear camera with a 3x3 grid, zoom up to 5x and the same 17 filters, and a front camera with up to six poses, up to seven expressions and a partner pose option.",
+      "DayOne's review calls the phone's photo app fully fledged."
+    ],
+    "tags": [
+      "camera",
+      "filters",
+      "gallery",
+      "photo mode",
+      "selfie"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "grant-photo-mode",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "first-person-view-limits",
+    "name": "Limited first-person view",
+    "summary": "The released game has a first-person view that only works standing still, on the phone in a vehicle, or through a weapon optic.",
+    "body": [
+      "PowerPyx says holding L2 plus R3 while standing still gives a first-person view in which the character cannot walk.",
+      "PowerPyx says that in a vehicle, taking out the phone with Up on the D-pad lets the player drive in first person for as long as the phone is out.",
+      "PowerPyx and GameSpot say a gun fitted with an optic can be aimed in first person with the right stick, and GameSpot says iron sights do not allow it.",
+      "PowerPyx says optics are added by talking to the clerk at any gun store; DayOne's review says the phone itself opens in first person."
+    ],
+    "tags": [
+      "aiming",
+      "camera",
+      "first person",
+      "optics",
+      "view"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-first-person",
+      "gs-tips",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "map-index-and-quick-navigation",
+    "name": "The map index and quick navigation",
+    "summary": "The map has an index of nine tabs, a quick-navigation overlay on the D-pad, and room for one active destination at a time.",
+    "body": [
+      "GamesRadar+ says the touchpad opens the map and Right on the D-pad opens the index, whose tabs are Personal, Story, Robberies, Activities, Exploration, Vehicles, Weapons, Style and Food.",
+      "GamesRadar+ says Personal lists personal vehicles, the residence, owned garages and ATMs, and Story separates missions that advance the plot from those under an Optional banner.",
+      "GamesRadar+ says Vehicles covers mod shops, Pay 'n' Sprays, gas stations, transport hubs, ferry terminals and garages, and Weapons splits Ammu-Nations into Everyday, Premium, Hunting and Pawn.",
+      "GamesRadar+ says newly discovered entries carry an orange diamond, only one destination can be active, and Square on the map drops extra markers.",
+      "GamesRadar+ and Push Square describe Quick Navigation: hold Down on the D-pad to show nearby shops and missions in the world, then press R3 on a marker to route to it.",
+      "PowerPyx says shops only appear on the map once the fog over their area is cleared, and that each filtered list shows a discovered counter in the bottom left.",
+      "PowerPyx says hovering over a store's icon shows details such as an Ammu-Nation's inventory tier, and GameSpot says a robbery target's icon shows its potential take and security level."
+    ],
+    "tags": [
+      "hud",
+      "index",
+      "map",
+      "navigation",
+      "waypoints"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-index",
+      "ps-tips",
+      "ppx-mod-shops",
+      "ppx-tips",
+      "gs-tips"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "trains-buses-and-the-ferry",
+    "name": "Trains, buses and the ferry",
+    "summary": "Public transport runs to a timetable and can be skipped once aboard; PowerPyx counts 25 train stations and two ferry terminals.",
+    "body": [
+      "GamesRadar+ says trains and buses are not on demand: the player waits at a stop or station, can see nearby stops by holding Down on the D-pad, and can read the next arrival by walking up to the stop.",
+      "GamesRadar+ says that once aboard, a destination on the route is chosen and Triangle (Y on Xbox) is held to skip the journey.",
+      "GameSpot says there are dozens of bus stops and train stations, that the network is far handier inside Vice City, and that a train line runs the length of Leonida.",
+      "PowerPyx lists 25 train stations: 2 in Mariana County, 17 in Vice-Dale County, 1 in Leonard County, 3 in Kelly County and 2 in Lummox County, including Vice City Central, Vice City Airport Central, Port Gellhorn, Ambrosia, Grayson and Millport.",
+      "PowerPyx says the only ferry links Waxman Island and Dalton Island in Vice City and costs 50 dollars, paid at the boat or at the sign in front of it, as a fast-travel crossing.",
+      "PowerPyx lists a Rail Tour challenge for riding a mile by train in each of the five counties in a day without skipping.",
+      "DayOne's review says buses and trains run on schedules. No page read gave train or bus fares, and none described passenger flights between airports."
+    ],
+    "tags": [
+      "buses",
+      "ferry",
+      "public transport",
+      "trains",
+      "travel"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gr-fast-travel",
+      "gs-tips",
+      "ppx-trains",
+      "ppx-ferry",
+      "ppx-challenge-list",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cinematic-auto-drive",
+    "name": "Cinematic auto-drive",
+    "summary": "With a destination set, a vehicle can drive itself in a cinematic camera mode; a reviewer found it unreliable in boats and aircraft.",
+    "body": [
+      "Game Rant says that with the car moving, holding Down on the D-pad and pressing Options (Menu on Xbox) enters Cinematic mode, which only works when a destination is marked on the map.",
+      "Game Rant says an Auto Drive option then appears at the bottom right after a little acceleration, that the triggers adjust its speed, and that holding Down again leaves the mode.",
+      "DayOne's review says the system works well once a navigation point is set, but caused crashes in aircraft and struggled to find a path on narrow waterways.",
+      "DayOne's review says that when both leads are in the vehicle the player can start driving as one and swap to the other."
+    ],
+    "tags": [
+      "auto-drive",
+      "cinematic camera",
+      "driving",
+      "navigation"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "grant-auto-drive",
+      "dayone-review"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "partner-commands",
+    "name": "Partner commands: invite, split up, drive and hand over",
+    "summary": "Holding Right on the D-pad opens the partner options: switch, invite, split up, ask them to drive or wait, and pass bags.",
+    "body": [
+      "PowerPyx, Push Square and GamesRadar+ all give the switch as hold Right on the D-pad and press R1 (RB on Xbox); GameSpot's guide instead says L1/LB.",
+      "PowerPyx says free switching begins after the Chapter 2 mission Coffee Break, with only Jason playable for most of Chapter 1; GameSpot puts it at roughly 30 percent of the story.",
+      "GamesRadar+ says a darkened portrait means the partner is busy for now, and a J or L on a mission's map icon means it must be played by that character alone; PowerPyx says the other lead may be greyed out while the player is at home.",
+      "Push Square and PowerPyx say hold Right and press Triangle (Y) invites the other lead, who arrives at about the same time as the player; Push Square says Triangle on a map activity does the same, and the same input splits the pair up once together.",
+      "GamesRadar+ says the partner can be asked to drive the personal vehicle and told to speed up or slow down, to wait in the car during a robbery, to come in as backup, or to split up and take the vehicle away.",
+      "PowerPyx says a stash bag is passed with hold Right then Circle (B), choosing Hand Over Bag, that each lead carries two bags, and that the pair can carry four.",
+      "GamesRadar+ and GameSpot say a partner sent off after a robbery can sell the loot to a fence alone, possibly for a lower price, with the money arriving after a delay.",
+      "GamesRadar+ says focusing on the partner with L2/LT starts conversation and lets held items such as food and drink be shared, and that the player can switch to the passenger during a chase."
+    ],
+    "tags": [
+      "commands",
+      "partner",
+      "split up",
+      "stash bags",
+      "switching"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-switch",
+      "ps-change-characters",
+      "gr-switch",
+      "gs-switch",
+      "ppx-hand-items",
+      "gs-tips",
+      "ppx-trophy-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "time-together",
+    "name": "Time together: check-ins, hand-holding and going home",
+    "summary": "Launch guides describe a four-level relationship that rises through shared activities, messages and small gestures, with no date menu.",
+    "body": [
+      "DayOne's review says the romance meter has four levels and mentions holding hands while walking, going on dates and keeping in touch by phone.",
+      "GameSpot says there is no dating menu: the other lead is invited to activities on the map, and a heart icon marks activities and interactions that strengthen the relationship.",
+      "GameSpot names pool, mini golf, kayaking, a trip to the gym and general exploring as time together, says holding hands counts, and says the two never formally break up as partners.",
+      "GamesRadar+ says checking in over WhatUp raises relationship status, with a blue icon above the partner's portrait signalling a message, and that ignoring the partner's messages after a robbery lowers it.",
+      "Game Rant likewise says replies to the other lead, or the lack of them, raise or lower the relationship.",
+      "GamesRadar+ says that after a full day together a heart icon appears around the residence on the map as a cue to go home and rest together.",
+      "PowerPyx says meditating at the same spot with both leads counts twice, that working out together trains both, and that relationship status does not affect trophies.",
+      "GameSpot ties the shared BuckMe savings goals and the Chapter 1 house projects to the relationship as well."
+    ],
+    "tags": [
+      "dates",
+      "hand-holding",
+      "partner",
+      "relationship",
+      "whatup"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "Launch guides, November 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "dayone-review",
+      "gs-dates",
+      "gr-switch",
+      "grant-phone",
+      "ppx-checklist",
+      "ppx-trophy-guide",
+      "gs-spend-money",
+      "gs-house-projects"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

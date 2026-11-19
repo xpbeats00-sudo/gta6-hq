@@ -1,0 +1,635 @@
+[
+  {
+    "slug": "animal-compendium",
+    "name": "Animal compendium",
+    "summary": "The game logs 255 animals across eight categories, filled in by studying each one through binoculars.",
+    "body": [
+      "PowerPyx gives the split as 61 hunts, 60 birds, 35 fish, 34 cats and dogs, 18 mammals, 18 aquatic, 6 reptiles and 23 others.",
+      "PowerPyx says animals are studied with the binoculars from the weapon wheel, that hunting or skinning is not needed, and that every dog and cat breed is counted separately.",
+      "According to PowerPyx, studying 100 of the 255 is enough for the completion checklist.",
+      "Before launch, Gfinity Esports reported from Game Informer's Rockstar interview that the world holds more than 170 species; the two figures count different things and are not directly comparable."
+    ],
+    "tags": [
+      "255",
+      "animals",
+      "binoculars",
+      "checklist",
+      "compendium",
+      "study"
+    ],
+    "facts": {
+      "species": "255 tracked animal entries"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-database",
+      "ppx-study",
+      "ppx-100",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "unique-animals",
+    "name": "Unique animals",
+    "summary": "Eight one-of-a-kind animals exist as hunting targets, and a Survival challenge asks the player to kill all of them.",
+    "body": [
+      "PowerPyx lists a Legendary Hunter challenge for killing all 8 unique animals and a Fair Game trophy for hunting a unique animal for Bret.",
+      "PowerPyx does not name the eight animals."
+    ],
+    "tags": [
+      "bret",
+      "challenge",
+      "hunting",
+      "legendary",
+      "unique"
+    ],
+    "facts": {
+      "species": "8 unique animals (unnamed)",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-challenges",
+      "ppx-trophies"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wild-boar",
+    "name": "Wild boar",
+    "summary": "A wild pig seen in pre-launch footage and named as a hunting target in one of the game's Survival challenges.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed boar among the animals shown or named by Rockstar before launch.",
+      "PowerPyx lists a Hunting Spree challenge that requires killing a boar, a rattlesnake and a panther within 15 minutes."
+    ],
+    "tags": [
+      "boar",
+      "challenge",
+      "hunting",
+      "pig"
+    ],
+    "facts": {
+      "species": "Wild boar",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife",
+      "ppx-challenges"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "rattlesnake",
+    "name": "Rattlesnake",
+    "summary": "A snake named as one of three kill targets in the Hunting Spree challenge.",
+    "body": [
+      "PowerPyx lists a Hunting Spree challenge that requires killing a boar, a rattlesnake and a panther within 15 minutes without taking damage from enemies or animals.",
+      "Red Bull and Gfinity Esports listed snakes in general among the animals shown before launch, without naming a kind."
+    ],
+    "tags": [
+      "challenge",
+      "hunting",
+      "rattlesnake",
+      "reptile",
+      "snake"
+    ],
+    "facts": {
+      "species": "Rattlesnake",
+      "huntable": true
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-challenges",
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "domestic-cat",
+    "name": "Cat",
+    "summary": "Domestic cats appear in several breeds, and each breed is a separate entry in the animal list.",
+    "body": [
+      "PowerPyx says each cat and dog breed counts on its own, with 34 cat and dog entries in total.",
+      "Red Bull and Gfinity Esports both listed cats among the animals shown or named before launch."
+    ],
+    "tags": [
+      "breeds",
+      "cat",
+      "city",
+      "pet"
+    ],
+    "facts": {
+      "species": "Domestic cat"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-study",
+      "ppx-database",
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "manatee",
+    "name": "Manatee",
+    "summary": "A large, slow water mammal shown in Rockstar's pre-launch footage and artwork.",
+    "body": [
+      "Red Bull cites a screenshot and diving footage showing manatees and links them to the inland waters of the Grassrivers.",
+      "Gfinity Esports says manatees appeared in earlier trailers and artwork and were also named in Game Informer's Rockstar interview."
+    ],
+    "tags": [
+      "aquatic",
+      "grassrivers",
+      "mammal",
+      "manatee"
+    ],
+    "facts": {
+      "species": "Manatee",
+      "habitat": "Inland waters (Grassrivers), per Red Bull"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "dolphin",
+    "name": "Dolphin",
+    "summary": "A sea mammal shown before launch; the Vice City Oceanarium also keeps a dolphin tank.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed dolphins among the animals shown or named before launch, and Red Bull places them in the open sea.",
+      "PowerPyx lists a vehicle challenge that involves parachuting into the orca or dolphin tank at the Vice City Oceanarium."
+    ],
+    "tags": [
+      "aquatic",
+      "dolphin",
+      "oceanarium",
+      "sea"
+    ],
+    "facts": {
+      "species": "Dolphin",
+      "habitat": "Open sea; Vice City Oceanarium tank"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife",
+      "ppx-challenges"
+    ],
+    "verified": "2026-11-18",
+    "image": "/images/editions/squalo-03.jpg"
+  },
+  {
+    "slug": "orca",
+    "name": "Orca",
+    "summary": "An orca tank is part of the Vice City Oceanarium.",
+    "body": [
+      "PowerPyx lists an Oceanarium Jump challenge that requires parachuting into the orca or dolphin tank at the Vice City Oceanarium."
+    ],
+    "tags": [
+      "oceanarium",
+      "orca",
+      "vice city",
+      "whale"
+    ],
+    "facts": {
+      "species": "Orca",
+      "habitat": "Vice City Oceanarium tank"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "shark",
+    "name": "Shark",
+    "summary": "Sharks live in the sea around Leonida and were shown in pre-launch material.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed sharks before launch; Red Bull said how dangerous they are was not yet known."
+    ],
+    "tags": [
+      "aquatic",
+      "sea",
+      "shark"
+    ],
+    "facts": {
+      "species": "Shark",
+      "habitat": "Sea"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "whale",
+    "name": "Whale",
+    "summary": "Whales are among the sea animals shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed whales among the game's sea life."
+    ],
+    "tags": [
+      "aquatic",
+      "sea",
+      "whale"
+    ],
+    "facts": {
+      "species": "Whale",
+      "habitat": "Sea"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "jellyfish",
+    "name": "Jellyfish",
+    "summary": "Jellyfish are among the sea animals shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed jellyfish among the game's sea life."
+    ],
+    "tags": [
+      "aquatic",
+      "jellyfish",
+      "sea"
+    ],
+    "facts": {
+      "species": "Jellyfish",
+      "habitat": "Sea"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "eel",
+    "name": "Eel",
+    "summary": "Eels are among the water animals shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed eels among the game's aquatic animals."
+    ],
+    "tags": [
+      "aquatic",
+      "eel",
+      "water"
+    ],
+    "facts": {
+      "species": "Eel"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "flamingo",
+    "name": "Flamingo",
+    "summary": "A pink wading bird shown in trailers and artwork well before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed flamingos, with Gfinity noting they were visible in earlier trailers and artwork.",
+      "The live birds are separate from the Cocaine Flamingo collectibles, which PowerPyx describes as flamingo figures rather than animals."
+    ],
+    "tags": [
+      "bird",
+      "flamingo",
+      "wading"
+    ],
+    "facts": {
+      "species": "Flamingo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife",
+      "ppx-100"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "pelican",
+    "name": "Pelican",
+    "summary": "A large water bird shown in trailers and artwork before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed pelicans, with Gfinity noting they were visible in earlier trailers and artwork."
+    ],
+    "tags": [
+      "bird",
+      "coast",
+      "pelican"
+    ],
+    "facts": {
+      "species": "Pelican"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "spoonbill",
+    "name": "Spoonbill",
+    "summary": "A wetland bird among those shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed spoonbills among the game's birds."
+    ],
+    "tags": [
+      "bird",
+      "spoonbill",
+      "wetland"
+    ],
+    "facts": {
+      "species": "Spoonbill"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "crane",
+    "name": "Crane",
+    "summary": "A tall wetland bird among those shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed cranes among the game's birds."
+    ],
+    "tags": [
+      "bird",
+      "crane",
+      "wetland"
+    ],
+    "facts": {
+      "species": "Crane"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "duck",
+    "name": "Duck",
+    "summary": "Ducks are among the water birds shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed ducks among the game's birds."
+    ],
+    "tags": [
+      "bird",
+      "duck",
+      "water"
+    ],
+    "facts": {
+      "species": "Duck"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "seagull",
+    "name": "Seagull",
+    "summary": "Seagulls are among the birds shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed seagulls among the game's birds."
+    ],
+    "tags": [
+      "bird",
+      "coast",
+      "gull",
+      "seagull"
+    ],
+    "facts": {
+      "species": "Seagull"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "woodpecker",
+    "name": "Woodpecker",
+    "summary": "Woodpeckers are among the birds shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed woodpeckers among the game's animals."
+    ],
+    "tags": [
+      "bird",
+      "woodpecker"
+    ],
+    "facts": {
+      "species": "Woodpecker"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "armadillo",
+    "name": "Armadillo",
+    "summary": "A small armored mammal among the land animals shown or named before launch.",
+    "body": [
+      "Red Bull listed the armadillo from trailers and screenshots, and Gfinity Esports reported the nine-banded armadillo from Game Informer's Rockstar interview."
+    ],
+    "tags": [
+      "armadillo",
+      "mammal"
+    ],
+    "facts": {
+      "species": "Nine-banded armadillo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "raccoon",
+    "name": "Raccoon",
+    "summary": "Raccoons are among the land animals shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed raccoons among the game's land animals."
+    ],
+    "tags": [
+      "mammal",
+      "raccoon"
+    ],
+    "facts": {
+      "species": "Raccoon"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "otter",
+    "name": "Otter",
+    "summary": "Otters are among the animals shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed otters among the game's animals."
+    ],
+    "tags": [
+      "mammal",
+      "otter",
+      "water"
+    ],
+    "facts": {
+      "species": "Otter"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "beaver",
+    "name": "Beaver",
+    "summary": "Beavers are among the animals shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed beavers among the game's animals."
+    ],
+    "tags": [
+      "beaver",
+      "mammal"
+    ],
+    "facts": {
+      "species": "Beaver"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "squirrel",
+    "name": "Squirrel",
+    "summary": "Squirrels are among the small animals shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed squirrels among the game's animals."
+    ],
+    "tags": [
+      "mammal",
+      "squirrel"
+    ],
+    "facts": {
+      "species": "Squirrel"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "green-iguana",
+    "name": "Iguana",
+    "summary": "Iguanas are among the reptiles shown or named before launch.",
+    "body": [
+      "Red Bull listed the green iguana from trailers and screenshots, and Gfinity Esports reported iguanas from Game Informer's Rockstar interview."
+    ],
+    "tags": [
+      "iguana",
+      "lizard",
+      "reptile"
+    ],
+    "facts": {
+      "species": "Green iguana"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "rhesus-macaque",
+    "name": "Rhesus macaque",
+    "summary": "A monkey species among the animals shown or named before launch.",
+    "body": [
+      "Red Bull and Gfinity Esports both listed rhesus macaques among the game's animals."
+    ],
+    "tags": [
+      "macaque",
+      "mammal",
+      "monkey"
+    ],
+    "facts": {
+      "species": "Rhesus macaque"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "cane-toad",
+    "name": "Cane toad",
+    "summary": "A large toad among the animals shown or named before launch.",
+    "body": [
+      "Gfinity Esports reported cane toads from Game Informer's Rockstar interview; Red Bull listed the same animal under its other common name, the aga toad."
+    ],
+    "tags": [
+      "amphibian",
+      "cane toad",
+      "toad"
+    ],
+    "facts": {
+      "species": "Cane toad"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "redbull-wildlife",
+      "gfinity-wildlife"
+    ],
+    "verified": "2026-11-18"
+  }
+]
