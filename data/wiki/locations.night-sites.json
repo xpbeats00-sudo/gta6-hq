@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "dexter-morgans-apartment",
+    "name": "Dexter Morgan's apartment",
+    "summary": "A Washington Island apartment block built to match the home of TV's Dexter Morgan, with a lookalike boat docked nearby.",
+    "body": [
+      "GameSpot says Dexter Morgan's apartment from the Dexter TV series is recreated in Vice City, and that fans first noticed it in pre-launch gameplay footage.",
+      "GameSpot places it on Washington Island in eastern Vice City, between the Pay 'N' Spray and the Vice Beach Top Fun Drones icons, as a small light blue building with a cylinder-shaped stairwell on its south side.",
+      "According to GameSpot, the apartment is the corner unit at the west end of the second-floor outdoor walkway, reached by those stairs, with a view of the water.",
+      "GameSpot says the door is locked and it found no Dexter objects nearby; the only possible nod it found is a centre-console boat at the docks west of the building that resembles Dexter's Slice of Life, though it does not carry that name."
+    ],
+    "tags": [
+      "dexter",
+      "easter egg",
+      "tv",
+      "vice city",
+      "washington island"
+    ],
+    "facts": {
+      "type": "Easter egg building",
+      "districts": [
+        "Washington Island"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-dexter-apartment",
+      "gs-easter-eggs"
+    ],
+    "verified": "2026-11-18"
+  }
+]

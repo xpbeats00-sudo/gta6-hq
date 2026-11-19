@@ -2,6 +2,20 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.28 (19 November 2026)
+
+Collectible cards, stunts and races, the official credits, and 1,292 more entries.
+
+- Entries: 2,928, up from 1,636, and 2,514 of them show a picture.
+- Collectibles: 1,243, up from 154. The collectible cards by set, 201 Under the Bridge stunts, 128 stunt jumps, 39 knife flights, 25 base jumps, 34 of Kenton's treasures, and more WAiNK curiosities, landmarks and sculptures, each with where it is.
+- Activities: 221, up from 66. 100 basketball hoops, and the named races and racing challenges by series.
+- Characters: ten more named characters from the official cast, including Petra Navarro, Stefanie Gates, Phil, Bae-Luxe and Roxy. Story characters are marked as spoilers.
+- Radio: about 40 confirmed songs added across ten stations.
+- Vehicles and wildlife: 15 more vehicles with seats, drivetrain and sell value where known, and the lionfish, stingray and Carolina dog.
+- Intel: Rockstar's official credits (Dylan Rourke plays Jason), Take-Two's launch press release, the Xbox dashboard backgrounds, restaurant tie-ins and more. The voice cast answer is updated.
+- Pictures: near-identical pictures saved under different entries are removed, so each shot appears once.
+- Where a guide site disagrees with the app (a maker, a song title), both are recorded.
+
 ## 0.2.27 (19 November 2026)
 
 Pictures for almost everything, and 226 more entries.

@@ -1,21 +1,21 @@
 # Repository inventory
 
-Generated 2026-11-19 00:10 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-19 08:06 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 12 | 0.2 MB |
 | `ui/` | 8 | 0.4 MB |
-| `data/` | 56 | 2.7 MB |
-| `images/` | 1405 | 129.0 MB |
+| `data/` | 74 | 4.8 MB |
+| `images/` | 2659 | 239.3 MB |
 | `wallpapers/` | 70 | 98.1 MB |
-| `docs/` | 253 | 103.1 MB |
+| `docs/` | 253 | 103.5 MB |
 | `scripts/` | 24 | 0.2 MB |
 | `cache/` | 1972 | 284.0 MB |
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 9 | 78.3 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 3491 | 1348.4 MB |
+| `target/release/` | 3548 | 1370.3 MB |
 
 ## Source files
 
@@ -41,59 +41,77 @@ Generated 2026-11-19 00:10 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/index.html` | 138 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 4440 |
-| `data/media.json` | 1445 |
+| `data/media.json` | 2699 |
 | `data/update.json` | 4 |
-| `data/wiki.json` | 715 |
+| `data/wiki.json` | 738 |
 | `data/wiki/achievements.json` | 1332 |
 | `data/wiki/activities.json` | 60 |
-| `data/wiki/activities.launch-detail.json` | 982 |
-| `data/wiki/activities.launch-world.json` | 639 |
+| `data/wiki/activities.launch-detail.json` | 1030 |
+| `data/wiki/activities.launch-world.json` | 652 |
+| `data/wiki/activities.night-ign.json` | 4194 |
 | `data/wiki/activities.reviews.json` | 39 |
 | `data/wiki/businesses.community.json` | 27 |
 | `data/wiki/businesses.json` | 157 |
-| `data/wiki/businesses.launch-places.json` | 7124 |
+| `data/wiki/businesses.launch-places.json` | 7195 |
 | `data/wiki/businesses.launch-world2.json` | 179 |
+| `data/wiki/businesses.night-world.json` | 148 |
 | `data/wiki/categories.achievements.json` | 26 |
 | `data/wiki/characters.community.json` | 1 |
 | `data/wiki/characters.json` | 52 |
-| `data/wiki/characters.launch-cast.json` | 1386 |
+| `data/wiki/characters.launch-cast.json` | 1385 |
 | `data/wiki/characters.launch-cast2.json` | 64 |
-| `data/wiki/collectibles.json` | 213 |
-| `data/wiki/collectibles.launch-items.json` | 2558 |
-| `data/wiki/collectibles.launch-world2.json` | 1242 |
-| `data/wiki/factions.launch-cast.json` | 331 |
-| `data/wiki/gameplay.launch-detail.json` | 715 |
-| `data/wiki/gameplay.launch-systems.json` | 1366 |
-| `data/wiki/gameplay.launch-world.json` | 309 |
-| `data/wiki/gameplay.launch.json` | 325 |
-| `data/wiki/gameplay.previews.json` | 456 |
-| `data/wiki/gameplay.reviews.json` | 307 |
+| `data/wiki/characters.night-r5.json` | 254 |
+| `data/wiki/collectibles.json` | 233 |
+| `data/wiki/collectibles.launch-items.json` | 2658 |
+| `data/wiki/collectibles.launch-world2.json` | 1244 |
+| `data/wiki/collectibles.night-ign.json` | 15976 |
+| `data/wiki/collectibles.night-sites.json` | 81 |
+| `data/wiki/collectibles.night-world.json` | 9777 |
+| `data/wiki/collectibles.night-world2.json` | 3015 |
+| `data/wiki/factions.launch-cast.json` | 329 |
+| `data/wiki/gameplay.launch-detail.json` | 739 |
+| `data/wiki/gameplay.launch-systems.json` | 1434 |
+| `data/wiki/gameplay.launch-world.json` | 320 |
+| `data/wiki/gameplay.launch.json` | 323 |
+| `data/wiki/gameplay.night-ign.json` | 170 |
+| `data/wiki/gameplay.night-sites.json` | 85 |
+| `data/wiki/gameplay.previews.json` | 467 |
+| `data/wiki/gameplay.reviews.json` | 311 |
 | `data/wiki/locations.json` | 32 |
-| `data/wiki/locations.launch-places.json` | 3394 |
+| `data/wiki/locations.launch-places.json` | 3393 |
 | `data/wiki/locations.launch-world2.json` | 170 |
+| `data/wiki/locations.night-sites.json` | 32 |
+| `data/wiki/locations.night-world.json` | 37 |
 | `data/wiki/missions.json` | 238 |
-| `data/wiki/missions.launch-each.json` | 6072 |
+| `data/wiki/missions.launch-each.json` | 6173 |
 | `data/wiki/missions.launch-each2.json` | 75 |
-| `data/wiki/music.json` | 226 |
-| `data/wiki/music.launch-radio.json` | 537 |
+| `data/wiki/missions.night-ign.json` | 67 |
+| `data/wiki/music.json` | 234 |
+| `data/wiki/music.launch-radio.json` | 555 |
 | `data/wiki/music.launch-world.json` | 94 |
-| `data/wiki/sources.launch.json` | 3628 |
+| `data/wiki/sources.launch.json` | 5259 |
 | `data/wiki/sources.previews.json` | 9 |
-| `data/wiki/vehicles.community.json` | 27 |
-| `data/wiki/vehicles.json` | 220 |
-| `data/wiki/vehicles.launch-detail.json` | 97 |
-| `data/wiki/vehicles.launch-garage.json` | 5401 |
-| `data/wiki/vehicles.launch-garage2.json` | 2275 |
+| `data/wiki/vehicles.community.json` | 26 |
+| `data/wiki/vehicles.json` | 232 |
+| `data/wiki/vehicles.launch-detail.json` | 102 |
+| `data/wiki/vehicles.launch-garage.json` | 5460 |
+| `data/wiki/vehicles.launch-garage2.json` | 2309 |
 | `data/wiki/vehicles.launch-world2.json` | 75 |
+| `data/wiki/vehicles.night-ign.json` | 117 |
+| `data/wiki/vehicles.night-r5.json` | 169 |
+| `data/wiki/vehicles.night-sites.json` | 31 |
+| `data/wiki/vehicles.night-world.json` | 131 |
 | `data/wiki/weapons.community.json` | 25 |
 | `data/wiki/weapons.json` | 123 |
-| `data/wiki/weapons.launch-arsenal.json` | 2202 |
-| `data/wiki/weapons.launch-ign.json` | 3746 |
+| `data/wiki/weapons.launch-arsenal.json` | 2228 |
+| `data/wiki/weapons.launch-ign.json` | 4062 |
 | `data/wiki/weapons.launch-more.json` | 333 |
 | `data/wiki/wildlife.community.json` | 42 |
-| `data/wiki/wildlife.launch-more.json` | 559 |
-| `data/wiki/wildlife.launch-world.json` | 636 |
+| `data/wiki/wildlife.launch-more.json` | 557 |
+| `data/wiki/wildlife.launch-world.json` | 635 |
 | `data/wiki/wildlife.launch-world2.json` | 585 |
+| `data/wiki/wildlife.night-r5.json` | 76 |
+| `data/wiki/wildlife.night-sites.json` | 67 |
 | `data/wiki/wildlife.previews.json` | 23 |
 | `scripts/audit_media.py` | 162 |
 | `scripts/ci_pages.mjs` | 96 |

@@ -38,7 +38,8 @@
       "PowerPyx counts it as the 2nd main mission of the game.",
       "PowerPyx lists Jason's house in Key Lento as what the mission gives the player.",
       "PowerPyx notes an optional, missable cash pickup inside a trailer during the mission; taking it raises the Professional reputation.",
-      "GTABase's story list has it as mission 2, in Chapter 1."
+      "GTABase's story list has it as mission 2, in Chapter 1.",
+      "IGN's walkthrough (November 19, 2026) gives the reward as $100 to $220, with the total depending on how well the mission goes."
     ],
     "tags": [
       "chapter 1",
@@ -55,17 +56,18 @@
       "type": "Main mission",
       "unlocks": [
         "Jason's house in Key Lento"
-      ]
+      ],
+      "reward": "$100 to $220 depending on how well the mission goes (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-gone-fishing",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-gone-fishing"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-adef6246fdb0.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "gear-up",
@@ -75,7 +77,10 @@
       "PowerPyx counts it as the 3rd main mission of the game.",
       "PowerPyx gives \"Pick Up Another Gun\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Gone Fishing.",
-      "GTABase's story list has it as mission 3, in Chapter 1."
+      "GTABase's story list has it as mission 3, in Chapter 1.",
+      "IGN's walkthrough says the mission starts by walking into Chuck's Tackle & Shot, the Ammu-Nation in Key Lento, about 0.10 mi from Jason's home, and that the cashier is named Andrew.",
+      "Disagreement: IGN's table lists the reward as None, while the app's earlier sources describe the longarm bought during the mission as the reward.",
+      "IGN's walkthrough mentions the Hawk & Little Mediator tactical rifle at $450 there, with its first magazine upgrade at $55."
     ],
     "tags": [
       "chapter 1",
@@ -96,11 +101,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-gear-up-pick-up-another-gun",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-gear-up"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-62c7569536f1.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "lab-fees",
@@ -111,7 +116,9 @@
       "PowerPyx gives \"Collect Brian's Rent\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Gone Fishing.",
       "PowerPyx's page uses this mission to explain fences: stolen narcotics, jewelry and marked bills can be sold at green map icons, and more fences open with story progress.",
-      "GTABase's story list has it as mission 6, in Chapter 1."
+      "GTABase's story list has it as mission 6, in Chapter 1.",
+      "IGN's walkthrough says the job is to collect Brian's rent from the owner of the Moonstone Boutique on the south-west side of Key Lento.",
+      "Disagreement: IGN's table lists the reward as None, while the app's earlier sources give $600."
     ],
     "tags": [
       "chapter 1",
@@ -132,11 +139,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-lab-fees-collect-brians-rent",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-lab-fees"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-076e99fa47a3.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "just-a-scratch",
@@ -147,7 +154,8 @@
       "PowerPyx gives \"Fix Your Car\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Gone Fishing.",
       "PowerPyx notes that registering new personal vehicles is not possible yet and opens in Chapter 2 through story progress.",
-      "GTABase's story list has it as mission 7, in Chapter 1."
+      "GTABase's story list has it as mission 7, in Chapter 1.",
+      "IGN's walkthrough says the mission begins with a text from Joey and takes place at Joey's mod shop, and lists the reward as a free repair and repaint for Jason's Vapid '70 Ganado truck."
     ],
     "tags": [
       "chapter 1",
@@ -168,11 +176,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-just-a-scratch-fix-your-car",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-just-a-scratch"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-1de6a85f1e4c.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "unwanted-attention",
@@ -182,7 +190,9 @@
       "PowerPyx counts it as the 6th main mission of the game.",
       "PowerPyx gives \"Go See Cal\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Gone Fishing.",
-      "GTABase's story list has it as mission 4, in Chapter 1."
+      "GTABase's story list has it as mission 4, in Chapter 1.",
+      "IGN's walkthrough lists the reward as $200, plus $150 picked up during the mission.",
+      "Disagreement: the app's earlier sources give $150 and the police radio scanner; IGN's table does not mention the scanner."
     ],
     "tags": [
       "chapter 1",
@@ -206,11 +216,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-unwanted-attention-go-see-cal",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-unwanted-attention"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-2d00adf76489.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "pipework",
@@ -220,7 +230,8 @@
       "PowerPyx counts it as the 7th main mission of the game.",
       "PowerPyx gives \"Collect Mandy's Rent\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists the Macizo Cigar as an item that has to be picked up from the floor during the mission.",
-      "GTABase's story list has it as mission 5, in Chapter 1."
+      "GTABase's story list has it as mission 5, in Chapter 1.",
+      "IGN's walkthrough says the mission starts outside Mandy's blue house, a short way down the street from Jason's, and lists the reward as three Macizo Cigars, where the app's earlier source mentions one cigar picked up during the mission."
     ],
     "tags": [
       "chapter 1",
@@ -241,11 +252,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-pipework-collect-mandys-rent",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-pipework"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-c1bc583f63c8.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "hey-arnold",
@@ -255,7 +266,8 @@
       "PowerPyx counts it as the 8th main mission of the game.",
       "PowerPyx gives \"Meet Brian\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Pipework.",
-      "GTABase's story list has it as mission 10, in Chapter 1."
+      "GTABase's story list has it as mission 10, in Chapter 1.",
+      "IGN's walkthrough says Brian asks Jason to meet him at the Crastenburg Hotel, and lists the reward as $1,200, which includes payment for the earlier tasks."
     ],
     "tags": [
       "chapter 1",
@@ -269,17 +281,18 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 9,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "$1,200, including payment for Brian's earlier tasks (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-hey-arnold-meet-brian",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-hey-arnold"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-f61120549538.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "island-dreams",
@@ -289,7 +302,8 @@
       "PowerPyx counts it as the 9th main mission of the game.",
       "PowerPyx gives \"Work for Kenton\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Hey Arnold!.",
-      "GTABase's story list has it as mission 11, in Chapter 1."
+      "GTABase's story list has it as mission 11, in Chapter 1.",
+      "IGN's walkthrough agrees with the $400 reward and says the job is picked up at Kenton's place in Key Lento."
     ],
     "tags": [
       "chapter 1",
@@ -310,11 +324,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-island-dreams-work-for-kenton",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-island-dreams"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-d5badd027eda.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "feng-shui",
@@ -324,7 +338,8 @@
       "PowerPyx counts it as the 10th main mission of the game.",
       "PowerPyx gives \"Meet Cal\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Island Dreams.",
-      "GTABase's story list has it as mission 12, in Chapter 1."
+      "GTABase's story list has it as mission 12, in Chapter 1.",
+      "IGN's walkthrough says Cal is waiting at Jason's place with a new JoySystem, and lists the JoySystem as unlocked by the mission."
     ],
     "tags": [
       "chapter 1",
@@ -338,17 +353,21 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 11,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "JoySystem unlocked (IGN)",
+      "unlocks": [
+        "JoySystem games console at Jason's home"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-feng-shui-meet-cal",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-feng-shui"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-2d819e9ea528.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "pick-up-groceries",
@@ -529,7 +548,8 @@
       "PowerPyx counts it as the 11th main mission of the game.",
       "PowerPyx gives \"Lucia's Release\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Feng Shui.",
-      "GTABase's story list has it as mission 13, in Chapter 1."
+      "GTABase's story list has it as mission 13, in Chapter 1.",
+      "IGN's walkthrough says the objective is to drive to Hamlet Correctional to pick Lucia up, and lists the reward as possible relationship boosts with her."
     ],
     "tags": [
       "chapter 1",
@@ -543,15 +563,17 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 17,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "Possible relationship boosts with Lucia (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-coming-home-lucias-release",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-coming-home"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -562,7 +584,9 @@
       "PowerPyx counts it as the 12th main mission of the game.",
       "PowerPyx gives \"Donnie's Drop\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Coming Home.",
-      "GTABase's story list has it as mission 14, in Chapter 1."
+      "GTABase's story list has it as mission 14, in Chapter 1.",
+      "IGN's walkthrough says the lost package is signalling near a fishing spot in Hamlet, and lists the reward as Donnie becoming available as a fence.",
+      "Disagreement: the app's earlier sources give a $600 reward; IGN's table names no cash amount."
     ],
     "tags": [
       "chapter 1",
@@ -583,11 +607,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-clean-up-after-donnie-donnies-drop",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-clean-up-after-donnie"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-c589839ac75d.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "buck-me",
@@ -598,7 +622,8 @@
       "PowerPyx gives \"Set Up Bank Account\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Coming Home.",
       "PowerPyx explains that money moved into Family Savings can never be withdrawn or lost, and that each savings goal unlocks price-reduction perks.",
-      "GTABase's story list has it as mission 15, in Chapter 1."
+      "GTABase's story list has it as mission 15, in Chapter 1.",
+      "IGN's walkthrough says Lucia asks Jason to meet her at the nearby Fleeca bank, and lists a possible relationship buff with Lucia as the reward, depending on the choice made inside the bank."
     ],
     "tags": [
       "chapter 1",
@@ -622,11 +647,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-buck-me-set-up-bank-account",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-buck-me"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-ade7fc8053c2.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "down-to-earth",
@@ -637,7 +662,8 @@
       "PowerPyx gives \"Meet Brian\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Clean Up After Donnie and Buck Me.",
       "PowerPyx says the mission unlocks the first of the game's 18 Meditation Spots.",
-      "GTABase's story list has it as mission 16, in Chapter 1."
+      "GTABase's story list has it as mission 16, in Chapter 1.",
+      "IGN's walkthrough says Brian wants Jason at the marina, and lists the reward as $500 plus $800 for selling the cocaine to Donnie at the end."
     ],
     "tags": [
       "chapter 1",
@@ -654,17 +680,18 @@
       "type": "Main mission",
       "unlocks": [
         "Meditation (the first of 18 Meditation Spots)"
-      ]
+      ],
+      "reward": "$500, plus $800 for selling the cocaine to Donnie (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-down-to-earth",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-down-to-earth"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-0d243f4e8684.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "deposit-cash-into-buckme",
@@ -743,7 +770,9 @@
     "body": [
       "PowerPyx labels it an optional mission.",
       "PowerPyx lists it as opening after Down to Earth.",
-      "GTABase's story list has it as an optional mission in Chapter 1."
+      "GTABase's story list has it as an optional mission in Chapter 1.",
+      "IGN's walkthrough says Cal offers it by text in Chapter 1, that it is missable, and that it has four search areas; selling the packages pays $2,720 at Brian's Lockup or $3,400 at Donnie's Trailer.",
+      "IGN recommends finishing it before Clear Skies, since afterwards only one place is left to sell to, and it pays less."
     ],
     "tags": [
       "chapter 1",
@@ -764,9 +793,10 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-find-the-lost-drugs",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-find-the-lost-drugs"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -777,7 +807,8 @@
       "PowerPyx counts it as the 17th main mission of the game.",
       "PowerPyx gives \"Meet Mattia & Kat\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Down to Earth.",
-      "GTABase's story list has it as mission 19, in Chapter 1."
+      "GTABase's story list has it as mission 19, in Chapter 1.",
+      "IGN's walkthrough says the mission starts by meeting Mattia and Kat at The Rusty Anchor, where the first drink is free, and lists a missable pair of sunglasses for Lucia as the reward."
     ],
     "tags": [
       "chapter 1",
@@ -791,15 +822,17 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 24,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "Sunglasses for Lucia, missable (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-day-release-meet-mattia-kat",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-day-release"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -845,7 +878,8 @@
       "PowerPyx counts it as the 18th main mission of the game.",
       "PowerPyx gives \"Join Donnie On A Job\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Down to Earth.",
-      "GTABase's story list has it as mission 20, in Chapter 1."
+      "GTABase's story list has it as mission 20, in Chapter 1.",
+      "IGN's walkthrough says Brian has the job ready in Southwind, and lists the reward as $600 from Brian through BuckMe and $800 from Donnie left in Jason's mailbox."
     ],
     "tags": [
       "chapter 1",
@@ -859,17 +893,18 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 26,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "$600 from Brian through BuckMe and $800 from Donnie left in the mailbox (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-clear-skies-join-donnie-on-a-job",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-clear-skies"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-f9606dde1aac.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "building-a-life",
@@ -878,7 +913,8 @@
     "body": [
       "PowerPyx counts it as the 19th main mission of the game.",
       "PowerPyx lists it as opening after Clear Skies.",
-      "GTABase's story list has it as mission 21, in Chapter 1."
+      "GTABase's story list has it as mission 21, in Chapter 1.",
+      "IGN's walkthrough describes it as a short mission assembling a coffee table with Lucia and lists no reward."
     ],
     "tags": [
       "chapter 1",
@@ -892,17 +928,18 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 27,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-building-a-life",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-building-a-life"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-c2e5bd1eb66d.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "swamped",
@@ -911,7 +948,8 @@
     "body": [
       "PowerPyx counts it as the 20th main mission of the game.",
       "PowerPyx gives \"Meet Brian\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
-      "GTABase's story list has it as mission 22, in Chapter 1."
+      "GTABase's story list has it as mission 22, in Chapter 1.",
+      "IGN's walkthrough says Brian asks to meet at the marina and lists the reward as $1,000."
     ],
     "tags": [
       "chapter 1",
@@ -925,17 +963,18 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 28,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "$1,000 (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-swamped",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-swamped"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-d90c6c07b9bc.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "don-gone",
@@ -946,7 +985,9 @@
       "PowerPyx gives \"Head to Donnie's Trailer\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Swamped.",
       "PowerPyx flags a missable unique weapon variant, Donnie's H&L .38, which has to be taken from a car trunk during the mission.",
-      "GTABase's story list has it as mission 23, in Chapter 1."
+      "GTABase's story list has it as mission 23, in Chapter 1.",
+      "IGN's walkthrough lists the reward as $200, Donnie's Aviators (missable) and the Donnie's H&L .38 revolver (missable); the app's earlier source mentions only the revolver.",
+      "IGN says lowering the flag at Donnie's trailer is optional and earns Professional points on the Criminal Profile."
     ],
     "tags": [
       "chapter 1",
@@ -968,11 +1009,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-don-gone-head-to-donnies-trailer",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-don-gone"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-6b2c80a18441.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "donnies-lost-drugs",
@@ -1017,7 +1058,8 @@
       "PowerPyx gives \"Talk to Lucia\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Don Gone and Donnie's Lost Drugs.",
       "PowerPyx marks this as the Chapter 1 point of no return: it advises keeping a separate manual save and putting at least $5,000 into Family Savings first, because pocket cash carried into the following missions is lost and Chapter 1 free roam ends.",
-      "GTABase's story list has it as mission 25, in Chapter 1."
+      "GTABase's story list has it as mission 25, in Chapter 1.",
+      "IGN's walkthrough lists the fishing tutorial as what the mission gives, with Jason and Lucia going fishing with Cal."
     ],
     "tags": [
       "chapter 1",
@@ -1031,17 +1073,18 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 31,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "Fishing tutorial (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-recalibration-talk-to-lucia",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-recalibration"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-00f0dcba6801.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "tourist-trap",
@@ -1053,7 +1096,8 @@
       "PowerPyx lists it as opening after Recalibration.",
       "PowerPyx repeats its Chapter 1 point-of-no-return warning here: make a separate manual save before starting and move cash into Family Savings, since pocket cash is lost.",
       "PowerPyx says Shirley's two optional missions can no longer be done once this mission starts.",
-      "GTABase's story list has it as mission 26, in Chapter 1."
+      "GTABase's story list has it as mission 26, in Chapter 1.",
+      "IGN's walkthrough lists no reward and suggests finishing any leftover Key Lento tasks, such as Donnie's lost drugs or fixing up the house, before starting it."
     ],
     "tags": [
       "chapter 1",
@@ -1067,17 +1111,18 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 32,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-tourist-trap-take-up-mattias-offer",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-tourist-trap"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-ec6ce8857ba2.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "home-sweet-home",
@@ -1086,7 +1131,8 @@
     "body": [
       "PowerPyx counts it as the 24th main mission of the game.",
       "PowerPyx lists it as opening after Tourist Trap.",
-      "GTABase's story list has it as mission 27, in Chapter 1."
+      "GTABase's story list has it as mission 27, in Chapter 1.",
+      "IGN's walkthrough says it begins with Lucia at the house collecting Jason's belongings, and lists a missable item, Andy's Jacket, as the reward."
     ],
     "tags": [
       "chapter 1",
@@ -1100,17 +1146,18 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 1",
       "order": 33,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "Andy's Jacket, missable (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-home-sweet-home",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-home-sweet-home"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-8b44be849316.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "discharge-time",
@@ -1119,7 +1166,8 @@
     "body": [
       "PowerPyx counts it as the 25th main mission of the game.",
       "PowerPyx lists it as opening after Home Sweet Home.",
-      "GTABase's story list has it as mission 28, in Chapter 1."
+      "GTABase's story list has it as mission 28, in Chapter 1.",
+      "IGN's walkthrough lists no reward for the mission."
     ],
     "tags": [
       "chapter 1",
@@ -1133,17 +1181,18 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 1",
       "order": 34,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-discharge-time",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-discharge-time"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-3b7c9b56e65d.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "whats-in-the-bag",
@@ -1153,7 +1202,9 @@
       "PowerPyx counts it as the 26th main mission of the game.",
       "PowerPyx lists it as opening after Discharge Time.",
       "PowerPyx ties the Paradise Lost trophy (finishing Chapter 1) to this mission and says Lucia becomes playable in the open world.",
-      "GTABase's story list has it as mission 29, in Chapter 2."
+      "GTABase's story list has it as mission 29, in Chapter 2.",
+      "IGN's walkthrough calls it a very short opening to Chapter 2, mostly a cutscene with two short interactions, and its table lists the reward as None; the app's earlier source ties the Paradise Lost trophy to it.",
+      "IGN advises seeing Linda, the motel manager, before the other two early objectives, since otherwise she adds 20% to the rent owed instead of 10%."
     ],
     "tags": [
       "chapter 2",
@@ -1178,9 +1229,10 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-whats-in-the-bag",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-whats-in-the-bag"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1192,7 +1244,8 @@
       "PowerPyx gives \"Play Nurse\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after What's in the Bag?.",
       "PowerPyx says it completes by itself as the other Chapter 2 missions are done.",
-      "GTABase's story list has it as mission 31, in Chapter 2."
+      "GTABase's story list has it as mission 31, in Chapter 2.",
+      "IGN covers it under the map name Play Nurse and lists no reward, while the app's earlier source lists a relationship increase."
     ],
     "tags": [
       "chapter 2",
@@ -1213,11 +1266,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-take-care-of-jason",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-take-care-of-jason"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-921b5d697cf3.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "overnight-charges",
@@ -1227,7 +1280,8 @@
       "PowerPyx counts it as the 28th main mission of the game.",
       "PowerPyx gives \"See Linda, The Manager\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after What's in the Bag?.",
-      "GTABase's story list has it as mission 32, in Chapter 2."
+      "GTABase's story list has it as mission 32, in Chapter 2.",
+      "IGN's walkthrough says the mission is started at the motel's front desk and lists no reward; a flyer by the lobby door marks the optional McKittrick Farm mission on the map."
     ],
     "tags": [
       "chapter 2",
@@ -1241,17 +1295,18 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 2",
       "order": 3,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-overnight-charges-see-linda-the-manager",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-overnight-charges"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-22228f38f3a9.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "just-moved-in",
@@ -1260,7 +1315,8 @@
     "body": [
       "PowerPyx counts it as the 29th main mission of the game.",
       "PowerPyx lists it as opening after What's in the Bag?.",
-      "GTABase's story list has it as mission 33, in Chapter 2."
+      "GTABase's story list has it as mission 33, in Chapter 2.",
+      "IGN's walkthrough says Lucia picks up supplies at the Alpha convenience store across the street from the Starlet Motel, and suggests talking to Linda first to save money."
     ],
     "tags": [
       "chapter 2",
@@ -1281,11 +1337,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-just-moved-in",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-just-moved-in"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-a298e7ab0d62.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "girls-trip",
@@ -1295,7 +1351,9 @@
       "PowerPyx counts it as the 30th main mission of the game.",
       "PowerPyx gives \"Find Painkillers\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Overnight Charges and Just Moved In.",
-      "GTABase's story list has it as mission 34, in Chapter 2."
+      "GTABase's story list has it as mission 34, in Chapter 2.",
+      "IGN's walkthrough says it begins after knocking on Vicki's door in Room 10.",
+      "Disagreement: IGN's table lists the reward as None, while the app's earlier source mentions $50 repaid through BuckMe."
     ],
     "tags": [
       "chapter 2",
@@ -1316,9 +1374,10 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-girls-trip-find-painkillers",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-girls-trip"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1328,7 +1387,8 @@
     "body": [
       "PowerPyx labels it an optional mission.",
       "PowerPyx lists it as opening after Girl's Trip.",
-      "GTABase's story list has it as an optional mission in Chapter 2."
+      "GTABase's story list has it as an optional mission in Chapter 2.",
+      "IGN's walkthrough says the nearby gun shop is Gellhorn Outfitters, lists the reward as None, and recommends the Scorpio Nipper .38 at $495 since better guns cost upwards of $1,000."
     ],
     "tags": [
       "chapter 2",
@@ -1349,11 +1409,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-pick-up-a-gun",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-pick-up-a-gun"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-4e3050dabd65.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "moses",
@@ -1364,7 +1424,9 @@
       "PowerPyx gives \"Take A Vehicle to Moses\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Girl's Trip.",
       "PowerPyx notes that Moses does not take cars stolen close to his garage or cars with Standard or Advanced Trackers.",
-      "GTABase's story list has it as mission 35, in Chapter 2."
+      "GTABase's story list has it as mission 35, in Chapter 2.",
+      "IGN's walkthrough adds two rewards to the ones already recorded: an upgraded WAiNK scanner, and Moses becoming available as a fence.",
+      "IGN says the car taken to Moses has to be a low-key vehicle, not a supercar or anything too modern."
     ],
     "tags": [
       "chapter 2",
@@ -1391,9 +1453,10 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-moses-take-a-vehicle-to-moses",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-moses"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1403,7 +1466,8 @@
     "body": [
       "PowerPyx counts it as the 32nd main mission of the game.",
       "PowerPyx lists it as opening after Girl's Trip.",
-      "GTABase's story list has it as mission 36, in Chapter 2."
+      "GTABase's story list has it as mission 36, in Chapter 2.",
+      "IGN's walkthrough says the objective is a visit to the Pearl House Hair Salon, lists no reward, and suggests having about $150 to spend."
     ],
     "tags": [
       "chapter 2",
@@ -1417,15 +1481,17 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 2",
       "order": 8,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-new-look",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-new-look"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1435,7 +1501,8 @@
     "body": [
       "PowerPyx counts it as the 33rd main mission of the game.",
       "PowerPyx lists it as opening after Girl's Trip.",
-      "GTABase's story list has it as mission 37, in Chapter 2."
+      "GTABase's story list has it as mission 37, in Chapter 2.",
+      "IGN's walkthrough says buying a top and trousers or shorts from any shop completes it, recommends Bargain World as the cheapest, and lists no reward."
     ],
     "tags": [
       "chapter 2",
@@ -1449,15 +1516,17 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 2",
       "order": 9,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-how-do-i-look",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-how-do-i-look"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1502,7 +1571,8 @@
       "PowerPyx counts it as the 35th main mission of the game.",
       "PowerPyx gives \"Move the Ambulance\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after What's in the Bag?.",
-      "GTABase's story list has it as mission 30, in Chapter 2."
+      "GTABase's story list has it as mission 30, in Chapter 2.",
+      "IGN's walkthrough lists no reward and says the mission is missable: if the ambulance is not moved before Slam Dunk starts, the police find it and the objective goes away."
     ],
     "tags": [
       "chapter 2",
@@ -1516,17 +1586,18 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 2",
       "order": 11,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-ambulance-chaser-move-the-ambulance",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-ambulance-chaser"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-cee0aa84f853.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "behind-on-payments",
@@ -1535,7 +1606,8 @@
     "body": [
       "PowerPyx counts it as the 36th main mission of the game.",
       "PowerPyx lists it as opening after Overnight Charges.",
-      "GTABase's story list has it as mission 40, in Chapter 2."
+      "GTABase's story list has it as mission 40, in Chapter 2.",
+      "IGN's walkthrough lists the return of Lucia's necklace as the reward, and says the base rent of $900 or more depends on how the opening Chapter 2 missions were played."
     ],
     "tags": [
       "chapter 2",
@@ -1549,17 +1621,18 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 2",
       "order": 13,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "Lucia's necklace returned (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-behind-on-payments",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-behind-on-payments"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-f104cd98542e.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "slam-dunk",
@@ -1569,7 +1642,8 @@
       "PowerPyx counts it as the 37th main mission of the game.",
       "PowerPyx gives \"Find Painkillers\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx says Dunk becomes a fence and marks two robbery locations on the map in a call the next day.",
-      "GTABase's story list has it as mission 41, in Chapter 2."
+      "GTABase's story list has it as mission 41, in Chapter 2.",
+      "IGN's walkthrough agrees that the reward is $1,700 from Dunk and that Dunk becomes a fence, and says the mission starts at Dunk's trailer."
     ],
     "tags": [
       "chapter 2",
@@ -1594,11 +1668,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-slam-dunk",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-slam-dunk"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-6163cad4bd76.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "daily-driver",
@@ -1609,7 +1683,8 @@
       "PowerPyx gives \"Steal the Crawler for Moses\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Moses.",
       "PowerPyx says the Port Gellhorn Garage is gifted by text shortly afterwards and that the Vice City Real Estate app for buying garages is unlocked.",
-      "GTABase's story list has it as mission 39, in Chapter 2."
+      "GTABase's story list has it as mission 39, in Chapter 2.",
+      "IGN's walkthrough says Moses wants an '82 Canis Crawler parked by the old Trader's Union building, that he pays according to the car's condition, and that the Crawler is worth $1,375."
     ],
     "tags": [
       "chapter 2",
@@ -1634,11 +1709,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-daily-driver-steal-the-crawler-for-moses",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-daily-driver"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-2e28208b7414.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "breakfast-run",
@@ -1649,7 +1724,9 @@
       "PowerPyx gives \"Check on Jason\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Slam Dunk.",
       "PowerPyx ties the Trust trophy to this mission and says it runs straight into Coffee Break.",
-      "GTABase's story list has it as mission 42, in Chapter 2."
+      "GTABase's story list has it as mission 42, in Chapter 2.",
+      "IGN's walkthrough lists the reward as money depending on how the robberies go, character switching, and Jason's Declasse Tulip car; the first stop is Hank's Waffles on the north end of Port Gellhorn.",
+      "Disagreement: IGN ties character switching to Breakfast Run, while the app's earlier source lists free switching as an unlock of Coffee Break."
     ],
     "tags": [
       "chapter 2",
@@ -1674,11 +1751,11 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-breakfast-run-check-on-jason",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-breakfast-run"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-9097d84094fa.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "coffee-break",
@@ -1688,7 +1765,9 @@
       "PowerPyx counts it as the 40th main mission of the game.",
       "PowerPyx lists it as opening after Breakfast Run.",
       "PowerPyx says free switching between the two leads unlocks here, done by holding D-Pad Right.",
-      "GTABase's story list has it as mission 43, in Chapter 2."
+      "GTABase's story list has it as mission 43, in Chapter 2.",
+      "IGN's walkthrough lists a BuckMe Silver Checking Account as the reward; the mission's cutscene starts after buying Lucia a $2 coffee from the motel kitchen machine.",
+      "IGN says Coffee Break is where the player picks which of three optional jobs Lucia does first, one of them hitting the bowling alley."
     ],
     "tags": [
       "chapter 2",
@@ -1704,17 +1783,18 @@
       "type": "Main mission",
       "unlocks": [
         "Free switching between Jason and Lucia"
-      ]
+      ],
+      "reward": "BuckMe Silver Checking Account (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-coffee-break",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-coffee-break"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-2603562dbce3.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "hit-avery-pawn",
@@ -1859,7 +1939,8 @@
       "PowerPyx counts it as the 42nd main mission of the game.",
       "PowerPyx gives \"Rob Vicki's Boss\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Coffee Break.",
-      "GTABase's story list has it as mission 45, in Chapter 2."
+      "GTABase's story list has it as mission 45, in Chapter 2.",
+      "IGN's walkthrough says Vicki calls a few in-game hours after Coffee Break and the mission starts at Delights; it lists at least $1,800 in cash during the mission plus $10,000 from Vicki."
     ],
     "tags": [
       "chapter 2",
@@ -1879,9 +1960,10 @@
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-afternoon-delight-rob-vickis-boss",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-afternoon-delight"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1892,7 +1974,8 @@
       "PowerPyx counts it as the 43rd main mission of the game.",
       "PowerPyx gives \"Move to Vice City\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx says it needs every Chapter 2 main mission done and at least $15,000, and that starting it is a point of no return that ends Chapter 2.",
-      "GTABase's story list has it as mission 46, in Chapter 2."
+      "GTABase's story list has it as mission 46, in Chapter 2.",
+      "IGN's walkthrough lists no reward and says the mission unlocks after Afternoon Delight; having $15,000 in the BuckMe checking account makes it unlock sooner."
     ],
     "tags": [
       "chapter 2",
@@ -1905,17 +1988,18 @@
       "protagonist": "Both",
       "chapter": "Chapter 2",
       "order": 27,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-checking-out-move-to-vice-city",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-checking-out"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-c5ab7046d3c5.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "welcome-to-vice-city",
@@ -2031,7 +2115,8 @@
       "PowerPyx counts it as the 47th main mission of the game.",
       "PowerPyx gives \"Catch Up With Mia\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Dealer's Choice.",
-      "GTABase's story list has it as mission 51, in Chapter 3."
+      "GTABase's story list has it as mission 51, in Chapter 3.",
+      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none."
     ],
     "tags": [
       "chapter 3",
@@ -2045,7 +2130,8 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 3",
       "order": 4,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2053,7 +2139,7 @@
       "powerpyx-mami-knows-best-catch-up-with-mia",
       "gtabase-missions"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-507c082bc617.jpg"
   },
@@ -2256,8 +2342,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-9be8ba9533fd.jpg"
+    "spoiler": true
   },
   {
     "slug": "yasmanis-jewelry-jobs",
@@ -2376,7 +2461,8 @@
       "PowerPyx counts it as the 56th main mission of the game.",
       "PowerPyx gives \"Watch the Real Dimez\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Car Service.",
-      "GTABase's story list has it as mission 59, in Chapter 3."
+      "GTABase's story list has it as mission 59, in Chapter 3.",
+      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none."
     ],
     "tags": [
       "chapter 3",
@@ -2389,7 +2475,8 @@
       "protagonist": "Either",
       "chapter": "Chapter 3",
       "order": 17,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2397,9 +2484,8 @@
       "powerpyx-top-billing-watch-the-real-dimez",
       "gtabase-missions"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-29de6582249e.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "first-impressions",
@@ -2555,7 +2641,8 @@
       "PowerPyx counts it as the 61st main mission of the game.",
       "PowerPyx gives \"Meet Dre'Quan\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Credit Check.",
-      "GTABase's story list has it as mission 70, in Chapter 3."
+      "GTABase's story list has it as mission 70, in Chapter 3.",
+      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none."
     ],
     "tags": [
       "chapter 3",
@@ -2569,7 +2656,8 @@
       "protagonist": "Jason",
       "chapter": "Chapter 3",
       "order": 22,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2577,7 +2665,7 @@
       "powerpyx-ride-or-die-meet-drequan",
       "gtabase-missions"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-9322a29c838f.jpg"
   },
@@ -2620,7 +2708,8 @@
       "PowerPyx gives \"Scope Out the Bank\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx files it under its \"The Cartel Heist\" group of missions.",
       "PowerPyx lists it as opening after Credit Check.",
-      "GTABase's story list has it as mission 67, in Chapter 3."
+      "GTABase's story list has it as mission 67, in Chapter 3.",
+      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none."
     ],
     "tags": [
       "chapter 3",
@@ -2634,7 +2723,8 @@
       "protagonist": "Either",
       "chapter": "Chapter 3",
       "order": 25,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2642,7 +2732,7 @@
       "powerpyx-sinfrontera-national-bank-scope-out-the-bank",
       "gtabase-missions"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-26134e6ab640.jpg"
   },
@@ -2654,7 +2744,8 @@
       "PowerPyx counts it as the 64th main mission of the game.",
       "PowerPyx files it under its \"The Cartel Heist\" group of missions.",
       "PowerPyx lists it as opening after Sinfrontera National Bank.",
-      "GTABase's story list has it as mission 68, in Chapter 3."
+      "GTABase's story list has it as mission 68, in Chapter 3.",
+      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none."
     ],
     "tags": [
       "chapter 3",
@@ -2668,7 +2759,8 @@
       "protagonist": "Either",
       "chapter": "Chapter 3",
       "order": 26,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2676,7 +2768,7 @@
       "powerpyx-security-expert",
       "gtabase-missions"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-68f385f15732.jpg"
   },
@@ -2687,7 +2779,8 @@
     "body": [
       "PowerPyx counts it as the 65th main mission of the game.",
       "PowerPyx lists it as opening after Boobie Time and First Impressions.",
-      "GTABase's story list has it as mission 62, in Chapter 3."
+      "GTABase's story list has it as mission 62, in Chapter 3.",
+      "PowerPyx's walkthrough page (November 18, 2026), re-read on November 19, states the reward as none."
     ],
     "tags": [
       "chapter 3",
@@ -2700,7 +2793,8 @@
       "protagonist": "Either",
       "chapter": "Chapter 3",
       "order": 27,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "None (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2708,7 +2802,7 @@
       "powerpyx-caught-slipping",
       "gtabase-missions"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-3231aa1d1431.jpg"
   },
@@ -2767,7 +2861,8 @@
       "protagonist": "Either",
       "chapter": "Chapter 3",
       "order": 29,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "How it goes decides how many explosives are available in Hidden Charges (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2775,7 +2870,7 @@
       "powerpyx-company-property",
       "gtabase-missions"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-5aeba2a6220a.jpg"
   },
@@ -2908,7 +3003,8 @@
       "protagonist": "Either",
       "chapter": "Chapter 3",
       "order": 35,
-      "type": "Main mission"
+      "type": "Main mission",
+      "reward": "More time allowed in The Cartel Heist, depending on how many bombs are placed (PowerPyx)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2916,9 +3012,8 @@
       "powerpyx-hidden-charges",
       "gtabase-missions"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-4e8f45ad3715.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "bricked-up",
@@ -3025,8 +3120,7 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-0dba80075691.jpg"
+    "spoiler": true
   },
   {
     "slug": "ocean-beach",
@@ -4701,7 +4795,8 @@
       "PowerPyx says it is missable: it becomes unavailable for good once the Chapter 1 mission Tourist Trap starts, and it is not needed for any trophy or for completion.",
       "PowerPyx says Shirley first appears once Pipework is available and calls out to Jason near his house.",
       "PowerPyx's mission page says Jason starts it; the site's lists carry no character tag for it.",
-      "GTABase's story list includes it as an optional mission in Chapter 1, marked missable."
+      "GTABase's story list includes it as an optional mission in Chapter 1, marked missable.",
+      "IGN's walkthrough says Shirley, Jason's neighbour on Peach Palm Dr in Key Lento, asks for a bottle of Salty Squid rum after the Pipework mission, and lists a positive Criminal Profile increase as the reward."
     ],
     "tags": [
       "chapter 1",
@@ -4726,11 +4821,11 @@
       "powerpyx-strangers-freaks",
       "powerpyx-walkthrough",
       "powerpyx-get-shirleys-rum",
-      "gtabase-missions"
+      "gtabase-missions",
+      "ign-shirley-get-shirleys-rum"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-6c72f4ac052e.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "shirley-steal-the-scooter",
@@ -4780,7 +4875,8 @@
       "Mission 1 of 3 in PowerPyx's list for Kirk.",
       "PowerPyx says Kirk's questline counts toward the Strangers & Freaks trophy, which needs eight questlines.",
       "PowerPyx gives \"Skunk Apeology 101\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
-      "PowerPyx says it starts by reading one of Kirk's flyers and then calling him from the phone contacts, and that it can only be played at night."
+      "PowerPyx says it starts by reading one of Kirk's flyers and then calling him from the phone contacts, and that it can only be played at night.",
+      "Polygon says Kirk's Skunk Ape flyers hang in shop windows, with one at Shrimp & Save in Key Lento, and that reading one saves his number so he can be called from Contacts."
     ],
     "tags": [
       "chapter 1",
@@ -4801,9 +4897,10 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-strangers-freaks",
-      "powerpyx-search-for-the-skunk-ape"
+      "powerpyx-search-for-the-skunk-ape",
+      "pg-tree-effigies"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-7bd8dc6ea5d4.jpg"
   },
@@ -4814,7 +4911,9 @@
     "body": [
       "Mission 2 of 3 in PowerPyx's list for Kirk.",
       "PowerPyx says Kirk's questline counts toward the Strangers & Freaks trophy, which needs eight questlines.",
-      "PowerPyx says it is marked on the map by a text from Kirk some time after his first mission."
+      "PowerPyx says it is marked on the map by a text from Kirk some time after his first mission.",
+      "Polygon says three glowing effigies made of branches have to be found in Pelican Valley, and suggests driving to Thorpe Adventures in the north-west to swap the car for an airboat.",
+      "Polygon places the effigies just south of Thorpe Adventures, in a lone patch of woodland between waterways, and at the southern end of a long, narrow strip of trees; after the third, Kirk calls back for the next hunt."
     ],
     "tags": [
       "chapter 1",
@@ -4834,11 +4933,11 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-strangers-freaks",
-      "powerpyx-search-for-tree-effigies-locations"
+      "powerpyx-search-for-tree-effigies-locations",
+      "pg-tree-effigies"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-3eab6e30d62e.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "kirk-help-kirk-find-mr-mangrove",
@@ -4850,7 +4949,9 @@
       "PowerPyx gives \"Advanced Skunk Apeonomics\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx's side-mission list files Kirk's questline under Chapter 1, the chapter in which it can first be started; the mission page gives Chapter 2 for this mission.",
       "PowerPyx says it is for Lucia only and at night only, so it cannot be done before Chapter 2 even though the questline starts in Chapter 1.",
-      "PowerPyx says every outcome completes the questline and counts toward the Strangers & Freaks trophy."
+      "PowerPyx says every outcome completes the questline and counts toward the Strangers & Freaks trophy.",
+      "IGN covers Kirk's whole strand as one mission, Skunk Apeology 101, started from a Skunk Ape poster (the earliest one is inside the Rusty Anchor bar in Key Lento), with Kirk met in Pelican Bay, Mariana County.",
+      "IGN gives the reward as $30,000 and the Mister Mangrove Laird 350 weapon variant; the app's earlier source gives $10,000 depending on the final choice, so the cash amounts disagree."
     ],
     "tags": [
       "chapter 2",
@@ -4872,11 +4973,11 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-strangers-freaks",
-      "powerpyx-help-kirk-find-mr-mangrove"
+      "powerpyx-help-kirk-find-mr-mangrove",
+      "ign-kirk-help-kirk-find-mr-mangrove"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-72d0f347b305.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "kyle-check-out-mckittrick-farm",
@@ -4885,7 +4986,9 @@
     "body": [
       "Mission 1 of 3 in PowerPyx's list for Kyle.",
       "PowerPyx says Kyle's questline counts toward the Strangers & Freaks trophy, which needs eight questlines.",
-      "PowerPyx's walkthrough hub also places it as an optional mission at position 12 of its Chapter 2 list."
+      "PowerPyx's walkthrough hub also places it as an optional mission at position 12 of its Chapter 2 list.",
+      "IGN's walkthrough says the farm is about a mile east of the Starlet Motel, marked by inspecting a flyer next to the motel office door, and is available from early Chapter 2.",
+      "Disagreement: IGN gives the reward as the Western Searing Zombie Robber, a Standout Vehicle, while the app's earlier source gives $400."
     ],
     "tags": [
       "chapter 2",
@@ -4907,11 +5010,11 @@
     "sources": [
       "powerpyx-strangers-freaks",
       "powerpyx-walkthrough",
-      "powerpyx-check-out-mckittrick-farm"
+      "powerpyx-check-out-mckittrick-farm",
+      "ign-kyle-check-out-mckittrick-farm"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-f441232c30c7.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "kyle-collect-chemicals-for-kyle",
@@ -5678,8 +5781,7 @@
       "powerpyx-fences"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-499e4072083c-6.jpg"
+    "spoiler": true
   },
   {
     "slug": "yasmani-tail-the-security-van",
@@ -6066,7 +6168,6 @@
       "powerpyx-petes-deliveries-southpoint-airfield-avery-allen-co"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-7a9f23cab62f.jpg"
+    "spoiler": true
   }
 ]

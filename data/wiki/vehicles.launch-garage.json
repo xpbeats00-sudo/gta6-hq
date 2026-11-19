@@ -30,8 +30,7 @@
       "gtabase-cheats"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gtabase-t-8f16b4e2e20e.jpg"
+    "spoiler": true
   },
   {
     "slug": "airboat-09",
@@ -175,8 +174,7 @@
       "dayone-bikes"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/playday-816f7425e20a.jpg"
+    "spoiler": true
   },
   {
     "slug": "nagasaki-carbon-rs",
@@ -460,7 +458,8 @@
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Lapwing Mallard; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
       "Those lists give the unlock condition as: complete 5 vehicle challenges.",
       "GTABase's GTA VI database files it under the Planes class with Lapwing as the maker.",
-      "DayOne's list from the released game names it and files it under Aircraft."
+      "DayOne's list from the released game names it and files it under Aircraft.",
+      "GameSpot says Kyle's Mallard, a two-seat plane at Kyle McKittrick's farm in East Kelly County, can be taken freely at the end of Kyle's side questline and stays marked on the map wherever it is left."
     ],
     "tags": [
       "aircraft",
@@ -482,9 +481,10 @@
       "gamerant-cheats",
       "screenrant-cheats",
       "gtabase-vehicles",
-      "dayone-aircraft"
+      "dayone-aircraft",
+      "gs-get-plane"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "brimstone-golfer",
@@ -525,7 +525,11 @@
       "GTABase's GTA VI database files it under the Military class with Hauners as the maker.",
       "PowerPyx says military tanks stand in the south of Mile Zero Air Station, an island at the south-west edge of the map in Mariana County, and that stealing one brings an instant 3-star wanted level.",
       "PowerPyx adds that tanks are too big to store as a personal vehicle, and that stealing one earns the Challenging Tank trophy, whose description calls them Rhinos.",
-      "DayOne's list from the released game names it and files it under Service - Military Vehicles."
+      "DayOne's list from the released game names it and files it under Service - Military Vehicles.",
+      "IGN says a Rhino can be stolen as early as Chapter 1 from Mile Zero Air Station, where tanks are parked across the base, two groups of them in its south-west.",
+      "IGN says being spotted near the base brings a Wanted level and entering it up to four stars, while a six-star level cannot be lost and ends in being Wasted. PowerPyx, cited in this entry, says a tank theft gives an instant three stars.",
+      "IGN's route uses the Mile Zero Air Station South Stunt Jump, which it calls the only way over the unbreakable perimeter fence from the ground near the tanks, and it says to leave through either gate house, the only gaps in the fence.",
+      "IGN says R1 fires the tank's cannon, which turns independently of the direction of travel."
     ],
     "tags": [
       "cheat",
@@ -551,11 +555,11 @@
       "gtabase-vehicles",
       "powerpyx-tank",
       "powerpyx-trophies",
-      "dayone-service"
+      "dayone-service",
+      "ign-rhino-tank"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-da0979a5bf91.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "maibatsu-sanchez",
@@ -1214,7 +1218,9 @@
     "summary": "The '67 Transgressor is one of five classic cars restored through Wyman's Ultimate Edition questline.",
     "body": [
       "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
-      "PowerPyx says the questline is tracked on the map under Exploration, Find Cars for Wyman, with a task called Find Transgressors."
+      "PowerPyx says the questline is tracked on the map under Exploration, Find Cars for Wyman, with a task called Find Transgressors.",
+      "IGN places all three Transgressor wrecks in Port Gellhorn: on a slab behind the trailer park behind McCarthy's Fresh Fruit & Veg off US-9, in an open shed at a blue house on Gellhorn Avenue east of Brooks Boatworks, and against the back fence of a trailer park beside the Dirt Merchants bike store in the far south of town.",
+      "IGN says Wyman asks 1,500 dollars for labour once all three are scanned, after which the '67 Transgressor is collected from his scrapyard."
     ],
     "tags": [
       "classic",
@@ -1230,9 +1236,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-ultimate"
+      "powerpyx-ultimate",
+      "ign-wymans-cars"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1242,7 +1249,9 @@
     "body": [
       "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
       "GTABase's GTA VI database files it under the SUVs class with Vapid as the maker, under the page title \"Vapid Riata Classic\".",
-      "PowerPyx gives no maker; the Vapid attribution is GTABase's, whose page pictures the car with Rockstar's Wyman car collection artwork."
+      "PowerPyx gives no maker; the Vapid attribution is GTABase's, whose page pictures the car with Rockstar's Wyman car collection artwork.",
+      "IGN places the three Riata wrecks in the south: by a jet ski on a driveway across the road from the Key Lento police impound, in a carport at the water's edge in Southwind past the Xero gas station, and under the carport of an abandoned gas station on Old Fort Road in Shoeless Keys, south of Hamlet.",
+      "IGN says the restored '70 Riata costs 1,500 dollars in labour, paid to Wyman through BuckMe."
     ],
     "tags": [
       "classic",
@@ -1261,9 +1270,10 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-ultimate",
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "ign-wymans-cars"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "64-mamba-gt",
@@ -1273,7 +1283,9 @@
       "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
       "GTABase's GTA VI database files it under the Sports Classics class with Declasse as the maker, under the page title \"Declasse Mamba GT\".",
       "PowerPyx gives no maker; the Declasse attribution is GTABase's.",
-      "DayOne's list from the released game names it and files it under Sports Cars."
+      "DayOne's list from the released game names it and files it under Sports Cars.",
+      "IGN places three of the four Mamba GT wrecks in Kelly County: in a detached garage at a hillside house near a Gruppe Sechs facility north of Leonida State Prison, behind a garage door in an alley behind shops by the Xero station in Ambrosia, and sunk in a pond beside the Thrillbilly Mud Club dirt track.",
+      "IGN says the fourth lies in the swampy wreckage of a broken bridge in north Moreau, near the eastern edge of Bonanza, and that the car costs 1,500 dollars in labour."
     ],
     "tags": [
       "classic",
@@ -1293,16 +1305,19 @@
     "sources": [
       "powerpyx-ultimate",
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "ign-wymans-cars"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "reynolds-kit-car",
     "name": "Reynolds Kit Car",
     "summary": "The Reynolds Kit Car is one of five classic cars restored through Wyman's Ultimate Edition questline.",
     "body": [
-      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected."
+      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
+      "IGN places the five Kit Car wrecks across the map: inside Willie's Service Center in southern Salton, Vice City (through the side door); on a mansion driveway on Casanova Island in the Rialto Islands; in a lone orange shipping container on the beach at Wild Hog Point, opened with an angle grinder; behind Donnie's Auto Repair on Seabell Avenue in Watson Bay; and in a mansion garage in north-west Capri.",
+      "IGN says Wyman again asks 1,500 dollars before the Reynolds Kit Car can be collected."
     ],
     "tags": [
       "car",
@@ -1319,11 +1334,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-ultimate"
+      "powerpyx-ultimate",
+      "ign-wymans-cars"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-f5ae8d4ea4f5-9.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "72-deviant",
@@ -1332,7 +1347,9 @@
     "body": [
       "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
       "GTABase's GTA VI database files it under the Muscle class with Schyster as the maker, under the page title \"Schyster Deviant\".",
-      "PowerPyx gives no maker; the Schyster attribution is GTABase's."
+      "PowerPyx gives no maker; the Schyster attribution is GTABase's.",
+      "IGN says the Deviant needs no scans: some time after the other four cars are collected, Wyman calls to offer it as thanks, sends a 1,500 dollar BuckMe request, and on arrival the player opens a barn door to see him drive it out.",
+      "IGN's page heads the section Born Free Deviant but calls the car the Born Again Deviant in its text; neither name gives a year."
     ],
     "tags": [
       "classic",
@@ -1351,9 +1368,10 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-ultimate",
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "ign-wymans-cars"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "82-canis-crawler",
@@ -2004,7 +2022,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Service - Military Vehicles."
+      "DayOne's list from the released game names it and files it under Service - Military Vehicles.",
+      "GTABase says the Buzzard Attack Chopper is based on the MD Helicopters AH-6 Little Bird, seats four, and has a Police Buzzard variant."
     ],
     "tags": [
       "attack",
@@ -2016,14 +2035,16 @@
     "facts": {
       "manufacturer": "Bottcher",
       "model": "Buzzard Attack Chopper",
-      "class": "Service - Military Vehicles"
+      "class": "Service - Military Vehicles",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-service"
+      "dayone-service",
+      "gtabase-v-buzzard"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "caddy",
@@ -2032,7 +2053,9 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Service - Utility Vehicles."
+      "DayOne's list from the released game names it and files it under Service - Utility Vehicles.",
+      "GTABase names it the Maibatsu Caddy '82, an electric utility vehicle; the app lists the maker as Nagasaki.",
+      "GTABase gives it two seats, rear-wheel drive, one gear, a weight of 600 kg and no tracker."
     ],
     "tags": [
       "caddy",
@@ -2041,14 +2064,18 @@
     "facts": {
       "manufacturer": "Nagasaki",
       "model": "Caddy",
-      "class": "Service - Utility Vehicles"
+      "class": "Service - Utility Vehicles",
+      "year": "'82",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-service"
+      "dayone-service",
+      "gtabase-v-caddy"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2113,7 +2140,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Service - Trucks."
+      "DayOne's list from the released game names it and files it under Service - Trucks.",
+      "GTABase says the D7700 is based on the Chevrolet Kodiak/GMC Topkick and seats two."
     ],
     "tags": [
       "commercial",
@@ -2123,14 +2151,16 @@
     "facts": {
       "manufacturer": "Declasse",
       "model": "D7700",
-      "class": "Service - Trucks"
+      "class": "Service - Trucks",
+      "seats": 2
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-service"
+      "dayone-service",
+      "gtabase-v-d7700"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2618,7 +2648,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game has a B3000 Excavator under Service - Industrial Vehicles, which may be this vehicle under another maker's name."
+      "DayOne's list from the released game has a B3000 Excavator under Service - Industrial Vehicles, which may be this vehicle under another maker's name.",
+      "GTABase now names it the Dinka B3000 Excavator, an industrial vehicle new to the series, based on the Liebherr R954B HD-S and Samsung SE280LC-2; this disagrees with the app's HVY maker."
     ],
     "tags": [
       "excavator",
@@ -2633,9 +2664,10 @@
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "dayone-service"
+      "dayone-service",
+      "gtabase-v-excavator"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -2851,8 +2883,7 @@
       "dayone-cars"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/playday-c94b545416e6.jpg"
+    "spoiler": true
   },
   {
     "slug": "montagne-pickup-lifeguard",
@@ -3146,7 +3177,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Sedans."
+      "DayOne's list from the released game names it and files it under Sedans.",
+      "GTABase says the Chavos XS is based on the 10th-generation Honda Accord and seats four."
     ],
     "tags": [
       "chavos",
@@ -3157,14 +3189,16 @@
     "facts": {
       "manufacturer": "Dinka",
       "model": "Chavos XS",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-chavos"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3259,7 +3293,9 @@
     "summary": "GTABase's GTA VI vehicle database lists the Pegassi Infernus '96 in its Sports Classics class, made by Pegassi.",
     "body": [
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Supercars."
+      "DayOne's list from the released game names it and files it under Supercars.",
+      "GTABase files the Infernus '96 under sports classics (the app has supercars), based on the Lamborghini Diablo, Cizeta V16T and Ferrari Testarossa, with Luxury as its specialist shop.",
+      "GTABase gives it two seats, rear-wheel drive and six gears, a registration cost of $34,750, an advanced tracker and a stolen sell value of $17,160."
     ],
     "tags": [
       "96",
@@ -3272,14 +3308,17 @@
       "manufacturer": "Pegassi",
       "model": "Infernus '96",
       "year": "'96",
-      "class": "Supercars"
+      "class": "Supercars",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-infernus96"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "bf-injection",
@@ -3288,7 +3327,9 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Off-Road Vehicles."
+      "DayOne's list from the released game names it and files it under Off-Road Vehicles.",
+      "GTABase lists it as the BF Injection '73, an off-road vehicle based on the VW Baja Bug, with Off-Road as its specialist shop.",
+      "GTABase gives it two seats, rear-wheel drive and five gears, a registration cost of $4,650, no tracker and a stolen sell value of $1,430."
     ],
     "tags": [
       "bf",
@@ -3299,14 +3340,18 @@
     "facts": {
       "manufacturer": "BF",
       "model": "Injection",
-      "class": "Off-Road Vehicles"
+      "class": "Off-Road Vehicles",
+      "year": "'73",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-injection"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3557,7 +3602,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Aircraft."
+      "DayOne's list from the released game names it and files it under Aircraft.",
+      "GTABase says the Mammatus is based on the Cessna 172 Skyhawk and seats four."
     ],
     "tags": [
       "lapwing",
@@ -3567,14 +3613,16 @@
     "facts": {
       "manufacturer": "Lapwing",
       "model": "Mammatus",
-      "class": "Aircraft"
+      "class": "Aircraft",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-aircraft"
+      "dayone-aircraft",
+      "gtabase-v-mammatus"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -3934,7 +3982,9 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game has a '72 Declasse Picador under Muscle Cars, which may be this vehicle under another maker's name."
+      "DayOne's list from the released game has a '72 Declasse Picador under Muscle Cars, which may be this vehicle under another maker's name.",
+      "GTABase names it the Declasse Picador '72, a muscle car based on the Chevrolet El Camino, which disagrees with the app's Cheval maker.",
+      "GTABase gives it two seats, a registration cost of $9,900, no tracker and a stolen sell value of $2,970."
     ],
     "tags": [
       "car",
@@ -3945,14 +3995,16 @@
     "facts": {
       "manufacturer": "Cheval",
       "model": "Picador",
-      "class": "Muscle car"
+      "class": "Muscle car",
+      "seats": 2
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-picador"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -4179,7 +4231,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Pickups."
+      "DayOne's list from the released game names it and files it under Pickups.",
+      "GTABase says the Bison 3800 is based on the RAM 3500 and seats four; GTABase files it under vans, the app under pickups."
     ],
     "tags": [
       "3800",
@@ -4190,14 +4243,16 @@
     "facts": {
       "manufacturer": "Bravado",
       "model": "Bison 3800",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-bison3800"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -5216,7 +5271,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase says the Windsor is based on the Rolls-Royce Wraith and gives it two seats, rear-wheel drive and five gears."
     ],
     "tags": [
       "buckingham",
@@ -5226,13 +5282,16 @@
     "facts": {
       "manufacturer": "Buckingham",
       "model": "Windsor",
-      "class": "Coupe"
+      "class": "Coupe",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "gtabase-v-windsor"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

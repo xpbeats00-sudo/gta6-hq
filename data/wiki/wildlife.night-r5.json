@@ -1,0 +1,76 @@
+[
+  {
+    "slug": "lionfish",
+    "name": "Lionfish",
+    "summary": "A red lionfish is seen on a Leonida Keys reef in Rockstar's launch screenshot gallery.",
+    "body": [
+      "GTA Wiki lists lionfish among the game's aquatic animals, from a red lionfish swimming in the Leonida Keys in an official launch-gallery screenshot.",
+      "GTA Wiki places them in the Gulf of Leonida."
+    ],
+    "tags": [
+      "aquatic",
+      "fish",
+      "leonida keys",
+      "reef"
+    ],
+    "facts": {
+      "species": "Red lionfish",
+      "habitat": "Leonida Keys reefs, Gulf of Leonida"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtawiki-lionfish",
+      "gtawiki-animals-table"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "stingray",
+    "name": "Stingray",
+    "summary": "Stingrays are seen swimming in a group in Rockstar's Extended Look video.",
+    "body": [
+      "GTA Wiki lists stingrays among the game's aquatic animals and shows a group of them in a scene from Rockstar's Extended Look video.",
+      "GTA Wiki also points to a photo of a woman posing behind a dead stingray on the wall of The Rusty Anchor, in the background of an official Cal Hampton screenshot.",
+      "The app already has a Manta Ray entry; GTA Wiki treats stingrays as a separate animal."
+    ],
+    "tags": [
+      "aquatic",
+      "ray",
+      "sea"
+    ],
+    "facts": {
+      "species": "Stingray",
+      "habitat": "Sea"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtawiki-stingrays",
+      "gtawiki-animals-table"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "carolina-dog",
+    "name": "Carolina Dog",
+    "summary": "A Carolina dog is seen sleeping beside Marabunta Grande members in an official screenshot.",
+    "body": [
+      "GTA Wiki's dog list includes a Carolina dog, from an official screenshot published by Edge magazine showing one asleep beside members of the Marabunta Grande.",
+      "GTA Wiki's animal table also lists Carolina dogs among the game's land animals."
+    ],
+    "tags": [
+      "breed",
+      "dog",
+      "marabunta grande"
+    ],
+    "facts": {
+      "species": "Carolina Dog",
+      "habitat": "Land"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtawiki-dogs",
+      "gtawiki-animals-table"
+    ],
+    "verified": "2026-11-18"
+  }
+]

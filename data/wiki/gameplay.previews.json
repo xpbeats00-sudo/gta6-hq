@@ -116,7 +116,13 @@
     "summary": "Focus slows a fight down and picks out weak points: aim at a red area for a lethal shot, a yellow one to incapacitate.",
     "body": [
       "TGG stresses that you still aim and fire yourself; it does not mark targets and shoot for you. Hit markers then tell you the result: white for a hit, yellow for incapacitated, red for a kill.",
-      "Out of combat, Focus highlights useful objects, doors you can use and loot. From a vehicle it lets you target the driver, tires, engine block or fuel tank. Nelson told TGG it is also how you see police through walls, since they are not on the minimap."
+      "Out of combat, Focus highlights useful objects, doors you can use and loot. From a vehicle it lets you target the driver, tires, engine block or fuel tank. Nelson told TGG it is also how you see police through walls, since they are not on the minimap.",
+      "IGN says Focus is triggered by clicking both sticks together and works the same for Jason and Lucia; it slows time and does not drain the meter unless the player aims or shoots, even while driving.",
+      "IGN says Focus lasts 30 seconds on foot with a two-second cooldown once the full 30 seconds are used, and 30 seconds in a vehicle, falling to as little as 10 seconds at very high speed.",
+      "IGN gives the colour code as white for things of interest such as doors and consumables, red for enemies, explosives, alarms and dropped weapons, purple for drugs that can be sold to a fence, and green for cash; police glow blue while driving.",
+      "IGN says aiming in Focus (Combat Focus) drains the meter and shows yellow spots that wound or disarm and red spots on the head and heart that kill; vehicles show tyre and engine spots and helicopters engine and rotor spots.",
+      "IGN says smoking a cigarette refills the meter out of combat, incapacitations refill it with a Professional Criminal Profile and headshots with Violent or worse.",
+      "IGN says Focus shows sound ripples leading to nearby events, side missions, searching police units, K9 dogs, helicopters and witnesses, and reveals trails of fleeing vehicles and named animal scent trails, which can be tracked after leaving Focus."
     ],
     "tags": [
       "focus",
@@ -131,9 +137,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "tgg-pre-launch-guide",
+      "ign-focus"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-19"
   },
   {
     "slug": "fighting-and-movement",
@@ -142,7 +149,10 @@
     "body": [
       "Hand-to-hand fights involve blocking, dodging and grappling. TGG relays other previews that you can hold a block or time a parry, and that Lucia fights more like a kickboxer while Jason is a street brawler.",
       "Automatic weapons kick hard enough that Nelson fired in short bursts in the demo, and pistols fire faster than in Grand Theft Auto V. A bad fall can leave your character dazed for a moment.",
-      "Kill cams and a crash camera can each be switched off. Nelson mentioned to TGG that many people who worked on Max Payne 3 are on this game."
+      "Kill cams and a crash camera can each be switched off. Nelson mentioned to TGG that many people who worked on Max Payne 3 are on this game.",
+      "IGN says hit markers are white for a hit, yellow for an incapacitated target and red for a kill, and that enemies knocked out non-lethally stay down, though allies who find them become more cautious and bodies can be moved out of sight.",
+      "IGN says clicking the right stick while aiming toggles a scope view, Left on the D-pad swaps shoulders, Triangle (Y) swaps weapons while aiming, and R2/RT grabs and then throws an enemy in melee.",
+      "IGN says attack dogs can be scared off without hurting them by firing at the ground beside them, and that many compounds can be entered from the roof through hatches."
     ],
     "tags": [
       "crouch",
@@ -158,9 +168,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "tgg-pre-launch-guide",
+      "ign-beginners-guide"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-19"
   },
   {
     "slug": "controls",

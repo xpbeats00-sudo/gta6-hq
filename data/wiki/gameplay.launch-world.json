@@ -197,7 +197,13 @@
     "body": [
       "PowerPyx lists Brian and Donnie in Key Lento early on, Moses and Dunk in Port Gellhorn, and Tyrone, Yasmani and Randy in Vice City.",
       "According to PowerPyx, Tyrone pays best for narcotics, Yasmani pays best for jewelry and marked bills, Moses takes only cars without a tracker and Randy takes certain high-end cars.",
-      "PowerPyx says goods are dropped at a fence's container, and that garages later allow drop-offs to a chosen fence."
+      "PowerPyx says goods are dropped at a fence's container, and that garages later allow drop-offs to a chosen fence.",
+      "IGN says Brian's lockup is near the south-western tip of Key Lento, opened with the code 7700 at the keypad by the door, and the stash bag is sold at a yellow crate inside.",
+      "IGN says Donnie becomes a fence after the Chapter 1 mission Coming Home and pays more than Brian: his trailer is near the middle of Key Lento, north of the Nifty Threads Island Wear shop, the drugs go in a green crate at its tail end, and he pays by mail a little later.",
+      "IGN says fences buy three kinds of goods, Narcotics, Jewelry and Marked Bills, and hovering over a fence on the map shows what it pays for each.",
+      "IGN says the Key Lento fences are not available in Chapter 2, where Dunk's trailer, in a trailer park near Freedom Tattoo in Port Gellhorn, takes goods placed in his car's trunk and pays through BuckMe.",
+      "IGN says cars can only be sold once Moses Watkins has been met in Chapter 2; he takes untracked cars, hovering over his shop on the map shows a stolen car's sale price and its registration cost, and his texted requests for specific cars pay extra with a condition bonus.",
+      "IGN says pawn shops, marked by a green scales symbol, buy collectible cards and underwater treasures such as meteorites and doubloons; the nearest early one is in southern Hamlet."
     ],
     "tags": [
       "cars",
@@ -214,11 +220,11 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-fences",
-      "ppx-100"
+      "ppx-100",
+      "ign-fences"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-e14a75fba0ed.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "marked-bills",
@@ -286,7 +292,11 @@
     "summary": "The game's progress menu groups robberies into 11 kinds, from store stick ups to bank vaults.",
     "body": [
       "PowerPyx's database heading gives 11 types but itemises seven: convenience stores, liquor stores, fast food joints, jewelry stores, pawn shops, payday loans and bank jobs.",
-      "Gang operations appear under the same Robberies map filter as Illegal Operations, according to PowerPyx."
+      "Gang operations appear under the same Robberies map filter as Illegal Operations, according to PowerPyx.",
+      "GameSpot says safe codes are randomised: they differ between players and change even when the same shop is robbed twice, so published code lists do not help.",
+      "GameSpot says a code may be found on a guard or nearby, and in banks on sticky notes, computer screens or downed guards; without one, small safes can be picked and lockboxes snapped open with the Snap Gun, and nearly all safes can be forced.",
+      "GameSpot says the Snap Gun, unlocked through the story, opens locked doors without setting off the alarm, and that once the alarm panel is switched off, displays can be smashed without triggering it.",
+      "GameSpot says bank vaults cannot be picked or blown open; they open only briefly when an armoured cash truck delivers, and Yasmani, a fence met in Chapter 3, sells tips on where the trucks are."
     ],
     "tags": [
       "map filter",
@@ -301,9 +311,10 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-database",
-      "ppx-gangops"
+      "ppx-gangops",
+      "gs-safe-codes"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   }
 ]

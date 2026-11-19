@@ -396,7 +396,9 @@
     "summary": "The '90 Willard Lasso is a coupe listed in the released game's vehicle database (style Convertible, era 1990s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Coupes.",
-      "DayOne gives its stats as speed 4.7, acceleration 4.9, asphalt handling 3.7, off-road handling 4.2, strength 3.0."
+      "DayOne gives its stats as speed 4.7, acceleration 4.9, asphalt handling 3.7, off-road handling 4.2, strength 3.0.",
+      "GTABase says the Lasso '90 is new to the series, based on the Buick Reatta convertible, with Donks as its specialist shop.",
+      "GTABase gives it two seats, a registration cost of $13,750, a standard tracker and a stolen sell value of $4,125."
     ],
     "tags": [
       "convertible",
@@ -408,13 +410,15 @@
       "manufacturer": "Willard",
       "model": "Lasso",
       "year": "1990",
-      "class": "Coupes"
+      "class": "Coupes",
+      "seats": 2
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-lasso"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -557,7 +561,9 @@
     "summary": "The '65 Dundreary Chino is a muscle car listed in the released game's vehicle database (era 1960s Antique).",
     "body": [
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Lowrider as its mod shop specialist.",
-      "DayOne gives its stats as speed 3.9, acceleration 4.2, asphalt handling 3.3, off-road handling 4.0, strength 3.0."
+      "DayOne gives its stats as speed 3.9, acceleration 4.2, asphalt handling 3.3, off-road handling 4.0, strength 3.0.",
+      "GTABase says the Chino '65 draws on the 1965 Lincoln Continental, 1965 Chrysler Imperial and 1970s Ford Thunderbird, and seats two with rear-wheel drive.",
+      "GTABase gives a registration cost of $17,750, a standard tracker and a stolen sell value of $5,335."
     ],
     "tags": [
       "car",
@@ -569,13 +575,16 @@
       "manufacturer": "Dundreary",
       "model": "Chino",
       "year": "1965",
-      "class": "Muscle Cars"
+      "class": "Muscle Cars",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-chino"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -828,7 +837,10 @@
     "summary": "The '70 Vapid Reclaimer is a pickup listed in the released game's vehicle database (era 1970s Antique).",
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 2.6, acceleration 2.5, asphalt handling 2.9, off-road handling 3.6, strength 3.0."
+      "DayOne gives its stats as speed 2.6, acceleration 2.5, asphalt handling 2.9, off-road handling 3.6, strength 3.0.",
+      "GTABase calls it the Vapid Reclaimer '70s and says it is new to the series, modelled on the 2019-2023 Ford Ranger (T6), with Off-Road as its specialist shop.",
+      "GTABase gives it four seats, a registration cost of $7,500, no tracker and a stolen sell value of $2,255.",
+      "GTABase files it under off-road vehicles; the app (from DayOne) has it under pickups."
     ],
     "tags": [
       "pickup",
@@ -839,13 +851,15 @@
       "manufacturer": "Vapid",
       "model": "Reclaimer",
       "year": "1970",
-      "class": "Pickups"
+      "class": "Pickups",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-reclaimer"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -906,7 +920,9 @@
     "summary": "The Obey Animus is a sedan listed in the released game's vehicle database (style Luxury, era 2020s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.6, acceleration 5.6, asphalt handling 4.4, off-road handling 4.4, strength 3.0."
+      "DayOne gives its stats as speed 4.6, acceleration 5.6, asphalt handling 4.4, off-road handling 4.4, strength 3.0.",
+      "GTABase says the Animus is new to the series, based on the second-generation Audi A7/RS7, and seats four.",
+      "GTABase gives a registration cost of $8,650, no tracker and a stolen sell value of $2,585."
     ],
     "tags": [
       "animus",
@@ -917,13 +933,15 @@
     "facts": {
       "manufacturer": "Obey",
       "model": "Animus",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-animus"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1120,7 +1138,9 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans.",
       "DayOne gives its stats as speed 4.5, acceleration 4.6, asphalt handling 4.0, off-road handling 4.2, strength 3.0.",
-      "DayOne prints the era as \"1990s Muscle\", which looks like an error on the page."
+      "DayOne prints the era as \"1990s Muscle\", which looks like an error on the page.",
+      "GTABase says the Stanier '98 is based on the Ford Crown Victoria, seats four, has rear-wheel drive and has a Stanier Taxi variant.",
+      "GTABase gives a registration cost of $3,400, no tracker and a stolen sell value of $1,045."
     ],
     "tags": [
       "muscle",
@@ -1132,13 +1152,16 @@
       "manufacturer": "Vapid",
       "model": "Stanier",
       "year": "1998",
-      "class": "Sedans"
+      "class": "Sedans",
+      "seats": 4,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-stanier98"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1231,7 +1254,9 @@
     "summary": "The '88 Pfister Comet is a sports car listed in the released game's vehicle database (era 1980s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sports Cars and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 6.1, acceleration 6.4, asphalt handling 6.5, off-road handling 4.0, strength 3.7."
+      "DayOne gives its stats as speed 6.1, acceleration 6.4, asphalt handling 6.5, off-road handling 4.0, strength 3.7.",
+      "GTABase says the Comet '88 is based on a Rauh-Welt Porsche 911 (930) and seats two, with rear-wheel drive.",
+      "GTABase gives a registration cost of $34,250, an advanced tracker and a stolen sell value of $17,050."
     ],
     "tags": [
       "car",
@@ -1243,13 +1268,16 @@
       "manufacturer": "Pfister",
       "model": "Comet",
       "year": "1988",
-      "class": "Sports Cars"
+      "class": "Sports Cars",
+      "seats": 2,
+      "drivetrain": "RWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-comet88"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1314,7 +1342,8 @@
     "summary": "The Emperor Sultan is a sports car listed in the released game's vehicle database (era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sports Cars and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.9, acceleration 6.1, asphalt handling 4.4, off-road handling 4.5, strength 3.0."
+      "DayOne gives its stats as speed 4.9, acceleration 6.1, asphalt handling 4.4, off-road handling 4.5, strength 3.0.",
+      "GTABase says the Sultan draws on the Lexus IS, Mitsubishi Lancer Evo VI and Subaru Impreza, and gives it four seats, all-wheel drive and five gears."
     ],
     "tags": [
       "car",
@@ -1325,13 +1354,16 @@
     "facts": {
       "manufacturer": "Emperor",
       "model": "Sultan",
-      "class": "Sports Cars"
+      "class": "Sports Cars",
+      "seats": 4,
+      "drivetrain": "AWD"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-v-sultan"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1842,7 +1874,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Emergency Vehicles.",
       "DayOne gives its stats as speed 3.0, acceleration 2.6, asphalt handling 2.9, off-road handling 2.9, strength 3.0.",
-      "The spawn-cheat lists already in the app name an \"Interstate Ambulance\"; DayOne's list instead has a Declasse Ambulance, and it is not confirmed whether these are one vehicle."
+      "The spawn-cheat lists already in the app name an \"Interstate Ambulance\"; DayOne's list instead has a Declasse Ambulance, and it is not confirmed whether these are one vehicle.",
+      "GTABase's page for the game's ambulance names it the Interstate Ambulance, based on the Chevrolet Express 3500 cab-chassis, with four seats and all-wheel drive; GTABase lists no Declasse ambulance."
     ],
     "tags": [
       "ambulance",
@@ -1857,9 +1890,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "gtabase-v-ambulance"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

@@ -7,7 +7,8 @@
       "DayOne lists in-game ratings out of 10 of damage 2.8, accuracy 3.0, handling 9.0 and range 3.0, with a capacity of 8 rounds and semi-auto fire.",
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
       "Tracker Network's database lists it as the Nipper .38 under Handguns.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
+      "IGN's Pick Up a Gun walkthrough prices it at $495 at Gellhorn Outfitters in Port Gellhorn and calls it the cheapest workable pistol there early in Chapter 2."
     ],
     "tags": [
       ".38",
@@ -24,14 +25,16 @@
       "slot": "sidearm",
       "magazine": "8",
       "fire_mode": "Semi-auto",
-      "availability": "Standard Ammu-Nation stock (IGN)"
+      "availability": "Standard Ammu-Nation stock (IGN)",
+      "price": "$495 at Gellhorn Outfitters (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "trackergg",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "ign-pick-up-a-gun"
     ],
     "verified": "2026-11-19"
   },
@@ -1209,8 +1212,7 @@
       "ign-weapons-guide"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/playday-36930f3f47e3.jpg"
+    "spoiler": true
   },
   {
     "slug": "hillinger-m306",
@@ -1256,7 +1258,8 @@
       "Tracker Network's database lists it as the Mediator under Tactical Rifles.",
       "DayOne's hunting guide names it as the recommended weapon for foxes, bobcats and coyotes.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
-      "IGN also lists it as a Hawk & Little tactical rifle in 9mm with a 17-round magazine, matching DayOne."
+      "IGN also lists it as a Hawk & Little tactical rifle in 9mm with a 17-round magazine, matching DayOne.",
+      "IGN's Gear Up walkthrough prices it at $450 at Chuck's Tackle & Shot in Key Lento, with the first magazine upgrade at $55."
     ],
     "tags": [
       "carbine",
@@ -1274,7 +1277,8 @@
       "slot": "long gun",
       "magazine": "17",
       "fire_mode": "Semi-auto",
-      "availability": "Standard or Hunting Ammu-Nation stock (IGN)"
+      "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
+      "price": "$450 at Chuck's Tackle & Shot during Gear Up (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1282,7 +1286,8 @@
       "trackergg",
       "dayone-hunting",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "ign-gear-up"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1659,7 +1664,9 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 9.2, accuracy 6.0, handling 5.0 and range 4.0, with a capacity of 6 rounds and semi-auto fire.",
       "PowerPyx prices it at $15,500 at Expanded Ammu-Nation stores.",
-      "IGN's weapons table lists the Deever Tech GLR40 as a rotary grenade launcher firing 40mm grenades with a magazine of 6 and damage 9.2, but files it under Sidearm with N/A in its stock column, which disagrees with PowerPyx's Expanded-store price of $15,500."
+      "IGN's weapons table lists the Deever Tech GLR40 as a rotary grenade launcher firing 40mm grenades with a magazine of 6 and damage 9.2, but files it under Sidearm with N/A in its stock column, which disagrees with PowerPyx's Expanded-store price of $15,500.",
+      "IGN's unique-variant guide places it inside a one-car garage in the courtyard of the Sunrise Motel, located in Tequesta in Vice-Dale County.",
+      "Disagreement: the app's earlier PowerPyx figure prices a Deever Tech GLR40 at $15,500 at Expanded stores, while IGN lists this unique variant as a free pickup; the two may describe different versions."
     ],
     "tags": [
       "deever",
@@ -1673,7 +1680,7 @@
       "type": "explosive",
       "ammo": "40mm grenade",
       "manufacturer": "Deever Tech",
-      "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
+      "availability": "Found in the open world (IGN)",
       "magazine": "6",
       "fire_mode": "Semi-auto",
       "price": "$15,500"
@@ -1682,7 +1689,8 @@
     "sources": [
       "dayone-weapons",
       "ppx-launchers",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "ign-unique-weapon-variants"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1732,7 +1740,8 @@
     "body": [
       "PowerPyx says Bret hands it over at the start of the optional mission Veteran Hunted (Meet Bret) and counts it as a Unique Weapon Variant.",
       "PowerPyx adds that it can be collected again from any Ammu-Nation weapon locker.",
-      "Insider Gaming says unique weapons carry a gold icon and cannot be modified."
+      "Insider Gaming says unique weapons carry a gold icon and cannot be modified.",
+      "IGN's unique-variant guide says Bret Vogel hands it over when his hunting side quests begin."
     ],
     "tags": [
       "bret",
@@ -1744,16 +1753,17 @@
     ],
     "facts": {
       "type": "sniper",
-      "availability": "Given by Bret in Veteran Hunted; afterwards in any weapon locker"
+      "availability": "Given by Bret Vogel at the start of his hunting side quests (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-bret",
       "ppx-100",
       "ppx-trophy",
-      "insider-weapons"
+      "insider-weapons",
+      "ign-unique-weapon-variants"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1761,7 +1771,8 @@
     "name": "Gutterball Moreland 850",
     "summary": "A unique variant of the Moreland 850 shotgun found inside Kingpin Bowling.",
     "body": [
-      "PowerPyx says it lies on a table in the north-east corner of the bowling alley, is marked with a gold icon, and is one of three key valuables for the Let's Go Bowling trophy."
+      "PowerPyx says it lies on a table in the north-east corner of the bowling alley, is marked with a gold icon, and is one of three key valuables for the Let's Go Bowling trophy.",
+      "IGN's unique-variant guide says it can be taken during the Kingpin Bowling Illegal Operation, in Port Gellhorn."
     ],
     "tags": [
       "kingpin bowling",
@@ -1772,14 +1783,15 @@
     ],
     "facts": {
       "type": "shotgun",
-      "availability": "Found at Kingpin Bowling during the optional job Hit Kingpin Bowling"
+      "availability": "Looted during the Kingpin Bowling Illegal Operation (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-kingpin",
-      "ppx-trophy"
+      "ppx-trophy",
+      "ign-unique-weapon-variants"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1789,7 +1801,8 @@
     "body": [
       "Cultured Vultures says it is available from Chapter 1 in the Ammu-Nation weapon locker, under the ES9's Variants option, and cannot be customised or upgraded.",
       "PowerPyx likewise says it is redeemed from a weapon locker at Ammu-Nation.",
-      "Cultured Vultures says either lead can use the other's signature pistol."
+      "Cultured Vultures says either lead can use the other's signature pistol.",
+      "IGN's unique-variant guide says it is only available to owners of the Ultimate Edition."
     ],
     "tags": [
       "es9",
@@ -1802,14 +1815,15 @@
     "facts": {
       "type": "pistol",
       "manufacturer": "Girardi",
-      "availability": "Ultimate Edition; Ammu-Nation weapon locker from Chapter 1"
+      "availability": "Ultimate Edition only (IGN)"
     },
     "confidence": "corroborated",
     "sources": [
       "cv-variants",
-      "ppx-ultimate"
+      "ppx-ultimate",
+      "ign-unique-weapon-variants"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1850,7 +1864,11 @@
       "PowerPyx advises buying them at Ammu-Nation before robbing Kingpin Bowling, where they destroy the office safe.",
       "PowerPyx also describes using them on shop back-room safes and on the rear door of an armoured truck, and says some are found in the back of Yasmani's shop after his jobs.",
       "IGN's weapons guide counts 4 explosives and its table lists them as Molotov, Sticky Bomb, Flash Grenade and Frag Grenade; its text list names only Frag Grenade and Sticky Bomb.",
-      "IGN and Game8 both write the name in the singular, Sticky Bomb."
+      "IGN and Game8 both write the name in the singular, Sticky Bomb.",
+      "IGN says Sticky Bombs go on sale at Ammu-Nation, under Ammo & Equipment then Explosives, for 185 dollars each after the Chapter 3 mission Credit Check, and that each character carries up to four.",
+      "IGN says Yasmani, a Chapter 3 contact, keeps a crate of them in the garage behind his office, refilled by tapping L1/LB, and that some may turn up early at Illegal Operations such as Kingpin Bowling.",
+      "IGN says one is thrown with L2/LT and R2/RT and set off with Right on the D-pad, and that tapping R1/RB while aiming a gun throws the last equipped explosive.",
+      "IGN says safes and locked doors in banks, payday loan shops and jewellery stores only open when the bomb is planted through the on-screen prompt; a thrown bomb will not open them, and a door with an alarm sets it off."
     ],
     "tags": [
       "explosive",
@@ -1860,14 +1878,16 @@
     ],
     "facts": {
       "type": "explosive",
-      "availability": "Ammu-Nation"
+      "availability": "Ammu-Nation after the Chapter 3 mission Credit Check; free at Yasmani's",
+      "price": "$185"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-kingpin",
       "ppx-trophy",
       "ign-weapons-guide",
-      "game8-weapons-hub"
+      "game8-weapons-hub",
+      "ign-sticky-bombs"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2180,7 +2200,11 @@
     "summary": "A hidden pack that can be opened during long falls from aircraft or buildings.",
     "body": [
       "PowerPyx says it is sold in the Equipment section at Ammu-Nation and shares an item-wheel slot with body armor.",
-      "PowerPyx also lists a cheat that adds a parachute."
+      "PowerPyx also lists a cheat that adds a parachute.",
+      "GameSpot says every Ammu-Nation sells parachutes, usually near the body armour at the back, for $250 each, and that a bought one goes straight into the loadout.",
+      "According to GameSpot, holding L1/LB and opening the Items tab shows whether one is carried, in the bottom-left slot, where it can also be set to show or hide on the character's back.",
+      "GameSpot says a free parachute lies at each of the 25 base jump spots, mostly helipads on tall Vice-Dale County towers, marked by lights and energy drink cans; doing the jump uses it up, so leaving the roof keeps it.",
+      "GameSpot's suggested jumps are the Maven Residences roof south-west of Panos Plaza, Mount Kalaga in southern Lummox County, Mainfest Canyon in north-east Kelly County, and the Crimson Palms condominiums in north Washington Beach, which it calls perhaps the tallest building in the game."
     ],
     "tags": [
       "base jump",
@@ -2189,14 +2213,16 @@
     ],
     "facts": {
       "type": "equipment",
-      "availability": "Ammu-Nation (Equipment section)"
+      "availability": "Ammu-Nation (Equipment section)",
+      "price": "$250 (GameSpot)"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-parachute",
-      "ppx-cheats"
+      "ppx-cheats",
+      "gs-parachute"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   }
 ]

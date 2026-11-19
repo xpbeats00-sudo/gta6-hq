@@ -1,0 +1,148 @@
+[
+  {
+    "slug": "jack-of-hearts-strip-club",
+    "name": "Jack of Hearts",
+    "summary": "A strip club in the east of Vice City where Game8 says private dances cost $300 and tips are $50.",
+    "body": [
+      "Game8 lists Jack of Hearts as one of three strip clubs in GTA 6 and puts it in the eastern part of the Vice City map.",
+      "Game8 says a dancer can be greeted and paid $300 for a private dance, and that repeated $50 tips during the dance unlock more explicit moments.",
+      "Game8 says nothing beyond the private dance can be bought, and that the clubs have a bar where drinks can be ordered and the bartender tipped."
+    ],
+    "tags": [
+      "nightlife",
+      "strip club",
+      "vice city"
+    ],
+    "facts": {
+      "type": "strip club",
+      "location": "East Vice City",
+      "purchasable": false,
+      "availability": "Private dance $300, tip $50, bar drinks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-strip-clubs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nine1nine-strip-club",
+    "name": "Nine1Nine",
+    "summary": "One of three strip clubs Game8 lists in GTA 6, found in the east of Vice City.",
+    "body": [
+      "Game8 lists Nine1Nine as one of three strip clubs in GTA 6, along with Delights Cabaret and Jack of Hearts, and puts it in the eastern part of the Vice City map.",
+      "Game8 says the strip clubs share the same services: a $300 private dance, $50 tips that extend it, and a bar for drinks."
+    ],
+    "tags": [
+      "nightlife",
+      "strip club",
+      "vice city"
+    ],
+    "facts": {
+      "type": "strip club",
+      "location": "East Vice City",
+      "purchasable": false,
+      "availability": "Private dance $300, tip $50, bar drinks"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-strip-clubs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "nova-auto-junkyard",
+    "name": "Nova Auto Junkyard",
+    "summary": "An M7-held junkyard in Hamlet that is raided as an Illegal Operation for a rifle, a safe and the Teniente Manana.",
+    "body": [
+      "IGN says the M7 gang has taken over the Nova Auto Junkyard in the northeast of Hamlet, Mariana County, just east of the Layin' Ink tattoo shop, and runs it as a high-security Illegal Operation that first shows as a Robbery Opportunity.",
+      "IGN lists three Key Valuables: the Marabunta Grande KZ-59 assault rifle variant under a metal awning, a safe in the office with the white shutter, and the Albany Teniente Manana in the garage next door.",
+      "IGN says the yard is small and heavily guarded, and suggests a shotgun for the close fighting.",
+      "Game8 also places the Teniente Manana in a warehouse at the M7 Nova Auto Junkyard in Hamlet.",
+      "The app already has an M7 Compound entry from PowerPyx's operation list; no page read says whether the two are the same place."
+    ],
+    "tags": [
+      "hamlet",
+      "illegal operation",
+      "m7",
+      "robbery",
+      "standout vehicle"
+    ],
+    "facts": {
+      "type": "illegal gang operation",
+      "location": "Northeast Hamlet, Mariana County",
+      "owner": "M7",
+      "purchasable": false,
+      "availability": "Robbery Opportunity, high security, three Key Valuables"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-nova-auto-junkyard",
+      "game8-teniente-manana"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "industrial-weed-grow",
+    "name": "Industrial Weed Grow",
+    "summary": "A remote, heavily guarded weed factory in North Mariana County that IGN says can be raided at any point in the game.",
+    "body": [
+      "IGN says the Industrial Weed Grow is an Illegal Operation northwest of Grassrivers in Mariana County, northeast of Tola Bay, and is not tied to any chapter.",
+      "IGN says it stays off the map until the area is entered and first appears as a Robbery Opportunity, so it is easy to miss.",
+      "IGN lists three Key Valuables: the Vapid Cultivator Sandking Standout vehicle in the main warehouse, a safe in the west-side office holding $984, and the Chronic Vatra SMG weapon variant in a caged armory on the east side.",
+      "IGN rates its security as high."
+    ],
+    "tags": [
+      "grassrivers",
+      "illegal operation",
+      "mariana county",
+      "standout vehicle",
+      "weed"
+    ],
+    "facts": {
+      "type": "illegal gang operation",
+      "location": "North Mariana County, northwest of Grassrivers",
+      "purchasable": false,
+      "availability": "Any time; hidden until the area is entered"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-industrial-weed-grow"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "kolt-associates-stash-house",
+    "name": "Kolt & Associates Stash House",
+    "summary": "A small Kolt & Associates drug house in Port Gellhorn that IGN says opens as an Illegal Operation in Chapter 2.",
+    "body": [
+      "IGN says the Stash House is a medium-security Illegal Operation run by Kolt & Associates, just northwest of the Wasteland Off-Road mod shop in Port Gellhorn, Kelly County.",
+      "IGN says it is marked on the map in Chapter 2, once Vicki mentions that the gang runs the local drug trade.",
+      "IGN lists two Key Valuables: the Kolt & Associates 556 assault rifle variant on the kitchen counter and a safe in the next room that opens without a code and holds $1,489.",
+      "IGN warns that gang members outside turn hostile on approach and that more arrive once the rifle is taken."
+    ],
+    "tags": [
+      "illegal operation",
+      "kelly county",
+      "kolt and associates",
+      "port gellhorn"
+    ],
+    "facts": {
+      "type": "illegal gang operation",
+      "location": "Port Gellhorn, Kelly County",
+      "owner": "Kolt & Associates",
+      "purchasable": false,
+      "availability": "Chapter 2"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-stash-house"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

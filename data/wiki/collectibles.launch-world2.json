@@ -850,7 +850,8 @@
     "summary": "A No Flusher utility marking outside The Banana Hole bar on Shore Dr, Ocean Beach.",
     "body": [
       "Push Square places this utility marking outside The Banana Hole bar on Shore Dr in Ocean Beach, Vice Beach.",
-      "Push Square says Cal first texts the player about these markings, that they are scanned with WAiNK, and that it did not yet know how many exist; GameTrek gives 23 No Flusher Tags."
+      "Push Square says Cal first texts the player about these markings, that they are scanned with WAiNK, and that it did not yet know how many exist; GameTrek gives 23 No Flusher Tags.",
+      "IGN lists this as NoFlusher Tag 4 of 15: on the pavement at the corner of Shore Dr and Huevo St outside the Banana Hole bar, in eastern Ocean Beach."
     ],
     "tags": [
       "no flusher",
@@ -865,9 +866,10 @@
     "confidence": "corroborated",
     "sources": [
       "ps-noflusher",
-      "gmtreks-waink"
+      "gmtreks-waink",
+      "ign-noflusher-tags"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

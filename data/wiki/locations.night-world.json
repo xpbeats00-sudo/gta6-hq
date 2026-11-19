@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "jasons-safehouse-key-lento",
+    "name": "Jason's safehouse (Key Lento)",
+    "summary": "Jason's first home, in Key Lento, with a cash stash, wardrobe, home gym and a jetty for fishing.",
+    "body": [
+      "GTA BOOM says Jason's first safehouse in Key Lento becomes available at the end of the mission Gone Fishing and is entered by the outside stairs.",
+      "GTA BOOM says the books inside can be examined to register Magazines, Books & Comics entries, and that Dolores the snake's tank by the kitchen has a Feed option.",
+      "GTA BOOM lists coffee, protein bars and fridge drinks, a wardrobe, a cash stash under the bedroom floorboards and a bed for resting.",
+      "GTA BOOM says the waterside deck has a home gym with a punching bag under the house, that repairs can be made to an indoor wall, the railing and the roof, and that a jetty nearby has a fishing rod stand.",
+      "Game8 lists Jason's House as a safe house and says safe houses let the player rest, stash cash, store food and change clothes.",
+      "IGN says repairs to Jason's Key Lento house cost nothing, are walked through by the game, raise his relationship with Lucia, and have to be done before a later story beat, which is why it suggests doing them first.",
+      "IGN says cash stashed in the bedroom should be banked once BuckMe is set up."
+    ],
+    "tags": [
+      "fishing",
+      "jason",
+      "key lento",
+      "safehouse",
+      "workout"
+    ],
+    "facts": {
+      "type": "safehouse",
+      "districts": [
+        "Key Lento"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtaboom-jasons-safehouse",
+      "game8-safe-houses",
+      "ign-things-to-do-first"
+    ],
+    "verified": "2026-11-19",
+    "spoiler": true
+  }
+]

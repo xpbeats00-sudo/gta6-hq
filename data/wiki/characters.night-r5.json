@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "petra-navarro",
+    "name": "Petra Navarro",
+    "summary": "Megamundo's chief operating officer, whom Jason and Lucia meet through Valentina.",
+    "body": [
+      "GTABase's character guide lists Petra Navarro as a supporting character and calls her the Chief Operating Officer at Megamundo.",
+      "GTABase says she meets Jason and Lucia through Valentina at the opening of the Megamundo Building."
+    ],
+    "role": "Supporting character",
+    "group": "supporting",
+    "tags": [
+      "megamundo",
+      "supporting",
+      "vice city"
+    ],
+    "facts": {
+      "affiliation": "Megamundo; Valentina; Andrés de León",
+      "occupation": "Chief Operating Officer, Megamundo",
+      "home": "Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "raymond",
+    "name": "Raymond",
+    "summary": "A San4San-affiliated man who, GTABase says, appears to run a drug house in Vice City.",
+    "body": [
+      "GTABase's character guide says Raymond appears to operate a drug house and is affiliated with the San4San gang.",
+      "GTABase's guide pictures him with a frame from Rockstar's Extended Look video."
+    ],
+    "role": "Supporting character",
+    "group": "supporting",
+    "tags": [
+      "san4san",
+      "supporting",
+      "vice city"
+    ],
+    "facts": {
+      "affiliation": "San4San",
+      "home": "Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "ernesto",
+    "name": "Ernesto",
+    "summary": "A San4San associate who, GTABase says, runs a drug manufacturing operation with Raymond.",
+    "body": [
+      "GTABase lists Ernesto as a supporting character affiliated with the San4San gang.",
+      "GTABase says he and Raymond run a drug manufacturing operation, and also links him to Boobie Ike."
+    ],
+    "role": "Supporting character",
+    "group": "supporting",
+    "tags": [
+      "san4san",
+      "supporting"
+    ],
+    "facts": {
+      "affiliation": "San4San; Raymond; Boobie Ike",
+      "home": "Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-ernesto",
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "joey",
+    "name": "Joey",
+    "summary": "The mechanic at Coastal Auto Care who repairs Jason's '70 Ganado early in the game.",
+    "body": [
+      "GTABase's page for Joey, added on November 18, says he works at Coastal Auto Care, the garage where Jason takes his '70 Ganado for repairs in Just a Scratch.",
+      "The app already mentions Joey inside other entries (his free repair in Chapter 1) but has no character entry for him."
+    ],
+    "role": "Supporting character",
+    "group": "supporting",
+    "tags": [
+      "coastal auto care",
+      "garage",
+      "mechanic"
+    ],
+    "facts": {
+      "occupation": "Garage worker, Coastal Auto Care"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-joey",
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "stefanie-gates",
+    "name": "Stefanie Gates",
+    "summary": "The prison social worker heard talking to Lucia at the start of the first trailer.",
+    "body": [
+      "GTABase says Stefanie Gates appears to work as a social worker at the Leonida Department of Corrections state prison.",
+      "GTABase notes hers is the first voice heard in GTA VI, at the start of Trailer 1, talking to Lucia in her office while Lucia is held at the prison."
+    ],
+    "role": "Supporting character",
+    "group": "supporting",
+    "tags": [
+      "lucia",
+      "prison",
+      "trailer 1"
+    ],
+    "facts": {
+      "affiliation": "Leonida Department of Corrections",
+      "occupation": "Correctional social worker"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "phil",
+    "name": "Phil",
+    "summary": "The owner of Phil's Ammu-Nation, seen in the Ammu-Nation advert in Trailer 2.",
+    "body": [
+      "GTABase says Phil appears in an Ammu-Nation commercial in Trailer 2 and lists him as the owner of Phil's Ammu-Nation.",
+      "GTABase says he seems to be a reimagined Phil Cassidy from the 3D-era games, but notes he is younger and has both arms, unlike the original."
+    ],
+    "role": "Supporting character",
+    "group": "supporting",
+    "tags": [
+      "ammu-nation",
+      "phil cassidy",
+      "trailer 2"
+    ],
+    "facts": {
+      "occupation": "Owner of Phil's Ammu-Nation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "camillo",
+    "name": "Camillo",
+    "summary": "A Vice City livestreamer and content creator who turns his run-in with Lucia into content.",
+    "body": [
+      "GTABase lists Camillo (also spelled Camilo on the same page) as a livestreamer and content creator based in Vice City.",
+      "GTABase says his hairstyle, glasses and manner appear to parody the streamer N3on."
+    ],
+    "role": "Minor character",
+    "group": "supporting",
+    "tags": [
+      "content creator",
+      "streamer",
+      "vice city"
+    ],
+    "facts": {
+      "occupation": "Livestreamer and content creator",
+      "home": "Vice City"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "macca-the-gator",
+    "name": "Macca the Gator",
+    "summary": "A pink cartoon alligator from Leonida's hit adult animated show, Macca & Friends.",
+    "body": [
+      "GTABase describes Macca the Gator as a character from Leonida's most popular adult animated TV show, Macca & Friends, and says he is a pink alligator.",
+      "GTABase notes he featured heavily in the game's promotional material, including a small statue."
+    ],
+    "role": "Minor character",
+    "group": "supporting",
+    "tags": [
+      "cartoon",
+      "macca & friends",
+      "mascot"
+    ],
+    "facts": {
+      "occupation": "Fictional TV cartoon character"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "bae-luxe",
+    "name": "Bae-Luxe",
+    "summary": "One half of the rap duo Real Dimez, alongside Roxy.",
+    "body": [
+      "GTABase's character guide names Bae-Luxe and Roxy as the two members of Real Dimez, friends since high school.",
+      "GTABase repeats Rockstar's description that an early hit with the local rapper DWNPLY lifted the duo, and that they are now signed to Only Raw Records."
+    ],
+    "role": "Major character",
+    "group": "supporting",
+    "tags": [
+      "only raw",
+      "rapper",
+      "real dimez"
+    ],
+    "facts": {
+      "affiliation": "Real Dimez; Roxy; Dre'Quan Priest (Only Raw Records)",
+      "occupation": "Rapper"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "roxy",
+    "name": "Roxy",
+    "summary": "One half of the rap duo Real Dimez, alongside Bae-Luxe.",
+    "body": [
+      "GTABase's character guide names Roxy and Bae-Luxe as the two members of Real Dimez, friends since high school.",
+      "GTABase says the duo are signed to Dre'Quan Priest's Only Raw Records."
+    ],
+    "role": "Major character",
+    "group": "supporting",
+    "tags": [
+      "only raw",
+      "rapper",
+      "real dimez"
+    ],
+    "facts": {
+      "affiliation": "Real Dimez; Bae-Luxe; Dre'Quan Priest (Only Raw Records)",
+      "occupation": "Rapper"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-chars-hub"
+    ],
+    "verified": "2026-11-18"
+  }
+]

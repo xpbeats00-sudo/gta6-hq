@@ -84,12 +84,16 @@
     ],
     "summary": "Jason's well-worn, low-riding pickup. The Ultimate Edition adds the Ganado Retro Build, a set of exclusive mods for it.",
     "body": [
-      "Rockstar describes the Retro Build as adding muscle and classic styling to the truck. One of its images shows Jason driving a Ganado in yellow paint with a red racing stripe."
+      "Rockstar describes the Retro Build as adding muscle and classic styling to the truck. One of its images shows Jason driving a Ganado in yellow paint with a red racing stripe.",
+      "IGN says the Ultimate Edition Retro Build for Jason's Vapid '70 Ganado is claimed at Coastal Auto Care, whose owner Joey texts its location shortly after Chapter 1 begins, adding a Fix Your Car objective that IGN says slightly raises Jason's relationship with Lucia.",
+      "IGN says the required repairs, including the engine and a respray, come first; the build is then under Pro Builds, Full Kits, as Retro Build: Ultimate Edition.",
+      "IGN says the Retro Build is more than a cosmetic change, giving the Ganado slightly better speed and acceleration."
     ],
     "facts": {
       "manufacturer": "Vapid",
       "model": "Ganado",
-      "class": "Pickup"
+      "class": "Pickup",
+      "year": "1970"
     },
     "related": [
       "characters/jason-duval",
@@ -108,9 +112,10 @@
     "confidence": "official",
     "sources": [
       "rockstar-media",
-      "g6w-editions"
+      "g6w-editions",
+      "ign-ganado-retro-build"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-19"
   },
   {
     "slug": "shitzu-squalo",
@@ -120,7 +125,9 @@
     ],
     "summary": "A boat in a pink-to-blue gradient that comes with the Ultimate Edition, docked at Washington Beach.",
     "body": [
-      "Rockstar pitches it for fishing in Gambit Bay, and says it is made ready for open water by a weapons crate loaded with explosives."
+      "Rockstar pitches it for fishing in Gambit Bay, and says it is made ready for open water by a weapons crate loaded with explosives.",
+      "GameSpot says Ultimate Edition owners can take a custom Shitzu Squalo from just after Chapter 4 begins, docked on Washington Island near the Y Hotel, and that it stays there for most of the story.",
+      "Game8 lists a separate Fine Art variant, the Street Art Squalo, on a trailer on Sunset Dr in Key Lento."
     ],
     "facts": {
       "manufacturer": "Shitzu",
@@ -144,9 +151,11 @@
     "confidence": "official",
     "sources": [
       "rockstar-media",
-      "g6w-editions"
+      "g6w-editions",
+      "gs-get-boat",
+      "g8-street-art-squalo"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-19"
   },
   {
     "slug": "dinka-enduro",
@@ -156,13 +165,15 @@
     ],
     "summary": "A motorcycle in Army-fatigue colours, one of the two safehouse vehicles for Jason in the Ultimate Edition.",
     "body": [
-      "Rockstar lists it with the Crest Kayak under Jason's Safehouse Vehicles."
+      "Rockstar lists it with the Crest Kayak under Jason's Safehouse Vehicles.",
+      "IGN calls it the Dinka '72 Enduro and says this Ultimate Edition motorcycle is stored underneath Jason's Key Lento house."
     ],
     "facts": {
       "manufacturer": "Dinka",
       "model": "Enduro",
       "class": "Motorcycle",
-      "availability": "Ultimate Edition"
+      "availability": "Ultimate Edition",
+      "year": "1972"
     },
     "related": [
       "characters/jason-duval",
@@ -181,9 +192,10 @@
     "confidence": "official",
     "sources": [
       "rockstar-media",
-      "g6w-editions"
+      "g6w-editions",
+      "ign-beginners-guide"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-19"
   },
   {
     "slug": "crest-kayak",

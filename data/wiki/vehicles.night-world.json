@@ -1,0 +1,131 @@
+[
+  {
+    "slug": "twinstripe-vigero",
+    "name": "Twinstripe Vigero",
+    "summary": "A Standout street-racer build of the Declasse Vigero ZX Convertible that Game8 finds outside Brian's Lockup in Key Lento.",
+    "body": [
+      "Game8 files the Twinstripe Vigero as a Standout vehicle of the Street Racer type, made by Declasse and dated to the 2010s.",
+      "Game8 describes it as a Vigero ZX Convertible tuned for racing and given a custom paint scheme.",
+      "Game8 says it has a fixed spawn outside Brian's Lockup on Sunset Dr., on the southwest side of Key Lento; if it appears with the roof up, a window has to be broken to get in.",
+      "Game8 says it cannot be driven until the Clone Key option is unlocked during Chapter 3 of the story.",
+      "Game8 rates it 7.1 for speed and acceleration, 5.6 for asphalt handling, 3.4 off-road and 3 for strength, with base ratings of 656 on asphalt and 219 off-road; it seats two, holds two items and uses the Muscle mod specialist."
+    ],
+    "tags": [
+      "clone key",
+      "declasse",
+      "key lento",
+      "standout",
+      "street racer"
+    ],
+    "facts": {
+      "manufacturer": "Declasse",
+      "model": "Vigero ZX Convertible (Twinstripe Standout)",
+      "year": "2010s",
+      "class": "Standout: Street Racer",
+      "availability": "Fixed spawn outside Brian's Lockup, Sunset Dr., Key Lento; needs Clone Key (Chapter 3)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-twinstripe-vigero",
+      "game8-standout-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "driveshaft-hustler",
+    "name": "Driveshaft Hustler",
+    "summary": "A Standout hot-rod conversion of a '32 Vapid Hustler parked at a wealthy home in southeast Key Lento, per Game8.",
+    "body": [
+      "Game8 files the Driveshaft Hustler as a Standout vehicle of the DriveShaft Famous type, made by Vapid and dated to the 1930s.",
+      "Game8 describes it as a carefully kept '32 Vapid Hustler turned into a hot rod, owned by an elderly Key Lento resident named Tommy O'Callahan.",
+      "Game8 says it spawns in the front yard of a wealthy house on the southeast side of Key Lento, just east of Jeb's Snack Bar on Dolphin Dr.",
+      "Game8 rates it 4 for speed, 5.7 for acceleration, 3.3 asphalt handling, 3.8 off-road and 3 strength, with base ratings of 447 on asphalt and 258 off-road; it seats two and its mod specialist is Hot Rods."
+    ],
+    "tags": [
+      "driveshaft famous",
+      "hot rod",
+      "key lento",
+      "standout",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Hustler ('32, Driveshaft Standout)",
+      "year": "1932",
+      "class": "Standout: DriveShaft Famous",
+      "availability": "Fixed spawn at a house east of Jeb's Snack Bar, Dolphin Dr., Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-driveshaft-hustler",
+      "game8-standout-vehicles"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "teniente-manana",
+    "name": "Albany Teniente Manana",
+    "summary": "A Standout lowrider built from a '77 Albany Manana, kept by the M7 gang in a garage at the Nova Auto Junkyard in Hamlet.",
+    "body": [
+      "Game8 files the Teniente Manana as a Standout vehicle of the Lowrider type, made by Albany, and calls it a luxury lowrider converted from a '77 Albany Manana.",
+      "Game8 and IGN both place it at the M7 gang's Nova Auto Junkyard in Hamlet; IGN says it is the third Key Valuable of that Illegal Operation, sitting in the garage beside the office with the safe.",
+      "IGN says the car is unlocked with no trackers, costs $1,450 to register and sells for $3,770.",
+      "The sources differ on its type: Game8 lists it as a Lowrider, while IGN calls it a muscle car.",
+      "Game8 rates it 4.8 for speed, 5.2 acceleration, 4 asphalt handling, 2.6 off-road and 3 strength, with base ratings of 475 on asphalt and 182 off-road."
+    ],
+    "tags": [
+      "albany",
+      "hamlet",
+      "illegal operation",
+      "lowrider",
+      "m7",
+      "standout"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "Teniente Manana (from '77 Manana)",
+      "year": "1977",
+      "class": "Standout: Lowrider (IGN: muscle car)",
+      "availability": "Key Valuable at the M7 Nova Auto Junkyard, Hamlet"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "game8-teniente-manana",
+      "ign-nova-auto-junkyard"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-cultivator-sandking",
+    "name": "Vapid Cultivator Sandking",
+    "summary": "A Standout Sandking truck that IGN finds parked inside the Industrial Weed Grow operation in Mariana County.",
+    "body": [
+      "IGN calls the Vapid Cultivator Sandking a Standout vehicle and the first of three Key Valuables at the Industrial Weed Grow Illegal Operation.",
+      "IGN says it sits in the middle of the operation's large warehouse and that the north side of the building has an opening straight to it.",
+      "IGN says the truck is unlocked with no alarm, costs $6,300 to register and sells for $16,170.",
+      "IGN does not say which Standout group it belongs to."
+    ],
+    "tags": [
+      "illegal operation",
+      "mariana county",
+      "sandking",
+      "standout",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Cultivator Sandking",
+      "class": "Standout (group not stated)",
+      "availability": "Key Valuable at the Industrial Weed Grow, North Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-industrial-weed-grow"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

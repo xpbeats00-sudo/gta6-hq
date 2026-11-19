@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "petting-cats-and-dogs",
+    "name": "Petting cats and dogs",
+    "summary": "Friendly cats and dogs can be praised, petted and fed treats, which IGN says boosts Focus and the Criminal Profile.",
+    "body": [
+      "IGN says a friendly animal is first focused on with L2/LT and then praised; an animal that does not want to be petted will often come closer if the praise is repeated.",
+      "IGN says the character crouches once the animal sits, and the pet is then given with Triangle (X on Xbox).",
+      "According to IGN, up to two pet treats can be fed to an animal on top of petting, and treats are sold at the till of grocery and convenience stores.",
+      "IGN says petting and feeding cats and dogs gives a Focus boost, a small amount of progress toward the next Focus level and points toward a professional Criminal Profile.",
+      "GamesRadar+ says the same L2/LT focus on an unidentified animal also offers Study, which adds it to the animal collection, and Scold.",
+      "GamesRadar+ points to a cat that works in the Key Lento Mini Mart as one to meet early in Chapter 1, and says only domestic animals can be petted."
+    ],
+    "tags": [
+      "cats",
+      "criminal profile",
+      "dogs",
+      "focus",
+      "pets"
+    ],
+    "facts": {
+      "type": "Interaction",
+      "shown_in": "IGN guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-pet-animals",
+      "gr-pet-animals"
+    ],
+    "verified": "2026-11-19",
+    "spoiler": true
+  },
+  {
+    "slug": "relationship-levels",
+    "name": "Relationship levels",
+    "summary": "IGN names the four relationship levels, from Running On Empty to Hot Together, and the gameplay that raises or lowers them.",
+    "body": [
+      "IGN gives the four levels, lowest first, as Running On Empty (a broken purple heart), Not So Hot (a half-broken gradient heart), Crazy In Love (a pink heart) and Hot Together (a flaming heart).",
+      "IGN says the level shows at the bottom of the Jason & Lucia tab of the map screen and on the heart between the two portraits in the relationship quick-menu, opened by holding Right on the D-pad.",
+      "IGN says changes show as a purple broken heart with a minus, a pink heart with a plus, or a flaming heart for a big gain, mostly tied to story moments.",
+      "IGN lists invitations to hang out, hugs and kisses (L2/LT then Square/X on the heart prompt), talking while driving (hold Up), dancing together at clubs, holding hands (hold R2/RT), handing over food or drinks, exercising and committing crimes together as raising it.",
+      "IGN says ignoring calls, texts or greetings, long spells apart and driving off without the partner lower it, and that Hot Together needs both characters to contribute.",
+      "IGN says the two can be intimate at Crazy In Love or Hot Together, with a cooldown of at least a couple of real-world hours, and that no other character can be romanced and no sex workers can be solicited."
+    ],
+    "tags": [
+      "jason",
+      "lucia",
+      "relationship",
+      "romance"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "IGN guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-sex-and-romance"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "wanted-star-colours",
+    "name": "Wanted star colours",
+    "summary": "IGN explains five looks for the wanted stars, from grey (reported, unseen) to red outlines (police on alert but no longer matching you).",
+    "body": [
+      "IGN says the wanted level follows what is reported, not what is done: a crime seen by police, a witness's call, a mistaken report, or a crime big enough for dispatch to respond at once, such as explosions, trespassing in high-security areas or stealing a plane.",
+      "IGN says grey stars mean a crime has been reported and police are coming with a description but have not seen the player; more grey stars need more reports, and stars also turn grey when police lose sight.",
+      "IGN says unfilled stars with a white outline mean an incident is known but not who did it, for example when heat icons were cleared before being seen or gunfire was heard but not seen.",
+      "IGN says solid white stars mean police have eyes on the player and are in full pursuit; they often use Tasers on an unarmed suspect, and shooting tyres or yellow non-lethal spots raises the level more slowly than shots to the body or head.",
+      "IGN says solid red stars mean police have lost the player but are hunting someone matching the heat icons shown, while red-outlined stars mean they know a crime happened in the area but the player no longer matches; the area is outlined and shaded red on the map.",
+      "IGN says a police scanner, unlocked in an early Chapter 1 story mission, relays what dispatch knows, including when a helicopter leaves to refuel."
+    ],
+    "tags": [
+      "heat",
+      "police",
+      "stars",
+      "wanted level"
+    ],
+    "facts": {
+      "type": "System",
+      "shown_in": "IGN guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-wanted"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "road-rules-tolls-and-signals",
+    "name": "Tolls, turn signals and the horn",
+    "summary": "IGN's beginner tips on driving: $5 tolls, turn signals on the D-pad, a horn that can move traffic, and a first-person phone view.",
+    "body": [
+      "IGN says passing through a toll costs 5 dollars, but nothing is charged in a stolen car or a friend's vehicle.",
+      "IGN says Left and Right on the D-pad work the turn signals while driving, switching off once the turn is done.",
+      "IGN says honking with a click of the left stick can make a stalled car ahead pull out into traffic, or anger its driver.",
+      "IGN says taking out the phone while driving switches to a first-person view with the road out of focus, though full control remains.",
+      "IGN says audible GPS directions are set under Settings, Audio, GPS Voice, and that buildings with explorable interiors are outlined on the minimap and map."
+    ],
+    "tags": [
+      "driving",
+      "tips",
+      "tolls"
+    ],
+    "facts": {
+      "type": "Driving",
+      "shown_in": "IGN guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-beginners-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "flipping-a-vehicle",
+    "name": "Flipping an overturned vehicle",
+    "summary": "IGN says a car on its side or roof is righted by pushing it, with a charged shove for heavier ones; small boats can be pushed back too.",
+    "body": [
+      "IGN says a vehicle on its side or roof is righted on foot by walking into it to push, which can roll a light car over.",
+      "IGN says holding Square (X on Xbox) while pushing charges a hard shove that rights most cars; some need pushing from the other side or a bump from another vehicle.",
+      "IGN says the same pushing works on small boats stranded on land, nudging them back to the water."
+    ],
+    "tags": [
+      "driving",
+      "tips",
+      "vehicles"
+    ],
+    "facts": {
+      "type": "Driving",
+      "shown_in": "IGN guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-beginners-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "street-interactions",
+    "name": "Street interactions",
+    "summary": "IGN's beginner tips on dealing with people in the street: shoves and slaps, knocking away a phone, rude gestures and trespassing.",
+    "body": [
+      "IGN says Square (X on Xbox) out of combat gives a slap or shove that is aggressive but not lethal, turning into punches and kicks if repeated or if the other person escalates.",
+      "IGN says someone reaching for their phone to call the police can have it slapped out of their hand with Square/X, though many witnesses can still get the call through.",
+      "IGN says the interaction system (L2/LT) handles strangers who approach or odd events, and that holding R1/RB while focused on someone gives a rude gesture, with reactions varying by person.",
+      "IGN says people may shout, call the police or physically remove a character standing on their property.",
+      "IGN says lifeguard huts on Vice Beach can hold a volleyball that can be thrown at people, mostly to outrage, and that knocked-off hats and glasses that are not owned must be picked up or they are lost."
+    ],
+    "tags": [
+      "interaction",
+      "npcs",
+      "tips"
+    ],
+    "facts": {
+      "type": "Interaction",
+      "shown_in": "IGN guide, November 19, 2026"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-beginners-guide"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

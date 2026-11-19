@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "bigfoot",
+    "name": "Bigfoot",
+    "summary": "A Bigfoot that players met in the swamps on launch day, ending in a sleep cutscene beside a tree effigy.",
+    "body": [
+      "Insider Gaming says Bigfoot can be found by driving to Cottonmouth Lake, just south of Hamlet, and that no great story progress is needed, only the freedom to drive around.",
+      "Insider Gaming says a deep growl signals the right area, that Bigfoot is first seen on the road standing over an animal carcass, and that it runs off into the marsh and vanishes.",
+      "According to Insider Gaming, an effigy is left tied to a tree where it disappeared, flowers nearby put the player to sleep, and a cutscene shows Bigfoot's large hairy feet approaching.",
+      "GameSpot's Easter egg list gives the location as Gullet Marsh and says the encounter is hard to miss because a particular mission leads to it.",
+      "GamesRadar+ reported on November 18, 2026 that several players had already found Bigfoot and described it as tied to a single location.",
+      "Disagreement: Insider Gaming places it at Cottonmouth Lake below Hamlet, while GameSpot names Gullet Marsh; neither page says whether the two are the same area.",
+      "No page read says whether this Bigfoot is the creature Kirk calls the Skunk Ape or Mr. Mangrove."
+    ],
+    "tags": [
+      "bigfoot",
+      "cryptid",
+      "easter egg",
+      "sasquatch",
+      "swamp"
+    ],
+    "facts": {
+      "species": "Bigfoot (Sasquatch)",
+      "habitat": "Swamp south of Hamlet: Cottonmouth Lake (Insider Gaming) or Gullet Marsh (GameSpot)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ig-bigfoot",
+      "gs-easter-eggs",
+      "gr-bigfoot-news"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lucky-dog",
+    "name": "Lucky Dog",
+    "summary": "A dog on a jet ski that rescues a player stranded at sea and leads them to a buried $1,200 stash.",
+    "body": [
+      "Insider Gaming calls Lucky Dog a secret event: after about five minutes alone in the open water, a dog riding a jet ski comes to the rescue, and its barking may be heard first.",
+      "Insider Gaming suggests taking the boat from the dock at Jason's house into Gambit Bay, jumping off and swimming away from it, clear of other boats and islands.",
+      "Insider Gaming says the player can climb onto the jet ski and be carried to the dog's small sanctuary, and that story progress does not affect when it can happen.",
+      "According to Insider Gaming, throwing the dog a ball and interacting with it makes it show the player around the island, and it eventually digs up a hidden stash worth $1,200.",
+      "Insider Gaming says no achievement seems to be linked to it.",
+      "GameSpot reports that the streamer ChizPlays met a dog on a wave runner after heading far out to sea, but that GameSpot could not make it happen in its own test and thinks it may be a random event."
+    ],
+    "tags": [
+      "dog",
+      "jet ski",
+      "money",
+      "sea",
+      "secret event"
+    ],
+    "facts": {
+      "species": "Dog",
+      "habitat": "Open sea, for example Gambit Bay",
+      "hostile": false
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ig-lucky-dog",
+      "gs-leave-leonida"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "slug": "imponte-ruiner-82",
+    "name": "Imponte Ruiner '82",
+    "summary": "A 1980s Imponte muscle car modelled on the Pontiac Trans Am and Chevrolet Camaro.",
+    "body": [
+      "GTABase lists the Imponte Ruiner '82 as a muscle car based on the Pontiac Trans Am and Chevrolet Camaro, with Muscle as its specialist shop.",
+      "GTABase gives it two seats, rear-wheel drive and five gears, a registration cost of $6,400, no tracker and a stolen sell value of $1,925.",
+      "GTABase notes the Ruiner name has appeared in GTA V and GTA IV."
+    ],
+    "tags": [
+      "1980s",
+      "imponte",
+      "muscle car"
+    ],
+    "facts": {
+      "manufacturer": "Imponte",
+      "model": "Ruiner",
+      "year": "'82",
+      "class": "Muscle",
+      "seats": 2,
+      "drivetrain": "RWD"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-v-ruiner"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "vapid-slamvan-56",
+    "name": "Vapid Slamvan '56",
+    "summary": "A rat-rodded 1950s Vapid pickup that GTABase files under muscle cars.",
+    "body": [
+      "GTABase lists the Vapid Slamvan '56 as a muscle car based on a rat-rodded 1953-1956 Ford F-Series pickup, with Hot Rods as its specialist shop.",
+      "GTABase gives it two seats, rear-wheel drive and four gears, a registration cost of $17,500, a standard tracker and a stolen sell value of $5,225."
+    ],
+    "tags": [
+      "1950s",
+      "hot rod",
+      "pickup",
+      "vapid"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Slamvan",
+      "year": "'56",
+      "class": "Muscle",
+      "seats": 2,
+      "drivetrain": "RWD"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-v-slamvan"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "albany-devanity-59",
+    "name": "Albany DeVanity '59",
+    "summary": "A 1959 Albany coupe modelled on the Cadillac Eldorado, new to the series.",
+    "body": [
+      "GTABase lists the Albany DeVanity '59 as a coupe based on the 1959 Cadillac Eldorado and says it is new to the series in GTA VI.",
+      "GTABase names Lowriders as its specialist shop and gives it two seats, a registration cost of $21,750, a standard tracker and a stolen sell value of $6,490."
+    ],
+    "tags": [
+      "1950s",
+      "albany",
+      "coupe",
+      "lowrider"
+    ],
+    "facts": {
+      "manufacturer": "Albany",
+      "model": "DeVanity",
+      "year": "'59",
+      "class": "Coupes",
+      "seats": 2
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-v-devanity"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "schyster-woodland-85",
+    "name": "Schyster Woodland '85",
+    "summary": "A wood-panelled 1980s Schyster wagon modelled on the Chrysler LeBaron Town & Country.",
+    "body": [
+      "GTABase lists the Schyster Woodland '85 under sedans, based on the 1986-1988 Chrysler LeBaron Town & Country station wagon, and says it is new to the series.",
+      "GTABase names Donks as its specialist shop and gives it four seats, a registration cost of $7,400, no tracker and a stolen sell value of $2,200."
+    ],
+    "tags": [
+      "1980s",
+      "schyster",
+      "station wagon"
+    ],
+    "facts": {
+      "manufacturer": "Schyster",
+      "model": "Woodland",
+      "year": "'85",
+      "class": "Sedans",
+      "seats": 4
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-v-woodland"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "bravado-buffalo-19",
+    "name": "Bravado Buffalo '19",
+    "summary": "A modern Bravado muscle sedan modelled on the 2015 Dodge Charger.",
+    "body": [
+      "GTABase lists the Bravado Buffalo '19 as a muscle car based on the 2015 Dodge Charger, with Tuner as its specialist shop and liveries available.",
+      "GTABase gives it four seats, rear-wheel drive and eight gears, a registration cost of $11,250, a standard tracker and a stolen sell value of $3,555.",
+      "It is separate from the '07 Bravado Buffalo already in the app."
+    ],
+    "tags": [
+      "bravado",
+      "muscle car",
+      "sedan"
+    ],
+    "facts": {
+      "manufacturer": "Bravado",
+      "model": "Buffalo",
+      "year": "'19",
+      "class": "Muscle",
+      "seats": 4,
+      "drivetrain": "RWD"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-v-buffalo19"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "annis-venturas-blvd-elegy-90",
+    "name": "Annis Venturas BLVD Elegy '90",
+    "summary": "A widebody tuned Elegy '90 given to GTA+ members from Chapter 3.",
+    "body": [
+      "GTABase describes the Venturas BLVD Elegy '90 as a GTA+ exclusive: a specially tuned Elegy '90 with a widebody design.",
+      "GTABase says the GTA+ menu offers it together with the GTA+ Crosstown Garage as the Venturas BLVD Elegy & Garage, and that both unlock on reaching Chapter 3 with an active membership.",
+      "GTABase gives it two seats, all-wheel drive and five gears, and names the Nissan Skyline GT-R as its real-world basis."
+    ],
+    "tags": [
+      "annis",
+      "elegy",
+      "gta+",
+      "widebody"
+    ],
+    "facts": {
+      "manufacturer": "Annis",
+      "model": "Venturas BLVD Elegy",
+      "year": "'90",
+      "class": "Sports",
+      "seats": 2,
+      "drivetrain": "AWD",
+      "availability": "GTA+ members, from Chapter 3"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-v-venturas"
+    ],
+    "verified": "2026-11-18"
+  }
+]

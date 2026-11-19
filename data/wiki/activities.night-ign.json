@@ -1,0 +1,4194 @@
+[
+  {
+    "slug": "how-fishing-works",
+    "name": "How fishing works",
+    "summary": "IGN's step-by-step for fishing: the rod is always carried, Focus shows where fish are, and a fish is tired out before reeling in.",
+    "body": [
+      "IGN says fishing can be done almost anywhere a line can be cast, at any time, though a tutorial comes in the Chapter 1 main mission Recalibration.",
+      "IGN says the Fishing Rod is always in the inventory, in the same loadout slot as the Binoculars and Flashlight (below Unarmed), and is selected by holding L1/LB and cycling with L2/LT or R2/RT.",
+      "IGN's method: choose a lure with Left and Right on the D-pad, use Focus to see fish glowing in the water, hold L2/LT to aim, draw back with R2/RT to set the cast's strength, and reel slowly with the right stick.",
+      "IGN says the first light rumble is only a nibble; on a stronger shake, R2/RT hooks the fish, the left stick is pushed against its direction to tire it, and fast reeling starts once the rumbling eases.",
+      "IGN says Cal texts fishing record challenges that put a purple fish icon on the map; the first, Catch a Bigger Fish in Chapter 1, asks for a Stoplight Parrotfish over 2 lb, and Cross (A) sends him a photo of the catch.",
+      "IGN says fishing gives a Focus boost and that Focus gains, unlike Strength and Cardio, are permanent."
+    ],
+    "tags": [
+      "cal",
+      "fishing",
+      "focus",
+      "sports"
+    ],
+    "facts": {
+      "type": "Sport",
+      "location": "Any water a line can be cast into",
+      "players": "Jason or Lucia"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-how-to-fish"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "crashed-plane-south-of-hamlet",
+    "name": "Crashed plane south of Hamlet",
+    "summary": "A small plane comes down in a field south of Hamlet early on; IGN says it holds a pistol and drugs, and armed men follow.",
+    "body": [
+      "IGN says smoke from a field south of Hamlet marks a crashed plane with a dead pilot, and that the plane can sometimes be seen losing control from the bridge between Key Lento and Hamlet.",
+      "IGN says a pistol and drugs lie around the wreck, Focus picks them out, and the drugs can go straight to Brian or Donnie.",
+      "IGN says a truck of armed men arrives soon after the loot is taken; their off-road truck can be taken for later drug recovery runs."
+    ],
+    "tags": [
+      "hamlet",
+      "money",
+      "plane crash",
+      "random event"
+    ],
+    "facts": {
+      "type": "World event",
+      "location": "Field south of Hamlet, Mariana County",
+      "players": "Jason or Lucia"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-money-early"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "solo-pool-tables",
+    "name": "Solo pool tables",
+    "summary": "Ten of the 17 pool tables have no opponent; IGN says they are free to play and count as cleared once the 8-ball is potted.",
+    "body": [
+      "IGN counts 17 pool tables, marked by a purple 8-ball icon; clicking a venue's map icon shows whether it has one, and all 17 are needed for 100%.",
+      "IGN says ten tables are for free solo play and are marked cleared once the 8-ball goes down.",
+      "IGN's Mariana County solo tables: under an awning by the dock outside the Isla Tropical Private Club, inside the Tiki Touchdown bar, beneath a white house at Cangrejo St and Queen Palm Ave in Southwind (filed as Riquezas Keys), and on the back patio of The White Clam restaurant.",
+      "IGN's Vice-Dale County solo tables: a first-floor balcony in the Carnegie Ivory Towers on Dalton Island, beside an ATM in the Tisha-Wocka Flea Market, the Grand Majestic Aparthotel lobby facing its gym, the middle roof of the Sumerian Hotel, and a back room of the Pegassi Residences penthouse.",
+      "IGN's one Leonard County solo table is in a first-floor room above the courtyard of the Sands of Time Assisted Living & Memory Care facility."
+    ],
+    "tags": [
+      "100 percent",
+      "pool",
+      "sports"
+    ],
+    "facts": {
+      "type": "Bar sport (solo)",
+      "location": "Mariana, Vice-Dale and Leonard counties",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-pool"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-ambrosia-raceway-trial",
+    "name": "Ambrosia Raceway Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places the Ambrosia Raceway in the east of North Kelly County, near Lake Leonida.",
+      "The aim is to cross the finish line as quickly as possible. IGN's medal times are 15 seconds for gold, 20 seconds for silver and 35 seconds for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Ambrosia Raceway, east North Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-gellhorn-dragway-trial",
+    "name": "Gellhorn Dragway Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places the raceway, which it spells both Gelhorn and Gellhorn, in the south-east of South Kelly County.",
+      "The aim is to cross the finish line as quickly as possible. IGN's medal times are 11 seconds for gold, 15 seconds for silver and 20 seconds for bronze.",
+      "IGN says the raceway's other events open only after an Introduction: Beau rides along for a supervised lap that must be finished inside one minute. IGN counts that Introduction among its 13 challenges, which with the other events listed makes 14; PowerPyx's list of 13, cited in the app's race challenge entry, leaves it out."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Gellhorn Raceway, south-east South Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-gellhorn-raceway-trial",
+    "name": "Gellhorn Raceway Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places the raceway in the south-east of South Kelly County.",
+      "The aim is to reach the finish before the checkpoint timer runs out. IGN's medal times are 3:15 for gold, 3:45 for silver and 4:15 for bronze.",
+      "IGN says it opens after the raceway's supervised Introduction lap with Beau."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Gellhorn Raceway, south-east South Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-hamlet-bmx-stunt-run",
+    "name": "Hamlet BMX Stunt Run",
+    "summary": "One of the Racing Challenges IGN lists, a scored stunt run with bronze, silver and gold medals.",
+    "body": [
+      "IGN places it in the north of Hamlet, north-east of Boone Speedway.",
+      "The aim is to beat the challenge score. IGN's medal scores are 3,000 points for gold, 2,000 for silver and 1,000 for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (stunt run)",
+      "location": "North Hamlet",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-boone-speedway-trial",
+    "name": "Boone Speedway Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places Boone Speedway in the south-west of Hamlet.",
+      "IGN describes it as an elimination race in which the last racers drop out each lap. IGN's medal times are 21 seconds for gold, 32 seconds for silver and 55 seconds for bronze.",
+      "IGN says a car can be rented for 400 dollars if the player has nothing suitable."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Boone Speedway, south-west Hamlet",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-kalaga-cycling-trial",
+    "name": "Kalaga Cycling Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN says it starts at the top of Mount Kalaga National Park in Lummox County.",
+      "The aim is to reach the foot of the mountain as fast as possible. IGN's medal times are 1:05 for gold, 1:15 for silver and 1:25 for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Mount Kalaga National Park, Lummox County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-mud-club-hill-climb-trial",
+    "name": "Mud Club Hill Climb Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places the Thrillbilly Mud Club, home to six of the challenges, in Frogswater near North Kelly County.",
+      "The aim is to reach the top of the hill as fast as possible. IGN's medal times are 20 seconds for gold, 30 seconds for silver and 1:00 for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-mud-club-swamp-run-trial",
+    "name": "Mud Club Swamp Run Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places it at the Thrillbilly Mud Club in Frogswater.",
+      "The aim is to cross the finish line as fast as possible. IGN's medal times are 32 seconds for gold, 45 seconds for silver and 1:00 for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-mud-club-drag-trial",
+    "name": "Mud Club Drag Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places it at the Thrillbilly Mud Club in Frogswater.",
+      "The aim is to cross the finish line as fast as possible. IGN's medal times are 8 seconds for gold, 10 seconds for silver and 12 seconds for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-mud-club-oval-trial",
+    "name": "Mud Club Oval Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places it at the Thrillbilly Mud Club in Frogswater.",
+      "The aim is to complete the laps as fast as possible. IGN's medal times are 20 seconds for gold, 25 seconds for silver and 30 seconds for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-mud-club-air-time-stunt-run",
+    "name": "Mud Club Air Time Stunt Run",
+    "summary": "One of the Racing Challenges IGN lists, a scored stunt run with bronze, silver and gold medals.",
+    "body": [
+      "IGN places it at the Thrillbilly Mud Club in Frogswater.",
+      "The aim is to stay in the air for as long as possible. IGN's medal scores are 1,600 points for gold, 800 for silver and 400 for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (stunt run)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-mud-club-dirt-track-trial",
+    "name": "Mud Club Dirt Track Trial",
+    "summary": "One of the Racing Challenges IGN lists, a timed trial with bronze, silver and gold medals.",
+    "body": [
+      "IGN places it at the Thrillbilly Mud Club in Frogswater.",
+      "The aim is to complete the laps as fast as possible. IGN's medal times are 2:45 for gold, 3:15 for silver and 4:00 for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (time trial)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-challenge-waning-sands-motocross-stunt-run",
+    "name": "Waning Sands Motocross Stunt Run",
+    "summary": "One of the Racing Challenges IGN lists, a scored stunt run with bronze, silver and gold medals.",
+    "body": [
+      "IGN places it in the north of Waning Sands, close to Richard Barebone State Park.",
+      "The aim is to land as many tricks as possible while passing through the checkpoints. IGN's medal scores are 3,000 points for gold, 2,000 for silver and 1,000 for bronze."
+    ],
+    "tags": [
+      "medals",
+      "race",
+      "racing challenge"
+    ],
+    "facts": {
+      "type": "Racing Challenge (stunt run)",
+      "location": "North Waning Sands, near Richard Barebone State Park",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing-challenges"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-ambrosia-raceway-oval",
+    "name": "Ambrosia Raceway: Oval",
+    "summary": "A race at Ambrosia Raceway that IGN lists with a maximum payout of $1,900 and 12 racers.",
+    "body": [
+      "IGN lists Oval as race 1 of the Demolition Race group at Ambrosia Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $190, a rental from $150, 6 laps, 12 racers, and a maximum payout of $1,900.",
+      "IGN says it is a demolition race run in rental vehicles only.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "ambrosia raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Demolition Race)",
+      "location": "Ambrosia Raceway, North Kelly County",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-ambrosia-raceway-figure-8",
+    "name": "Ambrosia Raceway: Figure 8",
+    "summary": "A race at Ambrosia Raceway that IGN lists with a maximum payout of $3,150 and 12 racers.",
+    "body": [
+      "IGN lists Figure 8 as race 2 of the Demolition Race group at Ambrosia Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $190, a rental from $150, 8 laps, 12 racers, and a maximum payout of $3,150.",
+      "IGN says it is a demolition race run in rental vehicles only.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "ambrosia raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Demolition Race)",
+      "location": "Ambrosia Raceway, North Kelly County",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-basic-loop",
+    "name": "Gellhorn Raceway: Basic Loop",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $2,500 and 16 racers.",
+    "body": [
+      "IGN lists Basic Loop as race 1 of the Keep It PG group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $150, a vehicle rating band of 500-780, 5 laps, 16 racers, and a maximum payout of $2,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Keep It PG)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-short-loop",
+    "name": "Gellhorn Raceway: Short Loop",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $2,500 and 16 racers.",
+    "body": [
+      "IGN lists Short Loop as race 2 of the Keep It PG group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $150, a vehicle rating band of 500-780, 3 laps, 16 racers, and a maximum payout of $2,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Keep It PG)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-intermediate-loop-ccw",
+    "name": "Gellhorn Raceway: Intermediate Loop CCW",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $3,150 and 16 racers.",
+    "body": [
+      "IGN lists Intermediate Loop CCW as race 3 of the Keep It PG group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $150, a vehicle rating band of 500-780, 3 laps, 16 racers, and a maximum payout of $3,150.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Keep It PG)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-long-loop",
+    "name": "Gellhorn Raceway: Long Loop",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $3,750 and 16 racers.",
+    "body": [
+      "IGN lists Long Loop as race 4 of the Keep It PG group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $150, a vehicle rating band of 500-780, 2 laps, 16 racers, and a maximum payout of $3,750.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Keep It PG)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-short-loop-ccw",
+    "name": "Gellhorn Raceway: Short Loop CCW",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $4,000 and 16 racers.",
+    "body": [
+      "IGN lists Short Loop CCW as race 1 of the Superbikes group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $300, a vehicle rating band of 700-999, 3 laps, 16 racers, and a maximum payout of $4,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Superbikes)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-long-loop-ccw",
+    "name": "Gellhorn Raceway: Long Loop CCW",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $5,000 and 16 racers.",
+    "body": [
+      "IGN lists Long Loop CCW as race 2 of the Superbikes group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $300, a vehicle rating band of 700-999, 2 laps, 16 racers, and a maximum payout of $5,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Superbikes)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-full-loop-ccw",
+    "name": "Gellhorn Raceway: Full Loop CCW",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $6,000 and 16 racers.",
+    "body": [
+      "IGN lists Full Loop CCW as race 3 of the Superbikes group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $300, a vehicle rating band of 700-999, 2 laps, 16 racers, and a maximum payout of $6,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Superbikes)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-basic-loop-ccw",
+    "name": "Gellhorn Raceway: Basic Loop CCW",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $4,000 and 16 racers.",
+    "body": [
+      "IGN lists Basic Loop CCW as race 1 of the Supercars group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $300, a vehicle rating band of 700-999, 5 laps, 16 racers, and a maximum payout of $4,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Supercars)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-intermediate-loop",
+    "name": "Gellhorn Raceway: Intermediate Loop",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $5,000 and 16 racers.",
+    "body": [
+      "IGN lists Intermediate Loop as race 2 of the Supercars group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $300, a vehicle rating band of 700-999, 3 laps, 16 racers, and a maximum payout of $5,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Supercars)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-gellhorn-raceway-full-loop",
+    "name": "Gellhorn Raceway: Full Loop",
+    "summary": "A race at Gellhorn Raceway that IGN lists with a maximum payout of $6,000 and 16 racers.",
+    "body": [
+      "IGN lists Full Loop as race 3 of the Supercars group at Gellhorn Raceway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $300, a vehicle rating band of 700-999, 2 laps, 16 racers, and a maximum payout of $6,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "gellhorn raceway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Supercars)",
+      "location": "Gellhorn Raceway, Kelly County",
+      "players": "16 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-boone-speedway-oval",
+    "name": "Boone Speedway: Oval",
+    "summary": "A race at Boone Speedway that IGN lists with a maximum payout of $1,500 and 12 racers.",
+    "body": [
+      "IGN lists Oval as race 1 of the Supercars group at Boone Speedway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $300, a vehicle rating band of 700-999, 5 laps, 12 racers, and a maximum payout of $1,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "boone speedway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Supercars)",
+      "location": "Boone Speedway, Hamlet",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-boone-speedway-figure-8",
+    "name": "Boone Speedway: Figure 8",
+    "summary": "A race at Boone Speedway that IGN lists with a maximum payout of $1,900 and 12 racers.",
+    "body": [
+      "IGN lists Figure 8 as race 2 of the Supercars group at Boone Speedway, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $300, a vehicle rating band of 700-999, 6 laps, 12 racers, and a maximum payout of $1,900.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "boone speedway",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Supercars)",
+      "location": "Boone Speedway, Hamlet",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-animal-crackers-wetlands-circuit",
+    "name": "Animal Crackers: Wetlands Circuit",
+    "summary": "A race at Animal Crackers that IGN lists with a maximum payout of $2,500 and 8 racers.",
+    "body": [
+      "IGN lists Wetlands Circuit as race 1 of the Big Pine group at Animal Crackers, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $100, a vehicle rating band of 500-780, 2 laps, 8 racers, and a maximum payout of $2,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "animal crackers",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Big Pine)",
+      "location": "Animal Crackers off-road races",
+      "players": "8 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-animal-crackers-landfill",
+    "name": "Animal Crackers: Landfill",
+    "summary": "A race at Animal Crackers that IGN lists with a maximum payout of $3,150 and 6 racers.",
+    "body": [
+      "IGN lists Landfill as race 2 of the Big Pine group at Animal Crackers, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $100, a vehicle rating band of 500-780, 1 lap, 6 racers, and a maximum payout of $3,150.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "animal crackers",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Big Pine)",
+      "location": "Animal Crackers off-road races",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-animal-crackers-red-canyon-run",
+    "name": "Animal Crackers: Red Canyon Run",
+    "summary": "A race at Animal Crackers that IGN lists with a maximum payout of $2,500 and 8 racers.",
+    "body": [
+      "IGN lists Red Canyon Run as race 1 of the Grayson group at Animal Crackers, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $100, a vehicle rating band of 500-780, 1 lap, 8 racers, and a maximum payout of $2,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "animal crackers",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Grayson)",
+      "location": "Animal Crackers off-road races",
+      "players": "8 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-animal-crackers-farm-tour",
+    "name": "Animal Crackers: Farm Tour",
+    "summary": "A race at Animal Crackers that IGN lists with a maximum payout of $3,150 and 6 racers.",
+    "body": [
+      "IGN lists Farm Tour as race 2 of the Grayson group at Animal Crackers, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $100, a vehicle rating band of 500-780, 1 lap, 6 racers, and a maximum payout of $3,150.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "animal crackers",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Grayson)",
+      "location": "Animal Crackers off-road races",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-animal-crackers-golf-tour",
+    "name": "Animal Crackers: Golf Tour",
+    "summary": "A race at Animal Crackers that IGN lists with a maximum payout of $4,000 and 8 racers.",
+    "body": [
+      "IGN lists Golf Tour as race 1 of the Ranchers group at Animal Crackers, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $150, a vehicle rating band of 500-999, 1 lap, 8 racers, and a maximum payout of $4,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "animal crackers",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Ranchers)",
+      "location": "Animal Crackers off-road races",
+      "players": "8 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-animal-crackers-log-jam",
+    "name": "Animal Crackers: Log Jam",
+    "summary": "A race at Animal Crackers that IGN lists with a maximum payout of $5,000 and 6 racers.",
+    "body": [
+      "IGN lists Log Jam as race 2 of the Ranchers group at Animal Crackers, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $150, a vehicle rating band of 500-999, 1 lap, 6 racers, and a maximum payout of $5,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "animal crackers",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Ranchers)",
+      "location": "Animal Crackers off-road races",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-animal-crackers-strip-mine",
+    "name": "Animal Crackers: Strip Mine",
+    "summary": "A race at Animal Crackers that IGN lists with a maximum payout of $4,000 and 8 racers.",
+    "body": [
+      "IGN lists Strip Mine as race 1 of the Redshaw's group at Animal Crackers, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $150, a vehicle rating band of 500-999, 1 lap, 8 racers, and a maximum payout of $4,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "animal crackers",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Redshaw's)",
+      "location": "Animal Crackers off-road races",
+      "players": "8 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-animal-crackers-mountainside",
+    "name": "Animal Crackers: Mountainside",
+    "summary": "A race at Animal Crackers that IGN lists with a maximum payout of $5,000 and 6 racers.",
+    "body": [
+      "IGN lists Mountainside as race 2 of the Redshaw's group at Animal Crackers, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $400, a rental from $150, a vehicle rating band of 500-999, 1 lap, 6 racers, and a maximum payout of $5,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "animal crackers",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Redshaw's)",
+      "location": "Animal Crackers off-road races",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-thrillbilly-mud-club-trash-dash",
+    "name": "Thrillbilly Mud Club: Trash Dash",
+    "summary": "A race at Thrillbilly Mud Club that IGN lists with a maximum payout of $1,500 and 12 racers.",
+    "body": [
+      "IGN lists Trash Dash as race 1 of the Dirt Track group at Thrillbilly Mud Club, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $100, a vehicle rating band of 500-999, 2 laps, 12 racers, and a maximum payout of $1,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "race",
+      "thrillbilly mud club"
+    ],
+    "facts": {
+      "type": "Race (Dirt Track)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-thrillbilly-mud-club-sludge-rush",
+    "name": "Thrillbilly Mud Club: Sludge Rush",
+    "summary": "A race at Thrillbilly Mud Club that IGN lists with a maximum payout of $1,900 and 12 racers.",
+    "body": [
+      "IGN lists Sludge Rush as race 2 of the Dirt Track group at Thrillbilly Mud Club, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $100, a vehicle rating band of 500-999, 2 laps, 12 racers, and a maximum payout of $1,900.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "race",
+      "thrillbilly mud club"
+    ],
+    "facts": {
+      "type": "Race (Dirt Track)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-thrillbilly-mud-club-dirt-slam",
+    "name": "Thrillbilly Mud Club: Dirt Slam",
+    "summary": "A race at Thrillbilly Mud Club that IGN lists with a maximum payout of $2,500 and 12 racers.",
+    "body": [
+      "IGN lists Dirt Slam as race 3 of the Dirt Track group at Thrillbilly Mud Club, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $100, a vehicle rating band of 500-999, 3 laps, 12 racers, and a maximum payout of $2,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "race",
+      "thrillbilly mud club"
+    ],
+    "facts": {
+      "type": "Race (Dirt Track)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-thrillbilly-mud-club-muck-scramble",
+    "name": "Thrillbilly Mud Club: Muck Scramble",
+    "summary": "A race at Thrillbilly Mud Club that IGN lists with a maximum payout of $4,000 and 12 racers.",
+    "body": [
+      "IGN lists Muck Scramble as race 4 of the Dirt Track group at Thrillbilly Mud Club, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $100, a vehicle rating band of 500-999, 1 lap, 12 racers, and a maximum payout of $4,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "race",
+      "thrillbilly mud club"
+    ],
+    "facts": {
+      "type": "Race (Dirt Track)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-thrillbilly-mud-club-hog-hustle",
+    "name": "Thrillbilly Mud Club: Hog Hustle",
+    "summary": "A race at Thrillbilly Mud Club that IGN lists with a maximum payout of $3,150 and 12 racers.",
+    "body": [
+      "IGN lists Hog Hustle as race 5 of the Dirt Track group at Thrillbilly Mud Club, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $100, a vehicle rating band of 500-999, 2 laps, 12 racers, and a maximum payout of $3,150.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "race",
+      "thrillbilly mud club"
+    ],
+    "facts": {
+      "type": "Race (Dirt Track)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-thrillbilly-mud-club-big-mud",
+    "name": "Thrillbilly Mud Club: Big Mud",
+    "summary": "A race at Thrillbilly Mud Club that IGN lists with a maximum payout of $6,000 and 12 racers.",
+    "body": [
+      "IGN lists Big Mud as race 6 of the Dirt Track group at Thrillbilly Mud Club, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $100, a vehicle rating band of 500-999, 1 lap, 12 racers, and a maximum payout of $6,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "race",
+      "thrillbilly mud club"
+    ],
+    "facts": {
+      "type": "Race (Dirt Track)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "12 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-thrillbilly-mud-club-skid-loop",
+    "name": "Thrillbilly Mud Club: Skid Loop",
+    "summary": "A race at Thrillbilly Mud Club that IGN lists with a maximum payout of $1,900 and 8 racers.",
+    "body": [
+      "IGN lists Skid Loop as race 1 of the Oval group at Thrillbilly Mud Club, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $190, a rental from $100, a vehicle rating band of 500-999, 3 laps, 8 racers, and a maximum payout of $1,900.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "race",
+      "thrillbilly mud club"
+    ],
+    "facts": {
+      "type": "Race (Oval)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "8 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-thrillbilly-mud-club-figure-8-blitz",
+    "name": "Thrillbilly Mud Club: Figure 8 Blitz",
+    "summary": "A race at Thrillbilly Mud Club that IGN lists with a maximum payout of $3,150 and 8 racers.",
+    "body": [
+      "IGN lists Figure 8 Blitz as race 2 of the Oval group at Thrillbilly Mud Club, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $190, a rental from $100, a vehicle rating band of 500-999, 4 laps, 8 racers, and a maximum payout of $3,150.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "race",
+      "thrillbilly mud club"
+    ],
+    "facts": {
+      "type": "Race (Oval)",
+      "location": "Thrillbilly Mud Club, Frogswater",
+      "players": "8 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-little-cuba-run",
+    "name": "Hit 'N' Run VC: Little Cuba Run",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $2,500 and 4 racers.",
+    "body": [
+      "IGN lists Little Cuba Run as race 1 of the Street Race group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a vehicle rating band of 500-850, 1 lap, 4 racers, and a maximum payout of $2,500.",
+      "IGN's table gives no buy-in or rental price for this race.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Street Race)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "4 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-mural-tour",
+    "name": "Hit 'N' Run VC: Mural Tour",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $3,150 and 4 racers.",
+    "body": [
+      "IGN lists Mural Tour as race 2 of the Street Race group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a vehicle rating band of 500-850, 1 lap, 4 racers, and a maximum payout of $3,150.",
+      "IGN's table gives no buy-in or rental price for this race.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Street Race)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "4 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-rialto-run",
+    "name": "Hit 'N' Run VC: Rialto Run",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $5,000 and 6 racers.",
+    "body": [
+      "IGN lists Rialto Run as race 1 of the Ocean Beach group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $500, a rental from $300, a vehicle rating band of 500-999, 1 lap, 6 racers, and a maximum payout of $5,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Ocean Beach)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-beach-blast",
+    "name": "Hit 'N' Run VC: Beach Blast",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $6,000 and 4 racers.",
+    "body": [
+      "IGN lists Beach Blast as race 2 of the Ocean Beach group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $500, a rental from $300, a vehicle rating band of 500-999, 2 laps, 4 racers, and a maximum payout of $6,000.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Ocean Beach)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "4 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-shoreline",
+    "name": "Hit 'N' Run VC: Shoreline",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $1,500 and 6 racers.",
+    "body": [
+      "IGN lists Shoreline as race 1 of the Salton group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $150, a vehicle rating band of 500-780, 1 lap, 6 racers, and a maximum payout of $1,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Salton)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-freeway-run",
+    "name": "Hit 'N' Run VC: Freeway Run",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $1,900 and 6 racers.",
+    "body": [
+      "IGN lists Freeway Run as race 2 of the Salton group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $150, a vehicle rating band of 500-780, 1 lap, 6 racers, and a maximum payout of $1,900.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Salton)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-airport-run",
+    "name": "Hit 'N' Run VC: Airport Run",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $2,250 and 6 racers.",
+    "body": [
+      "IGN lists Airport Run as race 3 of the Salton group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $150, a rental from $150, a vehicle rating band of 500-780, 1 lap, 6 racers, and a maximum payout of $2,250.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Salton)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-port-cruise",
+    "name": "Hit 'N' Run VC: Port Cruise",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $2,500 and 6 racers.",
+    "body": [
+      "IGN lists Port Cruise as race 1 of the Gloriana Key group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $150, a vehicle rating band of 500-850, 1 lap, 6 racers, and a maximum payout of $2,500.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Gloriana Key)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "6 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "race-hit-n-run-vc-the-tunnel",
+    "name": "Hit 'N' Run VC: The Tunnel",
+    "summary": "A race at Hit 'N' Run VC that IGN lists with a maximum payout of $3,150 and 8 racers.",
+    "body": [
+      "IGN lists The Tunnel as race 2 of the Gloriana Key group at Hit 'N' Run VC, one of the 39 races on its racing page.",
+      "IGN gives a buy-in from $250, a rental from $150, a vehicle rating band of 500-850, 1 lap, 8 racers, and a maximum payout of $3,150.",
+      "IGN says races pay out by finishing position as well as for bronze, silver and gold, that more races in a group open after at least a bronze, and that an owned car must be of the exact class required."
+    ],
+    "tags": [
+      "hit n run vc",
+      "race"
+    ],
+    "facts": {
+      "type": "Race (Gloriana Key)",
+      "location": "Hit 'N' Run VC street races, Vice City",
+      "players": "8 racers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-racing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-0",
+    "name": "Basketball Hoop 0",
+    "summary": "Basketball Hoop 0 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 0 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Slator Towing Inc and Chop Shop.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-1",
+    "name": "Basketball Hoop 1",
+    "summary": "Basketball Hoop 1 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 1 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Jackal’s Track and Football Field.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-2",
+    "name": "Basketball Hoop 2",
+    "summary": "Basketball Hoop 2 of the 100 on IGN's list, in Lummox County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 2 in its list of 100 hoops, numbered 0 to 99, and files it under Lummox County.",
+      "IGN's directions for the hoop name Chestnut Dr and I-297.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "lummox county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Lummox County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-3",
+    "name": "Basketball Hoop 3",
+    "summary": "Basketball Hoop 3 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 3 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name U-Shaped.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-4",
+    "name": "Basketball Hoop 4",
+    "summary": "Basketball Hoop 4 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 4 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Magnolia Rd.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-5",
+    "name": "Basketball Hoop 5",
+    "summary": "Basketball Hoop 5 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 5 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Clovis Way, Capri and Invetero Coquette D10.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-6",
+    "name": "Basketball Hoop 6",
+    "summary": "Basketball Hoop 6 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 6 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Red Lotus and Key Lento.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-7",
+    "name": "Basketball Hoop 7",
+    "summary": "Basketball Hoop 7 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 7 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Henshaw, Reservoir St and Ambrosia.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-8",
+    "name": "Basketball Hoop 8",
+    "summary": "Basketball Hoop 8 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 8 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Catalan Island, Obey and Drafter.",
+      "IGN says the matching ball lies close by rather than under the hoop, mentioning Declasse 20 Impaler.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-9",
+    "name": "Basketball Hoop 9",
+    "summary": "Basketball Hoop 9 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 9 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Capri.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-10",
+    "name": "Basketball Hoop 10",
+    "summary": "Basketball Hoop 10 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 10 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name NW 24th Pl and Balsero.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-11",
+    "name": "Basketball Hoop 11",
+    "summary": "Basketball Hoop 11 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 11 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Key Lento.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-12",
+    "name": "Basketball Hoop 12",
+    "summary": "Basketball Hoop 12 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 12 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Cul-de-Sac, Fairview Dr and Waning Sands.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-13",
+    "name": "Basketball Hoop 13",
+    "summary": "Basketball Hoop 13 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 13 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Coconut Cove Ct and Capri.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-14",
+    "name": "Basketball Hoop 14",
+    "summary": "Basketball Hoop 14 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 14 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Shorebeach Rd and Washington Beach.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-15",
+    "name": "Basketball Hoop 15",
+    "summary": "Basketball Hoop 15 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 15 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Delamore Dr and Leaf Links.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-16",
+    "name": "Basketball Hoop 16",
+    "summary": "Basketball Hoop 16 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 16 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Vice-Dale County Fire Rescue Station No and Port Vice City.",
+      "IGN says the matching ball lies close by rather than under the hoop, mentioning DO NOT PARK HERE.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-17",
+    "name": "Basketball Hoop 17",
+    "summary": "Basketball Hoop 17 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 17 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Northbrook Dr, NW 4th Ave, I-404 and PeeWees.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-18",
+    "name": "Basketball Hoop 18",
+    "summary": "Basketball Hoop 18 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 18 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Vespucci Island.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-19",
+    "name": "Basketball Hoop 19",
+    "summary": "Basketball Hoop 19 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 19 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name SW 17th St, SW 7th Ave, Vice City and VCIA.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-20",
+    "name": "Basketball Hoop 20",
+    "summary": "Basketball Hoop 20 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 20 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Northbrook Dr, NW 4th Ave, I-404 and PeeWees.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-21",
+    "name": "Basketball Hoop 21",
+    "summary": "Basketball Hoop 21 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 21 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Waning Sands and Baller World.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-22",
+    "name": "Basketball Hoop 22",
+    "summary": "Basketball Hoop 22 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 22 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Ambrosia and Reservoir St.",
+      "IGN says the matching ball lies close by rather than under the hoop, mentioning Bravado Copperheads Gauntlet.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-23",
+    "name": "Basketball Hoop 23",
+    "summary": "Basketball Hoop 23 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 23 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Gloriana Key, Gloriana Key Rd and Vice Rowing Club.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-24",
+    "name": "Basketball Hoop 24",
+    "summary": "Basketball Hoop 24 of the 100 on IGN's list, in Lummox County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 24 in its list of 100 hoops, numbered 0 to 99, and files it under Lummox County.",
+      "IGN's directions for the hoop name Overkeel Boatyard Marina.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "lummox county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Lummox County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-25",
+    "name": "Basketball Hoop 25",
+    "summary": "Basketball Hoop 25 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 25 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Vespucci Island and Neptune Cir.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-26",
+    "name": "Basketball Hoop 26",
+    "summary": "Basketball Hoop 26 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 26 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Peacock Estates and Tubbs Pl.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-27",
+    "name": "Basketball Hoop 27",
+    "summary": "Basketball Hoop 27 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 27 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Peacock Estates and Palladia Ln.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-28",
+    "name": "Basketball Hoop 28",
+    "summary": "Basketball Hoop 28 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 28 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Northbrook Dr and Little Cuba.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-29",
+    "name": "Basketball Hoop 29",
+    "summary": "Basketball Hoop 29 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 29 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name SR-25 and Little Cuba.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-30",
+    "name": "Basketball Hoop 30",
+    "summary": "Basketball Hoop 30 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 30 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Waning Sands and Fairview Dr.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-31",
+    "name": "Basketball Hoop 31",
+    "summary": "Basketball Hoop 31 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 31 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Ambrosia.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-32",
+    "name": "Basketball Hoop 32",
+    "summary": "Basketball Hoop 32 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 32 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Kamar Devon Community Center and Southside of Vice City.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-33",
+    "name": "Basketball Hoop 33",
+    "summary": "Basketball Hoop 33 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 33 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Watson Bay.",
+      "IGN says the matching ball lies close by rather than under the hoop, mentioning Karin Allander.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-34",
+    "name": "Basketball Hoop 34",
+    "summary": "Basketball Hoop 34 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 34 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Eris, Sahara Arena and Downtown Vice City.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-35",
+    "name": "Basketball Hoop 35",
+    "summary": "Basketball Hoop 35 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 35 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Key Lento, Peach Palm Dr and Gambit Bay.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-36",
+    "name": "Basketball Hoop 36",
+    "summary": "Basketball Hoop 36 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 36 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Westbrook Dr, Salton, Vice City and VCIA.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-37",
+    "name": "Basketball Hoop 37",
+    "summary": "Basketball Hoop 37 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 37 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Watson Bay, Seabell Ave and STD Contractor.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-38",
+    "name": "Basketball Hoop 38",
+    "summary": "Basketball Hoop 38 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 38 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Belville.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-39",
+    "name": "Basketball Hoop 39",
+    "summary": "Basketball Hoop 39 of the 100 on IGN's list, in Lummox County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 39 in its list of 100 hoops, numbered 0 to 99, and files it under Lummox County.",
+      "IGN's directions for the hoop name Stone Hill Sawmill and Mount Kalaga National Park.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "lummox county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Lummox County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-40",
+    "name": "Basketball Hoop 40",
+    "summary": "Basketball Hoop 40 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 40 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Key Lento and Dolphin Dr.",
+      "IGN says the matching ball lies close by rather than under the hoop, mentioning Azure Seashark.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-41",
+    "name": "Basketball Hoop 41",
+    "summary": "Basketball Hoop 41 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 41 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Key Lento and Sunset Dr.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-42",
+    "name": "Basketball Hoop 42",
+    "summary": "Basketball Hoop 42 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 42 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Washington Beach.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-43",
+    "name": "Basketball Hoop 43",
+    "summary": "Basketball Hoop 43 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 43 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Cangrejo St, Southwind and Mile Zero Air Station.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-44",
+    "name": "Basketball Hoop 44",
+    "summary": "Basketball Hoop 44 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 44 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Langosta St, Southwind and Shoreman Ships Co.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-45",
+    "name": "Basketball Hoop 45",
+    "summary": "Basketball Hoop 45 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 45 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Leonida State Prison.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-46",
+    "name": "Basketball Hoop 46",
+    "summary": "Basketball Hoop 46 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 46 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Mamey Cir.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-47",
+    "name": "Basketball Hoop 47",
+    "summary": "Basketball Hoop 47 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 47 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Key Lento and Dolphin Dr.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-48",
+    "name": "Basketball Hoop 48",
+    "summary": "Basketball Hoop 48 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 48 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Ocean Sound Rd and Dolphin Dr.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-49",
+    "name": "Basketball Hoop 49",
+    "summary": "Basketball Hoop 49 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 49 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Belville.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-50",
+    "name": "Basketball Hoop 50",
+    "summary": "Basketball Hoop 50 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 50 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Port Gellhorn, Orchard Ave and 83 Willard Moocher.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-51",
+    "name": "Basketball Hoop 51",
+    "summary": "Basketball Hoop 51 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 51 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Waning Sands.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-52",
+    "name": "Basketball Hoop 52",
+    "summary": "Basketball Hoop 52 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 52 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Starfish Island, Vice Beach and Buckingham Windsor Drop.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-53",
+    "name": "Basketball Hoop 53",
+    "summary": "Basketball Hoop 53 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 53 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Tanglewood Ln and Port Gellhorn.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-54",
+    "name": "Basketball Hoop 54",
+    "summary": "Basketball Hoop 54 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 54 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Peacock Bay and Vice City.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-55",
+    "name": "Basketball Hoop 55",
+    "summary": "Basketball Hoop 55 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 55 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name I-97, Vice City and VCIA.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-56",
+    "name": "Basketball Hoop 56",
+    "summary": "Basketball Hoop 56 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 56 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Mamey Cir and Waning Sands.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-57",
+    "name": "Basketball Hoop 57",
+    "summary": "Basketball Hoop 57 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 57 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name I-97, Vice City and VCIA.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-58",
+    "name": "Basketball Hoop 58",
+    "summary": "Basketball Hoop 58 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 58 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Vice City Oceanarium and Catalan Key.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-59",
+    "name": "Basketball Hoop 59",
+    "summary": "Basketball Hoop 59 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 59 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Washington Beach.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-60",
+    "name": "Basketball Hoop 60",
+    "summary": "Basketball Hoop 60 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 60 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Pelican River and Watson Bay.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-61",
+    "name": "Basketball Hoop 61",
+    "summary": "Basketball Hoop 61 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 61 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Belville, Harmony Dr and Dinka Chavos XS.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-62",
+    "name": "Basketball Hoop 62",
+    "summary": "Basketball Hoop 62 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 62 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name B-wing, Hamlet Correctional Institution Maximum Security Prison and Hamlet.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-63",
+    "name": "Basketball Hoop 63",
+    "summary": "Basketball Hoop 63 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 63 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Hamlet Correctional Institution Maximum Security Prison and Hamlet.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-64",
+    "name": "Basketball Hoop 64",
+    "summary": "Basketball Hoop 64 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 64 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Northbrook Dr, NW 4th Ave, I-404 and PeeWees.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-65",
+    "name": "Basketball Hoop 65",
+    "summary": "Basketball Hoop 65 of the 100 on IGN's list, in Lummox County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 65 in its list of 100 hoops, numbered 0 to 99, and files it under Lummox County.",
+      "IGN's directions for the hoop name Lake Tallaloko.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "lummox county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Lummox County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-66",
+    "name": "Basketball Hoop 66",
+    "summary": "Basketball Hoop 66 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 66 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Grace Ave and Belville.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-67",
+    "name": "Basketball Hoop 67",
+    "summary": "Basketball Hoop 67 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 67 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Port Vice City.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-68",
+    "name": "Basketball Hoop 68",
+    "summary": "Basketball Hoop 68 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 68 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Ambrosia and Maple Ln.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-69",
+    "name": "Basketball Hoop 69",
+    "summary": "Basketball Hoop 69 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 69 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Bare With Me Gentleman’s Club, Balsero and Vice City.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-70",
+    "name": "Basketball Hoop 70",
+    "summary": "Basketball Hoop 70 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 70 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Belville.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-71",
+    "name": "Basketball Hoop 71",
+    "summary": "Basketball Hoop 71 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 71 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Port Vice City.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-72",
+    "name": "Basketball Hoop 72",
+    "summary": "Basketball Hoop 72 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 72 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name I-97, Vice City and VCIA.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-73",
+    "name": "Basketball Hoop 73",
+    "summary": "Basketball Hoop 73 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 73 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name I-97, Vice City and VCIA.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-74",
+    "name": "Basketball Hoop 74",
+    "summary": "Basketball Hoop 74 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 74 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Peacock Estates and Peacock Bay.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-75",
+    "name": "Basketball Hoop 75",
+    "summary": "Basketball Hoop 75 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 75 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Ambrosia.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-76",
+    "name": "Basketball Hoop 76",
+    "summary": "Basketball Hoop 76 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 76 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Belville.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-77",
+    "name": "Basketball Hoop 77",
+    "summary": "Basketball Hoop 77 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 77 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Avery Allen Co and Aviation Services.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-78",
+    "name": "Basketball Hoop 78",
+    "summary": "Basketball Hoop 78 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 78 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Leith River and Waning Sands.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-79",
+    "name": "Basketball Hoop 79",
+    "summary": "Basketball Hoop 79 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 79 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Starfish Island and Vice Beach.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-80",
+    "name": "Basketball Hoop 80",
+    "summary": "Basketball Hoop 80 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 80 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Northbrook Dr, NW 4th Ave, I-404 and PeeWees.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-81",
+    "name": "Basketball Hoop 81",
+    "summary": "Basketball Hoop 81 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 81 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Samba Pl, NW 8th Pl and Vice City.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-82",
+    "name": "Basketball Hoop 82",
+    "summary": "Basketball Hoop 82 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 82 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Delamore Dr and Leaf Links.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-83",
+    "name": "Basketball Hoop 83",
+    "summary": "Basketball Hoop 83 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 83 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Delamore Dr and Leaf Links.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-84",
+    "name": "Basketball Hoop 84",
+    "summary": "Basketball Hoop 84 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 84 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Hummingbird Park.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-85",
+    "name": "Basketball Hoop 85",
+    "summary": "Basketball Hoop 85 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 85 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Starfish Island and Vice Beach.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-86",
+    "name": "Basketball Hoop 86",
+    "summary": "Basketball Hoop 86 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 86 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Hamlet Correctional Institution Maximum Security Prison and Hamlet.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-87",
+    "name": "Basketball Hoop 87",
+    "summary": "Basketball Hoop 87 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 87 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Vice Beach.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-88",
+    "name": "Basketball Hoop 88",
+    "summary": "Basketball Hoop 88 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 88 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Vice Beach.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-89",
+    "name": "Basketball Hoop 89",
+    "summary": "Basketball Hoop 89 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 89 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Vice Beach.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-90",
+    "name": "Basketball Hoop 90",
+    "summary": "Basketball Hoop 90 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 90 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Gellhorn Ave, Washburn Ave and Port Gellhorn.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-91",
+    "name": "Basketball Hoop 91",
+    "summary": "Basketball Hoop 91 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 91 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Gellhorn Ave, Washburn Ave and Port Gellhorn.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-92",
+    "name": "Basketball Hoop 92",
+    "summary": "Basketball Hoop 92 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 92 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Gellhorn Ave, Washburn Ave and Port Gellhorn.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-93",
+    "name": "Basketball Hoop 93",
+    "summary": "Basketball Hoop 93 of the 100 on IGN's list, in Kelly County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 93 in its list of 100 hoops, numbered 0 to 99, and files it under Kelly County.",
+      "IGN's directions for the hoop name Gellhorn Ave, Washburn Ave and Port Gellhorn.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "kelly county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Kelly County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-94",
+    "name": "Basketball Hoop 94",
+    "summary": "Basketball Hoop 94 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 94 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Bantam Boxing Gym, Pusley Ln and Hamlet.",
+      "IGN says its ball lies on the ground under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-95",
+    "name": "Basketball Hoop 95",
+    "summary": "Basketball Hoop 95 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 95 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Surfside Dr, Nautilus Ln, Crastenburg Key Lento Resort and Key Lento.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-96",
+    "name": "Basketball Hoop 96",
+    "summary": "Basketball Hoop 96 of the 100 on IGN's list, in Mariana County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 96 in its list of 100 hoops, numbered 0 to 99, and files it under Mariana County.",
+      "IGN's directions for the hoop name Jason’s and Key Lento.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "mariana county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Mariana County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-97",
+    "name": "Basketball Hoop 97",
+    "summary": "Basketball Hoop 97 of the 100 on IGN's list, in Lummox County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 97 in its list of 100 hoops, numbered 0 to 99, and files it under Lummox County.",
+      "IGN's directions for the hoop name Mount Kalaga National Park.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "lummox county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Lummox County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-98",
+    "name": "Basketball Hoop 98",
+    "summary": "Basketball Hoop 98 of the 100 on IGN's list, in Vice-Dale County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 98 in its list of 100 hoops, numbered 0 to 99, and files it under Vice-Dale County.",
+      "IGN's directions for the hoop name Hamlet Correctional Institution Maximum Security Prison and Hamlet.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "sports",
+      "vice-dale county"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Vice-Dale County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "basketball-hoop-99",
+    "name": "Basketball Hoop 99",
+    "summary": "Basketball Hoop 99 of the 100 on IGN's list, in Leonard County.",
+    "body": [
+      "IGN numbers this Basketball Hoop 99 in its list of 100 hoops, numbered 0 to 99, and files it under Leonard County.",
+      "IGN's directions for the hoop name Belville.",
+      "IGN says the matching ball lies close by rather than under the hoop.",
+      "IGN says a ball has to be found and scored at each hoop to complete it."
+    ],
+    "tags": [
+      "basketball",
+      "hoops",
+      "leonard county",
+      "sports"
+    ],
+    "facts": {
+      "type": "Basketball hoop",
+      "location": "Leonard County",
+      "players": "Solo"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-basketball-hoops"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

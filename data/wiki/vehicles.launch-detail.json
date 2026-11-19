@@ -69,7 +69,10 @@
       "It also counts 7 Chopper, 6 Topper, 15 Blinged Up, 16 Girlypop, 12 Patriot, 10 Swamp Style, 30 Leonida Man, 17 Fine Art, 5 Law & Order, 8 Clout Chaser, 6 Pedal Power and 5 Throwback.",
       "PowerPyx's completion guide describes standout vehicles as unique vehicles in fixed locations that do not count toward the 200 base models to be scanned.",
       "The cheat lists from PowerPyx, Press Start, Game Rant, GamesRadar+ and Screen Rant say discovering all 16 Girlypop vehicles unlocks the Neon Jungle filter.",
-      "No guide read on November 18, 2026 names the individual standout vehicles or gives their locations."
+      "No guide read on November 18, 2026 names the individual standout vehicles or gives their locations.",
+      "IGN counts 277 regular vehicles and 281 standout vehicles; its group counts match PowerPyx's except Street Racers, where IGN has 17 and PowerPyx 16.",
+      "IGN's regular-vehicle split is 18 coupes, 26 muscle cars, 8 off-road, 17 pickups, 29 sedans, 13 sports cars, 9 supercars, 23 SUVs, 14 vans, 29 bikes, 28 watercraft, 16 aircraft, 11 trucks, 9 utility, 7 emergency, 8 military, 6 industrial and 6 transport vehicles.",
+      "IGN says 200 vehicles must be discovered for 100 percent, using WAiNK scans."
     ],
     "tags": [
       "girlypop",
@@ -78,7 +81,7 @@
       "vehicles"
     ],
     "facts": {
-      "class": "Standout (280 in 25 groups)"
+      "class": "Standout (281 in 25 groups per IGN)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -88,9 +91,11 @@
       "pressstart-cheats",
       "gamerant-cheats",
       "gamesradar-cheats",
-      "screenrant-cheats"
+      "screenrant-cheats",
+      "ign-vehicles",
+      "ign-100-percent"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/gamesradar-t-6d9ffa8d0ee8.jpg"
   }

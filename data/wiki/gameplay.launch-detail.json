@@ -19,7 +19,13 @@
       "PlayStation Universe and Gamer Tweak (both November 18, 2026) print the same five player codes as PowerPyx and list the other five, including Raise Wanted Level, as not yet found.",
       "Game8's cheat list (updated November 19, 2026) prints the $250,000, Raise Heat Level and Unlimited Focus codes but shows Body Armor's code as still to be found.",
       "Disagreement: Game8 gives Raise Heat Level's unlock as completing the game, where PowerPyx and the others say losing a 3-star wanted level 25 times.",
-      "As of November 19, 2026, no guide read had codes for Drunk, Raise Wanted Level (apart from GamesRadar+, Screen Rant and GameSpot), No Fall Damage, Parachute, Repair Vehicle or Unlimited Nitrous."
+      "As of November 19, 2026, no guide read had codes for Drunk, Raise Wanted Level (apart from GamesRadar+, Screen Rant and GameSpot), No Fall Damage, Parachute, Repair Vehicle or Unlimited Nitrous.",
+      "Insider Gaming's cheat list (November 18, 2026) prints the same 17 codes as PowerPyx and marks every other cheat as still to be confirmed.",
+      "On a re-check on November 19, 2026, PowerPyx's page still had 17 codes, and GamesRadar+ still showed Repair Vehicle, Parachute, Drunk, No Fall Damage and Unlimited Nitrous without a code.",
+      "Polygon (November 19, 2026) prints a code for Drunk: Up, Left, Right, Up, Up, Left, Right, Up, Left, Right; no other guide read had one.",
+      "Disagreement: Polygon gives the $250,000 cheat's unlock as making $250,000 from fenced goods, where the other guides say finishing the story; Polygon lists Raise Heat Level's and Unlimited Focus's unlocks as still unknown.",
+      "Disagreement: Dexerto (November 18, 2026) prints Unlimited Focus as Down, Up, Up, Down, Up, Down, Up, Up, Down, Right, where the other guides have Down, Up, Up, Down, Up, Down, Up, Down, Up, Right.",
+      "Push Square's cheat page (November 18, 2026) prints only the $250,000, Raise Heat Level, Unlimited Focus and Body Armor player codes, matching PowerPyx, and says unlocked cheats are listed under Touch Pad, Progress, Cheats, a tab that stays hidden until one is unlocked."
     ],
     "tags": [
       "armor",
@@ -45,7 +51,12 @@
       "eurogamer-cheats",
       "psu-cheats",
       "gamertweak-cheats",
-      "game8-cheats"
+      "game8-cheats",
+      "insider-gaming-cheats",
+      "powerpyx-cheats",
+      "pg-cheat-codes",
+      "dx-cheat-codes",
+      "ps-cheats-unlock"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -71,7 +82,8 @@
       "Six of the eleven combat codes were published in the guides read.",
       "PlayStation Universe and Gamer Tweak print the same six combat codes as PowerPyx, with Attack Force at nine presses as PowerPyx has it.",
       "Game8's cheat list prints only the Attack Force and Exploding Balls codes, showing Max Ammo, Infinite Ammo, No Reload and Vehicle Force as still to be found, and gives Exploding Balls' unlock as completing the game rather than hitting 20 enemies with explosive damage.",
-      "All Explosive Weapons, Incendiary Ammo, Exploding Bottles, Explosive Shotgun and Hauners H-AT still had no published code in any guide read."
+      "All Explosive Weapons, Incendiary Ammo, Exploding Bottles, Explosive Shotgun and Hauners H-AT still had no published code in any guide read.",
+      "Polygon shows Infinite Ammo and No Reload without a code and spells the rocket launcher Haunters H-AT; Push Square shows Max Ammo and No Reload without a code but prints Infinite Ammo, matching PowerPyx."
     ],
     "tags": [
       "ammo",
@@ -96,7 +108,9 @@
       "eurogamer-cheats",
       "psu-cheats",
       "gamertweak-cheats",
-      "game8-cheats"
+      "game8-cheats",
+      "pg-cheat-codes",
+      "ps-cheats-unlock"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -172,7 +186,8 @@
       "Cycle Weather: Down, Right, Up, Down, Right, Up, Right (PowerPyx, Game Rant, GamesRadar+, Screen Rant, GameSpot).",
       "The guides disagree on what unlocks Cycle Weather: PowerPyx, Game Rant and GameSpot say finishing the story, while DayOne, Press Start, GamesRadar+ and Screen Rant say revealing the entire map.",
       "PlayStation Universe and Gamer Tweak print the Cycle Weather code and give finishing the story as its unlock; Game8 shows the code as still to be found and gives revealing the entire map.",
-      "Move Time Forward and Pause Time of Day still had no published code in any guide read."
+      "Move Time Forward and Pause Time of Day still had no published code in any guide read.",
+      "Disagreement: Dexerto prints Cycle Weather as Down, Right, Up, Down, Right, Up, Right, Right, eight presses, one more Right than the other guides; Polygon shows no code and gives the unlock as revealing the entire map."
     ],
     "tags": [
       "cheats",
@@ -196,7 +211,9 @@
       "pressstart-cheats",
       "psu-cheats",
       "gamertweak-cheats",
-      "game8-cheats"
+      "game8-cheats",
+      "dx-cheat-codes",
+      "pg-cheat-codes"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -397,7 +414,9 @@
       "Tequesta Swim: swim from Tequesta Retreat to Starfish Island in under 15 minutes.",
       "Southwind Cycle: ride a bicycle from Williams Guest House in Grayson to Chicky's Tiki Bar in Southwind in under 22 minutes without falling off.",
       "Neither guide lists a reward for a single challenge; per the cheat lists from PowerPyx, DayOne, Press Start and Game Rant, finishing 5 Fitness challenges unlocks the Tuff BMX spawn cheat and finishing all 10 unlocks the '65 Vapid Dominator spawn cheat.",
-      "PowerPyx says all challenges are open from the start, that any 50 earn the One Last Thing trophy and that 70 of the 80 count for the completion checklist."
+      "PowerPyx says all challenges are open from the start, that any 50 earn the One Last Thing trophy and that 70 of the 80 count for the completion checklist.",
+      "IGN names the Strength challenge Muscle Regime and words it as keeping Muscle Level 4 on both leads at once for 5 consecutive days.",
+      "IGN's wording of Waning Sands Run, from The Tip pier gate to Waning Sands on foot in under 13 minutes, has no condition about taking damage."
     ],
     "tags": [
       "challenges",
@@ -416,9 +435,10 @@
       "ppx-cheats",
       "dayone-cheats",
       "pressstart-cheats",
-      "gamerant-cheats"
+      "gamerant-cheats",
+      "ign-challenges"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -439,7 +459,9 @@
       "Nest Egg: bank $1,500,000 in your BuckMe checking account.",
       "DayOne's table runs Grocery Shopper and Well Armed together in one row, so it shows nine separate rows for this group.",
       "Neither guide lists a reward for a single challenge; per the cheat lists from PowerPyx, DayOne, Press Start and Game Rant, finishing 5 Shopping challenges unlocks the Maibatsu Boomazoom spawn cheat and finishing all 10 unlocks the Truffade Thrax spawn cheat.",
-      "PowerPyx says all challenges are open from the start, that any 50 earn the One Last Thing trophy and that 70 of the 80 count for the completion checklist."
+      "PowerPyx says all challenges are open from the start, that any 50 earn the One Last Thing trophy and that 70 of the 80 count for the completion checklist.",
+      "IGN calls this category High Roller Challenges; its ten requirements match the ones listed here.",
+      "IGN says all 80 challenges sit in 8 categories and at least 70 are needed for 100 percent completion and The Long Road trophy."
     ],
     "tags": [
       "challenges",
@@ -458,9 +480,10 @@
       "ppx-cheats",
       "dayone-cheats",
       "pressstart-cheats",
-      "gamerant-cheats"
+      "gamerant-cheats",
+      "ign-challenges"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -564,7 +587,8 @@
       "Train Jump: jump a motorcycle 75 feet or more and land on a moving train twice in 20 minutes.",
       "The two guides differ on Throttled: PowerPyx says to hold over 100 mph in a motor vehicle for 2 minutes, DayOne says for 2 miles.",
       "Neither guide lists a reward for a single challenge; per the cheat lists from PowerPyx, DayOne, Press Start and Game Rant, finishing 5 Vehicle challenges unlocks the Lapwing Mallard spawn cheat and finishing all 10 unlocks the Progen Emerus spawn cheat.",
-      "PowerPyx says all challenges are open from the start, that any 50 earn the One Last Thing trophy and that 70 of the 80 count for the completion checklist."
+      "PowerPyx says all challenges are open from the start, that any 50 earn the One Last Thing trophy and that 70 of the 80 count for the completion checklist.",
+      "IGN's challenge list gives Throttled as holding over 100 mph in a motor vehicle for 2 miles, agreeing with DayOne rather than PowerPyx's 2 minutes."
     ],
     "tags": [
       "challenges",
@@ -583,9 +607,10 @@
       "ppx-cheats",
       "dayone-cheats",
       "pressstart-cheats",
-      "gamerant-cheats"
+      "gamerant-cheats",
+      "ign-challenges"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/playday-t-0c6974558b15.jpg"
   },
@@ -648,8 +673,7 @@
       "ppx-banks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-84fc21a0367f.jpg"
+    "spoiler": true
   },
   {
     "slug": "payday-loans-by-store",

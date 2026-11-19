@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "cal-ring-the-bell",
+    "name": "Ring the Bell!",
+    "summary": "A missable Chapter 1 optional encounter with Cal at The Rusty Anchor that unlocks a Rusty Anchor T-shirt and cap.",
+    "body": [
+      "IGN lists Ring the Bell! as a Chapter 1 optional mission, started by answering a text from Cal asking for drinks while Jason is on his way to meet Brian at the marina.",
+      "IGN says it is played at The Rusty Anchor in Key Lento and can only be done in Chapter 1; IGN's Chapter 1 missables page lists it as missable.",
+      "IGN says the mission offers shots that blur the screen and loosen the controls if all three are taken, and that the reward depends on agreeing to drive Cal home.",
+      "IGN says doing so lets the White Rusty Anchor T-Shirt and Rusty Anchor Cap be bought at The Rusty Anchor afterwards; they cannot be bought without it."
+    ],
+    "tags": [
+      "cal",
+      "missable",
+      "optional mission",
+      "rusty anchor"
+    ],
+    "facts": {
+      "giver": "Cal",
+      "location": "The Rusty Anchor, Key Lento, Mariana County",
+      "reward": "White Rusty Anchor T-Shirt and Rusty Anchor Cap become buyable",
+      "protagonist": "Jason",
+      "chapter": "Chapter 1",
+      "type": "Optional mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-ring-the-bell",
+      "ign-optional-missions",
+      "ign-ch1-missables"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "got-pills",
+    "name": "Got Pills?",
+    "summary": "A short Chapter 2 main mission at the Starlet Motel, played as Lucia, that IGN lists with no reward.",
+    "body": [
+      "IGN lists Got Pills? as a short Chapter 2 main mission played as Lucia around the Starlet Motel, with the starting objective Find Painkillers and no reward.",
+      "IGN says it runs from room to room in the motel and ends at Vicki's door in Room 10, where knocking starts the next main mission, Girls' Trip.",
+      "IGN notes that stray cats at the Starlet Motel can be studied for the Animals collection and petted for a Focus buff."
+    ],
+    "tags": [
+      "chapter 2",
+      "lucia",
+      "main mission",
+      "starlet motel"
+    ],
+    "facts": {
+      "location": "Starlet Motel",
+      "reward": "None",
+      "protagonist": "Lucia",
+      "chapter": "Chapter 2",
+      "type": "Main mission",
+      "unlocks": [
+        "Girls' Trip"
+      ]
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-got-pills"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

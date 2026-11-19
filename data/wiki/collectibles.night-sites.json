@@ -1,0 +1,81 @@
+[
+  {
+    "slug": "egg-in-the-tower-nest",
+    "name": "Egg in the tower nest",
+    "summary": "A literal Easter egg in a nest at the top of the tallest tower in Vice City, which can be picked up and thrown.",
+    "body": [
+      "GameSpot says the egg sits in a nest on top of the tallest tower in Vice City, and that the player who found it said the climb took about seven minutes.",
+      "GameSpot says Jason or Lucia can take the egg from the nest and throw it, and leaves what follows unspoiled; it does not name the tower."
+    ],
+    "tags": [
+      "climb",
+      "easter egg",
+      "egg",
+      "nest",
+      "vice city"
+    ],
+    "facts": {
+      "type": "Easter egg",
+      "region": "Vice City",
+      "total": 1
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-easter-eggs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "new-austin-western-novel",
+    "name": "New Austin western novel",
+    "summary": "A readable western novel about a cowboy in New Austin, one of several nods to Red Dead Redemption.",
+    "body": [
+      "GameSpot says several items across the map tie Grand Theft Auto and Red Dead Redemption to one universe, one being a western novel about a cowboy living in New Austin, a place from the Red Dead series.",
+      "GameSpot says the copy it pictures is in Jacob's Tavern in Millport, and that excerpts of books and magazines like this one can be read in the game."
+    ],
+    "tags": [
+      "book",
+      "easter egg",
+      "millport",
+      "new austin",
+      "red dead redemption"
+    ],
+    "facts": {
+      "type": "Book (Easter egg)",
+      "region": "Jacob's Tavern, Millport, among other places"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-easter-eggs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "liberty-city-mob-memoir",
+    "name": "Liberty City mob memoir",
+    "summary": "A memoir by a former Liberty City crime figure, found on Jason's table early in Chapter 1, that mentions 2008.",
+    "body": [
+      "GameSpot says a memoir written by a former member of Liberty City's organised crime ring lies on the small table near the back door of Jason's home early in Chapter 1.",
+      "GameSpot says the book mentions events of 2008, which it reads as a link to Grand Theft Auto IV, set in that year, and that copies appear in other places too."
+    ],
+    "tags": [
+      "book",
+      "easter egg",
+      "gta iv",
+      "jason's house",
+      "liberty city"
+    ],
+    "facts": {
+      "type": "Book (Easter egg)",
+      "region": "Jason's house, Key Lento, among other places"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-easter-eggs"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

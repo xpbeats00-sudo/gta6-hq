@@ -35,8 +35,7 @@
       "gtabase-prop"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-6570be1d05b0.jpg"
+    "spoiler": true
   },
   {
     "slug": "7th-avenue-garage",
@@ -3134,8 +3133,7 @@
       "ppx-smash"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-851b3034c916.jpg"
+    "spoiler": true
   },
   {
     "slug": "all-that-glitters",
@@ -6148,7 +6146,10 @@
     "summary": "A playable mini golf course at Buckskin Swamp.",
     "body": [
       "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion.",
-      "PowerPyx files it under 'Vice-Dale County > Buckskin Swamp', although its map list puts Buckskin Swamp in Kelly County."
+      "PowerPyx files it under 'Vice-Dale County > Buckskin Swamp', although its map list puts Buckskin Swamp in Kelly County.",
+      "IGN places King Gator Adventure Golf in Buckskin Swamp, Kelly County, and lists 18 holes from Pink Flamingos to King Gator.",
+      "IGN's pars total 42: par 3 on Frog Chorus, Swamp Shelter, Target Practice, The Slick Pelican, Fork in the Road and Snake Pit, and par 2 on the rest.",
+      "IGN says finishing any mini golf game gives a free Fern Green & White King Gator Cap, added to the inventory automatically, and that holes finished under par give Focus XP."
     ],
     "tags": [
       "adventure",
@@ -6163,13 +6164,14 @@
     ],
     "facts": {
       "type": "mini golf course",
-      "location": "Buckskin Swamp"
+      "location": "Buckskin Swamp, Kelly County"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-golf"
+      "ppx-golf",
+      "ign-mini-golf"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6177,7 +6179,9 @@
     "name": "Frontier Adventure Golf",
     "summary": "A playable mini golf course at Waning Sands, Leonard County.",
     "body": [
-      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion."
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion.",
+      "IGN describes Frontier Adventure Golf in Waning Sands as a Wild West-themed 18-hole course, from Hole 1, High Noon, to Hole 18, The Gambler.",
+      "IGN's pars give a total of 43: par 3 on Mine Shaft, Rotten Springs, Shifty Bill's Fort, Riverboat Cruise, Frontier Saloon, The Old Well and The Gambler, and par 2 on the other eleven holes."
     ],
     "tags": [
       "adventure",
@@ -6197,11 +6201,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-golf"
+      "ppx-golf",
+      "ign-mini-golf"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-04602877b12a.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "dino-golf-challenge",
@@ -6230,15 +6234,17 @@
       "ppx-golf"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-46e929d98081.jpg"
+    "spoiler": true
   },
   {
     "slug": "leaf-links-golf-challenge",
     "name": "Leaf Links Golf Challenge",
     "summary": "A playable golf course at Leaf Links, Vice Beach.",
     "body": [
-      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion."
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion.",
+      "IGN says Leaf Links Golf Club in Vice Beach, Vice-Dale County, is on private property, so security has to be avoided, and that each hole has bronze, silver and gold stroke targets.",
+      "IGN's table gives nine holes, all par 4 except the par-3 seventh, from 217 to 419 yards: 279, 309, 319, 280, 382, 288, 217, 419 and 411 yards.",
+      "IGN's gold targets are 4 strokes on holes 1 to 4, 7 and 8 and 5 on holes 5, 6 and 9, with silver one stroke more and bronze four more than gold."
     ],
     "tags": [
       "beach",
@@ -6252,13 +6258,14 @@
     ],
     "facts": {
       "type": "golf course",
-      "location": "Leaf Links, Vice Beach"
+      "location": "Leaf Links, Vice Beach, Vice-Dale County"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-golf"
+      "ppx-golf",
+      "ign-golf-courses"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6266,7 +6273,10 @@
     "name": "Mount Hailes Golf Challenge",
     "summary": "A playable golf course at Mount Hailes Club, Waning Sands, Leonard County.",
     "body": [
-      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion."
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion.",
+      "IGN calls it Mount Hailes Country Club, in Waning Sands, Leonard County, and lists 18 holes with red, yellow and black tees; the par-5 third is the longest at 595 yards from the black tee, and the par-3 eighth the shortest at 101 yards from the red.",
+      "IGN's front-nine pars run 4, 4, 5, 4, 4, 3, 4, 3, 4 and the back nine 4, 3, 4, 5, 4, 4, 4, 3, 4, a par of 70 in all.",
+      "IGN gives medal targets only for holes 1 to 9: gold at par on each, silver one stroke over and bronze four over; its table leaves the back-nine targets blank."
     ],
     "tags": [
       "challenge",
@@ -6283,15 +6293,15 @@
     ],
     "facts": {
       "type": "golf course",
-      "location": "Mount Hailes Club, Waning Sands, Leonard County"
+      "location": "Mount Hailes Country Club, Waning Sands, Leonard County"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-golf"
+      "ppx-golf",
+      "ign-golf-courses"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-0f6f6f3e665e.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "hamlet-bmx",
@@ -6413,7 +6423,12 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Kingfishers.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "IGN lists the Fishing Shacks as a Kingfishers Illegal Operation on an island in Wetman Bay, north-west of Key Lento and west of Cottonmouth Lake, started from a Robbery Opportunity that Donnie mentions; IGN rates its security High.",
+      "IGN says a boat or jet ski is needed, that approaching from the south-west keeps the player out of the detection radius, and that alligators along the shore attack both the Kingfishers and the player.",
+      "IGN puts the payout at 1,700 to 1,900 dollars depending on how it goes; the only Key Valuable is the Kingfishers W-22 Small Game Rifle, fitted with a silencer, in a gun case on the kitchen counter of the big house on the dock.",
+      "IGN says cocaine bricks sit in the small red shack opposite the bar and in the big house, about 1,920 dollars' worth in all, that a crate of Molotov cocktails stands behind the bar, and that Kingfishers keep arriving the longer the player stays.",
+      "IGN says a Lure Predator boat, a Bombora boat and a Mammoth Dodo seaplane are moored at the dock north of the house for the getaway."
     ],
     "tags": [
       "fishing",
@@ -6426,13 +6441,16 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Kingfishers"
+      "owner": "Kingfishers",
+      "location": "Wetman Bay, north-west of Key Lento"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "ign-fishing-shacks",
+      "ign-illegal-operations"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6441,7 +6459,10 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Kingfishers.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "IGN says Sunrise RV Park is a Kingfishers Illegal Operation for cocaine shipments and exotic animal breeding on the north side of Cottonmouth Lake, north-west of Key Lento, most easily reached by the road south-west out of Hamlet; IGN rates its security High.",
+      "IGN lists three Key Valuables: a codeless safe behind the office desk with 1,332 dollars, a safe in the dock building by a 'LIVE BAIT & TACKLE' sign holding 2,259 dollars, whose code 6769 is on a notepad beside the first safe, and the Kingfishers Akulus Revolver on the bed of an orange and white RV.",
+      "IGN says a further small safe in that RV's bathroom holds 1,022 dollars, recommends a shotgun and warns of fast dogs, and says Dunk pays 2,400 dollars for the cocaine there in Chapter 2. IGN puts the payout at 6,500 to 9,300 dollars."
     ],
     "tags": [
       "gang",
@@ -6455,13 +6476,16 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Kingfishers"
+      "owner": "Kingfishers",
+      "location": "North side of Cottonmouth Lake, north-west of Key Lento"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "ign-sunrise-rv-park",
+      "ign-illegal-operations"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6470,7 +6494,10 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Kingfishers.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "IGN says the Manatee Motel is a Kingfishers Illegal Operation north-east of Cottonmouth Lake and south of Hamlet in Mariana County, used for their exotic animal business, that it first becomes available in Chapter 2, and rates its security High.",
+      "IGN calls it one of the smaller operations, warns of a loose dog (mash Square or X to push it off) and of Kingfisher reinforcements arriving by vehicle, and says a tiger may be in the first safe's room.",
+      "IGN lists two Key Valuables beside the 'SPEED LIVE' graffiti in the main building: a codeless safe with 937 dollars in the room to its right, and the Kingfishers Laird 350 Sniper in the room to its left. IGN puts the payout at 1,700 to 1,900 dollars."
     ],
     "tags": [
       "gang",
@@ -6483,13 +6510,17 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Kingfishers"
+      "owner": "Kingfishers",
+      "location": "North-east of Cottonmouth Lake, south of Hamlet, Mariana County",
+      "availability": "Chapter 2 onward"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "ign-manatee-motel",
+      "ign-illegal-operations"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6499,7 +6530,10 @@
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Kolts & Associates.",
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
-      "PowerPyx's walkthrough index treats hitting Kingpin Bowling as an optional Chapter 2 job, and it spells the gang 'Kolts & Associates'."
+      "PowerPyx's walkthrough index treats hitting Kingpin Bowling as an optional Chapter 2 job, and it spells the gang 'Kolts & Associates'.",
+      "IGN says Kingpin Bowling, an abandoned alley taken over by Kolt & Associates for pills, lies just south of the Pawn & Gun Ammu-Nation in Port Gellhorn and first appears during the Chapter 2 main mission Coffee Break as the optional mission Hit Kingpin Bowling; Key Valuables missed then stay open to collect later. IGN rates its security High.",
+      "IGN lists three Key Valuables: the office safe at the back, through the Storage door (code 0300, found on the map at Brooks Boatworks; 3,840 dollars), the Gutterball Moreland 850 Shotgun on a pool table beside the office, and the Crowex Octane 'Orca' watch on a small table in the room left of the lanes.",
+      "IGN puts the payout at 21,100 to 29,500 dollars and says bags of pills lie on tables behind the wooden dividers in the middle of the building. PowerPyx, cited in this entry, places the watch in an office."
     ],
     "tags": [
       "associates",
@@ -6513,14 +6547,17 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Kolts & Associates"
+      "owner": "Kolt & Associates",
+      "location": "South of the Pawn & Gun Ammu-Nation, Port Gellhorn, Kelly County"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-wiki"
+      "ppx-wiki",
+      "ign-kingpin-bowling",
+      "ign-illegal-operations"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6529,7 +6566,11 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Kolts & Associates.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "IGN says June Warehouse is a Kolt & Associates Illegal Operation in Port Gellhorn just west of the Delights Cabaret, shown only when the player is close, first as a Robbery Opportunity; IGN rates its security High and recommends a shotgun.",
+      "IGN says thugs try to drive off in a blue Brooks Boatworks van when the player arrives, and that stopping it yields three bags of pills.",
+      "IGN lists three Key Valuables: the Kolt & Associates Vatra SMG on the main garage's back wall, a codeless safe beside it with 1,355 dollars, and the Vapid Truth & Justice Caracara parked just east of the garage. IGN puts the payout at 9,800 to 12,400 dollars.",
+      "IGN says a notepad to the right of the garage TV marks La Cascara Motel as a new Robbery Opportunity."
     ],
     "tags": [
       "associates",
@@ -6543,13 +6584,16 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Kolts & Associates"
+      "owner": "Kolt & Associates",
+      "location": "West of the Delights Cabaret, Port Gellhorn, Kelly County"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "ign-june-warehouse",
+      "ign-illegal-operations"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6558,7 +6602,10 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Kolts & Associates.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "IGN says La Cascara Motel is an abandoned Kolt & Associates hotel on the west side of Port Gellhorn, just north-east of Wild Hog Point, that appears after the safe code is found at Brooks Boatworks or a notepad is read at June Warehouse; IGN rates its security High.",
+      "IGN lists three Key Valuables: the bright red Vapid Firebug Dominator parked at the front, a large safe in a gated room on the top floor (code 6969, from the Brooks Boatworks map; 2,239 dollars), and the Scrapper VF5C SMG in a weapon case just past it.",
+      "IGN says body armour and a crate of Sticky Bombs and Frag Grenades sit beside the SMG case, and bags of pills and weed are spread through the rooms. IGN puts the payout at 27,600 to 46,100 dollars, the highest on its list."
     ],
     "tags": [
       "associates",
@@ -6573,13 +6620,16 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Kolts & Associates"
+      "owner": "Kolt & Associates",
+      "location": "West Port Gellhorn, north-east of Wild Hog Point, Kelly County"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "ign-la-cascara-motel",
+      "ign-illegal-operations"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6588,7 +6638,10 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Kolts & Associates.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "IGN says Brooks Boatworks is a Kolt & Associates Illegal Operation moving prescription medicine through docks north of the Pay 'n' Spray in Port Gellhorn, available from Chapter 2, with both main gates locked at first; IGN rates its security High.",
+      "IGN lists four Key Valuables: a safe upstairs in the main warehouse (code 6823, 2,165 dollars), a codeless safe in the green wooden building (1,409 dollars), the bright orange Vapid Smuggler Caracara parked outside it, and the Clunker 556 Assault Rifle in the building east of the warehouse.",
+      "IGN says a wall map in that eastern building gives three safe codes, this one plus those for La Cascara Motel and Kingpin Bowling, and that thugs try to drive a boat out of the warehouse whose deck trunk holds pills, an SMG and cash. IGN puts the payout at 5,300 to 7,900 dollars."
     ],
     "tags": [
       "associates",
@@ -6602,13 +6655,17 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Kolts & Associates"
+      "owner": "Kolt & Associates",
+      "location": "North of the Pay 'n' Spray, Port Gellhorn, Kelly County",
+      "availability": "Chapter 2 onward"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "ign-brooks-boatworks",
+      "ign-illegal-operations"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6824,7 +6881,13 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "IGN says the Exotic Animals Front opens after asking the clerk of the Three Sheets liquor store in Key Lento, just east of Donnie's trailer, about the bird noises in the back; IGN advises finishing Shirley's rum errand first, as the store otherwise locks the player out for a long while.",
+      "IGN says the yard is reached over a chain-link fence on the left of the store and through a small gate by 'No Trespassing' graffiti, where four armed men attack on sight and police are soon alerted.",
+      "IGN says a talking parrot in a cage in the middle of the yard, asked about the cash several times, mentions a generator; a vent at the base of the generator to its left holds the 1,366 dollar reward. IGN gives no security level.",
+      "Polygon suggests skipping the shop floor: go out, take the path between Three Sheets Liquor and the Pay 'N Spray next door, hop the wall, draw the armed men out and fight from behind a container.",
+      "Polygon says the police arrive almost as soon as the last guard falls; the red parrot in the middle cage says 'generator' when asked twice, and the cash is in the small vent beside the generator.",
+      "Polygon says starting the robbery and leaving before the reward makes it unavailable for a while, being caught loses the cash, and the haul is over $1,000; it suggests escaping south over the fences."
     ],
     "tags": [
       "animals",
@@ -6838,15 +6901,18 @@
       "robbery"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "location": "Behind the Three Sheets liquor store, Key Lento"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "ign-exotic-animals-front",
+      "ign-illegal-operations",
+      "pg-exotic-animal-front"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-53f0fd76a83d.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "slator-towing-inc",
@@ -7003,7 +7069,10 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "IGN says the Backroom Weed Front is at the Pearl House Hair Salon in southern Port Gellhorn, Kelly County, south-east of the Pawn & Gun Ammu-Nation, and only appears on the map, first as a Robbery Opportunity, when the player drives nearby in Chapter 2; IGN rates its security Low.",
+      "IGN says the salon's green back door can be blown with Sticky Bombs at the cost of an immediate police call, while the white door behind the building can be kicked in; two thugs wait inside.",
+      "IGN says the only Key Valuable is a safe on the left side of the back room that needs no code and holds 1,019 dollars, with 367 dollars and five bags of weed on the table beside it; IGN puts the total payout at 2,200 to 2,400 dollars."
     ],
     "tags": [
       "backroom",
@@ -7017,15 +7086,17 @@
       "weed"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "location": "Pearl House Hair Salon, Port Gellhorn, Kelly County"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "ign-backroom-weed-front",
+      "ign-illegal-operations"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-3bddc9e6f140.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "carter-mining-boathouse",

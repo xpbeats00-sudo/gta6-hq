@@ -7,7 +7,13 @@
       "Jobs: all 39 Gang Operations, all 22 Bank Jobs, all 7 Payday Loans, 34 of 35 Smash 'N' Grabs, 50 of 91 Stick Ups, all 8 vaults, and 100 optional tasks. Fencing targets are $100,000 each of narcotics and jewelry, $200,000 of vehicles and $250,000 of marked bills.",
       "Activities: 30 of 40 races won, 10 of 13 race challenge gold medals, all 42 shooting range gold medals, all 42 drone time trials (14 places, three each), all 4 video games, 5 of 7 pool opponents, 2 of 3 mini golf courses, 90 of 100 basketball hoops, 70 of 80 challenges and all 15 of Bret's target decks.",
       "Discovery: 200 of 277 base-model vehicles scanned, 50 of 66 standard weapons and 100 of 255 animals studied, plus 70 of 79 styles.",
-      "These are one guide's figures, published on launch day. The guide does not say how it counted them."
+      "These are one guide's figures, published on launch day. The guide does not say how it counted them.",
+      "IGN's 100% guide weights the categories: finishing the story counts for 50 percent and Optional Missions for 6 percent; Illegal Operations (39) for 3 percent; Bank Robberies (22), Payday Loan Jobs (7), Smash 'n' Grabs (34), Stick Ups (100), Vaults (8) and each of the four fencing targets for 2 percent each; every Exploration, Activities and Discoveries target counts 1 percent.",
+      "IGN's fencing targets are 100,000 dollars each of narcotics, jewellery and marked bills and 200,000 dollars of vehicles, though its vehicle section and its Vehicles page say 100,000 dollars of vehicles; PowerPyx, cited in this entry, gives 250,000 dollars of marked bills.",
+      "IGN's 1 percent targets: 5 Kenton sets, 15 card sets, 100 WAiNK locations, 33 Underwater Discoveries, 30 magazines, 15 meditation spots, 100 Cocaine Flamingos, 2 unique playlists, 70 styles, 30 race wins, 10 race challenge golds, 42 shooting range golds, 4 arcade games, 5 pool opponents, 2 golf courses, 90 basketball hoops, 42 drone trials, 300 stunts, 70 challenges, 15 of Bret's target decks, 200 vehicles, 50 weapons and 100 animals.",
+      "IGN asks for 100 Stick Ups where PowerPyx asks for 50 of 91, and IGN counts 5 Kenton sets, one per shipwreck off Key Lento, where the app's Kenton entry describes seven.",
+      "IGN says progress toward 100 percent only shows in-game, under Progress, Stats, 100% Completion on the map, once the story is finished, and that only Landmarks, Curiosities, Sculptures, Peewees billboards and No Flusher tags count among WAiNK scans.",
+      "Polygon says the completion percentage on a save rises only with story missions, by a little under 1 percent each; once the 100% menu unlocked after the story, its save dropped to 66 percent and rose only 2 points in 10 further hours."
     ],
     "related": [
       "achievements/a-long-road",
@@ -27,9 +33,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-100"
+      "powerpyx-100",
+      "ign-100-percent",
+      "pg-completion-menu"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/artwork/vice-city-skyline-night.webp"
   },
@@ -99,7 +107,9 @@
     "name": "WAiNK locations",
     "summary": "Places scanned with the WAiNK app. The 100% checklist and the You WAiNKer! trophy both ask for 100.",
     "body": [
-      "PowerPyx's guide to the Progress database lists five kinds: 31 landmarks, 35 curiosities, 23 sculptures, 23 \"no flusher\" tags, and one more that was still unnamed when the guide was written."
+      "PowerPyx's guide to the Progress database lists five kinds: 31 landmarks, 35 curiosities, 23 sculptures, 23 \"no flusher\" tags, and one more that was still unnamed when the guide was written.",
+      "IGN says the controller pulses regularly when a WAiNK scan is nearby, on its left or right side to show which way the scan lies from the camera.",
+      "IGN counts 108 WAiNK location scans in five categories, Landmarks, Curiosities, Sculptures, Peewees Billboards and No Flusher Tags, and says AHOL's Geographies of Trash pieces are collected as art by Vice City residents once scanned."
     ],
     "related": [
       "achievements/you-wainker"
@@ -119,9 +129,10 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-100",
-      "powerpyx-progress"
+      "powerpyx-progress",
+      "ign-collectibles-hub"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -138,10 +149,14 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-100"
+      "powerpyx-100",
+      "ign-collectibles-hub"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "body": [
+      "IGN agrees there are 125 Cocaine Flamingos and says the ones holding cocaine are lawn flamingos with a white beak, broken open like pinatas; each one broken fills in the collection page, and the cocaine can be sold."
+    ]
   },
   {
     "slug": "underwater-discoveries",
@@ -205,9 +220,14 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-100"
+      "powerpyx-100",
+      "ign-collectibles-hub",
+      "ign-100-percent"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "body": [
+      "IGN's collectibles hub counts 27 magazines, books and comics and 7 Book Swap sheds, while its 100% guide asks for 30 magazines."
+    ]
   }
 ]

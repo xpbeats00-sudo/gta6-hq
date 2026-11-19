@@ -66,7 +66,10 @@
     "body": [
       "TheSixthAxis's review says police grow suspicious of long guns and that people react when a masked character walks in. Hats, sunglasses and masks can hide your face during a crime.",
       "Weapons can be kept in weapon lockers or in vehicles you own. A weapon picked up in the world is lost when you quit unless it has been stored.",
-      "Guns have damage and range figures, and accessories change them."
+      "Guns have damage and range figures, and accessories change them.",
+      "IGN says weapons, longarms included, are stored by opening a vehicle's trunk and holding L1/LB, then Square (Y) to store and Cross (A) to equip.",
+      "IGN says Ammu-Nation lockers and the vehicle trunk share one store, that not every Ammu-Nation has a locker, and that hovering over a store's map icon says whether it does.",
+      "IGN says only one weapon of each type is carried at a time; at a trunk or locker, L2/LT and R2/RT swap which one of a type is held."
     ],
     "related": [
       "gameplay/carrying-weapons"
@@ -85,9 +88,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "sixthaxis-review"
+      "sixthaxis-review",
+      "ign-store-weapons"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

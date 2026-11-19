@@ -67,7 +67,9 @@
     "summary": "An indie and dance station in the released game, listed by GameSpot, CULTR and The Big Lead.",
     "body": [
       "Songs GameSpot reports hearing on it: Justice & Tame Impala - One Night / All Night; Neil Frances - You Move Me; Fischerspooner - Emerge; Roisin Murphy - Overpowered; Tommy Richman - Million Dollar Baby; CMD/CTRL - No Stress; ANOTR - Paradise; Rampa & WhoMadeWho - Abu Simbel.",
-      "No host is named by any of the three outlets."
+      "No host is named by any of the three outlets.",
+      "GTABase gives the station's short name as SFM.",
+      "GTABase files its genre as pop, where the app has indie and dance."
     ],
     "tags": [
       "dance",
@@ -83,9 +85,10 @@
     "sources": [
       "gamespot-radio",
       "cultr-radio",
-      "biglead-radio"
+      "biglead-radio",
+      "gtabase-stockyard"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -95,7 +98,8 @@
     "body": [
       "Songs GameSpot reports hearing on it: BunnaB - Go Go Go; Drake - Nokia; Gunna - Count Up; Pooh Shiesty - Got Dat; Offset - I Just Came To Pop It; Denzel Curry - Fla Flow; Migos ft. Lil Uzi Vert - Bad and Boujee; Young Nudy - Don Da Da; French Montana & Swae Lee - Unforgettable; Cardi B - Don't Chart; Playboi Carti - Ahh Yea; Kodak Black & Don Toliver - Let's Rock; Travis Scott - RHYNO; Yung Lean ft. Future & Metro Boomin - That's It; Tee Grizzley - IKYFL.",
       "Several of these are tracks from Grand Theft Auto VI: The Album. GameSpot's list for this station is longer than the fifteen given here.",
-      "No host is named by any of the three outlets."
+      "No host is named by any of the three outlets.",
+      "GTABase's radio guide lists 34 VCRR songs. Ones the app does not yet have: Real Boston Richey - Help Me; Drake - Nonstop; Mustard ft. Quavo & Rob49 - One of Them Ones; Future - Xanny Family; Pop Smoke - Dior; BossMan Dlow - Mr. Pot Scraper; Nemzzz ft. Travis Scott - Gass; Kodak Black ft. XXXTentacion - Roll in Peace; DJ Khaled ft. Latto & City Girls - Bills Paid; GloRilla ft. Sexyy Red - Whatchu Kno About Me; Young Thug - Digits; Future, Metro Boomin, Travis Scott & Playboi Carti - Type Shit; Zoey Dollaz - Blow a Check; Central Cee - Rock N Roll; Famous Sally & YB - Wassup Gway; Latto ft. Flo Milli - Go Shorty; SoFaygo - Cashout; 310babii, Blueface & Tyga - Soak City; 21 Savage - Cookin."
     ],
     "tags": [
       "hip-hop",
@@ -111,9 +115,10 @@
     "sources": [
       "gamespot-radio",
       "cultr-radio",
-      "biglead-radio"
+      "biglead-radio",
+      "gtabase-radio-hub"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -171,8 +176,7 @@
       "biglead-radio"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/tech-t-9a64b9b8c0f8.jpg"
+    "spoiler": true
   },
   {
     "slug": "radio-on-u",
@@ -181,7 +185,8 @@
     "body": [
       "The outlets describe it differently: The Big Lead calls it reggae, CULTR reggae, dub and lovers rock, while GameSpot says it mostly plays fairly relaxed rock with some exceptions.",
       "Songs GameSpot reports hearing on it: Adrian Sherwood - Dub Inspector; Louisa Mark - Caught You in a Lie; Horace Andy - Skylarking; Carroll Thompson - I'm So Sorry; Freddie McGregor - Big Ship; Ken Boothe - Everything I Own.",
-      "No host is named by any of the three outlets."
+      "No host is named by any of the three outlets.",
+      "GTABase gives the station's short name as ON U and files its genre as reggae."
     ],
     "tags": [
       "dub",
@@ -197,9 +202,10 @@
     "sources": [
       "gamespot-radio",
       "cultr-radio",
-      "biglead-radio"
+      "biglead-radio",
+      "gtabase-radio-on-u"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -209,7 +215,10 @@
     "body": [
       "GameSpot says it keeps its vulture logo. Metal has moved to The Chamber 106.6.",
       "Songs GameSpot reports hearing on it: Bon Jovi - Runaway; The Rolling Stones - Emotional Rescue; Huey Lewis & The News - I Want A New Drug; Lindsey Buckingham - Go Insane; Van Halen - Panama; Poison - Nothin' But A Good Time; Eric Clapton - Cocaine; Harry Nilsson - Jump Into the Fire; The Who - Bargain; Eddie Money - Take Me Home Tonight; John Mellencamp - Jack and Diane; Motley Crue - Dr. Feelgood; Pete Townshend - Let My Love Open the Door; Loverboy - Lovin' Every Minute of It; KISS - Sure Know Something.",
-      "No host is named by GameSpot, CULTR or The Big Lead."
+      "No host is named by GameSpot, CULTR or The Big Lead.",
+      "GTABase files V-Rock under hard rock and heavy metal, where the app (from GameSpot) has classic rock.",
+      "GTABase's tracklist has the app's songs plus Stevie Nicks - For What It's Worth.",
+      "GTABase notes the station previously appeared in GTA Vice City and Vice City Stories."
     ],
     "tags": [
       "classic rock",
@@ -227,9 +236,11 @@
     "sources": [
       "gamespot-radio",
       "cultr-radio",
-      "biglead-radio"
+      "biglead-radio",
+      "gtabase-vrock",
+      "gtabase-radio-hub"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -321,7 +332,9 @@
     "body": [
       "GameSpot describes it as world music and jazz; CULTR and The Big Lead describe it as global club music.",
       "Songs GameSpot reports hearing on it: Facta ft. Warrior Queen and Killa P - Slope VIP; Dongurizu - Yoppa Ratta; Fejão ft. Samtheman - Brasil de Capoeira; Cloud One - Atmosphere Strut; Jamiroquai - Smile; Garfield Fleming - Don't Send Me Away; Roberta Flack - The First Time Ever I Saw Your Face; Atmos Blaq - Skhaftin Saka Fonque; 4hero - Star Chasers.",
-      "No host is named by any of the three outlets."
+      "No host is named by any of the three outlets.",
+      "GTABase's radio guide adds one song the app lacks: Moses Ideka & Phil - Do It for You.",
+      "GTABase gives the genre as house, jazz and worldbeat, and notes the station also appeared in GTA V and GTA Online."
     ],
     "tags": [
       "club",
@@ -339,9 +352,10 @@
     "sources": [
       "gamespot-radio",
       "cultr-radio",
-      "biglead-radio"
+      "biglead-radio",
+      "gtabase-radio-hub"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -351,7 +365,8 @@
     "body": [
       "Songs GameSpot reports hearing on it: Skream - Floral; Michael Bibi - Rhythm of the Night; Mind Against - Let It Go.",
       "GameSpot and CULTR list this station. The Big Lead's table does not include it.",
-      "No host is named."
+      "No host is named.",
+      "GTABase says the station plays songs from CircoLoco Records, a label Rockstar Games founded with the Circoloco party brand, whose songs were earlier heard on GTA Online's Media Player."
     ],
     "tags": [
       "circoloco",
@@ -368,9 +383,10 @@
     "confidence": "corroborated",
     "sources": [
       "gamespot-radio",
-      "cultr-radio"
+      "cultr-radio",
+      "gtabase-circoloco"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -381,7 +397,8 @@
       "Rockstar's vice president of music, Ivan Pavlovich, told GameSpot the idea came from studio co-founder Sam Houser's love of foreign-language covers of his favourite songs, and that tracing rights holders was hard in some countries.",
       "Pavlovich said Jeremy Irons plays a well-travelled host who tells tall tales of his adventures, and recorded the part in one session.",
       "Songs GameSpot reports hearing on it: Rolf Bergstrom - Rokkibaby; Trevor M. Simpson & Hi Lo Singers - Stupid Girl; Phuong Thanh - Chia Tay Trong Mua; Marianne Rosenberg - Herz Aus Glas; Ron - Hai Capito O No?; Alim Qasimov & Farghana Qasimova - Say It Right.",
-      "GameSpot's managing editor also mentions a South Asian cover of Careless Whisper, without naming the performer."
+      "GameSpot's managing editor also mentions a South Asian cover of Careless Whisper, without naming the performer.",
+      "GTABase files Kaleidoscope FM under dance, which differs from the app's description of global pop and foreign-language covers."
     ],
     "tags": [
       "covers",
@@ -402,9 +419,10 @@
       "gamespot-radio",
       "gamespot-kaleidoscope",
       "cultr-radio",
-      "biglead-radio"
+      "biglead-radio",
+      "gtabase-kaleidoscope"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/gamespot-20ecee60cfb2.jpg"
   },

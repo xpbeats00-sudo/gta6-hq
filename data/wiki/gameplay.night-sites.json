@@ -1,0 +1,85 @@
+[
+  {
+    "slug": "leaving-the-map",
+    "name": "Trying to leave Leonida",
+    "summary": "Aircraft run dry and crash at the edge of the map, and jet skis run out of fuel and leave the rider stranded.",
+    "body": [
+      "GameSpot says an aircraft that reaches the invisible outer boundary of the map instantly runs out of fuel and crashes.",
+      "GameSpot says a jet ski heading out to sea also runs out of fuel, but leaves the rider stranded in open water rather than crashing.",
+      "GameSpot compares this with Grand Theft Auto V, where aircraft stalled, boats sank and swimmers drew sharks, and says the fuel system is what is new.",
+      "GameSpot mentions a streamer who met a dog on a wave runner far out at sea, but could not repeat it; see Lucky Dog."
+    ],
+    "tags": [
+      "aircraft",
+      "boundary",
+      "fuel",
+      "jet ski",
+      "map edge"
+    ],
+    "facts": {
+      "type": "System"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-leave-leonida"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "where-to-find-aircraft",
+    "name": "Where to find aircraft",
+    "summary": "Set places to take a small plane, an airliner, a jet or a helicopter, and the one plane the player can keep.",
+    "body": [
+      "GameSpot says small two-seat planes stand in the open at Wild Hog Point, west of Port Gellhorn in Kelly County between Borrachero Sound and Draper Bay, and that taking one did not bring the police; they cannot be owned, and they run out of fuel.",
+      "GameSpot says a plane that can be kept, Kyle's Mallard, waits at Kyle McKittrick's farm in East Kelly County at the end of his side questline, and stays marked on the map wherever it is left.",
+      "According to GameSpot, airliners are at Vice City International Airport in south-west Vice-Dale County; crossing the restricted gate brings a 3-star wanted level, some planes are locked, and they need a long runway.",
+      "GameSpot found jets only at Mile Zero Air Station in the far south-west, west of Key Lento, and suggests reaching it by boat on its west side; whether a jet is waiting is down to chance.",
+      "GameSpot says helicopters often sit on skyscraper helipads, naming Maven Residences south-west of Panos Plaza downtown and Crimson Palms in north Washington Beach, and that a large helicopter guarded by three men sits on a helipad in the gated Lake Tallaloko community north of Millport.",
+      "GameSpot warns that flying stolen aircraft through restricted airspace is an easy way to reach a 6-star wanted level, and says aircraft were scarce even across the main story."
+    ],
+    "tags": [
+      "aircraft",
+      "airport",
+      "helicopters",
+      "jets",
+      "planes"
+    ],
+    "facts": {
+      "type": "Guide"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-get-plane"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "owning-a-boat",
+    "name": "Owning a boat",
+    "summary": "Boats cannot be registered as personal vehicles; the Key Lento boat, stolen boats and the Ultimate Edition Squalo are the options.",
+    "body": [
+      "GameSpot says boats can never be registered as Jason's or Lucia's personal vehicle, whatever the boat or however it was obtained.",
+      "GameSpot says a fishing boat waits at the dock behind Jason's house in Key Lento in every edition, but cannot be recovered once the story moves on from Key Lento.",
+      "According to GameSpot, a stolen boat can be left at a remembered dock, though story progress seems to clear unowned vehicles from where they were left.",
+      "GameSpot says yachts and luxury speedboats need the Key Cloner, which Randy gives in Chapter 4, while smaller and older boats can be hotwired; it points to unguarded yachts at the Leaf Links country club and the marinas of Ocean Beach and Washington Beach.",
+      "GameSpot says Ultimate Edition owners get a custom Shitzu Squalo from just after Chapter 4 begins, docked on Washington Island near the Y Hotel, where it stays for most of the story."
+    ],
+    "tags": [
+      "boats",
+      "key cloner",
+      "personal vehicles",
+      "ultimate edition"
+    ],
+    "facts": {
+      "type": "System"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gs-get-boat"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

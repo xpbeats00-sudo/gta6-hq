@@ -1,0 +1,117 @@
+[
+  {
+    "slug": "vapid-smuggler-caracara",
+    "name": "Vapid Smuggler Caracara",
+    "summary": "A Standout Smuggler Caracara that IGN lists as a Key Valuable at an Illegal Operation in Port Gellhorn.",
+    "body": [
+      "IGN calls the Vapid Smuggler Caracara a Standout vehicle and the third of four Key Valuables at the Brooks Boatworks Illegal Operation in Port Gellhorn.",
+      "IGN says the bright orange truck is parked in front of the green wooden building, is unlocked with no alarm, and only counts as found once the player gets in.",
+      "IGN says it costs 5,550 dollars to register and sells for 6,325 dollars."
+    ],
+    "tags": [
+      "illegal operation",
+      "key valuable",
+      "port gellhorn",
+      "standout vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Smuggler Caracara",
+      "class": "Standout (group not stated)",
+      "availability": "Key Valuable at Brooks Boatworks, Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-brooks-boatworks",
+      "ign-illegal-operations"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-truth-and-justice-caracara",
+    "name": "Vapid Truth & Justice Caracara",
+    "summary": "A Standout Truth & Justice Caracara that IGN lists as a Key Valuable at an Illegal Operation in Port Gellhorn.",
+    "body": [
+      "IGN calls the Vapid Truth & Justice Caracara a Standout vehicle and the third Key Valuable at the June Warehouse Illegal Operation in Port Gellhorn.",
+      "IGN says it is parked just east of the main garage, unlocked and without an alarm.",
+      "IGN says it costs 5,550 dollars to register and sells for 6,445 dollars."
+    ],
+    "tags": [
+      "illegal operation",
+      "key valuable",
+      "port gellhorn",
+      "standout vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Truth & Justice Caracara",
+      "class": "Standout (group not stated)",
+      "availability": "Key Valuable at June Warehouse, Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-june-warehouse",
+      "ign-illegal-operations"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "vapid-firebug-dominator",
+    "name": "Vapid Firebug Dominator",
+    "summary": "A Standout Firebug Dominator that IGN lists as a Key Valuable at an Illegal Operation in Port Gellhorn.",
+    "body": [
+      "IGN calls the Vapid Firebug Dominator a Standout vehicle and the first of three Key Valuables at the La Cascara Motel Illegal Operation in Port Gellhorn.",
+      "IGN says the bright red car is parked on the east side in front of the motel, where hostile thugs gather.",
+      "IGN says, unlike the other standout vehicles on its operation pages, it is locked: a window has to be broken or a Slim Jim used before it can be hotwired. IGN gives no register or sale price."
+    ],
+    "tags": [
+      "illegal operation",
+      "key valuable",
+      "port gellhorn",
+      "standout vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Firebug Dominator",
+      "class": "Standout (group not stated)",
+      "availability": "Key Valuable at La Cascara Motel, Port Gellhorn"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-la-cascara-motel",
+      "ign-illegal-operations"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bombora-s23-ccs",
+    "name": "Bombora S23 CCS",
+    "summary": "The boat IGN says Jason keeps moored off the small dock at his Key Lento safehouse.",
+    "body": [
+      "IGN names Jason's boat as the Bombora S23 CCS, moored off the small dock outside his Key Lento safehouse, one of the vehicles stored there along with his Ganado.",
+      "IGN's diving guide says the boat at Jason's safehouse always carries scuba gear, and its Fishing Shacks page lists a Bombora boat among the getaway boats at that operation's dock."
+    ],
+    "tags": [
+      "boat",
+      "jason",
+      "key lento",
+      "watercraft"
+    ],
+    "facts": {
+      "model": "Bombora S23 CCS",
+      "class": "Boat",
+      "availability": "Jason's Key Lento safehouse"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ign-beginners-guide",
+      "ign-diving-treasure",
+      "ign-fishing-shacks"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

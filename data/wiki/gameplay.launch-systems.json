@@ -11,7 +11,13 @@
       "Push Square and GameSpot describe a Reminders list, opened with Up then Square (X on Xbox), that gathers messages awaiting a reply, news articles and Snapmatic posts; PowerPyx says checking Snapmatic and News sometimes marks places on the map.",
       "Game Rant says the phone's settings offer 11 ringtones, each with its own controller vibration and played through the DualSense speaker on PlayStation 5, and 25 wallpapers.",
       "DayOne's review calls the handset an iFruit phone with a Recommended section at the top listing current actions; GameSpot says Jason and Lucia each have their own phone and that it can be opened while driving.",
-      "GameSpot's music guide calls the texting app Messages while Game Rant and GamesRadar+ call it WhatUp; no page read gave an unlock point for the Fitness, News or Weather apps."
+      "GameSpot's music guide calls the texting app Messages while Game Rant and GamesRadar+ call it WhatUp; no page read gave an unlock point for the Fitness, News or Weather apps.",
+      "IGN says the News app gathers stories from The Leonida Journal, Weazel News and the Vice City Horn, and the Weather app gives a two-day forecast including sunset time.",
+      "IGN says messages in WhatUp can carry photos and coordinates that add places to the map when opened, with a red dot on unread ones.",
+      "IGN says Scooter Bros charges a flat fee per request plus a distance fee; Push Square, cited in this entry, ties the fee to distance and condition.",
+      "IGN says BuckMe holds a checking account and a savings account for goals, that cash can only be deposited at an ATM, and that the app's ATM finder marks the nearest one.",
+      "IGN says the Fitness app shows hunger, the current workout window and Focus Level, and that Vice City Real Estate sells garages for more parking spots.",
+      "IGN says the Settings app changes wallpaper and ringtone and later receives third-party plugins unlocked through the story, naming the Cop Scanner and the Key Cloner."
     ],
     "tags": [
       "apps",
@@ -39,11 +45,11 @@
       "ps-tips",
       "gs-tips",
       "gs-phone-music",
-      "dayone-review"
+      "dayone-review",
+      "ign-apps"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamerant-t-cd4392263835.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "headphones-and-radio-on-foot",
@@ -53,7 +59,10 @@
       "GameSpot says there is no radio or podcast app: with headphones worn, holding Left on the D-pad outside a vehicle opens the station list, Down moves to podcasts, and X (A on Xbox) mutes.",
       "GameSpot gives two kinds of headphones, over-ear at roughly 200 dollars and in-ear at 119 dollars, and names Zeke's Gadgets in northern Hamlet as the nearest electronics store to the starting area.",
       "According to GameSpot, headphones can be put on from any wardrobe or toggled in the Items section of the loadout wheel.",
-      "PowerPyx counts 15 electronics stores (13 in Vice-Dale County, one each in Leonard and Kelly counties), marked by an orange headphone icon, and says they also sell phone cases."
+      "PowerPyx counts 15 electronics stores (13 in Vice-Dale County, one each in Leonard and Kelly counties), marked by an orange headphone icon, and says they also sell phone cases.",
+      "IGN says on-foot listening is not available at the start: earbuds are bought at an electronics shop, marked on the map by a pair of headphones, by interacting with a display cabinet and choosing a colour; IGN names them Clef Earbuds.",
+      "IGN places Zeke's Gadgets on Cicada Avenue in Hamlet, south of the local Ammu-Nation and about 1.5 miles north of Key Lento, as the store nearest the start.",
+      "IGN says the earbuds are put on from the item wheel (L1/LB, then R1/RB, the headphones icon at top right), after which holding Left on the D-pad opens the radio, with Cross (A) switching it on or off without removing them."
     ],
     "tags": [
       "electronics stores",
@@ -69,9 +78,10 @@
     "confidence": "corroborated",
     "sources": [
       "gs-phone-music",
-      "ppx-electronics"
+      "ppx-electronics",
+      "ign-music-on-foot"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -114,7 +124,9 @@
       "GameSpot describes the savings account as shared between the two leads, with goals that bring better interest payments and strengthen their relationship; DayOne's review says hitting each chapter's savings target is rewarded with more money.",
       "GamesRadar+ says a BuckMe Premium Account can be signed up for from Chapter 3 and that one perk is 20 percent off RydeMe journeys.",
       "GamesRadar+ says the proceeds of a vehicle sold at a Pay 'n' Spray go straight into BuckMe unless the balance limit has been reached, and that RydeMe fares are drawn from BuckMe while Paradise Taxi takes pocket cash.",
-      "PowerPyx lists a Shopping challenge, Nest Egg, for banking 1,500,000 dollars in the BuckMe checking account."
+      "PowerPyx lists a Shopping challenge, Nest Egg, for banking 1,500,000 dollars in the BuckMe checking account.",
+      "IGN says the first BuckMe savings milestone is 5,000 dollars and that savings milestones pay interest bonuses.",
+      "IGN says cash carried when the player dies is lost, which is why it advises banking cash at an ATM as soon as BuckMe is set up in the Chapter 1 mission Buck Me, along with any cash stashed in the safehouse bedroom."
     ],
     "tags": [
       "bank",
@@ -136,11 +148,11 @@
       "dayone-review",
       "gr-fast-travel",
       "gr-sell-cars",
-      "ppx-challenge-list"
+      "ppx-challenge-list",
+      "ign-money-early"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamespot-t-c312acac3d5e.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "pocket-cash-and-atms",
@@ -187,7 +199,9 @@
       "GamesRadar+ says unowned weapons are lost for good when Wasted or Busted, while owned ones can be collected from the personal vehicle's trunk or an Ammu-Nation weapons locker.",
       "GamesRadar+ says a personal vehicle being driven when the player is Wasted or Busted is impounded; GameSpot says bags left in an impounded car are lost too.",
       "GameSpot says temporary stat buffs from eating, sleeping and showering last for the play session or until the character dies.",
-      "GamesRadar+ says the autosave triggers when Wasted or Busted. No page read gave a hospital bill, a fine or a bribe amount; Game Rant mentions hospital fees only as the penalty in earlier games."
+      "GamesRadar+ says the autosave triggers when Wasted or Busted. No page read gave a hospital bill, a fine or a bribe amount; Game Rant mentions hospital fees only as the penalty in earlier games.",
+      "IGN says being Wasted or Busted costs all pocket cash and also a small amount from the checking account, which differs from Push Square's statement in this entry that BuckMe money is safe; IGN adds that surrendering brings the same loss.",
+      "IGN's own beginner's guide says money in BuckMe is not lost when a character dies or is arrested, which differs from its Wanted guide."
     ],
     "tags": [
       "arrest",
@@ -209,11 +223,12 @@
       "gr-weapon-ownership",
       "gr-personal-vehicles",
       "gs-tips",
-      "gr-save"
+      "gr-save",
+      "ign-wanted",
+      "ign-beginners-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamerant-t-e5456275b610.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "strength-cardio-and-focus-levels",
@@ -227,7 +242,14 @@
       "PowerPyx says Focus sets how long Combat Focus (L3 plus R3 while aiming) lasts and rises through shooting range challenges, golf, pool and catching fish; it names the Market Range Beginner challenge at Rodgers Ranch & Shooting Range, entered with a 5 dollar waiver pass, as repeatable without limit.",
       "PowerPyx's criminal profile guide says which combat actions raise Focus depends on the profile: stealth takedowns at Professional and Hardened, headshots at Violent and Psycho.",
       "Push Square and GameSpot both say Strength and Cardio regress if neglected while Focus gains are permanent.",
-      "DayOne's review ties Focus gains to meditation spots and says higher Strength makes it easier to wrest a gun from an armed person; Game Rant's guide labels the first two stats Health and Stamina."
+      "DayOne's review ties Focus gains to meditation spots and says higher Strength makes it easier to wrest a gun from an armed person; Game Rant's guide labels the first two stats Health and Stamina.",
+      "IGN says the Fitness app, the purple icon with horizontal bars, tracks each lead separately, so working out as one does nothing for the other, and shows daily calories, the three levels and whether the workout window is open.",
+      "IGN says Jason starts with Strength at level three: health to the left of the white dash on the bar is base health and the rest is the Strength bonus.",
+      "IGN says Cardio rises a little from sprinting in normal play, not only from gym running, cycling or punching-bag work, and that Strength gains suffer if the character is hungry or tired.",
+      "IGN says Focus has no workout window, all its gains are permanent, and it is raised by concentration activities such as basketball, fishing, meditation and shooting ranges, and by non-lethal incapacitations.",
+      "IGN says cigarettes and cigars give a temporary Focus bonus at the cost of some health, while splashing water at a sink or showering gives one without the health cost.",
+      "IGN gives the Adrenaline input as holding L1/LB and pressing Square/X, which turns all three bars gold for a while; PowerPyx, cited in the app's healing entry, gives L1 plus Triangle.",
+      "IGN's beginner's guide gives the Adrenaline input as Triangle/Y in the weapon-wheel menu, matching PowerPyx, while its fitness page says Square/X; the beginner's guide also calls the stamina icon blue lightning."
     ],
     "tags": [
       "cardio",
@@ -250,11 +272,12 @@
       "ppx-trophy-guide",
       "ppx-challenge-list",
       "ppx-criminal-profile",
-      "grant-stats"
+      "grant-stats",
+      "ign-fitness",
+      "ign-beginners-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamerant-t-36ba2ccca0a5.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "workout-windows-and-gyms",
@@ -268,7 +291,9 @@
       "Game Rant says cardio machines are a timing minigame needing a score of at least 90, and names Venus Fitness in Vice City with a 600 dollar membership and a free punching bag under Jason's house.",
       "PowerPyx says weights are on the terrace of the Chapter 1 house, that fitness clubs are filtered on the map under Activities, and that home workouts return after the story.",
       "PowerPyx and GameSpot both say that when the two go to a gym together the character not being played completes a workout as well.",
-      "PowerPyx lists Fitness challenges for becoming a member at any gym and for completing a workout on each type of gym equipment in a day."
+      "PowerPyx lists Fitness challenges for becoming a member at any gym and for completing a workout on each type of gym equipment in a day.",
+      "IGN says a ring around each icon in the Fitness app shows progress to the next level and a white dash marks the day's workout limit; once the ring reaches it, the character must rest and sleep before the window reopens.",
+      "IGN says missing a window loses some Strength or Cardio progress, and names bench presses, chest flies and deadlifts for Strength, with the first weight set at the Key Lento safehouse."
     ],
     "tags": [
       "fitness app",
@@ -288,11 +313,11 @@
       "ppx-stats",
       "grant-stats",
       "ppx-trophy-guide",
-      "ppx-challenge-list"
+      "ppx-challenge-list",
+      "ign-fitness"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/pushsquare-t-4429d1b293f0.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "zombix-adrenaline-and-healing",
@@ -305,7 +330,12 @@
       "GameSpot describes a tolerance mechanic: healing items used repeatedly during a fight become gradually less effective.",
       "GameSpot says health regenerates slowly if no damage is taken, but only up to a solid white line on the bar, and that low stamina slows the regeneration.",
       "PowerPyx says body armor is sold at Ammu-Nation under Equipment, is switched on from the item wheel, shows as a blue bar above health, and is refilled only by getting a new vest.",
-      "GameSpot says it saw no injuries needing special treatment, and mentions separate lung and oxygen gauges without explaining them."
+      "GameSpot says it saw no injuries needing special treatment, and mentions separate lung and oxygen gauges without explaining them.",
+      "IGN says Zombix costs 15 dollars a bottle at convenience stores, from the clerk or the shelves, and is also found free as loot, in first aid kits and on some bathroom counters; each character carries up to five.",
+      "IGN says Adrenaline cannot be bought and is found in first aid and trauma kits, red pouches or white wall cabinets with a green label in places like gas station bathrooms, offices and warehouses; each character carries up to three. This differs from PowerPyx, cited in this entry, which says both are sold at convenience stores.",
+      "IGN says apples, free in many receptions and kitchens or 1 dollar in stores, and vending-machine snacks are the most common healing foods, and that gumball machines stand near the doors of shops such as salons, thrift stores and restaurants.",
+      "IGN says hospitals, marked by a cross in a square, hold free Zombix and Adrenaline, naming the Vice City Hospital in Rockridge, where Zombix sits at the pharmacy counters, and says ambulances can be opened for both, though some are empty.",
+      "IGN says a Zombix taken at low health only heals up to the white line on the health bar, a line that moves with workout gains, and only a little beyond it."
     ],
     "tags": [
       "adrenaline",
@@ -324,9 +354,10 @@
       "ppx-trophy-guide",
       "dayone-review",
       "gs-heal",
-      "ppx-body-armor"
+      "ppx-body-armor",
+      "ign-zombix"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -418,7 +449,12 @@
       "GamesRadar+ says there is no way to resolve six stars; DayOne's review says the Army covers the whole map and the player is eventually killed; GameSpot says the areas involved stay monitored until the character is caught or killed and need a full change of clothes, appearance and vehicle to re-enter.",
       "PowerPyx separates the flashing red and blue search area from a larger red heat zone, and says its escape trophies only unlock on leaving the red zone or using a Pay 'n' Spray.",
       "DayOne's review says each star widens the search zone and that higher levels take more in-game time away from the area to clear.",
-      "PowerPyx says police helicopters break off when shot at, and GameSpot says the pilot announces the retreat over the police radio. No page read listed what one and two stars bring."
+      "PowerPyx says police helicopters break off when shot at, and GameSpot says the pilot announces the retreat over the police radio. No page read listed what one and two stars bring.",
+      "IGN says one star brings one to three squad cars, usually with Tasers that drain stamina; it names assault, firing a gun in public, pointing a gun at an officer, stealing an untracked car and trespassing as one-star crimes, and says breaking line of sight and hiding ends it quickly.",
+      "IGN says blowing up a gas station, assaulting an officer, killing a civilian or setting off a car's advanced tracker gives two stars at once, with more and more aggressive police who may draw firearms; ducking with Circle/B in a parked car helps hide.",
+      "IGN says killing an officer, or killing several civilians with one explosive, gives three stars at once; police then carry longarms and body armour, ram with bigger vehicles, set roadblocks and call in a helicopter, and K9 units may follow a suspect on foot.",
+      "IGN says four stars bring SWAT in armoured military-grade vehicles and helicopters that open fire, and that stealing a plane from the airport gives four stars at once and scrambles fighter jets.",
+      "IGN calls five stars the highest level that can still be escaped, with many air units, armoured cars and roadblocks and a long air search afterwards; six stars come with a warning that the hunt will not stop, cover the whole map, and end only in death or a reload."
     ],
     "tags": [
       "heat zone",
@@ -439,11 +475,11 @@
       "ppx-game-length",
       "gr-six-star",
       "dayone-review",
-      "gs-tips"
+      "gs-tips",
+      "ign-wanted"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamespot-t-00763b5db14b.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "heat-indicators-and-disguises",
@@ -456,7 +492,12 @@
       "PowerPyx says the bandana, glasses and hat are toggled from the item wheel, that the red icons sit in the top-right corner, and that holding Circle while driving ducks behind the wheel to pass police unnoticed.",
       "PowerPyx says repainting at a Pay 'n' Spray removes vehicle heat once outside the immediate search area, and GamesRadar+ says abandoning a car clears its heat but usually gets it impounded.",
       "DayOne's review says a mask hides the face but clothing can still be recognised, that a hat and glasses make the player harder to spot in a car, and that changing hair also lowers heat.",
-      "GamesRadar+ says a partner sent away can draw police off and removes one of the wanted conditions; Push Square says police know when the two are working as a pair."
+      "GamesRadar+ says a partner sent away can draw police off and removes one of the wanted conditions; Push Square says police know when the two are working as a pair.",
+      "IGN says up to five outfits can be stored in a personal vehicle's trunk from the Outfits tab of any wardrobe (in safehouses or clothing stores), marked with a car icon once added.",
+      "IGN says a stored outfit is put on from the clothes-hanger slot of the item wheel, reached with R1/RB from the weapon wheel in the car or from the trunk's loadout menu, cycling with L2+R2 (LT+RT), and that changing clothes this way can clear the outfit heat indicator.",
+      "IGN says a pistol is hidden by picking Unarmed on the loadout wheel, but a longarm stays strapped to the back and visible, so civilians may still call police until it is stored.",
+      "IGN says the CCTV heat has two icons: a camera, meaning footage is stored on site and can be destroyed, and a cloud, meaning it cannot be reached; it says bank jobs most often show the cloud.",
+      "IGN says appearance heat can be cleared by changing accessories or hairstyle, that clothes can also be stolen from a clothing shop after threatening the clerk, and that holding Right on the D-pad then Triangle/Y splits the pair up to clear partner heat, after which the partner texts to meet again."
     ],
     "tags": [
       "cctv",
@@ -476,11 +517,13 @@
       "gr-personal-vehicles",
       "dayone-review",
       "gr-switch",
-      "ps-change-characters"
+      "ps-change-characters",
+      "ign-car-outfits",
+      "ign-store-weapons",
+      "ign-wanted"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/playday-t-501591876da8.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "criminal-profile-tiers",
@@ -493,7 +536,13 @@
       "According to PowerPyx the profile otherwise has little direct effect, though it sets which actions raise Focus, and Irredeemable has no passive way to raise it.",
       "PowerPyx says the rating shows at the top of a character's page in the Jason & Lucia tab, and that a notification icon appears for each action if Criminal Profile is switched on under Settings, UI, HUD Notifications; a trophy counts 500 such actions.",
       "DayOne's review instead describes four levels, naming professional, aggressive, psycho and irredeemable, and says an AI partner's kills do not count against either character.",
-      "GameSpot says a lead with a violent profile acts more violently when not being controlled, and GamesRadar+ says disabling police vehicles, even without killing, counts toward Hardened."
+      "GameSpot says a lead with a violent profile acts more violently when not being controlled, and GamesRadar+ says disabling police vehicles, even without killing, counts toward Hardened.",
+      "IGN says each profile is viewed from the map (touchpad or View) by tabbing with L1/LB to Jason & Lucia, then Left or Right on the D-pad for Jason or Lucia.",
+      "IGN says Professional and Hardened characters gain permanent Focus from non-lethal incapacitations and from considerate acts such as putting trash in a bin, feeding Jason's pet snake and good deeds in stranger interactions; Violent and Psycho characters gain it only from headshots, and Irredeemable gains none.",
+      "IGN says police will not accept surrender from a Psycho or Irredeemable character.",
+      "IGN says killing police mainly pushes a character toward Psycho, while repeatedly blowing up civilian vehicles and crowds is the fastest way to Irredeemable; time slows and the Psycho emoji cracks as a warning three times before it shatters to the grey Irredeemable icon, which only loading an earlier save undoes.",
+      "IGN says mission choices also move the profile, that explosives are hard to use without a violent mark, and that a civilian who starts or accepts a fight through the interaction system counts as an enemy for the profile.",
+      "IGN describes five profiles, as PowerPyx does; DayOne's four-level description, cited in this entry, differs."
     ],
     "tags": [
       "criminal profile",
@@ -512,11 +561,11 @@
       "ppx-trophy-guide",
       "dayone-review",
       "gs-tips",
-      "gr-switch"
+      "gr-switch",
+      "ign-criminal-profile"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamesradar-375dc4f285f8.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "clothing-stores-and-outfits",
@@ -673,7 +722,11 @@
       "GamesRadar+ says Unique Weapon Variants, marked by a golden gun icon and usually found at special spots and illegal operation hideouts, unlock permanently for both leads but cannot be modified.",
       "GamesRadar+ says Ammu-Nation stock grows with the number of weapons bought overall, and that premium stores carry more weapons and exclusive cosmetics.",
       "PowerPyx counts 24 Ammu-Nations labelled Limited, Standard, Hunting or Expanded, says Expanded stores stock light machine guns, sniper rifles and launchers, and that map icons flag stores with clothing, a weapon locker or fishing rods.",
-      "GamesRadar+'s loadout guide says every Ammu-Nation has a weapons locker, while its ownership guide says most do; PowerPyx's icon note implies only some."
+      "GamesRadar+'s loadout guide says every Ammu-Nation has a weapons locker, while its ownership guide says most do; PowerPyx's icon note implies only some.",
+      "IGN says weapons picked up in the world are Unowned Weapons, shown as grey gun icons on the weapon wheel and minimap, and can be carried or put in the personal vehicle's trunk.",
+      "IGN says an unowned weapon is gone as soon as it is left behind or the player is Busted while using it, and that it can never be registered.",
+      "IGN says ammunition for a held unowned weapon can be bought at Ammu-Nation, but the weapon locker cannot be used to modify weapons until unowned ones are discarded.",
+      "IGN describes Unique Weapon Variants as yellow weapons with fixed visual customisation and locked modifications, added permanently to both leads' collection; some are guarded in Illegal Operations, some sold at Ammu-Nation and some lie out in the world."
     ],
     "tags": [
       "ammu-nation",
@@ -691,11 +744,11 @@
       "gr-weapon-ownership",
       "dayone-review",
       "ppx-ammu-nation",
-      "gr-loadout"
+      "gr-loadout",
+      "ign-keep-weapons"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/playday-t-3cb82bbb5865.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "homes-and-what-they-offer",
@@ -821,7 +874,9 @@
       "PowerPyx says a Premium upgrade bought in the app for 12,500 dollars gives three free deliveries per day, and that those daily credits can also retrieve impounded vehicles for free.",
       "GamesRadar+ says a personal vehicle that has been destroyed is recovered through the app for a fee.",
       "PowerPyx says that in Chapter 1, before the app exists, a phone contact named Joey repairs Jason's car for free and delivers or respawns it.",
-      "GameSpot says the app's list is also a quick way to see every vehicle currently owned."
+      "GameSpot says the app's list is also a quick way to see every vehicle currently owned.",
+      "IGN says Moses introduces the Scooter Bros app early in Chapter 2 after the first vehicle is registered with him, and that it retrieves and repairs owned vehicles.",
+      "IGN says Scooter Bros Premium gives three free deliveries per day, or five for GTA+ subscribers, plus one free impound retrieval per day."
     ],
     "tags": [
       "delivery",
@@ -839,9 +894,10 @@
       "ppx-summon",
       "ps-tips",
       "gr-personal-vehicles",
-      "gs-more-cars"
+      "gs-more-cars",
+      "ign-impound"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -853,7 +909,11 @@
       "GamesRadar+ says Scooter Bros will fetch it from the impound lot for a significant fee, but stash bags hidden in the trunk may be lost; GameSpot also says bags in an impounded car are lost.",
       "GamesRadar+ says the Personal section of the map index shows where the vehicle is held, and that the player can try to steal it back or check nearby police cars for loot already taken from the trunk.",
       "PowerPyx says Scooter Bros Premium credits retrieve impounded vehicles for free.",
-      "No page read gave the impound fee or mentioned vehicle insurance."
+      "No page read gave the impound fee or mentioned vehicle insurance.",
+      "IGN says police who arrive after a reported crime may make impounding the getaway car their first priority, and anything stored in a personal vehicle goes with it.",
+      "IGN says Scooter Bros Premium includes one free impound retrieval per day, but using it spends all of that day's remaining free deliveries, which the app warns about.",
+      "IGN says the impound lot holding the car is marked on the map; climbing the fence and breaking out through the gate costs nothing, and police are only told a vehicle was taken from the lot, so a quick exit from the search zone avoids them.",
+      "IGN says retrieving the car quickly matters because its trunk holds stored weapons and contraband such as drugs, jewellery and marked bills; GamesRadar+ and GameSpot, as cited in this entry, say stash bags may be lost."
     ],
     "tags": [
       "impound",
@@ -870,11 +930,11 @@
     "sources": [
       "gr-personal-vehicles",
       "gs-tips",
-      "ppx-summon"
+      "ppx-summon",
+      "ign-impound"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamesradar-t-57d3f0ad0b69.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "mod-shop-specialities",
@@ -992,7 +1052,10 @@
       "GamesRadar+ says Pay 'n' Sprays and mod shops repair for a fee, while gas stations do minor repairs only, cannot fix critical damage and charge more.",
       "PowerPyx counts six car washes, all in Vice City: three RON Car Washes (Salton, Balsero, Bayside), two Xero Car Washes (Southside, La Perle) and Park N Glow.",
       "PowerPyx says car washes only clean the vehicle and that a repair cleans it as well.",
-      "PowerPyx and Push Square say the Reduced Vehicle Damage setting lowers the damage the player's vehicle takes."
+      "PowerPyx and Push Square say the Reduced Vehicle Damage setting lowers the damage the player's vehicle takes.",
+      "IGN says Pay 'n' Sprays are marked on the map with a pink spray-can icon, and that a respray there also removes vehicle heat if the player drives in unseen.",
+      "IGN says mod shops are rarer than Pay 'n' Sprays but also add decals, custom plates, liveries, bodywork, engine, transmission, nitrous, wheel and interior work, and that many offer specialty parts for the cars they specialise in.",
+      "IGN says gas stations restore a car's looks and only part of its engine health, unlike the full repair at a Pay 'n' Spray or mod shop."
     ],
     "tags": [
       "car wash",
@@ -1010,9 +1073,10 @@
       "gr-repair",
       "ppx-car-washes",
       "ppx-tips",
-      "ps-tips"
+      "ps-tips",
+      "ign-repair-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1094,7 +1158,8 @@
       "Push Square says the Default control scheme puts running on L3 and jumping on Cross, and that a Classic scheme in the style of the previous game can be chosen under Control Scheme.",
       "PowerPyx says notifications for collectibles and the criminal profile are switched on under Settings, UI, HUD Notifications, and that the fuel gauge and minimap can be set to appear only when Down is pressed.",
       "DayOne's review says the aim dead zone can be adjusted and that button-mashing prompts can become holds.",
-      "PowerPyx says brightness is under Settings, Display, Brightness Calibration, and GameSpot says cheats that change the challenge unlock after the story."
+      "PowerPyx says brightness is under Settings, Display, Brightness Calibration, and GameSpot says cheats that change the challenge unlock after the story.",
+      "IGN says there are three control schemes, Default, Classic and Left-Handed, chosen in the first tab of Settings with a preview of each input on foot and in vehicles, that Square/X restores the default, and that none gives an advantage."
     ],
     "tags": [
       "accessibility",
@@ -1114,9 +1179,10 @@
       "ps-tips",
       "ppx-tips",
       "ppx-gas",
-      "dayone-review"
+      "dayone-review",
+      "ign-control-scheme"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1252,8 +1318,7 @@
       "dayone-review"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-a83e68f05129.jpg"
+    "spoiler": true
   },
   {
     "slug": "cinematic-auto-drive",
@@ -1263,7 +1328,10 @@
       "Game Rant says that with the car moving, holding Down on the D-pad and pressing Options (Menu on Xbox) enters Cinematic mode, which only works when a destination is marked on the map.",
       "Game Rant says an Auto Drive option then appears at the bottom right after a little acceleration, that the triggers adjust its speed, and that holding Down again leaves the mode.",
       "DayOne's review says the system works well once a navigation point is set, but caused crashes in aircraft and struggled to find a path on narrow waterways.",
-      "DayOne's review says that when both leads are in the vehicle the player can start driving as one and swap to the other."
+      "DayOne's review says that when both leads are in the vehicle the player can start driving as one and swap to the other.",
+      "IGN says auto-drive works in land and water vehicles: with a drivable waypoint set, hold Down on the D-pad, press Options (Menu) for Cinematic view, then hold Circle (B) to start it.",
+      "IGN says the driver mostly obeys road rules and can still be held up by traffic jams and accidents, and the triggers cycle the speed.",
+      "IGN says boats only follow navigable water, and that with a land waypoint set from a boat, auto-drive follows the route as far as the water reaches and then switches off."
     ],
     "tags": [
       "auto-drive",
@@ -1278,11 +1346,11 @@
     "confidence": "corroborated",
     "sources": [
       "grant-auto-drive",
-      "dayone-review"
+      "dayone-review",
+      "ign-auto-drive"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamerant-t-df2170c8a724.jpg"
+    "verified": "2026-11-19",
+    "spoiler": true
   },
   {
     "slug": "partner-commands",

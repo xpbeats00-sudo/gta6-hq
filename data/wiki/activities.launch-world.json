@@ -46,8 +46,7 @@
       "ppx-races"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-43441c032a2b.jpg"
+    "spoiler": true
   },
   {
     "slug": "gellhorn-international-raceway",
@@ -74,8 +73,7 @@
       "ppx-race-challenges"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-e40be3eb9d42.jpg"
+    "spoiler": true
   },
   {
     "slug": "boone-speedway",
@@ -100,8 +98,7 @@
       "ppx-race-challenges"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-b90eafe1bffc.jpg"
+    "spoiler": true
   },
   {
     "slug": "ambrosia-raceway",
@@ -126,8 +123,7 @@
       "ppx-race-challenges"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-41caab97a086.jpg"
+    "spoiler": true
   },
   {
     "slug": "thrillbilly-mud-club",
@@ -155,8 +151,7 @@
       "ppx-race-challenges"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-c913bbd5a808.jpg"
+    "spoiler": true
   },
   {
     "slug": "unique-races",
@@ -165,7 +160,10 @@
     "body": [
       "PowerPyx gives the groups as Hit 'N Run VC (9), Animal Crackers (8), Gellhorn International Raceway (11), Boone Speedway (2), Ambrosia Raceway (2) and Thrillbilly Mud Club (8).",
       "PowerPyx says race starts show as blue map icons from about 100 metres away, that winning 30 counts for the completion checklist and that winning 20 earns a trophy.",
-      "The guide gives no fee or prize amounts."
+      "The guide gives no fee or prize amounts.",
+      "IGN's racing page lists 39 races where PowerPyx counts 40; the gap is Gellhorn Raceway, which IGN gives 10 races and PowerPyx 11. IGN agrees that 30 race wins with gold in first place are needed for the 100 percent requirement.",
+      "IGN says more races in a group open after a bronze in the earlier ones, that NPCs around each venue hand out races, and that a rental car can be paid for or an owned car entered if it is the exact class required.",
+      "IGN's per-race maximum payouts run from 1,500 dollars (Boone Speedway Oval, Trash Dash, Shoreline) to 6,000 dollars (Gellhorn Full Loop and Full Loop CCW, Big Mud, Beach Blast)."
     ],
     "tags": [
       "40",
@@ -174,16 +172,17 @@
       "races"
     ],
     "facts": {
-      "type": "Races (40 in 6 groups)",
+      "type": "Races (39 on IGN's list)",
       "location": "Vice City, Mariana, Kelly, Lummox and Vice-Dale counties"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-races",
       "ppx-100",
-      "ppx-database"
+      "ppx-database",
+      "ign-racing"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -275,7 +274,10 @@
     "body": [
       "PowerPyx lists the sites as Hamlet, Watson Bay, Capri, Buckskin Swamp, Balsero, Downtown, Dalton Island, Vice Beach, Waning Sands, Ambrosia, Port Gellhorn, Draper Island, Moreau Sawmill and Millport.",
       "PowerPyx says beating the par time on the first two trials at a site opens the third, which only has to be finished, and that Dalton Island can only be reached by boat or aircraft.",
-      "According to PowerPyx all 42 are needed for the completion checklist, and winning one at every site earns a trophy."
+      "According to PowerPyx all 42 are needed for the completion checklist, and winning one at every site earns a trophy.",
+      "IGN says each Top Fun drone race starts from a van with a flat entry fee, after which retries are free; the drone must pass every pink ring and finish under par, and beating par opens the next race in the area.",
+      "IGN gives the same prize at every site: 750 dollars for the first race, 1,500 for the second and 3,000 for the third, so the 42 races pay 73,500 dollars in all.",
+      "IGN says all 42 are needed for 100 percent and that trying one counts toward the Master of None trophy. PowerPyx, cited in this entry, says the third race at a site only has to be finished; IGN gives par times for all three."
     ],
     "tags": [
       "drone",
@@ -291,9 +293,10 @@
     "sources": [
       "ppx-drones",
       "ppx-100",
-      "ppx-database"
+      "ppx-database",
+      "ign-top-fun-drones"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -303,7 +306,9 @@
     "body": [
       "PowerPyx names Tenebrae Lux, Street Trash III and Time Jackers Rewind as titles for the JoySystem console at the TV in the player's home.",
       "PowerPyx says Bang For Your Buck is only found on arcade machines out in the world, for example outside the Bargain World clothing store in Port Gellhorn.",
-      "According to PowerPyx the home console cannot be used during the second chapter, and starting each game once is enough for the completion checklist."
+      "According to PowerPyx the home console cannot be used during the second chapter, and starting each game once is enough for the completion checklist.",
+      "IGN names four video and arcade games, Bang For Your Buck, Street Trash 3: Dezombifier, Tenebrae Lux and Time Jackers: Rewind, all playable on the home console after the Chapter 1 mission Feng Shui; Bang For Your Buck and Street Trash 3 are also in arcades around Leonida.",
+      "IGN says all four must be completed for 100 percent."
     ],
     "tags": [
       "arcade",
@@ -321,9 +326,10 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-videogames",
-      "ppx-100"
+      "ppx-100",
+      "ign-100-percent"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -360,7 +366,10 @@
     "summary": "Three mini golf courses are open for play: King Gator, Frontier and Dino Golf.",
     "body": [
       "PowerPyx places King Gator Adventure Golf in Buckskin Swamp, Frontier Adventure Golf in Waning Sands and Dino Golf Challenge in Frogswater.",
-      "According to PowerPyx, finishing two of the three counts for the completion checklist, and the Sports challenges include 18-hole rounds at King Gator and Frontier."
+      "According to PowerPyx, finishing two of the three counts for the completion checklist, and the Sports challenges include 18-hole rounds at King Gator and Frontier.",
+      "IGN says mini golf is one of the sports activities needed for 100 percent, that King Gator and Frontier charge a fee and can be played solo or with the partner, and that the abandoned Dino Golf in Frogswater, Kelly County, is free.",
+      "IGN says Dino Golf's 18 dinosaur-themed holes, from Big Boned to Great Glacier, each award gold for 2 strokes, silver for 3 and bronze for 4; its table skips a Hole 4.",
+      "IGN lists the mini golf challenges as Golf Rookie, Golf Pro and Double Hole in One."
     ],
     "tags": [
       "dino golf",
@@ -377,9 +386,10 @@
     "sources": [
       "ppx-golf",
       "ppx-100",
-      "ppx-challenges"
+      "ppx-challenges",
+      "ign-mini-golf"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -414,7 +424,11 @@
     "summary": "There are 100 basketball hoops around Leonida, and the game tracks a scored shot at each.",
     "body": [
       "According to PowerPyx, scoring at 90 of the 100 hoops counts for the completion checklist.",
-      "PowerPyx lists Sports challenges for scoring at three hoops in a day, ten shots in a row, a hoop in every county and all 100 hoops."
+      "PowerPyx lists Sports challenges for scoring at three hoops in a day, ten shots in a row, a hoop in every county and all 100 hoops.",
+      "IGN numbers the 100 hoops 0 to 99 and counts 49 in Vice-Dale County, 18 in Mariana, 14 each in Kelly and Leonard and 5 in Lummox, though it lists only four Lummox hoop numbers. Its 100% guide also mentions 99 hoops in one place.",
+      "IGN says each score gives +2 percent Focus, with Focus gains capped at five per 30 minutes of real time.",
+      "IGN lists the rewards as a Narcos Cap from the Eris Shop for 10 hoops, three tattoos for 50 and an Alternative Kit from the Eris Shop for all 100.",
+      "IGN lists the basketball challenges as Basketball Rookie, Basketball Streak and Basketball Pro."
     ],
     "tags": [
       "100",
@@ -430,9 +444,10 @@
     "sources": [
       "ppx-100",
       "ppx-database",
-      "ppx-challenges"
+      "ppx-challenges",
+      "ign-basketball-hoops"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -461,8 +476,7 @@
       "ppx-100"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-33147d40b524.jpg"
+    "spoiler": true
   },
   {
     "slug": "gym-workouts",
@@ -524,8 +538,7 @@
       "ppx-database"
     ],
     "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-t-b78b3a772dc2.jpg"
+    "spoiler": true
   },
   {
     "slug": "fishing-challenges",

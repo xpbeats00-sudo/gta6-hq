@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "street-art-squalo",
+    "name": "Street Art Squalo",
+    "summary": "A Fine Art custom Shitzu Squalo powerboat with a graffiti finish, sitting on a trailer in Key Lento.",
+    "body": [
+      "Game8 describes it as a custom Shitzu Squalo with a graffiti-style finish and files it under the Fine Art vehicle type.",
+      "Game8 says it has a fixed spawn on a boat trailer at the north-east end of Sunset Dr in central Key Lento, and that a vehicle with a tow may be needed to push it into the water.",
+      "Game8 lists it as a 2000s powerboat with 2 seats, storage of 4 and no mod specialist."
+    ],
+    "tags": [
+      "boat",
+      "fine art",
+      "key lento",
+      "standout vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Shitzu",
+      "model": "Squalo",
+      "class": "Fine Art (powerboat)",
+      "seats": 2,
+      "availability": "Fixed spawn on a trailer, Sunset Dr, Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "g8-street-art-squalo"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]
