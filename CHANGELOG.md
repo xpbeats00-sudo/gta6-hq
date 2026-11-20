@@ -2,6 +2,14 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.33 (20 November 2026)
+
+40 more sourced pictures: 2,698 of 3,087 entries now have one.
+
+- 26 standout and regular vehicles, each showing its own paint job, from Game8's vehicle pages.
+- Places (the flea market, Apollo Aggregates, the Catalan Boulevard bridge, the waste site, Vespucci Island, Merlin's Palace Casino, Key Lento Police Station), weapons and equipment, the Alien Range, the pelican for the animal compendium, and the Rottweiler.
+- The pre-launch Nagasaki Dinghy is folded into the Dingus Como: GTABase's old Dinghy page now names it so.
+
 ## 0.2.32 (20 November 2026)
 
 The Field Manual, rewritten for the released game: 14 chapters, 86 written pages and 211 pictures.

@@ -1,17 +1,17 @@
 # Media rights audit
 
-Generated 2026-11-19 19:10 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-19 23:59 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 2883 |
-| Records in `data/media.json` | 2848 |
+| Media files on disk (`images/`, `wallpapers/`) | 2923 |
+| Records in `data/media.json` | 2888 |
 | Files with no record | 35 |
 | Records with no file | 0 |
 | Groups of identical files | 0 |
-| Files not used anywhere | 2302 |
+| Files not used anywhere | 2341 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 15 |
 
@@ -22,7 +22,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Decision | Files | Meaning |
 |---|---|---|
 | approved_for_distribution | 0 | Cleared to ship in a public package |
-| local_personal_use_only | 2833 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
+| local_personal_use_only | 2873 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
 | unknown | 50 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
@@ -33,7 +33,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Kind | Records |
 |---|---|
 | evidence_frame | 23 |
-| official_illustration | 2773 |
+| official_illustration | 2813 |
 | owner_supplied_unverified | 52 |
 
 `evidence_frame`: a frame of Rockstar's official video, used as evidence in the manual or as an entry picture. `official_illustration`: an official Rockstar screenshot or artwork. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded.
@@ -293,6 +293,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/activities/race-thrillbilly-mud-club-dirt-slam.jpg`
 - `images/activities/race-thrillbilly-mud-club-skid-loop.jpg`
 - `images/activities/race-thrillbilly-mud-club-trash-dash.jpg`
+- `images/activities/rodgers-ranch-alien-range.jpg`
 - `images/activities/rodgers-ranch-cops-and-robbers-range.jpg`
 - `images/activities/rodgers-ranch-hunting-range.jpg`
 - `images/activities/rodgers-ranch-market-range.jpg`
@@ -422,6 +423,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/businesses/marbles.jpg`
 - `images/businesses/marshals.jpg`
 - `images/businesses/martez-empenos.jpg`
+- `images/businesses/merlins-palace-casino.jpg`
 - `images/businesses/mid.jpg`
 - `images/businesses/mount-hailes-golf-challenge.jpg`
 - `images/businesses/nine1nine-strip-club.jpg`
@@ -1742,6 +1744,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/gameplay/vehicle-damage-repairs-and-car-washes.jpg`
 - `images/gameplay/where-to-find-aircraft.jpg`
 - `images/locations/ambrosia-police-department.jpg`
+- `images/locations/apollo-aggregates.jpg`
 - `images/locations/avery-allen-and-co.jpg`
 - `images/locations/balsero.jpg`
 - `images/locations/bayside.jpg`
@@ -1752,6 +1755,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/locations/buckskin-swamp.jpg`
 - `images/locations/camp-moonflower.jpg`
 - `images/locations/capri.jpg`
+- `images/locations/catalan-boulevard-bridge.jpg`
 - `images/locations/catalan-key.jpg`
 - `images/locations/corsair-key.jpg`
 - `images/locations/crosstown-police-station.jpg`
@@ -1774,6 +1778,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/locations/hamlet.jpg`
 - `images/locations/imperial-spanish-ruins.jpg`
 - `images/locations/kelly-county.jpg`
+- `images/locations/key-lento-police-station.jpg`
 - `images/locations/key-lento.jpg`
 - `images/locations/la-perle.jpg`
 - `images/locations/lake-leonida.jpg`
@@ -1814,12 +1819,14 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/locations/tequesta.jpg`
 - `images/locations/triangler-sculpture.jpg`
 - `images/locations/vcia.jpg`
+- `images/locations/vespucci-island.jpg`
 - `images/locations/vice-beach.jpg`
 - `images/locations/vice-city-ferry.jpg`
 - `images/locations/vice-dale-county.jpg`
 - `images/locations/vice-museum-of-art-sculpture.jpg`
 - `images/locations/waning-sands.jpg`
 - `images/locations/washington-beach.jpg`
+- `images/locations/waste-transfer-services.jpg`
 - `images/locations/watson-bay.jpg`
 - `images/locations/waxman-island.jpg`
 - `images/locations/west-kalaga.jpg`
@@ -1944,6 +1951,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/72-deviant.jpg`
 - `images/vehicles/82-canis-crawler.jpg`
 - `images/vehicles/airboat-09.jpg`
+- `images/vehicles/airgator-dr-sheehans-airboat.jpg`
 - `images/vehicles/airport-bus.jpg`
 - `images/vehicles/airtug.jpg`
 - `images/vehicles/albany-buccaneer-65.jpg`
@@ -1962,6 +1970,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/benefactor-spritz.jpg`
 - `images/vehicles/benefactor-xls.jpg`
 - `images/vehicles/bf-bandito-77.jpg`
+- `images/vehicles/bf-blood-moon-bandito.jpg`
 - `images/vehicles/bf-greta.jpg`
 - `images/vehicles/bf-surfer.jpg`
 - `images/vehicles/bison-1800-police.jpg`
@@ -1980,6 +1989,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/bravado-gauntlet-hellfire.jpg`
 - `images/vehicles/bravado-gresley-xt.jpg`
 - `images/vehicles/bravado-sojourn.jpg`
+- `images/vehicles/bravado-tropic-dawn-youga.jpg`
 - `images/vehicles/bravado-youga-74.jpg`
 - `images/vehicles/bravado-youga-xl-79.jpg`
 - `images/vehicles/brute-boxville.jpg`
@@ -1992,6 +2002,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/buster.jpg`
 - `images/vehicles/caddy.jpg`
 - `images/vehicles/calder-yakuruna.jpg`
+- `images/vehicles/canis-black-moth-kamacho.jpg`
 - `images/vehicles/canis-kamacho.jpg`
 - `images/vehicles/canis-mesa.jpg`
 - `images/vehicles/canis-terminus.jpg`
@@ -2001,13 +2012,18 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/classique-stallion.jpg`
 - `images/vehicles/coil-raiden.jpg`
 - `images/vehicles/declasse-akane.jpg`
+- `images/vehicles/declasse-beach-candy-bobcat.jpg`
 - `images/vehicles/declasse-bobcat-xl-84.jpg`
+- `images/vehicles/declasse-bugstars-burrito.jpg`
 - `images/vehicles/declasse-burrito-98.jpg`
+- `images/vehicles/declasse-cousin-carlos-akane.jpg`
 - `images/vehicles/declasse-d7700.jpg`
+- `images/vehicles/declasse-ghosts-exposed-parkland.jpg`
 - `images/vehicles/declasse-granger-3600lx.jpg`
 - `images/vehicles/declasse-impaler-20.jpg`
 - `images/vehicles/declasse-impaler-80.jpg`
 - `images/vehicles/declasse-impaler-sz.jpg`
+- `images/vehicles/declasse-mountain-yosemite.jpg`
 - `images/vehicles/declasse-rancher.jpg`
 - `images/vehicles/declasse-tulip-72.jpg`
 - `images/vehicles/declasse-tulip-m-100-78.jpg`
@@ -2015,11 +2031,13 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/declasse-vigero-zx-convertible.jpg`
 - `images/vehicles/declasse-walton-l35.jpg`
 - `images/vehicles/declasse-yosemite-1500.jpg`
+- `images/vehicles/dingus-como.jpg`
 - `images/vehicles/dinka-blista-85.jpg`
 - `images/vehicles/dinka-chavos-xs.jpg`
 - `images/vehicles/dinka-double-t.jpg`
 - `images/vehicles/dinka-sugoi.jpg`
 - `images/vehicles/dinka-verus.jpg`
+- `images/vehicles/driveshaft-hustler.jpg`
 - `images/vehicles/dundreary-arcturus-93.jpg`
 - `images/vehicles/dundreary-landstalker-xl.jpg`
 - `images/vehicles/emperor-sultan.jpg`
@@ -2045,6 +2063,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/invetero-coquette-classic.jpg`
 - `images/vehicles/invetero-coquette-d10.jpg`
 - `images/vehicles/invetero-coquette.jpg`
+- `images/vehicles/invetero-enforcer-coquette.jpg`
 - `images/vehicles/jobuilt-flatbed.jpg`
 - `images/vehicles/jobuilt-mb2-10.jpg`
 - `images/vehicles/jobuilt-phantom-custom.jpg`
@@ -2060,9 +2079,12 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/l35p-police-boat.jpg`
 - `images/vehicles/lapwing-mallard.jpg`
 - `images/vehicles/lapwing-nimbus.jpg`
+- `images/vehicles/lapwing-stolen-valor-300-h.jpg`
 - `images/vehicles/lcc-avarus.jpg`
+- `images/vehicles/lcc-midnight-sun-avarus.jpg`
 - `images/vehicles/lifta.png`
 - `images/vehicles/lure-predator-l35p.jpg`
+- `images/vehicles/lure-predator-rainbow-ripple-l20s.jpg`
 - `images/vehicles/maibatsu-boomazoom.jpg`
 - `images/vehicles/maibatsu-iota.jpg`
 - `images/vehicles/maibatsu-manchez.jpg`
@@ -2108,16 +2130,21 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/schyster-pmp-700.jpg`
 - `images/vehicles/schyster-woodland-85.jpg`
 - `images/vehicles/seashark-hydroblast.jpg`
+- `images/vehicles/seashark-westbound-azure.jpg`
 - `images/vehicles/shasa.jpg`
 - `images/vehicles/shift-e-fan-e.jpg`
 - `images/vehicles/shifter.jpg`
 - `images/vehicles/sirius-61-sungrazer-standout.jpg`
 - `images/vehicles/sirius-sungrazer-61.jpg`
 - `images/vehicles/sirius.jpg`
+- `images/vehicles/street-art-squalo.jpg`
 - `images/vehicles/swamp-blaster.jpg`
 - `images/vehicles/taci-ragno.jpg`
+- `images/vehicles/teniente-manana.jpg`
 - `images/vehicles/truffade-thrax.jpg`
 - `images/vehicles/tuff-bmx.jpg`
+- `images/vehicles/tuff-immortal-bmx.jpg`
+- `images/vehicles/twinstripe-vigero.jpg`
 - `images/vehicles/ubermacht-apoc-cabrio.jpg`
 - `images/vehicles/ubermacht-apoc.jpg`
 - `images/vehicles/ubermacht-cypher.jpg`
@@ -2139,18 +2166,24 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/vapid-montagne.jpg`
 - `images/vehicles/vapid-reclaimer-70.jpg`
 - `images/vehicles/vapid-reclaimer.jpg`
+- `images/vehicles/vapid-red-hot-hustler.jpg`
 - `images/vehicles/vapid-rumpo.jpg`
 - `images/vehicles/vapid-sandking-xt.jpg`
+- `images/vehicles/vapid-shrimp-and-save-shifter.jpg`
 - `images/vehicles/vapid-smuggler-caracara.jpg`
+- `images/vehicles/vapid-smush-ganado.jpg`
+- `images/vehicles/vapid-speedo.jpg`
 - `images/vehicles/vapid-stanier-g2-taxi.jpg`
 - `images/vehicles/vapid-truth-and-justice-caracara.jpg`
 - `images/vehicles/walter-cruiser.jpg`
 - `images/vehicles/western-company-duster.jpg`
+- `images/vehicles/western-magma-cliffhanger.jpg`
 - `images/vehicles/western-nightblade.jpg`
 - `images/vehicles/western-sovereign-107.jpg`
 - `images/vehicles/western-zombie-chopper.jpg`
 - `images/vehicles/whiffler-dashound.jpg`
 - `images/vehicles/willard-grouse-92.jpg`
+- `images/vehicles/willard-lasso-90.jpg`
 - `images/vehicles/willard-moocher-83.jpg`
 - `images/vehicles/willard-transient.jpg`
 - `images/vehicles/willard-trotter-95.jpg`
@@ -2225,6 +2258,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/girardi-es18.jpg`
 - `images/weapons/girardi-super400.jpg`
 - `images/weapons/goodwin-comshot-12.jpg`
+- `images/weapons/goodwin-lmg-6.jpg`
 - `images/weapons/grx-556.jpg`
 - `images/weapons/guardia-brothers-vf5.jpg`
 - `images/weapons/gun-nut-sms-01.jpg`
@@ -2238,11 +2272,13 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/honky-tonk-mustang-357.jpg`
 - `images/weapons/hostile-super400.jpg`
 - `images/weapons/hunters-laird-350.jpg`
+- `images/weapons/hunting-knife.jpg`
 - `images/weapons/iaa-sms-01.jpg`
 - `images/weapons/internal-affairs-ff-sr.jpg`
 - `images/weapons/iron-and-oak-wcr-1.jpg`
 - `images/weapons/island-poacher-ff-50.jpg`
 - `images/weapons/jack-sheepe-handl-38.jpg`
+- `images/weapons/key-cloner.jpg`
 - `images/weapons/killtelligence-sm-69.jpg`
 - `images/weapons/kingfishers-akulus.jpg`
 - `images/weapons/kingfishers-laird-350.jpg`
@@ -2312,6 +2348,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/stoner-k17-mcd.jpg`
 - `images/weapons/survival-knife.jpg`
 - `images/weapons/swamp-bait-akulus.jpg`
+- `images/weapons/switchblade.jpg`
 - `images/weapons/tallaloko-knife.jpg`
 - `images/weapons/the-guardian-es18.jpg`
 - `images/weapons/the-patriarch-drx.jpg`
@@ -2332,6 +2369,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/weapons/wortham-wcr1.jpg`
 - `images/weapons/zhang-wu-type-9.jpg`
 - `images/weapons/zodiac-nipper-38.jpg`
+- `images/wildlife/animal-compendium.jpg`
 - `images/wildlife/australian-shepherd.jpg`
 - `images/wildlife/bigfoot.jpg`
 - `images/wildlife/carolina-dog.jpg`
@@ -2350,6 +2388,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/wildlife/orca.jpg`
 - `images/wildlife/pelican.jpg`
 - `images/wildlife/raccoon.jpg`
+- `images/wildlife/rottweiler.jpg`
 - `images/wildlife/seagull.jpg`
 - `images/wildlife/shark.jpg`
 - `images/wildlife/spoonbill.jpg`

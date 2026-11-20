@@ -2147,13 +2147,15 @@
     "name": "Dingus Como",
     "summary": "The Dingus Como is a watercraft listed in the released game's vehicle database (style Powerboat, era 2010s Modern).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft."
+      "DayOne's list of the game's vehicles files it under Watercraft.",
+      "GTABase's page at its old Dinghy address is now titled Dingus Como, so the Nagasaki Dinghy it listed before launch is this boat."
     ],
     "tags": [
       "como",
       "dingus",
       "powerboat",
-      "watercraft"
+      "watercraft",
+      "dinghy"
     ],
     "facts": {
       "manufacturer": "Dingus",
@@ -2162,7 +2164,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "r17-gtabase-como"
     ],
     "verified": "2026-11-18",
     "spoiler": true

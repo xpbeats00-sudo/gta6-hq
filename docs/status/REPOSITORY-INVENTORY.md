@@ -1,13 +1,13 @@
 # Repository inventory
 
-Generated 2026-11-19 19:10 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-19 23:59 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 12 | 0.2 MB |
 | `ui/` | 8 | 0.4 MB |
 | `data/` | 94 | 5.7 MB |
-| `images/` | 2813 | 250.4 MB |
+| `images/` | 2853 | 252.4 MB |
 | `wallpapers/` | 70 | 98.1 MB |
 | `docs/` | 253 | 104.1 MB |
 | `scripts/` | 24 | 0.2 MB |
@@ -15,7 +15,7 @@ Generated 2026-11-19 19:10 by `scripts/current_state.py`. Do not edit by hand.
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 9 | 78.3 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 3821 | 1479.8 MB |
+| `target/release/` | 3878 | 1501.6 MB |
 
 ## Source files
 
@@ -41,7 +41,7 @@ Generated 2026-11-19 19:10 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/index.html` | 138 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 16662 |
-| `data/media.json` | 2853 |
+| `data/media.json` | 2893 |
 | `data/update.json` | 4 |
 | `data/wiki.json` | 761 |
 | `data/wiki/achievements.json` | 1338 |
@@ -101,13 +101,13 @@ Generated 2026-11-19 19:10 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/music.json` | 236 |
 | `data/wiki/music.launch-radio.json` | 608 |
 | `data/wiki/music.launch-world.json` | 96 |
-| `data/wiki/sources.launch.json` | 8178 |
+| `data/wiki/sources.launch.json` | 8185 |
 | `data/wiki/sources.previews.json` | 9 |
 | `data/wiki/vehicles.community.json` | 26 |
 | `data/wiki/vehicles.json` | 256 |
 | `data/wiki/vehicles.launch-detail.json` | 102 |
-| `data/wiki/vehicles.launch-garage.json` | 5597 |
-| `data/wiki/vehicles.launch-garage2.json` | 2372 |
+| `data/wiki/vehicles.launch-garage.json` | 5571 |
+| `data/wiki/vehicles.launch-garage2.json` | 2375 |
 | `data/wiki/vehicles.launch-world2.json` | 75 |
 | `data/wiki/vehicles.night-ign.json` | 117 |
 | `data/wiki/vehicles.night-r11.json` | 102 |

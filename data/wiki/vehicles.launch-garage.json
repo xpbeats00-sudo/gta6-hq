@@ -2475,32 +2475,6 @@
     "spoiler": true
   },
   {
-    "slug": "nagasaki-dinghy",
-    "name": "Nagasaki Dinghy",
-    "summary": "GTABase's GTA VI vehicle database lists the Nagasaki Dinghy in its Boats class, made by Nagasaki.",
-    "body": [
-      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
-      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
-    ],
-    "tags": [
-      "boat",
-      "dinghy",
-      "nagasaki"
-    ],
-    "facts": {
-      "manufacturer": "Nagasaki",
-      "model": "Dinghy",
-      "class": "Boat"
-    },
-    "confidence": "community",
-    "sources": [
-      "gtabase-vehicles"
-    ],
-    "verified": "2026-11-18",
-    "spoiler": true
-  },
-  {
     "slug": "bravado-gresley-xt",
     "name": "Bravado Gresley XT",
     "summary": "GTABase's GTA VI vehicle database lists the Bravado Gresley XT in its SUVs class, made by Bravado.",
