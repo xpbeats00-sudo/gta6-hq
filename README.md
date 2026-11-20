@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.32**: the Field Manual rewritten for the released game: 14 chapters, 86 pages, 211 pictures, chapter title pages and tabs.
 - **0.2.31**: 3,086 entries; 33 fish and new birds, weapon and vehicle pictures, nine duplicates merged, launch-evening news.
 - **0.2.30**: 3,051 entries; 66 standout vehicles, landmarks, mission screenshots, Easter eggs and launch-day news.
 - **0.2.29**: the Florida panther and Nuestra Señora de la Noche pictures are back on their own entries.

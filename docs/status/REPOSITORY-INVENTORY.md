@@ -1,13 +1,13 @@
 # Repository inventory
 
-Generated 2026-11-19 17:57 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-19 19:10 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 12 | 0.2 MB |
 | `ui/` | 8 | 0.4 MB |
-| `data/` | 94 | 5.2 MB |
-| `images/` | 2815 | 250.5 MB |
+| `data/` | 94 | 5.7 MB |
+| `images/` | 2813 | 250.4 MB |
 | `wallpapers/` | 70 | 98.1 MB |
 | `docs/` | 253 | 104.1 MB |
 | `scripts/` | 24 | 0.2 MB |
@@ -15,7 +15,7 @@ Generated 2026-11-19 17:57 by `scripts/current_state.py`. Do not edit by hand.
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 9 | 78.3 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 3770 | 1457.8 MB |
+| `target/release/` | 3821 | 1479.8 MB |
 
 ## Source files
 
@@ -31,17 +31,17 @@ Generated 2026-11-19 17:57 by `scripts/current_state.py`. Do not edit by hand.
 | `src/settings.rs` | 170 |
 | `src/tiles.rs` | 154 |
 | `src/update.rs` | 530 |
-| `src/validate.rs` | 1287 |
+| `src/validate.rs` | 1301 |
 | `src/window.rs` | 320 |
 | `ui/app.js` | 2037 |
 | `ui/art.js` | 86 |
-| `ui/manual.js` | 473 |
-| `ui/manual.css` | 331 |
+| `ui/manual.js` | 558 |
+| `ui/manual.css` | 425 |
 | `ui/styles.css` | 950 |
 | `ui/index.html` | 138 |
 | `data/discord.json` | 7 |
-| `data/manual.json` | 4440 |
-| `data/media.json` | 2855 |
+| `data/manual.json` | 16662 |
+| `data/media.json` | 2853 |
 | `data/update.json` | 4 |
 | `data/wiki.json` | 761 |
 | `data/wiki/achievements.json` | 1338 |
@@ -77,9 +77,9 @@ Generated 2026-11-19 17:57 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/factions.night-r8.json` | 35 |
 | `data/wiki/factions.night-r8map.json` | 25 |
 | `data/wiki/gameplay.launch-detail.json` | 739 |
-| `data/wiki/gameplay.launch-systems.json` | 1439 |
+| `data/wiki/gameplay.launch-systems.json` | 1438 |
 | `data/wiki/gameplay.launch-world.json` | 323 |
-| `data/wiki/gameplay.launch.json` | 330 |
+| `data/wiki/gameplay.launch.json` | 329 |
 | `data/wiki/gameplay.night-ign.json` | 176 |
 | `data/wiki/gameplay.night-r10.json` | 58 |
 | `data/wiki/gameplay.night-r7.json` | 60 |

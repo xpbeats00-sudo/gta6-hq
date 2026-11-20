@@ -329,3 +329,97 @@ html.m-sky-turn::view-transition-new(root) { z-index: 2; }
 
 /* Every picture on a page opens full screen when clicked */
 .m-page img { cursor: zoom-in; }
+
+/* ---------- the book: spread plus thumb tabs ---------- */
+
+/* Printed manuals have coloured index tabs cut into the page edge. Here they run down the right of
+   the book, shaded from sunset orange to violet; the open chapter's tab stands out with its name. */
+.m-book { width: min(1456px, 100%); margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr) 46px; align-items: start; }
+.m-book > .m-spread { width: 100%; }
+.m-book > .m-spread.m-single { width: min(760px, 100%); justify-self: center; }
+.m-tabs { display: flex; flex-direction: column; gap: 3px; padding-top: 46px; position: sticky; top: calc(var(--bar, 0px) + 12px); }
+.m-tabs a { position: relative; display: flex; flex-direction: column; align-items: center; gap: 8px; width: 34px; padding: 8px 0; border-radius: 0 6px 6px 0;
+  background: var(--tab); color: #fff !important; box-shadow: inset 4px 0 6px -3px rgba(0, 0, 0, 0.45); opacity: 0.62;
+  font: 700 0.8rem/1 var(--manual-display); letter-spacing: 0.02em; transition: width 0.18s ease, opacity 0.18s ease; }
+.m-tabs a span { display: none; writing-mode: vertical-rl; font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; white-space: nowrap; }
+.m-tabs a:hover { opacity: 1; width: 40px; }
+.m-tabs a.is-here { opacity: 1; width: 44px; padding-bottom: 12px; }
+.m-tabs a.is-here span { display: block; }
+.m-tabs b { font-weight: 700; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35); }
+
+/* ---------- chapter title pages ---------- */
+
+.m-titlepage { padding: 0; }
+.m-titlepage::before { display: none; }
+.m-tp-art { position: relative; flex: 0 0 auto; height: clamp(260px, 44%, 430px); background: linear-gradient(180deg, rgba(14, 8, 24, 0) 45%, rgba(14, 8, 24, 0.55) 100%), var(--cover) center / cover; border-bottom: 6px solid transparent; border-image: var(--manual-sunset) 1; }
+.m-tp-no { position: absolute; left: var(--manual-pad); bottom: -0.16em; font: 700 clamp(7rem, 13vw, 12rem)/0.8 var(--manual-display); font-stretch: 75%; color: #fff; text-shadow: 0 6px 30px rgba(0, 0, 0, 0.45); mix-blend-mode: normal; }
+.m-tp-text { flex: 1; padding: 30px var(--manual-pad) 10px; }
+.m-tp-kicker { margin: 0 0 6px; color: var(--manual-accent-ink); font: 700 0.72rem var(--manual-display); letter-spacing: 0.22em; text-transform: uppercase; }
+.m-titlepage .m-heading { font-size: clamp(2.6rem, 4.4vw, 4.2rem); }
+.m-tp-intro { max-width: 52ch; margin: 4px 0 18px; font-size: 1.04rem; line-height: 1.5; }
+.m-tp-list { list-style: none; margin: 0; padding: 0; columns: 2 220px; column-gap: 26px; }
+.m-tp-list li { break-inside: avoid; }
+.m-tp-list a { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 6px 0; border-bottom: 1px solid var(--manual-dotted); color: var(--manual-ink); font-size: 0.88rem; }
+.m-tp-list a:hover { color: var(--manual-accent-ink); }
+.m-tp-list em { color: var(--manual-muted); font-style: normal; font-size: 0.78rem; }
+.m-tp-list b { color: var(--manual-accent-ink); font: 700 0.84rem var(--manual-display); }
+.m-titlepage .m-foot { margin: 0 var(--manual-pad) 20px; }
+.m-titlepage .m-foot span:last-child { text-transform: none; letter-spacing: 0.02em; }
+
+/* ---------- contents: a thumbnail of each chapter's title page ---------- */
+
+.m-contents a { grid-template-columns: 52px 1fr 76px auto; }
+.m-chaptitle small { display: block; margin-top: 2px; color: var(--manual-muted); font: 400 0.7rem var(--manual-text); letter-spacing: 0.02em; text-transform: none; }
+.m-chapthumb { display: block; width: 76px; height: 44px; object-fit: cover; border-radius: 2px; background: var(--manual-tint); }
+.m-contents a:hover .m-chapthumb { outline: 2px solid var(--manual-accent); }
+
+/* ---------- reading progress ---------- */
+
+.m-where { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.m-progress { display: block; width: 180px; height: 3px; background: rgba(255, 255, 255, 0.12); }
+.m-progress i { display: block; height: 100%; background: var(--manual-sunset); }
+
+/* ---------- entries with a picture beside the text ---------- */
+
+.m-entry.has-frame .m-frame-entry { float: right; width: min(44%, 280px); margin: 3px 0 8px 16px; }
+.m-entry.has-frame .m-frame-entry img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; }
+.m-entry.has-frame .m-entry-body::after { content: ''; display: block; clear: both; }
+
+/* ---------- tips ---------- */
+
+.m-tip { display: grid; grid-template-columns: auto 1fr; gap: 12px; margin: 14px 0; padding: 10px 14px 10px 0; border-top: 1px solid var(--manual-ink); border-bottom: 1px solid var(--manual-dotted); font-size: 0.88rem; }
+.m-tip-tab { align-self: start; padding: 4px 8px 3px; background: var(--manual-ink); color: var(--manual-paper); font: 700 0.66rem var(--manual-display); letter-spacing: 0.16em; text-transform: uppercase; }
+.m-tip h4 { margin: 0 0 3px; font: 700 0.95rem var(--manual-display); font-stretch: 85%; text-transform: uppercase; letter-spacing: 0.03em; }
+.m-tip p { margin: 0; }
+
+/* ---------- spoiler pictures: blurred under an eye ---------- */
+
+.m-hush { position: relative; }
+.m-hush:not(.is-open) img { filter: blur(22px) saturate(0.6); transform: scale(1.04); cursor: default; }
+.m-hush:not(.is-open) figure { overflow: hidden; }
+.m-hush:not(.is-open) figcaption { visibility: hidden; }
+.m-hush-eye { position: absolute; left: 50%; top: 40%; transform: translate(-50%, -50%); display: inline-flex; align-items: center; gap: 8px; padding: 8px 14px 7px;
+  border: 1px solid rgba(255, 255, 255, 0.5); border-radius: 999px; background: rgba(14, 8, 24, 0.72); color: #fff; cursor: pointer;
+  font: 700 0.68rem var(--manual-display); letter-spacing: 0.14em; text-transform: uppercase; }
+.m-hush-eye svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; }
+.m-hush-eye:hover { background: rgba(238, 63, 124, 0.85); }
+.m-hush.is-open .m-hush-eye { top: 10px; left: auto; right: 10px; transform: none; padding: 5px 10px 4px; opacity: 0.8; }
+
+@media (max-width: 1179px) {
+  .m-book { grid-template-columns: 1fr; }
+  .m-tabs { order: -1; position: static; flex-direction: row; gap: 3px; padding: 0 0 6px; overflow-x: auto; justify-self: center; max-width: 100%; }
+  .m-tabs a { width: auto; min-width: 34px; flex-direction: row; padding: 7px 9px 6px; border-radius: 6px 6px 0 0; box-shadow: inset 0 -4px 6px -3px rgba(0, 0, 0, 0.45); }
+  .m-tabs a:hover { width: auto; }
+  .m-tabs a.is-here { width: auto; padding-bottom: 6px; }
+  .m-tabs a span { writing-mode: horizontal-tb; }
+  .m-tp-art { height: 240px; }
+}
+@media (max-width: 620px) {
+  .m-contents a { grid-template-columns: 44px 1fr auto; }
+  .m-chapthumb { display: none; }
+  .m-entry.has-frame .m-frame-entry { float: none; width: 100%; margin: 4px 0 8px; }
+  .m-tp-list { columns: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .m-tabs a { transition: none; }
+}

@@ -222,8 +222,24 @@ fn check_manual(root: &Path, report: &mut Report) {
         .get("chapters")
         .and_then(Value::as_array)
         .map_or(&[][..], Vec::as_slice);
+    let missing_image = |image: &str| {
+        !image
+            .strip_prefix('/')
+            .is_some_and(|rel| media::to_path(root, rel).is_file())
+    };
     for chapter in chapters {
         let chapter_id = chapter.get("id").and_then(Value::as_str).unwrap_or("(no id)");
+        // A chapter's title page shows its cover picture.
+        if let Some(cover) = chapter.pointer("/cover/src").and_then(Value::as_str) {
+            if missing_image(cover) {
+                report.add(
+                    Severity::Error,
+                    "missing-image",
+                    format!("manual/{chapter_id}/cover"),
+                    format!("Image `{cover}` was not found."),
+                );
+            }
+        }
         let pages = chapter
             .get("pages")
             .and_then(Value::as_array)
@@ -263,10 +279,11 @@ fn check_manual(root: &Path, report: &mut Report) {
                         );
                     }
                 }
-                // Pictures can sit in `src`, in an entry's `frame`, or in a `frames` pair.
+                // Pictures can sit in `src`, in an entry's `image` or `frame`, or in a `frames` pair.
                 let pictures = block
                     .get("src")
                     .into_iter()
+                    .chain(block.get("image"))
                     .chain(block.get("frame"))
                     .chain(
                         block
@@ -278,10 +295,7 @@ fn check_manual(root: &Path, report: &mut Report) {
                     )
                     .filter_map(Value::as_str);
                 for image in pictures {
-                    let on_disk = image
-                        .strip_prefix('/')
-                        .is_some_and(|rel| media::to_path(root, rel).is_file());
-                    if !on_disk {
+                    if missing_image(image) {
                         report.add(
                             Severity::Error,
                             "missing-image",

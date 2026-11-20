@@ -47,13 +47,22 @@
       const start = pages.length;
       const add = (title, blocks) => pages.push({ chapter, title, blocks });
       const heading = chapter.heading || { text: chapter.title.replace(chapter.accent, '').trim(), accent: chapter.accent };
+      // A chapter with a cover picture opens on a title page of its own, like a printed manual's divider.
+      if (chapter.cover && chapter.status !== 'in-development') pages.push({ chapter, title: chapter.title, blocks: [], titlePage: true });
 
       if (chapter.status === 'in-development') {
         add(chapter.title, [{ type: 'heading', ...heading }, ...(chapter.image ? [{ type: 'image', ...chapter.image }] : []), { type: 'development', text: chapter.note }]);
       } else if (chapter.wiki) {
+        // Written pages first (if the chapter has any), then the encyclopedia's entries, a few to a page.
+        const written = chapter.pages || [];
+        for (const page of written) add(page.title, page.blocks);
         const entries = (wiki[chapter.wiki.section] || []).filter((e) => e.status !== 'draft' && !e.spoiler);
+        const listTitle = chapter.listTitle || `Every ${(chapter.kicker || chapter.title).toLowerCase()}`;
+        const listHead = written.length
+          ? [{ type: 'heading', text: listTitle.split(' ')[0], accent: listTitle.split(' ').slice(1).join(' ') }, { type: 'intro', text: `The ${entries.length} entries the Encyclopedia holds for this chapter that are not spoilers. Each opens its full entry.` }]
+          : [{ type: 'heading', ...heading }, { type: 'intro', text: chapter.intro }, ...(chapter.image ? [{ type: 'image', ...chapter.image }] : [])];
         chunk(entries, chapter.wiki.perPage || 3).forEach((group, pageIndex) => {
-          const blocks = pageIndex === 0 ? [{ type: 'heading', ...heading }, { type: 'intro', text: chapter.intro }, ...(chapter.image ? [{ type: 'image', ...chapter.image }] : [])] : [];
+          const blocks = pageIndex === 0 ? [...listHead] : [];
           group.forEach((entry, i) => {
             if (i > 0) blocks.push({ type: 'rule' });
             blocks.push({
@@ -62,7 +71,7 @@
               link: entryLink(chapter.wiki.section, entry.slug),
             });
           });
-          add(chapter.title, blocks);
+          add(written.length ? listTitle : chapter.title, blocks);
           pages[pages.length - 1].gallery = true;
         });
         if (!entries.length) add(chapter.title, [{ type: 'heading', ...heading }, { type: 'development', text: 'Nothing has been documented for this chapter yet.' }]);
@@ -70,7 +79,7 @@
         const all = Object.entries(manual.sources);
         chunk(all, 3).forEach((group, pageIndex) => {
           const blocks = pageIndex === 0
-            ? [{ type: 'heading', text: 'Reference:', accent: 'sources' }, { type: 'intro', text: 'Everything the manual relies on, with the date each source was last read. These are press and preview coverage, not a substitute for testing the released game.' }]
+            ? [{ type: 'heading', text: 'Reference:', accent: 'sources' }, { type: 'intro', text: 'Everything the manual relies on, with the date each source was last read. They are press, preview and launch-guide coverage, not play by this app.' }]
             : [];
           group.forEach(([id, source], i) => {
             if (i > 0) blocks.push({ type: 'rule' });
@@ -91,6 +100,7 @@
     pages.forEach((page, i) => {
       page.number = i + 2;
       page.inChapter = i - page.chapter.firstPage + 1;
+      page.opener = !page.titlePage && (page.inChapter === 1 || pages[i - 1].titlePage);
       page.href = `#/manual/${page.chapter.id}/${page.inChapter}`;
     });
   }
@@ -110,6 +120,16 @@
       if (!notes.includes(id)) notes.push(id);
       return notes.indexOf(id) + 1;
     }).join(', ')}</sup>`;
+  }
+
+  // A picture marked as a spoiler stays blurred under an eye until it is pressed, unless the reader
+  // chose to see spoilers (the app's own setting, app.js). Pressing the eye again covers it.
+  const EYE_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.2 12S5.8 5.6 12 5.6 21.8 12 21.8 12 18.2 18.4 12 18.4 2.2 12 2.2 12z"/><circle cx="12" cy="12" r="3.1"/></svg>';
+  // eslint-disable-next-line no-undef
+  const spoilersShown = () => typeof showSpoilers !== 'undefined' && showSpoilers === true;
+  function hush(html, b) {
+    if (!b.spoiler || spoilersShown()) return html;
+    return `<div class="m-hush">${html}<button type="button" class="m-hush-eye" aria-expanded="false">${EYE_ICON}<span>Show spoiler picture</span></button></div>`;
   }
 
   function stars() {
@@ -137,12 +157,12 @@
       case 'paragraph':
         return `<p class="m-para">${badge(b.evidence)} ${esc(b.text)}${refs(b.sources, notes)}</p>`;
       case 'numbered':
-        return `<section class="m-entry${b.image ? ' has-image' : ''}">
-          ${b.image ? `<figure class="m-figure"><img src="${esc(b.image)}" alt="${esc(b.title)}" loading="lazy"></figure>` : ''}
+        return `<section class="m-entry${b.image ? ' has-image' : ''}${b.frame ? ' has-frame' : ''}">
+          ${b.image ? hush(`<figure class="m-figure"><img src="${esc(b.image)}" alt="${esc(b.title)}" loading="lazy"></figure>`, b) : ''}
           <span class="m-numeral" aria-hidden="true">${esc(b.n)}</span>
           <div class="m-entry-body">
             <h3>${b.link ? `<a href="${esc(b.link)}">${esc(b.title)}</a>` : esc(b.title)}</h3>
-            ${b.frame ? `<figure class="m-frame m-frame-entry"><img src="${esc(b.frame)}" alt="${esc(b.frameAlt || '')}" loading="lazy">${b.frameCredit ? `<figcaption><span>${esc(b.frameCredit)}.</span></figcaption>` : ''}</figure>` : ''}
+            ${b.frame ? hush(`<figure class="m-frame m-frame-entry"><img src="${esc(b.frame)}" alt="${esc(b.frameAlt || b.title || '')}" loading="lazy">${b.frameCredit ? `<figcaption><span>${esc(b.frameCredit)}.</span></figcaption>` : ''}</figure>`, b) : ''}
             <p>${esc(b.text)}${refs(b.sources, notes)}</p>
             ${b.meta ? `<p class="m-meta">— ${esc(b.meta)}</p>` : ''}
             <p class="m-entry-foot">${badge(b.evidence)}${b.confidence ? `<span class="m-badge m-badge-conf-${esc(b.confidence)}">${b.confidence === 'official' ? MARK : ''}${esc(CONFIDENCE[b.confidence] || 'Unverified')}</span>` : ''}
@@ -150,14 +170,16 @@
           </div>
         </section>`;
       case 'image':
-        return `<figure class="m-figure m-figure-wide"><img src="${esc(b.src)}" alt="${esc(b.caption)}" loading="lazy">
-          <figcaption>${esc(b.caption)}${b.credit ? ` <span>${esc(b.credit)}.</span>` : ''}</figcaption></figure>`;
+        return hush(`<figure class="m-figure m-figure-wide"><img src="${esc(b.src)}" alt="${esc(b.caption)}" loading="lazy">
+          <figcaption>${esc(b.caption)}${b.credit ? ` <span>${esc(b.credit)}.</span>` : ''}</figcaption></figure>`, b);
       case 'frame':
-        return `<figure class="m-frame"><img src="${esc(b.src)}" alt="${esc(b.caption)}" loading="lazy">
-          <figcaption>${esc(b.caption)}${b.credit ? ` <span>${esc(b.credit)}.</span>` : ''}</figcaption></figure>`;
+        return hush(`<figure class="m-frame"><img src="${esc(b.src)}" alt="${esc(b.caption)}" loading="lazy">
+          <figcaption>${esc(b.caption)}${b.credit ? ` <span>${esc(b.credit)}.</span>` : ''}</figcaption></figure>`, b);
       case 'pair':
-        return `<figure class="m-frame m-pair">${b.frames.map((f) => `<div><img src="${esc(f.src)}" alt="${esc(f.alt)}" loading="lazy"><span>${esc(f.label)}</span></div>`).join('')}
-          <figcaption><span>${esc(b.credit)}.</span></figcaption></figure>`;
+        return hush(`<figure class="m-frame m-pair">${b.frames.map((f) => `<div><img src="${esc(f.src)}" alt="${esc(f.alt)}" loading="lazy"><span>${esc(f.label)}</span></div>`).join('')}
+          <figcaption><span>${esc(b.credit)}.</span></figcaption></figure>`, b);
+      case 'tip':
+        return `<aside class="m-tip"><b class="m-tip-tab">Tip</b><div>${b.title ? `<h4>${esc(b.title)}</h4>` : ''}<p>${esc(b.text)}${refs(b.sources, notes)}</p></div></aside>`;
       case 'callout':
         return `<blockquote class="m-callout">${esc(b.text)}</blockquote>`;
       case 'table':
@@ -196,8 +218,54 @@
     }
   }
 
+  /** What a chapter holds, for its title page: written pages one by one, the entry list as one line. */
+  function chapterContents(chapter) {
+    const own = pages.slice(chapter.firstPage, chapter.firstPage + chapter.pageCount).filter((p) => !p.titlePage);
+    const items = [];
+    for (const p of own) {
+      if (p.gallery || p.blocks.some((b) => b.type === 'source')) {
+        const last = items[items.length - 1];
+        if (last && last.list) { last.count += 1; continue; }
+        items.push({ list: true, count: 1, page: p, title: p.gallery ? (chapter.listTitle || `The ${(chapter.kicker || chapter.title).toLowerCase()}, entry by entry`) : 'Every source, with its date' });
+      } else items.push({ page: p, title: p.title });
+    }
+    return items;
+  }
+
+  function titlePageHtml(page) {
+    const c = page.chapter;
+    const even = page.number % 2 === 0;
+    const words = c.title.replace(c.accent, '').trim();
+    const items = chapterContents(c);
+    return `<article class="m-page m-titlepage ${even ? 'm-left' : 'm-right'}" style="--cover: url('${esc(c.cover.src)}')" aria-label="Page ${page.number}: chapter ${esc(c.number)}, ${esc(c.title)}">
+      <div class="m-tp-art" role="img" aria-label="${esc(c.cover.caption || '')}"><span class="m-tp-no" aria-hidden="true">${esc(c.number)}</span></div>
+      <div class="m-tp-text">
+        <p class="m-tp-kicker">Chapter ${esc(c.number)}</p>
+        <h2 class="m-heading">${words ? `${esc(words)} ` : ''}<span>${esc(c.accent || '')}</span></h2>
+        ${c.intro ? `<p class="m-tp-intro">${esc(c.intro)}</p>` : ''}
+        <ol class="m-tp-list">${items.map((it) => `<li><a href="${it.page.href}"><span>${esc(it.title)}${it.list && it.count > 1 ? ` <em>${it.count} pages</em>` : ''}</span><b>${it.page.number}</b></a></li>`).join('')}</ol>
+      </div>
+      <footer class="m-foot"><span class="m-pageno">${page.number}</span><span>${esc(c.cover.credit || '')}</span></footer>
+    </article>`;
+  }
+
+  /** Thumb tabs down the edge of the book, one per chapter, shaded along the sunset like printed index tabs. */
+  function chapterTabs(here) {
+    const stops = [[247, 161, 60], [238, 63, 124], [124, 63, 214]];
+    const shade = (t) => {
+      const [a, b, f] = t < 0.5 ? [stops[0], stops[1], t * 2] : [stops[1], stops[2], (t - 0.5) * 2];
+      return `rgb(${a.map((v, i) => Math.round(v + (b[i] - v) * f)).join(',')})`;
+    };
+    const n = manual.chapters.length;
+    return `<nav class="m-tabs" aria-label="Chapters">${manual.chapters.map((c, i) => {
+      const first = pages[c.firstPage];
+      return first ? `<a href="${first.href}" style="--tab:${shade(n > 1 ? i / (n - 1) : 0)}"${c === here ? ' class="is-here" aria-current="true"' : ''} title="${esc(c.number)} · ${esc(c.title)}"><b>${esc(c.number)}</b><span>${esc(c.kicker || c.title)}</span></a>` : '';
+    }).join('')}</nav>`;
+  }
+
   function pageHtml(page) {
     if (!page) return '<article class="m-page m-page-blank" aria-hidden="true"></article>';
+    if (page.titlePage) return titlePageHtml(page);
     const notes = [];
     let body;
     if (page.gallery) {
@@ -210,7 +278,7 @@
       body = page.blocks.map((b) => block(b, notes)).join('');
     }
     const even = page.number % 2 === 0;
-    const opener = page.inChapter === 1;
+    const opener = page.opener;
     return `<article class="m-page ${even ? 'm-left' : 'm-right'}${opener ? ' m-opener' : ''}" aria-label="Page ${page.number}: ${esc(page.title)}">
       <header class="m-running"><span><b class="m-chip">${esc(page.chapter.number)}</b>${esc(page.chapter.kicker || page.chapter.title)}</span><span>${esc(page.title)}</span></header>
       <div class="m-body">${opener ? `<span class="m-chapmark" aria-hidden="true">${esc(page.chapter.number)}</span>` : ''}${body}</div>
@@ -290,13 +358,15 @@
         <h2 class="m-heading">In this <span>manual</span></h2>
         <ol class="m-contents">
           ${manual.chapters.map((c) => `<li${c.status === 'in-development' ? ' class="is-dev"' : ''}>
-            <a href="${pages[c.firstPage].href}"><span class="m-chapno">${esc(c.number)}</span><span class="m-chaptitle">${esc(c.title)}</span>
-            <span class="m-chapstate">${c.status === 'in-development' ? 'In development' : `page ${pages[c.firstPage].number}`}</span></a></li>`).join('')}
+            <a href="${pages[c.firstPage].href}"><span class="m-chapno">${esc(c.number)}</span>
+            <span class="m-chaptitle">${esc(c.title)}<small>${c.pageCount} ${c.pageCount === 1 ? 'page' : 'pages'}</small></span>
+            ${c.cover ? `<img class="m-chapthumb" src="${esc(c.cover.src)}" alt="" loading="lazy">` : '<span class="m-chapthumb" aria-hidden="true"></span>'}
+            <span class="m-chapstate">${c.status === 'in-development' ? 'In development' : `p. ${pages[c.firstPage].number}`}</span></a></li>`).join('')}
         </ol>
       </div>
       <footer class="m-foot"><span class="m-pageno">1</span><span>GTA VI Field Manual · unofficial</span></footer>
     </article>`;
-    return `<div class="m-spread m-spread-landing">${cover}${contents}</div>`;
+    return `<div class="m-book"><div class="m-spread m-spread-landing">${cover}${contents}</div>${chapterTabs(null)}</div>`;
   }
 
   function reader(page) {
@@ -314,10 +384,12 @@
       next = pages[index + 1];
     }
     const label = shown.filter(Boolean).map((p) => p.number).join('–');
-    return `<div class="m-spread${wide ? '' : ' m-single'}">${shown.map(pageHtml).join('')}</div>
+    const last = Math.max(...shown.filter(Boolean).map((p) => p.number));
+    const progress = Math.round((last / (pages.length + 1)) * 100);
+    return `<div class="m-book"><div class="m-spread${wide ? '' : ' m-single'}">${shown.map(pageHtml).join('')}</div>${chapterTabs(page.chapter)}</div>
       <nav class="m-nav" aria-label="Manual pages">
         ${previous ? `<a class="m-turn" rel="prev" href="${previous.href}" data-turn="prev">← Previous</a>` : `<a class="m-turn" href="#/manual" data-turn="prev">← Contents</a>`}
-        <span class="m-where">Page ${label} of ${pages.length + 1}</span>
+        <span class="m-where">Page ${label} of ${pages.length + 1}<span class="m-progress" role="progressbar" aria-label="How far through the manual" aria-valuenow="${progress}" aria-valuemin="0" aria-valuemax="100"><i style="width:${progress}%"></i></span></span>
         ${next ? `<a class="m-turn" rel="next" href="${next.href}" data-turn="next">Next →</a>` : '<span class="m-turn is-off">End</span>'}
       </nav>`;
   }
@@ -401,6 +473,19 @@
       img.setAttribute('role', 'button');
       img.setAttribute('aria-label', `View full screen: ${img.alt || 'picture'}`);
     });
+    // A blurred spoiler picture: out of reach until its eye is pressed; the eye covers it again.
+    const hushPicture = (box, open) => {
+      box.classList.toggle('is-open', open);
+      const eye = box.querySelector('.m-hush-eye');
+      eye.setAttribute('aria-expanded', String(open));
+      eye.querySelector('span').textContent = open ? 'Hide spoiler picture' : 'Show spoiler picture';
+      box.querySelectorAll('img').forEach((img) => { img.tabIndex = open ? 0 : -1; img.setAttribute('aria-hidden', String(!open)); });
+    };
+    root.querySelectorAll('.m-hush').forEach((box) => hushPicture(box, false));
+    root.addEventListener('click', (e) => {
+      const eye = e.target.closest('.m-hush-eye');
+      if (eye) { e.preventDefault(); hushPicture(eye.closest('.m-hush'), !eye.closest('.m-hush').classList.contains('is-open')); }
+    });
     root.addEventListener('keydown', (e) => {
       if ((e.key === 'Enter' || e.key === ' ') && e.target.matches?.('.m-page img')) { e.preventDefault(); e.target.click(); }
     });
@@ -409,7 +494,7 @@
     // following its link; the entry's title and "Open the full entry" still go to the entry.
     root.addEventListener('click', (e) => {
       const img = e.target.closest('.m-page img');
-      if (!img || typeof openLightbox !== 'function') return;
+      if (!img || typeof openLightbox !== 'function' || img.closest('.m-hush:not(.is-open)')) return;
       e.preventDefault();
       const figure = img.closest('figure');
       const entry = img.closest('.m-entry');
@@ -457,7 +542,7 @@
   }
 
   // Two pages on a wide window, one on a narrow one: redraw when that changes.
-  WIDE.addEventListener('change', () => { if (current && document.body.dataset.page === 'manual') draw(); });
+  WIDE.addEventListener('change', () => { if (current && manual && pages.length && document.body.dataset.page === 'manual') draw(); });
 
   // Page turning by keyboard, only while the manual is open and nothing that
   // needs the keys itself (a field, a control) has focus.

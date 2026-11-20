@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-19 17:57 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-19 19:10 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,7 +8,7 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (2835)
+## Local personal use only (2833)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -2577,11 +2577,9 @@ None. No media file is cleared for public distribution.
 - `images/weapons/wortham-wcr1.jpg`
 - `images/weapons/zhang-wu-type-9.jpg`
 - `images/weapons/zodiac-nipper-38.jpg`
-- `images/web/caniplaythat-t-1b7cdb2e4f6f.jpg`
 - `images/web/gamerant-793cd62f4666.jpg`
 - `images/web/gamerant-t-1142509b122b.jpg`
 - `images/web/gamerant-t-c21848c3a257.jpg`
-- `images/web/gamerant-t-e6dfd756c19c.jpg`
 - `images/web/gamespot-20ecee60cfb2.jpg`
 - `images/web/gamespot-b18e27b34182.jpg`
 - `images/web/gamespot-t-b2fcedf7d28d.jpg`

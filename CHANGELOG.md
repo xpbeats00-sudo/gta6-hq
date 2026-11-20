@@ -2,6 +2,16 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.32 (20 November 2026)
+
+The Field Manual, rewritten for the released game: 14 chapters, 86 written pages and 211 pictures.
+
+- Rewritten from launch guides: How to Read, Getting Started, Robberies & Stealing and Law Enforcement.
+- New chapters: Story & Missions (givers, starts and rewards, no plot), Money & Businesses, Collectibles & Challenges, and Wildlife, Fishing & Hunting.
+- Places, Characters, Vehicles, Activities & Pastimes and Weapons open with written pages before their entry lists.
+- Design: a title page for every chapter, coloured chapter tabs down the edge of the book, picture thumbnails in the contents, tips, a reading-progress bar, and spoiler pictures blurred under an eye.
+- Fixes: two wrong encyclopedia pictures removed; the manual no longer fails if the window is resized while it loads; the data check also checks manual cover and entry pictures.
+
 ## 0.2.31 (20 November 2026)
 
 Launch-evening news, 33 fish and new birds, about 65 more pictures, and nine duplicates merged.
