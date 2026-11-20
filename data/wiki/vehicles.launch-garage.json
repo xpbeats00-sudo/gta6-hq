@@ -7,7 +7,11 @@
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Interstate Ambulance; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
       "Those lists give the unlock condition as: find the Interstate Ambulance in the Progress menu.",
       "GTABase's cheat page treats it as an ambulance; its vehicle database has a separate page titled just \"Ambulance\" (maker Brute, Emergency class), and it is not clear whether that is the same vehicle.",
-      "GTABase lists 4 seats and AWD drive for the Interstate Ambulance."
+      "GTABase lists 4 seats and AWD drive for the Interstate Ambulance.",
+      "The Declasse Ambulance is an emergency vehicle listed in the released game's vehicle database (era 1990s Classic).",
+      "DayOne's list of the game's vehicles files it under Emergency Vehicles.",
+      "DayOne gives its stats as speed 3.0, acceleration 2.6, asphalt handling 2.9, off-road handling 2.9, strength 3.0.",
+      "GTA Wiki's Ambulance page (edited November 19, 2026) says the GTA VI ambulance is made by Declasse, where earlier games' ambulances were Brute models, and shows one in Fast Pass EMS livery."
     ],
     "tags": [
       "ambulance",
@@ -31,7 +35,10 @@
       "gamerant-cheats",
       "screenrant-cheats",
       "gtabase-cheats",
-      "r8gb-vehicles-ambulance"
+      "r8gb-vehicles-ambulance",
+      "dayone-service",
+      "gtabase-v-ambulance",
+      "r11g-gw-ambulance"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -226,7 +233,8 @@
       "DayOne's list from the released game names it and files it under Muscle Cars.",
       "GTABase's page for the Vapid Dominator '65 lists a registration cost of $6,900 and a stolen sell value of $2,035.",
       "GTABase says it carries no tracker.",
-      "GTABase lists its specialist type as Muscle."
+      "GTABase lists its specialist type as Muscle.",
+      "Before launch, GTABase listed this car as the Vapid Dominator '67 (Muscle class); the same GTABase page (dominator-67) is now titled Vapid Dominator '65."
     ],
     "tags": [
       "cheat",
@@ -250,7 +258,8 @@
       "gamerant-cheats",
       "screenrant-cheats",
       "dayone-cars",
-      "r8gb-vehicles-dominator-67"
+      "r8gb-vehicles-dominator-67",
+      "gtabase-vehicles"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -806,35 +815,6 @@
       "powerpyx-pounders-cards",
       "dayone-cars",
       "powerpyx-trophy-guide"
-    ],
-    "verified": "2026-11-18",
-    "spoiler": true
-  },
-  {
-    "slug": "pegassi-infernus",
-    "name": "Pegassi Infernus",
-    "summary": "The Pegassi Infernus is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
-    "body": [
-      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
-      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
-      "GTABase has a page titled Pegassi Infernus '96 in its Sports Classics class; whether that is the same car as the wish-list Infernus is not stated."
-    ],
-    "tags": [
-      "infernus",
-      "pegassi",
-      "randy",
-      "steal",
-      "wish list"
-    ],
-    "facts": {
-      "manufacturer": "Pegassi",
-      "model": "Infernus",
-      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "powerpyx-trophies",
-      "gtabase-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2548,34 +2528,6 @@
     "spoiler": true
   },
   {
-    "slug": "vapid-dominator-67",
-    "name": "Vapid Dominator '67",
-    "summary": "GTABase's GTA VI vehicle database lists the Vapid Dominator '67 in its Muscle class, made by Vapid.",
-    "body": [
-      "GTABase describes it as new to the series with GTA VI.",
-      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
-    ],
-    "tags": [
-      "67",
-      "car",
-      "dominator",
-      "muscle",
-      "vapid"
-    ],
-    "facts": {
-      "manufacturer": "Vapid",
-      "model": "Dominator '67",
-      "year": "'67",
-      "class": "Muscle car"
-    },
-    "confidence": "community",
-    "sources": [
-      "gtabase-vehicles"
-    ],
-    "verified": "2026-11-18"
-  },
-  {
     "slug": "vapid-dominator-gt",
     "name": "Vapid Dominator GT",
     "summary": "GTABase's GTA VI vehicle database lists the Vapid Dominator GT in its Muscle class, made by Vapid.",
@@ -3398,7 +3350,10 @@
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
       "DayOne's list from the released game names it and files it under Supercars.",
       "GTABase files the Infernus '96 under sports classics (the app has supercars), based on the Lamborghini Diablo, Cizeta V16T and Ferrari Testarossa, with Luxury as its specialist shop.",
-      "GTABase gives it two seats, rear-wheel drive and six gears, a registration cost of $34,750, an advanced tracker and a stolen sell value of $17,160."
+      "GTABase gives it two seats, rear-wheel drive and six gears, a registration cost of $34,750, an advanced tracker and a stolen sell value of $17,160.",
+      "The Pegassi Infernus is one of the 16 cars on Randy's Wish List, a car-theft side questline in the released game.",
+      "PowerPyx's trophy guide names it on Randy's Wish List, 16 high-end cars that Randy wants stolen and delivered to his garage in the west of Vice City (Supply & Demand trophy).",
+      "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it."
     ],
     "tags": [
       "96",
@@ -3413,13 +3368,15 @@
       "year": "'96",
       "class": "Supercars",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "availability": "Randy's Wish List target; steal one and deliver it to Randy in Vice City"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
       "dayone-cars",
-      "gtabase-v-infernus96"
+      "gtabase-v-infernus96",
+      "powerpyx-trophies"
     ],
     "verified": "2026-11-19"
   },
@@ -4048,7 +4005,10 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Coupes."
+      "DayOne's list from the released game names it and files it under Coupes.",
+      "VGTimes, citing an Insider Gaming location guide, describes a green Penumbra FF dressed as a tribute to the 1995 Mitsubishi Eclipse driven by Paul Walker's character in The Fast and the Furious, with racing parts and a plate reading HAD YOU.",
+      "VGTimes places it in a private garage behind a door inside a villa in the central residential streets of Vespucci Island (Rialto Islands, Vice City), reached by heading west from Vice Beach; the door has to be broken through and the car hotwired.",
+      "VGTimes says opening its boot sets a large snake on the player, a nod to Toy Story's 'snake in my boot' line. Only VGTimes was checked; the Insider Gaming guide itself was not found."
     ],
     "tags": [
       "car",
@@ -4065,9 +4025,10 @@
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicles",
-      "dayone-cars"
+      "dayone-cars",
+      "r13-vgtimes-eclipse"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -4569,7 +4530,9 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTA Wiki (edited November 19, 2026) says the Jobuilt Rubble returns from GTA V as a chassis cab truck that in GTA VI comes as a dump truck, aerial work platform, box truck, flatbed or mixer.",
+      "GTA Wiki notes two Apollo Aggregates dump trucks outside a construction site in the official video An Extended Look."
     ],
     "tags": [
       "industrial",
@@ -4583,9 +4546,10 @@
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "r11g-gw-rubble"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

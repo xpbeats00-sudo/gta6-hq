@@ -159,26 +159,6 @@
     ]
   },
   {
-    "slug": "underwater-discoveries",
-    "name": "Underwater Discoveries",
-    "summary": "PowerPyx counts 33, and the 100% checklist asks for all of them.",
-    "tags": [
-      "underwater",
-      "diving",
-      "shipwreck"
-    ],
-    "facts": {
-      "type": "Discoveries",
-      "total": 33
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "powerpyx-100"
-    ],
-    "verified": "2026-11-18",
-    "spoiler": true
-  },
-  {
     "slug": "meditation-spots",
     "name": "Meditation spots",
     "summary": "PowerPyx counts 18 spots across 10 places. The 100% checklist asks for 15.",

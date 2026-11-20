@@ -217,29 +217,6 @@
     "spoiler": true
   },
   {
-    "slug": "goose-key-naval-air-station",
-    "name": "Naval Air Station (Goose Key)",
-    "summary": "A naval air station with two crossing runways on Goose Key, at the south-west end of the Leonida Keys.",
-    "body": [
-      "GTABase's map lists a naval air station on Goose Key, at the south-western end of the Leonida Keys, with two crossing runways, and compares Goose Key to Florida's Boca Chica Key."
-    ],
-    "tags": [
-      "airfield",
-      "goose key",
-      "landmark",
-      "leonida keys"
-    ],
-    "facts": {
-      "type": "Military airfield"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "r8gb-map-landmark"
-    ],
-    "verified": "2026-11-18",
-    "spoiler": true
-  },
-  {
     "slug": "ocean-view-hotel",
     "name": "Ocean View Hotel",
     "summary": "The hotel from GTA Vice City, back on Shore Drive in Ocean Beach, per GTABase's map.",

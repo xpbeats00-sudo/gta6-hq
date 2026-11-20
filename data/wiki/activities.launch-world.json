@@ -80,7 +80,9 @@
     "name": "Boone Speedway",
     "summary": "A speedway in the south-west corner of Hamlet that runs two elimination races.",
     "body": [
-      "PowerPyx lists two elimination races here and a separate Boone Speedway Trial among the race challenges."
+      "PowerPyx lists two elimination races here and a separate Boone Speedway Trial among the race challenges.",
+      "RacingNews.co says Boone Speedway, in Hamlet, Vice-Dale County, is the game's version of Ocala Speedway, a 3/8-mile egg-shaped dirt oval north of Tampa.",
+      "It quotes the real track's owner, radio host Bubba Clem, saying on air that the layout is exact but that the game's track looks nicer and has an inside wall at turn one that the real one lacks."
     ],
     "tags": [
       "elimination",
@@ -95,9 +97,10 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-races",
-      "ppx-race-challenges"
+      "ppx-race-challenges",
+      "r13-racingnews-ocala"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

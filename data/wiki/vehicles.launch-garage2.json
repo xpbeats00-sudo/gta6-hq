@@ -885,7 +885,8 @@
       "GTABase calls it the Vapid Reclaimer '70s and says it is new to the series, modelled on the 2019-2023 Ford Ranger (T6), with Off-Road as its specialist shop.",
       "GTABase gives it four seats, a registration cost of $7,500, no tracker and a stolen sell value of $2,255.",
       "GTABase files it under off-road vehicles; the app (from DayOne) has it under pickups.",
-      "Disagreement: Game8 gives the '70 Reclaimer 2 seats; GTABase gives four."
+      "Disagreement: Game8 gives the '70 Reclaimer 2 seats; GTABase gives four.",
+      "GTA Wiki (edited November 19, 2026) calls the 1970 Vapid Reclaimer a chassis cab truck seen twice in the first trailer, once parked outside Port Gellhorn Pawn & Gun, and says it comes as a dropside or a flatbed truck."
     ],
     "tags": [
       "pickup",
@@ -903,7 +904,8 @@
     "sources": [
       "dayone-cars",
       "gtabase-v-reclaimer",
-      "r7-g8-reclaimer-70"
+      "r7-g8-reclaimer-70",
+      "r11g-gw-reclaimer-1970"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1829,7 +1831,8 @@
     "summary": "The Vapid Guardian TX2 is a truck listed in the released game's vehicle database (era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Trucks.",
-      "DayOne gives its stats as speed 2.6, acceleration 2.1, asphalt handling 2.6, off-road handling 3.4, strength 3.0."
+      "DayOne gives its stats as speed 2.6, acceleration 2.1, asphalt handling 2.6, off-road handling 3.4, strength 3.0.",
+      "GTA Wiki (edited November 19, 2026) calls the Vapid Guardian TX2 a chassis cab truck new to GTA VI, pictured on its page as a box truck; it names the D7700 as a similar truck."
     ],
     "tags": [
       "guardian",
@@ -1844,9 +1847,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "r11g-gw-guardian-tx2"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1855,7 +1859,9 @@
     "summary": "The Jobuilt MB2-10 is a truck listed in the released game's vehicle database (era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Trucks.",
-      "DayOne gives its stats as speed 1.8, acceleration 1.4, asphalt handling 2.2, off-road handling 2.2, strength 3.0."
+      "DayOne gives its stats as speed 1.8, acceleration 1.4, asphalt handling 2.2, off-road handling 2.2, strength 3.0.",
+      "GTA Wiki (edited November 19, 2026) describes the Jobuilt MB2-10 as a heavy chassis cab truck with dual rear wheels on a tandem axle, found with an aerial work platform, box body, flatbed or tanker body.",
+      "According to GTA Wiki, part of an MB2-10 with a tanker body is visible at Jack of Hearts in the official video An Extended Look."
     ],
     "tags": [
       "10",
@@ -1870,9 +1876,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "r11g-gw-mb2-10"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1950,35 +1957,6 @@
       "dayone-service"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
-  },
-  {
-    "slug": "declasse-ambulance",
-    "name": "Declasse Ambulance",
-    "summary": "The Declasse Ambulance is an emergency vehicle listed in the released game's vehicle database (era 1990s Classic).",
-    "body": [
-      "DayOne's list of the game's vehicles files it under Emergency Vehicles.",
-      "DayOne gives its stats as speed 3.0, acceleration 2.6, asphalt handling 2.9, off-road handling 2.9, strength 3.0.",
-      "The spawn-cheat lists already in the app name an \"Interstate Ambulance\"; DayOne's list instead has a Declasse Ambulance, and it is not confirmed whether these are one vehicle.",
-      "GTABase's page for the game's ambulance names it the Interstate Ambulance, based on the Chevrolet Express 3500 cab-chassis, with four seats and all-wheel drive; GTABase lists no Declasse ambulance."
-    ],
-    "tags": [
-      "ambulance",
-      "declasse",
-      "emergency",
-      "vehicle"
-    ],
-    "facts": {
-      "manufacturer": "Declasse",
-      "model": "Ambulance",
-      "class": "Service - Emergency Vehicles"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "dayone-service",
-      "gtabase-v-ambulance"
-    ],
-    "verified": "2026-11-19",
     "spoiler": true
   },
   {

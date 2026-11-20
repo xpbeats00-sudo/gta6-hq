@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "karin-intruder",
+    "name": "Karin Intruder",
+    "summary": "A four-door Karin sedan returning from GTA IV and GTA V, seen in the first trailer.",
+    "body": [
+      "GTA Wiki (edited November 19, 2026) lists the Karin Intruder as a four-door sedan appearing in GTA IV, GTA V, GTA Online and GTA VI.",
+      "According to GTA Wiki, Intruders are visible in Leonida highway and Vice City traffic in the first trailer, and one is parked in front of Delights in an official Port Gellhorn screenshot.",
+      "GTA Wiki says the GTA VI model is based mainly on the facelifted 2005-2006 Infiniti Q45 and, unlike earlier versions, has reversing lights."
+    ],
+    "tags": [
+      "karin",
+      "sedan",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Karin",
+      "model": "Intruder",
+      "class": "Sedans"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-gw-intruder"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "vapid-dominator-asp",
+    "name": "Vapid Dominator ASP",
+    "summary": "A two-door Vapid muscle car from GTA Online, seen at a Crosstown street takeover in the first trailer.",
+    "body": [
+      "GTA Wiki (edited November 19, 2026) lists the Vapid Dominator ASP as a two-door muscle car appearing in GTA Online and GTA VI.",
+      "According to GTA Wiki, one is parked among tuned cars at a street takeover in Crosstown, Vice City, in the first trailer, another appears without a body kit in an official Port Gellhorn screenshot, and the rear of one is seen in the Vice Beach police chase in An Extended Look.",
+      "GTA Wiki says the GTA VI version is toned down from the GTA Online car, based on the 1999-2004 Mustang GT, with no stock spoiler and different standard rims."
+    ],
+    "tags": [
+      "dominator",
+      "muscle car",
+      "vapid",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Dominator ASP",
+      "class": "Muscle"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-gw-dominator-asp"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "vapid-dominator-gtx",
+    "name": "Vapid Dominator GTX",
+    "summary": "A Vapid muscle car from GTA Online, seen in white on Shore Drive in the first trailer.",
+    "body": [
+      "GTA Wiki (edited November 19, 2026) says a white Vapid Dominator GTX can be seen driving along Shore Drive in Vice Beach in the first trailer (0:31).",
+      "GTA Wiki's page pictures only the GTA Online version, so no GTA VI picture is recorded."
+    ],
+    "tags": [
+      "dominator",
+      "muscle car",
+      "vapid",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Dominator GTX",
+      "class": "Muscle"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-gw-dominator-gtx"
+    ],
+    "verified": "2026-11-18"
+  },
+  {
+    "slug": "hvy-th42-telehandler",
+    "name": "HVY TH42 Telehandler",
+    "summary": "A yellow HVY telehandler seen parked among shipping containers in the launch trailer.",
+    "body": [
+      "GTA Wiki (edited November 19, 2026) lists the HVY TH42 Telehandler as a telehandler appearing in GTA VI.",
+      "GTA Wiki says two yellow TH42 Telehandlers are parked near shipping containers in the launch trailer, with their support legs and boom retracted."
+    ],
+    "tags": [
+      "hvy",
+      "industrial",
+      "vehicle"
+    ],
+    "facts": {
+      "manufacturer": "HVY",
+      "model": "TH42 Telehandler",
+      "class": "Industrial"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-gw-th42-telehandler"
+    ],
+    "verified": "2026-11-18"
+  }
+]

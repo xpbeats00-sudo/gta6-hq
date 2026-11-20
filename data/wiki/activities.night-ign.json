@@ -9,7 +9,9 @@
       "IGN's method: choose a lure with Left and Right on the D-pad, use Focus to see fish glowing in the water, hold L2/LT to aim, draw back with R2/RT to set the cast's strength, and reel slowly with the right stick.",
       "IGN says the first light rumble is only a nibble; on a stronger shake, R2/RT hooks the fish, the left stick is pushed against its direction to tire it, and fast reeling starts once the rumbling eases.",
       "IGN says Cal texts fishing record challenges that put a purple fish icon on the map; the first, Catch a Bigger Fish in Chapter 1, asks for a Stoplight Parrotfish over 2 lb, and Cross (A) sends him a photo of the catch.",
-      "IGN says fishing gives a Focus boost and that Focus gains, unlike Strength and Cardio, are permanent."
+      "IGN says fishing gives a Focus boost and that Focus gains, unlike Strength and Cardio, are permanent.",
+      "IGN's fishing guide (updated November 19, 2026) lists the lures as Small Freshwater, Medium Freshwater ($40), Medium Saltwater ($50) and Large Saltwater ($112), sold only at Ammu-Nations showing a fish icon, plus a Candy Cane Lure found in a garage of a house in Ambrosia; IGN's text also uses a Small Saltwater Lure for several fish but gives no price for the small lures.",
+      "IGN says the 35 fish are listed alphabetically in the Fishing tab of the Progress menu, and that some of them are the ones Cal asks for in his Fishing Rivalries."
     ],
     "tags": [
       "cal",
@@ -24,9 +26,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-how-to-fish"
+      "ign-how-to-fish",
+      "r11g-ign-fishing"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

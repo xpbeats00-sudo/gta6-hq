@@ -33,7 +33,8 @@
     "body": [
       "DayOne's hunting guide (November 18, 2026) lists the Mottled Duck as a huntable wetland animal and recommends the Wortham W-22 for it.",
       "DayOne describes the Mosaic Mottled Duck, which the app already has, as a rare colour form of the mottled duck found around fresh water in the wetlands.",
-      "GTA Tracker's wildlife database (updated November 18, 2026) also lists the Mottled Duck as a wetland dabbling duck, marked as seen in the game."
+      "GTA Tracker's wildlife database (updated November 18, 2026) also lists the Mottled Duck as a wetland dabbling duck, marked as seen in the game.",
+      "The Tampa Bay Times' reporters also found mottled ducks in the Grassrivers swamps while birding in the game on launch day."
     ],
     "tags": [
       "bird",
@@ -49,9 +50,10 @@
     "confidence": "corroborated",
     "sources": [
       "dayone-hunting-animals",
-      "gtatracker-mottled-duck"
+      "gtatracker-mottled-duck",
+      "r13-tbt-birding"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

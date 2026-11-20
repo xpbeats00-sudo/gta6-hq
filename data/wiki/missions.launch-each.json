@@ -1968,7 +1968,9 @@
       "PowerPyx gives \"Rob Vicki's Boss\" as its second name; the site explains that a mission's label on the map differs from the title shown once it starts.",
       "PowerPyx lists it as opening after Coffee Break.",
       "GTABase's story list has it as mission 45, in Chapter 2.",
-      "IGN's walkthrough says Vicki calls a few in-game hours after Coffee Break and the mission starts at Delights; it lists at least $1,800 in cash during the mission plus $10,000 from Vicki."
+      "IGN's walkthrough says Vicki calls a few in-game hours after Coffee Break and the mission starts at Delights; it lists at least $1,800 in cash during the mission plus $10,000 from Vicki.",
+      "PC Gamer (1:46 p.m. PT) says the mission includes a yes-or-no prompt with only a couple of seconds to answer, when Jason is asked whether he can dance.",
+      "PC Gamer says each answer leads to a different scene at the club, but the robbery goes ahead either way."
     ],
     "tags": [
       "chapter 2",
@@ -1989,7 +1991,8 @@
       "powerpyx-walkthrough",
       "powerpyx-afternoon-delight-rob-vickis-boss",
       "gtabase-missions",
-      "ign-afternoon-delight"
+      "ign-afternoon-delight",
+      "r13-pcg-delights"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2112,7 +2115,9 @@
       "PowerPyx lists it as opening after Dealer's Choice.",
       "PowerPyx splits the mission into three parts and says the part 1 reward depends on a choice.",
       "GTABase's story list has it as mission 50, in Chapter 3.",
-      "GTABase says a '32 Hustler is parked by the storage container at the end of the mission and can be kept or sold."
+      "GTABase says a '32 Hustler is parked by the storage container at the end of the mission and can be kept or sold.",
+      "PC Gamer (1:56 p.m. PT) says the mission starts by interacting with a statuette icon at the closet door of the Bayside apartment, then sends you to the antiques shop in Capri.",
+      "PC Gamer says the choice of whether to hand the statuette to Benedict Halifax makes little difference: giving it gets you a watch as collateral and then several calls to track him down, while refusing only delays things, since you must return to Capri and hand it over later to finish the mission."
     ],
     "tags": [
       "chapter 3",
@@ -2133,7 +2138,8 @@
       "powerpyx-walkthrough",
       "powerpyx-dubious-provenance-visit-the-antique-store",
       "gtabase-missions",
-      "r8gb-missions-dubious-provenance"
+      "r8gb-missions-dubious-provenance",
+      "r13-pcg-halifax"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3505,7 +3511,9 @@
       "KeenGamer's walkthrough says you join Dre'Quan for a promotional photo shoot; TechWiser's label is Shoot a Promo.",
       "PowerPyx counts Photo/Shoot (Shoot a Promo) as the 83rd main mission, given by Dre'Quan after Party Hard and starting in Tequesta, Vice City.",
       "PowerPyx gives the reward as $6,000 plus two unique weapon variants, Roxy's W-10 and Bae-Lux's W-10.",
-      "PowerPyx says pictures are taken with the phone camera (Up on the D-pad, then R2/RT)."
+      "PowerPyx says pictures are taken with the phone camera (Up on the D-pad, then R2/RT).",
+      "PowerPyx says Dre'Quan gets in touch after Party Hard to ask for help shooting a promo for the Dimez, and that the mission starts in Tequesta; its map label is Shoot a Promo.",
+      "PowerPyx counts it as the 83rd main mission."
     ],
     "tags": [
       "chapter 4",
@@ -3517,7 +3525,7 @@
       "order": 9,
       "type": "Main mission",
       "protagonist": "Lucia and Jason",
-      "giver": "Dre'Quan (KeenGamer)",
+      "giver": "Dre'Quan",
       "location": "Tequesta, Vice City",
       "reward": "$6,000, Roxy's W-10 and Bae-Lux's W-10",
       "unlocks": [
@@ -3532,7 +3540,8 @@
       "gtabase-photo-shoot",
       "keengamer-walkthrough",
       "techwiser-missions",
-      "r7-ppx-photoshoot"
+      "r7-ppx-photoshoot",
+      "r16-pp-photoshoot"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -3590,7 +3599,12 @@
       "PowerPyx files it under its \"VCIA Takedown\" group of missions.",
       "PowerPyx's list tags it as Lucia only.",
       "GTABase's story list has it as mission 88, in Chapter 4.",
-      "KeenGamer's walkthrough says it is played as Lucia and starts a fitness-related job tied to Raul's plan; TechWiser and Tech2Geek both tag it Lucia only."
+      "KeenGamer's walkthrough says it is played as Lucia and starts a fitness-related job tied to Raul's plan; TechWiser and Tech2Geek both tag it Lucia only.",
+      "PowerPyx now has a walkthrough for Making Gainz (updated November 19, 2026): Raul gives it in Chapter 4, it starts at the planning room in Stockyard, Vice City, it needs Heavy Lifting finished first, and it pays no reward.",
+      "According to PowerPyx, Raul calls Lucia a couple of in-game days after Heavy Lifting, and she has to go to the planning room on her own to start it.",
+      "PowerPyx's objectives are mostly gym work at Ajax Gym: bench press, squat rack, deadlifts and an exercise bike, then a workout montage, before Lucia meets Jason and Jason drives to the planning room.",
+      "PowerPyx says a steroid offer comes up during the montage; Decline is the default, and taking them changes Lucia's physique for the rest of the game.",
+      "PowerPyx warns that after this mission Jason and Lucia cannot be together in public until VCIA Takedown is finished, apart from both being in their room at the Y Hotel, which makes their relationship level harder to raise."
     ],
     "tags": [
       "chapter 4",
@@ -3603,7 +3617,10 @@
       "protagonist": "Lucia",
       "chapter": "Chapter 4",
       "order": 12,
-      "type": "Main mission"
+      "type": "Main mission",
+      "giver": "Raul",
+      "location": "Planning room, Stockyard, Vice City",
+      "reward": "None"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3611,7 +3628,8 @@
       "gtabase-missions",
       "keengamer-walkthrough",
       "techwiser-missions",
-      "tech2geek-missions"
+      "tech2geek-missions",
+      "r11g-pp-making-gainz"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -6247,7 +6265,9 @@
     "body": [
       "Mission 5 of 5 in PowerPyx's list for Pilot Pete.",
       "PowerPyx says Pilot Pete's questline counts toward the Strangers & Freaks trophy, which needs eight questlines.",
-      "PowerPyx says it is Pete's fifth and last delivery, marked by phone a couple of days after the previous two, and that finishing it completes the questline."
+      "PowerPyx says it is Pete's fifth and last delivery, marked by phone a couple of days after the previous two, and that finishing it completes the questline.",
+      "The in-game map card in PowerPyx's screenshot says to head to Sundown Airfield to make some drops for Pilot Pete; once under way the objective is titled The Last Mile: Over and Out.",
+      "PowerPyx says all 7 packages have to be delivered before 08:00, roughly two in-game hours."
     ],
     "tags": [
       "chapter 4",
@@ -6269,9 +6289,10 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-strangers-freaks",
-      "powerpyx-petes-deliveries-southpoint-airfield-avery-allen-co"
+      "powerpyx-petes-deliveries-southpoint-airfield-avery-allen-co",
+      "r16-pp-pete"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   }
 ]

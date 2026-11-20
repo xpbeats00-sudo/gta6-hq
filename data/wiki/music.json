@@ -126,7 +126,8 @@
     "body": [
       "Rockstar's music page labels it The Chamber. The preview clip on the same page is named The Chamber 106.6.",
       "GameSpot, CULTR and The Big Lead report that DJ Kerry and DJ Tom are Slayer's Kerry King and Tom Araya.",
-      "Songs GameSpot reports hearing on it: Slayer - Raining Blood; Black Sabbath - I; Pantera - I'm Broken; Megadeth - Symphony of Destruction; Metallica - Master of Puppets; Mastodon - Blood and Thunder; Anthrax - I Am The Law; Metallica - Battery; Metallica - Seek & Destroy; Sepultura - Territory; System of a Down - Sugar; TOOL - Sober; Overkill - Rotten to the Core."
+      "Songs GameSpot reports hearing on it: Slayer - Raining Blood; Black Sabbath - I; Pantera - I'm Broken; Megadeth - Symphony of Destruction; Metallica - Master of Puppets; Mastodon - Blood and Thunder; Anthrax - I Am The Law; Metallica - Battery; Metallica - Seek & Destroy; Sepultura - Territory; System of a Down - Sugar; TOOL - Sober; Overkill - Rotten to the Core.",
+      "Push Square's music guide lists Brian Posehn as a regular on The Chamber, alongside co-hosts Kerry King and Tom Araya."
     ],
     "facts": {
       "type": "Radio station",
@@ -150,9 +151,10 @@
       "g6w-music",
       "gamespot-radio",
       "cultr-radio",
-      "biglead-radio"
+      "biglead-radio",
+      "r11g-ps-radio"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "flash-fm",

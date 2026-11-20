@@ -7,7 +7,10 @@
       "GTABase lists the ADB PD-90 as a SMG weapon made by ADB, with an ammo capacity of 30.",
       "GTABase says it is bought at Ammu-Nation for $3,350 in story mode and can be modified with attachments and tints.",
       "Dexerto's weapon page lists in-game ratings of damage 4.2, accuracy 4.8, handling 6.6 and range 4.2, a 30-round magazine and full auto fire, and calls it an Assault SMG.",
-      "Dexerto gives its caliber as 5.7x28mm, full-auto fire, and the maker's full name as Armurerie de Belgique."
+      "Dexerto gives its caliber as 5.7x28mm, full-auto fire, and the maker's full name as Armurerie de Belgique.",
+      "A compact personal-defence submachine gun from Armurerie de Belgique (AdB) in 5.7x28mm.",
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "Name disagreement: IGN's table calls this Armurerie De Belgique submachine gun the AdB PD-90 (assault subtype, 5.7x28mm, 30 rounds, full auto)."
     ],
     "tags": [
       "adb",
@@ -27,7 +30,9 @@
     "confidence": "corroborated",
     "sources": [
       "r8gb-weapons-pd-90",
-      "r10-dex-w-adb-pd-90"
+      "r10-dex-w-adb-pd-90",
+      "dayone-weapons",
+      "ign-weapons-guide"
     ],
     "verified": "2026-11-19",
     "spoiler": true

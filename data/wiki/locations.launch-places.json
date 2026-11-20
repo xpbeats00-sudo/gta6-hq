@@ -175,7 +175,8 @@
       "PowerPyx says the jets stand around the airfield in the northern half of the base and the tanks in the south.",
       "PowerPyx says taking a jet brings a four-star wanted level and taking a tank a three-star one.",
       "PC Gamer places Mile Zero Air Station on Goose Key in the far south-west of the map, in Mariana County, not far from Jason's first house in Key Lento.",
-      "PC Gamer says being spotted on base brings a wanted level and a gunfight, that it is the easiest place to steal a tank or a combat jet, and that the Mile Zero Air Station Southeast stunt jump, over a dirt mound on the southern access road, lands you inside the fence."
+      "PC Gamer says being spotted on base brings a wanted level and a gunfight, that it is the easiest place to steal a tank or a combat jet, and that the Mile Zero Air Station Southeast stunt jump, over a dirt mound on the southern access road, lands you inside the fence.",
+      "A naval air station with two crossing runways on Goose Key, at the south-west end of the Leonida Keys."
     ],
     "region": "Mariana County",
     "tags": [
@@ -201,7 +202,8 @@
       "ppx-map",
       "ppx-jet",
       "ppx-tank",
-      "r8-pcg-military-base"
+      "r8-pcg-military-base",
+      "r8gb-map-landmark"
     ],
     "verified": "2026-11-19",
     "spoiler": true

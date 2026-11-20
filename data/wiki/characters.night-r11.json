@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "ms-sharleen",
+    "name": "Ms. Sharleen",
+    "summary": "A Key Lento resident on Calypso Avenue who holds a yard sale where Jason can buy clothes.",
+    "body": [
+      "GTA Wiki (edited November 19, 2026) lists Ms. Sharleen as a minor character who lives on Calypso Avenue in Key Lento and is hosting a yard sale.",
+      "According to GTA Wiki, Jason can buy a T-shirt, shoes and sunglasses at her yard sale.",
+      "GTA Wiki says she keeps a pet alligator called Gary, who wears a cowboy hat."
+    ],
+    "role": "Minor character",
+    "group": "supporting",
+    "tags": [
+      "key lento",
+      "minor character",
+      "yard sale"
+    ],
+    "facts": {
+      "home": "Calypso Avenue, Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-gw-ms-sharleen"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "peggy",
+    "name": "Peggy",
+    "summary": "One of Jason's neighbours on Peach Palm Drive in Key Lento, and the owner of the scooter in Shirley's errand.",
+    "body": [
+      "GTA Wiki (edited November 19, 2026) lists Peggy as a minor character: one of Jason Duval's neighbours on Peach Palm Drive in Key Lento and a friend of Shirley Baker.",
+      "GTA Wiki ties her to Shirley's errand in which Jason takes Peggy's Boomazoom mobility scooter; the app's Shirley: Steal the Scooter entry covers that errand."
+    ],
+    "role": "Minor character",
+    "group": "supporting",
+    "tags": [
+      "key lento",
+      "minor character",
+      "neighbour"
+    ],
+    "facts": {
+      "home": "Peach Palm Drive, Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-gw-peggy"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "joe-probation-officer",
+    "name": "Joe",
+    "summary": "Lucia's probation officer, with the Key Lento Police Department.",
+    "body": [
+      "GTA Wiki (edited November 19, 2026) lists Joe as a minor character: a probation officer with the Key Lento Police Department assigned to Lucia Caminos.",
+      "GTA Wiki names the Chapter 1 mission Down to Earth as his main appearance."
+    ],
+    "role": "Minor character",
+    "group": "supporting",
+    "tags": [
+      "key lento",
+      "minor character",
+      "police"
+    ],
+    "facts": {
+      "affiliation": "Key Lento Police Department",
+      "occupation": "Probation officer",
+      "home": "Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-gw-joe-gta-vi"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

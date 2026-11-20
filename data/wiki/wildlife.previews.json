@@ -6,7 +6,9 @@
     "summary": "TGG relays Game Informer's preview that the game has more than 170 animal species, native and invasive.",
     "body": [
       "He relays The Guardian's preview that 62 of them are birds. Manatees, iguanas and macaque monkeys are named alongside alligators and flamingos, with rare and legendary animals to find.",
-      "These counts come from press previews as he reports them, not from Rockstar's own pages."
+      "These counts come from press previews as he reports them, not from Rockstar's own pages.",
+      "The Tampa Bay Times repeats the figure of 62 bird species and says its reporters found a dozen of them in two hours: whooping crane, wood stork, northern gannet, great egret, roseate spoonbill, herring and laughing gulls, Caspian tern, mottled duck, brown and American white pelicans and great blue heron.",
+      "Audubon Florida's executive director Julie Wraithmell told the paper the spoonbills and white pelicans were locally appropriate for Florida."
     ],
     "tags": [
       "species",
@@ -16,8 +18,9 @@
     ],
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "tgg-pre-launch-guide",
+      "r13-tbt-birding"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-19"
   }
 ]

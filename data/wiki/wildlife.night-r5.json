@@ -5,7 +5,8 @@
     "summary": "A red lionfish is seen on a Leonida Keys reef in Rockstar's launch screenshot gallery.",
     "body": [
       "GTA Wiki lists lionfish among the game's aquatic animals, from a red lionfish swimming in the Leonida Keys in an official launch-gallery screenshot.",
-      "GTA Wiki places them in the Gulf of Leonida."
+      "GTA Wiki places them in the Gulf of Leonida.",
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Red Lionfish among the 35 catchable fish, caught with the Medium Saltwater Lure, and recommends the Gulf of Leonida just west of Bobcat Bight, Bobcat Key and Tola Bay."
     ],
     "tags": [
       "aquatic",
@@ -20,9 +21,10 @@
     "confidence": "corroborated",
     "sources": [
       "gtawiki-lionfish",
-      "gtawiki-animals-table"
+      "gtawiki-animals-table",
+      "r11g-ign-fishing"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "stingray",

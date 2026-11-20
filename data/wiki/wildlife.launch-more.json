@@ -535,7 +535,9 @@
     "body": [
       "Push Square's trophy guide says Cal's request is to land a Parrotfish over 2kg in an area marked on the map, and that a boat with a fishing rod is needed.",
       "PowerPyx reports the Progress database counts 35 fish; no page read lists the others.",
-      "Sportskeeda's walkthrough of Catch a Bigger Fish says Cal's photo shows a stoplight parrotfish and that the goal is to land one heavier than 2 lbs; Push Square gives the target as over 2kg, so the two guides disagree on the unit."
+      "Sportskeeda's walkthrough of Catch a Bigger Fish says Cal's photo shows a stoplight parrotfish and that the goal is to land one heavier than 2 lbs; Push Square gives the target as over 2kg, so the two guides disagree on the unit.",
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Stoplight Parrotfish among the 35 fish in the Animals Collection, caught with the Small Saltwater Lure, and recommends the southeast of the Shoeless Keys in Mariana County.",
+      "IGN's guide now names all 35 fish, which settles the app's note that no page listed the others; each has its own entry."
     ],
     "tags": [
       "cal",
@@ -550,7 +552,8 @@
     "sources": [
       "pushsquare-trophies",
       "powerpyx-progress-database",
-      "sportskeeda-catch-bigger-fish"
+      "sportskeeda-catch-bigger-fish",
+      "r11g-ign-fishing"
     ],
     "verified": "2026-11-19",
     "spoiler": true,

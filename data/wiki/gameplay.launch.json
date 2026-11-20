@@ -122,7 +122,11 @@
     "body": [
       "PowerPyx's guide says the whole map stays open afterwards, apart from a few buildings used only in missions. There are no gold medals for missions; the only medals are in the 42 shooting range challenges and the 13 race challenges.",
       "It reports no difficulty settings, and says nothing counted by the 100% checklist can be missed.",
-      "On the map, mandatory story missions have pink icons with black letters, optional missions black icons with pink letters, and side tasks are purple. The guide counts five main regions, each with many smaller areas."
+      "On the map, mandatory story missions have pink icons with black letters, optional missions black icons with pink letters, and side tasks are purple. The guide counts five main regions, each with many smaller areas.",
+      "PowerPyx (November 19, 2026) says GTA VI has no mission replay and no chapter select: neither story missions nor Strangers & Freaks side missions can be replayed.",
+      "PowerPyx says there are no mission gold medals either; the only gold medals are the 42 shooting range medals and 13 race challenge medals, of which 10 count for the completion checklist.",
+      "PowerPyx suggests keeping manual saves at the start and end of each of the five chapters, which uses 10 of the 15 slots, because some optional missions become unavailable as the story moves on.",
+      "Dexerto's wiki words it differently: it says story missions can be replayed, but only by loading an older manual save, since no specific mission can be picked."
     ],
     "related": [
       "missions/story-structure-released",
@@ -144,9 +148,12 @@
     "confidence": "corroborated",
     "sources": [
       "powerpyx-wiki",
-      "powerpyx-trophy-guide"
+      "powerpyx-trophy-guide",
+      "r11g-pp-mission-replay",
+      "r11g-pp-gold-medals",
+      "r11g-dex-replay"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

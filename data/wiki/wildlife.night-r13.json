@@ -1,0 +1,75 @@
+[
+  {
+    "slug": "northern-gannet",
+    "name": "Northern gannet",
+    "summary": "A seabird the Tampa Bay Times' environment reporters say they identified in Leonida while birding in the game on launch day.",
+    "body": [
+      "Two Tampa Bay Times environment reporters spent two hours of launch day birdwatching in the game with Florida field guides and list the northern gannet among the dozen species they tallied.",
+      "The identification is the reporters' own; the game's in-game name for the bird was not given."
+    ],
+    "tags": [
+      "bird",
+      "gannet",
+      "seabird",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Northern gannet (reporters' identification)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r13-tbt-birding"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "great-egret",
+    "name": "Great egret",
+    "summary": "A wading bird the Tampa Bay Times' reporters identified in the game, seen sifting the shallows for food.",
+    "body": [
+      "The Tampa Bay Times lists great egrets among the twelve bird species its two reporters found in two hours of play, and describes egrets sifting the shallows for food.",
+      "The identification is the reporters' own, made with Florida field guides."
+    ],
+    "tags": [
+      "bird",
+      "egret",
+      "wading bird",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Great egret (reporters' identification)",
+      "habitat": "Shallow water"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r13-tbt-birding"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "caspian-tern",
+    "name": "Caspian tern",
+    "summary": "A tern the Tampa Bay Times' reporters say they spotted while birding in the game on launch day.",
+    "body": [
+      "The Tampa Bay Times names Caspian terns among the twelve bird species its reporters tallied between Lummox County's woods and the Grassrivers wetlands.",
+      "The identification is the reporters' own, made with Florida field guides."
+    ],
+    "tags": [
+      "bird",
+      "seabird",
+      "tern",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Caspian tern (reporters' identification)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r13-tbt-birding"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

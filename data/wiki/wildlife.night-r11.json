@@ -1,0 +1,888 @@
+[
+  {
+    "slug": "gary-the-alligator",
+    "name": "Gary (alligator)",
+    "summary": "Ms. Sharleen's pet alligator, who wears a cowboy hat at her home on Calypso Avenue, Key Lento.",
+    "body": [
+      "GTA Wiki (edited November 19, 2026) lists Gary as a minor character: the pet alligator of Ms. Sharleen, living with her on Calypso Avenue in Key Lento.",
+      "GTA Wiki says Gary appears to be an American alligator and wears a brown cowboy hat."
+    ],
+    "tags": [
+      "alligator",
+      "key lento",
+      "pet",
+      "unique animal",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "American alligator (per GTA Wiki)",
+      "habitat": "Ms. Sharleen's home, Calypso Avenue, Key Lento"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-gw-gary-alligator",
+      "r11g-gw-ms-sharleen"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "american-eel",
+    "name": "American Eel",
+    "summary": "A freshwater fish caught with the Medium Freshwater Lure; IGN's suggested spot: Cottonmouth Lake in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the American Eel among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Freshwater Lure and recommends fishing at Cottonmouth Lake in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "American Eel",
+      "habitat": "Freshwater: Cottonmouth Lake in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "atlantic-spadefish",
+    "name": "Atlantic Spadefish",
+    "summary": "A saltwater fish caught with the Medium Saltwater Lure; IGN's suggested spot: In Leonida Straits south of Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Atlantic Spadefish among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Saltwater Lure and recommends fishing in Leonida Straits south of Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Atlantic Spadefish",
+      "habitat": "Saltwater: In Leonida Straits south of Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "atlantic-spanish-mackerel",
+    "name": "Atlantic Spanish Mackerel",
+    "summary": "A saltwater fish caught with a saltwater lure; IGN's suggested spot: South of Key Lento, close to Leonida Straits.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Atlantic Spanish Mackerel among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN gives the lure only as a saltwater lure, without a size, and recommends fishing south of Key Lento, close to Leonida Straits.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Atlantic Spanish Mackerel",
+      "habitat": "Saltwater: South of Key Lento, close to Leonida Straits"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "atlantic-tarpon",
+    "name": "Atlantic Tarpon",
+    "summary": "A saltwater fish caught with the Large Saltwater Lure; IGN's suggested spot: In northwest Port Gellhorn in Kelly County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Atlantic Tarpon among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Large Saltwater Lure and recommends fishing in northwest Port Gellhorn in Kelly County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Atlantic Tarpon",
+      "habitat": "Saltwater: In northwest Port Gellhorn in Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "atlantic-thread-herring",
+    "name": "Atlantic Thread Herring",
+    "summary": "A saltwater fish caught with the Large Saltwater Lure; IGN's suggested spot: In the Atlantic Ocean northeast of Vice Beach in Vice-Dale County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Atlantic Thread Herring among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Large Saltwater Lure and recommends fishing in the Atlantic Ocean northeast of Vice Beach in Vice-Dale County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Atlantic Thread Herring",
+      "habitat": "Saltwater: In the Atlantic Ocean northeast of Vice Beach in Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bluegill",
+    "name": "Bluegill",
+    "summary": "A freshwater fish caught with the Small Freshwater Lure; IGN's suggested spot: Nehrling River in North Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Bluegill among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Freshwater Lure and recommends fishing at Nehrling River in North Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Bluegill",
+      "habitat": "Freshwater: Nehrling River in North Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "candy-fish",
+    "name": "Candy Fish",
+    "summary": "A freshwater fish caught with the Candy Cane Lure; IGN's suggested spot: In Lake Leonida.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Candy Fish among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Candy Cane Lure and recommends fishing in Lake Leonida.",
+      "According to IGN, the Candy Cane Lure is not sold in shops but found in a garage of a house in Ambrosia.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Candy Fish",
+      "habitat": "Freshwater: In Lake Leonida"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "channel-catfish",
+    "name": "Channel Catfish",
+    "summary": "A freshwater fish caught with the Medium Freshwater Lure; IGN's suggested spot: In Buckskin Swamp in South Kelly County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Channel Catfish among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Freshwater Lure and recommends fishing in Buckskin Swamp in South Kelly County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Channel Catfish",
+      "habitat": "Freshwater: In Buckskin Swamp in South Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "lake-chubsucker",
+    "name": "Lake Chubsucker",
+    "summary": "A freshwater fish caught with the Small Freshwater Lure; IGN's suggested spot: Lake Tallaloko in East Lummox County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Lake Chubsucker among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Freshwater Lure and recommends fishing at Lake Tallaloko in East Lummox County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Lake Chubsucker",
+      "habitat": "Freshwater: Lake Tallaloko in East Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "greater-amberjack",
+    "name": "Greater Amberjack",
+    "summary": "A saltwater fish caught with the Small Saltwater Lure; IGN's suggested spot: In the Atlantic Ocean off the southeastern coast of Dalton Island in Vice-Dale County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Greater Amberjack among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Saltwater Lure and recommends fishing in the Atlantic Ocean off the southeastern coast of Dalton Island in Vice-Dale County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Greater Amberjack",
+      "habitat": "Saltwater: In the Atlantic Ocean off the southeastern coast of Dalton Island in Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "great-barracuda",
+    "name": "Great Barracuda",
+    "summary": "A saltwater fish caught with the Large Saltwater Lure; IGN's suggested spot: In Leonida Straits near Key Lento in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Great Barracuda among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Large Saltwater Lure and recommends fishing in Leonida Straits near Key Lento in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Great Barracuda",
+      "habitat": "Saltwater: In Leonida Straits near Key Lento in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "largemouth-bass",
+    "name": "Largemouth Bass",
+    "summary": "A freshwater fish caught with the Small Freshwater Lure; IGN's suggested spot: In Gullet Marsh near Watson Bay in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Largemouth Bass among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Freshwater Lure and recommends fishing in Gullet Marsh near Watson Bay in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Largemouth Bass",
+      "habitat": "Freshwater: In Gullet Marsh near Watson Bay in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "rock-sea-bass",
+    "name": "Rock Sea Bass",
+    "summary": "A saltwater fish caught with the Small Saltwater Lure; IGN's suggested spot: West of Watson Bay in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Rock Sea Bass among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Saltwater Lure and recommends fishing west of Watson Bay in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Rock Sea Bass",
+      "habitat": "Saltwater: West of Watson Bay in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "striped-bass",
+    "name": "Striped Bass",
+    "summary": "A saltwater fish caught with the Medium Saltwater Lure; IGN's suggested spot: In Patridge Bay in the north of Lummox County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Striped Bass among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Saltwater Lure and recommends fishing in Patridge Bay in the north of Lummox County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Striped Bass",
+      "habitat": "Saltwater: In Patridge Bay in the north of Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "cobia",
+    "name": "Cobia",
+    "summary": "A saltwater fish caught with the Large Saltwater Lure; IGN's suggested spot: In the Atlantic Ocean, east of Vice Beach.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Cobia among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Large Saltwater Lure and recommends fishing in the Atlantic Ocean, east of Vice Beach.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Cobia",
+      "habitat": "Saltwater: In the Atlantic Ocean, east of Vice Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "black-drum",
+    "name": "Black Drum",
+    "summary": "A saltwater fish; IGN's suggested spot: In Okchiloha Bay in northwest Lummox County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Black Drum among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN names no lure for it and recommends fishing in Okchiloha Bay in northwest Lummox County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Black Drum",
+      "habitat": "Saltwater: In Okchiloha Bay in northwest Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "green-moray-eel",
+    "name": "Green Moray Eel",
+    "summary": "A saltwater fish caught with the Large Saltwater Lure; IGN's suggested spot: Millport Basin off the east coast of Lummox County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Green Moray Eel among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Large Saltwater Lure and recommends fishing at Millport Basin off the east coast of Lummox County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Green Moray Eel",
+      "habitat": "Saltwater: Millport Basin off the east coast of Lummox County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "spotted-moray-eel",
+    "name": "Spotted Moray Eel",
+    "summary": "A saltwater fish caught with the Medium Saltwater Lure; IGN's suggested spot: In the Atlantic Ocean, east of Leonard County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Spotted Moray Eel among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Saltwater Lure and recommends fishing in the Atlantic Ocean, east of Leonard County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Spotted Moray Eel",
+      "habitat": "Saltwater: In the Atlantic Ocean, east of Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "leonida-gar",
+    "name": "Leonida Gar",
+    "summary": "A freshwater fish caught with the Medium Freshwater Lure; IGN's suggested spot: In the Grassrivers in Mariana County, west of Hamlet.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Leonida Gar among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Freshwater Lure and recommends fishing in the Grassrivers in Mariana County, west of Hamlet.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Leonida Gar",
+      "habitat": "Freshwater: In the Grassrivers in Mariana County, west of Hamlet"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "black-grouper",
+    "name": "Black Grouper",
+    "summary": "A saltwater fish caught with the Medium Saltwater Lure; IGN's suggested spot: In Leonida Bay, north of the Mile Zero Air Station in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Black Grouper among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Saltwater Lure and recommends fishing in Leonida Bay, north of the Mile Zero Air Station in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Black Grouper",
+      "habitat": "Saltwater: In Leonida Bay, north of the Mile Zero Air Station in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "tiger-grouper",
+    "name": "Tiger Grouper",
+    "summary": "A saltwater fish caught with the Medium Saltwater Lure; IGN's suggested spot: In western Draper Bay, in Kelly County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Tiger Grouper among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Saltwater Lure and recommends fishing in western Draper Bay, in Kelly County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Tiger Grouper",
+      "habitat": "Saltwater: In western Draper Bay, in Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "bluestriped-grunt",
+    "name": "Bluestriped Grunt",
+    "summary": "A saltwater fish caught with the Small Saltwater Lure; IGN's suggested spot: In Abismo Key, between Key Lento and Mile Zero Air Station in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Bluestriped Grunt among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Saltwater Lure and recommends fishing in Abismo Key, between Key Lento and Mile Zero Air Station in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Bluestriped Grunt",
+      "habitat": "Saltwater: In Abismo Key, between Key Lento and Mile Zero Air Station in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "hogfish",
+    "name": "Hogfish",
+    "summary": "A saltwater fish caught with the Medium Saltwater Lure; IGN's suggested spot: In Leonida Straits, northeast of Key Lento and east of Gambit Bay in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Hogfish among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Saltwater Lure and recommends fishing in Leonida Straits, northeast of Key Lento and east of Gambit Bay in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Hogfish",
+      "habitat": "Saltwater: In Leonida Straits, northeast of Key Lento and east of Gambit Bay in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "mahi-mahi",
+    "name": "Mahi Mahi",
+    "summary": "A saltwater fish caught with the Large Saltwater Lure; IGN's suggested spot: South of Riquezas Keys and west of Mile Zero Air Station in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Mahi Mahi among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Large Saltwater Lure and recommends fishing south of Riquezas Keys and west of Mile Zero Air Station in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Mahi Mahi",
+      "habitat": "Saltwater: South of Riquezas Keys and west of Mile Zero Air Station in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "permit-fish",
+    "name": "Permit",
+    "summary": "A saltwater fish caught with the Large Saltwater Lure; IGN's suggested spot: In the Leonida Straits south of Vice-Dale County and east of South Vice-Dale County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Permit among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Large Saltwater Lure and recommends fishing in the Leonida Straits south of Vice-Dale County and east of South Vice-Dale County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Permit",
+      "habitat": "Saltwater: In the Leonida Straits south of Vice-Dale County and east of South Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "redfin-pickerel",
+    "name": "Redfin Pickerel",
+    "summary": "A freshwater fish caught with the Small Freshwater Lure; IGN's suggested spot: Southwest of South Kelly County and Buckskin Swamp.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Redfin Pickerel among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Freshwater Lure and recommends fishing southwest of South Kelly County and Buckskin Swamp.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Redfin Pickerel",
+      "habitat": "Freshwater: Southwest of South Kelly County and Buckskin Swamp"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "littlehead-porgy",
+    "name": "Littlehead Porgy",
+    "summary": "A saltwater fish caught with the Small Saltwater Lure; IGN's suggested spot: South of the Crude Islands, west of South Kelly County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Littlehead Porgy among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Saltwater Lure and recommends fishing south of the Crude Islands, west of South Kelly County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Littlehead Porgy",
+      "habitat": "Saltwater: South of the Crude Islands, west of South Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "salt-fish",
+    "name": "Salt Fish",
+    "summary": "A freshwater fish caught with the Medium Freshwater Lure; IGN's suggested spot: In Lake Leonida in the south of North Leonard County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Salt Fish among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Freshwater Lure and recommends fishing in Lake Leonida in the south of North Leonard County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Salt Fish",
+      "habitat": "Freshwater: In Lake Leonida in the south of North Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "northern-red-snapper",
+    "name": "Northern Red Snapper",
+    "summary": "A saltwater fish caught with the Medium Saltwater Lure; IGN's suggested spot: In the northwest of Leonida Bay, southwest of Grassrivers.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Northern Red Snapper among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Saltwater Lure and recommends fishing in the northwest of Leonida Bay, southwest of Grassrivers.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Northern Red Snapper",
+      "habitat": "Saltwater: In the northwest of Leonida Bay, southwest of Grassrivers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "yellowtail-snapper",
+    "name": "Yellowtail Snapper",
+    "summary": "A saltwater fish caught with the Small Saltwater Lure; IGN's suggested spot: In Leonida Straits between Mile Zero Air Station and Abismo Key.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Yellowtail Snapper among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Saltwater Lure and recommends fishing in Leonida Straits between Mile Zero Air Station and Abismo Key.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Yellowtail Snapper",
+      "habitat": "Saltwater: In Leonida Straits between Mile Zero Air Station and Abismo Key"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "common-snook",
+    "name": "Common Snook",
+    "summary": "A saltwater fish caught with the Medium Saltwater Lure; IGN's suggested spot: In the waters north of Waxman Island and Starfish Island, and south of Catalan Island, Vespucci Island.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Common Snook among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Medium Saltwater Lure and recommends fishing in the waters north of Waxman Island and Starfish Island, and south of Catalan Island, Vespucci Island, and Rialto Islands in Vice Beach.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Common Snook",
+      "habitat": "Saltwater: In the waters north of Waxman Island and Starfish Island, and south of Catalan Island, Vespucci Island, and Rialto Islands in Vice Beach"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "redbreast-sunfish",
+    "name": "Redbreast Sunfish",
+    "summary": "A freshwater fish caught with the Small Freshwater Lure; IGN's suggested spot: Along the north of the Emerald River in Kelly County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Redbreast Sunfish among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Small Freshwater Lure and recommends fishing along the north of the Emerald River in Kelly County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Redbreast Sunfish",
+      "habitat": "Freshwater: Along the north of the Emerald River in Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "yellowfin-tuna",
+    "name": "Yellowfin Tuna",
+    "summary": "A saltwater fish caught with the Large Saltwater Lure; IGN's suggested spot: In the Gulf of Leonida, west of Tola Bay in Mariana County.",
+    "body": [
+      "IGN's GTA 6 fishing guide (updated November 19, 2026) lists the Yellowfin Tuna among the 35 fish in the Animals Collection, which counts toward 100% completion.",
+      "IGN says it needs the Large Saltwater Lure and recommends fishing in the Gulf of Leonida, west of Tola Bay in Mariana County.",
+      "IGN says lures are sold only at Ammu-Nations that show a fish icon under Features on the map, and that a species' hotspots are marked with a purple fish icon once that species has been caught."
+    ],
+    "tags": [
+      "animals collection",
+      "fish",
+      "fishing",
+      "wildlife"
+    ],
+    "facts": {
+      "species": "Yellowfin Tuna",
+      "habitat": "Saltwater: In the Gulf of Leonida, west of Tola Bay in Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r11g-ign-fishing"
+    ],
+    "verified": "2026-11-18",
+    "spoiler": true
+  }
+]

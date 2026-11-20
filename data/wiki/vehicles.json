@@ -52,7 +52,10 @@
     "summary": "A two-tone 1950s Vapid sedan that is part of the Vintage Vice City Pack, along with a garage by Ocean Beach.",
     "body": [
       "Rockstar lists the car and its garage among the pack's contents, next to outfits and hairstyles for Jason and Lucia and a weapon pattern.",
-      "Nothing has been published about how it drives."
+      "Nothing has been published about how it drives.",
+      "Jalopnik says players who qualify for the Vintage Vice City Pack get a task in the Exploration tab of the map that leads to the Ocean View Hotel, where the car and its garage are waiting.",
+      "Jalopnik describes the car as two-tone yellow on white and sees it as a nod to the 1955 Oldsmobile Super 88 parked outside the Avalon Hotel on Miami's Ocean Drive, though the game's car has a hardtop rather than a convertible roof.",
+      "Jalopnik says the pack is a pre-order bonus that can still be had by ordering before the end of November 19."
     ],
     "facts": {
       "manufacturer": "Vapid",
@@ -77,9 +80,10 @@
     "confidence": "official",
     "sources": [
       "rockstar-media",
-      "g6w-editions"
+      "g6w-editions",
+      "r13-jalopnik-stanier"
     ],
-    "verified": "2026-11-12"
+    "verified": "2026-11-19"
   },
   {
     "slug": "vapid-ganado",

@@ -2,6 +2,17 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.31 (20 November 2026)
+
+Launch-evening news, 33 fish and new birds, about 65 more pictures, and nine duplicates merged.
+
+- Entries: 3,086, up from 3,051; 2,658 show a picture.
+- Wildlife (124): 33 fish, Gary the alligator, and the northern gannet, great egret and Caspian tern; real species names for the crane, stork, heron, pelican and gull.
+- Pictures: 13 weapons, 12 vehicles, Under the Bridge spots, a Knife Flight, mission screenshots, Yasmani, Felipe and Nate.
+- Duplicates: nine pairs of entries for the same thing in the same section merged into one (for example the cougar into the Florida panther).
+- Facts: mission givers and starts, Richardson Jewelry's robbery details, equipment unlocks, relationship tips, Delights Cabaret, and both guides' figures for vehicle fencing.
+- Intel (94 news items): DE-CIX's traffic record, Take-Two shares, PC Gamer's fact check, The Guardian's advice to parents, fired Rockstar North staff on launch day, Rob Nelson on the short opening, glitch clips.
+
 ## 0.2.30 (19 November 2026)
 
 Launch-day news, 66 standout vehicles, 29 places and about 160 more pictures.

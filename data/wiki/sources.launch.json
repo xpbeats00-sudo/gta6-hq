@@ -7642,5 +7642,537 @@
     "url": "https://www.dexerto.com/wikis/gta-6/weapons/melee-weapons/baton",
     "type": "secondary",
     "accessed": "2026-11-19"
+  },
+  "r11-psblog-preload-record": {
+    "title": "Pre-load Grand Theft Auto VI on PS5 starting today",
+    "publisher": "PlayStation Blog (Sony Interactive Entertainment)",
+    "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+    "type": "official",
+    "accessed": "2026-11-19"
+  },
+  "r11-xboxwire-cloud-record": {
+    "title": "Grand Theft Auto VI Comes to Xbox One and Xbox Series X|S Through Xbox Cloud Gaming on November 19",
+    "publisher": "Xbox Wire (Microsoft)",
+    "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/",
+    "type": "official",
+    "accessed": "2026-11-19"
+  },
+  "r11-eurogamer-nz-trick-2m": {
+    "title": "Over 2 million Xbox players in the UK and US reportedly used the 'New Zealand trick' to play GTA 6 early",
+    "publisher": "Eurogamer",
+    "url": "https://www.eurogamer.net/gta-6-new-zealand-trick-2m-players-early",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11-ign-nz-trick-2m": {
+    "title": "An Estimated 2 Million Eager Xbox Gamers Made Use of the 'New Zealand Trick' to Play GTA 6 Early",
+    "publisher": "IGN",
+    "url": "https://www.ign.com/articles/2-million-people-new-zealand-gta-6-early",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11-eurogamer-nz-tourism": {
+    "title": "\"We'd love to have you\" - New Zealand's tourist board gives a nod to those hopping timezones to play Grand Theft Auto 6 early",
+    "publisher": "Eurogamer",
+    "url": "https://www.eurogamer.net/new-zealand-tourist-board-gives-nod-grand-theft-auto-timezone-trick",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11-ign-downing-street": {
+    "title": "Downing Street Hails GTA 6 as 'British Success Story' - But PM Andy Burnham Is Too Busy to Play",
+    "publisher": "IGN",
+    "url": "https://www.ign.com/articles/uk-pm-andy-burnham-too-busy-for-gta-6",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11-vgc-newzoo-forecast": {
+    "title": "GTA 6 has 'the strongest pre-order campaign on record', is on track to sell 37-51 million in week one, analytics firm says",
+    "publisher": "Video Games Chronicle",
+    "url": "https://www.videogameschronicle.com/news/analytics-firm-says-gta-6-has-the-strongest-pre-order-campaign-on-record-is-on-track-to-sell-37-51-million-in-its-first-week/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11-gamesradar-pitchford-movies": {
+    "title": "As GTA 6 finally releases, Borderlands 4 boss reminds everyone that Rockstar's launch week revenue is predicted to top the biggest Star Wars, Lord of the Rings, and Harry Potter movies combined",
+    "publisher": "GamesRadar+",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/as-gta-6-finally-releases-borderlands-4-boss-reminds-everyone-that-rockstars-launch-week-revenue-is-predicted-to-top-the-biggest-star-wars-lord-of-the-rings-and-harry-potter-movies-combined/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11-gamesradar-peter-moore": {
+    "title": "Former Xbox and EA exec hopes GTA 6 gives \"a much-needed shot in the arm\" to devs and publishers",
+    "publisher": "GamesRadar+",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/former-xbox-and-ea-exec-hopes-gta-6-gives-a-much-needed-shot-in-the-arm-to-devs-and-publishers-the-video-game-industry-could-really-use-a-moment-like-this/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11-gamesradar-larian-douse": {
+    "title": "\"Not every game needs to be GTA\": Baldur's Gate 3 dev says Grand Theft Auto 6 is a \"rare\" cultural moment",
+    "publisher": "GamesRadar+",
+    "url": "https://www.gamesradar.com/games/grand-theft-auto/not-every-game-needs-to-be-gta-baldurs-gate-3-dev-says-grand-theft-auto-6-is-a-rare-cultural-moment-but-theres-still-space-for-other-types-of-experiences/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-peggy": {
+    "title": "Peggy - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Peggy",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-gw-intruder": {
+    "title": "Intruder - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Intruder",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-gw-gary-alligator": {
+    "title": "Gary (alligator) - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Gary_(alligator)",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-gw-ms-sharleen": {
+    "title": "Ms. Sharleen - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Ms._Sharleen",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-gw-joe-gta-vi": {
+    "title": "Joe (GTA VI) - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Joe_(GTA_VI)",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-ign-fishing": {
+    "title": "Fishing - IGN GTA 6 Wiki Guide",
+    "publisher": "IGN",
+    "url": "https://www.ign.com/wikis/gta-6/Fishing",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-gw-dominator-asp": {
+    "title": "Dominator ASP - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Dominator_ASP",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-gw-dominator-gtx": {
+    "title": "Dominator GTX - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Dominator_GTX",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-gw-th42-telehandler": {
+    "title": "TH42 Telehandler - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/TH42_Telehandler",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r11g-dex-stockyard-fm": {
+    "title": "Stockyard FM - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/stockyard-fm/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-ps-radio": {
+    "title": "GTA 6 Music: All Songs, Radio Stations and Artists",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/guides/gta-6-radio-songs-music-radio-stations-and-artists",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-vice-city-rap-radio": {
+    "title": "Vice City Rap Radio - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/vice-city-rap-radio/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-radio-la-ola": {
+    "title": "Radio La Ola - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/radio-la-ola/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-radio-on-u": {
+    "title": "Radio On-U - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/radio-on-u/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-gloriana-blues-radio": {
+    "title": "Gloriana Blues Radio - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/gloriana-blues-radio/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-leonida-jazz-radio": {
+    "title": "Leonida Jazz Radio - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/leonida-jazz-radio/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-symphony-fm": {
+    "title": "Symphony FM - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/symphony-fm/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-worldwide-fm": {
+    "title": "Worldwide FM - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/worldwide-fm/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-circoloco-records-radio": {
+    "title": "CircoLoco Records Radio - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/circoloco-records-radio/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-wktt": {
+    "title": "WKTT - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/wktt/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-pp-making-gainz": {
+    "title": "GTA 6 Making Gainz Walkthrough",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-making-gainz-walkthrough/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-ambulance": {
+    "title": "Ambulance - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Ambulance",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-sungrazer": {
+    "title": "Sungrazer - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Sungrazer",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-reclaimer-1970": {
+    "title": "Reclaimer (1970) - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Reclaimer_(1970)",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-rubble": {
+    "title": "Rubble - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Rubble",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-mb2-10": {
+    "title": "MB2-10 - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/MB2-10",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-guardian-tx2": {
+    "title": "Guardian TX2 - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Guardian_TX2",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-tao-boat": {
+    "title": "Tao (boat) - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Tao_(boat)",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-gw-shirley-baker": {
+    "title": "Shirley Baker - GTA Wiki",
+    "publisher": "GTA Wiki",
+    "url": "https://gta.wiki/w/Shirley_Baker",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-pp-mission-replay": {
+    "title": "GTA 6 Is there Mission Replay?",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-is-there-mission-replay/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-pp-gold-medals": {
+    "title": "GTA 6 Are there Mission Gold Medals?",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-are-there-mission-gold-medals/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-replay": {
+    "title": "How to replay missions - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/how-to-replay-missions/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-emotion-98-3": {
+    "title": "Emotion 98.3 - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/emotion-98-3/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-kaleidoscope-fm": {
+    "title": "Kaleidoscope FM - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/kaleidoscope-fm/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-honey-fm": {
+    "title": "Honey FM - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/honey-fm/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r11g-dex-v-rock": {
+    "title": "V-Rock - Dexerto GTA 6 wiki",
+    "publisher": "Dexerto",
+    "url": "https://www.dexerto.com/wikis/gta-6/radio-stations/v-rock/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-tbt-birding": {
+    "title": "We went birding in GTA 6. These are the Florida species we found.",
+    "publisher": "Tampa Bay Times",
+    "url": "https://www.tampabay.com/news/environment/2026/11/19/gta6-florida-birds-grand-theft-auto-6-birdwatching-guide/",
+    "type": "secondary",
+    "accessed": "2026-11-18"
+  },
+  "r13-variety-decix": {
+    "title": "'GTA 6' Launch Breaks Internet Usage Records; Livestreams Hit Nearly 8 Million Views on Twitch, YouTube and More in First Hours of Release",
+    "publisher": "Variety Australia",
+    "url": "https://au.variety.com/2026/more/news/gta-6-launch-livestream-internet-traffic-records-42754/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-itbrief-decix": {
+    "title": "GTA VI pre-downloads drive record internet traffic",
+    "publisher": "IT Brief UK",
+    "url": "https://itbrief.co.uk/story/gta-vi-pre-downloads-drive-record-internet-traffic",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-reuters-thestar": {
+    "title": "Take-Two set to shatter sales records as 'GTA VI' launches to massive fanfare (Reuters)",
+    "publisher": "Reuters via The Star",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/11/20/take-two-set-to-shatter-sales-records-as-039gta-vi039-launches-to-massive-fanfare",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-pcg-factcheck": {
+    "title": "Fact check: Does GTA 6 stop players from shooting inside gay nightclubs and crashing planes into buildings?",
+    "publisher": "PC Gamer",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/fact-check-does-gta-6-stop-players-from-shooting-inside-gay-nightclubs-and-crashing-planes-into-buildings/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-newsweek-police": {
+    "title": "GTA 6's New Police System Ends the Easy Getaway With Flock-Like Cameras",
+    "publisher": "Newsweek",
+    "url": "https://www.newsweek.com/gta-6s-new-police-system-ends-the-easy-getaway-with-flock-like-cameras-12743394",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-gs-romance": {
+    "title": "GTA 6 Romance Guide: How To Romance Lucia And Jason",
+    "publisher": "GameSpot",
+    "url": "https://www.gamespot.com/articles/gta-6-romance-relationships/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-kotaku-red-hulk": {
+    "title": "\"Are We Going Too Crazy?\" Here's Why Rockstar Put A Red Hulk In GTA 6",
+    "publisher": "Kotaku",
+    "url": "https://kotaku.com/are-we-going-too-crazy-heres-why-rockstar-put-a-red-hulk-in-gta-6-2000758505",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-vgtimes-eclipse": {
+    "title": "How to Find Paul Walker's Mitsubishi Eclipse in GTA 6",
+    "publisher": "VGTimes",
+    "url": "https://vgtimes.com/gaming-news/175138-how-to-find-paul-walkers-mitsubishi-eclipse-in-gta-6.html",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-cos-djs": {
+    "title": "GTA 6's Radio DJs Include Keith Richards, Lindsey Buckingham, and Gloria Estefan",
+    "publisher": "Consequence",
+    "url": "https://consequence.net/2026/11/gta-6-radio-djs-keith-richards-bad-bunny-gloria-estefan/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-jalopnik-stanier": {
+    "title": "You Can Get A Free Classic Car And Garage In GTA 6, But Only Until Tomorrow",
+    "publisher": "Jalopnik",
+    "url": "https://www.jalopnik.com/2322442/gta-6-grand-theft-auto-vintage-vice-city-pack-classic-car/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-ign-vehicles": {
+    "title": "Vehicles - GTA 6 Guide",
+    "publisher": "IGN",
+    "url": "https://www.ign.com/wikis/gta-6/Vehicles",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-pcg-halifax": {
+    "title": "GTA 6: Should you give the statue to Benedict Halifax?",
+    "publisher": "PC Gamer",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-give-statue-to-benedict-halifax-or-not/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-pcg-delights": {
+    "title": "GTA 6 Delights robbery mission: should you help Frankie and Mario?",
+    "publisher": "PC Gamer",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-delights-mission-help-or-dont-help/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r13-racingnews-ocala": {
+    "title": "Ocala Speedway dirt track is featured in GTA 6 (Video)",
+    "publisher": "RacingNews.co",
+    "url": "https://racingnews.co/2026/11/19/ocala-speedway-dirt-track-is-featured-in-gta-6-video/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r14-cnet-fired-workers": {
+    "title": "GTA 6 Launch Day Hits Different for Fired Rockstar Workers",
+    "publisher": "CNET",
+    "url": "https://www.cnet.com/tech/gaming/gta-6-launch-day-hits-different-for-fired-rockstar-workers/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r14-guardian-parents": {
+    "title": "Parents: please don't buy Grand Theft Auto VI for your child",
+    "publisher": "The Guardian",
+    "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-parents-please-dont-buy-gta-6-vi-for-your-child",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r14-gamingbible-prologue": {
+    "title": "Rockstar co-lead explains how GTA 6's prologue was inspired by Red Dead Redemption 2",
+    "publisher": "GAMINGbible",
+    "url": "https://www.gamingbible.com/news/rockstar-explain-gta-6-prologue-inspiration-802250-20261119",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r14-nypost-bugs": {
+    "title": "GTA 6 players claim game is 'riddled' with bugs — from walking through walls to graphics glitches (New York Post, via Yahoo)",
+    "publisher": "New York Post via Yahoo Tech",
+    "url": "https://tech.yahoo.com/gaming/articles/gta-6-players-claim-game-172141310.html",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r14-gs-strip-clubs": {
+    "title": "All Strip Clubs In GTA 6",
+    "publisher": "GameSpot",
+    "url": "https://www.gamespot.com/articles/all-strip-clubs-in-gta-6/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r14-gs-cool-dog": {
+    "title": "GTA 6 Dog Who Saves You Is Seemingly Based On A Very Cool Real-Life Dog",
+    "publisher": "GameSpot",
+    "url": "https://www.gamespot.com/articles/gta-6-dog-who-saves-you-is-seemingly-based-on-a-very-cool-real-life-dog/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-photoshoot": {
+    "title": "GTA 6 Photo/Shoot (Shoot a Promo) Walkthrough",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-photoshoot-shoot-a-promo-walkthrough/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-pete": {
+    "title": "GTA 6 Pete's Deliveries (Southpoint Airfield, Avery Allen & Co.) Walkthrough",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-petes-deliveries-southpoint-airfield-avery-allen-co-walkthrough/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-contacts": {
+    "title": "GTA 6 All Contacts",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-contacts/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-bad-driver": {
+    "title": "GTA 6 Bad Driver! (Find Felipe) Walkthrough",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-bad-driver-find-felipe-walkthrough/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-making-gainz": {
+    "title": "GTA 6 Making Gainz Walkthrough",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-making-gainz-walkthrough/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-golf": {
+    "title": "GTA 6 All Golf Course Locations",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-golf-course-locations/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-smash-grab": {
+    "title": "GTA 6 All Smash 'n' Grabs Locations",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-smash-n-grabs-locations/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-jewelry-jobs": {
+    "title": "GTA 6 Yasmani's Jewelry Jobs Walkthrough",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-yasmanis-jewelry-jobs-walkthrough/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
+  },
+  "r16-pp-equipment": {
+    "title": "GTA 6 All Equipment",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-equipment/",
+    "type": "secondary",
+    "accessed": "2026-11-19"
   }
 }

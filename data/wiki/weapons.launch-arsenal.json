@@ -623,39 +623,6 @@
     "spoiler": true
   },
   {
-    "slug": "adb-pd-80",
-    "name": "ADB PD-80",
-    "summary": "A compact personal-defence submachine gun from Armurerie de Belgique (AdB) in 5.7x28mm.",
-    "body": [
-      "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.8, handling 6.6 and range 4.2, with a capacity of 30 rounds and full auto fire.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
-      "Name disagreement: IGN's table calls this Armurerie De Belgique submachine gun the AdB PD-90 (assault subtype, 5.7x28mm, 30 rounds, full auto)."
-    ],
-    "tags": [
-      "80",
-      "adb",
-      "pd",
-      "pdw",
-      "smg",
-      "submachine gun"
-    ],
-    "facts": {
-      "type": "smg",
-      "ammo": "5.7x28mm",
-      "manufacturer": "Armurerie de Belgique",
-      "magazine": "30",
-      "fire_mode": "Full auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "dayone-weapons",
-      "ign-weapons-guide"
-    ],
-    "verified": "2026-11-19",
-    "spoiler": true
-  },
-  {
     "slug": "mason-and-keen-longshot",
     "name": "Mason & Keen Longshot",
     "summary": "A British two-shot break-action hunting shotgun from Mason & Keen.",
@@ -2119,10 +2086,15 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-equipment"
+      "dayone-equipment",
+      "r16-pp-equipment"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "body": [
+      "The in-game Equipment entry says it lights up dark places but is no substitute for a weapon.",
+      "PowerPyx says it is available from the Chapter 1 mission Gone Fishing."
+    ]
   },
   {
     "slug": "duffel-bag",
@@ -2139,10 +2111,15 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-equipment"
+      "dayone-equipment",
+      "r16-pp-equipment"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "body": [
+      "The in-game Equipment entry says it carries valuables such as marked bills, jewelry and narcotics to a drop-off.",
+      "PowerPyx says it comes with the Chapter 1 mission Lab Fees (Collect Brian's Rent) and is equipped automatically when stolen goods are picked up."
+    ]
   },
   {
     "slug": "headphones",
@@ -2183,10 +2160,15 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-equipment"
+      "dayone-equipment",
+      "r16-pp-equipment"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-19",
+    "spoiler": true,
+    "body": [
+      "The in-game Equipment entry says it is for breaking into sealed crates and can get a bigger take on certain robberies.",
+      "PowerPyx says it is given automatically in the Chapter 3 mission Meet the Heders (Meet Brian & Lori)."
+    ]
   },
   {
     "slug": "masks",
@@ -2309,7 +2291,8 @@
       "PowerPyx says it is given automatically at the start of the Chapter 3 mission Clonin' Keys, Makin' GS and is installed on the phone rather than bought.",
       "PC Gamer says the key cloner arrives in Chapter 3 during the mission it calls 'Steal the Zorruso for Randy'; GameSpot says Randy hands it over around the halfway point of the story.",
       "PC Gamer says you stand by a keyless car's door, interact and pick Clone Key, using the control stick to find a sweet spot that speeds it up; GameSpot adds that no hot-wiring is needed afterwards.",
-      "Gamer Guides also names the mission Steal the Zorruso, given by Randy in Chapter 3, as the one that hands over the key cloner, and says it both opens and starts keyless cars."
+      "Gamer Guides also names the mission Steal the Zorruso, given by Randy in Chapter 3, as the one that hands over the key cloner, and says it both opens and starts keyless cars.",
+      "The in-game Equipment entry describes it as a sketchy phone app that gets past the security on keyless cars, for stealing the most advanced cars in Leonida."
     ],
     "tags": [
       "car theft",
@@ -2328,7 +2311,8 @@
       "ppx-trophy",
       "r8-pcg-clone-keys",
       "r8-gs-steal-cars-trackers",
-      "r8-gg-steal-cars"
+      "r8-gg-steal-cars",
+      "r16-pp-equipment"
     ],
     "verified": "2026-11-19",
     "spoiler": true

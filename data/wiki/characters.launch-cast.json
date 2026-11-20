@@ -74,7 +74,8 @@
     "summary": "Jason's neighbour in Key Lento who hands out two small Chapter 1 errands.",
     "body": [
       "PowerPyx describes Shirley as Jason's neighbour in Key Lento, Mariana County, who asks him to fetch rum from Three Sheets Liquor.",
-      "PowerPyx says her two errands exist only in Chapter 1, can be missed, and do not count toward the Strangers & Freaks trophy."
+      "PowerPyx says her two errands exist only in Chapter 1, can be missed, and do not count toward the Strangers & Freaks trophy.",
+      "GTA Wiki (edited November 19, 2026) gives her full name as Shirley Baker and says she is friends with Peggy, another of Jason's neighbours on Peach Palm Drive."
     ],
     "role": "Jason's neighbour, Key Lento",
     "group": "supporting",
@@ -93,9 +94,11 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-shirley",
-      "ppx-strangers"
+      "ppx-strangers",
+      "r11g-gw-shirley-baker",
+      "r11g-gw-peggy"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -481,7 +484,9 @@
     "body": [
       "PowerPyx says Kyle hands out flyers, one of them outside the Starlet Motel reception, and that his farm's airstrip lies just east of the motel.",
       "PowerPyx says his three missions count toward the Strangers & Freaks trophy and that he grows strawberries with his own chemical spray.",
-      "GTA Wiki's Kyle page instead describes a minor character who is a friend of Dobbs and Jeremy on a bachelor party at Island Dreams; the two pages disagree or describe two different people."
+      "GTA Wiki's Kyle page instead describes a minor character who is a friend of Dobbs and Jeremy on a bachelor party at Island Dreams; the two pages disagree or describe two different people.",
+      "Kotaku reports that fans call the mutated figure from Kyle's giant-strawberry side quest the 'Red Hulk', a nickname rather than an in-game name, after the questionable chemicals involved.",
+      "Rockstar's Rob Nelson told Kotaku that oddities like this are kept on feel: the team sometimes asks whether it is going too far, and ideas that prove fun or funny enough stay in."
     ],
     "role": "Farmer and crop-duster pilot",
     "group": "supporting",
@@ -501,9 +506,10 @@
     "sources": [
       "ppx-kyle-farm",
       "ppx-kyle-chem",
-      "gtawiki-kyle"
+      "gtawiki-kyle",
+      "r13-kotaku-red-hulk"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-cc9292508841.jpg"
   },
@@ -774,7 +780,9 @@
     "body": [
       "PowerPyx lists Yasmani as a fence in Little Cuba, Vice City, paying high prices for jewelry and marked bills and medium prices for narcotics, and available after the story.",
       "PowerPyx says he asks for specific pieces from jewelry stores, then offers ATM and payday loan jobs, and gives the player a Snap Gun.",
-      "PowerPyx says that after two payday loan robberies he sells armored van route tips for $10,000, and that goods can be dropped at the player's garage with him chosen as buyer."
+      "PowerPyx says that after two payday loan robberies he sells armored van route tips for $10,000, and that goods can be dropped at the player's garage with him chosen as buyer.",
+      "PowerPyx's contacts guide gives his full name as Yasmani Cabrera; the in-game Contacts entry it shows calls him a businessman who runs a smoke shop in Little Cuba and also handles stolen goods.",
+      "PowerPyx says Jason meets him automatically in the Chapter 3 mission Boobie Time (Talk to Boobie), when Boobie introduces them."
     ],
     "role": "Fence, Little Cuba",
     "group": "supporting",
@@ -796,9 +804,10 @@
     "sources": [
       "ppx-fences",
       "ppx-yasmani",
-      "ppx-100"
+      "ppx-100",
+      "r16-pp-contacts"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -989,7 +998,8 @@
     "name": "Felipe",
     "summary": "The driver in Raul Bautista's robbery crew.",
     "body": [
-      "PowerPyx says Felipe keeps a prepared vehicle outside the crew's planning room in Stockyard."
+      "PowerPyx says Felipe keeps a prepared vehicle outside the crew's planning room in Stockyard.",
+      "PowerPyx says Felipe is the subject of the optional, missable mission Bad Driver! (Find Felipe), which Andrea gives after Party Hard and which starts at a bar in Milport."
     ],
     "role": "Driver, Raul's crew",
     "group": "supporting",
@@ -1007,9 +1017,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-creditcheck"
+      "ppx-creditcheck",
+      "r16-pp-bad-driver"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -1157,7 +1168,8 @@
     "name": "Nate",
     "summary": "A contact Lucia calls and spends time with during the Chapter 4 airport job preparations.",
     "body": [
-      "PowerPyx's walkthrough lists Call Nate and Cash Injections (Hang Out With Nate) as Lucia-only missions and gives no description of him."
+      "PowerPyx's walkthrough lists Call Nate and Cash Injections (Hang Out With Nate) as Lucia-only missions and gives no description of him.",
+      "PowerPyx says Lucia first finds Nate in the workout area of Ajax Gym during Making Gainz."
     ],
     "role": "Chapter 4 contact",
     "group": "supporting",
@@ -1168,9 +1180,10 @@
     ],
     "confidence": "corroborated",
     "sources": [
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "r16-pp-making-gainz"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

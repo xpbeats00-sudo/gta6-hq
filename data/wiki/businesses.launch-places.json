@@ -3112,7 +3112,9 @@
     "name": "Richardson Jewelry & Diamonds",
     "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
     "body": [
-      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
+      "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores.",
+      "The in-game robbery card in PowerPyx's screenshot calls it a large, low-end jewelry store with a range of merchandise, with medium security and a take value of $4,500 to $12,000.",
+      "PowerPyx says it is one of the stores in Yasmani's Jewelry Jobs, has a back door the Snap Gun opens, and keeps its safe in the northeast corner of the central room."
     ],
     "tags": [
       "county",
@@ -3132,9 +3134,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-smash"
+      "ppx-smash",
+      "r16-pp-smash-grab",
+      "r16-pp-jewelry-jobs"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -6214,7 +6218,8 @@
     "name": "Dino Golf Challenge",
     "summary": "A playable mini golf course at Frogswater, Kelly County.",
     "body": [
-      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion."
+      "PowerPyx lists three mini golf courses and two full golf courses, and says only the mini golf courses count toward 100% completion.",
+      "The in-game map card in PowerPyx's screenshot describes Dino Golf as an abandoned 18-hole dinosaur-themed course where the holes can be played in any order."
     ],
     "tags": [
       "challenge",
@@ -6233,9 +6238,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-golf"
+      "ppx-golf",
+      "r16-pp-golf"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {

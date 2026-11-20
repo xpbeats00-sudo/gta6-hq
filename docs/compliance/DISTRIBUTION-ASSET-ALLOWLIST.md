@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-19 12:12 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-19 17:57 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,7 +8,7 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (2767)
+## Local personal use only (2835)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -322,6 +322,7 @@ None. No media file is cleared for public distribution.
 - `images/businesses/crosstown-cutz.jpg`
 - `images/businesses/crown-jewels.jpg`
 - `images/businesses/delights-cabaret.jpg`
+- `images/businesses/dino-golf-challenge.jpg`
 - `images/businesses/dirt-merchants.jpg`
 - `images/businesses/discount-liquors.jpg`
 - `images/businesses/dominion-ink.jpg`
@@ -394,6 +395,7 @@ None. No media file is cleared for public distribution.
 - `images/businesses/marshals.jpg`
 - `images/businesses/martez-empenos.jpg`
 - `images/businesses/mid.jpg`
+- `images/businesses/mitchell-auto-center.jpg`
 - `images/businesses/mount-hailes-golf-challenge.jpg`
 - `images/businesses/nine1nine-strip-club.jpg`
 - `images/businesses/nola.jpg`
@@ -417,6 +419,7 @@ None. No media file is cleared for public distribution.
 - `images/businesses/prestige-firearms.jpg`
 - `images/businesses/quick-buck.jpg`
 - `images/businesses/quickscope.jpg`
+- `images/businesses/richardson-jewelry-and-diamonds.jpg`
 - `images/businesses/rideout-customs-mod-shop.jpg`
 - `images/businesses/rococo-rich.jpg`
 - `images/businesses/rodgers-ranch-and-shooting-range.jpg`
@@ -477,7 +480,9 @@ None. No media file is cleared for public distribution.
 - `images/characters/donnie.jpg`
 - `images/characters/drequan-priest.jpg`
 - `images/characters/dunk.jpg`
+- `images/characters/felipe.jpg`
 - `images/characters/jason-duval.jpg`
+- `images/characters/joe-probation-officer.jpg`
 - `images/characters/joey.jpg`
 - `images/characters/kat.jpg`
 - `images/characters/kenton-rees.jpg`
@@ -490,6 +495,9 @@ None. No media file is cleared for public distribution.
 - `images/characters/mattia.jpg`
 - `images/characters/mendez.jpg`
 - `images/characters/mia-caminos.jpg`
+- `images/characters/ms-sharleen.jpg`
+- `images/characters/nate.jpg`
+- `images/characters/peggy.jpg`
 - `images/characters/petra-navarro.jpg`
 - `images/characters/phil.jpg`
 - `images/characters/raul-bautista.jpg`
@@ -504,6 +512,7 @@ None. No media file is cleared for public distribution.
 - `images/characters/vicki.jpg`
 - `images/characters/wyman.jpg`
 - `images/characters/yago.jpg`
+- `images/characters/yasmani.jpg`
 - `images/collectibles/1010-murals.jpg`
 - `images/collectibles/ahol-armchair-11-ocean-beach.jpg`
 - `images/collectibles/ahol-armchair-205-ocean-beach.jpg`
@@ -742,6 +751,7 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/card-joh-brianna-blue-deep-red.jpg`
 - `images/collectibles/card-joh-brianna-blue-pink.jpg`
 - `images/collectibles/card-joh-brianna-blue-purple.jpg`
+- `images/collectibles/card-joh-christel-deep-red.jpg`
 - `images/collectibles/card-joh-christel-pink.jpg`
 - `images/collectibles/card-joh-christel-purple.jpg`
 - `images/collectibles/card-joh-jada-watts-bronze.jpg`
@@ -1175,6 +1185,7 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/knife-flight-the-clarissa-hotel-north.jpg`
 - `images/collectibles/knife-flight-the-clarissa-hotel-south.jpg`
 - `images/collectibles/knife-flight-the-fitz-gerald-north.jpg`
+- `images/collectibles/knife-flight-the-fitz-gerald-south.jpg`
 - `images/collectibles/knife-flight-the-fitz-gerald.jpg`
 - `images/collectibles/knife-flight-the-wash-haus.jpg`
 - `images/collectibles/knife-flight-the-zaffre.jpg`
@@ -1356,10 +1367,12 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/styles.jpg`
 - `images/collectibles/under-the-bridge-ajax-gym-lawton-theater.jpg`
 - `images/collectibles/under-the-bridge-allied-crystal-pipeline.jpg`
+- `images/collectibles/under-the-bridge-ambrosia-east-railroad-north.jpg`
 - `images/collectibles/under-the-bridge-ambrosia-east-railroad-south.jpg`
 - `images/collectibles/under-the-bridge-atlantic-avenue.jpg`
 - `images/collectibles/under-the-bridge-atlantic-causeway.jpg`
 - `images/collectibles/under-the-bridge-atlee-river.jpg`
+- `images/collectibles/under-the-bridge-balsero-overpass-central.jpg`
 - `images/collectibles/under-the-bridge-balsero-overpass-east.jpg`
 - `images/collectibles/under-the-bridge-balsero-overpass-north.jpg`
 - `images/collectibles/under-the-bridge-balsero-overpass-west.jpg`
@@ -1430,6 +1443,7 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/under-the-bridge-kalaga-river-mouth.jpg`
 - `images/collectibles/under-the-bridge-kalaga-river-railroad.jpg`
 - `images/collectibles/under-the-bridge-kalaga-river-south.jpg`
+- `images/collectibles/under-the-bridge-kalaga-river.jpg`
 - `images/collectibles/under-the-bridge-kelly-river-north.jpg`
 - `images/collectibles/under-the-bridge-kelly-river-railroad-east.jpg`
 - `images/collectibles/under-the-bridge-kelly-river-railroad-west.jpg`
@@ -1488,6 +1502,7 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/under-the-bridge-raceway-paddock-bridge.jpg`
 - `images/collectibles/under-the-bridge-raceway-parking.jpg`
 - `images/collectibles/under-the-bridge-raceway-stands.jpg`
+- `images/collectibles/under-the-bridge-richard-barebone-overpass-east.jpg`
 - `images/collectibles/under-the-bridge-richard-barebone-overpass-west.jpg`
 - `images/collectibles/under-the-bridge-rivo-bridge.jpg`
 - `images/collectibles/under-the-bridge-ron-gas-balsero.jpg`
@@ -1512,6 +1527,7 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/under-the-bridge-south-kelly-county-overpass.jpg`
 - `images/collectibles/under-the-bridge-south-leonard-county-railroad-north.jpg`
 - `images/collectibles/under-the-bridge-south-leonard-county-railroad-south.jpg`
+- `images/collectibles/under-the-bridge-south-vice-dale-county-overpass.jpg`
 - `images/collectibles/under-the-bridge-southside-west.jpg`
 - `images/collectibles/under-the-bridge-starfish-island.jpg`
 - `images/collectibles/under-the-bridge-tallaloko-river.jpg`
@@ -1519,6 +1535,7 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/under-the-bridge-terrapin-road.jpg`
 - `images/collectibles/under-the-bridge-tidal-avenue.jpg`
 - `images/collectibles/under-the-bridge-tisha-wocka-flea-market-bridge.jpg`
+- `images/collectibles/under-the-bridge-tisha-wocka-flea-market-central.jpg`
 - `images/collectibles/under-the-bridge-tisha-wocka-flea-market-east.jpg`
 - `images/collectibles/under-the-bridge-tybee-channel-central.jpg`
 - `images/collectibles/under-the-bridge-tybee-channel-mouth-east.jpg`
@@ -1635,7 +1652,6 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/waink-tuckers-citrus-farms-water-tower.jpg`
 - `images/collectibles/waink-unidentified-animal-pen-uap.jpg`
 - `images/collectibles/waink-unidentified-building.jpg`
-- `images/collectibles/waink-unknown-kind.jpg`
 - `images/collectibles/waink-vibrant-pond.jpg`
 - `images/collectibles/waink-vice-city-sign.jpg`
 - `images/collectibles/waink-vice-museum-of-art-sculpture.jpg`
@@ -2014,8 +2030,10 @@ None. No media file is cleared for public distribution.
 - `images/missions/ocean-beach.jpg`
 - `images/missions/overnight-charges.jpg`
 - `images/missions/party-hard.jpg`
+- `images/missions/photo-shoot.jpg`
 - `images/missions/pick-up-a-gun.jpg`
 - `images/missions/pick-up-groceries.jpg`
+- `images/missions/pilot-pete-deliver-packages.jpg`
 - `images/missions/pilot-pete-petes-deliveries-southpoint-airfield.jpg`
 - `images/missions/pilot-pete-the-last-mile-backseat-pilot.jpg`
 - `images/missions/pilot-pete-the-last-mile-passing-the-torch.jpg`
@@ -2049,19 +2067,29 @@ None. No media file is cleared for public distribution.
 - `images/missions/yasmanis-jewelry-jobs.jpg`
 - `images/music/afrobank-fm.jpg`
 - `images/music/back-country-radio.jpg`
+- `images/music/circoloco-records-radio.jpg`
 - `images/music/cocoteo-fm.jpg`
 - `images/music/dirty-south-classics.jpg`
 - `images/music/flash-fm.jpg`
+- `images/music/gloriana-blues-radio.jpg`
 - `images/music/honey-fm.jpg`
+- `images/music/leonida-jazz-radio.jpg`
 - `images/music/original-score.jpg`
+- `images/music/radio-la-ola.jpg`
+- `images/music/radio-on-u.jpg`
 - `images/music/radio-stations.jpg`
 - `images/music/soundtrack-album.jpg`
+- `images/music/stockyard-fm.jpg`
+- `images/music/symphony-fm.jpg`
 - `images/music/the-album-track-list.jpg`
 - `images/music/the-chamber.jpg`
 - `images/music/the-sniper-of-la-perle.jpg`
 - `images/music/the-vault-radio.jpg`
 - `images/music/trailer-1-song.jpg`
 - `images/music/v-rock.jpg`
+- `images/music/vcrr.jpg`
+- `images/music/wktt.jpg`
+- `images/music/worldwide-fm.jpg`
 - `images/news/ampere-xbox-streaming-estimate.jpg`
 - `images/news/analysts-raise-forecasts.jpg`
 - `images/news/australia-launch-night.jpg`
@@ -2075,10 +2103,13 @@ None. No media file is cleared for public distribution.
 - `images/news/gta-plus-benefits-page.jpg`
 - `images/news/heat-vice-city-merch-sales.jpg`
 - `images/news/ign-20-million-preorder-estimate.jpg`
+- `images/news/industry-veterans-react-moore-douse.jpg`
 - `images/news/japan-version-changes.jpg`
 - `images/news/kfc-spain-disc-promo.jpg`
 - `images/news/lost-progress-autosave-warning.jpg`
 - `images/news/miami-heat-vice-city-night.jpg`
+- `images/news/new-zealand-trick-two-million.jpg`
+- `images/news/newzoo-launch-week-forecast-revisited.jpg`
 - `images/news/no-60fps-on-ps5-pro.jpg`
 - `images/news/no-street-sex-workers.jpg`
 - `images/news/official-credits-published.jpg`
@@ -2131,6 +2162,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/annis-hellion-95.jpg`
 - `images/vehicles/ascot-paragon.jpg`
 - `images/vehicles/benefactor-schafter.jpg`
+- `images/vehicles/benefactor-shafter-s.jpg`
 - `images/vehicles/benefactor-shafter-v12.jpg`
 - `images/vehicles/benefactor-spritz.jpg`
 - `images/vehicles/benefactor-xls.jpg`
@@ -2138,8 +2170,11 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/bf-greta.jpg`
 - `images/vehicles/bf-surfer.jpg`
 - `images/vehicles/bison-1800-police.jpg`
+- `images/vehicles/bombora-s23-ccs.jpg`
+- `images/vehicles/bottcher-buzzard-attack-chopper.jpg`
 - `images/vehicles/bravado-banshee.jpg`
 - `images/vehicles/bravado-bison-1800.png`
+- `images/vehicles/bravado-bison-3800.jpg`
 - `images/vehicles/bravado-bison-900-95-monster-truck.jpg`
 - `images/vehicles/bravado-bison-900-95.jpg`
 - `images/vehicles/bravado-bison.jpg`
@@ -2157,11 +2192,13 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/buckingham-jubilee.jpg`
 - `images/vehicles/buckingham-luxor.jpg`
 - `images/vehicles/buckingham-maverick.jpg`
+- `images/vehicles/buckingham-shamal.jpg`
 - `images/vehicles/buckingham-valkyrie.jpg`
 - `images/vehicles/buckingham-volatus.jpg`
 - `images/vehicles/buckingham-windsor-drop.jpg`
 - `images/vehicles/buster.jpg`
 - `images/vehicles/caddy.jpg`
+- `images/vehicles/calder-torlan.jpg`
 - `images/vehicles/calder-yakuruna.jpg`
 - `images/vehicles/canis-kamacho.jpg`
 - `images/vehicles/canis-mesa.jpg`
@@ -2200,6 +2237,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/endurex-race-bike.jpg`
 - `images/vehicles/fathom-fr36.jpg`
 - `images/vehicles/gallivanter-baller-st-d.jpg`
+- `images/vehicles/gallivanter-baller.jpg`
 - `images/vehicles/granforma-zorrusso.jpg`
 - `images/vehicles/granger-police.jpg`
 - `images/vehicles/granger-taxi.jpg`
@@ -2212,26 +2250,33 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/hvy-excavator.jpg`
 - `images/vehicles/imponte-phoenix.jpg`
 - `images/vehicles/imponte-ruiner-82.jpg`
+- `images/vehicles/interstate-ambulance.jpg`
 - `images/vehicles/interstate-benson-97.jpg`
+- `images/vehicles/interstate-yankee-80.jpg`
 - `images/vehicles/invetero-coquette-classic.jpg`
 - `images/vehicles/invetero-coquette-d10.jpg`
 - `images/vehicles/invetero-coquette.jpg`
 - `images/vehicles/jet-ski.jpg`
 - `images/vehicles/jobuilt-flatbed.jpg`
+- `images/vehicles/jobuilt-mb2-10.jpg`
 - `images/vehicles/jobuilt-phantom-custom.jpg`
+- `images/vehicles/jobuilt-rubble.jpg`
 - `images/vehicles/karin-allander.jpg`
 - `images/vehicles/karin-asterope-gz.png`
 - `images/vehicles/karin-contender.jpg`
 - `images/vehicles/karin-feroci-98.jpg`
 - `images/vehicles/karin-futo.jpg`
+- `images/vehicles/karin-intruder.jpg`
 - `images/vehicles/karin-rebel-84.jpg`
 - `images/vehicles/karin-vivanite.jpg`
 - `images/vehicles/kentons-huntress.jpg`
 - `images/vehicles/l35p-police-boat.jpg`
 - `images/vehicles/lapwing-mallard.jpg`
 - `images/vehicles/lapwing-nimbus.jpg`
+- `images/vehicles/lcc-avarus.jpg`
 - `images/vehicles/lifta.png`
 - `images/vehicles/lure-predator-l35p.jpg`
+- `images/vehicles/maibatsu-boomazoom.jpg`
 - `images/vehicles/maibatsu-iota.jpg`
 - `images/vehicles/maibatsu-manchez.jpg`
 - `images/vehicles/maibatsu-mule.jpg`
@@ -2245,7 +2290,9 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/mtl-packer.jpg`
 - `images/vehicles/mtl-pumper.jpg`
 - `images/vehicles/muscle-car.jpg`
+- `images/vehicles/nagasaki-carbon-rs.jpg`
 - `images/vehicles/nagasaki-nimbe.jpg`
+- `images/vehicles/nagasaki-rudolph-tao.jpg`
 - `images/vehicles/obey-8f-drafter.jpg`
 - `images/vehicles/obey-animus.jpg`
 - `images/vehicles/obey-tailgater-s.jpg`
@@ -2254,13 +2301,14 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/ped-scorcher.jpg`
 - `images/vehicles/pegassi-bati-801.jpg`
 - `images/vehicles/pegassi-faggio.jpg`
-- `images/vehicles/pegassi-infernus.jpg`
+- `images/vehicles/pegassi-infernus-96.jpg`
 - `images/vehicles/pegassi-police-tempesta.jpg`
 - `images/vehicles/pegassi-tempesta.jpg`
 - `images/vehicles/pegassi-toros.jpg`
 - `images/vehicles/pegassi-vitello.jpg`
 - `images/vehicles/pfister-astron.jpg`
 - `images/vehicles/pfister-comet-88.jpg`
+- `images/vehicles/pfister-comet-s2.jpg`
 - `images/vehicles/pfister-growler.jpg`
 - `images/vehicles/pfister-neon.jpg`
 - `images/vehicles/piccia-furia.jpg`
@@ -2276,9 +2324,14 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/reynolds-kit-car.jpg`
 - `images/vehicles/schyster-pmp-700.jpg`
 - `images/vehicles/schyster-woodland-85.jpg`
+- `images/vehicles/seashark-azure.jpg`
+- `images/vehicles/seashark-hydroblast.jpg`
 - `images/vehicles/shasa.jpg`
+- `images/vehicles/shift-e-fan-e.jpg`
 - `images/vehicles/shifter.jpg`
 - `images/vehicles/shitzu-squalo.jpg`
+- `images/vehicles/sirius-61-sungrazer-standout.jpg`
+- `images/vehicles/sirius-sungrazer-61.jpg`
 - `images/vehicles/sirius.jpg`
 - `images/vehicles/speedboat.jpg`
 - `images/vehicles/sports-car.jpg`
@@ -2297,17 +2350,19 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/vapid-aleutian.jpg`
 - `images/vehicles/vapid-caracara-4x4.jpg`
 - `images/vehicles/vapid-cultivator-sandking.jpg`
-- `images/vehicles/vapid-dominator-67.jpg`
+- `images/vehicles/vapid-dominator-asp.jpg`
 - `images/vehicles/vapid-dominator-buggy.jpg`
 - `images/vehicles/vapid-dominator-gt.jpg`
 - `images/vehicles/vapid-dominator.jpg`
 - `images/vehicles/vapid-firebug-dominator.jpg`
 - `images/vehicles/vapid-ganado.jpg`
+- `images/vehicles/vapid-guardian-tx2.jpg`
 - `images/vehicles/vapid-hustler.jpg`
 - `images/vehicles/vapid-lowline.jpg`
 - `images/vehicles/vapid-montagne-pickup.jpg`
 - `images/vehicles/vapid-montagne-xl.jpg`
 - `images/vehicles/vapid-montagne.jpg`
+- `images/vehicles/vapid-reclaimer-70.jpg`
 - `images/vehicles/vapid-reclaimer.jpg`
 - `images/vehicles/vapid-riata.jpg`
 - `images/vehicles/vapid-rumpo.jpg`
@@ -2347,6 +2402,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/brians-1992.jpg`
 - `images/weapons/brontasaurus-bat.jpg`
 - `images/weapons/bruiser-super400.jpg`
+- `images/weapons/bushcraft-knife.jpg`
 - `images/weapons/bzi-vatra.jpg`
 - `images/weapons/caminos-signature-k17.jpg`
 - `images/weapons/cargo-handl-38.jpg`
@@ -2355,6 +2411,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/clunker-556.jpg`
 - `images/weapons/cockroach-xtreme-556.jpg`
 - `images/weapons/cold-war-556.jpg`
+- `images/weapons/combat-knife.jpg`
 - `images/weapons/conspiracist-type-9.jpg`
 - `images/weapons/convict-kalinga-50.jpg`
 - `images/weapons/copperheads-w-14.jpg`
@@ -2369,6 +2426,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/deever-tech-dsg.jpg`
 - `images/weapons/deever-tech-glr40.jpg`
 - `images/weapons/dirty-drifter.jpg`
+- `images/weapons/diving-knife.jpg`
 - `images/weapons/donnies-handl-38.jpg`
 - `images/weapons/double-cross-vatra.jpg`
 - `images/weapons/drug-mule-kz-59.jpg`
@@ -2378,6 +2436,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/dumpster-k17-mcd.jpg`
 - `images/weapons/duval-signature-es9.jpg`
 - `images/weapons/dwnplys-k17.jpg`
+- `images/weapons/edc-knife.jpg`
 - `images/weapons/explorers-knife.jpg`
 - `images/weapons/fairview-ff-50.jpg`
 - `images/weapons/fairview-ff-sr.jpg`
@@ -2395,9 +2454,12 @@ None. No media file is cleared for public distribution.
 - `images/weapons/franciscos-lmg-6.jpg`
 - `images/weapons/furry-dw-9.jpg`
 - `images/weapons/gils-kalinga-50.jpg`
+- `images/weapons/girardi-az1200.jpg`
 - `images/weapons/girardi-es18.jpg`
 - `images/weapons/girardi-es9.jpg`
 - `images/weapons/girardi-super400.jpg`
+- `images/weapons/girardi-verro.jpg`
+- `images/weapons/goodwin-comshot-12.jpg`
 - `images/weapons/grx-556.jpg`
 - `images/weapons/guardia-brothers-vf5.jpg`
 - `images/weapons/gun-nut-sms-01.jpg`
@@ -2410,6 +2472,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/hellspawn-comshot-12.jpg`
 - `images/weapons/hillinger-boomer.jpg`
 - `images/weapons/hillinger-heathen.jpg`
+- `images/weapons/hillinger-m306-tmr.jpg`
 - `images/weapons/hillinger-m306.jpg`
 - `images/weapons/honky-tonk-mustang-357.jpg`
 - `images/weapons/hostile-super400.jpg`
@@ -2443,6 +2506,8 @@ None. No media file is cleared for public distribution.
 - `images/weapons/marabunta-grande-type-9.jpg`
 - `images/weapons/marthas-1992.jpg`
 - `images/weapons/masks.jpg`
+- `images/weapons/mason-and-keen-longshot.jpg`
+- `images/weapons/mason-and-keen-shortstraw.jpg`
 - `images/weapons/mercenary-lmg-6.jpg`
 - `images/weapons/metal-detector.jpg`
 - `images/weapons/midlife-crisis-vf5.jpg`
@@ -2456,6 +2521,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/nitepower-az1200.jpg`
 - `images/weapons/parachute.jpg`
 - `images/weapons/petes-kz-59.jpg`
+- `images/weapons/pry-bar.jpg`
 - `images/weapons/ptt-youngins-k17.jpg`
 - `images/weapons/quarter-mile-es9.jpg`
 - `images/weapons/rauls-1992.jpg`
@@ -2470,6 +2536,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/san4san-k17.jpg`
 - `images/weapons/san4san-kz-59.jpg`
 - `images/weapons/sand-storm-es9.jpg`
+- `images/weapons/schlamm-drx.jpg`
 - `images/weapons/schlamm-dw-9.jpg`
 - `images/weapons/scorpio-akulus.jpg`
 - `images/weapons/scorpio-nipper-38.jpg`
@@ -2487,6 +2554,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/star-spangled-556.jpg`
 - `images/weapons/sticky-bombs.jpg`
 - `images/weapons/stoner-k17-mcd.jpg`
+- `images/weapons/survival-knife.jpg`
 - `images/weapons/swamp-bait-akulus.jpg`
 - `images/weapons/tallaloko-knife.jpg`
 - `images/weapons/the-guardian-es18.jpg`
@@ -2504,6 +2572,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/watcher-pro-moreland-850.jpg`
 - `images/weapons/woodhatch-longshot.jpg`
 - `images/weapons/wortham-w-10.jpg`
+- `images/weapons/wortham-w-14.jpg`
 - `images/weapons/wortham-w-22.jpg`
 - `images/weapons/wortham-wcr1.jpg`
 - `images/weapons/zhang-wu-type-9.jpg`
@@ -2708,14 +2777,12 @@ None. No media file is cleared for public distribution.
 - `images/web/screenrant-1f20628797d2.jpg`
 - `images/web/tech-dfa5e774e621.jpg`
 - `images/web/thesixthaxis-t-003c021656d9.jpg`
-- `images/wildlife/alligator.jpg`
 - `images/wildlife/american-alligator.jpg`
 - `images/wildlife/australian-shepherd.jpg`
 - `images/wildlife/bigfoot.jpg`
 - `images/wildlife/carolina-dog.jpg`
 - `images/wildlife/chihuahua.jpg`
 - `images/wildlife/cormorant.jpg`
-- `images/wildlife/cougar.jpg`
 - `images/wildlife/deer.jpg`
 - `images/wildlife/dog.jpg`
 - `images/wildlife/dolores-the-snake.jpg`
@@ -2726,6 +2793,7 @@ None. No media file is cleared for public distribution.
 - `images/wildlife/eel.jpg`
 - `images/wildlife/flamingo.jpg`
 - `images/wildlife/florida-panther.jpg`
+- `images/wildlife/gary-the-alligator.jpg`
 - `images/wildlife/german-shepherd.jpg`
 - `images/wildlife/green-iguana.jpg`
 - `images/wildlife/hammerhead-shark.jpg`

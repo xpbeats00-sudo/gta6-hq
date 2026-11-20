@@ -733,28 +733,6 @@
     "spoiler": true
   },
   {
-    "slug": "waink-unknown-kind",
-    "name": "The fifth kind of WAiNK scan",
-    "summary": "PowerPyx says WAiNK scans come in five sets, and one of them was still shown as unknown on November 18, 2026.",
-    "body": [
-      "PowerPyx's lists show a question mark in place of the fifth set, with no name and no count."
-    ],
-    "tags": [
-      "unknown",
-      "waink"
-    ],
-    "facts": {
-      "type": "WAiNK scan group"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "powerpyx-waink",
-      "powerpyx-progress"
-    ],
-    "verified": "2026-11-18",
-    "spoiler": true
-  },
-  {
     "slug": "waink-lawton-co-paper-mill",
     "name": "Lawton Co. Paper Mill",
     "summary": "A WAiNK landmark scan in Lummox County > Moreau, according to PowerPyx.",
@@ -2441,7 +2419,8 @@
     "summary": "DayOne lists a challenge for exploring any 25 unusual sights on the ocean floor. The 100% checklist asks for all 33.",
     "body": [
       "PowerPyx describes the 33 Underwater Discoveries as sunken shipwrecks that belong to Kenton's work; DayOne's challenge text calls them unusual sights on the ocean floor.",
-      "No guide read had named or placed any of the 33 by November 18, 2026."
+      "No guide read had named or placed any of the 33 by November 18, 2026.",
+      "PowerPyx counts 33, and the 100% checklist asks for all of them."
     ],
     "tags": [
       "challenge",

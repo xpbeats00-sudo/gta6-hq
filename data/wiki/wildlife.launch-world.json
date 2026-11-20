@@ -336,7 +336,8 @@
     "name": "Pelican",
     "summary": "A large water bird shown in trailers and artwork before launch.",
     "body": [
-      "Red Bull and Gfinity Esports both listed pelicans, with Gfinity noting they were visible in earlier trailers and artwork."
+      "Red Bull and Gfinity Esports both listed pelicans, with Gfinity noting they were visible in earlier trailers and artwork.",
+      "The Tampa Bay Times' reporters say they saw both brown pelicans and American white pelicans in the released game, and that the pelicans flick their bills."
     ],
     "tags": [
       "bird",
@@ -349,9 +350,10 @@
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "r13-tbt-birding"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "spoonbill",
@@ -380,7 +382,8 @@
     "name": "Crane",
     "summary": "A tall wetland bird among those shown or named before launch.",
     "body": [
-      "Red Bull and Gfinity Esports both listed cranes among the game's birds."
+      "Red Bull and Gfinity Esports both listed cranes among the game's birds.",
+      "The Tampa Bay Times' environment reporters, birding in the released game with Florida field guides, identified the cranes they saw as whooping cranes."
     ],
     "tags": [
       "bird",
@@ -393,9 +396,10 @@
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "r13-tbt-birding"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "image": "/images/web/gfinityesports-t-e85a4945d886.jpg"
   },
   {
@@ -425,7 +429,8 @@
     "name": "Seagull",
     "summary": "Seagulls are among the birds shown or named before launch.",
     "body": [
-      "Red Bull and Gfinity Esports both listed seagulls among the game's birds."
+      "Red Bull and Gfinity Esports both listed seagulls among the game's birds.",
+      "The Tampa Bay Times' reporters identified herring gulls and laughing gulls among the birds they found in the released game."
     ],
     "tags": [
       "bird",
@@ -439,9 +444,10 @@
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "r13-tbt-birding"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-19"
   },
   {
     "slug": "woodpecker",

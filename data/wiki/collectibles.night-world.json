@@ -9691,7 +9691,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-peewee-billboards"
+      "ign-peewee-billboards",
+      "powerpyx-waink",
+      "powerpyx-progress"
     ],
     "verified": "2026-11-18",
     "spoiler": true

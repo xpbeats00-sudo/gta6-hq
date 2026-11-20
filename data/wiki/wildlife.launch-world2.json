@@ -216,7 +216,8 @@
     "summary": "A big cat listed as Cougar/Florida Panther, seen stalking deer at Mount Kalaga and named as a hunting target.",
     "body": [
       "Destructoid lists it as Cougar/Florida Panther among land animals.",
-      "Mashable points to a Rockstar screenshot of a cougar stalking deer at Mount Kalaga and says some hunting challenges send players after a panther."
+      "Mashable points to a Rockstar screenshot of a cougar stalking deer at Mount Kalaga and says some hunting challenges send players after a panther.",
+      "An official Mount Kalaga image shows a cougar stalking deer at a stream. A wildcat also appears in a Grassrivers image."
     ],
     "tags": [
       "animal",
@@ -232,7 +233,9 @@
     "confidence": "corroborated",
     "sources": [
       "destructoid-wildlife",
-      "mashable-animals"
+      "mashable-animals",
+      "g6w-kalaga",
+      "g6w-grassrivers"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -243,7 +246,8 @@
     "summary": "Leonida's alligator, which Mashable notes can eat the player.",
     "body": [
       "Destructoid lists the American Alligator, placing it under sea animals.",
-      "Mashable names alligators among Florida-specific wildlife and says they can eat you."
+      "Mashable names alligators among Florida-specific wildlife and says they can eat you.",
+      "The most famous attraction in Grassrivers, by Rockstar's own description."
     ],
     "tags": [
       "animal",
@@ -257,7 +261,8 @@
     "confidence": "corroborated",
     "sources": [
       "destructoid-wildlife",
-      "mashable-animals"
+      "mashable-animals",
+      "g6w-grassrivers"
     ],
     "verified": "2026-11-18"
   },
@@ -312,7 +317,8 @@
     "name": "Heron",
     "summary": "A bird species that two launch-day wildlife guides name in Leonida.",
     "body": [
-      "Destructoid lists herons among birds and Mashable names herons among the birds along the water."
+      "Destructoid lists herons among birds and Mashable names herons among the birds along the water.",
+      "The Tampa Bay Times' reporters list a great blue heron among the species they found in two hours of play."
     ],
     "tags": [
       "animal",
@@ -325,9 +331,10 @@
     "confidence": "corroborated",
     "sources": [
       "destructoid-wildlife",
-      "mashable-animals"
+      "mashable-animals",
+      "r13-tbt-birding"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
@@ -448,7 +455,8 @@
     "name": "Stork",
     "summary": "A bird that Mashable says has turned up along Leonida's waters.",
     "body": [
-      "Mashable lists storks among the birds seen; Destructoid's shorter bird list does not include them."
+      "Mashable lists storks among the birds seen; Destructoid's shorter bird list does not include them.",
+      "The Tampa Bay Times' reporters identified the storks they found in the released game as wood storks."
     ],
     "tags": [
       "animal",
@@ -459,9 +467,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "mashable-animals"
+      "mashable-animals",
+      "r13-tbt-birding"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-19",
     "spoiler": true
   },
   {
