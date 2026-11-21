@@ -2,6 +2,14 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.34 (21 November 2026)
+
+Cleaner pictures: 120 watermarked pictures swapped for clean ones, and 23 new ones (2,719 of 3,087 entries now have a picture).
+
+- Clean replacements for WAiNK landmarks, mod shops, shipwrecks, weapon renders, mission scenes and more, from Game8, GTABase, PC Gamer, VGC, GamesRadar+ and GTA BOOM.
+- New pictures for Chapter 3 to 5 missions, Karim, weather and public transport.
+- Fixes: wrong pictures removed from the American black bear and parrotfish; Gold Doubloon 2 and 4 directions were swapped.
+
 ## 0.2.33 (20 November 2026)
 
 40 more sourced pictures: 2,698 of 3,087 entries now have one.

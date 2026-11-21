@@ -1,17 +1,17 @@
 # Media rights audit
 
-Generated 2026-11-19 23:59 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-20 22:21 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 2923 |
-| Records in `data/media.json` | 2888 |
+| Media files on disk (`images/`, `wallpapers/`) | 2944 |
+| Records in `data/media.json` | 2909 |
 | Files with no record | 35 |
 | Records with no file | 0 |
 | Groups of identical files | 0 |
-| Files not used anywhere | 2341 |
+| Files not used anywhere | 2364 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 15 |
 
@@ -22,7 +22,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Decision | Files | Meaning |
 |---|---|---|
 | approved_for_distribution | 0 | Cleared to ship in a public package |
-| local_personal_use_only | 2873 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
+| local_personal_use_only | 2894 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
 | unknown | 50 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
@@ -33,7 +33,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Kind | Records |
 |---|---|
 | evidence_frame | 23 |
-| official_illustration | 2813 |
+| official_illustration | 2834 |
 | owner_supplied_unverified | 52 |
 
 `evidence_frame`: a frame of Rockstar's official video, used as evidence in the manual or as an entry picture. `official_illustration`: an official Rockstar screenshot or artwork. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded.
@@ -499,6 +499,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/characters/felipe.jpg`
 - `images/characters/joe-probation-officer.jpg`
 - `images/characters/joey.jpg`
+- `images/characters/karim.jpg`
 - `images/characters/kat.jpg`
 - `images/characters/kenton-rees.jpg`
 - `images/characters/kirk.jpg`
@@ -1740,8 +1741,10 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/gameplay/road-rules-tolls-and-signals.jpg`
 - `images/gameplay/sam-houser-cameo.jpg`
 - `images/gameplay/street-interactions.jpg`
+- `images/gameplay/trains-buses-and-the-ferry.jpg`
 - `images/gameplay/ufo-abduction-easter-egg.jpg`
 - `images/gameplay/vehicle-damage-repairs-and-car-washes.jpg`
+- `images/gameplay/weather.jpg`
 - `images/gameplay/where-to-find-aircraft.jpg`
 - `images/locations/ambrosia-police-department.jpg`
 - `images/locations/apollo-aggregates.jpg`
@@ -1833,7 +1836,9 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/locations/west-vice-dale-county.jpg`
 - `images/locations/y-vice-city-hotel.jpg`
 - `images/manual/footage/circuit-race-1742.jpg`
+- `images/missions/adventures-in-babysitting.jpg`
 - `images/missions/afternoon-delight.jpg`
+- `images/missions/amateur-hour.jpg`
 - `images/missions/ambulance-chaser.jpg`
 - `images/missions/andy-pay-the-cellerica-fee.jpg`
 - `images/missions/andy-peach.jpg`
@@ -1855,10 +1860,13 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/missions/buy-lucia-a-necklace.jpg`
 - `images/missions/cal-catch-a-bigger-fish.jpg`
 - `images/missions/cal-ring-the-bell.jpg`
+- `images/missions/cash-injections.jpg`
+- `images/missions/childs-play.jpg`
 - `images/missions/clean-up-after-donnie.jpg`
 - `images/missions/clear-skies.jpg`
 - `images/missions/clock-out.jpg`
 - `images/missions/clonin-keys-makin-gs.jpg`
+- `images/missions/close-surveillance.jpg`
 - `images/missions/coffee-break.jpg`
 - `images/missions/collect-moses-gift.jpg`
 - `images/missions/coming-home.jpg`
@@ -1867,6 +1875,8 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/missions/crosstown-traffic.jpg`
 - `images/missions/day-release.jpg`
 - `images/missions/dealers-choice.jpg`
+- `images/missions/delivery-method.jpg`
+- `images/missions/dirty-work.jpg`
 - `images/missions/discharge-time.jpg`
 - `images/missions/don-gone.jpg`
 - `images/missions/donnies-lost-drugs.jpg`
@@ -1874,6 +1884,8 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/missions/eddie-acosta-attend-eddie-acostas-party.jpg`
 - `images/missions/feng-shui.jpg`
 - `images/missions/find-the-lost-drugs.jpg`
+- `images/missions/fresh-evidence.jpg`
+- `images/missions/fully-catered.jpg`
 - `images/missions/get-lucias-clothes.jpg`
 - `images/missions/get-the-chop.jpg`
 - `images/missions/girls-trip.jpg`
@@ -1909,23 +1921,30 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/missions/pilot-pete-the-last-mile-backseat-pilot.jpg`
 - `images/missions/pipework.jpg`
 - `images/missions/pool-day.jpg`
+- `images/missions/power-play.jpg`
 - `images/missions/prologue.jpg`
 - `images/missions/recalibration.jpg`
 - `images/missions/ride-or-die.jpg`
 - `images/missions/safe-word.jpg`
 - `images/missions/security-expert.jpg`
+- `images/missions/send-money-to-lorena.jpg`
 - `images/missions/shirley-steal-the-scooter.jpg`
 - `images/missions/sinfrontera-national-bank.jpg`
 - `images/missions/slam-dunk.jpg`
 - `images/missions/south-leonida-real-estate.jpg`
 - `images/missions/swamped.jpg`
 - `images/missions/take-care-of-jason.jpg`
+- `images/missions/team-building.jpg`
 - `images/missions/thats-where-the-money-is.jpg`
 - `images/missions/the-missing-link.jpg`
+- `images/missions/this-is-a-free-call-from.jpg`
+- `images/missions/too-much-baggage.jpg`
 - `images/missions/top-billing.jpg`
 - `images/missions/tourist-trap.jpg`
 - `images/missions/tyrone-spin-on-this.jpg`
 - `images/missions/unwanted-attention.jpg`
+- `images/missions/vcia-takedown.jpg`
+- `images/missions/watch-it.jpg`
 - `images/missions/whats-in-the-bag.jpg`
 - `images/missions/yago-brother-to-brother.jpg`
 - `images/missions/yago-bumper-to-bumper.jpg`
@@ -1986,6 +2005,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/bravado-buffalo-07.jpg`
 - `images/vehicles/bravado-buffalo-19.jpg`
 - `images/vehicles/bravado-dorado.png`
+- `images/vehicles/bravado-elven-queen-youga.jpg`
 - `images/vehicles/bravado-gauntlet-hellfire.jpg`
 - `images/vehicles/bravado-gresley-xt.jpg`
 - `images/vehicles/bravado-sojourn.jpg`
@@ -1993,6 +2013,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/bravado-youga-74.jpg`
 - `images/vehicles/bravado-youga-xl-79.jpg`
 - `images/vehicles/brute-boxville.jpg`
+- `images/vehicles/brute-cherry-popper-boxville.jpg`
 - `images/vehicles/brute-stockade.jpg`
 - `images/vehicles/buckingham-jubilee.jpg`
 - `images/vehicles/buckingham-luxor.jpg`
@@ -2046,6 +2067,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/fathom-fr36.jpg`
 - `images/vehicles/gallivanter-baller-st-d.jpg`
 - `images/vehicles/gallivanter-baller.jpg`
+- `images/vehicles/granforma-tsunami-zorrusso.jpg`
 - `images/vehicles/granforma-zorrusso.jpg`
 - `images/vehicles/granger-police.jpg`
 - `images/vehicles/granger-taxi.jpg`
@@ -2126,6 +2148,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/principe-alvino-v1.jpg`
 - `images/vehicles/principe-lectro.jpg`
 - `images/vehicles/progen-emerus.jpg`
+- `images/vehicles/progen-purple-drank-emerus.jpg`
 - `images/vehicles/reynolds-kit-car.jpg`
 - `images/vehicles/schyster-pmp-700.jpg`
 - `images/vehicles/schyster-woodland-85.jpg`

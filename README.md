@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.34**: 120 watermarked pictures replaced with clean ones, 23 new pictures (2,719 entries with one).
 - **0.2.33**: 40 more sourced pictures (2,698 entries with one); the Nagasaki Dinghy folded into the Dingus Como.
 - **0.2.32**: the Field Manual rewritten for the released game: 14 chapters, 86 pages, 211 pictures, chapter title pages and tabs.
 - **0.2.31**: 3,086 entries; 33 fish and new birds, weapon and vehicle pictures, nine duplicates merged, launch-evening news.

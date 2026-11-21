@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-19 23:59 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-20 22:21 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,7 +8,7 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (2873)
+## Local personal use only (2894)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -487,6 +487,7 @@ None. No media file is cleared for public distribution.
 - `images/characters/jason-duval.jpg`
 - `images/characters/joe-probation-officer.jpg`
 - `images/characters/joey.jpg`
+- `images/characters/karim.jpg`
 - `images/characters/kat.jpg`
 - `images/characters/kenton-rees.jpg`
 - `images/characters/kirk.jpg`
@@ -1799,12 +1800,14 @@ None. No media file is cleared for public distribution.
 - `images/gameplay/street-interactions.jpg`
 - `images/gameplay/strength-cardio-and-focus-levels.jpg`
 - `images/gameplay/switching-in-the-released-game.jpg`
+- `images/gameplay/trains-buses-and-the-ferry.jpg`
 - `images/gameplay/ufo-abduction-easter-egg.jpg`
 - `images/gameplay/vehicle-damage-repairs-and-car-washes.jpg`
 - `images/gameplay/vehicle-fencing.jpg`
 - `images/gameplay/wanted-star-colours.jpg`
 - `images/gameplay/wanted-stars-at-launch.jpg`
 - `images/gameplay/wasted-and-busted-losses.jpg`
+- `images/gameplay/weather.jpg`
 - `images/gameplay/where-to-find-aircraft.jpg`
 - `images/gameplay/workout-windows-and-gyms.jpg`
 - `images/gameplay/zombix-adrenaline-and-healing.jpg`
@@ -1946,7 +1949,9 @@ None. No media file is cleared for public distribution.
 - `images/manual/robbery-with-bystanders.jpg`
 - `images/manual/vice-city-police-on-the-road.jpg`
 - `images/manual/vice-city-skyline-night.jpg`
+- `images/missions/adventures-in-babysitting.jpg`
 - `images/missions/afternoon-delight.jpg`
+- `images/missions/amateur-hour.jpg`
 - `images/missions/ambulance-chaser.jpg`
 - `images/missions/andy-climbing-the-cellerichain.jpg`
 - `images/missions/andy-pay-the-cellerica-fee.jpg`
@@ -1972,6 +1977,7 @@ None. No media file is cleared for public distribution.
 - `images/missions/cal-catch-a-bigger-fish.jpg`
 - `images/missions/cal-ring-the-bell.jpg`
 - `images/missions/car-service.jpg`
+- `images/missions/cash-injections.jpg`
 - `images/missions/caught-slipping.jpg`
 - `images/missions/chapter-1.jpg`
 - `images/missions/chapter-2.jpg`
@@ -1979,10 +1985,12 @@ None. No media file is cleared for public distribution.
 - `images/missions/chapter-4.jpg`
 - `images/missions/chapter-5.jpg`
 - `images/missions/checking-out.jpg`
+- `images/missions/childs-play.jpg`
 - `images/missions/clean-up-after-donnie.jpg`
 - `images/missions/clear-skies.jpg`
 - `images/missions/clock-out.jpg`
 - `images/missions/clonin-keys-makin-gs.jpg`
+- `images/missions/close-surveillance.jpg`
 - `images/missions/coffee-break.jpg`
 - `images/missions/collect-moses-gift.jpg`
 - `images/missions/coming-home.jpg`
@@ -1994,7 +2002,9 @@ None. No media file is cleared for public distribution.
 - `images/missions/daily-driver.jpg`
 - `images/missions/day-release.jpg`
 - `images/missions/dealers-choice.jpg`
+- `images/missions/delivery-method.jpg`
 - `images/missions/deposit-cash-into-buckme.jpg`
+- `images/missions/dirty-work.jpg`
 - `images/missions/discharge-time.jpg`
 - `images/missions/don-gone.jpg`
 - `images/missions/donnies-lost-drugs.jpg`
@@ -2004,6 +2014,8 @@ None. No media file is cleared for public distribution.
 - `images/missions/feng-shui.jpg`
 - `images/missions/find-the-lost-drugs.jpg`
 - `images/missions/first-impressions.jpg`
+- `images/missions/fresh-evidence.jpg`
+- `images/missions/fully-catered.jpg`
 - `images/missions/gear-up.jpg`
 - `images/missions/get-lucias-clothes.jpg`
 - `images/missions/get-the-chop.jpg`
@@ -2047,11 +2059,13 @@ None. No media file is cleared for public distribution.
 - `images/missions/pilot-pete-the-last-mile-passing-the-torch.jpg`
 - `images/missions/pipework.jpg`
 - `images/missions/pool-day.jpg`
+- `images/missions/power-play.jpg`
 - `images/missions/prologue.jpg`
 - `images/missions/recalibration.jpg`
 - `images/missions/ride-or-die.jpg`
 - `images/missions/safe-word.jpg`
 - `images/missions/security-expert.jpg`
+- `images/missions/send-money-to-lorena.jpg`
 - `images/missions/shirley-get-shirleys-rum.jpg`
 - `images/missions/shirley-steal-the-scooter.jpg`
 - `images/missions/sinfrontera-national-bank.jpg`
@@ -2059,13 +2073,18 @@ None. No media file is cleared for public distribution.
 - `images/missions/south-leonida-real-estate.jpg`
 - `images/missions/swamped.jpg`
 - `images/missions/take-care-of-jason.jpg`
+- `images/missions/team-building.jpg`
 - `images/missions/thats-where-the-money-is.jpg`
 - `images/missions/the-cartel-heist.jpg`
 - `images/missions/the-missing-link.jpg`
+- `images/missions/this-is-a-free-call-from.jpg`
+- `images/missions/too-much-baggage.jpg`
 - `images/missions/top-billing.jpg`
 - `images/missions/tourist-trap.jpg`
 - `images/missions/tyrone-spin-on-this.jpg`
 - `images/missions/unwanted-attention.jpg`
+- `images/missions/vcia-takedown.jpg`
+- `images/missions/watch-it.jpg`
 - `images/missions/welcome-to-vice-city.jpg`
 - `images/missions/whats-in-the-bag.jpg`
 - `images/missions/yago-brother-to-brother.jpg`
@@ -2192,6 +2211,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/bravado-buffalo-07.jpg`
 - `images/vehicles/bravado-buffalo-19.jpg`
 - `images/vehicles/bravado-dorado.png`
+- `images/vehicles/bravado-elven-queen-youga.jpg`
 - `images/vehicles/bravado-gauntlet-hellfire.jpg`
 - `images/vehicles/bravado-gresley-xt.jpg`
 - `images/vehicles/bravado-sojourn.jpg`
@@ -2199,6 +2219,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/bravado-youga-74.jpg`
 - `images/vehicles/bravado-youga-xl-79.jpg`
 - `images/vehicles/brute-boxville.jpg`
+- `images/vehicles/brute-cherry-popper-boxville.jpg`
 - `images/vehicles/brute-stockade.jpg`
 - `images/vehicles/buckingham-jubilee.jpg`
 - `images/vehicles/buckingham-luxor.jpg`
@@ -2257,6 +2278,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/fathom-fr36.jpg`
 - `images/vehicles/gallivanter-baller-st-d.jpg`
 - `images/vehicles/gallivanter-baller.jpg`
+- `images/vehicles/granforma-tsunami-zorrusso.jpg`
 - `images/vehicles/granforma-zorrusso.jpg`
 - `images/vehicles/granger-police.jpg`
 - `images/vehicles/granger-taxi.jpg`
@@ -2344,6 +2366,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/principe-alvino-v1.jpg`
 - `images/vehicles/principe-lectro.jpg`
 - `images/vehicles/progen-emerus.jpg`
+- `images/vehicles/progen-purple-drank-emerus.jpg`
 - `images/vehicles/reynolds-kit-car.jpg`
 - `images/vehicles/schyster-pmp-700.jpg`
 - `images/vehicles/schyster-woodland-85.jpg`
@@ -2807,8 +2830,6 @@ None. No media file is cleared for public distribution.
 - `images/web/powerpyx-t-fedbef79d6c7.jpg`
 - `images/web/purexbox-ee1487d17417.jpg`
 - `images/web/pushsquare-0069076766a8.jpg`
-- `images/web/pushsquare-14c309dbd9ae.jpg`
-- `images/web/pushsquare-3ca39da587f5.jpg`
 - `images/web/pushsquare-t-f82097a0f94a.jpg`
 - `images/web/screenrant-1f20628797d2.jpg`
 - `images/web/tech-dfa5e774e621.jpg`

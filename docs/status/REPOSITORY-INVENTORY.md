@@ -1,13 +1,13 @@
 # Repository inventory
 
-Generated 2026-11-19 23:59 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-20 22:21 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 12 | 0.2 MB |
 | `ui/` | 8 | 0.4 MB |
-| `data/` | 94 | 5.7 MB |
-| `images/` | 2853 | 252.4 MB |
+| `data/` | 94 | 5.8 MB |
+| `images/` | 2874 | 251.5 MB |
 | `wallpapers/` | 70 | 98.1 MB |
 | `docs/` | 253 | 104.1 MB |
 | `scripts/` | 24 | 0.2 MB |
@@ -15,7 +15,7 @@ Generated 2026-11-19 23:59 by `scripts/current_state.py`. Do not edit by hand.
 | `backups/` | 73 | 113.0 MB |
 | `staging/` | 9 | 78.3 MB |
 | `zips/` | 1 | 0.0 MB |
-| `target/release/` | 3878 | 1501.6 MB |
+| `target/release/` | 3935 | 1523.4 MB |
 
 ## Source files
 
@@ -41,7 +41,7 @@ Generated 2026-11-19 23:59 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/index.html` | 138 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 16662 |
-| `data/media.json` | 2893 |
+| `data/media.json` | 2914 |
 | `data/update.json` | 4 |
 | `data/wiki.json` | 761 |
 | `data/wiki/achievements.json` | 1338 |
@@ -124,7 +124,7 @@ Generated 2026-11-19 23:59 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/weapons.launch-more.json` | 359 |
 | `data/wiki/weapons.night-r8gb.json` | 40 |
 | `data/wiki/wildlife.community.json` | 42 |
-| `data/wiki/wildlife.launch-more.json` | 562 |
+| `data/wiki/wildlife.launch-more.json` | 560 |
 | `data/wiki/wildlife.launch-world.json` | 658 |
 | `data/wiki/wildlife.launch-world2.json` | 597 |
 | `data/wiki/wildlife.night-r11.json` | 888 |
