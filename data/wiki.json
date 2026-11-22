@@ -171,25 +171,25 @@
       "slug": "lucia-caminos", "name": "Lucia Caminos", "role": "Protagonist", "group": "main",
       "summary": "Just released from Leonida Penitentiary and determined that every move from here on is a smart one.",
       "body": [
-        "Lucia learned to fight from her father and has been fighting for her family ever since. That loyalty is what put her inside Leonida Penitentiary, and luck is what got her out.",
-        "She wants the good life her mother has dreamed about since their days in Liberty City, and she is done leaving it to chance. Teaming up with Jason looks like her way out."
+        "Lucia learned to fight from her father, and life has been coming at her swinging ever since. Fighting for her family is what put her inside Leonida Penitentiary, and luck is what got her out.",
+        "She wants the good life her mother has dreamed about since their days in Liberty City, and she is done leaving it to chance. A life with Jason could be her way out."
       ],
       "ties": ["Partner of Jason Duval"],
       "related": ["characters/jason-duval", "locations/vice-city"],
       "tags": ["protagonist", "playable", "leonida penitentiary", "liberty city"],
-      "confidence": "corroborated", "sources": ["g6w-lucia", "rockstar-vi"], "verified": "2026-11-11"
+      "confidence": "official", "sources": ["g6w-lucia", "rockstar-vi", "rockstar-leonida"], "verified": "2026-11-22"
     },
     {
       "slug": "jason-duval", "name": "Jason Duval", "role": "Protagonist", "group": "main",
-      "summary": "A former soldier raised among grifters who has slipped back into running drugs in the Leonida Keys.",
+      "summary": "A former soldier raised among grifters and crooks, now working for drug runners in the Leonida Keys.",
       "body": [
-        "Jason grew up around small-time crooks. A spell in the Army was meant to straighten out a rough adolescence; instead he ended up in the Keys doing what he knows best, working for local drug runners.",
+        "Jason grew up around grifters and crooks. A spell in the Army was meant to straighten out a rough adolescence; instead he ended up in the Keys doing what he knows best, working for local drug runners.",
         "He wants an easy life, but things keep getting harder. Meeting Lucia might be the best thing that ever happened to him, or the worst."
       ],
       "ties": ["Partner of Lucia Caminos", "Friend of Cal Hampton", "Lives rent-free on Brian Heder's property"],
       "related": ["characters/lucia-caminos", "characters/cal-hampton", "characters/brian-heder", "locations/leonida-keys"],
       "tags": ["protagonist", "playable", "army", "leonida keys", "smuggling"],
-      "confidence": "corroborated", "sources": ["g6w-jason", "rockstar-vi"], "verified": "2026-11-11"
+      "confidence": "official", "sources": ["g6w-jason", "rockstar-vi", "rockstar-leonida"], "verified": "2026-11-22"
     },
     {
       "slug": "cal-hampton", "name": "Cal Hampton", "role": "Friend of Jason", "group": "supporting",
@@ -201,7 +201,7 @@
       "ties": ["Friend of Jason Duval", "Associate of Brian Heder"],
       "related": ["characters/jason-duval", "characters/brian-heder"],
       "tags": ["coast guard", "conspiracy", "paranoia"],
-      "confidence": "corroborated", "sources": ["g6w-cal"], "verified": "2026-11-11"
+      "confidence": "official", "sources": ["g6w-cal", "rockstar-leonida"], "verified": "2026-11-22"
     },
     {
       "slug": "boobie-ike", "name": "Boobie Ike", "role": "Vice City mogul", "group": "supporting",
@@ -214,7 +214,7 @@
       "ties": ["Runs Only Raw Records with Dre'Quan Priest", "Backs the label Real Dimez are signed to"],
       "related": ["characters/drequan-priest", "characters/real-dimez", "businesses/only-raw-records", "locations/vice-city"],
       "tags": ["vice city", "only raw records", "music", "strip club", "real estate"],
-      "confidence": "corroborated", "sources": ["g6w-boobie", "rockstar-leonida"], "verified": "2026-11-12"
+      "confidence": "official", "sources": ["g6w-boobie", "rockstar-leonida"], "verified": "2026-11-22"
     },
     {
       "slug": "drequan-priest", "name": "Dre'Quan Priest", "aliases": ["Drequan", "Dre Quan"], "role": "Label head, Only Raw Records", "group": "supporting",
@@ -226,7 +226,7 @@
       "ties": ["Runs Only Raw Records with Boobie Ike", "Signed Real Dimez"],
       "related": ["characters/boobie-ike", "characters/real-dimez", "businesses/only-raw-records"],
       "tags": ["vice city", "only raw records", "music"],
-      "confidence": "corroborated", "sources": ["g6w-characters", "g6w-real-dimez"], "verified": "2026-11-11"
+      "confidence": "official", "sources": ["g6w-characters", "g6w-real-dimez", "rockstar-leonida"], "verified": "2026-11-22"
     },
     {
       "slug": "real-dimez", "name": "Real Dimez", "aliases": ["Bae-Luxe", "Roxy"], "role": "Rap duo: Bae-Luxe and Roxy", "group": "supporting",
@@ -238,11 +238,11 @@
       "ties": ["Signed to Only Raw Records by Dre'Quan Priest"],
       "related": ["characters/drequan-priest", "characters/boobie-ike", "businesses/only-raw-records"],
       "tags": ["only raw records", "music", "social media", "dwnply"],
-      "confidence": "corroborated", "sources": ["g6w-real-dimez"], "verified": "2026-11-11"
+      "confidence": "official", "sources": ["g6w-real-dimez", "rockstar-leonida"], "verified": "2026-11-22"
     },
     {
       "slug": "raul-bautista", "name": "Raul Bautista", "role": "Bank robber", "group": "supporting",
-      "summary": "A veteran bank robber with charm and patience, always looking for talent willing to take the big risks.",
+      "summary": "A veteran bank robber with confidence, charm and cunning, always looking for talent willing to take the big risks.",
       "body": [
         "Raul has the confidence, charm and cunning of someone who has been robbing banks for a long time, and he is always recruiting.",
         "His recklessness raises the stakes with every score. Sooner or later his crew will have to double down or walk away."
@@ -250,7 +250,7 @@
       "ties": ["Leads an unnamed robbery crew"],
       "related": ["factions/raul-bautistas-crew"],
       "tags": ["heist", "bank robbery", "crew"],
-      "confidence": "corroborated", "sources": ["g6w-raul"], "verified": "2026-11-11"
+      "confidence": "official", "sources": ["g6w-raul", "rockstar-leonida"], "verified": "2026-11-22"
     },
     {
       "slug": "brian-heder", "name": "Brian Heder", "role": "Keys smuggler", "group": "supporting",
@@ -262,7 +262,7 @@
       "ties": ["Landlord and employer of Jason Duval", "Works with Cal Hampton"],
       "related": ["characters/jason-duval", "characters/cal-hampton", "locations/leonida-keys", "businesses/brians-boat-yard"],
       "tags": ["leonida keys", "smuggling", "boat yard", "lori"],
-      "confidence": "corroborated", "sources": ["g6w-brian"], "verified": "2026-11-11"
+      "confidence": "official", "sources": ["g6w-brian", "rockstar-leonida"], "verified": "2026-11-22"
     }
   ],
 

@@ -1184,9 +1184,9 @@ function renderEntry(key, slug) {
   const lead = illustrated(key, entry);
   const page = `
     <article class="profile ${lead ? 'profile-wide' : 'profile-text'}">
-      ${lead ? `<div class="profile-portrait">${picture(entry, artKind(key, entry))}</div>` : ''}
+      ${lead ? `<a class="back back-top" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">${icon('back')}${esc(cat.label)}</a><div class="profile-portrait">${picture(entry, artKind(key, entry))}</div>` : ''}
       <div class="profile-body">
-        <a class="back" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">${icon('back')}${esc(cat.label)}</a>
+        <a class="back${lead ? ' back-side' : ''}" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">${icon('back')}${esc(cat.label)}</a>
         ${key === 'achievements' && entry.image && !STORE ? `<img class="trophy-icon" src="${esc(entry.image)}" alt="" width="96" height="96">` : ''}
         <span class="kicker">${esc(kickerOf(entry) || cat.label)}</span>
         <h1>${esc(entry.name)}</h1>
@@ -1248,9 +1248,9 @@ function renderCharacter(slug) {
   const others = characters.filter((x) => x.slug !== slug).slice(0, 4);
   const page = `
     <article class="profile${c.image ? '' : ' profile-text'}">
-      ${c.image ? `<div class="profile-portrait">${picture(c, 'portrait')}</div>` : ''}
+      ${c.image ? `<a class="back back-top" href="#/characters">${icon('back')}Characters</a><div class="profile-portrait">${picture(c, 'portrait')}</div>` : ''}
       <div class="profile-body">
-        <a class="back" href="#/characters">${icon('back')}Characters</a>
+        <a class="back${c.image ? ' back-side' : ''}" href="#/characters">${icon('back')}Characters</a>
         <span class="kicker">${esc(c.role)}</span>
         <h1>${esc(c.name)}</h1>
         ${spoilerNote(c)}
@@ -1518,6 +1518,48 @@ function mapPins() {
   return [...markers, ...fromEntries];
 }
 
+/** Robbery runs: each kind of target on the map, which pins it covers, and its Robbery Planner page. */
+const ROBBERY_TYPES = [
+  { key: 'small-banks', label: 'Small banks', page: 3, test: (p) => p.kind === 'Bank Jobs' },
+  { key: 'big-banks', label: 'Big banks (vaults)', page: 4, test: (p) => p.kind === 'Big Bank Jobs' },
+  { key: 'pawn-shops', label: 'Pawn shops', page: 5, test: (p) => p.kind === 'Smash and Grabs' && /pawn/i.test(p.keyName || p.name) },
+  { key: 'jewelry-stores', label: 'Jewelry stores', page: 6, test: (p) => p.kind === 'Smash and Grabs' && !/pawn/i.test(p.keyName || p.name) },
+  { key: 'payday-loans', label: 'Payday loan stores', page: 7, test: (p) => p.kind === 'Payday Loan Stores' },
+  { key: 'atms', label: 'ATMs', page: 8, test: (p) => p.kind === 'ATMs' },
+  { key: 'gang-operations', label: 'Gang operations', page: 10, test: (p) => p.kind === 'Gang Operations' },
+];
+window.ROBBERY_TYPES = ROBBERY_TYPES;
+
+/**
+ * A short order to visit every spot once, starting from `start` ({x, y}): nearest first, then
+ * improved by reversing any stretch that makes the line shorter (2-opt). Straight lines on the map,
+ * in map proportions; pin positions are approximate, so this is a sensible order, not a road route.
+ */
+function shortRun(spots, start, width, height) {
+  const d = (a, b) => Math.hypot((a.x - b.x) * width, (a.y - b.y) * height);
+  const left = spots.slice();
+  const order = [];
+  let at = start;
+  while (left.length) {
+    let best = 0;
+    for (let k = 1; k < left.length; k++) if (d(at, left[k]) < d(at, left[best])) best = k;
+    at = left.splice(best, 1)[0];
+    order.push(at);
+  }
+  const path = [start, ...order];
+  for (let improved = true, rounds = 0; improved && rounds < 50; rounds++) {
+    improved = false;
+    for (let i = 1; i < path.length - 1; i++) {
+      for (let j = i + 1; j < path.length; j++) {
+        const before = d(path[i - 1], path[i]) + (j + 1 < path.length ? d(path[j], path[j + 1]) : 0);
+        const after = d(path[i - 1], path[j]) + (j + 1 < path.length ? d(path[i], path[j + 1]) : 0);
+        if (after + 1e-9 < before) { path.splice(i, j - i + 1, ...path.slice(i, j + 1).reverse()); improved = true; }
+      }
+    }
+  }
+  return path.slice(1);
+}
+
 /** A stable name for a pin, for favourites and collections: its entry, or its name and place. */
 const pinKey = (pin) => (pin.ref ? `e:${pin.ref}` : `p:${pin.keyName || pin.name}@${pin.x.toFixed(3)},${pin.y.toFixed(3)}`);
 
@@ -1643,6 +1685,13 @@ function renderMap(params) {
     : config.image
       ? 'Click a pin for its card, or a name to fly there. The map is Rockstar\'s own; most pin positions come from Gamersky\'s map and are placed approximately.'
       : 'Click a pin for its card, or a name to fly there. The map is drawn by the GTA VI mapping community; most pin positions come from Gamersky\'s map and are placed approximately.'}</p>
+        ${explore ? '' : `<details class="heist-plan">
+          <summary>${icon('route')}Plan a robbery run</summary>
+          <label class="heist-field"><span>Target</span><select data-plan-type>${ROBBERY_TYPES.map((t) => `<option value="${t.key}">${esc(t.label)}</option>`).join('')}</select></label>
+          <div class="heist-acts"><button type="button" class="btn btn-primary btn-small" data-plan-go>Plan the run</button>
+            <a class="link-btn" data-plan-guide href="#/manual/robbery-planner/2">Step-by-step guide</a></div>
+          <p class="muted heist-note">Puts every target of that kind in a short order, starting from the open pin or the middle of the view. Straight lines between approximate pins, not roads: check the guide for each stop.</p>
+        </details>`}
         <div class="map-route" hidden></div>
         <div class="field-search">${icon('search')}
           <input type="search" class="map-filter" placeholder="Search the map" aria-label="Filter pins" autocomplete="off">
@@ -1685,6 +1734,7 @@ function renderMap(params) {
           <label class="opt"><input type="checkbox" data-overlay="names"><span>District and town names</span></label>
           <label class="opt"><input type="checkbox" data-overlay="links"><span>Lines to related places</span></label>
           <label class="opt"><input type="checkbox" data-overlay="certainty"><span>How each position was found</span></label>
+          ${config.image && config.tileFit ? '<label class="opt"><input type="checkbox" data-detail><span>Sharp detail when zoomed in (community map)</span></label>' : ''}
           <p class="muted">Density counts only the pins shown, after filters.</p>
         </div>
         <div class="map-legend" hidden></div>
@@ -1703,9 +1753,69 @@ function renderMap(params) {
       </div>
     </div>`;
 
-  const map = L.map('leonida-map', { crs: L.CRS.Simple, zoomSnap: 0.25, minZoom: 0, maxZoom: config.maxZoom + 1, maxBoundsViscosity: 0.7 });
+  // With the detail layer, two steps past the official map's full size (it stays sharp there).
+  const map = L.map('leonida-map', { crs: L.CRS.Simple, zoomSnap: 0.25, minZoom: 0, maxZoom: config.maxZoom + (config.image && config.tileFit ? 2 : 1), maxBoundsViscosity: 0.7 });
   state.map = map;
   map.attributionControl.setPrefix(false);
+  /** A layer of 256-pixel tiles, each drawn from the community tiles that cover the same ground. */
+  function detailLayer(tf) {
+    const M = config.maxZoom;
+    const cache = new Map();
+    const tileImage = (z, y, x) => {
+      const key = `${z}/${y}/${x}`;
+      if (!cache.has(key)) {
+        cache.set(key, new Promise((resolve) => {
+          const img = new Image();
+          img.onload = () => resolve(img);
+          img.onerror = () => resolve(null);
+          img.src = `/tiles/${key}.webp`;
+        }));
+      }
+      return cache.get(key);
+    };
+    const Detail = L.GridLayer.extend({
+      createTile(coords, done) {
+        const size = this.getTileSize();
+        const canvas = document.createElement('canvas');
+        canvas.width = size.x; canvas.height = size.y;
+        const ctx = canvas.getContext('2d');
+        const per = 2 ** (M - coords.z); // official-map pixels per screen pixel at this zoom
+        // The community zoom whose pixels are at least as fine as the screen's (the set goes to 5).
+        const zc = Math.min(5, tf.zoom + Math.max(0, Math.ceil(Math.log2(1 / (tf.scale * per)))));
+        const up = 2 ** (zc - tf.zoom);
+        const x0 = (tf.x + tf.scale * coords.x * size.x * per) * up;
+        const y0 = (tf.y + tf.scale * coords.y * size.y * per) * up;
+        const span = tf.scale * size.x * per * up;
+        const k = size.x / span;
+        const jobs = [];
+        for (let ty = Math.floor(y0 / 512); ty * 512 < y0 + span; ty++) {
+          for (let tx = Math.floor(x0 / 512); tx * 512 < x0 + span; tx++) {
+            if (tx < 0 || ty < 0 || tx * 512 >= tf.tilesWidth * up || ty * 512 >= tf.tilesHeight * up) continue; // open sea
+            jobs.push(tileImage(zc, ty, tx).then((img) => {
+              // Whole pixels and a 1-pixel overlap, so no seam shows where tiles meet.
+              if (img) ctx.drawImage(img, Math.floor((tx * 512 - x0) * k), Math.floor((ty * 512 - y0) * k), Math.ceil(512 * k) + 1, Math.ceil(512 * k) + 1);
+            }));
+          }
+        }
+        Promise.all(jobs).then(() => done(null, canvas));
+        return canvas;
+      },
+    });
+    const layer = new Detail({ tileSize: 256, minZoom: M + 0.5, bounds, className: 'map-detail', pane: 'mapDetail' });
+    // Its credit is shown only while the detail is on screen (zoomed in past the official map).
+    const credit = 'Zoomed-in detail: GTA VI mapping community via gtadb.org (CC BY 4.0)';
+    let credited = false;
+    const syncCredit = () => {
+      const want = map.hasLayer(layer) && map.getZoom() >= M + 0.5;
+      if (want === credited || !map.attributionControl) return;
+      if (want) map.attributionControl.addAttribution(credit); else map.attributionControl.removeAttribution(credit);
+      credited = want;
+    };
+    map.on('zoomend', syncCredit);
+    layer.on('add remove', () => setTimeout(syncCredit));
+    return layer;
+  }
+
   // Positions (x, y from 0 to 1) are on the official map. Without its picture the map shows the
   // community tiles, which draw the island at another scale and place: map.tileFit says how the two
   // line up, so every pin, route and click is moved onto the tiles, and back.
@@ -1719,9 +1829,20 @@ function renderMap(params) {
 
   const notice = document.getElementById('map-notice');
   const say = (text) => { notice.textContent = text; notice.hidden = false; clearTimeout(say.t); say.t = setTimeout(() => { notice.hidden = true; }, 3200); };
+  let detail = null;
   if (config.image) {
     // One picture: Rockstar's official map, shipped with the app, so it works offline.
-    L.imageOverlay(config.image, bounds, { attribution: esc(config.attribution) }).addTo(map);
+    // Their own layers, so the detail sits over the official map and both stay under lines and pins.
+    map.createPane('mapBase').style.zIndex = 250;
+    map.createPane('mapDetail').style.zIndex = 260;
+    L.imageOverlay(config.image, bounds, { attribution: esc(config.attribution), pane: 'mapBase' }).addTo(map);
+    // Past the official map's own full size it would only be enlarged (and blur), so from there the
+    // sharper community tiles are drawn over it, lined up through map.tileFit. Where a tile can't be
+    // loaded (offline) the official map shows through. Switch: "Sharp detail when zoomed in".
+    if (config.tileFit) {
+      detail = detailLayer(config.tileFit);
+      if (prefs.get('map-detail') !== '0') detail.addTo(map);
+    }
   } else {
     // Only where the tile set has tiles: beyond its edge is open sea, and asking for tiles there
     // would only fail (and wrongly say the connection is down).
@@ -1755,6 +1876,7 @@ function renderMap(params) {
 
   // ---------- pins, cards and their actions ----------
   let selected = -1;
+  let runOnly = null; // pin indexes of a planned robbery run (the lists and map show only those), or null
   const layers = {};
   const cardFor = (i) => {
     const node = document.createElement('div');
@@ -2198,9 +2320,36 @@ function renderMap(params) {
     if (b.dataset.stopUp !== undefined) [stops[k - 1], stops[k]] = [stops[k], stops[k - 1]];
     else if (b.dataset.stopDown !== undefined) [stops[k + 1], stops[k]] = [stops[k], stops[k + 1]];
     else if (b.dataset.stopDel !== undefined) stops.splice(k, 1);
-    else if (b.dataset.stopClear !== undefined) stops = [];
+    else if (b.dataset.stopClear !== undefined) { stops = []; if (runOnly) { runOnly = null; drawLists(); applyFilterToMap(); } }
     else return;
     drawRoute();
+  });
+  // Robbery runs: every target of one kind, in a short order, as the route above.
+  const plan = view.querySelector('.heist-plan');
+  function planRun(key) {
+    const type = ROBBERY_TYPES.find((t) => t.key === key) || ROBBERY_TYPES[0];
+    const targets = pins.filter(type.test);
+    if (!targets.length) { say('No pins of that kind are on the map.'); return; }
+    const start = selected >= 0 ? pins[selected] : (() => { const [x, y] = toXY(map.getCenter()); return { x, y }; })();
+    const run = shortRun(targets, start, state.wiki.map.width, state.wiki.map.height);
+    stops = run.map((p) => ({ name: p.name, x: p.x, y: p.y, ref: p.ref || '' }));
+    drawRoute();
+    runOnly = new Set(targets.map((p) => pins.indexOf(p)));
+    filter.value = '';
+    drawLists();
+    applyFilterToMap();
+    if (plan) {
+      plan.querySelector('[data-plan-type]').value = type.key;
+      plan.querySelector('[data-plan-guide]').href = `#/manual/robbery-planner/${type.page}`;
+    }
+    map.flyToBounds(L.latLngBounds(stops.map((st) => point(st.x, st.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 });
+    say(`${type.label}: ${stops.length} stops in a short order. Reorder or save it below.`);
+  }
+  plan?.addEventListener('click', (e) => { if (e.target.closest('[data-plan-go]')) planRun(plan.querySelector('[data-plan-type]').value); });
+  plan?.addEventListener('change', (e) => {
+    if (!e.target.matches('[data-plan-type]')) return;
+    const type = ROBBERY_TYPES.find((t) => t.key === e.target.value);
+    if (type) plan.querySelector('[data-plan-guide]').href = `#/manual/robbery-planner/${type.page}`;
   });
   routeBox.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -2311,7 +2460,14 @@ function renderMap(params) {
     drawLegend();
     layersPanel.querySelectorAll('[data-overlay]').forEach((c) => { c.checked = overlays.has(c.dataset.overlay); });
   }
+  const detailBox = layersPanel.querySelector('[data-detail]');
+  if (detailBox) detailBox.checked = prefs.get('map-detail') !== '0';
   layersPanel.addEventListener('change', (e) => {
+    if (e.target.dataset.detail !== undefined && detail) {
+      prefs.set('map-detail', e.target.checked ? '1' : '0');
+      if (e.target.checked) detail.addTo(map); else map.removeLayer(detail);
+      return;
+    }
     const key = e.target.dataset.overlay;
     if (!key) return;
     if (e.target.checked) overlays.add(key); else overlays.delete(key);
@@ -2399,22 +2555,25 @@ function renderMap(params) {
   function drawLists() {
     const words = filter.value.toLowerCase().split(/\s+/).filter(Boolean);
     let matches = pins.map((_, i) => i).filter((i) => words.every((w) => names[i].includes(w)));
+    // A planned robbery run narrows the lists and the map to its own stops (typing clears it).
+    if (runOnly && !words.length) matches = matches.filter((i) => runOnly.has(i));
+    const narrowed = Boolean(words.length || nearOnly || (runOnly && !words.length));
     if (nearOnly) {
       const [cx, cy] = nearCentre();
       const close = new Set(nearbyPins(pins, cx, cy, pins.length).map((n) => n.i));
       if (selected >= 0) close.add(selected);
       matches = matches.filter((i) => close.has(i));
     }
-    filtered = words.length || nearOnly ? new Set(matches) : null;
+    filtered = narrowed ? new Set(matches) : null;
     side.querySelector('[data-clear]').hidden = !words.length;
-    lastCount = { matches, narrowed: Boolean(words.length || nearOnly) };
+    lastCount = { matches, narrowed };
     drawCount();
     lists.innerHTML = categories.map((c) => {
       const all = pins.filter((pin) => pin.category === c.key).length;
       const mine = matches.filter((i) => pins[i].category === c.key);
       // While filtering, show every match; otherwise a page, then "Show all".
-      const listed = words.length || nearOnly || expanded.has(c.key) ? mine : mine.slice(0, MAP_LIST_PAGE);
-      if ((words.length || nearOnly) && !mine.length) return '';
+      const listed = narrowed || expanded.has(c.key) ? mine : mine.slice(0, MAP_LIST_PAGE);
+      if (narrowed && !mine.length) return '';
       return `<section data-category="${esc(c.key)}">
         <label class="map-toggle"><input type="checkbox" ${off.has(c.key) ? '' : 'checked'} data-toggle="${esc(c.key)}">
           <span>${esc(c.label)}</span>
@@ -2429,6 +2588,7 @@ function renderMap(params) {
 
   let filterTimer;
   filter.addEventListener('input', () => {
+    runOnly = null; // typing a search replaces a planned run's narrowing
     clearTimeout(filterTimer);
     filterTimer = setTimeout(drawLists, 120);
   });
@@ -2489,6 +2649,7 @@ function renderMap(params) {
     setTimeout(() => state.map === map && map.flyToBounds(L.latLngBounds(ofKind.map((pin) => point(pin.x, pin.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 }), 300);
   }
   if (params.get('q')) { filter.value = params.get('q'); drawLists(); }
+  if (params.get('plan') && plan) { plan.open = true; setTimeout(() => { if (state.map === map) planRun(params.get('plan')); }, 350); }
   // `?route=`, `?view=` and `?street=` reopen something saved.
   const savedRoute = UserStore.get('routes', []).find((r) => r.id === params.get('route'));
   if (savedRoute) {
@@ -2595,7 +2756,22 @@ function renderSearch(params) {
         ? page.hits.map(row).join('')
         : `<p class="muted">Nothing found for “${esc(q)}”${section ? ` in ${esc(sectionLabel(section))}` : ''}.
           Try a character, a place or “price”${section ? ', or search everything' : ''}.</p>`;
+      if (!section) showGuides(q);
     }
+  };
+
+  /** Field Manual pages that answer the search ("how to rob a bank"), shown above the entries. */
+  const showGuides = async (q) => {
+    if (!window.Manual?.findPages) return;
+    let found = [];
+    try { found = await window.Manual.findPages(q, state.wiki); } catch { return; }
+    if (input.value !== q || !results.isConnected || section || !found.length) return;
+    body.querySelector('.search-guides')?.remove();
+    tools.hidden = false;
+    body.insertAdjacentHTML('afterbegin', `<section class="search-guides" aria-label="Field Manual pages">
+      <h2>In the Field Manual</h2>
+      <ul>${found.map((g) => `<li><a href="${esc(g.href)}"><b>${esc(g.title)}</b><span>${esc(g.chapter)} · page ${g.number}</span></a></li>`).join('')}</ul>
+    </section>`);
   };
 
   input.addEventListener('input', () => {

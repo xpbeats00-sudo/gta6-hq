@@ -47,7 +47,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-book-swaps"
+      "ign-book-swaps",
+      "rs-powerpyx-book-swaps"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -73,7 +74,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-book-swaps"
+      "ign-book-swaps",
+      "rs-powerpyx-book-swaps"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -99,7 +101,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-book-swaps"
+      "ign-book-swaps",
+      "rs-powerpyx-book-swaps"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -125,7 +128,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-book-swaps"
+      "ign-book-swaps",
+      "rs-powerpyx-book-swaps"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -151,7 +155,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-book-swaps"
+      "ign-book-swaps",
+      "rs-powerpyx-book-swaps"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -177,7 +182,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-book-swaps"
+      "ign-book-swaps",
+      "rs-powerpyx-book-swaps"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -583,7 +589,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -611,7 +619,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -640,7 +650,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -696,7 +708,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -724,7 +738,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -752,7 +768,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -780,7 +798,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -808,7 +828,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -836,7 +858,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -892,7 +916,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -948,7 +974,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1005,7 +1033,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1033,7 +1063,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1062,7 +1094,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1090,7 +1124,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1118,7 +1154,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1146,7 +1184,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1174,7 +1214,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1202,7 +1244,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1286,7 +1330,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1314,7 +1360,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1847,7 +1895,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2438,7 +2488,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2494,7 +2546,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2831,7 +2885,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3139,7 +3195,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3475,7 +3533,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3531,7 +3591,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3615,7 +3677,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-ahol-street-art"
+      "ign-ahol-street-art",
+      "rs-gtabase-ahol-street-art-map",
+      "rs-powerpyx-collectible-progress-database"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3726,7 +3790,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3752,7 +3817,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3778,7 +3844,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3804,7 +3871,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3830,7 +3898,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3856,7 +3925,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3882,7 +3952,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3908,7 +3979,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3934,7 +4006,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3960,7 +4033,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3986,7 +4060,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4012,7 +4087,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4038,7 +4114,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4064,7 +4141,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4090,7 +4168,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4116,7 +4195,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4142,7 +4222,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4168,7 +4249,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4194,7 +4276,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4220,7 +4303,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4246,7 +4330,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4272,7 +4357,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4298,7 +4384,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4324,7 +4411,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-anth"
+      "ign-cards-anth",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4350,7 +4438,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4376,7 +4465,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4402,7 +4492,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4428,7 +4519,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4453,7 +4545,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4479,7 +4572,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4505,7 +4599,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4531,7 +4626,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4557,7 +4653,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4583,7 +4680,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4609,7 +4707,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4635,7 +4734,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-bam"
+      "ign-cards-bam",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4661,7 +4761,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4687,7 +4788,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4713,7 +4815,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4739,7 +4842,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4765,7 +4869,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4791,7 +4896,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4817,7 +4923,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4842,7 +4949,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4868,7 +4976,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4894,7 +5003,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4920,7 +5030,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4945,7 +5056,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4971,7 +5083,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -4997,7 +5110,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5023,7 +5137,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5049,7 +5164,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5075,7 +5191,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5100,7 +5217,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-delights"
+      "ign-cards-delights",
+      "rs-fextralife-gta6-delights-dancers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5126,7 +5244,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5134,7 +5253,7 @@
   {
     "slug": "card-ed-capsule-orange",
     "name": "Capsule (Orange) card",
-    "summary": "A Orange Capsule card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Capsule card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Capsule card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in eastern Belville.",
@@ -5152,7 +5271,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5178,7 +5298,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5203,7 +5324,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5211,7 +5333,7 @@
   {
     "slug": "card-ed-diagnosis-orange",
     "name": "Diagnosis (Orange) card",
-    "summary": "A Orange Diagnosis card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Diagnosis card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Diagnosis card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in Grassrivers Visitor Center.",
@@ -5229,7 +5351,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5255,7 +5378,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5281,7 +5405,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5289,7 +5414,7 @@
   {
     "slug": "card-ed-dr-placebo-orange",
     "name": "Dr. Placebo (Orange) card",
-    "summary": "A Orange Dr. Placebo card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Dr. Placebo card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Dr. Placebo card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in West Vice-Dale County, naming Sallow Springs Dr.",
@@ -5307,7 +5432,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5333,7 +5459,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5358,7 +5485,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5366,7 +5494,7 @@
   {
     "slug": "card-ed-fornicator-orange",
     "name": "Fornicator (Orange) card",
-    "summary": "A Orange Fornicator card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Fornicator card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Fornicator card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in northern South Kelly County, naming Xero.",
@@ -5384,7 +5512,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5410,7 +5539,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5436,7 +5566,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5444,7 +5575,7 @@
   {
     "slug": "card-ed-funny-bones-orange",
     "name": "Funny Bones (Orange) card",
-    "summary": "A Orange Funny Bones card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Funny Bones card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Funny Bones card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions name Port Gellhorn and Old Post Rd.",
@@ -5461,7 +5592,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5487,7 +5619,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5513,7 +5646,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5521,7 +5655,7 @@
   {
     "slug": "card-ed-general-surgeon-orange",
     "name": "General Surgeon (Orange) card",
-    "summary": "A Orange General Surgeon card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange General Surgeon card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange General Surgeon card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in western Hamlet, naming Leonida Truck Stop and Palmetto Ave.",
@@ -5539,7 +5673,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5565,7 +5700,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5591,7 +5727,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5599,7 +5736,7 @@
   {
     "slug": "card-ed-mr-i-orange",
     "name": "MR.I (Orange) card",
-    "summary": "A Orange MR.I card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange MR.I card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange MR.I card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in northern Downtown, naming Snakepit, NE 1st Ave and NE 6th St.",
@@ -5617,7 +5754,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5643,7 +5781,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5669,7 +5808,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5695,7 +5835,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5721,7 +5862,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5747,7 +5889,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5773,7 +5916,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5799,7 +5943,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5825,7 +5970,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5833,7 +5979,7 @@
   {
     "slug": "card-ed-side-effect-orange",
     "name": "Side Effect (Orange) card",
-    "summary": "A Orange Side Effect card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Side Effect card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Side Effect card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in Rockridge, naming Xero and Northbrook Dr.",
@@ -5851,7 +5997,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5877,7 +6024,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5903,7 +6051,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5911,7 +6060,7 @@
   {
     "slug": "card-ed-vaccerine-orange",
     "name": "Vaccerine (Orange) card",
-    "summary": "A Orange Vaccerine card from the Ed Universe set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Vaccerine card from the Ed Universe set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Vaccerine card in the Ed Universe set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in central Capri, naming Cunningham Dr.",
@@ -5929,7 +6078,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5955,7 +6105,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ed"
+      "ign-cards-ed",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -5981,7 +6132,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6007,7 +6159,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6033,7 +6186,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6059,7 +6213,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6085,7 +6240,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6111,7 +6267,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6137,7 +6294,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6163,7 +6321,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6189,7 +6348,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6215,7 +6375,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6241,7 +6402,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6266,7 +6428,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6292,7 +6455,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6318,7 +6482,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6344,7 +6509,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6370,7 +6536,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6396,7 +6563,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6421,7 +6589,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6446,7 +6615,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6472,7 +6642,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6498,7 +6669,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6524,7 +6696,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6550,7 +6723,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6576,7 +6750,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6601,7 +6776,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6627,7 +6803,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6652,7 +6829,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6678,7 +6856,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6704,7 +6883,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6730,7 +6910,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6756,7 +6937,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6781,7 +6963,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6807,7 +6990,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-joh"
+      "ign-cards-joh",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6833,7 +7017,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6859,7 +7044,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6885,7 +7071,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6911,7 +7098,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6937,7 +7125,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6963,7 +7152,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -6989,7 +7179,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7015,7 +7206,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7041,7 +7233,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7067,7 +7260,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7093,7 +7287,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7119,7 +7314,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7145,7 +7341,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7171,7 +7368,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7197,7 +7395,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7223,7 +7422,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7249,7 +7449,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7275,7 +7476,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7301,7 +7503,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7327,7 +7530,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7353,7 +7557,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7379,7 +7584,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7405,7 +7611,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7431,7 +7638,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7457,7 +7665,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7483,7 +7692,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7509,7 +7719,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7535,7 +7746,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7561,7 +7773,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7587,7 +7800,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7613,7 +7827,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7639,7 +7854,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7665,7 +7881,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7691,7 +7908,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7717,7 +7935,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7743,7 +7962,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ratface"
+      "ign-cards-ratface",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7769,7 +7989,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7795,7 +8016,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7821,7 +8043,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7847,7 +8070,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7873,7 +8097,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7899,7 +8124,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7925,7 +8151,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7951,7 +8178,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -7977,7 +8205,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8003,7 +8232,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8029,7 +8259,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8055,7 +8286,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8081,7 +8313,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8107,7 +8340,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8133,7 +8367,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8159,7 +8394,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8185,7 +8421,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8211,7 +8448,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8237,7 +8475,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8263,7 +8502,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8289,7 +8529,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8315,7 +8556,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8341,7 +8583,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8367,7 +8610,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcp"
+      "ign-cards-lcp",
+      "rs-fextralife-gta6-liberty-city-penetrators-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8393,7 +8637,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8419,7 +8664,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8445,7 +8691,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8471,7 +8718,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8497,7 +8745,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8523,7 +8772,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8549,7 +8799,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8575,7 +8826,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8601,7 +8853,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8627,7 +8880,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8653,7 +8907,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8679,7 +8934,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8705,7 +8961,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8731,7 +8988,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8757,7 +9015,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8783,7 +9042,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8809,7 +9069,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8835,7 +9096,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8860,7 +9122,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8886,7 +9149,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8912,7 +9176,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8938,7 +9203,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8964,7 +9230,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -8990,7 +9257,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lcw"
+      "ign-cards-lcw",
+      "rs-fextralife-gta6-liberty-city-wrath-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9016,7 +9284,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9042,7 +9311,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9068,7 +9338,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9094,7 +9365,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9120,7 +9392,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9146,7 +9419,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9172,7 +9446,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9198,7 +9473,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9224,7 +9500,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9250,7 +9527,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9276,7 +9554,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9302,7 +9581,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9328,7 +9608,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9353,7 +9634,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9379,7 +9661,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9405,7 +9688,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9431,7 +9715,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9457,7 +9742,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9483,7 +9769,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9509,7 +9796,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9535,7 +9823,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9561,7 +9850,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9587,7 +9877,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9613,7 +9904,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-ls"
+      "ign-cards-ls",
+      "rs-fextralife-gta6-liberty-city-swingers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9639,7 +9931,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9665,7 +9958,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9690,7 +9984,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9716,7 +10011,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9742,7 +10038,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9768,7 +10065,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9794,7 +10092,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9820,7 +10119,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9846,7 +10146,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9872,7 +10173,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9898,7 +10200,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9924,7 +10227,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9950,7 +10254,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -9976,7 +10281,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10002,7 +10308,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10028,7 +10335,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10054,7 +10362,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10080,7 +10389,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10106,7 +10416,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10132,7 +10443,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10157,7 +10469,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10183,7 +10496,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10209,7 +10523,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10235,7 +10550,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lsc"
+      "ign-cards-lsc",
+      "rs-fextralife-gta6-los-santos-corkers-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10261,7 +10577,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10287,7 +10604,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10313,7 +10631,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10339,7 +10658,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10365,7 +10685,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10391,7 +10712,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10417,7 +10739,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10443,7 +10766,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10469,7 +10793,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10495,7 +10820,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10521,7 +10847,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10546,7 +10873,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10572,7 +10900,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10598,7 +10927,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10624,7 +10954,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10650,7 +10981,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10676,7 +11008,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10702,7 +11035,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10728,7 +11062,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10754,7 +11089,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10780,7 +11116,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10806,7 +11143,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10832,7 +11170,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10858,7 +11197,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspa"
+      "ign-cards-lspa",
+      "rs-fextralife-gta6-los-santos-panic-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10884,7 +11224,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10910,7 +11251,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10936,7 +11278,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10962,7 +11305,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -10988,7 +11332,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11014,7 +11359,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11040,7 +11386,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11066,7 +11413,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11092,7 +11440,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11118,7 +11467,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11144,7 +11494,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11170,7 +11521,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11196,7 +11548,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11222,7 +11575,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11248,7 +11602,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11274,7 +11629,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11300,7 +11656,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11326,7 +11683,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11352,7 +11710,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11378,7 +11737,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11404,7 +11764,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11430,7 +11791,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11456,7 +11818,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11481,7 +11844,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-lspo"
+      "ign-cards-lspo",
+      "rs-fextralife-gta6-los-santos-pounders-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11507,7 +11871,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11533,7 +11898,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11559,7 +11925,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11585,7 +11952,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11611,7 +11979,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11637,7 +12006,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11663,7 +12033,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11689,7 +12060,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11715,7 +12087,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11741,7 +12114,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11767,7 +12141,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11793,7 +12168,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11819,7 +12195,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11845,7 +12222,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11871,7 +12249,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11897,7 +12276,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11923,7 +12303,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11949,7 +12330,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -11974,7 +12356,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12000,7 +12383,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12026,7 +12410,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12052,7 +12437,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12078,7 +12464,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12104,7 +12491,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12130,7 +12518,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12156,7 +12545,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12182,7 +12572,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12208,7 +12599,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12234,7 +12626,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12260,7 +12653,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12286,7 +12680,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12311,7 +12706,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12337,7 +12733,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12363,7 +12760,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12389,7 +12787,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12415,7 +12814,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-n1n"
+      "ign-cards-n1n",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12441,7 +12841,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12467,7 +12868,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12493,7 +12895,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12519,7 +12922,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12545,7 +12949,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12571,7 +12976,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12597,7 +13003,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12623,7 +13030,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12649,7 +13057,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12674,7 +13083,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12700,7 +13110,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12726,7 +13137,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12751,7 +13163,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12777,7 +13190,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12803,7 +13217,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12829,7 +13244,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12855,7 +13271,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12881,7 +13298,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12907,7 +13325,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12933,7 +13352,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12959,7 +13379,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -12985,7 +13406,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13011,7 +13433,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13037,7 +13460,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13063,7 +13487,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13089,7 +13514,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13115,7 +13541,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13140,7 +13567,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13165,7 +13593,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13191,7 +13620,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13217,7 +13647,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13243,7 +13674,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13269,7 +13701,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13295,7 +13728,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13321,7 +13755,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13347,7 +13782,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-rw"
+      "ign-cards-rw",
+      "rs-fextralife-gta6-all-card-sets"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13373,7 +13809,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13399,7 +13836,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13425,7 +13863,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13451,7 +13890,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13477,7 +13917,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13503,7 +13944,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13529,7 +13971,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13555,7 +13998,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13581,7 +14025,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13607,7 +14052,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13633,7 +14079,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13659,7 +14106,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13685,7 +14133,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13711,7 +14160,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13737,7 +14187,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13763,7 +14214,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13789,7 +14241,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13815,7 +14268,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13841,7 +14295,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13867,7 +14322,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13893,7 +14349,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13919,7 +14376,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13945,7 +14403,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13971,7 +14430,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -13997,7 +14457,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14023,7 +14484,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14049,7 +14511,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14075,7 +14538,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14101,7 +14565,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14127,7 +14592,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vccf"
+      "ign-cards-vccf",
+      "rs-fextralife-gta6-vice-city-club-de-futbol-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14153,7 +14619,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14179,7 +14646,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14205,7 +14673,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14231,7 +14700,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14257,7 +14727,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14283,7 +14754,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14309,7 +14781,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14335,7 +14808,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14361,7 +14835,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14387,7 +14862,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14413,7 +14889,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14439,7 +14916,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14465,7 +14943,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14491,7 +14970,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14517,7 +14997,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14543,7 +15024,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14569,7 +15051,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14595,7 +15078,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14621,7 +15105,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14647,7 +15132,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14673,7 +15159,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14699,7 +15186,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14725,7 +15213,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14750,7 +15239,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcf"
+      "ign-cards-vcf",
+      "rs-fextralife-gta6-vice-city-flamingos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14776,7 +15266,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14802,7 +15293,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14828,7 +15320,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14854,7 +15347,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14880,7 +15374,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14905,7 +15400,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14931,7 +15427,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14957,7 +15454,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -14983,7 +15481,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15009,7 +15508,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15035,7 +15535,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15061,7 +15562,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15087,7 +15589,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15113,7 +15616,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15139,7 +15643,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15165,7 +15670,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15177,7 +15683,8 @@
     "body": [
       "IGN lists the Dusty Pink Junior Taufua card in the Vice City Manatees set, a football set of 24 cards and one of 18 collectible card sets.",
       "IGN's directions place it in Tequesta, naming Fitness Room and Grand Majestic Aparthotel.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "PowerPyx and game-checklists.com name this card Tusi Taufua; Fextralife calls it Junior Taufua and notes it is also reported as Tusi."
     ],
     "tags": [
       "cards",
@@ -15191,10 +15698,14 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Tusi Taufua"
+    ]
   },
   {
     "slug": "card-vcm-junior-taufua-green",
@@ -15217,7 +15728,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15243,7 +15755,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15269,7 +15782,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15295,7 +15809,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15321,7 +15836,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15347,7 +15863,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcm"
+      "ign-cards-vcm",
+      "rs-fextralife-gta6-vice-city-manatees-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15373,7 +15890,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15399,7 +15917,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15407,7 +15926,7 @@
   {
     "slug": "card-vcn-beck-r-heffer-orange",
     "name": "Beck R. Heffer (Orange) card",
-    "summary": "A Orange Beck R. Heffer card from the Vice City Narcos set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Beck R. Heffer card from the Vice City Narcos set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Beck R. Heffer card in the Vice City Narcos set, a basketball set of 24 cards and one of 18 collectible card sets.",
       "IGN's directions place it in southeastern Port Gellhorn, naming Powell's Construction Lumber Supply and I-404.",
@@ -15425,7 +15944,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15451,7 +15971,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15477,7 +15998,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15503,7 +16025,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15529,7 +16052,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15555,7 +16079,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15581,7 +16106,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15607,7 +16133,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15633,7 +16160,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15659,7 +16187,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15667,7 +16196,7 @@
   {
     "slug": "card-vcn-kyle-lewicki-orange",
     "name": "Kyle Lewicki (Orange) card",
-    "summary": "A Orange Kyle Lewicki card from the Vice City Narcos set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Kyle Lewicki card from the Vice City Narcos set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Kyle Lewicki card in the Vice City Narcos set, a basketball set of 24 cards and one of 18 collectible card sets.",
       "IGN's directions place it in central Capri, naming Grace Boutique, Antheia and Mariana Ave.",
@@ -15685,7 +16214,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15711,7 +16241,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15737,7 +16268,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15762,7 +16294,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15788,7 +16321,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15814,7 +16348,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15840,7 +16375,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15866,7 +16402,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15891,7 +16428,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15899,7 +16437,7 @@
   {
     "slug": "card-vcn-otis-adams-orange",
     "name": "Otis Adams (Orange) card",
-    "summary": "A Orange Otis Adams card from the Vice City Narcos set, one of IGN's 18 collectible card sets.",
+    "summary": "An Orange Otis Adams card from the Vice City Narcos set, one of IGN's 18 collectible card sets.",
     "body": [
       "IGN lists the Orange Otis Adams card in the Vice City Narcos set, a basketball set of 24 cards and one of 18 collectible card sets.",
       "IGN's directions place it in southeastern Washington Island, naming Bonita Ct.",
@@ -15917,7 +16455,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15943,7 +16482,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -15968,7 +16508,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-cards-vcn"
+      "ign-cards-vcn",
+      "rs-fextralife-gta6-vice-city-narcos-cards"
     ],
     "verified": "2026-11-18",
     "spoiler": true

@@ -27,7 +27,9 @@
     "confidence": "corroborated",
     "sources": [
       "ign-how-to-fish",
-      "r11g-ign-fishing"
+      "r11g-ign-fishing",
+      "rs-gtabase-how-to-fish",
+      "rs-shacknews-how-to-fish"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -107,7 +109,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -133,7 +136,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -159,7 +163,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -184,7 +189,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -210,7 +216,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -235,7 +242,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -260,7 +268,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -285,7 +294,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -310,7 +320,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -335,7 +346,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -360,7 +372,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -385,7 +398,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -410,7 +424,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing-challenges"
+      "ign-racing-challenges",
+      "rs-powerpyx-gta6-race-challenges"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -439,7 +454,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-racing",
-      "r8-pcg-money"
+      "r8-pcg-money",
+      "rs-techwiser-gta6-racing-locations"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -465,7 +481,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -490,7 +508,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -515,7 +535,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -540,7 +562,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -565,7 +589,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -590,7 +616,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -615,7 +643,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -640,7 +670,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -665,7 +697,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -690,7 +724,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -715,7 +751,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -740,7 +778,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -765,7 +805,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -790,7 +832,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -815,7 +859,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -840,7 +886,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -865,7 +913,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -890,7 +940,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -915,7 +967,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -940,7 +994,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -965,7 +1021,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -990,7 +1048,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1015,7 +1075,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1040,7 +1102,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1065,7 +1129,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1090,7 +1156,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1115,7 +1183,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1140,7 +1210,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1165,7 +1237,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1191,7 +1265,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1217,7 +1293,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1242,7 +1320,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1267,7 +1347,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1292,7 +1374,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1317,7 +1401,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1342,7 +1428,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1367,7 +1455,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1392,7 +1482,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-racing"
+      "ign-racing",
+      "rs-techwiser-gta6-racing-locations",
+      "rs-powerpyx-gta6-unique-races"
     ],
     "verified": "2026-11-18",
     "spoiler": true

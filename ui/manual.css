@@ -133,7 +133,7 @@ html.m-sky-turn::view-transition-new(root) { z-index: 2; }
   padding: 34px var(--manual-pad) 20px;
   background: var(--manual-paper);
   color: var(--manual-ink);
-  font: 400 0.94rem/1.55 var(--manual-text);
+  font: 400 1rem/1.6 var(--manual-text);
   overflow: hidden;
 }
 /* the gutter: each page darkens towards the fold */
@@ -445,3 +445,95 @@ html.m-sky-turn::view-transition-new(root) { z-index: 2; }
 @media (prefers-reduced-motion: reduce) {
   .m-tabs a { transition: none; }
 }
+
+/* ---------- reading: calmer and easier on the eyes ---------- */
+/* Text big enough to read comfortably: captions, notes and tables one step up. */
+.m-figure figcaption, .m-diagram figcaption, .m-table caption, .m-frame figcaption { font-size: 0.875rem; line-height: 1.45; }
+.m-figure figcaption span, .m-frame figcaption span { font-size: 0.75rem; }
+.m-table { font-size: 0.9rem; line-height: 1.45; }
+.m-box, .m-legend { font-size: 0.94rem; }
+.m-notes { font-size: 0.78rem; line-height: 1.5; }
+.m-entry-body p, .m-gallery .m-entry-body p { line-height: 1.55; }
+.m-gallery .m-entry-body p { font-size: 0.94rem; }
+/* Toolbar and page turns in sentence case, like the rest of the app. */
+.m-tool, .m-turn { text-transform: none; letter-spacing: 0; font-family: var(--font-body, inherit); font-size: 0.875rem; font-weight: 600; }
+/* Pictures on the page are shown at their best: no smoothing tricks, a soft shadow to lift them. */
+.m-page img { image-rendering: auto; }
+
+/* ---------- closer to Rockstar's own GTA VI pages ----------
+   Rockstar's VI site sets titles in tall condensed bold capitals (its own ArtDeco typeface, cream
+   on dark), body text in a medium weight, lead lines in a gold-coral-pink gradient, buttons as pink
+   pills, on deep navy. The app's bundled Archivo, condensed, stands in for ArtDeco (which is
+   Rockstar's own and not shipped). The pages stay paper; the manual stays labelled unofficial. */
+.manual {
+  --manual-display: 'Archivo', Bahnschrift, 'Arial Narrow', 'Helvetica Neue', Arial, sans-serif;
+  --manual-text: 'Archivo', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  --manual-sunset: linear-gradient(100deg, #ffdf80 0%, #f4717c 50%, #e963c7 100%);
+  --manual-sunset-ink: linear-gradient(100deg, #c96a10 0%, #d93a55 50%, #a8318f 100%); /* the same, dark enough for paper */
+  --manual-cream: #fff9cb;
+  --manual-pink: #ffb2c6;
+  --manual-navy: #111117;
+  background: radial-gradient(1100px 480px at 50% -120px, rgba(244, 113, 124, 0.18), transparent 70%), var(--manual-navy);
+}
+/* Titles: one weight, tall and narrow. */
+.manual .m-heading, .manual .m-cover h1 { font-weight: 800; font-stretch: 66%; line-height: 0.9; letter-spacing: 0; }
+.manual .m-heading span { font-weight: 800; }
+.manual .m-numeral, .manual .m-chapno, .manual .m-chapmark { font-weight: 800; font-stretch: 66%; }
+/* Body: Archivo's medium weight, like Rockstar's body text. */
+.manual .m-page { font-weight: 500; font-stretch: 100%; letter-spacing: -0.005em; }
+.manual .m-intro, .manual .m-tp-intro { font-weight: 600; letter-spacing: -0.01em; }
+/* On dark areas (the cover and picture panels) titles are cream, as on Rockstar's pages. */
+.manual .m-cover h1 { color: var(--manual-cream); -webkit-text-fill-color: var(--manual-cream); background: none; }
+/* Pills: toolbar, page turns, the call-to-action button and the source labels. */
+.manual .m-tool, .manual .m-turn { border-radius: 999px; padding-inline: 18px; }
+.manual .m-turn[rel="next"], .manual .m-button { border-radius: 999px; background: var(--manual-pink); border-color: var(--manual-pink); color: #0c0d1b !important; text-transform: none; letter-spacing: 0; font: 700 0.9rem var(--manual-text); }
+.manual .m-turn[rel="next"]:hover, .manual .m-button:hover { background: #ffc8d6; filter: none; }
+.manual .m-badge { border-radius: 999px; padding: 0 9px; font-style: normal; }
+/* Rounded corners on the book itself, like Rockstar's large cards. */
+.manual .m-spread { border-radius: 24px; overflow: hidden; }
+/* Night pages: the bright gradient and cream titles, exactly as on Rockstar's dark pages. */
+.manual.manual-night { --manual-sunset-ink: linear-gradient(100deg, #ffdf80 0%, #f4717c 50%, #e963c7 100%); }
+.manual.manual-night .m-heading span, .manual.manual-night .m-cover h1 span { color: var(--manual-cream); -webkit-text-fill-color: var(--manual-cream); }
+
+/* ---------- second pass: Rockstar's lists, labels and buttons ---------- */
+.manual {
+  --manual-plum: #3f284b;      /* Rockstar's tracklist rows */
+  --manual-plum-soft: #4b2f54; /* its secondary buttons */
+  --manual-blush: #fee8ea;     /* titles on plum */
+  --manual-rose: #e6a9c6;      /* numbers on plum */
+  --manual-lavender: #e9c2ff;  /* small condensed labels */
+  --manual-peach: #ffd4a8;
+}
+/* Small labels and running heads: condensed bold capitals, no wide tracking (Rockstar's eyebrows). */
+.manual .m-running { font-weight: 800; font-stretch: 70%; letter-spacing: 0.02em; font-size: 0.82rem; border-bottom: 0; padding-bottom: 6px; }
+.manual.manual-night .m-running { color: var(--manual-lavender); }
+.manual .m-chip { border-radius: 999px; padding: 1px 8px; background: var(--manual-pink); color: #0c0d1b; }
+/* Contents: one rounded card per chapter, like Rockstar's tracklist rows. */
+.manual .m-contents { display: grid; gap: 8px; }
+.manual .m-contents a { padding: 10px 16px 10px 14px; border: 0; border-radius: 12px; background: rgba(63, 40, 75, 0.07); transition: background-color 0.16s ease, transform 0.08s ease; }
+.manual .m-contents a:hover { background: rgba(63, 40, 75, 0.14); }
+.manual .m-contents a:active { transform: translateY(1px); }
+.manual.manual-night .m-contents a { background: var(--manual-plum); }
+.manual.manual-night .m-contents a:hover { background: var(--manual-plum-soft); }
+.manual.manual-night .m-contents .m-chaptitle { color: var(--manual-blush); }
+.manual.manual-night .m-contents a:hover .m-chaptitle { color: #fff; }
+.manual.manual-night .m-contents .m-chaptitle small { color: #f2cbd3; }
+.manual .m-contents .m-chapthumb { border-radius: 8px; }
+.manual .m-chaptitle { font-weight: 700; font-stretch: 90%; }
+/* Secondary buttons as plum pills (Rockstar's "Buy vinyl"), primary as pink pills. */
+.manual .m-tool, .manual .m-turn:not([rel="next"]) { background: var(--manual-plum-soft); border-color: var(--manual-plum-soft); color: var(--manual-blush); }
+.manual .m-tool:hover, .manual .m-turn:not([rel="next"]):hover { background: #5d3a69; border-color: #5d3a69; color: #fff; }
+.manual .m-search input { border-radius: 999px !important; padding-inline: 18px; }
+/* Chapter tabs: rounded ends like Rockstar's pills. */
+.manual .m-tabs a { border-radius: 0 999px 999px 0; }
+/* Tables: a plum header row with blush condensed capitals; rows rounded off at the ends. */
+.manual .m-table thead th { background: var(--manual-plum); color: var(--manual-blush); font-stretch: 75%; letter-spacing: 0.02em; }
+.manual .m-table thead th:first-child { border-radius: 10px 0 0 10px; padding-left: 12px; }
+.manual .m-table thead th:last-child { border-radius: 0 10px 10px 0; }
+/* Pictures on the page: square corners, as Rockstar shows its screenshots; captions in its pale pink. */
+.manual.manual-night .m-figure figcaption, .manual.manual-night .m-frame figcaption { color: #f2cbd3; }
+@media (max-width: 1179px) { .manual .m-tabs a { border-radius: 999px 999px 0 0; } }
+
+/* Accessibility (WCAG 1.4.3): tab numbers are dark on Rockstar's light gold-to-pink tabs. */
+.m-tabs a { color: #111117 !important; }
+.m-tabs b { text-shadow: none; }

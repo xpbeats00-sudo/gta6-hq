@@ -262,15 +262,21 @@ await check('Dragging the walker onto the 2D map opens Street Explorer', async (
   return where;
 });
 await check('Street Explorer: next, thumbnail, back to start, keyboard', async () => {
-  const first = await run(`document.querySelector('.sv-photo img').getAttribute('src')`);
-  await run(`document.querySelector('.sv-next').click(); true`); await sleep(400);
-  const second = await run(`document.querySelector('.sv-photo img').getAttribute('src')`);
-  await run(`document.querySelector('[data-go="3"]').click(); true`); await sleep(400);
+  // Pictures cross-fade in once decoded (some are 4K), so each step waits for the new one.
+  const cur = `[...document.querySelectorAll('.sv-photo img')].pop().getAttribute('src')`;
+  const settle = async (not) => { await waitFor(`${cur} !== ${JSON.stringify(not)}`, 5000); await sleep(150); return run(cur); };
+  await waitFor(`!!${cur} && [...document.querySelectorAll('.sv-photo img')].pop().classList.contains('is-in')`, 8000);
+  const first = await run(cur);
+  await run(`document.querySelector('.sv-next').click(); true`);
+  const second = await settle(first);
+  await run(`document.querySelector('[data-go="3"]').click(); true`); await sleep(300);
   const third = await run(`document.querySelector('.sv-strip .is-on')?.dataset.go`);
-  await key('Home'); await sleep(300);
-  const back = await run(`document.querySelector('.sv-photo img').getAttribute('src')`);
-  await key('ArrowRight'); await sleep(300);
-  const arrow = await run(`document.querySelector('.sv-photo img').getAttribute('src')`);
+  await settle(second);
+  await key('Home');
+  await waitFor(`${cur} === ${JSON.stringify(first)}`, 5000);
+  const back = await run(cur);
+  await key('ArrowRight');
+  const arrow = await settle(first);
   return first !== second && third === '3' && back === first && arrow === second;
 });
 await check('Street Explorer: precision label and mini-map', async () => {

@@ -92,7 +92,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "gs-get-boat"
+      "gs-get-boat",
+      "rs-outputlag-boats"
     ],
     "verified": "2026-11-18",
     "spoiler": true

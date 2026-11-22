@@ -2,6 +2,20 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.38 (22 November 2026)
+
+A robbery guide, sharper pictures, smarter search and better sources. Nothing was removed: every entry and picture is still here.
+
+- **Robbery Planner.** A new Field Manual chapter covers small banks, big banks, pawn shops, jewelry stores, payday loans, ATMs and security trucks, stick-ups and gang operations. Each page gives what you need, what's recommended, step-by-step instructions, the best getaway, payouts and heat.
+- **Plan a robbery run on the map.** Pick a type and every target is numbered in a short route from where you are, ready to save. Each guide page links straight to its run.
+- **Smarter search.** Typos ("jewlery"), questions ("how to rob a bank") and plurals now find what you mean; a page named after your search comes first; matching Field Manual pages are shown above the results.
+- **Sharper pictures.** 218 pictures replaced with higher-resolution copies, Rockstar's original Leonida map, sharper detail when zooming in on the map, and a smoother Street Explorer.
+- **Better sources.** 1,033 entries now also cite an allowed guide that confirms them. The eight main characters are labelled Official after a check against Rockstar's own page, and three of their bios were reworded to match it.
+- **New collectibles:** Femi-Nemesis, Zaria "Ri Ri" Luckett and Maleek Rivers cards, the Aurium Condominiums knife flight, the Tisha-Wocka Flea Market West bridge flight and the Lake Leonida Lock South stunt jump.
+- **Field Manual look:** Rockstar's colours and condensed type, night reading by default.
+- **Accessibility:** readable text over pictures in the Light theme, darker numbers on the Guide's chapter tabs, a main heading on every Guide page, and the back link above the picture on phones.
+- Fixed: the window's Close button sat off the edge; three pictures that carried another site's watermark were replaced with clean ones.
+
 ## 0.2.37 (22 November 2026)
 
 A simpler look, and clear Official and Community labels. Nothing was removed: every entry and picture is still here.

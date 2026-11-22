@@ -23,7 +23,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-brooks-boatworks",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "rs-gta6map-standout-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -52,7 +53,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-june-warehouse",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "rs-gta6map-standout-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -81,7 +83,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-la-cascara-motel",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "rs-gta6map-standout-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true

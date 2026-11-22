@@ -109,3 +109,22 @@
 :root[data-theme="light"] .pin-cluster span { color: #1c1526; }
 :root[data-theme="light"] .map-page.is-explore .map-side h1 { color: var(--info); }
 :root[data-theme="light"] .nav-more-menu, :root[data-theme="light"] .suggest { box-shadow: 0 16px 40px rgba(40, 20, 70, 0.18); }
+
+/* Light theme, accessibility (WCAG 1.4.3). The hero always sits on a picture, so it keeps light text
+   on a dark shade; the facts strip below is a light surface; map labels keep light text on dark chips. */
+:root[data-theme="light"] .hero, :root[data-theme="light"] .promo {
+  --text-primary: #f7f3f7; --text-secondary: #e4dcef; --text-muted: #cfc6dc;
+  --accent: #f17ab5; --accent-strong: #d94c9b; --accent-yellow: #ffd166; --tone-orange: #ffb16e; --on-accent: #190d27;
+  --surface-1: rgba(25, 13, 39, 0.72); --surface-2: rgba(39, 18, 56, 0.85); --surface-3: #33184a;
+  --border-subtle: rgba(220, 190, 235, 0.2); --border-strong: rgba(240, 205, 225, 0.4);
+  color: var(--text-primary);
+}
+:root[data-theme="light"] .hero-shade {
+  background:
+    linear-gradient(0deg, rgba(11, 10, 22, 0.92) 0%, rgba(11, 10, 22, 0.7) 30%, rgba(11, 10, 22, 0) 62%),
+    linear-gradient(90deg, rgba(11, 10, 22, 0.75) 0%, rgba(11, 10, 22, 0) 55%);
+}
+:root[data-theme="light"] .facts { background: var(--surface-1); }
+:root[data-theme="light"] .place-label span, :root[data-theme="light"] .map3d-label span { color: #fff; }
+:root[data-theme="light"] .place-label.place-region span, :root[data-theme="light"] .map3d-label.place-region span { color: #ffd166; }
+:root[data-theme="light"] .hero .btn-primary { color: #190d27; }

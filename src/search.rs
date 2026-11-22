@@ -72,6 +72,8 @@ struct Doc {
     section: String,
     slug: String,
     name: String,
+    /// The name's own words, for ranking an entry whose name starts with the query first.
+    name_words: Vec<String>,
     summary: String,
     image: Option<String>,
     art: Option<String>,
@@ -128,6 +130,7 @@ impl Index {
                     section: section.clone(),
                     slug: text("slug").to_string(),
                     name: text("name").to_string(),
+                    name_words: words(text("name")),
                     summary: text("summary").to_string(),
                     image: entry.get("image").and_then(Value::as_str).map(str::to_string),
                     art: entry.get("art").and_then(Value::as_str).map(str::to_string),
@@ -139,37 +142,113 @@ impl Index {
         index
     }
 
-    /// Every query word must match somewhere in an entry. Whole words
-    /// outrank prefixes. Ties sort by name, so results are deterministic.
-    fn ranked(&self, query: &Query) -> Vec<(u32, u32)> {
-        let terms = words(query.text);
-        let mut matched: Option<HashMap<u32, u32>> = None;
-        for term in &terms {
-            // Best match per field for this word: 2 whole word, 1 prefix.
-            let mut best: HashMap<u32, [u32; 3]> = HashMap::new();
-            let from = (Bound::Included(term.as_str()), Bound::Unbounded);
-            for (word, postings) in self
-                .words
-                .range::<str, _>(from)
-                .take_while(|(word, _)| word.starts_with(term.as_str()))
-            {
-                let strength = if word == term { 2 } else { 1 };
-                for posting in postings {
-                    let fields = best.entry(posting.doc).or_default();
-                    let field = &mut fields[usize::from(posting.field)];
-                    *field = (*field).max(strength);
+    /// How well each entry matches one query word: 2 for a whole word, 1 for a prefix, weighted by
+    /// field. `loose` also accepts another form of the word (plural, "-ing", a dropped "e") as a
+    /// whole word, and, when nothing starts with the word at all, a near spelling as a prefix.
+    fn term_scores(&self, term: &str, query: &Query, loose: bool) -> HashMap<u32, u32> {
+        let mut best: HashMap<u32, [u32; 3]> = HashMap::new();
+        fn add(best: &mut HashMap<u32, [u32; 3]>, postings: &[Posting], strength: u32) {
+            for posting in postings {
+                let fields = best.entry(posting.doc).or_default();
+                let field = &mut fields[usize::from(posting.field)];
+                *field = (*field).max(strength);
+            }
+        }
+        for (word, postings) in self.prefixed(term) {
+            add(&mut best, postings, if word == term { 2 } else { 1 });
+        }
+        if loose {
+            let root = stem(term);
+            if root != term && root.len() >= 3 {
+                for (word, postings) in self.prefixed(root.trim_end_matches('i')) {
+                    if stem(word) == root {
+                        add(&mut best, postings, 2);
+                    }
                 }
             }
-            let scored: HashMap<u32, u32> = best
-                .into_iter()
-                .filter_map(|(doc, mut fields)| {
-                    if self.docs[doc as usize].spoiler && !query.include_spoilers {
-                        fields[BODY] = 0;
+            if best.is_empty() && term.chars().count() >= 4 {
+                let allowed = if term.chars().count() >= 7 { 2 } else { 1 };
+                for (word, postings) in &self.words {
+                    if near(term, word, allowed) {
+                        add(&mut best, postings, 1);
                     }
-                    let score: u32 = fields.iter().zip(WEIGHTS).map(|(found, weight)| found * weight).sum();
-                    (score > 0).then_some((doc, score))
-                })
-                .collect();
+                }
+            }
+        }
+        best.into_iter()
+            .filter_map(|(doc, mut fields)| {
+                if self.docs[doc as usize].spoiler && !query.include_spoilers {
+                    fields[BODY] = 0;
+                }
+                let score: u32 = fields.iter().zip(WEIGHTS).map(|(found, weight)| found * weight).sum();
+                (score > 0).then_some((doc, score))
+            })
+            .collect()
+    }
+
+    /// Indexed words that start with `prefix`.
+    fn prefixed<'s>(&'s self, prefix: &'s str) -> impl Iterator<Item = (&'s String, &'s Vec<Posting>)> + 's {
+        self.words
+            .range::<str, _>((Bound::Included(prefix), Bound::Unbounded))
+            .take_while(move |(word, _)| word.starts_with(prefix))
+    }
+
+    /// Every query word must match somewhere in an entry. Whole words outrank prefixes, and an
+    /// entry whose name starts with the query, or is exactly the query, comes first. Filler words
+    /// ("how to", "where is") are skipped when other words remain. Ties sort by name.
+    fn ranked(&self, query: &Query) -> Vec<(u32, u32)> {
+        let all = words(query.text);
+        let mut terms: Vec<String> = all.iter().filter(|w| !FILLER.contains(&w.as_str())).cloned().collect();
+        if terms.is_empty() {
+            terms = all;
+        }
+        let mut ranked = self.matching(&terms, query, true);
+        // A longer question where one word matches nothing ("make money fast") still finds the
+        // entries that match all the other words.
+        if ranked.is_empty() && terms.len() >= 3 {
+            for skip in 0..terms.len() {
+                let rest: Vec<String> = terms
+                    .iter()
+                    .enumerate()
+                    .filter(|(i, _)| *i != skip)
+                    .map(|(_, t)| t.clone())
+                    .collect();
+                for found in self.matching(&rest, query, true) {
+                    if let Some(known) = ranked.iter_mut().find(|(doc, _)| *doc == found.0) {
+                        known.1 = known.1.max(found.1);
+                    } else {
+                        ranked.push(found);
+                    }
+                }
+            }
+        }
+        let same = |a: &str, b: &str| a == b || stem(a) == stem(b);
+        for (doc, score) in &mut ranked {
+            let name = &self.docs[*doc as usize].name_words;
+            if let (Some(first_name), Some(first_term)) = (name.first(), terms.first()) {
+                if same(first_name, first_term) {
+                    // Short names first: "Jason Duval" before "Jason's house repairs".
+                    *score += if name.len() <= 2 { 12 } else { 8 };
+                }
+            }
+            if !name.is_empty() && name.len() == terms.len() && name.iter().zip(&terms).all(|(n, t)| same(n, t)) {
+                *score += 6;
+            }
+        }
+        self.sorted(ranked, query)
+    }
+
+    /// The plain ranking: every word as typed, whole word or prefix, no extras.
+    #[cfg(test)]
+    fn strict(&self, query: &Query) -> Vec<(u32, u32)> {
+        let ranked = self.matching(&words(query.text), query, false);
+        self.sorted(ranked, query)
+    }
+
+    fn matching(&self, terms: &[String], query: &Query, loose: bool) -> Vec<(u32, u32)> {
+        let mut matched: Option<HashMap<u32, u32>> = None;
+        for term in terms {
+            let scored = self.term_scores(term, query, loose);
             matched = Some(match matched {
                 None => scored,
                 Some(so_far) => so_far
@@ -178,8 +257,7 @@ impl Index {
                     .collect(),
             });
         }
-
-        let mut ranked: Vec<(u32, u32)> = matched
+        matched
             .unwrap_or_default()
             .into_iter()
             .filter(|(doc, _)| {
@@ -187,7 +265,10 @@ impl Index {
                 query.section.is_none_or(|only| only == doc.section)
                     && (doc.confidence != "rumor" || query.include_rumors)
             })
-            .collect();
+            .collect()
+    }
+
+    fn sorted(&self, mut ranked: Vec<(u32, u32)>, query: &Query) -> Vec<(u32, u32)> {
         let name = |doc: u32| &self.docs[doc as usize].name;
         ranked.sort_by(|a, b| {
             let by_score = if query.sort == Sort::Name {
@@ -249,6 +330,66 @@ impl Index {
 #[cfg(test)]
 pub fn search(wiki: &Value, query: &Query) -> Vec<Hit> {
     Index::build(wiki).search(query)
+}
+
+/// Words that carry no meaning in a question such as "how do I rob a bank" or "where is the
+/// beach". They are dropped from a query unless nothing else is left.
+const FILLER: &[&str] = &[
+    "a", "an", "the", "to", "of", "in", "on", "at", "for", "and", "or", "how", "do", "does", "did", "i", "is", "are",
+    "where", "what", "which", "can", "you", "my", "me", "find", "with", "gta", "6", "vi",
+];
+
+/// A rough common root, so "cards" finds "card", "racing" finds "race" and "robberies" finds
+/// "robbery". Only plain ASCII words of four letters or more are changed.
+fn stem(word: &str) -> String {
+    let n = word.len();
+    if n < 4 || !word.is_ascii() {
+        return word.to_string();
+    }
+    let mut root = if let Some(base) = word.strip_suffix("ies") {
+        format!("{base}y")
+    } else if let (Some(base), true) = (word.strip_suffix("ing"), n >= 6) {
+        base.to_string()
+    } else if ["ches", "shes", "sses", "xes"].iter().any(|end| word.ends_with(end)) {
+        word[..n - 2].to_string()
+    } else if word.ends_with('s') && !["ss", "us", "is"].iter().any(|end| word.ends_with(end)) {
+        word[..n - 1].to_string()
+    } else {
+        word.to_string()
+    };
+    if root.len() >= 4 && root.ends_with('e') {
+        root.pop();
+    }
+    if root.len() >= 4 && root.ends_with('y') {
+        root.pop();
+        root.push('i');
+    }
+    root
+}
+
+/// True when `a` and `b` are at most `allowed` single-letter edits apart (typos such as
+/// "jewlery" or "basktball").
+fn near(a: &str, b: &str, allowed: usize) -> bool {
+    let (a, b): (Vec<char>, Vec<char>) = (a.chars().collect(), b.chars().collect());
+    if a.len().abs_diff(b.len()) > allowed || b.len() < 4 {
+        return false;
+    }
+    let mut row: Vec<usize> = (0..=b.len()).collect();
+    for (i, ca) in a.iter().enumerate() {
+        let mut prev = row[0];
+        row[0] = i + 1;
+        let mut lowest = row[0];
+        for (j, cb) in b.iter().enumerate() {
+            let here = row[j + 1];
+            row[j + 1] = (prev + usize::from(ca != cb)).min(row[j] + 1).min(here + 1);
+            prev = here;
+            lowest = lowest.min(row[j + 1]);
+        }
+        if lowest > allowed {
+            return false;
+        }
+    }
+    row[b.len()] <= allowed
 }
 
 /// Lower-case words. Apostrophes join rather than split, so "Dre'Quan" is
@@ -383,10 +524,11 @@ mod tests {
 
     #[test]
     fn scores_are_the_weighted_sum_over_fields_and_words() {
-        // "lucia": whole word in the name (2 x 6). "protag": prefix of a tag (1 x 3).
+        // "lucia": whole word in the name (2 x 6). "protag": prefix of a tag (1 x 3). Plus 12 because
+        // the two-word name starts with the first word of the query.
         let hits = find("lucia protag");
         assert_eq!(hits[0].slug, "lucia-caminos");
-        assert_eq!(hits[0].score, 15);
+        assert_eq!(hits[0].score, 27);
         // Jason: "lucia" whole word in the summary (2 x 1) + tag prefix (1 x 3).
         assert_eq!(hits[1].score, 5);
     }
@@ -529,15 +671,19 @@ mod tests {
         for text in queries {
             for section in [None, Some("characters"), Some("vehicles"), Some("news")] {
                 let expected = reference(&wiki, text, section);
+                let query = Query {
+                    text,
+                    section,
+                    include_spoilers: true,
+                    ..Query::default()
+                };
                 let got: Vec<(String, String, u32)> = index
-                    .search(&Query {
-                        text,
-                        section,
-                        include_spoilers: true,
-                        ..Query::default()
-                    })
+                    .strict(&query)
                     .into_iter()
-                    .map(|hit| (hit.section, hit.slug, hit.score))
+                    .map(|(doc, score)| {
+                        let hit = index.hit(doc, score, &query);
+                        (hit.section, hit.slug, hit.score)
+                    })
                     .collect();
                 assert_eq!(got, expected, "query {text:?} in {section:?}");
             }
@@ -620,5 +766,52 @@ mod tests {
         assert_eq!(hits.len(), 1);
         assert_eq!(hits[0].summary, "The betrayal is revealed.");
         assert!(hits[0].image.is_some());
+    }
+
+    #[test]
+    fn questions_plurals_and_typos_still_find_the_entry() {
+        let wiki = json!({
+            "categories": [{"key": "gameplay", "label": "Gameplay"}, {"key": "collectibles", "label": "Collectibles"}],
+            "gameplay": [
+                {"slug": "bank-jobs", "name": "Bank jobs", "summary": "Robbing a branch.", "tags": ["robbery"]},
+                {"slug": "making-money", "name": "Making money", "summary": "Ways to earn cash."}
+            ],
+            "collectibles": [
+                {"slug": "card-1", "name": "Collectible card", "summary": "A trading card."},
+                {"slug": "ring", "name": "Diamond ring", "summary": "Sold at a jewelry store."}
+            ]
+        });
+        let find = |text: &str| -> Vec<String> {
+            search(
+                &wiki,
+                &Query {
+                    text,
+                    ..Query::default()
+                },
+            )
+            .into_iter()
+            .map(|h| h.slug)
+            .collect()
+        };
+        assert_eq!(find("how do I rob a bank"), ["bank-jobs"]);
+        assert_eq!(find("robberies"), ["bank-jobs"]);
+        assert_eq!(find("cards"), ["card-1"]);
+        assert_eq!(find("make money"), ["making-money"]);
+        assert_eq!(find("make money fast"), ["making-money"]);
+        assert_eq!(find("jewlery"), ["ring"]);
+        // Every meaningful word must still match.
+        assert!(find("bank mountain").is_empty());
+    }
+
+    #[test]
+    fn near_spellings_and_roots() {
+        assert!(near("basktball", "basketball", 2));
+        assert!(near("jewlery", "jewelry", 2));
+        assert!(!near("bank", "tank", 0));
+        assert!(!near("car", "cat", 1)); // too short to guess
+        assert_eq!(stem("cards"), "card");
+        assert_eq!(stem("racing"), stem("race"));
+        assert_eq!(stem("robberies"), stem("robbery"));
+        assert_eq!(stem("boss"), "boss");
     }
 }

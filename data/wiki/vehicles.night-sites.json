@@ -23,7 +23,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "g8-street-art-squalo"
+      "g8-street-art-squalo",
+      "rs-gtabase-standout-vehicles-map",
+      "rs-damnmodz-gta6-boats"
     ],
     "verified": "2026-11-18",
     "spoiler": true

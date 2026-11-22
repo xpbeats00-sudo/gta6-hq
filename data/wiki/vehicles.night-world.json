@@ -93,7 +93,9 @@
     "confidence": "corroborated",
     "sources": [
       "game8-teniente-manana",
-      "ign-nova-auto-junkyard"
+      "ign-nova-auto-junkyard",
+      "rs-gta6map-standout-vehicles",
+      "rs-nexzy-nova-auto-junkyard"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -123,7 +125,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-industrial-weed-grow"
+      "ign-industrial-weed-grow",
+      "rs-gta6map-standout-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true

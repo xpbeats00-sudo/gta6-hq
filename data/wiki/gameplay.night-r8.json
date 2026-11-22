@@ -85,7 +85,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "r8-gs-houser-cameo"
+      "r8-gs-houser-cameo",
+      "rs-gtaviinsider-houser-cameo",
+      "rs-beebom-cameos"
     ],
     "verified": "2026-11-18",
     "spoiler": true

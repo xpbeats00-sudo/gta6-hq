@@ -5675,6 +5675,110 @@
       "url": "https://www.gtabase.com/gta-6/map/?feature=standout-vehicle",
       "sourceType": "secondary",
       "lastCheckedAt": "2026-11-18"
+    },
+    "gamesgg-bank-locations": {
+      "title": "GTA 6 Guide: All 22 Bank Locations",
+      "publisher": "GAMES.GG",
+      "url": "https://games.gg/grand-theft-auto-vi/guides/all-bank-locations-gta-6/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "gamesgg-store-robbery": {
+      "title": "Store Robbery Guide: Grand Theft Auto 6 Cash and Escapes",
+      "publisher": "GAMES.GG",
+      "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-store-robbery-guide/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "gamesgg-jewelry-stores": {
+      "title": "Grand Theft Auto 6 Jewelry Stores Guide: Locations and Codes",
+      "publisher": "GAMES.GG",
+      "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-jewelry-stores-guide-locations-codes/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "keengamer-money": {
+      "title": "GTA VI: Best Ways to Make Money Fast",
+      "publisher": "KeenGamer",
+      "url": "https://www.keengamer.com/articles/guides/gta-vi-best-ways-to-make-money-fast/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "keengamer-fishing-shacks": {
+      "title": "GTA 6 Fishing Shacks Walkthrough",
+      "publisher": "KeenGamer",
+      "url": "https://www.keengamer.com/articles/guides/gta-6-fishing-shacks-walkthrough-all-valuables/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "vgc-avery-pawn-safe": {
+      "title": "GTA 6 Avery Pawn Shop Safe Code: How to Find and Open the Safe",
+      "publisher": "VGC",
+      "url": "https://www.videogameschronicle.com/guide/gta-6-avery-pawn-shop-safe-code-how-to-find-and-open-the-safe/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "vgc-la-cascara-safe": {
+      "title": "GTA 6 La Cascara Motel safe code: How to find and open the safe",
+      "publisher": "VGC",
+      "url": "https://www.videogameschronicle.com/guide/gta-6-la-cascara-motel-safe-code-how-to-find-and-open-the-safe/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "vgc-brooks-boatworks-safe": {
+      "title": "GTA 6 Brooks Boatworks safe code and location",
+      "publisher": "VGC",
+      "url": "https://www.videogameschronicle.com/guide/gta-6-brooks-boatworks-safe-code-and-location-how-to-find-and-open-the-safe/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "powerup-trucks-atms": {
+      "title": "GTA 6: How to Rob Security Trucks and Steal ATMs",
+      "publisher": "Power Up Gaming",
+      "url": "https://powerupgaming.co.uk/2026/11/21/gta-6-how-to-rob-security-trucks-and-steal-atms/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "altchar-atms": {
+      "title": "Grand Theft Auto 6: How to Rob ATMs by Ripping Them Out of the Wall",
+      "publisher": "AltChar",
+      "url": "https://www.altchar.com/guides/grand-theft-auto-6-how-to-rob-atms-by-ripping-them-out-of-the-wall-a4oUP6r4ZR5m",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "happygamer-vaults": {
+      "title": "How to Rob Bank Vaults in GTA 6: Unlock, Security Van Trick and Best Payouts",
+      "publisher": "HappyGamer",
+      "url": "https://happygamer.com/gta-6-how-to-rob-bank-vaults-178241/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "gtabase-yasmanis-atm-jobs": {
+      "title": "Yasmani's ATM Jobs",
+      "publisher": "GTABase",
+      "url": "https://www.gtabase.com/gta-6/strangers/yasmanis-atm-jobs",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "gtabase-yasmanis-payday-loans-jobs": {
+      "title": "Yasmani's Payday Loans Jobs",
+      "publisher": "GTABase",
+      "url": "https://www.gtabase.com/gta-6/strangers/yasmanis-payday-loans-jobs",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
     }
   },
   "uncheckedSources": [
@@ -5725,7 +5829,7 @@
             {
               "type": "numbered",
               "n": 1,
-              "title": "Verified",
+              "title": "Official",
               "text": "Seen in Rockstar's own material: the trailers, the screenshots and website, the Extended Look video, and Rockstar's support articles. This is the firmest ground the manual has."
             },
             {
@@ -48106,8 +48210,1893 @@
       }
     },
     {
-      "id": "sources",
+      "id": "robbery-planner",
       "number": "21",
+      "title": "Robbery Planner",
+      "accent": "Planner",
+      "kicker": "Plan a job",
+      "status": "published",
+      "intro": "Banks, big banks, pawn shops, jewelry stores, payday loans, ATMs, stick-ups and gang sites: what each needs, what helps, the steps, the way out and what it pays, with every target planned as a run on the map.",
+      "pages": [
+        {
+          "title": "Robbery Planner",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Robbery",
+              "accent": "planner"
+            },
+            {
+              "type": "intro",
+              "text": "||Every kind of robbery in one place, in the same order: what opens it, what you need, what helps, the steps, the best way out, what it pays and how hot it gets. Each page ends with what the guides do not say yet.||"
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-banks",
+                "powerpyx-credit-check-meet-rauls-crew",
+                "gamesgg-bank-locations",
+                "powerpyx-thats-where-the-money-is",
+                "gtabase-thats-where-the-money-is",
+                "ppx-smash",
+                "gamesgg-jewelry-stores",
+                "keengamer-money",
+                "ppx-payday",
+                "powerup-trucks-atms",
+                "gtabase-yasmanis-atm-jobs",
+                "g100-boom-early-money",
+                "gamesgg-store-robbery",
+                "ppx-100",
+                "keengamer-fishing-shacks"
+              ],
+              "caption": "||When each kind of robbery opens, and how many the map shows.||",
+              "columns": [
+                "Robbery",
+                "When it opens",
+                "On the map"
+              ],
+              "rows": [
+                [
+                  "Small banks",
+                  "Small banks open after the Chapter 3 main mission Credit Check (Meet Raul's Crew), about halfway through the story.",
+                  "14"
+                ],
+                [
+                  "Big banks",
+                  "Vaults open through the optional mission That's Where The Money Is... (Wait at the Cafe), which Yasmani offers after the Chapter 4 mission VCIA Takedown, near the end of Chapter 4.",
+                  "8"
+                ],
+                [
+                  "Pawn shops",
+                  "Pawn shops become robberies after the Chapter 2 main mission Coffee Break, about halfway through Chapter 2.",
+                  "13"
+                ],
+                [
+                  "Jewelry stores",
+                  "Jewelry stores open after the Chapter 3 mission Yasmani's Jewelry Jobs, about halfway through Chapter 3.",
+                  "23"
+                ],
+                [
+                  "Payday loans",
+                  "Payday loan stores open after the Chapter 3 mission Credit Check, which gives the Dye Pack Jammer.",
+                  "7"
+                ],
+                [
+                  "ATMs and vans",
+                  "Power Up Gaming says ATM robbery opens after Yasmani's Jewelry Jobs through Yasmani's ATM Jobs, which GTABase lists as his first side mission.",
+                  "12"
+                ],
+                [
+                  "Stick-ups",
+                  "Stick-ups are open from Chapter 1; most enterable stores can be robbed, even without a map icon.",
+                  "Not on the map"
+                ],
+                [
+                  "Gang operations",
+                  "Gang operations are available from Chapter 1; 19 are marked by the story.",
+                  "21"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Plan a run on the map",
+              "text": "||Each page links to the map, which numbers every target of that kind in a short order from where you are. The lines are straight, between approximate pins, not roads.||",
+              "sources": []
+            },
+            {
+              "type": "warning",
+              "title": "Before any robbery",
+              "items": [
+                "||Leave the red heat area, not just the flashing search area, to lose the police.||",
+                "||Marked bills must go through a fence before you can spend them.||"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Small banks",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Small",
+              "accent": "banks"
+            },
+            {
+              "type": "intro",
+              "text": "||The 14 small branches: a cash drawer and a safe, no vault.||"
+            },
+            {
+              "type": "maplink",
+              "kind": "Bank Jobs",
+              "plan": "small-banks",
+              "text": "Plan this run on the map (14 stops)"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "launch-reported",
+              "text": "||Small banks open after the Chapter 3 main mission Credit Check (Meet Raul's Crew), about halfway through the story. Credit Check hands over the Dye Pack Jammer, without which fences will not take bank cash.||",
+              "sources": [
+                "ppx-banks",
+                "powerpyx-credit-check-meet-rauls-crew",
+                "gamesgg-bank-locations"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "What you need",
+              "text": "||The Dye Pack Jammer from Credit Check, so the marked bills can be fenced. A mask worn from the Items tab before entering; Credit Check supplies masks. Explosives or the Snap Gun for a locked back door, and explosives for a safe if you have no code. Credit Check walkthroughs use the partner as getaway driver, waiting in the driver's seat.||",
+              "sources": [
+                "ppx-banks",
+                "gamesgg-bank-locations",
+                "powerpyx-credit-check-meet-rauls-crew",
+                "r8gb-missions-credit-check"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Recommended",
+              "text": "||Park facing the road outside the branch so the getaway starts fast. Threaten the guards immediately, before they draw; if one draws, disarm him, shoot his knees or use melee. Rob without hurting anyone and disable alarms and tapes to keep the Professional criminal profile. Plan the escape before going in, because the police response to a bank is huge once they are called. Opening a safe with explosives is faster but damages part of the cash inside, according to GAMES.GG's store guide.||",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew",
+                "r8gb-missions-credit-check",
+                "ppx-criminal-profile",
+                "g100-vgc-money",
+                "gamesgg-store-robbery"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Step by step"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Mask up, partner drives",
+              "text": "||Put the mask on and leave your partner in the driver's seat.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Hold up the guards, then the teller",
+              "text": "||Enter, threaten the guards first, then threaten the teller.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Get the safe code",
+              "text": "||Ask the teller for the safe code (aim and choose Safe Code?); the teller also opens the cash drawer.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew",
+                "g100-pcg-safe"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Empty the cash drawers",
+              "text": "||Loot every cash drawer behind the counter.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Open the back door",
+              "text": "||Open the back door with the Snap Gun, an explosive or by breaking it.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Open the safe",
+              "text": "||Enter the code on the back-room safe or plant an explosive on it; a code can also be on a note in the back office or on a downed guard.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew",
+                "g100-pcg-safe"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 7,
+              "title": "Get to the car and split up",
+              "text": "||Run to the car, which your partner brings round, and split up after the job to divide the police.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Best route and getaway"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Stay out of the search zone",
+              "text": "||Keep clear of the police search zone around the bank you just robbed, and split up with your partner after the job.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-credit-check-meet-rauls-crew"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Break line of sight",
+              "text": "||Break line of sight, get out of the red search area and the lighter ring around it, then change outfit and vehicle.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "g100-gb-cops"
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-banks",
+                "gamesgg-bank-locations",
+                "ppx-fences",
+                "g100-gtab-fences",
+                "happygamer-vaults",
+                "powerpyx-credit-check-meet-rauls-crew"
+              ],
+              "caption": "||What small banks pay, how hot they get and whether they come back.||",
+              "columns": [
+                "",
+                "What the guides say"
+              ],
+              "rows": [
+                [
+                  "Payout",
+                  "||Small banks pay about $5,000 to $45,000 per robbery depending on the branch. All bank cash is marked bills that a fence takes only once you have the Dye Pack Jammer; Yasmani in Little Cuba pays the most for them.||"
+                ],
+                [
+                  "Heat",
+                  "||No allowed launch guide states the wanted level for a small bank; PowerPyx and HappyGamer give star counts only for vaults. In Credit Check the third branch's alarm goes off and security comes from the back; PowerPyx says leave at once because the police are already coming.||"
+                ],
+                [
+                  "Resets",
+                  "||No allowed guide says whether or when a robbed bank can be robbed again.||"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-banks",
+                "gamesgg-bank-locations",
+                "powerpyx-credit-check-meet-rauls-crew"
+              ],
+              "caption": "||Place by place, where a guide says something about it.||",
+              "columns": [
+                "Place",
+                "Notes"
+              ],
+              "rows": [
+                [
+                  "Fleeca Bank (Key Lento)",
+                  "||PowerPyx lists the take as $5,000 to $20,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a medium security rating on its map card.||"
+                ],
+                [
+                  "Coastal Bank (Watson Bay)",
+                  "||PowerPyx lists the take as $5,000 to $20,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a medium security rating on its map card.||"
+                ],
+                [
+                  "Gibson Brothers Bank",
+                  "||PowerPyx lists the take as $10,000 to $30,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a high security rating on its map card.||"
+                ],
+                [
+                  "Lombank (Peacock Bay)",
+                  "||PowerPyx lists the take as $5,000 to $20,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a medium security rating on its map card.||"
+                ],
+                [
+                  "Fleeca Bank (Peacock Bay)",
+                  "||PowerPyx lists the take as $5,000 to $20,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a high security rating on its map card.||"
+                ],
+                [
+                  "Coastal Bank (Downtown)",
+                  "||PowerPyx lists the take as $5,000 to $15,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a medium security rating on its map card.||"
+                ],
+                [
+                  "Coastal Bank (Rockridge)",
+                  "||PowerPyx lists the take as $5,000 to $20,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a medium security rating on its map card.||"
+                ],
+                [
+                  "Lombank (Bayside)",
+                  "||PowerPyx lists the take as $15,000 to $45,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a medium security rating on its map card.||"
+                ],
+                [
+                  "Fleeca Bank (Washington Beach)",
+                  "||PowerPyx lists the take as $10,000 to $30,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a high security rating on its map card. This is the first branch in Credit Check: guards in the hall and four marked cash drawers behind the counter.||"
+                ],
+                [
+                  "Lombank (Ocean Beach)",
+                  "||PowerPyx lists the take as $15,000 to $45,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a high security rating on its map card.||"
+                ],
+                [
+                  "Fleeca Bank (Ocean Beach)",
+                  "||PowerPyx lists the take as $5,000 to $15,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a medium security rating on its map card. Credit Check robs two Ocean Beach Fleecas: a small one with a back door to a back-room safe, and a larger one further south with more guards and a rear security exit. PowerPyx does not say which matches this listing.||"
+                ],
+                [
+                  "Coastal Bank (Ocean Beach)",
+                  "||PowerPyx lists the take as $5,000 to $15,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a low security rating on its map card.||"
+                ],
+                [
+                  "Druthers State Bank",
+                  "||PowerPyx lists the take as $15,000 to $45,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a high security rating on its map card.||"
+                ],
+                [
+                  "Coastal Bank (Ambrosia)",
+                  "||PowerPyx lists the take as $5,000 to $15,000; the robbery is done once the cash drawer and the safe are both looted. GAMES.GG gives this branch a medium security rating on its map card.||"
+                ]
+              ],
+              "rowLinks": [
+                "#/map?focus=Fleeca%20Bank%20%28Key%20Lento%29",
+                "#/map?focus=Coastal%20Bank%20%28Watson%20Bay%29",
+                "#/map?focus=Gibson%20Brothers%20Bank",
+                "#/map?focus=Lombank%20%28Peacock%20Bay%29",
+                "#/map?focus=Fleeca%20Bank%20%28Peacock%20Bay%29",
+                "#/map?focus=Coastal%20Bank%20%28Downtown%29",
+                "#/map?focus=Coastal%20Bank%20%28Rockridge%29",
+                "#/map?focus=Lombank%20%28Bayside%29",
+                "#/map?focus=Fleeca%20Bank%20%28Washington%20Beach%29",
+                "#/map?focus=Lombank%20%28Ocean%20Beach%29",
+                "#/map?focus=Fleeca%20Bank%20%28Ocean%20Beach%29",
+                "#/map?focus=Coastal%20Bank%20%28Ocean%20Beach%29",
+                "#/map?focus=Druthers%20State%20Bank",
+                "#/map?focus=Coastal%20Bank%20%28Ambrosia%29"
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "||Wanted level a small bank brings.||",
+                "||Layouts, guard counts and camera positions of the 11 small banks not in Credit Check.||",
+                "||Whether small banks restock or can be robbed again, and after how long.||",
+                "||Which Ocean Beach Fleeca listing matches the Credit Check branches.||"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Big banks",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Big",
+              "accent": "banks"
+            },
+            {
+              "type": "intro",
+              "text": "||The 8 large banks: a security van delivery opens the vault.||"
+            },
+            {
+              "type": "maplink",
+              "kind": "Big Bank Jobs",
+              "plan": "big-banks",
+              "text": "Plan this run on the map (8 stops)"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "launch-reported",
+              "text": "||Vaults open through the optional mission That's Where The Money Is... (Wait at the Cafe), which Yasmani offers after the Chapter 4 mission VCIA Takedown, near the end of Chapter 4.||",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "gtabase-thats-where-the-money-is",
+                "ppx-banks",
+                "gamesgg-bank-locations"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "What you need",
+              "text": "||That's Where The Money Is... completed. Optional: Yasmani sells security van tips for $10,000 each once his two Payday Loans robberies are done. Explosives to blow the doorway at the back of the bank. A partner, because a vault holds more than one character's bags; hand a full bag over to them.||",
+              "sources": [
+                "ppx-banks",
+                "ppx-trophy",
+                "gamesgg-bank-locations",
+                "powerpyx-thats-where-the-money-is",
+                "gtabase-thats-where-the-money-is"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Recommended",
+              "text": "||A fast motorcycle for weaving through traffic during the four-star chase. A spare outfit or a hat and glasses to change into once out of sight. Tail the van from a distance; the driver notices if you get too close.||",
+              "sources": [
+                "ppx-banks",
+                "ppx-trophy",
+                "keengamer-money",
+                "powerpyx-thats-where-the-money-is",
+                "gtabase-thats-where-the-money-is",
+                "gamesgg-bank-locations"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Step by step"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Find a security van",
+              "text": "||Find a security van: follow one you come across, wait at a bank until one arrives, or buy a $10,000 tip from Yasmani, which marks vans with a purple icon.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-money",
+                "ppx-trophy"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Tail it to a bank",
+              "text": "||Tail the van to a bank and park nearby.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "gtabase-thats-where-the-money-is"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Follow the guard in",
+              "text": "||Follow the guard inside on foot; the vault stays open only while he delivers the briefcase of cash.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "ppx-banks"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Hold up the lobby",
+              "text": "||Mask up, draw your gun and hold up the lobby.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "gamesgg-bank-locations"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Blow the vault doorway",
+              "text": "||Blow the doorway at the back with explosives and deal with the guards inside the vault.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "gtabase-thats-where-the-money-is"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "Fill the bags",
+              "text": "||Fill the bags from the cart of marked bills, hand a full bag to your partner or switch to them.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "ppx-trophy"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 7,
+              "title": "Take the drawer and safe too",
+              "text": "||GAMES.GG then takes the cash drawer and safe too, which the bank needs for the checklist.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "gamesgg-bank-locations"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 8,
+              "title": "Escape and sell the bills",
+              "text": "||Escape with four stars, change vehicle and outfit, then sell the bills to Yasmani.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "keengamer-money"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Best route and getaway"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Partner drives, you shoot",
+              "text": "||Let your partner drive while you shoot at pursuers.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "A fast bike through traffic",
+              "text": "||Use a fast motorcycle through traffic; a highway works in a fast car but expect roadblocks.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "gtabase-thats-where-the-money-is",
+                "ppx-banks"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Swap vehicles out of sight",
+              "text": "||Once out of sight, pull into a parking lot or covered garage, swap vehicles and change your look.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-thats-where-the-money-is",
+                "gtabase-thats-where-the-money-is",
+                "happygamer-vaults"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "The train tunnel north of Ambrosia",
+              "text": "||PowerPyx's easiest escape for four stars is the train tunnel north of Ambrosia in Kelly County, where police struggle on the tracks and the helicopter loses sight of you.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-trophy"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Leave the red heat zone",
+              "text": "||Leave the red heat zone, not just the flashing search area; a Pay 'n' Spray also helps.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-trophy",
+                "powerup-trucks-atms"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 6,
+              "title": "The first vault: Ocean Beach",
+              "text": "||GAMES.GG says Yasmani's introductory vault job is the medium-security Lombank in Ocean Beach, with a dock nearby for a boat escape.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "gamesgg-bank-locations"
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-banks",
+                "gamesgg-bank-locations",
+                "happygamer-vaults",
+                "gtabase-thats-where-the-money-is",
+                "keengamer-money",
+                "ppx-trophy",
+                "ppx-fences",
+                "powerpyx-thats-where-the-money-is"
+              ],
+              "caption": "||What big banks pay, how hot they get and whether they come back.||",
+              "columns": [
+                "",
+                "What the guides say"
+              ],
+              "rows": [
+                [
+                  "Payout",
+                  "||Vaults pay about $65,000 to $205,000 per robbery; the two top Lombanks pay $135,000 to $205,000. GTABase says a full haul in the first vault job is worth around $80,000. KeenGamer says a successful run typically brings $100,000 to $200,000 in a few minutes. The money is marked bills; Yasmani pays the best rate.||"
+                ],
+                [
+                  "Heat",
+                  "||Robbing a vault gives four wanted stars at once and the police open fire straight away. PowerPyx says the Hot Together trophy (lose four stars with your partner) usually pops during vault robberies, and only once you leave the red heat zone.||"
+                ],
+                [
+                  "Resets",
+                  "||Vaults can be robbed again after the story by finding more vans or buying more tips; no allowed guide gives a cooldown per bank.||"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-banks",
+                "gamesgg-bank-locations",
+                "happygamer-vaults"
+              ],
+              "caption": "||Place by place, where a guide says something about it.||",
+              "columns": [
+                "Place",
+                "Notes"
+              ],
+              "rows": [
+                [
+                  "Fleeca Bank (Vice City International Airport)",
+                  "||PowerPyx lists the vault take as $100,000 to $150,000; the cash drawer, safe and vault all count for the job. GAMES.GG gives this bank a high security rating on its map card.||"
+                ],
+                [
+                  "Fleeca Bank (Tequesta)",
+                  "||PowerPyx lists the vault take as $65,000 to $110,000; the cash drawer, safe and vault all count for the job. GAMES.GG gives this bank a high security rating on its map card.||"
+                ],
+                [
+                  "Lombank (Downtown)",
+                  "||PowerPyx lists the vault take as $135,000 to $205,000; the cash drawer, safe and vault all count for the job. GAMES.GG gives this bank a high security rating on its map card. HappyGamer suggests a fast motorbike through traffic for the Downtown banks.||"
+                ],
+                [
+                  "Fleeca Bank (Downtown)",
+                  "||PowerPyx lists the vault take as $100,000 to $150,000; the cash drawer, safe and vault all count for the job. GAMES.GG gives this bank a high security rating on its map card. HappyGamer suggests a fast motorbike through traffic for the Downtown banks.||"
+                ],
+                [
+                  "Lombank (Ocean Beach)",
+                  "||Two large Lombanks are in Ocean Beach: PowerPyx lists one at $135,000 to $205,000 and the other at $75,000 to $135,000. GAMES.GG rates the $135,000 to $205,000 Lombank as high security and the second one as medium. HappyGamer suggests a fast boat from the nearby docks for Ocean Beach, which avoids bridge roadblocks.||"
+                ],
+                [
+                  "Fleeca Bank (Ocean Beach)",
+                  "||PowerPyx lists the vault take as $75,000 to $135,000; the cash drawer, safe and vault all count for the job. GAMES.GG gives this bank a high security rating on its map card. HappyGamer suggests a fast boat from the nearby docks for Ocean Beach, which avoids bridge roadblocks.||"
+                ],
+                [
+                  "Coastal Bank (Ocean Beach)",
+                  "||PowerPyx lists the vault take as $95,000 to $140,000; the cash drawer, safe and vault all count for the job. GAMES.GG gives this bank a high security rating on its map card. HappyGamer suggests a fast boat from the nearby docks for Ocean Beach, which avoids bridge roadblocks.||"
+                ]
+              ],
+              "rowLinks": [
+                "#/map?focus=Fleeca%20Bank%20%28Vice%20City%20International%20Airport%29",
+                "#/map?focus=Fleeca%20Bank%20%28Tequesta%29",
+                "#/map?focus=Lombank%20%28Downtown%29",
+                "#/map?focus=Fleeca%20Bank%20%28Downtown%29",
+                "#/map?focus=Lombank%20%28Ocean%20Beach%29",
+                "#/map?focus=Fleeca%20Bank%20%28Ocean%20Beach%29",
+                "#/map?focus=Coastal%20Bank%20%28Ocean%20Beach%29"
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "||How long the vault stays open during a delivery.||",
+                "||Back exits, guard counts and vault positions at each of the eight banks.||",
+                "||Whether the drawer and safe at a large bank can be robbed before the vault opens.||",
+                "||Which Ocean Beach Lombank is the $205,000 one.||"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pawn shops",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Pawn",
+              "accent": "shops"
+            },
+            {
+              "type": "intro",
+              "text": "||Pawn shops: a counter, a back office and a safe.||"
+            },
+            {
+              "type": "maplink",
+              "kind": "Smash and Grabs",
+              "plan": "pawn-shops",
+              "text": "Plan this run on the map (13 stops)"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "launch-reported",
+              "text": "||Pawn shops become robberies after the Chapter 2 main mission Coffee Break, about halfway through Chapter 2. The optional Coffee Break job Hit Avery Pawn in Port Gellhorn introduces them.||",
+              "sources": [
+                "ppx-smash",
+                "gamesgg-jewelry-stores",
+                "powerpyx-hit-avery-pawn",
+                "vgc-avery-pawn-safe"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "What you need",
+              "text": "||A gun and a mask; from Chapter 3, the Snap Gun for back doors and sticky bombs for safes.||",
+              "sources": [
+                "powerpyx-hit-avery-pawn",
+                "g100-gr-bowling",
+                "gamesgg-jewelry-stores"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Recommended",
+              "text": "||Scout first: pawn shops are heavily secured and many can be entered from the back, where security can be switched off and footage destroyed. Keep your partner on the staff; clerks are quick to shoot. Do not kill or knock out the employees before getting the code, or you cannot learn it from them. Body armour for a loud attempt and a vehicle with trunk space for bags and spare clothes.||",
+              "sources": [
+                "g100-vgc-money",
+                "r8-pcg-money",
+                "vgc-avery-pawn-safe",
+                "gamesgg-jewelry-stores"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Step by step"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Get the safe code",
+              "text": "||Draw your gun on the staff and threaten them repeatedly until Safe Code? appears.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "vgc-avery-pawn-safe",
+                "powerpyx-hit-avery-pawn"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Smash the cases",
+              "text": "||Smash the display cases and collect the jewelry; breaking glass alone does not pick it up.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-hit-avery-pawn",
+                "gamesgg-jewelry-stores"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Clear the back office",
+              "text": "||Go through the staff door to the back office, deal with the employee there, destroy the CCTV footage and turn off the alarm.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "vgc-avery-pawn-safe"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Open the safe",
+              "text": "||Open the safe with the code or a sticky bomb; the shop only counts as done once the safe is looted.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-smash",
+                "vgc-avery-pawn-safe"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Lose the police and fence",
+              "text": "||Leave, lose the police and fence the jewelry.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-hit-avery-pawn"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Best route and getaway"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "A fast bike or off-road",
+              "text": "||A fast sports bike through traffic, or going off-road.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerpyx-hit-avery-pawn"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Change outfit and car",
+              "text": "||Change outfit and respray or swap the car after the chase.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "gamesgg-jewelry-stores"
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-smash",
+                "ppx-fences",
+                "gamesgg-jewelry-stores",
+                "powerpyx-hit-avery-pawn",
+                "r8gb-strangers-hit-avery-pawn",
+                "g100-vgc-money",
+                "g100-gb-money"
+              ],
+              "caption": "||What pawn shops pay, how hot they get and whether they come back.||",
+              "columns": [
+                "",
+                "What the guides say"
+              ],
+              "rows": [
+                [
+                  "Payout",
+                  "||PowerPyx gives $1,000 to $12,000 per pawn shop, depending on the shop. Paid as jewelry and goods that must be sold to a fence; Yasmani pays the best rate for jewelry.||"
+                ],
+                [
+                  "Heat",
+                  "||Breaking a case or a door calls the police with two stars. Pawn shop robberies bring a higher wanted level than a grocery store.||"
+                ],
+                [
+                  "Resets",
+                  "||GTABase says robbed stores need time to restock, so an early repeat pays less; no time is given.||"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "vgc-avery-pawn-safe",
+                "powerpyx-hit-avery-pawn",
+                "ppx-smash",
+                "r8gb-strangers-hit-avery-pawn"
+              ],
+              "caption": "||Place by place, where a guide says something about it.||",
+              "columns": [
+                "Place",
+                "Notes"
+              ],
+              "rows": [
+                [
+                  "Avery Pawn",
+                  "||Port Gellhorn shop from Hit Avery Pawn; the safe is beside the desk in the back office, reached through the staff-only door behind the counter. The safe code is random: PowerPyx's game showed 6499 and VGC's showed 3156. CCTV footage and the alarm switch are in the back office. PowerPyx lists the take as $1,000 to $10,000; GTABase says the mission bag can be stashed at Dunk's trailer in Port Gellhorn.||"
+                ]
+              ],
+              "rowLinks": [
+                "#/map?focus=Avery%20Pawn"
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "||Guard counts, camera and safe positions for the other 14 pawn shops.||",
+                "||Exact wanted level for a quiet pawn shop robbery where no glass is broken.||",
+                "||Restock time.||"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Jewelry stores",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Jewelry",
+              "accent": "stores"
+            },
+            {
+              "type": "intro",
+              "text": "||Smash and grabs: glass cases, a back room and an alarm.||"
+            },
+            {
+              "type": "maplink",
+              "kind": "Smash and Grabs",
+              "plan": "jewelry-stores",
+              "text": "Plan this run on the map (23 stops)"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "launch-reported",
+              "text": "||Jewelry stores open after the Chapter 3 mission Yasmani's Jewelry Jobs, about halfway through Chapter 3.||",
+              "sources": [
+                "ppx-smash",
+                "gamesgg-jewelry-stores",
+                "keengamer-money"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "What you need",
+              "text": "||The Snap Gun, given by Yasmani after the first delivery in Yasmani's Jewelry Jobs, opens alarmed back doors silently. Sticky bombs as a fallback for safes.||",
+              "sources": [
+                "ppx-yasmani",
+                "ppx-trophy",
+                "gamesgg-jewelry-stores"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Recommended",
+              "text": "||Use the back door with the Snap Gun; kicking it sets off the alarm. Open the back-office safe first, then take display jewelry if time allows. Your partner keeps the shop floor under control while you work.||",
+              "sources": [
+                "ppx-trophy",
+                "r8-pcg-money",
+                "keengamer-money"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Step by step"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "In through the back door",
+              "text": "||Snap Gun the back door and quietly deal with staff or security in the back.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "r8-pcg-money",
+                "ppx-trophy"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Kill the cameras and alarm",
+              "text": "||Destroy the security footage and disable the alarm at the panel.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-trophy",
+                "g100-gb-money"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Find the code, open the safe",
+              "text": "||Find the code (often a note in the office or on a desk) or threaten someone for it, and open the safe.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "g100-gb-money",
+                "ppx-trophy"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Leave quietly or go loud",
+              "text": "||Leave quietly, or go to the front, smash the cases and empty the drawers.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "r8gb-strangers-yasmanis-jewelry-jobs",
+                "r8-pcg-money"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 5,
+              "title": "Escape and sell",
+              "text": "||Escape and sell to Yasmani.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "keengamer-money"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Best route and getaway"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Quiet means no chase",
+              "text": "||Done quietly you can leave without a chase; otherwise lose the police, change clothes and respray the car.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "r8-pcg-money",
+                "gamesgg-jewelry-stores"
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-smash",
+                "keengamer-money",
+                "gamesgg-jewelry-stores",
+                "ppx-fences",
+                "ppx-trophy",
+                "r8-pcg-money",
+                "g100-vgc-money",
+                "g100-gb-money"
+              ],
+              "caption": "||What jewelry stores pay, how hot they get and whether they come back.||",
+              "columns": [
+                "",
+                "What the guides say"
+              ],
+              "rows": [
+                [
+                  "Payout",
+                  "||PowerPyx gives $1,000 to $25,000 per store; KeenGamer says $10,000 to $25,000 is typical. GAMES.GG shows an upper take of $35,000 for Covgari, Blanc & Giroux and Royal Jewelry, where PowerPyx lists $14,000 to $25,000. Paid as jewelry for a fence; Yasmani pays the highest rate.||"
+                ],
+                [
+                  "Heat",
+                  "||A quiet run with the alarm off and footage destroyed can end with no chase; the Sneakthief trophy is for robbing a jewelry store undetected. Jewelry stores bring a higher wanted level than a grocery store.||"
+                ],
+                [
+                  "Resets",
+                  "||Robbed jewelry stores restock over time, so you can rob others while waiting; no time is given.||"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-trophy",
+                "ppx-yasmani",
+                "r8gb-strangers-yasmanis-jewelry-jobs",
+                "gamesgg-jewelry-stores"
+              ],
+              "caption": "||Place by place, where a guide says something about it.||",
+              "columns": [
+                "Place",
+                "Notes"
+              ],
+              "rows": [
+                [
+                  "Richardson Jewelry and Diamonds",
+                  "||PowerPyx's easiest store for Sneakthief: Snap Gun the back door, find the safe code note in the back room, destroy footage and disable the alarm. In Yasmani's Jewelry Jobs the safe is in the north-east corner of the central room, code 6815.||"
+                ],
+                [
+                  "Donovan Banks & Co.",
+                  "||Back door opens with the Snap Gun; footage and security are in the small back office and the safe is halfway down the long back hallway, code 0104 in Yasmani's job.||"
+                ],
+                [
+                  "Caugari",
+                  "||GAMES.GG names Covgari as one of three stores for the Retail Therapy trophy chain, with Blanc & Giroux and Royal Jewelry.||"
+                ],
+                [
+                  "Roval Jewelers",
+                  "||GAMES.GG names Royal Jewelry as one of three stores for the Retail Therapy trophy chain; PowerPyx says the three north Vice City jewelry stores are the easiest spot for it.||"
+                ]
+              ],
+              "rowLinks": [
+                "#/map?focus=Richardson%20Jewelry%20and%20Diamonds",
+                "#/map?focus=Donovan%20Banks%20%26%20Co.",
+                "#/map?focus=Caugari",
+                "#/map?focus=Roval%20Jewelers"
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "||Which stores have a Snap Gun back door, apart from Richardson and Donovan Banks.||",
+                "||Guard counts and safe positions per store.||",
+                "||Restock time.||",
+                "||Whether the map marker 'Bolongiru' is Blanc & Giroux.||"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Payday loans",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Payday",
+              "accent": "loans"
+            },
+            {
+              "type": "intro",
+              "text": "||Payday loan stores: guards, a locked door and cash drawers.||"
+            },
+            {
+              "type": "maplink",
+              "kind": "Payday Loan Stores",
+              "plan": "payday-loans",
+              "text": "Plan this run on the map (7 stops)"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "launch-reported",
+              "text": "||Payday loan stores open after the Chapter 3 mission Credit Check, which gives the Dye Pack Jammer. Yasmani's Payday Loans Jobs is his second side mission, after Yasmani's ATM Jobs.||",
+              "sources": [
+                "ppx-payday",
+                "gtabase-yasmanis-payday-loans-jobs",
+                "powerpyx-strangers-freaks"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "What you need",
+              "text": "||The Dye Pack Jammer to fence the marked bills.||",
+              "sources": [
+                "ppx-payday"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Recommended",
+              "text": "||Watch for staff hitting the panic alarm; payday stores have a lot of security.||",
+              "sources": [
+                "r8-pcg-money"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Step by step"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Hold up the teller",
+              "text": "||Aim at the teller and wait for the cash to be put on the counter, then take it.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-payday"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Empty the back safe",
+              "text": "||Go into the back room and empty the safe; the store only counts with both.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-payday",
+                "ppx-100"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Lose your wanted level",
+              "text": "||Lose your wanted level before going to a fence.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-payday"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Best route and getaway"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Escape before selling",
+              "text": "||Escape the police before selling.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-payday"
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-payday",
+                "ppx-fences",
+                "ppx-trophy"
+              ],
+              "caption": "||What payday loans pay, how hot they get and whether they come back.||",
+              "columns": [
+                "",
+                "What the guides say"
+              ],
+              "rows": [
+                [
+                  "Payout",
+                  "||PowerPyx gives $2,000 to $25,000 per store; Little Cuba is the best at $15,000 to $25,000. Paid as marked bills; Yasmani pays high.||"
+                ],
+                [
+                  "Heat",
+                  "||No allowed guide gives the wanted level for an open-world payday loan robbery.||"
+                ],
+                [
+                  "Resets",
+                  "||PowerPyx's Bad Luck, I Guess trophy has you rob the Little Cuba store from the Prologue again, so story locations can be robbed later in free roam.||"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-payday",
+                "ppx-trophy"
+              ],
+              "caption": "||Place by place, where a guide says something about it.||",
+              "columns": [
+                "Place",
+                "Notes"
+              ],
+              "rows": [
+                [
+                  "Payday Loans (Little Cuba)",
+                  "||$15,000 to $25,000, the best payday store. For Bad Luck, I Guess (after Credit Check, Lucia alone): take out the guards, break through the door and take the cash from three drawers, then escape on foot; the trophy fails if you leave by vehicle.||"
+                ],
+                [
+                  "Quick Cash Loans (Hamlet)",
+                  "||PowerPyx lists Quick Buck in Hamlet at $5,000 to $15,000.||"
+                ],
+                [
+                  "Payline Loans 24/7",
+                  "||$5,000 to $15,000.||"
+                ],
+                [
+                  "Payday Loans (Southside)",
+                  "||$5,000 to $15,000.||"
+                ],
+                [
+                  "Payday Loans (Rockridge)",
+                  "||$5,000 to $15,000.||"
+                ],
+                [
+                  "Quick Cash Loans (La Perle)",
+                  "||PowerPyx lists Quick Buck in La Perle at $5,000 to $15,000.||"
+                ],
+                [
+                  "Cash Flow Loans",
+                  "||Kelly County, $2,000 to $10,000, the lowest payday take.||"
+                ]
+              ],
+              "rowLinks": [
+                "#/map?focus=Payday%20Loans%20%28Little%20Cuba%29",
+                "#/map?focus=Quick%20Cash%20Loans%20%28Hamlet%29",
+                "#/map?focus=Payline%20Loans%2024/7",
+                "#/map?focus=Payday%20Loans%20%28Southside%29",
+                "#/map?focus=Payday%20Loans%20%28Rockridge%29",
+                "#/map?focus=Quick%20Cash%20Loans%20%28La%20Perle%29",
+                "#/map?focus=Cash%20Flow%20Loans"
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "||Wanted level for a payday loan robbery.||",
+                "||Guards, cameras and safe positions per store.||",
+                "||Restock time.||"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "ATMs and vans",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "ATMs",
+              "accent": "and vans"
+            },
+            {
+              "type": "intro",
+              "text": "||Tearing out ATMs with a winch, and opening security trucks.||"
+            },
+            {
+              "type": "maplink",
+              "kind": "ATMs",
+              "plan": "atms",
+              "text": "Plan this run on the map (12 stops)"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "launch-reported",
+              "text": "||Power Up Gaming says ATM robbery opens after Yasmani's Jewelry Jobs through Yasmani's ATM Jobs, which GTABase lists as his first side mission. AltChar instead says no story unlock is needed and ATMs can be towed from Chapter 2. Power Up Gaming says roaming security trucks need no unlock; vault vans come with That's Where The Money Is.||",
+              "sources": [
+                "powerup-trucks-atms",
+                "gtabase-yasmanis-atm-jobs",
+                "altchar-atms"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "What you need",
+              "text": "||A winch from a Mod Shop (Bodywork, then Towing) for $1,595, fitted to a vehicle you own; AltChar confirms a 4x4 pickup works. Sticky bombs for a truck's rear doors, and a vehicle to block it. The Dye Pack Jammer to sell the marked bills.||",
+              "sources": [
+                "altchar-atms",
+                "powerup-trucks-atms",
+                "ppx-trophy",
+                "ppx-fences"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Recommended",
+              "text": "||Pick an ATM with open road ahead; tight streets make the escape harder. Rob a truck near a bank, where they drive around.||",
+              "sources": [
+                "altchar-atms",
+                "ppx-trophy",
+                "powerup-trucks-atms"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Step by step"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Winch the ATM out",
+              "text": "||ATM: find a towable one on the map (only some are), reverse up so the winch hooks on, then drive forward to tear it out.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "altchar-atms",
+                "powerup-trucks-atms"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Break it open",
+              "text": "||ATM: escape, then break it open by driving or with an explosive, and shoot the cash cases.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "altchar-atms",
+                "ppx-fences"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Rob a security truck",
+              "text": "||Truck: follow it, block it, plant a sticky bomb on the rear doors, detonate and shoot the security cases.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerup-trucks-atms",
+                "ppx-trophy",
+                "ppx-fences"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Best route and getaway"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Drive far with it attached",
+              "text": "||Keep the ATM attached and drive far away until the police stop searching.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "altchar-atms"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Fast vehicle, then respray",
+              "text": "||Use a fast vehicle, leave the red heat area, respray at a Pay 'n' Spray and change outfit.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerup-trucks-atms",
+                "ppx-trophy"
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "powerup-trucks-atms",
+                "altchar-atms",
+                "ppx-trophy"
+              ],
+              "caption": "||What atms and vans pay, how hot they get and whether they come back.||",
+              "columns": [
+                "",
+                "What the guides say"
+              ],
+              "rows": [
+                [
+                  "Payout",
+                  "||No allowed guide gives an amount for an ATM or a security truck. Both pay marked bills; Yasmani gives the best rate.||"
+                ],
+                [
+                  "Heat",
+                  "||Pulling an ATM from the wall alerts the police; Power Up Gaming expects them as soon as it comes out. A Classic Blitz Play (rob an armoured truck and escape) unlocks only after you leave the red heat zone.||"
+                ],
+                [
+                  "Resets",
+                  "||No allowed guide says whether ATMs or trucks respawn.||"
+                ]
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "||Cash held by an ATM or a truck.||",
+                "||Whether ATMs need a story unlock (sources disagree).||",
+                "||Wanted level for each.||",
+                "||Respawn time.||"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Stick-ups",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Stick-ups",
+              "accent": "step by step"
+            },
+            {
+              "type": "intro",
+              "text": "||Convenience, liquor and fast food stores: the quickest robbery.||"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "launch-reported",
+              "text": "||Stick-ups are open from Chapter 1; most enterable stores can be robbed, even without a map icon.||",
+              "sources": [
+                "g100-boom-early-money",
+                "gamesgg-store-robbery"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "What you need",
+              "text": "||A gun you can draw and something to cover your face.||",
+              "sources": [
+                "gamesgg-store-robbery",
+                "g100-pcg-mask"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Recommended",
+              "text": "||Park a getaway vehicle outside and keep a spare outfit in its trunk. Check the exits first; One Stop Liquor in Key Lento has a back door, but forcing it alerts the owner.||",
+              "sources": [
+                "gamesgg-store-robbery"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Step by step"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Mask up and aim",
+              "text": "||Mask up, go in and aim at the cashier.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "gamesgg-store-robbery",
+                "g100-vgc-money"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Take the register",
+              "text": "||Demand the register or open it yourself and take every stack.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "gamesgg-store-robbery",
+                "g100-gr-money"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Open the back safe (optional)",
+              "text": "||Optionally open a back-room safe with a code from staff or a note, or force it.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "g100-vgc-money",
+                "gamesgg-store-robbery"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Leave and lose the heat",
+              "text": "||Leave, change outfit and get out of the heat zone.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "gamesgg-store-robbery"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Best route and getaway"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Change, respray, leave the zone",
+              "text": "||Change outfit, swap the car or respray it at a Pay 'n' Spray for $200, and leave the red heat zone even after the stars clear.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "gamesgg-store-robbery"
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-liquor",
+                "gamesgg-store-robbery",
+                "g100-boom-early-money",
+                "g100-vgc-money"
+              ],
+              "caption": "||What stick-ups pay, how hot they get and whether they come back.||",
+              "columns": [
+                "",
+                "What the guides say"
+              ],
+              "rows": [
+                [
+                  "Payout",
+                  "||PowerPyx gives $100 to $3,000 at liquor stores; GAMES.GG says a register usually holds a couple of hundred dollars. Paid as pocket cash.||"
+                ],
+                [
+                  "Heat",
+                  "||GAMES.GG says a store robbery brings one or two stars; VGC says the response to a grocery store is low.||"
+                ],
+                [
+                  "Resets",
+                  "||GAMES.GG says the same shop cannot be robbed back to back and may stay closed for a while; robbing again inside its active heat area brings faster police.||"
+                ]
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "||How long a robbed store stays closed.||",
+                "||Which stores have a back-room safe.||"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Gang operations",
+          "blocks": [
+            {
+              "type": "heading",
+              "text": "Gang",
+              "accent": "operations"
+            },
+            {
+              "type": "intro",
+              "text": "||Raiding gang sites for cash, drugs and weapons.||"
+            },
+            {
+              "type": "maplink",
+              "kind": "Gang Operations",
+              "plan": "gang-operations",
+              "text": "Plan this run on the map (21 stops)"
+            },
+            {
+              "type": "paragraph",
+              "evidence": "launch-reported",
+              "text": "||Gang operations are available from Chapter 1; 19 are marked by the story.||",
+              "sources": [
+                "keengamer-money",
+                "ppx-100",
+                "keengamer-fishing-shacks"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "What you need",
+              "text": "||Armour, healing and a rifle; sticky bombs for safes from Chapter 3.||",
+              "sources": [
+                "ppx-kingpin",
+                "g100-gr-bowling"
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Recommended",
+              "text": "||Use Focus to spot guards and explosives before going in. Prioritise sites with cocaine, which sells for far more than weed.||",
+              "sources": [
+                "keengamer-fishing-shacks",
+                "keengamer-money",
+                "g100-vgc-money"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Step by step"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Check the valuables",
+              "text": "||Hover over the icon to see the key valuables, usually a unique weapon, a watch and a safe.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-gangops"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 2,
+              "title": "Pick loud or stealth",
+              "text": "||Choose a loud fight or a stealth approach and clear the guards.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "r8-pcg-money",
+                "g100-boom-watson"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 3,
+              "title": "Take the valuables and safe",
+              "text": "||Take every key valuable and open the safe with a code found on site, a sticky bomb or Break Open.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "ppx-gangops",
+                "g100-boom-apollo"
+              ]
+            },
+            {
+              "type": "rule"
+            },
+            {
+              "type": "numbered",
+              "n": 4,
+              "title": "Store the bags and escape",
+              "text": "||Store bags in your vehicle, escape and fence narcotics.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "g100-boom-apollo",
+                "keengamer-fishing-shacks"
+              ]
+            },
+            {
+              "type": "subheading",
+              "text": "Best route and getaway"
+            },
+            {
+              "type": "numbered",
+              "n": 1,
+              "title": "Leave by boat",
+              "text": "||Several sites are on water; leaving by boat is the usual escape.||",
+              "evidence": "launch-reported",
+              "sources": [
+                "keengamer-fishing-shacks",
+                "g100-boom-watson"
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "g100-boom-watson",
+                "g100-boom-apollo",
+                "keengamer-money",
+                "ppx-kingpin",
+                "keengamer-fishing-shacks",
+                "ppx-gangops"
+              ],
+              "caption": "||What gang operations pay, how hot they get and whether they come back.||",
+              "columns": [
+                "",
+                "What the guides say"
+              ],
+              "rows": [
+                [
+                  "Payout",
+                  "||Pay varies by site; GTA BOOM found about $3,000 cash at Watson Bay and about $14,400 from one Apollo Aggregates haul.||"
+                ],
+                [
+                  "Heat",
+                  "||PowerPyx leaves Kingpin Bowling with two stars; no guide gives a general rule.||"
+                ],
+                [
+                  "Resets",
+                  "||Sites restock over time, but unique weapons do not come back.||"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "evidence": "launch-reported",
+              "sources": [
+                "keengamer-fishing-shacks",
+                "vgc-brooks-boatworks-safe",
+                "g100-gr-bowling",
+                "vgc-la-cascara-safe",
+                "ppx-kingpin",
+                "ppx-trophy"
+              ],
+              "caption": "||Place by place, where a guide says something about it.||",
+              "columns": [
+                "Place",
+                "Notes"
+              ],
+              "rows": [
+                [
+                  "Kingfishers: Fishing Shack",
+                  "||Island in Wetman Bay, high security; land by boat on the south shore, avoid swimming (alligators). About six or seven Kingfishers; the W-22 is on the kitchen counter, $500 is under the floorboards. Escape from the north dock by boat or seaplane.||"
+                ],
+                [
+                  "Court Coalition: Brooks Boatyard",
+                  "||Kolts site in Port Gellhorn; the safe office has several armed Kolts. An office on the east side holds three safe codes, including Kingpin Bowling and La Cascara Motel.||"
+                ],
+                [
+                  "Court Coalition: La Cascara Motel",
+                  "||Safe is on the top floor; gang members on most floors; code is at Brooks Boatworks.||"
+                ],
+                [
+                  "Court Coalition: Big Shot Bowling",
+                  "||Kingpin Bowling: watch in the south-east office, shotgun on the north-east pool table, safe code 0300. Leave by the alley with two stars; the trophy pops after you escape.||"
+                ]
+              ],
+              "rowLinks": [
+                "#/map?focus=Kingfishers%3A%20Fishing%20Shack",
+                "#/map?focus=Court%20Coalition%3A%20Brooks%20Boatyard",
+                "#/map?focus=Court%20Coalition%3A%20La%20Cascara%20Motel",
+                "#/map?focus=Court%20Coalition%3A%20Big%20Shot%20Bowling"
+              ]
+            },
+            {
+              "type": "unknown",
+              "items": [
+                "||Wanted level for most sites.||",
+                "||Restock time.||",
+                "||Which gamersky marker names match PowerPyx's site names.||"
+              ]
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "src": "/images/manual/guide/g100-robberies-store-hold-up.jpg",
+        "caption": "Lucia and Jason, bandanas over their faces, entering a convenience store with pistols rais",
+        "credit": "Picture: GTABase"
+      }
+    },
+    {
+      "id": "sources",
+      "number": "22",
       "title": "Reference & Sources",
       "accent": "Sources",
       "status": "published",

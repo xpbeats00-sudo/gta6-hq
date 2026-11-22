@@ -356,7 +356,7 @@
         <p>None of the app's in-game pictures is tied to a place on the map.</p><button type="button" class="btn" data-close>Back to the map</button></div>`;
     } else {
       root.innerHTML = `
-        <div class="sv-photo"><img alt="" draggable="false"><div class="sv-shade"></div></div>
+        <div class="sv-photo"><div class="sv-backdrop" aria-hidden="true"></div><img alt="" draggable="false" decoding="async"><div class="sv-shade"></div></div>
         <header class="sv-top">
           ${cast()}
           <div><span class="kicker">Street Explorer</span><h2 class="sv-where">Near ${esc(where)}</h2>
@@ -376,9 +376,30 @@
         </footer>`;
     }
 
-    const img = root.querySelector('.sv-photo img');
-    let pan = 50, zoom = 1;
+    let img = root.querySelector('.sv-photo img');
+    let pan = 50, zoom = 1, maxZoom = 1.8;
     const place = () => { if (img) { img.style.objectPosition = `${pan}% 50%`; img.style.transform = `scale(${zoom})`; } };
+    // Sharpness first: a picture is never shown much bigger than it really is. One that would have
+    // to be enlarged more than 1.6 times to fill the screen is shown whole, at up to 1.6 times its
+    // own size, over a soft blurred copy of itself; leaning in (the wheel) stops at 1.5 times.
+    const SOFT = 1.6;
+    function fit(el) {
+      const box = root.querySelector('.sv-photo');
+      const W2 = box.clientWidth || innerWidth, H2 = box.clientHeight || innerHeight;
+      const nw = el.naturalWidth || W2, nh = el.naturalHeight || H2;
+      const cover = Math.max(W2 / nw, H2 / nh);
+      const whole = cover > SOFT;
+      el.classList.toggle('is-whole', whole);
+      el.style.setProperty('--sv-w', `${Math.round(nw * SOFT)}px`);
+      el.style.setProperty('--sv-h', `${Math.round(nh * SOFT)}px`);
+      box.classList.toggle('has-backdrop', whole);
+      maxZoom = whole ? 1 : Math.max(1, Math.min(1.8, 1.5 / cover));
+      zoom = Math.min(zoom, maxZoom);
+    }
+    // The pictures either side are fetched ahead, so stepping on shows the next one at once.
+    const ahead = new Map();
+    const preload = (src) => { if (src && !ahead.has(src)) { const im = new Image(); im.decoding = 'async'; im.src = src; ahead.set(src, im); } };
+    let showing = 0;
     const mini = root.querySelector('.sv-mini');
     const scale = 0.42; // mini-map: the official map at 42%, centred on the picture's place
 
@@ -389,10 +410,27 @@
       options.onPhoto?.(p);
       const next = near[(index + 1) % near.length].p;
       pan = 50; zoom = 1;
-      img.classList.remove('is-in');
-      img.onload = () => img.classList.add('is-in');
-      img.src = p.src;
-      place();
+      // Cross-fade: the new picture is decoded first, then fades in over the one on screen, so
+      // stepping never blinks to black.
+      const ticket = ++showing;
+      const incoming = img.cloneNode(false);
+      incoming.classList.remove('is-in', 'is-whole');
+      incoming.src = p.src;
+      const ready = incoming.decode ? incoming.decode().catch(() => {}) : Promise.resolve();
+      ready.then(() => {
+        if (ticket !== showing || !root.isConnected) return;
+        const old = img;
+        fit(incoming);
+        root.querySelector('.sv-backdrop').style.backgroundImage = `url("${p.src}")`;
+        old.after(incoming);
+        img = incoming;
+        place();
+        requestAnimationFrame(() => incoming.classList.add('is-in'));
+        old.classList.remove('is-in');
+        setTimeout(() => old.remove(), 450);
+      });
+      preload(next.src);
+      preload(near[(index - 1 + near.length) % near.length].p.src);
       const link = options.link(p.ref);
       // Which way the next picture lies from this one, on the map (only when they are apart).
       const dx = (next.x - p.x) * W, dy = (next.y - p.y) * H;
@@ -435,9 +473,13 @@
       place();
     });
     photo?.addEventListener('pointerup', () => { drag = null; });
-    photo?.addEventListener('wheel', (e) => { e.preventDefault(); zoom = Math.max(1, Math.min(1.8, zoom - e.deltaY * 0.0012)); place(); }, { passive: false });
+    photo?.addEventListener('wheel', (e) => { e.preventDefault(); zoom = Math.max(1, Math.min(maxZoom, zoom - e.deltaY * 0.0012)); place(); }, { passive: false });
+    // A window resized while open re-fits the picture on screen.
+    const onResize = () => { if (img?.complete) { fit(img); place(); } };
+    addEventListener('resize', onResize);
 
     function close() {
+      removeEventListener('resize', onResize);
       document.removeEventListener('keydown', onKey, true);
       window.removeEventListener('hashchange', close);
       root.remove();

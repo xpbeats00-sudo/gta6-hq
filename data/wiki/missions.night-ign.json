@@ -27,7 +27,8 @@
     "sources": [
       "ign-ring-the-bell",
       "ign-optional-missions",
-      "ign-ch1-missables"
+      "ign-ch1-missables",
+      "rs-gtabase-ring-the-bell"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -59,7 +60,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-got-pills"
+      "ign-got-pills",
+      "rs-gtabase-got-pills",
+      "rs-gtaboom-got-pills"
     ],
     "verified": "2026-11-18",
     "spoiler": true

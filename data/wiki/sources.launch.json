@@ -8197,5 +8197,381 @@
     "accessed": "2026-11-21",
     "notes": "Used for pin positions only, read from Gamersky's interactive map as republished at gta6-wiki.org/map and placed approximately on Rockstar's Leonida map poster. 993 of the map's 1,008 pins carry via: gamersky; the other 15 were placed by hand on the poster. How the points were moved onto the poster (calibration points, expected error) is not recorded.",
     "terms": "Not established. No licence for, or permission to reuse, this set of points is recorded in this repository."
+  },
+  "rs-gtabase-under-the-bridge-map": {
+    "title": "All GTA 6 Under the Bridge Locations (202)",
+    "publisher": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/map/?feature=under-the-bridge",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtabase-ahol-street-art-map": {
+    "title": "All GTA 6 Ahol Street Art Locations",
+    "publisher": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/map/?feature=ahol-street-art",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-powerpyx-collectible-progress-database": {
+    "title": "GTA 6 Collectible Guide - Progress Database",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-collectible-guide-progress-database/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtabase-standout-vehicles-map": {
+    "title": "All GTA 6 Standout Vehicle Locations",
+    "publisher": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/map/?feature=standout-vehicle",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-damnmodz-gta6-boats": {
+    "title": "GTA 6 Boats: Yachts, Jet Skis and Kayaks",
+    "publisher": "DamnModz",
+    "url": "https://damnmodz.com/wiki/gta-6/vehicles/boats/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-all-card-sets": {
+    "title": "All Collectible Cards Set Locations",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/All_Collectible_Cards_Set_Locations",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-delights-dancers-cards": {
+    "title": "Delights Dancers Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Delights_Dancers_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-liberty-city-penetrators-cards": {
+    "title": "Liberty City Penetrators Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Liberty_City_Penetrators_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-liberty-city-wrath-cards": {
+    "title": "Liberty City Wrath Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Liberty_City_Wrath_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-liberty-city-swingers-cards": {
+    "title": "Liberty City Swingers Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Liberty_City_Swingers_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-los-santos-corkers-cards": {
+    "title": "Los Santos Corkers Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Los_Santos_Corkers_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-los-santos-panic-cards": {
+    "title": "Los Santos Panic Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Los_Santos_Panic_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-los-santos-pounders-cards": {
+    "title": "Los Santos Pounders Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Los_Santos_Pounders_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-vice-city-club-de-futbol-cards": {
+    "title": "Vice City Club De Futbol Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Vice_City_Club_De_F%C3%BAtbol_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-vice-city-flamingos-cards": {
+    "title": "Vice City Flamingos Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Vice_City_Flamingos_Card_Sets",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-vice-city-manatees-cards": {
+    "title": "Vice City Manatees Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Vice_City_Manatees_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-fextralife-gta6-vice-city-narcos-cards": {
+    "title": "Vice City Narcos Card Set",
+    "publisher": "Fextralife GTA 6 Wiki",
+    "url": "https://gta6.wiki.fextralife.com/Vice_City_Narcos_Card_Set",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-powerpyx-gta6-race-challenges": {
+    "title": "GTA 6 All Race Challenge Locations & Gold Medals",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-race-challenge-locations-gold-medals/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-techwiser-gta6-racing-locations": {
+    "title": "GTA 6 Racing Activities - All 39 Race Locations and Payouts",
+    "publisher": "TechWiser",
+    "url": "https://techwiser.com/gta-6-racing-locations/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-powerpyx-gta6-unique-races": {
+    "title": "GTA 6 All Unique Race Locations (Racing Activities)",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-unique-race-locations-racing-activities/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-powerpyx-gta6-knife-flights": {
+    "title": "GTA 6 All Knife Flight Locations",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-knife-flight-locations",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-powerpyx-gta6-stunt-jumps": {
+    "title": "GTA 6 All Stunt Jump Locations",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-stunt-jump-locations/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-powerpyx-gta6-base-jumps": {
+    "title": "GTA 6 All Base Jump Locations",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-base-jump-locations/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtabase-weapons": {
+    "title": "GTA 6 Weapons List: All Unique Variants and Stats",
+    "publisher": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/weapons/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtabase-how-to-fish": {
+    "title": "How to Fish in GTA 6: Controls, Lures & All 35 Fish",
+    "publisher": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/articles/how-to-fish-in-gta-6",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-promptowy-fishing-guide": {
+    "title": "GTA 6 Fishing: Controls, Cal Challenges & Trophy Guide",
+    "publisher": "Promptowy",
+    "url": "https://promptowy.com/en/gta-6/gta-6-fishing-guide/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-shacknews-how-to-fish": {
+    "title": "How to start fishing in GTA 6",
+    "publisher": "Shacknews",
+    "url": "https://www.shacknews.com/article/151389/how-to-go-fishing-gta6",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-progamer-waink-locations": {
+    "title": "GTA 6 WAiNK Locations Guide: All 31 Landmarks & 35 Curiosities",
+    "publisher": "Pro-Gamer.gg",
+    "url": "https://pro-gamer.gg/gta-6-waink-locations-guide-all-31-landmarks-35-curiosities-you-wainker-trophy/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-powerpyx-sculptures": {
+    "title": "GTA 6 All Sculptures Scan Locations",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-sculptures-scan-locations/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-powerpyx-book-swaps": {
+    "title": "GTA 6 All Book Swap Locations",
+    "publisher": "PowerPyx",
+    "url": "https://www.powerpyx.com/gta-6-all-book-swap-locations/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-pushsquare-peewees-billboards": {
+    "title": "GTA 6: Peewees Billboard Locations & Grand Prize Puzzle Solution",
+    "publisher": "Push Square",
+    "url": "https://www.pushsquare.com/guides/gta-6-peewees-billboard-locations-and-grand-prize-puzzle-solution",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gamesgg-casino": {
+    "title": "GTA 6 Guide: Where to Find the Casino",
+    "publisher": "GAMES.GG",
+    "url": "https://games.gg/grand-theft-auto-vi/guides/where-to-find-the-casino-in-gta-6/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-nexzy-nova-auto-junkyard": {
+    "title": "GTA 6 Nova Auto Junkyard: Safe Code 7777 and Key Valuables",
+    "publisher": "Nexzy",
+    "url": "https://www.nexzyapp.com/games/grand-theft-auto-vi/guide/nova-auto-junkyard",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gta6map-standout-vehicles": {
+    "title": "Standout vehicles - GTA 6 Map & All Locations",
+    "publisher": "gta6map.io",
+    "url": "https://gta6map.io/location/standout-vehicle",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtaguide-relationships": {
+    "title": "Jason and Lucia's Relationship in GTA 6",
+    "publisher": "gta.guide",
+    "url": "https://gta.guide/gta-6/guides/romance-relationships",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-cbr-wanted-system": {
+    "title": "Grand Theft Auto 6's Wanted Level System, Explained",
+    "publisher": "CBR",
+    "url": "https://www.cbr.com/gta-6-wanted-level-system-explained/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-rockstarintel-hidden-controls": {
+    "title": "30+ Hidden GTA 6 Controls and Secret Mechanics You Probably Missed",
+    "publisher": "RockstarINTEL",
+    "url": "https://rockstarintel.com/30-hidden-gta-6-controls-and-secret-mechanics-you-probably-missed/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gamesgg-belville-house": {
+    "title": "GTA 6 house discovery points to a possible 2021 first look",
+    "publisher": "GAMES.GG",
+    "url": "https://games.gg/news/gta-6-belville-house-2021-image/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtaviinsider-houser-cameo": {
+    "title": "GTA 6 Has a Surprise Cameo From Rockstar Games President Sam Houser",
+    "publisher": "GTA VI Insider",
+    "url": "https://gtaviinsider.com/gta-6-has-a-surprise-cameo-from-rockstar-games-president-sam-houser/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-beebom-cameos": {
+    "title": "GTA 6 Cameos: All Celebrity, Streamer, and Returning Characters",
+    "publisher": "Beebom",
+    "url": "https://beebom.com/gta-6-cameos/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-outputlag-boats": {
+    "title": "GTA 6 Boats and Jet Skis: Where to Find and Drive",
+    "publisher": "Output Lag",
+    "url": "https://outputlag.com/guides/gta-6-boats-jet-skis/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-keengamer-dexter": {
+    "title": "GTA 6 Dexter Easter Egg: Apartment Location and Clues",
+    "publisher": "KeenGamer",
+    "url": "https://www.keengamer.com/articles/guides/gta-6-dexter-easter-egg-apartment-location-and-clues/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtabase-ring-the-bell": {
+    "title": "Ring the Bell!",
+    "publisher": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/missions/ring-the-bell",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtabase-got-pills": {
+    "title": "Got Pills?",
+    "publisher": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/missions/painkiller-supplier",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtaboom-got-pills": {
+    "title": "GTA 6 Got Pills? Walkthrough for the Starlet Motel",
+    "publisher": "GTA Boom",
+    "url": "https://www.gtaboom.com/gta-6-got-pills-walkthrough-f6e2",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-grandleonida-tower-egg": {
+    "title": "GTA 6 Has a Literal Easter Egg on Top of a Radio Tower",
+    "publisher": "Grand Leonida",
+    "url": "https://grandleonida.com/news/gta-6-radio-tower-easter-egg/",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source for entries first sourced to a do-not-use site."
+  },
+  "rs-gtabase-stunt-jumps-map": {
+    "title": "All GTA 6 Stunt Jump Locations (130)",
+    "publisher": "GTABase",
+    "url": "https://www.gtabase.com/gta-6/map/?feature=stunt-jumps",
+    "type": "secondary",
+    "accessed": "2026-11-22",
+    "notes": "Added 2026-11-22 as an allowed second source; the map page lists each jump by number and area."
   }
 }

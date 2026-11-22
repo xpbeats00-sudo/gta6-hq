@@ -60,7 +60,8 @@
     "confidence": "corroborated",
     "sources": [
       "ign-sex-and-romance",
-      "r13-gs-romance"
+      "r13-gs-romance",
+      "rs-gtaguide-relationships"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -89,7 +90,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-wanted"
+      "ign-wanted",
+      "rs-cbr-wanted-system"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -141,7 +143,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-beginners-guide"
+      "ign-beginners-guide",
+      "rs-rockstarintel-hidden-controls"
     ],
     "verified": "2026-11-18",
     "spoiler": true

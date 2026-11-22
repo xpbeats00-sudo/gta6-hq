@@ -11,7 +11,7 @@
   ));
 
   const EVIDENCE = {
-    demonstrated: ['Verified', 'Visible in official Rockstar footage or other official material.'],
+    demonstrated: ['Official', 'Visible in official Rockstar footage or other official material.'],
     'developer-described': ['Developer-described', 'Described by a Rockstar developer in an interview.'],
     'preview-reported': ['Preview-reported', 'Reported by journalists or creators who saw a preview build.'],
     interpretation: ['Interpretation', 'A reasonable reading of footage or reporting, not a confirmed rule.'],
@@ -19,7 +19,8 @@
     'verified-after-release': ['Verified after release', 'Checked against the released game.'],
     'launch-reported': ['Reported at launch', 'Reported by reviews or guides written from the released game. Not checked in play by this app.'],
   };
-  const CONFIDENCE = { official: 'Verified', corroborated: 'Corroborated', community: 'Community', rumor: 'Rumor' };
+  // The same two names as the rest of the app: Official (Rockstar's own) and Community.
+  const CONFIDENCE = { official: 'Official', corroborated: 'Community', community: 'Community', rumor: 'Rumor' };
   /** The R and star in front of the top label, drawn as a single mark. */
   const STORE_EDITION = document.documentElement.dataset.edition === 'store'; // no Rockstar mark or logo there
   const MARK = STORE_EDITION ? '' : '<b class="m-badge-mark"><svg viewBox="0 0 20 16" aria-hidden="true"><text x="0.5" y="13.2" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="15.5" fill="currentColor">R</text><polygon points="14,5.6 15.3,9.2 19.1,9.3 16.1,11.7 17.2,15.4 14,13.2 10.8,15.4 11.9,11.7 8.9,9.3 12.7,9.2" fill="currentColor" stroke="#b79df0" stroke-width="1.3" stroke-linejoin="round" paint-order="stroke"/></svg></b><span class="sr-only">Rockstar </span>';
@@ -213,7 +214,8 @@
       case 'checklist':
         return checklist(b, notes);
       case 'maplink':
-        return `<p class="m-maplink"><a href="#/map?kind=${encodeURIComponent(b.kind)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a7 7 0 0 0-7 7c0 5 7 12 7 12s7-7 7-12a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></svg>${esc(b.text)}</a></p>`;
+        // `plan` opens a planned robbery run on the map; `kind` lists one kind of place.
+        return `<p class="m-maplink"><a href="${b.plan ? `#/map?plan=${encodeURIComponent(b.plan)}` : `#/map?kind=${encodeURIComponent(b.kind)}`}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a7 7 0 0 0-7 7c0 5 7 12 7 12s7-7 7-12a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></svg>${esc(b.text)}</a></p>`;
       case 'diagram':
         return `<figure class="m-diagram">
           ${b.kind === 'stars' ? stars() : `<ol class="m-flow">${b.steps.map((step) => `<li>${esc(step)}</li>`).join('')}</ol>`}
@@ -289,6 +291,36 @@
     return found;
   }
 
+  /** Manual pages whose title, chapter, headings or opening line match a search, best first, for the
+      main search page. Spoiler-covered text (between ||) is never searched, so results cannot give
+      it away. Filler words ("how to", "a") are skipped; every other word must start a word there. */
+  const FILLER = new Set(['a', 'an', 'the', 'to', 'of', 'in', 'on', 'at', 'for', 'and', 'or', 'how', 'do', 'does', 'i', 'is', 'are', 'where', 'what', 'which', 'can', 'you', 'my', 'me', 'find', 'with', 'gta', '6', 'vi']);
+  const wordsOf = (text) => String(text || '').replace(/\|\|[\s\S]*?\|\|/g, ' ').toLowerCase().replace(/['’]/g, '').split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+  const root = (w) => (w.length > 4 ? w.replace(/(ies|ing|es|s|e|y)$/, '') : w);
+  async function findPages(query, wiki, limit = 4) {
+    if (!(await guideLinks('', wiki))) return [];
+    const all = wordsOf(query);
+    const terms = all.filter((w) => !FILLER.has(w));
+    const want = terms.length ? terms : all;
+    if (!want.length) return [];
+    const hits = new Map();
+    for (const page of pages) {
+      if (page.titlePage || page.gallery) continue;
+      const title = wordsOf(`${page.title} ${page.chapter.title}`);
+      const text = wordsOf(page.blocks.filter((b) => ['heading', 'subheading', 'intro'].includes(b.type)).map((b) => `${b.text || ''} ${b.accent || ''}`).join(' '));
+      let score = 0;
+      const ok = want.every((t) => {
+        const r = root(t);
+        const has = (list) => list.some((w) => w.startsWith(t) || (r.length >= 3 && root(w) === r) || (t.length >= 3 && t.startsWith(w) && w.length >= 3));
+        if (has(title)) { score += 3; return true; }
+        if (has(text)) { score += 1; return true; }
+        return false;
+      });
+      if (ok && !hits.has(page.href)) hits.set(page.href, { href: page.href, title: page.title, chapter: page.chapter.title, number: page.number, score });
+    }
+    return [...hits.values()].sort((a, b) => b.score - a.score || a.number - b.number).slice(0, limit);
+  }
+
   /** One manual page by chapter id and title, e.g. for a map pin's "how to" link. */
   async function pageLink(chapterId, title, wiki) {
     if (!(await guideLinks('', wiki))) return null; // loads the manual and builds the pages once
@@ -339,7 +371,7 @@
 
   /** Thumb tabs down the edge of the book, one per chapter, shaded along the sunset like printed index tabs. */
   function chapterTabs(here) {
-    const stops = [[247, 161, 60], [238, 63, 124], [124, 63, 214]];
+    const stops = [[255, 223, 128], [244, 113, 124], [233, 99, 199]]; // Rockstar's VI gradient: gold, coral, pink
     const shade = (t) => {
       const [a, b, f] = t < 0.5 ? [stops[0], stops[1], t * 2] : [stops[1], stops[2], (t - 0.5) * 2];
       return `rgb(${a.map((v, i) => Math.round(v + (b[i] - v) * f)).join(',')})`;
@@ -381,7 +413,7 @@
   // ---------- screens ----------
 
   function toolbar(query) {
-    const night = store.get('theme') === 'night';
+    const night = store.get('theme') !== 'paper';
     return `<div class="m-toolbar">
       <a class="m-tool" href="#/manual">Contents</a>
       <form class="m-search" role="search"><input type="search" name="q" value="${esc(query || '')}" placeholder="Search the manual" aria-label="Search the manual" autocomplete="off"></form>
@@ -508,6 +540,7 @@
     const { view, chapterId, pageInChapter, params } = current;
     const query = chapterId === 'search' ? (params.get('q') || '') : '';
     let content;
+    let title = ''; // one main heading per screen for screen readers (WCAG 1.3.1); the landing page has its own
     if (!chapterId) content = landing();
     else if (chapterId === 'search') content = searchResults(query);
     else {
@@ -519,9 +552,11 @@
       } else {
         store.set('last', page.href);
         content = reader(page);
+        title = `Field Manual: ${chapter.title}${page.title && page.title !== chapter.title ? `, ${page.title}` : ''}`;
       }
     }
-    view.innerHTML = `<div class="manual${store.get('theme') === 'night' ? ' manual-night' : ''}">${toolbar(query)}${content}</div>`;
+    if (chapterId === 'search') title = `Field Manual search: ${query}`;
+    view.innerHTML = `<div class="manual${store.get('theme') !== 'paper' ? ' manual-night' : ''}">${title ? `<h1 class="sr-only">${esc(title)}</h1>` : ''}${toolbar(query)}${content}</div>`;
 
     const root = view.querySelector('.manual');
     root.querySelector('.m-search').addEventListener('submit', (e) => {
@@ -532,7 +567,7 @@
     // skyline, and the new look spreads across the whole page in a circle from the switch itself.
     const sky = root.querySelector('[data-action="theme"]');
     sky.addEventListener('click', () => {
-      const night = store.get('theme') !== 'night';
+      const night = store.get('theme') === 'paper'; // switching from Day to Night, or back
       store.set('theme', night ? 'night' : 'paper');
       const apply = () => {
         root.classList.toggle('manual-night', night);
@@ -642,5 +677,5 @@
     if (link) { e.preventDefault(); link.click(); }
   });
 
-  window.Manual = { render, guideLinks, pageLink };
+  window.Manual = { render, guideLinks, pageLink, findPages };
 })();

@@ -98,7 +98,9 @@
     "confidence": "corroborated",
     "sources": [
       "ign-nova-auto-junkyard",
-      "game8-teniente-manana"
+      "game8-teniente-manana",
+      "rs-nexzy-nova-auto-junkyard",
+      "rs-gta6map-standout-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true
