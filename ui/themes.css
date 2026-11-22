@@ -1,0 +1,111 @@
+/* GTA 6 HQ: appearance choices from Settings (ui/appearance.js sets the attributes on <html>).
+   Vice City is the original look in styles.css; the others only change the design tokens,
+   plus the handful of surfaces that use a fixed colour. Loaded after styles.css and manual.css. */
+
+/* ---------- Dark: neutral greys instead of the Vice City violet ---------- */
+:root[data-theme="dark"] {
+  --bg-main: #111114;
+  --bg-deep: #0b0b0d;
+  --bg-header: #19191d;
+  --bg-panel: #1b1b20;
+  --bg-panel-raised: #25252b;
+  --text-primary: #f1f1f3;
+  --text-secondary: #b6b6bf;
+  --text-muted: #8d8d98;
+  --border-subtle: rgba(255, 255, 255, 0.11);
+  --border-strong: rgba(255, 255, 255, 0.24);
+  --cover-ink: #26262c;
+  --surface-glass: 25, 25, 29;
+  --surface-1: #19191d;
+  --surface-2: #26262c;
+  --surface-3: #303038;
+}
+
+/* ---------- Light: paper-white, dark text, deeper accents for contrast ---------- */
+:root[data-theme="light"] {
+  --bg-main: #f5f3f8;
+  --bg-deep: #ebe7f1;
+  --bg-header: #ffffff;
+  --bg-panel: #ffffff;
+  --bg-panel-raised: #efeaf5;
+  --text-primary: #1c1526;
+  --text-secondary: #4a4058;
+  --text-muted: #625a73;
+  --accent-pink: #b3154f;
+  --accent-pink-strong: #c8185a;
+  --accent-purple: #5d24b3;
+  --accent-yellow: #8a5a00;
+  --border-subtle: rgba(40, 20, 70, 0.13);
+  --border-strong: rgba(40, 20, 70, 0.28);
+  --ok: #17703f;
+  --info: #155f94;
+  --danger: #a8231b;
+  --cover-ink: #e4dcef;
+  --surface-glass: 255, 255, 255;
+  --surface-1: #ffffff;
+  --surface-2: #f1ebf6;
+  --surface-3: #e6dcef;
+  --on-accent: #ffffff;
+  --tone-orange: #9a5310;
+  --tone-cyan: #0f6f7c;
+  color-scheme: light;
+}
+
+/* ---------- Accent colour: the reader's own (appearance.js sets --accent-user) ---------- */
+:root[data-accent] { --accent-pink: var(--accent-user); --accent-pink-strong: var(--accent-user); }
+/* On paper a light accent would be unreadable: darken it. */
+:root[data-theme="light"][data-accent] {
+  --accent-pink: color-mix(in srgb, var(--accent-user) 50%, #000);
+  --accent-pink-strong: color-mix(in srgb, var(--accent-user) 55%, #000);
+}
+
+/* ---------- Density ---------- */
+:root[data-density="compact"] {
+  --s3: 10px; --s4: 12px; --s5: 18px; --s6: 24px; --s7: 36px; --s8: 48px; --s9: 72px;
+  --bar: 50px;
+}
+:root[data-density="compact"] body { font-size: 15px; line-height: 1.5; }
+
+/* ---------- Animation intensity: "gentle" shortens every transition ---------- */
+:root[data-motion="gentle"] { --ease: 0.1s ease; }
+:root[data-motion="gentle"] *, :root[data-motion="gentle"] *::before, :root[data-motion="gentle"] *::after {
+  transition-duration: 0.1s !important;
+  animation-iteration-count: 1 !important;
+}
+
+/* ---------- Map panels: how much of the map shows through them ---------- */
+:root { --panel-solid: 100%; --surface-glass: 23, 20, 38; }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip, .map3d-popup .maplibregl-popup-content,
+.map-tool, .map-seg, .map-street, .walker-swap, .immersive-hud, .map-layers-panel, .map-legend {
+  background: color-mix(in srgb, var(--bg-header) var(--panel-solid), transparent);
+}
+:root:not([data-panels="solid"]) .immersive-hud, :root:not([data-panels="solid"]) .map-layers-panel,
+:root:not([data-panels="solid"]) .leaflet-popup-content-wrapper {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.pin-hover, .map3d-hover .maplibregl-popup-content {
+  background: color-mix(in srgb, rgb(var(--surface-glass)) calc(var(--panel-solid) - 4%), transparent);
+}
+
+/* ---------- Light theme: surfaces that styles.css paints with a fixed dark colour ---------- */
+/* The top bar keeps the game's sunset colours in every theme, so its contents keep light text. */
+:root[data-theme="light"] .topbar, :root[data-theme="light"] .announce-keep {
+  --bg-header: #1d1630; --bg-panel: #1d1630; --bg-panel-raised: #2a2140; --bg-deep: #120e1f;
+  --text-primary: #f7f3f7; --text-secondary: #cfc6dc; --text-muted: #a99fbb;
+  --border-subtle: rgba(220, 190, 235, 0.16); --border-strong: rgba(240, 205, 225, 0.3);
+  --accent-pink: #f17ab5; --accent-pink-strong: #d94c9b;
+  --surface-1: #190d27; --surface-2: #271238; --surface-3: #33184a;
+  --accent: #f17ab5; --accent-strong: #d94c9b; --on-accent: #190d27; --tone-orange: #ffb16e; --tone-cyan: #63dceb;
+  color-scheme: dark;
+}
+:root[data-theme="dark"] .topbar { background: linear-gradient(90deg, rgba(22, 22, 26, 0.97), rgba(32, 32, 38, 0.97)); }
+:root[data-theme="light"] #leonida-map { background: #c4d9e6; }
+:root[data-theme="light"] .map-side { background: var(--bg-deep); }
+:root[data-theme="light"] .btn-primary { color: #fff; }
+:root[data-theme="light"] ::selection { color: #fff; }
+:root[data-theme="light"] .map-route { border-color: rgba(138, 90, 0, 0.45); background: rgba(138, 90, 0, 0.06); }
+:root[data-theme="light"] .route-stop span { color: #1c1526; }
+:root[data-theme="light"] .pin-cluster span { color: #1c1526; }
+:root[data-theme="light"] .map-page.is-explore .map-side h1 { color: var(--info); }
+:root[data-theme="light"] .nav-more-menu, :root[data-theme="light"] .suggest { box-shadow: 0 16px 40px rgba(40, 20, 70, 0.18); }

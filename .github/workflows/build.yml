@@ -30,10 +30,84 @@ jobs:
       - uses: actions/checkout@v4
         with:
           persist-credentials: false
+      - name: Formatting
+        run: cargo fmt --check
       - name: Test
         run: cargo test --release
       - name: Lint
         run: cargo clippy --release --all-targets -- -D warnings
+      - name: Build
+        run: cargo build --release
+      - name: Check the data and the server
+        # --validate exits 1 when the data has errors (warnings do not fail it). The server is asked
+        # once a second until it answers, for at most 60 seconds, instead of waiting a fixed time.
+        shell: pwsh
+        run: |
+          # The release build is a windowed program: PowerShell neither waits for it nor captures its
+          # output on its own, so it is started explicitly, waited for, and its exit code read.
+          $check = Start-Process .\target\release\gta6-hq.exe -ArgumentList '--validate' -NoNewWindow -Wait -PassThru -RedirectStandardOutput validate.md
+          if ($check.ExitCode -ne 0) { Get-Content validate.md -Tail 20; exit 1 }
+          Get-Content validate.md -TotalCount 3
+          $app = Start-Process .\target\release\gta6-hq.exe -ArgumentList '--serve', '--port', '4611' -PassThru
+          $deadline = (Get-Date).AddSeconds(60)
+          while ($true) {
+            try { Invoke-WebRequest http://127.0.0.1:4611/ -UseBasicParsing -TimeoutSec 5 | Out-Null; break } catch {}
+            if ($app.HasExited -or (Get-Date) -gt $deadline) { Write-Host 'the server did not start'; exit 1 }
+            Start-Sleep -Seconds 1
+          }
+          Invoke-WebRequest http://127.0.0.1:4611/api/health -UseBasicParsing | Out-Null
+          Stop-Process -InputObject $app
+      - uses: actions/setup-node@v4
+        with:
+          # The Edge suites use Node's built-in WebSocket.
+          node-version: 22
+      - name: Check the scripts parse
+        # Every interface script and every test script, without running them.
+        shell: pwsh
+        run: |
+          $bad = 0
+          foreach ($file in Get-ChildItem ui\*.js, scripts\*.mjs) {
+            node --check $file.FullName
+            if ($LASTEXITCODE -ne 0) { Write-Host "does not parse: $($file.Name)"; $bad++ }
+          }
+          if ($bad) { exit 1 }
+      - name: Run the map and feature suites in headless Edge
+        # Edge is the engine behind the Windows window. Throwaway settings and saved data; each suite
+        # resets them itself through the app's own API when it starts. Software WebGL so the 3D map
+        # draws without a graphics card. The server and Edge are polled until they answer (at most
+        # 60 seconds each) instead of waiting a fixed time.
+        shell: pwsh
+        run: |
+          $t = Join-Path $env:RUNNER_TEMP 'hq-test'
+          New-Item -ItemType Directory -Force $t | Out-Null
+          $env:GTA6_HQ_SETTINGS = "$t\settings.json"
+          $env:GTA6_HQ_USERDATA = "$t\userdata.json"
+          function Wait-Answer($url, $process, $what) {
+            $deadline = (Get-Date).AddSeconds(60)
+            while ($true) {
+              try { Invoke-WebRequest $url -UseBasicParsing -TimeoutSec 5 | Out-Null; return } catch {}
+              if ($process.HasExited -or (Get-Date) -gt $deadline) { Write-Host "$what did not start"; exit 1 }
+              Start-Sleep -Seconds 1
+            }
+          }
+          $app = Start-Process .\target\release\gta6-hq.exe -ArgumentList '--serve', '--port', '4656' -PassThru
+          $edge = "${env:ProgramFiles(x86)}\Microsoft\Edge\Application\msedge.exe"
+          $browser = Start-Process $edge -PassThru -ArgumentList '--headless=new', '--remote-debugging-port=9341',
+            "--user-data-dir=$t\browser", '--use-angle=swiftshader', '--enable-unsafe-swiftshader', 'about:blank'
+          Wait-Answer http://127.0.0.1:4656/ $app 'the app'
+          Wait-Answer http://127.0.0.1:9341/json/version $browser 'Edge'
+          node scripts/ui_features.mjs 9341 4656 shots-windows
+          $features = $LASTEXITCODE
+          node scripts/ui_phase2.mjs 9341 4656 shots-windows
+          $phase2 = $LASTEXITCODE
+          Stop-Process -InputObject $app, $browser -ErrorAction SilentlyContinue
+          if ($features -ne 0 -or $phase2 -ne 0) { exit 1 }
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots-windows
+          path: shots-windows
+          if-no-files-found: ignore
 
   linux:
     runs-on: ubuntu-22.04
@@ -56,7 +130,8 @@ jobs:
         run: |
           ./target/release/gta6-hq --validate > validate.md || { tail -20 validate.md; exit 1; }
           ./target/release/gta6-hq --serve --port 4611 &
-          sleep 3
+          # Ask once a second until the server answers, for at most 60 seconds.
+          for i in $(seq 60); do curl --fail --silent --output /dev/null http://127.0.0.1:4611/ && break; sleep 1; done
           curl --fail --silent http://127.0.0.1:4611/api/health
           curl --fail --silent --output /dev/null http://127.0.0.1:4611/
           kill %1
@@ -66,24 +141,35 @@ jobs:
           npm install --no-save --silent playwright
           npx playwright install --with-deps webkit
           ./target/release/gta6-hq --serve --port 4612 &
-          sleep 3
+          for i in $(seq 60); do curl --fail --silent --output /dev/null http://127.0.0.1:4612/ && break; sleep 1; done
           node scripts/ci_pages.mjs http://127.0.0.1:4612 shots
           kill %1
       - name: Open the real window and photograph it
         # Runs the app on a virtual screen inside a desktop session bus, as a Linux desktop provides
-        # (without one the window never appears). After 25 seconds, by which time the splash has
-        # given way to Home, the app must still be running, its window must exist at full size,
-        # and the picture of the screen must not be blank.
+        # (without one the window never appears). The window is looked for once a second, for at
+        # most 60 seconds. Once it is there, the intro runs for its fixed length (about 12 seconds,
+        # SPLASH_MS in ui/app.js plus the fade) before Home shows. Then the screen is photographed
+        # until the picture is not blank, for at most 30 seconds, and the app must still be running.
         run: |
           mkdir -p shots
           # Drawn at twice the pixel density (a 1440 x 900 window on a 2880 x 1800 screen) so the picture is sharp.
           export GDK_SCALE=2
           dbus-run-session -- xvfb-run -a -s "-screen 0 2880x1800x24" bash -c '
             ./target/release/gta6-hq 2> shots/stderr-linux.txt & pid=$!
-            sleep 25
-            kill -0 $pid || { echo "the app is not running"; cat shots/stderr-linux.txt; exit 1; }
+            for i in $(seq 60); do
+              kill -0 $pid || { echo "the app is not running"; cat shots/stderr-linux.txt; exit 1; }
+              xwininfo -root -tree | grep -q "GTA 6 HQ" && break
+              sleep 1
+            done
             xwininfo -root -tree | grep "GTA 6 HQ" || { echo "the window is missing"; exit 1; }
-            import -window root shots/window-linux.png
+            sleep 12
+            for i in $(seq 30); do
+              import -window root shots/window-linux.png
+              b=$(identify -format "%[fx:mean]" shots/window-linux.png)
+              awk -v b="$b" "BEGIN { exit !(b > 0.05) }" && break
+              sleep 1
+            done
+            kill -0 $pid || { echo "the app is not running"; cat shots/stderr-linux.txt; exit 1; }
             kill $pid' 2> /dev/null
           brightness=$(identify -format "%[fx:mean]" shots/window-linux.png)
           echo "brightness of the picture: $brightness"
@@ -133,7 +219,7 @@ jobs:
           app="dist/GTA 6 HQ.app/Contents/MacOS/gta6-hq"
           "$app" --validate > validate.md || { tail -20 validate.md; exit 1; }
           "$app" --serve --port 4611 &
-          sleep 3
+          for i in $(seq 60); do curl --fail --silent --output /dev/null http://127.0.0.1:4611/ && break; sleep 1; done
           curl --fail --silent http://127.0.0.1:4611/api/health
           kill %1
       - name: Open every page in WebKit
@@ -141,15 +227,23 @@ jobs:
           npm install --no-save --silent playwright
           npx playwright install webkit
           "dist/GTA 6 HQ.app/Contents/MacOS/gta6-hq" --serve --port 4612 &
-          sleep 3
+          for i in $(seq 60); do curl --fail --silent --output /dev/null http://127.0.0.1:4612/ && break; sleep 1; done
           node scripts/ci_pages.mjs http://127.0.0.1:4612 shots
           kill %1
       - name: Open the real window and photograph it
-        # Starts the packaged app; it must still be running after 25 seconds. The screen is saved as a picture.
+        # Starts the packaged app. Its local server is looked for once a second (at most 60 seconds);
+        # then the intro runs for its fixed length (about 12 seconds) and the app must still be
+        # running. The screen is saved as a picture.
         run: |
           "dist/GTA 6 HQ.app/Contents/MacOS/gta6-hq" &
           pid=$!
-          sleep 25
+          for i in $(seq 60); do
+            kill -0 "$pid" || { echo "the app is not running"; exit 1; }
+            lsof -nP -a -p "$pid" -iTCP -sTCP:LISTEN > /dev/null 2>&1 && break
+            sleep 1
+          done
+          lsof -nP -a -p "$pid" -iTCP -sTCP:LISTEN || { echo "the app's server never started"; exit 1; }
+          sleep 12
           kill -0 "$pid"
           screencapture -x shots/window-macos.png || echo "no screen to photograph"
           kill "$pid"

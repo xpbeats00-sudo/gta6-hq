@@ -274,17 +274,30 @@ pub struct Snapshot {
     /// The published wiki (no drafts) as JSON, exactly as `/api/wiki`
     /// serves it. Encoded once per load, not once per request.
     pub json: String,
+    /// A strong validator for `json` (quoted, as the `ETag` header carries it),
+    /// so a page that already holds this wiki gets `304 Not Modified`.
+    pub etag: String,
     pub index: search::Index,
 }
 
 impl Snapshot {
     fn load(root: &Path) -> Self {
         let wiki = load(root);
+        let json = serde_json::to_string(&wiki).unwrap_or_else(|_| "{}".into());
         Self {
-            json: serde_json::to_string(&wiki).unwrap_or_else(|_| "{}".into()),
+            etag: etag_of(json.as_bytes()),
+            json,
             index: search::Index::build(&wiki),
         }
     }
+}
+
+/// A strong `ETag` for a response body: the first 128 bits of its SHA-256, quoted.
+pub fn etag_of(body: &[u8]) -> String {
+    use sha2::{Digest, Sha256};
+    let digest = Sha256::digest(body);
+    let hex: String = digest[..16].iter().map(|b| format!("{b:02x}")).collect();
+    format!("\"{hex}\"")
 }
 
 /// What the loaded wiki depends on: size and modification time of every

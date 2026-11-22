@@ -98,6 +98,21 @@ pub fn files_on_disk(root: &Path) -> Vec<String> {
     found
 }
 
+/// The still posters shown before a live wallpaper plays (`wallpapers/posters/<video name>.jpg`,
+/// made by `scripts/make_posters.py`). They are not gallery items, so `files_on_disk` leaves them
+/// out, but they are shown in the app, so the integrity report checks them for a rights record.
+pub fn posters_on_disk(root: &Path) -> Vec<String> {
+    let mut found = Vec::new();
+    walk(
+        &root.join("wallpapers").join("posters"),
+        "wallpapers/posters",
+        &IMAGE_EXTENSIONS,
+        false,
+        &mut found,
+    );
+    found
+}
+
 /// The catalogue as JSON, rebuilt only when the manifest or the list of files changes. Home and the
 /// Media page both ask for it on every visit; reading and joining the manifest each time is wasted work.
 pub fn catalogue_json(root: &Path) -> String {

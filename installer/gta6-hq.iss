@@ -3,6 +3,11 @@
 ; Build with scripts/package_release.py, which passes the version from Cargo.toml:
 ;   ISCC /DAppVersion=0.1.1 installer\gta6-hq.iss
 ;
+; Two builds (docs/compliance/MEDIA-DISTRIBUTION-POLICY.md):
+;   public   (/DPublicRoot=dist\public\app): installs the folder package_release.py assembled, which
+;            holds only media cleared for distribution, with the app's own icon and no game artwork.
+;   personal (no PublicRoot): installs the full working tree, pictures and all. Never upload it.
+;
 ; Installs for the current user only, into a folder the app can write to
 ; (it keeps its map tile cache and data files beside the executable), so no
 ; administrator prompt is needed.
@@ -39,7 +44,11 @@ ArchitecturesInstallIn64BitMode=x64compatible
 SourceDir=..
 OutputDir=dist
 OutputBaseFilename=GTA6HQ-{#AppVersion}-Setup
+#ifdef PublicRoot
+SetupIconFile=store\app.ico
+#else
 SetupIconFile=installer\gta6-hq.ico
+#endif
 UninstallDisplayIcon={app}\gta6-hq.ico
 UninstallDisplayName=GTA 6 HQ
 Compression=lzma2
@@ -49,11 +58,16 @@ SolidCompression=yes
 WizardStyle=modern dark
 WizardSizePercent=130
 WizardBackColor=#0b0a16
+#ifdef PublicRoot
+; The public build carries none of the game's artwork, so the wizard uses Inno's plain pages.
+InfoBeforeFile={#PublicRoot}\NOTICE.txt
+#else
 WizardBackImageFile=installer\wizard-back.png
 WizardImageFile=installer\wizard-side.png
 WizardSmallImageFile=installer\wizard-small.png
-CloseApplications=yes
 InfoBeforeFile=installer\notice.txt
+#endif
+CloseApplications=yes
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -63,6 +77,10 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 
 [Files]
 #ifndef Preview
+#ifdef PublicRoot
+; Everything, as assembled and checked by package_release.py (program, icon, pages, data, notice).
+Source: "{#PublicRoot}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+#else
 Source: "target\release\gta6-hq.exe"; DestDir: "{app}"; Flags: ignoreversion
 Source: "installer\gta6-hq.ico"; DestDir: "{app}"; Flags: ignoreversion
 Source: "README.md"; DestDir: "{app}"; Flags: ignoreversion
@@ -70,6 +88,7 @@ Source: "ui\*"; DestDir: "{app}\ui"; Flags: ignoreversion recursesubdirs createa
 Source: "data\*"; DestDir: "{app}\data"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "images\*"; DestDir: "{app}\images"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "wallpapers\*"; DestDir: "{app}\wallpapers"; Flags: ignoreversion recursesubdirs createallsubdirs
+#endif
 #endif
 
 [Icons]

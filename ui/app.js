@@ -5,6 +5,20 @@
     (store-art.js). scripts/package_store.py marks the page; everywhere else this is false. */
 const STORE = document.documentElement.dataset.edition === 'store';
 
+/** The walker's picture: the character's cut-out in the full edition. Editions without the game's
+    pictures (Microsoft Store, public GitHub build) draw their own: a coloured disc with a figure
+    and the character's initial. */
+function walkerPicture(who) {
+  if (!STORE) return `/images/map/walker-${who}.png`;
+  const [from, to, letter] = who === 'lucia' ? ['#f17ab5', '#b93b8f', 'L'] : ['#4fd1e8', '#2f7fae', 'J'];
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${from}"/><stop offset="1" stop-color="${to}"/></linearGradient></defs>`
+    + '<circle cx="48" cy="48" r="46" fill="url(#g)"/><circle cx="48" cy="34" r="13" fill="#190d27" opacity=".85"/>'
+    + '<path d="M22 80c3-16 13-25 26-25s23 9 26 25" fill="#190d27" opacity=".85"/>'
+    + `<text x="48" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="15" fill="#fff">${letter}</text></svg>`;
+  return `data:image/svg+xml,${encodeURIComponent(svg)}`;
+}
+window.walkerPicture = walkerPicture;
+
 const view = document.getElementById('view');
 const state = { wiki: null, map: null };
 
@@ -26,6 +40,84 @@ const esc = (text) => String(text ?? '').replace(/[&<>"']/g, (c) => (
 const category = (key) => state.wiki.categories.find((c) => c.key === key);
 const sectionLabel = (key) => category(key)?.label || FIXED_LABELS[key] || key;
 
+/** Sends saved changes to the app one request at a time, so an older save can never land after a
+    newer one. Changes that arrive while a save is on its way wait and go together in the next
+    request, newest value per name. A request on its way is kept (`sending`) until the app confirms
+    it, so if the window closes first, the last send carries it too. That last send uses keepalive,
+    which browsers allow only up to 64 KB, so it is measured in bytes; ordinary saves don't use
+    keepalive and have no such limit. A failed save is kept and tried again on a timer and with the
+    next change, and the reader is told. `gate` holds every send until it resolves (saved data is
+    never written before it has been read). */
+function makeSaver(url, what, gate = Promise.resolve()) {
+  const waiting = new Map();
+  let sending = {};
+  let busy = false;
+  let retry = null;
+  let delay = 2000;
+  let open = false;
+  gate.then(() => { open = true; });
+  async function pump() {
+    if (busy) return;
+    busy = true;
+    await gate;
+    clearTimeout(retry);
+    while (waiting.size) {
+      sending = Object.fromEntries(waiting);
+      waiting.clear();
+      try {
+        const answer = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(sending) });
+        if (!answer.ok) throw new Error(await answer.text().catch(() => '') || `HTTP ${answer.status}`);
+        sending = {};
+        delay = 2000;
+        saveTrouble(what, '');
+      } catch (e) {
+        for (const [k, v] of Object.entries(sending)) if (!waiting.has(k)) waiting.set(k, v);
+        sending = {};
+        saveTrouble(what, e.message || 'the app did not answer');
+        // Tried again with the next change, or on its own after a short wait (longer each time).
+        retry = setTimeout(pump, delay);
+        delay = Math.min(delay * 2, 60000);
+        break;
+      }
+    }
+    busy = false;
+  }
+  addEventListener('pagehide', () => {
+    if (!open) return; // the saved data was never read: sending now could overwrite it
+    const all = { ...sending, ...Object.fromEntries(waiting) };
+    if (!Object.keys(all).length) return;
+    const body = JSON.stringify(all);
+    if (new TextEncoder().encode(body).length < 60000) fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body, keepalive: true }).catch(() => {});
+  });
+  return (changes) => { for (const [k, v] of Object.entries(changes)) waiting.set(k, v); pump(); };
+}
+
+/** Notices about saving, one per kind ("settings", "saved data", a damaged or unreadable file), so
+    one kind working again never hides a problem with another. Each can be dismissed. A failure
+    notice goes away by itself once that kind saves again; the others stay until dismissed. */
+function saveTrouble(kind, reason, lasting = false) {
+  const show = () => {
+    let note = document.querySelector(`.save-note[data-kind="${kind}"]`);
+    if (!reason) { if (note && !note.dataset.lasting) note.remove(); return; }
+    let stack = document.querySelector('.save-notes');
+    if (!stack) { stack = document.createElement('div'); stack.className = 'save-notes'; document.body.append(stack); }
+    if (!note) {
+      note = document.createElement('div');
+      note.className = 'save-note';
+      note.dataset.kind = kind;
+      note.setAttribute('role', 'alert');
+      stack.append(note);
+    }
+    if (lasting) note.dataset.lasting = '1';
+    note.innerHTML = `${lasting
+      ? `<p>${esc(reason)}.</p>`
+      : `<p><strong>Your ${esc(kind)} could not be saved.</strong> ${esc(String(reason).slice(0, 160))}. It is kept until the app closes and saving is tried again.</p>`}
+      <button type="button" class="btn btn-small btn-outline">Dismiss</button>`;
+    note.querySelector('button').addEventListener('click', () => note.remove());
+  };
+  if (document.body) show(); else addEventListener('DOMContentLoaded', show, { once: true });
+}
+
 /** The reader's own choices. The app keeps them in a file in the user's settings folder
     (/api/settings), so they are still there after a restart or an update. The web view's own
     storage would not do: the window opens on a different port each time, and it forgets with it. */
@@ -35,14 +127,110 @@ const prefs = {
   async load() { try { this.saved = await getJson('/api/settings'); } catch { /* start with none */ } },
   get(key) { return Object.hasOwn(this.saved, key) ? this.saved[key] : null; },
   set(key, value) { this.save({ [key]: String(value) }); },
+  send: makeSaver('/api/settings', 'settings'),
   save(changes) {
     Object.assign(this.saved, changes);
-    fetch('/api/settings', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(changes), keepalive: true,
-    }).catch(() => { /* kept for this session only */ });
+    this.send(changes);
   },
 };
 window.hqPrefs = prefs; // the Field Manual keeps its theme and last page here too
+
+/** The reader's collections: favourites, named collections, ticked collectibles, places marked
+    as discovered, saved routes, map views and street starts, recent searches. One JSON document
+    in the user's settings folder (/api/userdata), read once at start and saved a part at a time.
+    Everything goes through get/set here, so another backing store (a sync service) could replace
+    the fetch calls without touching the pages. */
+/** Parts kept separately for Jason and for Lucia when the reader picks a character profile
+    (Settings). The "Shared" profile keeps the plain names, so nothing saved earlier moves. */
+const PROFILE_PARTS = new Set(['favourites', 'favourite-pins', 'collections', 'discovered', 'collectible-ticks',
+  'guide-checks', 'routes', 'map-views', 'street-starts', 'journal']);
+const UserStore = {
+  data: {},
+  listeners: new Set(),
+  /** Read once, before the first page is drawn. If the app can't read the file (it is locked by
+      antivirus or another program, say), it is asked again a few times. If it still can't, nothing
+      is saved this session: saving a part over data that was never read would replace it. */
+  async load() {
+    for (const wait of [0, 500, 1500, 3000]) {
+      if (wait) await new Promise((r) => setTimeout(r, wait));
+      try {
+        const answer = await fetch('/api/userdata', { cache: 'no-store' });
+        if (!answer.ok) continue;
+        this.data = await answer.json();
+        const aside = answer.headers.get('x-userdata-set-aside');
+        if (aside) saveTrouble('damaged', `Your saved data could not be read: the file was damaged, so it was kept as ${aside} in your settings folder and the app started with nothing saved`, true);
+        this.opened();
+        return;
+      } catch { /* asked again */ }
+    }
+    saveTrouble('unreadable', 'Your saved data could not be read, so nothing you change will be saved until the app is restarted (saving now could overwrite it)', true);
+  },
+  // Sends wait until the saved data has been read (load() opens the gate).
+  gate: null,
+  opened: null,
+  send: null,
+  /** '' (shared), 'jason' or 'lucia'. */
+  profile() { const p = prefs.get('profile'); return p === 'jason' || p === 'lucia' ? p : ''; },
+  /** The stored name of a part for the current profile: "favourites" or "jason-favourites". */
+  key(part) { const p = this.profile(); return p && PROFILE_PARTS.has(part) ? `${p}-${part}` : part; },
+  get(part, fallback) { const k = this.key(part); return Object.hasOwn(this.data, k) ? this.data[k] : fallback; },
+  set(part, value) {
+    const k = this.key(part);
+    if (value === null || value === undefined) delete this.data[k]; else this.data[k] = value;
+    this.send({ [k]: value ?? null });
+    this.listeners.forEach((fn) => fn(part));
+  },
+  /** After the profile changes: everything listening redraws from the other profile's parts. */
+  switched() { this.listeners.forEach((fn) => fn('*')); document.documentElement.dataset.hqProfile = this.profile() || 'shared'; },
+  onChange(fn) { this.listeners.add(fn); return () => this.listeners.delete(fn); },
+  // Small helpers for the common shapes: a list of keys (favourites, discovered) and a set of ticks.
+  has(part, key) { return this.get(part, []).includes(key); },
+  toggle(part, key) {
+    const list = this.get(part, []);
+    const on = !list.includes(key);
+    this.set(part, on ? [...list, key] : list.filter((k) => k !== key));
+    return on;
+  },
+  ticked(part, key) { return this.get(part, {})[key] === 1; },
+  tick(part, key, on) {
+    const ticks = { ...this.get(part, {}) };
+    if (on) ticks[key] = 1; else delete ticks[key];
+    this.set(part, ticks);
+  },
+};
+UserStore.gate = new Promise((resolve) => { UserStore.opened = resolve; });
+UserStore.send = makeSaver('/api/userdata', 'saved data', UserStore.gate);
+window.UserStore = UserStore;
+
+/**
+ * Ask before something that cannot be undone, in the app's own dialog (not the browser's).
+ * Resolves true when the reader confirms. hqConfirm({ title, text, ok: 'Delete', danger: true }).
+ */
+function hqConfirm({ title, text, ok = 'Confirm', cancel = 'Cancel', danger = false }) {
+  return new Promise((resolve) => {
+    const dialog = document.createElement('dialog');
+    dialog.className = 'confirm-dialog';
+    dialog.setAttribute('aria-labelledby', 'confirm-title');
+    dialog.innerHTML = `<div class="confirm-body"><h2 id="confirm-title">${esc(title)}</h2><p>${esc(text)}</p></div>
+      <div class="confirm-foot"><button type="button" class="btn btn-small btn-outline" data-cancel>${esc(cancel)}</button>
+      <button type="button" class="btn btn-small ${danger ? 'btn-danger' : 'btn-primary'}" data-ok>${esc(ok)}</button></div>`;
+    document.body.append(dialog);
+    const done = (answer) => { dialog.close(); dialog.remove(); resolve(answer); };
+    dialog.addEventListener('click', (e) => {
+      if (e.target.closest('[data-ok]')) done(true);
+      else if (e.target.closest('[data-cancel]') || e.target === dialog) done(false);
+    });
+    dialog.addEventListener('cancel', (e) => { e.preventDefault(); done(false); });
+    dialog.showModal();
+    dialog.querySelector('[data-cancel]').focus();
+  });
+}
+window.hqConfirm = hqConfirm;
+
+/** Pages added by ui/explore.js (saved places, the collectible tracker, progress, settings). */
+const EXTRA_PAGES = {};
+/** Called after every page is drawn, with (page, a, b, params): ui/explore.js adds entry actions here. */
+const AFTER_RENDER = [];
 
 // ---------- spoilers ----------
 
@@ -352,7 +540,8 @@ function provenance(entry) {
 }
 
 function related(entry) {
-  const links = (entry.related || []).map(resolve).filter(Boolean);
+  // Spoiler entries the reader hasn't opened are left out; with none left there is no section at all.
+  const links = (entry.related || []).map(resolve).filter(Boolean).filter(({ section, entry: e }) => !isHidden(section, e));
   if (!links.length) return '';
   return `<section><h2>Related</h2><div class="related">
     ${links.map(({ section, entry: e }) => `<a href="${entryLink(section, e.slug)}"><span class="kicker">${esc(sectionLabel(section))}</span>${esc(e.name)}</a>`).join('')}
@@ -421,7 +610,7 @@ function filterText(section, entry) {
 
 const listShell = (label) => `<div class="list" data-list>
   <div class="list-tools" hidden>
-    <input type="search" class="list-filter" placeholder="Filter ${esc(label)}" aria-label="Filter ${esc(label)}" autocomplete="off">
+    <div class="field-search list-search">${icon('search')}<input type="search" class="list-filter" placeholder="Filter ${esc(label.toLowerCase())}" aria-label="Filter ${esc(label.toLowerCase())}" autocomplete="off"></div>
     <label class="list-sort"><span>Sort</span> <select aria-label="Sort ${esc(label)}"></select></label>
     ${spoilerToggle()}
     <span class="list-count muted" role="status"></span>
@@ -635,7 +824,7 @@ function renderHome() {
           <a class="btn" href="${DISCORD_INVITE}" target="_blank" rel="noopener noreferrer">Join the Discord</a>
         </div>
       </div>
-      <button class="hero-pause" type="button" aria-pressed="false" aria-label="${STORE ? 'Pause the moving picture' : 'Pause background video'}">❚❚</button>
+      <button class="hero-pause" type="button" aria-pressed="false" aria-label="${STORE ? 'Pause the moving picture' : 'Pause background video'}">${icon('pause')}</button>
       <a class="scroll-cue" href="#/">Scroll</a>
     </section>
 
@@ -661,12 +850,12 @@ function renderHome() {
         <span class="kicker">People</span>
         <h2>The Cast</h2>
         <p>The two leads and the supporting characters Rockstar introduced before launch. The full cast is in the encyclopedia.</p>
-        <a class="more" href="#/characters">All characters →</a>
+        <a class="more" href="#/characters">All characters${icon('next')}</a>
       </header>
       <div class="cast">
         ${leads.map((c) => card('characters', c, c.role)).join('')}
         <div class="roster">
-          ${supporting.filter((c) => c.image && !isHidden('characters', c)).slice(0, 9).map((c) => `<a href="#/characters/${c.slug}"><b>${esc(c.name)}</b><span>${esc(c.role)}</span><i aria-hidden="true">→</i></a>`).join('')}
+          ${supporting.filter((c) => c.image && !isHidden('characters', c)).slice(0, 9).map((c) => `<a href="#/characters/${c.slug}"><b>${esc(c.name)}</b><span>${esc(c.role)}</span><i aria-hidden="true">${icon('next')}</i></a>`).join('')}
         </div>
       </div>
     </section>
@@ -676,7 +865,7 @@ function renderHome() {
         <span class="kicker">Places</span>
         <h2>Vice City and Beyond</h2>
         <p>The regions of the State of Leonida. Open any of them, or find them on the map.</p>
-        <a class="more" href="#/map">Open the map →</a>
+        <a class="more" href="#/map">Open the map${icon('next')}</a>
       </header>
       <div class="feature">
         <a class="feature-media" href="#/locations/${lead.slug}">
@@ -684,7 +873,7 @@ function renderHome() {
           <span><span class="kicker">${esc(lead.region)}</span><h3>${esc(lead.name)}</h3></span>
         </a>
         <div class="roster">
-          ${locations.filter((l) => l.image && !isHidden('locations', l)).slice(0, 9).map((l) => `<a href="#/locations/${l.slug}"><b>${esc(l.name)}</b><span>${esc(l.region)}</span><i aria-hidden="true">→</i></a>`).join('')}
+          ${locations.filter((l) => l.image && !isHidden('locations', l)).slice(0, 9).map((l) => `<a href="#/locations/${l.slug}"><b>${esc(l.name)}</b><span>${esc(l.region)}</span><i aria-hidden="true">${icon('next')}</i></a>`).join('')}
         </div>
       </div>
     </section>
@@ -694,7 +883,7 @@ function renderHome() {
         <span class="kicker">Garage</span>
         <h2>Vehicles</h2>
         <p>Vehicle types seen in official material. Model names are listed only where Rockstar has published them.</p>
-        <a class="more" href="#/vehicles">All vehicles →</a>
+        <a class="more" href="#/vehicles">All vehicles${icon('next')}</a>
       </header>
       <div class="trio">${rides.map((v) => card('vehicles', v, kickerOf(v))).join('')}</div>
     </section>` : ''}
@@ -704,7 +893,7 @@ function renderHome() {
         <span class="kicker">Gallery</span>
         <h2>Media</h2>
         <p>Artwork and live wallpapers, each with its origin and rights status.</p>
-        <a class="more" href="#/media">Open the gallery →</a>
+        <a class="more" href="#/media">Open the gallery${icon('next')}</a>
       </header>
       <div class="trio" id="home-media"></div>
     </section>`}
@@ -714,7 +903,7 @@ function renderHome() {
         <span class="kicker">Intel</span>
         <h2>Latest</h2>
         <p>Dated announcements, each labelled with how well it is sourced.</p>
-        <a class="more" href="#/intel">Full timeline →</a>
+        <a class="more" href="#/intel">Full timeline${icon('next')}</a>
       </header>
       <ol class="timeline">${news.slice(0, 4).map(timelineItem).join('')}</ol>
     </section>`;
@@ -732,7 +921,7 @@ function renderHome() {
       const paused = scene.classList.toggle('is-paused');
       pause.setAttribute('aria-pressed', String(paused));
       pause.setAttribute('aria-label', paused ? 'Play the moving picture' : 'Pause the moving picture');
-      pause.textContent = paused ? '▶' : '❚❚';
+      pause.innerHTML = icon(paused ? 'play' : 'pause');
     });
   }
   const layers = STORE ? [] : [...view.querySelectorAll('.hero-video')];
@@ -788,7 +977,7 @@ function renderHome() {
     if (paused) video.pause(); else video.play().catch(() => {});
     pause.setAttribute('aria-pressed', String(paused));
     pause.setAttribute('aria-label', paused ? 'Play background video' : 'Pause background video');
-    pause.textContent = paused ? '▶' : '❚❚';
+    pause.innerHTML = icon(paused ? 'play' : 'pause');
   };
   // The live wallpapers always play on arrival (the owner's choice); the
   // button is how anyone who prefers a still picture stops them.
@@ -954,7 +1143,7 @@ function renderCategory(key) {
   view.innerHTML = `
     ${pageHead(cat.label, cat.blurb, key)}
     <section class="block">
-      <a class="back" href="#/wiki">← Encyclopedia</a>
+      <a class="back" href="#/wiki">${icon('back')}Encyclopedia</a>
       ${entries.length
         ? listShell(cat.label)
         : `<div class="panel empty"><h3>Not yet documented</h3>
@@ -980,7 +1169,7 @@ function renderEntry(key, slug) {
     <article class="profile ${lead ? 'profile-wide' : 'profile-text'}">
       ${lead ? `<div class="profile-portrait">${picture(entry, artKind(key, entry))}</div>` : ''}
       <div class="profile-body">
-        <a class="back" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">← ${esc(cat.label)}</a>
+        <a class="back" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">${icon('back')}${esc(cat.label)}</a>
         ${key === 'achievements' && entry.image && !STORE ? `<img class="trophy-icon" src="${esc(entry.image)}" alt="" width="96" height="96">` : ''}
         <span class="kicker">${esc(kickerOf(entry) || cat.label)}</span>
         <h1>${esc(entry.name)}</h1>
@@ -989,12 +1178,28 @@ function renderEntry(key, slug) {
         ${paragraphs(entry)}
         ${facts(key, entry)}
         ${mapLink(key, entry)}
+        ${guideSlot(`#/wiki/${key}/${slug}`)}
         ${related(entry)}
         ${provenance(entry)}
         ${tags(entry)}
       </div>
     </article>`;
   view.innerHTML = isHidden(key, entry) ? veil(key, entry, page, 'page') : page;
+  fillGuideLinks();
+}
+
+// "In the 100% Guide": the Field Manual pages that walk through this entry, filled in once the
+// manual has been read (it loads on first use and is kept).
+const guideSlot = (href) => `<div class="guide-links" data-guide="${esc(href)}" hidden></div>`;
+function fillGuideLinks() {
+  if (typeof Manual === 'undefined' || !Manual.guideLinks) return;
+  for (const slot of view.querySelectorAll('[data-guide]')) {
+    Manual.guideLinks(slot.dataset.guide, state.wiki).then((found) => {
+      if (!found.length || !slot.isConnected) return;
+      slot.innerHTML = `<h2>In the 100% Guide</h2><ul class="guide-list">${found.slice(0, 6).map((f) => `<li><a href="${esc(f.href)}"><span>${esc(f.title)}</span><em>${esc(f.chapter)} · p. ${esc(f.number)}</em></a></li>`).join('')}</ul>`;
+      slot.hidden = false;
+    });
+  }
 }
 
 // ---------- characters, locations, vehicles ----------
@@ -1028,7 +1233,7 @@ function renderCharacter(slug) {
     <article class="profile${c.image ? '' : ' profile-text'}">
       ${c.image ? `<div class="profile-portrait">${picture(c, 'portrait')}</div>` : ''}
       <div class="profile-body">
-        <a class="back" href="#/characters">← Characters</a>
+        <a class="back" href="#/characters">${icon('back')}Characters</a>
         <span class="kicker">${esc(c.role)}</span>
         <h1>${esc(c.name)}</h1>
         ${spoilerNote(c)}
@@ -1037,6 +1242,7 @@ function renderCharacter(slug) {
         ${c.ties?.length ? `<h2>Known ties</h2>
         <ul class="ties">${c.ties.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
         ${facts('characters', c)}
+        ${guideSlot(`#/characters/${slug}`)}
         ${related(c)}
         ${provenance(c)}
         ${tags(c)}
@@ -1047,6 +1253,7 @@ function renderCharacter(slug) {
     <section class="block"><div class="block-head"><h2>More characters</h2></div>
       ${entryGrid('characters', others, (o) => o.role, 'grid-portrait')}
     </section>`;
+  fillGuideLinks();
 }
 
 function renderLocations() {
@@ -1070,7 +1277,7 @@ function renderLocation(slug) {
     <article class="place">
       <div class="place-hero${l.image ? '' : ' is-bare'}">${l.image ? `${picture(l, artKind('locations', l))}<div class="hero-shade"></div>` : ''}
         <div class="place-title">
-          <a class="back" href="#/locations">← Locations</a>
+          <a class="back" href="#/locations">${icon('back')}Locations</a>
           <span class="kicker">${esc(l.region)}</span>
           <h1>${esc(l.name)}</h1>
         </div>
@@ -1081,6 +1288,7 @@ function renderLocation(slug) {
           <p class="lede">${esc(l.summary)}</p>
           ${paragraphs(l)}
           ${facts('locations', l)}
+          ${guideSlot(`#/locations/${slug}`)}
           ${related(l)}
           ${provenance(l)}
           ${tags(l)}
@@ -1095,6 +1303,7 @@ function renderLocation(slug) {
       </div>
     </article>`;
   view.innerHTML = isHidden('locations', l) ? veil('locations', l, page, 'page') : page;
+  fillGuideLinks();
 }
 
 function renderVehicles() {
@@ -1250,13 +1459,16 @@ const validPosition = (m) => [m.x, m.y].every((v) => typeof v === 'number' && v 
 function mapPins() {
   const markers = (state.wiki.map?.markers || []).filter(validPosition).map((m) => {
     const target = resolve(m.location ? `locations/${m.location}` : m.entry);
-    // A hand-placed marker stays, but shows nothing from a closed spoiler entry.
+    // A hand-placed marker stays, but shows nothing from a closed spoiler entry. A marker marked
+    // as a spoiler itself (a mission found after launch) keeps its place but not its name.
     const open = target && !isHidden(target.section, target.entry);
+    const hidden = (Boolean(target) && !open) || (m.spoiler === true && !showSpoilers);
     return {
-      name: m.name, category: m.category || 'landmarks', x: m.x, y: m.y, target,
-      summary: m.summary || (open ? target.entry.summary : ''),
+      name: hidden ? 'Spoiler' : m.name, keyName: m.name, spoilerMarker: m.spoiler === true, category: m.category || 'landmarks', x: m.x, y: m.y, target, kind: m.kind || '', via: m.via || '', guide: m.guide || null,
+      summary: hidden ? '' : m.summary || (open ? target.entry.summary : ''),
       ref: target ? `${target.section}/${target.entry.slug}` : null,
-      image: m.location && open ? target.entry.image : null,
+      image: open && !hidden ? target.entry.image : null,
+      hidden,
     };
   });
   const taken = new Set(markers.map((m) => m.ref).filter(Boolean));
@@ -1267,6 +1479,90 @@ function mapPins() {
       target: { section: c.key, entry }, ref: `${c.key}/${entry.slug}`, image: entry.image,
     })));
   return [...markers, ...fromEntries];
+}
+
+/** A stable name for a pin, for favourites and collections: its entry, or its name and place. */
+const pinKey = (pin) => (pin.ref ? `e:${pin.ref}` : `p:${pin.keyName || pin.name}@${pin.x.toFixed(3)},${pin.y.toFixed(3)}`);
+
+/** How near counts as "nearby", from the Settings page (map widths: about 2%, 4% or 7%). */
+const NEAR_RADIUS = { small: 0.02, medium: 0.04, large: 0.07 };
+const nearRadius = () => NEAR_RADIUS[prefs.get('near-radius')] || NEAR_RADIUS.medium;
+
+/** Up to `limit` other pins within the nearby radius of a spot, nearest first (map proportions kept). */
+function nearbyPins(pins, x, y, limit = 5, skip = -1) {
+  const { width, height } = state.wiki.map;
+  const r = nearRadius() * width;
+  return pins.map((pin, i) => ({ i, d: Math.hypot((pin.x - x) * width, (pin.y - y) * height) }))
+    .filter((n) => n.i !== skip && n.d <= r && !pins[n.i].hidden)
+    .sort((a, b) => a.d - b.d)
+    .slice(0, limit);
+}
+
+/** Labels of the two toggles on a card (and their icons), so redrawing them keeps the same look. */
+const favLabel = (on) => `${icon(on ? 'star-fill' : 'star')}Favourite`;
+const foundLabel = (on) => `${icon(on ? 'check-circle' : 'pin')}${on ? 'Discovered' : 'Mark discovered'}`;
+
+/** The card a map pin opens: picture, what it is, its entry, actions, nearby pins and the 100% Guide pages about it. */
+function pinCard(pin, categoryLabel, extra = {}) {
+  const { target } = pin;
+  const link = target && !pin.hidden ? entryLink(target.section, target.entry.slug) : '';
+  const key = pinKey(pin);
+  const fav = UserStore.has('favourites', key);
+  const found = pin.ref && UserStore.has('discovered', pin.ref);
+  const i = extra.index ?? -1;
+  const near = extra.nearby || [];
+  const related = extra.related || [];
+  return `<div class="map-card${pin.image ? ' has-image' : ''}" data-pin="${i}">
+    ${pin.image ? `<a class="map-card-pic"${link ? ` href="${link}"` : ''}><img src="${esc(pin.image)}" alt="" loading="lazy"></a>` : ''}
+    <div class="map-card-body">
+      <span class="kicker">${esc(pin.kind || categoryLabel)}</span>
+      <h3>${link ? `<a href="${link}">${esc(pin.name)}</a>` : esc(pin.name)}</h3>
+      ${pin.hidden ? '<p class="muted">A spoiler: show spoilers to read about it.</p>' : (pin.summary ? `<p>${esc(pin.summary)}</p>` : '')}
+      ${i >= 0 ? `<div class="map-card-acts" role="group" aria-label="Actions">
+        ${link ? `<a class="btn btn-primary btn-small" href="${link}">${icon('book')}Open the entry</a>` : ''}
+        <button type="button" class="chip-btn${fav ? ' is-on' : ''}" data-act="fav" aria-pressed="${fav}" title="${fav ? 'Remove from' : 'Add to'} favourites">${favLabel(fav)}</button>
+        ${pin.ref ? `<button type="button" class="chip-btn${found ? ' is-on' : ''}" data-act="found" aria-pressed="${Boolean(found)}" title="Mark as a place you have found in the game">${foundLabel(found)}</button>` : ''}
+        <button type="button" class="chip-btn" data-act="collect" title="Add to one of your collections">${icon('collection')}Collection</button>
+        <button type="button" class="chip-btn" data-act="route" title="Add as a stop on your route">${icon('route')}Route</button>
+        <button type="button" class="chip-btn" data-act="street" title="Open Street Explorer at this pin">${icon('walk')}Street Explorer</button>
+      </div>
+      ${(extra.places || 1) > 1 && target && !pin.hidden ? `<p class="map-card-shared muted">Favourite, Discovered and Collection apply to the ${esc(target.entry.name)} entry, which has ${extra.places} places on the map.</p>` : ''}` : ''}
+      <div class="map-card-guides" hidden></div>
+      ${related.length ? `<div class="map-card-near map-card-related"><b>Related on the map</b><ul>${related.map((n) => `<li><button type="button" data-act="go" data-to="${n.i}">${esc(n.name)}</button></li>`).join('')}</ul></div>` : ''}
+      ${near.length ? `<div class="map-card-near"><b>Nearby</b><ul>${near.map((n) => `<li><button type="button" data-act="go" data-to="${n.i}">${esc(n.name)}</button></li>`).join('')}</ul></div>` : ''}
+      <div class="map-card-foot">
+        ${link && i < 0 ? `<a class="btn btn-small" href="${link}">Open the entry</a>` : ''}
+        <span class="muted pin-certainty" title="${esc(PIN_CERTAINTY_NOTE)}">${esc(pinCertainty(pin))}</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+/** How a pin's position was found. None is surveyed in the game, so none is called exact. */
+const pinCertainty = (pin) => (pin.via === 'gamersky' ? 'Position: approximate, from Gamersky\'s map' : 'Position: approximate, placed by hand on Rockstar\'s map');
+const PIN_CERTAINTY_NOTE = 'No pin position in this app is a surveyed in-game coordinate, so the app gives no distances.';
+
+async function fillPinGuides(root, pin) {
+  const slot = root?.querySelector('.map-card-guides');
+  if (!slot || pin.hidden || typeof Manual === 'undefined' || !Manual.guideLinks) return;
+  const found = [];
+  // The guide page for this kind of place (every bank, every stunt jump…), then pages about the entry.
+  if (pin.guide) {
+    const page = await Manual.pageLink(pin.guide[0], pin.guide[1], state.wiki);
+    if (page) found.push(page);
+    const card = slot.closest('.map-card');
+    if (page?.picture && card && !card.querySelector('.map-card-pic')) {
+      card.insertAdjacentHTML('afterbegin', `<a class="map-card-pic" href="${esc(page.href)}"><img src="${esc(page.picture)}" alt="" loading="lazy"><span>From the guide: ${esc(page.title)}</span></a>`);
+    }
+  }
+  if (pin.target) {
+    for (const f of await Manual.guideLinks(entryLink(pin.target.section, pin.target.entry.slug), state.wiki)) {
+      if (!found.some((g) => g.href === f.href)) found.push(f);
+    }
+  }
+  if (!found.length || !slot.isConnected) return;
+  slot.innerHTML = `<b>In the 100% Guide</b><ul>${found.slice(0, 4).map((f) => `<li><a href="${esc(f.href)}">${esc(f.title)}</a> <em>p. ${esc(f.number)}</em></li>`).join('')}</ul>`;
+  slot.hidden = false;
 }
 
 /** The pin categories in use, declared ones first, each with a safe CSS colour. */
@@ -1284,6 +1580,12 @@ function pinCategories(pins) {
   }));
 }
 
+/** Whether the reader asked for less motion (Settings) or the system does. */
+const calmMotion = () => prefs.get('reduced-motion') === '1' || prefs.get('map-motion') === 'off'
+  || matchMedia('(prefers-reduced-motion: reduce)').matches || window.Appearance?.scale() === 0;
+/** Camera moves at full length (1), shortened for "gentle" animation (0.5), or none (0). */
+const motionScale = () => (calmMotion() ? 0 : window.Appearance?.scale() ?? 1);
+
 function renderMap(params) {
   const { map: config } = state.wiki;
   const pins = mapPins();
@@ -1292,18 +1594,74 @@ function renderMap(params) {
   const dot = (pin, extra = '') => `<i class="pin${extra}" style="background:${categoryOf.get(pin.category).color}"></i>`;
   const off = new Set(); // pin categories switched off
   const expanded = new Set(); // pin categories listed in full
+  const explore = params.get('explore') === '1';
 
   view.innerHTML = `
-    <div class="map-page">
-      <aside class="map-side">
-        <h1>Leonida</h1>
-        <p class="muted">Click a place to fly there. Pin positions come from the community map, not from Rockstar.</p>
-        <input type="search" class="map-filter" placeholder="Filter pins" aria-label="Filter pins" autocomplete="off">
-        <p class="map-count muted" role="status"></p>
+    <div class="map-page${explore ? ' is-explore' : ''}">
+      <aside class="map-side" id="map-side">
+        <button type="button" class="btn btn-icon btn-small map-side-close" data-side aria-label="Close the places panel">${icon('close')}</button>
+        <h1>${explore ? 'Street Explorer' : 'Leonida'}</h1>
+        <p class="muted">${explore
+    ? 'Drag Jason or Lucia onto the map, or press the figure and click a spot, to walk through the real in-game pictures nearest that place. Blue dots mark where pictures are.'
+    : config.image
+      ? 'Click a pin for its card, or a name to fly there. The map is Rockstar\'s own; most pin positions come from Gamersky\'s map and are placed approximately.'
+      : 'Click a pin for its card, or a name to fly there. The map is drawn by the GTA VI mapping community; most pin positions come from Gamersky\'s map and are placed approximately.'}</p>
+        <div class="map-route" hidden></div>
+        <div class="field-search">${icon('search')}
+          <input type="search" class="map-filter" placeholder="Search the map" aria-label="Filter pins" autocomplete="off">
+          <button type="button" class="field-clear" data-clear hidden aria-label="Clear filter" data-tip="Clear">${icon('close')}</button>
+        </div>
+        <div class="map-filter-tools">
+          <p class="map-count muted" role="status"></p>
+          <button type="button" class="link-btn" data-all="on">Show all</button>
+          <button type="button" class="link-btn" data-all="off">Hide all</button>
+        </div>
+        <div class="map-near-filter">
+          <label class="opt"><input type="checkbox" data-near-only><span>Only places near the open pin (or the centre of the view)</span></label>
+          <label class="list-sort"><span>Nearby means</span> <select data-near-radius aria-label="How near counts as nearby">
+            ${[['small', 'Close'], ['medium', 'Medium'], ['large', 'Wide']].map(([v, l]) => `<option value="${v}" ${(prefs.get('near-radius') || 'medium') === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
+        </div>
         <div class="map-lists"></div>
       </aside>
       <div class="map-wrap">
         <div id="leonida-map" aria-label="Zoomable map of Leonida"></div>
+        <div id="leonida-3d" class="map3d" aria-label="3D map of Leonida" hidden></div>
+        <button type="button" class="btn btn-small map-side-toggle" data-side aria-expanded="false" aria-controls="map-side">${icon('pin')}Places</button>
+        <div class="map-tools" role="toolbar" aria-label="Map controls">
+          <div class="map-seg" role="group" aria-label="Map view">
+            <button type="button" data-view="2d" aria-pressed="true">2D</button>
+            <button type="button" data-view="3d" aria-pressed="false">3D</button>
+          </div>
+          <span class="map-sep" aria-hidden="true"></span>
+          <button type="button" class="map-street" data-street aria-pressed="false" title="Show where Street Explorer pictures are">${icon('camera')}Street view</button>
+          <span class="map-sep" aria-hidden="true"></span>
+          <button type="button" class="map-tool" data-reset data-tip="Reset the view" aria-label="Reset the view">${icon('reset')}</button>
+          <button type="button" class="map-tool" data-full data-tip="Full screen" aria-label="Full screen">${icon('expand')}</button>
+          <button type="button" class="map-tool" data-saveview data-tip="Save this view" aria-label="Save this view">${icon('bookmark')}</button>
+          <button type="button" class="map-tool" data-layers aria-expanded="false" aria-controls="map-layers" data-tip="Map overlays" aria-label="Map overlays">${icon('layers')}</button>
+          <button type="button" class="map-tool" data-tilt hidden data-tip="Look straight down or tilt" aria-label="Look straight down or tilt the 3D map">${icon('tilt')}</button>
+          <button type="button" class="map-tool" data-immersive aria-pressed="false" data-tip="Immersive mode (Esc leaves)" aria-label="Immersive mode">${icon('eye')}</button>
+        </div>
+        <div id="map-layers" class="map-layers-panel" hidden>
+          <b>Overlays</b>
+          <label class="opt"><input type="checkbox" data-overlay="density"><span>Density of places</span></label>
+          <label class="opt"><input type="checkbox" data-overlay="names"><span>District and town names</span></label>
+          <label class="opt"><input type="checkbox" data-overlay="links"><span>Lines to related places</span></label>
+          <label class="opt"><input type="checkbox" data-overlay="certainty"><span>How each position was found</span></label>
+          <p class="muted">Density counts only the pins shown, after filters.</p>
+        </div>
+        <div class="map-legend" hidden></div>
+        <section class="immersive-hud" aria-label="Immersive map panel" hidden>
+          <div class="hud-head"><b>${explore ? 'Street Explorer' : 'Leonida'}</b><button type="button" class="btn btn-small" data-immersive>Leave (Esc)</button></div>
+          <input type="search" class="hud-filter" placeholder="Filter pins" aria-label="Filter pins" autocomplete="off">
+          <h2>Nearby</h2>
+          <ul class="hud-near"></ul>
+          <p class="muted hud-note">Nearest pins to the open pin or the centre of the view, by their place on Rockstar's map. Positions are approximate, so no distances are given.</p>
+        </section>
+        <div class="walker-dock">
+          <button type="button" class="walker" data-walker title="Drag onto the map to look around (or press, then click the map)" aria-label="Street Explorer figure: drag onto the map"><img src="${esc(walkerPicture('jason'))}" alt=""></button>
+          <button type="button" class="walker-swap" data-swap>Lucia</button>
+        </div>
         <p id="map-notice" class="map-notice" role="status" hidden></p>
       </div>
     </div>`;
@@ -1311,78 +1669,725 @@ function renderMap(params) {
   const map = L.map('leonida-map', { crs: L.CRS.Simple, zoomSnap: 0.25, minZoom: 0, maxZoom: config.maxZoom + 1, maxBoundsViscosity: 0.7 });
   state.map = map;
   map.attributionControl.setPrefix(false);
-  const point = (x, y) => map.unproject([x * config.width, y * config.height], config.maxZoom);
+  // Positions (x, y from 0 to 1) are on the official map. Without its picture the map shows the
+  // community tiles, which draw the island at another scale and place: map.tileFit says how the two
+  // line up, so every pin, route and click is moved onto the tiles, and back.
+  const fit = !config.image && config.tileFit ? config.tileFit : { scale: 1, x: 0, y: 0, zoom: config.maxZoom };
+  const k = fit.scale * 2 ** (config.maxZoom - fit.zoom);
+  const ox = fit.x * 2 ** (config.maxZoom - fit.zoom), oy = fit.y * 2 ** (config.maxZoom - fit.zoom);
+  const point = (x, y) => map.unproject([ox + k * x * config.width, oy + k * y * config.height], config.maxZoom);
+  const toXY = (ll) => { const at = map.project(ll, config.maxZoom); return [(at.x - ox) / (k * config.width), (at.y - oy) / (k * config.height)]; };
   const bounds = L.latLngBounds(point(0, 1), point(1, 0));
+  const flyMs = (seconds) => seconds * motionScale();
 
-  const tiles = L.tileLayer('/tiles/{z}/{y}/{x}.webp', {
-    tileSize: 512, minNativeZoom: 0, maxNativeZoom: config.maxZoom,
-    minZoom: -2, maxZoom: config.maxZoom + 1, bounds, noWrap: true, attribution: esc(config.attribution),
-  }).addTo(map);
-  // Tiles are fetched once and cached; if that fails, say why the map is blank.
   const notice = document.getElementById('map-notice');
-  tiles.on('tileerror', () => {
-    notice.textContent = 'Some map tiles could not be loaded. Areas you have viewed before still work offline; the rest need an internet connection.';
-    notice.hidden = false;
-  });
-  tiles.on('load', () => { if (!document.querySelector('.leaflet-tile-error')) notice.hidden = true; });
-  tiles.on('tileerror', (e) => e.tile.classList.add('leaflet-tile-error'));
+  const say = (text) => { notice.textContent = text; notice.hidden = false; clearTimeout(say.t); say.t = setTimeout(() => { notice.hidden = true; }, 3200); };
+  if (config.image) {
+    // One picture: Rockstar's official map, shipped with the app, so it works offline.
+    L.imageOverlay(config.image, bounds, { attribution: esc(config.attribution) }).addTo(map);
+  } else {
+    // Only where the tile set has tiles: beyond its edge is open sea, and asking for tiles there
+    // would only fail (and wrongly say the connection is down).
+    const scaleUp = 2 ** (config.maxZoom - fit.zoom);
+    const tileBounds = fit.tilesWidth
+      ? L.latLngBounds(map.unproject([0, fit.tilesHeight * scaleUp], config.maxZoom), map.unproject([fit.tilesWidth * scaleUp, 0], config.maxZoom))
+      : bounds;
+    const tiles = L.tileLayer('/tiles/{z}/{y}/{x}.webp', {
+      tileSize: 512, minNativeZoom: 0, maxNativeZoom: config.maxZoom,
+      minZoom: -2, maxZoom: config.maxZoom + 1, bounds: tileBounds, noWrap: true, attribution: esc(config.tileAttribution || config.attribution),
+    }).addTo(map);
+    // Tiles are fetched once and cached; if that fails, say why the map is blank.
+    tiles.on('tileerror', () => {
+      notice.textContent = 'Some map tiles could not be loaded. Areas you have viewed before still work offline; the rest need an internet connection.';
+      notice.hidden = false;
+    });
+    tiles.on('load', () => { if (!document.querySelector('.leaflet-tile-error')) notice.hidden = true; });
+    tiles.on('tileerror', (e) => e.tile.classList.add('leaflet-tile-error'));
+  }
 
+  // Pins shrink when zoomed out, so a thousand of them still leave the map readable.
+  // "Far" and "mid" are measured from the zoom that fits the whole map, whatever the window size.
   map.setMaxBounds(bounds.pad(0.25));
   map.fitBounds(bounds);
   map.setMinZoom(map.getZoom() - 0.5);
+  const homeZoom = map.getZoom();
+  const isFar = () => map.getZoom() < homeZoom + 0.6;
+  const zoomClass = () => { map.getContainer().dataset.zoom = isFar() ? 'far' : map.getZoom() < homeZoom + 1.6 ? 'mid' : 'near'; };
+  map.on('zoomend', zoomClass);
+  zoomClass();
 
+  // ---------- pins, cards and their actions ----------
+  let selected = -1;
   const layers = {};
-  const markers = pins.map((pin) => {
-    const { target } = pin;
+  const cardFor = (i) => {
+    const node = document.createElement('div');
+    node.innerHTML = pinCard(pins[i], categoryOf.get(pins[i].category).label, {
+      index: i,
+      nearby: nearbyPins(pins, pins[i].x, pins[i].y, 5, i).map((n) => ({ i: n.i, name: pins[n.i].name })),
+      related: relatedOf(i).slice(0, 6).map((j) => ({ i: j, name: pins[j].name })),
+      places: pins[i].ref ? pins.filter((p) => p.ref === pins[i].ref).length : 1,
+    });
+    return node;
+  };
+  // Cards open clear of the toolbar and the top bar: the space they take is measured, and Leaflet
+  // reads this same array each time it pans a card into view. The card's height is capped to the
+  // space that is left (--card-max), and its content scrolls inside.
+  const cardPadTop = [12, 12];
+  function fitCards() {
+    // Whichever map is showing: in 3D the 2D map is hidden and would measure as nothing.
+    const shown = [map.getContainer(), view.querySelector('#leonida-3d')].find((el) => el && !el.hidden && el.offsetParent !== null);
+    if (!shown) return;
+    const box = shown.getBoundingClientRect();
+    if (!box.height) return;
+    const covers = [view.querySelector('.map-tools'), view.querySelector('.map-side-toggle'), document.querySelector('.topbar')]
+      .filter((el) => el && el.offsetParent !== null)
+      .map((el) => el.getBoundingClientRect())
+      .filter((r) => r.bottom > box.top && r.top < box.top + box.height / 2);
+    const top = Math.max(0, ...covers.map((r) => r.bottom - box.top));
+    cardPadTop[1] = Math.round(top + 12);
+    map.getContainer().style.setProperty('--card-max', `${Math.max(180, Math.round(box.height - top - 60))}px`);
+  }
+  const markers = pins.map((pin, i) => {
     const marker = L.marker(point(pin.x, pin.y), {
       title: pin.name,
       alt: pin.name,
-      icon: L.divIcon({ className: '', html: dot(pin, ' pin-map'), iconSize: [26, 26], iconAnchor: [13, 13] }),
-      // Built when the pin is opened, so hundreds of pins cost nothing up front.
-    }).bindPopup(() => `<div class="map-card">
-        ${pin.image ? `<img src="${esc(pin.image)}" alt="">` : ''}
-        <span class="kicker">${esc(categoryOf.get(pin.category).label)}</span>
-        <h3>${esc(pin.name)}</h3>
-        <p>${esc(pin.summary || '')}</p>
-        ${target ? `<a href="${entryLink(target.section, target.entry.slug)}">Open ${esc(target.entry.name)} →</a>` : ''}
-      </div>`, { maxWidth: 280, minWidth: 220 });
+      icon: L.divIcon({ className: `pin-icon pin-${pin.category === 'regions' || pin.category === 'districts' ? 'big' : 'small'} pin-src-${pin.via === 'gamersky' ? 'gs' : 'hand'}`, html: dot(pin, ' pin-map'), iconSize: [26, 26], iconAnchor: [13, 13] }),
+    });
+    // Hover: the name, its kind and (when there is one) its picture, before clicking.
+    marker.bindTooltip(() => {
+      const marks = [UserStore.has('favourites', pinKey(pin)) ? 'Favourite' : '', pin.ref && UserStore.has('discovered', pin.ref) ? 'Discovered' : ''].filter(Boolean).join(' · ');
+      return `${pin.image && !pin.hidden ? `<img src="${esc(pin.image)}" alt="" loading="lazy">` : ''}<b>${esc(pin.name)}</b><span>${esc(pin.kind || categoryOf.get(pin.category).label)}${marks ? ` · ${marks}` : ''}</span><span class="pin-hover-src">${pin.via === 'gamersky' ? 'Approximate (Gamersky map)' : 'Approximate (placed by hand)'}</span>`;
+    },
+      { direction: 'top', offset: [0, -10], className: 'pin-hover', opacity: 1 });
+    // The card is built once, when the pin is first opened, then filled with its guide pages and picture.
+    let card = null;
+    marker.bindPopup(() => {
+      if (!card) {
+        card = cardFor(i);
+        fillPinGuides(card, pin).then(() => marker.getPopup()?.update());
+      }
+      return card;
+    }, { maxWidth: 340, minWidth: 270, className: 'map-popup', autoPanPaddingTopLeft: cardPadTop, autoPanPadding: [12, 12] });
+    marker.on('popupopen', () => { selected = i; marker.getElement()?.classList.add('is-selected'); pinOpened(i); });
+    marker.on('popupclose', () => {
+      marker.getElement()?.classList.remove('is-selected');
+      linkLayer.clearLayers();
+      // Closed by the reader (not replaced by another card): nothing is chosen any more.
+      if (selected === i && mode === '2d') { selected = -1; view.querySelectorAll('.map-lists [data-marker].is-selected').forEach((b) => b.classList.remove('is-selected')); }
+    });
     (layers[pin.category] ||= L.layerGroup().addTo(map)).addLayer(marker);
     return marker;
   });
 
+  fitCards();
+  map.on('resize', fitCards);
+  const onResize = () => { if (state.map === map) fitCards(); };
+  addEventListener('resize', onResize);
+  onLeave(() => removeEventListener('resize', onResize));
+
+  // ---------- clustering: far out, crowded small pins gather into counted bubbles ----------
+  const clusterLayer = L.layerGroup().addTo(map);
+  let filtered = null; // indexes matching the text filter, or null
+  const visible = (i) => !off.has(pins[i].category) && (!filtered || filtered.has(i));
+  function drawClusters() {
+    if (state.map !== map) return; // a flight still finishing after the page changed
+    clusterLayer.clearLayers();
+    const far = isFar();
+    map.getContainer().classList.toggle('is-clustered', far);
+    if (!far) return;
+    const cell = map.getZoom() < homeZoom ? 58 : 46;
+    const bins = new Map();
+    pins.forEach((pin, i) => {
+      if (!visible(i) || pin.category === 'regions' || pin.category === 'districts') return;
+      const p = map.latLngToContainerPoint(point(pin.x, pin.y));
+      const key = `${Math.floor(p.x / cell)},${Math.floor(p.y / cell)}`;
+      (bins.get(key) || bins.set(key, []).get(key)).push(i);
+    });
+    for (const members of bins.values()) {
+      const cx = members.reduce((s, i) => s + pins[i].x, 0) / members.length;
+      const cy = members.reduce((s, i) => s + pins[i].y, 0) / members.length;
+      const counts = new Map();
+      members.forEach((i) => counts.set(pins[i].category, (counts.get(pins[i].category) || 0) + 1));
+      const ranked = [...counts.entries()].sort((a, b) => b[1] - a[1]);
+      const top = ranked[0][0];
+      const size = members.length > 30 ? 42 : members.length > 9 ? 36 : 30;
+      // The ring: one arc per kind of place, in proportion.
+      let at = 0;
+      const ring = ranked.map(([key, n]) => { const from = at; at += (n / members.length) * 360; return `${categoryOf.get(key).color} ${from}deg ${at}deg`; }).join(', ');
+      const breakdown = ranked.slice(0, 4).map(([key, n]) => `${n} ${categoryOf.get(key).label}`).join(', ') + (ranked.length > 4 ? ', more' : '');
+      L.marker(point(cx, cy), {
+        icon: L.divIcon({ className: 'pin-cluster', html: `<span style="--c:${categoryOf.get(top).color};--ring:conic-gradient(${ring})">${members.length}</span>`, iconSize: [size, size], iconAnchor: [size / 2, size / 2] }),
+        title: `${members.length} places here (${breakdown}): zoom in`,
+        alt: `${members.length} places here: ${breakdown}`,
+        keyboard: true,
+      }).bindTooltip(`<b>${members.length} places</b><span>${esc(breakdown)}</span>`, { direction: 'top', offset: [0, -size / 2], className: 'pin-hover' })
+        .on('click', () => map.flyTo(point(cx, cy), Math.max(1, map.getZoom() + 1.25), { duration: flyMs(0.7) })).addTo(clusterLayer);
+    }
+  }
+  map.on('zoomend moveend', drawClusters);
+  drawClusters();
+
+  /** Apply the text filter to the map itself (not only the lists), in 2D and 3D. */
+  function applyFilterToMap() {
+    markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', Boolean(filtered) && !filtered.has(i)));
+    three?.filter(filtered ? [...filtered].filter((i) => !off.has(pins[i].category)) : (off.size ? pins.map((_, i) => i).filter((i) => !off.has(pins[i].category)) : null));
+    drawClusters();
+    drawDensity();
+    drawHud();
+  }
+  map.on('layeradd', () => { if (filtered) markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', !filtered.has(i))); });
+
+  // ---------- 3D view and Street Explorer ----------
+  const wrap = view.querySelector('.map-wrap');
+  const box3d = view.querySelector('#leonida-3d');
+  let three = null; // the 3D map, once opened
+  let mode = '2d';
+  const photos = (config.photos || []).filter((p) => {
+    const target = resolve(p.ref);
+    return !target || !isHidden(target.section, target.entry);
+  });
+  const photoLayer = L.layerGroup(photos.map((p) => L.circleMarker(point(p.x, p.y), {
+    radius: 5, color: '#ffffff', weight: 1.5, fillColor: '#3d9bff', fillOpacity: 0.9, className: 'photo-dot',
+  }).bindTooltip(esc(p.title), { direction: 'top', className: 'pin-hover' }).on('click', () => openStreet(p.x, p.y))));
+  let showingPhotos = false;
+  const setPhotos = (on) => {
+    showingPhotos = on;
+    view.querySelector('[data-street]').setAttribute('aria-pressed', String(on));
+    if (on) photoLayer.addTo(map); else map.removeLayer(photoLayer);
+    three?.showPhotos(on);
+  };
+  // A character profile (Settings) picks its own walker; otherwise the saved choice.
+  let walker = UserStore.profile() || (prefs.get('walker') === 'lucia' ? 'lucia' : 'jason');
+  const walkerSrc = () => walkerPicture(walker);
+  const syncWalker = () => {
+    view.querySelector('[data-walker] img').src = walkerSrc();
+    // The label names who walks now; the button switches to the other one (said in its name and tip).
+    const now = walker === 'jason' ? 'Jason' : 'Lucia';
+    const other = walker === 'jason' ? 'Lucia' : 'Jason';
+    const swap = view.querySelector('[data-swap]');
+    swap.textContent = now;
+    swap.setAttribute('aria-label', `Walking as ${now}. Switch to ${other}`);
+    swap.title = `Switch to ${other}`;
+  };
+  syncWalker();
+  let walkerMark = null;
+  function openStreet(x, y) {
+    if (walkerMark) map.removeLayer(walkerMark);
+    walkerMark = L.marker(point(x, y), { icon: L.divIcon({ className: 'walker-mark', html: `<img src="${walkerSrc()}" alt="">`, iconSize: [44, 56], iconAnchor: [22, 56] }), interactive: false }).addTo(map);
+    StreetView.open({
+      x, y, photos, config, walker: walkerSrc(), who: walker, places: config.places || [],
+      focusAfter: () => view.querySelector('[data-walker]'),
+      link: (ref) => { const target = resolve(ref); return target ? entryLink(target.section, target.entry.slug) : ''; },
+      onSave: (sx, sy, where) => {
+        const starts = UserStore.get('street-starts', []);
+        UserStore.set('street-starts', [...starts, { id: Date.now().toString(36), name: `Near ${where}`, x: sx, y: sy, walker, at: Date.now() }]);
+      },
+      onSwap: () => { walker = walker === 'jason' ? 'lucia' : 'jason'; syncWalker(); return walkerSrc(); },
+      onPhoto: (p) => document.dispatchEvent(new CustomEvent('hq:street-photo', { detail: p })),
+    });
+  }
+
+  const pinColors = pins.map((pin) => ({ ...pin, color: categoryOf.get(pin.category).color }));
+  // One 3D card at a time: choosing another place replaces it. Closing it clears the selection,
+  // so a closed card does not come back on a 2D/3D switch or in immersive mode.
+  let card3d = null;
+  function openCard3d(i) {
+    if (!three) return;
+    const old = card3d;
+    card3d = null;
+    old?.remove();
+    selected = i;
+    three.select(i);
+    const node = cardFor(i);
+    const popup = three.popup(three.toLngLat(pins[i].x, pins[i].y), node);
+    card3d = popup;
+    popup.on('close', () => {
+      if (card3d !== popup) return; // replaced by the next card, not closed by the reader
+      card3d = null;
+      selected = -1;
+      three?.select(-1);
+      three?.links([]);
+      view.querySelectorAll('.map-lists [data-marker].is-selected').forEach((b) => b.classList.remove('is-selected'));
+    });
+    fillPinGuides(node, pins[i]).then?.(() => keepCard3dInView(popup));
+    pinOpened(i);
+    requestAnimationFrame(() => keepCard3dInView(popup));
+  }
+  /** Moves the 3D map so the whole card is in view, below the toolbar. */
+  function keepCard3dInView(popup) {
+    if (!three || card3d !== popup) return;
+    const el = popup.getElement?.();
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    const c = box3d.getBoundingClientRect();
+    const top = c.top + cardPadTop[1];
+    let dy = 0, dx = 0;
+    if (r.top < top) dy = r.top - top;
+    else if (r.bottom > c.bottom - 12) dy = Math.min(r.bottom - (c.bottom - 12), r.top - top);
+    if (r.left < c.left + 12) dx = r.left - (c.left + 12);
+    else if (r.right > c.right - 12) dx = r.right - (c.right - 12);
+    if (Math.abs(dx) > 2 || Math.abs(dy) > 2) three.map.panBy([dx, dy], { duration: calmMotion() ? 0 : 300 * motionScale() });
+  }
+  /** Where the 2D map is looking, as the 3D map's camera (and back), so switching keeps your place. */
+  const view2d = () => { const [x, y] = toXY(map.getCenter()); return { x, y, zoom: 9.2 + (map.getZoom() - homeZoom) * 0.95 }; };
+  let building3d = null;
+  async function show3d() {
+    mode = '3d';
+    view.querySelectorAll('[data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === '3d')));
+    const from2d = view2d();
+    const keep = map.getZoom() > homeZoom + 0.2;
+    box3d.hidden = false;
+    view.querySelector('#leonida-map').hidden = true;
+    if (!three) {
+      // One build at a time; pressing 3D again while it builds waits for the same one.
+      if (building3d) {
+        try { await building3d; } catch { return; } // the first press shows the failure
+        if (state.map === map && mode === '3d' && three) finish3d(from2d, keep);
+        return;
+      }
+      box3d.innerHTML = '<p class="map3d-loading"><span class="spinner" aria-hidden="true"></span>Building the 3D map…</p>';
+      try {
+        building3d = Map3D.create(box3d, config, pinColors, photos, {
+          onPin: (i) => openCard3d(i),
+          onStreet: (x, y) => openStreet(x, y),
+          calm: calmMotion,
+          scale: motionScale,
+        });
+        const made = await building3d;
+        building3d = null;
+        // The reader left the map while it was building: let go of it (and its WebGL context) now.
+        if (state.map !== map) { try { made.destroy(); } catch { /* already gone */ } return; }
+        three = made;
+        state.map3d = three;
+        box3d.querySelector('.map3d-loading')?.remove();
+        three.showPhotos(showingPhotos);
+        three.route(stops);
+        three.map.on('moveend', drawHud);
+        applyFilterToMap();
+        applyOverlays();
+      } catch (error) {
+        building3d = null;
+        if (state.map !== map) return;
+        box3d.innerHTML = `<p class="map3d-loading">${esc(error.message)} <button type="button" class="link-btn" data-view="2d">Back to 2D</button></p>`;
+        return;
+      }
+      // Back in 2D before it finished: keep the 3D map for later, but show none of its controls.
+      if (mode !== '3d') return;
+    }
+    finish3d(from2d, keep);
+  }
+  function finish3d(from2d, keep) {
+    three.map.resize();
+    fitCards();
+    view.querySelector('[data-tilt]').hidden = false;
+    if (keep) three.setView(from2d, false);
+    if (selected >= 0) { const keepOpen = selected; map.closePopup(); openCard3d(keepOpen); }
+  }
+  function show2d() {
+    mode = '2d';
+    view.querySelectorAll('[data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === '2d')));
+    box3d.hidden = true;
+    view.querySelector('#leonida-map').hidden = false;
+    view.querySelector('[data-tilt]').hidden = true;
+    map.invalidateSize();
+    fitCards();
+    if (three) {
+      const v = three.view();
+      map.setView(point(v.x, v.y), Math.max(map.getMinZoom(), homeZoom + (v.zoom - 9.2) / 0.95), { animate: false });
+      const keepOpen = selected;
+      const old = card3d;
+      card3d = null; // removed for the switch, not closed by the reader
+      old?.remove();
+      three.select(-1);
+      document.querySelectorAll('.map3d-popup').forEach((p) => p.remove());
+      selected = keepOpen;
+    }
+    if (selected >= 0) markers[selected].openPopup();
+  }
+  function resetView() {
+    if (mode === '3d' && three) three.reset();
+    else map.flyToBounds(bounds, { duration: flyMs(0.8) });
+  }
+  function toggleFullscreen() {
+    const page = view.querySelector('.map-page');
+    if (document.fullscreenElement) document.exitFullscreen?.();
+    else page.requestFullscreen?.().catch(() => say('Full screen is not available here.'));
+  }
+  function saveView() {
+    const v = mode === '3d' && three ? { mode: '3d', ...three.view() } : { mode: '2d', ...(() => { const [x, y] = toXY(map.getCenter()); return { x, y, zoom: map.getZoom() }; })() };
+    const near = (config.places || []).reduce((best, pl) => {
+      const d = Math.hypot(pl.x - v.x, pl.y - v.y);
+      return !best || d < best.d ? { d, name: pl.name } : best;
+    }, null);
+    const views = UserStore.get('map-views', []);
+    UserStore.set('map-views', [...views, { id: Date.now().toString(36), name: `${v.mode.toUpperCase()} view${near ? ` near ${near.name}` : ''}`, ...v, at: Date.now() }]);
+    say('View saved. Find it under Saved.');
+  }
+  wrap.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-view], [data-street], [data-swap], [data-reset], [data-full], [data-saveview], [data-layers], [data-immersive], [data-tilt]');
+    if (!b || b.closest('.map-card')) return;
+    if (b.dataset.layers !== undefined) {
+      layersPanel.hidden = !layersPanel.hidden;
+      b.setAttribute('aria-expanded', String(!layersPanel.hidden));
+      if (!layersPanel.hidden) layersPanel.querySelector('input')?.focus();
+      return;
+    }
+    if (b.dataset.immersive !== undefined) { setImmersive(!immersive); return; }
+    if (b.dataset.tilt !== undefined) { const tilted = three?.tilt(); b.setAttribute('aria-pressed', String(!tilted)); return; }
+    if (b.dataset.view === '3d') show3d();
+    else if (b.dataset.view === '2d') show2d();
+    else if (b.dataset.street !== undefined) setPhotos(!showingPhotos);
+    else if (b.dataset.reset !== undefined) resetView();
+    else if (b.dataset.full !== undefined) toggleFullscreen();
+    else if (b.dataset.saveview !== undefined) saveView();
+    else { walker = walker === 'jason' ? 'lucia' : 'jason'; syncWalker(); }
+  });
+
+  // The walker: drag it onto the map (or press it, then click a spot) to open Street Explorer there.
+  const walkerButton = view.querySelector('[data-walker]');
+  let ghost = null;
+  let armed = false;
+  const spotAt = (e) => {
+    if (mode === '3d' && three) return three.xyAt(e.clientX, e.clientY);
+    return toXY(map.mouseEventToLatLng(e));
+  };
+  const overMap = (e) => {
+    const r = (mode === '3d' ? box3d : view.querySelector('#leonida-map')).getBoundingClientRect();
+    return e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
+  };
+  const arm = (on) => {
+    armed = on;
+    wrap.classList.toggle('is-armed', on);
+    if (on) say(`Click a spot on the map to drop ${walker === 'jason' ? 'Jason' : 'Lucia'} there. Press Escape or the walker again to cancel.`);
+    else if (wasArmed) say('Cancelled.');
+  };
+  let wasArmed = false;
+  // Escape puts the walker back (before immersive mode sees the key).
+  const onWalkerKey = (e) => { if (e.key === 'Escape' && armed) { e.preventDefault(); e.stopPropagation(); wasArmed = true; arm(false); wasArmed = false; } };
+  document.addEventListener('keydown', onWalkerKey, true);
+  onLeave(() => document.removeEventListener('keydown', onWalkerKey, true));
+  walkerButton.addEventListener('pointerdown', (e) => {
+    e.preventDefault();
+    walkerButton.setPointerCapture(e.pointerId);
+    ghost = document.createElement('img');
+    ghost.className = 'walker-ghost';
+    ghost.src = walkerSrc();
+    ghost.alt = '';
+    ghost.dataset.x = String(e.clientX);
+    ghost.dataset.y = String(e.clientY);
+    document.body.append(ghost);
+    ghost.style.left = `${e.clientX}px`;
+    ghost.style.top = `${e.clientY}px`;
+    wrap.classList.add('is-walking');
+    if (!showingPhotos) { setPhotos(true); ghost.dataset.temp = '1'; }
+  });
+  walkerButton.addEventListener('pointermove', (e) => {
+    if (!ghost) return;
+    ghost.style.left = `${e.clientX}px`;
+    ghost.style.top = `${e.clientY}px`;
+  });
+  const endDrag = (e) => {
+    if (!ghost) return;
+    const moved = Math.hypot(e.clientX - Number(ghost.dataset.x), e.clientY - Number(ghost.dataset.y)) > 12;
+    const temp = ghost.dataset.temp && !explore;
+    ghost.remove();
+    ghost = null;
+    wrap.classList.remove('is-walking');
+    if (moved && overMap(e)) {
+      const [x, y] = spotAt(e);
+      if (temp) setPhotos(false);
+      if (x >= 0 && x <= 1 && y >= 0 && y <= 1) openStreet(x, y);
+    } else if (!moved) {
+      // A press without a drag (or Enter on the keyboard): the next click on the map drops the walker
+      // there. Pressing it again while it waits puts it back.
+      if (armed) { wasArmed = true; arm(false); wasArmed = false; if (temp) setPhotos(false); } else arm(true);
+    } else if (temp) setPhotos(false);
+  };
+  walkerButton.addEventListener('pointerup', endDrag);
+  walkerButton.addEventListener('pointercancel', endDrag);
+  walkerButton.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    e.preventDefault();
+    if (armed) { wasArmed = true; arm(false); wasArmed = false; } else { setPhotos(true); arm(true); }
+  });
+  wrap.addEventListener('click', (e) => {
+    if (!armed || !overMap(e) || e.target.closest('.walker-dock, .map-tools')) return;
+    arm(false);
+    const [x, y] = spotAt(e);
+    if (x >= 0 && x <= 1 && y >= 0 && y <= 1) { e.stopPropagation(); e.preventDefault(); openStreet(x, y); }
+  }, true);
+
+  // Each flight has a number; a card opens only for the latest one, so a flight cut short by the
+  // next choice never opens the earlier place's card.
+  let flight = 0;
   const flyTo = (index) => {
     const pin = pins[index];
-    if (!pin || off.has(pin.category)) return;
-    map.flyTo(point(pin.x, pin.y), categoryOf.get(pin.category).zoom, { duration: 0.9 });
-    map.once('moveend', () => markers[index].openPopup());
+    if (!pin) return;
+    if (off.has(pin.category)) { off.delete(pin.category); map.addLayer(layers[pin.category]); drawLists(); applyFilterToMap(); }
+    selected = index;
+    const ticket = ++flight;
+    if (mode === '3d' && three) {
+      three.flyTo(pin.x, pin.y);
+      // With reduced or no motion the camera jumps at once and its moveend has already fired.
+      if (three.map.isMoving()) three.map.once('moveend', () => { if (ticket === flight) openCard3d(index); });
+      else openCard3d(index);
+      return;
+    }
+    map.flyTo(point(pin.x, pin.y), Math.max(map.getZoom(), categoryOf.get(pin.category).zoom), { duration: flyMs(1.1) });
+    map.once('moveend', () => { if (ticket === flight) markers[index].openPopup(); });
   };
 
-  // Sidebar: one list per category with its count; the filter narrows every list.
+  // ---------- route planner: numbered stops joined by straight lines (not roads) ----------
+  let stops = [];
+  const routeBox = view.querySelector('.map-route');
+  const routeLayer = L.layerGroup().addTo(map);
+  function drawRoute() {
+    routeLayer.clearLayers();
+    if (stops.length > 1) L.polyline(stops.map((s) => point(s.x, s.y)), { color: '#ffd166', weight: 4, dashArray: '8 8', interactive: false }).addTo(routeLayer);
+    stops.forEach((s, k) => L.marker(point(s.x, s.y), { icon: L.divIcon({ className: 'route-stop', html: `<span>${k + 1}</span>`, iconSize: [24, 24], iconAnchor: [12, 12] }), interactive: false }).addTo(routeLayer));
+    three?.route(stops);
+    routeBox.hidden = !stops.length;
+    routeBox.innerHTML = stops.length ? `<h2>Route <span class="muted">${stops.length} ${stops.length === 1 ? 'stop' : 'stops'}</span></h2>
+      <ol>${stops.map((s, k) => `<li><span class="route-n">${k + 1}</span><span class="route-name">${esc(s.name)}</span>
+        <span class="route-btns"><button type="button" data-stop-up="${k}" aria-label="Move ${esc(s.name)} up" ${k === 0 ? 'disabled' : ''}>${icon('chevron-down', 'flip')}</button><button type="button" data-stop-down="${k}" aria-label="Move ${esc(s.name)} down" ${k === stops.length - 1 ? 'disabled' : ''}>${icon('chevron-down')}</button><button type="button" data-stop-del="${k}" aria-label="Remove ${esc(s.name)}">${icon('close')}</button></span></li>`).join('')}</ol>
+      <p class="muted route-note">An approximate map route: straight lines between the stops on Rockstar's map, not roads. No distance or travel time is given, because pin positions are approximate.</p>
+      <form class="route-save"><input name="name" placeholder="Name this route" aria-label="Route name" maxlength="60" required><button class="btn btn-small">Save route</button><button type="button" class="link-btn" data-stop-clear>Clear</button></form>` : '';
+  }
+  const addStop = (s) => { stops = [...stops, s]; drawRoute(); say(`${s.name} added to the route (stop ${stops.length}).`); };
+  routeBox.addEventListener('click', (e) => {
+    const b = e.target.closest('button');
+    if (!b) return;
+    const k = Number(b.dataset.stopUp ?? b.dataset.stopDown ?? b.dataset.stopDel);
+    if (b.dataset.stopUp !== undefined) [stops[k - 1], stops[k]] = [stops[k], stops[k - 1]];
+    else if (b.dataset.stopDown !== undefined) [stops[k + 1], stops[k]] = [stops[k], stops[k + 1]];
+    else if (b.dataset.stopDel !== undefined) stops.splice(k, 1);
+    else if (b.dataset.stopClear !== undefined) stops = [];
+    else return;
+    drawRoute();
+  });
+  routeBox.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = e.target.elements.name.value.trim() || 'My route';
+    UserStore.set('routes', [...UserStore.get('routes', []), { id: Date.now().toString(36), name, stops, at: Date.now() }]);
+    say(`Route "${name}" saved. Find it under Saved.`);
+  });
+
+  // Card buttons (both maps' cards live inside the map area).
+  wrap.addEventListener('click', (e) => {
+    const b = e.target.closest('.map-card [data-act]');
+    if (!b) return;
+    const i = Number(b.closest('.map-card').dataset.pin);
+    const pin = pins[i];
+    if (!pin) return;
+    const act = b.dataset.act;
+    if (act === 'fav') {
+      const on = UserStore.toggle('favourites', pinKey(pin));
+      UserStore.set('favourite-pins', { ...UserStore.get('favourite-pins', {}), [pinKey(pin)]: { name: pin.keyName || pin.name, ...(pin.spoilerMarker ? { spoiler: true } : {}), x: pin.x, y: pin.y, ref: pin.ref || '', kind: pin.kind || categoryOf.get(pin.category).label } });
+      b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.innerHTML = favLabel(on);
+    } else if (act === 'found') {
+      const on = UserStore.toggle('discovered', pin.ref);
+      b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.innerHTML = foundLabel(on);
+    } else if (act === 'collect') {
+      // Kept under its real name, marked as a spoiler; shown under the name the map shows now.
+      openCollectionPicker({ key: pinKey(pin), name: pin.keyName || pin.name, label: pin.name, spoiler: pin.spoilerMarker, x: pin.x, y: pin.y, ref: pin.ref || '' });
+    } else if (act === 'route') {
+      addStop({ name: pin.name, x: pin.x, y: pin.y, ref: pin.ref || '' });
+    } else if (act === 'street') {
+      openStreet(pin.x, pin.y);
+    } else if (act === 'go') {
+      flyTo(Number(b.dataset.to));
+    }
+  });
+
+  // ---------- map intelligence: overlays, related places, the nearby-only filter ----------
+  function relatedOf(i) {
+    const entry = pins[i]?.target?.entry;
+    if (!entry || pins[i].hidden) return [];
+    const refs = new Set((entry.related || []).map(resolve).filter(Boolean).map((t) => `${t.section}/${t.entry.slug}`));
+    if (!refs.size) return [];
+    // An entry with several places (a bank's branches) is shown once, at its branch nearest this pin.
+    const { width, height } = state.wiki.map;
+    const far = (j) => Math.hypot((pins[j].x - pins[i].x) * width, (pins[j].y - pins[i].y) * height);
+    const best = new Map();
+    pins.forEach((p, j) => {
+      if (j === i || !p.ref || !refs.has(p.ref) || p.hidden) return;
+      const had = best.get(p.ref);
+      if (had === undefined || far(j) < far(had)) best.set(p.ref, j);
+    });
+    return [...best.values()];
+  }
+  const accentColor = () => getComputedStyle(document.documentElement).getPropertyValue('--accent-pink-strong').trim() || '#ff6f9e';
+  const OVERLAY_KEYS = ['density', 'names', 'links', 'certainty'];
+  const overlays = new Set((prefs.get('map-overlays') ?? 'links').split(',').filter((k) => OVERLAY_KEYS.includes(k)));
+  const layersPanel = view.querySelector('.map-layers-panel');
+  const legend = view.querySelector('.map-legend');
+  const densityLayer = L.layerGroup().addTo(map);
+  const linkLayer = L.layerGroup().addTo(map);
+  const namesLayer = L.layerGroup((config.places || []).map((pl) => L.marker(point(pl.x, pl.y), {
+    icon: L.divIcon({ className: `place-label place-${pl.kind}`, html: `<span>${esc(pl.name)}</span>`, iconSize: [0, 0] }), interactive: false, keyboard: false,
+  })));
+  const shownPins = () => pins.map((_, i) => i).filter((i) => visible(i) && !pins[i].hidden && pins[i].category !== 'regions' && pins[i].category !== 'districts');
+  function drawDensity() {
+    densityLayer.clearLayers();
+    const on = overlays.has('density');
+    three?.density(on);
+    if (!on) return;
+    const cols = 30;
+    const rows = Math.round((cols * config.height) / config.width);
+    const grid = new Map();
+    for (const i of shownPins()) {
+      const k = `${Math.min(cols - 1, Math.floor(pins[i].x * cols))},${Math.min(rows - 1, Math.floor(pins[i].y * rows))}`;
+      grid.set(k, (grid.get(k) || 0) + 1);
+    }
+    const most = Math.max(1, ...grid.values());
+    const colour = accentColor();
+    for (const [k, n] of grid) {
+      const [cx, cy] = k.split(',').map(Number);
+      L.rectangle(L.latLngBounds(point(cx / cols, (cy + 1) / rows), point((cx + 1) / cols, cy / rows)), {
+        stroke: false, fillColor: colour, fillOpacity: 0.1 + 0.5 * (n / most), interactive: false, className: 'density-cell',
+      }).addTo(densityLayer);
+    }
+  }
+  function drawLinks(i) {
+    linkLayer.clearLayers();
+    three?.links([]);
+    if (i < 0 || !overlays.has('links')) return;
+    const rel = relatedOf(i);
+    const colour = accentColor();
+    rel.forEach((j) => L.polyline([point(pins[i].x, pins[i].y), point(pins[j].x, pins[j].y)], { color: colour, weight: 2.5, dashArray: '2 7', lineCap: 'round', interactive: false, className: 'rel-line' }).addTo(linkLayer));
+    three?.links(rel.map((j) => [pins[i], pins[j]]));
+  }
+  function drawLegend() {
+    const parts = [];
+    if (overlays.has('certainty')) parts.push('<div><i class="lg-gs"></i>From Gamersky\'s map</div><div><i class="lg-hand"></i>Placed by hand on Rockstar\'s map</div><p>All positions are approximate; none is a surveyed in-game coordinate.</p>');
+    if (overlays.has('density')) parts.push('<div><i class="lg-heat"></i>More places close together</div>');
+    if (overlays.has('links')) parts.push('<div><i class="lg-link"></i>Related to the open pin</div>');
+    legend.innerHTML = parts.join('');
+    legend.hidden = !parts.length;
+  }
+  function applyOverlays() {
+    if (overlays.has('names')) namesLayer.addTo(map); else map.removeLayer(namesLayer);
+    three?.names(overlays.has('names'), config.places || []);
+    map.getContainer().classList.toggle('show-certainty', overlays.has('certainty'));
+    drawDensity();
+    drawLinks(selected);
+    drawLegend();
+    layersPanel.querySelectorAll('[data-overlay]').forEach((c) => { c.checked = overlays.has(c.dataset.overlay); });
+  }
+  layersPanel.addEventListener('change', (e) => {
+    const key = e.target.dataset.overlay;
+    if (!key) return;
+    if (e.target.checked) overlays.add(key); else overlays.delete(key);
+    prefs.set('map-overlays', [...overlays].join(','));
+    applyOverlays();
+  });
+  let nearOnly = false;
+  const nearCentre = () => {
+    if (selected >= 0) return [pins[selected].x, pins[selected].y];
+    if (mode === '3d' && three) { const v = three.view(); return [v.x, v.y]; }
+    return toXY(map.getCenter());
+  };
+  function pinOpened(i) {
+    document.dispatchEvent(new CustomEvent('hq:pin-open', { detail: pins[i] }));
+    view.querySelectorAll('.map-lists [data-marker]').forEach((b) => b.classList.toggle('is-selected', Number(b.dataset.marker) === i));
+    drawLinks(i);
+    if (nearOnly) drawLists();
+    drawHud();
+  }
+
+  // ---------- immersive mode: the map alone, with floating controls ----------
+  const page = view.querySelector('.map-page');
+  const hud = view.querySelector('.immersive-hud');
+  let immersive = false;
+  function drawHud() {
+    if (!immersive || state.map !== map) return;
+    const [cx, cy] = nearCentre();
+    // The same place can be pinned from two sections (a shop and its chain): list it once.
+    const named = new Set();
+    const near = nearbyPins(pins, cx, cy, 40).filter((n) => visible(n.i) && n.i !== selected && !named.has(pins[n.i].name) && named.add(pins[n.i].name)).slice(0, 8);
+    hud.querySelector('.hud-near').innerHTML = near.length
+      ? near.map((n) => `<li><button type="button" data-marker="${n.i}">${dot(pins[n.i])}<span>${esc(pins[n.i].name)}</span><small>${esc(pins[n.i].kind || categoryOf.get(pins[n.i].category).label)}</small></button></li>`).join('')
+      : '<li class="muted">No pins near here. Move the map or pick a wider "nearby" in Settings.</li>';
+  }
+  function setImmersive(on) {
+    immersive = on;
+    page.classList.toggle('is-immersive', on);
+    document.body.classList.toggle('map-immersive', on);
+    hud.hidden = !on;
+    view.querySelectorAll('.map-tools [data-immersive]').forEach((b) => b.setAttribute('aria-pressed', String(on)));
+    setTimeout(() => {
+      map.invalidateSize({ animate: false });
+      three?.map.resize();
+      if (on && selected >= 0) flyTo(selected);
+      drawHud();
+    }, 80);
+    if (on) hud.querySelector('.hud-filter').focus();
+    else view.querySelector('.map-tools [data-immersive]')?.focus();
+  }
+  const onImmersiveKey = (e) => {
+    if (!page.isConnected) { document.removeEventListener('keydown', onImmersiveKey); return; }
+    if (e.key === 'Escape' && immersive && !document.querySelector('.sv') && !e.defaultPrevented) { e.preventDefault(); setImmersive(false); }
+  };
+  document.addEventListener('keydown', onImmersiveKey);
+  onLeave(() => document.removeEventListener('keydown', onImmersiveKey));
+  hud.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-marker]');
+    if (b) flyTo(Number(b.dataset.marker));
+  });
+  hud.querySelector('.hud-filter').addEventListener('input', (e) => {
+    filter.value = e.target.value;
+    clearTimeout(filterTimer);
+    filterTimer = setTimeout(drawLists, 120);
+  });
+  map.on('moveend', drawHud);
+  applyOverlays();
+
+  // ---------- sidebar: one list per category with its count; the filter narrows every list and the map ----------
   const side = view.querySelector('.map-side');
   const lists = side.querySelector('.map-lists');
   const filter = side.querySelector('.map-filter');
-  const names = pins.map((pin) => `${pin.name} ${categoryOf.get(pin.category).label}`.toLowerCase());
-  const drawLists = () => {
+  const names = pins.map((pin) => `${pin.name} ${pin.kind} ${categoryOf.get(pin.category).label}`.toLowerCase());
+  // The count is of pins actually on the map: categories switched off are left out, and said so.
+  let lastCount = null;
+  function drawCount() {
+    if (!lastCount) return;
+    const { matches, narrowed } = lastCount;
+    const shownCount = matches.filter((i) => !off.has(pins[i].category)).length;
+    const onMap = pins.filter((p) => !off.has(p.category)).length;
+    const hiddenNote = off.size ? ` (${off.size} ${off.size === 1 ? 'category' : 'categories'} hidden)` : '';
+    side.querySelector('.map-count').textContent = narrowed
+      ? `${shownCount} of ${onMap} pins ${nearOnly ? 'nearby' : 'match'}${hiddenNote}`
+      : `${onMap} ${onMap === 1 ? 'pin' : 'pins'}${off.size ? ` of ${pins.length}${hiddenNote}` : ''}`;
+  }
+  function drawLists() {
     const words = filter.value.toLowerCase().split(/\s+/).filter(Boolean);
-    const matches = pins.map((_, i) => i).filter((i) => words.every((w) => names[i].includes(w)));
-    side.querySelector('.map-count').textContent = words.length
-      ? `${matches.length} of ${pins.length} pins match`
-      : `${pins.length} ${pins.length === 1 ? 'pin' : 'pins'}`;
+    let matches = pins.map((_, i) => i).filter((i) => words.every((w) => names[i].includes(w)));
+    if (nearOnly) {
+      const [cx, cy] = nearCentre();
+      const close = new Set(nearbyPins(pins, cx, cy, pins.length).map((n) => n.i));
+      if (selected >= 0) close.add(selected);
+      matches = matches.filter((i) => close.has(i));
+    }
+    filtered = words.length || nearOnly ? new Set(matches) : null;
+    side.querySelector('[data-clear]').hidden = !words.length;
+    lastCount = { matches, narrowed: Boolean(words.length || nearOnly) };
+    drawCount();
     lists.innerHTML = categories.map((c) => {
       const all = pins.filter((pin) => pin.category === c.key).length;
       const mine = matches.filter((i) => pins[i].category === c.key);
       // While filtering, show every match; otherwise a page, then "Show all".
-      const listed = words.length || expanded.has(c.key) ? mine : mine.slice(0, MAP_LIST_PAGE);
-      if (words.length && !mine.length) return '';
+      const listed = words.length || nearOnly || expanded.has(c.key) ? mine : mine.slice(0, MAP_LIST_PAGE);
+      if ((words.length || nearOnly) && !mine.length) return '';
       return `<section data-category="${esc(c.key)}">
         <label class="map-toggle"><input type="checkbox" ${off.has(c.key) ? '' : 'checked'} data-toggle="${esc(c.key)}">
           <span>${esc(c.label)}</span>
           <b class="map-n">${words.length ? `${mine.length}/${all}` : all}</b></label>
-        <ul class="${off.has(c.key) ? 'is-off' : ''}">${listed.map((i) => `<li><button type="button" data-marker="${i}">${dot(pins[i])}${esc(pins[i].name)}</button></li>`).join('')}</ul>
+        <ul class="${off.has(c.key) ? 'is-off' : ''}">${listed.map((i) => `<li><button type="button" data-marker="${i}" class="${i === selected ? 'is-selected' : ''}" title="${esc(pins[i].name)}${pins[i].kind ? ` (${esc(pins[i].kind)})` : ''}">${dot(pins[i])}<span class="row-name">${esc(pins[i].name)}</span>${UserStore.has('favourites', pinKey(pins[i])) ? `<span class="fav-star" title="Favourite">${icon('star-fill')}</span>` : ''}${pins[i].kind && pins[i].kind !== c.label ? `<small>${esc(pins[i].kind)}</small>` : ''}</button></li>`).join('')}</ul>
         ${listed.length < mine.length ? `<button type="button" class="map-more" data-expand="${esc(c.key)}">Show all ${mine.length}</button>` : ''}
       </section>`;
-    }).join('') || `<p class="muted">${words.length ? 'No pin matches that.' : 'No pins yet.'}</p>`;
-  };
+    }).join('') || `<p class="muted">${nearOnly ? 'No pins near here. Pick a wider "nearby" or move the map.' : words.length ? 'No pin matches that.' : 'No pins yet.'}</p>`;
+    applyFilterToMap();
+  }
   drawLists();
 
   let filterTimer;
@@ -1390,23 +2395,41 @@ function renderMap(params) {
     clearTimeout(filterTimer);
     filterTimer = setTimeout(drawLists, 120);
   });
+  const setCategory = (key, on) => {
+    if (!layers[key]) return;
+    if (on) { off.delete(key); map.addLayer(layers[key]); } else { off.add(key); map.removeLayer(layers[key]); }
+  };
+  const pageEl = view.querySelector('.map-page');
+  const setSide = (open) => {
+    pageEl.classList.toggle('is-side-open', open);
+    view.querySelector('.map-side-toggle').setAttribute('aria-expanded', String(open));
+    if (open) side.querySelector('.map-filter').focus();
+  };
+  view.querySelectorAll('[data-side]').forEach((b) => b.addEventListener('click', () => setSide(!pageEl.classList.contains('is-side-open'))));
+  const narrow = () => matchMedia('(max-width: 900px)').matches;
   side.addEventListener('click', (e) => {
     const button = e.target.closest('button');
     if (!button) return;
+    if (button.dataset.marker !== undefined && narrow()) setSide(false);
     if (button.dataset.marker !== undefined) flyTo(Number(button.dataset.marker));
     if (button.dataset.expand) { expanded.add(button.dataset.expand); drawLists(); }
+    if (button.dataset.all) { categories.forEach((c) => setCategory(c.key, button.dataset.all === 'on')); drawLists(); }
+    if (button.dataset.clear !== undefined) { filter.value = ''; drawLists(); filter.focus(); }
   });
   side.addEventListener('change', (e) => {
+    if (e.target.dataset.nearOnly !== undefined) { nearOnly = e.target.checked; drawLists(); return; }
+    if (e.target.dataset.nearRadius !== undefined) { prefs.set('near-radius', e.target.value); drawLists(); return; }
     const key = e.target.dataset.toggle;
-    if (!key || !layers[key]) return;
-    if (e.target.checked) { off.delete(key); map.addLayer(layers[key]); } else { off.add(key); map.removeLayer(layers[key]); }
-    side.querySelector(`[data-category="${CSS.escape(key)}"] ul`).classList.toggle('is-off', !e.target.checked);
+    if (!key) return;
+    setCategory(key, e.target.checked);
+    side.querySelector(`[data-category="${CSS.escape(key)}"] ul`)?.classList.toggle('is-off', !e.target.checked);
+    applyFilterToMap();
+    drawCount();
   });
 
   // Right-click anywhere to read off a position, ready to paste into an entry as "x" and "y".
   map.on('contextmenu', (e) => {
-    const at = map.project(e.latlng, config.maxZoom);
-    const [x, y] = [at.x / config.width, at.y / config.height];
+    const [x, y] = toXY(e.latlng);
     if (![x, y].every((v) => v >= 0 && v <= 1)) return;
     L.popup({ maxWidth: 280 }).setLatLng(e.latlng).setContent(`<div class="map-card">
         <span class="kicker">Map position</span>
@@ -1415,10 +2438,41 @@ function renderMap(params) {
       </div>`).openOn(map);
   });
 
+  // ---------- what the address asks for ----------
   // `?focus=` takes a pin name (as before) or an entry reference such as businesses/fleeca.
   const focus = params.get('focus');
-  const focusIndex = focus ? pins.findIndex((pin) => pin.name === focus || pin.ref === focus) : -1;
-  if (focusIndex >= 0) setTimeout(() => flyTo(focusIndex), 300);
+  const focusIndex = focus ? pins.findIndex((pin) => pin.name === focus || pin.ref === focus || pinKey(pin) === focus) : -1;
+  if (focusIndex >= 0) setTimeout(() => { if (state.map === map) flyTo(focusIndex); }, 300); // not after the page has changed
+  // `?kind=` (from a 100% Guide page) lists one kind of place and frames all of its pins.
+  const kind = params.get('kind');
+  const ofKind = kind ? pins.filter((pin) => pin.kind === kind) : [];
+  if (ofKind.length) {
+    filter.value = kind;
+    drawLists();
+    setTimeout(() => state.map === map && map.flyToBounds(L.latLngBounds(ofKind.map((pin) => point(pin.x, pin.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 }), 300);
+  }
+  if (params.get('q')) { filter.value = params.get('q'); drawLists(); }
+  // `?route=`, `?view=` and `?street=` reopen something saved.
+  const savedRoute = UserStore.get('routes', []).find((r) => r.id === params.get('route'));
+  if (savedRoute) {
+    stops = savedRoute.stops.map((s) => ({ ...s }));
+    drawRoute();
+    if (stops.length) setTimeout(() => state.map === map && map.flyToBounds(L.latLngBounds(stops.map((s) => point(s.x, s.y))).pad(0.3), { duration: flyMs(0.9), maxZoom: 3 }), 300);
+  }
+  const savedView = UserStore.get('map-views', []).find((v) => v.id === params.get('view'));
+  const startMode = savedView?.mode || params.get('mode') || prefs.get('map-mode');
+  if (startMode === '3d' && !explore) {
+    show3d().then(() => { if (savedView && three) three.setView(savedView, false); });
+  } else if (savedView) {
+    map.setView(point(savedView.x, savedView.y), savedView.zoom, { animate: false });
+  }
+  const street = (params.get('street') || '').split(',').map(Number);
+  if (street.length === 2 && street.every((v) => v >= 0 && v <= 1)) {
+    if (params.get('walker') === 'lucia' || params.get('walker') === 'jason') { walker = params.get('walker'); syncWalker(); }
+    setTimeout(() => openStreet(street[0], street[1]), 350);
+  }
+  if (explore) { setPhotos(true); }
+  if (params.get('immersive') === '1') setImmersive(true);
 }
 
 // ---------- search ----------
@@ -1433,7 +2487,7 @@ function renderSearch(params) {
 
   view.innerHTML = `
     ${pageHead('Search', 'Search every category at once, or pick one.')}
-    <form class="search-big" role="search"><input type="search" value="${esc(query)}" placeholder="Try “Lucia”, “Keys” or “release date”" aria-label="Search" autofocus></form>
+    <form class="search-big field-search" role="search">${icon('search')}<input type="search" value="${esc(query)}" placeholder="Try “Lucia”, “Keys” or “release date”" aria-label="Search" autofocus></form>
     <div class="chips" id="search-filter"></div>
     <div id="results" class="results">
       <div class="list-tools" hidden>
@@ -1532,15 +2586,34 @@ function renderNotFound() {
 
 // ---------- router ----------
 
+/** The window's title follows the page (its main heading), so the page is named for screen readers,
+    the taskbar and history. Some pages finish drawing a moment later, so it is read again then. */
+function nameWindow(page) {
+  const apply = () => {
+    const heading = page === 'home' ? '' : (view.querySelector('h1')?.textContent || '').replace(/\s+/g, ' ').trim();
+    document.title = heading ? `${heading} | GTA 6 HQ` : 'GTA 6 HQ';
+  };
+  apply();
+  const at = location.hash;
+  setTimeout(() => { if (location.hash === at) apply(); }, 700);
+}
+
+/** Things a page set up outside its own elements (key listeners, timers), undone when the page changes. */
+const leaving = [];
+const onLeave = (fn) => leaving.push(fn);
+
 function route() {
+  leaving.splice(0).forEach((fn) => { try { fn(); } catch { /* the page is going anyway */ } });
+  document.body.classList.remove('map-immersive');
   if (state.map) { state.map.remove(); state.map = null; }
+  if (state.map3d) { try { state.map3d.destroy(); } catch { /* already gone */ } state.map3d = null; }
   const [path, queryString] = location.hash.replace(/^#\/?/, '').split('?');
   const [section, a, b] = path.split('/').map(decodeURIComponent);
   const params = new URLSearchParams(queryString || '');
   const name = section || 'home';
 
   document.body.dataset.page = name;
-  const navName = name === 'wiki' && a === 'vehicles' ? 'vehicles' : name;
+  const navName = name === 'wiki' && a === 'vehicles' ? 'vehicles' : name === 'wiki' && a === 'collectibles' ? 'tracker' : name;
   document.querySelectorAll('#nav a').forEach((link) => {
     const active = link.dataset.route === navName;
     link.classList.toggle('is-active', active);
@@ -1560,7 +2633,9 @@ function route() {
     // The Field Manual is its own reader (ui/manual.js).
     manual: () => Manual.render(view, a, b, params, state.wiki),
   };
-  (pages[name] || renderNotFound)();
+  (pages[name] || (EXTRA_PAGES[name] && (() => EXTRA_PAGES[name](a, b, params))) || renderNotFound)();
+  AFTER_RENDER.forEach((fn) => fn(name, a, b, params));
+  nameWindow(name);
 
   if (state.wiki._loadError) {
     view.insertAdjacentHTML('afterbegin', `<p class="load-error" role="alert">${esc(state.wiki._loadError)}</p>`);
@@ -1771,7 +2846,7 @@ async function checkForUpdate() {
     ${status.can_install
       ? '<button type="button" class="btn btn-primary" data-update>Update now</button>'
       : `<a class="btn" href="${esc(link)}" target="_blank" rel="noopener noreferrer">Get the update</a>`}
-    <button type="button" aria-label="Dismiss update notice">×</button>`;
+    <button type="button" aria-label="Dismiss update notice">${icon('close')}</button>`;
   toast.querySelector('button[aria-label]').addEventListener('click', () => {
     prefs.set(key, status.latest);
     toast.remove();
@@ -1927,9 +3002,9 @@ function setupAnnouncement(game) {
   // Out once the first region has launched (launchedAt); before that, this computer's own midnight.
   const release = new Date(game.launchedAt || `${game.releaseDate}T00:00:00`);
   if (Number.isNaN(release.getTime()) && !game.announcement) return;
-  const platforms = (game.facts || []).find((f) => f.label === 'Platforms')?.value;
-  const text = game.announcement
-    || `${Date.now() < release ? `Coming ${formatDate(game.releaseDate)}` : 'Out now'}${platforms ? ` · ${platforms}` : ''}`;
+  // "GTA VI • Leonida • Vice City", then the release state the data supports (date or "out now").
+  const status = Number.isNaN(release.getTime()) ? '' : Date.now() < release ? `Coming ${formatDate(game.releaseDate)}` : 'Out now';
+  const text = game.announcement || ['GTA VI', 'Leonida', 'Vice City', status].filter(Boolean).join('  •  ');
 
   let dismissed = false;
   try { dismissed = sessionStorage.getItem('announce-dismissed') === text; } catch { /* storage unavailable */ }
@@ -1998,9 +3073,10 @@ window.addEventListener('keydown', (e) => {
 
 // ---------- boot ----------
 
-const ready = Promise.all([getJson('/api/wiki'), prefs.load()])
+const ready = Promise.all([getJson('/api/wiki'), prefs.load(), UserStore.load()])
   .then(([wiki]) => {
     showSpoilers = prefs.get('show-spoilers') === '1';
+    window.Appearance?.apply();
     syncSpoilerSwitch();
     wiki.categories ||= [
       { key: 'characters', label: 'Characters', blurb: '', art: 'portrait' },

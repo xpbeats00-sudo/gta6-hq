@@ -10,3 +10,6 @@
 *.bak
 /.secrets
 /secrets
+
+# Screenshots the Edge suites write during CI
+/shots-windows/

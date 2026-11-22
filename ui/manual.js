@@ -26,8 +26,16 @@
   const WIDE = matchMedia('(min-width: 1180px)');
   const store = {
     // Kept with the app's other saved choices (app.js), so they survive a restart and an update.
-    get(key) { return window.hqPrefs ? window.hqPrefs.get(`manual-${key}`) : null; },
-    set(key, value) { if (window.hqPrefs) window.hqPrefs.set(`manual-${key}`, value); },
+    // Checklist ticks (hundreds of them) live in the larger user-data store as one set of ticks;
+    // the few reading choices (theme, last page) stay in the settings file.
+    get(key) {
+      if (key.startsWith('check-') && window.UserStore) return window.UserStore.ticked('guide-checks', key) ? true : null;
+      return window.hqPrefs ? window.hqPrefs.get(`manual-${key}`) : null;
+    },
+    set(key, value) {
+      if (key.startsWith('check-') && window.UserStore) { window.UserStore.tick('guide-checks', key, value === true); return; }
+      if (window.hqPrefs) window.hqPrefs.set(`manual-${key}`, value);
+    },
   };
 
   let manual = null;   // the loaded data
@@ -103,6 +111,18 @@
       page.opener = !page.titlePage && (page.inChapter === 1 || pages[i - 1].titlePage);
       page.href = `#/manual/${page.chapter.id}/${page.inChapter}`;
     });
+    // Checklist rows name the page that explains them; give each its address and page number.
+    for (const page of pages) {
+      for (const b of page.blocks) {
+        if (b.type !== 'checklist') continue;
+        for (const it of b.items || []) {
+          const target = pages.find((p) => p.chapter.id === (it.chapter || page.chapter.id) && p.title === it.page && !p.titlePage)
+            || (it.chapter && pages.find((p) => p.chapter.id === it.chapter && !p.titlePage));
+          it.href = target ? target.href : '';
+          it.pageNumber = target ? target.number : '';
+        }
+      }
+    }
   }
 
   // ---------- blocks ----------
@@ -186,8 +206,14 @@
         return `<table class="m-table">
           <caption>${badge(b.evidence)} ${esc(b.caption)}${refs(b.sources, notes)}</caption>
           <thead><tr>${b.columns.map((c) => `<th scope="col">${esc(c)}</th>`).join('')}</tr></thead>
-          <tbody>${b.rows.map((row) => `<tr>${row.map((cell, i) => (i === 0 ? `<th scope="row">${esc(cell)}</th>` : `<td>${esc(cell)}</td>`)).join('')}</tr>`).join('')}</tbody>
+          <tbody>${b.rows.map((row, r) => `<tr>${row.map((cell, i) => (i === 0
+            ? `<th scope="row">${b.rowLinks?.[r] ? `<a href="${esc(b.rowLinks[r])}">${esc(cell)}</a>` : esc(cell)}</th>`
+            : `<td>${esc(cell)}</td>`)).join('')}</tr>`).join('')}</tbody>
         </table>`;
+      case 'checklist':
+        return checklist(b, notes);
+      case 'maplink':
+        return `<p class="m-maplink"><a href="#/map?kind=${encodeURIComponent(b.kind)}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a7 7 0 0 0-7 7c0 5 7 12 7 12s7-7 7-12a7 7 0 0 0-7-7zm0 9.6a2.6 2.6 0 1 1 0-5.2 2.6 2.6 0 0 1 0 5.2z"/></svg>${esc(b.text)}</a></p>`;
       case 'diagram':
         return `<figure class="m-diagram">
           ${b.kind === 'stars' ? stars() : `<ol class="m-flow">${b.steps.map((step) => `<li>${esc(step)}</li>`).join('')}</ol>`}
@@ -217,6 +243,68 @@
         return '';
     }
   }
+
+  /** The name of an encyclopedia entry from its link, for checklist links. */
+  function entryName(href) {
+    const m = /^#\/(?:wiki\/)?([^/]+)\/(.+)$/.exec(href || '');
+    const list = m && current?.wiki?.[m[1]];
+    return (list && list.find((e) => e.slug === m[2])?.name) || '';
+  }
+
+  // A 100% checklist: one row per thing the game counts, with a tick box that is saved with the
+  // app's other choices, the count, the guide page that explains it and the entries it covers.
+  function checklist(b, notes) {
+    const rows = (b.items || []).map((it) => {
+      const key = `check-${it.key}`;
+      const done = store.get(key) === true;
+      const entries = (it.links || []).map((href) => ({ href, name: entryName(href) })).filter((e) => e.name);
+      return `<li class="m-check${done ? ' is-done' : ''}">
+        <label><input type="checkbox" data-check="${esc(key)}"${done ? ' checked' : ''}><span>${esc(it.item)}${refs(it.sources, notes)}</span></label>
+        ${it.count ? `<b class="m-check-count">${esc(it.count)}</b>` : ''}
+        <span class="m-check-links">${it.href ? `<a href="${esc(it.href)}">Guide, p. ${esc(it.pageNumber)}</a>` : ''}${entries.slice(0, 4).map((e) => `<a href="${esc(e.href)}">${esc(e.name)}</a>`).join('')}${entries.length > 4 ? `<em>+${entries.length - 4} more</em>` : ''}</span>
+      </li>`;
+    });
+    return `<section class="m-checklist">${b.title ? `<h4>${esc(b.title)}</h4>` : ''}<ol>${rows.join('')}</ol>
+      <p class="m-check-note">Ticks are saved on this computer only.</p></section>`;
+  }
+
+  /** Every manual page that links to one encyclopedia entry ("#/wiki/x/y"), for the entry's own page. */
+  async function guideLinks(href, wiki) {
+    if (!manual) {
+      try {
+        const response = await fetch('/api/manual');
+        if (!response.ok) return [];
+        manual = await response.json();
+      } catch { return []; }
+    }
+    if (!pages.length) { current = current || { wiki }; buildPages(wiki); }
+    const found = [];
+    for (const page of pages) {
+      const hit = page.blocks.some((b) => b.link === href || (b.rowLinks || []).includes(href)
+        || (b.items || []).some((it) => (it.links || []).includes(href)));
+      if (hit && !page.gallery && !found.some((f) => f.href === page.href)) {
+        found.push({ href: page.href, title: page.title, chapter: page.chapter.title, number: page.number });
+      }
+    }
+    return found;
+  }
+
+  /** One manual page by chapter id and title, e.g. for a map pin's "how to" link. */
+  async function pageLink(chapterId, title, wiki) {
+    if (!(await guideLinks('', wiki))) return null; // loads the manual and builds the pages once
+    const page = pages.find((p) => p.chapter.id === chapterId && p.title === title && !p.titlePage);
+    if (!page) return null;
+    // The page's first picture, for cards that have none of their own (not a spoiler picture).
+    const pic = page.blocks.map((b) => (b.spoiler ? null : b.frame || b.image || (['image', 'frame'].includes(b.type) && b.src) || b.frames?.[0]?.src)).find(Boolean) || '';
+    return { href: page.href, title: page.title, chapter: page.chapter.title, number: page.number, picture: pic };
+  }
+
+  document.addEventListener('change', (e) => {
+    const box = e.target.closest?.('input[data-check]');
+    if (!box) return;
+    store.set(box.dataset.check, box.checked);
+    box.closest('.m-check')?.classList.toggle('is-done', box.checked);
+  });
 
   /** What a chapter holds, for its title page: written pages one by one, the entry list as one line. */
   function chapterContents(chapter) {
@@ -388,9 +476,9 @@
     const progress = Math.round((last / (pages.length + 1)) * 100);
     return `<div class="m-book"><div class="m-spread${wide ? '' : ' m-single'}">${shown.map(pageHtml).join('')}</div>${chapterTabs(page.chapter)}</div>
       <nav class="m-nav" aria-label="Manual pages">
-        ${previous ? `<a class="m-turn" rel="prev" href="${previous.href}" data-turn="prev">← Previous</a>` : `<a class="m-turn" href="#/manual" data-turn="prev">← Contents</a>`}
+        ${previous ? `<a class="m-turn" rel="prev" href="${previous.href}" data-turn="prev">${icon('back')}Previous</a>` : `<a class="m-turn" href="#/manual" data-turn="prev">${icon('back')}Contents</a>`}
         <span class="m-where">Page ${label} of ${pages.length + 1}<span class="m-progress" role="progressbar" aria-label="How far through the manual" aria-valuenow="${progress}" aria-valuemin="0" aria-valuemax="100"><i style="width:${progress}%"></i></span></span>
-        ${next ? `<a class="m-turn" rel="next" href="${next.href}" data-turn="next">Next →</a>` : '<span class="m-turn is-off">End</span>'}
+        ${next ? `<a class="m-turn" rel="next" href="${next.href}" data-turn="next">Next${icon('next')}</a>` : '<span class="m-turn is-off">End</span>'}
       </nav>`;
   }
 
@@ -554,5 +642,5 @@
     if (link) { e.preventDefault(); link.click(); }
   });
 
-  window.Manual = { render };
+  window.Manual = { render, guideLinks, pageLink };
 })();

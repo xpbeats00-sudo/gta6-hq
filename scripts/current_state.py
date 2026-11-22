@@ -20,8 +20,12 @@ def read_json(path):
 def load_wiki():
     """wiki.json with the per-section files in data/wiki/ merged in, as the app does."""
     wiki = read_json('data/wiki.json')
+    # Same rule as src/content.rs: split_key() and merge_part(). `vehicles.json` and
+    # `vehicles.boats.json` both add to `vehicles`; names starting with `_` are skipped.
     for path in sorted(glob.glob(os.path.join(ROOT, 'data', 'wiki', '*.json'))):
-        name = os.path.basename(path)[:-5]
+        name = os.path.basename(path).split('.')[0]
+        if not name or name.startswith('_'):
+            continue
         part = json.loads(open(path, encoding='utf-8-sig').read())
         if isinstance(part, dict):
             wiki.setdefault(name, {}).update(part)
