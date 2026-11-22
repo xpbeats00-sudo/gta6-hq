@@ -273,21 +273,24 @@
     const items = trackerItems();
     const families = [...new Set(items.map((it) => it.family))];
     const ticks = () => UserStore.get('collectible-ticks', {});
-    view.innerHTML = `${pageHead('Collectible Tracker', `Tick off the ${items.length} individual collectibles the encyclopedia lists, family by family. Counts come from the entries themselves; where guides give a different total, both are shown.`, 'collectibles')}${window.profileBar?.() || ''}
+    view.innerHTML = `${pageHead('Collectible Tracker', `Tick off the ${items.length} individual collectibles the encyclopedia lists, family by family. Counts come from the entries themselves; where guides give a different total, both are shown.`, 'collectibles')}
       <div class="block tracker">
         <div class="tracker-summary"></div>
         <div class="tracker-tools">
           <div class="field-search tracker-search">${icon('search')}<input type="search" class="tracker-filter" placeholder="Search collectibles" aria-label="Search collectibles"></div>
-          <label class="list-sort"><span>Family</span> <select class="tracker-family" aria-label="Family"><option value="">All families</option>${families.map((f) => `<option>${esc(f)}</option>`).join('')}</select></label>
           <label class="list-sort"><span>Show</span> <select class="tracker-show" aria-label="Show"><option value="all">All</option><option value="todo">Still to find</option><option value="done">Found</option></select></label>
         </div>
         <div class="tracker-families" role="group" aria-label="Collectible families"></div>
         <div class="tracker-body"></div>
       </div>`;
+    // One family control (the chips). Each family is a group that opens on demand, so the page
+    // is a short list of families, not every collectible at once.
+    let fam = '';
+    const opened = new Set();
     const draw = () => {
       const t = ticks();
       const q = view.querySelector('.tracker-filter').value.toLowerCase();
-      const fam = view.querySelector('.tracker-family').value;
+
       const show = view.querySelector('.tracker-show').value;
       const done = items.filter((it) => t[it.entry.slug]).length;
       view.querySelector('.tracker-summary').innerHTML = `<div class="stat-card stat-wide"><b>${done} of ${items.length}</b><span>collectibles ticked (${pct(done, items.length)}%)</span>${bar(done, items.length)}</div>`;
@@ -310,8 +313,9 @@
         const totals = mine.map((it) => it.entry.facts.total).filter((n) => typeof n === 'number');
         const common = totals.length ? totals.sort((a, b) => totals.filter((v) => v === b).length - totals.filter((v) => v === a).length)[0] : null;
         const guideTotal = types.length === 1 && common && common !== mine.length ? `<span class="muted"> · guides count ${common}; the encyclopedia lists ${mine.length}</span>` : '';
-        return `<section class="tracker-family-box">
-          <header><h2>${esc(f)} <span class="muted">${got} / ${mine.length}</span>${guideTotal}</h2>${bar(got, mine.length)}</header>
+        const open = Boolean(fam || q || show !== 'all' || opened.has(f));
+        return `<details class="tracker-family-box" data-box="${esc(f)}"${open ? ' open' : ''}>
+          <summary><h2>${esc(f)} <span class="muted">${got} / ${mine.length}</span>${guideTotal}</h2>${bar(got, mine.length)}</summary>
           <ul class="tracker-list">${list.map((it) => {
             const hidden = isHidden('collectibles', it.entry);
             const on = Boolean(t[it.entry.slug]);
@@ -322,18 +326,23 @@
               <span class="conf conf-${esc(it.entry.confidence || 'unknown')}" title="${esc((CONFIDENCE[it.entry.confidence] || CONFIDENCE.unknown)[1])}">${esc((CONFIDENCE[it.entry.confidence] || CONFIDENCE.unknown)[0])}</span>
               <a class="tracker-open" href="${esc(entryLink('collectibles', it.entry.slug))}" aria-label="Open ${hidden ? 'entry' : esc(it.entry.name)}">Open</a></li>`;
           }).join('')}</ul>
-        </section>`;
+        </details>`;
       }).join('') || '<div class="empty-state"><h2>Nothing matches</h2><p>Clear the search or choose another family.</p></div>';
     };
     draw();
     const box = view.querySelector('.tracker');
     let timer;
     box.querySelector('.tracker-filter').addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(draw, 120); });
-    box.querySelector('.tracker-family').addEventListener('change', draw);
+    // Remember which groups the reader opened, so ticking an item doesn't close them.
+    box.addEventListener('toggle', (e) => {
+      const f = e.target.dataset?.box;
+      if (!f) return;
+      if (e.target.open) opened.add(f); else opened.delete(f);
+    }, true);
     box.querySelector('.tracker-families').addEventListener('click', (e) => {
       const b = e.target.closest('[data-family]');
       if (!b) return;
-      box.querySelector('.tracker-family').value = b.dataset.family;
+      fam = b.dataset.family;
       draw();
     });
     box.querySelector('.tracker-show').addEventListener('change', draw);
@@ -363,7 +372,7 @@
     // Overall: the average of the parts that can be measured here, each from your own ticks.
     const parts = [[collected, items.length], [placesFound, places.length], ...(guideTotal ? [[guideTicks, guideTotal]] : [])];
     const overall = Math.round(parts.reduce((s, [d, n]) => s + pct(d, n), 0) / parts.length);
-    view.innerHTML = `${pageHead('Progress', 'Your own exploration, counted from what you have ticked, marked discovered and saved in this app. Nothing here is read from the game itself.')}${window.profileBar?.() || ''}
+    view.innerHTML = `${pageHead('Progress', 'Your own exploration, counted from what you have ticked, marked discovered and saved in this app. Nothing here is read from the game itself.')}
       <div class="block progress-page">
         <div class="stat-grid">
           <div class="stat-card stat-wide"><b>${overall}%</b><span>Overall: the average of collectibles ticked, places discovered${guideTotal ? ' and 100% Guide checklist rows ticked' : ''}</span>${bar(overall, 100)}</div>

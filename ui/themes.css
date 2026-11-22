@@ -64,7 +64,7 @@
   --s3: 10px; --s4: 12px; --s5: 18px; --s6: 24px; --s7: 36px; --s8: 48px; --s9: 72px;
   --bar: 50px;
 }
-:root[data-density="compact"] body { font-size: 15px; line-height: 1.5; }
+:root[data-density="compact"] body { font-size: 0.875rem; line-height: 1.5; }
 
 /* ---------- Animation intensity: "gentle" shortens every transition ---------- */
 :root[data-motion="gentle"] { --ease: 0.1s ease; }

@@ -62,6 +62,10 @@ pub struct Item {
     /// The manifest's rights status, or "unreviewed" for files it does not list.
     pub rights: String,
     pub credit: String,
+    /// Where the picture comes from: "official" (Rockstar's own site or accounts),
+    /// "official-via" (Rockstar's material, as republished by another site), "community"
+    /// (another site's own capture), "owner" (supplied by the app's owner) or "" (no record).
+    pub origin: String,
     pub related: Vec<String>,
     /// A still picture to show before a video loads (`wallpapers/posters/<name>.jpg`), if one exists.
     #[serde(skip_serializing_if = "Option::is_none")]
@@ -187,6 +191,7 @@ pub fn scan(root: &Path) -> Catalogue {
             },
             rights: asset.map_or("unreviewed".to_string(), |a| a.rights_status.clone()),
             credit: asset.map(credit).unwrap_or_default(),
+            origin: asset.map(|a| origin(a, &by_file, 0)).unwrap_or_default().to_string(),
             related: asset.map(|a| a.related.clone()).unwrap_or_default(),
         };
         if parts[0] == "wallpapers" {
@@ -196,6 +201,44 @@ pub fn scan(root: &Path) -> Catalogue {
         }
     }
     catalogue
+}
+
+/// Rockstar's own sites, and its own accounts on the video and social sites.
+fn is_official_source(source: &str) -> bool {
+    let lower = source.to_lowercase();
+    let Some(at) = lower.find("://") else { return false };
+    let rest = &lower[at + 3..];
+    let host = rest
+        .split(['/', ' ', ',', ')'])
+        .next()
+        .unwrap_or("")
+        .trim_start_matches("www.");
+    let on = |site: &str| host == site || host.ends_with(&format!(".{site}"));
+    if on("rockstargames.com") {
+        return true;
+    }
+    ["youtube.com", "youtu.be", "x.com", "twitter.com", "instagram.com"]
+        .iter()
+        .any(|s| on(s))
+        && rest.contains("rockstargames")
+}
+
+/// Where a picture comes from (see `Item::origin`). A picture made from another takes its origin.
+fn origin(asset: &Asset, by_file: &BTreeMap<&str, &Asset>, depth: u8) -> &'static str {
+    if depth < 4 && !asset.derived_from.is_empty() {
+        if let Some(parent) = by_file.get(asset.derived_from.as_str()) {
+            return origin(parent, by_file, depth + 1);
+        }
+    }
+    if is_official_source(&asset.source) {
+        "official"
+    } else if !asset.source.contains("://") {
+        "owner"
+    } else if asset.creator == "Rockstar Games" {
+        "official-via"
+    } else {
+        "community"
+    }
 }
 
 fn credit(asset: &Asset) -> String {

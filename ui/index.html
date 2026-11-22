@@ -58,12 +58,6 @@
     </div>
   </div>
 
-  <!-- AnnouncementBar: text comes from the release date in data/wiki.json -->
-  <div id="announce" class="announce" hidden>
-    <p id="announce-text"></p>
-    <button id="announce-close" type="button" aria-label="Dismiss announcement"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
-  </div>
-
   <!-- AppHeader -->
   <header class="topbar">
     <a class="brand" href="#/" aria-label="GTA 6 HQ home">
@@ -76,27 +70,27 @@
     <nav id="nav" aria-label="Sections">
       <a href="#/" data-route="home" title="Home"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.2 12 3.8l9 7.4"/><path d="M5.4 9.6v10h13.2v-10"/><path class="f" d="M8.6 19.6a3.4 3.4 0 0 1 6.8 0z"/></svg><span>Home</span></a>
       <a href="#/map" data-route="map" title="Map"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.400 6.600 9 4.500l6 2.100 5.600-2.100v13L15 19.600l-6-2.100-5.600 2.100z"/><path d="M9 4.500v13M15 6.600v13"/><path d="m11 9.900 2 2M13 9.900l-2 2"/></svg><span>Map</span></a>
-      <a href="#/locations" data-route="locations" title="Locations"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.6s-6.6-6.2-6.6-11.3a6.6 6.6 0 0 1 13.2 0c0 5.1-6.6 11.3-6.6 11.3z"/><path d="M12.2 14.800c.3-1.700.2-3.300-.4-5"/><path d="M11.800 9.800c-1.400-.9-2.900-.8-3.900.4M11.800 9.800c1.400-.9 2.900-.8 3.900.4M11.800 9.800c-.8-1.400-2-2-3.200-1.800M11.800 9.800c.8-1.400 2-2 3.200-1.800"/></svg><span>Locations</span></a>
-      <a href="#/characters" data-route="characters" title="Characters"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.2" r="3.3"/><path d="M2.8 19.8c0-3.7 2.6-6.2 6.2-6.2s6.2 2.5 6.2 6.2"/><path d="M15.3 5.3a3 3 0 0 1 .9 5.9"/><path d="M17.6 13.9c2.2.7 3.6 2.8 3.6 5.9"/></svg><span>Characters</span></a>
-      <a href="#/vehicles" data-route="vehicles" title="Vehicles"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.800 15.600H2.500v-1.300c0-.9.600-1.600 1.500-1.800l4.300-.8 3-2.300c.5-.4 1.100-.6 1.700-.6h2.600c.9 0 1.700.4 2.300 1l1.700 1.900 1 .3c.6.2 1 .7 1 1.400v2.200h-.9"/><path d="M9.800 15.600h4.700"/><circle cx="7" cy="15.700" r="2.200"/><circle cx="17.300" cy="15.700" r="2.200"/><path d="M8.400 11.700h10.300"/><path d="M13.600 9v2.700"/></svg><span>Vehicles</span></a>
-      <a href="#/tracker" data-route="tracker" title="Collectibles"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10l4 5.2L12 20.5 3 9.2zM3 9.2h18M9.5 4 8 9.2l4 11.3 4-11.3L14.5 4"/></svg><span>Collectibles</span></a>
+      <a href="#/wiki" data-route="wiki" title="Encyclopedia"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6.6C10 5.3 7.4 4.8 4 5.1v13.2c3.4-.3 6 .2 8 1.5 2-1.3 4.6-1.8 8-1.5V5.1c-3.4-.3-6 .2-8 1.5zM12 6.6v13.2"/></svg><span>Encyclopedia</span></a>
       <a href="#/manual" data-route="manual" title="Guides"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 16.600H7a2 2 0 0 0 0 4h12V3.400H7a2 2 0 0 0-2 2v13.200"/><path d="m9.300 7.400 1.700 4.400 1.700-4.400M15.400 7.400v4.400"/></svg><span>Guides</span></a>
+      <a href="#/saved" data-route="saved" title="Saved"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-3.8-5.5 3.8z"/></svg><span>Saved</span></a>
       <div id="nav-more" class="nav-more">
         <button type="button" class="nav-more-btn" aria-expanded="false" aria-controls="nav-more-menu" title="More"><svg class="nav-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5.5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="18.5" cy="12" r="1.6"/></svg><span>More</span><svg class="nav-icon chev" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9.2l6 6 6-6"/></svg></button>
         <div id="nav-more-menu" class="nav-more-menu">
-          <div class="menu-group" aria-hidden="true">Explore</div>
-          <a href="#/wiki" data-route="wiki"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6.6C10 5.3 7.4 4.8 4 5.1v13.2c3.4-.3 6 .2 8 1.5 2-1.3 4.6-1.8 8-1.5V5.1c-3.4-.3-6 .2-8 1.5zM12 6.6v13.2"/></svg>Encyclopedia</a>
-          <a href="#/explore" data-route="explore"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12.5" cy="4.6" r="1.9"/><path d="M10.4 21l1.7-6.2 2.6 2.6V21M8 11.2l2.4-3.4 3.3.6 1.8 3.4 2.5 1M12.1 14.8l-.5-4.5"/></svg>Street Explorer</a>
+          <div class="menu-group" aria-hidden="true">Browse</div>
+          <a href="#/locations" data-route="locations"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21.6s-6.6-6.2-6.6-11.3a6.6 6.6 0 0 1 13.2 0c0 5.1-6.6 11.3-6.6 11.3z"/><path d="M12.2 14.800c.3-1.700.2-3.300-.4-5"/><path d="M11.800 9.800c-1.400-.9-2.900-.8-3.900.4M11.800 9.800c1.400-.9 2.900-.8 3.900.4M11.800 9.800c-.8-1.400-2-2-3.200-1.800M11.800 9.800c.8-1.400 2-2 3.200-1.800"/></svg>Locations</a>
+          <a href="#/characters" data-route="characters"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8.2" r="3.3"/><path d="M2.8 19.8c0-3.7 2.6-6.2 6.2-6.2s6.2 2.5 6.2 6.2"/><path d="M15.3 5.3a3 3 0 0 1 .9 5.9"/><path d="M17.6 13.9c2.2.7 3.6 2.8 3.6 5.9"/></svg>Characters</a>
+          <a href="#/vehicles" data-route="vehicles"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.800 15.600H2.500v-1.300c0-.9.600-1.600 1.500-1.800l4.300-.8 3-2.300c.5-.4 1.100-.6 1.700-.6h2.600c.9 0 1.700.4 2.300 1l1.700 1.900 1 .3c.6.2 1 .7 1 1.400v2.200h-.9"/><path d="M9.800 15.600h4.700"/><circle cx="7" cy="15.700" r="2.200"/><circle cx="17.300" cy="15.700" r="2.200"/><path d="M8.400 11.700h10.300"/><path d="M13.600 9v2.700"/></svg>Vehicles</a>
+          <a href="#/tracker" data-route="tracker"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10l4 5.2L12 20.5 3 9.2zM3 9.2h18M9.5 4 8 9.2l4 11.3 4-11.3L14.5 4"/></svg>Collectibles</a>
           <a href="#/wiki/businesses" data-route="wiki/businesses"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h16l-1.4-5H5.4zM5.5 9.5v10h13v-10M10 19.5v-5h4v5"/></svg>Businesses</a>
           <a href="#/wiki/activities" data-route="wiki/activities"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M12 3.4c2.6 2.4 2.6 14.8 0 17.2M3.4 12h17.2"/></svg>Activities</a>
+          <a href="#/explore" data-route="explore"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12.5" cy="4.6" r="1.9"/><path d="M10.4 21l1.7-6.2 2.6 2.6V21M8 11.2l2.4-3.4 3.3.6 1.8 3.4 2.5 1M12.1 14.8l-.5-4.5"/></svg>Street Explorer</a>
           <div class="menu-group" aria-hidden="true">Yours</div>
-          <a href="#/saved" data-route="saved"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 3.5h11v17l-5.5-3.8-5.5 3.8z"/></svg>Saved</a>
           <a href="#/journal" data-route="journal"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.5h12.5v17H6a1.5 1.5 0 0 1-1.5-1.5V5A1.5 1.5 0 0 1 6 3.5z"/><path d="M8.5 3.5v17M11.5 8h4.5M11.5 11.5h4.5"/></svg>Discovery Journal</a>
           <a href="#/progress" data-route="progress"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M8 12.3l2.8 2.8 5.3-5.5"/></svg>Progress</a>
+          <a href="#/settings" data-route="settings"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7"/></svg>Settings</a>
           <div class="menu-group" aria-hidden="true">News</div>
           <a href="#/media" data-route="media"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h3.2l1.6-2.5h6.4l1.6 2.5H20v11.5H4z"/><circle cx="12" cy="13" r="3.3"/></svg>Media</a>
           <a href="#/intel" data-route="intel"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5h10l4 4v13H5z"/><path d="M14.5 3.5v4.5H19M8.5 12h7M8.5 15.5h5"/></svg>Intel</a>
-          <a href="#/settings" data-route="settings"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2.8v2.4M12 18.8v2.4M2.8 12h2.4M18.8 12h2.4M5.5 5.5l1.7 1.7M16.8 16.8l1.7 1.7M5.5 18.5l1.7-1.7M16.8 7.2l1.7-1.7"/></svg>Settings</a>
         </div>
       </div>
     </nav>

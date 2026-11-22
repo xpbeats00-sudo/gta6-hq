@@ -168,7 +168,6 @@
     let type = '';
     let order = 'new';
     view.innerHTML = `${pageHead('Discovery Journal', 'Your personal record of exploring Leonida: what you viewed, saved, ticked and walked through, the districts it was in, and your own notes. Kept on this computer.')}
-      ${window.profileBar()}
       <div class="journal">
         <form class="journal-note block" autocomplete="off">
           <label for="journal-text"><b>Add a note</b></label>

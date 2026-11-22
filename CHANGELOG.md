@@ -2,6 +2,16 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.37 (22 November 2026)
+
+A simpler look, and clear Official and Community labels. Nothing was removed: every entry and picture is still here.
+
+- **Official or Community.** Every entry and picture is labelled Official (Rockstar's own) or Community (guides, reviews and fan research). A new "Official only" switch on lists and in the Media gallery shows just Rockstar's own material.
+- **Simpler top bar:** Home, Map, Encyclopedia, Guides and Saved, with everything else under More.
+- **Calmer pages:** sentence case in place of capitals, six text sizes, and plain page titles.
+- **Collectible Tracker:** families open when you click them, so the page is a short list.
+- Fixed: on phones the menu opened under the map; in the Light theme titles over pictures were hard to read.
+
 ## 0.2.36 (22 November 2026)
 
 **Every picture is back.** 0.2.35 left out the game's pictures, logos, clips and live wallpapers; this release ships the full app again, with all of them, plus everything new in 0.2.35. Releases always include them from now on.

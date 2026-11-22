@@ -24,8 +24,8 @@ const state = { wiki: null, map: null };
 
 const FIXED_LABELS = { news: 'News', editions: 'Edition', faq: 'FAQ' };
 const CONFIDENCE = {
-  official: ['Verified', 'Stated by Rockstar Games in its own published material'],
-  corroborated: ['Corroborated', 'Reported by a secondary source citing official material'],
+  official: ['Official', 'Stated by Rockstar Games in its own published material'],
+  corroborated: ['Community', 'From guides, reviews and other published reporting, not from Rockstar itself'],
   community: ['Community', 'Community research, not confirmed by Rockstar'],
   rumor: ['Rumor', 'Unconfirmed rumor'],
   unknown: ['Unverified', 'No source has been recorded for this yet'],
@@ -451,8 +451,7 @@ function headCards(section) {
 
 const pageHead = (title, lede, section) => `<header class="page-head">
   <div class="page-head-text"><h1>${esc(title)}</h1>${lede ? `<p>${esc(lede)}</p>` : ''}</div>
-  ${headCards(section)}
-</header>`;
+</header>`; // a title and one line: the picture collage is kept for Home
 
 // The header panels are live: every few seconds the next picture slides down into one of them.
 setInterval(() => {
@@ -628,7 +627,9 @@ const listShell = (label) => `<div class="list" data-list>
  *   render  (visibleItems, sortKey) => HTML
  * Returns { show(predicate) } to bring a particular item onto the page.
  */
-function mountList(root, { items, text, sorts, render, page = LIST_PAGE }) {
+/** "Official only": kept while the app is open, so it carries from list to list. */
+let officialOnly = false;
+function mountList(root, { items, text, sorts, render, page = LIST_PAGE, official = null }) {
   const tools = root.querySelector('.list-tools');
   const input = root.querySelector('.list-filter');
   const select = root.querySelector('.list-sort select');
@@ -646,16 +647,31 @@ function mountList(root, { items, text, sorts, render, page = LIST_PAGE }) {
   count.hidden = short;
   select.innerHTML = sorts.map((s) => `<option value="${esc(s.key)}">${esc(s.label)}</option>`).join('');
   root.querySelector('.list-sort').hidden = short || sorts.length < 2;
+  // "Official only": just what Rockstar itself has published. Offered where a list has any.
+  const officialCount = official ? items.filter(official).length : 0;
+  let officialBtn = null;
+  if (officialCount) {
+    officialBtn = document.createElement('button');
+    officialBtn.type = 'button';
+    officialBtn.className = 'toggle official-toggle';
+    officialBtn.title = 'Show only what Rockstar Games itself has published';
+    const sync = () => { officialBtn.setAttribute('aria-pressed', String(officialOnly)); officialBtn.classList.toggle('is-on', officialOnly); officialBtn.textContent = `Official only (${officialCount})`; };
+    officialBtn.addEventListener('click', () => { officialOnly = !officialOnly; sync(); shown = page; draw(); });
+    sync();
+    count.before(officialBtn);
+    tools.hidden = false;
+  }
 
   const draw = () => {
     const words = input.value.toLowerCase().split(/\s+/).filter(Boolean);
-    current = words.length ? items.filter((item) => words.every((w) => haystack.get(item).includes(w))) : items.slice();
+    const pool = officialBtn && officialOnly ? items.filter(official) : items;
+    current = words.length ? pool.filter((item) => words.every((w) => haystack.get(item).includes(w))) : pool.slice();
     const sort = sorts.find((s) => s.key === select.value) || sorts[0];
     if (sort.compare) current.sort(sort.compare);
     const visible = current.slice(0, shown);
     body.innerHTML = current.length
       ? render(visible, sort.key)
-      : `<p class="muted">Nothing here matches “${esc(input.value.trim())}”.</p>`;
+      : `<p class="muted">${input.value.trim() ? `Nothing here matches “${esc(input.value.trim())}”.` : 'Nothing here.'}</p>`;
     count.textContent = current.length === items.length && visible.length === items.length
       ? `${items.length} ${items.length === 1 ? 'entry' : 'entries'}`
       : `Showing ${visible.length} of ${current.length}${current.length === items.length ? '' : ` (${items.length} in all)`}`;
@@ -691,6 +707,7 @@ function mountEntryList(root, section, entries, kicker, gridClass) {
     items: entries,
     text: (entry) => filterText(section, entry),
     sorts: ENTRY_SORTS,
+    official: (entry) => entry.confidence === 'official',
     // The large "feature" tiles only make sense in the curated order.
     render: (visible, sort) => entryGrid(section, visible, kicker, sort === 'default' ? gridClass : ''),
   });
@@ -1344,8 +1361,21 @@ const RIGHTS = {
   unreviewed: 'Not reviewed',
 };
 
+/** Where a picture comes from, in two plain labels (and what each means). */
+const ORIGIN = {
+  official: ['Official', "From Rockstar Games' own site or accounts"],
+  'official-via': ['Official', "Rockstar Games' own picture, as published by another site"],
+  community: ['Community', 'Captured or made by another site, not by Rockstar'],
+  owner: ['Community', "Added by this app's maker; its source is not recorded"],
+};
+const isOfficialPicture = (item) => item.origin === 'official' || item.origin === 'official-via';
+const originLabel = (item) => {
+  const o = ORIGIN[item.origin];
+  return o ? `<span class="conf ${isOfficialPicture(item) ? 'conf-official' : 'conf-community'}" title="${esc(o[1])}">${o[0]}</span>` : '';
+};
+
 async function renderMedia() {
-  view.innerHTML = `${pageHead('Media', 'Artwork and live wallpapers. Each item shows where it came from and whether its rights have been confirmed.')}
+  view.innerHTML = `${pageHead('Media', "Artwork and live wallpapers. Each one is labelled Official (Rockstar's own) or Community, with where it came from.")}
     <div class="chips" id="media-filter"></div><div class="gallery" id="gallery"><p class="muted">Loading the gallery…</p></div>`;
   const filter = document.getElementById('media-filter');
   const gallery = document.getElementById('gallery');
@@ -1367,22 +1397,28 @@ async function renderMedia() {
   ];
   const groups = ['all', ...new Set(items.map((i) => i.group))];
 
+  let group = 'all';
   const draw = (active) => {
-    filter.innerHTML = groups.map((g) => `<button type="button" aria-pressed="${g === active}" class="${g === active ? 'is-active' : ''}" data-group="${esc(g)}">${esc(g)}</button>`).join('');
-    const shown = items.filter((i) => active === 'all' || i.group === active);
+    group = active;
+    const officialCount = items.filter(isOfficialPicture).length;
+    filter.innerHTML = groups.map((g) => `<button type="button" aria-pressed="${g === active}" class="${g === active ? 'is-active' : ''}" data-group="${esc(g)}">${esc(g)}</button>`).join('')
+      + `<button type="button" class="toggle official-toggle${officialOnly ? ' is-on' : ''}" data-official aria-pressed="${officialOnly}" title="Show only Rockstar Games' own pictures">Official only (${officialCount})</button>`;
+    const shown = items.filter((i) => (active === 'all' || i.group === active) && (!officialOnly || isOfficialPicture(i)));
     gallery.innerHTML = shown.map((item) => `
       <button type="button" class="tile ${item.type === 'video' ? 'tile-video' : ''}" data-index="${items.indexOf(item)}" aria-label="Open ${esc(item.title)}">
         ${item.type === 'video'
           ? `${videoTile(item, 'loop')}<span class="play" aria-hidden="true"></span>`
           : `<img src="${esc(item.src)}" alt="${esc(item.alt)}" loading="lazy">`}
-        <span class="tile-title">${esc(item.title)}</span>
+        <span class="tile-title">${esc(item.title)}</span>${isOfficialPicture(item) ? '<span class="tile-origin">Official</span>' : ''}
       </button>`).join('') || '<p class="muted">Nothing here yet.</p>';
   };
   draw('all');
 
   filter.addEventListener('click', (e) => {
-    const group = e.target.closest('button')?.dataset.group;
-    if (group) draw(group);
+    const button = e.target.closest('button');
+    if (!button) return;
+    if (button.dataset.official !== undefined) { officialOnly = !officialOnly; draw(group); return; }
+    if (button.dataset.group) draw(button.dataset.group);
   });
   gallery.addEventListener('click', (e) => {
     const tile = e.target.closest('.tile');
@@ -1410,6 +1446,7 @@ function openLightbox(item, opener) {
   const links = (item.related || []).map(resolve).filter(Boolean);
   lightbox.querySelector('.lightbox-caption').innerHTML = `
     <b>${esc(item.title)}</b>
+    ${originLabel(item)}
     <span class="rights rights-${esc(item.rights)}">${esc(RIGHTS[item.rights] || item.rights)}</span>
     ${item.credit ? `<span class="muted">${esc(item.credit)}</span>` : ''}
     ${links.map(({ section, entry }) => `<a href="${entryLink(section, entry.slug)}">${esc(entry.name)}</a>`).join('')}`;
@@ -2999,6 +3036,7 @@ function mountUpdateStage(view) {
 
 function setupAnnouncement(game) {
   const bar = document.getElementById('announce');
+  if (!bar) return; // the simpler top has no announcement strip
   // Out once the first region has launched (launchedAt); before that, this computer's own midnight.
   const release = new Date(game.launchedAt || `${game.releaseDate}T00:00:00`);
   if (Number.isNaN(release.getTime()) && !game.announcement) return;
