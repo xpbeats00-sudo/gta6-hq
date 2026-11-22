@@ -2,6 +2,21 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.35 (22 November 2026)
+
+The Map Explorer (3D map, Street Explorer, Discovery Journal), a new look and a full audit with its fixes. **Downloads no longer include pictures, logos or clips from the game**: none is cleared for redistribution (`docs/compliance/MEDIA-DISTRIBUTION-POLICY.md`).
+
+- New: a 3D map, Street Explorer, Jason and Lucia profiles, the Discovery Journal, map overlays, immersive mode, and the Vice City, Dark and Light themes.
+- Without the official map picture, the map uses the community tiles (CC BY 4.0, via gtadb.org), with pins converted onto them.
+- Fixed:
+  - saving: large journals were lost, saves are now ordered and retried, changes made while closing are kept, and damaged or locked files are never overwritten;
+  - spoiler pin names are hidden;
+  - phone and tablet layout;
+  - 3D cards;
+  - Light-theme contrast;
+  - icons and page titles.
+- Releases: `scripts/package_release.py` and `scripts/package_unix.py` build the public edition and refuse unapproved media. `--include-local-media` builds a personal edition.
+
 ## 0.2.34 (21 November 2026)
 
 Cleaner pictures: 120 watermarked pictures swapped for clean ones, and 23 new ones (2,717 of 3,085 entries now have a picture).
