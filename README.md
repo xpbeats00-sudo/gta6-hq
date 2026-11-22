@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.36**: every picture, logo, clip and wallpaper is back in the download, with everything new in 0.2.35.
 - **0.2.35**: the Map Explorer (3D map, Street Explorer, Discovery Journal), a new look and the audit fixes; downloads no longer include game pictures, logos or clips.
 - **0.2.34**: 120 watermarked pictures replaced with clean ones, 23 new pictures (2,717 entries with one).
 - **0.2.33**: 40 more sourced pictures (2,696 entries with one); the Nagasaki Dinghy folded into the Dingus Como.

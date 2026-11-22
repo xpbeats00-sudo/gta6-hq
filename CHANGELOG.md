@@ -2,6 +2,10 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.36 (22 November 2026)
+
+**Every picture is back.** 0.2.35 left out the game's pictures, logos, clips and live wallpapers; this release ships the full app again, with all of them, plus everything new in 0.2.35. Releases always include them from now on.
+
 ## 0.2.35 (22 November 2026)
 
 The Map Explorer (3D map, Street Explorer, Discovery Journal), a new look and a full audit with its fixes. **Downloads no longer include pictures, logos or clips from the game**: none is cleared for redistribution (`docs/compliance/MEDIA-DISTRIBUTION-POLICY.md`).

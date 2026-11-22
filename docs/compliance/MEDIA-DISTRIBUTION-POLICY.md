@@ -1,6 +1,6 @@
 # Media distribution policy
 
-**Status: decided on 2026-11-21: option D (two builds), with B (allow-list only) as the public default.** See "Decision" and "How it is enforced" below. This is not legal advice.
+**Status: on 2026-11-22 the owner reversed the earlier decision. Every release ships the full app, with every picture, logo, clip and wallpaper, and that must not be changed.** `scripts/package_release.py` and `scripts/package_unix.py` build the full app by default. The rest of this document records the earlier option D, which went out as 0.2.35 and was withdrawn by 0.2.36. This is not legal advice.
 
 ## The situation the decision answers
 
@@ -87,4 +87,5 @@ Updates from an earlier full install: the public installer adds and replaces fil
 
 | Date | Decision | By |
 |---|---|---|
-| 2026-11-21 | Option D (two builds); public builds carry only allow-listed media (none today). | The owner |
+| 2026-11-21 | Option D (two builds); public builds carry only allow-listed media (none today). Released as 0.2.35. | The owner |
+| 2026-11-22 | Reversed: every release ships every picture, logo, clip and wallpaper; never strip them again. 0.2.36 released with everything. | The owner |

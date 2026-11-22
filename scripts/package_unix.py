@@ -1,12 +1,10 @@
 """Package the app for macOS or Linux, on that system.
 
     cargo build --release
-    python3 scripts/package_unix.py [--binary PATH] [--include-local-media]
+    python3 scripts/package_unix.py [--binary PATH]
 
-By default this is the PUBLIC edition (docs/compliance/MEDIA-DISTRIBUTION-POLICY.md, option D): the
-same layout scripts/package_release.py builds for Windows, with only allow-listed media (today
-none) and the app's own mark as the icon. --include-local-media makes a PERSONAL package with
-every picture and PERSONAL in its name, never to be uploaded.
+The release package: the full app with every picture, logo, clip and wallpaper. (--no-game-media
+builds an edition without the game's pictures for testing; it is never released.)
 
 macOS  -> dist/GTA6HQ-<version>-macos.zip           holding "GTA 6 HQ.app"
 Linux  -> dist/GTA6HQ-<version>-linux-x86_64.tar.gz  holding a GTA6HQ folder
@@ -26,12 +24,10 @@ version = re.search(r'^version\s*=\s*"([^"]+)"', open('Cargo.toml', encoding='ut
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--binary', default=os.path.join('target', 'release', 'gta6-hq'))
-ap.add_argument('--include-local-media', action='store_true', help='personal package with every picture (never upload it)')
+ap.add_argument('--no-game-media', action='store_true', help='test edition without the game pictures (never released)')
 a = ap.parse_args()
-PERSONAL = a.include_local_media
-TAG = '-PERSONAL' if PERSONAL else ''
-if PERSONAL:
-    print('PERSONAL package: every picture and clip is included. Keep it on your own machines.')
+PERSONAL = not a.no_game_media  # the full app, every picture: what releases ship
+TAG = '' if PERSONAL else '-NO-GAME-MEDIA'
 if not os.path.isfile(a.binary):
     sys.exit(f'{a.binary} is missing. Build first: cargo build --release')
 os.makedirs('dist', exist_ok=True)
@@ -43,7 +39,7 @@ def square_logo(size):
         from PIL import Image
     except ImportError:
         return None
-    # The public edition's icon is the app's own mark; only the personal one uses the game's logo.
+    # The release uses the game's logo; only the test edition without game media uses the app's own mark.
     logo = Image.open(os.path.join('images', 'gta6.png') if PERSONAL else os.path.join('store', 'ui', 'brand.png')).convert('RGBA')
     side = max(logo.size)
     square = Image.new('RGBA', (side, side), (0, 0, 0, 0))

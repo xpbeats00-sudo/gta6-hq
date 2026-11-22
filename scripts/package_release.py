@@ -1,28 +1,18 @@
 """Package a release: the setup program, a portable zip and checksums.
 
-Two builds, as decided in docs/compliance/MEDIA-DISTRIBUTION-POLICY.md (option D):
+    python scripts/package_release.py          the release build: the full app, every picture,
+                                               logo, clip and wallpaper (always use this one)
 
-    python scripts/package_release.py                         the PUBLIC build (the default)
-    python scripts/package_release.py --include-local-media   a PERSONAL build, never to be uploaded
-
-The public build holds only the pictures and clips that docs/compliance/DISTRIBUTION-ASSET-ALLOWLIST.md
-lists as approved for distribution (today: none). It is the Microsoft Store edition's layout under
-the GitHub name: every reference to a picture that isn't shipped is removed from the data, the
-game's logo and intro are replaced by the app's own mark, the program carries the app's own icon
-(store/app.ico), and the installer uses Inno Setup's plain pages instead of the game's artwork.
-It keeps the update check and Discord presence. Before packing, it refuses to go on if anything
-in the folder is a picture or clip the allow-list doesn't approve, or refers to one.
-
-Writes dist/GTA6HQ-<version>-Setup.exe (when Inno Setup 6 is installed), the portable zip and
-dist/SHA256SUMS.txt, taking the version from Cargo.toml. Then publish with:
+Writes dist/GTA6HQ-<version>-Setup.exe (the setup window in installer/shell carrying the Inno
+Setup installer, when Inno Setup 6 is installed), the portable zip and dist/SHA256SUMS.txt,
+taking the version from Cargo.toml. Then publish with:
 
     gh release create v<version> dist/GTA6HQ-<version>-Setup.exe dist/GTA6HQ-<version>-windows-portable.zip dist/SHA256SUMS.txt --title "GTA 6 HQ <version>" --notes "..."
 
-The personal build is the full working tree, every picture included, packed the way releases used
-to be (with the setup window in installer/shell). It goes to dist/personal/ with PERSONAL in every
-file name, and is for the owner's own machines only: none of its pictures are cleared to be shared.
+Releases always ship every picture. (--no-game-media builds an edition without the game's
+pictures into dist/public/ for testing; it is never released.)
 
-Standard library only (plus scripts/package_store.py, which this reuses).
+Standard library only (plus scripts/package_store.py for --no-game-media).
 """
 import hashlib, json, os, re, shutil, subprocess, sys, zipfile
 
@@ -30,7 +20,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 sys.path.insert(0, os.path.join(ROOT, 'scripts'))
 version = re.search(r'^version\s*=\s*"([^"]+)"', open('Cargo.toml', encoding='utf-8').read(), re.M).group(1)
-PERSONAL = '--include-local-media' in sys.argv
+NO_GAME_MEDIA = '--no-game-media' in sys.argv
 APP_NAME = 'GTA 6 HQ'
 MEDIA_DIRS = ('images', 'wallpapers')
 
@@ -117,20 +107,21 @@ def public():
     shutil.copyfile(os.path.join('store', 'app.ico'), os.path.join(app, 'gta6-hq.ico'))
 
     built = []
-    zip_name = f'GTA6HQ-{version}-windows-portable.zip'
-    zip_folder(app, os.path.join('dist', zip_name))
+    out = os.path.join('dist', 'public')
+    zip_name = f'GTA6HQ-{version}-NO-GAME-MEDIA-windows-portable.zip'
+    zip_folder(app, os.path.join(out, zip_name))
     built.append(zip_name)
     if ISCC:
         root = os.path.relpath(app, ROOT)
-        if subprocess.run([ISCC, '/Qp', f'/DAppVersion={version}', f'/DPublicRoot={root}', '/Odist',
+        if subprocess.run([ISCC, '/Qp', f'/DAppVersion={version}', f'/DPublicRoot={root}', '/O' + out, f'/FGTA6HQ-{version}-NO-GAME-MEDIA-Setup',
                            os.path.join('installer', 'gta6-hq.iss')]).returncode != 0:
             sys.exit('Inno Setup failed')
-        setup = f'GTA6HQ-{version}-Setup.exe'
-        print(f'{os.path.join("dist", setup)}: {os.path.getsize(os.path.join("dist", setup)) / 1048576:.1f} MB')
+        setup = f'GTA6HQ-{version}-NO-GAME-MEDIA-Setup.exe'
+        print(f'{os.path.join(out, setup)}: {os.path.getsize(os.path.join(out, setup)) / 1048576:.1f} MB')
         built.insert(0, setup)
     else:
         print('Inno Setup 6 not found: only the portable zip was built.')
-    checksums('dist', built, 'SHA256SUMS.txt')
+    checksums(out, built, 'SHA256SUMS-NO-GAME-MEDIA.txt')
 
 
 def enforce(app, approved):
@@ -155,17 +146,16 @@ def enforce(app, approved):
     print('Policy check: only approved media, and no reference to anything else.')
 
 
-def personal():
-    print('PERSONAL build: every picture and clip is included. None of them is cleared to be shared.')
-    print('Keep it on your own machines. Never attach it to a release or upload it anywhere.')
+def full():
+    """The release build: the full app with every picture, logo, clip and wallpaper."""
     exe = 'target/release/gta6-hq.exe'
     if not os.path.exists(exe):
         sys.exit('Build first: cargo build --release')
     if os.path.getmtime(exe) < max(os.path.getmtime(os.path.join('src', f)) for f in os.listdir('src')):
         sys.exit('The release build is older than the source. Run: cargo build --release')
-    out_dir = os.path.join('dist', 'personal')
+    out_dir = 'dist'
     os.makedirs(out_dir, exist_ok=True)
-    name = f'GTA6HQ-{version}-PERSONAL-windows-portable.zip'
+    name = f'GTA6HQ-{version}-windows-portable.zip'
     count = 0
     with zipfile.ZipFile(os.path.join(out_dir, name), 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         z.write(exe, 'GTA6HQ/gta6-hq.exe')
@@ -191,14 +181,14 @@ def personal():
         open(os.path.join(payload, 'files.txt'), 'w').write(str(count + 1))
         if subprocess.run(['cargo', 'build', '--release', '--quiet', '--target-dir', os.path.join(ROOT, 'target', 'setup')], cwd=shell).returncode != 0:
             sys.exit('Building the setup window failed')
-        setup = f'GTA6HQ-{version}-PERSONAL-Setup.exe'
+        setup = f'GTA6HQ-{version}-Setup.exe'
         shutil.copyfile(os.path.join('target', 'setup', 'release', 'gta6-hq-setup.exe'), os.path.join(out_dir, setup))
         print(f'{os.path.join(out_dir, setup)}: {os.path.getsize(os.path.join(out_dir, setup)) / 1048576:.1f} MB')
         built.insert(0, setup)
     else:
         print('Inno Setup 6 not found: only the portable zip was built.')
-    checksums(out_dir, built, 'SHA256SUMS-PERSONAL.txt')
+    checksums(out_dir, built, 'SHA256SUMS.txt')
 
 
 if __name__ == '__main__':
-    personal() if PERSONAL else public()
+    public() if NO_GAME_MEDIA else full()
