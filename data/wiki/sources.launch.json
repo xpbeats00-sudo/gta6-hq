@@ -8181,5 +8181,21 @@
     "url": "https://www.gtabase.com/vehicles/gta-6/dinghy",
     "type": "secondary",
     "accessed": "2026-11-19"
+  },
+  "rockstar-leonida-map": {
+    "title": "Leonida Map Poster (official map)",
+    "publisher": "Rockstar Games",
+    "url": "https://www.rockstargames.com/VI/_next/static/media/Leonida_Map_Poster.08ir77j-.26ny.jpg",
+    "type": "official",
+    "accessed": "2026-11-21"
+  },
+  "gamersky-map": {
+    "title": "GTA VI interactive map (point positions)",
+    "publisher": "Gamersky, republished by gta6-wiki.org",
+    "url": "https://gta6-wiki.org/map/",
+    "type": "secondary",
+    "accessed": "2026-11-21",
+    "notes": "Used for pin positions only, read from Gamersky's interactive map as republished at gta6-wiki.org/map and placed approximately on Rockstar's Leonida map poster. 993 of the map's 1,008 pins carry via: gamersky; the other 15 were placed by hand on the poster. How the points were moved onto the poster (calibration points, expected error) is not recorded.",
+    "terms": "Not established. No licence for, or permission to reuse, this set of points is recorded in this repository."
   }
 }

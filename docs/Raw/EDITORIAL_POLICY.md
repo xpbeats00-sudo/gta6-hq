@@ -82,7 +82,7 @@ Every file in `images/` and `wallpapers/` should have a record in `data/media.js
 2. New files go into `staging/` first. Nothing there is shown. Move a file into `images/` or `wallpapers/` and add its record once you know where it came from and that you may use it.
 3. Only `approved` records are shown, and the rights status is displayed with each item. `rejected` items are hidden.
 4. A file with no record is shown as "Not reviewed" and flagged by the validator.
-5. Keep credits and watermarks. Do not add soundtrack audio.
+5. Keep credits. Do not use a picture that carries a site's logo or watermark: find a clean shot of the same thing instead, and replace any watermarked picture already in the app with a clean one. Do not add soundtrack audio.
 6. If a rights holder asks for something to be removed, set `rights_status` to `rejected` (it disappears at once) and then delete the file.
 
 ## Checking

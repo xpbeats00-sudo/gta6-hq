@@ -143,8 +143,8 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
-- **0.2.34**: 120 watermarked pictures replaced with clean ones, 23 new pictures (2,719 entries with one).
-- **0.2.33**: 40 more sourced pictures (2,698 entries with one); the Nagasaki Dinghy folded into the Dingus Como.
+- **0.2.34**: 120 watermarked pictures replaced with clean ones, 23 new pictures (2,717 entries with one).
+- **0.2.33**: 40 more sourced pictures (2,696 entries with one); the Nagasaki Dinghy folded into the Dingus Como.
 - **0.2.32**: the Field Manual rewritten for the released game: 14 chapters, 86 pages, 211 pictures, chapter title pages and tabs.
 - **0.2.31**: 3,086 entries; 33 fish and new birds, weapon and vehicle pictures, nine duplicates merged, launch-evening news.
 - **0.2.30**: 3,051 entries; 66 standout vehicles, landmarks, mission screenshots, Easter eggs and launch-day news.
@@ -390,7 +390,9 @@ python scripts/audit_media.py
 
 Releases are published at https://github.com/xpbeats00-sudo/gta6-hq/releases. When the app opens it asks GitHub whether a newer release exists and, if so, shows a notice with a link; nothing is downloaded or installed automatically. To turn the check off, set `"enabled": false` in `data/update.json`.
 
-To publish a new version: raise `version` in `Cargo.toml`, run `cargo build --release` (with the app closed), then `python scripts/package_release.py`. That writes the installer (`installer/gta6-hq.iss`, needs Inno Setup 6), the portable zip and their checksums to `dist/`; attach all three to a new GitHub release tagged `v<version>`.
+To publish a new version: raise `version` in `Cargo.toml`, close the app, then run `python scripts/package_release.py`. That builds the **public** edition and writes its installer (`installer/gta6-hq.iss`, needs Inno Setup 6), portable zip and checksums to `dist/`; attach all three to a new GitHub release tagged `v<version>`. The public edition carries only the pictures and clips that `docs/compliance/DISTRIBUTION-ASSET-ALLOWLIST.md` approves for distribution (today none), with the app's own icon and artwork. The packager refuses to build if anything else would go in (`docs/compliance/MEDIA-DISTRIBUTION-POLICY.md`, option D).
+
+`python scripts/package_release.py --include-local-media` builds a **personal** edition with every picture, in `dist/personal/` with PERSONAL in each file name. It is for your own machines only: never attach it to a release or upload it.
 
 The file people download is the setup window in `installer/shell` (a small Rust program using the same window technology as the app). It carries the Inno Setup installer built from `installer/gta6-hq.iss`, runs it silently and reads its log for progress; if the window cannot open, it runs that installer with its own pages. `gta6-hq-setup.exe --demo` shows the pages without installing anything, and `python scripts/make_installer_art.py` redraws its pictures.
 

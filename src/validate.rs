@@ -483,7 +483,8 @@ pub fn check_wiki(wiki: &Value, root: &Path, report: &mut Report) {
         }
     }
 
-    check_map(wiki, &known, report);
+    check_map(wiki, root, &known, sources, report);
+    check_type_spellings(wiki, report);
 }
 
 /// Confidence label, sources and last-verified date of one entry.
@@ -777,8 +778,20 @@ fn check_pin(entry: &Value, subject: &str, report: &mut Report) {
     }
 }
 
-fn check_map(wiki: &Value, known: &BTreeSet<String>, report: &mut Report) {
+fn check_map(
+    wiki: &Value,
+    root: &Path,
+    known: &BTreeSet<String>,
+    sources: &serde_json::Map<String, Value>,
+    report: &mut Report,
+) {
     let Some(map) = wiki.get("map") else { return };
+    // A pin's `via` names one of the map's own sources, with or without its `-map` ending.
+    let vias: BTreeSet<String> = strings(map.get("sources"))
+        .flat_map(|id| [id.to_string(), id.strip_suffix("-map").unwrap_or(id).to_string()])
+        .collect();
+    let pages = manual_pages(root);
+    check_map_extras(map, root, known, sources, report);
     if let Some(categories) = map.get("categories") {
         let mut seen = BTreeSet::new();
         for category in categories.as_array().map_or(&[][..], Vec::as_slice) {
@@ -844,19 +857,15 @@ fn check_map(wiki: &Value, known: &BTreeSet<String>, report: &mut Report) {
     {
         let name = marker.get("name").and_then(Value::as_str).unwrap_or("(unnamed)");
         let subject = format!("map/{name}");
-        for axis in ["x", "y"] {
-            let in_range = marker
-                .get(axis)
-                .and_then(Value::as_f64)
-                .is_some_and(|v| (0.0..=1.0).contains(&v));
-            if !in_range {
-                report.add(
-                    Severity::Error,
-                    "bad-coordinate",
-                    &subject,
-                    format!("`{axis}` must be a number from 0 to 1."),
-                );
-            }
+        check_position(marker, &subject, report);
+        check_marker_links(marker, &subject, &vias, pages.as_ref(), report);
+        if marker.get("spoiler").is_some_and(|s| !s.is_boolean()) {
+            report.add(
+                Severity::Error,
+                "bad-spoiler",
+                &subject,
+                "`spoiler` must be true or false.",
+            );
         }
         let location = marker
             .get("location")
@@ -876,6 +885,272 @@ fn check_map(wiki: &Value, known: &BTreeSet<String>, report: &mut Report) {
     }
 }
 
+/// How close a street picture's position is to the place it shows (`map.photos[].precision`).
+/// Street Explorer has a label for each of these and no other.
+pub const PHOTO_PRECISIONS: [&str; 6] = ["pin", "town", "district", "region", "landmark", "area"];
+/// What a named place on the map (`map.places[].kind`) can be.
+pub const PLACE_KINDS: [&str; 5] = ["town", "district", "region", "landmark", "area"];
+
+/// `x` and `y` of a map item, each a number from 0 to 1.
+fn check_position(item: &Value, subject: &str, report: &mut Report) {
+    for axis in ["x", "y"] {
+        let in_range = item
+            .get(axis)
+            .and_then(Value::as_f64)
+            .is_some_and(|v| (0.0..=1.0).contains(&v));
+        if !in_range {
+            report.add(
+                Severity::Error,
+                "bad-coordinate",
+                subject,
+                format!("`{axis}` must be a number from 0 to 1."),
+            );
+        }
+    }
+}
+
+/// Is `src` a file the app serves (`/images/...` or `/wallpapers/...`) that is on disk?
+fn served_file_exists(root: &Path, src: &str) -> bool {
+    let Some(relative) = src.strip_prefix('/') else {
+        return false;
+    };
+    (relative.starts_with("images/") || relative.starts_with("wallpapers/"))
+        && !relative.split('/').any(|part| part == "..")
+        && root.join(relative).is_file()
+}
+
+/// The Field Manual's pages a pin's `guide` can name: `(chapter id, page title)`.
+/// `None` when there is no manual to check against.
+fn manual_pages(root: &Path) -> Option<BTreeSet<(String, String)>> {
+    let manual = load_manual(root).ok().flatten()?;
+    let mut pages = BTreeSet::new();
+    for chapter in manual
+        .get("chapters")
+        .and_then(Value::as_array)
+        .map_or(&[][..], Vec::as_slice)
+    {
+        let Some(id) = chapter.get("id").and_then(Value::as_str) else {
+            continue;
+        };
+        for page in chapter
+            .get("pages")
+            .and_then(Value::as_array)
+            .map_or(&[][..], Vec::as_slice)
+        {
+            if let Some(title) = page.get("title").and_then(Value::as_str) {
+                pages.insert((id.to_string(), title.to_string()));
+            }
+        }
+        // A chapter still being written has one page, named after the chapter.
+        if let Some(title) = chapter.get("title").and_then(Value::as_str) {
+            if chapter.get("status").and_then(Value::as_str) == Some("in-development") {
+                pages.insert((id.to_string(), title.to_string()));
+            }
+        }
+    }
+    Some(pages)
+}
+
+/// A pin's `guide` (`[manual chapter id, page title]`) and `via` (which source map it came from).
+fn check_marker_links(
+    marker: &Value,
+    subject: &str,
+    vias: &BTreeSet<String>,
+    pages: Option<&BTreeSet<(String, String)>>,
+    report: &mut Report,
+) {
+    if let Some(guide) = marker.get("guide") {
+        let pair = guide
+            .as_array()
+            .filter(|parts| parts.len() == 2)
+            .and_then(|parts| Some((parts[0].as_str()?, parts[1].as_str()?)))
+            .filter(|(id, title)| !id.is_empty() && !title.is_empty());
+        match (pair, pages) {
+            (None, _) => report.add(
+                Severity::Error,
+                "bad-guide",
+                subject,
+                "`guide` must be [manual chapter id, page title].",
+            ),
+            (Some((id, title)), Some(pages)) if !pages.contains(&(id.to_string(), title.to_string())) => {
+                report.add(
+                    Severity::Error,
+                    "broken-link",
+                    subject,
+                    format!("`guide` names the manual page `{id}` / \"{title}\", which does not exist."),
+                );
+            }
+            _ => {}
+        }
+    }
+    if let Some(via) = marker.get("via") {
+        let via = via.as_str().unwrap_or_default();
+        if !vias.contains(via) {
+            let known: Vec<&str> = vias.iter().map(String::as_str).collect();
+            report.add(
+                Severity::Error,
+                "unknown-via",
+                subject,
+                format!(
+                    "`via` must name one of the map's sources (`map.sources`, with or without `-map`): {}.",
+                    if known.is_empty() {
+                        "none listed".to_string()
+                    } else {
+                        known.join(", ")
+                    }
+                ),
+            );
+        }
+    }
+}
+
+/// `map.sources` (ids in the wiki's sources), `map.places` and `map.photos`.
+fn check_map_extras(
+    map: &Value,
+    root: &Path,
+    known: &BTreeSet<String>,
+    sources: &serde_json::Map<String, Value>,
+    report: &mut Report,
+) {
+    for id in strings(map.get("sources")) {
+        if !sources.contains_key(id) {
+            report.add(
+                Severity::Error,
+                "unknown-source",
+                "map/sources",
+                format!("`{id}` is not one of the wiki's sources."),
+            );
+        }
+    }
+    for (i, place) in map
+        .get("places")
+        .and_then(Value::as_array)
+        .map_or(&[][..], Vec::as_slice)
+        .iter()
+        .enumerate()
+    {
+        let name = place.get("name").and_then(Value::as_str).unwrap_or_default();
+        let subject = format!(
+            "map/places/{}",
+            if name.is_empty() {
+                i.to_string()
+            } else {
+                name.to_string()
+            }
+        );
+        if name.trim().is_empty() {
+            report.add(Severity::Error, "bad-place", &subject, "A named place needs a `name`.");
+        }
+        check_position(place, &subject, report);
+        let kind = place.get("kind").and_then(Value::as_str).unwrap_or_default();
+        if !PLACE_KINDS.contains(&kind) {
+            report.add(
+                Severity::Warning,
+                "bad-place",
+                &subject,
+                format!("`kind` should be one of: {}.", PLACE_KINDS.join(", ")),
+            );
+        }
+    }
+    for (i, photo) in map
+        .get("photos")
+        .and_then(Value::as_array)
+        .map_or(&[][..], Vec::as_slice)
+        .iter()
+        .enumerate()
+    {
+        let src = photo.get("src").and_then(Value::as_str).unwrap_or_default();
+        let subject = format!("map/photos/{i}");
+        check_position(photo, &subject, report);
+        if !served_file_exists(root, src) {
+            report.add(
+                Severity::Error,
+                "missing-image",
+                &subject,
+                format!("Street picture `{src}` is not a file in images/ or wallpapers/."),
+            );
+        }
+        match photo.get("ref").and_then(Value::as_str) {
+            Some(link) if known.contains(link) => {}
+            Some(link) => report.add(
+                Severity::Error,
+                "broken-link",
+                &subject,
+                format!("Street picture points at `{link}`, which does not exist."),
+            ),
+            None => report.add(
+                Severity::Error,
+                "bad-photo",
+                &subject,
+                "A street picture needs a `ref` (the entry it shows).",
+            ),
+        }
+        let precision = photo.get("precision").and_then(Value::as_str).unwrap_or_default();
+        if !PHOTO_PRECISIONS.contains(&precision) {
+            report.add(
+                Severity::Error,
+                "bad-photo",
+                &subject,
+                format!("`precision` must be one of: {}.", PHOTO_PRECISIONS.join(", ")),
+            );
+        }
+        for key in ["title", "credit"] {
+            if photo
+                .get(key)
+                .and_then(Value::as_str)
+                .is_none_or(|v| v.trim().is_empty())
+            {
+                report.add(
+                    Severity::Warning,
+                    "bad-photo",
+                    &subject,
+                    format!("A street picture should have a `{key}`."),
+                );
+            }
+        }
+        if precision != "pin"
+            && photo
+                .get("at")
+                .and_then(Value::as_str)
+                .is_none_or(|v| v.trim().is_empty())
+        {
+            report.add(
+                Severity::Warning,
+                "bad-photo",
+                &subject,
+                "A picture placed by area should say where (`at`).",
+            );
+        }
+    }
+}
+
+/// Collectible types (`facts.type`) that differ only in capitals. The tracker groups by the exact
+/// spelling, so a split type shows twice and hides the guides' total for that type.
+fn check_type_spellings(wiki: &Value, report: &mut Report) {
+    let mut spellings: std::collections::BTreeMap<String, BTreeSet<&str>> = std::collections::BTreeMap::new();
+    for entry in content::entries(wiki, "collectibles") {
+        if let Some(kind) = entry.pointer("/facts/type").and_then(Value::as_str) {
+            spellings.entry(kind.to_lowercase()).or_default().insert(kind);
+        }
+    }
+    for forms in spellings.values().filter(|forms| forms.len() > 1) {
+        let forms: Vec<&str> = forms.iter().copied().collect();
+        report.add(
+            Severity::Warning,
+            "type-spelling",
+            format!("collectibles/type/{}", forms[0]),
+            format!(
+                "One collectible type is spelt {}; use one spelling.",
+                forms
+                    .iter()
+                    .map(|f| format!("\"{f}\""))
+                    .collect::<Vec<_>>()
+                    .join(" and ")
+            ),
+        );
+    }
+}
+
 fn check_media(wiki: &Value, root: &Path, report: &mut Report) {
     let manifest = match media::load_manifest(root) {
         Ok(manifest) => manifest,
@@ -886,7 +1161,8 @@ fn check_media(wiki: &Value, root: &Path, report: &mut Report) {
     };
     let files = media::files_on_disk(root);
     report.media_files = files.len();
-    let on_disk: BTreeSet<&str> = files.iter().map(String::as_str).collect();
+    let posters = media::posters_on_disk(root);
+    let on_disk: BTreeSet<&str> = files.iter().chain(&posters).map(String::as_str).collect();
     let known: BTreeSet<String> = content::sections(wiki)
         .iter()
         .flat_map(|section| {
@@ -963,6 +1239,35 @@ fn check_media(wiki: &Value, root: &Path, report: &mut Report) {
                 "Not in data/media.json; shown as unreviewed.",
             );
         }
+    }
+    // A poster is a frame of the video with the same name; its rights are not recorded on their own.
+    let rights_of: std::collections::BTreeMap<&str, &str> = manifest
+        .assets
+        .iter()
+        .map(|a| (a.file.as_str(), a.rights_status.as_str()))
+        .collect();
+    for poster in &posters {
+        if listed.contains(poster.as_str()) {
+            continue;
+        }
+        let stem = Path::new(poster)
+            .file_stem()
+            .map(|s| s.to_string_lossy().into_owned())
+            .unwrap_or_default();
+        let video = media::VIDEO_EXTENSIONS
+            .iter()
+            .map(|ext| format!("wallpapers/{stem}.{ext}"))
+            .find(|video| on_disk.contains(video.as_str()));
+        let message = match &video {
+            Some(video) => format!(
+                "Still frame of `{video}` (scripts/make_posters.py), shown before it plays. Not in data/media.json, \
+                 so its rights are unrecorded; the video's rights status is `{}`.",
+                rights_of.get(video.as_str()).copied().unwrap_or("unreviewed")
+            ),
+            None => "Poster with no video of the same name. Not in data/media.json, so its rights are unrecorded."
+                .to_string(),
+        };
+        report.add(Severity::Warning, "unlisted-media", poster.as_str(), message);
     }
     for group in media::duplicates(root, &files) {
         report.add(
@@ -1297,5 +1602,109 @@ mod tests {
         assert!(report.has("broken-link", "map/Lost"));
         assert!(report.has("missing-attribution", "map"));
         assert!(!report.issues.iter().any(|i| i.subject == "map/Fine"));
+    }
+    #[test]
+    fn finds_bad_map_photos_places_guides_and_vias() {
+        let root = std::env::temp_dir().join(format!("gta6hq-map-extras-{}", std::process::id()));
+        std::fs::create_dir_all(root.join("data")).unwrap();
+        std::fs::create_dir_all(root.join("images").join("a")).unwrap();
+        std::fs::write(root.join("images").join("a").join("here.jpg"), b"x").unwrap();
+        std::fs::write(
+            root.join("data").join("manual.json"),
+            r#"{"chapters": [{"id": "g100", "title": "Guide", "pages": [{"title": "Banks", "blocks": []}]}]}"#,
+        )
+        .unwrap();
+        let wiki = json!({
+            "sources": {"gamersky-map": {"url": "https://example.com"}},
+            "locations": [{"slug": "vice-city", "name": "Vice City", "summary": "s"}],
+            "map": {"attribution": "a", "sources": ["gamersky-map", "nowhere"],
+                "markers": [
+                    {"name": "Good", "x": 0.5, "y": 0.5, "via": "gamersky", "guide": ["g100", "Banks"]},
+                    {"name": "Also good", "x": 0.5, "y": 0.5, "via": "gamersky-map"},
+                    {"name": "Bad via", "x": 0.5, "y": 0.5, "via": "somewhere"},
+                    {"name": "Bad guide", "x": 0.5, "y": 0.5, "guide": ["g100"]},
+                    {"name": "Lost guide", "x": 0.5, "y": 0.5, "guide": ["g100", "Vaults"]}
+                ],
+                "places": [
+                    {"name": "Vice City", "x": 0.5, "y": 0.5, "kind": "town"},
+                    {"name": "Nowhere", "x": -0.1, "y": 0.5, "kind": "planet"}
+                ],
+                "photos": [
+                    {"src": "/images/a/here.jpg", "x": 0.5, "y": 0.5, "title": "t", "credit": "c",
+                     "ref": "locations/vice-city", "at": "Vice City", "precision": "town"},
+                    {"src": "/images/a/gone.jpg", "x": 2, "y": 0.5, "title": "t", "credit": "c",
+                     "ref": "locations/atlantis", "precision": "exact"},
+                    {"src": "/../outside.jpg", "x": 0.5, "y": 0.5, "title": "t", "credit": "c", "precision": "pin"}
+                ]}
+        });
+        let mut report = Report::default();
+        check_wiki(&wiki, &root, &mut report);
+        std::fs::remove_dir_all(&root).unwrap();
+
+        assert!(!report
+            .issues
+            .iter()
+            .any(|i| i.subject == "map/Good" || i.subject == "map/Also good"));
+        assert!(report.has("unknown-via", "map/Bad via"));
+        assert!(report.has("bad-guide", "map/Bad guide"));
+        assert!(report.has("broken-link", "map/Lost guide"));
+        assert!(report.has("unknown-source", "map/sources"));
+        assert!(!report.issues.iter().any(|i| i.subject == "map/places/Vice City"));
+        assert!(report.has("bad-coordinate", "map/places/Nowhere"));
+        assert!(report.has("bad-place", "map/places/Nowhere"));
+        assert!(!report.issues.iter().any(|i| i.subject == "map/photos/0"));
+        assert!(report.has("missing-image", "map/photos/1"));
+        assert!(report.has("bad-coordinate", "map/photos/1"));
+        assert!(report.has("broken-link", "map/photos/1"));
+        assert!(report.has("bad-photo", "map/photos/1"));
+        assert!(report.has("missing-image", "map/photos/2"));
+        assert!(report.has("bad-photo", "map/photos/2"));
+    }
+
+    #[test]
+    fn collectible_types_spelt_two_ways_are_reported() {
+        let report = check(json!({
+            "collectibles": [
+                {"slug": "a", "name": "A", "summary": "s", "facts": {"type": "WAiNK Landmark"}},
+                {"slug": "b", "name": "B", "summary": "s", "facts": {"type": "WAiNK landmark"}},
+                {"slug": "c", "name": "C", "summary": "s", "facts": {"type": "Stunt jump"}},
+                {"slug": "d", "name": "D", "summary": "s", "facts": {"type": "Stunt jump"}}
+            ]
+        }));
+        let split: Vec<&Issue> = report.issues.iter().filter(|i| i.code == "type-spelling").collect();
+        assert_eq!(split.len(), 1, "{split:#?}");
+        assert!(split[0].message.contains("\"WAiNK Landmark\" and \"WAiNK landmark\""));
+    }
+    #[test]
+    fn video_posters_without_a_record_are_reported() {
+        let root = std::env::temp_dir().join(format!("gta6hq-posters-{}", std::process::id()));
+        let _ = std::fs::remove_dir_all(&root);
+        std::fs::create_dir_all(root.join("data")).unwrap();
+        std::fs::create_dir_all(root.join("wallpapers").join("posters")).unwrap();
+        std::fs::write(root.join("wallpapers").join("clip.mp4"), b"v").unwrap();
+        std::fs::write(root.join("wallpapers").join("posters").join("clip.jpg"), b"p").unwrap();
+        std::fs::write(root.join("wallpapers").join("posters").join("orphan.jpg"), b"o").unwrap();
+        std::fs::write(
+            root.join("data").join("media.json"),
+            r#"{"assets": [{"file": "wallpapers/clip.mp4", "title": "Clip", "alt": "a", "creator": "c",
+                "source": "s", "license": "l", "rights_status": "permission_required", "approval_status": "approved"}]}"#,
+        )
+        .unwrap();
+        let mut report = Report::default();
+        check_media(&json!({}), &root, &mut report);
+        std::fs::remove_dir_all(&root).unwrap();
+
+        let poster = report
+            .issues
+            .iter()
+            .find(|i| i.subject == "wallpapers/posters/clip.jpg")
+            .expect("the poster is reported");
+        assert!(poster.severity == Severity::Warning && poster.code == "unlisted-media");
+        assert!(poster.message.contains("`wallpapers/clip.mp4`"), "{}", poster.message);
+        assert!(poster.message.contains("`permission_required`"), "{}", poster.message);
+        assert!(report.has("unlisted-media", "wallpapers/posters/orphan.jpg"));
+        // Posters are not gallery files: the media count is the video alone.
+        assert_eq!(report.media_files, 1);
+        assert_eq!(report.errors, 0, "{:#?}", report.issues);
     }
 }

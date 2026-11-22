@@ -21,6 +21,7 @@ mod server;
 mod settings;
 mod tiles;
 mod update;
+mod userdata;
 mod validate;
 mod window;
 
@@ -98,10 +99,11 @@ fn main() {
     let listener = runtime
         .block_on(tokio::net::TcpListener::bind(("127.0.0.1", port)))
         .unwrap_or_else(|e| fail(&format!("{APP_NAME} could not start on 127.0.0.1:{port}.\n\n{e}")));
-    let url = format!("http://{}/", listener.local_addr().expect("local address"));
+    let address = listener.local_addr().expect("local address");
+    let url = format!("http://{address}/");
     // Discord Rich Presence belongs to the desktop app, not to server-only mode.
     let presence = if serve_only { None } else { discord::start(&root) };
-    let app = server::router(server::AppState::new(root.clone(), presence));
+    let app = server::router(server::AppState::new(root.clone(), address.port(), presence));
 
     if serve_only {
         println!("{APP_NAME} running at {url}");

@@ -4,7 +4,7 @@ Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-h
 
 ## 0.2.34 (21 November 2026)
 
-Cleaner pictures: 120 watermarked pictures swapped for clean ones, and 23 new ones (2,719 of 3,087 entries now have a picture).
+Cleaner pictures: 120 watermarked pictures swapped for clean ones, and 23 new ones (2,717 of 3,085 entries now have a picture).
 
 - Clean replacements for WAiNK landmarks, mod shops, shipwrecks, weapon renders, mission scenes and more, from Game8, GTABase, PC Gamer, VGC, GamesRadar+ and GTA BOOM.
 - New pictures for Chapter 3 to 5 missions, Karim, weather and public transport.
@@ -12,7 +12,7 @@ Cleaner pictures: 120 watermarked pictures swapped for clean ones, and 23 new on
 
 ## 0.2.33 (20 November 2026)
 
-40 more sourced pictures: 2,698 of 3,087 entries now have one.
+40 more sourced pictures: 2,696 of 3,085 entries now have one.
 
 - 26 standout and regular vehicles, each showing its own paint job, from Game8's vehicle pages.
 - Places (the flea market, Apollo Aggregates, the Catalan Boulevard bridge, the waste site, Vespucci Island, Merlin's Palace Casino, Key Lento Police Station), weapons and equipment, the Alien Range, the pelican for the animal compendium, and the Rottweiler.

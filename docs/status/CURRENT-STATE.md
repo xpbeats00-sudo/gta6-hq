@@ -1,15 +1,15 @@
 # GTA 6 HQ: current state
 
-Generated 2026-11-20 22:21 by `scripts/current_state.py`. **This is the one authoritative status report.** Older reports are history; see `REPORT-INDEX.md`.
+Generated 2026-11-21 15:54 by `scripts/current_state.py`. **This is the one authoritative status report.** Older reports are history; see `REPORT-INDEX.md`.
 
 | Item | Now |
 |---|---|
 | App version | 0.2.34 (`Cargo.toml`) |
-| Version control | Commit e639aa1 on main, 163 uncommitted paths. |
-| Encyclopedia | 88 entries in 12 categories; 0 categories empty |
-| Field Manual | 14 chapters, 243 pages; 0 chapter in development |
-| Media records | 2909: 2894 permission_required, 15 unknown |
-| Map | 15 markers; tile cache 1972 files, 284.0 MB; never pruned, limited to 1,365 tiles by the zoom limit |
+| Version control | Commit 52fa0e9 on main, 2191 uncommitted paths. |
+| Encyclopedia | 3085 entries in 13 categories; 0 categories empty |
+| Field Manual | 22 chapters, 492 pages; 0 chapter in development |
+| Media records | 982: 967 permission_required, 15 unknown |
+| Map | 1008 markers; tile cache 1972 files, 284.0 MB; never pruned, limited to 1,365 tiles by the zoom limit |
 | Checks | Not run in this generation; see `BASELINE-TEST-RESULTS.md` for the last run |
 
 Detail: `DATA-AND-MANUAL-COUNTS.md`, `REPOSITORY-INVENTORY.md`, `BASELINE-TEST-RESULTS.md`, `../compliance/MEDIA-RIGHTS-AUDIT.md`.

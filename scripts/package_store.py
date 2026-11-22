@@ -140,6 +140,10 @@ def strip(node):
                     continue
                 if had_picture and set(item) <= {'alt', 'label', 'caption', 'credit'}:
                     continue
+                # A picture record that is only there for its picture (a Street Explorer picture
+                # in map.photos: place, title, credit, precision) goes when its picture does.
+                if had_picture and set(item) <= {'x', 'y', 'title', 'ref', 'credit', 'at', 'precision'}:
+                    continue
             out.append(item)
         return out
     return node

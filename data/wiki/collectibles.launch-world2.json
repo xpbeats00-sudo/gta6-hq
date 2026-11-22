@@ -184,7 +184,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK landmark",
+      "type": "WAiNK Landmark",
       "region": "Vice-Dale County"
     },
     "confidence": "corroborated",
@@ -210,7 +210,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK landmark",
+      "type": "WAiNK Landmark",
       "region": "Kelly County"
     },
     "confidence": "corroborated",
@@ -237,7 +237,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK landmark",
+      "type": "WAiNK Landmark",
       "region": "Kelly County"
     },
     "confidence": "corroborated",
@@ -263,7 +263,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK landmark",
+      "type": "WAiNK Landmark",
       "region": "Kelly County"
     },
     "confidence": "corroborated",
@@ -288,7 +288,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK landmark",
+      "type": "WAiNK Landmark",
       "region": "Kelly County"
     },
     "confidence": "corroborated",
@@ -313,7 +313,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK sculpture",
+      "type": "WAiNK Sculpture",
       "region": "Vice-Dale County"
     },
     "confidence": "corroborated",
@@ -339,7 +339,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK sculpture",
+      "type": "WAiNK Sculpture",
       "region": "Lummox County"
     },
     "confidence": "corroborated",
@@ -365,7 +365,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK sculpture",
+      "type": "WAiNK Sculpture",
       "region": "Mariana County"
     },
     "confidence": "corroborated",
@@ -391,7 +391,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK sculpture",
+      "type": "WAiNK Sculpture",
       "region": "Vice-Dale County"
     },
     "confidence": "corroborated",
@@ -416,7 +416,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK sculpture",
+      "type": "WAiNK Sculpture",
       "region": "Mariana County"
     },
     "confidence": "corroborated",
@@ -441,7 +441,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK sculpture",
+      "type": "WAiNK Sculpture",
       "region": "Mariana County"
     },
     "confidence": "corroborated",
@@ -465,7 +465,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK sculpture"
+      "type": "WAiNK Sculpture"
     },
     "confidence": "corroborated",
     "sources": [
@@ -490,7 +490,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK curiosity",
+      "type": "WAiNK Curiosity",
       "region": "Mariana County"
     },
     "confidence": "corroborated",
@@ -516,7 +516,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK curiosity"
+      "type": "WAiNK Curiosity"
     },
     "confidence": "corroborated",
     "sources": [
@@ -540,7 +540,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK curiosity"
+      "type": "WAiNK Curiosity"
     },
     "confidence": "corroborated",
     "sources": [
@@ -565,7 +565,7 @@
       "waink"
     ],
     "facts": {
-      "type": "WAiNK curiosity"
+      "type": "WAiNK Curiosity"
     },
     "confidence": "corroborated",
     "sources": [

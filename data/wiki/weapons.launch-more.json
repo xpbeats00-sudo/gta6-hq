@@ -289,8 +289,7 @@
       "ign-weapons-guide"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-a580fcec3bc2.jpg"
+    "spoiler": true
   },
   {
     "slug": "mister-mangrove-laird-350",
@@ -353,7 +352,6 @@
       "game8-weapons-hub"
     ],
     "verified": "2026-11-19",
-    "spoiler": true,
-    "image": "/images/web/powerpyx-bba2d6250aa0-12.jpg"
+    "spoiler": true
   }
 ]

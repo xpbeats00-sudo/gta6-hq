@@ -6,7 +6,7 @@ Writes docs/compliance/MEDIA-RIGHTS-AUDIT.md, DISTRIBUTION-ASSET-ALLOWLIST.md an
 Reads only; data/media.json is not changed. Standard library only.
 Exit code 1 if a file has no record, a record has no file, or two files are identical.
 """
-import csv, datetime, glob, hashlib, json, os, sys
+import csv, datetime, glob, hashlib, json, os, re, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'docs', 'compliance')
@@ -37,14 +37,50 @@ def text(rel):
         return ''
 
 
-def kind_of(asset):
-    """evidence_frame | official_illustration | owner_supplied_unverified, from the recorded source."""
+# Hosts that are Rockstar's own. Only a picture taken from one of these counts as official.
+ROCKSTAR_HOSTS = ('rockstargames.com',)
+# Rockstar's own accounts on other sites: host and the first path segment.
+ROCKSTAR_ACCOUNTS = {('x.com', 'rockstargames'), ('twitter.com', 'rockstargames'), ('youtube.com', '@rockstargames'),
+                     ('youtube.com', 'rockstargames'), ('instagram.com', 'rockstargames')}
+URL = re.compile(r'https?://([^/\s",)]+)(/[^\s",)]*)?', re.I)
+
+
+def source_url(asset):
+    """(host, first path segment) of the first web address in the recorded source, lower-case; None if there is none."""
+    m = URL.search(asset.get('source') or '')
+    if not m:
+        return None
+    host = m.group(1).lower().split(':')[0]
+    host = host[4:] if host.startswith('www.') else host
+    first = (m.group(2) or '/').lstrip('/').split('/')[0].lower()
+    return host, first
+
+
+def is_rockstar(url):
+    host, first = url
+    return any(host == h or host.endswith('.' + h) for h in ROCKSTAR_HOSTS) or (host, first) in ROCKSTAR_ACCOUNTS
+
+
+def kind_of(asset, records=None, _seen=()):
+    """evidence_frame | official_illustration | third_party_screenshot | owner_supplied_unverified | unrecorded_source.
+
+    Decided by the recorded source, never by the credit alone: a picture is official only when it was taken from
+    one of Rockstar's own sites or accounts. Game imagery taken from another site (a wiki, a database, a news site)
+    is third_party_screenshot even when that site credits Rockstar. A file made from another recorded file
+    (`derived_from`) has the kind of that file.
+    """
     src = (asset.get('source') or '').lower()
     if src.startswith('frame at') or 'frame of' in src and 'extended look' in src:
         return 'evidence_frame'
     if 'supplied by the app owner' in src or src.startswith('still from wallpapers') or src.startswith('crop of images') or 'wallpapers/' in src:
         return 'owner_supplied_unverified'
-    return 'official_illustration'
+    parent = (records or {}).get(asset.get('derived_from'))
+    if parent and asset.get('derived_from') not in _seen:
+        return kind_of(parent, records, _seen + (asset.get('file'),))
+    url = source_url(asset)
+    if url is None:
+        return 'unrecorded_source'
+    return 'official_illustration' if is_rockstar(url) else 'third_party_screenshot'
 
 
 def main():
@@ -71,8 +107,8 @@ def main():
     wiki = json.loads(text('data/wiki.json'))
     for path in glob.glob(os.path.join(ROOT, 'data', 'wiki', '*.json')):
         part = json.loads(open(path, encoding='utf-8-sig').read())
-        if isinstance(part, list):
-            name = os.path.basename(path)[:-5]
+        name = os.path.basename(path).split('.')[0]  # as src/content.rs split_key(): vehicles.boats.json adds to vehicles
+        if isinstance(part, list) and name and not name.startswith('_'):
             wiki[name] = (wiki.get(name) or []) + part
     slugs = {(c['key'], e.get('slug')) for c in wiki['categories'] for e in (wiki.get(c['key']) or [])}
     haystack = ''.join(text(p) for p in ['data/wiki.json', 'data/manual.json', 'ui/app.js', 'ui/manual.js', 'ui/index.html', 'ui/styles.css', 'ui/art.js']
@@ -98,7 +134,7 @@ def main():
         for rel in sorted(disk):
             a = records.get(rel, {})
             w.writerow([rel, hashes[rel], os.path.getsize(disk[rel]), a.get('rights_status', ''), DECISION.get(a.get('rights_status'), 'unknown'),
-                        kind_of(a) if a else '', usage[rel], a.get('source', ''), a.get('accessed', '')])
+                        kind_of(a, records) if a else '', usage[rel], a.get('source', ''), a.get('accessed', '')])
 
     decisions, kinds = {}, {}
     for rel in disk:
@@ -106,7 +142,7 @@ def main():
         d = DECISION.get(a.get('rights_status'), 'unknown')
         decisions.setdefault(d, []).append(rel)
         if a:
-            kinds[kind_of(a)] = kinds.get(kind_of(a), 0) + 1
+            kinds[kind_of(a, records)] = kinds.get(kind_of(a, records), 0) + 1
     missing_fields = sorted(rel for rel, a in records.items() if not all(a.get(k) for k in ('source', 'license', 'creator', 'alt')))
     no_date = sorted(rel for rel, a in records.items() if not a.get('accessed'))
 
@@ -133,7 +169,7 @@ def main():
          '**No file is cleared for public distribution.** A public installer built today would have to leave out every picture and video.', '',
          '## What kind of picture each record is', '', '| Kind | Records |', '|---|---|']
     r += [f'| {k} | {v} |' for k, v in sorted(kinds.items())]
-    r += ['', '`evidence_frame`: a frame of Rockstar\'s official video, used as evidence in the manual or as an entry picture. `official_illustration`: an official Rockstar screenshot or artwork. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded.', '',
+    r += ['', '`evidence_frame`: a frame of Rockstar\'s official video, used as evidence in the manual or as an entry picture. `official_illustration`: a Rockstar screenshot or artwork taken from one of Rockstar\'s own sites or accounts. `third_party_screenshot`: game imagery taken from another site (a wiki, a database or a news site), even when that site credits Rockstar; it is not counted as official. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded. `unrecorded_source`: no web address in the recorded source.', '',
           '## Files with no record', ''] + listing(no_record)
     r += ['', '## Records with no file', ''] + listing(no_file)
     r += ['', '## Identical files', ''] + listing(dupes)
@@ -159,4 +195,5 @@ def main():
     sys.exit(1 if (no_record or no_file or dupes) else 0)
 
 
-main()
+if __name__ == '__main__':
+    main()
