@@ -130,7 +130,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-industrial-weed-grow"
+      "ign-industrial-weed-grow",
+      "rs2-gc-gang-ops",
+      "rs2-powerpyx-gang-ops"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -160,7 +162,9 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-stash-house"
+      "ign-stash-house",
+      "rs2-gc-gang-ops",
+      "rs2-powerpyx-gang-ops"
     ],
     "verified": "2026-11-18",
     "spoiler": true

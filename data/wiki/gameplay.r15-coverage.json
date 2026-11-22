@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "story-endings",
+    "name": "Story endings",
+    "summary": "The final mission ends on a bridge choice between Swim For It and No Surrender, with three known outcomes.",
+    "body": [
+      "GAMES.GG says The End of the Road ends at a police roadblock on a bridge where the player picks Swim For It or No Surrender; No Surrender ends with both Jason and Lucia dead.",
+      "GAMES.GG lists two Swim For It outcomes: Lucia jumps and escapes while Jason is arrested and later shown in prison, or police open fire and both die. Its endings page says the Criminal Profile, relationship level and BuckMe savings decide which plays; its choices page instead ties it to whether Jason leaves the car armed, calling that trigger unconfirmed.",
+      "GAMES.GG says a death ending does not end the save: the game rewinds to just before the final mission, Jason and Lucia return to Vice City in free roam, and the finale marker stays on the map. It lists three known outcomes without calling that the full total."
+    ],
+    "tags": [
+      "choices",
+      "ending",
+      "finale",
+      "jason",
+      "lucia",
+      "story"
+    ],
+    "facts": {
+      "type": "Story"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "cov-gamesgg-endings",
+      "cov-gamesgg-choices"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "choices-and-consequences",
+    "name": "Choices and consequences",
+    "summary": "GAMES.GG counts 27 known choice points across the story and side missions, several with cash, vehicle or profile effects.",
+    "body": [
+      "GAMES.GG lists 27 choices; among those with lasting effects: sparing Arnold in Hey Arnold! gives Jason a Restrained profile and a later $10,000 thank-you from Brian, while killing him gives a Hardened profile; killing Felipe pays $20,000 into BuckMe, while sparing him leads to a text offering his Declasse Impaler at Lost Heaven Cemetery.",
+      "Also per GAMES.GG: shooting the Skunk Ape when it threatens Kirk pays $10,000; covering for Gene earns a Luxury Watch; stealing Peggy's scooter unlocks Shirley's Penumbra; trusting Benedict Halifax leads to selling the statue through Angela, loot from his storage unit and his Vapid 32 Hustler; accepting steroids in the Chapter 4 gym infiltration lets Lucia reach a 5/5 body rating.",
+      "GAMES.GG says many choices change nothing (the Buck Me answers, Lucia's dress in Day Release), that story missions cannot be replayed so each choice is effectively final, and that Shayna can die if Lucia does not step in when buyers threaten her."
+    ],
+    "tags": [
+      "choices",
+      "consequences",
+      "criminal profile",
+      "relationship",
+      "story"
+    ],
+    "facts": {
+      "type": "Story"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "cov-gamesgg-choices"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  }
+]

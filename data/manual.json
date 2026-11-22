@@ -5700,22 +5700,6 @@
       "lastCheckedAt": "2026-11-22",
       "notes": "Used in the Robbery Planner chapter."
     },
-    "keengamer-money": {
-      "title": "GTA VI: Best Ways to Make Money Fast",
-      "publisher": "KeenGamer",
-      "url": "https://www.keengamer.com/articles/guides/gta-vi-best-ways-to-make-money-fast/",
-      "sourceType": "launch guide",
-      "lastCheckedAt": "2026-11-22",
-      "notes": "Used in the Robbery Planner chapter."
-    },
-    "keengamer-fishing-shacks": {
-      "title": "GTA 6 Fishing Shacks Walkthrough",
-      "publisher": "KeenGamer",
-      "url": "https://www.keengamer.com/articles/guides/gta-6-fishing-shacks-walkthrough-all-valuables/",
-      "sourceType": "launch guide",
-      "lastCheckedAt": "2026-11-22",
-      "notes": "Used in the Robbery Planner chapter."
-    },
     "vgc-avery-pawn-safe": {
       "title": "GTA 6 Avery Pawn Shop Safe Code: How to Find and Open the Safe",
       "publisher": "VGC",
@@ -5748,14 +5732,6 @@
       "lastCheckedAt": "2026-11-22",
       "notes": "Used in the Robbery Planner chapter."
     },
-    "altchar-atms": {
-      "title": "Grand Theft Auto 6: How to Rob ATMs by Ripping Them Out of the Wall",
-      "publisher": "AltChar",
-      "url": "https://www.altchar.com/guides/grand-theft-auto-6-how-to-rob-atms-by-ripping-them-out-of-the-wall-a4oUP6r4ZR5m",
-      "sourceType": "launch guide",
-      "lastCheckedAt": "2026-11-22",
-      "notes": "Used in the Robbery Planner chapter."
-    },
     "happygamer-vaults": {
       "title": "How to Rob Bank Vaults in GTA 6: Unlock, Security Van Trick and Best Payouts",
       "publisher": "HappyGamer",
@@ -5776,6 +5752,22 @@
       "title": "Yasmani's Payday Loans Jobs",
       "publisher": "GTABase",
       "url": "https://www.gtabase.com/gta-6/strangers/yasmanis-payday-loans-jobs",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "keengamer-money": {
+      "title": "GTA VI: Best Ways to Make Money Fast",
+      "publisher": "KeenGamer",
+      "url": "https://www.keengamer.com/articles/guides/gta-vi-best-ways-to-make-money-fast/",
+      "sourceType": "launch guide",
+      "lastCheckedAt": "2026-11-22",
+      "notes": "Used in the Robbery Planner chapter."
+    },
+    "keengamer-fishing-shacks": {
+      "title": "GTA 6 Fishing Shacks Walkthrough",
+      "publisher": "KeenGamer",
+      "url": "https://www.keengamer.com/articles/guides/gta-6-fishing-shacks-walkthrough-all-valuables/",
       "sourceType": "launch guide",
       "lastCheckedAt": "2026-11-22",
       "notes": "Used in the Robbery Planner chapter."
@@ -49602,19 +49594,17 @@
             {
               "type": "paragraph",
               "evidence": "launch-reported",
-              "text": "||Power Up Gaming says ATM robbery opens after Yasmani's Jewelry Jobs through Yasmani's ATM Jobs, which GTABase lists as his first side mission. AltChar instead says no story unlock is needed and ATMs can be towed from Chapter 2. Power Up Gaming says roaming security trucks need no unlock; vault vans come with That's Where The Money Is.||",
+              "text": "||Power Up Gaming says ATM robbery opens after Yasmani's Jewelry Jobs through Yasmani's ATM Jobs, which GTABase lists as his first side mission. Power Up Gaming says roaming security trucks need no unlock; vault vans come with That's Where The Money Is.||",
               "sources": [
                 "powerup-trucks-atms",
-                "gtabase-yasmanis-atm-jobs",
-                "altchar-atms"
+                "gtabase-yasmanis-atm-jobs"
               ]
             },
             {
               "type": "tip",
               "title": "What you need",
-              "text": "||A winch from a Mod Shop (Bodywork, then Towing) for $1,595, fitted to a vehicle you own; AltChar confirms a 4x4 pickup works. Sticky bombs for a truck's rear doors, and a vehicle to block it. The Dye Pack Jammer to sell the marked bills.||",
+              "text": "||A winch from a Mod Shop, fitted to a vehicle you own. Sticky bombs for a truck's rear doors, and a vehicle to block it. The Dye Pack Jammer to sell the marked bills.||",
               "sources": [
-                "altchar-atms",
                 "powerup-trucks-atms",
                 "ppx-trophy",
                 "ppx-fences"
@@ -49623,9 +49613,8 @@
             {
               "type": "tip",
               "title": "Recommended",
-              "text": "||Pick an ATM with open road ahead; tight streets make the escape harder. Rob a truck near a bank, where they drive around.||",
+              "text": "||Rob a truck near a bank, where they drive around.||",
               "sources": [
-                "altchar-atms",
                 "ppx-trophy",
                 "powerup-trucks-atms"
               ]
@@ -49641,7 +49630,6 @@
               "text": "||ATM: find a towable one on the map (only some are), reverse up so the winch hooks on, then drive forward to tear it out.||",
               "evidence": "launch-reported",
               "sources": [
-                "altchar-atms",
                 "powerup-trucks-atms"
               ]
             },
@@ -49655,7 +49643,6 @@
               "text": "||ATM: escape, then break it open by driving or with an explosive, and shoot the cash cases.||",
               "evidence": "launch-reported",
               "sources": [
-                "altchar-atms",
                 "ppx-fences"
               ]
             },
@@ -49681,19 +49668,6 @@
             {
               "type": "numbered",
               "n": 1,
-              "title": "Drive far with it attached",
-              "text": "||Keep the ATM attached and drive far away until the police stop searching.||",
-              "evidence": "launch-reported",
-              "sources": [
-                "altchar-atms"
-              ]
-            },
-            {
-              "type": "rule"
-            },
-            {
-              "type": "numbered",
-              "n": 2,
               "title": "Fast vehicle, then respray",
               "text": "||Use a fast vehicle, leave the red heat area, respray at a Pay 'n' Spray and change outfit.||",
               "evidence": "launch-reported",
@@ -49707,7 +49681,6 @@
               "evidence": "launch-reported",
               "sources": [
                 "powerup-trucks-atms",
-                "altchar-atms",
                 "ppx-trophy"
               ],
               "caption": "||What atms and vans pay, how hot they get and whether they come back.||",

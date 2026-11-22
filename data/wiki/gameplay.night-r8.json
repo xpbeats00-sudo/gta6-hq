@@ -29,7 +29,8 @@
     "confidence": "corroborated",
     "sources": [
       "r8-tg-dog-island",
-      "r14-gs-cool-dog"
+      "r14-gs-cool-dog",
+      "rs2-beebom-jet-ski-dog"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -58,7 +59,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "r8-poly-giant-crab"
+      "r8-poly-giant-crab",
+      "rs2-gameshorizon-crab"
     ],
     "verified": "2026-11-18",
     "spoiler": true

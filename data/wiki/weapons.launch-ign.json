@@ -807,7 +807,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "rs2-gtabase-weapons"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -838,7 +839,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "rs2-gtabase-weapons"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1278,7 +1280,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "rs2-gtabase-weapons"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1347,7 +1350,8 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "rs2-gtabase-weapons"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -3212,7 +3216,7 @@
   },
   {
     "slug": "dazzler-dq-9",
-    "name": "Dazzler DQ-9",
+    "name": "Dazzler DW-9",
     "summary": "Named Schlamm submachine gun variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Dazzler DQ-9 as a longarm submachine gun (Combat subtype) made by Schlamm, firing 9mm rounds in full auto mode.",
@@ -3220,7 +3224,8 @@
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it is sold at Iron & Oak for $3,680.",
       "IGN places that shop in Stockyard, at the northern end of Vice City.",
-      "GTABase names this gun the Schlamm Dazzler DW-9, an exclusive variant of the DW-9 sold only at Iron & Oak for $3,680, and says that, like all exclusive variants, it cannot be modified."
+      "GTABase names this gun the Schlamm Dazzler DW-9, an exclusive variant of the DW-9 sold only at Iron & Oak for $3,680, and says that, like all exclusive variants, it cannot be modified.",
+      "GTABase and the game's own Iron & Oak shop screen name it the Dazzler DW-9; IGN's table printed DQ-9."
     ],
     "tags": [
       "schlamm",
@@ -3242,10 +3247,14 @@
     "sources": [
       "ign-weapons-guide",
       "ign-unique-weapon-variants",
-      "r8gb-weapons-dazzler-dw-9"
+      "r8gb-weapons-dazzler-dw-9",
+      "rs3-gtabase-dazzler-dw9"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Dazzler DQ-9"
+    ]
   },
   {
     "slug": "double-cross-vatra",

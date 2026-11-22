@@ -1,0 +1,167 @@
+[
+  {
+    "slug": "meditate-with-lucia",
+    "name": "Meditate with Lucia",
+    "summary": "A missable Chapter 1 optional mission in which Lucia shows Jason how to meditate at his house.",
+    "body": [
+      "GTABase's story list has it as an optional, missable mission in Chapter 1, placed after Down to Earth.",
+      "PowerPyx's meditation guide says Lucia announces she is going to meditate after Jason talks to her in the kitchen in the morning (the author saw it the morning after Down to Earth), then goes to the balcony with the training equipment; following her brings up an optional quest, and choosing Accept has her teach meditation.",
+      "PowerPyx says it counts as meditation spot 1 of 18 (Jason's House), becomes unavailable after Chapter 1, and does not matter for the 100% checklist, which needs only 15 of 18; whether the Positive Mental Attitude trophy needs it was unconfirmed."
+    ],
+    "tags": [
+      "chapter 1",
+      "jason",
+      "lucia",
+      "meditation",
+      "missable",
+      "missions",
+      "optional"
+    ],
+    "facts": {
+      "giver": "Lucia",
+      "location": "Jason's house, Key Lento, Mariana County",
+      "protagonist": "Jason",
+      "chapter": "Chapter 1",
+      "type": "Optional mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-missions",
+      "ppx-meditation"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-maritime-disputes",
+    "name": "Maritime Disputes",
+    "summary": "A side mission for Kenton Rees tied to the This Was No Boat Accident trophy, after which the Rugger Fortune can be used for diving.",
+    "body": [
+      "Push Square's chapters and story missions list gives Maritime Disputes as the only side mission under Kenton (the page spells it \"Martime Disputes\").",
+      "Push Square's underwater discoveries guide says that after Maritime Disputes and the This Was No Boat Accident trophy, the Rugger Fortune can be used instead of Kenton's Huntress to sail out to the dive sites.",
+      "PowerPyx's trophy guide gives This Was No Boat Accident as \"Complete the final mission for Kenton\"; its Strangers & Freaks page lists Kenton's Chapter 1 strand as Search the Dive Sites (Kenton Sets / Shipwrecks). Neither site says whether these are the same mission."
+    ],
+    "tags": [
+      "chapter 1",
+      "diving",
+      "kenton",
+      "missions",
+      "side mission",
+      "strangers and freaks"
+    ],
+    "facts": {
+      "giver": "Kenton Rees",
+      "type": "Stranger mission",
+      "reward": "This Was No Boat Accident trophy; Rugger Fortune boat for diving (Push Square)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-chapters",
+      "ps-underwater",
+      "powerpyx-strangers-freaks",
+      "powerpyx-trophy-guide"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "papa-audacity-the-unknown-stuntman",
+    "name": "The Unknown Stuntman",
+    "summary": "Mission 1 of 4 that Push Square lists for the side character Papa Audacity.",
+    "body": [
+      "Push Square's chapters and story missions guide lists \"The Unknown Stuntman\" as mission 1 of 4 under Papa Audacity: The Unknown Stuntman, Trial by Tire, Quit Your Job, Sell Your House and Stunt Audacity.",
+      "Push Square's page is marked as a work in progress and gives no chapter, protagonist, unlock or reward for these missions; PowerPyx's and GTABase's lists checked on November 22, 2026 do not include Papa Audacity."
+    ],
+    "tags": [
+      "missions",
+      "papa audacity",
+      "side mission"
+    ],
+    "facts": {
+      "giver": "Papa Audacity",
+      "order": 1,
+      "type": "Side mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-chapters"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "papa-audacity-trial-by-tire",
+    "name": "Trial by Tire",
+    "summary": "Mission 2 of 4 that Push Square lists for the side character Papa Audacity.",
+    "body": [
+      "Push Square's chapters and story missions guide lists \"Trial by Tire\" as mission 2 of 4 under Papa Audacity: The Unknown Stuntman, Trial by Tire, Quit Your Job, Sell Your House and Stunt Audacity.",
+      "Push Square's page is marked as a work in progress and gives no chapter, protagonist, unlock or reward for these missions; PowerPyx's and GTABase's lists checked on November 22, 2026 do not include Papa Audacity."
+    ],
+    "tags": [
+      "missions",
+      "papa audacity",
+      "side mission"
+    ],
+    "facts": {
+      "giver": "Papa Audacity",
+      "order": 2,
+      "type": "Side mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-chapters"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "papa-audacity-quit-your-job-sell-your-house",
+    "name": "Quit Your Job, Sell Your House",
+    "summary": "Mission 3 of 4 that Push Square lists for the side character Papa Audacity.",
+    "body": [
+      "Push Square's chapters and story missions guide lists \"Quit Your Job, Sell Your House\" as mission 3 of 4 under Papa Audacity: The Unknown Stuntman, Trial by Tire, Quit Your Job, Sell Your House and Stunt Audacity.",
+      "Push Square's page is marked as a work in progress and gives no chapter, protagonist, unlock or reward for these missions; PowerPyx's and GTABase's lists checked on November 22, 2026 do not include Papa Audacity."
+    ],
+    "tags": [
+      "missions",
+      "papa audacity",
+      "side mission"
+    ],
+    "facts": {
+      "giver": "Papa Audacity",
+      "order": 3,
+      "type": "Side mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-chapters"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "papa-audacity-stunt-audacity",
+    "name": "Stunt Audacity",
+    "summary": "Mission 4 of 4 that Push Square lists for the side character Papa Audacity.",
+    "body": [
+      "Push Square's chapters and story missions guide lists \"Stunt Audacity\" as mission 4 of 4 under Papa Audacity: The Unknown Stuntman, Trial by Tire, Quit Your Job, Sell Your House and Stunt Audacity.",
+      "Push Square's page is marked as a work in progress and gives no chapter, protagonist, unlock or reward for these missions; PowerPyx's and GTABase's lists checked on November 22, 2026 do not include Papa Audacity."
+    ],
+    "tags": [
+      "missions",
+      "papa audacity",
+      "side mission"
+    ],
+    "facts": {
+      "giver": "Papa Audacity",
+      "order": 4,
+      "type": "Side mission"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "pushsquare-chapters"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  }
+]

@@ -2,6 +2,18 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.39 (22 November 2026)
+
+The Rockstar guide look, more entries and sharper pictures.
+
+- **Rockstar's GTA VI guide look** across the whole app: Vice City navy, pink and blush, pill-shaped buttons and search boxes, rounded cards and uppercase condensed titles, with topic titles set over their pictures.
+- **42 new entries:** 21 businesses and hideouts (trap houses, the Saber Shipping Yard, Vespucci Mansion, Walker Farm, the convenience-store chains), 13 collectibles (the Bobcat and Belpoint dive sites and their treasures), 6 missions and 2 guides to the story's choices and endings. The Dazzler DW-9 (also seen as DQ-9) and the Stanley Furrow TC 2350 got their own sources.
+- **Pictures:** 56 entries that had no picture now have one, and 110 pictures were replaced with sharper copies of the same shot (29 from Rockstar's own pages).
+- **Sources:** citations of four sites that turned out to block Claude (Fextralife, CBR, Shacknews and AltChar) were removed, and 56 new allowed sources were added. Seven cards that rested only on Fextralife were taken out again: Femi-Nemesis (Bronze, Silver, Gold), Zaria "Ri Ri" Luckett (Bronze, Silver, Gold) and Maleek Rivers (Gold). Three ATM lines in the Robbery Planner went for the same reason.
+- **Search:** names starting with "The" or containing filler words, and names with apostrophes ("Dre'Quan"), now come first when you search for them; "chapter 6" keeps its number.
+- **Map planner fixes:** editing a planned route stops narrowing the lists, an unknown run type says so instead of planning small banks, and a `?plan=` link no longer wipes a search.
+- An end-to-end audit of data, pictures, the app and the code is in `docs/audits/END-TO-END-AUDIT-2026-11-22.md`.
+
 ## 0.2.38 (22 November 2026)
 
 A robbery guide, sharper pictures, smarter search and better sources. Nothing was removed: every entry and picture is still here.

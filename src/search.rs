@@ -72,7 +72,8 @@ struct Doc {
     section: String,
     slug: String,
     name: String,
-    /// The name's own words, for ranking an entry whose name starts with the query first.
+    /// The name's meaningful words (no filler, apostrophes joined), for ranking an entry whose name
+    /// starts with, or is, the query first.
     name_words: Vec<String>,
     summary: String,
     image: Option<String>,
@@ -130,7 +131,7 @@ impl Index {
                     section: section.clone(),
                     slug: text("slug").to_string(),
                     name: text("name").to_string(),
-                    name_words: words(text("name")),
+                    name_words: core(text("name")),
                     summary: text("summary").to_string(),
                     image: entry.get("image").and_then(Value::as_str).map(str::to_string),
                     art: entry.get("art").and_then(Value::as_str).map(str::to_string),
@@ -198,10 +199,11 @@ impl Index {
     /// ("how to", "where is") are skipped when other words remain. Ties sort by name.
     fn ranked(&self, query: &Query) -> Vec<(u32, u32)> {
         let all = words(query.text);
-        let mut terms: Vec<String> = all.iter().filter(|w| !FILLER.contains(&w.as_str())).cloned().collect();
+        let mut terms = without_filler(&all);
         if terms.is_empty() {
             terms = all;
         }
+        let asked = core(query.text);
         let mut ranked = self.matching(&terms, query, true);
         // A longer question where one word matches nothing ("make money fast") still finds the
         // entries that match all the other words.
@@ -223,15 +225,24 @@ impl Index {
             }
         }
         let same = |a: &str, b: &str| a == b || stem(a) == stem(b);
+        let asked_joined = asked.concat();
         for (doc, score) in &mut ranked {
             let name = &self.docs[*doc as usize].name_words;
-            if let (Some(first_name), Some(first_term)) = (name.first(), terms.first()) {
-                if same(first_name, first_term) {
-                    // Short names first: "Jason Duval" before "Jason's house repairs".
+            if let (Some(first_name), Some(first_term)) = (name.first(), asked.first()) {
+                if first_name == first_term {
+                    // Short names first: "Jason Duval" before "Jason Duval's car".
                     *score += if name.len() <= 2 { 12 } else { 8 };
+                } else if same(first_name, first_term) {
+                    // Only the root matches ("jasons" for "jason"): a smaller lift.
+                    *score += 4;
                 }
             }
-            if !name.is_empty() && name.len() == terms.len() && name.iter().zip(&terms).all(|(n, t)| same(n, t)) {
+            // Exactly the name, however it was spaced ("drequan priest", "dre quan priest").
+            let joined = name.concat();
+            if !joined.is_empty()
+                && (joined == asked_joined
+                    || (name.len() == asked.len() && name.iter().zip(&asked).all(|(n, t)| same(n, t))))
+            {
                 *score += 6;
             }
         }
@@ -336,8 +347,42 @@ pub fn search(wiki: &Value, query: &Query) -> Vec<Hit> {
 /// beach". They are dropped from a query unless nothing else is left.
 const FILLER: &[&str] = &[
     "a", "an", "the", "to", "of", "in", "on", "at", "for", "and", "or", "how", "do", "does", "did", "i", "is", "are",
-    "where", "what", "which", "can", "you", "my", "me", "find", "with", "gta", "6", "vi",
+    "where", "what", "which", "can", "you", "my", "me", "find", "with", "gta",
 ];
+
+/// `words` without filler. "gta" always goes; "6" and "vi" only right after it ("gta 6"), so a
+/// search such as "chapter 6" keeps its number.
+fn without_filler(all: &[String]) -> Vec<String> {
+    let mut out = Vec::new();
+    for (i, w) in all.iter().enumerate() {
+        let after_gta = i > 0 && all[i - 1] == "gta";
+        let drop = match w.as_str() {
+            "6" | "vi" => after_gta,
+            other => FILLER.contains(&other),
+        };
+        if !drop {
+            out.push(w.clone());
+        }
+    }
+    out
+}
+
+/// The meaningful words of a name or query, with apostrophes joined ("Dre'Quan" is "drequan").
+fn core(text: &str) -> Vec<String> {
+    let plain: Vec<String> = text
+        .to_lowercase()
+        .replace(['\'', '\u{2019}'], "")
+        .split(|c: char| !c.is_alphanumeric())
+        .filter(|w| !w.is_empty())
+        .map(str::to_string)
+        .collect();
+    let kept = without_filler(&plain);
+    if kept.is_empty() {
+        plain
+    } else {
+        kept
+    }
+}
 
 /// A rough common root, so "cards" finds "card", "racing" finds "race" and "robberies" finds
 /// "robbery". Only plain ASCII words of four letters or more are changed.
@@ -798,6 +843,9 @@ mod tests {
         assert_eq!(find("cards"), ["card-1"]);
         assert_eq!(find("make money"), ["making-money"]);
         assert_eq!(find("make money fast"), ["making-money"]);
+        assert_eq!(without_filler(&words("gta 6 chapter 6")), ["chapter", "6"]);
+        assert_eq!(core("The End of the Road"), ["end", "road"]);
+        assert_eq!(core("Dre'Quan Priest").concat(), core("dre quan priest").concat());
         assert_eq!(find("jewlery"), ["ring"]);
         // Every meaningful word must still match.
         assert!(find("bank mountain").is_empty());

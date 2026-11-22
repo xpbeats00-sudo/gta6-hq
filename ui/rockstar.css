@@ -1,0 +1,225 @@
+/* GTA 6 HQ: the Rockstar guide look.
+   Modelled on the look of Rockstar's own Grand Theft Auto VI pages (night-navy ground, the gold to
+   coral to pink sunset, pale pink pill buttons, picture cards with rounded corners and titles set
+   on the picture, small pink labels in capitals over big condensed capitals). It uses the app's own
+   typeface (Archivo, condensed) in place of Rockstar's, and no Rockstar logo: the app stays an
+   unofficial fan guide. Loaded last, after themes.css.
+   Colours apply to the default theme (Vice City); shape and type apply to every theme. */
+
+/* ---------- colours (default theme) ---------- */
+:root:not([data-theme]) {
+  --r-navy: #111117;
+  --r-ink: #0c0d1b;
+  --r-pink: #ffb2c6;
+  --r-blush: #fbd9e0;
+  --r-cream: #fff9cb;
+  --r-peach: #ffd4a8;
+  --r-lavender: #e9c2ff;
+  --r-plum: #3f284b;
+  --r-plum-2: #4b2f54;
+
+  --bg-main: var(--r-navy);
+  --bg-deep: var(--r-ink);
+  --bg-header: var(--r-navy);
+  --bg-panel: #1a1724;
+  --bg-panel-raised: #251d31;
+  --text-primary: #ffffff;
+  --text-secondary: #e2dbe9;
+  --text-muted: #b7aec4;
+  --accent-pink: var(--r-pink);
+  --accent-pink-strong: #ff8fae;
+  --accent-yellow: var(--r-peach);
+  --border-subtle: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.24);
+  --cover-ink: var(--r-plum);
+  --surface-1: #1a1724;
+  --surface-2: #2a2036;
+  --surface-3: var(--r-plum-2);
+  --accent: var(--r-pink);
+  --accent-strong: #ff8fae;
+  --on-accent: var(--r-ink);
+  --tone-orange: var(--r-peach);
+  --sunset-line: linear-gradient(90deg, #ffdf80 0%, #f4717c 52%, #e963c7 100%);
+  --sunset: var(--sunset-line);
+  --focus-ring: 0 0 0 2px var(--bg-main), 0 0 0 4px var(--r-pink);
+}
+:root:not([data-theme]) body { background: var(--r-navy); }
+
+/* ---------- shape (every theme): pills for buttons, rounded picture cards ---------- */
+:root {
+  --r-card: 20px;
+  --r-panel: 16px;
+}
+.btn, .chip-btn, .chips button, .toggle, .community-link, .nav-profile, .spoiler-switch,
+.map-seg, .map-seg button, .map-tool, .sv-act, .link-btn.is-pill, .list-more, .search-big input,
+.list-filter input, .map-side .map-search input, input[type='search'] {
+  border-radius: 999px;
+}
+.btn {
+  padding-inline: 18px;
+  font: 600 0.875rem/1 var(--font-body);
+  font-stretch: 100%;
+  letter-spacing: -0.01em;
+  text-transform: none;
+}
+.btn-primary,
+.leaflet-container .map-card a.btn-primary,
+.map3d-popup .map-card a.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--on-accent) !important;
+}
+.btn-primary:hover { background: color-mix(in srgb, var(--accent) 86%, #fff); border-color: color-mix(in srgb, var(--accent) 86%, #fff); }
+.chip-btn, .chips button { letter-spacing: 0; font-stretch: 100%; }
+select { border-radius: 12px; }
+
+/* Picture cards: rounded, no hard frame, a gentle lift on hover. */
+.card-media, .topic-media, .tile, .result-thumb, .feature-media, .profile-portrait,
+.promo, .stat-card, .panel, .map-card, .search-guides {
+  border-radius: var(--r-card);
+}
+.card-media, .topic-media { border-color: transparent; }
+.card:hover .card-media, .topic:hover .topic-media { border-color: color-mix(in srgb, var(--accent) 60%, transparent); }
+.panel, .stat-card, .search-guides { border-radius: var(--r-panel); }
+
+/* ---------- type: small pink capitals over big condensed capitals ---------- */
+.kicker, .card-over .kicker, .label {
+  font: 700 0.75rem/1.2 var(--font-display);
+  font-stretch: 80%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+:root:not([data-theme]) .kicker { color: var(--r-blush); }
+
+.page-head h1, .hero-title, .profile-body h1, .place-title h1 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-stretch: 70%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  line-height: 0.95;
+}
+.block-head h2, .page h2.section-title {
+  font-weight: 800;
+  font-stretch: 75%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.card-over h3, .topic h3, .tile-title {
+  font-weight: 800;
+  font-stretch: 72%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.page-head p, .lede, .hero-tagline { font-weight: 500; letter-spacing: -0.005em; }
+
+/* ---------- encyclopedia topics: the title sits on the picture, as on Rockstar's cards ---------- */
+.index a.topic { display: grid; grid-template-columns: minmax(0, 1fr); align-content: start; }
+.topic-media { grid-area: 1 / 1; margin-bottom: var(--s3); }
+.topic-media::before { content: ''; position: absolute; inset: 40% 0 0; z-index: 1; background: linear-gradient(0deg, rgba(12, 13, 27, 0.88), rgba(12, 13, 27, 0)); pointer-events: none; }
+.index a.topic > h3 { grid-area: 1 / 1; justify-self: start; align-self: end; z-index: 2; margin: 0 0 calc(var(--s3) + 14px); padding: 0 18px; color: #fff; font-size: clamp(1.25rem, 1.6vw, 1.6rem); text-shadow: 0 1px 12px rgba(0, 0, 0, 0.35); }
+.topic > p { margin-top: 0; }
+
+/* ---------- top bar: navy, the sunset as a hairline ---------- */
+:root:not([data-theme]) .topbar { background: rgba(17, 17, 23, 0.94); backdrop-filter: blur(12px); }
+.topbar::after { background: var(--sunset-line); }
+#nav a { font-weight: 600; letter-spacing: 0; }
+
+/* ---------- the hero: big capitals, a pink pill ---------- */
+.hero-title { letter-spacing: 0.04em; }
+
+/* ---------- list rows and fact tables in Rockstar's plum ---------- */
+:root:not([data-theme]) .facts { background: rgba(63, 40, 75, 0.35); }
+.fact-table dt, .facts dt { letter-spacing: 0.04em; }
+
+@media (max-width: 700px) {
+  :root { --r-card: 16px; }
+  .index a.topic > h3 { padding: 0 14px; margin-bottom: calc(var(--s3) + 10px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .topic-media::before { transition: none; }
+}
+
+/* Filters, sort menus and toggles: pills in the body typeface. */
+.list-tools .list-filter, .list-tools input, .list-tools select, .list-sort select, .map-filter,
+.tracker-tools input, .tracker-tools select, .journal-tools select, .saved-search input, .map-side select {
+  border-radius: 999px;
+}
+.list-tools select, .list-sort select, .map-side select { padding-inline: 16px 34px; }
+.spoiler-switch, .official-toggle, .toggle {
+  font: 600 0.8125rem/1 var(--font-body);
+  font-stretch: 100%;
+  letter-spacing: 0;
+}
+.index a:hover h3 { color: #fff; }
+.index a.topic:hover > h3 { color: var(--accent); }
+
+/* design.css squares every text box with !important; Rockstar's are pills. Multi-line boxes stay soft. */
+input[type='search'], input[type='text'], input:not([type]), select { border-radius: 999px !important; }
+textarea { border-radius: 14px !important; }
+
+/* Panels and groups: soft corners like Rockstar's info cards. */
+fieldset, .heist-plan, .map-legend, .map-route, .route-save, .confirm-dialog, .picker, .nav-more-menu,
+.suggest, .update-toast, .map-card, .pin-hover, .journal-note, .tracker-family, .profile-bar {
+  border-radius: var(--r-panel);
+}
+fieldset legend { font-stretch: 80%; letter-spacing: 0.08em; text-transform: uppercase; }
+
+/* Section headings inside entry pages: small spaced capitals, as Rockstar labels its sections. */
+.profile-body h2, .place-body h2 {
+  font-size: 0.875rem;
+  font-stretch: 80%;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+/* Home page section titles ("The Cast", "Latest"): big spaced capitals, like "Launch Trailer". */
+.editorial-head h2 {
+  font-weight: 800;
+  font-stretch: 72%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: clamp(2rem, 3.4vw, 3rem);
+  line-height: 1;
+}
+
+/* Light theme: the spoiler tag is white on its deep pink (dark text on it was too faint). */
+:root[data-theme='light'] .conf-spoiler { color: #fff; }
+
+/* Media filter chips: capitalised names. Full-width location pictures keep square edges. */
+#media-filter button { text-transform: capitalize; }
+.place-hero { border-radius: 0; }
+
+/* Map sidebar titles and other page section titles in capitals. */
+.map-side h1 { font-stretch: 72%; letter-spacing: 0.03em; text-transform: uppercase; }
+.progress-compare h2, #view > section > h2, .block > h2 {
+  font-stretch: 75%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Journal and empty states. */
+.empty-state, .empty-note { border-radius: var(--r-panel); }
+.journal-districts a, .journal-districts button, .journal-districts li { border-radius: 999px; }
+.journal-day h2, .journal-districts h2 {
+  font: 700 0.75rem var(--font-display);
+  font-stretch: 80%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.chip { border-radius: 999px; }
+
+/* Small buttons: pills with normal letter spacing (design.css spaces them out). */
+.btn.btn-small, .chip-btn, .toggle, .chips button, .map-street, .sv-act, .map-card-near button,
+.saved-btns button, .settings-btns button, .journal-clear button {
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  letter-spacing: 0;
+}
+.journal-thumb { border-radius: 8px; }
+
+/* Labels set on a picture stay light in every theme (the picture is always dark at the bottom). */
+.card-over .kicker, .card-over .label { color: #fbd9e0; }
+#view fieldset > legend { text-transform: uppercase; letter-spacing: 0.08em; font-stretch: 80%; }

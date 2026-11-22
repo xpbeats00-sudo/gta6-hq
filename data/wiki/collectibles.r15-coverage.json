@@ -1,0 +1,322 @@
+[
+  {
+    "slug": "dive-site-belpoint-strait",
+    "name": "Belpoint Strait",
+    "summary": "A deep dive site off Belpoint holding five of Kenton's treasures, with no shipwreck.",
+    "body": [
+      "Push Square places the Belpoint Strait just off the southern tip of Belpoint in Mariana County, west of Bobcat Bight, and says there is no shipwreck but the dive is deep.",
+      "Push Square lists 5 treasures there: Ancient Bracelet, Ancient Ingot, Avian Plate, Golden Fish and Lover's Grail.",
+      "Push Square says the site does not count toward the 33 Underwater Discoveries, and that scuba gear (from Island Dreams or either boat) is needed."
+    ],
+    "tags": [
+      "belpoint",
+      "dive site",
+      "kenton",
+      "mariana county",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's treasure set (dive site)",
+      "region": "Mariana County",
+      "total": 5
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "dive-site-bobcat",
+    "name": "Bobcat Dive Site",
+    "summary": "A dive site west of Bobcat Key holding six of Kenton's treasures, with no shipwreck.",
+    "body": [
+      "Push Square places the Bobcat Dive Site west of Bobcat Key in Mariana County, on the south-western side of the map, and says there is no shipwreck, only underwater scenery.",
+      "Push Square lists 6 treasures there: Astrolabe, Captain's Whistle, Ceramic Pirate, Ivory Sundial, Naval Hourglass and Pirate's Buckle.",
+      "Push Square says the site does not count toward the 33 Underwater Discoveries, and that scuba gear (from Island Dreams or either boat) is needed."
+    ],
+    "tags": [
+      "bobcat key",
+      "dive site",
+      "kenton",
+      "mariana county",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's treasure set (dive site)",
+      "region": "Mariana County",
+      "total": 6
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-ancient-bracelet",
+    "name": "Ancient Bracelet",
+    "summary": "A Kenton's Treasure found at the Belpoint Strait dive site, the southern tip of Belpoint.",
+    "body": [
+      "Push Square lists the Ancient Bracelet among the 5 treasures at the Belpoint Strait, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Belpoint Strait)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-ancient-ingot",
+    "name": "Ancient Ingot",
+    "summary": "A Kenton's Treasure found at the Belpoint Strait dive site, the southern tip of Belpoint.",
+    "body": [
+      "Push Square lists the Ancient Ingot among the 5 treasures at the Belpoint Strait, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Belpoint Strait)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-avian-plate",
+    "name": "Avian Plate",
+    "summary": "A Kenton's Treasure found at the Belpoint Strait dive site, the southern tip of Belpoint.",
+    "body": [
+      "Push Square lists the Avian Plate among the 5 treasures at the Belpoint Strait, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Belpoint Strait)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-golden-fish",
+    "name": "Golden Fish",
+    "summary": "A Kenton's Treasure found at the Belpoint Strait dive site, the southern tip of Belpoint.",
+    "body": [
+      "Push Square lists the Golden Fish among the 5 treasures at the Belpoint Strait, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Belpoint Strait)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-lovers-grail",
+    "name": "Lover's Grail",
+    "summary": "A Kenton's Treasure found at the Belpoint Strait dive site, the southern tip of Belpoint.",
+    "body": [
+      "Push Square lists the Lover's Grail among the 5 treasures at the Belpoint Strait, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Belpoint Strait)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-astrolabe",
+    "name": "Astrolabe",
+    "summary": "A Kenton's Treasure found at the Bobcat Dive Site dive site, west of Bobcat Key.",
+    "body": [
+      "Push Square lists the Astrolabe among the 6 treasures at the Bobcat Dive Site, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Bobcat Dive Site)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-captains-whistle",
+    "name": "Captain's Whistle",
+    "summary": "A Kenton's Treasure found at the Bobcat Dive Site dive site, west of Bobcat Key.",
+    "body": [
+      "Push Square lists the Captain's Whistle among the 6 treasures at the Bobcat Dive Site, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Bobcat Dive Site)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-ceramic-pirate",
+    "name": "Ceramic Pirate",
+    "summary": "A Kenton's Treasure found at the Bobcat Dive Site dive site, west of Bobcat Key.",
+    "body": [
+      "Push Square lists the Ceramic Pirate among the 6 treasures at the Bobcat Dive Site, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Bobcat Dive Site)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-ivory-sundial",
+    "name": "Ivory Sundial",
+    "summary": "A Kenton's Treasure found at the Bobcat Dive Site dive site, west of Bobcat Key.",
+    "body": [
+      "Push Square lists the Ivory Sundial among the 6 treasures at the Bobcat Dive Site, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Bobcat Dive Site)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-naval-hourglass",
+    "name": "Naval Hourglass",
+    "summary": "A Kenton's Treasure found at the Bobcat Dive Site dive site, west of Bobcat Key.",
+    "body": [
+      "Push Square lists the Naval Hourglass among the 6 treasures at the Bobcat Dive Site, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Bobcat Dive Site)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kenton-treasure-pirates-buckle",
+    "name": "Pirate's Buckle",
+    "summary": "A Kenton's Treasure found at the Bobcat Dive Site dive site, west of Bobcat Key.",
+    "body": [
+      "Push Square lists the Pirate's Buckle among the 6 treasures at the Bobcat Dive Site, a dive site with no shipwreck in Mariana County.",
+      "Push Square says Kenton's treasures are found with the Metal Detector while diving with scuba gear, that Kenton pays little per item at first, and that a completed set earns a bigger payout."
+    ],
+    "tags": [
+      "diving",
+      "kenton",
+      "treasure"
+    ],
+    "facts": {
+      "type": "Kenton's Treasure",
+      "region": "Mariana County (Bobcat Dive Site)"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ps-underwater"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  }
+]

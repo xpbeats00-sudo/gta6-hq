@@ -90,8 +90,7 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-wanted",
-      "rs-cbr-wanted-system"
+      "ign-wanted"
     ],
     "verified": "2026-11-18",
     "spoiler": true

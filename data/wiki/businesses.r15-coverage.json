@@ -1,0 +1,658 @@
+[
+  {
+    "slug": "m7-weed-grow",
+    "name": "Weed Grow",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 10 of 39 illegal gang operations, filed under M7.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "gang",
+      "grow",
+      "illegal",
+      "m7",
+      "operation",
+      "robbery",
+      "weed"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "M7"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "watson-bay-safehouse",
+    "name": "Watson Bay Safehouse",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 12 of 39 illegal gang operations, filed under La Polilla Negra.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "bay",
+      "gang",
+      "illegal",
+      "la",
+      "negra",
+      "operation",
+      "polilla",
+      "robbery",
+      "safehouse",
+      "watson"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "La Polilla Negra"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "biker-hideout",
+    "name": "Biker Hideout",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 14 of 39 illegal gang operations, filed under Final Chapter.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "biker",
+      "chapter",
+      "final",
+      "gang",
+      "hideout",
+      "illegal",
+      "operation",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Final Chapter"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "hog-stars-garage",
+    "name": "Hog Stars Garage",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 15 of 39 illegal gang operations, filed under Final Chapter.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "chapter",
+      "final",
+      "gang",
+      "garage",
+      "hog",
+      "illegal",
+      "operation",
+      "robbery",
+      "stars"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "Final Chapter"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "la-perle-trap-house",
+    "name": "La Perle Trap House",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 18 of 39 illegal gang operations, filed under San4San.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "gang",
+      "house",
+      "illegal",
+      "la",
+      "operation",
+      "perle",
+      "robbery",
+      "san4san",
+      "trap"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "San4San"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "illegal-sneaker-trade",
+    "name": "Illegal Sneaker Trade",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 19 of 39 illegal gang operations, filed under San4San.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "gang",
+      "illegal",
+      "operation",
+      "robbery",
+      "san4san",
+      "sneaker",
+      "trade"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "San4San"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "parlor-apartments",
+    "name": "Parlor Apartments",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 21 of 39 illegal gang operations, filed under San4San.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "apartments",
+      "gang",
+      "illegal",
+      "operation",
+      "parlor",
+      "robbery",
+      "san4san"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "San4San"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "southside-trap-house",
+    "name": "Southside Trap House",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 22 of 39 illegal gang operations, filed under PTT Youngin$.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "gang",
+      "house",
+      "illegal",
+      "operation",
+      "ptt",
+      "robbery",
+      "southside",
+      "trap",
+      "youngin$"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "PTT Youngin$"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "kamar-devon-community-center",
+    "name": "Kamar Devon Community Center",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 23 of 39 illegal gang operations, filed under PTT Youngin$.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "center",
+      "community",
+      "devon",
+      "gang",
+      "illegal",
+      "kamar",
+      "operation",
+      "ptt",
+      "robbery",
+      "youngin$"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "PTT Youngin$"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "saber-shipping-yard",
+    "name": "Saber Shipping Yard",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 24 of 39 illegal gang operations, filed under The Guardia Brothers.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "brothers",
+      "gang",
+      "guardia",
+      "illegal",
+      "operation",
+      "robbery",
+      "saber",
+      "shipping",
+      "the",
+      "yard"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "The Guardia Brothers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "saber-shipping-facility",
+    "name": "Saber Shipping Facility",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 26 of 39 illegal gang operations, filed under The Guardia Brothers.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "brothers",
+      "facility",
+      "gang",
+      "guardia",
+      "illegal",
+      "operation",
+      "robbery",
+      "saber",
+      "shipping",
+      "the"
+    ],
+    "facts": {
+      "type": "gang operation",
+      "owner": "The Guardia Brothers"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "mill-station-radar-base",
+    "name": "Mill Station Radar Base",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 28 of 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "base",
+      "criminals",
+      "gang",
+      "illegal",
+      "mill",
+      "operation",
+      "other",
+      "radar",
+      "robbery",
+      "station"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "ocean-beach-lab-gang-operation",
+    "name": "Ocean Beach Lab",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 34 of 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "beach",
+      "criminals",
+      "gang",
+      "illegal",
+      "lab",
+      "ocean",
+      "operation",
+      "other",
+      "robbery"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "vespucci-mansion-gang-operation",
+    "name": "Vespucci Mansion",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 35 of 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "criminals",
+      "gang",
+      "illegal",
+      "mansion",
+      "operation",
+      "other",
+      "robbery",
+      "vespucci"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "walker-farm-gang-operation",
+    "name": "Walker Farm",
+    "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "body": [
+      "PowerPyx lists it as number 37 of 39 illegal gang operations, filed under Other criminals.",
+      "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+    ],
+    "tags": [
+      "criminals",
+      "farm",
+      "gang",
+      "illegal",
+      "operation",
+      "other",
+      "robbery",
+      "walker"
+    ],
+    "facts": {
+      "type": "gang operation"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-gang",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "xero-food-mart",
+    "name": "Xero Food Mart",
+    "summary": "A convenience store chain with 17 branches that sells Zombix, pet food and groceries.",
+    "body": [
+      "PowerPyx lists 17 Xero Food Mart branches among Leonida's 72 convenience stores: Southwind, Grassrivers (two), Capri, Southside, Tequesta, Salton, Crosstown, Rockridge, La Perle, Belville, Waning Sands, Buckskin Swamp (two), South Kelly County, Ambrosia and Millport.",
+      "PowerPyx says convenience stores sell the healing item Zombix, pet food for domestic animals and groceries for the fridge at home, and are marked with a blue shopping bag icon once the map is unfogged.",
+      "PowerPyx's 100% checklist counts convenience, fast food and liquor stores together as Stick Up targets (50 of 91 needed)."
+    ],
+    "tags": [
+      "convenience",
+      "food",
+      "mart",
+      "stick",
+      "store",
+      "up",
+      "xero",
+      "zombix"
+    ],
+    "facts": {
+      "type": "convenience store",
+      "location": "All five counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-convenience",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "247-convenience-store",
+    "name": "247",
+    "summary": "A convenience store chain with 13 branches that sells Zombix, pet food and groceries.",
+    "body": [
+      "PowerPyx lists 13 247 branches among Leonida's 72 convenience stores: Key Lento, Hamlet, West Vice-Dale County, Downtown, Bayside, Washington Beach, Ocean Beach, Belville, Waning Sands, Emerald Springs, Port Gellhorn, West Kalaga and Millport.",
+      "PowerPyx says convenience stores sell the healing item Zombix, pet food for domestic animals and groceries for the fridge at home, and are marked with a blue shopping bag icon once the map is unfogged.",
+      "PowerPyx's 100% checklist counts convenience, fast food and liquor stores together as Stick Up targets (50 of 91 needed)."
+    ],
+    "tags": [
+      "247",
+      "convenience",
+      "stick",
+      "store",
+      "up",
+      "zombix"
+    ],
+    "facts": {
+      "type": "convenience store",
+      "location": "All five counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-convenience",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "ron-stop-n-snack",
+    "name": "Ron Stop'N'Snack",
+    "summary": "A convenience store chain with 7 branches that sells Zombix, pet food and groceries.",
+    "body": [
+      "PowerPyx lists 7 Ron Stop'N'Snack branches among Leonida's 72 convenience stores: Southside, Little Cuba, Salton, Balsero (two), Bayside and Washington Beach.",
+      "PowerPyx says convenience stores sell the healing item Zombix, pet food for domestic animals and groceries for the fridge at home, and are marked with a blue shopping bag icon once the map is unfogged.",
+      "PowerPyx's 100% checklist counts convenience, fast food and liquor stores together as Stick Up targets (50 of 91 needed)."
+    ],
+    "tags": [
+      "convenience",
+      "n",
+      "ron",
+      "snack",
+      "stick",
+      "stop",
+      "store",
+      "up",
+      "zombix"
+    ],
+    "facts": {
+      "type": "convenience store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-convenience",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "ltd-food-mart",
+    "name": "LTD Food Mart",
+    "summary": "A convenience store chain with 3 branches that sells Zombix, pet food and groceries.",
+    "body": [
+      "PowerPyx lists 3 LTD Food Mart branches among Leonida's 72 convenience stores: Capri, Hamlet and Ocean Beach.",
+      "PowerPyx says convenience stores sell the healing item Zombix, pet food for domestic animals and groceries for the fridge at home, and are marked with a blue shopping bag icon once the map is unfogged.",
+      "PowerPyx's 100% checklist counts convenience, fast food and liquor stores together as Stick Up targets (50 of 91 needed)."
+    ],
+    "tags": [
+      "convenience",
+      "food",
+      "ltd",
+      "mart",
+      "stick",
+      "store",
+      "up",
+      "zombix"
+    ],
+    "facts": {
+      "type": "convenience store",
+      "location": "Mariana and Vice-Dale Counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-convenience",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "globe-oil-food-center",
+    "name": "Globe Oil Food Center",
+    "summary": "A convenience store chain with 2 branches that sells Zombix, pet food and groceries.",
+    "body": [
+      "PowerPyx lists 2 Globe Oil Food Center branches among Leonida's 72 convenience stores: Hamlet and Crosstown.",
+      "PowerPyx says convenience stores sell the healing item Zombix, pet food for domestic animals and groceries for the fridge at home, and are marked with a blue shopping bag icon once the map is unfogged.",
+      "PowerPyx's 100% checklist counts convenience, fast food and liquor stores together as Stick Up targets (50 of 91 needed)."
+    ],
+    "tags": [
+      "center",
+      "convenience",
+      "food",
+      "globe",
+      "oil",
+      "stick",
+      "store",
+      "up",
+      "zombix"
+    ],
+    "facts": {
+      "type": "convenience store",
+      "location": "Vice-Dale County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-convenience",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  },
+  {
+    "slug": "alpha-convenience-store",
+    "name": "Alpha Convenience Store",
+    "summary": "A convenience store chain with 2 branches that sells Zombix, pet food and groceries.",
+    "body": [
+      "PowerPyx lists 2 Alpha Convenience Store branches among Leonida's 72 convenience stores: Belville and Gellhorn.",
+      "PowerPyx says convenience stores sell the healing item Zombix, pet food for domestic animals and groceries for the fridge at home, and are marked with a blue shopping bag icon once the map is unfogged.",
+      "PowerPyx's 100% checklist counts convenience, fast food and liquor stores together as Stick Up targets (50 of 91 needed)."
+    ],
+    "tags": [
+      "alpha",
+      "convenience",
+      "stick",
+      "store",
+      "up",
+      "zombix"
+    ],
+    "facts": {
+      "type": "convenience store",
+      "location": "Leonard and Kelly Counties"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "ppx-convenience",
+      "ppx-100"
+    ],
+    "verified": "2026-11-22",
+    "spoiler": true
+  }
+]

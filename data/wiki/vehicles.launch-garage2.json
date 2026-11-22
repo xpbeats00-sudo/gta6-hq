@@ -2039,11 +2039,12 @@
   },
   {
     "slug": "stanely-furrow-tc-2350",
-    "name": "Stanely Furrow TC 2350",
-    "summary": "The Stanely Furrow TC 2350 is an industrial vehicle listed in the released game's vehicle database (era 2010s Current).",
+    "name": "Stanley Furrow TC 2350",
+    "summary": "The Stanley Furrow TC 2350 is an industrial vehicle listed in the released game's vehicle database (era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Industrial Vehicles.",
-      "DayOne prints the maker as \"Stanely\"; the app's pre-launch Fieldmaster tractor entry uses \"Stanley\", and it is not confirmed whether they are the same vehicle."
+      "DayOne prints the maker as \"Stanely\"; the app's pre-launch Fieldmaster tractor entry uses \"Stanley\", and it is not confirmed whether they are the same vehicle.",
+      "An in-game picture on GTABase shows the maker as Stanley, so \"Stanely\" looks like a misprint."
     ],
     "tags": [
       "2350",
@@ -2054,16 +2055,20 @@
       "vehicle"
     ],
     "facts": {
-      "manufacturer": "Stanely",
+      "manufacturer": "Stanley",
       "model": "Furrow TC 2350",
       "class": "Service - Industrial Vehicles"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "rs3-gtabase-stanley-furrow"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Stanely Furrow TC 2350"
+    ]
   },
   {
     "slug": "whiffler-dashound",

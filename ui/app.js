@@ -1764,6 +1764,7 @@ function renderMap(params) {
     const tileImage = (z, y, x) => {
       const key = `${z}/${y}/${x}`;
       if (!cache.has(key)) {
+        if (cache.size >= 300) cache.delete(cache.keys().next().value); // keep memory bounded: drop the oldest
         cache.set(key, new Promise((resolve) => {
           const img = new Image();
           img.onload = () => resolve(img);
@@ -2312,22 +2313,25 @@ function renderMap(params) {
       <p class="muted route-note">An approximate map route: straight lines between the stops on Rockstar's map, not roads. No distance or travel time is given, because pin positions are approximate.</p>
       <form class="route-save"><input name="name" placeholder="Name this route" aria-label="Route name" maxlength="60" required><button class="btn btn-small">Save route</button><button type="button" class="link-btn" data-stop-clear>Clear</button></form>` : '';
   }
-  const addStop = (s) => { stops = [...stops, s]; drawRoute(); say(`${s.name} added to the route (stop ${stops.length}).`); };
+  // Editing the route by hand ends a planned run's narrowing of the lists and map.
+  const endRun = () => { if (runOnly) { runOnly = null; drawLists(); applyFilterToMap(); } };
+  const addStop = (s) => { endRun(); stops = [...stops, s]; drawRoute(); say(`${s.name} added to the route (stop ${stops.length}).`); };
   routeBox.addEventListener('click', (e) => {
     const b = e.target.closest('button');
     if (!b) return;
     const k = Number(b.dataset.stopUp ?? b.dataset.stopDown ?? b.dataset.stopDel);
     if (b.dataset.stopUp !== undefined) [stops[k - 1], stops[k]] = [stops[k], stops[k - 1]];
     else if (b.dataset.stopDown !== undefined) [stops[k + 1], stops[k]] = [stops[k], stops[k + 1]];
-    else if (b.dataset.stopDel !== undefined) stops.splice(k, 1);
-    else if (b.dataset.stopClear !== undefined) { stops = []; if (runOnly) { runOnly = null; drawLists(); applyFilterToMap(); } }
+    else if (b.dataset.stopDel !== undefined) { stops.splice(k, 1); endRun(); }
+    else if (b.dataset.stopClear !== undefined) { stops = []; endRun(); }
     else return;
     drawRoute();
   });
   // Robbery runs: every target of one kind, in a short order, as the route above.
   const plan = view.querySelector('.heist-plan');
   function planRun(key) {
-    const type = ROBBERY_TYPES.find((t) => t.key === key) || ROBBERY_TYPES[0];
+    const type = ROBBERY_TYPES.find((t) => t.key === key);
+    if (!type) { say('That robbery type is not on the list.'); return; }
     const targets = pins.filter(type.test);
     if (!targets.length) { say('No pins of that kind are on the map.'); return; }
     const start = selected >= 0 ? pins[selected] : (() => { const [x, y] = toXY(map.getCenter()); return { x, y }; })();
@@ -2649,7 +2653,7 @@ function renderMap(params) {
     setTimeout(() => state.map === map && map.flyToBounds(L.latLngBounds(ofKind.map((pin) => point(pin.x, pin.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 }), 300);
   }
   if (params.get('q')) { filter.value = params.get('q'); drawLists(); }
-  if (params.get('plan') && plan) { plan.open = true; setTimeout(() => { if (state.map === map) planRun(params.get('plan')); }, 350); }
+  if (params.get('plan') && plan && !params.get('q')) { plan.open = true; setTimeout(() => { if (state.map === map) planRun(params.get('plan')); }, 350); }
   // `?route=`, `?view=` and `?street=` reopen something saved.
   const savedRoute = UserStore.get('routes', []).find((r) => r.id === params.get('route'));
   if (savedRoute) {
@@ -2767,7 +2771,6 @@ function renderSearch(params) {
     try { found = await window.Manual.findPages(q, state.wiki); } catch { return; }
     if (input.value !== q || !results.isConnected || section || !found.length) return;
     body.querySelector('.search-guides')?.remove();
-    tools.hidden = false;
     body.insertAdjacentHTML('afterbegin', `<section class="search-guides" aria-label="Field Manual pages">
       <h2>In the Field Manual</h2>
       <ul>${found.map((g) => `<li><a href="${esc(g.href)}"><b>${esc(g.title)}</b><span>${esc(g.chapter)} · page ${g.number}</span></a></li>`).join('')}</ul>

@@ -27,7 +27,8 @@
     "confidence": "corroborated",
     "sources": [
       "game8-twinstripe-vigero",
-      "game8-standout-vehicles"
+      "game8-standout-vehicles",
+      "rs2-gtabase-standout"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -59,7 +60,8 @@
     "confidence": "corroborated",
     "sources": [
       "game8-driveshaft-hustler",
-      "game8-standout-vehicles"
+      "game8-standout-vehicles",
+      "rs2-gtabase-standout"
     ],
     "verified": "2026-11-18",
     "spoiler": true
