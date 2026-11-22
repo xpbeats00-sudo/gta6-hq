@@ -122,17 +122,19 @@ await visit(`#/locations/${await firstSlug('locations')}`, 'location', [null, 'a
 await visit('#/no-such-page', 'not-found', ['Wasted', '#view a[href="#/"]']);
 await visit('#/manual', 'manual-contents', ['Field Manual', '.manual a[href^="#/manual/"]']);
 const chapter = await page.locator('.manual a[href^="#/manual/"]').first().getAttribute('href');
-await visit(chapter, 'manual-day', [null, '.manual .m-book'], async () => {
+await visit(chapter, 'manual-open', [null, '.manual .m-book'], async () => {
   if (!(await page.locator('.m-skyswitch').count())) problems.push('the day and night switch is missing');
 });
-// Press the switch: the manual must turn to night, with or without the circle wipe.
+// Night reading is the default. Press the switch: the manual must change to the other look (with or
+// without the circle wipe), then change back.
+const nightAtFirst = (await page.locator('.manual.manual-night').count()) > 0;
 await page.locator('.m-skyswitch').click();
 await page.waitForTimeout(2200);
-if (!(await page.locator('.manual.manual-night').count())) problems.push('the manual did not switch to night');
-await page.screenshot({ path: `${out}/manual-night.png` });
+if ((await page.locator('.manual.manual-night').count() > 0) === nightAtFirst) problems.push(`the manual did not switch to ${nightAtFirst ? 'day' : 'night'}`);
+await page.screenshot({ path: `${out}/manual-${nightAtFirst ? 'day' : 'night'}.png` });
 await page.locator('.m-skyswitch').click();
 await page.waitForTimeout(1500);
-if (await page.locator('.manual.manual-night').count()) problems.push('the manual did not switch back to day');
+if ((await page.locator('.manual.manual-night').count() > 0) !== nightAtFirst) problems.push(`the manual did not switch back to ${nightAtFirst ? 'night' : 'day'}`);
 
 // Search answers.
 const hits = await page.evaluate(async () => (await (await fetch('/api/search?q=vice')).json()).total);
