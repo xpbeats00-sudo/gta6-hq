@@ -1,7 +1,12 @@
 """Package the app for macOS or Linux, on that system.
 
     cargo build --release
-    python3 scripts/package_unix.py [--binary PATH]
+    python3 scripts/package_unix.py [--binary PATH] [--include-local-media]
+
+By default this is the PUBLIC edition (docs/compliance/MEDIA-DISTRIBUTION-POLICY.md, option D): the
+same layout scripts/package_release.py builds for Windows, with only allow-listed media (today
+none) and the app's own mark as the icon. --include-local-media makes a PERSONAL package with
+every picture and PERSONAL in its name, never to be uploaded.
 
 macOS  -> dist/GTA6HQ-<version>-macos.zip           holding "GTA 6 HQ.app"
 Linux  -> dist/GTA6HQ-<version>-linux-x86_64.tar.gz  holding a GTA6HQ folder
@@ -21,7 +26,12 @@ version = re.search(r'^version\s*=\s*"([^"]+)"', open('Cargo.toml', encoding='ut
 
 ap = argparse.ArgumentParser()
 ap.add_argument('--binary', default=os.path.join('target', 'release', 'gta6-hq'))
+ap.add_argument('--include-local-media', action='store_true', help='personal package with every picture (never upload it)')
 a = ap.parse_args()
+PERSONAL = a.include_local_media
+TAG = '-PERSONAL' if PERSONAL else ''
+if PERSONAL:
+    print('PERSONAL package: every picture and clip is included. Keep it on your own machines.')
 if not os.path.isfile(a.binary):
     sys.exit(f'{a.binary} is missing. Build first: cargo build --release')
 os.makedirs('dist', exist_ok=True)
@@ -33,7 +43,8 @@ def square_logo(size):
         from PIL import Image
     except ImportError:
         return None
-    logo = Image.open(os.path.join('images', 'gta6.png')).convert('RGBA')
+    # The public edition's icon is the app's own mark; only the personal one uses the game's logo.
+    logo = Image.open(os.path.join('images', 'gta6.png') if PERSONAL else os.path.join('store', 'ui', 'brand.png')).convert('RGBA')
     side = max(logo.size)
     square = Image.new('RGBA', (side, side), (0, 0, 0, 0))
     square.paste(logo, ((side - logo.width) // 2, (side - logo.height) // 2))
@@ -41,8 +52,20 @@ def square_logo(size):
 
 
 def copy_content(into):
+    if PERSONAL:
+        for folder in FOLDERS:
+            shutil.copytree(folder, os.path.join(into, folder))
+        return
+    # The public edition, laid out and checked by the Windows packager's own function.
+    sys.path.insert(0, os.path.join(ROOT, 'scripts'))
+    import package_release
+    stage = os.path.join('dist', 'public-unix')
+    package_release.assemble_public(stage, a.binary)
     for folder in FOLDERS:
-        shutil.copytree(folder, os.path.join(into, folder))
+        if os.path.isdir(os.path.join(stage, folder)):
+            shutil.copytree(os.path.join(stage, folder), os.path.join(into, folder))
+    shutil.copy2(os.path.join(stage, 'NOTICE.txt'), os.path.join(into, 'NOTICE.txt'))
+    shutil.rmtree(stage)
 
 
 def executable(path):
@@ -82,7 +105,7 @@ def macos():
 ''')
     # Ad hoc signature: Apple silicon will not run a program with none at all.
     subprocess.run(['codesign', '--force', '--deep', '--sign', '-', app], check=True)
-    out = os.path.join('dist', f'GTA6HQ-{version}-macos.zip')
+    out = os.path.join('dist', f'GTA6HQ-{version}{TAG}-macos.zip')
     if os.path.exists(out):
         os.remove(out)
     subprocess.run(['ditto', '-c', '-k', '--keepParent', app, out], check=True)
@@ -91,7 +114,7 @@ def macos():
 
 def linux():
     arch = platform.machine() or 'x86_64'
-    name = f'GTA6HQ-{version}-linux-{arch}'
+    name = f'GTA6HQ-{version}{TAG}-linux-{arch}'
     stage = os.path.join('dist', name)
     shutil.rmtree(stage, ignore_errors=True)
     folder = os.path.join(stage, 'GTA6HQ')

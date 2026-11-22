@@ -69,9 +69,40 @@ def checksums(folder, built, name):
             print(f'sha256 {digest}  {file}')
 
 
-def public():
+def assemble_public(app, exe, approved=None):
+    """Lay out the public edition in `app` with program `exe` (any system): only allow-listed media,
+    the app's own mark, the GitHub name, the update check and Discord presence. Runs the app's data
+    check and the policy check; stops the build if either fails. Used by scripts/package_unix.py too."""
     import package_store as ps  # the Store edition's assembly: strip, ui swap, check
 
+    approved = approved_media() if approved is None else approved
+    shutil.rmtree(app, ignore_errors=True)
+    os.makedirs(app)
+    media = json.load(open(os.path.join('data', 'media.json'), encoding='utf-8'))['assets']
+    by_file = {a['file']: a for a in media}
+    ps.APP, ps.NAME = app, APP_NAME
+    ps.KEEP = {f: by_file.get(f, {'file': f}) for f in approved}
+    ps.data()
+    ps.ui()
+    name = os.path.basename(exe)
+    shutil.copy2(exe, os.path.join(app, name))
+    ps.check(os.path.join(app, name))  # no reference to a picture that isn't shipped; data check
+    # The GitHub edition keeps its update check and Discord presence (the Store edition drops them).
+    for extra in ('update.json', 'discord.json'):
+        if os.path.exists(os.path.join('data', extra)):
+            shutil.copyfile(os.path.join('data', extra), os.path.join(app, 'data', extra))
+    about = ('Rights record for the pictures in the public build.' if approved
+             else 'The public build ships no pictures or clips, so this record is empty.')
+    record = json.load(open(os.path.join(app, 'data', 'media.json'), encoding='utf-8'))
+    record['_about'] = about
+    json.dump(record, open(os.path.join(app, 'data', 'media.json'), 'w', encoding='utf-8'), indent=1)
+    shutil.copyfile('README.md', os.path.join(app, 'README.md'))
+    notice = open(os.path.join('installer', 'notice-public.txt'), encoding='utf-8').read()
+    open(os.path.join(app, 'NOTICE.txt'), 'w', encoding='utf-8', newline='\n').write(notice)
+    enforce(app, approved)
+
+
+def public():
     approved = approved_media()
     print(f'Public build: {len(approved)} media file(s) approved for distribution.')
     # The program under the GitHub name, with the app's own icon instead of the game's logo.
@@ -82,31 +113,8 @@ def public():
     exe = os.path.join(target, 'release', 'gta6-hq.exe')
 
     app = os.path.join('dist', 'public', 'app')
-    shutil.rmtree(os.path.join('dist', 'public'), ignore_errors=True)
-    os.makedirs(app)
-    media = json.load(open(os.path.join('data', 'media.json'), encoding='utf-8'))['assets']
-    by_file = {a['file']: a for a in media}
-    ps.APP, ps.NAME = app, APP_NAME
-    ps.KEEP = {f: by_file.get(f, {'file': f}) for f in approved}
-    ps.data()
-    ps.ui()
-    shutil.copyfile(exe, os.path.join(app, 'gta6-hq.exe'))
-    ps.check(os.path.join(app, 'gta6-hq.exe'))  # no reference to a picture that isn't shipped; data check
-    # The GitHub edition keeps its update check and Discord presence (the Store edition drops them).
-    for name in ('update.json', 'discord.json'):
-        if os.path.exists(os.path.join('data', name)):
-            shutil.copyfile(os.path.join('data', name), os.path.join(app, 'data', name))
-    about = ('Rights record for the pictures in the public build.' if approved
-             else 'The public build ships no pictures or clips, so this record is empty.')
-    record = json.load(open(os.path.join(app, 'data', 'media.json'), encoding='utf-8'))
-    record['_about'] = about
-    json.dump(record, open(os.path.join(app, 'data', 'media.json'), 'w', encoding='utf-8'), indent=1)
-    shutil.copyfile('README.md', os.path.join(app, 'README.md'))
+    assemble_public(app, exe, approved)
     shutil.copyfile(os.path.join('store', 'app.ico'), os.path.join(app, 'gta6-hq.ico'))
-    notice = open(os.path.join('installer', 'notice-public.txt'), encoding='utf-8').read()
-    open(os.path.join(app, 'NOTICE.txt'), 'w', encoding='utf-8', newline='\r\n').write(notice)
-
-    enforce(app, approved)
 
     built = []
     zip_name = f'GTA6HQ-{version}-windows-portable.zip'
