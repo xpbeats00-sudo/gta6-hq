@@ -474,7 +474,8 @@
       "gtabase-prop",
       "ppx-ue"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-18",
+    "image": "/images/businesses/paradise-garage.jpg"
   },
   {
     "slug": "gta-crosstown-garage",
@@ -606,7 +607,8 @@
       "gtabase-prop"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/pegassi-residences.jpg"
   },
   {
     "slug": "coastal-auto-care",
@@ -637,7 +639,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/coastal-auto-care.jpg"
   },
   {
     "slug": "capri-classic",
@@ -667,7 +670,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/capri-classic.jpg"
   },
   {
     "slug": "two-wheel-fury-motorsport",
@@ -700,7 +704,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/two-wheel-fury-motorsport.jpg"
   },
   {
     "slug": "euroform-automotive",
@@ -731,7 +736,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/euroform-automotive.jpg"
   },
   {
     "slug": "vice-auto-customs",
@@ -762,7 +768,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/vice-auto-customs.jpg"
   },
   {
     "slug": "lowballers-customs",
@@ -792,7 +799,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/lowballers-customs.jpg"
   },
   {
     "slug": "vice-vinyl",
@@ -822,7 +830,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/vice-vinyl.jpg"
   },
   {
     "slug": "stockyard-speedshop",
@@ -853,7 +862,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/stockyard-speedshop.jpg"
   },
   {
     "slug": "whisler-motorsport",
@@ -883,7 +893,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/whisler-motorsport.jpg"
   },
   {
     "slug": "dirt-merchants",
@@ -942,7 +953,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/wasteland-off-road.jpg"
   },
   {
     "slug": "ledford-motorcycle-workshop",
@@ -975,7 +987,8 @@
       "ppx-mod"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/ledford-motorcycle-workshop.jpg"
   },
   {
     "slug": "barrage-gun-supply",
@@ -1165,7 +1178,8 @@
       "ppx-guns"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/big-shots.jpg"
   },
   {
     "slug": "hamlet-traders",
@@ -1390,7 +1404,8 @@
       "ppx-guns"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/vice-city-gun-and-pawn.jpg"
   },
   {
     "slug": "pawn-and-gun-crosstown",
@@ -1462,7 +1477,8 @@
     "body": [
       "PowerPyx lists it among 24 gun stores and labels its stock 'Expanded'.",
       "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant.",
-      "PowerPyx says expanded stores have the widest range, including machine guns, sniper rifles and launchers."
+      "PowerPyx says expanded stores have the widest range, including machine guns, sniper rifles and launchers.",
+      "Followchain, GTA BOOM and Output Lag give the warehouse office door code as 789987 and the office safe code as 031462."
     ],
     "tags": [
       "ammu",
@@ -1475,17 +1491,22 @@
       "nation",
       "store",
       "vice",
-      "weapons"
+      "weapons",
+      "safe code"
     ],
     "facts": {
       "type": "gun store",
-      "location": "Vice-Dale County"
+      "location": "Vice-Dale County",
+      "safe_code": "031462 (office safe), 789987 (office door)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-guns"
+      "ppx-guns",
+      "safe-followchain",
+      "safe-gtaboom",
+      "safe-outputlag"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -1649,7 +1670,8 @@
       "ppx-guns"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/pawn-and-gun-port-gellhorn.jpg"
   },
   {
     "slug": "gellhorn-outfitters",
@@ -1772,7 +1794,8 @@
       "ppx-tattoo"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/the-inked-mermaid.jpg"
   },
   {
     "slug": "layin-ink",
@@ -1829,7 +1852,8 @@
       "ppx-tattoo"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/dominion-ink.jpg"
   },
   {
     "slug": "hyper-ink",
@@ -1857,7 +1881,8 @@
       "ppx-tattoo"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/hyper-ink.jpg"
   },
   {
     "slug": "cross-my-heart",
@@ -1887,7 +1912,8 @@
       "ppx-tattoo"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/cross-my-heart.jpg"
   },
   {
     "slug": "inkomplete-tattoo-co",
@@ -1916,7 +1942,8 @@
       "ppx-tattoo"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/inkomplete-tattoo-co.jpg"
   },
   {
     "slug": "twa-ponya-tattoo",
@@ -1945,7 +1972,8 @@
       "ppx-tattoo"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/twa-ponya-tattoo.jpg"
   },
   {
     "slug": "black-spot-tattoo",
@@ -2323,7 +2351,8 @@
       "ppx-hair"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/crosstown-cutz.jpg"
   },
   {
     "slug": "clip-and-fade",
@@ -2502,7 +2531,8 @@
       "ppx-hair"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/pearl-house-hair-salon.jpg"
   },
   {
     "slug": "captain-starlings-barber-shop",
@@ -3279,7 +3309,8 @@
       "ppx-smash"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/dorado-pawn-shop.jpg"
   },
   {
     "slug": "white-sands-jewelry-pawn",
@@ -3959,7 +3990,8 @@
       "ppx-electronics"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/super-friki-inc.jpg"
   },
   {
     "slug": "cell-phone-zone",
@@ -4557,7 +4589,8 @@
       "ppx-fastfood"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/marbles.jpg"
   },
   {
     "slug": "pollo-diablo",
@@ -4903,7 +4936,8 @@
       "ppx-clothing"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/urban-legendz.jpg"
   },
   {
     "slug": "drip-drops",
@@ -5116,7 +5150,8 @@
       "ppx-clothing"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/nifty-threads-island-wear.jpg"
   },
   {
     "slug": "hamlet-thrift",
@@ -6118,7 +6153,8 @@
       "ign-mini-golf"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/king-gator-adventure-golf.jpg"
   },
   {
     "slug": "frontier-adventure-golf",
@@ -6404,7 +6440,8 @@
       "ign-illegal-operations"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/fishing-shacks.jpg"
   },
   {
     "slug": "sunrise-rv-park",
@@ -6419,7 +6456,8 @@
       "Game8 puts Sunrise RV Park in central Pelican Valley, between the other two Kingfishers operations, and calls it the hardest of the three.",
       "Game8 suggests climbing the sniper's nest on the south side, which holds a rifle, and attacking from the southern docks where most of the loot is; it warns that dogs can smell the player.",
       "Game8 says the vault code (6769) is on a notepad in the shack east of the roundabout, and gives the repeatable average cash take as $3,100 to $3,700, with cocaine too.",
-      "Disagreement: IGN places it on the north side of Cottonmouth Lake; Game8 says central Pelican Valley."
+      "Disagreement: IGN places it on the north side of Cottonmouth Lake; Game8 says central Pelican Valley.",
+      "Output Lag and Cultured Vultures give the dock shack safe code as 6769; the note is in the Kingfishers shack."
     ],
     "tags": [
       "gang",
@@ -6429,21 +6467,25 @@
       "park",
       "robbery",
       "rv",
-      "sunrise"
+      "sunrise",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
       "owner": "Kingfishers",
-      "location": "North side of Cottonmouth Lake, north-west of Key Lento"
+      "location": "North side of Cottonmouth Lake, north-west of Key Lento",
+      "safe_code": "6769"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
       "ign-sunrise-rv-park",
       "ign-illegal-operations",
-      "r7-g8-sunrise-rv"
+      "r7-g8-sunrise-rv",
+      "safe-outputlag",
+      "safe-cv"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -6479,7 +6521,8 @@
       "ign-illegal-operations"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/manatee-motel.jpg"
   },
   {
     "slug": "kingpin-bowling",
@@ -6491,7 +6534,8 @@
       "PowerPyx's walkthrough index treats hitting Kingpin Bowling as an optional Chapter 2 job, and it spells the gang 'Kolts & Associates'.",
       "IGN says Kingpin Bowling, an abandoned alley taken over by Kolt & Associates for pills, lies just south of the Pawn & Gun Ammu-Nation in Port Gellhorn and first appears during the Chapter 2 main mission Coffee Break as the optional mission Hit Kingpin Bowling; Key Valuables missed then stay open to collect later. IGN rates its security High.",
       "IGN lists three Key Valuables: the office safe at the back, through the Storage door (code 0300, found on the map at Brooks Boatworks; 3,840 dollars), the Gutterball Moreland 850 Shotgun on a pool table beside the office, and the Crowex Octane 'Orca' watch on a small table in the room left of the lanes.",
-      "IGN puts the payout at 21,100 to 29,500 dollars and says bags of pills lie on tables behind the wooden dividers in the middle of the building. PowerPyx, cited in this entry, places the watch in an office."
+      "IGN puts the payout at 21,100 to 29,500 dollars and says bags of pills lie on tables behind the wooden dividers in the middle of the building. PowerPyx, cited in this entry, places the watch in an office.",
+      "Output Lag, Cultured Vultures and VGC give the safe code as 0300; it is on a wall map upstairs at Brooks Boatworks."
     ],
     "tags": [
       "associates",
@@ -6501,21 +6545,26 @@
       "kingpin",
       "kolts",
       "operation",
-      "robbery"
+      "robbery",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
       "owner": "Kolt & Associates",
-      "location": "South of the Pawn & Gun Ammu-Nation, Port Gellhorn, Kelly County"
+      "location": "South of the Pawn & Gun Ammu-Nation, Port Gellhorn, Kelly County",
+      "safe_code": "0300"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
       "ppx-wiki",
       "ign-kingpin-bowling",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "safe-outputlag",
+      "safe-cv",
+      "safe-vgc-kingpin"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -6563,7 +6612,8 @@
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
       "IGN says La Cascara Motel is an abandoned Kolt & Associates hotel on the west side of Port Gellhorn, just north-east of Wild Hog Point, that appears after the safe code is found at Brooks Boatworks or a notepad is read at June Warehouse; IGN rates its security High.",
       "IGN lists three Key Valuables: the bright red Vapid Firebug Dominator parked at the front, a large safe in a gated room on the top floor (code 6969, from the Brooks Boatworks map; 2,239 dollars), and the Scrapper VF5C SMG in a weapon case just past it.",
-      "IGN says body armour and a crate of Sticky Bombs and Frag Grenades sit beside the SMG case, and bags of pills and weed are spread through the rooms. IGN puts the payout at 27,600 to 46,100 dollars, the highest on its list."
+      "IGN says body armour and a crate of Sticky Bombs and Frag Grenades sit beside the SMG case, and bags of pills and weed are spread through the rooms. IGN puts the payout at 27,600 to 46,100 dollars, the highest on its list.",
+      "Output Lag, Cultured Vultures and VGC give the safe code as 6969, from the wall map upstairs at Brooks Boatworks."
     ],
     "tags": [
       "associates",
@@ -6574,21 +6624,27 @@
       "la",
       "motel",
       "operation",
-      "robbery"
+      "robbery",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
       "owner": "Kolt & Associates",
-      "location": "West Port Gellhorn, north-east of Wild Hog Point, Kelly County"
+      "location": "West Port Gellhorn, north-east of Wild Hog Point, Kelly County",
+      "safe_code": "6969"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
       "ign-la-cascara-motel",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "safe-outputlag",
+      "safe-cv",
+      "safe-vgc-cascara"
     ],
-    "verified": "2026-11-19",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "image": "/images/businesses/la-cascara-motel.jpg"
   },
   {
     "slug": "brooks-boatworks",
@@ -6599,7 +6655,8 @@
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
       "IGN says Brooks Boatworks is a Kolt & Associates Illegal Operation moving prescription medicine through docks north of the Pay 'n' Spray in Port Gellhorn, available from Chapter 2, with both main gates locked at first; IGN rates its security High.",
       "IGN lists four Key Valuables: a safe upstairs in the main warehouse (code 6823, 2,165 dollars), a codeless safe in the green wooden building (1,409 dollars), the bright orange Vapid Smuggler Caracara parked outside it, and the Clunker 556 Assault Rifle in the building east of the warehouse.",
-      "IGN says a wall map in that eastern building gives three safe codes, this one plus those for La Cascara Motel and Kingpin Bowling, and that thugs try to drive a boat out of the warehouse whose deck trunk holds pills, an SMG and cash. IGN puts the payout at 5,300 to 7,900 dollars."
+      "IGN says a wall map in that eastern building gives three safe codes, this one plus those for La Cascara Motel and Kingpin Bowling, and that thugs try to drive a boat out of the warehouse whose deck trunk holds pills, an SMG and cash. IGN puts the payout at 5,300 to 7,900 dollars.",
+      "Output Lag, Cultured Vultures and VGC give the safe code as 6823; the wall map in the upstairs office also lists the La Cascara Motel and Kingpin Bowling codes. Output Lag says a second safe has no confirmed code."
     ],
     "tags": [
       "associates",
@@ -6609,22 +6666,28 @@
       "illegal",
       "kolts",
       "operation",
-      "robbery"
+      "robbery",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
       "owner": "Kolt & Associates",
       "location": "North of the Pay 'n' Spray, Port Gellhorn, Kelly County",
-      "availability": "Chapter 2 onward"
+      "availability": "Chapter 2 onward",
+      "safe_code": "6823"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
       "ign-brooks-boatworks",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "safe-outputlag",
+      "safe-cv",
+      "safe-vgc-brooks"
     ],
-    "verified": "2026-11-19",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "image": "/images/businesses/brooks-boatworks.jpg"
   },
   {
     "slug": "m7-compound",
@@ -6659,7 +6722,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under La Polilla Negra.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "Cultured Vultures gives the safe code as 1887; no second guide confirms it."
     ],
     "tags": [
       "fishing",
@@ -6671,17 +6735,20 @@
       "palmer",
       "polilla",
       "robbery",
-      "warehouse"
+      "warehouse",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "La Polilla Negra"
+      "owner": "La Polilla Negra",
+      "safe_code": "1887"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe-cv"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -6690,7 +6757,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Final Chapter.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "Output Lag and Cultured Vultures give the safe code as 2121, the same in every game; Output Lag says the safe is in the upstairs office and the code is on a note downstairs in the lab."
     ],
     "tags": [
       "chapter",
@@ -6702,17 +6770,21 @@
       "lab",
       "meth",
       "operation",
-      "robbery"
+      "robbery",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Final Chapter"
+      "owner": "Final Chapter",
+      "safe_code": "2121"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe-outputlag",
+      "safe-cv"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -6780,7 +6852,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under San4San.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "Output Lag and Cultured Vultures give the safe code as 4444; Output Lag says it is on a note on the office fridge."
     ],
     "tags": [
       "gang",
@@ -6789,17 +6862,21 @@
       "janjak",
       "operation",
       "robbery",
-      "san4san"
+      "san4san",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "San4San"
+      "owner": "San4San",
+      "safe_code": "4444"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe-outputlag",
+      "safe-cv"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -6808,7 +6885,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under The Guardia Brothers.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "Cultured Vultures and VICE give the safe code as 1965."
     ],
     "tags": [
       "brothers",
@@ -6817,17 +6895,21 @@
       "guardia",
       "illegal",
       "operation",
-      "robbery"
+      "robbery",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "The Guardia Brothers"
+      "owner": "The Guardia Brothers",
+      "safe_code": "1965"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe-cv",
+      "safe-vice"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -6935,7 +7017,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "Output Lag and Cultured Vultures give the back-office safe code as 9256; Output Lag says there is no clue on site and the office is reached through a roof hatch."
     ],
     "tags": [
       "carrier",
@@ -6946,16 +7029,20 @@
       "operation",
       "other",
       "robbery",
-      "warehouse"
+      "warehouse",
+      "safe code"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "safe_code": "9256"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe-outputlag",
+      "safe-cv"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -6964,7 +7051,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "Cultured Vultures gives the front door code as 1426."
     ],
     "tags": [
       "cigar",
@@ -6975,16 +7063,19 @@
       "import",
       "operation",
       "other",
-      "robbery"
+      "robbery",
+      "safe code"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "safe_code": "1426 (front door)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe-cv"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -7015,7 +7106,8 @@
       "ppx-gang"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/gas-station-meth-front.jpg"
   },
   {
     "slug": "backroom-weed-front",

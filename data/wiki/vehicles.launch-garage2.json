@@ -282,7 +282,8 @@
       "dayone-bikes"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/nagasaki-street-blazer.jpg"
   },
   {
     "slug": "dinka-verus",
@@ -515,7 +516,8 @@
       "dayone-cars"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/benefactor-shutzen.jpg"
   },
   {
     "slug": "albany-buccaneer-65",
@@ -611,7 +613,8 @@
       "gtabase-v-chino"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/dundreary-chino-65.jpg"
   },
   {
     "slug": "vapid-dominator",
@@ -701,7 +704,8 @@
       "dayone-cars"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-vamos-74.jpg"
   },
   {
     "slug": "bf-bandito-77",
@@ -960,7 +964,8 @@
       "dayone-cars"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-sandking-xl.jpg"
   },
   {
     "slug": "obey-animus",
@@ -1248,7 +1253,8 @@
       "dayone-cars"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-stanier-g2.jpg"
   },
   {
     "slug": "grotti-carbonizzare",
@@ -1424,7 +1430,8 @@
       "gtabase-v-sultan"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/emperor-sultan.jpg"
   },
   {
     "slug": "pfister-astron",
@@ -2299,7 +2306,8 @@
       "dayone-watercraft"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/lure-predator-l20s.jpg"
   },
   {
     "slug": "rugger-rhode",

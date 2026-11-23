@@ -1566,11 +1566,12 @@
   {
     "slug": "obey-8f-drafter",
     "name": "Obey 8F Drafter",
-    "summary": "GTABase's GTA VI vehicle database lists the Obey 8F Drafter in its Sports class, made by Obey.",
+    "summary": "GTABase's GTA VI vehicle database lists the Obey 8F Drafter in its Coupes class, made by Obey.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase still lists it under this name since release.",
+      "GTABase says it costs $18,650 to register, has a Standard tracker, sells for $5,555 when stolen and is a Tuner specialist car.",
       "GTABase's page for the Obey 8F Drafter lists a registration cost of $18,650 and a stolen sell value of $5,555.",
       "GTABase says it carries a Standard Tracker.",
       "GTABase lists its specialist type as Tuner."
@@ -1585,26 +1586,28 @@
     "facts": {
       "manufacturer": "Obey",
       "model": "8F Drafter",
-      "class": "Sports car",
+      "class": "Coupes",
       "seats": 2,
       "drivetrain": "AWD"
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r8gb-vehicles-8f-drafter"
+      "r8gb-vehicles-8f-drafter",
+      "pl-gtabase-veh-obey-8f-drafter"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
     "slug": "airport-bus",
-    "name": "Airport Bus",
-    "summary": "GTABase's GTA VI vehicle database lists the Airport Bus in its Service class, made by Brute.",
+    "name": "Whiffler Airport Bus",
+    "summary": "GTABase's GTA VI vehicle database lists the Whiffler Airport Bus in its Service class, made by Whiffler.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Whiffler Airport Bus; before launch it was listed as the Airport Bus.",
+      "GTABase lists it under the maker Whiffler (not Brute), with no tracker, as a bus that ferries passengers between airport terminals."
     ],
     "tags": [
       "airport",
@@ -1612,16 +1615,20 @@
       "service"
     ],
     "facts": {
-      "manufacturer": "Brute",
+      "manufacturer": "Whiffler",
       "model": "Airport Bus",
       "class": "Service"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-airport-bus"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Airport Bus"
+    ]
   },
   {
     "slug": "airtug",
@@ -1779,7 +1786,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "801",
@@ -1796,7 +1803,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -1806,7 +1813,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "bestia",
@@ -1824,7 +1831,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -1860,7 +1867,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "1800",
@@ -1877,7 +1884,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22"
   },
   {
     "slug": "bravado-bison-900-95",
@@ -1918,12 +1925,13 @@
   },
   {
     "slug": "bravado-bison-900-95-monster-truck",
-    "name": "Bravado Bison 900 '95 Monster Truck",
-    "summary": "GTABase's GTA VI vehicle database lists the Bravado Bison 900 '95 Monster Truck in its Off-Road class, made by Bravado.",
+    "name": "Bravado Bison 900 '95 Monster",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Bison 900 '95 Monster in its Off-Road class, made by Bravado.",
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "Since release, GTABase lists it as the Bravado Bison 900 '95 Monster; before launch it was listed as the Bravado Bison 900 '95 Monster Truck.",
+      "GTABase says it has no tracker and sells for $3,080 when stolen.",
       "GTABase's page for the Bravado Bison 900 '95 (Lifted) lists a stolen sell value of $3,080 but shows no registration cost.",
       "GTABase says it carries no tracker."
     ],
@@ -1939,7 +1947,7 @@
     ],
     "facts": {
       "manufacturer": "Bravado",
-      "model": "Bison 900 '95 Monster Truck",
+      "model": "Bison 900 '95 Monster",
       "year": "'95",
       "class": "Off-Road",
       "seats": 4
@@ -1947,10 +1955,14 @@
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r8gb-vehicles-bison-900-monster-truck"
+      "r8gb-vehicles-bison-900-monster-truck",
+      "pl-gtabase-veh-bravado-bison-900-95-monster-truck"
     ],
-    "verified": "2026-11-19",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Bravado Bison 900 '95 Monster Truck"
+    ]
   },
   {
     "slug": "bravado-bison-1800",
@@ -2042,27 +2054,30 @@
     "spoiler": true
   },
   {
-    "slug": "buster",
-    "name": "Buster",
-    "summary": "GTABase's GTA VI vehicle database lists the Buster in its Service class, with no maker given.",
+    "slug": "whiffler-bus",
+    "name": "Whiffler Bus",
+    "summary": "GTABase's GTA VI vehicle database lists the Whiffler Bus, a city bus in Leonida's mass transit system, in its Service class, made by Whiffler.",
     "body": [
-      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
-      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase says it seats 16 and is based on a real-life New Flyer Xcelsior.",
+      "Rockstar's Extended Look shows a white Vice City Transit city bus with pink and blue stripes."
     ],
     "tags": [
-      "buster",
-      "service"
+      "bus",
+      "service",
+      "whiffler",
+      "transit"
     ],
     "facts": {
-      "model": "Buster",
-      "class": "Service"
+      "manufacturer": "Whiffler",
+      "model": "Bus",
+      "class": "Service",
+      "seats": 16
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "pl-gtabase-veh-whiffler-bus"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -2162,7 +2177,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase still lists it under this name since release.",
+      "GTABase says it costs $5,400 to register, has no tracker and is a Donks specialist car.",
       "GTABase's page for the Declasse Impaler '20 lists a registration cost of $5,400 and a stolen sell value of $1,595.",
       "GTABase says it carries no tracker.",
       "GTABase lists its specialist type as Donks."
@@ -2177,15 +2193,16 @@
       "manufacturer": "Declasse",
       "model": "Impaler '20",
       "year": "'20",
-      "class": "Sedan",
+      "class": "Sedans",
       "seats": 4
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r8gb-vehicles-chevrolet-impala-10th-gen"
+      "r8gb-vehicles-chevrolet-impala-10th-gen",
+      "pl-gtabase-veh-declasse-impaler-20"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -2335,12 +2352,13 @@
   },
   {
     "slug": "western-cliffhanger",
-    "name": "Western Cliffhanger",
-    "summary": "GTABase's GTA VI vehicle database lists the Western Cliffhanger in its Motorcycles class, made by Western.",
+    "name": "Western Cliffhanger '72",
+    "summary": "GTABase's GTA VI vehicle database lists the Western Cliffhanger '72 in its Motorcycles class, made by Western.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Western Cliffhanger '72; before launch it was listed as the Western Cliffhanger.",
+      "GTABase describes it as an antique 1970s dirt bike handled by the Dirt Bike specialist."
     ],
     "tags": [
       "cliffhanger",
@@ -2349,15 +2367,19 @@
     ],
     "facts": {
       "manufacturer": "Western",
-      "model": "Cliffhanger",
-      "class": "Motorcycle"
+      "model": "Cliffhanger '72",
+      "class": "Motorcycles"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-western-cliffhanger"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Western Cliffhanger"
+    ]
   },
   {
     "slug": "invetero-coquette",
@@ -2388,12 +2410,13 @@
   },
   {
     "slug": "invetero-coquette-classic",
-    "name": "Invetero Coquette Classic",
-    "summary": "GTABase's GTA VI vehicle database lists the Invetero Coquette Classic in its Sports Classics class, made by Invetero.",
+    "name": "Invetero Coquette '64",
+    "summary": "GTABase's GTA VI vehicle database lists the Invetero Coquette '64 in its Muscle class, made by Invetero.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "Since release, GTABase lists it as the Invetero Coquette '64; before launch it was listed as the Invetero Coquette Classic.",
+      "GTABase says it costs $29,150 to register, has a Standard tracker and sells for $12,320 when stolen.",
       "GTABase's page for the Invetero Coquette '64 lists a registration cost of $29,150 and a stolen sell value of $12,320.",
       "GTABase says it carries a Standard Tracker.",
       "GTABase lists its specialist type as Muscle."
@@ -2406,18 +2429,22 @@
     ],
     "facts": {
       "manufacturer": "Invetero",
-      "model": "Coquette Classic",
-      "class": "Sports classic",
+      "model": "Coquette '64",
+      "class": "Muscle",
       "seats": 2,
       "drivetrain": "RWD"
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r8gb-vehicles-coquette-classic"
+      "r8gb-vehicles-coquette-classic",
+      "pl-gtabase-veh-invetero-coquette-classic"
     ],
-    "verified": "2026-11-19",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Invetero Coquette Classic"
+    ]
   },
   {
     "slug": "nagasaki-tao",
@@ -2480,7 +2507,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a powerful, sporty SUV that often comes with modern security."
     ],
     "tags": [
       "bravado",
@@ -2491,13 +2519,14 @@
     "facts": {
       "manufacturer": "Bravado",
       "model": "Gresley XT",
-      "class": "SUV"
+      "class": "SUVs"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-bravado-gresley-xt"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -2563,7 +2592,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase lists it as a turn-of-the-century superbike handled by the Sports Bike specialist."
     ],
     "tags": [
       "dinka",
@@ -2573,13 +2603,14 @@
     "facts": {
       "manufacturer": "Dinka",
       "model": "Double-T",
-      "class": "Motorcycle"
+      "class": "Motorcycles"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-dinka-double-t"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22"
   },
   {
     "slug": "western-company-duster",
@@ -2615,7 +2646,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "cycle",
@@ -2629,16 +2660,17 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22"
   },
   {
     "slug": "endurex-race-bike",
-    "name": "Endurex Race Bike",
-    "summary": "GTABase's GTA VI vehicle database lists the Endurex Race Bike in its Cycles class, with no maker given.",
+    "name": "Endurex Aerobike",
+    "summary": "GTABase's GTA VI vehicle database lists the Endurex Aerobike in its Cycles class, made by Endurex.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Endurex Aerobike; before launch it was listed as the Endurex Race Bike.",
+      "GTABase describes it as a triathlon bicycle with an aerodynamic frame."
     ],
     "tags": [
       "bike",
@@ -2647,15 +2679,20 @@
       "race"
     ],
     "facts": {
-      "model": "Endurex Race Bike",
-      "class": "Cycle"
+      "model": "Aerobike",
+      "class": "Cycles",
+      "manufacturer": "Endurex"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-endurex-race-bike"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Endurex Race Bike"
+    ]
   },
   {
     "slug": "hvy-excavator",
@@ -2693,7 +2730,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "car",
@@ -2712,17 +2749,18 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
     "slug": "pegassi-faggio",
-    "name": "Pegassi Faggio",
-    "summary": "GTABase's GTA VI vehicle database lists the Pegassi Faggio in its Motorcycles class, made by Pegassi.",
+    "name": "Taci Ragno",
+    "summary": "GTABase's GTA VI vehicle database lists the Taci Ragno in its Motorcycles class, made by Taci.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Taci Ragno; before launch it was listed as the Pegassi Faggio.",
+      "GTABase says the scooter sells for $500 when stolen."
     ],
     "tags": [
       "faggio",
@@ -2730,16 +2768,20 @@
       "pegassi"
     ],
     "facts": {
-      "manufacturer": "Pegassi",
-      "model": "Faggio",
-      "class": "Motorcycle"
+      "manufacturer": "Taci",
+      "model": "Ragno",
+      "class": "Motorcycles"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-pegassi-faggio"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Pegassi Faggio"
+    ]
   },
   {
     "slug": "ubermacht-fcr-1000",
@@ -2748,7 +2790,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase lists it as a Sports Bike specialist bike, and a gold-framed Booty FCR 1000 variant is found in a lockup at VCIA."
     ],
     "tags": [
       "1000",
@@ -2759,38 +2802,44 @@
     "facts": {
       "manufacturer": "Übermacht",
       "model": "FCR 1000",
-      "class": "Motorcycle"
+      "class": "Motorcycles"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-ubermacht-fcr-1000"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22"
   },
   {
     "slug": "fieldmaster",
-    "name": "Fieldmaster",
-    "summary": "GTABase's GTA VI vehicle database lists the Fieldmaster in its Utility class, made by Stanley.",
+    "name": "Jacksheepe Fieldmaster '99",
+    "summary": "GTABase's GTA VI vehicle database lists the Jacksheepe Fieldmaster '99 in its Industrial class, made by Jacksheepe.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Jacksheepe Fieldmaster '99; before launch it was listed as the Fieldmaster.",
+      "GTABase lists the tractor under the maker Jacksheepe, with no tracker."
     ],
     "tags": [
       "fieldmaster",
       "utility"
     ],
     "facts": {
-      "manufacturer": "Stanley",
-      "model": "Fieldmaster",
-      "class": "Utility"
+      "manufacturer": "Jacksheepe",
+      "model": "Fieldmaster '99",
+      "class": "Industrial"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-fieldmaster"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Fieldmaster"
+    ]
   },
   {
     "slug": "jobuilt-flatbed",
@@ -2798,7 +2847,7 @@
     "summary": "GTABase's GTA VI vehicle database lists the JoBuilt Flatbed in its Industrial class, made by JoBuilt.",
     "body": [
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "flatbed",
@@ -2814,7 +2863,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -2908,7 +2957,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "emergency",
@@ -2925,7 +2974,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -2935,7 +2984,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "emergency",
@@ -2951,7 +3000,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22"
   },
   {
     "slug": "vapid-lowline",
@@ -2987,7 +3036,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a multipurpose vehicle for carrying small groups of passengers."
     ],
     "tags": [
       "shuttle",
@@ -2997,13 +3047,14 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Shuttle",
-      "class": "Van"
+      "class": "Vans"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-vapid-shuttle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3038,7 +3089,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a pneumatic forklift often seen in warehouses."
     ],
     "tags": [
       "lifta",
@@ -3051,9 +3103,10 @@
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-lifta"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3090,7 +3143,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "amloco",
@@ -3104,7 +3157,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3114,7 +3167,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "emergency",
@@ -3130,7 +3183,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3140,7 +3193,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "granger",
@@ -3156,7 +3209,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3421,7 +3474,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "car",
@@ -3439,7 +3492,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3507,7 +3560,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase says a custom Emilio's Lectro variant is found at Emilio's Auto Center in Rockridge."
     ],
     "tags": [
       "lectro",
@@ -3517,13 +3571,14 @@
     "facts": {
       "manufacturer": "Principe",
       "model": "Lectro",
-      "class": "Motorcycle"
+      "class": "Motorcycles"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-principe-lectro"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3533,7 +3588,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase still lists it under this name since release.",
+      "GTABase says it costs $3,250 to register, has no tracker and is a Donks specialist car.",
       "GTABase's page for the Dundreary Arcturus '93 lists a registration cost of $3,250 and a stolen sell value of $990.",
       "GTABase says it carries no tracker.",
       "GTABase lists its specialist type as Donks."
@@ -3548,15 +3604,16 @@
       "manufacturer": "Dundreary",
       "model": "Arcturus '93",
       "year": "'93",
-      "class": "Coupe",
+      "class": "Coupes",
       "seats": 2
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r8gb-vehicles-lincoln-mark-viii"
+      "r8gb-vehicles-lincoln-mark-viii",
+      "pl-gtabase-veh-dundreary-arcturus-93"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3618,7 +3675,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "buckingham",
@@ -3634,7 +3691,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3706,7 +3763,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a slim yacht with a tall mast and wooden deck."
     ],
     "tags": [
       "boat",
@@ -3716,23 +3774,25 @@
     "facts": {
       "manufacturer": "Dinka",
       "model": "Marquis",
-      "class": "Boat"
+      "class": "Boats"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-dinka-marquis"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
     "slug": "benefactor-schafter",
-    "name": "Benefactor Schafter",
-    "summary": "GTABase's GTA VI vehicle database lists the Benefactor Schafter in its Sedans class, made by Benefactor.",
+    "name": "Benefactor Schafter V12",
+    "summary": "GTABase's GTA VI vehicle database lists the Benefactor Schafter V12 in its Sports class, made by Benefactor.",
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Benefactor Schafter V12; before launch it was listed as the Benefactor Schafter.",
+      "GTABase lists it as a Tuner specialist luxury sports sedan that is likely to have modern security."
     ],
     "tags": [
       "benefactor",
@@ -3741,15 +3801,19 @@
     ],
     "facts": {
       "manufacturer": "Benefactor",
-      "model": "Schafter",
-      "class": "Sedan"
+      "model": "Schafter V12",
+      "class": "Sports"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-benefactor-schafter"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Benefactor Schafter"
+    ]
   },
   {
     "slug": "benefactor-spritz",
@@ -3758,7 +3822,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a luxury minivan that may come with modern security features."
     ],
     "tags": [
       "benefactor",
@@ -3768,13 +3833,14 @@
     "facts": {
       "manufacturer": "Benefactor",
       "model": "Spritz",
-      "class": "Van"
+      "class": "Vans"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-benefactor-spritz"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3811,7 +3877,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "metromule",
@@ -3825,7 +3891,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3835,7 +3901,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "car",
@@ -3852,7 +3918,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -3939,11 +4005,12 @@
   },
   {
     "slug": "mammoth-patriot-mil-spec",
-    "name": "Mammoth Patriot Mil-Spec",
-    "summary": "GTABase's GTA VI vehicle database lists the Mammoth Patriot Mil-Spec in its Off-Road class, made by Mammoth.",
+    "name": "Mammoth Patriot '92",
+    "summary": "GTABase's GTA VI vehicle database lists the Mammoth Patriot '92 in its Military class, made by Mammoth.",
     "body": [
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "Since release, GTABase lists it as the Mammoth Patriot '92; before launch it was listed as the Mammoth Patriot Mil-Spec.",
+      "GTABase says it has a Military tracker and sells for $10,835 when stolen.",
       "GTABase's page for the Mammoth Patriot '92 lists a stolen sell value of $10,835 but shows no registration cost.",
       "GTABase says it carries a Military Tracker."
     ],
@@ -3957,19 +4024,23 @@
     ],
     "facts": {
       "manufacturer": "Mammoth",
-      "model": "Patriot Mil-Spec",
-      "class": "Off-Road",
+      "model": "Patriot '92",
+      "class": "Military",
       "seats": 4,
       "drivetrain": "AWD"
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r8gb-vehicles-patriot-mil-spec"
+      "r8gb-vehicles-patriot-mil-spec",
+      "pl-gtabase-veh-mammoth-patriot-mil-spec"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true,
-    "image": "/images/web/gtabase-ebe6601473b3.jpg"
+    "image": "/images/web/gtabase-ebe6601473b3.jpg",
+    "aliases": [
+      "Mammoth Patriot Mil-Spec"
+    ]
   },
   {
     "slug": "maibatsu-penumbra-ff",
@@ -4104,7 +4175,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "boat",
@@ -4121,7 +4192,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22"
   },
   {
     "slug": "police-buzzard",
@@ -4130,7 +4201,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "buzzard",
@@ -4147,7 +4218,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22"
   },
   {
     "slug": "police-ghost-stanier-le",
@@ -4156,7 +4227,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "emergency",
@@ -4174,7 +4245,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -4184,7 +4255,7 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "emergency",
@@ -4201,7 +4272,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -4232,12 +4303,13 @@
   },
   {
     "slug": "pegassi-police-tempesta",
-    "name": "Pegassi Police Tempesta",
-    "summary": "GTABase's GTA VI vehicle database lists the Pegassi Police Tempesta in its Super class, made by Pegassi.",
+    "name": "Pegassi Valiant Tempesta (Police)",
+    "summary": "GTABase's GTA VI vehicle database lists the Pegassi Valiant Tempesta (Police) in its Super class, made by Pegassi.",
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Pegassi Valiant Tempesta (Police); before launch it was listed as the Pegassi Police Tempesta.",
+      "GTABase says this one-off Tempesta is found at a VCPD recruitment drive in Vice Beach."
     ],
     "tags": [
       "pegassi",
@@ -4247,15 +4319,19 @@
     ],
     "facts": {
       "manufacturer": "Pegassi",
-      "model": "Police Tempesta",
-      "class": "Supercar"
+      "model": "Valiant Tempesta (Police)",
+      "class": "Super"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-pegassi-police-tempesta"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Pegassi Police Tempesta"
+    ]
   },
   {
     "slug": "coil-raiden",
@@ -4446,7 +4522,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a luxury motorhome with no tracker.",
       "Game8 says one or two '95 Trotters are parked beside the Key Lento Tourist Information building, sometimes swapped for a Moocher and a Journey; it gives 2 seats."
     ],
     "tags": [
@@ -4459,16 +4536,17 @@
       "manufacturer": "Willard",
       "model": "Trotter '95",
       "year": "'95",
-      "class": "Van",
+      "class": "Vans",
       "seats": 2,
       "availability": "Beside the Key Lento Tourist Information building (Game8)"
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r7-g8-trotter"
+      "r7-g8-trotter",
+      "pl-gtabase-veh-willard-trotter-95"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -4478,7 +4556,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a sleek superyacht that usually has advanced security features."
     ],
     "tags": [
       "boat",
@@ -4488,22 +4567,24 @@
     "facts": {
       "manufacturer": "Calder",
       "model": "Yakuruna",
-      "class": "Boat"
+      "class": "Boats"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-calder-yakuruna"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22"
   },
   {
     "slug": "jobuilt-rubble",
     "name": "JoBuilt Rubble",
-    "summary": "GTABase's GTA VI vehicle database lists the JoBuilt Rubble in its Industrial class, made by JoBuilt.",
+    "summary": "GTABase's GTA VI vehicle database lists the JoBuilt Rubble in its Commercial class, made by JoBuilt.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a dependable semi-truck used in large numbers across Leonida.",
       "GTA Wiki (edited November 19, 2026) says the Jobuilt Rubble returns from GTA V as a chassis cab truck that in GTA VI comes as a dump truck, aerial work platform, box truck, flatbed or mixer.",
       "GTA Wiki notes two Apollo Aggregates dump trucks outside a construction site in the official video An Extended Look."
     ],
@@ -4515,14 +4596,15 @@
     "facts": {
       "manufacturer": "JoBuilt",
       "model": "Rubble",
-      "class": "Industrial"
+      "class": "Commercial"
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r11g-gw-rubble"
+      "r11g-gw-rubble",
+      "pl-gtabase-veh-jobuilt-rubble"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -4671,7 +4753,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a midsize charter jet favored by Leonida's wealthiest."
     ],
     "tags": [
       "buckingham",
@@ -4681,23 +4764,25 @@
     "facts": {
       "manufacturer": "Buckingham",
       "model": "Shamal",
-      "class": "Plane"
+      "class": "Planes"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-buckingham-shamal"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
     "slug": "sirius",
-    "name": "Sirius",
-    "summary": "GTABase's GTA VI vehicle database lists the Sirius in its Muscle class, with no maker given.",
+    "name": "Sirius Transgressor '67",
+    "summary": "GTABase's GTA VI vehicle database lists the Sirius Transgressor '67 in its Muscle class, made by Sirius.",
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Sirius Transgressor '67; before launch it was listed as the Sirius.",
+      "GTABase says it is an Ultimate Edition unlock that costs $21,500 to register."
     ],
     "tags": [
       "car",
@@ -4705,14 +4790,19 @@
       "sirius"
     ],
     "facts": {
-      "model": "Sirius",
-      "class": "Muscle car"
+      "model": "Transgressor '67",
+      "class": "Muscle",
+      "manufacturer": "Sirius"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-sirius"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22",
+    "aliases": [
+      "Sirius"
+    ]
   },
   {
     "slug": "western-sovereign-107",
@@ -4749,7 +4839,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "107",
@@ -4767,7 +4857,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -4798,11 +4888,12 @@
   },
   {
     "slug": "brute-stockade",
-    "name": "Brute Stockade",
-    "summary": "GTABase's GTA VI vehicle database lists the Brute Stockade in its Commercial class, made by Brute.",
+    "name": "Interstate Stockade '99",
+    "summary": "GTABase's GTA VI vehicle database lists the Interstate Stockade '99 in its Emergency class, made by Interstate.",
     "body": [
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "Since release, GTABase lists it as the Interstate Stockade '99; before launch it was listed as the Brute Stockade.",
+      "GTABase lists it under the maker Interstate, with an Advanced tracker.",
       "GTABase lists 4 seats and RWD drive for the Interstate Stockade '99."
     ],
     "tags": [
@@ -4811,27 +4902,32 @@
       "stockade"
     ],
     "facts": {
-      "manufacturer": "Brute",
-      "model": "Stockade",
-      "class": "Commercial",
+      "manufacturer": "Interstate",
+      "model": "Stockade '99",
+      "class": "Emergency",
       "seats": 4,
       "drivetrain": "RWD"
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
-      "r8gb-vehicles-stockade"
+      "r8gb-vehicles-stockade",
+      "pl-gtabase-veh-brute-stockade"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-22",
+    "aliases": [
+      "Brute Stockade"
+    ]
   },
   {
     "slug": "mammoth-streamer216",
-    "name": "Mammoth Streamer216",
-    "summary": "GTABase's GTA VI vehicle database lists the Mammoth Streamer216 in its Planes class, made by Mammoth.",
+    "name": "Lapwing Streamer 216-C",
+    "summary": "GTABase's GTA VI vehicle database lists the Lapwing Streamer 216-C in its Planes class, made by Lapwing.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Lapwing Streamer 216-C; before launch it was listed as the Mammoth Streamer216.",
+      "GTABase lists the plane under the maker Lapwing and names Pilot Pete as a notable owner."
     ],
     "tags": [
       "mammoth",
@@ -4839,16 +4935,20 @@
       "streamer216"
     ],
     "facts": {
-      "manufacturer": "Mammoth",
-      "model": "Streamer216",
-      "class": "Plane"
+      "manufacturer": "Lapwing",
+      "model": "Streamer 216-C",
+      "class": "Planes"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-mammoth-streamer216"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Mammoth Streamer216"
+    ]
   },
   {
     "slug": "dinka-sugoi",
@@ -4884,7 +4984,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase says it sells for $1,100 when stolen and also appears as a rusty beater variant."
     ],
     "tags": [
       "bf",
@@ -4894,23 +4995,25 @@
     "facts": {
       "manufacturer": "BF",
       "model": "Surfer",
-      "class": "Van"
+      "class": "Vans"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-bf-surfer"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
     "slug": "swamp-blaster",
-    "name": "Swamp Blaster",
-    "summary": "GTABase's GTA VI vehicle database lists the Swamp Blaster in its Off-Road class, with no maker given.",
+    "name": "Bravado Swamp Blaster",
+    "summary": "GTABase's GTA VI vehicle database lists the Bravado Swamp Blaster in its Off-Road class, made by Bravado.",
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Bravado Swamp Blaster; before launch it was listed as the Swamp Blaster.",
+      "GTABase lists it under the maker Bravado as an off-roader built to carry passengers through wet terrain."
     ],
     "tags": [
       "blaster",
@@ -4920,14 +5023,19 @@
     ],
     "facts": {
       "model": "Swamp Blaster",
-      "class": "Off-Road"
+      "class": "Off-Road",
+      "manufacturer": "Bravado"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-swamp-blaster"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "aliases": [
+      "Swamp Blaster"
+    ]
   },
   {
     "slug": "buckingham-swift",
@@ -4936,7 +5044,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase marks one on a helipad on its GTA 6 map."
     ],
     "tags": [
       "buckingham",
@@ -4946,13 +5055,14 @@
     "facts": {
       "manufacturer": "Buckingham",
       "model": "Swift",
-      "class": "Helicopter"
+      "class": "Helicopters"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-buckingham-swift"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -4988,7 +5098,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "canis",
@@ -5005,7 +5115,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -5015,7 +5125,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "brute",
@@ -5032,7 +5142,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -5042,7 +5152,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "tow",
@@ -5058,7 +5168,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -5100,7 +5210,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
     ],
     "tags": [
       "truck",
@@ -5115,7 +5225,7 @@
     "sources": [
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -5153,7 +5263,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a large military troop helicopter with advanced security features."
     ],
     "tags": [
       "buckingham",
@@ -5163,13 +5274,14 @@
     "facts": {
       "manufacturer": "Buckingham",
       "model": "Valkyrie",
-      "class": "Helicopter"
+      "class": "Helicopters"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-buckingham-valkyrie"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -5207,7 +5319,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase lists it as a Muscle specialist car that is likely to have modern security."
     ],
     "tags": [
       "car",
@@ -5220,23 +5333,25 @@
     "facts": {
       "manufacturer": "Declasse",
       "model": "Vigero ZX Convertible",
-      "class": "Muscle car"
+      "class": "Muscle"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-declasse-vigero-zx-convertible"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
     "slug": "karin-vivanite",
     "name": "Karin Vivanite",
-    "summary": "GTABase's GTA VI vehicle database lists the Karin Vivanite in its SUVs class, made by Karin.",
+    "summary": "GTABase's GTA VI vehicle database lists the Karin Vivanite in its Vans class, made by Karin.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase describes it as a premium taxi with extra passenger space."
     ],
     "tags": [
       "karin",
@@ -5246,13 +5361,14 @@
     "facts": {
       "manufacturer": "Karin",
       "model": "Vivanite",
-      "class": "SUV"
+      "class": "Vans"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-karin-vivanite"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -5262,7 +5378,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase lists Atlantic Volatus and Dragonfly Volatus variants."
     ],
     "tags": [
       "buckingham",
@@ -5272,13 +5389,14 @@
     "facts": {
       "manufacturer": "Buckingham",
       "model": "Volatus",
-      "class": "Helicopter"
+      "class": "Helicopters"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-buckingham-volatus"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -5375,7 +5493,7 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game.",
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all.",
       "GTABase says the Windsor is based on the Rolls-Royce Wraith and gives it two seats, rear-wheel drive and five gears."
     ],
     "tags": [
@@ -5395,7 +5513,7 @@
       "gtabase-vehicles",
       "gtabase-v-windsor"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -5521,7 +5639,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "GTABase still lists it under this name since release.",
+      "GTABase says it sells for $6,500 when stolen."
     ],
     "tags": [
       "apoc",
@@ -5532,23 +5651,25 @@
     "facts": {
       "manufacturer": "Übermacht",
       "model": "Apoc (Cabrio)",
-      "class": "Coupe"
+      "class": "Coupes"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-ubermacht-apoc-cabrio"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
     "slug": "western-zombie-chopper",
-    "name": "Western Zombie Chopper",
-    "summary": "GTABase's GTA VI vehicle database lists the Western Zombie Chopper in its Motorcycles class, made by Western.",
+    "name": "Western Zombie Bobber",
+    "summary": "GTABase's GTA VI vehicle database lists the Western Zombie Bobber in its Motorcycles class, made by Western.",
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "GTABase built its list before launch from Rockstar's trailers and screenshots. This name and class have not been checked against the released game."
+      "Since release, GTABase lists it as the Western Zombie Bobber; before launch it was listed as the Western Zombie Chopper.",
+      "GTABase lists it as a Chopper specialist bike popular with biker gangs."
     ],
     "tags": [
       "chopper",
@@ -5558,13 +5679,17 @@
     ],
     "facts": {
       "manufacturer": "Western",
-      "model": "Zombie Chopper",
-      "class": "Motorcycle"
+      "model": "Zombie Bobber",
+      "class": "Motorcycles"
     },
     "confidence": "community",
     "sources": [
-      "gtabase-vehicles"
+      "gtabase-vehicles",
+      "pl-gtabase-veh-western-zombie-chopper"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-22",
+    "aliases": [
+      "Western Zombie Chopper"
+    ]
   }
 ]

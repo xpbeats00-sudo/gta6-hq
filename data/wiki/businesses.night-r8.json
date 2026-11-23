@@ -2,12 +2,14 @@
   {
     "slug": "kitty-litter-lab-balsero",
     "name": "Balsero Kitty Litter Lab",
-    "summary": "One of the Kitty Litter drug labs Tyrone asks you to destroy, in Balsero, Vice City.",
+    "summary": "One of the Kitty Litter drug labs Tyrone asks you to destroy, in Balsero, Vice City; its garage keypad takes 1999.",
     "body": [
+      "PowerPyx and GTABase put one of Balsero's three labs in a garage in the building in the middle of the search area, where the objective marker is. Its wall keypad takes the code 1999, shown on a nearby billboard, and the lab pays $2,500. PowerPyx adds a receipt on the counter in the back left corner.",
       "Push Square places it between NW 16th St and NW 17th St in Balsero, in a small garage unit at the north-west corner of NW 12th Ave with purple chemicals outside and a chimney on the roof.",
       "Push Square says a few criminals loiter nearby and that shooting the propane tank inside destroys the lab.",
       "PowerPyx, in the app, counts three labs in Balsero; this is the one on Push Square's list.",
-      "Push Square lists it among the labs for Tyrone's Take Out Kitty Litter job, tracked under Robberies in the pause menu."
+      "Push Square lists it among the labs for Tyrone's Take Out Kitty Litter job, tracked under Robberies in the pause menu.",
+      "The other two Balsero labs, per PowerPyx and GTABase: a garage on the north edge of the area with about three armed guards ($2,000), and the second trailer from the south, with a guard and a Spin On This van outside ($2,500). Neither needs a code."
     ],
     "tags": [
       "balsero",
@@ -18,13 +20,16 @@
     ],
     "facts": {
       "type": "drug lab",
-      "location": "Balsero, Vice City, Vice-Dale County"
+      "location": "Balsero, Vice City, Vice-Dale County",
+      "safe_code": "1999 (garage keypad; the code is on a nearby billboard)"
     },
     "confidence": "corroborated",
     "sources": [
-      "r8-ps-kitty-labs"
+      "r8-ps-kitty-labs",
+      "safe-ppx-kitty",
+      "safe-gb-kitty"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {

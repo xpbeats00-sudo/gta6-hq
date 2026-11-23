@@ -24,7 +24,8 @@
       "dayone-hunting-animals"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/white-river-otter.jpg"
   },
   {
     "slug": "mottled-duck",
@@ -54,7 +55,8 @@
       "r13-tbt-birding"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/mottled-duck.jpg"
   },
   {
     "slug": "pit-bull",

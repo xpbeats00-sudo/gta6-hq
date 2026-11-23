@@ -269,7 +269,9 @@
       .map((e) => ({ entry: e, type: e.facts.type.replace(/^(\w)/, (c) => c.toUpperCase()), family: familyOf(e.facts.type) }));
   }
 
-  EXTRA_PAGES.tracker = function renderTracker() {
+  window.trackerItems = trackerItems; // the 100% page (hundred.js) counts ticks by family
+
+  EXTRA_PAGES.tracker = function renderTracker(a, b, params) {
     const items = trackerItems();
     const families = [...new Set(items.map((it) => it.family))];
     const ticks = () => UserStore.get('collectible-ticks', {});
@@ -285,7 +287,9 @@
       </div>`;
     // One family control (the chips). Each family is a group that opens on demand, so the page
     // is a short list of families, not every collectible at once.
-    let fam = '';
+    // ?family=Knife%20flights&show=todo opens one family, as the 100% page links do.
+    let fam = families.includes(params?.get('family')) ? params.get('family') : '';
+    if (['todo', 'done'].includes(params?.get('show'))) view.querySelector('.tracker-show').value = params.get('show');
     const opened = new Set();
     const draw = () => {
       const t = ticks();
@@ -367,7 +371,8 @@
     const guideTotal = (window.__guideChecklistTotal || 0);
     const favs = UserStore.get('favourites', []).length;
     const cols = UserStore.get('collections', []).length;
-    const explored = new Set(discovered.map((r) => r.split('/')[0]));
+    // Map pins with no entry ("p:…" keys) belong to no section.
+    const explored = new Set(discovered.filter((r) => !r.startsWith('p:')).map((r) => r.split('/')[0]));
     const sections = state.wiki.categories.map((c) => c.key).filter((k) => (state.wiki[k] || []).length);
     // Overall: the average of the parts that can be measured here, each from your own ticks.
     const parts = [[collected, items.length], [placesFound, places.length], ...(guideTotal ? [[guideTicks, guideTotal]] : [])];
@@ -376,6 +381,7 @@
       <div class="block progress-page">
         <div class="stat-grid">
           <div class="stat-card stat-wide"><b>${overall}%</b><span>Overall: the average of collectibles ticked, places discovered${guideTotal ? ' and 100% Guide checklist rows ticked' : ''}</span>${bar(overall, 100)}</div>
+          <div class="stat-card"><b>100%</b><span>The game's own checklist, line by line, with your counts and what to do next</span><a href="#/hundred">Open the 100% Checklist</a></div>
           <div class="stat-card"><b>${collected} / ${items.length}</b><span>Collectibles ticked</span>${bar(collected, items.length)}<a href="#/tracker">Open the tracker</a></div>
           <div class="stat-card"><b>${placesFound} / ${places.length}</b><span>Locations and businesses discovered</span>${bar(placesFound, places.length)}<a href="#/locations">Browse locations</a></div>
           ${guideTotal ? `<div class="stat-card"><b>${guideTicks} / ${guideTotal}</b><span>100% Guide checklist rows ticked</span>${bar(guideTicks, guideTotal)}<a href="#/manual/g100-route">Open the guide</a></div>` : ''}
@@ -410,6 +416,41 @@
 
   const applyMotion = () => window.Appearance?.apply();
 
+  /** "120 collectible ticks, 14 discovered places, …" across every profile in a saved-data document. */
+  function backupSummary(data) {
+    const sum = (part, size) => Object.entries(data || {})
+      .filter(([k]) => k === part || k === `jason-${part}` || k === `lucia-${part}`)
+      .reduce((n, [, v]) => n + size(v), 0);
+    const len = (v) => (Array.isArray(v) ? v.length : v && typeof v === 'object' ? Object.keys(v).length : 0);
+    const parts = [
+      [sum('collectible-ticks', len), 'collectible tick', 'collectible ticks'],
+      [sum('discovered', len), 'discovered place', 'discovered places'],
+      [sum('guide-checks', len), 'guide tick', 'guide ticks'],
+      [sum('hundred-counts', len), '100% count', '100% counts'],
+      [sum('favourites', len), 'favourite', 'favourites'],
+      [sum('collections', len), 'collection', 'collections'],
+      [sum('routes', len), 'route', 'routes'],
+      [sum('journal', len), 'journal record', 'journal records'],
+    ].filter(([n]) => n).map(([n, one, many]) => `${n} ${n === 1 ? one : many}`);
+    return parts.length ? parts.join(', ') : 'nothing saved yet';
+  }
+
+  /** Writes a backup of everything saved and every setting; resolves with the file's path. */
+  async function writeBackup() {
+    const d = new Date();
+    const p = (n) => String(n).padStart(2, '0');
+    const body = {
+      app: 'GTA 6 HQ', kind: 'backup', format: 1,
+      saved: d.toISOString(),
+      stamp: `${d.getFullYear()}-${p(d.getMonth() + 1)}-${p(d.getDate())}-${p(d.getHours())}${p(d.getMinutes())}`,
+      userdata: UserStore.data,
+      settings: prefs.saved,
+    };
+    const answer = await fetch('/api/backup', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    if (!answer.ok) throw new Error(await answer.text() || `The app answered ${answer.status}.`);
+    return (await answer.json()).path;
+  }
+
   EXTRA_PAGES.settings = function renderSettings() {
     const v = (k, d) => prefs.get(k) || d;
     const radio = (name, options, value) => options.map(([val, label]) => `<label class="opt"><input type="radio" name="${name}" value="${val}" ${value === val ? 'checked' : ''}><span>${esc(label)}</span></label>`).join('');
@@ -442,6 +483,13 @@
           <label class="opt"><input type="checkbox" name="reduced-motion" ${prefs.get('reduced-motion') === '1' ? 'checked' : ''}><span>Reduce motion across the app (page fades, map flights, pulsing pins). Overrides the choice above.</span></label>
         </fieldset>
         <fieldset><legend>Your data</legend>
+          <p class="muted">Back up everything you have saved, for every profile, to a file in your Downloads folder: collectible ticks, 100% counts, discovered places, guide ticks, favourites, collections, routes, saved views, your journal and these settings. Restore reads a backup back in, on this computer or another one.</p>
+          <div class="settings-btns">
+            <button type="button" class="btn btn-small" data-backup>Back up my progress</button>
+            <button type="button" class="btn btn-small" data-restore>Restore from a backup…</button>
+            <input type="file" accept=".json,application/json" data-restore-file hidden>
+          </div>
+          <p class="backup-status muted" role="status"></p>
           <div class="settings-btns">
             <button type="button" class="btn btn-small" data-reset="searches">Clear recent searches</button>
             <button type="button" class="btn btn-small" data-reset="prefs">Reset these settings</button>
@@ -468,6 +516,56 @@
       prefs.set('panel-see', e.target.value);
       window.Appearance.apply();
     });
+    // ---------- backup and restore ----------
+    const backupStatus = (text) => { form.querySelector('.backup-status').textContent = text; };
+    const restored = (() => { try { const t = sessionStorage.getItem('hq-restored'); sessionStorage.removeItem('hq-restored'); return t; } catch { return null; } })();
+    if (restored) backupStatus(restored);
+    form.querySelector('[data-backup]').addEventListener('click', async () => {
+      backupStatus('Saving a backup…');
+      try { backupStatus(`Saved: ${await writeBackup()}. ${backupSummary(UserStore.data)}.`); } catch (err) { backupStatus(`The backup could not be saved. ${err.message}`); }
+    });
+    const picker = form.querySelector('[data-restore-file]');
+    form.querySelector('[data-restore]').addEventListener('click', () => picker.click());
+    picker.addEventListener('change', async () => {
+      const file = picker.files?.[0];
+      picker.value = '';
+      if (!file) return;
+      let backup;
+      try { backup = JSON.parse(await file.text()); } catch { backupStatus(`${file.name} is not a backup file (it could not be read as one).`); return; }
+      if (!backup || backup.app !== 'GTA 6 HQ' || backup.kind !== 'backup' || typeof backup.userdata !== 'object' || Array.isArray(backup.userdata) || !backup.userdata) {
+        backupStatus(`${file.name} is not a GTA 6 HQ backup.`);
+        return;
+      }
+      const from = backup.saved ? new Date(backup.saved).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) : 'an unknown date';
+      if (!await hqConfirm({
+        title: 'Restore this backup?',
+        text: `Backup from ${from}: ${backupSummary(backup.userdata)}. It replaces everything saved in this app, for every profile, and its settings. Your progress as it is now is saved to your Downloads folder first, so you can go back.`,
+        ok: 'Restore',
+      })) return;
+      backupStatus('Saving your current progress first…');
+      let safety;
+      try { safety = await writeBackup(); } catch (err) { backupStatus(`Nothing was restored: your current progress could not be backed up first. ${err.message}`); return; }
+      // Every saved part is replaced: parts only in the old data are removed.
+      const changes = {};
+      Object.keys(UserStore.data).forEach((k) => { changes[k] = null; });
+      Object.assign(changes, backup.userdata);
+      try {
+        const answer = await fetch('/api/userdata', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(changes) });
+        if (!answer.ok) throw new Error(await answer.text());
+        const settings = Object.fromEntries(Object.entries(backup.settings || {}).filter(([, v]) => typeof v === 'string'));
+        if (Object.keys(settings).length) {
+          const sent = await fetch('/api/settings', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(settings) });
+          if (!sent.ok) throw new Error(await sent.text());
+        }
+      } catch (err) {
+        backupStatus(`The backup could not be restored (${err.message}). Your progress before the attempt is in ${safety}.`);
+        return;
+      }
+      try { sessionStorage.setItem('hq-restored', `Restored the backup from ${from}. Your progress from before is in ${safety}.`); } catch { /* the message is only a courtesy */ }
+      location.hash = '#/settings';
+      location.reload();
+    });
+
     form.addEventListener('click', async (e) => {
       const b = e.target.closest('[data-reset]');
       if (!b) return;

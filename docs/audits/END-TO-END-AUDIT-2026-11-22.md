@@ -12,7 +12,7 @@ The app works end to end. Every page opens, no script errors or failed requests 
 The main open items:
 - **Sources:** 385 entries still rest only on do-not-use sites.
 - **Pictures:** 110 pictures were replaced with sharper copies of the same shot; 374 are still under 1,280 px wide, and many entries still have no picture.
-- **Watermarks:** two pictures still carry a site's logo (Kenton's Huntress and the Animal Compendium picture).
+- **Watermarks:** none left; the last two were replaced after 0.2.39.
 - **Rights:** every picture's rights are recorded as "permission required".
 
 ## 1. Data
@@ -90,9 +90,7 @@ New on 22 November:
 - 110 pictures replaced with sharper copies of the same shot, 1.3 to 3.8 times wider: 29 from Rockstar's own pages and 81 from other sites (GTA Wiki, Rockstar, GamesRadar+ and PC Gamer, tracker.gg, GTABase, VGC, KeenGamer, Kotaku, GTA BOOM, Pure Xbox). Each was matched point by point to the old picture and checked by eye side by side; 6 were cropped to keep the old framing. Each picture record now names the sharper copy's address. Copies are capped at 1,920 px wide (1,440 for portraits).
 
 Findings:
-- **P1. Two pictures still carry a site's logo.**
-  - Kenton's Huntress has GTA BOOM's watermark. No clean shot of that boat exists on an allowed site yet; the guides' clean dive-boat shots show the Sea Enchantress.
-  - The Animal Compendium picture (`images/wildlife/animal-compendium.jpg`) has a faint GamesRadar+ logo across its black border, and an orange arrow added by the site. It was found during the sharper-copy check and was not upgraded. It needs a clean replacement.
+- **P1. Watermarks (fixed after 0.2.39).** Kenton's Huntress (GTA BOOM's watermark) and the Animal Compendium picture (a faint GamesRadar+ logo and an added arrow) were replaced with clean pictures: gta.wiki's Island Dreams shot of the charter boat (1,024 px, the largest clean one found) and OutputLag's shot of the in-game animal compendium. One boat list calls Kenton's boat the Sea Enchantress; most guides say Huntress.
 - **P2. 374 pictures are still under 1,280 px** (down from 480).
   - Of the 260 non-Rockstar pictures searched, 177 have no larger copy of the same frame anywhere reachable. Most are GTABase's own captures (508–832 px at source) or crops of 1080p trailer frames.
   - Not fetched, because their robots.txt blocks Claude: Nettoge (14 pictures) and DayOne (7). Insider Gaming's robots.txt could not be read, so its one sharper copy (Lucky Dog) was not used.
@@ -102,7 +100,7 @@ Findings:
   - weapons: 130
   - locations: 101
   - animals: 81
-  - characters: 17
+  - characters: 11 (6 portraits added after 0.2.39: DWNPLY, Doctor Bill, Bret Vogel, Brittney, Joey, Camillo). No picture exists on an allowed site for Burim, Declan, Manuel, Bailey, Lorena, Frankie Delight, Dobbs, Monty, Ernesto, Raina or Vinny.
   - missions: about 50
 
   On allowed sites, PowerPyx and Push Square burn their logo into every screenshot, and GTABase shows placeholders for most variants.
@@ -135,16 +133,15 @@ A review of this week's code changes (search, map planner, Field Manual, styles)
   - a planned run kept narrowing the lists after the route was edited;
   - the map's detail tiles were cached without limit;
   - an unknown `?plan=` silently planned small banks.
-- **Not fixed:**
-  - **C1:** when a long query falls back to partial matches, the results aren't labelled as close matches.
+- **Fixed after 0.2.39:**
+  - **C1:** when a long query falls back to partial matches, the result count now says "close matches (no entry has every word you typed)".
 
 ## 6. Recommended next steps
 
 1. Release the 22 November work (Rockstar look, pictures, entries, fixes).
 2. Repeat the card, AHOL and stunt-jump sourcing once PowerPyx and GTABase complete their lists (D1, D4).
 3. Keep looking for a clean Huntress picture (P1) and for pictures of the missing vehicles and weapons as GTABase replaces its placeholders (P3).
-4. Label partial search matches (C1).
-5. Turn on response compression only if the app is ever served over the web (A1).
+4. Turn on response compression only if the app is ever served over the web (A1).
 
 ## Not checked
 

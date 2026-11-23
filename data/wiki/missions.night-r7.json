@@ -30,7 +30,8 @@
       "r7-ppx-collect-moses-gift"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/collect-moses-gift.jpg"
   },
   {
     "slug": "cal-catch-a-bigger-fish",
@@ -63,6 +64,7 @@
       "r7-ppx-bigger-fish"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/cal-catch-a-bigger-fish.jpg"
   }
 ]

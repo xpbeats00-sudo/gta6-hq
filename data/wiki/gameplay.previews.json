@@ -2,11 +2,13 @@
   {
     "slug": "criminal-profile",
     "name": "Criminal profile",
-    "summary": "A devil icon, sometimes with a halo, tracks how each lead operates. TGG reports four states: professional, aggressive, violent and psycho.",
+    "summary": "||Each lead has a Criminal Profile with five tiers, from Professional to Irredeemable, that tracks how much violence you use.||",
     "body": [
-      "TGG, who attended Rockstar's preview, says Rob Nelson told him it is not the honor system from Red Dead Redemption 2: you switch between states instead of moving along a bar. Restraint and control move it up; shooting people you do not need to shoot moves it down.",
-      "Jason and Lucia each have their own profile, shown on the HUD and in a menu tab. Its notifications can be switched off, but your actions still count.",
-      "Pushed far enough, the icon cracks and then shatters. As Nelson described it to TGG, the bottom state can lock in for the rest of the playthrough. TGG was told there could be consequences for the story; what they are is not known."
+      "||OutputLag says the five tiers are Professional, Hardened, Violent, Psycho and Irredeemable, and that you can move up and down the first four.||",
+      "||PC Gamer says the profile depends almost entirely on how often you kill, and that Irredeemable is permanent once you reach it.||",
+      "||OutputLag says the profile changes how you earn Focus. It says that at Psycho and above you cannot surrender and police open fire sooner.||",
+      "||OutputLag says Jason and Lucia each have their own profile, shown on the Jason & Lucia tab of the map.||",
+      "||PC Gamer quotes Rockstar saying being irredeemable will have a lasting impact on Jason and Lucia. PC Gamer says it does not yet know what that means.||"
     ],
     "related": [
       "characters/jason-duval",
@@ -26,19 +28,23 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-ol-profile",
+      "pl-pcg-profile",
+      "pl-gtab-icons"
     ],
-    "verified": "2026-11-15",
+    "verified": "2026-11-22",
     "image": "/images/artwork/canal-police-raid.webp"
   },
   {
     "slug": "cash-bank-and-loot",
     "name": "Cash, the bank and loot",
-    "summary": "Money is held three ways: a bank balance, the cash you carry, and the value of loot you have not yet sold.",
+    "summary": "||Pocket cash is lost when you are wasted or busted, banked money in BuckMe is safe, and loot is worth nothing until a fence buys it.||",
     "body": [
-      "TGG reports that banked money is safe, while cash on you can be lost if you are busted or wasted. Nelson told him that putting cash in the bank means going to an ATM; the phone still handles banking, payments and transfers.",
-      "Loot carried in a duffel bag shows as its own figure and cannot be spent until it is sold to a fence or laundered. The banking app's name is heard in the video as \"Buck Me\"; its spelling is not confirmed.",
-      "Nelson also told him that at some points the story needs you to reach a cash goal before it moves on, and that how you earn it is up to you."
+      "||GTABase says you lose all the cash you carry when you are wasted or busted, plus a small BuckMe fee, while money in the bank is safe.||",
+      "||PC Gamer says the Chapter 1 mission Buck Me opens a bank account, and that you deposit cash at ATMs.||",
+      "||GTABase says you cannot withdraw money through your phone. It says the checking account has a limit that rises as you hit Family Savings goals.||",
+      "||PC Gamer says money moved into the joint savings account cannot be taken out again.||",
+      "||GTABase says narcotics, jewelry and marked bills in your stash bag have no cash value until a fence takes them.||"
     ],
     "tags": [
       "money",
@@ -54,17 +60,22 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-gtab-atms",
+      "pl-pcg-bank-cash",
+      "pl-gtab-fences"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "fences-and-laundering",
     "name": "Fences and laundering",
-    "summary": "Fences buy what you steal. TGG reports that drugs, jewelry and cars each go to a different fence.",
+    "summary": "||Goods fences buy stolen narcotics, jewelry and marked bills at different rates, while Moses and Randy buy cars.||",
     "body": [
-      "Fences can also pass on information, such as texting you the code to a store's safe. Working for them unlocks more: a vehicle fence TGG names as Randy keeps a list of cars he wants, and removing a high-end tracker needs a fence you have done enough work for.",
-      "TGG relays another creator's preview that described a service for dirty or marked cash. He says it does not look as though you own and run businesses yourself in the story."
+      "||GTABase says there are seven fences: five buy stolen goods and two buy cars.||",
+      "||GamesRadar+ says goods fences pay different rates, from Very Low to Very High, for narcotics, jewelry and marked bills. It says some pay into your mailbox days later.||",
+      "||PC Gamer says Moses buys only older, low-end cars and Randy buys certain expensive cars. It says the Waink It app tells you which car suits each.||",
+      "||PC Gamer says your partner can sell goods for you for a little less money. It says that after two Payday Loan jobs for Yasmani you can leave goods at a garage for a fee.||",
+      "||GTABase says no passive-income businesses have turned up in GTA 6.||"
     ],
     "tags": [
       "fence",
@@ -79,18 +90,26 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-gtab-fences",
+      "pl-gr-stolen-goods",
+      "pl-pcg-steal-cars",
+      "pl-pcg-fences",
+      "gtabase-prop",
+      "pl-pcg-refuel",
+      "pl-kotaku-tips"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "carrying-weapons",
     "name": "What you can carry",
-    "summary": "TGG reports a limit of two handguns and two long guns. One long gun goes on your back; a second has to stay in your hands.",
+    "summary": "||You carry two handguns and two long guns. The rest stays in your personal vehicle's trunk or an Ammu-Nation weapon locker.||",
     "body": [
-      "People react to a long gun held in the hand even if you do not aim it. Your selected loadout stays with your personal vehicle. Weapons you bought can be recovered; ones you only picked up can be lost for good.",
-      "The limit applies to firearms: the weapon wheel also has room for melee weapons, gadgets and throwables, with a separate tab for items such as healing. The two leads can hand a gun to each other.",
-      "Nelson told TGG that the trunks of police cars can hold a shotgun, a carbine and sometimes body armor."
+      "||GTABase says your loadout holds two sidearms and two long guns, plus explosives, a melee weapon and equipment such as binoculars.||",
+      "||OutputLag says one long gun slings on your back, and a second has to be carried in your hands.||",
+      "||PC Gamer says handguns can be concealed but long guns are visible, and people and police react to them.||",
+      "||OutputLag says guns you buy can always be recovered from a locker or your trunk. It says guns you pick up are lost when you die or are busted.||",
+      "||GamesRadar+ says you can hand one of your weapons to your partner during a robbery.||"
     ],
     "tags": [
       "weapon wheel",
@@ -106,9 +125,12 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-gtab-weapons",
+      "pl-ol-weapons",
+      "pl-pcg-100-hours",
+      "gr-switch"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "focus",
@@ -176,10 +198,12 @@
   {
     "slug": "controls",
     "name": "Reported controls",
-    "summary": "A few PlayStation controls have been reported by TGG. No full layout has been published.",
+    "summary": "||GTABase and OutputLag have published the full control layout. Sprint is a click of the left stick and cover is R1.||",
     "body": [
-      "Sprint is a click of the left stick. Cover is on R1. In a vehicle the handbrake is X (A on Xbox), with L1 and R1 used for shooting while driving. Filling up at a gas station is done by holding R2.",
-      "TGG relays another preview that the default walking speed can be changed in settings, including to a jog."
+      "||GTABase says GTA 6 drops tap-to-sprint: you click L3 to run, and the Classic scheme swaps Run and Crouch.||",
+      "||OutputLag says cover is R1 (RB on Xbox), and switching characters is holding right on the d-pad and then pressing R1.||",
+      "||GTABase says the handbrake is X (A on Xbox). It says that while driving you press L1 to draw your sidearm and R1 to fire.||",
+      "||OutputLag says a Movement Speed setting lets a full stick push jog instead of walk.||"
     ],
     "tags": [
       "buttons",
@@ -194,17 +218,22 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-gtab-controls",
+      "pl-ol-controls",
+      "pl-gtab-driving",
+      "pl-pcg-refuel"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "garages-and-personal-vehicles",
     "name": "Garages and personal vehicles",
-    "summary": "A stolen car can be registered as your own and kept in a garage. TGG reports that more garages can be bought around the map.",
+    "summary": "||Garages are the only property you can buy: eight through the Vice City Real Estate app, plus four the story gives you.||",
     "body": [
-      "Nelson told him you can keep as many personal vehicles as you have spaces for. A phone app, heard in the video as \"Scooter Bros\", brings your personal vehicle to you and recovers it if it was destroyed.",
-      "The trunks of most vehicles can be opened, and other people's loot taken from them."
+      "||GTABase says there are 12 garages in the base game, 8 bought with cash and 4 given by the story, and most hold a single car.||",
+      "||GTABase says the Vice City Real Estate app arrives after the Chapter 2 mission Daily Driver. It says the 8 garages cost $160,000 together.||",
+      "||Kotaku says the Scooter Bros app manages your vehicles, brings them to you, repairs them and gets them out of the impound lot, for a fee.||",
+      "||GTABase says your registered personal vehicle can always be recovered. It says you can hold Square (X on Xbox) to clear out the trunk of a car you do not own.||"
     ],
     "tags": [
       "garage",
@@ -219,17 +248,23 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "gtabase-prop",
+      "pl-kotaku-tips",
+      "pl-gtab-icons",
+      "pl-gtab-car-stealing"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "driving-and-handling",
     "name": "Driving and handling",
-    "summary": "Nelson told TGG the team kept the best of Grand Theft Auto IV's weight with Grand Theft Auto V's accessibility.",
+    "summary": "||Every car handles differently, crashes hurt steering and speed, and each mod shop specializes in a type of vehicle.||",
     "body": [
-      "The handling is rebuilt so that drivetrain, tires, suspension and steering all feed the physics. In the demo Nelson spun a muscle car by accelerating too hard. Fast cars and bikes reach higher top speeds than before, and a supercar handles badly off-road.",
-      "You can swap between driver and passenger during a free-roam chase, and tell a partner who is driving to hurry up. Nelson said no single mod shop does everything: each has a speciality, such as off-road builds or lowriders."
+      "||PC Gamer says the handling, acceleration and physics of every car are different.||",
+      "||Kotaku's review says streets are narrower than in GTA V, and crashes can damage your car enough to affect steering and acceleration.||",
+      "||OutputLag says R2 is pressure sensitive, so in rear-wheel-drive muscle cars you must feather it or the back end swings out.||",
+      "||GamesRadar+ says you can switch to the passenger during a police chase, and tell a partner who is driving to speed up or slow down.||",
+      "||GTABase says the map shows the mod shop that specializes in your current vehicle type.||"
     ],
     "tags": [
       "handling",
@@ -244,17 +279,23 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-pcg-100-hours",
+      "pl-kotaku-review",
+      "pl-ol-controls",
+      "gr-switch",
+      "pl-gtab-mod-shops"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "fuel-and-transport",
     "name": "Fuel and public transport",
-    "summary": "Cars need fuel. TGG watched Nelson fill up at a gas station, which offers a repair or a fill.",
+    "summary": "||Cars use fuel and gas stations also repair them, while taxis, RydeMe, buses and trains move you around.||",
     "body": [
-      "Electric vehicles can be charged; TGG did not see how. He reports that you can take a bus and skip the journey, that the ride service also lets you skip the ride, and that trains and buses run.",
-      "He relays Edge magazine's preview that buses follow routes and arrive at stops at set times."
+      "||PC Gamer says you refuel from a pump's Services menu, rarely need to, and can pick Repair from the same menu.||",
+      "||PC Gamer says electric cars charge at charging stations on the map, which show the cost first.||",
+      "||GTABase says Paradise Taxi and the RydeMe app can take you most places a car can reach, and skipping the ride costs an extra $100.||",
+      "||Kotaku's review says buses and trains work, with schedules and passengers.||"
     ],
     "tags": [
       "fuel",
@@ -270,17 +311,22 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-pcg-refuel",
+      "r8gb-articles-how-to-fast-travel-in-gta-6",
+      "pl-kotaku-review"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "story-structure",
     "name": "Chapters and story length",
-    "summary": "TGG reports that the story is divided into chapters, and that choices you make can affect later events.",
+    "summary": "||The story runs across five chapters, has multiple endings, and takes about 50 to 80 hours.||",
     "body": [
-      "He says Rob Nelson's most recent playthrough took about 80 hours, including the story and some optional content.",
-      "He relays IGN's preview that the tower-block escape seen in the Extended Look has more than one route out, and that another mission suggests an escape route without forcing it. Whether every mission is that open is not known."
+      "||OutputLag says the story has five chapters, with 22, 7, 24, 25 and 8 main missions.||",
+      "||Kotaku's review says there are multiple endings, and choices can have a huge impact on how things turn out.||",
+      "||OutputLag says Rob Nelson's 80-hour figure covered the story plus some optional goals. It says story-only runs take about 50 to 60 hours.||",
+      "||VGC says the main campaign is around 60 hours. PowerPyx says its story run took 70 hours with optional quests.||",
+      "||Kotaku's review says one mission let it escape in any car, and another adapted when it chased a boat by speedboat instead of dirt bike.||"
     ],
     "related": [
       "characters/jason-duval",
@@ -299,17 +345,23 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-ol-length",
+      "pl-kotaku-review",
+      "pl-vgc-length",
+      "ppx-game-length"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "relationship",
     "name": "Jason and Lucia's relationship",
-    "summary": "A relationship between the two leads rises and falls with the time they spend together. TGG reports that the romance is optional.",
+    "summary": "||Jason and Lucia's relationship has four levels, from Running on Empty to Hot Together, and it rises or falls with how you treat each other.||",
     "body": [
-      "They stay partners in crime either way. You can text the other lead and spend time together anywhere: dates are not booked in advance as in earlier games.",
-      "He relays Edge magazine's preview that there are four levels of closeness, and IGN's that doing missions together is not enough to keep a romance going."
+      "||GTABase says the four levels are Hot Together, Crazy in Love, Not So Hot and Running on Empty.||",
+      "||GTABase says the relationship does not affect their criminal partnership, but you need Hot Together for the good endings.||",
+      "||PC Gamer says kisses, going out, joint activities and buying each other clothes raise the score. It says both leads need to show affection.||",
+      "||GTABase says ignoring calls and messages, or abandoning your partner while traveling, hurts the relationship.||",
+      "||GamesRadar+ says you can call your partner or ask them to meet you wherever you are.||"
     ],
     "related": [
       "characters/jason-duval",
@@ -327,17 +379,23 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-gtab-relationship",
+      "pl-pcg-romance",
+      "gr-switch",
+      "pl-kotaku-review"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "food-sleep-and-fitness",
     "name": "Food, sleep and the gym",
-    "summary": "Eating, sleeping and exercise change each lead's stats and looks. Nelson told TGG the story can be finished without managing them.",
+    "summary": "||Each lead trains Strength, Cardio and Focus separately, and food and sleep give short boosts and reset training.||",
     "body": [
-      "At the gym TGG saw, the pair signed in at a front desk. Three exercises fill a workout ring and give a temporary boost. Strength training raises health; cardio helps stamina. A coffee or energy drink beforehand makes the workout easier.",
-      "He relays other previews that each lead's menu shows body fat, muscle and sleep quality, and that a lead who has not slept gets bags under the eyes. Newer information he cites says hair does not grow by itself."
+      "||OutputLag says Strength raises maximum health, Cardio raises maximum stamina and Focus sets how long slow motion lasts. It says each lead trains separately.||",
+      "||OutputLag says Jason's deck has a free home gym, while paid gyms sell memberships at the front desk.||",
+      "||OutputLag says three of the four deck exercises reach the day's Strength limit, and sleeping resets it.||",
+      "||Kotaku says food and drink buff health, stamina and Focus. OutputLag says coffee and energy drinks push Focus and stamina above normal for a while.||",
+      "||OutputLag says body weight changes with what a lead eats, but it found no weight number in the stats screens.||"
     ],
     "related": [
       "characters/jason-duval",
@@ -357,17 +415,21 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-ol-profile",
+      "pl-kotaku-tips",
+      "pl-gtab-phone"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "safehouses",
     "name": "Safehouses",
-    "summary": "Where Jason and Lucia live changes as the story moves through its chapters. Nelson told TGG you cannot buy more safehouses.",
+    "summary": "||Safehouses cannot be bought. Jason and Lucia move into a new home as the story moves through its chapters.||",
     "body": [
-      "Garages can be bought; homes come through the story. Inside you can open doors, switch lights, eat, shower, shave or cut your hair, watch television and sleep.",
-      "Barbers can take you straight from short hair to a longer style, and some styles are only offered at particular shops. At home you can only shorten it."
+      "||GTABase says safehouses unlock with the story and garages are the only property you can buy.||",
+      "||OutputLag says the homes are Jason's house in Key Lento, the Starlet Motel, an apartment in Bayside, a suite at the Y in Ocean Beach and Giorgio Gallo's penthouse.||",
+      "||OutputLag says sleeping moves time on and refills health and Focus. PC Gamer describes showering and watching TV at home.||",
+      "||Kotaku says barbers and shops have exclusive styles, and the bathroom mirror at home only trims your hair.||"
     ],
     "related": [
       "characters/jason-duval",
@@ -386,16 +448,23 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "gtabase-prop",
+      "pl-ol-safehouses",
+      "pl-pcg-cozy",
+      "pl-kotaku-tips"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "phone-apps",
     "name": "Phone apps",
-    "summary": "Each lead has their own phone, with their own apps and people they follow. You see it held in the character's hand.",
+    "summary": "||The phone holds WAiNK, RydeMe, BuckMe, WhatUp, Snapmatic, Scooter Bros and a fitness app, and more apps unlock with the story.||",
     "body": [
-      "Apps TGG lists: banking, the WAINK car scanner, a fitness tracker, Snapmatic, a messaging app heard as \"What Up\", and the app that delivers your personal vehicle. Names given as heard are not confirmed spellings."
+      "||GTABase says WAiNK scans cars, RydeMe books rides, BuckMe is the bank and a fitness app tracks your workouts.||",
+      "||GTABase says WhatUp is for keeping in touch, and Snapmatic and a news app follow events around Leonida.||",
+      "||Kotaku says the Scooter Bros app brings your vehicles to you.||",
+      "||OutputLag says Snapmatic lets you browse and like posts, but Jason and Lucia cannot post their own photos.||",
+      "||OutputLag says a Phone Display setting can show the phone in first person.||"
     ],
     "tags": [
       "phone",
@@ -410,17 +479,21 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-gtab-phone",
+      "pl-kotaku-tips",
+      "pl-ol-photo"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "display-options",
     "name": "HUD, photo and streamer options",
-    "summary": "TGG reports a \"classic\" option that keeps the minimap on screen at all times, and a compass option in its place.",
+    "summary": "||On first launch you pick a navigation style, and the pause menu has a Photo Studio photo mode.||",
     "body": [
-      "There is a photo studio mode. He saw no director mode at the preview. A streamer mode turns off copyrighted music, which he says he asked about directly.",
-      "A red and blue light at the edge of the screen shows which direction the police are chasing you from."
+      "||VGC says the first choice in GTA 6 is a navigation style: a minimap that appears when needed, the same with a compass, or one that is always on.||",
+      "||OutputLag says the photo mode is called Photo Studio, and there is no Rockstar Editor for video at launch.||",
+      "||OutputLag says the Audio settings have a Mute Licensed Music option for streaming.||",
+      "||OutputLag says police do not appear on your minimap.||"
     ],
     "tags": [
       "hud",
@@ -435,17 +508,22 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-vgc-navigation",
+      "pl-ol-photo",
+      "pl-ol-settings",
+      "pl-ol-wanted"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   },
   {
     "slug": "weather",
     "name": "Weather and storms",
-    "summary": "TGG relays Game Informer's preview that tropical storms and hurricanes are in the game, and that weather is local.",
+    "summary": "||Storms roll in across the map, and PowerPyx says a side mission unlocks hurricane weather.||",
     "body": [
-      "You can stand in sunshine and watch rain fall in the distance. Puddles stay after a storm, and rainbows can appear. How often storms come, and whether they are tied to the story, is not known.",
-      "He relays Edge magazine's preview that rough weather can lightly damage aircraft, that sheltered water changes how boats handle, and that it mentions seasons without explaining them."
+      "||Kotaku's review describes dark clouds and lightning forming in the distance, and a lightning bolt starting a small fire.||",
+      "||PowerPyx says a hurricane starts during Freddie's side mission Retest Freddie's Defenses, and finishing it unlocks hurricane weather.||",
+      "||Cultured Vultures says hair reacts to the weather.||",
+      "||OutputLag says Photo Studio cannot change the weather or time of day.||"
     ],
     "tags": [
       "weather",
@@ -460,8 +538,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "tgg-pre-launch-guide"
+      "pl-kotaku-review",
+      "pl-ppx-freddie",
+      "pl-cv-review",
+      "pl-ol-photo"
     ],
-    "verified": "2026-11-15"
+    "verified": "2026-11-22"
   }
 ]

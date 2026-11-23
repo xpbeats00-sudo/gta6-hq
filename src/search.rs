@@ -38,6 +38,8 @@ pub struct Page {
     pub total: usize,
     pub offset: usize,
     pub limit: usize,
+    /// True when no entry matched every word, so these are entries matching all but one.
+    pub partial: bool,
     pub hits: Vec<Hit>,
 }
 
@@ -197,7 +199,8 @@ impl Index {
     /// Every query word must match somewhere in an entry. Whole words outrank prefixes, and an
     /// entry whose name starts with the query, or is exactly the query, comes first. Filler words
     /// ("how to", "where is") are skipped when other words remain. Ties sort by name.
-    fn ranked(&self, query: &Query) -> Vec<(u32, u32)> {
+    /// The matches, best first, and whether they are only close matches (all words but one).
+    fn ranked(&self, query: &Query) -> (Vec<(u32, u32)>, bool) {
         let all = words(query.text);
         let mut terms = without_filler(&all);
         if terms.is_empty() {
@@ -205,9 +208,11 @@ impl Index {
         }
         let asked = core(query.text);
         let mut ranked = self.matching(&terms, query, true);
+        let mut partial = false;
         // A longer question where one word matches nothing ("make money fast") still finds the
         // entries that match all the other words.
         if ranked.is_empty() && terms.len() >= 3 {
+            partial = true;
             for skip in 0..terms.len() {
                 let rest: Vec<String> = terms
                     .iter()
@@ -246,7 +251,8 @@ impl Index {
                 *score += 6;
             }
         }
-        self.sorted(ranked, query)
+        let partial = partial && !ranked.is_empty();
+        (self.sorted(ranked, query), partial)
     }
 
     /// The plain ranking: every word as typed, whole word or prefix, no extras.
@@ -314,6 +320,7 @@ impl Index {
     #[cfg(test)]
     pub fn search(&self, query: &Query) -> Vec<Hit> {
         self.ranked(query)
+            .0
             .into_iter()
             .map(|(doc, score)| self.hit(doc, score, query))
             .collect()
@@ -322,11 +329,12 @@ impl Index {
     /// `limit` matches starting at `offset`, and how many there are in all.
     pub fn page(&self, query: &Query, offset: usize, limit: usize) -> Page {
         let limit = limit.clamp(1, MAX_LIMIT);
-        let ranked = self.ranked(query);
+        let (ranked, partial) = self.ranked(query);
         Page {
             total: ranked.len(),
             offset,
             limit,
+            partial,
             hits: ranked
                 .into_iter()
                 .skip(offset)
@@ -843,6 +851,19 @@ mod tests {
         assert_eq!(find("cards"), ["card-1"]);
         assert_eq!(find("make money"), ["making-money"]);
         assert_eq!(find("make money fast"), ["making-money"]);
+        let index = Index::build(&wiki);
+        let page = |text| {
+            index.page(
+                &Query {
+                    text,
+                    ..Query::default()
+                },
+                0,
+                10,
+            )
+        };
+        assert!(page("make money fast").partial);
+        assert!(!page("make money").partial);
         assert_eq!(without_filler(&words("gta 6 chapter 6")), ["chapter", "6"]);
         assert_eq!(core("The End of the Road"), ["end", "road"]);
         assert_eq!(core("Dre'Quan Priest").concat(), core("dre quan priest").concat());

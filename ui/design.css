@@ -812,3 +812,36 @@ body[data-page='manual'] .rail { display: none; }
   .profile .back-top { display: inline-flex; margin-bottom: calc(-1 * var(--s5, 20px)); }
   .profile .back-side { display: none; }
 }
+
+/* Map tracking: each kind's discovered count, "Only" and "Next", and the tick on a discovered row. */
+.map-cat-head { display: flex; align-items: center; gap: 6px 10px; flex-wrap: wrap; }
+.map-cat-head .map-toggle { flex: 1 1 auto; min-width: 0; }
+.map-found { display: inline-flex; align-items: center; gap: 3px; font: 600 0.7rem var(--font-body); color: var(--text-secondary); font-variant-numeric: tabular-nums; }
+.map-found .i, .found-mark .i { width: 12px; height: 12px; vertical-align: -1px; color: var(--tone-cyan, var(--accent-pink)); }
+.map-cat-tools { display: inline-flex; gap: 10px; }
+.map-cat-tools .link-btn { min-height: 24px; font-size: 0.72rem; }
+.found-mark { margin-left: 4px; }
+
+/* Missions in story order: a numbered list per chapter, and Previous/Next on a mission's page. */
+.story-chapter { margin-top: var(--s7, 40px); }
+.story-chapter:first-child { margin-top: 0; }
+.story-chapter > h2 { margin: 0 0 var(--s3, 12px); padding-bottom: var(--s2, 8px); border-bottom: 1px solid var(--border-strong); }
+.story-part { margin: var(--s5, 20px) 0 var(--s2, 8px); font: 700 0.8rem var(--font-display); color: var(--text-secondary); }
+.story-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.story-row { display: grid; grid-template-columns: 2.5rem 1fr; align-items: stretch; gap: 10px; }
+.story-n { display: grid; place-items: center; border-radius: var(--radius, 8px); background: var(--surface-1); border: 1px solid var(--border-strong); font: 700 0.95rem var(--font-display); font-variant-numeric: tabular-nums; color: var(--text-primary); }
+.story-link { display: grid; gap: 2px; padding: 10px 14px; border-radius: var(--radius, 8px); background: var(--surface-1); border: 1px solid transparent; color: inherit; text-decoration: none; }
+.story-link:hover, .story-link:focus-visible { border-color: var(--accent-pink); }
+.story-link b { font-size: 1rem; }
+.story-sum { color: var(--text-secondary); font-size: 0.875rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.story-row .veil { min-width: 0; }
+.story-nav { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; margin: var(--s5, 20px) 0; }
+.story-step { display: grid; gap: 2px; padding: 10px 14px; border-radius: var(--radius, 8px); background: var(--surface-1); border: 1px solid var(--border-strong); color: inherit; text-decoration: none; }
+.story-step:last-child { text-align: right; }
+.story-step:hover, .story-step:focus-visible { border-color: var(--accent-pink); }
+.story-at { font-size: 0.8rem; text-align: center; }
+@media (max-width: 600px) { .story-nav { grid-template-columns: 1fr 1fr; } .story-at { grid-column: 1 / -1; grid-row: 1; } }
+.story-link.has-thumb { grid-template-columns: 128px 1fr; align-items: center; gap: 14px; padding: 8px 14px 8px 8px; }
+.story-thumb { width: 128px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px; display: block; }
+.story-text { display: grid; gap: 2px; min-width: 0; }
+@media (max-width: 520px) { .story-link.has-thumb { grid-template-columns: 88px 1fr; } .story-thumb { width: 88px; } }

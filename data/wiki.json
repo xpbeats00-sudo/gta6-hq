@@ -118,7 +118,8 @@
         { "key": "location", "label": "Location", "type": "text" },
         { "key": "owner", "label": "Owner", "type": "text" },
         { "key": "purchasable", "label": "Purchasable", "type": "boolean" },
-        { "key": "availability", "label": "Availability", "type": "text" }
+        { "key": "availability", "label": "Availability", "type": "text" },
+        { "key": "safe_code", "label": "Safe code", "type": "text" }
       ] },
     { "key": "factions", "label": "Factions", "blurb": "Crews, gangs and organisations named in official bios.", "art": "port",
       "fields": [
@@ -172,36 +173,45 @@
       "summary": "Just released from Leonida Penitentiary and determined that every move from here on is a smart one.",
       "body": [
         "Lucia learned to fight from her father, and life has been coming at her swinging ever since. Fighting for her family is what put her inside Leonida Penitentiary, and luck is what got her out.",
-        "She wants the good life her mother has dreamed about since their days in Liberty City, and she is done leaving it to chance. A life with Jason could be her way out."
+        "She wants the good life her mother has dreamed about since their days in Liberty City, and she is done leaving it to chance. A life with Jason could be her way out.",
+        "||GTA BOOM's story guide says the game opens with a prologue played as Lucia, then switches to Jason in the Leonida Keys.||",
+        "||PowerPyx's walkthrough lists a Chapter 1 mission called \"Coming Home\" (Lucia's release). Before it come optional errands such as buying Lucia flowers, a necklace and clothes.||",
+        "||GTABase lists her safehouses as the Leonida Keys Safehouse, the Bayside Safehouse and the Starlet Motel Safehouse, and names her mother as Mia Caminos.||"
       ],
       "ties": ["Partner of Jason Duval"],
       "related": ["characters/jason-duval", "locations/vice-city"],
       "tags": ["protagonist", "playable", "leonida penitentiary", "liberty city"],
-      "confidence": "official", "sources": ["g6w-lucia", "rockstar-vi", "rockstar-leonida"], "verified": "2026-11-22"
+      "confidence": "official", "sources": ["g6w-lucia", "rockstar-vi", "rockstar-leonida", "pl-gtaboom-story", "ppx-walkthrough", "pl-gtabase-lucia"], "verified": "2026-11-22"
     },
     {
       "slug": "jason-duval", "name": "Jason Duval", "role": "Protagonist", "group": "main",
       "summary": "A former soldier raised among grifters and crooks, now working for drug runners in the Leonida Keys.",
       "body": [
         "Jason grew up around grifters and crooks. A spell in the Army was meant to straighten out a rough adolescence; instead he ended up in the Keys doing what he knows best, working for local drug runners.",
-        "He wants an easy life, but things keep getting harder. Meeting Lucia might be the best thing that ever happened to him, or the worst."
+        "He wants an easy life, but things keep getting harder. Meeting Lucia might be the best thing that ever happened to him, or the worst.",
+        "||VGC's review says the story follows Jason trying to build a semi-straight life with Lucia, and that the missions begin in the Leonida Keys.||",
+        "||VGC's guide to Jason's house says Jason can fix four projects at his home after the first mission, Gone Fishing. Skipping them lowers Lucia's starting relationship meter when she returns.||",
+        "||GTABase lists his vehicles as a turquoise Ganado '70 and a Tulip '72.||"
       ],
       "ties": ["Partner of Lucia Caminos", "Friend of Cal Hampton", "Lives rent-free on Brian Heder's property"],
       "related": ["characters/lucia-caminos", "characters/cal-hampton", "characters/brian-heder", "locations/leonida-keys"],
       "tags": ["protagonist", "playable", "army", "leonida keys", "smuggling"],
-      "confidence": "official", "sources": ["g6w-jason", "rockstar-vi", "rockstar-leonida"], "verified": "2026-11-22"
+      "confidence": "official", "sources": ["g6w-jason", "rockstar-vi", "rockstar-leonida", "pl-vgc-review", "pl-vgc-jasons-house", "pl-gtabase-jason"], "verified": "2026-11-22"
     },
     {
       "slug": "cal-hampton", "name": "Cal Hampton", "role": "Friend of Jason", "group": "supporting",
       "summary": "Jason's friend, most at ease at home with a few beers and the Coast Guard radio chatter turned up.",
       "body": [
         "Cal is Jason's friend and another of Brian Heder's associates. He is happily paranoid, spending his time at home listening in on Coast Guard traffic.",
-        "Jason has bigger plans. Cal would rather stay exactly where he is."
+        "Jason has bigger plans. Cal would rather stay exactly where he is.",
+        "||Kotaku's review describes an early mission in which Jason and Cal clean a living room, move a TV and play video games together.||",
+        "||GTA BOOM's story guide says Cal is with Jason in the first mission, Gone Fishing. He is also the contact for Unwanted Attention and sends the message that starts Feng Shui.||",
+        "||PowerPyx lists a Cal side mission called Catch a Bigger Fish, and GTABase lists his occupation as conspiracy theorist and boatyard worker.||"
       ],
       "ties": ["Friend of Jason Duval", "Associate of Brian Heder"],
       "related": ["characters/jason-duval", "characters/brian-heder"],
       "tags": ["coast guard", "conspiracy", "paranoia"],
-      "confidence": "official", "sources": ["g6w-cal", "rockstar-leonida"], "verified": "2026-11-22"
+      "confidence": "official", "sources": ["g6w-cal", "rockstar-leonida", "pl-kotaku-review", "pl-gtaboom-story", "ppx-walkthrough", "pl-gtabase-cal"], "verified": "2026-11-22"
     },
     {
       "slug": "boobie-ike", "name": "Boobie Ike", "role": "Vice City mogul", "group": "supporting",
@@ -209,60 +219,71 @@
       "body": [
         "Boobie is one of the few who made the jump from the street to an empire of property, nightlife and a studio. He is all smiles until it is time to talk business.",
         "What he cares about most is Only Raw Records, the label he runs with Dre'Quan Priest. All it needs now is a hit.",
-        "Rockstar heads his profile with the line \"It's all about heart — the Jack of Hearts.\" The page does not say what the Jack of Hearts is."
+        "Rockstar heads his profile with the line \"It's all about heart — the Jack of Hearts.\" The page does not say what the Jack of Hearts is.",
+        "||GTABase lists Boobie's occupation as businessman and owner of the Jack of Hearts. GTA BOOM says the Jack of Hearts is his strip club, and that it helps fund the record studio.||",
+        "||PowerPyx's walkthrough places his mission Boobie Time in Chapter 3, played as Jason, and lists him in its character index as \"Boobie (Mr. Ike)\".||"
       ],
       "ties": ["Runs Only Raw Records with Dre'Quan Priest", "Backs the label Real Dimez are signed to"],
       "related": ["characters/drequan-priest", "characters/real-dimez", "businesses/only-raw-records", "locations/vice-city"],
       "tags": ["vice city", "only raw records", "music", "strip club", "real estate"],
-      "confidence": "official", "sources": ["g6w-boobie", "rockstar-leonida"], "verified": "2026-11-22"
+      "confidence": "official", "sources": ["g6w-boobie", "rockstar-leonida", "pl-gtabase-boobie", "pl-gtaboom-orr", "ppx-walkthrough"], "verified": "2026-11-22"
     },
     {
       "slug": "drequan-priest", "name": "Dre'Quan Priest", "aliases": ["Drequan", "Dre Quan"], "role": "Label head, Only Raw Records", "group": "supporting",
       "summary": "More hustler than gangster. Dealing paid the bills, but music was always the real plan.",
       "body": [
         "Dre'Quan sold on the street to get by, with his eye on the music industry the whole time. He books the acts at Boobie Ike's club and runs Only Raw Records alongside him.",
-        "Signing Real Dimez could be the break that moves him beyond club bookings."
+        "Signing Real Dimez could be the break that moves him beyond club bookings.",
+        "||GTA BOOM's story guide says Jason meets Dre'Quan at the Jack of Hearts studio to start the Chapter 3 mission Dealer's Choice.||",
+        "||PowerPyx lists his missions as Dealer's Choice and Ride or Die in Chapter 3 and Watch It and Fresh Evidence in Chapter 4, all played as Jason.||",
+        "||GTA BOOM's Prepare for Vice City walkthrough says Dre'Quan arranges a place for Jason and Lucia to stay when they move to Vice City.||"
       ],
       "ties": ["Runs Only Raw Records with Boobie Ike", "Signed Real Dimez"],
       "related": ["characters/boobie-ike", "characters/real-dimez", "businesses/only-raw-records"],
       "tags": ["vice city", "only raw records", "music"],
-      "confidence": "official", "sources": ["g6w-characters", "g6w-real-dimez", "rockstar-leonida"], "verified": "2026-11-22"
+      "confidence": "official", "sources": ["g6w-characters", "g6w-real-dimez", "rockstar-leonida", "pl-gtaboom-story", "ppx-walkthrough", "pl-gtaboom-prepare-vc"], "verified": "2026-11-22"
     },
     {
       "slug": "real-dimez", "name": "Real Dimez", "aliases": ["Bae-Luxe", "Roxy"], "role": "Rap duo: Bae-Luxe and Roxy", "group": "supporting",
       "summary": "Two friends since high school who went from shaking down dealers to rap tracks and a nonstop social feed.",
       "body": [
         "Bae-Luxe and Roxy have been friends since school. They turned their time squeezing local dealers into rap tracks and a relentless social media presence.",
-        "An early hit with local rapper DWNPLY took them up; five years and a lot of trouble later they are signed to Only Raw Records and hoping for a second one."
+        "An early hit with local rapper DWNPLY took them up; five years and a lot of trouble later they are signed to Only Raw Records and hoping for a second one.",
+        "||PowerPyx's walkthrough lists the Chapter 3 mission Top Billing (Watch the Real Dimez). Its character index lists the duo as \"Bae-Luxe, Roxy (Dimez)\".||"
       ],
       "ties": ["Signed to Only Raw Records by Dre'Quan Priest"],
       "related": ["characters/drequan-priest", "characters/boobie-ike", "businesses/only-raw-records"],
       "tags": ["only raw records", "music", "social media", "dwnply"],
-      "confidence": "official", "sources": ["g6w-real-dimez", "rockstar-leonida"], "verified": "2026-11-22"
+      "confidence": "official", "sources": ["g6w-real-dimez", "rockstar-leonida", "ppx-walkthrough"], "verified": "2026-11-22"
     },
     {
       "slug": "raul-bautista", "name": "Raul Bautista", "role": "Bank robber", "group": "supporting",
       "summary": "A veteran bank robber with confidence, charm and cunning, always looking for talent willing to take the big risks.",
       "body": [
         "Raul has the confidence, charm and cunning of someone who has been robbing banks for a long time, and he is always recruiting.",
-        "His recklessness raises the stakes with every score. Sooner or later his crew will have to double down or walk away."
+        "His recklessness raises the stakes with every score. Sooner or later his crew will have to double down or walk away.",
+        "||PowerPyx's walkthrough introduces Raul in Chapter 3 through missions including Car Service, First Impressions, Crosstown Traffic and Credit Check (Meet Raul's Crew).||",
+        "||PowerPyx lists a Chapter 3 heist arc that starts with scoping out the Sinfrontera National Bank and ends in The Cartel Heist.||"
       ],
       "ties": ["Leads an unnamed robbery crew"],
       "related": ["factions/raul-bautistas-crew"],
       "tags": ["heist", "bank robbery", "crew"],
-      "confidence": "official", "sources": ["g6w-raul", "rockstar-leonida"], "verified": "2026-11-22"
+      "confidence": "official", "sources": ["g6w-raul", "rockstar-leonida", "ppx-walkthrough"], "verified": "2026-11-22"
     },
     {
       "slug": "brian-heder", "name": "Brian Heder", "role": "Keys smuggler", "group": "supporting",
       "summary": "An old-school drug runner from the golden age of Keys smuggling, still moving product through his boat yard.",
       "body": [
         "Brian has been around long enough to let other people do his dirty work. He still runs product through the boat yard he keeps with his third wife, Lori.",
-        "He lets Jason stay rent-free at one of his properties, on the understanding that Jason helps out with local shakedowns."
+        "He lets Jason stay rent-free at one of his properties, on the understanding that Jason helps out with local shakedowns.",
+        "||GTABase says Brian runs Brian's Boat Works & Marina and is Jason's landlord at the Leonida Keys Safehouse.||",
+        "||PowerPyx's walkthrough ties him to Chapter 1 missions including Lab Fees (Collect Brian's Rent), Hey Arnold!, Down to Earth and Swamped. It also lists Meet the Heders, with Lori, in Chapter 3.||",
+        "||GTA BOOM's Swamped walkthrough says that mission starts at Brian's marina.||"
       ],
       "ties": ["Landlord and employer of Jason Duval", "Works with Cal Hampton"],
       "related": ["characters/jason-duval", "characters/cal-hampton", "locations/leonida-keys", "businesses/brians-boat-yard"],
       "tags": ["leonida keys", "smuggling", "boat yard", "lori"],
-      "confidence": "official", "sources": ["g6w-brian", "rockstar-leonida"], "verified": "2026-11-22"
+      "confidence": "official", "sources": ["g6w-brian", "rockstar-leonida", "pl-gtabase-brian", "ppx-walkthrough", "pl-gtaboom-swamped"], "verified": "2026-11-22"
     }
   ],
 
@@ -272,72 +293,85 @@
       "summary": "The crowded heart of Leonida, and the series' first return to its Miami stand-in since 2002.",
       "body": [
         "Rockstar's own description covers the pastel art deco hotels and white sands of Ocean Beach, the bakeries of Little Cuba, the bootleg brands of the Tisha-Wocka flea market and VC Port, billed as the cruise ship capital of the world.",
-        "Other districts named in official material are La Perle, Stockyard, Tequesta and Vice Beach. Rockstar has not published a full district list.", "The GTA Wiki's fan-compiled list adds Belville, Crosstown, Downtown, Ekanfinaka, Peacock Bay, Rockridge and Southside. It treats Vice Beach, with Ocean Beach and Washington Beach, as a neighbouring city across the bay, and records two venues, Fleeca Field and Sahara Arena. These are community readings of the trailers and screenshots, not a list from Rockstar."
+        "Other districts named in official material are La Perle, Stockyard, Tequesta and Vice Beach. Rockstar has not published a full district list.", "The GTA Wiki's fan-compiled list adds Belville, Crosstown, Downtown, Ekanfinaka, Peacock Bay, Rockridge and Southside. It treats Vice Beach, with Ocean Beach and Washington Beach, as a neighbouring city across the bay, and records two venues, Fleeca Field and Sahara Arena. These are community readings of the trailers and screenshots, not a list from Rockstar.",
+        "||Kotaku's review says Vice City has over 600 stores, plus gyms, gun ranges, golf courses, zoos, and buses and trains that run to schedules.||",
+        "||VGC's review says Vice City shows as a distant skyline early on and is not locked off. PowerPyx's walkthrough has Jason and Lucia move there at the end of Chapter 2, and Chapter 3 opens with the mission Welcome to Vice City.||",
+        "||PowerPyx names a Chapter 4 mission Ocean Beach, and VGC's Ultimate Edition guide mentions a dock at Washington Beach.||"
       ],
       "art": "city", "x": 0.6731, "y": 0.5182,
       "related": ["characters/boobie-ike", "businesses/tisha-wocka-flea-market", "businesses/fleeca"],
       "tags": ["miami", "ocean beach", "vice beach", "little cuba", "tequesta", "stockyard", "la perle", "vc port"],
-      "confidence": "corroborated", "sources": ["g6w-vice-city", "rockstar-vi", "gtafandom-vice-city"], "verified": "2026-11-13"
+      "confidence": "corroborated", "sources": ["g6w-vice-city", "rockstar-vi", "gtafandom-vice-city", "pl-kotaku-review", "pl-vgc-review", "ppx-walkthrough", "pl-vgc-ultimate"], "verified": "2026-11-22"
     },
     {
       "slug": "leonida-keys", "name": "Leonida Keys", "aliases": ["The Keys"], "region": "Mariana County", "basedOn": "The Florida Keys",
       "summary": "The island chain south of Vice City: easy living on some of the most beautiful and dangerous water around. Jason's story starts here.",
       "body": [
         "Life in the Keys is not flashy, but it is easy. Official images show divers over coral, party boats, jet skis and a crowded beach bar.",
-        "It is also smuggling country. Brian Heder runs his operation from a boat yard here, and Jason works for the local drug runners.", "Fans have picked out four island names so far: Key Lento, East Key, Catalan Key and Goose Key. A Leonida Keys road sign appears in the Launch Trailer. The island names are community readings recorded by the GTA Wiki, not a list from Rockstar."
+        "It is also smuggling country. Brian Heder runs his operation from a boat yard here, and Jason works for the local drug runners.", "Fans have picked out four island names so far: Key Lento, East Key, Catalan Key and Goose Key. A Leonida Keys road sign appears in the Launch Trailer. The island names are community readings recorded by the GTA Wiki, not a list from Rockstar.",
+        "||GTA BOOM's story guide says Jason's part of the story starts in the Leonida Keys and that early jobs take place there, including in Key Lento.||",
+        "||GTA BOOM's Tourist Trap walkthrough says that Chapter 1 mission begins in Key Lento.||",
+        "||GTA BOOM's Rusty Anchor page places that bar in the Keys.||"
       ],
       "art": "keys", "x": 0.5476, "y": 0.8,
       "related": ["characters/jason-duval", "characters/brian-heder", "businesses/brians-boat-yard"],
       "tags": ["florida keys", "islands", "smuggling", "boats", "diving"],
-      "confidence": "corroborated", "sources": ["g6w-keys", "gtafandom-keys"], "verified": "2026-11-13"
+      "confidence": "corroborated", "sources": ["g6w-keys", "gtafandom-keys", "pl-gtaboom-story", "pl-gtaboom-tourist-trap", "pl-gtaboom-rusty-anchor"], "verified": "2026-11-22"
     },
     {
       "slug": "grassrivers", "name": "Grassrivers", "region": "Mariana County", "basedOn": "The Everglades",
       "summary": "Leonida's vast wetlands, where you never quite know what is under the surface.",
       "body": [
         "Grassrivers is swamp, mangroves and open shallow water between the city and the interior. The alligators are the famous attraction, though Rockstar hints at deadlier predators and stranger finds.",
-        "Official images show airboats, alligators and a police helicopter chasing a pickup through the swamp.", "The GTA Wiki lists Watson Bay as the one town in the wetlands, and suggests the name nods to The Everglades: River of Grass, the 1947 book by Marjory Stoneman Douglas. Both are community notes, not statements from Rockstar."
+        "Official images show airboats, alligators and a police helicopter chasing a pickup through the swamp.", "The GTA Wiki lists Watson Bay as the one town in the wetlands, and suggests the name nods to The Everglades: River of Grass, the 1947 book by Marjory Stoneman Douglas. Both are community notes, not statements from Rockstar.",
+        "||GTA BOOM's Tourist Trap walkthrough includes a visit to the Grassrivers visitor center.||",
+        "||Kotaku's review describes a large swamp full of creatures, including a giant snake.||",
+        "||GTA BOOM's walkthrough of Swamped, a Chapter 1 mission from Brian, says it ends in a chase on land, in the air and on the water, using airboats.||"
       ],
       "art": "swamp", "x": 0.42, "y": 0.6625,
       "related": ["wildlife/american-alligator", "vehicles/airboat"],
       "tags": ["everglades", "swamp", "wetlands", "alligators", "airboat", "mangroves"],
-      "confidence": "corroborated", "sources": ["g6w-grassrivers", "gtafandom-grassrivers"], "verified": "2026-11-13"
+      "confidence": "corroborated", "sources": ["g6w-grassrivers", "gtafandom-grassrivers", "pl-gtaboom-tourist-trap", "pl-kotaku-review", "pl-gtaboom-swamped"], "verified": "2026-11-22"
     },
     {
       "slug": "port-gellhorn", "name": "Port Gellhorn", "region": "Kelly County", "basedOn": "Florida's faded Gulf Coast resort towns",
       "summary": "A former holiday hotspot that lost its tourists and found a rougher economy to replace them.",
       "body": [
         "Port Gellhorn used to be the centre of Leonida's tourist trade. What is left is cheap motels, shut-down attractions and empty strip malls.",
-        "The new economy runs on rougher goods, and the local transport of choice is a dirt bike."
+        "The new economy runs on rougher goods, and the local transport of choice is a dirt bike.",
+        "||GTA BOOM's guides say Chapter 2 begins at the Starlet Motel and ends with Jason and Lucia leaving Port Gellhorn for Vice City. Its Port Gellhorn page places the Starlet Motel in the town.||",
+        "||PowerPyx's trophy guide places Moses's car deliveries and the Kingpin Bowling robbery in Port Gellhorn.||"
       ],
       "art": "port", "x": 0.2909, "y": 0.3568,
       "related": ["vehicles/pickup-truck"],
       "tags": ["gulf coast", "motels", "dirt bike"],
-      "confidence": "corroborated", "sources": ["g6w-port-gellhorn"], "verified": "2026-11-11"
+      "confidence": "corroborated", "sources": ["g6w-port-gellhorn", "pl-gtaboom-story", "pl-gtaboom-prepare-vc", "pl-gtaboom-port-gellhorn", "ppx-trophy-guide"], "verified": "2026-11-22"
     },
     {
       "slug": "ambrosia", "name": "Ambrosia", "region": "Ambrosia County", "basedOn": "Florida's inland sugar country",
       "summary": "Inland Leonida, where the Allied Crystal sugar refinery supplies the jobs and a biker gang supplies the rest.",
       "body": [
         "Ambrosia is built around the state's sugar industry, a long way from the coast. The Allied Crystal refinery provides the work.",
-        "By Rockstar's account, the local biker gang provides almost everything else."
+        "By Rockstar's account, the local biker gang provides almost everything else.",
+        "||PowerPyx's trophy guide mentions a train tunnel north of Ambrosia in Kelly County.||"
       ],
       "art": "refinery", "x": 0.5558, "y": 0.356,
       "related": ["businesses/allied-crystal", "factions/ambrosia-biker-gang"],
       "tags": ["allied crystal", "sugar refinery", "bikers", "inland"],
-      "confidence": "corroborated", "sources": ["g6w-locations"], "verified": "2026-11-11"
+      "confidence": "corroborated", "sources": ["g6w-locations", "ppx-trophy-guide"], "verified": "2026-11-22"
     },
     {
       "slug": "mount-kalaga-national-park", "name": "Mount Kalaga National Park", "aliases": ["Kalaga"], "region": "State of Leonida", "basedOn": "Florida's state forests and hill country",
       "summary": "Forest, high ground and backwoods against the northern border: the closest Leonida gets to wilderness.",
       "body": [
         "Mount Kalaga is a national landmark at the top of the map, pitched for its hunting, fishing and off-road trails.",
-        "The backwoods around it are home to people who want to live well away from the government. Official images show dirt bikes, an ATV, hunters, a cougar stalking deer and a kayaker."
+        "The backwoods around it are home to people who want to live well away from the government. Official images show dirt bikes, an ATV, hunters, a cougar stalking deer and a kayaker.",
+        "||VGC's review says Leonida includes countryside, national parks, small towns, industrial zones and ocean depths. It does not name Mount Kalaga.||"
       ],
       "art": "mountain", "x": 0.4906, "y": 0.2234,
       "related": ["wildlife/florida-panther", "wildlife/deer", "activities/hunting-and-fishing", "vehicles/pickup-truck"],
       "tags": ["wilderness", "forest", "hunting", "fishing", "north"],
-      "confidence": "corroborated", "sources": ["g6w-kalaga"], "verified": "2026-11-11"
+      "confidence": "corroborated", "sources": ["g6w-kalaga", "pl-vgc-review"], "verified": "2026-11-22"
     }
   ],
 
@@ -345,127 +379,129 @@
     {
       "slug": "muscle-car", "name": "Classic Cars", "aliases": ["Muscle Cars", "Vapid Ganado"], "class": "Cars",
       "summary": "Old American metal, restored and rebuilt. Rockstar's Ultimate Edition screenshots show the Vapid Ganado Retro Build, a low-riding pickup.",
-      "body": ["The Vapid Ganado Retro Build is named and pictured in Rockstar's Ultimate Edition screenshots. Its in-game class and performance have not been published."],
+      "body": ["The Vapid Ganado Retro Build is named and pictured in Rockstar's Ultimate Edition screenshots. Its in-game class and performance have not been published.", "||VGC's Ultimate Edition guide says the Ganado Retro Build unlocks in Chapter 1 after the mission Just a Scratch.||", "||GTABase lists Jason's own vehicles as a Ganado '70 and a Tulip '72.||"],
       "related": ["editions/ultimate-edition", "vehicles/vapid-ganado"],
-      "tags": ["car", "classic", "vapid", "ganado", "ultimate edition"], "confidence": "official", "sources": ["rockstar-media"], "verified": "2026-11-11"
+      "tags": ["car", "classic", "vapid", "ganado", "ultimate edition"], "confidence": "official", "sources": ["rockstar-media", "pl-vgc-ultimate", "pl-gtabase-jason"], "verified": "2026-11-22"
     },
     {
       "slug": "sports-car", "name": "Sports Cars", "aliases": ["Grotti Cheetah", "Cheetah"], "class": "Cars",
       "summary": "Low, wide and fast. Rockstar's Ultimate Edition screenshots show the '95 Grotti Cheetah.",
-      "body": ["The '95 Grotti Cheetah is named and pictured in Rockstar's Ultimate Edition screenshots. Its in-game class and performance have not been published."],
+      "body": ["The '95 Grotti Cheetah is named and pictured in Rockstar's Ultimate Edition screenshots. Its in-game class and performance have not been published.", "||VGC's Ultimate Edition guide says the '95 Grotti Cheetah unlocks in Chapter 5, at the safehouse.||"],
       "related": ["editions/ultimate-edition", "vehicles/grotti-cheetah-95"],
-      "tags": ["car", "supercar", "grotti", "cheetah", "ultimate edition"], "confidence": "official", "sources": ["rockstar-media"], "verified": "2026-11-11"
+      "tags": ["car", "supercar", "grotti", "cheetah", "ultimate edition"], "confidence": "official", "sources": ["rockstar-media", "pl-vgc-ultimate"], "verified": "2026-11-22"
     },
     {
       "slug": "speedboat", "name": "Boats", "class": "Boats",
       "summary": "From Brian Heder's boat yard to the party boats of the Keys, Leonida lives on the water.",
-      "body": ["Official images of the Leonida Keys show a raft of party boats. Brian Heder moves product through a boat yard there."],
+      "body": ["Official images of the Leonida Keys show a raft of party boats. Brian Heder moves product through a boat yard there.", "||Kotaku's review lists boats and jet skis among the vehicles you can drive.||", "||VGC's Ultimate Edition guide says the Shitzu Squalo boat unlocks in Chapter 4 at the Washington Beach dock.||", "||GTABase calls Brian's business Brian's Boat Works & Marina.||"],
       "related": ["locations/leonida-keys", "businesses/brians-boat-yard"],
-      "tags": ["boat", "water", "smuggling", "keys"], "confidence": "corroborated", "sources": ["g6w-keys", "g6w-brian"], "verified": "2026-11-11"
+      "tags": ["boat", "water", "smuggling", "keys"], "confidence": "corroborated", "sources": ["g6w-keys", "g6w-brian", "pl-kotaku-review", "pl-vgc-ultimate", "pl-gtabase-brian"], "verified": "2026-11-22"
     },
     {
       "slug": "airboat", "name": "Airboats", "class": "Boats", "art": "swamp",
       "summary": "Flat-bottomed and fan-driven, the way across Grassrivers.",
-      "body": ["Airboats appear in Rockstar's Grassrivers images, and airboating was among the activities in the Extended Look."],
+      "body": ["Airboats appear in Rockstar's Grassrivers images, and airboating was among the activities in the Extended Look.", "||Kotaku's review lists airboats among the vehicles you can drive.||", "||GTA BOOM's Swamped walkthrough says that Chapter 1 mission uses airboats in its chase on the water.||"],
       "related": ["locations/grassrivers"],
-      "tags": ["boat", "swamp", "grassrivers"], "confidence": "corroborated", "sources": ["g6w-grassrivers"], "verified": "2026-11-11"
+      "tags": ["boat", "swamp", "grassrivers"], "confidence": "corroborated", "sources": ["g6w-grassrivers", "pl-kotaku-review", "pl-gtaboom-swamped"], "verified": "2026-11-22"
     },
     {
       "slug": "pickup-truck", "name": "Pickups, Dirt Bikes and ATVs", "class": "Off-road", "art": "mountain",
       "summary": "Mud-ready machines for the backwoods, from Port Gellhorn to Mount Kalaga.",
-      "body": ["Official images show dirt bikes and an ATV in the mud at Mount Kalaga and a pickup being chased through Grassrivers. Rockstar's Port Gellhorn text tells you to jump on a dirt bike."],
+      "body": ["Official images show dirt bikes and an ATV in the mud at Mount Kalaga and a pickup being chased through Grassrivers. Rockstar's Port Gellhorn text tells you to jump on a dirt bike.", "||Kotaku's review lists dirt bikes and semi-trucks among the vehicles you can drive.||", "||GTA BOOM's Swamped walkthrough says the mission uses Jason's truck, an ATV and a red truck.||"],
       "related": ["locations/mount-kalaga-national-park", "locations/port-gellhorn", "vehicles/vapid-dominator-buggy"],
-      "tags": ["truck", "off-road", "4x4", "dirt bike", "atv"], "confidence": "corroborated", "sources": ["g6w-kalaga", "g6w-grassrivers", "g6w-port-gellhorn"], "verified": "2026-11-11"
+      "tags": ["truck", "off-road", "4x4", "dirt bike", "atv"], "confidence": "corroborated", "sources": ["g6w-kalaga", "g6w-grassrivers", "g6w-port-gellhorn", "pl-kotaku-review", "pl-gtaboom-swamped"], "verified": "2026-11-22"
     },
     {
       "slug": "vapid-dominator-buggy", "name": "'67 Vapid Dominator Buggy", "aliases": ["Vapid Dominator Buggy", "Dominator Buggy"], "class": "Off-road", "art": "mountain",
       "summary": "An off-road buggy included with the Ultimate Edition, pitched for the backwoods of Mount Kalaga.",
-      "body": ["Rockstar's Ultimate Edition description presents it as a Mud Club vehicle with strong off-road handling.", "It can be kept at the Paradise Garage in Watson Bay, which Rockstar says has a weapon locker and somewhere to drop off stolen goods for fencing."],
+      "body": ["Rockstar's Ultimate Edition description presents it as a Mud Club vehicle with strong off-road handling.", "It can be kept at the Paradise Garage in Watson Bay, which Rockstar says has a weapon locker and somewhere to drop off stolen goods for fencing.", "||VGC's Ultimate Edition guide says the '67 Vapid Dominator Buggy unlocks in Chapter 2 when you finish Wyman's side mission, in which you help him start his car in the motel parking lot.||"],
       "facts": { "manufacturer": "Vapid", "model": "Dominator Buggy", "year": "1967", "class": "Off-road", "availability": "Ultimate Edition" },
       "related": ["editions/ultimate-edition", "locations/mount-kalaga-national-park"],
-      "tags": ["vapid", "dominator", "buggy", "ultimate edition", "off-road", "mud club", "paradise garage", "watson bay"], "confidence": "official", "sources": ["rockstar-media", "g6w-editions", "g6w-kalaga"], "verified": "2026-11-12"
+      "tags": ["vapid", "dominator", "buggy", "ultimate edition", "off-road", "mud club", "paradise garage", "watson bay"], "confidence": "official", "sources": ["rockstar-media", "g6w-editions", "g6w-kalaga", "pl-vgc-ultimate"], "verified": "2026-11-22"
     },
     {
       "slug": "aircraft", "name": "Planes and Helicopters", "class": "Aircraft", "art": "keys",
       "summary": "Seaplanes over the Keys and helicopters over everything.",
-      "body": ["Official images show a seaplane over the Leonida Keys, a police helicopter over Grassrivers and a news helicopter over Mount Kalaga."],
+      "body": ["Official images show a seaplane over the Leonida Keys, a police helicopter over Grassrivers and a news helicopter over Mount Kalaga.", "||Kotaku's review lists planes and helicopters among the vehicles you can drive.||", "||GTA BOOM's Swamped walkthrough says the mission uses a Sea Sparrow helicopter. PowerPyx's trophy guide has a trophy for stealing a passenger plane at VCIA.||"],
       "related": ["locations/leonida-keys"],
-      "tags": ["plane", "seaplane", "helicopter", "air", "police"], "confidence": "corroborated", "sources": ["g6w-map", "g6w-grassrivers", "g6w-kalaga"], "verified": "2026-11-11"
+      "tags": ["plane", "seaplane", "helicopter", "air", "police"], "confidence": "corroborated", "sources": ["g6w-map", "g6w-grassrivers", "g6w-kalaga", "pl-kotaku-review", "pl-gtaboom-swamped", "ppx-trophy-guide"], "verified": "2026-11-22"
     },
     {
       "slug": "jet-ski", "name": "Jet Skis and Kayaks", "class": "Boats", "art": "port",
       "summary": "Small craft for the Keys and the rivers of the north.",
-      "body": ["Jet skis and kayaking were both shown in the Extended Look. Official images show jet skis in the Keys and a kayaker at Mount Kalaga."],
+      "body": ["Jet skis and kayaking were both shown in the Extended Look. Official images show jet skis in the Keys and a kayaker at Mount Kalaga.", "||Kotaku's review lists jet skis among the vehicles you can drive.||"],
       "related": ["activities/water-sports", "locations/leonida-keys"],
-      "tags": ["water", "watercraft", "kayak"], "confidence": "corroborated", "sources": ["g6w-gameplay", "g6w-keys", "g6w-kalaga"], "verified": "2026-11-11"
+      "tags": ["water", "watercraft", "kayak"], "confidence": "corroborated", "sources": ["g6w-gameplay", "g6w-keys", "g6w-kalaga", "pl-kotaku-review"], "verified": "2026-11-22"
     }
   ],
 
   "gameplay": [
     {
       "slug": "character-switching", "name": "Switching between Jason and Lucia",
-      "summary": "Control passes between the two leads through most of the game: instantly when they are together, after a few seconds when apart.",
-      "body": ["The lead you are not playing acts on their own and can be called by phone. Some story sequences lock the swap. This is what the Extended Look footage showed; Rockstar has not described it in writing.", "TGG reports that each lead has their own stats and their own criminal profile, and that Nelson described checking in with the other lead and switching when they are available."],
+      "summary": "||Free switching between Jason and Lucia opens in Chapter 2. You hold right on the d-pad and press R1 (RB on Xbox).||",
+      "body": ["||PowerPyx says you mostly play as Jason in Chapter 1, and free switching unlocks in Chapter 2 after the main mission Coffee Break.||", "||GamesRadar+ says you hold right on the d-pad and press R1 (RB on Xbox) to switch, and a darkened portrait means your partner is busy for now.||", "||VGC says a lead is greyed out only for an in-game reason, such as being on another mission. PowerPyx says the other lead can be greyed out while you are at home.||", "||Kotaku's review says the lead you are not playing keeps their own life. Switching to Lucia took a few seconds, and Kotaku found the leads watching TV, chatting to people or driving.||", "||OutputLag says Jason and Lucia each have their own Criminal Profile and their own Strength, Cardio and Focus stats.||"],
       "related": ["characters/jason-duval", "characters/lucia-caminos"],
-      "tags": ["swap", "protagonists", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
+      "tags": ["swap", "protagonists", "extended look"], "confidence": "corroborated", "sources": ["ppx-switch", "gr-switch", "pl-vgc-switch", "pl-kotaku-review", "pl-ol-profile"], "verified": "2026-11-22"
     },
     {
       "slug": "wanted-level", "image": "/images/manual/footage/footage-firefight-1408.jpg", "name": "Six-star wanted level",
-      "summary": "Six stars are back. Police react to what is witnessed or caught on camera, and track your description, clothes and vehicle separately.",
-      "body": ["Changing clothes or vehicle, or covering your face beforehand, changes how long the heat lasts. Shown in the Extended Look, not published as a feature list.", "TGG, who attended Rockstar's preview, reports that Rob Nelson told him a six-star search covers the whole map, and that Rockstar would not say what else six stars brings.", "Other details from his November 2026 guide: stars flash white once you break the line of sight; police set up a perimeter outside a store you have just robbed; a respray removes the description of your car; and hiding underwater works better in deep or murky water. He relays Edge magazine's preview of a police dog pinning Jason after a spike strip stopped his motorbike."],
-      "tags": ["police", "stars", "heat", "extended look", "six stars", "perimeter", "respray", "police dog"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
+      "summary": "||The wanted meter has six stars, and police track your outfit, appearance, vehicle, weapon and partner as separate clues.||",
+      "body": ["||OutputLag says there are six stars. Icons under them show each thing the police know, such as your outfit, appearance, vehicle, visible weapon or partner.||", "||OutputLag says you lose the cops by breaking line of sight, leaving the search area and then changing what they know. It says a respray clears the vehicle clue.||", "||PC Gamer says six stars takes mass destruction, such as stealing a tank from the military base. It says that at six stars you can no longer lose your wanted level.||", "||OutputLag says higher stars bring helicopters, spike strips and K9 units. GTABase says K9 units track you relentlessly.||", "||GTABase says CCTV footage can be destroyed on site, but footage recorded by cloud CCTV cannot.||"],
+      "tags": ["police", "stars", "heat", "extended look", "six stars", "perimeter", "respray", "police dog"], "confidence": "corroborated", "sources": ["pl-ol-wanted", "pl-pcg-six-stars", "pl-gtab-combat", "pl-gtab-icons"], "verified": "2026-11-22"
     },
     {
       "slug": "combat", "name": "Combat",
-      "summary": "Enemies can be wounded or disarmed rather than killed, and heavy hits pull the camera into slow motion.",
-      "body": ["Shown in the Extended Look. Rockstar has not published written detail.", "For what previews have since reported about carrying weapons, Focus and hand-to-hand fighting, see the separate entries in this category."],
-      "tags": ["shooting", "slow motion", "extended look"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
+      "summary": "||Combat leans on manual aiming. Focus slow motion lets you wound enemies in the limbs instead of killing them.||",
+      "body": ["||Kotaku's review says combat moves away from GTA V's auto-aim and plays more like Max Payne 3, with manual aiming and headshots or kneecap shots.||", "||PC Gamer says Focus highlights elbows, knees, hands and shoulders, so you can incapacitate enemies instead of killing them.||", "||GTABase says you press L3 and R3 together for Focus. It says melee drains stamina, and a counter must be timed just before an incoming attack.||", "||GTABase says R1 (RB on Xbox) takes cover, and that sustained fire reduces accuracy.||"],
+      "tags": ["shooting", "slow motion", "extended look"], "confidence": "corroborated", "sources": ["pl-kotaku-review", "pl-pcg-100-hours", "pl-gtab-combat"], "verified": "2026-11-22"
     },
     {
       "slug": "car-theft", "name": "Stealing cars",
-      "summary": "From breaking a window to working the lock with a slim jim; better cars carry electronic locks, alarms and trackers.",
-      "body": ["A phone app scans a car first and reports what it is worth and how it is protected. Shown in the Extended Look.", "TGG reports that a driver can resist being pulled out, as a quick-time interaction, and that he watched a passenger throw Nelson back out. A slim jim, worked with the analog sticks, opens older cars quietly.", "Some cars cannot be hot-wired at all and need a key cloner. The scanner app shows a car's security level, the tool it needs, its tracker, its resale value and the cost of registering it. A high-end tracker beeps faster and faster if you slow down, then alerts the police."],
-      "tags": ["slim jim", "alarm", "tracker", "phone", "extended look", "key cloner", "hot-wire", "security level"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
+      "summary": "||Cars can be locked, alarmed, keyless or tracked. The WAiNK phone app scans a car first, and better cars need a slim jim or a key cloner.||",
+      "body": ["||PC Gamer says the Waink It app arrives in the Chapter 1 mission Unwanted Attention. It shows a car's make, locks, alarm, keyless status, trackers, condition, sale value and registration cost.||", "||PC Gamer says the Chapter 2 mission Moses gives you the slim jim, which opens locks quietly. It says the key cloner comes in Chapter 3 and also starts keyless cars, which cannot be hotwired.||", "||GTABase says you hotwire a car by bringing both sticks together to fill the semi-circles, and that smashing a window can set off an alarm.||", "||PC Gamer says many drivers fight back when pulled out, so you must hammer a button. It says an advanced tracker beeps when you slow down and then gives your location to the police.||", "||PC Gamer says a standard tracker only stops you modifying the car until you register it at a Pay 'n' Spray.||"],
+      "tags": ["slim jim", "alarm", "tracker", "phone", "extended look", "key cloner", "hot-wire", "security level"], "confidence": "corroborated", "sources": ["pl-pcg-steal-cars", "pl-gtab-car-stealing", "pl-kotaku-review"], "verified": "2026-11-22"
     },
     {
       "slug": "robberies", "name": "Robberies",
-      "summary": "Robberies trade speed against take: forcing a safe is quicker but damages what is inside.",
-      "body": ["There are second exits for when the front door stops being an option. Shown in the Extended Look.", "TGG reports that Nelson told him any store you walk into can be robbed, whether or not it shows a robbery icon. Bigger targets can show their potential take on the map. A safe's code may be texted by a fence or found in the store; blowing it open damages the loot.", "Customers and staff may rush you, grab for your gun or draw their own. Camera recordings can be destroyed so you are not identified, though he relays another preview of a shop that kept its footage in the cloud. How many duffel bags you can take depends on the vehicle you brought."],
+      "summary": "||Almost any shop can be robbed. A safe code from staff or a job card beats blowing the safe, which destroys part of the cash.||",
+      "body": ["||OutputLag says almost any shop can be robbed, including ones not shown on the map, and that a clerk may give you the safe code.||", "||OutputLag says explosives open a safe without the code but destroy part of the cash. It says clerks and shoppers can pull guns on you.||", "||OutputLag says to destroy the security footage in the back room and leave by the back exit if there is one. GTABase says footage from cloud CCTV cannot be destroyed.||", "||GamesRadar+ says each lead can carry two stash bags. GTA BOOM found that a vehicle's storage limits how much you take away.||", "||OutputLag says Yasmani's jewelry job cards list the safe code, and that bank map cards show the take before you go in.||"],
       "related": ["characters/raul-bautista", "businesses/fleeca"],
-      "tags": ["heist", "safe", "bank", "extended look", "safe code", "cctv", "duffel bag", "store"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
+      "tags": ["heist", "safe", "bank", "extended look", "safe code", "cctv", "duffel bag", "store"], "confidence": "corroborated", "sources": ["pl-ol-robberies", "pl-ol-jewelry-bank", "pl-gtab-icons", "gr-switch", "pl-boom-robberies"], "verified": "2026-11-22"
     }
   ],
 
   "activities": [
     {
       "slug": "racing", "name": "Racing",
-      "summary": "Races on tarmac and on dirt both appeared in the Extended Look.",
-      "body": ["TGG's November 2026 guide points out three kinds in the Extended Look: a circuit race with a lap counter and position, a street race at night in which nitrous is used, and an off-road race with bikes and cars together."],
-      "tags": ["race", "dirt", "nitrous", "circuit", "street race"], "confidence": "corroborated", "sources": ["g6w-gameplay", "tgg-pre-launch-guide"], "verified": "2026-11-15"
+      "summary": "||There are 40 unique races, from circuit tracks to Yago's street races and the Thrillbilly Mud Club's dirt tracks.||",
+      "body": ["||PowerPyx says there are 40 unique races, and each costs an entry fee and a car rental.||", "||PowerPyx says Vice City street races open in Chapter 3 through Dre'Quan and Yago, and the Thrillbilly Mud Club runs dirt and oval races.||", "||OutputLag says Gellhorn Raceway has stock cars, supercars, bikes, rallycross and a drag strip, and Top Fun drone races run at 14 locations.||", "||GTABase says L3 is the horn and nitrous button.||"],
+      "tags": ["race", "dirt", "nitrous", "circuit", "street race"], "confidence": "corroborated", "sources": ["rs-powerpyx-gta6-unique-races", "pl-ol-activities", "pl-gtab-driving"], "verified": "2026-11-22"
     },
     {
       "slug": "water-sports", "name": "Water sports",
-      "summary": "Jet skis, kayaking and diving were all shown, with the Keys as the natural home for them.",
-      "body": ["TGG notes that scuba diving has an oxygen meter."],
+      "summary": "||Jet skis, scuba diving for shipwreck treasure and an Ultimate Edition kayak are all in the game.||",
+      "body": ["||OutputLag says jet skis can be taken from riders all over the Keys, and Jason's boat waits at his dock.||", "||OutputLag says treasure diving opens after Kenton's mission Island Dreams, with scuba gear on the boat.||", "||OutputLag says your oxygen shows as a bar at the top left while diving.||", "||OutputLag says the Crest Kayak is an Ultimate Edition item, and it is only available in Chapter 1.||"],
       "related": ["locations/leonida-keys", "vehicles/jet-ski"],
-      "tags": ["jet ski", "kayak", "diving", "scuba", "oxygen"], "confidence": "corroborated", "sources": ["g6w-gameplay", "g6w-keys", "tgg-pre-launch-guide"], "verified": "2026-11-15"
+      "tags": ["jet ski", "kayak", "diving", "scuba", "oxygen"], "confidence": "corroborated", "sources": ["rs-outputlag-boats", "pl-ol-treasure"], "verified": "2026-11-22"
     },
     {
       "slug": "sports-and-leisure", "name": "Sports and leisure",
-      "summary": "The gym, basketball, pool, mini golf and parachuting all appeared in the Extended Look, along with nightclubs.",
-      "tags": ["gym", "basketball", "pool", "mini golf", "parachute", "nightclub"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "summary": "||Pool, mini golf, basketball, gyms, shooting ranges, parachuting and nightclubs are all in the game.||",
+      "body": ["||OutputLag lists pool, golf, shooting ranges, races, drone races, gym workouts, basketball, fishing and hunting as activities.||", "||OutputLag says golf is mini golf, but PC Gamer says there are full golf courses too.||", "||PC Gamer says you can buy a parachute at Ammu-Nation, and some skyscraper roofs have parachutes.||", "||PC Gamer says you can hit nightclubs and dance with your partner.||", "||OutputLag says no playable casino or gambling has been found.||"],
+      "tags": ["gym", "basketball", "pool", "mini golf", "parachute", "nightclub"], "confidence": "corroborated", "sources": ["pl-ol-activities", "pl-pcg-100-hours", "pl-pcg-parachute"], "verified": "2026-11-11"
     },
     {
       "slug": "hunting-and-fishing", "name": "Hunting, fishing and off-roading",
-      "summary": "Rockstar pitches Mount Kalaga National Park for its hunting, fishing and off-road trails.",
-      "body": ["TGG reports that Rob Nelson told him fishing is catch and release, with challenges, collectibles and some story content tied to it, and that hunting can earn money through a character who knows Jason."],
+      "summary": "||Fishing is catch and release and trains Focus, while hunting pays through Jason's old military friend Bret.||",
+      "body": ["||OutputLag says free-roam fishing is catch and release, and the only option after a catch is to throw the fish back.||", "||GTABase says you cannot keep fish or sell them to a shop, and that better lures are sold at Ammu-Nation stores with fishing gear.||", "||OutputLag says every fish you land raises Focus, and PC Gamer says Jason and Cal keep up a fishing rivalry.||", "||PC Gamer says hunting jobs for Jason's old military friend Bret begin in Lummox County in Chapter 2, and Bret buys animals straight out of your trunk.||", "||PC Gamer says GTA 6 has legendary animals, and Bret paid it $2,500 for a large boar.||"],
       "related": ["locations/mount-kalaga-national-park"],
-      "tags": ["hunt", "fish", "trails", "catch and release"], "confidence": "corroborated", "sources": ["g6w-kalaga", "tgg-pre-launch-guide"], "verified": "2026-11-15"
+      "tags": ["hunt", "fish", "trails", "catch and release"], "confidence": "corroborated", "sources": ["pl-ol-fishing", "rs-gtabase-how-to-fish", "r8-pcg-money", "pl-pcg-cozy"], "verified": "2026-11-22"
     },
     {
       "slug": "everyday-life", "name": "Everyday life",
-      "summary": "Petting a dog, watching television, shopping, and a phone the character actually holds.",
-      "tags": ["dog", "tv", "shopping", "phone"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "summary": "||You can pet dogs and cats, watch TV, shop in over 600 stores and eat while walking.||",
+      "body": ["||Kotaku says you can pet dogs and cats, and it boosts Focus and your Criminal Profile.||", "||Kotaku's review says there are over 600 stores, and all of them are open 24 hours.||", "||Kotaku's review says the TV shows animated series and other shows.||", "||Kotaku says you can eat and drink while moving, shooting and driving.||", "||PC Gamer says you can push cars, lean on rails and sit on docks.||"],
+      "tags": ["dog", "tv", "shopping", "phone"], "confidence": "corroborated", "sources": ["pl-kotaku-tips", "pl-kotaku-review", "pl-pcg-hidden-controls"], "verified": "2026-11-11"
     }
   ],
 
@@ -473,19 +509,22 @@
     {
       "slug": "deer", "name": "Deer", "art": "mountain",
       "summary": "Seen at a stream in Mount Kalaga National Park in an official image.",
+      "body": ["||PowerPyx's walkthrough lists Bret Vogel's Jason-only side quest Veteran Hunted. Its trophy guide has a trophy, Fair Game, for hunting a unique animal for Bret.||", "||Kotaku's review says animals can be hunted for money. PowerPyx's trophy guide says 100% completion needs 100 of 255 animals studied.||"],
       "related": ["locations/mount-kalaga-national-park"],
-      "tags": ["forest"], "confidence": "corroborated", "sources": ["g6w-kalaga"], "verified": "2026-11-11"
+      "tags": ["forest"], "confidence": "corroborated", "sources": ["g6w-kalaga", "ppx-walkthrough", "ppx-trophy-guide", "pl-kotaku-review"], "verified": "2026-11-22"
     },
     {
       "slug": "sea-turtle", "name": "Sea turtles", "art": "keys",
       "summary": "An official Leonida Keys image shows divers among coral with a sea turtle.",
+      "body": ["||PowerPyx's trophy guide counts underwater discoveries, and studying 100 of 255 animals, toward 100% completion. Its walkthrough lists Kenton's dive-site side quest.||"],
       "related": ["locations/leonida-keys"],
-      "tags": ["ocean", "coral", "diving"], "confidence": "corroborated", "sources": ["g6w-keys"], "verified": "2026-11-11"
+      "tags": ["ocean", "coral", "diving"], "confidence": "corroborated", "sources": ["g6w-keys", "ppx-trophy-guide", "ppx-walkthrough"], "verified": "2026-11-22"
     },
     {
       "slug": "dog", "name": "Dogs", "art": "city",
       "summary": "Dogs can be petted, as shown in the Extended Look.",
-      "tags": ["pet"], "confidence": "corroborated", "sources": ["g6w-gameplay"], "verified": "2026-11-11"
+      "body": ["||GTA BOOM says you can pet or scold dogs.||", "||GTA BOOM's Motel Tiger guide warns of a loose dog near the Manatee Motel that can knock the player down.||"],
+      "tags": ["pet"], "confidence": "corroborated", "sources": ["g6w-gameplay", "pl-gtaboom-wildlife", "pl-gtaboom-motel-tiger"], "verified": "2026-11-22"
     }
   ],
 
@@ -493,8 +532,9 @@
     {
       "slug": "only-raw-records", "name": "Only Raw Records", "art": "city",
       "summary": "The Vice City record label run by Boobie Ike and Dre'Quan Priest. Real Dimez are signed to it.",
+      "body": ["||GTA BOOM's story guide says Jason meets Dre'Quan at the Jack of Hearts studio. GTA BOOM's label page says the studio is paid for by Boobie's Jack of Hearts strip club.||", "||PowerPyx's walkthrough lists the Chapter 3 mission Top Billing (Watch the Real Dimez).||"],
       "related": ["characters/boobie-ike", "characters/drequan-priest", "characters/real-dimez"],
-      "tags": ["label", "music", "vice city"], "confidence": "corroborated", "sources": ["g6w-characters", "g6w-boobie"], "verified": "2026-11-11"
+      "tags": ["label", "music", "vice city"], "confidence": "corroborated", "sources": ["g6w-characters", "g6w-boobie", "pl-gtaboom-story", "pl-gtaboom-orr", "ppx-walkthrough"], "verified": "2026-11-22"
     },
     {
       "slug": "allied-crystal", "name": "Allied Crystal sugar refinery", "art": "refinery",
@@ -511,8 +551,9 @@
     {
       "slug": "brians-boat-yard", "name": "Brian Heder's boat yard", "art": "keys",
       "summary": "The Keys boat yard Brian runs with his wife Lori, and the front for his smuggling.",
+      "body": ["||GTABase names the business Brian's Boat Works & Marina.||", "||GTA BOOM's Swamped walkthrough says that Chapter 1 mission starts at Brian's marina.||"],
       "related": ["characters/brian-heder", "locations/leonida-keys"],
-      "tags": ["boats", "smuggling", "keys"], "confidence": "corroborated", "sources": ["g6w-brian"], "verified": "2026-11-11"
+      "tags": ["boats", "smuggling", "keys"], "confidence": "corroborated", "sources": ["g6w-brian", "pl-gtabase-brian", "pl-gtaboom-swamped"], "verified": "2026-11-22"
     },
     {
       "slug": "fleeca", "image": "/images/manual/robbery-with-bystanders.jpg", "name": "Fleeca bank", "art": "city",
@@ -523,7 +564,8 @@
     {
       "slug": "the-rusty-anchor", "name": "The Rusty Anchor", "art": "keys",
       "summary": "A bar named in the captions of Rockstar's launch screenshot gallery.",
-      "tags": ["bar"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11"
+      "body": ["||GTA BOOM's page places the Rusty Anchor in the Leonida Keys, with a dance floor and a stage. It lists GTA BOOM's Day Release and Swamped walkthroughs as coverage of the bar.||"],
+      "tags": ["bar"], "confidence": "corroborated", "sources": ["g6w-news", "pl-gtaboom-rusty-anchor"], "verified": "2026-11-22"
     },
     {
       "slug": "delights-cabaret", "name": "Delights Cabaret", "art": "port",
@@ -541,20 +583,23 @@
     {
       "slug": "raul-bautistas-crew", "name": "Raul Bautista's crew", "art": "city",
       "summary": "The bank robbery crew Raul leads. Rockstar has not named anyone else in it.",
+      "body": ["||PowerPyx's walkthrough lists a Chapter 3 mission called Credit Check (Meet Raul's Crew), followed by heist preparation missions that end in The Cartel Heist.||"],
       "related": ["characters/raul-bautista"],
-      "tags": ["heist", "bank robbery"], "confidence": "corroborated", "sources": ["g6w-raul"], "verified": "2026-11-11"
+      "tags": ["heist", "bank robbery"], "confidence": "corroborated", "sources": ["g6w-raul", "ppx-walkthrough"], "verified": "2026-11-22"
     },
     {
       "slug": "ambrosia-biker-gang", "name": "Ambrosia biker gang", "art": "refinery",
       "summary": "An unnamed biker gang that, by Rockstar's account, runs almost everything in Ambrosia the refinery does not.",
+      "body": ["||GTA BOOM identifies the bikers riding in Ambrosia in Rockstar's images as the Final Chapter MC, going by the club name and the Ambrosia chapter shown on their patches.||"],
       "related": ["locations/ambrosia"],
-      "tags": ["bikers", "gang"], "confidence": "corroborated", "sources": ["g6w-locations"], "verified": "2026-11-11"
+      "tags": ["bikers", "gang"], "confidence": "corroborated", "sources": ["g6w-locations", "pl-gtaboom-final-chapter"], "verified": "2026-11-22"
     },
     {
       "slug": "keys-drug-runners", "name": "Keys drug runners", "art": "keys",
       "summary": "The smuggling trade of the Leonida Keys, where Jason works and Brian Heder is the old guard.",
+      "body": ["||GTA BOOM's Swamped walkthrough says Brian sends Jason to a meeting with a group called the Kingfishers, which turns into a fight through their camp.||", "||PowerPyx's walkthrough lists Chapter 1 jobs including Lab Fees (Collect Brian's Rent), Clean Up After Donnie and Donnie's Lost Drugs.||"],
       "related": ["characters/brian-heder", "characters/jason-duval", "locations/leonida-keys"],
-      "tags": ["smuggling", "drugs"], "confidence": "corroborated", "sources": ["g6w-jason", "g6w-brian"], "verified": "2026-11-11"
+      "tags": ["smuggling", "drugs"], "confidence": "corroborated", "sources": ["g6w-jason", "g6w-brian", "pl-gtaboom-swamped", "ppx-walkthrough"], "verified": "2026-11-22"
     }
   ],
 
@@ -562,26 +607,27 @@
     {
       "slug": "original-score", "name": "Original score by Justice",
       "summary": "The electronic duo Justice composed the game's score. A 30-track album is due on December 11, 2026.",
-      "body": ["Singles so far are \"Flower in a Hurricane\" and \"Pusher\". The Launch Trailer is set to new music from the duo.", "Justice are the French duo Gaspard Augé and Xavier de Rosnay. Rockstar calls the score adaptive: it changes with how you play.", "\"Flower in a Hurricane\" features Tame Impala, SZA and King Gizzard & The Lizard Wizard. \"Pusher\" features Gesaffelstein.", "The album comes to streaming services, CD and vinyl. Rockstar's shop lists a limited triple crystal clear vinyl and a double CD.", "Apple Music's pre-release listing shows 50 tracks, dated December 11, 2026. Rockstar says the album has 30 tracks plus a number of digital bonus tracks.", "Only two titles are shown so far: Pusher is track 18 and Flower In A Hurricane is track 36. The other 48 are untitled placeholders.", "Apple Music credits the release to Take-Two Interactive Software under exclusive licence to Ed Banger Records and Because Music."],
-      "tags": ["justice", "score", "album", "pusher"], "confidence": "corroborated", "sources": ["g6w-news", "g6w-home", "rockstar-vi", "rockstar-music"], "verified": "2026-11-12"
+      "body": ["Singles so far are \"Flower in a Hurricane\" and \"Pusher\". The Launch Trailer is set to new music from the duo.", "Justice are the French duo Gaspard Augé and Xavier de Rosnay. Rockstar calls the score adaptive: it changes with how you play.", "\"Flower in a Hurricane\" features Tame Impala, SZA and King Gizzard & The Lizard Wizard. \"Pusher\" features Gesaffelstein.", "The album comes to streaming services, CD and vinyl. Rockstar's shop lists a limited triple crystal clear vinyl and a double CD.", "Apple Music's pre-release listing shows 50 tracks, dated December 11, 2026. Rockstar says the album has 30 tracks plus a number of digital bonus tracks.", "Only two titles are shown so far: Pusher is track 18 and Flower In A Hurricane is track 36. The other 48 are untitled placeholders.", "Apple Music credits the release to Take-Two Interactive Software under exclusive licence to Ed Banger Records and Because Music.", "||Kotaku's review says the score is by Justice and mixes electronic dance music, '80s funk and rock guitars.||", "||uDiscover Music reported on launch day that Justice's 30-track Original Score is due on December 11, on triple vinyl and on two CDs.||"],
+      "tags": ["justice", "score", "album", "pusher"], "confidence": "corroborated", "sources": ["g6w-news", "g6w-home", "rockstar-vi", "rockstar-music", "pl-kotaku-review", "pl-udiscover-music"], "verified": "2026-11-22"
     },
     {
       "slug": "soundtrack-album", "name": "Grand Theft Auto VI: The Album",
       "summary": "The official soundtrack album: 34 original tracks made with Atlantic Records, out with the game on November 19, 2026.",
-      "body": ["Rockstar's music page lists ten singles: \"That's It\" by Yung Lean (featuring Future and Metro Boomin); \"RHYNO\" by Travis Scott; \"Sexy Magic\" by CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. and Etienne de Crécy; \"Flower in a Hurricane\" by Justice; \"Last Thing You Need\" by Morgan Wallen; \"Suzuki\" by Fuerza Regida; \"Macacoa 2000\" by Rauw Alejandro; \"Don't Chart\" by Cardi B; \"Blood In Your Eyes\" by Tove Lo; and \"Bright Lights, Big City\" by Keith Richards.", "Rockstar's shop lists the album on an exclusive vinyl and a standard vinyl.", "Apple Music now lists all 34 tracks; the full running order is in the entry Grand Theft Auto VI: The Album track list.", "Tracks not among the ten singles include Go Easy by Dua Lipa, Crazy For You by Lana Del Rey, Power Trip by JENNIE, Fast Emotion by Zara Larsson, Sweet Like Candy by Camila Cabello and Bigger by Burna Boy.", "Apple Music's New Zealand store dates the album November 20, 2026, one day after the date on Rockstar's music page."],
+      "body": ["Rockstar's music page lists ten singles: \"That's It\" by Yung Lean (featuring Future and Metro Boomin); \"RHYNO\" by Travis Scott; \"Sexy Magic\" by CA7RIEL & Paco Amoroso, PinkPantheress, Fred again.. and Etienne de Crécy; \"Flower in a Hurricane\" by Justice; \"Last Thing You Need\" by Morgan Wallen; \"Suzuki\" by Fuerza Regida; \"Macacoa 2000\" by Rauw Alejandro; \"Don't Chart\" by Cardi B; \"Blood In Your Eyes\" by Tove Lo; and \"Bright Lights, Big City\" by Keith Richards.", "Rockstar's shop lists the album on an exclusive vinyl and a standard vinyl.", "Apple Music now lists all 34 tracks; the full running order is in the entry Grand Theft Auto VI: The Album track list.", "Tracks not among the ten singles include Go Easy by Dua Lipa, Crazy For You by Lana Del Rey, Power Trip by JENNIE, Fast Emotion by Zara Larsson, Sweet Like Candy by Camila Cabello and Bigger by Burna Boy.", "Apple Music's New Zealand store dates the album November 20, 2026, one day after the date on Rockstar's music page.", "||uDiscover Music reported on launch day that Grand Theft Auto VI: The Album has 34 tracks and came out on November 19, 2026, the same day as the game.||"],
       "facts": { "type": "Soundtrack album", "tracks": 34, "release_date": "November 19, 2026" },
-      "tags": ["soundtrack", "atlantic records", "album"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-music"], "verified": "2026-11-12"
+      "tags": ["soundtrack", "atlantic records", "album"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-music", "pl-udiscover-music"], "verified": "2026-11-22"
     },
     {
       "slug": "radio-stations", "name": "Radio stations and podcasts",
       "summary": "Rockstar has named six radio stations and confirmed on-demand podcasts, plus radio on foot through headphones.",
-      "body": ["The six are Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber, Flash FM and Dirty South Classics. Each has its own entry in this category, with its genre and hosts.", "Rockstar's music page also mentions stations for classic rock and talk radio, without naming them, and says the game has the series' widest selection of radio and podcasts.", "With the game out, GameSpot and CULTR each count 22 stations: the six Rockstar named plus Emotion 98.3, Vice City FM, V-Rock, Stockyard FM, VCRR, Honey FM, Radio La Ola, Radio On-U, Gloriana Blues Radio, Leonida Jazz Radio, Symphony FM, Worldwide FM, CircoLoco Records Radio, Kaleidoscope FM, and the talk stations WKTT and The Wipe.", "The Big Lead says 23, though its own table has 22 rows, counting the unlockable Vault Radio and leaving out CircoLoco Records Radio. Adding The Vault Radio to GameSpot's 22 also gives 23.", "GameSpot calls it the most stations in any Grand Theft Auto game.", "None of the three outlets names an individual podcast."],
-      "tags": ["radio", "podcast", "headphones", "stations"], "confidence": "corroborated", "sources": ["rockstar-music", "g6w-music", "g6w-news"], "verified": "2026-11-12"
+      "body": ["The six are Cocoteo FM, Back Country Radio, AfroBank FM, The Chamber, Flash FM and Dirty South Classics. Each has its own entry in this category, with its genre and hosts.", "Rockstar's music page also mentions stations for classic rock and talk radio, without naming them, and says the game has the series' widest selection of radio and podcasts.", "With the game out, GameSpot and CULTR each count 22 stations: the six Rockstar named plus Emotion 98.3, Vice City FM, V-Rock, Stockyard FM, VCRR, Honey FM, Radio La Ola, Radio On-U, Gloriana Blues Radio, Leonida Jazz Radio, Symphony FM, Worldwide FM, CircoLoco Records Radio, Kaleidoscope FM, and the talk stations WKTT and The Wipe.", "The Big Lead says 23, though its own table has 22 rows, counting the unlockable Vault Radio and leaving out CircoLoco Records Radio. Adding The Vault Radio to GameSpot's 22 also gives 23.", "GameSpot calls it the most stations in any Grand Theft Auto game.", "None of the three outlets names an individual podcast.", "||VGC's launch-day guide lists 22 stations, including the talk stations The Wipe and WKTT. KeenGamer counts 23, adding The Vault Radio.||", "||VGC's podcast guide names five podcast series and says you can listen in cars, on a portable radio or through headphones.||"],
+      "tags": ["radio", "podcast", "headphones", "stations"], "confidence": "corroborated", "sources": ["rockstar-music", "g6w-music", "g6w-news", "pl-vgc-radio", "pl-keengamer-radio", "pl-vgc-podcasts"], "verified": "2026-11-22"
     },
     {
       "slug": "trailer-1-song", "name": "Trailer 1 song",
       "summary": "The reveal trailer was set to Tom Petty's \"Love Is a Long Road\".",
-      "tags": ["tom petty", "trailer"], "confidence": "corroborated", "sources": ["g6w-home"], "verified": "2026-11-11"
+      "body": ["||uDiscover Music's launch-day article confirms that the first trailer was set to \"Love Is a Long Road\", from Tom Petty's 1989 album Full Moon Fever.||"],
+      "tags": ["tom petty", "trailer"], "confidence": "corroborated", "sources": ["g6w-home", "pl-udiscover-music"], "verified": "2026-11-22"
     }
   ],
 
@@ -593,16 +639,16 @@
     {
       "slug": "standard-edition", "image": "/images/editions/standard-edition-cover-wide.jpg", "name": "Standard Edition", "price": "$79.99",
       "summary": "The base game on PlayStation 5 or Xbox Series X|S.",
-      "body": ["Pre-orders include the Vintage Vice City Pack: the '55 Vapid Stanier with a garage by Ocean Beach, outfits and hairstyles for Jason and Lucia, and a weapon pattern.", "A digital pre-order on either console includes one month of GTA+. PlayStation's page adds that it can be claimed until March 31 and renews as a paid subscription unless cancelled.", "The boxed version holds a download code and no disc. The Vintage Vice City Pack comes with pre-orders and with purchases made before November 20, 2026."],
+      "body": ["Pre-orders, and copies bought up to November 19, 2026, included the Vintage Vice City Pack: the '55 Vapid Stanier with a garage by Ocean Beach, outfits and hairstyles for Jason and Lucia, and a weapon pattern.", "A digital pre-order on either console included one month of GTA+. PlayStation's page adds that it can be claimed until March 31, 2027 and renews as a paid subscription unless cancelled.", "The boxed version holds a download code and no disc. The Vintage Vice City Pack came with pre-orders and with purchases made before November 20, 2026.", "||Al Jazeera reported that the game launched on November 19, 2026 on PlayStation 5 and Xbox Series consoles. The report does not mention a PC version.||"],
       "related": ["vehicles/vapid-stanier-55"],
-      "tags": ["price", "buy", "pre-order", "vintage vice city pack"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "rockstar-media", "g6w-editions", "playstation-vi", "rockstar-support-editions"], "verified": "2026-11-13"
+      "tags": ["price", "buy", "pre-order", "vintage vice city pack"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "rockstar-media", "g6w-editions", "playstation-vi", "rockstar-support-editions", "pl-aljazeera-launch"], "verified": "2026-11-22"
     },
     {
       "slug": "ultimate-edition", "image": "/images/editions/ultimate-edition-cover-wide.jpg", "name": "Ultimate Edition", "price": "$99.99",
       "summary": "The game plus an exclusive collection of items tied to Jason and Lucia's story.",
-      "body": ["Rockstar lists vehicles (among them the '95 Grotti Cheetah, '67 Vapid Dominator Buggy and Shitzu Squalo), the Hawk & Little Morgan Revolvers, personalized pistols, four shops that open only with this edition, a gang raid and a car-collecting commission. Each has its own entry.", "PlayStation's page groups the extras as vehicles and garages, weapons, looks, and a special commission and customs. Two of Rockstar's Ultimate Edition screenshot sets are titled \"Vice City Style\" and \"Goodtime Gear\".", "The PlayStation Store also lists an Ultimate Edition Upgrade as a separate add-on. A digital pre-order on either console includes one month of GTA+. PlayStation's page adds that it can be claimed until March 31 and renews as a paid subscription unless cancelled.", "There is no boxed Ultimate Edition. Standard Edition owners, boxed or digital, can buy the Ultimate Edition Upgrade from the PlayStation or Microsoft store once their copy is redeemed."],
+      "body": ["Rockstar lists vehicles (among them the '95 Grotti Cheetah, '67 Vapid Dominator Buggy and Shitzu Squalo), the Hawk & Little Morgan Revolvers, personalized pistols, shops that open only with this edition (six, by VGC's launch guide: Rideout Customs, Sara's Unisex Salon, Stock 305, Electric Fang Tattoo Parlor, One-Eyed Willie's and the PTT Youngin$ illegal goods store), a gang raid and a car-collecting commission. Each has its own entry.", "PlayStation's page groups the extras as vehicles and garages, weapons, looks, and a special commission and customs. Two of Rockstar's Ultimate Edition screenshot sets are titled \"Vice City Style\" and \"Goodtime Gear\".", "The PlayStation Store also lists an Ultimate Edition Upgrade as a separate add-on. A digital pre-order on either console included one month of GTA+. PlayStation's page adds that it can be claimed until March 31, 2027 and renews as a paid subscription unless cancelled.", "There is no boxed Ultimate Edition. Standard Edition owners, boxed or digital, can buy the Ultimate Edition Upgrade from the PlayStation or Microsoft store once their copy is redeemed.", "||VGC says there is no separate claim step: the game sends a notice as each Ultimate Edition item unlocks. The first arrive in Chapter 1, such as the Ganado Retro Build after Just a Scratch, and the '95 Grotti Cheetah comes last, in Chapter 5.||", "||VGC adds that the Ultimate Edition bonuses can also be bought separately.||"],
       "related": ["vehicles/vapid-dominator-buggy"],
-      "tags": ["price", "buy", "pre-order", "deluxe"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "g6w-kalaga", "rockstar-media", "g6w-editions", "playstation-vi", "rockstar-support-editions"], "verified": "2026-11-13"
+      "tags": ["price", "buy", "pre-order", "deluxe"], "confidence": "corroborated", "sources": ["g6w-news", "rockstar-vi", "g6w-kalaga", "rockstar-media", "g6w-editions", "playstation-vi", "rockstar-support-editions", "pl-vgc-ultimate"], "verified": "2026-11-22"
     }
   ],
 
@@ -705,20 +751,20 @@
 
   "faq": [
     {"slug": "when-does-it-come-out", "name": "When does GTA 6 come out?", "summary": "November 19, 2026, on PlayStation 5 and Xbox Series X|S, at midnight local time in every region.", "body": ["So it is out wherever November 19 has begun. New Zealand was first, at 11:00 UTC on November 18.", "VICE reports that the digital version unlocked across the US at the same moment: 9 p.m. Pacific, 10 p.m. Mountain and 11 p.m. Central on November 18, which is midnight Eastern on November 19."], "tags": ["release date", "release time", "midnight", "out now", "new zealand"], "confidence": "official", "sources": ["rockstar-vi", "rockstar-support-times", "bno-nz-launch", "vice-us-canada-launch"], "verified": "2026-11-19"},
-    {"slug": "is-it-coming-to-pc", "name": "Is GTA 6 coming to PC?", "summary": "A PC version has not been announced. The game is announced for PlayStation 5 and Xbox Series X|S.", "body": ["Still no announcement at launch. Reuters reports that Wells Fargo's sales forecast assumes a possible PC release early in 2027, and Benzinga cites an October GamesBeat report that Rockstar was aiming for the first quarter of 2027. Both are outside expectations, not dates from Rockstar."], "tags": ["pc", "platforms"], "confidence": "corroborated", "sources": ["g6w-gameplay", "rockstar-vi", "cnbc-reuters-take-two", "benzinga-polymarket"], "verified": "2026-11-19"},
-    { "slug": "where-is-it-set", "name": "Where is GTA 6 set?", "summary": "In the State of Leonida, with Vice City as its biggest city. Vice City is the series' stand-in for Miami.", "tags": ["setting", "leonida", "vice city", "florida"], "confidence": "official", "sources": ["rockstar-vi", "g6w-vice-city"], "verified": "2026-11-11" },
-    { "slug": "who-are-the-protagonists", "name": "Who are the main characters?", "summary": "Lucia Caminos and Jason Duval, the two playable leads.", "tags": ["protagonists", "lucia", "jason"], "confidence": "official", "sources": ["rockstar-vi", "g6w-characters"], "verified": "2026-11-11" },
-    { "slug": "has-it-been-delayed", "name": "Has GTA 6 been delayed?", "summary": "Twice. A 2025 window became May 26, 2026, which then became November 19, 2026.", "tags": ["delay", "release date"], "confidence": "corroborated", "sources": ["g6w-news"], "verified": "2026-11-11" },
+    {"slug": "is-it-coming-to-pc", "name": "Is GTA 6 coming to PC?", "summary": "Not so far. The game came out on PlayStation 5 and Xbox Series X|S only, and Rockstar has not announced a PC version.", "body": ["Reuters reports that Wells Fargo's sales forecast assumes a possible PC release early in 2027, and Benzinga cites an October GamesBeat report that Rockstar was aiming for the first quarter of 2027. Both are outside expectations, not dates from Rockstar."], "tags": ["pc", "platforms"], "confidence": "corroborated", "sources": ["g6w-gameplay", "rockstar-vi", "cnbc-reuters-take-two", "benzinga-polymarket"], "verified": "2026-11-19"},
+    {"slug": "where-is-it-set", "name": "Where is GTA 6 set?", "summary": "In the State of Leonida, with Vice City as its biggest city. Vice City is the series' stand-in for Miami.", "tags": ["setting", "leonida", "vice city", "florida"], "confidence": "official", "sources": ["rockstar-vi", "g6w-vice-city", "pl-aljazeera-launch"], "verified": "2026-11-22", "body": ["||Al Jazeera's launch report describes the game as set in the fictional state of Leonida, centred on the coastal city of Vice City.||"]},
+    {"slug": "who-are-the-protagonists", "name": "Who are the main characters?", "summary": "Lucia Caminos and Jason Duval, the two playable leads.", "tags": ["protagonists", "lucia", "jason"], "confidence": "official", "sources": ["rockstar-vi", "g6w-characters", "pl-aljazeera-launch", "pl-gtaboom-story"], "verified": "2026-11-22", "body": ["||Al Jazeera's launch report says the game follows Jason Duval and Lucia Caminos, a criminal duo. GTA BOOM's story guide says it opens with a prologue as Lucia, then switches to Jason.||"]},
+    {"slug": "has-it-been-delayed", "name": "Has GTA 6 been delayed?", "summary": "Twice before release. A 2025 window became May 26, 2026, which then became November 19, 2026, when the game came out.", "tags": ["delay", "release date"], "confidence": "corroborated", "sources": ["g6w-news", "pl-aljazeera-launch"], "verified": "2026-11-22", "body": ["||Al Jazeera reported that the game launched on Thursday, November 19, 2026, after its original 2025 release was delayed twice.||"]},
     {"slug": "how-much-does-it-cost", "name": "How much does GTA 6 cost?", "summary": "$79.99 for the Standard Edition and $99.99 for the Ultimate Edition.", "body": ["Push Square reports that the free month of GTA+ included with pre-orders renews automatically at $7.99, £6.99 or €7.99 a month unless it is cancelled. On PS5 it can be cancelled under PS Store > ... > Subscriptions, and the free month stays active until it runs out.", "Rockstar's Newswire said November 19 was the last day on which buying the game included the Vintage Vice City Pack and a free month of GTA+. Rockstar Support says the free month must be claimed by March 31, 2027 on PlayStation, or within 180 days of purchase on Xbox."], "tags": ["price", "editions"], "confidence": "corroborated", "sources": ["g6w-news", "g6w-home", "pushsquare-gtaplus-autorenew", "rockstar-nw-now-available", "rockstar-support-gtaplus-preorder"], "verified": "2026-11-19"},
-    {"slug": "last-gen-consoles", "name": "Can I play it on PS4 or Xbox One?", "summary": "Not natively: the game is made for PlayStation 5 and Xbox Series X|S. Rockstar says it will be playable on Xbox One consoles by streaming through Xbox Cloud Gaming.", "body": ["The cloud version uses Xbox Series S graphics settings, and Rockstar notes that connection speed can affect how it plays. PlayStation's page says the game is not playable on PlayStation 4.", "Xbox Wire says Xbox Cloud Gaming streaming of the game began at 1 a.m. Eastern on November 19. The game must be bought separately to stream it. From November 11, players in supported markets could buy cloud playtime without a Game Pass subscription. Microsoft also says Grand Theft Auto V, Red Dead Redemption 2 and other Rockstar games are coming to Xbox Cloud Gaming in the following months."], "tags": ["ps4", "xbox one", "platforms", "cloud"], "confidence": "official", "sources": ["rockstar-vi", "rockstar-nw-preload-now", "playstation-vi", "r11-xboxwire-cloud-record"], "verified": "2026-11-19"},
+    {"slug": "last-gen-consoles", "name": "Can I play it on PS4 or Xbox One?", "summary": "Not natively: the game is made for PlayStation 5 and Xbox Series X|S. Rockstar says it is playable on Xbox One consoles by streaming through Xbox Cloud Gaming.", "body": ["The cloud version uses Xbox Series S graphics settings, and Rockstar notes that connection speed can affect how it plays. PlayStation's page says the game is not playable on PlayStation 4.", "Xbox Wire says Xbox Cloud Gaming streaming of the game began at 1 a.m. Eastern on November 19. The game must be bought separately to stream it. From November 11, players in supported markets could buy cloud playtime without a Game Pass subscription. Microsoft also says Grand Theft Auto V, Red Dead Redemption 2 and other Rockstar games are coming to Xbox Cloud Gaming in the following months."], "tags": ["ps4", "xbox one", "platforms", "cloud"], "confidence": "official", "sources": ["rockstar-vi", "rockstar-nw-preload-now", "playstation-vi", "r11-xboxwire-cloud-record"], "verified": "2026-11-19"},
     {"slug": "frame-rate", "name": "What frame rate does GTA 6 run at?", "summary": "Rockstar says it targets 30 frames per second on both consoles.", "body": ["On PlayStation 5 Pro it adds PlayStation Spectral Super Resolution (PSSR) and ray-traced shadows.", "In a statement reported by VGC, Rockstar gives the resolutions: PlayStation 5 and Xbox Series X upscale 1440p to 4K, PS5 Pro uses PSSR2 to upscale 1440p to 4K, and Xbox Series S upscales 720p to 1080p with AMD FSR.", "Rockstar's Marc Chambers told Kotaku, as VGC reports, that the PS5 Pro's processor is not powerful enough to run the game's simulation at higher frame rates. VGC takes this to mean a 60fps patch is unlikely.", "VGC reports Digital Foundry found a near-flawless 30 frames per second on PS5 Pro, small but noticeable dips on the base PS5, and frame-rate problems on Series S."], "tags": ["frame rate", "fps", "30fps", "performance", "ps5 pro", "pssr", "ray tracing"], "confidence": "official", "sources": ["rockstar-nw-preload-now", "vgc-series-s-fsr", "vgc-ps5-pro-60fps", "vgc-df-base-ps5"], "verified": "2026-11-19"},
-    {"slug": "gta-online", "name": "What about GTA Online?", "summary": "No date or detail yet. Rockstar has said the online component follows the single-player game rather than shipping with it.", "body": ["Still no announcement at launch: the game shipped as single-player only. Benzinga cites Bloomberg as saying multiplayer is expected in 2027; Rockstar has not given a date."], "tags": ["online", "multiplayer"], "confidence": "corroborated", "sources": ["g6w-gameplay", "benzinga-polymarket"], "verified": "2026-11-19"},
+    {"slug": "gta-online", "name": "What about GTA Online?", "summary": "Not yet. The game came out as single-player only, and Rockstar has said the online part follows later.", "body": ["Benzinga cites Bloomberg as saying multiplayer is expected in 2027; Rockstar has not given a date."], "tags": ["online", "multiplayer"], "confidence": "corroborated", "sources": ["g6w-gameplay", "benzinga-polymarket"], "verified": "2026-11-19"},
     {"slug": "age-rating", "name": "What is GTA 6 rated?", "summary": "ESRB Mature 17+, for Blood and Gore, Intense Violence, Mature Humor, Nudity, Strong Language, Strong Sexual Content, and Use of Drugs and Alcohol. The rating also notes In-Game Purchases.", "body": ["In Japan the game is rated by CERO, whose rating does not mention the sexual content listed in most other countries. Kotaku reports that the Japanese version adds clothing to nude scenes, shows less blood, and has only English and Japanese subtitles. Rockstar had confirmed no changes before release."], "tags": ["rating", "esrb", "mature", "age"], "confidence": "official", "sources": ["rockstar-vi", "playstation-vi", "kotaku-japan-version"], "verified": "2026-11-19"},
     {"slug": "ps5-features", "name": "What does the PlayStation 5 version support?", "summary": "PlayStation lists it as PS5 Pro Enhanced, with Tempest 3D Audio, fast loading from the SSD, and the DualSense controller's haptic feedback, adaptive triggers and speaker. Remote Play is supported.", "body": ["Rockstar adds that PlayStation 5 Pro gets PSSR upscaling and ray-traced shadows, and that the game targets 30 frames per second. PlayStation's page also says the game is not playable on PlayStation 4.", "Rockstar's statement reported by VGC says PS5 Pro upscales a 1440p base image to 4K with PSSR2, and the base PS5 upscales 1440p to 4K with Rockstar's own TAA. Rockstar's earlier post said PSSR; the statement as VGC quotes it says PSSR2."], "tags": ["ps5", "ps5 pro", "dualsense", "haptics", "remote play"], "confidence": "official", "sources": ["playstation-vi", "rockstar-nw-preload-now", "vgc-series-s-fsr"], "verified": "2026-11-19"},
-    {"slug": "offline-play", "name": "Can GTA 6 be played offline?", "summary": "PlayStation's store page lists it as a one-player game with offline play enabled.", "tags": ["offline", "single player", "internet"], "confidence": "official", "sources": ["playstation-vi"], "verified": "2026-11-12"},
+    {"slug": "offline-play", "name": "Can GTA 6 be played offline?", "summary": "PlayStation's store page lists it as a one-player game with offline play enabled.", "tags": ["offline", "single player", "internet"], "confidence": "official", "sources": ["playstation-vi", "ppx-trophy-guide", "pl-kotaku-review", "pl-vgc-review"], "verified": "2026-11-22", "body": ["||PowerPyx's trophy guide lists all 55 trophies as offline and none as online.||", "||Kotaku's and VGC's reviews cover a single-player story mode, and neither describes an online mode at launch.||"]},
     {"slug": "disc-version", "name": "Is there a disc version?", "summary": "No. The boxed Standard Edition holds a download code and no disc, and there is no boxed Ultimate Edition.", "body": ["PlayStation codes work only on accounts in the region group they were sold for, so Rockstar recommends buying in the country of your platform account. Xbox codes are not region-locked.", "In Japan, codes expire 170 days after launch day.", "GameStop CEO Ryan Cohen told Bloomberg on launch day that the move to all-digital has hurt consumers and GameStop, though he said the store is selling a lot of the boxed code edition.", "If a boxed code or gifted digital code will not activate, Rockstar's Game Activation article sends players to PlayStation's voucher-redemption help or Xbox's prepaid-code help.", "TweakTown reported on November 16 that some buyers found missing or already-used codes in their boxes. It says PlayStation's support page advises contacting the retailer about a damaged or missing code."], "tags": ["disc", "physical", "boxed", "code", "region"], "confidence": "official", "sources": ["rockstar-support-editions", "kotaku-gamestop-ceo", "r9-rockstar-support-activation", "r9-tweaktown-missing-codes"], "verified": "2026-11-19"},
     {"slug": "voice-cast", "name": "Who plays Jason and Lucia?", "summary": "Rockstar's official credits list Dylan Rourke as Jason Duval and Manni L. Perez as Lucia Caminos.", "body": ["Perez's casting became public when she was nominated for Best Performance at The Game Awards on November 17, as Video Games Chronicle reported. Vice notes that Rockstar itself has not commented.", "Stephen Root told the Associated Press in September that he is in the game, as Variety reported. Outlets identify his character as Brian Heder; Root did not name it.", "Rockstar's official credits, published on November 19, list Dylan Rourke as Jason Duval and Manni L. Perez as Lucia Caminos.", "The same cast list confirms Stephen Root as Brian Heder. It also names, among others, Bobby Moynihan as Cal, Mike Forbs as Boobie Ike, Naiqui Macabroad as Dre'Quan, Hood Brat as Bae-Luxe, Krissy Celess as Roxy Rashad and Manny Perez as Raul Bautista.", "IGN reports that a photo of Rourke and Perez with Lucia's stunt double Victoria Lee appeared on Lee's Instagram the same day.", "VGC reports that Dylan Rourke and Manni L. Perez posted a joint Instagram statement on November 19, the first time either had commented on their roles."], "tags": ["voice actors", "cast", "manni l. perez", "stephen root", "lucia", "jason"], "confidence": "corroborated", "sources": ["vgc-perez", "vice-tga", "variety-root", "justjared-cast", "rockstar-vi-credits", "ign-rourke-perez-photo", "vgc-actors-statement"], "verified": "2026-11-19"},
-    {"slug": "who-made-it", "name": "Who made GTA 6?", "summary": "Rockstar Games developed and published it. Rockstar North's co-studio head Rob Nelson is listed as producer, and Justice composed the score.", "body": ["Wikipedia's article lists Stephen Donkin as designer, Jonathon Ashcroft as programmer, Aaron Garbut as artist, and four writers: Rupert Humphries, Alexa D'Agostino, Elizabeth Gauvey-Kern and Michael Wiafe.", "These come from Wikipedia's summary, not from the game's own credits, which no site had transcribed when this was written.", "Rockstar has now published the full credits at rockstargames.com/VI/credits, so this no longer rests on Wikipedia. The top of the list: Sam Houser (Founder, Executive Producer), Jennifer Kolbe (Head of Publishing), Rob Nelson and Aaron Garbut (Head of Development / Co-Studio Head), Phil Hooker (Head of Development) and Chris Choi (Senior Vice President of Development).", "Department heads in the credits include Rupert Humphries (Narrative), Stephen Donkin (Design), Jonathon Ashcroft (Technology), Alastair MacGregor (Audio) and Jeff Rosa (Quality Assurance). The writers listed under Narrative are Alexa D'Agostino, Elizabeth Gauvey-Kern and Michael Wiafe, and DJ Pooh and Joey Henson lead the TV and radio writing."], "tags": ["developers", "credits", "writers", "rob nelson", "rockstar north", "justice"], "confidence": "corroborated", "sources": ["wp-gta6", "rockstar-vi-credits"], "verified": "2026-11-19"},
+    {"slug": "who-made-it", "name": "Who made GTA 6?", "summary": "Rockstar Games developed and published it. Rockstar North's co-studio head Rob Nelson is listed as producer, and Justice composed the score.", "body": ["Wikipedia's article lists Stephen Donkin as designer, Jonathon Ashcroft as programmer, Aaron Garbut as artist, and four writers: Rupert Humphries, Alexa D'Agostino, Elizabeth Gauvey-Kern and Michael Wiafe.", "Rockstar has now published the full credits at rockstargames.com/VI/credits, so this no longer rests on Wikipedia. The top of the list: Sam Houser (Founder, Executive Producer), Jennifer Kolbe (Head of Publishing), Rob Nelson and Aaron Garbut (Head of Development / Co-Studio Head), Phil Hooker (Head of Development) and Chris Choi (Senior Vice President of Development).", "Department heads in the credits include Rupert Humphries (Narrative), Stephen Donkin (Design), Jonathon Ashcroft (Technology), Alastair MacGregor (Audio) and Jeff Rosa (Quality Assurance). The writers listed under Narrative are Alexa D'Agostino, Elizabeth Gauvey-Kern and Michael Wiafe, and DJ Pooh and Joey Henson lead the TV and radio writing."], "tags": ["developers", "credits", "writers", "rob nelson", "rockstar north", "justice"], "confidence": "corroborated", "sources": ["wp-gta6", "rockstar-vi-credits"], "verified": "2026-11-19"},
     {"slug": "ps5-download-trouble", "name": "It won't download or start on PlayStation 5. What now?", "summary": "PlayStation's support page says to pause and resume the download first, then cancel, delete and download it again from your Game Library.", "body": ["It also says to check PlayStation's status page for outages, update the system software, make sure there is enough free storage, and as a last step start the console in Safe Mode and choose Clear Cache and Rebuild Database.", "If the game will not start on an account that did not buy it, the buyer's account needs Console Sharing and Offline Play switched on for that console. Restoring licences (Settings, Users and Accounts, Other) is the other fix it gives.", "The same page confirms that the Vintage Vice City Pack's '55 Vapid Stanier is kept in the Shore Court garage at Ocean Beach, which has a weapon locker and a place to fence stolen goods, and that the Ultimate Edition's extras unlock chapter by chapter.", "On November 18 GamesRadar+ reported that some PS5 players, including its own UK writers, had trouble redeeming codes and upgrading editions, with Downdetector showing a spike from about 1 p.m. Eastern. PlayStation's status page showed no fault, and retrying worked for its writer.", "Rockstar's article on installation problems (last updated November 9) does not give its own fix. It points to PlayStation's guide to troubleshooting downloaded games and Xbox's guide to installation problems."], "tags": ["ps5", "download", "install", "troubleshooting", "licence", "safe mode", "vintage vice city pack"], "confidence": "official", "sources": ["playstation-support-vi", "gamesradar-psn-codes", "r9-rockstar-support-installing"], "verified": "2026-11-19"},
     {"slug": "how-long-is-it", "name": "How long is GTA 6?", "summary": "Reviewers put the main story at about 60 hours.", "body": ["Push Square's reviewer estimates about 80 hours for an average player who also does side content, and 300 hours or more to complete everything. TheSixthAxis's reviewer took more than 60 hours for the story and many side missions.", "These are two reviewers' own playthroughs, not a figure from Rockstar."], "tags": ["length", "hours", "how long", "story", "completion"], "confidence": "corroborated", "sources": ["pushsquare-review", "sixthaxis-review"], "verified": "2026-11-18"},
     {"slug": "review-scores", "name": "What did the reviews say?", "summary": "Metacritic shows 99 from 147 PlayStation 5 reviews as of November 18, with none mixed or negative.", "body": ["The number will move as more reviews are added. Of the two reviews read in full for this app, TheSixthAxis gave 9 out of 10 and Push Square 10 out of 10.", "VGC reported on November 18 that the game had become number one on Metacritic's list of the best games of all time. It is tied at 99 with the original Nintendo 64 Ocarina of Time but ranked above it by Metacritic's more precise calculation. At the time VGC wrote, the PlayStation 5 score came from 109 reviews.", "Take-Two's launch press release of November 19 calls it the highest rated game of all time on PlayStation 5 and Xbox Series X|S. IGN points out that across all platforms it shares the top Metacritic score of 99 with the Nintendo 64 Ocarina of Time.", "NBC News reported on November 19 that the Metacritic score was still 99, now from about 150 reviews."], "tags": ["reviews", "metacritic", "score"], "confidence": "corroborated", "sources": ["metacritic-vi", "sixthaxis-review", "pushsquare-review", "vgc-metacritic-top", "take2-pr-now-available", "ign-launch-live-blog", "nbc-launch-live-blog"], "verified": "2026-11-19"}
@@ -790,8 +836,18 @@
       {"name": "24/7 Gas Station", "category": "crime", "kind": "Dunn's Robbery Tips", "x": 0.51017, "y": 0.40253, "via": "gamersky", "guide": ["g100-robberies", "Other Robberies"]},
       {"name": "Lost Vista", "category": "crime", "kind": "Dunn's Robbery Tips", "x": 0.29778, "y": 0.36582, "via": "gamersky", "guide": ["g100-robberies", "Other Robberies"]},
       {"name": "Rookie Motel", "category": "crime", "kind": "Dunn's Robbery Tips", "x": 0.39201, "y": 0.37886, "via": "gamersky", "guide": ["g100-robberies", "Other Robberies"]},
-      {"name": "Crosstown Lab", "category": "crime", "kind": "Kitty Litter Lab Raids", "x": 0.66897, "y": 0.47313, "via": "gamersky", "guide": ["g100-robberies", "More Raids"]},
-      {"name": "Rockridge Lab", "category": "crime", "kind": "Kitty Litter Lab Raids", "x": 0.61681, "y": 0.48713, "via": "gamersky", "guide": ["g100-robberies", "More Raids"]},
+      {"name": "Crosstown Lab", "category": "crime", "kind": "Kitty Litter Lab Raids", "x": 0.66897, "y": 0.47313, "via": "gamersky", "entry": "businesses/kitty-litter-lab-crosstown", "guide": ["g100-robberies", "More Raids"]},
+      {"name": "Rockridge Lab", "category": "crime", "kind": "Kitty Litter Lab Raids", "x": 0.61681, "y": 0.48713, "via": "gamersky", "entry": "businesses/kitty-litter-lab-rockridge", "guide": ["g100-robberies", "More Raids"]},
+      {"name": "Balsero Lab", "category": "crime", "kind": "Kitty Litter Lab Raids", "x": 0.59501, "y": 0.50835, "via": "gamersky", "entry": "businesses/kitty-litter-lab-balsero", "guide": ["g100-robberies", "More Raids"]},
+      {"name": "Brian's Lockup (drop box)", "category": "crime", "kind": "Fences", "x": 0.53465, "y": 0.854, "via": "gamersky", "entry": "characters/brian-heder", "guide": ["g100-robberies", "Fencing the Loot"]},
+      {"name": "Donnie's Trailer (drop box)", "category": "crime", "kind": "Fences", "x": 0.56682, "y": 0.82799, "via": "gamersky", "entry": "characters/donnie", "guide": ["g100-robberies", "Fencing the Loot"]},
+      {"name": "Dunk's Trailer", "category": "crime", "kind": "Fences", "x": 0.31926, "y": 0.3694, "via": "gamersky", "entry": "characters/dunk", "guide": ["g100-robberies", "Fencing the Loot"], "spoiler": true},
+      {"name": "Tyrone's Apartment", "category": "crime", "kind": "Fences", "x": 0.65756, "y": 0.45997, "via": "gamersky", "entry": "characters/tyrone", "guide": ["g100-robberies", "Fencing the Loot"]},
+      {"name": "Yasmani's Shop", "category": "crime", "kind": "Fences", "x": 0.63739, "y": 0.52622, "via": "gamersky", "entry": "characters/yasmani", "guide": ["g100-robberies", "Fencing the Loot"], "spoiler": true},
+      {"name": "Moses's Auto Shop", "category": "crime", "kind": "Vehicle Fences", "x": 0.31991, "y": 0.3895, "via": "gamersky", "entry": "characters/moses", "guide": ["g100-robberies", "Fencing the Loot"], "spoiler": true},
+      {"name": "Randy (high-end cars)", "category": "crime", "kind": "Vehicle Fences", "x": 0.55154, "y": 0.49398, "via": "gamersky", "entry": "characters/randy", "guide": ["g100-robberies", "Fencing the Loot"], "spoiler": true},
+      {"name": "Pete (drop-off point)", "category": "crime", "kind": "Drop-Off Points", "x": 0.27496, "y": 0.38151, "via": "gamersky", "entry": "characters/pilot-pete", "guide": ["g100-robberies", "Fencing the Loot"], "spoiler": true},
+      {"name": "Kenton (drop-off point)", "category": "crime", "kind": "Drop-Off Points", "x": 0.60579, "y": 0.80896, "via": "gamersky", "entry": "characters/kenton-rees", "guide": ["g100-robberies", "Fencing the Loot"], "spoiler": true},
       {"name": "Gas Station Front", "category": "crime", "kind": "Gang Operations", "x": 0.50937, "y": 0.4024, "via": "gamersky", "guide": ["g100-robberies", "Gang Operations, Site by Site"]},
       {"name": "Backroom Front", "category": "crime", "kind": "Gang Operations", "x": 0.33016, "y": 0.3907, "via": "gamersky", "guide": ["g100-robberies", "Gang Operations, Site by Site"]},
       {"name": "Chatfield Storage and Logistics", "category": "crime", "kind": "Gang Operations", "x": 0.71923, "y": 0.51108, "via": "gamersky", "entry": "businesses/chatfield-storage-and-logistics", "guide": ["g100-robberies", "Gang Operations, Site by Site"]},

@@ -31,7 +31,8 @@
       "powerpyx-walkthrough"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/tyrone.jpg"
   },
   {
     "slug": "heavy-lifting",
@@ -46,7 +47,8 @@
       "TechWiser's 38-mission Chapter 4 list, like PowerPyx's, has no mission called Heavy Lifting.",
       "PowerPyx's walkthrough (November 19, 2026) does list Heavy Lifting (Bring Raul the Hard Drive), as the 80th main mission, settling the app's note that PowerPyx's hub lacked it.",
       "PowerPyx says Raul gives it shortly after Lawyer Up; it starts at a storage locker in Crosstown, Vice City, moves on to Raul's houseboat in Leonard County and Ajax Gym, and gives no reward.",
-      "Disagreement: PowerPyx puts Heavy Lifting (80th) before Party Hard (81st), whereas PC Gamer and Dexerto have it after Party Hard."
+      "Disagreement: PowerPyx puts Heavy Lifting (80th) before Party Hard (81st), whereas PC Gamer and Dexerto have it after Party Hard.",
+      "PowerPyx's full walkthrough, re-read on 22 November 2026, lists it in Chapter 4 between Lawyer Up and It's A Date!; the app follows that order."
     ],
     "tags": [
       "chapter 4",
@@ -61,7 +63,8 @@
       "type": "Main mission",
       "giver": "Raul",
       "location": "Storage locker, Crosstown, Vice City",
-      "reward": "None"
+      "reward": "None",
+      "order": 6
     },
     "confidence": "corroborated",
     "sources": [
@@ -74,9 +77,11 @@
       "pushsquare-chapters",
       "gamesgg-missions",
       "techwiser-missions",
-      "r7-ppx-heavy-lifting"
+      "r7-ppx-heavy-lifting",
+      "r9-ppx-full-walkthrough"
     ],
-    "verified": "2026-11-19",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "image": "/images/missions/heavy-lifting.jpg"
   }
 ]
