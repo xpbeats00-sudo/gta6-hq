@@ -68,7 +68,8 @@
       "r14-gs-strip-clubs"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/nine1nine-strip-club.jpg"
   },
   {
     "slug": "nova-auto-junkyard",
@@ -79,30 +80,35 @@
       "IGN lists three Key Valuables: the Marabunta Grande KZ-59 assault rifle variant under a metal awning, a safe in the office with the white shutter, and the Albany Teniente Manana in the garage next door.",
       "IGN says the yard is small and heavily guarded, and suggests a shotgun for the close fighting.",
       "Game8 also places the Teniente Manana in a warehouse at the M7 Nova Auto Junkyard in Hamlet.",
-      "The app already has an M7 Compound entry from PowerPyx's operation list; no page read says whether the two are the same place."
+      "The app already has an M7 Compound entry from PowerPyx's operation list; no page read says whether the two are the same place.",
+      "Output Lag and Cultured Vultures give the safe code as 7777, written on the wall facing the safe."
     ],
     "tags": [
       "hamlet",
       "illegal operation",
       "m7",
       "robbery",
-      "standout vehicle"
+      "standout vehicle",
+      "safe code"
     ],
     "facts": {
       "type": "illegal gang operation",
       "location": "Northeast Hamlet, Mariana County",
       "owner": "M7",
       "purchasable": false,
-      "availability": "Robbery Opportunity, high security, three Key Valuables"
+      "availability": "Robbery Opportunity, high security, three Key Valuables",
+      "safe_code": "7777"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-nova-auto-junkyard",
       "game8-teniente-manana",
       "rs-nexzy-nova-auto-junkyard",
-      "rs-gta6map-standout-vehicles"
+      "rs-gta6map-standout-vehicles",
+      "safe-outputlag",
+      "safe-cv"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {

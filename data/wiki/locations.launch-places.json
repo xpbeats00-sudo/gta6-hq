@@ -2178,7 +2178,8 @@
       "ppx-landmarks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/locations/gellhorn-fun-fair.jpg"
   },
   {
     "slug": "belpoint-lighthouse",
@@ -2336,7 +2337,8 @@
       "ppx-sculpt"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/locations/triangler-sculpture.jpg"
   },
   {
     "slug": "pixel-fountain",
@@ -2478,7 +2480,8 @@
       "r8-tg-monument-symbols"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/locations/monument-of-leonidan-supremacy.jpg"
   },
   {
     "slug": "camp-moonflower",

@@ -21,7 +21,8 @@
       "r13-tbt-birding"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/northern-gannet.jpg"
   },
   {
     "slug": "great-egret",
@@ -46,7 +47,8 @@
       "r13-tbt-birding"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/great-egret.jpg"
   },
   {
     "slug": "caspian-tern",
@@ -70,6 +72,7 @@
       "r13-tbt-birding"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/caspian-tern.jpg"
   }
 ]

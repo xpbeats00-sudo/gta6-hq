@@ -265,7 +265,8 @@
       "r8gb-map-landmark"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/locations/y-vice-city-hotel.jpg"
   },
   {
     "slug": "bocamar-bridge",
@@ -594,7 +595,8 @@
       "r8gb-map-marinas"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/locations/key-lento-marina.jpg"
   },
   {
     "slug": "buckskin-marina",

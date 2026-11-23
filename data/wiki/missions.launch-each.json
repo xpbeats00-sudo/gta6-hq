@@ -73,7 +73,8 @@
       "ign-gone-fishing"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/gone-fishing.jpg"
   },
   {
     "slug": "gear-up",
@@ -117,7 +118,8 @@
       "r8gb-missions-gear-up"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/gear-up.jpg"
   },
   {
     "slug": "lab-fees",
@@ -159,7 +161,8 @@
       "r8-eg-lab-code"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/lab-fees.jpg"
   },
   {
     "slug": "just-a-scratch",
@@ -207,7 +210,8 @@
       "r8gb-missions-just-a-scratch"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/just-a-scratch.jpg"
   },
   {
     "slug": "unwanted-attention",
@@ -249,7 +253,8 @@
       "r8gb-missions-unwanted-attention"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/unwanted-attention.jpg"
   },
   {
     "slug": "pipework",
@@ -285,7 +290,8 @@
       "ign-pipework"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/pipework.jpg"
   },
   {
     "slug": "hey-arnold",
@@ -321,7 +327,8 @@
       "ign-hey-arnold"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/hey-arnold.jpg"
   },
   {
     "slug": "island-dreams",
@@ -357,7 +364,8 @@
       "ign-island-dreams"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/island-dreams.jpg"
   },
   {
     "slug": "feng-shui",
@@ -396,7 +404,8 @@
       "ign-feng-shui"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/feng-shui.jpg"
   },
   {
     "slug": "pick-up-groceries",
@@ -430,7 +439,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/pick-up-groceries.jpg"
   },
   {
     "slug": "buy-flowers",
@@ -463,7 +473,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/buy-flowers.jpg"
   },
   {
     "slug": "buy-lucia-a-necklace",
@@ -496,7 +507,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/buy-lucia-a-necklace.jpg"
   },
   {
     "slug": "get-the-chop",
@@ -530,7 +542,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/get-the-chop.jpg"
   },
   {
     "slug": "get-lucias-clothes",
@@ -563,7 +576,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/get-lucias-clothes.jpg"
   },
   {
     "slug": "coming-home",
@@ -599,7 +613,8 @@
       "ign-coming-home"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/coming-home.jpg"
   },
   {
     "slug": "clean-up-after-donnie",
@@ -636,7 +651,8 @@
       "ign-clean-up-after-donnie"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/clean-up-after-donnie.jpg"
   },
   {
     "slug": "buck-me",
@@ -679,7 +695,8 @@
       "r8-eg-bank-account"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/buck-me.jpg"
   },
   {
     "slug": "down-to-earth",
@@ -719,7 +736,8 @@
       "ign-down-to-earth"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/down-to-earth.jpg"
   },
   {
     "slug": "deposit-cash-into-buckme",
@@ -751,7 +769,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/deposit-cash-into-buckme.jpg"
   },
   {
     "slug": "save-for-the-future",
@@ -787,7 +806,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/save-for-the-future.jpg"
   },
   {
     "slug": "find-the-lost-drugs",
@@ -827,7 +847,8 @@
       "r8-eg-donnies-packages"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/find-the-lost-drugs.jpg"
   },
   {
     "slug": "day-release",
@@ -863,7 +884,8 @@
       "ign-day-release"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/day-release.jpg"
   },
   {
     "slug": "clock-out",
@@ -897,7 +919,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/clock-out.jpg"
   },
   {
     "slug": "clear-skies",
@@ -933,7 +956,8 @@
       "ign-clear-skies"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/clear-skies.jpg"
   },
   {
     "slug": "building-a-life",
@@ -968,7 +992,8 @@
       "ign-building-a-life"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/building-a-life.jpg"
   },
   {
     "slug": "swamped",
@@ -1003,7 +1028,8 @@
       "ign-swamped"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/swamped.jpg"
   },
   {
     "slug": "don-gone",
@@ -1042,7 +1068,8 @@
       "ign-don-gone"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/don-gone.jpg"
   },
   {
     "slug": "donnies-lost-drugs",
@@ -1075,7 +1102,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/donnies-lost-drugs.jpg"
   },
   {
     "slug": "recalibration",
@@ -1112,7 +1140,8 @@
       "ign-recalibration"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/recalibration.jpg"
   },
   {
     "slug": "tourist-trap",
@@ -1150,7 +1179,8 @@
       "ign-tourist-trap"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/tourist-trap.jpg"
   },
   {
     "slug": "home-sweet-home",
@@ -1185,7 +1215,8 @@
       "ign-home-sweet-home"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/home-sweet-home.jpg"
   },
   {
     "slug": "discharge-time",
@@ -1220,7 +1251,8 @@
       "ign-discharge-time"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/discharge-time.jpg"
   },
   {
     "slug": "whats-in-the-bag",
@@ -1261,7 +1293,8 @@
       "ign-whats-in-the-bag"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/whats-in-the-bag.jpg"
   },
   {
     "slug": "take-care-of-jason",
@@ -1298,7 +1331,8 @@
       "ign-take-care-of-jason"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/take-care-of-jason.jpg"
   },
   {
     "slug": "overnight-charges",
@@ -1334,7 +1368,8 @@
       "ign-overnight-charges"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/overnight-charges.jpg"
   },
   {
     "slug": "just-moved-in",
@@ -1369,7 +1404,8 @@
       "ign-just-moved-in"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/just-moved-in.jpg"
   },
   {
     "slug": "girls-trip",
@@ -1406,7 +1442,8 @@
       "ign-girls-trip"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/girls-trip.jpg"
   },
   {
     "slug": "pick-up-a-gun",
@@ -1441,7 +1478,8 @@
       "ign-pick-up-a-gun"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/pick-up-a-gun.jpg"
   },
   {
     "slug": "moses",
@@ -1485,7 +1523,8 @@
       "ign-moses"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/moses.jpg"
   },
   {
     "slug": "new-look",
@@ -1520,7 +1559,8 @@
       "ign-new-look"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/new-look.jpg"
   },
   {
     "slug": "how-do-i-look",
@@ -1555,7 +1595,8 @@
       "ign-how-do-i-look"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/how-do-i-look.jpg"
   },
   {
     "slug": "painkiller-supplier",
@@ -1588,7 +1629,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/painkiller-supplier.jpg"
   },
   {
     "slug": "ambulance-chaser",
@@ -1624,7 +1666,8 @@
       "ign-ambulance-chaser"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/ambulance-chaser.jpg"
   },
   {
     "slug": "behind-on-payments",
@@ -1659,7 +1702,8 @@
       "ign-behind-on-payments"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/behind-on-payments.jpg"
   },
   {
     "slug": "slam-dunk",
@@ -1699,7 +1743,8 @@
       "ign-slam-dunk"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/slam-dunk.jpg"
   },
   {
     "slug": "daily-driver",
@@ -1740,7 +1785,8 @@
       "ign-daily-driver"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/daily-driver.jpg"
   },
   {
     "slug": "breakfast-run",
@@ -1782,7 +1828,8 @@
       "ign-breakfast-run"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/breakfast-run.jpg"
   },
   {
     "slug": "coffee-break",
@@ -1821,7 +1868,8 @@
       "ign-coffee-break"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/coffee-break.jpg"
   },
   {
     "slug": "hit-avery-pawn",
@@ -1855,7 +1903,8 @@
       "r8gb-strangers-hit-avery-pawn"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/hit-avery-pawn.jpg"
   },
   {
     "slug": "hit-kingpin-bowling",
@@ -1890,7 +1939,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/hit-kingpin-bowling.jpg"
   },
   {
     "slug": "impounded-vehicle",
@@ -1954,7 +2004,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/prepare-for-vice-city.jpg"
   },
   {
     "slug": "afternoon-delight",
@@ -1992,7 +2043,8 @@
       "r13-pcg-delights"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/afternoon-delight.jpg"
   },
   {
     "slug": "checking-out",
@@ -2030,7 +2082,8 @@
       "r8gb-missions-checking-out"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/checking-out.jpg"
   },
   {
     "slug": "welcome-to-vice-city",
@@ -2066,7 +2119,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/welcome-to-vice-city.jpg"
   },
   {
     "slug": "dealers-choice",
@@ -2100,7 +2154,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/dealers-choice.jpg"
   },
   {
     "slug": "dubious-provenance",
@@ -2174,7 +2229,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/mami-knows-best.jpg"
   },
   {
     "slug": "get-your-wheels",
@@ -2242,7 +2298,8 @@
       "r8gb-missions-here-kitty-kitty"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/here-kitty-kitty.jpg"
   },
   {
     "slug": "send-money-to-lorena",
@@ -2272,7 +2329,8 @@
       "gtabase-send-money-to-lorena"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/send-money-to-lorena.jpg"
   },
   {
     "slug": "encrypted-hard-drive",
@@ -2341,7 +2399,8 @@
       "r8gb-missions-boobie-time"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/boobie-time.jpg"
   },
   {
     "slug": "meet-the-heders",
@@ -2381,7 +2440,8 @@
       "r8gb-missions-meet-the-heders"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/meet-the-heders.jpg"
   },
   {
     "slug": "yasmanis-jewelry-jobs",
@@ -2421,7 +2481,8 @@
       "r8gb-strangers-yasmanis-jewelry-jobs"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/yasmanis-jewelry-jobs.jpg"
   },
   {
     "slug": "car-service",
@@ -2462,7 +2523,8 @@
       "r8gb-missions-car-service"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/car-service.jpg"
   },
   {
     "slug": "send-more-money-to-lorena",
@@ -2529,7 +2591,8 @@
       "r8gb-missions-top-billing"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/top-billing.jpg"
   },
   {
     "slug": "first-impressions",
@@ -2562,7 +2625,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/first-impressions.jpg"
   },
   {
     "slug": "crosstown-traffic",
@@ -2595,7 +2659,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/crosstown-traffic.jpg"
   },
   {
     "slug": "credit-check",
@@ -2635,7 +2700,8 @@
       "r8gb-missions-credit-check"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/credit-check.jpg"
   },
   {
     "slug": "clonin-keys-makin-gs",
@@ -2677,7 +2743,8 @@
       "r8gb-missions-steal-the-zorrusso-for-randy"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/clonin-keys-makin-gs.jpg"
   },
   {
     "slug": "ride-or-die",
@@ -2712,7 +2779,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/ride-or-die.jpg"
   },
   {
     "slug": "rauls-next-job",
@@ -2778,7 +2846,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/sinfrontera-national-bank.jpg"
   },
   {
     "slug": "security-expert",
@@ -2813,7 +2882,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/security-expert.jpg"
   },
   {
     "slug": "caught-slipping",
@@ -2848,7 +2918,8 @@
       "r8gb-missions-caught-slipping"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/caught-slipping.jpg"
   },
   {
     "slug": "heist-planning",
@@ -2915,7 +2986,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/company-property.jpg"
   },
   {
     "slug": "safe-word",
@@ -2950,7 +3022,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/safe-word.jpg"
   },
   {
     "slug": "the-missing-link",
@@ -3019,7 +3092,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/cooties.jpg"
   },
   {
     "slug": "hidden-charges",
@@ -3055,7 +3129,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/hidden-charges.jpg"
   },
   {
     "slug": "bricked-up",
@@ -3089,7 +3164,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/bricked-up.jpg"
   },
   {
     "slug": "south-leonida-real-estate",
@@ -3125,7 +3201,8 @@
       "r8gb-missions-south-leonida-real-estate"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/south-leonida-real-estate.jpg"
   },
   {
     "slug": "the-cartel-heist",
@@ -3162,7 +3239,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/the-cartel-heist.jpg"
   },
   {
     "slug": "ocean-beach",
@@ -3206,7 +3284,8 @@
       "r7-ppx-ocean-beach"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/ocean-beach.jpg"
   },
   {
     "slug": "another-life",
@@ -3249,7 +3328,8 @@
       "r7-ppx-another-life"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/another-life.jpg"
   },
   {
     "slug": "pool-day",
@@ -3295,7 +3375,8 @@
       "r7-ppx-pool-day"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/pool-day.jpg"
   },
   {
     "slug": "company-cars",
@@ -3344,7 +3425,8 @@
       "r7-ppx-company-cars"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/company-cars.jpg"
   },
   {
     "slug": "lawyer-up",
@@ -3386,7 +3468,8 @@
       "r7-ppx-lawyer-up"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/lawyer-up.jpg"
   },
   {
     "slug": "its-a-date",
@@ -3406,7 +3489,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 6,
+      "order": 7,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -3439,7 +3522,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 7,
+      "order": 8,
       "type": "Main mission",
       "protagonist": "Lucia and Jason",
       "giver": "Valentina",
@@ -3456,7 +3539,8 @@
       "r7-ppx-party-hard"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/party-hard.jpg"
   },
   {
     "slug": "pay-abes-fee",
@@ -3478,7 +3562,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 8,
+      "order": 9,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -3519,7 +3603,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 9,
+      "order": 10,
       "type": "Main mission",
       "protagonist": "Lucia and Jason",
       "giver": "Dre'Quan",
@@ -3541,7 +3625,8 @@
       "r16-pp-photoshoot"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/photo-shoot.jpg"
   },
   {
     "slug": "bad-driver",
@@ -3566,7 +3651,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 10,
+      "order": 11,
       "type": "Optional mission",
       "giver": "Andrea",
       "location": "Bar in Millport, Lummox County",
@@ -3584,7 +3669,8 @@
       "r10-pp-bad-driver"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/bad-driver.jpg"
   },
   {
     "slug": "making-gainz",
@@ -3613,7 +3699,7 @@
     "facts": {
       "protagonist": "Lucia",
       "chapter": "Chapter 4",
-      "order": 12,
+      "order": 13,
       "type": "Main mission",
       "giver": "Raul",
       "location": "Planning room, Stockyard, Vice City",
@@ -3655,7 +3741,7 @@
     "facts": {
       "protagonist": "Lucia",
       "chapter": "Chapter 4",
-      "order": 13,
+      "order": 14,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -3691,7 +3777,7 @@
     "facts": {
       "protagonist": "Jason",
       "chapter": "Chapter 4",
-      "order": 14,
+      "order": 15,
       "type": "Main mission",
       "location": "The airport (KeenGamer)"
     },
@@ -3704,7 +3790,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/too-much-baggage.jpg"
   },
   {
     "slug": "watch-it",
@@ -3726,7 +3813,7 @@
     "facts": {
       "protagonist": "Jason",
       "chapter": "Chapter 4",
-      "order": 15,
+      "order": 16,
       "type": "Main mission",
       "giver": "Dre'Quan"
     },
@@ -3739,7 +3826,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/watch-it.jpg"
   },
   {
     "slug": "amateur-hour",
@@ -3763,7 +3851,7 @@
     "facts": {
       "protagonist": "Lucia",
       "chapter": "Chapter 4",
-      "order": 16,
+      "order": 17,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -3775,7 +3863,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/amateur-hour.jpg"
   },
   {
     "slug": "call-nate",
@@ -3798,7 +3887,7 @@
     "facts": {
       "protagonist": "Lucia",
       "chapter": "Chapter 4",
-      "order": 17,
+      "order": 18,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -3833,7 +3922,7 @@
     "facts": {
       "protagonist": "Lucia",
       "chapter": "Chapter 4",
-      "order": 18,
+      "order": 19,
       "type": "Main mission",
       "giver": "Nate"
     },
@@ -3846,7 +3935,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/cash-injections.jpg"
   },
   {
     "slug": "dirty-work",
@@ -3868,7 +3958,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 19,
+      "order": 20,
       "type": "Main mission",
       "protagonist": "Lucia and Jason",
       "giver": "Raina"
@@ -3882,7 +3972,8 @@
       "techwiser-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/dirty-work.jpg"
   },
   {
     "slug": "nate-will-be-in-touch",
@@ -3904,7 +3995,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 20,
+      "order": 21,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -3938,7 +4029,7 @@
     "facts": {
       "protagonist": "Jason",
       "chapter": "Chapter 4",
-      "order": 21,
+      "order": 22,
       "type": "Main mission",
       "giver": "Andrés",
       "location": "A nightclub (KeenGamer)"
@@ -3952,7 +4043,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/adventures-in-babysitting.jpg"
   },
   {
     "slug": "rafas-kidnapping",
@@ -3972,7 +4064,7 @@
     "facts": {
       "protagonist": "Jason",
       "chapter": "Chapter 4",
-      "order": 22,
+      "order": 23,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -3981,7 +4073,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/rafas-kidnapping.jpg"
   },
   {
     "slug": "fresh-evidence",
@@ -4003,7 +4096,7 @@
     "facts": {
       "protagonist": "Jason",
       "chapter": "Chapter 4",
-      "order": 23,
+      "order": 24,
       "type": "Main mission",
       "giver": "Dre'Quan"
     },
@@ -4016,7 +4109,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/fresh-evidence.jpg"
   },
   {
     "slug": "childs-play",
@@ -4037,7 +4131,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 24,
+      "order": 25,
       "type": "Main mission",
       "reward": "Family Matters trophy (Bronze, 15G)",
       "protagonist": "Lucia and Jason"
@@ -4050,7 +4144,8 @@
       "powerpyx-trophy-guide"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/childs-play.jpg"
   },
   {
     "slug": "this-is-a-free-call-from",
@@ -4072,7 +4167,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 25,
+      "order": 26,
       "type": "Optional mission",
       "protagonist": "Lucia"
     },
@@ -4109,7 +4204,7 @@
     "facts": {
       "protagonist": "Lucia",
       "chapter": "Chapter 4",
-      "order": 26,
+      "order": 27,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -4121,7 +4216,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/power-play.jpg"
   },
   {
     "slug": "close-surveillance",
@@ -4145,7 +4241,7 @@
     "facts": {
       "protagonist": "Jason",
       "chapter": "Chapter 4",
-      "order": 27,
+      "order": 28,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -4156,7 +4252,8 @@
       "techwiser-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/close-surveillance.jpg"
   },
   {
     "slug": "delivery-method",
@@ -4180,7 +4277,7 @@
     "facts": {
       "protagonist": "Jason",
       "chapter": "Chapter 4",
-      "order": 28,
+      "order": 29,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -4192,7 +4289,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/delivery-method.jpg"
   },
   {
     "slug": "team-building",
@@ -4216,7 +4314,7 @@
     "facts": {
       "protagonist": "Lucia",
       "chapter": "Chapter 4",
-      "order": 29,
+      "order": 30,
       "type": "Main mission",
       "giver": "Kordell"
     },
@@ -4229,7 +4327,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/team-building.jpg"
   },
   {
     "slug": "fully-catered",
@@ -4251,7 +4350,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 30,
+      "order": 31,
       "type": "Main mission",
       "protagonist": "Lucia and Jason"
     },
@@ -4264,7 +4363,8 @@
       "techwiser-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/fully-catered.jpg"
   },
   {
     "slug": "heist-plans-in-place",
@@ -4285,7 +4385,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 31,
+      "order": 32,
       "type": "Main mission"
     },
     "confidence": "corroborated",
@@ -4317,7 +4417,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 32,
+      "order": 33,
       "type": "Main mission",
       "reward": "DWNFALL trophy (Bronze, 15G)",
       "protagonist": "Lucia and Jason",
@@ -4333,7 +4433,8 @@
       "techwiser-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/headliners.jpg"
   },
   {
     "slug": "vcia-takedown",
@@ -4357,7 +4458,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 33,
+      "order": 34,
       "type": "Main mission",
       "reward": "Hi-Jacked trophy (Bronze, 25G)",
       "protagonist": "Lucia and Jason",
@@ -4376,18 +4477,21 @@
       "keengamer-walkthrough"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/vcia-takedown.jpg"
   },
   {
     "slug": "tie-up-loose-ends",
     "name": "Tie Up Loose Ends",
-    "summary": "Mandatory Chapter 4 story mission; GTABase gives no lead, giver or reward for it yet.",
+    "summary": "A Chapter 4 waiting step after VCIA Takedown: Raul never calls, Valentina does, and a note at the Y Hotel front desk then starts Sunset.",
     "body": [
-      "GTABase's mission page classes it as a mandatory story mission, number 109 in its story order, and marks it as required for 100% completion.",
-      "GTABase's page names no playable lead for it.",
-      "GTABase lists no trophy or achievement for it.",
-      "GTABase had not published its step-by-step walkthrough for this mission when checked, so it gives no start point, reward or unlocks.",
-      "PowerPyx's walkthrough hub lists it in Chapter 4, after VCIA Takedown but still had no page for it when re-checked."
+      "PowerPyx and GTABase both describe it as a waiting period, not a mission with a marker: it appears in the map's story list as a mandatory main mission with a pink icon, and can be done from anywhere once VCIA Takedown is over.",
+      "GTABase: Jason and Lucia wait for Raul to get in touch about selling the hard drive, but his call never comes, however long you wait. Valentina calls instead with news of the sale and says you can call her back to speed things up.",
+      "Call her back from Jason's or Lucia's phone, or pick the objective on the map to dial her (that call is Call Valentina Back). After some more time a note is left at the Y Hotel front desk; picking it up starts Sunset, which ends Tie Up Loose Ends.",
+      "GTABase says calling Valentina is not strictly needed, but without it Sunset only appears after a longer wait.",
+      "While you wait, Yasmani's optional bank job That's Where The Money Is... opens and is a good way to earn money; PowerPyx's next page after this one is that job.",
+      "No reward, trophy, choice or collectible is listed by either guide. GTABase marks it as needed for 100% and says it cannot be missed.",
+      "Disagreement: GTABase names Raul as the mission giver; PowerPyx lists Jason or Lucia. GTABase numbers it mission 96 of the story in chronological order."
     ],
     "tags": [
       "chapter 4",
@@ -4396,17 +4500,28 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 34,
-      "type": "Main mission"
+      "order": 35,
+      "type": "Main mission",
+      "protagonist": "Lucia and Jason",
+      "giver": "Raul (GTABase); Jason or Lucia (PowerPyx)",
+      "location": "Anywhere (no map marker)",
+      "reward": "None",
+      "unlocks": [
+        "Call Valentina Back",
+        "Sunset",
+        "That's Where The Money Is... (opens meanwhile)"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "gtabase-missions",
-      "gtabase-tie-up-loose-ends"
+      "gtabase-tie-up-loose-ends",
+      "r9-ppx-tie-up-loose-ends"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "image": "/images/missions/tie-up-loose-ends.jpg"
   },
   {
     "slug": "thats-where-the-money-is",
@@ -4431,7 +4546,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 35,
+      "order": 36,
       "type": "Optional mission",
       "giver": "Yasmani",
       "location": "Cafe Orquidea, Ocean Beach, Vice Beach",
@@ -4457,18 +4572,18 @@
       "keengamer-walkthrough"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/thats-where-the-money-is.jpg"
   },
   {
     "slug": "call-valentina-back",
     "name": "Call Valentina Back",
-    "summary": "Mandatory Chapter 4 story mission; GTABase gives no lead, giver or reward for it yet.",
+    "summary": "A phone call in Chapter 4: after VCIA Takedown, call Valentina back about the hard-drive sale and Sunset comes sooner.",
     "body": [
-      "GTABase's mission page classes it as a mandatory story mission, number 110 in its story order, and marks it as required for 100% completion.",
-      "GTABase's page names no playable lead for it.",
-      "GTABase lists no trophy or achievement for it.",
-      "GTABase had not published its step-by-step walkthrough for this mission when checked, so it gives no start point, reward or unlocks.",
-      "PowerPyx's walkthrough hub lists it in Chapter 4 but still had no page for it when re-checked."
+      "PowerPyx: after VCIA Takedown Valentina calls with an update on selling the hard drive and says calling her back will speed things up.",
+      "Whenever the objective is available, dial Valentina from Jason's or Lucia's phone, or pick the objective on the map to call her automatically. Doing so makes the next mission, Sunset, appear sooner than if you carry on with other activities.",
+      "PowerPyx lists Valentina as the giver, no reward, and numbers it the 104th main mission. GTABase says the call is not strictly needed, only quicker.",
+      "It runs alongside Tie Up Loose Ends, the waiting step after VCIA Takedown."
     ],
     "tags": [
       "chapter 4",
@@ -4477,16 +4592,24 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 36,
-      "type": "Main mission"
+      "order": 37,
+      "type": "Main mission",
+      "protagonist": "Lucia and Jason",
+      "giver": "Valentina",
+      "location": "Anywhere (by phone)",
+      "reward": "None",
+      "unlocks": [
+        "Sunset"
+      ]
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "gtabase-missions",
-      "gtabase-call-valentina-back"
+      "gtabase-call-valentina-back",
+      "r9-ppx-call-valentina-back"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-22",
     "spoiler": true
   },
   {
@@ -4508,7 +4631,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 37,
+      "order": 38,
       "type": "Main mission",
       "protagonist": "Lucia and Jason"
     },
@@ -4521,7 +4644,8 @@
       "keengamer-walkthrough"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/sunset.jpg"
   },
   {
     "slug": "starting-from-zero",
@@ -4542,7 +4666,7 @@
     ],
     "facts": {
       "chapter": "Chapter 4",
-      "order": 38,
+      "order": 39,
       "type": "Main mission",
       "reward": "Top Of The World, Ma trophy (per PowerPyx)"
     },
@@ -4554,7 +4678,8 @@
       "powerpyx-trophy-guide"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/starting-from-zero.jpg"
   },
   {
     "slug": "bird-in-the-hand",
@@ -4589,7 +4714,8 @@
       "keengamer-walkthrough"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/bird-in-the-hand.jpg"
   },
   {
     "slug": "taking-liberties",
@@ -4619,7 +4745,8 @@
       "gtabase-taking-liberties"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/taking-liberties.jpg"
   },
   {
     "slug": "doggie-bag",
@@ -4659,7 +4786,8 @@
       "gamesgg-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/doggie-bag.jpg"
   },
   {
     "slug": "vc-baby",
@@ -4734,7 +4862,8 @@
       "keengamer-walkthrough"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/operation-savage-glory.jpg"
   },
   {
     "slug": "honest-abe",
@@ -4769,7 +4898,8 @@
       "powerpyx-ultimate-edition-rewards"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/honest-abe.jpg"
   },
   {
     "slug": "unfinished-business",
@@ -4799,7 +4929,8 @@
       "gtabase-unfinished-business"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/unfinished-business.jpg"
   },
   {
     "slug": "pay-abes-fee-chapter-5",
@@ -4862,7 +4993,8 @@
       "gtabase-protective-custody"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/protective-custody.jpg"
   },
   {
     "slug": "the-end-of-the-road",
@@ -4943,7 +5075,8 @@
       "r8-ps-shirleys-rum"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/shirley-get-shirleys-rum.jpg"
   },
   {
     "slug": "shirley-steal-the-scooter",
@@ -4987,7 +5120,8 @@
       "r8-poly-peggy-scooter"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/shirley-steal-the-scooter.jpg"
   },
   {
     "slug": "kirk-search-for-the-skunk-ape",
@@ -5023,7 +5157,8 @@
       "pg-tree-effigies"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/kirk-search-for-the-skunk-ape.jpg"
   },
   {
     "slug": "kirk-search-for-tree-effigies",
@@ -5058,7 +5193,8 @@
       "pg-tree-effigies"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/kirk-search-for-tree-effigies.jpg"
   },
   {
     "slug": "kirk-help-kirk-find-mr-mangrove",
@@ -5135,7 +5271,8 @@
       "ign-kyle-check-out-mckittrick-farm"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/kyle-check-out-mckittrick-farm.jpg"
   },
   {
     "slug": "kyle-collect-chemicals-for-kyle",
@@ -5172,7 +5309,8 @@
       "powerpyx-collect-chemicals-for-kyle"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/kyle-collect-chemicals-for-kyle.jpg"
   },
   {
     "slug": "kyle-buddy",
@@ -5209,7 +5347,8 @@
       "powerpyx-buddy-check-on-kyle"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/kyle-buddy.jpg"
   },
   {
     "slug": "moses-steal-vehicles-for-moses",
@@ -5254,7 +5393,8 @@
       "r8-pcg-money"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/moses-steal-vehicles-for-moses.jpg"
   },
   {
     "slug": "bret-vogel-veteran-hunted",
@@ -5293,7 +5433,8 @@
       "powerpyx-veteran-hunted-meet-bret"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/bret-vogel-veteran-hunted.jpg"
   },
   {
     "slug": "bret-vogel-brets-hunting-decks",
@@ -5366,7 +5507,8 @@
       "powerpyx-thrillbillies-check-out-the-mud-club"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/billy-thrillbillies.jpg"
   },
   {
     "slug": "billy-twist-wrist-smash-grab",
@@ -5402,7 +5544,8 @@
       "powerpyx-twist-wrist-smash-grab-join-billy-on-a-job"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/billy-twist-wrist-smash-grab.jpg"
   },
   {
     "slug": "billy-mall-rats",
@@ -5440,7 +5583,8 @@
       "powerpyx-mall-rats"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/billy-mall-rats.jpg"
   },
   {
     "slug": "billy-the-impaler",
@@ -5548,7 +5692,8 @@
       "powerpyx-join-a-street-race"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/yago-join-a-street-race.jpg"
   },
   {
     "slug": "yago-bumper-to-bumper",
@@ -5588,7 +5733,8 @@
       "r8gb-strangers-bumper-to-bumper"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/yago-bumper-to-bumper.jpg"
   },
   {
     "slug": "yago-race-against-yago",
@@ -5628,7 +5774,8 @@
       "gtabase-missions"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/yago-race-against-yago.jpg"
   },
   {
     "slug": "yago-brother-to-brother",
@@ -5698,7 +5845,8 @@
       "powerpyx-climbing-the-cellerichain"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/andy-climbing-the-cellerichain.jpg"
   },
   {
     "slug": "andy-pay-the-cellerica-fee",
@@ -5868,7 +6016,8 @@
       "powerpyx-fences"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/yasmani-yasmanis-atm-jobs.jpg"
   },
   {
     "slug": "yasmani-yasmanis-payday-loans-jobs",
@@ -5904,7 +6053,8 @@
       "powerpyx-fences"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/yasmani-yasmanis-payday-loans-jobs.jpg"
   },
   {
     "slug": "yasmani-tail-the-security-van",
@@ -5975,7 +6125,8 @@
       "powerpyx-clonin-keys"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/randy-randys-wish-list.jpg"
   },
   {
     "slug": "tyrone-take-out-kitty-litter",
@@ -6008,7 +6159,8 @@
       "powerpyx-all-kitty-litter-lab-locations"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/tyrone-take-out-kitty-litter.jpg"
   },
   {
     "slug": "tyrone-spin-on-this",
@@ -6076,7 +6228,8 @@
       "powerpyx-magazines"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/dunk-dunks-robbery-tips.jpg"
   },
   {
     "slug": "eddie-acosta-attend-eddie-acostas-party",
@@ -6111,7 +6264,8 @@
       "powerpyx-attend-eddie-acostas-party"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/eddie-acosta-attend-eddie-acostas-party.jpg"
   },
   {
     "slug": "pilot-pete-the-last-mile-passing-the-torch",

@@ -48,7 +48,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/american-crocodile.jpg"
   },
   {
     "slug": "american-red-fox",
@@ -97,7 +98,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/blue-axanthic-iguana.jpg"
   },
   {
     "slug": "box-turtle",
@@ -121,7 +123,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/box-turtle.jpg"
   },
   {
     "slug": "eastern-cottontail-rabbit",
@@ -145,7 +148,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/eastern-cottontail-rabbit.jpg"
   },
   {
     "slug": "eastern-spotted-skunk",
@@ -196,7 +200,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/gray-fox.jpg"
   },
   {
     "slug": "leonida-bobcat",
@@ -269,7 +274,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/leonida-wild-turkey.jpg"
   },
   {
     "slug": "leonida-wild-white-tom",
@@ -296,7 +302,8 @@
       "pushsquare-bret-decks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/leonida-wild-white-tom.jpg"
   },
   {
     "slug": "mosaic-mottled-duck",
@@ -321,7 +328,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/mosaic-mottled-duck.jpg"
   },
   {
     "slug": "nile-monitor",
@@ -347,7 +355,8 @@
       "pushsquare-bret-decks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/nile-monitor.jpg"
   },
   {
     "slug": "northern-coyote",
@@ -371,7 +380,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/northern-coyote.jpg"
   },
   {
     "slug": "nutria",
@@ -397,7 +407,8 @@
       "pushsquare-bret-decks"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/nutria.jpg"
   },
   {
     "slug": "piebald-whitetail-buck",
@@ -422,7 +433,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/piebald-whitetail-buck.jpg"
   },
   {
     "slug": "round-tailed-muskrat",
@@ -446,7 +458,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/round-tailed-muskrat.jpg"
   },
   {
     "slug": "snapping-turtle",
@@ -470,7 +483,8 @@
       "dayone-hunting"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/snapping-turtle.jpg"
   },
   {
     "slug": "whitetail-buck",

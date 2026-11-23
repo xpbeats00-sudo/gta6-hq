@@ -23,7 +23,7 @@ use serde_json::Value;
 use tower::ServiceBuilder;
 use tower_http::{services::ServeDir, set_header::SetResponseHeaderLayer};
 
-use crate::{content, discord, media, search, settings, tiles, update, userdata, validate};
+use crate::{backup, content, discord, media, search, settings, tiles, update, userdata, validate};
 
 #[derive(Clone)]
 pub struct AppState {
@@ -138,6 +138,11 @@ pub fn router(state: AppState) -> Router {
             get(userdata_read)
                 .post(userdata_write)
                 .layer(DefaultBodyLimit::max(userdata::MAX_REQUEST_BYTES)),
+        )
+        // A backup of the saved data and settings, written to the reader's Downloads folder.
+        .route(
+            "/api/backup",
+            post(backup_write).layer(DefaultBodyLimit::max(backup::MAX_REQUEST_BYTES)),
         )
         .route("/api/update", get(update_status))
         .route("/api/update/download", post(update_download))
@@ -374,6 +379,16 @@ async fn userdata_write(State(state): State<AppState>, Json(changes): Json<Value
         Ok(Err(userdata::Error::Invalid(reason))) => (StatusCode::BAD_REQUEST, reason).into_response(),
         Ok(Err(userdata::Error::Unwritable(reason))) => (StatusCode::INTERNAL_SERVER_ERROR, reason).into_response(),
         _ => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
+    }
+}
+
+/// Write the backup the page built and answer with where it went: `{ "path": "…" }`.
+async fn backup_write(State(state): State<AppState>, Json(body): Json<Value>) -> Response {
+    let root = state.root.clone();
+    match tokio::task::spawn_blocking(move || backup::write(&backup::folder(&root), &body)).await {
+        Ok(Ok(path)) => Json(serde_json::json!({ "path": path.display().to_string() })).into_response(),
+        Ok(Err(reason)) => (StatusCode::BAD_REQUEST, reason).into_response(),
+        Err(_) => StatusCode::INTERNAL_SERVER_ERROR.into_response(),
     }
 }
 

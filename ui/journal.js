@@ -60,7 +60,14 @@
   UserStore.toggle = (part, key) => {
     const on = toggle(part, key);
     if (on && part === 'favourites') log('saved', { key, name: nameOf(key), detail: 'Favourite', ...(key.startsWith('e:') ? placeOf(key.slice(2)) : {}) });
-    if (on && part === 'discovered') { const t = resolve(key); log('discovered', { ref: key, name: t?.entry.name || key, ...placeOf(key) }); }
+    if (on && part === 'discovered') {
+      // A map pin with no entry is kept as "p:name@x,y" (foundKey in app.js): its name and place are in the key.
+      const at = key.startsWith('p:') ? key.split('@').pop().split(',').map(Number) : null;
+      const t = at ? null : resolve(key);
+      // The pin's name as the map shows it now, so a spoiler pin is logged as "Spoiler", not by its real name.
+      const pin = at && typeof mapPins === 'function' ? mapPins().find((p) => pinKey(p) === key) : null;
+      log('discovered', { ref: key, name: at ? (pin ? pin.name : nameOf(key)) : (t ? (isHidden(t.section, t.entry) ? 'Spoiler' : t.entry.name) : key), ...(at ? { x: at[0], y: at[1] } : placeOf(key)) });
+    }
     return on;
   };
   const tick = UserStore.tick.bind(UserStore);

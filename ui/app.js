@@ -703,13 +703,16 @@ function mountList(root, { items, text, sorts, render, page = LIST_PAGE, officia
 
 /** A grid of entry cards with the list controls. */
 function mountEntryList(root, section, entries, kicker, gridClass) {
+  // Missions open in story order, chapter by chapter, shown whole.
+  const story = section === 'missions';
   return mountList(root, {
     items: entries,
     text: (entry) => filterText(section, entry),
-    sorts: ENTRY_SORTS,
+    sorts: story ? [{ key: 'story', label: 'Story order', compare: storyCompare }, ...ENTRY_SORTS.filter((s) => s.key !== 'default')] : ENTRY_SORTS,
+    page: story ? 1000 : LIST_PAGE,
     official: (entry) => entry.confidence === 'official',
     // The large "feature" tiles only make sense in the curated order.
-    render: (visible, sort) => entryGrid(section, visible, kicker, sort === 'default' ? gridClass : ''),
+    render: (visible, sort) => (sort === 'story' ? missionStory(visible) : entryGrid(section, visible, kicker, sort === 'default' ? gridClass : '')),
   });
 }
 
@@ -1153,6 +1156,78 @@ function renderEncyclopedia() {
   });
 }
 
+// ---------- missions in story order ----------
+// Chapter by chapter, each mission numbered in the order PowerPyx's walkthrough plays them (the
+// "order" fact), optional missions in their place, and each chapter's Strangers and Freaks jobs
+// after the story, strand by strand.
+
+const chapterRank = (chapter) => {
+  if (chapter === 'Prologue') return 0;
+  const m = /^Chapter (\d+)/.exec(chapter || '');
+  return m ? Number(m[1]) : 99;
+};
+/** 0: the chapter's own list or overview, 1: the story (with optional missions), 2: strangers and side jobs. */
+const missionPart = (entry) => {
+  const type = entry.facts?.type || '';
+  if (/list|overview/i.test(type)) return 0;
+  if (/stranger|side mission/i.test(type)) return 2;
+  return 1;
+};
+const orderOf = (entry) => (Number.isFinite(Number(entry.facts?.order)) && entry.facts?.order !== undefined ? Number(entry.facts.order) : Infinity);
+function storyCompare(a, b) {
+  return chapterRank(a.facts?.chapter) - chapterRank(b.facts?.chapter)
+    || missionPart(a) - missionPart(b)
+    || (missionPart(a) === 2 ? String(a.facts?.giver || '').localeCompare(String(b.facts?.giver || '')) : 0)
+    || orderOf(a) - orderOf(b)
+    || byName(a, b);
+}
+
+/** The main story from the Prologue to the last mission, optional missions left out: for Previous and Next. */
+function storyLine() {
+  return (state.wiki.missions || []).filter((e) => missionPart(e) === 1 && chapterRank(e.facts?.chapter) < 99
+    && /main/i.test(e.facts?.type || '') && orderOf(e) !== Infinity).sort(storyCompare);
+}
+
+const PART_TITLES = ['About this chapter', 'The story, in order', 'Strangers and Freaks, side jobs'];
+function missionStory(entries) {
+  const chapters = [];
+  for (const entry of entries.slice().sort(storyCompare)) {
+    const title = chapterRank(entry.facts?.chapter) < 99 ? entry.facts.chapter : 'Across the game';
+    let ch = chapters[chapters.length - 1];
+    if (!ch || ch.title !== title) chapters.push(ch = { title, parts: [[], [], []] });
+    ch.parts[missionPart(entry)].push(entry);
+  }
+  const row = (entry, n, kicker) => `<li class="story-row">
+      <span class="story-n" aria-hidden="true">${n}</span>
+      ${closable('missions', entry, `<a class="story-link${entry.image && !STORE ? ' has-thumb' : ''}" href="${entryLink('missions', entry.slug)}">
+        ${entry.image && !STORE ? `<img class="story-thumb" src="${esc(entry.image)}" alt="" loading="lazy">` : ''}
+        <span class="story-text"><span class="kicker">${esc(kicker)}</span><b>${esc(entry.name)}</b><span class="story-sum">${esc(entry.summary)}</span></span></a>`)}
+    </li>`;
+  return chapters.map((ch) => `<section class="story-chapter">
+    <h2>${esc(ch.title)}</h2>
+    ${ch.parts.map((items, part) => {
+      if (!items.length) return '';
+      let n = 0;
+      return `<h3 class="story-part">${PART_TITLES[part]}</h3><ol class="story-list">${items.map((e) => {
+        const type = e.facts?.type || 'Mission';
+        if (part === 1) { n += 1; return row(e, orderOf(e) === Infinity ? '·' : n, type); }
+        if (part === 2) return row(e, orderOf(e) === Infinity ? '·' : orderOf(e), [e.facts?.giver, type].filter(Boolean).join(', '));
+        return row(e, '·', type);
+      }).join('')}</ol>`;
+    }).join('')}
+  </section>`).join('');
+}
+
+/** Previous and next story missions, for a mission's own page. */
+function storyNav(entry) {
+  const line = storyLine();
+  const i = line.findIndex((e) => e.slug === entry.slug);
+  if (i < 0) return '';
+  const link = (e, label) => (e ? `<a class="story-step" href="${entryLink('missions', e.slug)}"><span class="kicker">${label}${e.facts?.chapter !== entry.facts?.chapter ? `, ${esc(e.facts.chapter)}` : ''}</span><b>${esc(isHidden('missions', e) ? 'Spoiler' : e.name)}</b></a>` : '<span></span>');
+  return `<nav class="story-nav" aria-label="Story order">${link(line[i - 1], 'Previous mission')}
+    <span class="story-at muted">Story mission ${i + 1} of ${line.length}</span>${link(line[i + 1], 'Next mission')}</nav>`;
+}
+
 function renderCategory(key) {
   const cat = category(key);
   if (!cat) return renderNotFound();
@@ -1194,6 +1269,7 @@ function renderEntry(key, slug) {
         <p class="lede">${esc(entry.summary)}</p>
         ${paragraphs(entry)}
         ${facts(key, entry)}
+        ${key === 'missions' ? storyNav(entry) : ''}
         ${mapLink(key, entry)}
         ${guideSlot(`#/wiki/${key}/${slug}`)}
         ${related(entry)}
@@ -1562,6 +1638,8 @@ function shortRun(spots, start, width, height) {
 
 /** A stable name for a pin, for favourites and collections: its entry, or its name and place. */
 const pinKey = (pin) => (pin.ref ? `e:${pin.ref}` : `p:${pin.keyName || pin.name}@${pin.x.toFixed(3)},${pin.y.toFixed(3)}`);
+/** What "Mark discovered" saves for a pin: its entry (shared with the entry page), or the pin itself. */
+const foundKey = (pin) => pin.ref || pinKey(pin);
 
 /** How near counts as "nearby", from the Settings page (map widths: about 2%, 4% or 7%). */
 const NEAR_RADIUS = { small: 0.02, medium: 0.04, large: 0.07 };
@@ -1587,7 +1665,7 @@ function pinCard(pin, categoryLabel, extra = {}) {
   const link = target && !pin.hidden ? entryLink(target.section, target.entry.slug) : '';
   const key = pinKey(pin);
   const fav = UserStore.has('favourites', key);
-  const found = pin.ref && UserStore.has('discovered', pin.ref);
+  const found = UserStore.has('discovered', foundKey(pin));
   const i = extra.index ?? -1;
   const near = extra.nearby || [];
   const related = extra.related || [];
@@ -1600,7 +1678,7 @@ function pinCard(pin, categoryLabel, extra = {}) {
       ${i >= 0 ? `<div class="map-card-acts" role="group" aria-label="Actions">
         ${link ? `<a class="btn btn-primary btn-small" href="${link}">${icon('book')}Open the entry</a>` : ''}
         <button type="button" class="chip-btn${fav ? ' is-on' : ''}" data-act="fav" aria-pressed="${fav}" title="${fav ? 'Remove from' : 'Add to'} favourites">${favLabel(fav)}</button>
-        ${pin.ref ? `<button type="button" class="chip-btn${found ? ' is-on' : ''}" data-act="found" aria-pressed="${Boolean(found)}" title="Mark as a place you have found in the game">${foundLabel(found)}</button>` : ''}
+        <button type="button" class="chip-btn${found ? ' is-on' : ''}" data-act="found" aria-pressed="${Boolean(found)}" title="Mark as a place you have found in the game">${foundLabel(found)}</button>
         <button type="button" class="chip-btn" data-act="collect" title="Add to one of your collections">${icon('collection')}Collection</button>
         <button type="button" class="chip-btn" data-act="route" title="Add as a stop on your route">${icon('route')}Route</button>
         <button type="button" class="chip-btn" data-act="street" title="Open Street Explorer at this pin">${icon('walk')}Street Explorer</button>
@@ -1670,9 +1748,80 @@ function renderMap(params) {
   const pins = mapPins();
   const categories = pinCategories(pins);
   const categoryOf = new Map(categories.map((c) => [c.key, c]));
-  const dot = (pin, extra = '') => `<i class="pin${extra}" style="background:${categoryOf.get(pin.category).color}"></i>`;
+  // The game's own map icons (Rockstar's, as GTABase cut them out) for the kinds that have one;
+  // other pins keep their category's coloured dot. Files are in images/map-icons/.
+  const KIND_ICON = {
+    // Fences and drop-offs use the game's green fence icon.
+    'Fences': 'fence',
+    'Vehicle Fences': 'fence',
+    'Drop-Off Points': 'fence',
+    "Bank Jobs": 'bank',
+    "Big Bank Jobs": 'bank',
+    "ATMs": 'towable-atm',
+    "Payday Loan Stores": 'payday-loan',
+    "Smash and Grabs": 'smash-n-grab',
+    "Pawn Shops": 'smash-n-grab',
+    "Gang Operations": 'gang-operation',
+    "Kitty Litter Lab Raids": 'gang-operation',
+    "Dunn's Robbery Tips": 'safe',
+    "Garages": 'garage',
+    "Safehouses": 'safehouse',
+    "Standard Gun Shops": 'ammu-nation',
+    "High-End Gun Shops": 'ammu-nation',
+    "Custom Weapons": 'ammu-nation',
+    "Mod Shops": 'mod-shop',
+    "Paint Shops": 'pay-n-spray',
+    "Barbers and Salons": 'haircut',
+    "Tattoo Parlors": 'tattoo',
+    "Gas Stations": 'gas-station',
+    "Convenience Stores": 'convenience-store',
+    "Liquor Stores": 'liquor-store',
+    "Bars": 'bar',
+    "Street Food": 'street-food',
+    "Cafés and Takeout": 'cafe',
+    "Fast Food": 'fast-food',
+    "Train Stations": 'train-station',
+    "Bus Stops": 'bus-stop',
+    "Electronics": 'electronics',
+    "EV Chargers": 'ev-charger',
+    "Streetwear": 'clothing',
+    "Sportswear": 'clothing',
+    "Formalwear": 'clothing',
+    "Souvenirs and Swimwear": 'clothing',
+    "Thrift Shops": 'clothing',
+    "Shoe Shops": 'footwear',
+    "High Heels": 'footwear',
+    "Races": 'race',
+    "Stunt Jumps": 'stunt-jump',
+    "BASE Jumps": 'base-jump',
+    "Fitness": 'gym',
+    "Shooting Range Challenges": 'shooting-range',
+    "Hunting Spots": 'hunting',
+    "Fishing Spots": 'fishing',
+    "Randy's Wish List": 'vehicle-request',
+    "Vehicle Thefts for Moses": 'vehicle-request',
+    "919": 'nightclub',
+    "Car Washes": 'car-wash',
+    "Drones": 'drone-race',
+    "Golf": 'golf',
+    "Vehicle Rentals": 'vehicle-rental',
+    "Kenton's Treasure": 'treasure',
+    "Basketball Hoops": 'basketball',
+    "Comics": 'magazine',
+    "Sculptures": 'waink-sculpture',
+    "Special Vehicles": 'standout-vehicle',
+    "Hunting Supply Shops": 'hunting',
+  };
+  const blipOf = (pin) => (pin.kind && KIND_ICON[pin.kind] ? `/images/map-icons/${KIND_ICON[pin.kind]}.webp` : '');
+  const dot = (pin, extra = '') => {
+    const blip = blipOf(pin);
+    if (blip) return `<img class="pin-blip${extra ? ' pin-blip-map' : ''}" src="${blip}" alt="" draggable="false">`;
+    return `<i class="pin${extra}" style="background:${categoryOf.get(pin.category).color}"></i>`;
+  };
   const off = new Set(); // pin categories switched off
   const expanded = new Set(); // pin categories listed in full
+  let hideFound = prefs.get('map-hide-found') === '1'; // hide pins marked discovered (kept between visits)
+  const isFound = (i) => UserStore.has('discovered', foundKey(pins[i]));
   const explore = params.get('explore') === '1';
 
   view.innerHTML = `
@@ -1703,6 +1852,7 @@ function renderMap(params) {
           <button type="button" class="link-btn" data-all="off">Hide all</button>
         </div>
         <div class="map-near-filter">
+          <label class="opt"><input type="checkbox" data-hide-found ${hideFound ? 'checked' : ''}><span>Hide places I have marked discovered</span></label>
           <label class="opt"><input type="checkbox" data-near-only><span>Only places near the open pin (or the centre of the view)</span></label>
           <label class="list-sort"><span>Nearby means</span> <select data-near-radius aria-label="How near counts as nearby">
             ${[['small', 'Close'], ['medium', 'Medium'], ['large', 'Wide']].map(([v, l]) => `<option value="${v}" ${(prefs.get('near-radius') || 'medium') === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
@@ -1911,11 +2061,14 @@ function renderMap(params) {
     const marker = L.marker(point(pin.x, pin.y), {
       title: pin.name,
       alt: pin.name,
-      icon: L.divIcon({ className: `pin-icon pin-${pin.category === 'regions' || pin.category === 'districts' ? 'big' : 'small'} pin-src-${pin.via === 'gamersky' ? 'gs' : 'hand'}`, html: dot(pin, ' pin-map'), iconSize: [26, 26], iconAnchor: [13, 13] }),
+      icon: blipOf(pin)
+        // A map icon is a pin with a tail: its tip, not its middle, sits on the place.
+        ? L.divIcon({ className: `pin-icon pin-small pin-has-blip pin-src-${pin.via === 'gamersky' ? 'gs' : 'hand'}`, html: dot(pin, ' pin-map'), iconSize: [28, 32], iconAnchor: [14, 32] })
+        : L.divIcon({ className: `pin-icon pin-${pin.category === 'regions' || pin.category === 'districts' ? 'big' : 'small'} pin-src-${pin.via === 'gamersky' ? 'gs' : 'hand'}`, html: dot(pin, ' pin-map'), iconSize: [26, 26], iconAnchor: [13, 13] }),
     });
     // Hover: the name, its kind and (when there is one) its picture, before clicking.
     marker.bindTooltip(() => {
-      const marks = [UserStore.has('favourites', pinKey(pin)) ? 'Favourite' : '', pin.ref && UserStore.has('discovered', pin.ref) ? 'Discovered' : ''].filter(Boolean).join(' · ');
+      const marks = [UserStore.has('favourites', pinKey(pin)) ? 'Favourite' : '', UserStore.has('discovered', foundKey(pin)) ? 'Discovered' : ''].filter(Boolean).join(' · ');
       return `${pin.image && !pin.hidden ? `<img src="${esc(pin.image)}" alt="" loading="lazy">` : ''}<b>${esc(pin.name)}</b><span>${esc(pin.kind || categoryOf.get(pin.category).label)}${marks ? ` · ${marks}` : ''}</span><span class="pin-hover-src">${pin.via === 'gamersky' ? 'Approximate (Gamersky map)' : 'Approximate (placed by hand)'}</span>`;
     },
       { direction: 'top', offset: [0, -10], className: 'pin-hover', opacity: 1 });
@@ -1934,6 +2087,7 @@ function renderMap(params) {
       linkLayer.clearLayers();
       // Closed by the reader (not replaced by another card): nothing is chosen any more.
       if (selected === i && mode === '2d') { selected = -1; view.querySelectorAll('.map-lists [data-marker].is-selected').forEach((b) => b.classList.remove('is-selected')); }
+      if (hideFound && selected === -1 && isFound(i)) drawLists(); // a pin just marked discovered now hides
     });
     (layers[pin.category] ||= L.layerGroup().addTo(map)).addLayer(marker);
     return marker;
@@ -1948,7 +2102,9 @@ function renderMap(params) {
   // ---------- clustering: far out, crowded small pins gather into counted bubbles ----------
   const clusterLayer = L.layerGroup().addTo(map);
   let filtered = null; // indexes matching the text filter, or null
-  const visible = (i) => !off.has(pins[i].category) && (!filtered || filtered.has(i));
+  // A discovered pin hides while "Hide discovered" is on, except the one whose card is open.
+  const doneHidden = (i) => hideFound && i !== selected && isFound(i);
+  const visible = (i) => !off.has(pins[i].category) && (!filtered || filtered.has(i)) && !doneHidden(i);
   function drawClusters() {
     if (state.map !== map) return; // a flight still finishing after the page changed
     clusterLayer.clearLayers();
@@ -1989,13 +2145,13 @@ function renderMap(params) {
 
   /** Apply the text filter to the map itself (not only the lists), in 2D and 3D. */
   function applyFilterToMap() {
-    markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', Boolean(filtered) && !filtered.has(i)));
-    three?.filter(filtered ? [...filtered].filter((i) => !off.has(pins[i].category)) : (off.size ? pins.map((_, i) => i).filter((i) => !off.has(pins[i].category)) : null));
+    markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', (Boolean(filtered) && !filtered.has(i)) || doneHidden(i)));
+    three?.filter(filtered || off.size || hideFound ? pins.map((_, i) => i).filter(visible) : null);
     drawClusters();
     drawDensity();
     drawHud();
   }
-  map.on('layeradd', () => { if (filtered) markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', !filtered.has(i))); });
+  map.on('layeradd', () => { if (filtered || hideFound) markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', (Boolean(filtered) && !filtered.has(i)) || doneHidden(i))); });
 
   // ---------- 3D view and Street Explorer ----------
   const wrap = view.querySelector('.map-wrap');
@@ -2068,6 +2224,7 @@ function renderMap(params) {
       three?.select(-1);
       three?.links([]);
       view.querySelectorAll('.map-lists [data-marker].is-selected').forEach((b) => b.classList.remove('is-selected'));
+      if (hideFound && isFound(i)) drawLists();
     });
     fillPinGuides(node, pins[i]).then?.(() => keepCard3dInView(popup));
     pinOpened(i);
@@ -2375,8 +2532,9 @@ function renderMap(params) {
       UserStore.set('favourite-pins', { ...UserStore.get('favourite-pins', {}), [pinKey(pin)]: { name: pin.keyName || pin.name, ...(pin.spoilerMarker ? { spoiler: true } : {}), x: pin.x, y: pin.y, ref: pin.ref || '', kind: pin.kind || categoryOf.get(pin.category).label } });
       b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.innerHTML = favLabel(on);
     } else if (act === 'found') {
-      const on = UserStore.toggle('discovered', pin.ref);
+      const on = UserStore.toggle('discovered', foundKey(pin));
       b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.innerHTML = foundLabel(on);
+      drawLists(); // the tick in the lists and the category's count (the open pin stays until its card closes)
     } else if (act === 'collect') {
       // Kept under its real name, marked as a spoiler; shown under the name the map shows now.
       openCollectionPicker({ key: pinKey(pin), name: pin.keyName || pin.name, label: pin.name, spoiler: pin.spoilerMarker, x: pin.x, y: pin.y, ref: pin.ref || '' });
@@ -2549,12 +2707,14 @@ function renderMap(params) {
   function drawCount() {
     if (!lastCount) return;
     const { matches, narrowed } = lastCount;
-    const shownCount = matches.filter((i) => !off.has(pins[i].category)).length;
-    const onMap = pins.filter((p) => !off.has(p.category)).length;
-    const hiddenNote = off.size ? ` (${off.size} ${off.size === 1 ? 'category' : 'categories'} hidden)` : '';
+    const shownCount = matches.filter((i) => !off.has(pins[i].category) && !doneHidden(i)).length;
+    const onMap = pins.filter((p, i) => !off.has(p.category) && !doneHidden(i)).length;
+    const doneN = hideFound ? pins.filter((p, i) => !off.has(p.category) && doneHidden(i)).length : 0;
+    const notes = [off.size ? `${off.size} ${off.size === 1 ? 'category' : 'categories'} hidden` : '', doneN ? `${doneN} discovered hidden` : ''].filter(Boolean);
+    const hiddenNote = notes.length ? ` (${notes.join(', ')})` : '';
     side.querySelector('.map-count').textContent = narrowed
       ? `${shownCount} of ${onMap} pins ${nearOnly ? 'nearby' : 'match'}${hiddenNote}`
-      : `${onMap} ${onMap === 1 ? 'pin' : 'pins'}${off.size ? ` of ${pins.length}${hiddenNote}` : ''}`;
+      : `${onMap} ${onMap === 1 ? 'pin' : 'pins'}${notes.length ? ` of ${pins.length}${hiddenNote}` : ''}`;
   }
   function drawLists() {
     const words = filter.value.toLowerCase().split(/\s+/).filter(Boolean);
@@ -2574,21 +2734,45 @@ function renderMap(params) {
     drawCount();
     lists.innerHTML = categories.map((c) => {
       const all = pins.filter((pin) => pin.category === c.key).length;
-      const mine = matches.filter((i) => pins[i].category === c.key);
+      const foundN = pins.reduce((n, pin, i) => n + (pin.category === c.key && isFound(i) ? 1 : 0), 0);
+      const mine = matches.filter((i) => pins[i].category === c.key && !doneHidden(i));
+      const trackable = c.key !== 'regions' && c.key !== 'districts';
       // While filtering, show every match; otherwise a page, then "Show all".
       const listed = narrowed || expanded.has(c.key) ? mine : mine.slice(0, MAP_LIST_PAGE);
       if (narrowed && !mine.length) return '';
       return `<section data-category="${esc(c.key)}">
-        <label class="map-toggle"><input type="checkbox" ${off.has(c.key) ? '' : 'checked'} data-toggle="${esc(c.key)}">
-          <span>${esc(c.label)}</span>
-          <b class="map-n">${words.length ? `${mine.length}/${all}` : all}</b></label>
-        <ul class="${off.has(c.key) ? 'is-off' : ''}">${listed.map((i) => `<li><button type="button" data-marker="${i}" class="${i === selected ? 'is-selected' : ''}" title="${esc(pins[i].name)}${pins[i].kind ? ` (${esc(pins[i].kind)})` : ''}">${dot(pins[i])}<span class="row-name">${esc(pins[i].name)}</span>${UserStore.has('favourites', pinKey(pins[i])) ? `<span class="fav-star" title="Favourite">${icon('star-fill')}</span>` : ''}${pins[i].kind && pins[i].kind !== c.label ? `<small>${esc(pins[i].kind)}</small>` : ''}</button></li>`).join('')}</ul>
+        <div class="map-cat-head">
+          <label class="map-toggle"><input type="checkbox" ${off.has(c.key) ? '' : 'checked'} data-toggle="${esc(c.key)}">
+            <span>${esc(c.label)}</span>
+            <b class="map-n">${words.length ? `${mine.length}/${all}` : all}</b></label>
+          ${trackable && foundN ? `<span class="map-found" title="${foundN} of ${all} marked discovered">${icon('check-circle')}${foundN}/${all}</span>` : ''}
+          <span class="map-cat-tools">
+            <button type="button" class="link-btn" data-only="${esc(c.key)}" aria-label="Show only ${esc(c.label)}" data-tip="Show only this kind">Only</button>
+            ${trackable ? `<button type="button" class="link-btn" data-next="${esc(c.key)}" aria-label="Next ${esc(c.label)} not yet discovered" data-tip="Fly to the next one you have not marked discovered">Next</button>` : ''}
+          </span>
+        </div>
+        <ul class="${off.has(c.key) ? 'is-off' : ''}">${listed.map((i) => `<li><button type="button" data-marker="${i}" class="${i === selected ? 'is-selected' : ''}" title="${esc(pins[i].name)}${pins[i].kind ? ` (${esc(pins[i].kind)})` : ''}">${dot(pins[i])}<span class="row-name">${esc(pins[i].name)}</span>${isFound(i) ? `<span class="found-mark" title="Discovered">${icon('check-circle')}</span>` : ''}${UserStore.has('favourites', pinKey(pins[i])) ? `<span class="fav-star" title="Favourite">${icon('star-fill')}</span>` : ''}${pins[i].kind && pins[i].kind !== c.label ? `<small>${esc(pins[i].kind)}</small>` : ''}</button></li>`).join('')}</ul>
         ${listed.length < mine.length ? `<button type="button" class="map-more" data-expand="${esc(c.key)}">Show all ${mine.length}</button>` : ''}
       </section>`;
     }).join('') || `<p class="muted">${nearOnly ? 'No pins near here. Pick a wider "nearby" or move the map.' : words.length ? 'No pin matches that.' : 'No pins yet.'}</p>`;
     applyFilterToMap();
   }
   drawLists();
+
+  /** Flies to the next pin of a kind not yet marked discovered, after the open one, going round. */
+  function nextUnfound(key) {
+    const label = categoryOf.get(key)?.label || key;
+    const pool = pins.map((_, i) => i).filter((i) => pins[i].category === key && !isFound(i) && (!filtered || filtered.has(i)));
+    if (!pool.length) {
+      side.querySelector('.map-count').textContent = `Every ${label} pin${filtered ? ' that matches' : ''} is marked discovered.`;
+      return;
+    }
+    if (off.has(key)) { setCategory(key, true); drawLists(); }
+    const inKind = pins[selected]?.category === key;
+    const i = (inKind ? pool.find((n) => n > selected) : undefined) ?? pool[0];
+    if (narrow()) setSide(false);
+    flyTo(i);
+  }
 
   let filterTimer;
   filter.addEventListener('input', () => {
@@ -2615,10 +2799,20 @@ function renderMap(params) {
     if (button.dataset.marker !== undefined) flyTo(Number(button.dataset.marker));
     if (button.dataset.expand) { expanded.add(button.dataset.expand); drawLists(); }
     if (button.dataset.all) { categories.forEach((c) => setCategory(c.key, button.dataset.all === 'on')); drawLists(); }
+    if (button.dataset.only) {
+      // Pressed again while it is already the only kind shown: everything comes back.
+      const key = button.dataset.only;
+      const already = !off.has(key) && categories.every((c) => c.key === key || off.has(c.key));
+      categories.forEach((c) => setCategory(c.key, already || c.key === key));
+      drawLists();
+      side.querySelector(`[data-only="${CSS.escape(key)}"]`)?.focus();
+    }
+    if (button.dataset.next) nextUnfound(button.dataset.next);
     if (button.dataset.clear !== undefined) { filter.value = ''; drawLists(); filter.focus(); }
   });
   side.addEventListener('change', (e) => {
     if (e.target.dataset.nearOnly !== undefined) { nearOnly = e.target.checked; drawLists(); return; }
+    if (e.target.dataset.hideFound !== undefined) { hideFound = e.target.checked; prefs.set('map-hide-found', hideFound ? '1' : '0'); drawLists(); return; }
     if (e.target.dataset.nearRadius !== undefined) { prefs.set('near-radius', e.target.value); drawLists(); return; }
     const key = e.target.dataset.toggle;
     if (!key) return;
@@ -2753,6 +2947,8 @@ function renderSearch(params) {
     count.textContent = loaded < page.total
       ? `Showing ${loaded} of ${page.total} results`
       : `${page.total} ${page.total === 1 ? 'result' : 'results'}`;
+    // No entry had every word, so these match all but one: say so rather than pass them off as exact.
+    if (page.partial) count.textContent += ' · close matches (no entry has every word you typed)';
     if (append) {
       body.insertAdjacentHTML('beforeend', page.hits.map(row).join(''));
     } else {

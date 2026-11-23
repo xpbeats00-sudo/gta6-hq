@@ -1396,3 +1396,35 @@ body.map-immersive .topbar, body.map-immersive .announce, body.map-immersive .up
 .map3d .maplibregl-marker { z-index: 1; }
 .map3d .maplibregl-popup { z-index: 4; }
 :root:not([data-panels="solid"]) .map3d-popup .maplibregl-popup-content { -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); }
+
+/* ---------- 100% Checklist (hundred.js) ---------- */
+.hundred-top { margin-bottom: var(--s4); }
+.hundred-next { margin-bottom: var(--s4); padding: var(--s4); border: 1px solid var(--border-subtle); border-radius: var(--radius); background: var(--bg-panel); }
+.hundred-next h2 { margin: 0 0 var(--s2); font-size: 1.05rem; }
+.hundred-next ol { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; }
+.hundred-tools { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s2) var(--s3); margin-bottom: var(--s3); }
+.hundred-hide { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; }
+.hundred-list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s2); }
+.hundred-line { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--s2) var(--s3); align-items: center; padding: var(--s3) var(--s4); border: 1px solid var(--border-subtle); border-radius: var(--radius); background: var(--bg-panel); scroll-margin-top: 90px; }
+.hundred-line.is-done { opacity: 0.72; }
+.hundred-line.is-done h3::after { content: ' ✓'; }
+.hundred-name h3 { margin: 0; font-size: 1rem; }
+.hundred-name .muted { font-size: 0.86rem; }
+.hundred-count { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; justify-content: flex-end; }
+.hundred-count input { width: 6.5em; padding: 6px 8px; border: 1px solid var(--border-subtle); border-radius: 8px; background: transparent; color: inherit; font: inherit; text-align: right; }
+.hundred-count input:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+.hundred-count .chip-btn { min-width: 36px; min-height: 36px; justify-content: center; }
+.hundred-line .meter { grid-column: 1 / -1; }
+.hundred-links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 4px var(--s3); font-size: 0.88rem; }
+.hundred-note { margin-top: var(--s4); font-size: 0.86rem; }
+@media (max-width: 640px) {
+  .hundred-line { grid-template-columns: 1fr; }
+  .hundred-count { justify-content: flex-start; }
+}
+
+/* The game's own map icons (images/map-icons) in place of a coloured dot. */
+.pin-blip { flex: none; width: 16px; height: 18px; object-fit: contain; }
+.pin-blip-map { display: block; width: 28px; height: 32px; cursor: pointer; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.55)); transition: transform var(--ease); transform-origin: 50% 100%; }
+.pin-blip-map:hover { transform: scale(1.2); }
+#leonida-map[data-zoom="far"] .pin-has-blip .pin-blip-map { transform: scale(0.5); }
+#leonida-map[data-zoom="mid"] .pin-has-blip .pin-blip-map { transform: scale(0.75); }

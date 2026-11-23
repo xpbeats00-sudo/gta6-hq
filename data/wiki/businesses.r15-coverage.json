@@ -36,7 +36,8 @@
     "body": [
       "PowerPyx lists it as number 12 of 39 illegal gang operations, filed under La Polilla Negra.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "Cultured Vultures and GTA BOOM give the kitchen safe code as 1819; GTA BOOM found it on the last line of an email on the kitchen computer, with the safe under the microwave."
     ],
     "tags": [
       "bay",
@@ -48,16 +49,20 @@
       "polilla",
       "robbery",
       "safehouse",
-      "watson"
+      "watson",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "La Polilla Negra"
+      "owner": "La Polilla Negra",
+      "safe_code": "1819"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe-cv",
+      "safe-gtaboom-watson"
     ],
     "verified": "2026-11-22",
     "spoiler": true
@@ -69,7 +74,8 @@
     "body": [
       "PowerPyx lists it as number 14 of 39 illegal gang operations, filed under Final Chapter.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "Output Lag gives the safe code as 1982, in the clubhouse at The Thirsty Wolf bar; Cultured Vultures has not confirmed a code."
     ],
     "tags": [
       "biker",
@@ -79,16 +85,19 @@
       "hideout",
       "illegal",
       "operation",
-      "robbery"
+      "robbery",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Final Chapter"
+      "owner": "Final Chapter",
+      "safe_code": "1982"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe-outputlag"
     ],
     "verified": "2026-11-22",
     "spoiler": true
@@ -164,7 +173,8 @@
     "body": [
       "PowerPyx lists it as number 19 of 39 illegal gang operations, filed under San4San.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "Output Lag and Cultured Vultures give the safe code as 4124; Output Lag says a note in the back room gives it."
     ],
     "tags": [
       "gang",
@@ -173,16 +183,20 @@
       "robbery",
       "san4san",
       "sneaker",
-      "trade"
+      "trade",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "San4San"
+      "owner": "San4San",
+      "safe_code": "4124"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe-outputlag",
+      "safe-cv"
     ],
     "verified": "2026-11-22",
     "spoiler": true
@@ -289,7 +303,8 @@
     "body": [
       "PowerPyx lists it as number 24 of 39 illegal gang operations, filed under The Guardia Brothers.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "Cultured Vultures and VICE give the safe code as 8046."
     ],
     "tags": [
       "brothers",
@@ -301,16 +316,20 @@
       "saber",
       "shipping",
       "the",
-      "yard"
+      "yard",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "The Guardia Brothers"
+      "owner": "The Guardia Brothers",
+      "safe_code": "8046"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe-cv",
+      "safe-vice"
     ],
     "verified": "2026-11-22",
     "spoiler": true
@@ -322,7 +341,8 @@
     "body": [
       "PowerPyx lists it as number 26 of 39 illegal gang operations, filed under The Guardia Brothers.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "VICE gives the safe code as 1122 and Cultured Vultures as 1965; the guides disagree."
     ],
     "tags": [
       "brothers",
@@ -334,16 +354,20 @@
       "robbery",
       "saber",
       "shipping",
-      "the"
+      "the",
+      "safe code"
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "The Guardia Brothers"
+      "owner": "The Guardia Brothers",
+      "safe_code": "1122 or 1965"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe-cv",
+      "safe-vice"
     ],
     "verified": "2026-11-22",
     "spoiler": true
@@ -500,7 +524,8 @@
       "ppx-100"
     ],
     "verified": "2026-11-22",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/xero-food-mart.jpg"
   },
   {
     "slug": "247-convenience-store",
@@ -653,6 +678,7 @@
       "ppx-100"
     ],
     "verified": "2026-11-22",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/businesses/alpha-convenience-store.jpg"
   }
 ]

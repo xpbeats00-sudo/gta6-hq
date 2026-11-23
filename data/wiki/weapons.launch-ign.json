@@ -4245,7 +4245,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/donnies-knife.jpg"
   },
   {
     "slug": "brontasaurus-bat",

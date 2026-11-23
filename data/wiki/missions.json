@@ -63,7 +63,8 @@
       "powerpyx-walkthrough"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/gear-up.jpg"
   },
   {
     "slug": "chapter-2",
@@ -94,7 +95,8 @@
       "powerpyx-walkthrough"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/whats-in-the-bag.jpg"
   },
   {
     "slug": "chapter-3",
@@ -126,14 +128,15 @@
       "powerpyx-walkthrough"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/welcome-to-vice-city.jpg"
   },
   {
     "slug": "chapter-4",
     "name": "Chapter 4 missions",
-    "summary": "The 34 missions PowerPyx's walkthrough lists for Chapter 4, from Ocean Beach to Starting From Zero.",
+    "summary": "The 35 missions PowerPyx's walkthrough lists for Chapter 4, from Ocean Beach to Starting From Zero.",
     "body": [
-      "In the order the walkthrough gives them: Ocean Beach; Another Life; Pool Day; Company Cars; Lawyer Up; It's A Date!; Party Hard; Pay Abe's Fee; Photo/Shoot; Making Gainz; Blood Sweat and Gear; Too Much Baggage; Watch It; Amateur Hour; Call Nate; Cash Injections; Dirty Work; Nate Will Be in Touch; Adventures in Babysitting; Rafa's Kidnapping; Fresh Evidence; Child's Play; Power Play; Close Surveillance; Delivery Method; Team Building; Fully Catered; Heist Plans in Place; Headliners; VCIA Takedown; Tie Up Loose Ends; Call Valentina Back; Sunset; Starting From Zero.",
+      "In the order the walkthrough gives them: Ocean Beach; Another Life; Pool Day; Company Cars; Lawyer Up; Heavy Lifting; It's A Date!; Party Hard; Pay Abe's Fee; Photo/Shoot; Making Gainz; Blood Sweat and Gear; Too Much Baggage; Watch It; Amateur Hour; Call Nate; Cash Injections; Dirty Work; Nate Will Be in Touch; Adventures in Babysitting; Rafa's Kidnapping; Fresh Evidence; Child's Play; Power Play; Close Surveillance; Delivery Method; Team Building; Fully Catered; Heist Plans in Place; Headliners; VCIA Takedown; Tie Up Loose Ends; Call Valentina Back; Sunset; Starting From Zero.",
       "The walkthrough groups the preparation jobs from Making Gainz to Heist Plans in Place, and the finale, under VCIA Takedown.",
       "Names only. A few are errands more than missions, and guides differ on which to count."
     ],
@@ -155,10 +158,12 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-walkthrough"
+      "powerpyx-walkthrough",
+      "r9-ppx-full-walkthrough"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-22",
+    "spoiler": true,
+    "image": "/images/missions/ocean-beach.jpg"
   },
   {
     "slug": "chapter-5",
@@ -189,7 +194,8 @@
       "powerpyx-walkthrough"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/bird-in-the-hand.jpg"
   },
   {
     "slug": "strangers-and-freaks",
@@ -233,6 +239,7 @@
       "exophase-trophies"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/missions/strangers-and-freaks.jpg"
   }
 ]

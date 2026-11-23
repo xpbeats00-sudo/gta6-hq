@@ -164,7 +164,8 @@
       "tbl-collectibles"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/festive-poodle.jpg"
   },
   {
     "slug": "cartoon-labrador",
@@ -187,7 +188,8 @@
       "tbl-collectibles"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/cartoon-labrador.jpg"
   },
   {
     "slug": "yorkshire-terrier",
@@ -208,7 +210,8 @@
       "tbl-collectibles"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/yorkshire-terrier.jpg"
   },
   {
     "slug": "florida-panther",
