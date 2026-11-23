@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.40**: 123 new pictures, a progress backup, missions in story order, map tracking (hide discovered, Next, Only), a 100% Checklist and safe codes.
 - **0.2.39**: the Rockstar GTA VI guide look, 42 new entries, 56 new and 110 sharper pictures, and cleaner sources.
 - **0.2.38**: a Robbery Planner guide with map runs, smarter search, sharper pictures and better sources.
 - **0.2.37**: a simpler look (five-link top bar, sentence case, six text sizes), Official and Community labels on every entry and picture, and an "Official only" switch.

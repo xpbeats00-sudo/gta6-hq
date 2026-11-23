@@ -2,6 +2,35 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.40 (23 November 2026)
+
+Pictures for missions, animals, businesses and more, a progress backup, missions in story order and map tracking.
+
+- **123 new pictures**, each checked by eye:
+  - 49 animals and fish
+  - 39 businesses (gun stores, pawn shops, tattoo parlours, mod shops, NINE1NINE, Merlin's Palace Casino, Brooks Boatworks)
+  - 19 Strangers and Freaks and story missions
+  - 10 vehicles
+  - 4 places (Gellhorn Fun Fair, Key Lento Marina, the Monument of Leonidan Supremacy, the Triangler Sculpture)
+  - 2 weapons
+- **Three sexualised mission pictures replaced** with clean ones: Bricked Up, Photo/Shoot and The Missing Link. Nothing else was removed.
+- **Mission pictures everywhere:** each row of the Missions list has its picture, and each of the 100% Guide's 16 chapter pages opens with one.
+- **Back up and restore your progress** (Settings, Your data):
+  - one file in your Downloads folder holds every profile's ticks, 100% counts, discovered places, guide ticks, favourites, collections, routes, journal and settings;
+  - restoring saves your current progress first.
+- **Missions in story order:** chapter by chapter, numbered in play order, with optional missions in their place and Strangers and Freaks after the story. Each mission page has Previous and Next.
+- **Tie Up Loose Ends and Call Valentina Back** now have walkthroughs. Heavy Lifting sits after Lawyer Up, as in PowerPyx's full walkthrough.
+- **Map tracking:**
+  - "Hide places I have marked discovered";
+  - a **Next** button for each kind of place, which flies to the next one you haven't found;
+  - an **Only** button that shows one kind;
+  - every pin can now be marked discovered.
+- **100% Checklist page:** every line the game counts toward 100%, with its weight and your counts.
+- **Safe codes** for every safe and door code the guides print, including the Balsero Kitty Litter lab (1999).
+- **Map icons:** the game's own green icons on the map, and fences and drop-off points as new pins.
+- **Fix:** the journal no longer writes a spoiler pin's real name.
+- **Audits:** a picture-gap audit (`docs/audits/PICTURE-GAPS-2026-11-23.md`) and a pre-release audit (`docs/audits/PRE-RELEASE-AUDIT-2026-11-22.md`).
+
 ## 0.2.39 (22 November 2026)
 
 The Rockstar guide look, more entries and sharper pictures.
