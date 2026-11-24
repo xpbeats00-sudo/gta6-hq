@@ -2,6 +2,23 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.42 (24 November 2026)
+
+A "Track and plan" row on Home, a "What's here" panel on every place, a tidier Saved page, and properly styled jump buttons.
+
+- **Track and plan on Home:** a new row after the hero with the tools for playing along:
+  - the Collectible Tracker, showing how many you have ticked;
+  - the 100% Checklist;
+  - Robbery runs, which opens the map with a run already planned;
+  - the Field Manual.
+- **What's here on place pages:** the missions, people, collectibles, businesses and activities at a place are now in one panel, with a row of counts at the top that jumps to each list.
+- **Jump buttons fixed:** the jump buttons on Intel, Missions and place pages showed as plain grey buttons in 0.2.41. They now match the rest of the app in every theme.
+- **Saved:**
+  - favourites are grouped by kind (Characters, Locations, Vehicles…) with counts;
+  - with nothing saved yet, the page just says how to start.
+- **Journal:** each day shows how many records it holds.
+- **Lists remember their sort:** pick "By county" or "By type" on a list, open an entry, and the list is still sorted that way when you come back (until the app is closed).
+
 ## 0.2.41 (23 November 2026)
 
 Routes that follow the roads, lists you can group, pages that link to each other, and a tidier app.
