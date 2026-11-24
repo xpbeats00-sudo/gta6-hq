@@ -2,6 +2,39 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.41 (23 November 2026)
+
+Routes that follow the roads, lists you can group, pages that link to each other, and a tidier app.
+
+- **Map routes follow the roads.** Route legs and robbery runs now run along the roads, bridges and land on Rockstar's map instead of straight lines:
+  - a stretch that has to cross water (an island with no bridge) is dotted blue, and that stop says "by water";
+  - robbery runs are put in order by road distance, so ATM runs are about 22% shorter and bank runs about 7%;
+  - the 3D view draws the same path.
+- **Group any big list.** The sort menu on encyclopedia lists can now group the whole list under headings with counts:
+  - By type, By region (Locations) and By grade (Achievements: Platinum to Bronze)
+  - By manufacturer (Vehicles and Weapons)
+  - By county (Businesses, Activities, Collectibles and Missions)
+  - By lead (Missions: Jason, Lucia, either or both)
+  - By habitat (Wildlife: saltwater, freshwater, land and wetland)
+- **Pages link to each other:**
+  - characters list the missions they give, and Jason's and Lucia's pages list the missions played as them;
+  - place pages list the missions, collectibles, businesses, activities and people there;
+  - factions list their members and the businesses they run;
+  - vehicles and weapons list more from the same maker;
+  - names in a page's Facts (who gives a mission, where it is, a home, an owner, a leader) link to their pages.
+- **Collectible Tracker:** filter by county, and open it from a place page already filtered to that place.
+- **Tidier pages:**
+  - Intel's timeline is grouped by month, week and day, with a jump bar;
+  - Missions show in two columns with a chapter jump bar;
+  - the map's side list folds by kind;
+  - the Encyclopedia hub is grouped, and search filters show how many results each holds.
+- **Menus:** the More menu is grouped into Browse, Track, News and App, and Settings starts with Profile, Appearance and Motion.
+- **On a phone:** Media shows two pictures a row, and tracker rows no longer run off the screen.
+- **Fixes:**
+  - Ambrosia is filed under Kelly County;
+  - "AHOL" and "WAiNK" are spelled as in the game;
+  - the link card no longer shows in the Media gallery.
+
 ## 0.2.40 (23 November 2026)
 
 Pictures for missions, animals, businesses and more, a progress backup, missions in story order and map tracking.
