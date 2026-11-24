@@ -40,6 +40,9 @@ pub struct Page {
     pub limit: usize,
     /// True when no entry matched every word, so these are entries matching all but one.
     pub partial: bool,
+    /// How many entries match in each section, whatever section the query is limited to,
+    /// so the section filters can show their counts.
+    pub sections: BTreeMap<String, usize>,
     pub hits: Vec<Hit>,
 }
 
@@ -330,11 +333,34 @@ impl Index {
     pub fn page(&self, query: &Query, offset: usize, limit: usize) -> Page {
         let limit = limit.clamp(1, MAX_LIMIT);
         let (ranked, partial) = self.ranked(query);
+        let mut sections = BTreeMap::new();
+        // Counted on the first page only: later pages ("Show more") keep the counts they came with.
+        if offset == 0 {
+            let mut count = |docs: &[(u32, u32)]| {
+                for (doc, _) in docs {
+                    *sections.entry(self.docs[*doc as usize].section.clone()).or_insert(0) += 1;
+                }
+            };
+            if let Some(section) = query.section {
+                let everywhere = Query {
+                    section: None,
+                    ..*query
+                };
+                count(&self.ranked(&everywhere).0);
+                // The picked section always reports what is listed, also when only close matches
+                // (all words but one) were found there while some other section matched every word.
+                sections.insert(section.to_string(), ranked.len());
+                sections.retain(|_, n| *n > 0);
+            } else {
+                count(&ranked);
+            }
+        }
         Page {
             total: ranked.len(),
             offset,
             limit,
             partial,
+            sections,
             hits: ranked
                 .into_iter()
                 .skip(offset)
@@ -625,6 +651,29 @@ mod tests {
             5,
         );
         assert_eq!(exact.total, 1);
+
+        // Every section's count is reported, also when the query is limited to one section.
+        let all = index.page(
+            &Query {
+                text: "car even",
+                ..Default::default()
+            },
+            0,
+            10,
+        );
+        assert_eq!(all.sections.get("vehicles"), Some(&1500));
+        let one = index.page(
+            &Query {
+                text: "car even",
+                section: Some("vehicles"),
+                ..Default::default()
+            },
+            0,
+            10,
+        );
+        assert_eq!(one.sections, all.sections);
+        // "Show more" pages are not counted again.
+        assert!(index.page(&query, 25, 25).sections.is_empty());
         assert_eq!(exact.hits[0].slug, "car-1234");
     }
 

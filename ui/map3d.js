@@ -273,13 +273,14 @@
       },
       /** Flat (looking straight down) or tilted; returns whether it is now tilted. */
       tilt() { if (gone) return false; const flat = map.getPitch() > 5; map.easeTo({ pitch: flat ? 0 : HOME.pitch, duration: ms(700) }); return !flat; },
-      /** Draw a route: straight lines between numbered stops (x, y from 0 to 1). */
-      route(stops) { if (gone) return;
+      /** Draw a route: numbered stops (x, y from 0 to 1), joined along `path` when given, else straight. */
+      route(stops, path) { if (gone) return;
         const coords = stops.map((s) => g.toLngLat(s.x, s.y));
+        const line = path?.length > 1 ? path.map((p) => g.toLngLat(p.x, p.y)) : coords;
         map.getSource('route').setData({
           type: 'FeatureCollection',
           features: [
-            ...(coords.length > 1 ? [{ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: coords } }] : []),
+            ...(coords.length > 1 ? [{ type: 'Feature', properties: {}, geometry: { type: 'LineString', coordinates: line } }] : []),
             ...coords.map((c, k) => ({ type: 'Feature', properties: { n: k + 1 }, geometry: { type: 'Point', coordinates: c } })),
           ],
         });

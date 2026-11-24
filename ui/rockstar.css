@@ -189,7 +189,6 @@ fieldset legend { font-stretch: 80%; letter-spacing: 0.08em; text-transform: upp
 :root[data-theme='light'] .conf-spoiler { color: #fff; }
 
 /* Media filter chips: capitalised names. Full-width location pictures keep square edges. */
-#media-filter button { text-transform: capitalize; }
 .place-hero { border-radius: 0; }
 
 /* Map sidebar titles and other page section titles in capitals. */

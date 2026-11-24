@@ -444,6 +444,134 @@ await check('Keyboard focus is visible on the map tools', async () => {
   const style = await run(`(() => { const s = getComputedStyle(document.activeElement); return s.outlineStyle !== 'none' ? 'outline ' + s.outlineWidth : s.boxShadow !== 'none' ? 'ring ' + s.boxShadow : 'none'; })()`);
   return style !== 'none' ? style : false;
 });
+// ---------- organisation: grouped lists, jump bars, cross-links between entries ----------
+await check('Intel: the timeline is grouped (month, week or day) with a jump bar, and no item is lost', async () => {
+  await go('#/intel', 1300);
+  return run(`(() => {
+    const groups = [...document.querySelectorAll('.tl-group')];
+    const counted = groups.reduce((n, g) => n + Number(g.querySelector('.type-count').textContent), 0);
+    const items = document.querySelectorAll('.tl-group .timeline > li').length;
+    const chips = document.querySelectorAll('.tl-jump [data-tl]').length;
+    return groups.length > 1 && counted === items && items === state.wiki.news.length && chips === groups.length
+      ? groups.length + ' groups, ' + items + ' items' : false;
+  })()`);
+});
+
+await check('Missions: a chapter jump bar, one button per chapter, scrolls to that chapter', async () => {
+  await go('#/wiki/missions', 1300);
+  const n = await run(`document.querySelectorAll('.story-jump [data-story-ch]').length === document.querySelectorAll('.story-chapter').length ? document.querySelectorAll('.story-chapter').length : 0`);
+  if (n < 2) return false;
+  await run(`document.querySelector('.story-jump [data-story-ch="${n - 1}"]').click(); true`); await sleep(1200);
+  const top = await run(`Math.round(document.getElementById('story-ch-${n - 1}').getBoundingClientRect().top)`);
+  return top < 400 ? `${n} chapters` : false;
+});
+
+await check('Grouped views (by manufacturer, grade, lead, county and habitat) list every entry under a heading', async () => {
+  const grouped = async (hash, key) => {
+    await go(hash, 1200);
+    return run(`(() => {
+      const select = document.querySelector('.list-sort select');
+      if (![...select.options].some((o) => o.value === '${key}')) return null;
+      select.value = '${key}'; select.dispatchEvent(new Event('change', { bubbles: true }));
+      return new Promise((r) => setTimeout(() => r([...document.querySelectorAll('.type-group .hub-title')]
+        .map((h) => [h.firstChild.textContent.trim(), Number(h.querySelector('.type-count').textContent)])), 400));
+    })()`);
+  };
+  const makers = await grouped('#/vehicles', 'maker');
+  const grades = await grouped('#/wiki/achievements', 'grade');
+  const vehicles = await run('state.wiki.vehicles.length');
+  const achievements = await run('state.wiki.achievements.length');
+  const sum = (g) => g.reduce((n, [, c]) => n + c, 0);
+  const order = grades?.map(([t]) => t).filter((t) => ['Platinum', 'Gold', 'Silver', 'Bronze'].includes(t)).join(',');
+  if (!makers || !grades) throw new Error('a grouped view is missing from the sort menu');
+  if (sum(makers) !== vehicles || sum(grades) !== achievements) throw new Error(`counted ${sum(makers)}/${vehicles} vehicles, ${sum(grades)}/${achievements} achievements`);
+  if (order !== 'Platinum,Gold,Silver,Bronze' || makers.at(-1)[0] !== 'Other or unlisted makers') return false;
+  // Missions by lead, and businesses by county: every entry once, the unlisted group last.
+  const leads = await grouped('#/wiki/missions', 'lead');
+  const counties = await grouped('#/wiki/businesses', 'county');
+  if (!leads || !counties) throw new Error('"By lead" or "By county" is missing');
+  const habitats = await grouped('#/wiki/wildlife', 'habitat');
+  if (!habitats) throw new Error('"By habitat" is missing');
+  if (sum(leads) !== await run('state.wiki.missions.length') || sum(counties) !== await run('state.wiki.businesses.length')
+    || sum(habitats) !== await run('state.wiki.wildlife.length')) throw new Error('a lead, county or habitat group lost entries');
+  return leads[0][0] === 'Jason' && counties.at(-1)[0] === 'Place not listed' ? `${makers.length} makers, ${counties.length} county groups` : false;
+});
+
+await check('Characters and missions link both ways (Missions from, and the giver on a mission)', async () => {
+  const pair = await run(`(() => {
+    for (const c of state.wiki.characters) {
+      // Spoiler pages stay blurred in this suite, but their links are still on the page, under the veil.
+      const re = giverName(c);
+      const m = re && state.wiki.missions.find((x) => typeof x.facts?.giver === 'string' && re.test(x.facts.giver));
+      if (m) return [c.slug, m.slug];
+    }
+    return null;
+  })()`);
+  if (!pair) throw new Error('no character with a linked mission found');
+  await go(`#/characters/${pair[0]}`, 1200);
+  const listed = await run(`!!document.querySelector('.char-missions a[href$="/${pair[1]}"]')`);
+  await go(`#/wiki/missions/${pair[1]}`, 1200);
+  const back = await run(`!!document.querySelector('.fact-table a[href="#/characters/${pair[0]}"]')`);
+  if (!listed || !back) throw new Error(`${pair.join(' / ')}: listed on the character page ${listed}, giver linked back ${back}`);
+  return pair.join(' <-> ');
+});
+
+await check('Place pages: "Missions here", and a collectible family opens the tracker with the same count', async () => {
+  const slug = await run(`(state.wiki.locations.find((l) => !isHidden('locations', l) && missionsHere(l) && /Collectibles here/.test(placeContents(l))) || {}).slug`);
+  if (!slug) return false;
+  await go(`#/locations/${slug}`, 1300);
+  const chip = await run(`(() => {
+    const a = [...document.querySelectorAll('.maker-more')].find((s) => /Collectibles here/.test(s.textContent))?.querySelector('a');
+    return a ? [a.getAttribute('href'), Number(a.querySelector('.chip-count').textContent)] : null;
+  })()`);
+  const missions = await run(`[...document.querySelectorAll('.maker-more h2')].some((h) => /Missions here/.test(h.textContent))`);
+  if (!chip || !missions || !chip[0].includes('place=')) return false;
+  await go(chip[0], 1300);
+  const rows = await run(`document.querySelectorAll('.tracker-list li').length`);
+  return rows === chip[1] ? `${slug}: ${rows} in the tracker` : false;
+});
+
+await check('Search filters show counts that add up, and pressing one keeps focus', async () => {
+  await go('#/search?q=vice', 1500);
+  const sums = await run(`(() => {
+    const n = (b) => Number(b.querySelector('.chip-count').textContent);
+    const buttons = [...document.querySelectorAll('#search-filter [data-section]')];
+    return [n(buttons[0]), buttons.slice(1).reduce((s, b) => s + n(b), 0)];
+  })()`);
+  await run(`(() => { const b = document.querySelector('#search-filter [data-section="vehicles"]'); b.focus(); b.click(); })(); true`); await sleep(1200);
+  const kept = await run(`document.activeElement?.dataset.section === 'vehicles' && document.activeElement.getAttribute('aria-pressed') === 'true'`);
+  return sums[0] > 0 && sums[0] === sums[1] && kept ? `${sums[0]} results` : false;
+});
+
+await check('Map list: big kinds start folded, a fold button opens one, and searching holds every match open', async () => {
+  await go('#/map', 2500);
+  const start = await run(`document.querySelectorAll('.map-lists section.is-folded').length`);
+  const key = await run(`document.querySelector('.map-lists section.is-folded')?.dataset.category`);
+  if (!start || !key) return false;
+  await run(`document.querySelector('[data-fold="${key}"]').click(); true`); await sleep(300);
+  const opened = await run(`!document.querySelector('.map-lists section[data-category="${key}"]').classList.contains('is-folded')`);
+  await run(`document.querySelector('[data-fold="${key}"]').click(); true`); await sleep(300);
+  await run(`(() => { const s = document.querySelector('.map-filter'); s.value = 'bank'; s.dispatchEvent(new Event('input', { bubbles: true })); })(); true`); await sleep(800);
+  const held = await run(`document.querySelectorAll('.map-lists section.is-folded').length === 0 && [...document.querySelectorAll('.map-fold')].every((b) => b.disabled)`);
+  await run(`(() => { const s = document.querySelector('.map-filter'); s.value = ''; s.dispatchEvent(new Event('input', { bubbles: true })); })(); true`); await sleep(500);
+  return opened && held ? `${start} folded at first` : false;
+});
+
+await check('Routes: a planned run is drawn along the roads (routing grid), not as straight lines', async () => {
+  await go('#/map', 2500);
+  await run(`(() => { const plan = document.querySelector('.heist-plan'); plan.open = true; plan.querySelector('[data-plan-type]').value = 'big-banks'; plan.querySelector('[data-plan-go]').click(); })(); true`);
+  const drawn = await waitFor(`document.querySelectorAll('path.route-road, path.route-water').length > 0 && document.querySelectorAll('.map-route li').length`, 10000);
+  if (!drawn) throw new Error('no routed legs were drawn');
+  // Each leg runs along several bends of road, so the run has far more points than stops.
+  const shape = await run(`(() => {
+    const stops = document.querySelectorAll('.map-route li').length;
+    const bends = [...document.querySelectorAll('path.route-road, path.route-water')].reduce((n, p) => n + (p.getAttribute('d').match(/L/g) || []).length, 0);
+    return [stops, bends];
+  })()`);
+  await run(`document.querySelector('[data-stop-clear]')?.click(); true`); await sleep(300);
+  return shape[1] > shape[0] * 2 ? `${shape[0]} stops, ${shape[1]} bends` : false;
+});
+
 await check('Phone width: no sideways scrolling on the journal, settings, progress and immersive map (light theme)', async () => {
   await call('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
   const wide = [];

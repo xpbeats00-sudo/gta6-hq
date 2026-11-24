@@ -21,8 +21,12 @@ use crate::content::IMAGE_EXTENSIONS;
 pub const VIDEO_EXTENSIONS: [&str; 3] = ["mp4", "webm", "mov"];
 pub const RIGHTS_STATES: [&str; 4] = ["approved", "permission_required", "unknown", "rejected"];
 /// App chrome, not gallery material.
-const HIDDEN: [&str; 3] = [
+const HIDDEN: [&str; 5] = [
     "images/gta6.png",
+    // The link card shown when the repository is shared (scripts/make_social_preview.py).
+    "images/social-preview.png",
+    // The map's routing grid (road, land and sea cells): data for the route planner, not a picture.
+    "images/map/leonida-routes.png",
     "wallpapers/gta6splashscreen.mp4",
     "wallpapers/gta6-intro-montage.mp4",
 ];

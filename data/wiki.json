@@ -348,7 +348,7 @@
       "confidence": "corroborated", "sources": ["g6w-port-gellhorn", "pl-gtaboom-story", "pl-gtaboom-prepare-vc", "pl-gtaboom-port-gellhorn", "ppx-trophy-guide"], "verified": "2026-11-22"
     },
     {
-      "slug": "ambrosia", "name": "Ambrosia", "region": "Ambrosia County", "basedOn": "Florida's inland sugar country",
+      "slug": "ambrosia", "name": "Ambrosia", "region": "Ambrosia, Kelly County", "basedOn": "Florida's inland sugar country",
       "summary": "Inland Leonida, where the Allied Crystal sugar refinery supplies the jobs and a biker gang supplies the rest.",
       "body": [
         "Ambrosia is built around the state's sugar industry, a long way from the coast. The Allied Crystal refinery provides the work.",

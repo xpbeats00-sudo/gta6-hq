@@ -95,6 +95,16 @@ def main():
                     full = os.path.join(base, f)
                     disk[os.path.relpath(full, ROOT).replace(os.sep, '/')] = full
 
+    # A live wallpaper's still poster (wallpapers/posters/<name>.jpg, shown before the clip plays) is
+    # cut from that clip, so the clip's record covers it: same source, same rights.
+    for rel in list(disk):
+        if rel.startswith('wallpapers/posters/') and rel not in records:
+            stem = os.path.splitext(os.path.basename(rel))[0]
+            clip = next((f for f in records if f.startswith('wallpapers/') and not f.startswith('wallpapers/posters/')
+                         and os.path.splitext(os.path.basename(f))[0] == stem), None)
+            if clip:
+                records[rel] = {**records[clip], 'file': rel, 'title': f"{records[clip].get('title', stem)} (poster)"}
+
     no_record = sorted(set(disk) - set(records))
     no_file = sorted(set(records) - set(disk))
     hashes = {rel: sha256(full) for rel, full in disk.items()}
