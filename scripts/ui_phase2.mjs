@@ -524,7 +524,7 @@ await check('Place pages: "Missions here", and a collectible family opens the tr
     const a = [...document.querySelectorAll('.maker-more')].find((s) => /Collectibles here/.test(s.textContent))?.querySelector('a');
     return a ? [a.getAttribute('href'), Number(a.querySelector('.chip-count').textContent)] : null;
   })()`);
-  const missions = await run(`[...document.querySelectorAll('.maker-more h2')].some((h) => /Missions here/.test(h.textContent))`);
+  const missions = await run(`[...document.querySelectorAll('.maker-more h2, .maker-more h3')].some((h) => /Missions here/.test(h.textContent))`);
   if (!chip || !missions || !chip[0].includes('place=')) return false;
   await go(chip[0], 1300);
   const rows = await run(`document.querySelectorAll('.tracker-list li').length`);

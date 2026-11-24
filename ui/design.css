@@ -992,3 +992,18 @@ body[data-page='manual'] .rail { display: none; }
 .tracker-place { margin: 0 0 var(--s4); }
 /* Route list: a stop reached across water. */
 .route-water-tag { flex: none; padding: 1px 7px; border: 1px solid color-mix(in srgb, #7fd8ff 60%, transparent); border-radius: 999px; color: var(--text-secondary); font-size: 0.7rem; }
+
+/* ---------- Saved: favourites kind by kind ---------- */
+.saved-kind { display: flex; align-items: center; gap: var(--s2); margin: var(--s4) 0 var(--s2); color: var(--text-secondary); font: 700 0.85rem var(--font-display); }
+.saved-kind:first-of-type { margin-top: var(--s2); }
+.saved-tools[hidden] { display: none; }
+/* Under a kind's heading, each row need not repeat the kind. */
+.saved-kind + .saved-list > .saved-item > div > .muted { display: none; }
+
+/* ---------- Place pages: "What's here" in one panel ---------- */
+.place-here { margin: var(--s6) 0; padding: var(--s5); border: 1px solid var(--border-subtle); border-radius: var(--radius); background: color-mix(in srgb, var(--bg-panel) 70%, transparent); }
+.place-here > h2 { margin: 0 0 var(--s3); }
+.place-here .tl-jump { margin-bottom: var(--s4); }
+.place-here .maker-more { margin: var(--s4) 0 0; scroll-margin-top: calc(var(--bar, 64px) + var(--s4)); }
+.place-here .maker-more:first-of-type { margin-top: 0; }
+.place-here .maker-more h3 { display: flex; align-items: center; gap: var(--s3); margin: 0; color: var(--text-secondary); font: 700 0.85rem var(--font-display); }
