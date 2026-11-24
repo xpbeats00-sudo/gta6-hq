@@ -159,6 +159,17 @@
 
   // ---------- Saved ----------
 
+  /** Favourites, kind by kind (Characters, Locations, a kind of map pin…) once there is more than one
+      kind: the biggest group first, each with its count. One kind stays a single list. */
+  function favGroups(favs, place) {
+    const kinds = new Map();
+    favs.forEach((f) => { const k = f.kind || 'Other'; if (!kinds.has(k)) kinds.set(k, []); kinds.get(k).push(f); });
+    if (kinds.size < 2) return `<ul class="saved-list">${favs.map(place).join('')}</ul>`;
+    return [...kinds].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
+      .map(([kind, list]) => `<h3 class="saved-kind">${esc(kind)} <span class="type-count">${list.length}</span></h3>
+        <ul class="saved-list">${list.map(place).join('')}</ul>`).join('');
+  }
+
   EXTRA_PAGES.saved = function renderSaved() {
     const draw = () => {
       const q = (view.querySelector('.saved-filter')?.value || '').toLowerCase();
@@ -176,11 +187,13 @@
         ${f.image && !f.hidden ? `<img src="${esc(f.image)}" alt="" loading="lazy">` : '<span class="saved-ph" aria-hidden="true"></span>'}
         <div><a href="${esc(f.href)}">${esc(f.name)}</a><span class="muted">${esc(f.kind || '')}</span></div>
         <div class="saved-btns"><a class="chip-btn" href="${esc(f.map)}">Map</a><button type="button" class="chip-btn" data-unfav="${esc(f.key)}" aria-label="Remove ${esc(f.name)} from favourites">Remove</button></div></li>`;
-      view.querySelector('.saved-body').innerHTML = empty
+      // Nothing saved at all: no search or sort to offer, just how to start.
+    view.querySelector('.saved-tools').hidden = empty;
+    view.querySelector('.saved-body').innerHTML = empty
         ? `<div class="empty-state"><h2>Nothing saved yet</h2><p>Press <b>Favourite</b> or <b>Collection</b> on any entry or map pin, save a map view with the bookmark on the map, or save a spot in Street Explorer. It all appears here, kept on this computer.</p><a class="btn btn-primary" href="#/map">Open the map</a></div>`
         : `
         <section class="saved-group"><h2>Favourites <span class="muted">${favs.length}</span></h2>
-          ${favs.length ? `<ul class="saved-list">${favs.map(place).join('')}</ul>` : '<p class="muted">No favourites match.</p>'}</section>
+          ${favs.length ? favGroups(favs, place) : '<p class="muted">No favourites match.</p>'}</section>
         <section class="saved-group"><div class="saved-head"><h2>Collections <span class="muted">${cols.length}</span></h2>
           <form class="saved-new"><input name="name" maxlength="60" placeholder="New collection name" aria-label="New collection name" required><button class="btn btn-small">Create</button></form></div>
           ${cols.map((c) => `<article class="collection" data-col="${esc(c.id)}">

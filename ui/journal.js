@@ -222,7 +222,7 @@
         if (!groups.length || groups[groups.length - 1].d !== d) groups.push({ d, items: [] });
         groups[groups.length - 1].items.push(e);
       }
-      list.innerHTML = groups.map((g) => `<section class="journal-day"><h2>${esc(g.d)}</h2><ol>${g.items.map((e) => {
+      list.innerHTML = groups.map((g) => `<section class="journal-day"><h2>${esc(g.d)} <span class="type-count">${g.items.length}</span></h2><ol>${g.items.map((e) => {
         const href = linkOf(e);
         const title = e.t === 'note' ? `<p class="journal-text">${esc(e.text)}</p>` : (href ? `<a href="${esc(href)}">${esc(e.name || '')}</a>` : `<b>${esc(e.name || '')}</b>`);
         const pic = thumbOf(e);

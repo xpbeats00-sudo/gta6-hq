@@ -643,6 +643,24 @@ function nameLinks(text, section) {
   }
   return out + esc(text.slice(at));
 }
+/** On a place's page, everything found there in one panel: a row of counts that jump to each list
+    (missions, people, collectibles, businesses, activities), then the lists themselves. */
+function placeHere(l) {
+  let n = 0;
+  const html = (missionsHere(l) + placeContents(l))
+    .replace(/<(\/?)h2>/g, '<$1h3>')
+    .replace(/<section class="maker-more">/g, () => `<section class="maker-more" id="here-${n++}">`);
+  if (!n) return '';
+  const jumps = [...html.matchAll(/<h3>([^<]+?) <span class="type-count">(\d+)<\/span>/g)]
+    .map((m, i) => `<button type="button" class="chip-btn" data-here="${i}">${esc(m[1].replace(/ here$| who live here$/, ''))} <span class="chip-count">${m[2]}</span></button>`);
+  return `<section class="place-here" aria-labelledby="place-here-h"><h2 id="place-here-h">What's here</h2>
+    ${n > 1 ? `<nav class="tl-jump" aria-label="Jump to">${jumps.join('')}</nav>` : ''}${html}</section>`;
+}
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-here]');
+  if (b) document.getElementById(`here-${b.dataset.here}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
 /** On a place's page: the collectibles (family by family, each opening the tracker there), businesses and
     activities whose own place field names it, by the same whole-name rule as "Missions here". */
 function placeContents(l) {
@@ -768,7 +786,12 @@ const listShell = (label) => `<div class="list" data-list>
  */
 /** "Official only": kept while the app is open, so it carries from list to list. */
 let officialOnly = false;
+/** The sort each list was last shown in (by page address), kept while the app is open: coming back
+    to Collectibles "By county" finds it by county again. */
+const listSorts = new Map();
+
 function mountList(root, { items, text, sorts, render, page: basePage = LIST_PAGE, pageFor = () => null, official = null }) {
+  const listKey = location.hash.split('?')[0];
   const tools = root.querySelector('.list-tools');
   const input = root.querySelector('.list-filter');
   const select = root.querySelector('.list-sort select');
@@ -787,6 +810,12 @@ function mountList(root, { items, text, sorts, render, page: basePage = LIST_PAG
   count.hidden = short;
   select.innerHTML = sorts.map((s) => `<option value="${esc(s.key)}">${esc(s.label)}</option>`).join('');
   root.querySelector('.list-sort').hidden = short || sorts.length < 2;
+  const remembered = listSorts.get(listKey);
+  if (!short && remembered && sorts.some((s) => s.key === remembered)) {
+    select.value = remembered;
+    page = pageFor(remembered) || basePage;
+    shown = page;
+  }
   // "Official only": just what Rockstar itself has published. Offered where a list has any.
   const officialCount = official ? items.filter(official).length : 0;
   let officialBtn = null;
@@ -825,7 +854,7 @@ function mountList(root, { items, text, sorts, render, page: basePage = LIST_PAG
     clearTimeout(timer);
     timer = setTimeout(() => { shown = page; draw(); }, 120);
   });
-  select.addEventListener('change', () => { page = pageFor(select.value) || basePage; shown = page; draw(); });
+  select.addEventListener('change', () => { listSorts.set(listKey, select.value); page = pageFor(select.value) || basePage; shown = page; draw(); });
   more.addEventListener('click', () => { shown += page; draw(); });
   draw();
 
@@ -1102,6 +1131,28 @@ function runSplash(ready) {
 
 // ---------- home ----------
 
+/** Home's "Play along" row: the tools for playing the game, with your own counts where there are some. */
+function playAlong() {
+  const items = window.trackerItems?.() || [];
+  const ticks = UserStore.get('collectible-ticks', {});
+  const found = items.filter((it) => ticks[it.entry.slug]).length;
+  const tile = (href, ic, title, text, cta) => `<a class="stat-card stat-link" href="${href}"><b>${icon(ic)}${esc(title)}</b><span>${text}</span><em>${esc(cta)}</em></a>`;
+  return `<section class="editorial play-along">
+      <header class="editorial-head">
+        <span class="kicker">Play along</span>
+        <h2>Track and plan</h2>
+        <p>Tick off collectibles, follow the 100% list, plan robbery runs along the roads and read the guides. Your progress stays on this computer.</p>
+        <a class="more" href="#/progress">Your progress${icon('next')}</a>
+      </header>
+      <div class="stat-grid">
+        ${tile('#/tracker', 'gem', 'Collectible Tracker', items.length ? `${found} of ${items.length} ticked` : 'Every collectible, family by family', found ? 'Carry on' : 'Start ticking')}
+        ${tile('#/hundred', 'check-circle', '100% Checklist', 'Every line the game counts toward 100%, with your counts', 'Open the checklist')}
+        ${tile('#/map?plan=small-banks', 'route', 'Robbery runs', 'Banks, ATMs or stores in a short order by road', 'Plan a run')}
+        ${tile('#/manual', 'guide', 'Field Manual', 'Walkthroughs, the 100% Guide and how every system works', 'Read the guides')}
+      </div>
+    </section>`;
+}
+
 function renderHome() {
   const { game, characters, locations, vehicles, news } = state.wiki;
   const leads = characters.filter((c) => c.group === 'main');
@@ -1146,6 +1197,8 @@ function renderHome() {
       </div>
       <a class="btn btn-discord" href="${DISCORD_INVITE}" target="_blank" rel="noopener noreferrer">${DISCORD_MARK} Join the server</a>
     </aside>
+
+    ${playAlong()}
 
     <section class="editorial">
       <header class="editorial-head">
@@ -1505,7 +1558,7 @@ function missionStory(entries) {
         <span class="story-text"><span class="kicker">${esc(kicker)}</span><b>${esc(entry.name)}</b><span class="story-sum">${esc(entry.summary)}</span></span></a>`)}
     </li>`;
   const count = (ch) => ch.parts.reduce((n, items) => n + items.length, 0);
-  const jump = chapters.length > 2 ? `<nav class="tl-jump story-jump" aria-label="Jump to a chapter">${chapters.map((ch, i) => `<button type="button" class="chip" data-story-ch="${i}">${esc(ch.title)} <span class="chip-count">${count(ch)}</span></button>`).join('')}</nav>` : '';
+  const jump = chapters.length > 2 ? `<nav class="tl-jump story-jump" aria-label="Jump to a chapter">${chapters.map((ch, i) => `<button type="button" class="chip-btn" data-story-ch="${i}">${esc(ch.title)} <span class="chip-count">${count(ch)}</span></button>`).join('')}</nav>` : '';
   return jump + chapters.map((ch, i) => `<section class="story-chapter" id="story-ch-${i}">
     <h2>${esc(ch.title)} <span class="type-count">${count(ch)}</span></h2>
     ${ch.parts.map((items, part) => {
@@ -1784,8 +1837,7 @@ function renderLocation(slug) {
           <p class="lede">${esc(l.summary)}</p>
           ${paragraphs(l)}
           ${facts('locations', l)}
-          ${missionsHere(l)}
-          ${placeContents(l)}
+          ${placeHere(l)}
           ${guideSlot(`#/locations/${slug}`)}
           ${related(l)}
           ${provenance(l)}
@@ -1820,7 +1872,7 @@ function renderIntel() {
     <section class="block split intel-split">
       <div>
         <div class="block-head"><h2>Timeline</h2></div>
-        ${groups.length > 1 ? `<nav class="tl-jump" aria-label="Jump to">${groups.map((g, i) => `<button type="button" class="chip" data-tl="${i}">${esc(g.short)} <span class="chip-count">${g.items.length}</span></button>`).join('')}</nav>` : ''}
+        ${groups.length > 1 ? `<nav class="tl-jump" aria-label="Jump to">${groups.map((g, i) => `<button type="button" class="chip-btn" data-tl="${i}">${esc(g.short)} <span class="chip-count">${g.items.length}</span></button>`).join('')}</nav>` : ''}
         ${groups.map((g, i) => `<section class="tl-group" id="tl-${i}"><h3 class="hub-title">${esc(g.label)} <span class="type-count">${g.items.length}</span></h3>
           <ol class="timeline">${g.items.map((item) => timelineItem(item, true, i === 0)).join('')}</ol></section>`).join('')}
       </div>
