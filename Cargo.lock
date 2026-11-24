@@ -889,7 +889,7 @@ dependencies = [
 
 [[package]]
 name = "gta6-hq"
-version = "0.2.42"
+version = "0.2.43"
 dependencies = [
  "axum",
  "discord-rich-presence",

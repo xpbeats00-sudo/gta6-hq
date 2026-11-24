@@ -2,6 +2,15 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.43 (24 November 2026)
+
+63 new pictures, a cleaner Key Lento Police Station shot, and pictures removed for site logos can no longer come back.
+
+- **New pictures:** 16 businesses, 11 vehicles, 11 gameplay pages, 9 activities, 7 missions, 5 places, 2 characters (Bailey and Vinny), the Sand Storm ES9 and Cellerica. Each was checked by eye; 9 were cropped to leave out the minimap, prompts or the money counter.
+- **Logo pictures stay gone:** pictures removed on 21 November for site watermarks (such as POWERPYX.COM) were still showing on installed copies, because the installer never deleted old files. Installing this version clears them:
+  - the installer now replaces the shipped pictures, pages and data folders whole (your saved progress and the map tile cache are not touched);
+  - the app only shows a picture that has an approved record in its media list.
+
 ## 0.2.42 (24 November 2026)
 
 A "Track and plan" row on Home, a "What's here" panel on every place, a tidier Saved page, and properly styled jump buttons.
