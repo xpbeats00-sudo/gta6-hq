@@ -241,7 +241,22 @@ fn section_images(root: &Path, section: &str) -> BTreeMap<String, String> {
 
 /// An entry without an explicit `image` gets `images/<section>/<slug>.<ext>`
 /// if such a file exists — drop a picture in the folder and it appears.
+///
+/// When `data/media.json` lists any pictures, only a picture with an approved record there is
+/// attached. A file the app no longer ships (one removed for a site logo, left behind by an
+/// older install or an unzipped copy) then never comes back on its own.
 fn attach_images(wiki: &mut Value, root: &Path) {
+    let recorded: Option<std::collections::HashSet<String>> = crate::media::load_manifest(root)
+        .ok()
+        .filter(|manifest| !manifest.assets.is_empty())
+        .map(|manifest| {
+            manifest
+                .assets
+                .iter()
+                .filter(|a| a.approval_status == "approved" && a.rights_status != "rejected")
+                .map(|a| a.file.to_lowercase())
+                .collect()
+        });
     for section in sections(wiki) {
         let Some(entries) = wiki.get_mut(&section).and_then(Value::as_array_mut) else {
             continue;
@@ -261,7 +276,14 @@ fn attach_images(wiki: &mut Value, root: &Path) {
                 continue;
             };
             if let Some(file) = images.get(&slug.to_lowercase()) {
-                entry["image"] = Value::String(format!("/images/{section}/{file}"));
+                let path = format!("images/{section}/{file}");
+                if recorded
+                    .as_ref()
+                    .is_some_and(|known| !known.contains(&path.to_lowercase()))
+                {
+                    continue;
+                }
+                entry["image"] = Value::String(format!("/{path}"));
             }
         }
     }
@@ -537,6 +559,40 @@ pub mod tests {
         assert_eq!(vehicles[0]["image"], "/images/vehicles/one.jpg");
         assert_eq!(vehicles[1]["image"], "/images/custom.jpg");
         assert!(vehicles[2].get("image").is_none());
+    }
+
+    #[test]
+    fn with_a_media_list_only_recorded_pictures_are_attached() {
+        let root = TempRoot::new("recorded");
+        root.write("data/wiki.json", BASE);
+        root.write(
+            "data/wiki/vehicles.json",
+            r#"[{"slug": "kept", "name": "Kept", "summary": "s"},
+                {"slug": "stray", "name": "Stray", "summary": "s"},
+                {"slug": "staged", "name": "Staged", "summary": "s"}]"#,
+        );
+        root.write(
+            "data/media.json",
+            r#"{"assets": [
+                {"file": "images/vehicles/kept.jpg", "rights_status": "permission_required", "approval_status": "approved"},
+                {"file": "images/vehicles/staged.jpg", "rights_status": "unknown", "approval_status": "staged"}]}"#,
+        );
+        root.write("images/vehicles/kept.jpg", "x");
+        root.write("images/vehicles/stray.jpg", "x"); // left behind: no record
+        root.write("images/vehicles/staged.jpg", "x");
+
+        let wiki = load(&root.0);
+        let vehicles = entries(&wiki, "vehicles");
+        let image = |slug: &str| {
+            vehicles
+                .iter()
+                .find(|v| v["slug"] == slug)
+                .and_then(|v| v.get("image"))
+                .cloned()
+        };
+        assert_eq!(image("kept"), Some(Value::from("/images/vehicles/kept.jpg")));
+        assert_eq!(image("stray"), None);
+        assert_eq!(image("staged"), None);
     }
 
     #[test]

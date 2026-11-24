@@ -105,6 +105,16 @@ Filename: "{app}\gta6-hq.exe"; Description: "Open GTA 6 HQ"; WorkingDir: "{app}"
 ; Ticked by default on the last page; opens the invite in the browser.
 Filename: "https://discord.gg/YhMHr8N4an"; Description: "Join the GTA 6 HQ community on Discord"; Flags: shellexec nowait postinstall skipifsilent
 
+[InstallDelete]
+; The shipped folders are replaced whole, so nothing an earlier version had and this one dropped
+; lingers: a picture removed for a site logo would otherwise come back, because the app attaches
+; any picture named after an entry. Personal data is in %APPDATA%\GTA6HQ and the map tile cache in
+; {app}\cache; neither is touched.
+Type: filesandordirs; Name: "{app}\images"
+Type: filesandordirs; Name: "{app}\wallpapers"
+Type: filesandordirs; Name: "{app}\ui"
+Type: filesandordirs; Name: "{app}\data"
+
 [UninstallDelete]
 ; Created by the app while it runs: the map tile cache and backups made by --import.
 Type: filesandordirs; Name: "{app}\cache"
