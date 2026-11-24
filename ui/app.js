@@ -39,6 +39,16 @@ const esc = (text) => String(text ?? '').replace(/[&<>"']/g, (c) => (
 
 const category = (key) => state.wiki.categories.find((c) => c.key === key);
 const sectionLabel = (key) => category(key)?.label || FIXED_LABELS[key] || key;
+/** Each section's line icon, shown where an entry has no picture of its own. */
+const SECTION_ICONS = {
+  characters: 'people', locations: 'pin', vehicles: 'car', gameplay: 'gamepad', activities: 'globe',
+  wildlife: 'paw', businesses: 'store', factions: 'shield', music: 'music', weapons: 'target',
+  missions: 'flag', collectibles: 'gem', achievements: 'trophy', news: 'note', editions: 'collection', faq: 'guide',
+};
+/** A small picture for an entry in a list: its own picture, or its section's icon on a plain tile. */
+const entryThumb = (section, entry, cls = 'az-thumb') => (entry.image && !isHidden(section, entry)
+  ? `<img class="${cls}" src="${esc(entry.image)}" alt="" loading="lazy">`
+  : `<span class="${cls} is-glyph" aria-hidden="true">${icon(SECTION_ICONS[section] || 'book')}</span>`);
 
 /** Sends saved changes to the app one request at a time, so an older save can never land after a
     newer one. Changes that arrive while a save is on its way wait and go together in the next
@@ -567,13 +577,142 @@ function factValue(field, value) {
 }
 
 /** The facts table: the fields the entry's category declares, where a value is recorded. */
+/** A mission's giver, with each character it names linked to their page (the same rule as "Missions from"). */
+function giverLinks(text) {
+  const hits = [];
+  for (const c of state.wiki.characters || []) {
+    const re = giverName(c, 'gu');
+    if (!re) continue;
+    for (const m of text.matchAll(re)) {
+      const start = m.index + m[1].length;
+      hits.push({ start, end: start + m[2].length, c });
+    }
+  }
+  hits.sort((a, b) => a.start - b.start || b.end - a.end);
+  let out = '';
+  let at = 0;
+  for (const h of hits) {
+    if (h.start < at) continue; // overlaps a longer name already linked
+    out += esc(text.slice(at, h.start)) + `<a href="${entryLink('characters', h.c.slug)}">${esc(text.slice(h.start, h.end))}</a>`;
+    at = h.end;
+  }
+  return out + esc(text.slice(at));
+}
+
+/** Where some text names an entry (a place in Locations, a faction): each one found, by whole name. A place
+    named inside a longer one that is also found ("Gellhorn" in "Port Gellhorn") does not count, nor one
+    that runs straight into another capitalised word, a longer name of its own ("Gellhorn Outfitters"). */
+const namesCache = new WeakMap(); // entries list -> { patterns, found: text -> hits }
+function namesIn(text, entries) {
+  if (!entries) return [];
+  let cache = namesCache.get(entries);
+  if (!cache) {
+    cache = { patterns: [], found: new Map() };
+    for (const l of entries) {
+      // Two-letter names only with a digit ("M7"), so short words do not match by accident.
+      if (!l.name || l.name.length < 2 || (l.name.length === 2 && !/\d/.test(l.name))) continue;
+      const re = new RegExp(`(^|[^\\p{L}])(${l.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})(?![\\p{L}]| \\p{Lu})`, 'gu');
+      cache.patterns.push([l, re]);
+    }
+    namesCache.set(entries, cache);
+  }
+  const key = String(text);
+  if (cache.found.has(key)) return cache.found.get(key);
+  const hits = [];
+  for (const [l, re] of cache.patterns) {
+    re.lastIndex = 0;
+    for (const m of String(text).matchAll(re)) {
+      const start = m.index + m[1].length;
+      hits.push({ start, end: start + m[2].length, l });
+    }
+  }
+  const result = hits.filter((h) => !hits.some((o) => o !== h && o.start <= h.start && o.end >= h.end && o.end - o.start > h.end - h.start))
+    .sort((a, b) => a.start - b.start);
+  cache.found.set(key, result);
+  return result;
+}
+const placesIn = (text) => namesIn(text, state.wiki.locations);
+/** Text with each entry of a section it names linked to that entry's page (a mission's location, a character's affiliation). */
+function nameLinks(text, section) {
+  let out = '';
+  let at = 0;
+  for (const h of namesIn(text, state.wiki[section])) {
+    if (h.start < at) continue;
+    out += esc(text.slice(at, h.start)) + `<a href="${entryLink(section, h.l.slug)}">${esc(text.slice(h.start, h.end))}</a>`;
+    at = h.end;
+  }
+  return out + esc(text.slice(at));
+}
+/** On a place's page: the collectibles (family by family, each opening the tracker there), businesses and
+    activities whose own place field names it, by the same whole-name rule as "Missions here". */
+function placeContents(l) {
+  const at = (text) => typeof text === 'string' && placesIn(text).some((h) => h.l.slug === l.slug);
+  const SHOWN = 12;
+  const chips = (title, section, list) => (list.length ? `<section class="maker-more"><h2>${title} <span class="type-count">${list.length}</span></h2>
+    <ul>${list.sort(byName).map((e, i) => `<li${i >= SHOWN ? ' hidden' : ''}><a href="${entryLink(section, e.slug)}">${esc(isHidden(section, e) ? 'Spoiler' : e.name)}</a></li>`).join('')}
+    ${list.length > SHOWN ? `<li class="maker-all"><button type="button" class="chip-btn" data-maker-all>Show all ${list.length}</button></li>` : ''}</ul></section>` : '');
+  const finds = (window.trackerItems?.() || []).filter((it) => at(it.entry.facts?.region));
+  const families = new Map();
+  finds.forEach((it) => families.set(it.family, (families.get(it.family) || 0) + 1));
+  const found = finds.length ? `<section class="maker-more"><h2>Collectibles here <span class="type-count">${finds.length}</span></h2>
+    <ul>${[...families].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([f, n]) => `<li><a href="#/tracker?family=${encodeURIComponent(f)}&amp;place=${encodeURIComponent(l.slug)}">${esc(f)} <span class="chip-count">${n}</span></a></li>`).join('')}</ul></section>` : '';
+  return chips('People who live here', 'characters', (state.wiki.characters || []).filter((e) => at(e.facts?.home)))
+    + found
+    + chips('Businesses here', 'businesses', (state.wiki.businesses || []).filter((e) => at(e.facts?.location)))
+    + chips('Activities here', 'activities', (state.wiki.activities || []).filter((e) => at(e.facts?.location)));
+}
+
+/** A business owner: a faction by its name, otherwise a character by the giver rule ("Moses", "Kenton"). */
+const ownerLinks = (text) => (namesIn(text, state.wiki.factions).length ? nameLinks(text, 'factions') : giverLinks(text));
+
+/** On a faction's page: the characters whose affiliation names it, and the businesses it owns. */
+function factionMembers(section, entry) {
+  if (section !== 'factions') return '';
+  const only = [entry]; // one list, so namesIn builds its pattern once for this page
+  const list = (state.wiki.characters || [])
+    .filter((c) => typeof c.facts?.affiliation === 'string' && namesIn(c.facts.affiliation, only).length).sort(byName);
+  const run = (state.wiki.businesses || [])
+    .filter((b) => typeof b.facts?.owner === 'string' && namesIn(b.facts.owner, only).length).sort(byName);
+  const chips = (title, sec, items) => (items.length ? `<section class="maker-more"><h2>${title} <span class="type-count">${items.length}</span></h2>
+    <ul>${items.map((e) => `<li><a href="${entryLink(sec, e.slug)}">${esc(isHidden(sec, e) ? 'Spoiler' : e.name)}</a></li>`).join('')}</ul></section>` : '');
+  return chips('Members', 'characters', list) + chips('Businesses run', 'businesses', run);
+}
+
+/** On a place's page: the missions whose location names it, in story order. */
+function missionsHere(l) {
+  const list = (state.wiki.missions || [])
+    .filter((m) => typeof m.facts?.location === 'string' && placesIn(m.facts.location).some((h) => h.l.slug === l.slug))
+    .sort(storyCompare);
+  if (!list.length) return '';
+  const SHOWN = 12;
+  return `<section class="maker-more"><h2>Missions here <span class="type-count">${list.length}</span></h2>
+    <ul>${list.map((m, i) => `<li${i >= SHOWN ? ' hidden' : ''}><a href="${entryLink('missions', m.slug)}">${esc(isHidden('missions', m) ? 'Spoiler' : m.name)}</a></li>`).join('')}
+    ${list.length > SHOWN ? `<li class="maker-all"><button type="button" class="chip-btn" data-maker-all>Show all ${list.length}</button></li>` : ''}</ul></section>`;
+}
+
+/** Facts whose text names other entries, linked to them: section.field -> how to link it. Each one is a
+    whole-name match (see namesIn and giverName), so a name that is not an entry stays plain text. */
+const FACT_LINKS = {
+  'missions.giver': (text) => giverLinks(text),
+  'missions.location': (text) => nameLinks(text, 'locations'),
+  'characters.home': (text) => nameLinks(text, 'locations'),
+  'characters.affiliation': (text) => nameLinks(text, 'factions'),
+  'businesses.owner': (text) => ownerLinks(text),
+  'factions.leader': (text) => giverLinks(text),
+};
+
 function facts(section, entry) {
   const known = (value) => value !== undefined && value !== null && value !== '' && !(Array.isArray(value) && !value.length);
   const rows = (category(section)?.fields || [])
     .filter((field) => known(entry.facts?.[field.key]) && (field.type === 'list') === Array.isArray(entry.facts[field.key]));
   if (!rows.length) return '';
+  const value = (field) => {
+    const v = entry.facts[field.key];
+    const link = FACT_LINKS[`${section}.${field.key}`];
+    return link && typeof v === 'string' ? link(v) : factValue(field, v);
+  };
   return `<section><h2>Facts</h2><dl class="fact-table">
-    ${rows.map((field) => `<div><dt>${esc(field.label || field.key)}</dt><dd>${factValue(field, entry.facts[field.key])}</dd></div>`).join('')}
+    ${rows.map((field) => `<div><dt>${esc(field.label || field.key)}</dt><dd>${value(field)}</dd></div>`).join('')}
   </dl></section>`;
 }
 
@@ -629,7 +768,7 @@ const listShell = (label) => `<div class="list" data-list>
  */
 /** "Official only": kept while the app is open, so it carries from list to list. */
 let officialOnly = false;
-function mountList(root, { items, text, sorts, render, page = LIST_PAGE, official = null }) {
+function mountList(root, { items, text, sorts, render, page: basePage = LIST_PAGE, pageFor = () => null, official = null }) {
   const tools = root.querySelector('.list-tools');
   const input = root.querySelector('.list-filter');
   const select = root.querySelector('.list-sort select');
@@ -637,6 +776,7 @@ function mountList(root, { items, text, sorts, render, page = LIST_PAGE, officia
   const body = root.querySelector('.list-body');
   const more = root.querySelector('.list-more');
   const haystack = new Map(items.map((item) => [item, text(item)]));
+  let page = pageFor(sorts[0].key) || basePage;
   let shown = page;
   let current = items;
 
@@ -685,7 +825,7 @@ function mountList(root, { items, text, sorts, render, page = LIST_PAGE, officia
     clearTimeout(timer);
     timer = setTimeout(() => { shown = page; draw(); }, 120);
   });
-  select.addEventListener('change', () => { shown = page; draw(); });
+  select.addEventListener('change', () => { page = pageFor(select.value) || basePage; shown = page; draw(); });
   more.addEventListener('click', () => { shown += page; draw(); });
   draw();
 
@@ -701,19 +841,161 @@ function mountList(root, { items, text, sorts, render, page = LIST_PAGE, officia
   };
 }
 
+const GRADES = ['Platinum', 'Gold', 'Silver', 'Bronze'];
+
+/** Who a mission is played as, from its "protagonist" fact, in a fixed order; '' when not given. */
+const LEADS = ['Jason', 'Lucia', 'Either or both', ''];
+function leadOf(mission) {
+  const p = String(mission.facts?.protagonist || '').trim();
+  if (p === 'Jason' || p === 'Lucia') return p;
+  return /either|both| and | or /i.test(p) ? 'Either or both' : '';
+}
+
+/** Where an animal lives, in four plain groups read from its "habitat" fact as written: saltwater
+    ("Saltwater: …", sea, reefs), freshwater ("Freshwater: …", inland waters), land and wetland (land,
+    forest, swamp, coast, town, a home). A habitat that says none of these clearly is '' (not listed). */
+const HABITATS = ['Saltwater', 'Freshwater', 'Land and wetland', ''];
+function habitatOf(entry) {
+  const h = String(entry.facts?.habitat || '').trim();
+  if (/^saltwater\b|^sea$|^open sea|\breefs?\b|oceanarium/i.test(h)) return 'Saltwater';
+  if (/^freshwater\b|^inland waters/i.test(h)) return 'Freshwater';
+  if (/\b(land|forest|wetlands?|swamp|marsh|coastal|urban|mount|house|home|farm)\b/i.test(h)) return 'Land and wetland';
+  return '';
+}
+
+/** Sections that name where each entry is, and the fact that holds it. */
+const COUNTY_FIELD = { businesses: 'location', activities: 'location', collectibles: 'region', missions: 'location' };
+/** The county a place text lies in: a county it names, or else the county of a place it names. */
+function countyFor(text) {
+  const hits = typeof text === 'string' ? placesIn(text) : [];
+  return (hits.find((h) => h.l.facts?.type === 'county')?.l.name) || (hits.find((h) => h.l.facts?.county)?.l.facts.county) || '';
+}
+
+/** Sections whose entries name a manufacturer. */
+const MAKER_SECTIONS = new Set(['vehicles', 'weapons']);
+const makerKey = (entry) => String(entry.facts?.manufacturer || '').trim().toLowerCase();
+/** Each maker once, whatever the case it was written in ("JoBuilt", "Jobuilt"), under its commonest spelling. */
+function makerTable(entries) {
+  const spellings = new Map();
+  for (const e of entries) {
+    const k = makerKey(e);
+    if (!k) continue;
+    const seen = spellings.get(k) || new Map();
+    const v = e.facts.manufacturer.trim();
+    seen.set(v, (seen.get(v) || 0) + 1);
+    spellings.set(k, seen);
+  }
+  const name = new Map();
+  const count = new Map();
+  for (const [k, seen] of spellings) {
+    name.set(k, [...seen].sort((a, b) => b[1] - a[1])[0][0]);
+    count.set(k, [...seen.values()].reduce((a, b) => a + b, 0));
+  }
+  return { name, count };
+}
+
+/** On a vehicle or weapon page: the others from the same maker. */
+function moreFromMaker(section, entry) {
+  const k = MAKER_SECTIONS.has(section) ? makerKey(entry) : '';
+  if (!k) return '';
+  const list = state.wiki[section] || [];
+  const others = list.filter((e) => e.slug !== entry.slug && makerKey(e) === k).sort(byName);
+  if (!others.length) return '';
+  const maker = makerTable(list).name.get(k);
+  const SHOWN = 12;
+  return `<section class="maker-more"><h2>More from ${esc(maker)} <span class="type-count">${others.length}</span></h2>
+    <ul>${others.map((e, i) => `<li${i >= SHOWN ? ' hidden' : ''}><a href="${entryLink(section, e.slug)}">${esc(isHidden(section, e) ? 'Spoiler' : e.name)}</a></li>`).join('')}
+    ${others.length > SHOWN ? `<li class="maker-all"><button type="button" class="chip-btn" data-maker-all>Show all ${others.length}</button></li>` : ''}</ul></section>`;
+}
+// "Show all" under More from <maker>: the rest of the list is already there, hidden.
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-maker-all]');
+  if (!b) return;
+  const list = b.closest('ul');
+  const rest = [...list.querySelectorAll('li[hidden]')];
+  rest.forEach((li) => { li.hidden = false; });
+  b.closest('li').remove();
+  rest[0]?.querySelector('a')?.focus(); // keyboard users carry on from the first one that appeared
+});
+
 /** A grid of entry cards with the list controls. */
 function mountEntryList(root, section, entries, kicker, gridClass) {
   // Missions open in story order, chapter by chapter, shown whole.
   const story = section === 'missions';
+  // Where the entries carry a type (pistol, sedan, gun store…), they can also be listed type by type.
+  // A type only one entry has is filed under "Other types", so the page is not a run of one-card headings.
+  const typeCount = new Map();
+  if (!story && kicker) entries.forEach((e) => { const k = typeKey(kicker(e)); typeCount.set(k, (typeCount.get(k) || 0) + 1); });
+  const groupOf = (e) => { const k = typeKey(kicker(e)); return typeCount.get(k) > 1 ? k : ''; };
+  const typed = [...typeCount.entries()].filter(([k, n]) => k && n > 1).length > 1;
+  const byType = (a, b) => typeCompare(groupOf(a), groupOf(b)) || byName(a, b);
+  // Achievements carry a grade (Platinum, Gold, Silver, Bronze), so they can be listed grade by grade, rarest first.
+  const graded = section === 'achievements' && entries.filter((e) => GRADES.includes(e.facts?.grade)).length > 1;
+  const gradeOf = (e) => (GRADES.includes(e.facts?.grade) ? e.facts.grade : '');
+  const gradeRank = (e) => { const i = GRADES.indexOf(gradeOf(e)); return i < 0 ? GRADES.length : i; };
+  const byGrade = (a, b) => gradeRank(a) - gradeRank(b) || byName(a, b);
+  // Vehicles and weapons carry a manufacturer, so they can be listed maker by maker.
+  const makers = MAKER_SECTIONS.has(section) ? makerTable(entries) : null;
+  const makerOf = (e) => { const k = makerKey(e); return k && makers.count.get(k) > 1 ? makers.name.get(k) : ''; };
+  const byMaker = (a, b) => typeCompare(makerOf(a), makerOf(b)) || byName(a, b);
+  // Businesses and activities name where they are, so they can be listed county by county.
+  const counties = COUNTY_FIELD[section] ? new Map(entries.map((e) => [e, countyFor(e.facts?.[COUNTY_FIELD[section]])])) : null;
+  const countyIn = (e) => counties.get(e) ?? '';
+  const byCounty = (a, b) => countyRank(countyIn(a) || null) - countyRank(countyIn(b) || null) || byName(a, b);
+  const grouped = [
+    ...(typed ? [{ key: 'type', label: 'By type', compare: byType }] : []),
+    ...(counties && new Set(counties.values()).size > 2 ? [{ key: 'county', label: 'By county', compare: byCounty }] : []),
+    ...(section === 'wildlife' && new Set(entries.map(habitatOf)).size > 2 ? [{ key: 'habitat', label: 'By habitat', compare: (a, b) => HABITATS.indexOf(habitatOf(a)) - HABITATS.indexOf(habitatOf(b)) || byName(a, b) }] : []),
+    ...(graded ? [{ key: 'grade', label: 'By grade', compare: byGrade }] : []),
+    ...(makers && [...makers.count.values()].filter((n) => n > 1).length > 1 ? [{ key: 'maker', label: 'By manufacturer', compare: byMaker }] : []),
+  ];
+  const byLead = (a, b) => LEADS.indexOf(leadOf(a)) - LEADS.indexOf(leadOf(b)) || storyCompare(a, b);
+  const sorts = story ? [{ key: 'story', label: 'Story order', compare: storyCompare }, { key: 'lead', label: 'By lead', compare: byLead },
+    ...grouped.filter((g) => g.key === 'county'), ...ENTRY_SORTS.filter((s) => s.key !== 'default')]
+    : [ENTRY_SORTS[0], ...grouped, ...ENTRY_SORTS.slice(1)];
   return mountList(root, {
     items: entries,
     text: (entry) => filterText(section, entry),
-    sorts: story ? [{ key: 'story', label: 'Story order', compare: storyCompare }, ...ENTRY_SORTS.filter((s) => s.key !== 'default')] : ENTRY_SORTS,
+    sorts,
     page: story ? 1000 : LIST_PAGE,
+    // Grouped (by type, grade or maker), a list is shown whole, so no heading's count stops part-way through its group.
+    pageFor: (sort) => (['type', 'grade', 'maker', 'county', 'lead', 'habitat'].includes(sort) ? 2000 : null),
     official: (entry) => entry.confidence === 'official',
     // The large "feature" tiles only make sense in the curated order.
-    render: (visible, sort) => (sort === 'story' ? missionStory(visible) : entryGrid(section, visible, kicker, sort === 'default' ? gridClass : '')),
+    render: (visible, sort) => (sort === 'story' ? missionStory(visible)
+      : sort === 'type' ? typeGroups(section, visible, kicker, groupOf)
+        : sort === 'grade' ? groupedGrid(section, visible, kicker, gradeOf, 'No grade listed')
+        : sort === 'maker' ? groupedGrid(section, visible, kicker, makerOf, 'Other or unlisted makers')
+        : sort === 'county' ? groupedGrid(section, visible, kicker, countyIn, 'Place not listed')
+        : sort === 'lead' ? groupedGrid(section, visible, kicker, (e) => leadOf(e), 'Lead not listed')
+        : sort === 'habitat' ? groupedGrid(section, visible, kicker, habitatOf, 'Habitat not listed')
+        : entryGrid(section, visible, kicker, sort === 'default' ? gridClass : '')),
   });
+}
+
+/** Types that are the same kind of thing under another name, filed together. */
+const TYPE_SAME = {
+  'tattoo parlor': 'tattoo studio', 'vehicle mod shop': 'mod shop', 'illegal gang operation': 'gang operation',
+  'bar with pool table': 'bar', 'unisex salon': 'salon', 'beauty salon': 'salon', 'melee weapon': 'melee',
+  boat: 'boats', motorcycle: 'motorcycles', plane: 'planes', helicopter: 'helicopters', muscle: 'muscle cars',
+  'muscle car': 'muscle cars', sports: 'sports cars', 'sports car': 'sports cars', standout: 'standout vehicle',
+  races: 'race', 'off-road vehicles': 'off-road', 'shooting range course': 'shooting range',
+};
+/** One spelling per type, whatever the case it was written in: "Explosive" and "explosive" are one.
+    Detail after the type ("Race (Salton)", "Service - trucks") is left to the card, not the heading. */
+const typeKey = (text) => {
+  const k = String(text || '').trim().toLowerCase().replace(/\s*\(.*\)$/, '').replace(/\s+-\s+.*$/, '');
+  return TYPE_SAME[k] || k;
+};
+/** Named types in alphabetical order; entries without one come last. */
+const typeCompare = (a, b) => (!a - !b) || a.localeCompare(b, 'en');
+const TYPE_SHORT = { smg: 'SMG', lmg: 'LMG', suv: 'SUV', suvs: 'SUVs', atv: 'ATV', rv: 'RV', dj: 'DJ', ahol: 'AHOL', waink: 'WAiNK' };
+const typeTitle = (key) => (!key ? 'Other types'
+  : key.replace(/\b[\p{L}]+/gu, (w) => (TYPE_SHORT[w] || w)).replace(/^\p{L}/u, (c) => c.toUpperCase()));
+
+/** Cards filed under a heading per type, each heading with its count. */
+function typeGroups(section, entries, kicker, groupOf) {
+  return groupedGrid(section, entries, kicker, (e) => { const k = groupOf(e); return k && typeTitle(k); }, typeTitle(''));
 }
 
 // A picture that fails to load is swapped for generated art instead of a broken icon.
@@ -1021,9 +1303,10 @@ function renderHome() {
   }).catch(() => {});
 }
 
-function timelineItem(item, full = false) {
-  // The Intel page passes full = true to show the further detail under each item.
-  const more = full === true ? (item.body || []).map((line) => `<p>${esc(line)}</p>`).join('') : '';
+function timelineItem(item, full = false, open = false) {
+  // The Intel page passes full = true to show the further detail under each item, folded unless open.
+  const lines = full === true ? (item.body || []).map((line) => `<p>${esc(line)}</p>`).join('') : '';
+  const more = lines ? `<details class="tl-more"${open ? ' open' : ''}><summary>More detail</summary>${lines}</details>` : '';
   return `<li>${closable('news', item, `<time datetime="${esc(item.date)}">${esc(formatDate(item.date))}</time> ${badge(item.confidence)}
     <h3>${esc(item.name)}</h3><p>${esc(item.summary)}</p>${full === true && item.image && !STORE ? `<img class="timeline-pic" src="${esc(item.image)}" alt="" loading="lazy">` : ''}${more}`)}</li>`;
 }
@@ -1066,6 +1349,23 @@ const letterOf = (entry) => {
   return /\p{L}/u.test(first) ? first : '#';
 };
 
+/** The encyclopedia's categories, filed under a few headings so the page reads in parts.
+    A category not named here goes under the last heading, so a new one is never lost. */
+const HUB_GROUPS = [
+  { title: 'Story and people', keys: ['characters', 'missions', 'factions'] },
+  { title: 'The world', keys: ['locations', 'businesses', 'wildlife', 'music'] },
+  { title: 'Playing', keys: ['gameplay', 'activities', 'vehicles', 'weapons'] },
+  { title: 'Completion', keys: ['collectibles', 'achievements'] },
+];
+function hubGroups(categories) {
+  const placed = new Set(HUB_GROUPS.flatMap((g) => g.keys));
+  const groups = HUB_GROUPS.map(({ title, keys }) => ({
+    title, list: keys.map((k) => categories.find((c) => c.key === k)).filter(Boolean),
+  }));
+  groups.at(-1).list.push(...categories.filter((c) => !placed.has(c.key)));
+  return groups.filter((g) => g.list.length);
+}
+
 function renderEncyclopedia() {
   const { categories } = state.wiki;
   const all = categories.flatMap((c) => (state.wiki[c.key] || []).map((entry) => ({ section: c.key, entry })));
@@ -1080,9 +1380,10 @@ function renderEncyclopedia() {
 
   view.innerHTML = `
     ${pageHead('Encyclopedia', `${all.length} entries in ${categories.length} categories. Every entry carries a confidence label and its sources.`)}
-    <section class="block">
+    ${hubGroups(categories).map(({ title, list: cats }) => `<section class="block hub-group">
+      <h2 class="hub-title">${esc(title)}</h2>
       <div class="index">
-        ${categories.map((c) => {
+        ${cats.map((c) => {
           const count = (state.wiki[c.key] || []).length;
           const href = ['characters', 'locations', 'vehicles'].includes(c.key) ? `#/${c.key}` : `#/wiki/${c.key}`;
           // The cover is the first entry in the category that has a picture and is not hidden.
@@ -1096,7 +1397,7 @@ function renderEncyclopedia() {
             <span class="kicker${count ? '' : ' is-empty'}">${count ? `${count} ${count === 1 ? 'entry' : 'entries'}` : 'Not yet documented'}</span></a>`;
         }).join('')}
       </div>
-    </section>
+    </section>`).join('')}
     <section class="block" id="az">
       <div class="block-head"><h2>A–Z</h2></div>
       <nav class="letters" aria-label="Jump to letter">${letters.map((l) => `<a href="#/wiki" data-letter="${esc(l)}">${esc(l)}</a>`).join('')}</nav>
@@ -1122,8 +1423,8 @@ function renderEncyclopedia() {
       }
       return `<div class="az">${groups.map(({ title, items }) => `<section data-group="${esc(title)}"><h3>${esc(title)}</h3><ul>
         ${items.map(({ section, entry }) => `
-          <li>${entry.image && !isHidden(section, entry) ? `<img class="az-thumb" src="${esc(entry.image)}" alt="" loading="lazy">` : '<span class="az-thumb" aria-hidden="true"></span>'}<a href="${entryLink(section, entry.slug)}">${esc(entry.name)}</a>
-            <span class="muted">${esc(sectionLabel(section))}</span> ${isHidden(section, entry) ? spoilerLabel : badge(entry.confidence)}</li>`).join('')}
+          <li>${entryThumb(section, entry)}<span class="az-name"><a href="${entryLink(section, entry.slug)}" title="${esc(entry.name)}">${esc(entry.name)}</a>
+            <span class="muted">${esc(sectionLabel(section))}</span></span>${isHidden(section, entry) ? spoilerLabel : badge(entry.confidence)}</li>`).join('')}
       </ul></section>`).join('')}</div>`;
     },
   });
@@ -1203,8 +1504,10 @@ function missionStory(entries) {
         ${entry.image && !STORE ? `<img class="story-thumb" src="${esc(entry.image)}" alt="" loading="lazy">` : ''}
         <span class="story-text"><span class="kicker">${esc(kicker)}</span><b>${esc(entry.name)}</b><span class="story-sum">${esc(entry.summary)}</span></span></a>`)}
     </li>`;
-  return chapters.map((ch) => `<section class="story-chapter">
-    <h2>${esc(ch.title)}</h2>
+  const count = (ch) => ch.parts.reduce((n, items) => n + items.length, 0);
+  const jump = chapters.length > 2 ? `<nav class="tl-jump story-jump" aria-label="Jump to a chapter">${chapters.map((ch, i) => `<button type="button" class="chip" data-story-ch="${i}">${esc(ch.title)} <span class="chip-count">${count(ch)}</span></button>`).join('')}</nav>` : '';
+  return jump + chapters.map((ch, i) => `<section class="story-chapter" id="story-ch-${i}">
+    <h2>${esc(ch.title)} <span class="type-count">${count(ch)}</span></h2>
     ${ch.parts.map((items, part) => {
       if (!items.length) return '';
       let n = 0;
@@ -1217,6 +1520,12 @@ function missionStory(entries) {
     }).join('')}
   </section>`).join('');
 }
+
+// The chapter jump bar above the story list (the list redraws on every filter, so this listens once, here).
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-story-ch]');
+  if (b) document.getElementById(`story-ch-${b.dataset.storyCh}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
 
 /** Previous and next story missions, for a mission's own page. */
 function storyNav(entry) {
@@ -1267,14 +1576,17 @@ function renderEntry(key, slug) {
         <h1>${esc(entry.name)}</h1>
         ${spoilerNote(entry)}
         <p class="lede">${esc(entry.summary)}</p>
+        ${lead ? '' : '<div class="entry-cols"><div class="entry-main">'}
         ${paragraphs(entry)}
-        ${facts(key, entry)}
+        ${lead ? facts(key, entry) : ''}
         ${key === 'missions' ? storyNav(entry) : ''}
         ${mapLink(key, entry)}
-        ${guideSlot(`#/wiki/${key}/${slug}`)}
-        ${related(entry)}
+        ${lead ? `${guideSlot(`#/wiki/${key}/${slug}`)}${related(entry)}${moreFromMaker(key, entry)}${factionMembers(key, entry)}` : ''}
         ${provenance(entry)}
         ${tags(entry)}
+        ${lead ? '' : `</div><aside class="entry-side" aria-label="At a glance">
+          ${facts(key, entry)}${guideSlot(`#/wiki/${key}/${slug}`)}${related(entry)}${moreFromMaker(key, entry)}${factionMembers(key, entry)}
+        </aside></div>`}
       </div>
     </article>`;
   view.innerHTML = isHidden(key, entry) ? veil(key, entry, page, 'page') : page;
@@ -1317,6 +1629,53 @@ function renderCharacters() {
   });
 }
 
+/** How a mission's giver field names a character: the full name, or the first name when no other
+    character shares it (givers are mostly written as first names: "Cal", "Dre'Quan"). Jason and Lucia
+    get none: for them the giver field sometimes names the playable lead, not who hands the mission out. */
+function giverName(c, flags = 'u') {
+  if (/protagonist/i.test(c.role || '')) return null;
+  const first = (name) => String(name || '').trim().split(/\s+/)[0];
+  const firstName = first(c.name);
+  const shared = state.wiki.characters.some((x) => x.slug !== c.slug && first(x.name) === firstName);
+  const names = [c.name, ...(shared ? [] : [firstName])].filter((n) => n && n.length > 2);
+  if (!names.length) return null;
+  const escRe = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return new RegExp(`(^|[^\\p{L}'])(${names.map(escRe).join('|')})(?![\\p{L}'])`, flags);
+}
+
+/** On Jason's and Lucia's pages: the missions played as them alone, chapter by chapter, and how many
+    more can be played as either or both. Read from each mission's "protagonist" fact. */
+function missionsAs(c) {
+  if (!/protagonist/i.test(c.role || '')) return '';
+  const firstName = String(c.name || '').trim().split(/\s+/)[0];
+  const missions = state.wiki.missions || [];
+  const own = missions.filter((m) => m.facts?.protagonist === firstName).sort(storyCompare);
+  if (!own.length) return '';
+  const shared = missions.filter((m) => /either|both| and | or /i.test(m.facts?.protagonist || '')).length;
+  const chapters = [];
+  for (const m of own) {
+    const title = chapterRank(m.facts?.chapter) < 99 ? m.facts.chapter : 'Across the game';
+    if (chapters.at(-1)?.title !== title) chapters.push({ title, list: [] });
+    chapters.at(-1).list.push(m);
+  }
+  return `<section class="maker-more lead-missions"><h2>Played as ${esc(firstName)} <span class="type-count">${own.length}</span></h2>
+    ${chapters.map((ch) => `<h3 class="story-part">${esc(ch.title)}</h3>
+      <ul>${ch.list.map((m) => `<li><a href="${entryLink('missions', m.slug)}">${esc(isHidden('missions', m) ? 'Spoiler' : m.name)}</a></li>`).join('')}</ul>`).join('')}
+    ${shared ? `<p class="muted">Another ${shared} can be played as either lead, or need both. <a href="#/wiki/missions">All missions, in story order</a></p>` : ''}</section>`;
+}
+
+/** The missions whose giver names this character, in story order. */
+function missionsFrom(c) {
+  const re = giverName(c);
+  if (!re) return '';
+  const firstName = String(c.name || '').trim().split(/\s+/)[0];
+  const list = (state.wiki.missions || []).filter((m) => m.facts?.giver && re.test(m.facts.giver)).sort(storyCompare);
+  if (!list.length) return '';
+  return `<section class="char-missions"><h2>Missions from ${esc(firstName)} <span class="type-count">${list.length}</span></h2>
+    <ul>${list.map((m) => `<li><a href="${entryLink('missions', m.slug)}">${esc(isHidden('missions', m) ? 'Spoiler' : m.name)}</a>
+      <span class="muted">${esc([m.facts?.chapter, m.facts?.type].filter(Boolean).join(', '))}</span></li>`).join('')}</ul></section>`;
+}
+
 function renderCharacter(slug) {
   const { characters } = state.wiki;
   const c = characters.find((x) => x.slug === slug);
@@ -1335,6 +1694,8 @@ function renderCharacter(slug) {
         ${c.ties?.length ? `<h2>Known ties</h2>
         <ul class="ties">${c.ties.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
         ${facts('characters', c)}
+        ${missionsFrom(c)}
+        ${missionsAs(c)}
         ${guideSlot(`#/characters/${slug}`)}
         ${related(c)}
         ${provenance(c)}
@@ -1353,12 +1714,54 @@ function renderLocations() {
   view.innerHTML = `
     ${pageHead('Locations', 'Vice City and the wider State of Leonida, region by region.', 'locations')}
     <section class="block">${listShell('locations')}</section>`;
+  const county = new Map(state.wiki.locations.map((l) => [l, countyOf(l)]));
+  const byRegion = (a, b) => countyRank(county.get(a)) - countyRank(county.get(b)) || county.get(a).localeCompare(county.get(b), 'en') || byName(a, b);
   mountList(view.querySelector('[data-list]'), {
     items: state.wiki.locations,
     text: (l) => filterText('locations', l),
-    sorts: ENTRY_SORTS,
-    render: (visible, sort) => entryGrid('locations', visible, (l) => l.region, sort === 'default' ? 'grid-feature' : ''),
+    sorts: [{ key: 'region', label: 'By region', compare: byRegion }, ...ENTRY_SORTS],
+    pageFor: (sort) => (sort === 'region' ? 1000 : null),
+    render: (visible, sort) => (sort === 'region'
+      ? groupedGrid('locations', visible, (l) => l.region, (l) => county.get(l) ?? countyOf(l))
+      : entryGrid('locations', visible, (l) => l.region, sort === 'default' ? 'grid-feature' : '')),
   });
+}
+
+/** The county a place is filed under: the last part of its region, without "North" or "South".
+    Vice City and Vice Beach are in Vice-Dale County; "Leonida" covers the whole state. */
+const COUNTY_ORDER = ['Vice-Dale County', 'Mariana County', 'Kelly County', 'Leonard County', 'Lummox County', 'Across Leonida'];
+function countyOf(place) {
+  const last = String(place.region || namedPlaceRegion(place)).split(',').pop().trim();
+  if (!last) return '';
+  if (/^(State of )?Leonida$/i.test(last)) return 'Across Leonida';
+  if (/^Vice (City|Beach)$/i.test(last)) return 'Vice-Dale County';
+  return last.replace(/^(North|South|East|West)\s+/i, '');
+}
+/** For a place with no region of its own, the region of a known place its name begins or ends with
+    ("Key Lento Marina" is in Key Lento's county). Only for filing it under a heading; nothing is stored. */
+let namedPlaces = null;
+function namedPlaceRegion(place) {
+  if (!namedPlaces || namedPlaces.source !== state.wiki.locations) {
+    namedPlaces = { source: state.wiki.locations, list: state.wiki.locations.filter((l) => l.region && l.name.length > 3).sort((a, b) => b.name.length - a.name.length) };
+  }
+  const name = String(place.name || '');
+  const hit = namedPlaces.list.find((l) => l !== place && (name.startsWith(`${l.name} `) || name.endsWith(` ${l.name}`) || name.includes(`(${l.name})`)));
+  return hit ? hit.region : '';
+}
+const countyRank = (county) => { const i = COUNTY_ORDER.indexOf(county); return i < 0 ? (county ? COUNTY_ORDER.length : COUNTY_ORDER.length + 1) : i; };
+
+/** Cards filed under a heading per group, each with its count. groupOf gives '' for the last, "Other" group. */
+function groupedGrid(section, entries, kicker, groupOf, other = 'Other places') {
+  const groups = [];
+  for (const entry of entries) {
+    const key = groupOf(entry);
+    if (groups.at(-1)?.key !== key) groups.push({ key, items: [] });
+    groups.at(-1).items.push(entry);
+  }
+  return groups.map(({ key, items }) => `<section class="type-group">
+    <h2 class="hub-title">${esc(key || other)} <span class="type-count">${items.length}</span></h2>
+    ${entryGrid(section, items, kicker, '')}
+  </section>`).join('');
 }
 
 function renderLocation(slug) {
@@ -1381,6 +1784,8 @@ function renderLocation(slug) {
           <p class="lede">${esc(l.summary)}</p>
           ${paragraphs(l)}
           ${facts('locations', l)}
+          ${missionsHere(l)}
+          ${placeContents(l)}
           ${guideSlot(`#/locations/${slug}`)}
           ${related(l)}
           ${provenance(l)}
@@ -1409,12 +1814,15 @@ function renderVehicles() {
 
 function renderIntel() {
   const { news, editions, faq } = state.wiki;
+  const groups = newsGroups(news);
   view.innerHTML = `
     ${pageHead('Intel', 'Release timeline, editions and the questions people ask most.')}
-    <section class="block split">
+    <section class="block split intel-split">
       <div>
         <div class="block-head"><h2>Timeline</h2></div>
-        <ol class="timeline">${news.map((item) => timelineItem(item, true)).join('')}</ol>
+        ${groups.length > 1 ? `<nav class="tl-jump" aria-label="Jump to">${groups.map((g, i) => `<button type="button" class="chip" data-tl="${i}">${esc(g.short)} <span class="chip-count">${g.items.length}</span></button>`).join('')}</nav>` : ''}
+        ${groups.map((g, i) => `<section class="tl-group" id="tl-${i}"><h3 class="hub-title">${esc(g.label)} <span class="type-count">${g.items.length}</span></h3>
+          <ol class="timeline">${g.items.map((item) => timelineItem(item, true, i === 0)).join('')}</ol></section>`).join('')}
       </div>
       <div>
         <div class="block-head"><h2>Editions</h2></div>
@@ -1426,6 +1834,51 @@ function renderIntel() {
         <div class="faq">${faq.map((q) => closable('faq', q, `<details><summary>${esc(q.name)}</summary><p>${esc(q.summary)} ${badge(q.confidence)}</p></details>`)).join('')}</div>
       </div>
     </section>`;
+  view.querySelector('.tl-jump')?.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-tl]');
+    if (b) document.getElementById(`tl-${b.dataset.tl}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
+
+const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+/** The timeline in reading-sized groups, newest first: one per month, a busy month (more than 12 items)
+    split into weeks of the month (1–7, 8–14, 15–21, 22 to the end), and a busy week into days.
+    News is already sorted newest first. */
+function newsGroups(news) {
+  const byMonth = new Map();
+  for (const item of news) {
+    const k = String(item.date || '').slice(0, 7);
+    if (!byMonth.has(k)) byMonth.set(k, []);
+    byMonth.get(k).push(item);
+  }
+  const groups = [];
+  for (const [k, items] of byMonth) {
+    const [y, m] = k.split('-').map(Number);
+    const month = MONTHS[m - 1];
+    if (!month) { groups.push({ label: 'Undated', short: 'Undated', items }); continue; }
+    if (items.length <= 12) { groups.push({ label: `${month} ${y}`, short: `${month.slice(0, 3)} ${y}`, items }); continue; }
+    const last = new Date(y, m, 0).getDate();
+    const weeks = new Map();
+    for (const item of items) {
+      const w = Math.min(3, Math.floor((Number(item.date.slice(8, 10)) - 1) / 7));
+      if (!weeks.has(w)) weeks.set(w, []);
+      weeks.get(w).push(item);
+    }
+    for (const [w, list] of weeks) {
+      const from = w * 7 + 1;
+      const to = w === 3 ? last : from + 6;
+      if (list.length <= 12) { groups.push({ label: `${month} ${from}–${to}, ${y}`, short: `${month.slice(0, 3)} ${from}–${to}`, items: list }); continue; }
+      // A busy week (launch week) goes day by day.
+      const days = new Map();
+      for (const item of list) {
+        const d = Number(item.date.slice(8, 10));
+        if (!days.has(d)) days.set(d, []);
+        days.get(d).push(item);
+      }
+      for (const [d, dayList] of days) groups.push({ label: `${month} ${d}, ${y}`, short: `${month.slice(0, 3)} ${d}`, items: dayList });
+    }
+  }
+  return groups;
 }
 
 // ---------- media ----------
@@ -1471,13 +1924,20 @@ async function renderMedia() {
     // they are not artwork, and many show what the spoiler rule keeps covered.
     ...media.images.filter((i) => i.group !== 'web').map((i) => ({ ...i, type: 'image', group: i.group || 'artwork' })),
   ];
-  const groups = ['all', ...new Set(items.map((i) => i.group))];
+  // Wallpapers and artwork lead; the rest follow in alphabetical order.
+  const LEAD = ['wallpapers', 'artwork'];
+  const found = [...new Set(items.map((i) => i.group))];
+  const groups = ['all', ...LEAD.filter((g) => found.includes(g)), ...found.filter((g) => !LEAD.includes(g)).sort()];
+  const groupName = (g) => (g === 'all' ? 'All' : sectionLabel(g) !== g ? sectionLabel(g)
+    : g.replace(/[-_]+/g, ' ').replace(/^\p{L}/u, (c) => c.toUpperCase()));
 
   let group = 'all';
   const draw = (active) => {
     group = active;
     const officialCount = items.filter(isOfficialPicture).length;
-    filter.innerHTML = groups.map((g) => `<button type="button" aria-pressed="${g === active}" class="${g === active ? 'is-active' : ''}" data-group="${esc(g)}">${esc(g)}</button>`).join('')
+    const pool = officialOnly ? items.filter(isOfficialPicture) : items;
+    const countOf = (g) => (g === 'all' ? pool.length : pool.filter((i) => i.group === g).length);
+    filter.innerHTML = groups.map((g) => `<button type="button" aria-pressed="${g === active}" class="${g === active ? 'is-active' : ''}" data-group="${esc(g)}">${esc(groupName(g))} <span class="chip-count">${countOf(g)}</span></button>`).join('')
       + `<button type="button" class="toggle official-toggle${officialOnly ? ' is-on' : ''}" data-official aria-pressed="${officialOnly}" title="Show only Rockstar Games' own pictures">Official only (${officialCount})</button>`;
     const shown = items.filter((i) => (active === 'all' || i.group === active) && (!officialOnly || isOfficialPicture(i)));
     gallery.innerHTML = shown.map((item) => `
@@ -1561,6 +2021,10 @@ const DEFAULT_PIN_CATEGORIES = [
 ];
 /** Pins listed per category before "Show all". */
 const MAP_LIST_PAGE = 40;
+/** A kind of pin with more places than this starts folded in the map's side list, so the list is a
+    short run of headings. A kind opened or folded by hand stays that way while the app is open. */
+const MAP_FOLD_FROM = 8;
+const mapFolded = new Map();
 
 const validPosition = (m) => [m.x, m.y].every((v) => typeof v === 'number' && v >= 0 && v <= 1);
 
@@ -1608,11 +2072,12 @@ window.ROBBERY_TYPES = ROBBERY_TYPES;
 
 /**
  * A short order to visit every spot once, starting from `start` ({x, y}): nearest first, then
- * improved by reversing any stretch that makes the line shorter (2-opt). Straight lines on the map,
- * in map proportions; pin positions are approximate, so this is a sensible order, not a road route.
+ * improved by reversing any stretch that makes the way shorter (2-opt). `dist` gives how far apart two
+ * spots are (by road, from routes.js); without it, straight lines in map proportions. Pin positions
+ * are approximate, so this is a sensible order, not an exact one.
  */
-function shortRun(spots, start, width, height) {
-  const d = (a, b) => Math.hypot((a.x - b.x) * width, (a.y - b.y) * height);
+function shortRun(spots, start, width, height, dist) {
+  const d = dist || ((a, b) => Math.hypot((a.x - b.x) * width, (a.y - b.y) * height));
   const left = spots.slice();
   const order = [];
   let at = start;
@@ -1839,7 +2304,7 @@ function renderMap(params) {
           <label class="heist-field"><span>Target</span><select data-plan-type>${ROBBERY_TYPES.map((t) => `<option value="${t.key}">${esc(t.label)}</option>`).join('')}</select></label>
           <div class="heist-acts"><button type="button" class="btn btn-primary btn-small" data-plan-go>Plan the run</button>
             <a class="link-btn" data-plan-guide href="#/manual/robbery-planner/2">Step-by-step guide</a></div>
-          <p class="muted heist-note">Puts every target of that kind in a short order, starting from the open pin or the middle of the view. Straight lines between approximate pins, not roads: check the guide for each stop.</p>
+          <p class="muted heist-note">Puts every target of that kind in a short order, starting from the open pin or the middle of the view. The order and every leg follow the roads and bridges on Rockstar's map. Pins are approximate: check the guide for each stop.</p>
         </details>`}
         <div class="map-route" hidden></div>
         <div class="field-search">${icon('search')}
@@ -2278,7 +2743,7 @@ function renderMap(params) {
         state.map3d = three;
         box3d.querySelector('.map3d-loading')?.remove();
         three.showPhotos(showingPhotos);
-        three.route(stops);
+        three.route(stops, routePath);
         three.map.on('moveend', drawHud);
         applyFilterToMap();
         applyOverlays();
@@ -2454,25 +2919,59 @@ function renderMap(params) {
     map.once('moveend', () => { if (ticket === flight) markers[index].openPopup(); });
   };
 
-  // ---------- route planner: numbered stops joined by straight lines (not roads) ----------
+  // ---------- route planner: numbered stops, each leg drawn along the map's roads (routes.js) ----------
   let stops = [];
   const routeBox = view.querySelector('.map-route');
   const routeLayer = L.layerGroup().addTo(map);
+  let routeToken = 0;
+  let routePath = null; // the drawn path, for the 3D view when it opens after the route was drawn
+  let planning = 0; // counts robbery-run requests; a newer one, or a hand edit, cancels the one in progress
   function drawRoute() {
     routeLayer.clearLayers();
-    if (stops.length > 1) L.polyline(stops.map((s) => point(s.x, s.y)), { color: '#ffd166', weight: 4, dashArray: '8 8', interactive: false }).addTo(routeLayer);
+    const token = ++routeToken;
+    routePath = null;
+    const legsLayer = L.layerGroup().addTo(routeLayer);
+    // A faint straight line at once, replaced by the legs along the roads as soon as they are worked out.
+    if (stops.length > 1) L.polyline(stops.map((s) => point(s.x, s.y)), { color: '#ffd166', weight: 2, opacity: 0.45, dashArray: '4 8', interactive: false }).addTo(legsLayer);
     stops.forEach((s, k) => L.marker(point(s.x, s.y), { icon: L.divIcon({ className: 'route-stop', html: `<span>${k + 1}</span>`, iconSize: [24, 24], iconAnchor: [12, 12] }), interactive: false }).addTo(routeLayer));
     three?.route(stops);
+    if (stops.length > 1) {
+      window.MapRoutes?.route(stops, () => token !== routeToken || state.map !== map).then((legs) => {
+        if (!legs || token !== routeToken || state.map !== map) return; // no grid (lines stay straight), or the route or page changed
+        legsLayer.clearLayers();
+        const stretches = legs.flat();
+        // A dark casing under each stretch, so the line reads over the map's white roads too.
+        stretches.forEach((s) => L.polyline(s.points.map((p) => point(p.x, p.y)), { color: '#1a1026', weight: 7, opacity: 0.5, interactive: false }).addTo(legsLayer));
+        stretches.forEach((s) => L.polyline(s.points.map((p) => point(p.x, p.y)), s.water
+          ? { color: '#7fd8ff', weight: 4, dashArray: '2 9', lineCap: 'round', interactive: false, className: 'route-water' }
+          : { color: '#ffd166', weight: 4, interactive: false, className: 'route-road' }).addTo(legsLayer));
+        routePath = stretches.flatMap((s) => s.points);
+        three?.route(stops, routePath);
+        const crossings = legs.filter((l) => l.some((s) => s.water)).length;
+        // In the list, a stop reached across water says so, beside its name.
+        routeBox.querySelectorAll('ol > li').forEach((li, k) => {
+          if (k && legs[k - 1]?.some((s) => s.water)) {
+            li.querySelector('.route-name')?.insertAdjacentHTML('afterend', '<span class="route-water-tag" title="The way to this stop crosses water: the map shows no road or land joining it to the stop before">by water</span>');
+          }
+        });
+        const note = routeBox.querySelector('.route-water-note');
+        if (note) {
+          note.hidden = !crossings;
+          note.textContent = crossings ? `${crossings === 1 ? 'One leg crosses' : `${crossings} legs cross`} water (dotted blue): the map shows no road or land joining those stops.` : '';
+        }
+      });
+    }
     routeBox.hidden = !stops.length;
     routeBox.innerHTML = stops.length ? `<h2>Route <span class="muted">${stops.length} ${stops.length === 1 ? 'stop' : 'stops'}</span></h2>
       <ol>${stops.map((s, k) => `<li><span class="route-n">${k + 1}</span><span class="route-name">${esc(s.name)}</span>
         <span class="route-btns"><button type="button" data-stop-up="${k}" aria-label="Move ${esc(s.name)} up" ${k === 0 ? 'disabled' : ''}>${icon('chevron-down', 'flip')}</button><button type="button" data-stop-down="${k}" aria-label="Move ${esc(s.name)} down" ${k === stops.length - 1 ? 'disabled' : ''}>${icon('chevron-down')}</button><button type="button" data-stop-del="${k}" aria-label="Remove ${esc(s.name)}">${icon('close')}</button></span></li>`).join('')}</ol>
-      <p class="muted route-note">An approximate map route: straight lines between the stops on Rockstar's map, not roads. No distance or travel time is given, because pin positions are approximate.</p>
+      <p class="muted route-note">Each leg follows the roads, bridges and land drawn on Rockstar's map. Pin positions are approximate, so take it as the way to go, not turn-by-turn directions; no distance or travel time is given.</p>
+      <p class="muted route-note route-water-note" hidden></p>
       <form class="route-save"><input name="name" placeholder="Name this route" aria-label="Route name" maxlength="60" required><button class="btn btn-small">Save route</button><button type="button" class="link-btn" data-stop-clear>Clear</button></form>` : '';
   }
   // Editing the route by hand ends a planned run's narrowing of the lists and map.
   const endRun = () => { if (runOnly) { runOnly = null; drawLists(); applyFilterToMap(); } };
-  const addStop = (s) => { endRun(); stops = [...stops, s]; drawRoute(); say(`${s.name} added to the route (stop ${stops.length}).`); };
+  const addStop = (s) => { planning += 1; endRun(); stops = [...stops, s]; drawRoute(); say(`${s.name} added to the route (stop ${stops.length}).`); };
   routeBox.addEventListener('click', (e) => {
     const b = e.target.closest('button');
     if (!b) return;
@@ -2482,17 +2981,32 @@ function renderMap(params) {
     else if (b.dataset.stopDel !== undefined) { stops.splice(k, 1); endRun(); }
     else if (b.dataset.stopClear !== undefined) { stops = []; endRun(); }
     else return;
+    planning += 1; // a hand edit wins over a run still being worked out
     drawRoute();
   });
   // Robbery runs: every target of one kind, in a short order, as the route above.
   const plan = view.querySelector('.heist-plan');
-  function planRun(key) {
+  async function planRun(key) {
     const type = ROBBERY_TYPES.find((t) => t.key === key);
     if (!type) { say('That robbery type is not on the list.'); return; }
     const targets = pins.filter(type.test);
     if (!targets.length) { say('No pins of that kind are on the map.'); return; }
     const start = selected >= 0 ? pins[selected] : (() => { const [x, y] = toXY(map.getCenter()); return { x, y }; })();
-    const run = shortRun(targets, start, state.wiki.map.width, state.wiki.map.height);
+    // The order goes by the way you would travel (roads and bridges), so a stop across a bay is not
+    // taken next just because it looks close. Without the routing grid it falls back to straight lines.
+    const token = ++planning;
+    say(`${type.label}: working out the order by road…`);
+    const spots = [start, ...targets];
+    const stale = () => token !== planning || state.map !== map;
+    const table = await window.MapRoutes?.matrix(spots, stale).catch(() => null);
+    if (stale()) return; // another run or a hand edit came meanwhile, or the map was left
+    const at = new Map(spots.map((p, i) => [p, i]));
+    const byRoad = table ? (a, b) => table[at.get(a)][at.get(b)] : null;
+    const straight = shortRun(targets, start, state.wiki.map.width, state.wiki.map.height);
+    // The quick ordering can settle on a slightly longer way, so by road it is worked out twice (from
+    // road distances, and from the straight-line order) and the shorter of the two by road is kept.
+    const roadLength = (order) => order.reduce((sum, p, k) => sum + byRoad(k ? order[k - 1] : start, p), 0);
+    const run = byRoad ? [shortRun(targets, start, 0, 0, byRoad), straight].sort((a, b) => roadLength(a) - roadLength(b))[0] : straight;
     stops = run.map((p) => ({ name: p.name, x: p.x, y: p.y, ref: p.ref || '' }));
     drawRoute();
     runOnly = new Set(targets.map((p) => pins.indexOf(p)));
@@ -2504,7 +3018,7 @@ function renderMap(params) {
       plan.querySelector('[data-plan-guide]').href = `#/manual/robbery-planner/${type.page}`;
     }
     map.flyToBounds(L.latLngBounds(stops.map((st) => point(st.x, st.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 });
-    say(`${type.label}: ${stops.length} stops in a short order. Reorder or save it below.`);
+    say(`${type.label}: ${stops.length} stops in a short order${byRoad ? ' by road' : ''}. Reorder or save it below.`);
   }
   plan?.addEventListener('click', (e) => { if (e.target.closest('[data-plan-go]')) planRun(plan.querySelector('[data-plan-type]').value); });
   plan?.addEventListener('change', (e) => {
@@ -2740,8 +3254,12 @@ function renderMap(params) {
       // While filtering, show every match; otherwise a page, then "Show all".
       const listed = narrowed || expanded.has(c.key) ? mine : mine.slice(0, MAP_LIST_PAGE);
       if (narrowed && !mine.length) return '';
-      return `<section data-category="${esc(c.key)}">
+      // While searching, every kind with a match is open; so is the kind of the open pin.
+      const held = narrowed || pins[selected]?.category === c.key;
+      const folded = !held && (mapFolded.has(c.key) ? mapFolded.get(c.key) : all > MAP_FOLD_FROM);
+      return `<section data-category="${esc(c.key)}"${folded ? ' class="is-folded"' : ''}>
         <div class="map-cat-head">
+          <button type="button" class="map-fold" data-fold="${esc(c.key)}" aria-expanded="${!folded}" aria-label="${folded ? 'Open' : 'Fold'} the ${esc(c.label)} list"${held ? ` disabled title="Stays open while you search or while one of its places is open"` : ''}>${icon('chevron-down')}</button>
           <label class="map-toggle"><input type="checkbox" ${off.has(c.key) ? '' : 'checked'} data-toggle="${esc(c.key)}">
             <span>${esc(c.label)}</span>
             <b class="map-n">${words.length ? `${mine.length}/${all}` : all}</b></label>
@@ -2751,8 +3269,8 @@ function renderMap(params) {
             ${trackable ? `<button type="button" class="link-btn" data-next="${esc(c.key)}" aria-label="Next ${esc(c.label)} not yet discovered" data-tip="Fly to the next one you have not marked discovered">Next</button>` : ''}
           </span>
         </div>
-        <ul class="${off.has(c.key) ? 'is-off' : ''}">${listed.map((i) => `<li><button type="button" data-marker="${i}" class="${i === selected ? 'is-selected' : ''}" title="${esc(pins[i].name)}${pins[i].kind ? ` (${esc(pins[i].kind)})` : ''}">${dot(pins[i])}<span class="row-name">${esc(pins[i].name)}</span>${isFound(i) ? `<span class="found-mark" title="Discovered">${icon('check-circle')}</span>` : ''}${UserStore.has('favourites', pinKey(pins[i])) ? `<span class="fav-star" title="Favourite">${icon('star-fill')}</span>` : ''}${pins[i].kind && pins[i].kind !== c.label ? `<small>${esc(pins[i].kind)}</small>` : ''}</button></li>`).join('')}</ul>
-        ${listed.length < mine.length ? `<button type="button" class="map-more" data-expand="${esc(c.key)}">Show all ${mine.length}</button>` : ''}
+        ${folded ? '' : `<ul class="${off.has(c.key) ? 'is-off' : ''}">${listed.map((i) => `<li><button type="button" data-marker="${i}" class="${i === selected ? 'is-selected' : ''}" title="${esc(pins[i].name)}${pins[i].kind ? ` (${esc(pins[i].kind)})` : ''}">${dot(pins[i])}<span class="row-name">${esc(pins[i].name)}</span>${isFound(i) ? `<span class="found-mark" title="Discovered">${icon('check-circle')}</span>` : ''}${UserStore.has('favourites', pinKey(pins[i])) ? `<span class="fav-star" title="Favourite">${icon('star-fill')}</span>` : ''}${pins[i].kind && pins[i].kind !== c.label ? `<small>${esc(pins[i].kind)}</small>` : ''}</button></li>`).join('')}</ul>
+        ${listed.length < mine.length ? `<button type="button" class="map-more" data-expand="${esc(c.key)}">Show all ${mine.length}</button>` : ''}`}
       </section>`;
     }).join('') || `<p class="muted">${nearOnly ? 'No pins near here. Pick a wider "nearby" or move the map.' : words.length ? 'No pin matches that.' : 'No pins yet.'}</p>`;
     applyFilterToMap();
@@ -2798,6 +3316,12 @@ function renderMap(params) {
     if (button.dataset.marker !== undefined && narrow()) setSide(false);
     if (button.dataset.marker !== undefined) flyTo(Number(button.dataset.marker));
     if (button.dataset.expand) { expanded.add(button.dataset.expand); drawLists(); }
+    if (button.dataset.fold) {
+      const key = button.dataset.fold;
+      mapFolded.set(key, button.getAttribute('aria-expanded') === 'true');
+      drawLists();
+      side.querySelector(`[data-fold="${CSS.escape(key)}"]`)?.focus();
+    }
     if (button.dataset.all) { categories.forEach((c) => setCategory(c.key, button.dataset.all === 'on')); drawLists(); }
     if (button.dataset.only) {
       // Pressed again while it is already the only kind shown: everything comes back.
@@ -2878,7 +3402,8 @@ let searchTimer;
 function renderSearch(params) {
   const query = params.get('q') || '';
   let section = params.get('in') || '';
-  const searchable = [...state.wiki.categories.map((c) => c.key), ...Object.keys(FIXED_LABELS)]
+  // Filters in the Encyclopedia's own order (story and people, the world, playing, completion), then news.
+  const searchable = [...hubGroups(state.wiki.categories).flatMap((g) => g.list.map((c) => c.key)), ...Object.keys(FIXED_LABELS)]
     .filter((key) => (state.wiki[key] || []).length);
 
   view.innerHTML = `
@@ -2906,13 +3431,27 @@ function renderSearch(params) {
   let loaded = 0; // results on the page for the current search
 
   const drawFilter = () => {
-    filter.innerHTML = ['', ...searchable].map((key) => `<button type="button" aria-pressed="${key === section}" class="${key === section ? 'is-active' : ''}" data-section="${esc(key)}">${esc(key ? sectionLabel(key) : 'Everything')}</button>`).join('');
+    filter.innerHTML = ['', ...searchable].map((key) => `<button type="button" aria-pressed="${key === section}" class="${key === section ? 'is-active' : ''}" data-section="${esc(key)}">${esc(key ? sectionLabel(key) : 'Everything')}<span class="chip-count" hidden></span></button>`).join('');
+  };
+  /** Each filter shows how many results it holds (the server counts every section, whichever is picked).
+      Updated in place, so a filter pressed from the keyboard keeps its focus. No counts: the counts hide. */
+  const showCounts = (sections) => {
+    const all = sections ? Object.values(sections).reduce((a, b) => a + b, 0) : 0;
+    filter.querySelectorAll('[data-section]').forEach((b) => {
+      const n = sections ? (b.dataset.section ? sections[b.dataset.section] || 0 : all) : null;
+      const span = b.querySelector('.chip-count');
+      span.hidden = n === null;
+      span.textContent = n === null ? '' : String(n);
+      b.classList.toggle('is-none', n === 0);
+    });
   };
 
   const row = (hit) => {
     const closed = hit.spoiler && !showSpoilers;
-    return `<a class="result${hit.image ? ' has-thumb' : ''}" href="${entryLink(hit.section, hit.slug)}">
-      ${hit.image ? `<div class="result-thumb"><img src="${esc(hit.image)}" alt="" loading="lazy"></div>` : ''}
+    // Every row has a picture slot, so the names line up; one without a picture shows its section's icon.
+    return `<a class="result has-thumb" href="${entryLink(hit.section, hit.slug)}">
+      ${hit.image ? `<div class="result-thumb"><img src="${esc(hit.image)}" alt="" loading="lazy"></div>`
+        : `<div class="result-thumb is-glyph" aria-hidden="true">${icon(SECTION_ICONS[hit.section] || 'book')}</div>`}
       <div><div class="card-meta"><span class="kicker">${esc(sectionLabel(hit.section))}</span>${closed ? spoilerLabel : badge(hit.confidence)}</div>
         <h3>${esc(hit.name)}</h3><p>${closed ? SPOILER_HINT : esc(hit.summary)}</p></div>
     </a>`;
@@ -2925,6 +3464,7 @@ function renderSearch(params) {
     if (!q.trim()) {
       tools.hidden = true;
       more.hidden = true;
+      showCounts(null);
       body.innerHTML = '<p class="muted">Start typing to search the whole wiki.</p>';
       return;
     }
@@ -2936,11 +3476,13 @@ function renderSearch(params) {
     } catch {
       tools.hidden = true;
       more.hidden = true;
+      showCounts(null);
       body.innerHTML = '<p class="muted">Search is not responding. Try again in a moment.</p>';
       return;
     }
     if (input.value !== q || !results.isConnected) return; // a newer search is already on its way
     loaded = offset + page.hits.length;
+    if (!append) showCounts(page.sections || null);
     tools.hidden = page.total === 0;
     more.hidden = loaded >= page.total || page.hits.length === 0;
     more.textContent = `Show ${Math.min(SEARCH_PAGE, page.total - loaded)} more (${page.total - loaded} left)`;
@@ -2981,7 +3523,11 @@ function renderSearch(params) {
     const button = e.target.closest('button');
     if (!button) return;
     section = button.dataset.section;
-    drawFilter();
+    filter.querySelectorAll('[data-section]').forEach((b) => {
+      const on = b.dataset.section === section;
+      b.setAttribute('aria-pressed', String(on));
+      b.classList.toggle('is-active', on);
+    });
     run();
   });
   sort.addEventListener('change', () => run());
@@ -3020,6 +3566,13 @@ function route() {
   if (state.map) { state.map.remove(); state.map = null; }
   if (state.map3d) { try { state.map3d.destroy(); } catch { /* already gone */ } state.map3d = null; }
   const [path, queryString] = location.hash.replace(/^#\/?/, '').split('?');
+  // The names on the menu work as addresses too: #/encyclopedia is the encyclopedia, #/guides the guides.
+  const ALIASES = { encyclopedia: 'wiki', guides: 'manual', missions: 'wiki/missions' };
+  const head = path.split('/')[0];
+  if (ALIASES[head]) {
+    location.replace(`#/${[ALIASES[head], ...path.split('/').slice(1)].join('/')}${queryString ? `?${queryString}` : ''}`);
+    return;
+  }
   const [section, a, b] = path.split('/').map(decodeURIComponent);
   const params = new URLSearchParams(queryString || '');
   const name = section || 'home';

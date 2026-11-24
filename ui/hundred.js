@@ -119,11 +119,11 @@
         const next = rows.filter(({ line, n }) => n < line.need)
           .sort((a, b) => b.line.weight * (1 - b.n / b.line.need) - a.line.weight * (1 - a.n / a.line.need)).slice(0, 4);
         box.innerHTML = `
-          <div class="stat-grid hundred-top">
+          <div class="hundred-head"><div class="stat-grid hundred-top">
             <div class="stat-card stat-wide"><b>${overall}%</b><span>Your 100%, weighted the way the game counts it (GTABase's weights). The story alone is half.</span>${meter(score, totalWeight)}</div>
             <div class="stat-card"><b>${finished} / ${all.length}</b><span>Lines finished</span>${meter(finished, all.length)}</div>
           </div>
-          ${next.length ? `<section class="hundred-next"><h2>Worth doing next</h2><ol>${next.map(({ line, n }) => `<li><a href="#hl-${esc(line.key)}">${esc(line.name)}</a> <span class="muted">${esc(show(line, n))} of ${esc(show(line, line.need))} · worth ${line.weight}%</span></li>`).join('')}</ol></section>` : '<section class="hundred-next"><h2>Every line is finished</h2><p>That is 100% by this checklist.</p></section>'}
+          ${next.length ? `<section class="hundred-next"><h2>Worth doing next</h2><ol>${next.map(({ line, n }) => `<li><a href="#hl-${esc(line.key)}">${esc(line.name)}</a> <span class="muted">${esc(show(line, n))} of ${esc(show(line, line.need))} · worth ${line.weight}%</span></li>`).join('')}</ol></section>` : '<section class="hundred-next"><h2>Every line is finished</h2><p>That is 100% by this checklist.</p></section>'}</div>
           <div class="hundred-tools"><label class="hundred-hide"><input type="checkbox" data-hide${hideDone ? ' checked' : ''}> Hide finished lines</label>
             <a class="chip-btn" href="#/tracker">Open the Collectible Tracker</a><a class="chip-btn" href="#/manual/g100-route">Open the 100% guide</a></div>
           <ol class="hundred-list">${rows.filter(({ line, n }) => !hideDone || n < line.need).map(({ line, n }) => {

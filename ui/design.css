@@ -845,3 +845,150 @@ body[data-page='manual'] .rail { display: none; }
 .story-thumb { width: 128px; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 6px; display: block; }
 .story-text { display: grid; gap: 2px; min-width: 0; }
 @media (max-width: 520px) { .story-link.has-thumb { grid-template-columns: 88px 1fr; } .story-thumb { width: 88px; } }
+
+/* ---------- encyclopedia hub: categories filed under headings ---------- */
+.hub-group { padding-block: var(--s4); }
+.hub-group + .hub-group { padding-top: var(--s2); }
+.hub-title { display: flex; align-items: center; gap: var(--s3); margin: 0 0 var(--s4); color: var(--text-secondary); font: 700 0.95rem var(--font-display); letter-spacing: 0.02em; }
+.hub-title::after { content: ''; flex: 1; height: 1px; background: var(--border-subtle); }
+@media (min-width: 1100px) { .hub-group .index { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
+/* ---------- section lists in "By type" order ---------- */
+.type-group { margin-bottom: var(--s7); scroll-margin-top: calc(var(--bar, 64px) + var(--s4)); }
+.type-count { padding: 1px 8px; border: 1px solid var(--border-subtle); border-radius: 999px; color: var(--text-muted); font-size: 0.75rem; font-weight: 600; letter-spacing: 0; }
+
+/* ---------- entry pages without a picture: reading column plus an "at a glance" column ---------- */
+.entry-side > :first-child { margin-top: 0; }
+.entry-side:not(:has(> :not([hidden]))) { display: none; }
+@media (min-width: 1100px) {
+  .profile-text:has(.entry-cols) { grid-template-columns: minmax(0, 1220px); }
+  .profile-text .lede, .profile-text .entry-main { max-width: 78ch; }
+  .entry-cols:has(.entry-side > :not([hidden])) { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 360px); gap: var(--s7); align-items: start; }
+  .entry-side { padding: var(--s5); border: 1px solid var(--border-subtle); border-radius: var(--radius); background: color-mix(in srgb, var(--bg-panel) 70%, transparent); }
+  .entry-side h2 { margin-top: var(--s5); }
+  .entry-side > :first-child h2, .entry-side > h2:first-child { margin-top: 0; }
+  .entry-side .near-list { grid-template-columns: minmax(0, 1fr); }
+  .entry-side .fact-table div { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .entry-side .fact-table dt { padding-top: 0; }
+  .entry-side .related { flex-direction: column; align-items: stretch; }
+}
+
+/* ---------- Progress: grouped cards ---------- */
+.progress-page .stat-grid { margin-bottom: var(--s5); }
+.progress-page .stat-grid:first-child { margin-bottom: var(--s6); }
+.stat-link { color: var(--text-primary); transition: border-color var(--ease); }
+.stat-link b { display: flex; align-items: center; gap: var(--s2); font-size: 1.25rem; }
+.stat-link b .i { width: 22px; height: 22px; color: var(--accent-pink); }
+.stat-link em { font-style: normal; font-size: 0.75rem; color: var(--accent-pink); }
+.stat-link:hover { border-color: var(--accent-pink); }
+.chip-count { margin-left: 2px; opacity: 0.6; font-size: 0.85em; font-variant-numeric: tabular-nums; }
+.result-thumb.is-glyph { display: grid; place-items: center; color: var(--text-muted); background: linear-gradient(135deg, var(--bg-panel), var(--bg-panel-raised, var(--bg-panel))); }
+.result-thumb.is-glyph .i { width: 28px; height: 28px; opacity: 0.7; }
+
+/* ---------- Settings: the list of sections beside them ---------- */
+.settings-toc { display: none; }
+.settings-page fieldset { scroll-margin-top: calc(var(--bar, 64px) + var(--s4)); }
+@media (min-width: 1100px) {
+  .settings-page { grid-template-columns: minmax(0, 760px) 220px; align-items: start; column-gap: var(--s7); }
+  .settings-page > fieldset { grid-column: 1; }
+  .settings-toc { display: block; grid-column: 2; align-self: start; position: sticky; top: calc(var(--bar, 64px) + var(--s5)); padding: var(--s4); border: 1px solid var(--border-subtle); border-radius: var(--radius-card, var(--radius)); background: var(--bg-panel); }
+  .settings-toc b { display: block; margin-bottom: var(--s2); color: var(--text-secondary); font: 700 0.75rem var(--font-display); }
+  .settings-toc ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 2px; }
+  .settings-toc a { display: block; padding: 6px var(--s2); border-radius: var(--radius); color: var(--text-primary); font-size: 0.875rem; }
+  .settings-toc a:hover { background: color-mix(in srgb, var(--accent-pink) 12%, transparent); color: var(--accent-pink); }
+}
+
+/* ---------- 100% Checklist: score and next steps side by side, lines two to a row ---------- */
+@media (min-width: 1100px) {
+  .hundred-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--s4); align-items: stretch; margin-bottom: var(--s4); }
+  .hundred-head .hundred-top, .hundred-head .hundred-next { margin-bottom: 0; }
+  .hundred-head .hundred-top { grid-template-columns: minmax(0, 1fr); }
+  .hundred-list { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: stretch; }
+  .hundred-line { align-content: start; }
+}
+
+/* ---------- map side list: each kind folds ---------- */
+.map-fold { display: grid; place-items: center; flex: none; width: 26px; height: 26px; padding: 0; border: 0; border-radius: var(--radius); background: transparent; color: var(--text-muted); cursor: pointer; }
+.map-fold:hover { color: var(--text-primary); background: color-mix(in srgb, var(--text-primary) 8%, transparent); }
+.map-fold .i { width: 16px; height: 16px; transition: transform var(--ease); }
+.is-folded .map-fold .i { transform: rotate(-90deg); }
+.map-lists section.is-folded { margin-top: var(--s2); padding-top: var(--s2); }
+.map-lists section.is-folded + section.is-folded { margin-top: 0; }
+/* Only and Next stay on the heading's line; a long name wraps under itself instead. */
+.map-cat-head { flex-wrap: nowrap; }
+.map-cat-head .map-toggle span { min-width: 0; line-height: 1.25; }
+.map-cat-head .map-cat-tools { flex: none; }
+@media (prefers-reduced-motion: reduce) { .map-fold .i { transition: none; } }
+
+/* ---------- Intel: the timeline in month and week groups ---------- */
+.tl-jump { display: flex; flex-wrap: wrap; gap: var(--s2); margin: 0 0 var(--s5); }
+.tl-group { margin-bottom: var(--s6); scroll-margin-top: calc(var(--bar, 64px) + var(--s4)); }
+.tl-group .hub-title { margin-bottom: 0; }
+.timeline .timeline-pic, .timeline .tl-more { grid-column: 2; }
+.tl-more { margin-top: var(--s2); }
+.tl-more > summary { display: inline-flex; align-items: center; gap: 6px; cursor: pointer; color: var(--accent-pink); font: 600 0.8rem var(--font-display); list-style: none; }
+.tl-more > summary::-webkit-details-marker { display: none; }
+.tl-more > summary::after { content: ''; width: 7px; height: 7px; border: solid currentColor; border-width: 0 2px 2px 0; transform: translateY(-2px) rotate(45deg); transition: transform 0.15s; }
+.tl-more[open] > summary::after { transform: translateY(1px) rotate(-135deg); }
+.tl-more > summary:focus-visible { outline: 2px solid var(--focus, var(--accent-pink)); outline-offset: 3px; border-radius: 4px; }
+.tl-more p + p, .tl-more summary + p { margin-top: var(--s2); }
+@media (max-width: 700px) { .timeline .timeline-pic, .timeline .tl-more { grid-column: auto; } }
+@media (prefers-reduced-motion: reduce) { .tl-more > summary::after { transition: none; } }
+@media (min-width: 1100px) { .intel-split { grid-template-columns: minmax(0, 1.7fr) minmax(300px, 1fr); } }
+/* A news picture sits beside its text as a thumbnail instead of a full-width block under it. */
+@media (min-width: 701px) {
+  .timeline li:has(> .timeline-pic) { grid-template-columns: 150px minmax(0, 1fr) 190px; }
+  .timeline li > .timeline-pic { grid-column: 3; grid-row: 1 / span 4; width: 100%; margin: 0; align-self: start; }
+}
+.intel-split .editions { grid-template-columns: 1fr; }
+
+/* ---------- Missions: chapter jump bar, and the story in two columns on wide screens ---------- */
+.story-chapter { scroll-margin-top: calc(var(--bar, 64px) + var(--s4)); }
+.story-chapter > h2 { display: flex; align-items: center; gap: var(--s3); }
+.story-chapter > h2 .type-count { font-family: var(--font-body, inherit); }
+@media (min-width: 1100px) {
+  /* Columns read downward, so the numbers still run 1, 2, 3 down the first column, then the second. */
+  .story-list { display: block; columns: 2; column-gap: var(--s4); }
+  .story-list > .story-row { break-inside: avoid; margin-bottom: 6px; }
+}
+.story-jump + .story-chapter { margin-top: 0; }
+/* Search: a filter with no results stays pressable but steps back. */
+#search-filter button.is-none:not(.is-active) { color: var(--text-muted); border-color: var(--border-subtle); }
+#search-filter button.is-none .chip-count { opacity: 1; }
+
+/* ---------- Media on a phone: two pictures a row, not one ---------- */
+@media (max-width: 700px) {
+  .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s2); }
+  .gallery .tile-title { padding: var(--s5) var(--s2) var(--s2); font-size: 0.7rem; line-height: 1.25;
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .gallery .play { width: 36px; height: 36px; margin: -18px; }
+  .gallery .play::after { border-width: 6px 0 6px 10px; }
+}
+/* Tracker rows never wider than their card: on a phone the 320px column overflowed and cut off "Open". */
+.tracker-list { grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); }
+.tracker-list li { min-width: 0; }
+@media (max-width: 720px) { .tracker-list { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 720px) {
+  .tracker-list label { flex-basis: 100%; }
+  .tracker-meta { flex: 1 1 0; min-width: 0; }
+}
+
+/* ---------- Character pages: the missions this person gives ---------- */
+.char-missions { margin: var(--s6) 0; }
+.char-missions h2 { display: flex; align-items: center; gap: var(--s3); }
+.char-missions ul { list-style: none; margin: var(--s3) 0 0; padding: 0; display: grid; gap: 2px; }
+.char-missions li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px var(--s3); padding: 8px 0; border-bottom: 1px solid var(--border-subtle); }
+.char-missions li a { font-weight: 600; }
+.char-missions li .muted { font-size: 0.8rem; }
+
+/* ---------- Vehicle and weapon pages: more from the same maker ---------- */
+.maker-more { margin: var(--s6) 0; }
+.maker-more h2 { display: flex; align-items: center; gap: var(--s3); }
+.maker-more ul { list-style: none; margin: var(--s3) 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--s2); }
+.maker-more li a { display: inline-block; padding: 5px 12px; border: 1px solid var(--border-subtle); border-radius: 999px; font-size: 0.85rem; color: var(--text-primary); text-decoration: none; }
+.maker-more li a:hover, .maker-more li a:focus-visible { border-color: var(--accent-pink); }
+.maker-more li.maker-all { align-self: center; }
+.map-fold:disabled { opacity: 0.35; cursor: default; }
+.tracker-place { margin: 0 0 var(--s4); }
+/* Route list: a stop reached across water. */
+.route-water-tag { flex: none; padding: 1px 7px; border: 1px solid color-mix(in srgb, #7fd8ff 60%, transparent); border-radius: 999px; color: var(--text-secondary); font-size: 0.7rem; }

@@ -382,7 +382,7 @@ await check('Tracker filters: family and "found" only', async () => {
 });
 await check('Progress counts what was ticked and discovered', async () => {
   await go('#/progress', 1200);
-  const text = await run(`document.querySelector('.stat-grid').textContent.replace(/\\s+/g, ' ')`);
+  const text = await run(`[...document.querySelectorAll('.progress-page .stat-grid')].map((g) => g.textContent).join(' ').replace(/\\s+/g, ' ')`);
   await shot('progress');
   return /1 \/ \d+\s*Collectibles ticked/.test(text) && /1 \/ \d+\s*Locations and businesses discovered/.test(text) ? text.slice(0, 80) : false;
 });

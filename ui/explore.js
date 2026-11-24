@@ -149,8 +149,11 @@
         const href = p.target ? entryLink(p.target.section, p.target.entry.slug) : `#/map?focus=${encodeURIComponent(pinKey(p))}`;
         return `<li><a href="${esc(href)}"><b>${esc(p.name)}</b><span>${esc(p.kind || sectionLabel(p.category) || '')}</span></a></li>`;
       }).join('')}</ul><p class="muted">Within the nearby distance set in Settings. Most pin positions are approximate.</p>`;
-      const before = body.querySelector('.related, .provenance');
-      if (before) before.before(box); else body.append(box);
+      // On a page with a side column, nearby places sit there, above Related.
+      const side = body.querySelector('.entry-side');
+      // Before the whole Related section (heading and all), never between its heading and its links.
+      const before = (side || body).querySelector('.related')?.closest('section') || (side ? null : body.querySelector('.provenance'));
+      if (before) before.before(box); else (side || body).append(box);
     }
   });
 
@@ -271,9 +274,16 @@
 
   window.trackerItems = trackerItems; // the 100% page (hundred.js) counts ticks by family
 
+  /** The families in A–Z order, with "Other finds" last. */
+  const familyList = (items) => [...new Set(items.map((it) => it.family))]
+    .sort((a, b) => (a === 'Other finds') - (b === 'Other finds') || a.localeCompare(b, 'en', { sensitivity: 'base' }));
+
   EXTRA_PAGES.tracker = function renderTracker(a, b, params) {
     const items = trackerItems();
-    const families = [...new Set(items.map((it) => it.family))];
+    const families = familyList(items);
+    // Each collectible's county, from its region (the same rule as the encyclopedia's "By county").
+    const countyIs = new Map(items.map((it) => [it, countyFor(it.entry.facts.region)]));
+    const counties = COUNTY_ORDER.filter((c) => [...countyIs.values()].includes(c));
     const ticks = () => UserStore.get('collectible-ticks', {});
     view.innerHTML = `${pageHead('Collectible Tracker', `Tick off the ${items.length} individual collectibles the encyclopedia lists, family by family. Counts come from the entries themselves; where guides give a different total, both are shown.`, 'collectibles')}
       <div class="block tracker">
@@ -281,8 +291,10 @@
         <div class="tracker-tools">
           <div class="field-search tracker-search">${icon('search')}<input type="search" class="tracker-filter" placeholder="Search collectibles" aria-label="Search collectibles"></div>
           <label class="list-sort"><span>Show</span> <select class="tracker-show" aria-label="Show"><option value="all">All</option><option value="todo">Still to find</option><option value="done">Found</option></select></label>
+          ${counties.length > 1 ? `<label class="list-sort"><span>County</span> <select class="tracker-county" aria-label="County"><option value="">Every county</option>${counties.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join('')}</select></label>` : ''}
         </div>
         <div class="tracker-families" role="group" aria-label="Collectible families"></div>
+        <p class="tracker-place muted" hidden></p>
         <div class="tracker-body"></div>
       </div>`;
     // One family control (the chips). Each family is a group that opens on demand, so the page
@@ -290,12 +302,24 @@
     // ?family=Knife%20flights&show=todo opens one family, as the 100% page links do.
     let fam = families.includes(params?.get('family')) ? params.get('family') : '';
     if (['todo', 'done'].includes(params?.get('show'))) view.querySelector('.tracker-show').value = params.get('show');
+    // ?q=Ocean%20Beach starts with that search, as the place pages link ("Collectibles here").
+    if (params?.get('q')) view.querySelector('.tracker-filter').value = params.get('q');
+    // ?place=ocean-beach keeps the collectibles whose region names that place (the place pages link this way).
+    const place = (state.wiki.locations || []).find((l) => l.slug === params?.get('place'));
+    const atPlace = (it) => !place || placesIn(it.entry.facts.region || '').some((h) => h.l.slug === place.slug);
+    if (place) {
+      const note = view.querySelector('.tracker-place');
+      note.hidden = false;
+      note.innerHTML = `Only collectibles in <a href="${esc(entryLink('locations', place.slug))}">${esc(place.name)}</a>. <a href="#/tracker">Show every place</a>`;
+    }
     const opened = new Set();
     const draw = () => {
       const t = ticks();
       const q = view.querySelector('.tracker-filter').value.toLowerCase();
 
       const show = view.querySelector('.tracker-show').value;
+      const county = view.querySelector('.tracker-county')?.value || '';
+      const inCounty = (it) => !county || countyIs.get(it) === county;
       const done = items.filter((it) => t[it.entry.slug]).length;
       view.querySelector('.tracker-summary').innerHTML = `<div class="stat-card stat-wide"><b>${done} of ${items.length}</b><span>collectibles ticked (${pct(done, items.length)}%)</span>${bar(done, items.length)}</div>`;
       // Family chips: the same choice as the Family list, one press each, with what is ticked.
@@ -306,18 +330,18 @@
       }).join('');
       const shown = items.filter((it) => (!fam || it.family === fam)
         && (!q || `${it.entry.name} ${it.type} ${it.entry.facts.region || ''}`.toLowerCase().includes(q))
-        && (show === 'all' || (show === 'done') === Boolean(t[it.entry.slug])));
+        && (show === 'all' || (show === 'done') === Boolean(t[it.entry.slug])) && atPlace(it) && inCounty(it));
       view.querySelector('.tracker-body').innerHTML = families.filter((f) => !fam || f === fam).map((f) => {
         const mine = items.filter((it) => it.family === f);
         const list = shown.filter((it) => it.family === f);
-        if (!list.length && (q || show !== 'all')) return '';
+        if (!list.length && (q || show !== 'all' || place || county)) return '';
         const got = mine.filter((it) => t[it.entry.slug]).length;
         const types = [...new Set(mine.map((it) => it.type.toLowerCase()))]; // "WAiNK Sculpture" and "WAiNK sculpture" are one type
         // What the guides say the full count is, when the entries carry it (most common "total").
         const totals = mine.map((it) => it.entry.facts.total).filter((n) => typeof n === 'number');
         const common = totals.length ? totals.sort((a, b) => totals.filter((v) => v === b).length - totals.filter((v) => v === a).length)[0] : null;
         const guideTotal = types.length === 1 && common && common !== mine.length ? `<span class="muted"> · guides count ${common}; the encyclopedia lists ${mine.length}</span>` : '';
-        const open = Boolean(fam || q || show !== 'all' || opened.has(f));
+        const open = Boolean(fam || q || show !== 'all' || place || county || opened.has(f));
         return `<details class="tracker-family-box" data-box="${esc(f)}"${open ? ' open' : ''}>
           <summary><h2>${esc(f)} <span class="muted">${got} / ${mine.length}</span>${guideTotal}</h2>${bar(got, mine.length)}</summary>
           <ul class="tracker-list">${list.map((it) => {
@@ -350,6 +374,7 @@
       draw();
     });
     box.querySelector('.tracker-show').addEventListener('change', draw);
+    box.querySelector('.tracker-county')?.addEventListener('change', draw);
     box.addEventListener('change', (e) => {
       const slug = e.target.dataset.tick;
       if (!slug) return;
@@ -381,25 +406,29 @@
       <div class="block progress-page">
         <div class="stat-grid">
           <div class="stat-card stat-wide"><b>${overall}%</b><span>Overall: the average of collectibles ticked, places discovered${guideTotal ? ' and 100% Guide checklist rows ticked' : ''}</span>${bar(overall, 100)}</div>
-          <div class="stat-card"><b>100%</b><span>The game's own checklist, line by line, with your counts and what to do next</span><a href="#/hundred">Open the 100% Checklist</a></div>
-          <div class="stat-card"><b>${collected} / ${items.length}</b><span>Collectibles ticked</span>${bar(collected, items.length)}<a href="#/tracker">Open the tracker</a></div>
-          <div class="stat-card"><b>${placesFound} / ${places.length}</b><span>Locations and businesses discovered</span>${bar(placesFound, places.length)}<a href="#/locations">Browse locations</a></div>
-          ${guideTotal ? `<div class="stat-card"><b>${guideTicks} / ${guideTotal}</b><span>100% Guide checklist rows ticked</span>${bar(guideTicks, guideTotal)}<a href="#/manual/g100-route">Open the guide</a></div>` : ''}
-          <div class="stat-card"><b>${items.length - collected}</b><span>Collectibles remaining</span></div>
-          <div class="stat-card"><b>${places.length - placesFound}</b><span>Locations remaining</span></div>
+        </div>
+        <h2 class="hub-title">Completion</h2>
+        <div class="stat-grid">
+          <div class="stat-card"><b>${collected} / ${items.length}</b><span>Collectibles ticked · ${items.length - collected} left</span>${bar(collected, items.length)}<a href="#/tracker">Open the tracker</a></div>
+          <div class="stat-card"><b>${placesFound} / ${places.length}</b><span>Locations and businesses discovered · ${places.length - placesFound} left</span>${bar(placesFound, places.length)}<a href="#/locations">Browse locations</a></div>
+          ${guideTotal ? `<div class="stat-card"><b>${guideTicks} / ${guideTotal}</b><span>100% Guide checklist rows ticked · ${guideTotal - guideTicks} left</span>${bar(guideTicks, guideTotal)}<a href="#/manual/g100-route">Open the guide</a></div>` : ''}
+          <a class="stat-card stat-link" href="#/hundred"><b>${icon('check-circle')}100% Checklist</b><span>The game's own checklist, line by line, with your counts and what to do next</span><em>Open the checklist</em></a>
+        </div>
+        <h2 class="hub-title">Saved and explored</h2>
+        <div class="stat-grid">
           <div class="stat-card"><b>${favs}</b><span>Favourites</span><a href="#/saved">Saved</a></div>
           <div class="stat-card"><b>${cols}</b><span>Collections</span><a href="#/saved">Saved</a></div>
-          <div class="stat-card"><b>${explored.size} / ${sections.length}</b><span>Encyclopedia sections with something discovered</span></div>
+          <div class="stat-card"><b>${explored.size} / ${sections.length}</b><span>Encyclopedia sections with something discovered</span>${bar(explored.size, sections.length)}</div>
         </div>
-        <h2>Profiles side by side</h2>
+        <h2 class="hub-title">Profiles side by side</h2>
         <div class="table-scroll" tabindex="0" role="region" aria-label="Profiles side by side"><table class="profile-compare"><thead><tr><th scope="col">Profile</th><th scope="col">Collectibles</th><th scope="col">Discovered</th><th scope="col">Guide rows</th><th scope="col">Favourites</th><th scope="col">Journal records</th></tr></thead><tbody>
         ${[['', 'Shared'], ['jason', 'Jason'], ['lucia', 'Lucia']].map(([pf, label]) => {
           const raw = (part, d) => UserStore.data[pf ? `${pf}-${part}` : part] ?? d;
           const here = pf === UserStore.profile();
           return `<tr${here ? ' class="is-here"' : ''}><th scope="row">${label}${here ? ' <span class="muted">(in use)</span>' : ''}</th><td>${Object.keys(raw('collectible-ticks', {})).length}</td><td>${raw('discovered', []).length}</td><td>${Object.keys(raw('guide-checks', {})).length}</td><td>${raw('favourites', []).length}</td><td>${raw('journal', []).length}</td></tr>`;
         }).join('')}</tbody></table></div>
-        <h2>Collectibles by family</h2>
-        <ul class="family-bars">${[...new Set(items.map((it) => it.family))].map((f) => {
+        <h2 class="hub-title">Collectibles by family</h2>
+        <ul class="family-bars">${familyList(items).map((f) => {
           const mine = items.filter((it) => it.family === f);
           const got = mine.filter((it) => t[it.entry.slug]).length;
           return `<li><span>${esc(f)}</span><b>${got} / ${mine.length}</b>${bar(got, mine.length)}</li>`;
@@ -456,14 +485,6 @@
     const radio = (name, options, value) => options.map(([val, label]) => `<label class="opt"><input type="radio" name="${name}" value="${val}" ${value === val ? 'checked' : ''}><span>${esc(label)}</span></label>`).join('');
     view.innerHTML = `${pageHead('Settings', 'How the app behaves for you. Saved on this computer and kept after updates.')}
       <form class="block settings-page" novalidate>
-        <fieldset><legend>Map</legend>
-          <p class="muted">Which view the map opens in.</p>${radio('map-mode', [['2d', '2D (fastest)'], ['3d', '3D (tilted, loads the 3D engine)']], v('map-mode', '2d'))}
-          <p class="muted">Camera movement when flying to a place.</p>${radio('map-motion', [['on', 'Smooth flights'], ['off', 'Jump straight there']], v('map-motion', 'on'))}
-          <p class="muted">What counts as "nearby" on cards and entry pages.</p>${radio('near-radius', [['small', 'Close'], ['medium', 'Medium'], ['large', 'Wide']], v('near-radius', 'medium'))}
-        </fieldset>
-        <fieldset><legend>Street Explorer</legend>
-          <p class="muted">Who you drop onto the map.</p>${radio('walker', [['jason', 'Jason Duval'], ['lucia', 'Lucia Caminos']], v('walker', 'jason'))}
-        </fieldset>
         <fieldset><legend>Profile</legend>
           <p class="muted">Keep separate favourites, collections, routes, saved views, street spots, progress and journal for each character. "Shared" is the one you have used so far.</p>
           ${radio('profile', [['', 'Shared'], ['jason', 'Jason'], ['lucia', 'Lucia']], v('profile', ''))}
@@ -481,6 +502,14 @@
         <fieldset><legend>Motion</legend>
           <p class="muted">Animation intensity.</p>${radio('motion-level', [['full', 'Full'], ['gentle', 'Gentle (shorter, no pulsing)'], ['off', 'Off']], v('motion-level', 'full'))}
           <label class="opt"><input type="checkbox" name="reduced-motion" ${prefs.get('reduced-motion') === '1' ? 'checked' : ''}><span>Reduce motion across the app (page fades, map flights, pulsing pins). Overrides the choice above.</span></label>
+        </fieldset>
+        <fieldset><legend>Map</legend>
+          <p class="muted">Which view the map opens in.</p>${radio('map-mode', [['2d', '2D (fastest)'], ['3d', '3D (tilted, loads the 3D engine)']], v('map-mode', '2d'))}
+          <p class="muted">Camera movement when flying to a place.</p>${radio('map-motion', [['on', 'Smooth flights'], ['off', 'Jump straight there']], v('map-motion', 'on'))}
+          <p class="muted">What counts as "nearby" on cards and entry pages.</p>${radio('near-radius', [['small', 'Close'], ['medium', 'Medium'], ['large', 'Wide']], v('near-radius', 'medium'))}
+        </fieldset>
+        <fieldset><legend>Street Explorer</legend>
+          <p class="muted">Who you drop onto the map.</p>${radio('walker', [['jason', 'Jason Duval'], ['lucia', 'Lucia Caminos']], v('walker', 'jason'))}
         </fieldset>
         <fieldset><legend>Your data</legend>
           <p class="muted">Back up everything you have saved, for every profile, to a file in your Downloads folder: collectible ticks, 100% counts, discovered places, guide ticks, favourites, collections, routes, saved views, your journal and these settings. Restore reads a backup back in, on this computer or another one.</p>
@@ -500,6 +529,21 @@
         </fieldset>
       </form>`;
     const form = view.querySelector('.settings-page');
+    // A list of the sections beside them on a wide window, so a long page can be crossed in one click.
+    const sets = [...form.querySelectorAll(':scope > fieldset')];
+    sets.forEach((set, i) => { set.id = `settings-${i}`; });
+    const toc = document.createElement('nav');
+    toc.className = 'settings-toc';
+    toc.setAttribute('aria-label', 'Settings sections');
+    toc.style.gridRow = `1 / span ${sets.length}`;
+    toc.innerHTML = `<b>On this page</b><ul>${sets.map((set) => `<li><a href="#/settings" data-to="${set.id}">${esc(set.querySelector('legend')?.textContent || '')}</a></li>`).join('')}</ul>`;
+    toc.addEventListener('click', (e) => {
+      const to = e.target.closest('[data-to]');
+      if (!to) return;
+      e.preventDefault();
+      document.getElementById(to.dataset.to)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+    form.prepend(toc);
     const status = (text) => { form.querySelector('.settings-status').textContent = text; };
     form.addEventListener('change', (e) => {
       const { name, value, type, checked } = e.target;
