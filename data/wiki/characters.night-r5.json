@@ -15,13 +15,15 @@
       "vice city"
     ],
     "facts": {
+      "voice_actor": "Elaine Del Valle",
       "affiliation": "Megamundo; Valentina; Andrés de León",
       "occupation": "Chief Operating Officer, Megamundo",
       "home": "Vice City"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-chars-hub"
+      "gtabase-chars-hub",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   },
@@ -41,12 +43,14 @@
       "vice city"
     ],
     "facts": {
+      "voice_actor": "Jaime Lincoln Smith",
       "affiliation": "San4San",
       "home": "Vice City"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-chars-hub"
+      "gtabase-chars-hub",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   },
@@ -65,13 +69,15 @@
       "supporting"
     ],
     "facts": {
+      "voice_actor": "Ed Trucco",
       "affiliation": "San4San; Raymond; Boobie Ike",
       "home": "Vice City"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-ernesto",
-      "gtabase-chars-hub"
+      "gtabase-chars-hub",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -92,12 +98,14 @@
       "mechanic"
     ],
     "facts": {
+      "voice_actor": "Michael S. King",
       "occupation": "Garage worker, Coastal Auto Care"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-joey",
-      "gtabase-chars-hub"
+      "gtabase-chars-hub",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -118,12 +126,14 @@
       "trailer 1"
     ],
     "facts": {
+      "voice_actor": "Kimberly S. Fairbanks",
       "affiliation": "Leonida Department of Corrections",
       "occupation": "Correctional social worker"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-chars-hub"
+      "gtabase-chars-hub",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   },
@@ -217,12 +227,14 @@
       "real dimez"
     ],
     "facts": {
+      "voice_actor": "Hood Brat",
       "affiliation": "Real Dimez; Roxy; Dre'Quan Priest (Only Raw Records)",
       "occupation": "Rapper"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-chars-hub"
+      "gtabase-chars-hub",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   },
@@ -242,12 +254,14 @@
       "real dimez"
     ],
     "facts": {
+      "voice_actor": "Krissy Celess",
       "affiliation": "Real Dimez; Bae-Luxe; Dre'Quan Priest (Only Raw Records)",
       "occupation": "Rapper"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-chars-hub"
+      "gtabase-chars-hub",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   }

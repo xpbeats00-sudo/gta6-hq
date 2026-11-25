@@ -516,6 +516,9 @@
           <p class="muted">Animation intensity.</p>${radio('motion-level', [['full', 'Full'], ['gentle', 'Gentle (shorter, no pulsing)'], ['off', 'Off']], v('motion-level', 'full'))}
           <label class="opt"><input type="checkbox" name="reduced-motion" ${prefs.get('reduced-motion') === '1' ? 'checked' : ''}><span>Reduce motion across the app (page fades, map flights, pulsing pins). Overrides the choice above.</span></label>
         </fieldset>
+        ${STORE ? '' : `<fieldset><legend>Start-up</legend>
+          <p class="muted">Which intro plays when the app opens. Skip it any time with Esc or Enter.</p>${radio('intro', [['classic', 'Classic (the character clips and the VI logo)'], ['official', 'Official (the game’s own start-up, with music)']], v('intro', 'classic'))}
+        </fieldset>`}
         <fieldset><legend>Map</legend>
           <p class="muted">Which view the map opens in.</p>${radio('map-mode', [['2d', '2D (fastest)'], ['3d', '3D (tilted, loads the 3D engine)']], v('map-mode', '2d'))}
           <p class="muted">Camera movement when flying to a place.</p>${radio('map-motion', [['on', 'Smooth flights'], ['off', 'Jump straight there']], v('map-motion', 'on'))}

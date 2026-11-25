@@ -109,11 +109,37 @@ await call('Page.navigate', { url: `${base}/#/home` });
 const ARRIVED = `typeof state !== 'undefined' && !!state.wiki && !document.getElementById('splash')`;
 const skipIntro = async () => {
   await waitFor(`typeof state !== 'undefined' && !!state.wiki`, 20000);
+  // A first opening asks which intro to play before either starts.
+  await run(`document.querySelector('.intro-pick [data-intro="classic"]')?.click(); true`);
   await run(`document.getElementById('splash-skip')?.click(); true`);
   return waitFor(ARRIVED, 10000);
 };
 
 // ---------- first launch ----------
+await check('First launch: the start-up chooser plays both intros whole, and the pick is saved', async () => {
+  const shown = await waitFor(`!!document.querySelector('.intro-pick .intro-opt')`, 15000);
+  if (!shown) throw new Error('no start-up chooser on a first opening');
+  await sleep(1500);
+  const look = await run(`(() => {
+    const frames = [...document.querySelectorAll('.intro-pick .intro-frame')];
+    const stage = document.querySelector('.intro-frame-classic .splash-stage');
+    const f = frames[0].getBoundingClientRect(), s = stage.getBoundingClientRect();
+    const official = document.querySelector('.intro-pick video[src*="gta6startup"]');
+    return { frames: frames.length, wide: frames.every((el) => Math.abs(el.clientWidth / el.clientHeight - 16 / 9) < 0.02),
+      fits: s.top >= f.top - 1 && s.bottom <= f.bottom + 1 && s.left >= f.left - 1 && s.right <= f.right + 1,
+      officialPlays: !!official && !official.paused, nothingBehind: !!document.querySelector('#splash.is-waiting') };
+  })()`);
+  await shot('first-launch-intro-chooser');
+  await run(`document.querySelector('.intro-pick [data-intro="official"]').click(); true`);
+  const saved = await waitFor(`fetch('/api/settings').then((r) => r.json()).then((s) => s.intro === 'official')`, 5000);
+  const plays = await waitFor(`!!document.querySelector('#splash.is-official .splash-official video')`, 5000);
+  const ok = look.frames === 2 && look.wide && look.fits && look.officialPlays && look.nothingBehind && saved && plays;
+  if (!ok) throw new Error(JSON.stringify({ ...look, saved, plays }));
+  // The spoiler check below starts from a first opening again, picking Classic this time.
+  await fetch(`${base}/api/settings`, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ intro: '' }) });
+  await call('Page.reload', { ignoreCache: true });
+  return 'two whole 16:9 previews; Official saved and played';
+});
 await check('First launch: after the intro the spoiler notice asks once, and the answer is saved', async () => {
   // A person can skip the intro; the notice must still follow it, with spoilers off unless ticked.
   if (!(await skipIntro())) throw new Error('the intro never gave way to the app');

@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "vice-city-retro-easter-egg",
+    "name": "Vice City retro easter egg",
+    "summary": "A long puzzle built on GTA: Vice City's cheat codes that opens a portal to a PS2-era area.",
+    "body": [
+      "Start at the radio tower in Key Lento: a switch near the top, a lever on the power box, then the switchboard button. A neon Malibu sign shows it is running.",
+      "Visit 12 substations in order without fast travel, auto-drive, getting busted or dying: Downtown Vice City, Balsero, Key Lento, Penmarch Isle, Crosstown, Port Gellhorn, Hamlet, Gloriana Key, Hamlet, Gellhorn, Hamlet and North Mariana County. Their letters spell LIFE IS PASSING ME BY, a Vice City cheat.",
+      "A text from \"Unknown\" gives a reactor code. Between 7 PM and 6 AM, pull the lever at Reactor 2 of the T.H. Power Station east of Hamlet to open the portal.",
+      "Inside is Kent Paul. The rewards are Tommy Vercetti's Hawaiian shirt and the Malibu Zombie Bobber motorcycle."
+    ],
+    "related": [
+      "characters/kent-paul"
+    ],
+    "tags": [
+      "easter egg",
+      "vice city",
+      "kent paul",
+      "tommy vercetti",
+      "zombie bobber",
+      "substations",
+      "secret"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "r16-vgc-egg-guide",
+      "r16-vgc-egg-solved"
+    ],
+    "verified": "2026-11-24",
+    "spoiler": true
+  }
+]

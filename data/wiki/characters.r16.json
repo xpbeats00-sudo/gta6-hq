@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "freddie",
+    "name": "Freddie",
+    "summary": "A doomsday prepper with a fenced compound on Lake Leonida, played by the rapper Freddie Gibbs.",
+    "body": [
+      "The official credits list \"Freddie\" as played by Freddie Gibbs.",
+      "His compound is on the north shore of Lake Leonida, in North Leonard County; VGC's guide covers breaking in.",
+      "GTA Scoop says you break in once, then a few in-game days later Freddie texts a rematch, Retest Freddie's Defenses, which brings a hurricane and unlocks hurricane weather. Either lead can do it in any chapter, and it counts toward the Strangers & Freaks trophy.",
+      "GTABase lists Freddie's Dubsta, a Benefactor kept in his bunker, which can be taken and registered."
+    ],
+    "role": "Doomsday prepper, Lake Leonida",
+    "group": "supporting",
+    "tags": [
+      "freddie",
+      "freddie gibbs",
+      "prepper",
+      "lake leonida",
+      "compound"
+    ],
+    "facts": {
+      "voice_actor": "Freddie Gibbs",
+      "occupation": "Doomsday prepper",
+      "home": "Lake Leonida, North Leonard County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "vgc-cast",
+      "r16-vgc-freddie",
+      "r17-scoop-strangers",
+      "r17-gtabase-freddies-dubsta"
+    ],
+    "verified": "2026-11-25"
+  },
+  {
+    "slug": "alvan-west",
+    "name": "Alvan West",
+    "summary": "The man behind the Kelly County Tip Line, who turns out to be the killer in the Missing Persons side quest.",
+    "body": [
+      "Played by David Beach, per the official credits.",
+      "Output Lag spells his name \"Alvin Weston\"; this page uses the credits' spelling."
+    ],
+    "role": "Missing Persons side quest",
+    "group": "supporting",
+    "tags": [
+      "alvan west",
+      "tip line",
+      "serial killer",
+      "missing persons",
+      "kelly county"
+    ],
+    "related": [
+      "missions/missing-persons"
+    ],
+    "facts": {
+      "voice_actor": "David Beach",
+      "home": "Kelly County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "vgc-cast",
+      "r16-vgc-missing",
+      "r16-ol-missing"
+    ],
+    "verified": "2026-11-24",
+    "spoiler": true
+  },
+  {
+    "slug": "kent-paul",
+    "name": "Kent Paul",
+    "summary": "The fast-talking Londoner from Vice City and San Andreas, back for a cameo inside the Vice City easter egg.",
+    "body": [
+      "Danny Dyer plays him again, as in the earlier games.",
+      "He waits in the easter egg's PS2-style area and phones the player after they leave."
+    ],
+    "role": "Easter egg cameo",
+    "group": "supporting",
+    "tags": [
+      "kent paul",
+      "danny dyer",
+      "vice city",
+      "cameo",
+      "easter egg"
+    ],
+    "related": [
+      "gameplay/vice-city-retro-easter-egg"
+    ],
+    "facts": {
+      "voice_actor": "Danny Dyer"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r16-vgc-egg-solved",
+      "r16-vgc-egg-guide"
+    ],
+    "verified": "2026-11-24",
+    "spoiler": true
+  }
+]

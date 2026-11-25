@@ -1,0 +1,30 @@
+[
+  {
+    "slug": "jasons-stash-key-lento",
+    "name": "Jason's stash at Key Lento",
+    "summary": "From Chapter 2 you can go back to Jason's burned-out house in Key Lento for the $5,000 he hid there.",
+    "body": [
+      "VGC and Output Lag say a metal lockbox in the house still holds a fixed $5,000 \"Rainy-Day Fund\" and Jason's photos. Output Lag says to go back as Lucia.",
+      "Cash you had hidden under the floor during Chapter 1 is lost.",
+      "VGC says police guard the house front and back and suggests coming in by water."
+    ],
+    "tags": [
+      "stash",
+      "key lento",
+      "money",
+      "missable",
+      "rainy-day fund"
+    ],
+    "facts": {
+      "type": "Hidden stash",
+      "location": "Key Lento, Mariana County"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r17-vgc-stash",
+      "r17-ol-missables"
+    ],
+    "verified": "2026-11-25",
+    "spoiler": true
+  }
+]

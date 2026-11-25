@@ -41,11 +41,13 @@
       "neighbour"
     ],
     "facts": {
+      "voice_actor": "Cheryl Stern",
       "home": "Peach Palm Drive, Key Lento"
     },
     "confidence": "corroborated",
     "sources": [
-      "r11g-gw-peggy"
+      "r11g-gw-peggy",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true

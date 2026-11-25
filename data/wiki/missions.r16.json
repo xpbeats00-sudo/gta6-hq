@@ -1,0 +1,36 @@
+[
+  {
+    "slug": "missing-persons",
+    "name": "Missing Persons",
+    "summary": "A Chapter 2 investigation into three missing tourists around Port Gellhorn that ends face to face with a killer.",
+    "body": [
+      "Look into the Missing Persons poster, then search the abandoned warehouse near Moses's garage for the photos.",
+      "The three bodies: in a junkyard car with the plate PRTYGRL; under a trailer floor below the water tower in northern Port Gellhorn; and in a half-sunk car in the swamp near Wild Hog Point.",
+      "Report each to the Kelly County Tip Line. The man running it is the killer. Going to meet him alone ends with you taken to an abandoned mine and rescued by the other lead.",
+      "Output Lag notes the tip line's call back after the third body can take hours, and only comes once both leads are playable."
+    ],
+    "related": [
+      "characters/alvan-west"
+    ],
+    "tags": [
+      "missing persons",
+      "serial killer",
+      "tip line",
+      "port gellhorn",
+      "side quest"
+    ],
+    "facts": {
+      "type": "Side mission",
+      "chapter": "Chapter 2",
+      "location": "Port Gellhorn, Kelly County",
+      "giver": "Kelly County Tip Line"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r16-vgc-missing",
+      "r16-ol-missing"
+    ],
+    "verified": "2026-11-24",
+    "spoiler": true
+  }
+]

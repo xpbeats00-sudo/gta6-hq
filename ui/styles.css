@@ -138,6 +138,37 @@ body.is-arriving .announce, body.is-arriving .topbar, body.is-arriving #view { a
 /* Skipping the intro shows the finished picture at once. */
 #splash.is-skipped .sp { animation: none !important; opacity: 1; }
 .splash-foot { position: absolute; inset: auto 0 0; padding: 0 var(--gutter) var(--s6); display: flex; justify-content: space-between; align-items: flex-end; gap: var(--s5); }
+/* Before the saved intro choice is read, and while a first opening is choosing, the intros wait. */
+#splash.is-waiting > .splash-stage, #splash.is-waiting > .splash-cine, #splash.is-waiting > .splash-foot { display: none; }
+/* The official intro: the game's own start-up, whole and never cropped, letterboxed on black. */
+#splash.is-official > .splash-stage, #splash.is-official > .splash-cine, #splash.is-official .splash-load { display: none; }
+.splash-official { position: absolute; inset: 0; z-index: 3; display: grid; place-items: center; background: #000; }
+.splash-official video { display: block; width: 100%; height: 100%; object-fit: contain; }
+#splash.is-official #splash-skip { background: rgba(0, 0, 0, 0.45); }
+/* First opening: both intros play side by side, small and whole, and the reader picks one. */
+.intro-pick { position: absolute; inset: 0; z-index: 6; overflow: auto; display: grid; place-items: center; padding: 24px 16px;
+  background: radial-gradient(120% 90% at 50% 0%, rgba(139, 59, 234, 0.22), transparent 60%), #05040a; }
+.intro-pick-box { width: min(1180px, 100%); text-align: center; }
+.intro-pick h2 { margin: 0; font: 700 clamp(1.5rem, 1.1rem + 1.6vw, 2.4rem)/1.1 var(--font-display); color: #fff; }
+.intro-pick-box > p { margin: 8px auto 24px; max-width: 46ch; color: var(--text-secondary); }
+.intro-pick-grid { display: grid; gap: 24px; justify-content: center;
+  grid-template-columns: repeat(2, minmax(0, min(560px, calc((100vh - 300px) * 16 / 9)))); }
+.intro-opt { display: grid; align-content: start; gap: 6px; padding: 10px 10px 14px; text-align: left; color: var(--text-primary); cursor: pointer;
+  background: rgba(255, 255, 255, 0.04); border: 1px solid var(--border-strong); border-radius: 14px;
+  transition: border-color var(--ease), background var(--ease), transform var(--ease); }
+.intro-opt:hover, .intro-opt:focus-visible { border-color: var(--accent-pink); background: rgba(243, 160, 188, 0.08); transform: translateY(-2px); }
+.intro-opt:focus-visible { outline: 2px solid var(--accent-pink); outline-offset: 3px; }
+.intro-opt b { padding: 4px 4px 0; font: 700 1.15rem var(--font-display); }
+.intro-opt small { padding: 0 4px; color: var(--text-secondary); font-size: 0.85rem; line-height: 1.4; }
+/* Each preview is a 16:9 window onto the whole intro: nothing is cut off. */
+.intro-frame { position: relative; display: grid; place-items: center; grid-template-rows: 100%; width: 100%; aspect-ratio: 16 / 9;
+  overflow: hidden; border-radius: 9px; background: #000; }
+.intro-frame > video { display: block; width: 100%; height: 100%; object-fit: contain; }
+.intro-frame-classic > .splash-stage { position: absolute; top: 4%; bottom: 4%; left: 50%; height: auto; width: auto; transform: translateX(-50%); }
+@media (max-width: 760px) {
+  .intro-pick-grid { grid-template-columns: minmax(0, min(100%, calc((50vh - 150px) * 16 / 9))); gap: 16px; }
+  .intro-pick-box > p { margin-bottom: 16px; }
+}
 .splash-tip { margin: 6px 0 0; font: 600 0.75rem var(--font-display); letter-spacing: 0; text-transform: none; color: var(--text-secondary); }
 /* Loading, bottom right: the percentage and message, then the logo turning inside a ring that fills */
 .splash-load { display: flex; align-items: center; gap: var(--s5); text-align: right; }

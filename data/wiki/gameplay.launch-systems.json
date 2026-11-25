@@ -406,9 +406,9 @@
     "name": "Sleeping and the in-game clock",
     "summary": "Sleeping in a bed at home skips to one of four set times, and a full in-game day lasts 2 hours 24 minutes of real time.",
     "body": [
-      "PowerPyx says the bed offers Sleep with four wake times: Morning (7:00 AM), Noon (12:30 PM), Evening (6:00 PM) and Night (12:01 AM).",
+      "PowerPyx and GTABase say the bed offers four wake times: Morning (7:00 AM), Noon (12:30 PM), Evening (6:00 PM) and Night (PowerPyx gives 12:01 AM, GTABase midnight).",
       "GamesRadar+ says the sleep prompt is Square (X on Xbox) once the character is lying on the bed in the safehouse.",
-      "PowerPyx timed one in-game minute at 6 real seconds, so an hour is 6 minutes and a day is 144 minutes, and says the time shows in the top-left corner of the phone.",
+      "PowerPyx and GTABase both put one in-game hour at about 6 real minutes, so a day is about 2 hours 24 minutes; the time shows in the top-left corner of the phone.",
       "PowerPyx and GamesRadar+ both say a skipped taxi or RydeMe ride also moves the clock on by the length of the drive.",
       "Push Square says sleeping at the end of the day helps recovery and starts the next workout window; DayOne's review says the characters need sleep every few days.",
       "GamesRadar+ says police respond a little more slowly at night, especially far from a city, and that buildings which can be entered are more likely to be occupied at night.",
@@ -431,9 +431,10 @@
       "ppx-day-length",
       "gr-time-of-day",
       "ps-workouts",
-      "dayone-review"
+      "dayone-review",
+      "r17-gtabase-time"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {

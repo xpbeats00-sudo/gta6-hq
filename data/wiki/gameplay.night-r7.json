@@ -2,13 +2,15 @@
   {
     "slug": "ufo-abduction-easter-egg",
     "name": "UFO abduction",
-    "summary": "A rare night-time UFO encounter on a Kelly County road that ends in an abduction and unlocks The Truth Is Out There.",
+    "summary": "A rare night-time UFO encounter that ends in an abduction, then a longer questline ending at a hidden compound south of Hamlet.",
     "body": [
-      "PowerPyx says the UFO appears on the road north-west of the Starlet Motel in Kelly County at night after 2:00 AM, only when the player is alone, and that the spawn is random.",
+      "PowerPyx puts the UFO on the road north-west of the Starlet Motel in Kelly County after 2:00 AM, when the player is alone; VGC says the roadside encounter can happen at night in several places.",
       "PowerPyx says the sign is a car with blinking lights at the roadside; if it is missing, drive away and come back.",
       "According to PowerPyx, a path beside the car leads into the woods to a bright blue light in the sky, where the UFO drops a woman it had taken.",
       "PowerPyx says agreeing to help her and walking back to her car brings the UFO back to take the player, who wakes three days later in the morning.",
-      "PowerPyx says the encounter unlocks The Truth Is Out There trophy or achievement."
+      "PowerPyx says the encounter unlocks The Truth Is Out There trophy or achievement.",
+      "VGC and GTA Vice Guides both show the abduction is only the start of a questline. Later, sleeping as the abducted lead brings a dream aboard the UFO with a keypad and a light puzzle. The real compound is in the swamp south of Hamlet, in Pelican Valley: get over the fence with a large vehicle, repeat the puzzles, and lead an alien to the surface.",
+      "The reward is a permanent boost to Health, Stamina and Focus. The keypad code differs between the two guides (2431 and 2314), so it may change from game to game."
     ],
     "tags": [
       "aliens",
@@ -23,9 +25,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "r7-ppx-ufo"
+      "r7-ppx-ufo",
+      "r17-vgc-ufo",
+      "r17-gvg-ufo"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {

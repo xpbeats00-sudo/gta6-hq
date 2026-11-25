@@ -42,6 +42,8 @@ export async function resetSaved(base, { firstLaunch = false } = {}) {
   const wanted = Object.fromEntries(Object.keys(settings).map((name) => [name, DEFAULTS[name] ?? '']));
   // The app asks about spoilers until `spoiler-notice` is '1'.
   Object.assign(wanted, { 'spoiler-notice': firstLaunch ? '0' : '1', 'show-spoilers': '0' });
+  // The start-up chooser shows until `intro` is set; only a first launch sees it.
+  wanted.intro = firstLaunch ? '' : 'classic';
   const answer = await post(`${base}/api/settings`, wanted);
   if (!answer.ok) throw new Error(`resetting settings: ${answer.status} ${await answer.text()}`);
 

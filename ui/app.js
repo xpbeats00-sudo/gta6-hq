@@ -1074,7 +1074,75 @@ new MutationObserver(() => {
 // The Store edition's own intro is short; built with the GitHub edition's intro it runs the full length.
 const SPLASH_MS = STORE && document.documentElement.dataset.intro !== 'game' ? 4200 : 10600;
 
-function runSplash(ready) {
+/** The game's own start-up sequence, offered as the "Official" intro beside the classic one. */
+const OFFICIAL_INTRO = '/wallpapers/gta6startup.mp4';
+/** Its length if the file cannot say (16 seconds, plus a moment on the last frame). */
+const OFFICIAL_MS = 16300;
+
+/** Which intro plays: the reader's choice, or none yet. The Store edition and stream mode keep their own. */
+function introChoice() {
+  if (STORE || document.documentElement.classList.contains('is-stream')) return 'classic';
+  const saved = prefs.get('intro');
+  return saved === 'classic' || saved === 'official' ? saved : null;
+}
+
+/**
+ * First opening: both intros play side by side, small and whole, and the reader picks one. The
+ * classic preview is a copy of the real splash stage, so it plays exactly as the full one does.
+ * Resolves with 'classic' or 'official'; the choice is saved and can be changed in Settings.
+ */
+function askWhichIntro(splash) {
+  return new Promise((resolve) => {
+    const pick = document.createElement('div');
+    pick.className = 'intro-pick';
+    pick.setAttribute('role', 'dialog');
+    pick.setAttribute('aria-modal', 'true');
+    pick.setAttribute('aria-labelledby', 'intro-pick-title');
+    pick.innerHTML = `<div class="intro-pick-box">
+      <h2 id="intro-pick-title">Choose your start-up</h2>
+      <p>It plays each time GTA 6 HQ opens. You can change it later in Settings.</p>
+      <div class="intro-pick-grid">
+        <button type="button" class="intro-opt" data-intro="classic">
+          <span class="intro-frame intro-frame-classic" aria-hidden="true"></span>
+          <b>Classic</b><small>The character clips, then the VI logo with its nine panels. About 11 seconds.</small>
+        </button>
+        <button type="button" class="intro-opt" data-intro="official">
+          <span class="intro-frame" aria-hidden="true"><video src="${OFFICIAL_INTRO}" muted loop playsinline preload="auto"></video></span>
+          <b>Official</b><small>The game's own start-up, with its music. About 16 seconds.</small>
+        </button>
+      </div>
+    </div>`;
+    // The classic preview: a fresh copy of the stage each lap, so its animations start over.
+    const frame = pick.querySelector('.intro-frame-classic');
+    const lap = () => {
+      frame.replaceChildren(...['.splash-cine', '.splash-stage'].map((sel) => {
+        const copy = splash.querySelector(`:scope > ${sel}`).cloneNode(true);
+        copy.removeAttribute('id');
+        return copy;
+      }));
+      frame.querySelectorAll('video').forEach((video) => {
+        video.addEventListener('error', () => video.parentElement.remove());
+        video.play().catch(() => {});
+      });
+    };
+    lap();
+    const laps = setInterval(lap, SPLASH_MS + 1400);
+    pick.querySelectorAll('.intro-frame video').forEach((video) => video.play().catch(() => {}));
+    pick.addEventListener('click', (e) => {
+      const opt = e.target.closest('[data-intro]');
+      if (!opt) return;
+      clearInterval(laps);
+      pick.querySelectorAll('video').forEach((video) => video.pause());
+      pick.remove();
+      prefs.set('intro', opt.dataset.intro);
+      resolve(opt.dataset.intro);
+    });
+    splash.append(pick);
+    pick.querySelector('.intro-opt').focus();
+  });
+}
+
+async function runSplash(ready, prefsReady) {
   const splash = document.getElementById('splash');
   const percent = document.getElementById('splash-percent');
   const ring = document.getElementById('splash-ring');
@@ -1085,6 +1153,18 @@ function runSplash(ready) {
   let finished = false;
   /** How long the splash takes to dissolve into the app. The stylesheet uses the same time. */
   const SPLASH_FADE_MS = 1200;
+  let videos = [];
+  let length = SPLASH_MS;
+
+  // Nothing plays until the saved choice is read (a moment), so neither intro starts half way through.
+  splash.classList.add('is-waiting');
+  await prefsReady;
+  let intro = introChoice();
+  if (!intro) {
+    splash.classList.add('is-choosing');
+    intro = await askWhichIntro(splash);
+    splash.classList.remove('is-choosing');
+  }
 
   const onKey = (e) => { if (e.key === 'Escape' || e.key === 'Enter') finish(true); };
   const finish = async (skipped) => {
@@ -1100,34 +1180,75 @@ function runSplash(ready) {
     document.body.classList.remove('is-loading');
     document.body.classList.add('is-arriving');
     document.dispatchEvent(new Event('app-arrived'));
-    setTimeout(() => { montages.forEach((video) => video.pause()); splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
+    // The official intro's music fades out with the picture instead of stopping dead.
+    const loud = videos.filter((video) => !video.muted);
+    const fadeStart = performance.now();
+    const quieten = (now) => {
+      // Frame times can be a little earlier than the moment the fade began; keep within 0..1.
+      const left = Math.min(1, Math.max(0, 1 - (now - fadeStart) / SPLASH_FADE_MS));
+      loud.forEach((video) => { video.volume = left; });
+      if (left > 0) requestAnimationFrame(quieten);
+    };
+    if (loud.length) requestAnimationFrame(quieten);
+    setTimeout(() => { videos.forEach((video) => video.pause()); splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
   };
 
-  // The montage plays in two layers at once (see styles.css). Without it the logo still fades in on
-  // time: the clips are an extra, not a requirement.
-  const montages = [...splash.querySelectorAll('.splash-montage')];
-  montages.forEach((video) => {
-    video.addEventListener('error', () => video.parentElement.remove());
-    video.play().catch(() => {});
-  });
+  if (intro === 'official') {
+    // The whole picture, never cropped: letterboxed on a window that is not 16:9.
+    splash.classList.add('is-official');
+    const box = document.createElement('div');
+    box.className = 'splash-official';
+    box.setAttribute('aria-hidden', 'true');
+    const video = document.createElement('video');
+    video.src = OFFICIAL_INTRO;
+    video.playsInline = true;
+    video.preload = 'auto';
+    box.append(video);
+    splash.prepend(box);
+    videos = [video];
+    length = OFFICIAL_MS;
+    video.addEventListener('loadedmetadata', () => { if (video.duration > 1) length = video.duration * 1000 + 300; });
+    video.addEventListener('ended', () => finish());
+    // If the file is missing the classic intro plays instead, so the app still opens the same way.
+    video.addEventListener('error', () => {
+      box.remove();
+      splash.classList.remove('is-official');
+      videos = [...splash.querySelectorAll(':scope .splash-montage')];
+      videos.forEach((v) => v.play().catch(() => {}));
+      length = SPLASH_MS;
+    });
+    // With sound where the window allows it; muted where it does not, rather than not at all.
+    video.play().catch(() => { video.muted = true; video.play().catch(() => {}); });
+  } else {
+    // The montage plays in two layers at once (see styles.css). Without it the logo still fades in on
+    // time: the clips are an extra, not a requirement.
+    videos = [...splash.querySelectorAll('.splash-montage')];
+    videos.forEach((video) => {
+      video.addEventListener('error', () => video.parentElement.remove());
+      video.play().catch(() => {});
+    });
+  }
+  splash.classList.remove('is-waiting');
 
   // The percentage follows the intro's own clock, counted every frame so it climbs smoothly.
   const started = performance.now();
   const everyFrame = (now) => {
     if (finished) return;
-    const done = Math.min(1, (now - started) / SPLASH_MS);
+    const done = Math.min(1, (now - started) / length);
     fill(done);
     tip.textContent = tips[Math.min(tips.length - 1, Math.floor(done * tips.length))];
     if (done >= 1) finish(); else requestAnimationFrame(everyFrame);
   };
   requestAnimationFrame(everyFrame);
   // A window that is not being drawn gets no frames; the timer still ends the intro.
-  setTimeout(finish, SPLASH_MS + 500);
+  const backstop = () => { if (finished) return; if (performance.now() - started >= length) finish(); else setTimeout(backstop, 500); };
+  setTimeout(backstop, SPLASH_MS + 500);
   document.getElementById('splash-skip').addEventListener('click', () => finish(true));
   // Stays attached until the splash ends, so pressing some other key first
   // does not disable Enter and Esc.
   window.addEventListener('keydown', onKey);
 }
+
 
 // ---------- home ----------
 
@@ -4091,7 +4212,8 @@ window.addEventListener('keydown', (e) => {
 
 // ---------- boot ----------
 
-const ready = Promise.all([getJson('/api/wiki'), prefs.load(), UserStore.load()])
+const prefsReady = prefs.load();
+const ready = Promise.all([getJson('/api/wiki'), prefsReady, UserStore.load()])
   .then(([wiki]) => {
     showSpoilers = prefs.get('show-spoilers') === '1';
     window.Appearance?.apply();
@@ -4127,5 +4249,5 @@ if (new URLSearchParams(location.search).has('nosplash')) {
   document.getElementById('splash').remove();
   document.body.classList.remove('is-loading');
 } else {
-  runSplash(ready);
+  runSplash(ready, prefsReady);
 }
