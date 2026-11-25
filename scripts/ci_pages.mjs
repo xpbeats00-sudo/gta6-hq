@@ -39,6 +39,20 @@ page.on('requestfailed', (r) => {
 page.on('response', (r) => { if (r.url().startsWith(base) && r.status() >= 400 && !r.url().includes('/tiles/')) problems.push(`${r.status()}: ${r.url()}`); });
 
 await page.goto(base, { waitUntil: 'load' });
+// A first opening asks which start-up intro to play, with both playing side by side. Pick one as a
+// person would; the splash waits for the answer and then plays it.
+const chooser = page.locator('.intro-pick');
+if (await chooser.waitFor({ timeout: 15000 }).then(() => true, () => false)) {
+  await page.waitForTimeout(1500);
+  await page.screenshot({ path: `${out}/intro-chooser.png` });
+  await chooser.locator('[data-intro="classic"]').click();
+  // The choice is saved in the background; give it a moment.
+  const saved = await page.waitForFunction(async () => (await (await fetch('/api/settings')).json()).intro === 'classic', null, { timeout: 5000, polling: 250 }).then(() => true, () => false);
+  const picked = saved ? 'classic' : await page.evaluate(async () => (await (await fetch('/api/settings')).json()).intro);
+  if (picked !== 'classic') problems.push(`the start-up choice was not saved (got ${JSON.stringify(picked)})`);
+} else {
+  problems.push('a first opening did not ask which start-up intro to play');
+}
 // The splash screen plays for a few seconds; wait for it to leave by itself, as a person would.
 await page.waitForFunction(() => !document.body.classList.contains('is-loading'), null, { timeout: 30000 })
   .catch(() => problems.push('the splash screen never left'));
