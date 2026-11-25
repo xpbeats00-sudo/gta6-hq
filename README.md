@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1><img src="docs/media/readme/hero.svg" alt="GTA 6 HQ: the unofficial Grand Theft Auto VI encyclopedia, map and field manual" width="860"></h1>
+<h1>GTA 6 HQ</h1>
 
 **A sourced encyclopedia, a map of Leonida and a full field manual for Grand Theft Auto VI, in one small desktop app.**
 
