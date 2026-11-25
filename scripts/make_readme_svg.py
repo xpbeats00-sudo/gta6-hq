@@ -7,8 +7,6 @@ is drawn as outlines from Windows' Bahnschrift (the app's display face) with fon
 carries its own dark background, so it reads on GitHub's light and dark themes, and each stops
 moving for readers who ask for less motion.
 
-  hero.svg        title scene: a sunset with moving bands, a grid floor running to the horizon,
-                  palms, twinkling stars and the title glowing
   stats.svg       four counts from the live data, rising in one after another
   h-<name>.svg    one plate per section heading, with a light running along its sunset rule
   rule.svg        a thin sunset line with the same running light
@@ -74,78 +72,6 @@ def write(name, text):
     with open(os.path.join(OUT, name), 'w', encoding='utf-8', newline='\n') as fh:
         fh.write(text)
     print(name, f'{len(text) / 1024:.0f} KB')
-
-def palm(x, base, h, flip=1):
-    """A palm silhouette: a leaning trunk and eight fronds."""
-    top_x, top_y = x + 26 * flip, base - h
-    trunk = f'<path d="M{x - 6},{base} C{x - 2},{base - h * .45} {top_x - 8 * flip},{top_y + h * .25} {top_x},{top_y} L{top_x + 5 * flip},{top_y + 3} C{top_x - 2 * flip},{top_y + h * .3} {x + 6},{base - h * .4} {x + 8},{base} Z"/>'
-    fronds = []
-    for ang, length in [(-160, 70), (-135, 82), (-105, 66), (-70, 64), (-40, 84), (-15, 72), (15, 58), (-185, 56)]:
-        a = ang if flip == 1 else 180 - ang
-        fronds.append(f'<path transform="translate({top_x} {top_y}) rotate({a})" d="M0,0 C{length * .35},-14 {length * .75},-10 {length},8 C{length * .7},0 {length * .35},2 0,4 Z"/>')
-    return trunk + ''.join(fronds)
-
-def hero():
-    w, h, horizon = W, 360, 236
-    title, tw, tcap = placed('GTA 6 HQ', 92, w / 2, 34, 'middle', wght=700, wdth=75, track=0.04)
-    sub, _, _ = placed('THE UNOFFICIAL GRAND THEFT AUTO VI ENCYCLOPEDIA, MAP AND FIELD MANUAL', 13, w / 2, 34 + tcap + 20, 'middle', wght=600, wdth=100, track=0.18)
-    stars = ''.join(
-        f'<circle cx="{x}" cy="{y}" r="{r}" class="tw" style="animation-delay:{d}s"/>'
-        for x, y, r, d in [(70, 40, 1.4, 0), (150, 92, 1, 1.2), (240, 28, 1.2, 2.1), (330, 120, .9, .6), (560, 34, 1.3, 1.7), (640, 96, 1, .3),
-                           (720, 48, 1.5, 2.6), (800, 112, 1, 1.1), (110, 150, .9, 2.3), (780, 168, .9, .9), (470, 22, 1, 1.5), (40, 196, .8, .4)])
-    # Sun: bands slide down through it, the classic synthwave sunset.
-    bands = ''.join(f'<rect x="320" y="{horizon - 92 + i * 14}" width="220" height="{2 + i * .55:.1f}"/>' for i in range(10))
-    # Floor: lines from the vanishing point, and cross lines that run towards the viewer.
-    vx = w / 2
-    rays = ''.join(f'<line x1="{vx}" y1="{horizon}" x2="{x}" y2="{h}"/>' for x in range(-900, w + 900, 70))
-    cross = ''.join(f'<line x1="0" y1="{horizon + (i / 9) ** 2 * (h - horizon) + 1:.1f}" x2="{w}" y2="{horizon + (i / 9) ** 2 * (h - horizon) + 1:.1f}"/>' for i in range(1, 10))
-    body = f'''<defs>
-  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#090614"/><stop offset=".45" stop-color="#1d0b3a"/><stop offset=".72" stop-color="#5a1a5e"/><stop offset="1" stop-color="#a8326e"/></linearGradient>
-  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe08a"/><stop offset=".5" stop-color="#ff7a9c"/><stop offset="1" stop-color="#c03bd6"/></linearGradient>
-  <linearGradient id="ink" x1="0" y1="0" x2="1" y2="1">{SUNSET}</linearGradient>
-  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a0c3e"/><stop offset="1" stop-color="#0b0716"/></linearGradient>
-  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".25" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff"/></linearGradient>
-  <mask id="floorfade"><rect x="0" y="{horizon}" width="{w}" height="{h - horizon}" fill="url(#fade)"/></mask>
-  <mask id="cut"><rect width="{w}" height="{h}" fill="#fff"/><g class="bands" fill="#000">{bands}</g></mask>
-  <clipPath id="frame"><rect width="{w}" height="{h}" rx="18"/></clipPath>
-  <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
-  <filter id="shadow" x="-5%" y="-100%" width="110%" height="300%"><feGaussianBlur stdDeviation="3"/></filter>
-  <filter id="soft"><feGaussianBlur stdDeviation="22"/></filter>
-</defs>
-<style>
-  .tw {{ fill: #fff; animation: tw 3.2s ease-in-out infinite; }}
-  @keyframes tw {{ 0%, 100% {{ opacity: .15; }} 50% {{ opacity: 1; }} }}
-  .bands {{ animation: bands 3s linear infinite; }}
-  @keyframes bands {{ from {{ transform: translateY(0); }} to {{ transform: translateY(14px); }} }}
-  .cross {{ animation: run 1.6s linear infinite; }}
-  @keyframes run {{ from {{ transform: translateY(0); }} to {{ transform: translateY(14px); }} }}
-  .halo {{ animation: halo 4s ease-in-out infinite; }}
-  @keyframes halo {{ 0%, 100% {{ opacity: .45; }} 50% {{ opacity: .9; }} }}
-  .flick {{ animation: flick 7s steps(1) infinite; }}
-  @keyframes flick {{ 0%, 41%, 44%, 100% {{ opacity: 1; }} 42%, 43.5% {{ opacity: .55; }} }}
-  .sweep {{ animation: sweep 6s ease-in-out infinite; }}
-  @keyframes sweep {{ 0% {{ transform: translateX(-260px); }} 60%, 100% {{ transform: translateX({w + 260}px); }} }}
-  {REDUCED}
-</style>
-<g clip-path="url(#frame)">
-  <rect width="{w}" height="{h}" fill="url(#sky)"/>
-  {stars}
-  <circle cx="{vx}" cy="{horizon - 20}" r="130" fill="#ff5f9e" opacity=".25" filter="url(#soft)" class="halo"/>
-  <circle cx="{vx}" cy="{horizon + 6}" r="96" fill="url(#sun)" mask="url(#cut)"/>
-  <rect y="{horizon}" width="{w}" height="{h - horizon}" fill="url(#floor)"/>
-  <g mask="url(#floorfade)" stroke="#ff5fa8" stroke-width="1.2" opacity=".55">
-    <g>{rays}</g>
-    <g class="cross">{cross}</g>
-  </g>
-  <line x1="0" y1="{horizon}" x2="{w}" y2="{horizon}" stroke="#ffb3d1" stroke-width="1.5" opacity=".8"/>
-  <g fill="#0b0614">{palm(46, h, 250)}{palm(128, h + 6, 190)}{palm(w - 40, h, 270, -1)}{palm(w - 132, h + 8, 175, -1)}</g>
-  <g class="halo" fill="#ee3f7c" filter="url(#glow)">{title}</g>
-  <g class="flick" fill="url(#ink)">{title}</g>
-  <g fill="#0b0614" opacity=".85" filter="url(#shadow)">{sub}</g>
-  <g fill="#f6eefa">{sub}</g>
-  <rect class="sweep" x="0" y="0" width="120" height="{h}" fill="#fff" opacity=".05" transform="skewX(-18)"/>
-</g>'''
-    write('hero.svg', svg(w, h, body, 'GTA 6 HQ: the unofficial Grand Theft Auto VI encyclopedia, map and field manual'))
 
 def stats(items):
     w, h = W, 112
@@ -230,7 +156,6 @@ def counts():
             (down(pictures, 100), 'sourced pictures'), (str(pages), 'Field Manual pages')]
 
 if __name__ == '__main__':
-    hero()
     stats(counts())
     for name, text in [('inside', "What's inside"), ('intro', 'Pick your start-up'), ('manual', 'The Field Manual'), ('install', 'Install'),
                        ('new', "What's new"), ('creators', 'Creators welcome'), ('questions', 'Questions'), ('trust', 'How far to trust it'),
