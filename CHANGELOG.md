@@ -2,6 +2,16 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.45 (25 November 2026)
+
+Every gang operation on the map, a safe code for every safe, and entry pages that link what they mention.
+
+- **All 40 gang operations on the map:** 19 sites were missing. The map now has the 39 that count for 100%, plus the Ultimate Edition site, and the robbery planner builds a run through all of them. One pin wrongly labelled as the Ultimate Edition site is now the PTT Youngin$ Community Center.
+- **Safe codes for every safe:** each safe location shows its community code with sources, or says the site has no code or no safe, or that no guide has reported one yet. The codes are on the Field Manual's Safe Codes page and on each site's page. Codes from a single guide, or where guides disagree, are marked.
+- **Linked entry pages:** the first mention of a character, place, business or gang in an entry's text links to its page (unopened spoilers stay plain), and business, place, activity, gameplay, wildlife, collectible, music and faction pages end with "More of this type".
+- **News newest first:** Intel and Home now list news by date instead of file order.
+- **Tidier pages:** search hides categories with no results, tags that only repeat the name are dropped, and Home's Track and plan tiles and the Progress cards fill their rows.
+
 ## 0.2.44 (25 November 2026)
 
 Pick your start-up: the game's own Official start-up joins the Classic intro. Also 49 new pictures, voice actors for the cast, the latest news and checked facts.
