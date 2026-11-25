@@ -557,11 +557,47 @@ function related(entry) {
   </div></section>`;
 }
 
-const tags = (entry) => (entry.tags?.length
-  ? `<div class="tags">${entry.tags.map((t) => `<a href="#/search?q=${encodeURIComponent(t)}">${esc(t)}</a>`).join('')}</div>`
-  : '');
+/** Search tags under an entry, leaving out the ones that only repeat a word the page already shows
+    in its name, type or facts ("taco" and "bomb" on Taco Bomb). */
+const tags = (entry) => {
+  const words = (text) => String(text).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  const said = ` ${words([entry.name, kickerOf(entry), ...Object.values(entry.facts || {}).flat()].join(' '))} `;
+  const shown = [...new Set(entry.tags || [])].filter((t) => words(t) && !said.includes(` ${words(t)} `));
+  return shown.length
+    ? `<div class="tags">${shown.map((t) => `<a href="#/search?q=${encodeURIComponent(t)}">${esc(t)}</a>`).join('')}</div>`
+    : '';
+};
 
-const paragraphs = (entry) => (entry.body || []).map((p) => `<p>${esc(p)}</p>`).join('');
+/** An entry's paragraphs, with the first mention of each character, place, business and gang linked to
+    its own page. The entry itself, and spoilers the reader has not opened, stay plain text. */
+function paragraphs(entry) {
+  const linked = new Set([entry.slug]);
+  const people = (state.wiki.characters || []).map((c) => [c, giverName(c, 'gu')]).filter(([c, re]) => re && !isHidden('characters', c));
+  return (entry.body || []).map((p) => {
+    const hits = [];
+    for (const [c, re] of people) {
+      for (const m of p.matchAll(re)) {
+        const start = m.index + m[1].length;
+        hits.push({ start, end: start + m[2].length, section: 'characters', e: c });
+      }
+    }
+    for (const section of ['locations', 'businesses', 'factions']) {
+      for (const h of namesIn(p, state.wiki[section])) {
+        if (!isHidden(section, h.l)) hits.push({ start: h.start, end: h.end, section, e: h.l });
+      }
+    }
+    hits.sort((a, b) => a.start - b.start || b.end - a.end);
+    let out = '';
+    let at = 0;
+    for (const h of hits) {
+      if (h.start < at || linked.has(h.e.slug)) continue;
+      linked.add(h.e.slug);
+      out += esc(p.slice(at, h.start)) + `<a href="${entryLink(h.section, h.e.slug)}">${esc(p.slice(h.start, h.end))}</a>`;
+      at = h.end;
+    }
+    return `<p>${out}${esc(p.slice(at))}</p>`;
+  }).join('');
+}
 
 /** The label above a card or entry title: its class or type, where one is recorded. */
 const kickerOf = (entry) => entry.class || entry.facts?.class || entry.facts?.type || '';
@@ -573,6 +609,8 @@ function factValue(field, value) {
     const target = resolve(value);
     return target ? `<a href="${entryLink(target.section, target.entry.slug)}">${esc(target.entry.name)}</a>` : esc(value);
   }
+  // A type written all in lower case ("fast food") starts with a capital in the table.
+  if (field.key === 'type' && typeof value === 'string') return esc(value.replace(/^\p{Ll}/u, (c) => c.toUpperCase()));
   return esc(value);
 }
 
@@ -936,7 +974,23 @@ function moreFromMaker(section, entry) {
     <ul>${others.map((e, i) => `<li${i >= SHOWN ? ' hidden' : ''}><a href="${entryLink(section, e.slug)}">${esc(isHidden(section, e) ? 'Spoiler' : e.name)}</a></li>`).join('')}
     ${others.length > SHOWN ? `<li class="maker-all"><button type="button" class="chip-btn" data-maker-all>Show all ${others.length}</button></li>` : ''}</ul></section>`;
 }
-// "Show all" under More from <maker>: the rest of the list is already there, hidden.
+/** Sections better browsed by type than by maker or story order. */
+const KIND_SECTIONS = new Set(['businesses', 'activities', 'locations', 'gameplay', 'wildlife', 'collectibles', 'music', 'factions']);
+/** On an entry page: the others of the same type in its section ("Fast food": the other chains). */
+function moreOfKind(section, entry) {
+  if (!KIND_SECTIONS.has(section)) return '';
+  const k = typeKey(kickerOf(entry));
+  if (!k) return '';
+  const others = (state.wiki[section] || []).filter((e) => e.slug !== entry.slug && typeKey(kickerOf(e)) === k).sort(byName);
+  // A type shared by hundreds (one collectible family) is browsed on its list page instead.
+  if (!others.length || others.length > 300) return '';
+  const SHOWN = 12;
+  return `<section class="maker-more kind-more"><h2>More of this type <span class="type-count">${others.length}</span></h2>
+    <p class="kind-name">${esc(typeTitle(k))}</p>
+    <ul>${others.map((e, i) => `<li${i >= SHOWN ? ' hidden' : ''}><a href="${entryLink(section, e.slug)}">${esc(isHidden(section, e) ? 'Spoiler' : e.name)}</a></li>`).join('')}
+    ${others.length > SHOWN ? `<li class="maker-all"><button type="button" class="chip-btn" data-maker-all>Show all ${others.length}</button></li>` : ''}</ul></section>`;
+}
+// "Show all" under More from <maker> or More of this type: the rest of the list is already there, hidden.
 document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-maker-all]');
   if (!b) return;
@@ -1755,11 +1809,11 @@ function renderEntry(key, slug) {
         ${lead ? facts(key, entry) : ''}
         ${key === 'missions' ? storyNav(entry) : ''}
         ${mapLink(key, entry)}
-        ${lead ? `${guideSlot(`#/wiki/${key}/${slug}`)}${related(entry)}${moreFromMaker(key, entry)}${factionMembers(key, entry)}` : ''}
+        ${lead ? `${guideSlot(`#/wiki/${key}/${slug}`)}${related(entry)}${moreFromMaker(key, entry)}${moreOfKind(key, entry)}${factionMembers(key, entry)}` : ''}
         ${provenance(entry)}
         ${tags(entry)}
         ${lead ? '' : `</div><aside class="entry-side" aria-label="At a glance">
-          ${facts(key, entry)}${guideSlot(`#/wiki/${key}/${slug}`)}${related(entry)}${moreFromMaker(key, entry)}${factionMembers(key, entry)}
+          ${facts(key, entry)}${guideSlot(`#/wiki/${key}/${slug}`)}${related(entry)}${moreFromMaker(key, entry)}${moreOfKind(key, entry)}${factionMembers(key, entry)}
         </aside></div>`}
       </div>
     </article>`;
@@ -1814,7 +1868,8 @@ function giverName(c, flags = 'u') {
   const names = [c.name, ...(shared ? [] : [firstName])].filter((n) => n && n.length > 2);
   if (!names.length) return null;
   const escRe = (t) => t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  return new RegExp(`(^|[^\\p{L}'])(${names.map(escRe).join('|')})(?![\\p{L}'])`, flags);
+  // A possessive ("Moses's garage") still counts; a longer name with an apostrophe ("Dre'Quan") does not.
+  return new RegExp(`(^|[^\\p{L}'])(${names.map(escRe).join('|')})(?!\\p{L})(?!['’](?!s(?!\\p{L}))\\p{L})`, flags);
 }
 
 /** On Jason's and Lucia's pages: the missions played as them alone, chapter by chapter, and how many
@@ -3616,6 +3671,8 @@ function renderSearch(params) {
       span.hidden = n === null;
       span.textContent = n === null ? '' : String(n);
       b.classList.toggle('is-none', n === 0);
+      // A section with nothing for this search drops out of the row, unless it is the one picked.
+      b.hidden = n === 0 && !!b.dataset.section && b.getAttribute('aria-pressed') !== 'true' && b !== document.activeElement;
     });
   };
 
@@ -4223,6 +4280,8 @@ const ready = Promise.all([getJson('/api/wiki'), prefsReady, UserStore.load()])
       { key: 'locations', label: 'Locations', blurb: '', art: 'city' },
       { key: 'vehicles', label: 'Vehicles', blurb: '', art: 'port' },
     ];
+    // News comes from several files, each in its own order: newest first everywhere (undated last).
+    wiki.news?.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
     state.wiki = wiki;
     setupAnnouncement(wiki.game);
     checkForUpdate();
