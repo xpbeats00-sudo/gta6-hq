@@ -8195,7 +8195,7 @@
     "url": "https://gta6-wiki.org/map/",
     "type": "secondary",
     "accessed": "2026-11-21",
-    "notes": "Used for pin positions only, read from Gamersky's interactive map as republished at gta6-wiki.org/map and placed approximately on Rockstar's Leonida map poster. 993 of the map's 1,008 pins carry via: gamersky; the other 15 were placed by hand on the poster. How the points were moved onto the poster (calibration points, expected error) is not recorded.",
+    "notes": "Used for pin positions only, read from Gamersky's interactive map as republished at gta6-wiki.org/map and placed approximately on Rockstar's Leonida map poster. 1,022 of the map's 1,037 pins carry via: gamersky; the other 15 were placed by hand on the poster. How the first points were moved onto the poster is not recorded. The 19 gang operation pins added on 2026-11-25 (from the copy captured 2026-11-22) were placed with a local fit on the ten nearest pins already matched by name; that fit puts held-out pins back within 0.0014 of the map's width in 95% of cases.",
     "terms": "Not established. No licence for, or permission to reuse, this set of points is recorded in this repository."
   },
   "rs-gtabase-under-the-bridge-map": {
