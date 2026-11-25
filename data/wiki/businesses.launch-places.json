@@ -6417,7 +6417,8 @@
       "IGN says a boat or jet ski is needed, that approaching from the south-west keeps the player out of the detection radius, and that alligators along the shore attack both the Kingfishers and the player.",
       "IGN puts the payout at 1,700 to 1,900 dollars depending on how it goes; the only Key Valuable is the Kingfishers W-22 Small Game Rifle, fitted with a silencer, in a gun case on the kitchen counter of the big house on the dock.",
       "IGN says cocaine bricks sit in the small red shack opposite the bar and in the big house, about 1,920 dollars' worth in all, that a crate of Molotov cocktails stands behind the bar, and that Kingfishers keep arriving the longer the player stays.",
-      "IGN says a Lure Predator boat, a Bombora boat and a Mammoth Dodo seaplane are moored at the dock north of the house for the getaway."
+      "IGN says a Lure Predator boat, a Bombora boat and a Mammoth Dodo seaplane are moored at the dock north of the house for the getaway.",
+      "GTA 6 Heists, the GTA 6 Community Wiki and Output Lag describe no safe here: the valuables lie loose."
     ],
     "tags": [
       "fishing",
@@ -6431,15 +6432,19 @@
     "facts": {
       "type": "gang operation",
       "owner": "Kingfishers",
-      "location": "Wetman Bay, north-west of Key Lento"
+      "location": "Wetman Bay, north-west of Key Lento",
+      "safe_code": "No safe"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
       "ign-fishing-shacks",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "safe18-heists",
+      "safe18-cwiki",
+      "safe18-olvalue"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-25",
     "spoiler": true,
     "image": "/images/businesses/fishing-shacks.jpg"
   },
@@ -6497,7 +6502,8 @@
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
       "IGN says the Manatee Motel is a Kingfishers Illegal Operation north-east of Cottonmouth Lake and south of Hamlet in Mariana County, used for their exotic animal business, that it first becomes available in Chapter 2, and rates its security High.",
       "IGN calls it one of the smaller operations, warns of a loose dog (mash Square or X to push it off) and of Kingfisher reinforcements arriving by vehicle, and says a tiger may be in the first safe's room.",
-      "IGN lists two Key Valuables beside the 'SPEED LIVE' graffiti in the main building: a codeless safe with 937 dollars in the room to its right, and the Kingfishers Laird 350 Sniper in the room to its left. IGN puts the payout at 1,700 to 1,900 dollars."
+      "IGN lists two Key Valuables beside the 'SPEED LIVE' graffiti in the main building: a codeless safe with 937 dollars in the room to its right, and the Kingfishers Laird 350 Sniper in the room to its left. IGN puts the payout at 1,700 to 1,900 dollars.",
+      "GTA 6 Heists and the GTA 6 Community Wiki say the cash safe has no code and is opened by breaking the lock."
     ],
     "tags": [
       "gang",
@@ -6512,15 +6518,18 @@
       "type": "gang operation",
       "owner": "Kingfishers",
       "location": "North-east of Cottonmouth Lake, south of Hamlet, Mariana County",
-      "availability": "Chapter 2 onward"
+      "availability": "Chapter 2 onward",
+      "safe_code": "No code: break the lock"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
       "ign-manatee-motel",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "safe18-heists",
+      "safe18-cwiki"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-25",
     "spoiler": true,
     "image": "/images/businesses/manatee-motel.jpg"
   },
@@ -6577,7 +6586,8 @@
       "IGN says June Warehouse is a Kolt & Associates Illegal Operation in Port Gellhorn just west of the Delights Cabaret, shown only when the player is close, first as a Robbery Opportunity; IGN rates its security High and recommends a shotgun.",
       "IGN says thugs try to drive off in a blue Brooks Boatworks van when the player arrives, and that stopping it yields three bags of pills.",
       "IGN lists three Key Valuables: the Kolt & Associates Vatra SMG on the main garage's back wall, a codeless safe beside it with 1,355 dollars, and the Vapid Truth & Justice Caracara parked just east of the garage. IGN puts the payout at 9,800 to 12,400 dollars.",
-      "IGN says a notepad to the right of the garage TV marks La Cascara Motel as a new Robbery Opportunity."
+      "IGN says a notepad to the right of the garage TV marks La Cascara Motel as a new Robbery Opportunity.",
+      "GTA6 Atlas and the GTA 6 Community Wiki mark a safe here but give no code."
     ],
     "tags": [
       "associates",
@@ -6598,9 +6608,11 @@
     "sources": [
       "ppx-gang",
       "ign-june-warehouse",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "safe18-atlas",
+      "safe18-cwiki"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -6695,7 +6707,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under M7.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "GTA6 Atlas treats the M7 Compound as the same site as Nova Auto Junkyard in Hamlet, whose safe code is 7777."
     ],
     "tags": [
       "compound",
@@ -6707,13 +6720,15 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "M7"
+      "owner": "M7",
+      "safe_code": "7777 (same site as Nova Auto Junkyard)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe18-atlas"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -6793,7 +6808,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Final Chapter.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "Leonipedia says the upstairs office safe has no code and is forced open."
     ],
     "tags": [
       "building",
@@ -6808,13 +6824,15 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Final Chapter"
+      "owner": "Final Chapter",
+      "safe_code": "No code: force it open (one source)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe18-leoni"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -6824,7 +6842,8 @@
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under San4San.",
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
-      "PowerPyx spells the name 'Sound4Sond Studio' while the gang is San4San."
+      "PowerPyx spells the name 'Sound4Sond Studio' while the gang is San4San.",
+      "GTA 6 Heists says the armory safe has no code and is broken open."
     ],
     "tags": [
       "gang",
@@ -6837,13 +6856,15 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "San4San"
+      "owner": "San4San",
+      "safe_code": "No code: break it open (one source)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe18-heists"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -6925,7 +6946,8 @@
       "Polygon suggests skipping the shop floor: go out, take the path between Three Sheets Liquor and the Pay 'N Spray next door, hop the wall, draw the armed men out and fight from behind a container.",
       "Polygon says the police arrive almost as soon as the last guard falls; the red parrot in the middle cage says 'generator' when asked twice, and the cash is in the small vent beside the generator.",
       "Polygon says starting the robbery and leaving before the reward makes it unavailable for a while, being caught loses the cash, and the haul is over $1,000; it suggests escaping south over the fences.",
-      "Eurogamer says the operation first shows on the map labelled 'Strange Noises' once Shirley's rum has been fetched, and that after collecting the $1,366 from the generator vent you can thank the parrot before leaving."
+      "Eurogamer says the operation first shows on the map labelled 'Strange Noises' once Shirley's rum has been fetched, and that after collecting the $1,366 from the generator vent you can thank the parrot before leaving.",
+      "GTA 6 Heists and Output Lag say the office safe behind the Staff Only door has no code; it opens with the lock minigame."
     ],
     "tags": [
       "animals",
@@ -6940,7 +6962,8 @@
     ],
     "facts": {
       "type": "gang operation",
-      "location": "Behind the Three Sheets liquor store, Key Lento"
+      "location": "Behind the Three Sheets liquor store, Key Lento",
+      "safe_code": "No code: lock minigame"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6948,9 +6971,11 @@
       "ign-exotic-animals-front",
       "ign-illegal-operations",
       "pg-exotic-animal-front",
-      "r8-eg-exotic-animals"
+      "r8-eg-exotic-animals",
+      "safe18-heists",
+      "safe18-olvalue"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -6959,7 +6984,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "GTA 6 Heists says the office safe has no code and is broken open."
     ],
     "tags": [
       "criminals",
@@ -6973,13 +6999,15 @@
       "towing"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "safe_code": "No code: break it open (one source)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe18-heists"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -6988,7 +7016,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "GTA 6 Heists, GTA6 Pocket, NoobFeed, Into Indie Games and GTA6 Activities give the safe code as 5800, from an email on a laptop in the red container in the yard; Followchain prints 8177."
     ],
     "tags": [
       "chatfield",
@@ -7002,13 +7031,20 @@
       "storage"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "safe_code": "5800 (Followchain: 8177)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe18-heists",
+      "safe18-pocket",
+      "safe18-noobfeed",
+      "safe18-intoindie",
+      "safe18-activities",
+      "safe18-fc-chat"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -7052,7 +7088,8 @@
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
-      "Cultured Vultures gives the front door code as 1426."
+      "Cultured Vultures gives the front door code as 1426.",
+      "No checked guide gives a code for the back-room safe; 1426 opens the keypad door."
     ],
     "tags": [
       "cigar",
@@ -7073,9 +7110,10 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "safe-cv"
+      "safe-cv",
+      "safe18-pocket"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -7084,7 +7122,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "GTA 6 Heists says the small safe in the storage room has no code and is broken open."
     ],
     "tags": [
       "criminals",
@@ -7099,13 +7138,15 @@
       "station"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "safe_code": "No code: break it open (one source)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe18-heists"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true,
     "image": "/images/businesses/gas-station-meth-front.jpg"
   },
@@ -7118,7 +7159,8 @@
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
       "IGN says the Backroom Weed Front is at the Pearl House Hair Salon in southern Port Gellhorn, Kelly County, south-east of the Pawn & Gun Ammu-Nation, and only appears on the map, first as a Robbery Opportunity, when the player drives nearby in Chapter 2; IGN rates its security Low.",
       "IGN says the salon's green back door can be blown with Sticky Bombs at the cost of an immediate police call, while the white door behind the building can be kicked in; two thugs wait inside.",
-      "IGN says the only Key Valuable is a safe on the left side of the back room that needs no code and holds 1,019 dollars, with 367 dollars and five bags of weed on the table beside it; IGN puts the total payout at 2,200 to 2,400 dollars."
+      "IGN says the only Key Valuable is a safe on the left side of the back room that needs no code and holds 1,019 dollars, with 367 dollars and five bags of weed on the table beside it; IGN puts the total payout at 2,200 to 2,400 dollars.",
+      "GTA 6 Heists says the small back-room safe has no code and is broken open."
     ],
     "tags": [
       "backroom",
@@ -7133,15 +7175,17 @@
     ],
     "facts": {
       "type": "gang operation",
-      "location": "Pearl House Hair Salon, Port Gellhorn, Kelly County"
+      "location": "Pearl House Hair Salon, Port Gellhorn, Kelly County",
+      "safe_code": "No code: break it open (one source)"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
       "ign-backroom-weed-front",
-      "ign-illegal-operations"
+      "ign-illegal-operations",
+      "safe18-heists"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -7150,7 +7194,8 @@
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
-      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text."
+      "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
+      "The keypad safe's code is on a sticky note on site. Followchain and GTA6 Pocket print 9842, Beebom 0886 and GTA 6 Heists 1686; Beebom says the note shows a different number from game to game."
     ],
     "tags": [
       "boathouse",
@@ -7164,13 +7209,18 @@
       "robbery"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "safe_code": "Varies: read the sticky note on site"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-gang"
+      "ppx-gang",
+      "safe18-fc-carter",
+      "safe18-pocket",
+      "safe18-beebom",
+      "safe18-heists"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {

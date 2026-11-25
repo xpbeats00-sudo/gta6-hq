@@ -119,7 +119,8 @@
       "IGN says the Industrial Weed Grow is an Illegal Operation northwest of Grassrivers in Mariana County, northeast of Tola Bay, and is not tied to any chapter.",
       "IGN says it stays off the map until the area is entered and first appears as a Robbery Opportunity, so it is easy to miss.",
       "IGN lists three Key Valuables: the Vapid Cultivator Sandking Standout vehicle in the main warehouse, a safe in the west-side office holding $984, and the Chronic Vatra SMG weapon variant in a caged armory on the east side.",
-      "IGN rates its security as high."
+      "IGN rates its security as high.",
+      "GTA 6 Heists says the upstairs office safe needs no code."
     ],
     "tags": [
       "grassrivers",
@@ -132,15 +133,17 @@
       "type": "illegal gang operation",
       "location": "North Mariana County, northwest of Grassrivers",
       "purchasable": false,
-      "availability": "Any time; hidden until the area is entered"
+      "availability": "Any time; hidden until the area is entered",
+      "safe_code": "No code (one source)"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-industrial-weed-grow",
       "rs2-gc-gang-ops",
-      "rs2-powerpyx-gang-ops"
+      "rs2-powerpyx-gang-ops",
+      "safe18-heists"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -151,7 +154,8 @@
       "IGN says the Stash House is a medium-security Illegal Operation run by Kolt & Associates, just northwest of the Wasteland Off-Road mod shop in Port Gellhorn, Kelly County.",
       "IGN says it is marked on the map in Chapter 2, once Vicki mentions that the gang runs the local drug trade.",
       "IGN lists two Key Valuables: the Kolt & Associates 556 assault rifle variant on the kitchen counter and a safe in the next room that opens without a code and holds $1,489.",
-      "IGN warns that gang members outside turn hostile on approach and that more arrive once the rifle is taken."
+      "IGN warns that gang members outside turn hostile on approach and that more arrive once the rifle is taken.",
+      "GTA 6 Heists, the GTA 6 Community Wiki and Leonipedia say the safe has no code and is broken open; the 6823 in the notebook inside is the Brooks Boatworks code."
     ],
     "tags": [
       "illegal operation",
@@ -164,15 +168,19 @@
       "location": "Port Gellhorn, Kelly County",
       "owner": "Kolt & Associates",
       "purchasable": false,
-      "availability": "Chapter 2"
+      "availability": "Chapter 2",
+      "safe_code": "No code: break it open"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-stash-house",
       "rs2-gc-gang-ops",
-      "rs2-powerpyx-gang-ops"
+      "rs2-powerpyx-gang-ops",
+      "safe18-heists",
+      "safe18-cwiki",
+      "safe18-leoni"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   }
 ]
