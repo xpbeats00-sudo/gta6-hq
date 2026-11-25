@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "first-patch-01-002-002",
+    "name": "First post-launch patch",
+    "date": "2026-11-23",
+    "summary": "Rockstar's first update since launch fixes crashes, stuck weather, autosaves and phone calls that never came.",
+    "body": [
+      "Version 01.002.002 on PS5 (about 604 MB) and 1.0.2.2 on Xbox Series X|S (about 1.6 GB) went out in stages on November 23.",
+      "Fixed: crashes; weather that stopped changing for long stretches; autosaves; story and mission phone calls that failed to arrive; wanted levels that could not be lost; the gym deadlift bar; and partners not handing over bags to sell to fences."
+    ],
+    "tags": [
+      "patch",
+      "update",
+      "title update",
+      "bug fixes",
+      "weather",
+      "autosave"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "r16-gtabase-patch1",
+      "r16-gr-patch1",
+      "r16-pcg-weather"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
+    "slug": "day-one-sales-record",
+    "name": "$3.79 billion on day one",
+    "date": "2026-11-20",
+    "summary": "Take-Two says the game took $3.79 billion in day-one retail sales, the biggest entertainment launch on record.",
+    "body": [
+      "Take-Two's figure is its own estimate of worldwide retail sales up to the end of November 19.",
+      "It also said 32.5 million copies were sold before release, a pre-order record across every platform."
+    ],
+    "tags": [
+      "sales",
+      "record",
+      "take-two",
+      "launch"
+    ],
+    "confidence": "official",
+    "sources": [
+      "r16-t2-day-one",
+      "r16-vgc-ps-record"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
+    "slug": "playstation-launch-record",
+    "name": "Biggest launch in PlayStation history",
+    "date": "2026-11-23",
+    "summary": "Sony counts more than 39 million players on PS5 and 683 million hours played in the first days.",
+    "body": [
+      "Sony's figures run to November 22.",
+      "It also set a PlayStation record for the most people playing one game at the same time."
+    ],
+    "tags": [
+      "sony",
+      "playstation",
+      "ps5",
+      "record",
+      "players"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "r16-vgc-ps-record",
+      "r16-pcg-concurrent"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
+    "slug": "album-deluxe-edition",
+    "name": "The Album: Deluxe Edition",
+    "date": "2026-11-23",
+    "summary": "A longer edition of the soundtrack album is out on streaming services, with 23 more songs from the game.",
+    "body": [
+      "The Deluxe Edition adds 23 bonus songs to the original 34, for 57 in all.",
+      "The vinyl and CD releases stay the original edition."
+    ],
+    "tags": [
+      "music",
+      "soundtrack",
+      "album",
+      "streaming"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "r16-np-deluxe",
+      "r16-xba-deluxe"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
+    "slug": "metacritic-user-score",
+    "name": "Metacritic user score falls to 5.6",
+    "date": "2026-11-23",
+    "summary": "Players' scores on Metacritic sit far below the critics' 99, and some fans hit back by marking down other games.",
+    "body": [
+      "By November 21 to 23 the PS5 version's user score was 5.6, against a critic score of 99.",
+      "Complaints named include the slow first chapter, the 30 fps target, bugs and the lack of a disc. Some fans then gave zero scores to The Legend of Zelda: Ocarina of Time and other games at the top of the all-time list."
+    ],
+    "tags": [
+      "metacritic",
+      "reviews",
+      "user score",
+      "review bomb"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "r16-gtabase-metacritic",
+      "r16-vgc-ocarina"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
+    "slug": "unofficial-pc-port-removed",
+    "name": "Unofficial PC port taken down",
+    "date": "2026-11-24",
+    "summary": "Take-Two had an unofficial project that ran the Xbox version on PC removed from GitHub, with 3,007 copies of it.",
+    "body": [
+      "The project went up on November 21. Take-Two's copyright notice, published November 24, had GitHub disable it and every copy made from it.",
+      "There is still no official PC version."
+    ],
+    "tags": [
+      "pc",
+      "take-two",
+      "github",
+      "takedown"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "r16-ol-pc-port",
+      "r16-vgc-pc-port"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
+    "slug": "xbox-frame-rate-trick",
+    "name": "Xbox frame-rate trick",
+    "date": "2026-11-22",
+    "summary": "Players found a way past the 30 fps cap on Xbox Series X, but it averages only about 36 fps and can speed up animations.",
+    "body": [
+      "Switching the console's output between 60 Hz and 120 Hz and going back to the game through Quick Resume lifts the cap.",
+      "Digital Foundry measured about 36 to 37 fps on average. Some animations run too fast, as the game's speed seems tied to its frame rate."
+    ],
+    "tags": [
+      "xbox",
+      "frame rate",
+      "60fps",
+      "performance",
+      "digital foundry"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "r16-gr-60fps",
+      "r16-gr-60fps-df"
+    ],
+    "verified": "2026-11-24"
+  },
+  {
+    "slug": "vice-city-easter-egg-solved",
+    "name": "The Vice City easter egg is solved",
+    "date": "2026-11-23",
+    "summary": "Four days after launch, players solved a long puzzle built on GTA: Vice City's cheat codes.",
+    "body": [
+      "It leads to a portal into an area drawn like a PS2-era game, where Kent Paul (Danny Dyer) waits.",
+      "The full steps are on the encyclopedia page for the easter egg."
+    ],
+    "tags": [
+      "easter egg",
+      "vice city",
+      "kent paul",
+      "tommy vercetti"
+    ],
+    "confidence": "corroborated",
+    "sources": [
+      "r16-vgc-egg-solved",
+      "r16-vgc-egg-guide"
+    ],
+    "verified": "2026-11-24",
+    "spoiler": true
+  }
+]

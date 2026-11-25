@@ -19,9 +19,11 @@
       "boat yard",
       "brian heder"
     ],
+    "facts": {"voice_actor": "Orlagh Cassidy"},
     "confidence": "official",
     "sources": [
-      "rockstar-leonida"
+      "rockstar-leonida",
+      "vgc-cast"
     ],
     "verified": "2026-11-12"
   },
@@ -43,9 +45,11 @@
       "music",
       "real dimez"
     ],
+    "facts": {"voice_actor": "Denzel Curry"},
     "confidence": "official",
     "sources": [
-      "rockstar-leonida"
+      "rockstar-leonida",
+      "vgc-cast"
     ],
     "verified": "2026-11-12"
   }

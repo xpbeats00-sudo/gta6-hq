@@ -6,9 +6,10 @@
     "body": [
       "To enter one: press Up on the D-pad to open the phone, hold L1 (LB on Xbox), press R1 (RB), then enter the code. Using a cheat switches off trophies, achievements and saving.",
       "The guide groups them as 10 player cheats, 11 combat cheats, 21 that spawn a vehicle, 3 for time and weather, and 16 screen filters.",
-      "Requirements vary: finishing the story unlocks $250,000, Unlimited Focus, Attack Force and Cycle Weather; others ask for things like 100 workouts (Body Armor), 50 stunt jumps (Unlimited Nitrous), shooting range medals (the ammo cheats) or sets of challenges (most of the vehicles).",
+      "Requirements vary: finishing the story unlocks $250,000, Unlimited Focus and Attack Force; others ask for things like 100 workouts (Body Armor), 50 stunt jumps (Unlimited Nitrous), shooting range medals (the ammo cheats) or sets of challenges (most of the vehicles). For Cycle Weather, PowerPyx says finishing the story and GTA Vice Guides says revealing the whole map.",
       "Codes the guide gives, as D-pad presses: $250,000 is Up, Right, Down, Left, Up, Left, Down, Right. Raise Heat Level is Left, Down, Right, Down, Up, Down, Up. Cycle Weather is Down, Right, Up, Down, Right, Up, Right. Unlimited Focus is Down, Up, Up, Down, Up, Down, Up, Down, Up, Right. Body Armor is Down, Up, Left, Up, Up, Up, Up, Up, Down, Down. Max Ammo is Down, Up, Right, Down, Left, Left, Up, Up, Down, Left.",
-      "The guide had no code yet for most of the 61."
+      "The guide had no code yet for most of the 61.",
+      "GTA Vice Guides gives the same six codes."
     ],
     "related": [
       "gameplay/challenges",
@@ -29,9 +30,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-cheats"
+      "powerpyx-cheats",
+      "r17-gvg-cheats"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -161,7 +163,7 @@
     "summary": "PowerPyx's trophy guide estimates about 200 hours for the platinum and rates the difficulty 4 out of 10.",
     "body": [
       "All 55 trophies are earned offline and one playthrough is enough. The guide's route is the story with its optional missions (about 60 to 80 hours), then the 100% checklist and 70 challenges (about 100 hours), then the remaining strangers (about 10 hours).",
-      "It flags one trophy that might be missed: Positive Mental Attitude, because the first meditation spot is at Jason's house in Chapter 1 and is not available after that chapter.",
+      "It flags one trophy that might be missed: Positive Mental Attitude, because the first meditation spot is only available in Chapter 1. PowerPyx puts that spot at Jason's house; Output Lag puts it on Lucia's balcony. Output Lag also flags the Chapter 3 race Race Against Yago as available for a limited time.",
       "The hours and the difficulty rating are the guide writer's own estimates."
     ],
     "related": [
@@ -182,9 +184,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-trophy-guide"
+      "powerpyx-trophy-guide",
+      "r17-ol-trophies"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -193,7 +196,7 @@
     "summary": "There is no fast travel from the map itself. You take a taxi and pay $100 to skip the ride.",
     "body": [
       "PowerPyx's guide gives two ways. Paradise Taxi can be called from the phone's contacts once the first mission, Gone Fishing, is done: set a destination on the map, which can be somewhere you have not been, get in, and pay a flat $100 on top of the fare.",
-      "The RydeMe app arrives in Chapter 2 and is quicker: a driver turns up within seconds, the fare rises with distance, and $100 skips the drive. If no RydeMe driver is free, Paradise Taxi still works."
+      "The RydeMe app is quicker: a driver turns up within seconds, the fare rises with distance, and $100 skips the drive. PowerPyx says it arrives in Chapter 2; VGC says it opens with the BuckMe mission, as it needs a bank account. If no RydeMe driver is free, Paradise Taxi still works."
     ],
     "related": [
       "gameplay/fuel-and-transport",
@@ -212,9 +215,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-fast-travel"
+      "powerpyx-fast-travel",
+      "r17-vgc-fast-travel"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -297,6 +301,7 @@
     "body": [
       "PlayStation 5 Pro: image quality close to 4K, solid frame rates, and ray-traced shadows that are a visible step up from the other three.",
       "PlayStation 5 and Xbox Series X: a softer image of roughly 1440p. Both mostly hold 30 frames per second, with small drops on PlayStation 5 in ordinary play and drops on Series X in busy moments such as chases and explosions. Series X is described as slightly smoother on a 120Hz display with variable refresh rate.",
+      "Digital Foundry's later head-to-head, reported by VGC on November 24, found base PS5 and Series X at the same resolution in most scenes, with small advantages for Series X. Series X holds 30 fps more reliably; base PS5 drops more frames, above all in fast driving. Output Lag's own testing also found less stutter on Series X.",
       "Xbox Series S: 1080p output with visible cutbacks, and the least steady of the four. Much of the game runs in the mid to high 20s, and destroying vehicles can push it to about 20.",
       "This is one site's write-up of Digital Foundry's video, not Digital Foundry's own article, and it gives no loading times."
     ],
@@ -320,9 +325,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "purexbox-digital-foundry"
+      "purexbox-digital-foundry",
+      "r17-vgc-df-ps5-xsx",
+      "r17-ol-performance"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "image": "/images/web/purexbox-ee1487d17417.jpg"
   }
 ]

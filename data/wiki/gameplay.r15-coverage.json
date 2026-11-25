@@ -2,11 +2,13 @@
   {
     "slug": "story-endings",
     "name": "Story endings",
-    "summary": "The final mission ends on a bridge choice between Swim For It and No Surrender, with three known outcomes.",
+    "summary": "The finale ends either at a tower or on a bridge. Guides disagree on how many endings there are; relationship, savings and Criminal Profile decide which plays.",
     "body": [
       "GAMES.GG says The End of the Road ends at a police roadblock on a bridge where the player picks Swim For It or No Surrender; No Surrender ends with both Jason and Lucia dead.",
       "GAMES.GG lists two Swim For It outcomes: Lucia jumps and escapes while Jason is arrested and later shown in prison, or police open fire and both die. Its endings page says the Criminal Profile, relationship level and BuckMe savings decide which plays; its choices page instead ties it to whether Jason leaves the car armed, calling that trigger unconfirmed.",
-      "GAMES.GG says a death ending does not end the save: the game rewinds to just before the final mission, Jason and Lucia return to Vice City in free roam, and the finale marker stays on the map. It lists three known outcomes without calling that the full total."
+      "GAMES.GG says a death ending does not end the save: the game rewinds to just before the final mission, Jason and Lucia return to Vice City in free roam, and the finale marker stays on the map. It lists three known outcomes without calling that the full total.",
+      "GTABase and GTA Scoop both describe a second group of endings set at a tower, as well as the bridge ones. GTABase counts eight in all, four at each, decided by the relationship level, Family Savings (with $2,000,000 needed for the best ending, which it calls \"Two Years Later\") and the Criminal Profile.",
+      "GTA Scoop counts eleven full endings plus variations, and says the $2,000,000 adds a \"two years later\" scene to several endings rather than being an ending of its own. The guides also disagree on what sends the story to the tower: GTABase says a poor relationship, GTA Scoop says taking Méndez's deal. Output Lag calls all the triggers unconfirmed. Ending names are the guides' own, not titles shown in the game."
     ],
     "tags": [
       "choices",
@@ -22,9 +24,11 @@
     "confidence": "corroborated",
     "sources": [
       "cov-gamesgg-endings",
-      "cov-gamesgg-choices"
+      "cov-gamesgg-choices",
+      "r17-gtabase-endings",
+      "r17-scoop-endings"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {

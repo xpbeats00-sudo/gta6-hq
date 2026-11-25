@@ -21,6 +21,7 @@
       "treasure"
     ],
     "facts": {
+      "voice_actor": "Machel Montano",
       "affiliation": "Brian Heder (friend)",
       "occupation": "Treasure hunter; Island Dreams shop",
       "home": "Key Lento, Mariana County"
@@ -30,7 +31,8 @@
       "ppx-island",
       "ppx-100",
       "ppx-trophy",
-      "gtawiki-kenton"
+      "gtawiki-kenton",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -55,6 +57,7 @@
       "seaplane"
     ],
     "facts": {
+      "voice_actor": "Brad Carter",
       "affiliation": "Brian Heder",
       "occupation": "Pilot; fence (Chapter 1)",
       "home": "South Key Lento, Mariana County"
@@ -64,7 +67,8 @@
       "ppx-fences",
       "ppx-clearskies",
       "ppx-walkthrough",
-      "gtawiki-donnie"
+      "gtawiki-donnie",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   },
@@ -88,6 +92,7 @@
       "stranger"
     ],
     "facts": {
+      "voice_actor": "Carolee Carmello",
       "affiliation": "Jason Duval (neighbour)",
       "home": "Key Lento, Mariana County"
     },
@@ -96,7 +101,8 @@
       "ppx-shirley",
       "ppx-strangers",
       "r11g-gw-shirley-baker",
-      "r11g-gw-peggy"
+      "r11g-gw-peggy",
+      "vgc-cast"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -121,13 +127,15 @@
       "swamp"
     ],
     "facts": {
+      "voice_actor": "Jim Burke",
       "occupation": "Skunk Ape hunter",
       "home": "Near Pelican River, Mariana County"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-kirk",
-      "ppx-strangers"
+      "ppx-strangers",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -148,13 +156,15 @@
       "key lento"
     ],
     "facts": {
+      "voice_actor": "Caesar Samayoa",
       "affiliation": "Brian Heder",
       "occupation": "Broker",
       "home": "Key Lento area"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-arnold"
+      "ppx-arnold",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -177,13 +187,15 @@
       "tenant"
     ],
     "facts": {
+      "voice_actor": "Lexie Shoaibi",
       "affiliation": "Brian Heder (landlord)",
       "home": "Peach Palm Drive, Key Lento"
     },
     "confidence": "corroborated",
     "sources": [
       "gtawiki-mandy",
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -206,12 +218,14 @@
       "mattia"
     ],
     "facts": {
+      "voice_actor": "Massi Pregoni",
       "affiliation": "Kat; Jason Duval and Lucia Caminos (friends)"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-dayrelease",
-      "ppx-tourist"
+      "ppx-tourist",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -256,12 +270,14 @@
       "mattia"
     ],
     "facts": {
+      "voice_actor": "Nickola Shreli",
       "affiliation": "Mattia",
       "occupation": "Henchman"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-dayrelease"
+      "ppx-dayrelease",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -282,13 +298,15 @@
       "starlet motel"
     ],
     "facts": {
+      "voice_actor": "Lisa Emery",
       "occupation": "Motel manager",
       "home": "Starlet Motel, Kelly County"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-linda",
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -311,6 +329,7 @@
       "vicki"
     ],
     "facts": {
+      "voice_actor": "Taryn Manning",
       "affiliation": "Delights strip club",
       "occupation": "Stripper",
       "home": "Room 10, Starlet Motel, Kelly County"
@@ -319,7 +338,8 @@
     "sources": [
       "ppx-girlstrip",
       "ppx-vicki",
-      "ppx-moses"
+      "ppx-moses",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -341,13 +361,15 @@
       "strip club"
     ],
     "facts": {
+      "voice_actor": "Eric William Morris",
       "affiliation": "Delights strip club",
       "occupation": "Strip club owner"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-girlstrip",
-      "ppx-vicki"
+      "ppx-vicki",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -371,6 +393,7 @@
       "robbery tips"
     ],
     "facts": {
+      "voice_actor": "Brad Fleischer",
       "affiliation": "Doctor Bill (supplier)",
       "occupation": "Drug dealer; fence",
       "home": "Trailer in Port Gellhorn, Kelly County"
@@ -379,7 +402,8 @@
     "sources": [
       "ppx-girlstrip",
       "ppx-slamdunk",
-      "ppx-fences"
+      "ppx-fences",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -401,13 +425,15 @@
       "pills"
     ],
     "facts": {
+      "voice_actor": "J. Anthony Crane",
       "affiliation": "Dunk; Kolts gang (via Declan)",
       "occupation": "Retired doctor"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-girlstrip",
-      "ppx-slamdunk"
+      "ppx-slamdunk",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -443,9 +469,9 @@
     "name": "Moses",
     "summary": "A Port Gellhorn mechanic who registers stolen vehicles as personal cars and buys cars that have no tracker.",
     "body": [
+      "Credited as Moses \"Mo\" Watkins. Output Lag, GTA Vice Guides and GTABase all place him at Watkins Auto Parts in Port Gellhorn, where cars are registered after the Chapter 2 mission Moses.",
       "PowerPyx says Moses runs an auto shop in Port Gellhorn, is unlocked by a Chapter 2 mission, stays available after the story, and also sends requests for specific vehicles.",
-      "PowerPyx says cars must be scanned with the Waink app first because he only takes those without a tracker.",
-      "GTA Wiki has a page for an unnamed fence and mechanic at Watkins Auto Parts in Port Gellhorn seen in the Extended Look video; it does not name him, so whether this is Moses is unconfirmed."
+      "PowerPyx says cars must be scanned with the Waink app first because he only takes those without a tracker."
     ],
     "role": "Mechanic and car fence, Port Gellhorn",
     "group": "supporting",
@@ -459,7 +485,8 @@
       "vehicles"
     ],
     "facts": {
-      "occupation": "Mechanic; vehicle fence",
+      "voice_actor": "Aaron Morton",
+      "occupation": "Mechanic; vehicle fence; Watkins Auto Parts",
       "home": "Port Gellhorn, Kelly County"
     },
     "confidence": "corroborated",
@@ -467,9 +494,14 @@
       "ppx-moses",
       "ppx-fences",
       "ppx-100",
-      "gtawiki-pgfence"
+      "gtawiki-pgfence",
+      "vgc-cast",
+      "r17-ol-cast",
+      "r17-gtabase-moses",
+      "r17-gvg-fences",
+      "r17-ol-moses"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-66a6875ed41b.jpg"
   },
@@ -495,6 +527,7 @@
       "stranger"
     ],
     "facts": {
+      "voice_actor": "Jared Canfield",
       "occupation": "Farmer; crop-duster pilot",
       "home": "McKittrick Farm, Kelly County"
     },
@@ -503,7 +536,8 @@
       "ppx-kyle-farm",
       "ppx-kyle-chem",
       "gtawiki-kyle",
-      "r13-kotaku-red-hulk"
+      "r13-kotaku-red-hulk",
+      "vgc-cast"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -530,6 +564,7 @@
       "vogel"
     ],
     "facts": {
+      "voice_actor": "Jariko Denman",
       "affiliation": "Jason Duval (army friend); Killtelligence",
       "occupation": "Runs a hunting business",
       "home": "Near Mount Kalaga, Lummox County"
@@ -538,7 +573,8 @@
     "sources": [
       "ppx-bret",
       "ppx-100",
-      "ppx-trophy"
+      "ppx-trophy",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -562,6 +598,7 @@
       "thrillbilly"
     ],
     "facts": {
+      "voice_actor": "Spenser Granese",
       "affiliation": "Thrillbilly Mud Club crew",
       "occupation": "Dirt bike racer",
       "home": "Kelly County"
@@ -570,7 +607,8 @@
     "sources": [
       "ppx-thrillbillies",
       "ppx-trophy",
-      "ppx-strangers"
+      "ppx-strangers",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -591,12 +629,14 @@
       "wyman"
     ],
     "facts": {
+      "voice_actor": "David Stishan",
       "affiliation": "Billy's dirt bike crew"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-thrillbillies",
-      "ppx-coffee"
+      "ppx-coffee",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -617,11 +657,13 @@
       "ricky"
     ],
     "facts": {
+      "voice_actor": "Sage Ftacek",
       "affiliation": "Billy's dirt bike crew"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-thrillbillies"
+      "ppx-thrillbillies",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -641,11 +683,13 @@
       "dirt bike"
     ],
     "facts": {
+      "voice_actor": "Clarissa Thibeaux",
       "affiliation": "Billy's dirt bike crew"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-thrillbillies"
+      "ppx-thrillbillies",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -670,6 +714,7 @@
       "yago"
     ],
     "facts": {
+      "voice_actor": "Victor Almanzar",
       "occupation": "Street racer",
       "home": "Vice City"
     },
@@ -677,7 +722,8 @@
     "sources": [
       "ppx-streetrace",
       "ppx-strangers",
-      "r8gb-characters-yago"
+      "r8gb-characters-yago",
+      "vgc-cast"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -727,6 +773,7 @@
       "vape"
     ],
     "facts": {
+      "voice_actor": "Mallory Wu",
       "affiliation": "Cellerica",
       "home": "Belville, Leonard County"
     },
@@ -734,7 +781,8 @@
     "sources": [
       "ppx-cellerichain",
       "ppx-trophy",
-      "ppx-strangers"
+      "ppx-strangers",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -789,6 +837,7 @@
       "yasmani"
     ],
     "facts": {
+      "voice_actor": "Hiram Delgado",
       "occupation": "Fence; store owner",
       "home": "Little Cuba, Vice City"
     },
@@ -797,7 +846,8 @@
       "ppx-fences",
       "ppx-yasmani",
       "ppx-100",
-      "r16-pp-contacts"
+      "r16-pp-contacts",
+      "vgc-cast"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -807,6 +857,7 @@
     "name": "Randy",
     "summary": "A Vice City car fence with a showroom who pays well for a wish list of high-end cars.",
     "body": [
+      "His full name is Randy Kozlov (official credits). GTABase and GTA Vice Guides put his car lot, Leonida Auto World, in Balsero in north-west Vice City, and say Lucia first meets him in the Chapter 3 mission Car Service, delivering a Benefactor Schafter V12 for Raul.",
       "PowerPyx places Randy in Balsero, Vice City, marks him with a green RK icon, and says his wish list has 16 sports cars whose locations he reveals one at a time.",
       "PowerPyx says he takes high-end cars with advanced trackers, pays roughly $35,000 or more for one in perfect condition, and stays available after the story.",
       "GTA Wiki also describes him as a car fence who asks Jason or Lucia to bring him vehicles."
@@ -824,7 +875,8 @@
       "wish list"
     ],
     "facts": {
-      "occupation": "Car fence",
+      "voice_actor": "Serge Didenko",
+      "occupation": "Car fence; Leonida Auto World",
       "home": "Balsero, Vice City"
     },
     "confidence": "corroborated",
@@ -833,9 +885,13 @@
       "ppx-randy",
       "ppx-trophy",
       "ppx-100",
-      "gtawiki-randy"
+      "gtawiki-randy",
+      "vgc-cast",
+      "r17-ol-cast",
+      "r17-gtabase-car-service",
+      "r17-gvg-car-service"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true,
     "image": "/images/web/powerpyx-t-1e7667107e65.jpg"
   },
@@ -860,6 +916,7 @@
       "vice city"
     ],
     "facts": {
+      "voice_actor": "Taylor Novak",
       "affiliation": "Dre'Quan Priest (acquaintance, per GTA Wiki)",
       "occupation": "Fence",
       "home": "La Perle, Vice City"
@@ -869,7 +926,8 @@
       "ppx-fences",
       "ppx-kitty",
       "ppx-trophy",
-      "gtawiki-tyrone"
+      "gtawiki-tyrone",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   },
@@ -923,6 +981,7 @@
       "stranger"
     ],
     "facts": {
+      "voice_actor": "Carl Palmer",
       "occupation": "Pilot",
       "home": "Sundown Private Airfield, Leonard County"
     },
@@ -930,7 +989,8 @@
     "sources": [
       "ppx-pete",
       "ppx-strangers",
-      "ppx-clearskies"
+      "ppx-clearskies",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -953,13 +1013,15 @@
       "real estate"
     ],
     "facts": {
+      "voice_actor": "Roselyn Sanchez",
       "affiliation": "Lucia Caminos (daughter)",
       "occupation": "Real estate business owner"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-mia",
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -977,9 +1039,11 @@
       "lorena",
       "money"
     ],
+    "facts": {"voice_actor": "Yadira Correa"},
     "confidence": "corroborated",
     "sources": [
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1002,6 +1066,7 @@
       "stockyard"
     ],
     "facts": {
+      "voice_actor": "Alfredo Diaz",
       "affiliation": "Raul Bautista's crew",
       "occupation": "Driver",
       "home": "Stockyard, Vice City"
@@ -1009,7 +1074,8 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-creditcheck",
-      "r16-pp-bad-driver"
+      "r16-pp-bad-driver",
+      "vgc-cast"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1032,13 +1098,15 @@
       "tech"
     ],
     "facts": {
+      "voice_actor": "Rafi Silver",
       "affiliation": "Raul Bautista's crew",
       "occupation": "Tech expert"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-creditcheck",
-      "ppx-crosstown"
+      "ppx-crosstown",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1061,6 +1129,7 @@
       "raul"
     ],
     "facts": {
+      "voice_actor": "Christine Spang",
       "affiliation": "Raul Bautista's crew",
       "occupation": "Comms and disguises",
       "home": "Stockyard, Vice City"
@@ -1069,7 +1138,8 @@
     "sources": [
       "ppx-creditcheck",
       "ppx-andrea",
-      "ppx-sinfrontera"
+      "ppx-sinfrontera",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1118,13 +1188,15 @@
       "sinfrontera"
     ],
     "facts": {
+      "voice_actor": "Sierra Katow",
       "affiliation": "Sinfrontera National Bank",
       "occupation": "Security expert"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-sinfrontera",
-      "ppx-security"
+      "ppx-security",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1166,10 +1238,12 @@
       "lucia",
       "nate"
     ],
+    "facts": {"voice_actor": "Brendan Sagalow"},
     "confidence": "corroborated",
     "sources": [
       "ppx-walkthrough",
-      "r16-pp-making-gainz"
+      "r16-pp-making-gainz",
+      "vgc-cast"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -1189,11 +1263,13 @@
       "kordell"
     ],
     "facts": {
+      "voice_actor": "Michael Jai White",
       "affiliation": "Kordell's crew"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1216,12 +1292,14 @@
       "valentina"
     ],
     "facts": {
+      "voice_actor": "Josephine Phoenix",
       "affiliation": "Andrés de León; Petra Navarro; Mr. Faber"
     },
     "confidence": "corroborated",
     "sources": [
       "gtawiki-valentina",
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   },
@@ -1243,12 +1321,14 @@
       "valentina"
     ],
     "facts": {
+      "voice_actor": "J. Eddie Martinez",
       "affiliation": "Valentina; Petra Navarro (Megamundo); Elonzo"
     },
     "confidence": "corroborated",
     "sources": [
       "gtawiki-andres",
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18"
   },
@@ -1265,9 +1345,11 @@
       "chapter 4",
       "rafa"
     ],
+    "facts": {"voice_actor": "Sebastian Montanez"},
     "confidence": "corroborated",
     "sources": [
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -1317,13 +1399,15 @@
       "evelyn"
     ],
     "facts": {
+      "voice_actor": "Anne Carney",
       "affiliation": "Benedict Halifax (colleague)",
       "occupation": "Antique store owner",
       "home": "Capri, Vice City"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-dubious"
+      "ppx-dubious",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -1346,12 +1430,14 @@
       "halifax"
     ],
     "facts": {
+      "voice_actor": "Ian Scott McGregor",
       "affiliation": "Evelyn Andrews Antiques",
       "occupation": "Antiques appraiser"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-dubious"
+      "ppx-dubious",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true,

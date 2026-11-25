@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "the-final-flush",
+    "name": "The Final Flush",
+    "summary": "A side mission started from a \"Stop! Don't Flush\" poster that ends with a permanent boost to stamina.",
+    "body": [
+      "Scan a \"Stop! Don't Flush\" poster with the WAiNK scanner (the normal camera does not work) and answer TRUTH to the text that follows.",
+      "Meet Dr. Merle at Frank's Waffles in Tequesta and give him the code 00-00-02, then follow him to the sewage plant in Hamlet and through a hidden room.",
+      "The reward is a permanent increase to maximum stamina.",
+      "The guides disagree on when it opens (Output Lag says Chapter 3, TechWiser from Chapter 1) and on where the posters are: Output Lag names a toilet stall in the Nine1Nine club and a gym toilet, TechWiser the public beach restroom on Corsair Key."
+    ],
+    "related": [
+      "characters/dr-merle"
+    ],
+    "tags": [
+      "final flush",
+      "dr merle",
+      "no flushers",
+      "qr code",
+      "waink",
+      "stamina",
+      "side mission"
+    ],
+    "facts": {
+      "type": "Side mission",
+      "giver": "Dr. Merle",
+      "location": "Frank's Waffles, Tequesta; sewage plant, Hamlet",
+      "reward": "Permanent maximum stamina increase"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "r17-ol-final-flush",
+      "r17-techwiser-stamina"
+    ],
+    "verified": "2026-11-25"
+  }
+]

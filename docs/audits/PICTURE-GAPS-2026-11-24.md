@@ -58,3 +58,27 @@ Each site's robots.txt allows Claude agents. None of the blocked sites, PowerPyx
 - **Weak location pictures:** Belville, South Vice-Dale County, Shoreline Market and Bocamar Bridge. No clean replacement was found on an allowed site.
 - **GTABase's map competition** runs to 28 November and new player screenshots keep arriving. Another pass there in a few days should fill more places and businesses.
 - **GTABase only:** its per-item pictures for weapons, animals and standouts are under 960 px. Its larger map pictures are scrambled in the page data and weren't decoded.
+
+## Second pass (later on 24 November)
+
+**39 more pictures**, plus a better Belville (its police station), each looked at by eye:
+- 24 from GTABase's map screenshots: 20 businesses (Alpha Sports, Cell Phone Zone, Clip & Fade, Electronick, Iron & Oak, Lombank, Peewees, Podium Sports, Slinger, Taco Bomb, WHS, Xero car wash and others) and 4 places (Capri, Crosstown, Port Gellhorn Police Station, Shoreline Marina).
+- 14 from GTA Vice Guides, GTA Boss, GTA Scoop and Output Lag: 5 vehicles (Buckingham Swift, Hulls Sea Enchantress, Nagasaki Sea Sparrow, Western Cliffhanger, '90 Willard Lasso), the Moneymaker W-10, phone apps, and 7 activities (the three Rodgers Ranch ranges, Gellhorn Raceway Intermediate Loop CCW, unique races, solo pool tables, stunts). 5 were cropped to leave out tooltips, name cards or subtitles.
+
+**Turned down this time:**
+- phone photos of a TV screen (Frank's Waffles, Oomph, a RON car wash);
+- shots framed on women from behind or in short dresses or bikinis (Heist Planning, Call Nate, Encrypted Hard Drive, the Thirsty Wolf, Leonard County, a souvenir shop);
+- minimap or menus over the scene, or night shots too dark to read;
+- labels that don't match exactly (Tisha-Wocka, Pay 'n' Spray);
+- soft studio renders (Picador, Hustler, which GTABase names differently);
+- gtasixmap.com, whose robots.txt blocks ClaudeBot.
+
+**Still open:** Under the Bridge still needs a clean bridge-stunt shot. Most gun shops, pawn and jewellery stores, tattoo shops, banks and garages have a marker on GTABase's map but no screenshot yet. Weapon and wildlife pictures on GTABase are all under 960 px.
+
+## Third pass (25 November)
+
+**10 more pictures:** Corsair Key, Emerald Springs, Key Lento and the Vice City ferry; Hank's Waffles and The Siren's Chest; the Assassin Nipper .38 and The Silver (listed as The Silver 1992; the guides spell it 1922 or 1992); the PTT Youngin$; and the shark. Two were cropped to leave out a notification or the minimap.
+
+**Turned down:** pictures identified only by a section heading (San4San, Boone Speedway, Hit-n-Run VC); race and drone shots under timers and maps; TechWiser map pictures, which carry its "TW" pin logo; views through binoculars; Monty, Frankie Delight and some Thrillbilly shots for their framing.
+
+**Also checked:** the 12 PowerPyx pictures still in the app were looked at corner by corner for a logo. None has one.

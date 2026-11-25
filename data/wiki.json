@@ -226,7 +226,8 @@
       "ties": ["Runs Only Raw Records with Dre'Quan Priest", "Backs the label Real Dimez are signed to"],
       "related": ["characters/drequan-priest", "characters/real-dimez", "businesses/only-raw-records", "locations/vice-city"],
       "tags": ["vice city", "only raw records", "music", "strip club", "real estate"],
-      "confidence": "official", "sources": ["g6w-boobie", "rockstar-leonida", "pl-gtabase-boobie", "pl-gtaboom-orr", "ppx-walkthrough"], "verified": "2026-11-22"
+      "facts": {"voice_actor": "Mike Forbs"},
+      "confidence": "official", "sources": ["g6w-boobie", "rockstar-leonida", "pl-gtabase-boobie", "pl-gtaboom-orr", "ppx-walkthrough", "vgc-cast"], "verified": "2026-11-22"
     },
     {
       "slug": "drequan-priest", "name": "Dre'Quan Priest", "aliases": ["Drequan", "Dre Quan"], "role": "Label head, Only Raw Records", "group": "supporting",
@@ -241,7 +242,8 @@
       "ties": ["Runs Only Raw Records with Boobie Ike", "Signed Real Dimez"],
       "related": ["characters/boobie-ike", "characters/real-dimez", "businesses/only-raw-records"],
       "tags": ["vice city", "only raw records", "music"],
-      "confidence": "official", "sources": ["g6w-characters", "g6w-real-dimez", "rockstar-leonida", "pl-gtaboom-story", "ppx-walkthrough", "pl-gtaboom-prepare-vc"], "verified": "2026-11-22"
+      "facts": {"voice_actor": "Naiqui Macabroad"},
+      "confidence": "official", "sources": ["g6w-characters", "g6w-real-dimez", "rockstar-leonida", "pl-gtaboom-story", "ppx-walkthrough", "pl-gtaboom-prepare-vc", "vgc-cast"], "verified": "2026-11-22"
     },
     {
       "slug": "real-dimez", "name": "Real Dimez", "aliases": ["Bae-Luxe", "Roxy"], "role": "Rap duo: Bae-Luxe and Roxy", "group": "supporting",

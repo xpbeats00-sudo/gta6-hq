@@ -1007,3 +1007,10 @@ body[data-page='manual'] .rail { display: none; }
 .place-here .maker-more { margin: var(--s4) 0 0; scroll-margin-top: calc(var(--bar, 64px) + var(--s4)); }
 .place-here .maker-more:first-of-type { margin-top: 0; }
 .place-here .maker-more h3 { display: flex; align-items: center; gap: var(--s3); margin: 0; color: var(--text-secondary); font: 700 0.85rem var(--font-display); }
+
+/* Phones: the map toolbar wraps onto a second row rather than hiding buttons off the edge,
+   and the zoom buttons sit below it. */
+@media (max-width: 640px) {
+  .map-tools { flex-wrap: wrap; overflow-x: visible; row-gap: 4px; }
+  .leaflet-top.leaflet-left { top: 152px; }
+}

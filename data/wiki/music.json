@@ -29,11 +29,14 @@
       "gamespot-radio",
       "cultr-radio",
       "biglead-radio",
-      "gtabase-radio-hub"
+      "gtabase-radio-hub",
+      "r17-vgc-radio-djs",
+      "r17-ol-cast",
+      "vgc-cast"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-25",
     "body": [
-      "GameSpot and The Big Lead report that El Martillo is Bad Bunny and La Gata is RaiNao. Rockstar's own pages give only the character names.",
+      "VGC's radio guide and Output Lag both say El Martillo is voiced by Bad Bunny and La Gata by RaiNao. The official cast list separately credits Bad Bunny as \"Mitico Mario\"; Output Lag says these are two roles, and no guide yet says who Mitico Mario is in the game.",
       "Songs GameSpot reports hearing on it: Bad Bunny - EoO; Romeo Santos ft. El Chaval de la Bachata - Canalla; Axel Rulay ft. Farruko and El Alfa - Si Es Trucho Es Trucho (Remix); Myke Towers - Girl; Young Miko - Ni Le Cabe; Bad Bunny - Otra Noche en Miami; Chimbala & Omega - Se Me Nota (Agarrame); Don Omar - Intocable; Fuerza Regida - Suzuki; Rauw Alejandro - Macacoa 2000; Tainy & Bad Bunny - Mojabi Ghost; Calle 13 - Suave Mix (Blass Remix).",
       "GTABase's radio guide adds two songs the app lacks: Anuel AA & Haze - Amanece; Rainao & El Laberinto del Coco - Mariposas en el Estómago."
     ]

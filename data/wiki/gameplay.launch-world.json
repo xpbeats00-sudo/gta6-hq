@@ -7,7 +7,9 @@
       "PowerPyx counts them by owner: Kingfishers 3, Kolts & Associates 5, M7 2, La Polilla Negra 2, Final Chapter 4, San4San 5, PTT Youngin$ 2, The Guardia Brothers 3 and other criminals 13.",
       "PowerPyx says a site shows a yellow icon and reads Robbery Opportunity until visited, counts as done only when every key valuable is taken, and later restocks so it can be hit again.",
       "According to PowerPyx, 19 are marked through story progress, all 39 count for the completion checklist, and an extra PTT Youngin$ site comes with the Ultimate Edition.",
-      "Named sites in PowerPyx's list include Kingpin Bowling, Manatee Motel, Sunrise RV Park, M7 Compound, Casa Guardia and Farm Fix Meth Lab; its list was still incomplete at 32 of 39."
+      "Named sites in PowerPyx's list include Kingpin Bowling, Manatee Motel, Sunrise RV Park, M7 Compound, Casa Guardia and Farm Fix Meth Lab; its list was still incomplete at 32 of 39.",
+      "Safe codes that Output Lag and GTA Scoop agree on: Janjak's Garage, La Perle 4444; Kingpin Bowling, Port Gellhorn (office) 0300; Brooks Boatworks (upstairs) 6823; La Cascara Motel 6969; Sunrise RV Park (dock warehouse) 6769; Nova Auto Junkyard, Hamlet 7777; Farm Fix Meth Lab 2121; the San4San sneaker trade (second safe) 4124.",
+      "Only Output Lag gives these two: the biker hideout at The Thirsty Wolf 1982, and Leonida Carrier Warehouse, Balsero 9256."
     ],
     "tags": [
       "gang",
@@ -30,9 +32,11 @@
     "sources": [
       "ppx-gangops",
       "ppx-100",
-      "ppx-trophies"
+      "ppx-trophies",
+      "r17-ol-gang-valuables",
+      "r17-scoop-safe-codes"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -263,7 +267,8 @@
       "PowerPyx says Moses in Port Gellhorn buys cars with no tracker, Pay 'n' Spray shops (19 in all) take cars with a standard tracker from the third chapter, and Randy buys wish-list cars with advanced trackers once the Key Cloner is available.",
       "PowerPyx's money guide puts typical prices at 1,000 dollars or more from Moses, around 4,000 dollars at a Pay 'n' Spray and 30,000 dollars or more for a wish-list car in perfect condition; Randy's list has 18 cars.",
       "According to PowerPyx, 200,000 dollars of vehicle sales counts for the completion checklist.",
-      "Disagreement: IGN's Vehicles guide (updated 11:35 a.m. PT, November 19) says $100,000 worth of fenced vehicles is needed for 100 percent completion, where PowerPyx gives $200,000.",
+      "Output Lag's checklist agrees on $200,000 of vehicle sales for 100%. IGN's $100,000 figure matches the narcotics and jewellery lines instead.",
+      "TechWiser and GTABase say delivering Randy's '64 Mamba GT in Chapter 4 lets every Pay 'n' Spray sell and register cars with an advanced tracker. GTABase says cars and motorbikes can be sold, boats and aircraft cannot.",
       "IGN also counts ten Vehicle Challenges."
     ],
     "tags": [
@@ -284,9 +289,12 @@
       "ppx-100",
       "ppx-money",
       "ppx-fences",
-      "r13-ign-vehicles"
+      "r13-ign-vehicles",
+      "r17-ol-100",
+      "r17-gtabase-sell-cars",
+      "r17-techwiser-advanced-tracker"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {

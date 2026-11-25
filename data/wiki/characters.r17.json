@@ -1,0 +1,33 @@
+[
+  {
+    "slug": "dr-merle",
+    "name": "Dr. Merle",
+    "summary": "A conspiracy theorist of the No Flushers movement who sends the player into the sewers in The Final Flush.",
+    "body": [
+      "Played by Pat Dwyer, per the official credits.",
+      "He waits at Frank's Waffles in Tequesta for whoever answers his posters."
+    ],
+    "role": "The Final Flush",
+    "group": "supporting",
+    "tags": [
+      "dr merle",
+      "no flushers",
+      "conspiracy",
+      "final flush"
+    ],
+    "related": [
+      "missions/the-final-flush"
+    ],
+    "facts": {
+      "voice_actor": "Pat Dwyer",
+      "occupation": "Conspiracy theorist"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "vgc-cast",
+      "r17-ol-final-flush",
+      "r17-techwiser-stamina"
+    ],
+    "verified": "2026-11-25"
+  }
+]

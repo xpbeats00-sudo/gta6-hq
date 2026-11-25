@@ -11,9 +11,11 @@
     "tags": [
       "chapter-4"
     ],
+    "facts": {"voice_actor": "Oksana Grishina"},
     "confidence": "corroborated",
     "sources": [
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -33,11 +35,13 @@
       "optional"
     ],
     "facts": {
+      "voice_actor": "Lindsey Akers",
       "affiliation": "Lucia Caminos"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -54,9 +58,11 @@
     "tags": [
       "chapter-5"
     ],
+    "facts": {"voice_actor": "Roger Wayne"},
     "confidence": "corroborated",
     "sources": [
-      "ppx-walkthrough"
+      "ppx-walkthrough",
+      "vgc-cast"
     ],
     "verified": "2026-11-18",
     "spoiler": true
