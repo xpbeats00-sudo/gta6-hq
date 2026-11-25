@@ -6,7 +6,8 @@
     "body": [
       "PowerPyx lists it as number 10 of 39 illegal gang operations, filed under M7.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "MapMaster marks safes here but gives no code."
     ],
     "tags": [
       "gang",
@@ -24,9 +25,10 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-mapmaster"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -109,7 +111,8 @@
     "body": [
       "PowerPyx lists it as number 15 of 39 illegal gang operations, filed under Final Chapter.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "Leonipedia says the office safe has no code and is broken open."
     ],
     "tags": [
       "chapter",
@@ -124,14 +127,16 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "Final Chapter"
+      "owner": "Final Chapter",
+      "safe_code": "No code: break it open (one source)"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-leoni"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -141,7 +146,8 @@
     "body": [
       "PowerPyx lists it as number 18 of 39 illegal gang operations, filed under San4San.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "GTA 6 Heists says there is no safe: the cash is under a loose kitchen floor tile in front of the stove."
     ],
     "tags": [
       "gang",
@@ -156,14 +162,16 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "San4San"
+      "owner": "San4San",
+      "safe_code": "No safe (one source)"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-heists"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -208,7 +216,8 @@
     "body": [
       "PowerPyx lists it as number 21 of 39 illegal gang operations, filed under San4San.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "The GTA 6 Community Wiki and MapMaster mark a safe here but give no code."
     ],
     "tags": [
       "apartments",
@@ -226,9 +235,11 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-cwiki",
+      "safe18-mapmaster"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -238,7 +249,8 @@
     "body": [
       "PowerPyx lists it as number 22 of 39 illegal gang operations, filed under PTT Youngin$.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "MapMaster and GTA6 Atlas mark no safe here."
     ],
     "tags": [
       "gang",
@@ -258,9 +270,11 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-mapmaster",
+      "safe18-atlas"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -270,7 +284,8 @@
     "body": [
       "PowerPyx lists it as number 23 of 39 illegal gang operations, filed under PTT Youngin$.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "GTA 6 Heists says there is no safe here: the valuables lie loose."
     ],
     "tags": [
       "center",
@@ -286,14 +301,16 @@
     ],
     "facts": {
       "type": "gang operation",
-      "owner": "PTT Youngin$"
+      "owner": "PTT Youngin$",
+      "safe_code": "No safe (one source)"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-heists"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -379,7 +396,8 @@
     "body": [
       "PowerPyx lists it as number 28 of 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "MapMaster and GTA6 Atlas mark a safe here but give no code."
     ],
     "tags": [
       "base",
@@ -399,9 +417,11 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-mapmaster",
+      "safe18-atlas"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -411,7 +431,8 @@
     "body": [
       "PowerPyx lists it as number 34 of 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "MapMaster marks a safe here but gives no code."
     ],
     "tags": [
       "beach",
@@ -430,9 +451,10 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-mapmaster"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -442,7 +464,8 @@
     "body": [
       "PowerPyx lists it as number 35 of 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "GTA 6 Heists and Leonipedia say the two safes in the top-floor gun room have no code and are broken open."
     ],
     "tags": [
       "criminals",
@@ -455,14 +478,17 @@
       "vespucci"
     ],
     "facts": {
-      "type": "gang operation"
+      "type": "gang operation",
+      "safe_code": "No code: break both open"
     },
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-heists",
+      "safe18-leoni"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
@@ -472,7 +498,8 @@
     "body": [
       "PowerPyx lists it as number 37 of 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
-      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared."
+      "PowerPyx's 100% checklist requires all 39 gang operations to be cleared.",
+      "MapMaster and GTA6 Atlas mark a locked safe here; no checked guide says how it opens."
     ],
     "tags": [
       "criminals",
@@ -490,9 +517,11 @@
     "confidence": "corroborated",
     "sources": [
       "ppx-gang",
-      "ppx-100"
+      "ppx-100",
+      "safe18-mapmaster",
+      "safe18-atlas"
     ],
-    "verified": "2026-11-22",
+    "verified": "2026-11-25",
     "spoiler": true
   },
   {
