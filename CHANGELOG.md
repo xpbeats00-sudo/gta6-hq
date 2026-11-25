@@ -2,6 +2,18 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.44 (25 November 2026)
+
+Pick your start-up: the game's own Official start-up joins the Classic intro. Also 49 new pictures, voice actors for the cast, the latest news and checked facts.
+
+- **Official start-up:** the game's own start-up sequence, played whole with its music. The first time the app opens, a box plays the Classic and Official intros side by side so you can choose. Change it any time in Settings → Start-up.
+- **49 new pictures:** 22 businesses, 9 places, 5 vehicles, 3 weapons, 8 activities, the shark and the PTT Youngin$, plus a better picture of Belville.
+- **Voice actors:** 54 characters now show who plays them, from the official credits.
+- **News:** the first patch, the $3.79 billion day-one sales, the PlayStation launch record, the soundtrack's Deluxe Edition, the Metacritic user score, the unofficial PC port takedown, the Xbox frame-rate trick and the Vice City easter egg.
+- **New pages:** Freddie, Dr. Merle, The Final Flush, Missing Persons and Alvan West, the Vice City retro easter egg, Kent Paul, and Jason's Key Lento stash (story discoveries are marked as spoilers).
+- **Checked facts:** 12 pages corrected against a second source, including Bad Bunny's two credits, Randy and Moses, the full UFO questline, the tower endings, gang safe codes and how to sell cars.
+- **Phones:** the map toolbar no longer hides three buttons off the edge of the screen.
+
 ## 0.2.43 (24 November 2026)
 
 63 new pictures, a cleaner Key Lento Police Station shot, and pictures removed for site logos can no longer come back.

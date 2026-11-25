@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-24 11:10 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-25 00:56 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,7 +8,7 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (1292)
+## Local personal use only (1341)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -83,13 +83,20 @@ None. No media file is cleared for public distribution.
 - `images/activities/pool-opponents-by-venue.jpg`
 - `images/activities/pool.jpg`
 - `images/activities/ptt-youngins-raid.jpg`
+- `images/activities/race-gellhorn-raceway-intermediate-loop-ccw.jpg`
 - `images/activities/race-hit-n-run-vc-shoreline.jpg`
 - `images/activities/race-thrillbilly-mud-club-skid-loop.jpg`
 - `images/activities/racing.jpg`
+- `images/activities/rodgers-ranch-saloon-range.jpg`
+- `images/activities/rodgers-ranch-shooting-range.jpg`
+- `images/activities/rodgers-ranch-zombie-range.jpg`
+- `images/activities/solo-pool-tables.jpg`
 - `images/activities/sports-and-leisure.jpg`
 - `images/activities/street-trash-iii.jpg`
+- `images/activities/stunts.jpg`
 - `images/activities/tenebrae-lux.jpg`
 - `images/activities/thrillbilly-mud-club.jpg`
+- `images/activities/unique-races.jpg`
 - `images/activities/video-games.jpg`
 - `images/activities/water-sports.jpg`
 - `images/artwork/boobie-ike-club.webp`
@@ -124,16 +131,22 @@ None. No media file is cleared for public distribution.
 - `images/businesses/a-better-you.jpg`
 - `images/businesses/allied-crystal.jpg`
 - `images/businesses/alpha-convenience-store.jpg`
+- `images/businesses/alpha-sports.jpg`
 - `images/businesses/ambrosia-raceway.jpg`
 - `images/businesses/barnacle-beauties.jpg`
+- `images/businesses/bars-of-leonida.jpg`
+- `images/businesses/bellissima-hair-salon.jpg`
 - `images/businesses/big-shots.jpg`
 - `images/businesses/brians-boat-yard.jpg`
 - `images/businesses/brilliant-cuts.jpg`
 - `images/businesses/brooks-boatworks.jpg`
 - `images/businesses/bucks-jewelry-and-pawn.jpg`
+- `images/businesses/cafes-and-takeout-of-leonida.jpg`
 - `images/businesses/capri-classic.jpg`
+- `images/businesses/cell-phone-zone.jpg`
 - `images/businesses/chaceys.jpg`
 - `images/businesses/chucks-tackle-and-shot.jpg`
+- `images/businesses/clip-and-fade.jpg`
 - `images/businesses/coastal-auto-care.jpg`
 - `images/businesses/cross-my-heart.jpg`
 - `images/businesses/crosstown-cutz.jpg`
@@ -144,6 +157,7 @@ None. No media file is cleared for public distribution.
 - `images/businesses/drip-drops.jpg`
 - `images/businesses/druthers-state-bank.jpg`
 - `images/businesses/electric-fang-tattoo-parlor.jpg`
+- `images/businesses/electronick.jpg`
 - `images/businesses/empowered-electronics.jpg`
 - `images/businesses/eris.jpg`
 - `images/businesses/ernestos-pawn.jpg`
@@ -155,8 +169,10 @@ None. No media file is cleared for public distribution.
 - `images/businesses/gellhorn-international-raceway.jpg`
 - `images/businesses/gta-crosstown-garage.jpg`
 - `images/businesses/hamlet-pawn.jpg`
+- `images/businesses/hanks-waffles.jpg`
 - `images/businesses/hyper-ink.jpg`
 - `images/businesses/inkomplete-tattoo-co.jpg`
+- `images/businesses/iron-and-oak.jpg`
 - `images/businesses/island-dreams-boat-charters.jpg`
 - `images/businesses/jack-of-hearts-strip-club.jpg`
 - `images/businesses/joyeria-empenos.jpg`
@@ -164,6 +180,7 @@ None. No media file is cleared for public distribution.
 - `images/businesses/kingpin-bowling.jpg`
 - `images/businesses/la-cascara-motel.jpg`
 - `images/businesses/ledford-motorcycle-workshop.jpg`
+- `images/businesses/lombank.jpg`
 - `images/businesses/lowballers-customs.jpg`
 - `images/businesses/manatee-motel.jpg`
 - `images/businesses/marbles.jpg`
@@ -171,21 +188,31 @@ None. No media file is cleared for public distribution.
 - `images/businesses/nifty-threads-island-wear.jpg`
 - `images/businesses/nine1nine-strip-club.jpg`
 - `images/businesses/one-eyed-willies-mod-shop.jpg`
+- `images/businesses/one-stop-liquor.jpg`
 - `images/businesses/only-raw-records.jpg`
 - `images/businesses/paradise-garage.jpg`
 - `images/businesses/pawn-and-gun-port-gellhorn.jpg`
+- `images/businesses/payday-loans-store.jpg`
 - `images/businesses/pearl-house-hair-salon.jpg`
+- `images/businesses/peewees.jpg`
 - `images/businesses/pegassi-residences.jpg`
 - `images/businesses/phils-ammu-nation.jpg`
+- `images/businesses/podium-sports.jpg`
 - `images/businesses/richardson-hunting-supplies.jpg`
 - `images/businesses/rideout-customs-mod-shop.jpg`
+- `images/businesses/ron-stop-n-snack.jpg`
 - `images/businesses/saras-unisex-salon.jpg`
+- `images/businesses/slinger.jpg`
 - `images/businesses/starlet-motel.jpg`
 - `images/businesses/stock-305-clothing-store.jpg`
 - `images/businesses/stockyard-speedshop.jpg`
+- `images/businesses/street-food-vendors-of-leonida.jpg`
 - `images/businesses/super-friki-inc.jpg`
+- `images/businesses/taco-bomb.jpg`
 - `images/businesses/the-inked-mermaid.jpg`
+- `images/businesses/the-jewelry-place.jpg`
 - `images/businesses/the-rusty-anchor.jpg`
+- `images/businesses/the-sirens-chest.jpg`
 - `images/businesses/twa-ponya-tattoo.jpg`
 - `images/businesses/two-wheel-fury-motorsport.jpg`
 - `images/businesses/urban-legendz.jpg`
@@ -194,6 +221,8 @@ None. No media file is cleared for public distribution.
 - `images/businesses/vice-vinyl.jpg`
 - `images/businesses/wasteland-off-road.jpg`
 - `images/businesses/whisler-motorsport.jpg`
+- `images/businesses/whs.jpg`
+- `images/businesses/xero-car-wash.jpg`
 - `images/businesses/xero-food-mart.jpg`
 - `images/characters/abe-gonzalez.jpg`
 - `images/characters/andrea.jpg`
@@ -313,6 +342,7 @@ None. No media file is cleared for public distribution.
 - `images/factions/keys-drug-runners.jpg`
 - `images/factions/kingfishers.jpg`
 - `images/factions/m7.jpg`
+- `images/factions/ptt-youngins.jpg`
 - `images/factions/raul-bautistas-crew.jpg`
 - `images/gameplay/after-the-story.jpg`
 - `images/gameplay/arthur-morgan-cowboy-hat.jpg`
@@ -345,6 +375,7 @@ None. No media file is cleared for public distribution.
 - `images/gameplay/owning-cars-reviewed.jpg`
 - `images/gameplay/pay-n-spray-services.jpg`
 - `images/gameplay/phone-apps-at-launch.jpg`
+- `images/gameplay/phone-apps.jpg`
 - `images/gameplay/photo-mode-and-phone-camera.jpg`
 - `images/gameplay/police-car-trunk-loot.jpg`
 - `images/gameplay/police-in-the-released-game.jpg`
@@ -370,10 +401,14 @@ None. No media file is cleared for public distribution.
 - `images/locations/ambrosia.jpg`
 - `images/locations/belville.jpg`
 - `images/locations/bocamar-bridge.jpg`
+- `images/locations/capri.jpg`
 - `images/locations/catalan-key.jpg`
+- `images/locations/corsair-key.jpg`
+- `images/locations/crosstown.jpg`
 - `images/locations/dexter-morgans-apartment.jpg`
 - `images/locations/dock-ring.jpg`
 - `images/locations/downtown.jpg`
+- `images/locations/emerald-springs.jpg`
 - `images/locations/evergreen-mall.jpg`
 - `images/locations/gellhorn-fun-fair.jpg`
 - `images/locations/gellhorn-roadhouse-sign.jpg`
@@ -382,6 +417,7 @@ None. No media file is cleared for public distribution.
 - `images/locations/jasons-safehouse-key-lento.jpg`
 - `images/locations/key-lento-marina.jpg`
 - `images/locations/key-lento-police-station.jpg`
+- `images/locations/key-lento.jpg`
 - `images/locations/la-perle.jpg`
 - `images/locations/leaf-links.jpg`
 - `images/locations/leonida-keys.jpg`
@@ -400,10 +436,12 @@ None. No media file is cleared for public distribution.
 - `images/locations/peacock-bay.jpg`
 - `images/locations/piker-financial-center.jpg`
 - `images/locations/pixel-fountain.jpg`
+- `images/locations/port-gellhorn-police-station.jpg`
 - `images/locations/port-gellhorn.jpg`
 - `images/locations/port-vice-city.jpg`
 - `images/locations/rialto-islands.jpg`
 - `images/locations/rockridge.jpg`
+- `images/locations/shoreline-marina.jpg`
 - `images/locations/shoreline-market.jpg`
 - `images/locations/southside-hospital.jpg`
 - `images/locations/southside.jpg`
@@ -416,6 +454,7 @@ None. No media file is cleared for public distribution.
 - `images/locations/vcia.jpg`
 - `images/locations/vice-beach-police-department.jpg`
 - `images/locations/vice-beach.jpg`
+- `images/locations/vice-city-ferry.jpg`
 - `images/locations/vice-city-oceanarium.jpg`
 - `images/locations/vice-city.jpg`
 - `images/locations/waning-sands.jpg`
@@ -842,6 +881,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/buckingham-luxor.jpg`
 - `images/vehicles/buckingham-maverick.jpg`
 - `images/vehicles/buckingham-shamal.jpg`
+- `images/vehicles/buckingham-swift.jpg`
 - `images/vehicles/buckingham-valkyrie.jpg`
 - `images/vehicles/buckingham-volatus.jpg`
 - `images/vehicles/buckingham-windsor-drop.jpg`
@@ -897,6 +937,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/grotti-itali-rsx.jpg`
 - `images/vehicles/hauners-brigade.jpg`
 - `images/vehicles/hauners-rhino-tank.jpg`
+- `images/vehicles/hulls-sea-enchantress.jpg`
 - `images/vehicles/hvy-bulldozer.jpg`
 - `images/vehicles/hvy-excavator.jpg`
 - `images/vehicles/imponte-phoenix.jpg`
@@ -946,6 +987,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/nagasaki-carbon-rs.jpg`
 - `images/vehicles/nagasaki-nimbe.jpg`
 - `images/vehicles/nagasaki-rudolph-tao.jpg`
+- `images/vehicles/nagasaki-sea-sparrow.jpg`
 - `images/vehicles/nagasaki-sfb-1000.jpg`
 - `images/vehicles/nagasaki-street-blazer.jpg`
 - `images/vehicles/obey-8f-drafter.jpg`
@@ -1028,6 +1070,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/vapid-truth-and-justice-caracara.jpg`
 - `images/vehicles/walter-cruiser.jpg`
 - `images/vehicles/wastelander.jpg`
+- `images/vehicles/western-cliffhanger.jpg`
 - `images/vehicles/western-company-duster.jpg`
 - `images/vehicles/western-nightblade.jpg`
 - `images/vehicles/western-sovereign-107.jpg`
@@ -1035,6 +1078,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/whiffler-bus.jpg`
 - `images/vehicles/whiffler-dashound.jpg`
 - `images/vehicles/willard-faction-custom-donk.jpg`
+- `images/vehicles/willard-lasso-90.jpg`
 - `images/vehicles/willard-moocher-83.jpg`
 - `images/vehicles/willard-transient.jpg`
 - `images/vehicles/willard-trotter-95.jpg`
@@ -1042,6 +1086,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/adb-fra.jpg`
 - `images/weapons/adb-m350.jpg`
 - `images/weapons/adb-pd-90.jpg`
+- `images/weapons/assassin-nipper-38.jpg`
 - `images/weapons/baseball-bat.jpg`
 - `images/weapons/baton.jpg`
 - `images/weapons/brass-knuckles.jpg`
@@ -1090,6 +1135,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/mahi-nipper-38.jpg`
 - `images/weapons/mason-and-keen-longshot.jpg`
 - `images/weapons/mason-and-keen-shortstraw.jpg`
+- `images/weapons/moneymaker-w-10.jpg`
 - `images/weapons/parachute.jpg`
 - `images/weapons/sand-storm-es9.jpg`
 - `images/weapons/schlamm-drx.jpg`
@@ -1104,6 +1150,7 @@ None. No media file is cleared for public distribution.
 - `images/weapons/snap-gun.jpg`
 - `images/weapons/survival-knife.jpg`
 - `images/weapons/switchblade.jpg`
+- `images/weapons/the-silver-1992.jpg`
 - `images/weapons/vom-feuer-vf-g1.jpg`
 - `images/weapons/vom-feuer-vf5.jpg`
 - `images/weapons/vom-feuer-vf5c.jpg`
@@ -1231,6 +1278,7 @@ None. No media file is cleared for public distribution.
 - `images/wildlife/salt-fish.jpg`
 - `images/wildlife/sea-turtle.jpg`
 - `images/wildlife/seagull.jpg`
+- `images/wildlife/shark.jpg`
 - `images/wildlife/snapping-turtle.jpg`
 - `images/wildlife/spoonbill.jpg`
 - `images/wildlife/spotted-moray-eel.jpg`
@@ -1273,6 +1321,7 @@ None. No media file is cleared for public distribution.
 - `wallpapers/gta-vi-trap-house-crew.mp4`
 - `wallpapers/gta-vi-vice-city-skyline-night.mp4`
 - `wallpapers/gta6-intro-montage.mp4`
+- `wallpapers/gta6startup.mp4`
 - `wallpapers/posters/gta-vi-boobie-ike-club.jpg`
 - `wallpapers/posters/gta-vi-brian-heder-boat-yard.jpg`
 - `wallpapers/posters/gta-vi-cal-hampton-boat.jpg`

@@ -143,6 +143,7 @@ Click any picture to see it full screen.
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
 
+- **0.2.44**: choose your start-up (Classic or the game's own Official intro), 49 new pictures, voice actors for the cast, the latest news and checked facts.
 - **0.2.43**: 63 new pictures, and pictures removed for site logos no longer come back on installed copies.
 - **0.2.42**: a "Track and plan" row on Home, a "What's here" panel on every place, a tidier Saved page and styled jump buttons.
 - **0.2.41**: routes that follow the roads, lists you can group (by type, county, maker, grade, lead or habitat), pages that link to each other, and a tidier Intel, Missions and map.
