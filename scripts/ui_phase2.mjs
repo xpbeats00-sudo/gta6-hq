@@ -445,6 +445,24 @@ await check('Keyboard focus is visible on the map tools', async () => {
   return style !== 'none' ? style : false;
 });
 // ---------- organisation: grouped lists, jump bars, cross-links between entries ----------
+await check('Entry text links the people, places, businesses and gangs it names, once each', async () => {
+  // The page and many of the places it names are post-launch spoilers: show them for this check.
+  await run(`setSpoilers(true); true`);
+  await go('#/wiki/gameplay/gang-operations', 1200);
+  const links = await run(`[...document.querySelectorAll('#view article p a')].map((a) => a.getAttribute('href'))`);
+  await run(`setSpoilers(false); true`);
+  const kinds = ['#/wiki/factions/', '#/wiki/businesses/', '#/locations/'].filter((k) => links.some((h) => h.startsWith(k)));
+  const once = new Set(links).size === links.length;
+  return kinds.length === 3 && once ? `${links.length} links` : false;
+});
+
+await check('News runs newest first wherever it is listed (it comes from several files)', async () => {
+  const dates = await run(`state.wiki.news.map((n) => n.date || '')`);
+  const sorted = dates.every((d, i) => i === 0 || !d || dates[i - 1] >= d);
+  const newest = [...dates].filter(Boolean).sort().pop();
+  return sorted && dates[0] === newest ? `newest ${newest}` : false;
+});
+
 await check('Intel: the timeline is grouped (month, week or day) with a jump bar, and no item is lost', async () => {
   await go('#/intel', 1300);
   return run(`(() => {
@@ -538,6 +556,9 @@ await check('Search filters show counts that add up, and pressing one keeps focu
     const buttons = [...document.querySelectorAll('#search-filter [data-section]')];
     return [n(buttons[0]), buttons.slice(1).reduce((s, b) => s + n(b), 0)];
   })()`);
+  // Sections with nothing for the search drop out of the row.
+  const emptyHidden = await run(`[...document.querySelectorAll('#search-filter [data-section]')].slice(1).every((b) => (Number(b.querySelector('.chip-count').textContent) === 0) === b.hidden)`);
+  if (!emptyHidden) throw new Error('a filter with no results is still shown, or one with results is hidden');
   await run(`(() => { const b = document.querySelector('#search-filter [data-section="vehicles"]'); b.focus(); b.click(); })(); true`); await sleep(1200);
   const kept = await run(`document.activeElement?.dataset.section === 'vehicles' && document.activeElement.getAttribute('aria-pressed') === 'true'`);
   return sums[0] > 0 && sums[0] === sums[1] && kept ? `${sums[0]} results` : false;

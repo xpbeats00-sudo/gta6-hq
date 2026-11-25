@@ -1,152 +1,115 @@
 <div align="center">
 
-<h1><img src="docs/media/readme/banner.png" alt="GTA 6 HQ: the unofficial Grand Theft Auto VI encyclopedia, map and field manual for Windows, Mac and Linux" width="860"></h1>
+<h1><img src="docs/media/readme/hero.svg" alt="GTA 6 HQ: the unofficial Grand Theft Auto VI encyclopedia, map and field manual" width="860"></h1>
 
-**Sourced, labelled by how well each fact is supported, and built as a small Rust desktop app.**
+**A sourced encyclopedia, a map of Leonida and a full field manual for Grand Theft Auto VI, in one small desktop app.**
 
-<img src="docs/media/splash.webp" alt="The app opening: scenes from the trailers dissolve into the VI logo, then nine panels of the cover art glide in around it while a ring fills and a percentage counts up, and Home appears" width="860">
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Download for Windows" height="42"></a>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/macOS%20(preview)-7c3fd6?style=for-the-badge&logo=apple&logoColor=white" alt="macOS (preview)" height="42"></a>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Linux%20(preview)-f58a2e?style=for-the-badge&logo=linux&logoColor=white" alt="Linux (preview)" height="42"></a>
 
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Download for Windows" height="44"></a>
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/macOS%20(preview)-7c3fd6?style=for-the-badge&logo=apple&logoColor=white" alt="macOS (preview)" height="44"></a>
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Linux%20(preview)-f58a2e?style=for-the-badge&logo=linux&logoColor=white" alt="Linux (preview)" height="44"></a>
+[![Latest version](https://img.shields.io/github/v/release/xpbeats00-sudo/gta6-hq?label=latest&style=flat-square&labelColor=160a2e&color=ee3f7c)](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/xpbeats00-sudo/gta6-hq/total?label=downloads&style=flat-square&labelColor=160a2e&color=7c3fd6)](https://github.com/xpbeats00-sudo/gta6-hq/releases)
+[![Discord](https://img.shields.io/badge/Discord-join%20the%20server-ee3f7c?style=flat-square&labelColor=160a2e&logo=discord&logoColor=white)](https://discord.gg/YhMHr8N4an)
+![Built with Rust](https://img.shields.io/badge/built%20with-Rust-f58a2e?style=flat-square&labelColor=160a2e)
 
-[![Latest version](https://img.shields.io/github/v/release/xpbeats00-sudo/gta6-hq?label=latest&style=for-the-badge&labelColor=160a2e&color=ee3f7c)](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/xpbeats00-sudo/gta6-hq/total?label=downloads&style=for-the-badge&labelColor=160a2e&color=7c3fd6)](https://github.com/xpbeats00-sudo/gta6-hq/releases)
-[![Join the Discord](https://img.shields.io/badge/Discord-join-ee3f7c?style=for-the-badge&labelColor=160a2e&logo=discord&logoColor=white)](https://discord.gg/YhMHr8N4an)
-![Windows 10 and 11](https://img.shields.io/badge/Windows-10%20%7C%2011-ee3f7c?style=for-the-badge&labelColor=160a2e&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white)
-![macOS 11 or later](https://img.shields.io/badge/macOS-11%2B-7c3fd6?style=for-the-badge&labelColor=160a2e&logo=apple&logoColor=white)
-![Linux, 64-bit](https://img.shields.io/badge/Linux-x86__64-f58a2e?style=for-the-badge&labelColor=160a2e&logo=linux&logoColor=white)
-![Built with Rust](https://img.shields.io/badge/built%20with-Rust-7c3fd6?style=for-the-badge&labelColor=160a2e)
+<img src="docs/media/readme/stats.svg" alt="3,200+ encyclopedia entries, 13 sections, 1,000+ sourced pictures, 229 Field Manual pages" width="860">
 
-[Windows, Mac and Linux](#windows-mac-and-linux) · [Install](#install) · [What's inside](#whats-inside) · [The Field Manual](#the-field-manual) · [What's new](#whats-new) · [Creators welcome](#creators-welcome) · [Questions](#questions) · [How far to trust it](#how-far-to-trust-it) · [For developers](#for-developers)
+<img src="docs/media/splash.webp" alt="The Classic intro: scenes from the trailers dissolve into the VI logo, nine panels of the cover art glide in around it, and Home appears" width="860">
 
-<img src="docs/media/readme/rule.png" alt="" width="860">
+[What's inside](#whats-inside) · [Start-up](#pick-your-start-up) · [Field Manual](#the-field-manual) · [Install](#install) · [What's new](#whats-new) · [Questions](#questions) · [Developers](#for-developers)
 
 </div>
 
-> **Unofficial fan project.** Not published, approved or endorsed by Rockstar Games or Take-Two Interactive. Everything here was written before the game's release on 19 November 2026, from official footage, Rockstar's interviews and press previews.
-
-<a id="windows-mac-and-linux"></a>
-<p align="center"><img src="docs/media/readme/h-systems.png" alt="Windows, Mac and Linux" width="860"></p>
-
-The same app runs on all three. Each picture below is the real app, photographed on that system.
-
-<div align="center">
-
-**Windows**
-
-<img src="docs/media/os/windows.jpg" alt="GTA 6 HQ on Windows: Home with the live wallpaper, the countdown, and the app's own window buttons at the top right" width="860">
-
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Download for Windows" height="40"></a>
-
-**macOS**
-
-<img src="docs/media/os/macos.jpg" alt="GTA 6 HQ on macOS: the app under the Mac menu bar with the system's red, yellow and green window buttons, and its VI logo in the Dock" width="860">
-
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20macOS%20(preview)-7c3fd6?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS (preview)" height="40"></a>
-
-**Linux**
-
-<img src="docs/media/os/linux.jpg" alt="GTA 6 HQ on Linux: Home with the live wallpaper, the countdown, and the app's own window buttons at the top right" width="860">
-
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Linux%20(preview)-f58a2e?style=for-the-badge&logo=linux&logoColor=white" alt="Download for Linux (preview)" height="40"></a>
-
-</div>
-
-Each button opens the latest release. Pick `…-Setup.exe` for Windows, `…-macos.zip` for macOS or `…-linux-x86_64.tar.gz` for Linux.
-
-The macOS and Linux versions are **previews**. They are built and tested automatically on every change (the two pictures come from those test machines), but few people have used them on a desktop of their own yet. If something is wrong, say so in the [Discord server](https://discord.gg/YhMHr8N4an) or [open an issue](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose). How to open them is under [Install](#install).
-
-<a id="install"></a>
-<p align="center"><img src="docs/media/readme/h-install.png" alt="Install" width="860"></p>
-
-1. Go to the [latest release](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest).
-2. Download `GTA6HQ-<version>-Setup.exe` and run it. It installs for your user account only and needs no administrator access.
-3. Open **GTA 6 HQ** from the Start menu.
-
-<div align="center">
-<img src="docs/media/installer.webp" alt="The setup window: a live wallpaper with picture cards sliding down the side, the Install button, a ring filling to 100% around the turning logo, then the finished page with a Discord invitation" width="860">
-</div>
-
-From version 0.2.4 the setup is its own window in the app's look. It still installs the ordinary way underneath, so the Start menu entry and the uninstaller work as on any Windows app.
-
-Prefer no installer? Download the portable zip from the same page, extract it anywhere and run `gta6-hq.exe`.
-
-**macOS (preview).** Download `GTA6HQ-<version>-macos.zip`, open it, and drag **GTA 6 HQ** into Applications. It runs on Apple silicon and Intel Macs with macOS 11 or later. The app is not signed with an Apple developer account, so the first time macOS refuses to open it: go to System Settings → Privacy & Security, scroll down and choose **Open Anyway**. On older macOS versions, right-click the app and choose **Open** instead.
-
-**Linux (preview).** Download `GTA6HQ-<version>-linux-x86_64.tar.gz`, extract it and run `./gta6-hq` inside the `GTA6HQ` folder; `./install.sh` adds it to your applications menu. It needs WebKitGTK 4.1 (the package is usually `libwebkit2gtk-4.1-0` or `webkit2gtk4.1`) and was built on Ubuntu 22.04, so it needs a distribution at least that recent.
-
-The macOS and Linux versions have no setup window and do not update themselves; the app's update notice links to the new release instead.
-
-The app is not code-signed, so Windows SmartScreen may show "Windows protected your PC" the first time. Choose **More info**, then **Run anyway**. Windows 11 already includes the WebView2 runtime the app needs.
-
-When a newer version is published, the app shows a notice. In an installed copy, **Update now** downloads the new setup from this page's releases, checks it against the release's checksums, and installs it while the app restarts. A portable copy gets a link to the release instead. Nothing downloads or installs unless you press the button.
-
-<div align="center">
-<img src="docs/media/update.webp" alt="Updating from Home: the hero keeps its live wallpaper while a ring fills to 100% around the turning logo, and red and blue police light plays down both sides of the window" width="860">
-</div>
+> **Unofficial fan project.** Not published, approved or endorsed by Rockstar Games or Take-Two Interactive. Every entry says where it comes from: Rockstar's own material is labelled **Official**, guides, reviews and other reporting **Community**, and story discoveries made after launch are blurred as spoilers until you choose to see them.
 
 <a id="whats-inside"></a>
-<p align="center"><img src="docs/media/readme/h-inside.png" alt="What's inside" width="860"></p>
-
-<div align="center">
-<img src="docs/media/tabs.webp" alt="The Home wallpaper playing and the Discord invitation below it, then Encyclopedia, Characters, Vehicles and a location page, with picture cards sliding across the page headers" width="860">
-</div>
-
-| | |
-|---|---|
-| **Encyclopedia** | 99 entries in 10 categories: characters, locations, vehicles, gameplay, activities, wildlife, businesses, factions, music, weapons. Each entry has a confidence label and its sources. |
-| **Field Manual** | A 50-page printed-style manual with two-page spreads, search and night reading. |
-| **Map** | A zoomable map of Leonida with pins for regions, districts and landmarks. |
-| **Media** | Every picture and video in the app, each with where it came from and its rights status. |
-| **Intel** | Release timeline, editions and the questions people ask most. |
-| **Search** | Ranked search across everything, with filters. |
+<p align="center"><img src="docs/media/readme/h-inside.svg" alt="What's inside" width="860"></p>
 
 <table>
 <tr>
-<td width="50%"><img src="docs/media/home.jpg" alt="Home page with a live wallpaper and a countdown to release"></td>
-<td width="50%"><img src="docs/media/encyclopedia.jpg" alt="Encyclopedia page with a picture card for each category"></td>
+<td width="50%" valign="top"><img src="docs/media/home.jpg" alt="Home: a live wallpaper behind the title, with buttons for the map, the encyclopedia and the Discord server"><br><b>Home</b><br>Live wallpapers, the latest news, and a Track and plan row for playing along.</td>
+<td width="50%" valign="top"><img src="docs/media/encyclopedia.jpg" alt="Encyclopedia: a picture card for each section"><br><b>Encyclopedia</b><br>Characters, missions, places, businesses, vehicles, weapons, wildlife, music and more, each entry with its sources.</td>
 </tr>
 <tr>
-<td><img src="docs/media/characters.jpg" alt="Characters page with portraits of the two leads"></td>
-<td><img src="docs/media/vehicles.jpg" alt="Vehicles page with a card for each vehicle"></td>
+<td valign="top"><img src="docs/media/entry.jpg" alt="An entry page: Taco Bomb with its picture, facts, More of this type and sources"><br><b>Entry pages</b><br>Facts, links to the people and places named, more of the same type, and where each fact comes from.</td>
+<td valign="top"><img src="docs/media/map.jpg" alt="The map of Leonida with numbered clusters of pins"><br><b>Map of Leonida</b><br>Every place pinned, robbery runs that follow the roads, a 3D view and Street Explorer.</td>
 </tr>
 <tr>
-<td><img src="docs/media/map.jpg" alt="Map of Leonida with pins"></td>
-<td><img src="docs/media/location.jpg" alt="Vice City location page"></td>
+<td valign="top"><img src="docs/media/tracker.jpg" alt="Collectible Tracker: collectibles in families, with filters"><br><b>Collectible Tracker</b><br>Tick off every collectible, family by family and county by county.</td>
+<td valign="top"><img src="docs/media/hundred.jpg" alt="100% Checklist: each line with a counter and what it is worth"><br><b>100% Checklist</b><br>Every line the game counts toward 100%, with your counts and what to do next.</td>
 </tr>
 </table>
 
+Also in the app: **Intel** (release timeline and editions), **search** across everything, a **Discovery Journal**, **Saved** favourites and collections, and separate progress for Jason and Lucia. Everything you save stays on your computer.
+
+<a id="pick-your-start-up"></a>
+<p align="center"><img src="docs/media/readme/h-intro.svg" alt="Pick your start-up" width="860"></p>
+
+<table>
+<tr>
+<td width="50%" valign="top"><img src="docs/media/intro-chooser.jpg" alt="The first-opening box: the Classic and Official intros playing side by side"></td>
+<td width="50%" valign="top"><img src="docs/media/intro-official.webp" alt="The Official start-up: a painted Leonida mural of flamingos, an eagle and oranges"></td>
+</tr>
+</table>
+
+The first time the app opens, both intros play side by side and you pick one: **Classic**, the character clips and the VI logo with its nine panels, or **Official**, the game's own start-up with its music. Change it any time in **Settings → Start-up**, and skip it with Esc or Enter.
+
 <a id="the-field-manual"></a>
-<p align="center"><img src="docs/media/readme/h-manual.png" alt="The Field Manual" width="860"></p>
+<p align="center"><img src="docs/media/readme/h-manual.svg" alt="The Field Manual" width="860"></p>
 
 <div align="center">
 <img src="docs/media/manual.webp" alt="Opening the Field Manual, turning to its chapters, opening a picture full screen, and switching to night reading" width="860">
 </div>
 
-Ten chapters, written like the manual that used to come in the box:
+A 229-page manual in 23 chapters, written like the one that used to come in the box: getting started, story and missions, Leonida, robberies and stealing, the police, money and businesses, and a 100% Guide with safe codes and walkthroughs. Two-page spreads, search, night reading, and every picture opens full screen.
 
-- **Getting Started**: what is on screen, health and food, switching between Jason and Lucia, the phone and money.
-- **Robberies & Stealing**: robbing stores, safes and back doors, stealing cars, guns and fighting.
-- **Law Enforcement**: the six wanted stars, the Heat icons, what the police know about you and how to lose them, built on frames from Rockstar's own footage.
-- **Leonida, Characters, Vehicles, Activities, Weapons**: drawn from the encyclopedia.
+<a id="install"></a>
+<p align="center"><img src="docs/media/readme/h-install.svg" alt="Install" width="860"></p>
 
-Click any picture to see it full screen.
+**Windows 10 and 11:** download `GTA6HQ-<version>-Setup.exe` from the [latest release](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) and run it. It installs for your account only, with no administrator prompt, then opens from the Start menu. Prefer no installer? The portable zip from the same page runs from any folder.
 
-<table>
-<tr>
-<td width="50%"><img src="docs/media/manual-health.jpg" alt="Manual pages: Reading the Screen, and Health, Food and Fitness"></td>
-<td width="50%"><img src="docs/media/manual-stars.jpg" alt="Manual pages: The Wanted Level, and The Stars Change Appearance"></td>
-</tr>
-</table>
+<details>
+<summary><b>macOS (preview)</b></summary>
+
+Download `GTA6HQ-<version>-macos.zip`, open it and drag **GTA 6 HQ** into Applications. It runs on Apple silicon and Intel Macs with macOS 11 or later. The app is not signed with an Apple developer account, so the first time macOS refuses to open it: go to System Settings → Privacy & Security, scroll down and choose **Open Anyway**.
+</details>
+
+<details>
+<summary><b>Linux (preview)</b></summary>
+
+Download `GTA6HQ-<version>-linux-x86_64.tar.gz`, extract it and run `./gta6-hq` inside the `GTA6HQ` folder; `./install.sh` adds it to your applications menu. It needs WebKitGTK 4.1 (usually `libwebkit2gtk-4.1-0` or `webkit2gtk4.1`) and a distribution at least as recent as Ubuntu 22.04.
+</details>
+
+<details>
+<summary><b>"Windows protected your PC", and updating</b></summary>
+
+The app is not code-signed, so SmartScreen may warn the first time: choose **More info**, then **Run anyway**. Each release has a `SHA256SUMS.txt` to check the download against.
+
+When a new version is out, the app says so. In an installed copy, **Update now** downloads the new setup, checks it against the release's checksums and installs it while the app restarts. Nothing downloads unless you press the button. The macOS and Linux versions link to the new release instead.
+
+<img src="docs/media/update.webp" alt="Updating from Home: a ring fills to 100% around the turning logo while police lights play down both sides of the window" width="860">
+</details>
+
+<details>
+<summary><b>See it on Windows, macOS and Linux</b></summary>
+
+<img src="docs/media/os/windows.jpg" alt="GTA 6 HQ on Windows" width="860">
+<img src="docs/media/os/macos.jpg" alt="GTA 6 HQ on macOS, under the Mac menu bar" width="860">
+<img src="docs/media/os/linux.jpg" alt="GTA 6 HQ on Linux" width="860">
+</details>
 
 <a id="whats-new"></a>
-<p align="center"><img src="docs/media/readme/h-new.png" alt="What's new" width="860"></p>
+<p align="center"><img src="docs/media/readme/h-new.svg" alt="What's new" width="860"></p>
 
 - **0.2.44**: choose your start-up (Classic or the game's own Official intro), 49 new pictures, voice actors for the cast, the latest news and checked facts.
 - **0.2.43**: 63 new pictures, and pictures removed for site logos no longer come back on installed copies.
 - **0.2.42**: a "Track and plan" row on Home, a "What's here" panel on every place, a tidier Saved page and styled jump buttons.
 - **0.2.41**: routes that follow the roads, lists you can group (by type, county, maker, grade, lead or habitat), pages that link to each other, and a tidier Intel, Missions and map.
+
+<details>
+<summary>Earlier versions</summary>
+
 - **0.2.40**: 123 new pictures, a progress backup, missions in story order, map tracking (hide discovered, Next, Only), a 100% Checklist and safe codes.
 - **0.2.39**: the Rockstar GTA VI guide look, 42 new entries, 56 new and 110 sharper pictures, and cleaner sources.
 - **0.2.38**: a Robbery Planner guide with map runs, smarter search, sharper pictures and better sources.
@@ -188,20 +151,17 @@ Click any picture to see it full screen.
 - **0.2.2**: stricter security for the app's pages, and manual pictures can be opened from the keyboard.
 - **0.2.1**: Home plays every live wallpaper in turn, pictures drift slowly, and the full-screen picture viewer is fixed.
 - **0.2.0**: a new look with the app's own window buttons, a 38-page manual with two new chapters, and pictures across the encyclopedia.
+</details>
 
 The full list is in [CHANGELOG.md](CHANGELOG.md), and every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases).
 
 <a id="creators-welcome"></a>
-<p align="center"><img src="docs/media/readme/h-creators.png" alt="Creators welcome" width="860"></p>
+<p align="center"><img src="docs/media/readme/h-creators.svg" alt="Creators welcome" width="860"></p>
 
-Download it, review it, stream it, make videos about it. You do not need to ask.
-
-- Call it **unofficial** or **fan-made**, and link the [download](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) so people get the real file.
-- The [press kit](docs/press/README.md) has a description to copy, screenshots and animations.
-- Made something? Post it in the [Discord server](https://discord.gg/YhMHr8N4an) and we will share it.
+Download it, review it, stream it, make videos about it. You do not need to ask. Call it **unofficial** or **fan-made**, link the [download](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) so people get the real file, and take a description and screenshots from the [press kit](docs/press/README.md). Made something? Post it in the [Discord server](https://discord.gg/YhMHr8N4an).
 
 <a id="questions"></a>
-<p align="center"><img src="docs/media/readme/h-questions.png" alt="Questions" width="860"></p>
+<p align="center"><img src="docs/media/readme/h-questions.svg" alt="Questions" width="860"></p>
 
 <details>
 <summary><b>Windows says it "protected my PC". Is the app safe?</b></summary>
@@ -248,26 +208,24 @@ Yes. In the app's folder, open `data/discord.json` or `data/update.json` and set
 <details>
 <summary><b>Something in the encyclopedia or manual is wrong.</b></summary>
 
-Please [open an issue](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose) and say where you saw it and what your source is. Everything was written before release, so corrections from the finished game are welcome.
+Please [open an issue](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose) and say where you saw it and what your source is. Corrections from your own game are welcome.
 </details>
 
 <a id="how-far-to-trust-it"></a>
-<p align="center"><img src="docs/media/readme/h-trust.png" alt="How far to trust it" width="860"></p>
+<p align="center"><img src="docs/media/readme/h-trust.svg" alt="How far to trust it" width="860"></p>
 
-Nothing is written from memory or carried over from earlier games. Every claim in the manual carries one of these labels:
+Nothing is written from memory or carried over from earlier games. Every entry lists its sources and carries a label:
 
 | Label | Meaning |
 |---|---|
-| Demonstrated | Visible in Rockstar's official footage or screenshots |
-| Developer-described | Said by a Rockstar developer in an interview |
-| Preview-reported | Reported by someone who saw a preview build |
-| Interpretation | A reasonable reading of footage or reporting, not a confirmed rule |
-| Unknown | Not established by anything read; listed, not guessed |
+| **Official** | Stated by Rockstar Games in its own published material |
+| **Community** | From guides, reviews and other published reporting, not from Rockstar itself |
+| **Spoiler** | A story discovery made after launch, blurred until you choose to see it |
 
-Every chapter was written before release, so all of it needs checking against the finished game. The evidence behind the manual is in [`docs/manual/research/`](docs/manual/research/), and the current state of the project is in [`docs/status/CURRENT-STATE.md`](docs/status/CURRENT-STATE.md).
+Where sources disagree, the entry says so and names both. The Field Manual marks each claim with how it is known, and the evidence behind it is in [`docs/manual/research/`](docs/manual/research/). Found something wrong? [Open an issue](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose) and say where you saw it.
 
 <a id="privacy"></a>
-<p align="center"><img src="docs/media/readme/h-privacy.png" alt="Privacy" width="860"></p>
+<p align="center"><img src="docs/media/readme/h-privacy.svg" alt="Privacy" width="860"></p>
 
 - No account, no telemetry, no analytics.
 - The app asks GitHub whether a newer version exists, and the map downloads its tiles from gta6-wiki.org the first time each area is viewed.
@@ -276,7 +234,7 @@ Every chapter was written before release, so all of it needs checking against th
 The update check and the Discord status can each be turned off in the app's `data` folder. Details: [`docs/architecture/NETWORK-AND-PRIVACY.md`](docs/architecture/NETWORK-AND-PRIVACY.md).
 
 <a id="credits-and-rights"></a>
-<p align="center"><img src="docs/media/readme/h-credits.png" alt="Credits and rights" width="860"></p>
+<p align="center"><img src="docs/media/readme/h-credits.svg" alt="Credits and rights" width="860"></p>
 
 - **Pictures, footage frames and artwork** are official Rockstar Games material and remain the property of Rockstar Games and Take-Two Interactive. Their source and rights status are recorded per file in `data/media.json`; none is licensed for redistribution, as [`docs/compliance/MEDIA-RIGHTS-AUDIT.md`](docs/compliance/MEDIA-RIGHTS-AUDIT.md) sets out. If you are a rights holder and want something removed, [open a rights request](https://github.com/xpbeats00-sudo/gta6-hq/issues/new/choose).
 - **Map tiles**: the GTA VI mapping community via gtadb.org, CC BY 4.0, served by gta6-wiki.org and cached locally on first view.
@@ -285,7 +243,7 @@ The update check and the Discord status can each be turned off in the app's `dat
 Grand Theft Auto and related names are trademarks of their owners.
 
 <a id="for-developers"></a>
-<p align="center"><img src="docs/media/readme/h-developers.png" alt="For developers" width="860"></p>
+<p align="center"><img src="docs/media/readme/h-developers.svg" alt="For developers" width="860"></p>
 
 <details>
 <summary>Building, adding content and how it is put together</summary>
@@ -411,7 +369,7 @@ The installer puts the app in the user's own programs folder, so it needs no adm
 </details>
 
 <div align="center">
-<img src="docs/media/readme/rule.png" alt="" width="860">
+<img src="docs/media/readme/rule.svg" alt="" width="860">
 
 **GTA 6 HQ** is an unofficial fan project. [Download](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) · [Discord](https://discord.gg/YhMHr8N4an) · [Press kit](docs/press/README.md)
 

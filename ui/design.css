@@ -1014,3 +1014,12 @@ body[data-page='manual'] .rail { display: none; }
   .map-tools { flex-wrap: wrap; overflow-x: visible; row-gap: 4px; }
   .leaflet-top.leaflet-left { top: 152px; }
 }
+
+/* More of this type: the type's name sits under the heading. */
+.kind-more .kind-name { margin: 2px 0 0; color: var(--text-secondary); font-size: 0.85rem; }
+
+/* Home's Track and plan tiles share the full width instead of leaving an empty column. */
+.play-along .stat-grid { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+#search-filter button[hidden] { display: none; }
+/* Progress: wider cards, so a desktop window holds four across with no empty column, and rows line up. */
+.progress-page .stat-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
