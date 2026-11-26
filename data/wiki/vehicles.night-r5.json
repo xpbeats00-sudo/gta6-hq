@@ -6,7 +6,8 @@
     "body": [
       "GTABase lists the Imponte Ruiner '82 as a muscle car based on the Pontiac Trans Am and Chevrolet Camaro, with Muscle as its specialist shop.",
       "GTABase gives it two seats, rear-wheel drive and five gears, a registration cost of $6,400, no tracker and a stolen sell value of $1,925.",
-      "GTABase notes the Ruiner name has appeared in GTA V and GTA IV."
+      "GTABase notes the Ruiner name has appeared in GTA V and GTA IV.",
+      "In-game stat bars (out of 10): Speed 4.5, Acceleration 4.6, Asphalt handling 3.7, Off-road handling 4.1, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "1980s",
@@ -19,13 +20,22 @@
       "year": "'82",
       "class": "Muscle",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 4.5,
+      "acceleration": 4.6,
+      "asphalt_handling": 3.7,
+      "offroad_handling": 4.1,
+      "strength": 3.0,
+      "price": "$6,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,925 when stolen",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-v-ruiner"
+      "gtabase-v-ruiner",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-26"
   },
   {
     "slug": "vapid-slamvan-56",
@@ -33,7 +43,8 @@
     "summary": "A rat-rodded 1950s Vapid pickup that GTABase files under muscle cars.",
     "body": [
       "GTABase lists the Vapid Slamvan '56 as a muscle car based on a rat-rodded 1953-1956 Ford F-Series pickup, with Hot Rods as its specialist shop.",
-      "GTABase gives it two seats, rear-wheel drive and four gears, a registration cost of $17,500, a standard tracker and a stolen sell value of $5,225."
+      "GTABase gives it two seats, rear-wheel drive and four gears, a registration cost of $17,500, a standard tracker and a stolen sell value of $5,225.",
+      "In-game stat bars (out of 10): Speed 3.2, Acceleration 3.1, Asphalt handling 3.2, Off-road handling 3.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "1950s",
@@ -47,13 +58,24 @@
       "year": "'56",
       "class": "Muscle",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 3.2,
+      "acceleration": 3.1,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.4,
+      "strength": 3.0,
+      "price": "$17,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$5,225 when stolen",
+      "where": "GTABase: In the last garage on the right: the car without a plate.; Spawn (GTABase map): Waning Sands -  #114 Vapid Slamvan '56 Waning Sands In the last garage on the right: the car without a plate.; Spawn (GTABase map): Emerald Springs -  #118 Vapid '56 Slamvan Emerald Springs Inside the open warehouse. Locked, alarmed, standard tracker.",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-v-slamvan"
+      "gtabase-map-spawn",
+      "gtabase-v-slamvan",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "image": "/images/vehicles/vapid-slamvan-56.jpg"
   },
   {
@@ -62,7 +84,8 @@
     "summary": "A 1959 Albany coupe modelled on the Cadillac Eldorado, new to the series.",
     "body": [
       "GTABase lists the Albany DeVanity '59 as a coupe based on the 1959 Cadillac Eldorado and says it is new to the series in GTA VI.",
-      "GTABase names Lowriders as its specialist shop and gives it two seats, a registration cost of $21,750, a standard tracker and a stolen sell value of $6,490."
+      "GTABase names Lowriders as its specialist shop and gives it two seats, a registration cost of $21,750, a standard tracker and a stolen sell value of $6,490.",
+      "In-game stat bars (out of 10): Speed 4.4, Acceleration 4.5, Asphalt handling 3.2, Off-road handling 4.2, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "1950s",
@@ -75,13 +98,22 @@
       "model": "DeVanity",
       "year": "'59",
       "class": "Coupes",
-      "seats": 2
+      "seats": 2,
+      "speed": 4.4,
+      "acceleration": 4.5,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 4.2,
+      "strength": 3.0,
+      "price": "$21,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$6,490 when stolen",
+      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-v-devanity"
+      "gtabase-v-devanity",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-26"
   },
   {
     "slug": "schyster-woodland-85",
@@ -89,7 +121,8 @@
     "summary": "A wood-panelled 1980s Schyster wagon modelled on the Chrysler LeBaron Town & Country.",
     "body": [
       "GTABase lists the Schyster Woodland '85 under sedans, based on the 1986-1988 Chrysler LeBaron Town & Country station wagon, and says it is new to the series.",
-      "GTABase names Donks as its specialist shop and gives it four seats, a registration cost of $7,400, no tracker and a stolen sell value of $2,200."
+      "GTABase names Donks as its specialist shop and gives it four seats, a registration cost of $7,400, no tracker and a stolen sell value of $2,200.",
+      "In-game stat bars (out of 10): Speed 3.8, Acceleration 3.4, Asphalt handling 3.3, Off-road handling 3.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "1980s",
@@ -101,13 +134,24 @@
       "model": "Woodland",
       "year": "'85",
       "class": "Sedans",
-      "seats": 4
+      "seats": 4,
+      "speed": 3.8,
+      "acceleration": 3.4,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 3.4,
+      "strength": 3.0,
+      "price": "$7,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,200 when stolen",
+      "where": "GTABase: In front of the sign.; Spawn (GTABase map): Emerald Springs -  #76 Schyster '85 Woodland Emerald Springs In front of the sign.",
+      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-v-woodland"
+      "gtabase-map-spawn",
+      "gtabase-v-woodland",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-26"
   },
   {
     "slug": "bravado-buffalo-19",
@@ -116,7 +160,8 @@
     "body": [
       "GTABase lists the Bravado Buffalo '19 as a muscle car based on the 2015 Dodge Charger, with Tuner as its specialist shop and liveries available.",
       "GTABase gives it four seats, rear-wheel drive and eight gears, a registration cost of $11,250, a standard tracker and a stolen sell value of $3,555.",
-      "It is separate from the '07 Bravado Buffalo already in the app."
+      "It is separate from the '07 Bravado Buffalo already in the app.",
+      "In-game stat bars (out of 10): Speed 5.5, Acceleration 6.4, Asphalt handling 4.7, Off-road handling 4.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "bravado",
@@ -129,13 +174,22 @@
       "year": "'19",
       "class": "Muscle",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 5.5,
+      "acceleration": 6.4,
+      "asphalt_handling": 4.7,
+      "offroad_handling": 4.4,
+      "strength": 3.0,
+      "price": "$11,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$3,355 when stolen",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)"
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-v-buffalo19"
+      "gtabase-v-buffalo19",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-26"
   },
   {
     "slug": "annis-venturas-blvd-elegy-90",
@@ -159,12 +213,14 @@
       "class": "Sports",
       "seats": 2,
       "drivetrain": "AWD",
-      "availability": "GTA+ members, from Chapter 3"
+      "availability": "GTA+ members, from Chapter 3",
+      "where": "GTABase: Special GTA+ reward."
     },
     "confidence": "corroborated",
     "sources": [
-      "gtabase-v-venturas"
+      "gtabase-v-venturas",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-26"
   }
 ]

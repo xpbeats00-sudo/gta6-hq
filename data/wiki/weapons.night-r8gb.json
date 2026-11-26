@@ -10,7 +10,8 @@
       "Dexerto gives its caliber as 5.7x28mm, full-auto fire, and the maker's full name as Armurerie de Belgique.",
       "A compact personal-defence submachine gun from Armurerie de Belgique (AdB) in 5.7x28mm.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
-      "Name disagreement: IGN's table calls this Armurerie De Belgique submachine gun the AdB PD-90 (assault subtype, 5.7x28mm, 30 rounds, full auto)."
+      "Name disagreement: IGN's table calls this Armurerie De Belgique submachine gun the AdB PD-90 (assault subtype, 5.7x28mm, 30 rounds, full auto).",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 4.8, Handling 6.6, Range 4.2, read from the game by two sources."
     ],
     "tags": [
       "adb",
@@ -25,16 +26,25 @@
       "magazine": "30",
       "price": "$3,350",
       "ammo": "5.7x28mm",
-      "fire_mode": "Full auto"
+      "fire_mode": "Full auto",
+      "damage": 4.2,
+      "accuracy": 4.8,
+      "handling": 6.6,
+      "range": 4.2,
+      "weapon_class": "Assault SMG",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
-      "r8gb-weapons-pd-90",
-      "r10-dex-w-adb-pd-90",
       "dayone-weapons",
-      "ign-weapons-guide"
+      "gtabase-pd-90",
+      "ign-weapons-guide",
+      "leonida-adb-pd-90",
+      "r10-dex-w-adb-pd-90",
+      "r8gb-weapons-pd-90"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]

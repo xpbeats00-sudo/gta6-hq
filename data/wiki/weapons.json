@@ -12,13 +12,18 @@
       "Damage, ammunition and how the pair is unlocked in play have not been published.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
       "GTABase lists an ammo capacity of 6.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5.7, Accuracy 5.4, Handling 7.8, Range 6, as read by GTABase only so far."
     ],
     "facts": {
       "type": "Revolver",
       "availability": "Ultimate Edition",
       "magazine": "6",
-      "manufacturer": "Hawk & Little"
+      "manufacturer": "Hawk & Little",
+      "damage": 5.7,
+      "accuracy": 5.4,
+      "handling": 7.8,
+      "range": 6
     },
     "related": [
       "editions/ultimate-edition"
@@ -32,12 +37,13 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
+      "gtabase-morgan-revolver",
       "ign-weapons-guide",
-      "r8gb-weapons-morgan-revolver"
+      "r8gb-weapons-morgan-revolver",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "girardi-es9",
@@ -51,7 +57,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
       "IGN rates it damage 4.2, accuracy 5.2, handling 8.4 and range 4.4 with a 15-round magazine, as a Girardi military pistol in 9mm; Game8's list gives the same ratings.",
       "GTABase gives the Girardi ES9 a story mode price of $700 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 5.2, Handling 8.4, Range 4.4, read from the game by two sources."
     ],
     "facts": {
       "type": "Pistol",
@@ -61,7 +68,13 @@
       "slot": "sidearm",
       "magazine": "15",
       "fire_mode": "Semi-auto",
-      "price": "$700"
+      "price": "$700",
+      "damage": 4.2,
+      "accuracy": 5.2,
+      "handling": 8.4,
+      "range": 4.4,
+      "weapon_class": "Military Pistol",
+      "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight"
     },
     "related": [
       "characters/jason-duval",
@@ -78,13 +91,16 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
-      "ign-weapons-guide",
       "game8-weapons-hub",
-      "r8gb-weapons-girardi-es9"
+      "gtabase-girardi-es9",
+      "gtaculture-weapons",
+      "ign-weapons-guide",
+      "leonida-girardi-es9",
+      "r8gb-weapons-girardi-es9",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "klose-k17",
@@ -98,7 +114,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
       "IGN rates it damage 4, accuracy 4.2, handling 8.5 and range 3.8 with a 17-round magazine, as a Klose service pistol in 9mm; Game8's list gives the same ratings.",
       "GTABase gives the Klose K17 a story mode price of $975 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 4, Accuracy 4.2, Handling 8.5, Range 3.8, read from the game by two sources."
     ],
     "facts": {
       "type": "Pistol",
@@ -108,7 +125,14 @@
       "slot": "sidearm",
       "magazine": "17",
       "fire_mode": "Semi-auto",
-      "price": "$975"
+      "price": "$975",
+      "damage": 4,
+      "accuracy": 4.2,
+      "handling": 8.5,
+      "range": 3.8,
+      "weapon_class": "Service Pistol",
+      "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
+      "paid_with": "Cash"
     },
     "related": [
       "characters/lucia-caminos",
@@ -125,12 +149,14 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
-      "ign-weapons-guide",
       "game8-weapons-hub",
-      "r8gb-weapons-klose-k17"
+      "gtabase-klose-k17",
+      "ign-weapons-guide",
+      "leonida-klose-k17",
+      "r8gb-weapons-klose-k17",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   }
 ]

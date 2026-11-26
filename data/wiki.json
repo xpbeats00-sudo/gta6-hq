@@ -92,7 +92,17 @@
         { "key": "class", "label": "Class", "type": "text" },
         { "key": "seats", "label": "Seats", "type": "number" },
         { "key": "drivetrain", "label": "Drivetrain", "type": "text" },
-        { "key": "availability", "label": "Availability", "type": "text" }
+        { "key": "availability", "label": "Availability", "type": "text" },
+        { "key": "speed", "label": "Speed (in-game bar, of 10)", "type": "number" },
+        { "key": "acceleration", "label": "Acceleration (in-game bar, of 10)", "type": "number" },
+        { "key": "asphalt_handling", "label": "Asphalt handling (in-game bar, of 10)", "type": "number" },
+        { "key": "offroad_handling", "label": "Off-road handling (in-game bar, of 10)", "type": "number" },
+        { "key": "strength", "label": "Strength (in-game bar, of 10)", "type": "number" },
+        { "key": "rating", "label": "Rating", "type": "number" },
+        { "key": "price", "label": "Price", "type": "text" },
+        { "key": "sell_value", "label": "Sells for", "type": "text" },
+        { "key": "where", "label": "Where to find it", "type": "text" },
+        { "key": "customise", "label": "Where to modify it", "type": "text" }
       ] },
     { "key": "gameplay", "label": "Gameplay", "blurb": "How the game plays: what Rockstar showed, what previews reported, and what launch reviews and guides have found.", "art": "city",
       "fields": [
@@ -145,7 +155,15 @@
         { "key": "ammo", "label": "Ammunition", "type": "text" },
         { "key": "manufacturer", "label": "Manufacturer", "type": "text" },
         { "key": "slot", "label": "Weapon slot", "type": "text" },
-        { "key": "availability", "label": "Availability", "type": "text" }, { "key": "magazine", "label": "Magazine", "type": "text" }, { "key": "fire_mode", "label": "Fire mode", "type": "text" }, { "key": "price", "label": "Price", "type": "text" }
+        { "key": "availability", "label": "Availability", "type": "text" }, { "key": "magazine", "label": "Magazine", "type": "text" }, { "key": "fire_mode", "label": "Fire mode", "type": "text" }, { "key": "price", "label": "Price", "type": "text" },
+        { "key": "weapon_class", "label": "In-game class", "type": "text" },
+        { "key": "paid_with", "label": "Paid with", "type": "text" },
+        { "key": "damage", "label": "Damage (in-game bar, of 10)", "type": "number" },
+        { "key": "accuracy", "label": "Accuracy (in-game bar, of 10)", "type": "number" },
+        { "key": "handling", "label": "Handling (in-game bar, of 10)", "type": "number" },
+        { "key": "range", "label": "Range (in-game bar, of 10)", "type": "number" },
+        { "key": "mods", "label": "Mods", "type": "text" },
+        { "key": "where", "label": "Where to get it", "type": "text" }
     ] },
     { "key": "missions", "label": "Missions and Story", "blurb": "The story's chapters, the mission names in order, and the side missions.", "image": "/images/artwork/jason-lucia-bank-robbery.webp", "art": "keys",
       "fields": [
@@ -414,12 +432,59 @@
       "tags": ["truck", "off-road", "4x4", "dirt bike", "atv"], "confidence": "corroborated", "sources": ["g6w-kalaga", "g6w-grassrivers", "g6w-port-gellhorn", "pl-kotaku-review", "pl-gtaboom-swamped"], "verified": "2026-11-22"
     },
     {
-      "slug": "vapid-dominator-buggy", "name": "'67 Vapid Dominator Buggy", "aliases": ["Vapid Dominator Buggy", "Dominator Buggy"], "class": "Off-road", "art": "mountain",
+      "slug": "vapid-dominator-buggy",
+      "name": "'67 Vapid Dominator Buggy",
+      "aliases": [
+        "Vapid Dominator Buggy",
+        "Dominator Buggy"
+      ],
+      "class": "Off-road",
+      "art": "mountain",
       "summary": "An off-road buggy included with the Ultimate Edition, pitched for the backwoods of Mount Kalaga.",
-      "body": ["Rockstar's Ultimate Edition description presents it as a Mud Club vehicle with strong off-road handling.", "It can be kept at the Paradise Garage in Watson Bay, which Rockstar says has a weapon locker and somewhere to drop off stolen goods for fencing.", "||VGC's Ultimate Edition guide says the '67 Vapid Dominator Buggy unlocks in Chapter 2 when you finish Wyman's side mission, in which you help him start his car in the motel parking lot.||"],
-      "facts": { "manufacturer": "Vapid", "model": "Dominator Buggy", "year": "1967", "class": "Off-road", "availability": "Ultimate Edition" },
-      "related": ["editions/ultimate-edition", "locations/mount-kalaga-national-park"],
-      "tags": ["vapid", "dominator", "buggy", "ultimate edition", "off-road", "mud club", "paradise garage", "watson bay"], "confidence": "official", "sources": ["rockstar-media", "g6w-editions", "g6w-kalaga", "pl-vgc-ultimate"], "verified": "2026-11-22"
+      "body": [
+        "Rockstar's Ultimate Edition description presents it as a Mud Club vehicle with strong off-road handling.",
+        "It can be kept at the Paradise Garage in Watson Bay, which Rockstar says has a weapon locker and somewhere to drop off stolen goods for fencing.",
+        "||VGC's Ultimate Edition guide says the '67 Vapid Dominator Buggy unlocks in Chapter 2 when you finish Wyman's side mission, in which you help him start his car in the motel parking lot.||",
+        "In-game stat bars (out of 10): Speed 5.0, Acceleration 6.1, Asphalt handling 3.5, Off-road handling 6.7, Strength 3.0, as read by GTABase only so far."
+      ],
+      "facts": {
+        "manufacturer": "Vapid",
+        "model": "Dominator Buggy",
+        "year": "1967",
+        "class": "Off-road",
+        "availability": "Ultimate Edition",
+        "speed": 5.0,
+        "acceleration": 6.1,
+        "asphalt_handling": 3.5,
+        "offroad_handling": 6.7,
+        "strength": 3.0,
+        "where": "Ultimate Edition: Chapter 2: collect from the Paradise garage in Watson Bay, Mariana County, and get in to register it; its liveries are applied at any Pay 'n' Spray (Push Square UE guide).",
+        "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      },
+      "related": [
+        "editions/ultimate-edition",
+        "locations/mount-kalaga-national-park"
+      ],
+      "tags": [
+        "vapid",
+        "dominator",
+        "buggy",
+        "ultimate edition",
+        "off-road",
+        "mud club",
+        "paradise garage",
+        "watson bay"
+      ],
+      "confidence": "official",
+      "sources": [
+        "g6w-editions",
+        "g6w-kalaga",
+        "gtabase-vehicle-pages",
+        "pl-vgc-ultimate",
+        "pushsquare-ultimate",
+        "rockstar-media"
+      ],
+      "verified": "2026-11-26"
     },
     {
       "slug": "aircraft", "name": "Planes and Helicopters", "class": "Aircraft", "art": "keys",

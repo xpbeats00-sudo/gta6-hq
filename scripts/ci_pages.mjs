@@ -102,7 +102,6 @@ await visit('#/', 'home', ['Grand Theft Auto VI', 'section.hero .hero-title'], a
 await visit('#/wiki', 'encyclopedia', ['Encyclopedia', '.index']);
 await visit('#/characters', 'characters', ['Characters', '.grid-portrait a[href^="#/characters/"]']);
 await visit('#/map', 'map', ['Leonida', '#leonida-map .leaflet-marker-icon']);
-await visit('#/explore', 'street-explorer', ['Street Explorer', '.map-page.is-explore']);
 await visit('#/locations', 'locations', ['Locations', '.list a[href^="#/locations/"]']);
 await visit('#/vehicles', 'vehicles', ['Vehicles', '.list a[href^="#/wiki/vehicles/"]']);
 await visit('#/wiki/businesses', 'businesses', ['Businesses', '.list a[href^="#/wiki/businesses/"]']);

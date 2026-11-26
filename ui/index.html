@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="/design.css">
   <link rel="stylesheet" href="/themes.css">
   <link rel="stylesheet" href="/rockstar.css">
+  <link rel="stylesheet" href="/mapside.css">
+  <link rel="stylesheet" href="/research.css">
   <meta name="theme-color" content="#171426">
 </head>
 <body class="is-loading">
@@ -83,7 +85,14 @@
           <a href="#/vehicles" data-route="vehicles"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3.800 15.600H2.500v-1.300c0-.9.600-1.600 1.500-1.800l4.300-.8 3-2.300c.5-.4 1.100-.6 1.700-.6h2.600c.9 0 1.700.4 2.300 1l1.700 1.900 1 .3c.6.2 1 .7 1 1.400v2.200h-.9"/><path d="M9.800 15.600h4.700"/><circle cx="7" cy="15.700" r="2.200"/><circle cx="17.300" cy="15.700" r="2.200"/><path d="M8.400 11.700h10.300"/><path d="M13.600 9v2.700"/></svg>Vehicles</a>
           <a href="#/wiki/businesses" data-route="wiki/businesses"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9.5h16l-1.4-5H5.4zM5.5 9.5v10h13v-10M10 19.5v-5h4v5"/></svg>Businesses</a>
           <a href="#/wiki/activities" data-route="wiki/activities"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M12 3.4c2.6 2.4 2.6 14.8 0 17.2M3.4 12h17.2"/></svg>Activities</a>
-          <a href="#/explore" data-route="explore"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12.5" cy="4.6" r="1.9"/><path d="M10.4 21l1.7-6.2 2.6 2.6V21M8 11.2l2.4-3.4 3.3.6 1.8 3.4 2.5 1M12.1 14.8l-.5-4.5"/></svg>Street Explorer</a>
+          <div class="menu-group" aria-hidden="true">Tools</div>
+          <a href="#/garage" data-route="garage"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-6 9 6v9H3z"/><path d="M7 20v-5h10v5M7 17.5h10"/></svg>Garage</a>
+          <a href="#/arsenal" data-route="arsenal"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h14l2-2h2v4h-4l-1 2h-3l-1 3H9l1-4H3z"/></svg>Weapon Locker</a>
+          <a href="#/cards" data-route="cards"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="11" height="15" rx="2"/><path d="M9 3.5h9a2 2 0 0 1 2 2v12"/></svg>Card Collections</a>
+          <a href="#/controls" data-route="controls"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9h12a4 4 0 0 1 4 4l-.5 3a2.5 2.5 0 0 1-4.3 1.2L15 15H9l-2.2 2.2A2.5 2.5 0 0 1 2.5 16L2 13a4 4 0 0 1 4-4zM7 11v3M5.5 12.5h3"/></svg>Controls</a>
+          <a href="#/help" data-route="help"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.6"/><path d="M9.6 9.5a2.5 2.5 0 1 1 3.3 2.4c-.6.3-.9.8-.9 1.5v.6M12 16.8v.2"/></svg>Help</a>
+          <a href="#/cheats" data-route="cheats"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4h6v5h5v6h-5v5H9v-5H4V9h5z"/></svg>Cheats and Controls</a>
+          <a href="#/trophies" data-route="trophies"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v4.5a4 4 0 0 1-8 0zM12 12.5v4M9 20.5h6"/></svg>Trophy Guides</a>
           <div class="menu-group" aria-hidden="true">Track</div>
           <a href="#/tracker" data-route="tracker"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10l4 5.2L12 20.5 3 9.2zM3 9.2h18M9.5 4 8 9.2l4 11.3 4-11.3L14.5 4"/></svg>Collectible Tracker</a>
           <a href="#/hundred" data-route="hundred"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4h8v4.5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4.2M16 6h3a3 3 0 0 1-3 4.2M12 12.5v4M9 20.5h6M10 16.5h4"/></svg>100% Checklist</a>
@@ -102,6 +111,7 @@
       <input type="search" name="q" placeholder="Search" aria-label="Search the wiki" autocomplete="off">
     </form>
     <!-- Spoilers: shown, or blurred until the eye on each is pressed. Drawn by app.js once the saved choice is read -->
+    <button id="pause-open" class="spoiler-switch pause-open" type="button" title="Pause menu (Esc)" aria-label="Pause menu (Esc)"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg></button>
     <button id="spoiler-switch" class="spoiler-switch" type="button" hidden></button>
     <!-- Profile and settings: shows the character profile in use (Settings) -->
     <a id="nav-profile" class="nav-profile" href="#/settings" aria-label="Profile and settings" data-tip="Profile and settings"><svg class="i" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8.3" r="3.8"/><path d="M4.6 20.2c.6-4 3.5-6.4 7.4-6.4s6.8 2.4 7.4 6.4"/></svg></a>
@@ -160,6 +170,8 @@
   <script src="/appearance.js"></script>
   <script src="/explore.js"></script>
   <script src="/hundred.js"></script>
+  <script src="/research.js"></script>
+  <script src="/menus.js"></script>
   <script src="/journal.js"></script>
   <!-- Stream mode: does nothing unless the address has ?stream=1 -->
   <script src="/stream.js"></script>

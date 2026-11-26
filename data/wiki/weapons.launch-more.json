@@ -18,17 +18,20 @@
     "facts": {
       "type": "Melee Weapon",
       "price": "$230",
-      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)"
+      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)",
+      "paid_with": "Cash"
     },
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
-      "powerpyx-progress-database",
-      "ign-weapons-guide",
       "game8-weapons-hub",
+      "gtabase-bushcraft-knife",
+      "ign-weapons-guide",
+      "leonida-bushcraft-knife",
+      "powerpyx-progress-database",
       "r10-dex-w-bushcraft-knife"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -50,17 +53,20 @@
     "facts": {
       "type": "Melee Weapon",
       "price": "$300",
-      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)"
+      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)",
+      "paid_with": "Cash"
     },
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
-      "powerpyx-progress-database",
-      "ign-weapons-guide",
       "game8-weapons-hub",
+      "gtabase-diving-knife",
+      "ign-weapons-guide",
+      "leonida-diving-knife",
+      "powerpyx-progress-database",
       "r10-dex-w-diving-knife"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -87,12 +93,14 @@
     "confidence": "corroborated",
     "sources": [
       "game8-melee",
-      "powerpyx-progress-database",
-      "ign-weapons-guide",
       "game8-weapons-hub",
+      "gtabase-hunting-knife",
+      "ign-weapons-guide",
+      "leonida-hunting-knife",
+      "powerpyx-progress-database",
       "r10-dex-w-hunting-knife"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -112,16 +120,20 @@
       "throwable"
     ],
     "facts": {
-      "type": "Explosive"
+      "type": "Explosive",
+      "price": "$140",
+      "paid_with": "Cash"
     },
     "confidence": "corroborated",
     "sources": [
       "game8-explosives",
-      "powerpyx-cheats",
+      "game8-weapons-hub",
+      "gtabase-grenade",
       "ign-weapons-guide",
-      "game8-weapons-hub"
+      "leonida-frag-grenade",
+      "powerpyx-cheats"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -144,13 +156,14 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-kitty-litter-labs",
-      "powerpyx-cheats",
-      "ign-weapons-list",
       "eurogamer-weapon-list",
-      "ign-weapons-guide"
+      "gtabase-molotov",
+      "ign-weapons-guide",
+      "ign-weapons-list",
+      "powerpyx-cheats",
+      "powerpyx-kitty-litter-labs"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "image": "/images/web/ign-2bde806570a0.jpg"
   },
   {
@@ -174,10 +187,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-car-service",
-      "ign-weapons-guide"
+      "gtabase-flashbang",
+      "ign-weapons-guide",
+      "powerpyx-car-service"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -200,9 +214,10 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-speargun",
       "powerpyx-island-dreams"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -212,7 +227,8 @@
     "body": [
       "PowerPyx says it must be taken from the trunk during Don Gone before the car is destroyed, otherwise it is missed.",
       "GTABase lists an ammo capacity of 6.",
-      "GTABase says it cannot be modified."
+      "GTABase says it cannot be modified.",
+      "In-game stat bars (out of 10): Damage 2.5, Accuracy 5, Handling 9, Range 4.1, as read by GTABase only so far."
     ],
     "tags": [
       "missable",
@@ -224,14 +240,20 @@
       "type": "Variant",
       "availability": "Trunk of Donnie's car in Don Gone (Jason, after Chapter 1 Swamped); missable",
       "magazine": "6",
-      "manufacturer": "Hawk & Little"
+      "manufacturer": "Hawk & Little",
+      "damage": 2.5,
+      "accuracy": 5,
+      "handling": 9,
+      "range": 4.1,
+      "where": "Donnie's H&L.38 is found in the trunk of Donnie's car in Key Lento. It's missable: you can only pick it up while you're heading to Donnie's trailer. (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-donnies-h-l-38",
       "powerpyx-don-gone",
       "r8gb-weapons-donnies-h-l-38"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -241,7 +263,8 @@
     "body": [
       "PowerPyx says the player receives it, plus $1,500 from the safe, on finishing the optional safecracking practice at Raul's compound.",
       "GTABase lists an ammo capacity of 7.",
-      "GTABase says it cannot be modified."
+      "GTABase says it cannot be modified.",
+      "In-game stat bars (out of 10): Damage 7, Accuracy 4.3, Handling 7.9, Range 5, as read by GTABase only so far."
     ],
     "tags": [
       "pistol",
@@ -253,14 +276,19 @@
       "type": "Variant",
       "availability": "Reward for completing the safecracking practice in Safe Word (Chapter 3)",
       "magazine": "7",
-      "manufacturer": "Fairview"
+      "manufacturer": "Fairview",
+      "damage": 7,
+      "accuracy": 4.3,
+      "handling": 7.9,
+      "range": 5
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-gils-kalinga-50",
       "powerpyx-safe-word",
       "r8gb-weapons-gils-kalinga-50"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -285,10 +313,11 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-cooties",
-      "ign-weapons-guide"
+      "gtabase-bae-luxes-bat",
+      "ign-weapons-guide",
+      "powerpyx-cooties"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -298,7 +327,8 @@
     "body": [
       "PowerPyx says Kirk gives it to Lucia in his helicopter at the start of Help Kirk Find Mr. Mangrove, a night-only side mission for Lucia.",
       "GTABase lists an ammo capacity of 5.",
-      "GTABase says it cannot be modified."
+      "GTABase says it cannot be modified.",
+      "In-game stat bars (out of 10): Damage 6.5, Accuracy 9.2, Handling 3.8, Range 8.7, as read by GTABase only so far."
     ],
     "tags": [
       "rifle",
@@ -310,14 +340,20 @@
       "type": "Variant (tranquilizer rifle)",
       "availability": "Given by Kirk in Help Kirk Find Mr. Mangrove (Lucia only, night only)",
       "magazine": "5",
-      "manufacturer": "Fortune & Son"
+      "manufacturer": "Fortune & Son",
+      "damage": 6.5,
+      "accuracy": 9.2,
+      "handling": 3.8,
+      "range": 8.7,
+      "where": "The Mister Mangrove Laird 350 is a reward from Help Kirk Find Mr. Mangrove, Kirk's third Strangers & Freaks mission: he hands you the rifle for the night hunt near Cottonmouth Lake, and you keep it afterwards. Here is the area near Cottonmouth Lake where the mission takes place: (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-mister-mangrove-laird-350",
       "powerpyx-mr-mangrove",
       "r8gb-weapons-mister-mangrove-laird-350"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {

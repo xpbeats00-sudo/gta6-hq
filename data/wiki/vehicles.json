@@ -12,7 +12,8 @@
       "Its in-game class, performance and price have not been published.",
       "GTABase's page for the Grotti Cheetah '95 lists a registration cost of $32,750 and a stolen sell value of $16,775.",
       "GTABase says it carries an Advanced Tracker.",
-      "GTABase lists its specialist type as Luxury."
+      "GTABase lists its specialist type as Luxury.",
+      "In-game stat bars (out of 10): Speed 6.6, Acceleration 5.9, Asphalt handling 6.5, Off-road handling 4.4, Strength 3.0, as read by GTABase only so far."
     ],
     "facts": {
       "manufacturer": "Grotti",
@@ -21,7 +22,16 @@
       "class": "Sports car",
       "availability": "Ultimate Edition",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 6.6,
+      "acceleration": 5.9,
+      "asphalt_handling": 6.5,
+      "offroad_handling": 4.4,
+      "strength": 3.0,
+      "price": "$32,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$16,775 when stolen",
+      "where": "Ultimate Edition: Chapter 5: after Honest Abe, Pegassi Residences, lift opposite the entrance to Parking B1 (Push Square UE guide).",
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
     },
     "related": [
       "editions/ultimate-edition",
@@ -36,11 +46,13 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
-      "r8gb-vehicles-cheetah-classic"
+      "gtabase-vehicle-pages",
+      "pushsquare-ultimate",
+      "r8gb-vehicles-cheetah-classic",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "vapid-stanier-55",
@@ -62,7 +74,8 @@
       "model": "Stanier",
       "year": "1955",
       "class": "Sedan",
-      "availability": "Vintage Vice City Pack"
+      "availability": "Vintage Vice City Pack",
+      "where": "Ultimate Edition: Chapter 3: Ocean View Hotel, Vice Beach, after a map marker appears; getting in gives the Shore Court garage (Push Square UE guide)."
     },
     "related": [
       "editions/standard-edition",
@@ -79,11 +92,13 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
-      "r13-jalopnik-stanier"
+      "gtabase-vehicle-pages",
+      "pushsquare-ultimate",
+      "r13-jalopnik-stanier",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "vapid-ganado",
@@ -102,14 +117,25 @@
       "Eurogamer says the Retro Build is claimed at Coastal Auto Care during Fix Your Car, after the repair and respray, under Pro Builds > Full Kits > 'Retro Build: Ultimate Edition', and that it slightly raises speed and acceleration.",
       "Eurogamer's report on Ultimate Edition unlocks says the retro Ganado, like Jason's other safehouse vehicles, is usable only during Chapter 1.",
       "GTABase's page for the Vapid Ganado '70 lists a registration cost of $6,500 and a stolen sell value of $1,980.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 4.7, Acceleration 5.3, Asphalt handling 3.6, Off-road handling 4.5, Strength 3.0, read from the game by two sources.",
+      "With the Retro Build - Standard fitted (exclusive, $1,535, needs a bank account), an in-game screenshot shows the bars at Speed 4.8, Acceleration 5.4, Asphalt handling 3.9, Off-road handling 4.2 and Strength 3.0, with the asphalt rating up 21 to 479 (class A) and the other rating down 12 to 318. Liveries: Vintage Stripes and Street Raider."
     ],
     "facts": {
       "manufacturer": "Vapid",
       "model": "Ganado",
       "class": "Pickup",
       "year": "1970",
-      "seats": 2
+      "seats": 2,
+      "speed": 4.7,
+      "acceleration": 5.3,
+      "asphalt_handling": 3.6,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "rating": 458,
+      "price": "$6,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,980 when stolen",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic; First mod shop visit is Joey's Coastal Auto Care, south Key Lento, in the Chapter 1 mission Just a Scratch; free respray there; 'Full Engine' > 'Stock Engine' costs $100 (GamesRadar+).; Joey can be called from Contacts to repair or deliver the Ganado (GamesRadar+).; Side-facing exhaust pipes cost $280 and add +0.1 Speed and +0.1 Acceleration; intakes are carburettors, boost is nitrous; a tow hitch can pull the je"
     },
     "related": [
       "characters/jason-duval",
@@ -127,15 +153,18 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
+      "gamesradar-just-a-scratch",
+      "gtabase-vehicle-pages",
       "ign-ganado-retro-build",
+      "noobfeed-upgrade",
       "r7-g8-ganado",
       "r8-eg-ganado-retro",
       "r8-eg-ue-temporary",
-      "r8gb-vehicles-ganado"
+      "r8gb-vehicles-ganado",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "shitzu-squalo",
@@ -153,7 +182,8 @@
       "manufacturer": "Shitzu",
       "model": "Squalo",
       "class": "Boat",
-      "availability": "Ultimate Edition"
+      "availability": "Ultimate Edition",
+      "where": "Ultimate Edition: Chapter 4: docked on Atlantic Ave, Washington Beach, Vice Beach, just east of the Y Hotel (Push Square UE guide)."
     },
     "related": [
       "editions/ultimate-edition",
@@ -170,12 +200,14 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
+      "g8-street-art-squalo",
       "gs-get-boat",
-      "g8-street-art-squalo"
+      "gtabase-vehicle-pages",
+      "pushsquare-ultimate",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "dinka-enduro",
@@ -187,14 +219,24 @@
     "body": [
       "Rockstar lists it with the Crest Kayak under Jason's Safehouse Vehicles.",
       "IGN calls it the Dinka '72 Enduro and says this Ultimate Edition motorcycle is stored underneath Jason's Key Lento house.",
-      "Eurogamer, citing IGN's unlock details, says Jason's Ultimate Edition Dinka Enduro and Crest Kayak can only be used during Chapter 1."
+      "Eurogamer, citing IGN's unlock details, says Jason's Ultimate Edition Dinka Enduro and Crest Kayak can only be used during Chapter 1.",
+      "In-game stat bars (out of 10): Speed 3.9, Acceleration 5.7, Asphalt handling 5.2, Off-road handling 7.6, Strength 4.0, as read by GTABase only so far."
     ],
     "facts": {
       "manufacturer": "Dinka",
       "model": "Enduro",
       "class": "Motorcycle",
       "availability": "Ultimate Edition, Chapter 1 only",
-      "year": "1972"
+      "year": "1972",
+      "speed": 3.9,
+      "acceleration": 5.7,
+      "asphalt_handling": 5.2,
+      "offroad_handling": 7.6,
+      "strength": 4.0,
+      "price": "$2,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$715 when stolen",
+      "where": "GTABase: Parked here at night.; Ultimate Edition: Chapter 1: underneath Jason's house in Key Lento (Push Square UE guide).",
+      "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants"
     },
     "related": [
       "characters/jason-duval",
@@ -212,12 +254,14 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
+      "gtabase-vehicle-pages",
       "ign-beginners-guide",
-      "r8-eg-ue-temporary"
+      "pushsquare-ultimate",
+      "r8-eg-ue-temporary",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "crest-kayak",
@@ -229,7 +273,8 @@
     ],
     "facts": {
       "class": "Kayak",
-      "availability": "Ultimate Edition, Chapter 1 only"
+      "availability": "Ultimate Edition, Chapter 1 only",
+      "where": "GTABase: In the water next to the house, at the boat ramp.; Spawn (GTABase map): Key Lento -  #16 Crest Kayak Key Lento In the water next to the house, at the boat ramp.; Ultimate Edition: Chapter 1: bottom of the ramp into the water near Jason's house, Key Lento (Push Square UE guide)."
     },
     "related": [
       "characters/jason-duval",
@@ -247,10 +292,13 @@
     ],
     "confidence": "official",
     "sources": [
-      "rockstar-media",
       "g6w-editions",
-      "r8-eg-ue-temporary"
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
+      "pushsquare-ultimate",
+      "r8-eg-ue-temporary",
+      "rockstar-media"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   }
 ]

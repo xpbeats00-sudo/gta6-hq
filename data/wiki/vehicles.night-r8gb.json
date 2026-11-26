@@ -6,7 +6,8 @@
     "body": [
       "GTABase lists the Karin Rebel '84 as an Off-Road vehicle made by Karin, with 2 seats, AWD drive and 5 gears.",
       "GTABase gives a registration cost of $6,750, a stolen sell value of $2,035, and no tracker.",
-      "GTABase lists its specialist type as Off-Road and its era as 1980s Restored."
+      "GTABase lists its specialist type as Off-Road and its era as 1980s Restored.",
+      "In-game stat bars (out of 10): Speed 3.8, Acceleration 4.4, Asphalt handling 3.4, Off-road handling 6.5, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "karin",
@@ -20,13 +21,22 @@
       "year": "1984",
       "class": "Off-Road",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "speed": 3.8,
+      "acceleration": 4.4,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 6.5,
+      "strength": 3.0,
+      "price": "$6,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,035 when stolen",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-rebel"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -36,7 +46,8 @@
     "body": [
       "GTABase lists the Bravado Gauntlet Custom '69 as a Muscle vehicle made by Bravado, with 2 seats, RWD drive and 5 gears.",
       "GTABase gives a registration cost of $23,750, a stolen sell value of $7,095, and a Standard Tracker.",
-      "GTABase lists its specialist type as Muscle and its era as 1960s Restored."
+      "GTABase lists its specialist type as Muscle and its era as 1960s Restored.",
+      "In-game stat bars (out of 10): Speed 5.4, Acceleration 5.0, Asphalt handling 3.6, Off-road handling 3.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "bravado",
@@ -50,13 +61,23 @@
       "year": "1969",
       "class": "Muscle",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 5.4,
+      "acceleration": 5.0,
+      "asphalt_handling": 3.6,
+      "offroad_handling": 3.4,
+      "strength": 3.0,
+      "price": "$23,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$7,095 when stolen",
+      "where": "GTABase: '69 Bravado Gauntlet Custom kept in a barn in Ambrosia, partially restored with mods and a supercharger. Orange barn find Gauntlet.",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-gauntlet-classic"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/bravado-gauntlet-custom-69.jpg"
   },
@@ -69,7 +90,8 @@
       "GTABase gives a registration cost of $15,500, a stolen sell value of $4,620, and a Standard Tracker.",
       "GTABase lists its specialist type as Lowriders and its era as 1960s Restored.",
       "GTA Wiki (edited November 19, 2026) describes the Sirius Sungrazer as a two-door sedan apparently based on the 1960-1961 Mercury Comet; GTABase files it as a coupe.",
-      "GTA Wiki's Sungrazer page gives no model year."
+      "GTA Wiki's Sungrazer page gives no model year.",
+      "In-game stat bars (out of 10): Speed 3.6, Acceleration 3.6, Asphalt handling 3.3, Off-road handling 3.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "coupe",
@@ -82,14 +104,25 @@
       "model": "Sungrazer",
       "year": "1961",
       "class": "Coupes",
-      "seats": 2
+      "seats": 2,
+      "speed": 3.6,
+      "acceleration": 3.6,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 3.4,
+      "strength": 3.0,
+      "price": "$15,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$4,620 when stolen",
+      "where": "Spawn (GTABase map): Watson Bay -  #36 Sirius '61 Sungrazer Watson Bay",
+      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs"
     },
     "confidence": "corroborated",
     "sources": [
-      "r8gb-vehicles-mercury-comet-1st-gen",
-      "r11g-gw-sungrazer"
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
+      "r11g-gw-sungrazer",
+      "r8gb-vehicles-mercury-comet-1st-gen"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]

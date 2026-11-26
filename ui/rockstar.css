@@ -51,7 +51,7 @@
   --r-panel: 16px;
 }
 .btn, .chip-btn, .chips button, .toggle, .community-link, .nav-profile, .spoiler-switch,
-.map-seg, .map-seg button, .map-tool, .sv-act, .link-btn.is-pill, .list-more, .search-big input,
+.map-seg, .map-seg button, .map-tool, .link-btn.is-pill, .list-more, .search-big input,
 .list-filter input, .map-side .map-search input, input[type='search'] {
   border-radius: 999px;
 }
@@ -211,7 +211,7 @@ fieldset legend { font-stretch: 80%; letter-spacing: 0.08em; text-transform: upp
 .chip { border-radius: 999px; }
 
 /* Small buttons: pills with normal letter spacing (design.css spaces them out). */
-.btn.btn-small, .chip-btn, .toggle, .chips button, .map-street, .sv-act, .map-card-near button,
+.btn.btn-small, .chip-btn, .toggle, .chips button, .map-card-near button,
 .saved-btns button, .settings-btns button, .journal-clear button {
   border-radius: 999px;
   font-size: 0.8125rem;

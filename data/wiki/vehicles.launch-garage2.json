@@ -19,9 +19,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-aircraft"
+      "dayone-aircraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/web/playday-0a37c7f1372f.jpg"
   },
@@ -45,9 +46,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-aircraft"
+      "dayone-aircraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -66,13 +68,16 @@
     "facts": {
       "manufacturer": "Buckingham",
       "model": "Maverick",
-      "class": "Aircraft"
+      "class": "Aircraft",
+      "where": "GTABase: On the roof of the hospital.; Spawn (GTABase map): Watson Bay -  #40 Buckingham Maverick Watson Bay"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-aircraft"
+      "dayone-aircraft",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -107,7 +112,8 @@
     "summary": "The Bravado Aphid is a bike listed in the released game's vehicle database (style Dirt Bike, era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Bikes.",
-      "DayOne gives its stats as speed 2.1, acceleration 3.6, asphalt handling 2.9, off-road handling 6.8, strength 4.0."
+      "DayOne gives its stats as speed 2.1, acceleration 3.6, asphalt handling 2.9, off-road handling 6.8, strength 4.0.",
+      "In-game stat bars (out of 10): Speed 2.1, Acceleration 3.6, Asphalt handling 2.9, Off-road handling 6.8, Strength 4.0, read from the game by two sources."
     ],
     "tags": [
       "aphid",
@@ -118,13 +124,19 @@
     "facts": {
       "manufacturer": "Bravado",
       "model": "Aphid",
-      "class": "Bikes"
+      "class": "Bikes",
+      "speed": 2.1,
+      "acceleration": 3.6,
+      "asphalt_handling": 2.9,
+      "offroad_handling": 6.8,
+      "strength": 4.0
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-bikes"
+      "dayone-bikes",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -133,7 +145,8 @@
     "summary": "The Shift-E Fan-E is a bike listed in the released game's vehicle database (style Scooter, era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Bikes.",
-      "DayOne gives its stats as speed 0.7, acceleration 0.2, asphalt handling 1.1, off-road handling 1.3, strength 4.0."
+      "DayOne gives its stats as speed 0.7, acceleration 0.2, asphalt handling 1.1, off-road handling 1.3, strength 4.0.",
+      "In-game stat bars (out of 10): Speed 0.7, Acceleration 0.2, Asphalt handling 1.1, Off-road handling 1.3, Strength 4.0, read from the game by two sources."
     ],
     "tags": [
       "bike",
@@ -144,13 +157,19 @@
     "facts": {
       "manufacturer": "Shift-E",
       "model": "Fan-E",
-      "class": "Bikes"
+      "class": "Bikes",
+      "speed": 0.7,
+      "acceleration": 0.2,
+      "asphalt_handling": 1.1,
+      "offroad_handling": 1.3,
+      "strength": 4.0
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-bikes"
+      "dayone-bikes",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -173,9 +192,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-bikes"
+      "dayone-bikes",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -184,7 +204,8 @@
     "summary": "The Western Nightblade is a bike listed in the released game's vehicle database (style Chopper, era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Bikes and names Chopper as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.4, acceleration 5.9, asphalt handling 5.8, off-road handling 3.0, strength 4.0."
+      "DayOne gives its stats as speed 4.4, acceleration 5.9, asphalt handling 5.8, off-road handling 3.0, strength 4.0.",
+      "In-game stat bars (out of 10): Speed 4.4, Acceleration 5.9, Asphalt handling 5.8, Off-road handling 3.0, Strength 4.0, read from the game by two sources."
     ],
     "tags": [
       "bike",
@@ -195,13 +216,22 @@
     "facts": {
       "manufacturer": "Western",
       "model": "Nightblade",
-      "class": "Bikes"
+      "class": "Bikes",
+      "speed": 4.4,
+      "acceleration": 5.9,
+      "asphalt_handling": 5.8,
+      "offroad_handling": 3.0,
+      "strength": 4.0,
+      "where": "Vehicle Theft for Moses (Push Square): Final Chapter motorcycle club, Birch St, Ambrosia, back of the ground-floor warehouse (Moses #6)",
+      "customise": "Specialist tag \"Chopper\" (GTABase) matches the Chopper specialty shop: Ledford Motorcycle Workshop"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-bikes"
+      "dayone-bikes",
+      "gtabase-vehicle-pages",
+      "pushsquare-moses"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -236,7 +266,8 @@
     "summary": "The Nagasaki SFB 1000 is a bike listed in the released game's vehicle database (style Sports Bike, era 2020s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Bikes and names Sports Bike as its mod shop specialist.",
-      "DayOne gives its stats as speed 7.1, acceleration 8.1, asphalt handling 8.1, off-road handling 2.3, strength 4.0."
+      "DayOne gives its stats as speed 7.1, acceleration 8.1, asphalt handling 8.1, off-road handling 2.3, strength 4.0.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 8.1, Asphalt handling 8.1, Off-road handling 2.3, Strength 4.0, read from the game by two sources."
     ],
     "tags": [
       "1000",
@@ -248,13 +279,20 @@
     "facts": {
       "manufacturer": "Nagasaki",
       "model": "SFB 1000",
-      "class": "Bikes"
+      "class": "Bikes",
+      "speed": 7.1,
+      "acceleration": 8.1,
+      "asphalt_handling": 8.1,
+      "offroad_handling": 2.3,
+      "strength": 4.0,
+      "customise": "Specialist tag \"Sports Bike\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-bikes"
+      "dayone-bikes",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -263,7 +301,8 @@
     "summary": "The Nagasaki Street Blazer is a bike listed in the released game's vehicle database (style Quad Bike, era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Bikes and names Dirt Bike as its mod shop specialist.",
-      "DayOne gives its stats as speed 2.8, acceleration 5.4, asphalt handling 3.4, off-road handling 7.5, strength 4.0."
+      "DayOne gives its stats as speed 2.8, acceleration 5.4, asphalt handling 3.4, off-road handling 7.5, strength 4.0.",
+      "In-game stat bars (out of 10): Speed 2.8, Acceleration 5.4, Asphalt handling 3.4, Off-road handling 7.5, Strength 4.0, read from the game by two sources."
     ],
     "tags": [
       "bike",
@@ -275,13 +314,20 @@
     "facts": {
       "manufacturer": "Nagasaki",
       "model": "Street Blazer",
-      "class": "Bikes"
+      "class": "Bikes",
+      "speed": 2.8,
+      "acceleration": 5.4,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 7.5,
+      "strength": 4.0,
+      "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-bikes"
+      "dayone-bikes",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/nagasaki-street-blazer.jpg"
   },
@@ -291,7 +337,8 @@
     "summary": "The Dinka Verus is a bike listed in the released game's vehicle database (style Quad Bike, era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Bikes and names Dirt Bike as its mod shop specialist.",
-      "DayOne gives its stats as speed 2.8, acceleration 4.6, asphalt handling 3.3, off-road handling 7.1, strength 4.0."
+      "DayOne gives its stats as speed 2.8, acceleration 4.6, asphalt handling 3.3, off-road handling 7.1, strength 4.0.",
+      "In-game stat bars (out of 10): Speed 2.8, Acceleration 4.6, Asphalt handling 3.3, Off-road handling 7.1, Strength 4.0, read from the game by two sources."
     ],
     "tags": [
       "bike",
@@ -302,13 +349,24 @@
     "facts": {
       "manufacturer": "Dinka",
       "model": "Verus",
-      "class": "Bikes"
+      "class": "Bikes",
+      "speed": 2.8,
+      "acceleration": 4.6,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 7.1,
+      "strength": 4.0,
+      "price": "$3,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$605 when stolen",
+      "where": "Spawn (GTABase map): Ambrosia -  #157 Dinka Verus Ambrosia",
+      "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-bikes"
+      "dayone-bikes",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -319,7 +377,8 @@
       "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
       "DayOne gives its stats as speed 4.5, acceleration 4.7, asphalt handling 3.8, off-road handling 4.2, strength 3.0.",
       "GTABase's page for the Dinka Blista '85 lists a registration cost of $2,750 and a stolen sell value of $825.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 4.5, Acceleration 4.7, Asphalt handling 3.8, Off-road handling 4.2, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "blista",
@@ -333,14 +392,25 @@
       "year": "1985",
       "class": "Coupes",
       "seats": 2,
-      "drivetrain": "FWD"
+      "drivetrain": "FWD",
+      "speed": 4.5,
+      "acceleration": 4.7,
+      "asphalt_handling": 3.8,
+      "offroad_handling": 4.2,
+      "strength": 3.0,
+      "price": "$2,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$825 when stolen",
+      "where": "Spawn (GTABase map): Key Lento -  #9 Dinka Blista ('85) Key Lento",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-blista-compact"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -349,7 +419,8 @@
     "summary": "The Ubermacht Cypher is a coupe listed in the released game's vehicle database (style Sports, era 2020s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 6.5, acceleration 7.2, asphalt handling 4.9, off-road handling 4.5, strength 3.0."
+      "DayOne gives its stats as speed 6.5, acceleration 7.2, asphalt handling 4.9, off-road handling 4.5, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 6.5, Acceleration 7.2, Asphalt handling 4.9, Off-road handling 4.5, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "coupe",
@@ -360,13 +431,24 @@
     "facts": {
       "manufacturer": "Ubermacht",
       "model": "Cypher",
-      "class": "Coupes"
+      "class": "Coupes",
+      "speed": 6.5,
+      "acceleration": 7.2,
+      "asphalt_handling": 4.9,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "price": "$23,000 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$6,875 when stolen",
+      "where": "Listed on Randy's Wish List (OutputLag)",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages",
+      "outputlag-randy"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -377,7 +459,8 @@
       "DayOne's list of the game's vehicles files it under Coupes and names Tuner as its mod shop specialist.",
       "DayOne gives its stats as speed 5.5, acceleration 6.4, asphalt handling 4.9, off-road handling 3.9, strength 3.0.",
       "GTABase's page for the Annis Elegy '90 lists a registration cost of $14,250 and a stolen sell value of $4,235.",
-      "GTABase says it carries a Standard Tracker."
+      "GTABase says it carries a Standard Tracker.",
+      "In-game stat bars (out of 10): Speed 5.5, Acceleration 6.4, Asphalt handling 4.9, Off-road handling 3.9, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "annis",
@@ -391,14 +474,25 @@
       "year": "1990",
       "class": "Coupes",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "speed": 5.5,
+      "acceleration": 6.4,
+      "asphalt_handling": 4.9,
+      "offroad_handling": 3.9,
+      "strength": 3.0,
+      "price": "$14,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$4,235 when stolen",
+      "where": "GTABase: An Elegy without a tracker, so you can get it early.; Spawn (GTABase map): Vice City -  #93 Annis Elegy '90 Vice City An Elegy without a tracker, so you can get it early.",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-elegy-retro-custom"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -409,7 +503,8 @@
       "DayOne's list of the game's vehicles files it under Coupes.",
       "DayOne gives its stats as speed 4.7, acceleration 4.9, asphalt handling 3.7, off-road handling 4.2, strength 3.0.",
       "GTABase says the Lasso '90 is new to the series, based on the Buick Reatta convertible, with Donks as its specialist shop.",
-      "GTABase gives it two seats, a registration cost of $13,750, a standard tracker and a stolen sell value of $4,125."
+      "GTABase gives it two seats, a registration cost of $13,750, a standard tracker and a stolen sell value of $4,125.",
+      "In-game stat bars (out of 10): Speed 4.7, Acceleration 4.9, Asphalt handling 3.7, Off-road handling 4.2, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "convertible",
@@ -422,14 +517,23 @@
       "model": "Lasso",
       "year": "1990",
       "class": "Coupes",
-      "seats": 2
+      "seats": 2,
+      "speed": 4.7,
+      "acceleration": 4.9,
+      "asphalt_handling": 3.7,
+      "offroad_handling": 4.2,
+      "strength": 3.0,
+      "price": "$13,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,200 when stolen",
+      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-v-lasso"
+      "gtabase-v-lasso",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -441,7 +545,8 @@
       "DayOne gives its stats as speed 5.2, acceleration 5.7, asphalt handling 4.2, off-road handling 4.3, strength 3.0.",
       "Game8 says a Penumbra is at Shirley's house, two houses from Jason's near the intersection, after both of her Strangers and Freaks missions, Get Shirley's Rum and Steal the Scooter, are done.",
       "Game8 gives 2 seats, 2 storage, a 2000s era and a Tuner specialist, with base ratings of 512 on asphalt and 331 off-road.",
-      "Disagreement: Game8 gives speed 5.3, DayOne 5.2."
+      "Disagreement: Game8 gives speed 5.3, DayOne 5.2.",
+      "In-game stat bars (out of 10): Speed 5.3, Acceleration 5.7, Asphalt handling 4.2, Off-road handling 4.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "coupe",
@@ -454,14 +559,21 @@
       "model": "Penumbra",
       "class": "Coupes",
       "seats": 2,
-      "availability": "At Shirley's house in Key Lento after Get Shirley's Rum and Steal the Scooter (Game8)"
+      "availability": "At Shirley's house in Key Lento after Get Shirley's Rum and Steal the Scooter (Game8)",
+      "speed": 5.3,
+      "acceleration": 5.7,
+      "asphalt_handling": 4.2,
+      "offroad_handling": 4.3,
+      "strength": 3.0,
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r7-g8-penumbra"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -498,7 +610,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Coupes and names Luxury as its mod shop specialist.",
       "DayOne gives its stats as speed 6.7, acceleration 7.1, asphalt handling 5.9, off-road handling 3.6, strength 3.0.",
-      "The spelling \"Shutzen\" is as DayOne prints it and has not been checked against a second source."
+      "The spelling \"Shutzen\" is as DayOne prints it and has not been checked against a second source.",
+      "In-game stat bars (out of 10): Speed 6.7, Acceleration 7.1, Asphalt handling 5.9, Off-road handling 3.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "benefactor",
@@ -509,13 +622,22 @@
     "facts": {
       "manufacturer": "Benefactor",
       "model": "Shutzen",
-      "class": "Coupes"
+      "class": "Coupes",
+      "speed": 6.7,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.9,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "where": "Spawn (GTABase map): Vice City -  #85 Benefactor Schutzen Vice City Parked beyond the black gate.; Spawn (GTABase map): Vice City -  #86 Benefactor Schutzen Vice City Parked in the driveway behind the gate in front of the mansion, next to the garage with the caged cheetah.",
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/benefactor-shutzen.jpg"
   },
@@ -527,7 +649,8 @@
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
       "DayOne gives its stats as speed 4.2, acceleration 4.1, asphalt handling 3.2, off-road handling 3.9, strength 3.0.",
       "GTABase's page for the Albany Buccaneer '65 lists a registration cost of $9,400 and a stolen sell value of $2,805.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 4.2, Acceleration 4.1, Asphalt handling 3.2, Off-road handling 3.9, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "albany",
@@ -541,14 +664,23 @@
       "year": "1965",
       "class": "Muscle Cars",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 4.2,
+      "acceleration": 4.1,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.9,
+      "strength": 3.0,
+      "price": "$9,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,805 when stolen",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-buccaneer"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -559,7 +691,8 @@
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
       "DayOne gives its stats as speed 5.1, acceleration 4.8, asphalt handling 3.4, off-road handling 3.9, strength 3.0.",
       "GTABase's page for the Declasse Tulip '72 lists a registration cost of $9,400 and a stolen sell value of $2,805.",
-      "GTABase says it carries a Standard Tracker."
+      "GTABase says it carries a Standard Tracker.",
+      "In-game stat bars (out of 10): Speed 5.1, Acceleration 4.8, Asphalt handling 3.4, Off-road handling 3.9, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -573,14 +706,23 @@
       "year": "1972",
       "class": "Muscle Cars",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 5.1,
+      "acceleration": 4.8,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 3.9,
+      "strength": 3.0,
+      "price": "$9,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$825 when stolen",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-tulip"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -591,7 +733,8 @@
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Lowrider as its mod shop specialist.",
       "DayOne gives its stats as speed 3.9, acceleration 4.2, asphalt handling 3.3, off-road handling 4.0, strength 3.0.",
       "GTABase says the Chino '65 draws on the 1965 Lincoln Continental, 1965 Chrysler Imperial and 1970s Ford Thunderbird, and seats two with rear-wheel drive.",
-      "GTABase gives a registration cost of $17,750, a standard tracker and a stolen sell value of $5,335."
+      "GTABase gives a registration cost of $17,750, a standard tracker and a stolen sell value of $5,335.",
+      "In-game stat bars (out of 10): Speed 3.9, Acceleration 4.2, Asphalt handling 3.3, Off-road handling 4.0, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -605,14 +748,23 @@
       "year": "1965",
       "class": "Muscle Cars",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 3.9,
+      "acceleration": 4.2,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 4.0,
+      "strength": 3.0,
+      "price": "$17,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$5,335 when stolen",
+      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-v-chino"
+      "gtabase-v-chino",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/dundreary-chino-65.jpg"
   },
@@ -623,7 +775,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
       "DayOne gives its stats as speed 5.6, acceleration 6.0, asphalt handling 4.4, off-road handling 3.9, strength 3.0.",
-      "This is the 2000s car; DayOne lists it separately from the '65 Dominator and the Dominator GT."
+      "This is the 2000s car; DayOne lists it separately from the '65 Dominator and the Dominator GT.",
+      "In-game stat bars (out of 10): Speed 5.6, Acceleration 6.0, Asphalt handling 4.4, Off-road handling 3.9, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -634,13 +787,22 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Dominator",
-      "class": "Muscle Cars"
+      "class": "Muscle Cars",
+      "speed": 5.6,
+      "acceleration": 6.0,
+      "asphalt_handling": 4.4,
+      "offroad_handling": 3.9,
+      "strength": 3.0,
+      "price": "$9,900 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,970 when stolen",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic; GTABase marks it \"Has Liveries\" (livery names not listed)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -653,7 +815,8 @@
       "DayOne prints the name as \"78 Declasse Tuliop M-100\".",
       "The same DayOne page lists a '72 Declasse Tulip, so the model is given here as Tulip M-100.",
       "GTABase's page for the Declasse Tulip M-100 '78 lists a registration cost of $8,200 and a stolen sell value of $2,420.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 3.7, Acceleration 3.7, Asphalt handling 3.2, Off-road handling 3.8, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "100",
@@ -668,14 +831,23 @@
       "year": "1978",
       "class": "Muscle Cars",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 3.7,
+      "acceleration": 3.7,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.8,
+      "strength": 3.0,
+      "price": "$8,200 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,420 when stolen",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-tulip-m-100"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -685,7 +857,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Muscle Cars and names Muscle as its mod shop specialist.",
       "DayOne gives its stats as speed 4.4, acceleration 3.9, asphalt handling 3.3, off-road handling 3.7, strength 3.0.",
-      "DayOne prints the name as \"74 Declass Vamos\"."
+      "DayOne prints the name as \"74 Declass Vamos\".",
+      "In-game stat bars (out of 10): Speed 4.4, Acceleration 3.9, Asphalt handling 3.3, Off-road handling 3.7, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -697,13 +870,25 @@
       "manufacturer": "Declasse",
       "model": "Vamos",
       "year": "1974",
-      "class": "Muscle Cars"
+      "class": "Muscle Cars",
+      "speed": 4.4,
+      "acceleration": 3.9,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 3.7,
+      "strength": 3.0,
+      "price": "$6,000 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,760 when stolen",
+      "where": "Spawn (GTABase map): Capri -  #62 Declasse '74 Vamos Capri Locked, no alarm, no tracker. A box nearby has Zombex and a wallet.; Vehicle Theft for Moses (Push Square): Rockledge Rd, Grayson, South West Lummox County, in a locked garage (Moses #7)",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
+      "pushsquare-moses"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/declasse-vamos-74.jpg"
   },
@@ -713,7 +898,8 @@
     "summary": "The '77 BF Bandito is an off-road vehicle listed in the released game's vehicle database (era 1970s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Off-Road Vehicles and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 3.6, acceleration 6.0, asphalt handling 3.5, off-road handling 7.6, strength 3.5."
+      "DayOne gives its stats as speed 3.6, acceleration 6.0, asphalt handling 3.5, off-road handling 7.6, strength 3.5.",
+      "In-game stat bars (out of 10): Speed 3.6, Acceleration 6.0, Asphalt handling 3.5, Off-road handling 7.6, Strength 3.5, read from the game by two sources."
     ],
     "tags": [
       "bandito",
@@ -726,13 +912,24 @@
       "manufacturer": "BF",
       "model": "Bandito",
       "year": "1977",
-      "class": "Off-Road Vehicles"
+      "class": "Off-Road Vehicles",
+      "speed": 3.6,
+      "acceleration": 6.0,
+      "asphalt_handling": 3.5,
+      "offroad_handling": 7.6,
+      "strength": 3.5,
+      "price": "$4,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,430 when stolen",
+      "where": "Vehicle Theft for Moses (Push Square): north-eastern Buckskin Swamp, Kelly County, riding a dirt trail (Moses #3)",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages",
+      "pushsquare-moses"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -742,7 +939,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Off-Road Vehicles and names Off-Road as its mod shop specialist.",
       "DayOne gives its stats as speed 3.3, acceleration 5.8, asphalt handling 3.2, off-road handling 8.4, strength 3.5.",
-      "DayOne prints the era as \"2010s Antique\", which looks like an error on the page."
+      "DayOne prints the era as \"2010s Antique\", which looks like an error on the page.",
+      "In-game stat bars (out of 10): Speed 3.3, Acceleration 5.8, Asphalt handling 3.2, Off-road handling 8.4, Strength 3.5, read from the game by two sources."
     ],
     "tags": [
       "can",
@@ -755,13 +953,23 @@
     "facts": {
       "manufacturer": "Mer-Can",
       "model": "Outlaw",
-      "class": "Off-Road Vehicles"
+      "class": "Off-Road Vehicles",
+      "speed": 3.3,
+      "acceleration": 5.8,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 8.4,
+      "strength": 3.5,
+      "price": "$8,150 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,155 when stolen",
+      "where": "GTABase: Behind the pink round house.",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -771,7 +979,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
       "DayOne gives its stats as speed 4.2, acceleration 4.6, asphalt handling 3.8, off-road handling 5.0, strength 3.0.",
-      "Game8 says Bisons are often parked at car parks along the Sunbelt Highway in north Key Lento and by the highway further south; it gives 6 seats, a 2000s era and an Off-Road specialist."
+      "Game8 says Bisons are often parked at car parks along the Sunbelt Highway in north Key Lento and by the highway further south; it gives 6 seats, a 2000s era and an Off-Road specialist.",
+      "In-game stat bars (out of 10): Speed 4.2, Acceleration 4.6, Asphalt handling 3.8, Off-road handling 5.0, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "bison",
@@ -783,14 +992,23 @@
       "model": "Bison",
       "class": "Pickups",
       "seats": 6,
-      "availability": "Car parks on the Sunbelt Highway, north Key Lento (Game8)"
+      "availability": "Car parks on the Sunbelt Highway, north Key Lento (Game8)",
+      "speed": 4.2,
+      "acceleration": 4.6,
+      "asphalt_handling": 3.8,
+      "offroad_handling": 5.0,
+      "strength": 3.0,
+      "price": "$9,000 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,595 when stolen",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r7-g8-bison"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -801,7 +1019,8 @@
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
       "DayOne gives its stats as speed 4.2, acceleration 4.7, asphalt handling 3.2, off-road handling 4.9, strength 3.2.",
       "GTABase's page for the Declasse Bobcat XL '84 lists a registration cost of $7,250 and a stolen sell value of $2,145.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 4.2, Acceleration 4.7, Asphalt handling 3.2, Off-road handling 4.9, Strength 3.2, read from the game by two sources."
     ],
     "tags": [
       "bobcat",
@@ -815,14 +1034,23 @@
       "year": "1984",
       "class": "Pickups",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 4.2,
+      "acceleration": 4.7,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 4.9,
+      "strength": 3.2,
+      "price": "$7,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$775 when stolen",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-bobcat-xl"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -831,7 +1059,8 @@
     "summary": "The Vapid Caracara 4×4 is a pickup listed in the released game's vehicle database (era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.2, acceleration 5.1, asphalt handling 3.3, off-road handling 6.7, strength 3.0."
+      "DayOne gives its stats as speed 4.2, acceleration 5.1, asphalt handling 3.3, off-road handling 6.7, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 4.2, Acceleration 5.1, Asphalt handling 3.3, Off-road handling 6.7, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "caracara",
@@ -841,13 +1070,24 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Caracara 4×4",
-      "class": "Pickups"
+      "class": "Pickups",
+      "speed": 4.2,
+      "acceleration": 5.1,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 6.7,
+      "strength": 3.0,
+      "price": "$18,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,950 when stolen",
+      "where": "Spawn (GTABase map): Waning Sands -  #147 Vapid Caracara 4x4 Waning Sands In the garage.",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -857,7 +1097,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
       "DayOne gives its stats as speed 4.5, acceleration 5.5, asphalt handling 3.4, off-road handling 6.7, strength 3.0.",
-      "Game8 says Contenders are parked along the Sunbelt Highway in north Key Lento, for example at the Hamilton Private Health Clinic, and need the Clone Key from Chapter 3 to start; it gives 6 seats."
+      "Game8 says Contenders are parked along the Sunbelt Highway in north Key Lento, for example at the Hamilton Private Health Clinic, and need the Clone Key from Chapter 3 to start; it gives 6 seats.",
+      "In-game stat bars (out of 10): Speed 4.5, Acceleration 5.5, Asphalt handling 3.4, Off-road handling 6.7, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "contender",
@@ -869,14 +1110,24 @@
       "model": "Contender",
       "class": "Pickups",
       "seats": 6,
-      "availability": "Car parks along the Sunbelt Highway, north Key Lento; needs the Clone Key (Game8)"
+      "availability": "Car parks along the Sunbelt Highway, north Key Lento; needs the Clone Key (Game8)",
+      "speed": 4.5,
+      "acceleration": 5.5,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 6.7,
+      "strength": 3.0,
+      "price": "$29,150 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$12,320 when stolen",
+      "where": "GTABase: A blacked-out Karin Contender spawns here at night.",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r7-g8-contender"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -890,7 +1141,8 @@
       "GTABase gives it four seats, a registration cost of $7,500, no tracker and a stolen sell value of $2,255.",
       "GTABase files it under off-road vehicles; the app (from DayOne) has it under pickups.",
       "Disagreement: Game8 gives the '70 Reclaimer 2 seats; GTABase gives four.",
-      "GTA Wiki (edited November 19, 2026) calls the 1970 Vapid Reclaimer a chassis cab truck seen twice in the first trailer, once parked outside Port Gellhorn Pawn & Gun, and says it comes as a dropside or a flatbed truck."
+      "GTA Wiki (edited November 19, 2026) calls the 1970 Vapid Reclaimer a chassis cab truck seen twice in the first trailer, once parked outside Port Gellhorn Pawn & Gun, and says it comes as a dropside or a flatbed truck.",
+      "In-game stat bars (out of 10): Speed 2.6, Acceleration 2.5, Asphalt handling 2.9, Off-road handling 3.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "pickup",
@@ -902,16 +1154,25 @@
       "model": "Reclaimer",
       "year": "1970",
       "class": "Pickups",
-      "seats": 4
+      "seats": 4,
+      "speed": 2.6,
+      "acceleration": 2.5,
+      "asphalt_handling": 2.9,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "price": "$7,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,255 when stolen",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-v-reclaimer",
-      "r7-g8-reclaimer-70",
-      "r11g-gw-reclaimer-1970"
+      "gtabase-vehicle-pages",
+      "r11g-gw-reclaimer-1970",
+      "r7-g8-reclaimer-70"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -921,7 +1182,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
       "DayOne gives its stats as speed 4.4, acceleration 5.7, asphalt handling 3.8, off-road handling 6.6, strength 3.0.",
-      "This is the modern pickup in DayOne's list; the '70 Riata rebuilt in Wyman's questline is a separate entry in the app."
+      "This is the modern pickup in DayOne's list; the '70 Riata rebuilt in Wyman's questline is a separate entry in the app.",
+      "In-game stat bars (out of 10): Speed 4.4, Acceleration 5.7, Asphalt handling 3.8, Off-road handling 6.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "pickup",
@@ -931,13 +1193,25 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Riata",
-      "class": "Pickups"
+      "class": "Pickups",
+      "speed": 4.4,
+      "acceleration": 5.7,
+      "asphalt_handling": 3.8,
+      "offroad_handling": 6.6,
+      "strength": 3.0,
+      "price": "$11,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,800 when stolen",
+      "where": "Spawn (GTABase map): Ambrosia -  #154 Vapid Riata Ambrosia",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
+      "outputlag-register"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -946,7 +1220,8 @@
     "summary": "The Vapid Sandking XL is a pickup listed in the released game's vehicle database (era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Pickups and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 3.6, acceleration 4.3, asphalt handling 3.4, off-road handling 4.6, strength 3.0."
+      "DayOne gives its stats as speed 3.6, acceleration 4.3, asphalt handling 3.4, off-road handling 4.6, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 3.6, Acceleration 4.3, Asphalt handling 3.4, Off-road handling 4.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "pickup",
@@ -957,13 +1232,22 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Sandking XL",
-      "class": "Pickups"
+      "class": "Pickups",
+      "speed": 3.6,
+      "acceleration": 4.3,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 4.6,
+      "strength": 3.0,
+      "price": "$14,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$4,400 when stolen",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/vapid-sandking-xl.jpg"
   },
@@ -975,7 +1259,8 @@
       "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
       "DayOne gives its stats as speed 4.6, acceleration 5.6, asphalt handling 4.4, off-road handling 4.4, strength 3.0.",
       "GTABase says the Animus is new to the series, based on the second-generation Audi A7/RS7, and seats four.",
-      "GTABase gives a registration cost of $8,650, no tracker and a stolen sell value of $2,585."
+      "GTABase gives a registration cost of $8,650, no tracker and a stolen sell value of $2,585.",
+      "In-game stat bars (out of 10): Speed 4.6, Acceleration 5.6, Asphalt handling 4.4, Off-road handling 4.4, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "animus",
@@ -987,14 +1272,25 @@
       "manufacturer": "Obey",
       "model": "Animus",
       "class": "Sedans",
-      "seats": 4
+      "seats": 4,
+      "speed": 4.6,
+      "acceleration": 5.6,
+      "asphalt_handling": 4.4,
+      "offroad_handling": 4.4,
+      "strength": 3.0,
+      "price": "$8,650 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,585 when stolen",
+      "where": "Spawn (GTABase map): Waning Sands -  #111 Obey Animus Waning Sands White with a pink and purple mandala design and a tie-dye hood.",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-v-animus"
+      "gtabase-map-spawn",
+      "gtabase-v-animus",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1004,7 +1300,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans and names Tuner as its mod shop specialist.",
       "DayOne gives its stats as speed 5.2, acceleration 5.4, asphalt handling 4.3, off-road handling 4.5, strength 3.0.",
-      "GTABase's page for the Bravado Buffalo '07 lists a registration cost of $8,000 and a stolen sell value of $2,365."
+      "GTABase's page for the Bravado Buffalo '07 lists a registration cost of $8,000 and a stolen sell value of $2,365.",
+      "In-game stat bars (out of 10): Speed 5.2, Acceleration 5.4, Asphalt handling 4.3, Off-road handling 4.5, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "bravado",
@@ -1018,14 +1315,23 @@
       "year": "2007",
       "class": "Sedans",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 5.2,
+      "acceleration": 5.4,
+      "asphalt_handling": 4.3,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "price": "$8,000 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,365 when stolen",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-buffalo"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1034,7 +1340,8 @@
     "summary": "The '85 Albany Emperor is a sedan listed in the released game's vehicle database (era 1980s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans and names Lowrider as its mod shop specialist.",
-      "DayOne gives its stats as speed 3.3, acceleration 3.0, asphalt handling 2.7, off-road handling 3.3, strength 3.0."
+      "DayOne gives its stats as speed 3.3, acceleration 3.0, asphalt handling 2.7, off-road handling 3.3, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 3.3, Acceleration 3.0, Asphalt handling 2.7, Off-road handling 3.3, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "albany",
@@ -1045,13 +1352,24 @@
       "manufacturer": "Albany",
       "model": "Emperor",
       "year": "1985",
-      "class": "Sedans"
+      "class": "Sedans",
+      "speed": 3.3,
+      "acceleration": 3.0,
+      "asphalt_handling": 2.7,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "price": "$5,650 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,705 when stolen",
+      "where": "Spawn (GTABase map): Port Gellhorn -  #125 Albany Emperor ('85) Port Gellhorn There is always an Emperor here.",
+      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1063,7 +1381,8 @@
       "DayOne gives its stats as speed 5.0, acceleration 5.4, asphalt handling 4.0, off-road handling 4.5, strength 3.0.",
       "DayOne prints the era as 1980s Classic although the name carries '98, so the model year is left out here.",
       "GTABase's page for the Karin Feroci '98 lists a registration cost of $3,150 and a stolen sell value of $935.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 5.0, Acceleration 5.4, Asphalt handling 4.0, Off-road handling 4.5, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "feroci",
@@ -1076,14 +1395,23 @@
       "model": "Feroci",
       "class": "Sedans",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 5.0,
+      "acceleration": 5.4,
+      "asphalt_handling": 4.0,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "price": "$3,150 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$935 when stolen",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-feroci"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1092,7 +1420,8 @@
     "summary": "The '71 Declasse Parkland is a sedan listed in the released game's vehicle database (style Station Wagon, era 1970s Antique).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans and names Muscle as its mod shop specialist.",
-      "DayOne gives its stats as speed 3.5, acceleration 3.3, asphalt handling 3.2, off-road handling 3.1, strength 3.0."
+      "DayOne gives its stats as speed 3.5, acceleration 3.3, asphalt handling 3.2, off-road handling 3.1, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 3.5, Acceleration 3.3, Asphalt handling 3.2, Off-road handling 3.1, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "declasse",
@@ -1105,13 +1434,22 @@
       "manufacturer": "Declasse",
       "model": "Parkland",
       "year": "1971",
-      "class": "Sedans"
+      "class": "Sedans",
+      "speed": 3.5,
+      "acceleration": 3.3,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.1,
+      "strength": 3.0,
+      "price": "$10,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$3,135 when stolen",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1120,7 +1458,8 @@
     "summary": "The Schyster PMP 700 is a sedan listed in the released game's vehicle database (style Luxury, era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans.",
-      "DayOne gives its stats as speed 5.8, acceleration 6.4, asphalt handling 4.3, off-road handling 4.5, strength 3.0."
+      "DayOne gives its stats as speed 5.8, acceleration 6.4, asphalt handling 4.3, off-road handling 4.5, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 5.8, Acceleration 6.4, Asphalt handling 4.3, Off-road handling 4.5, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "700",
@@ -1132,13 +1471,22 @@
     "facts": {
       "manufacturer": "Schyster",
       "model": "PMP 700",
-      "class": "Sedans"
+      "class": "Sedans",
+      "speed": 5.8,
+      "acceleration": 6.4,
+      "asphalt_handling": 4.3,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "price": "$5,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$3,200 when stolen",
+      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1147,7 +1495,8 @@
     "summary": "The Albany Primo is a sedan listed in the released game's vehicle database (era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sedans.",
-      "DayOne gives its stats as speed 4.0, acceleration 4.1, asphalt handling 3.0, off-road handling 4.1, strength 3.0."
+      "DayOne gives its stats as speed 4.0, acceleration 4.1, asphalt handling 3.0, off-road handling 4.1, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 4.0, Acceleration 4.1, Asphalt handling 3.0, Off-road handling 4.1, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "albany",
@@ -1157,13 +1506,21 @@
     "facts": {
       "manufacturer": "Albany",
       "model": "Primo",
-      "class": "Sedans"
+      "class": "Sedans",
+      "speed": 4.0,
+      "acceleration": 4.1,
+      "asphalt_handling": 3.0,
+      "offroad_handling": 4.1,
+      "strength": 3.0,
+      "price": "$2,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$660 when stolen"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1202,7 +1559,8 @@
       "DayOne gives its stats as speed 4.5, acceleration 4.6, asphalt handling 4.0, off-road handling 4.2, strength 3.0.",
       "DayOne prints the era as \"1990s Muscle\", which looks like an error on the page.",
       "GTABase says the Stanier '98 is based on the Ford Crown Victoria, seats four, has rear-wheel drive and has a Stanier Taxi variant.",
-      "GTABase gives a registration cost of $3,400, no tracker and a stolen sell value of $1,045."
+      "GTABase gives a registration cost of $3,400, no tracker and a stolen sell value of $1,045.",
+      "In-game stat bars (out of 10): Speed 4.5, Acceleration 4.6, Asphalt handling 4.0, Off-road handling 4.2, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "muscle",
@@ -1216,14 +1574,22 @@
       "year": "1998",
       "class": "Sedans",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 4.5,
+      "acceleration": 4.6,
+      "asphalt_handling": 4.0,
+      "offroad_handling": 4.2,
+      "strength": 3.0,
+      "price": "$3,400 (Story Mode price, which the guides read as the registration cost)",
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-v-stanier98"
+      "gtabase-v-stanier98",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1234,7 +1600,8 @@
       "DayOne's list of the game's vehicles files it under Sedans and names Muscle as its mod shop specialist.",
       "DayOne gives its stats as speed 4.5, acceleration 4.7, asphalt handling 4.2, off-road handling 4.3, strength 3.0.",
       "DayOne prints the name as \"Vpaid Stanier G2\".",
-      "The app already has the Stanier G2 Taxi as a separate cheat-spawn entry."
+      "The app already has the Stanier G2 Taxi as a separate cheat-spawn entry.",
+      "In-game stat bars (out of 10): Speed 4.5, Acceleration 4.7, Asphalt handling 4.2, Off-road handling 4.3, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "g2",
@@ -1246,13 +1613,22 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Stanier G2",
-      "class": "Sedans"
+      "class": "Sedans",
+      "speed": 4.5,
+      "acceleration": 4.7,
+      "asphalt_handling": 4.2,
+      "offroad_handling": 4.3,
+      "strength": 3.0,
+      "price": "$3,650 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,100 when stolen",
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/vapid-stanier-g2.jpg"
   },
@@ -1262,7 +1638,8 @@
     "summary": "The Grotti Carbonizzare is a sports car listed in the released game's vehicle database (style Convertible, era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sports Cars and names Luxury as its mod shop specialist.",
-      "DayOne gives its stats as speed 6.3, acceleration 7.1, asphalt handling 6.0, off-road handling 3.6, strength 3.0."
+      "DayOne gives its stats as speed 6.3, acceleration 7.1, asphalt handling 6.0, off-road handling 3.6, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 6.3, Acceleration 7.1, Asphalt handling 6.0, Off-road handling 3.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -1274,13 +1651,25 @@
     "facts": {
       "manufacturer": "Grotti",
       "model": "Carbonizzare",
-      "class": "Sports Cars"
+      "class": "Sports Cars",
+      "speed": 6.3,
+      "acceleration": 7.1,
+      "asphalt_handling": 6.0,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "price": "$28,300 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$9,845 when stolen",
+      "where": "Spawn (GTABase map): Key Lento -  #22 Grotti Carbonizzare Key Lento Needs the key cloner.; Listed on Randy's Wish List (OutputLag)",
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
+      "outputlag-randy"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1289,7 +1678,8 @@
     "summary": "The Pfister Comet S2 is a sports car listed in the released game's vehicle database (style Convertible, era 2020s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Sports Cars and names Luxury as its mod shop specialist.",
-      "DayOne gives its stats as speed 7.7, acceleration 8.0, asphalt handling 7.6, off-road handling 3.6, strength 3.0."
+      "DayOne gives its stats as speed 7.7, acceleration 8.0, asphalt handling 7.6, off-road handling 3.6, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 7.7, Acceleration 8.0, Asphalt handling 7.6, Off-road handling 3.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -1302,13 +1692,22 @@
     "facts": {
       "manufacturer": "Pfister",
       "model": "Comet S2",
-      "class": "Sports Cars"
+      "class": "Sports Cars",
+      "speed": 7.7,
+      "acceleration": 8.0,
+      "asphalt_handling": 7.6,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "price": "$31,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$16,500 when stolen",
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1319,7 +1718,8 @@
       "DayOne's list of the game's vehicles files it under Sports Cars and names Tuner as its mod shop specialist.",
       "DayOne gives its stats as speed 6.1, acceleration 6.4, asphalt handling 6.5, off-road handling 4.0, strength 3.7.",
       "GTABase says the Comet '88 is based on a Rauh-Welt Porsche 911 (930) and seats two, with rear-wheel drive.",
-      "GTABase gives a registration cost of $34,250, an advanced tracker and a stolen sell value of $17,050."
+      "GTABase gives a registration cost of $34,250, an advanced tracker and a stolen sell value of $17,050.",
+      "In-game stat bars (out of 10): Speed 6.1, Acceleration 6.4, Asphalt handling 6.5, Off-road handling 4.0, Strength 3.7, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -1333,14 +1733,25 @@
       "year": "1988",
       "class": "Sports Cars",
       "seats": 2,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 6.1,
+      "acceleration": 6.4,
+      "asphalt_handling": 6.5,
+      "offroad_handling": 4.0,
+      "strength": 3.7,
+      "price": "$34,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$17,050 when stolen",
+      "where": "GTABase: In the garage in the alley.; Spawn (GTABase map): Capri -  #70 Pfister Comet ('88) Capri; Spawn (GTABase map): Vice Beach -  #101 Pfister Comet ('88) Vice Beach In the garage in the alley.",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-v-comet88"
+      "gtabase-map-spawn",
+      "gtabase-v-comet88",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1350,7 +1761,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Sports Cars and names Luxury as its mod shop specialist.",
       "DayOne gives its stats as speed 7.0, acceleration 7.5, asphalt handling 6.5, off-road handling 3.6, strength 3.0.",
-      "Game8 says the Coquette D10 is a rare sight on the Sunbelt Highway, sometimes parked by the gas station or the Hamilton Private Health Clinic in north Key Lento, and needs the Clone Key from Chapter 3."
+      "Game8 says the Coquette D10 is a rare sight on the Sunbelt Highway, sometimes parked by the gas station or the Hamilton Private Health Clinic in north Key Lento, and needs the Clone Key from Chapter 3.",
+      "In-game stat bars (out of 10): Speed 7.0, Acceleration 7.5, Asphalt handling 6.5, Off-road handling 3.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -1363,14 +1775,25 @@
       "manufacturer": "Invetero",
       "model": "Coquette D10",
       "class": "Sports Cars",
-      "availability": "Rare on the Sunbelt Highway, north Key Lento; needs the Clone Key (Game8)"
+      "availability": "Rare on the Sunbelt Highway, north Key Lento; needs the Clone Key (Game8)",
+      "speed": 7.0,
+      "acceleration": 7.5,
+      "asphalt_handling": 6.5,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "price": "$28,150 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$5,000 when stolen",
+      "where": "Listed on Randy's Wish List (OutputLag): Randy calls about a Venezuelan crew on Waxman Island getting ready to ship one",
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
+      "outputlag-randy",
       "r7-g8-coquette-d10"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1409,7 +1832,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Sports Cars and names Tuner as its mod shop specialist.",
       "DayOne gives its stats as speed 4.9, acceleration 6.1, asphalt handling 4.4, off-road handling 4.5, strength 3.0.",
-      "GTABase says the Sultan draws on the Lexus IS, Mitsubishi Lancer Evo VI and Subaru Impreza, and gives it four seats, all-wheel drive and five gears."
+      "GTABase says the Sultan draws on the Lexus IS, Mitsubishi Lancer Evo VI and Subaru Impreza, and gives it four seats, all-wheel drive and five gears.",
+      "In-game stat bars (out of 10): Speed 4.9, Acceleration 6.1, Asphalt handling 4.4, Off-road handling 4.5, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "car",
@@ -1422,14 +1846,26 @@
       "model": "Sultan",
       "class": "Sports Cars",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "speed": 4.9,
+      "acceleration": 6.1,
+      "asphalt_handling": 4.4,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "price": "$5,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,460 when stolen",
+      "where": "GTABase: Licence plate SPD DMN.; Spawn (GTABase map): Vice City -  #79 Emperor Sultan Vice City Licence plate SPD DMN.; Reward for completing all seven Moses drop-offs; Moses covers its $1,600 registration fee (Push Square).",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-v-sultan"
+      "gtabase-map-spawn",
+      "gtabase-v-sultan",
+      "gtabase-vehicle-pages",
+      "pushsquare-moses"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/emperor-sultan.jpg"
   },
@@ -1441,7 +1877,8 @@
       "DayOne's list of the game's vehicles files it under SUVs and names Luxury as its mod shop specialist.",
       "DayOne gives its stats as speed 5.3, acceleration 6.5, asphalt handling 5.1, off-road handling 4.5, strength 3.0.",
       "GTABase's page for the Pfister Astron lists a registration cost of $15,500 and a stolen sell value of $4,620.",
-      "GTABase says it carries a Standard Tracker."
+      "GTABase says it carries a Standard Tracker.",
+      "In-game stat bars (out of 10): Speed 5.3, Acceleration 6.5, Asphalt handling 5.1, Off-road handling 4.5, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "astron",
@@ -1454,14 +1891,23 @@
       "model": "Astron",
       "class": "SUVs",
       "seats": 4,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "speed": 5.3,
+      "acceleration": 6.5,
+      "asphalt_handling": 5.1,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "price": "$15,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$4,620 when stolen",
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-astron"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1471,7 +1917,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under SUVs and names Tuner as its mod shop specialist.",
       "DayOne gives its stats as speed 5.1, acceleration 6.2, asphalt handling 4.4, off-road handling 5.0, strength 3.0.",
-      "DayOne prints the name as \"Gallvanter Baller\"."
+      "DayOne prints the name as \"Gallvanter Baller\".",
+      "In-game stat bars (out of 10): Speed 5.1, Acceleration 6.2, Asphalt handling 4.4, Off-road handling 5.0, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "baller",
@@ -1482,13 +1929,22 @@
     "facts": {
       "manufacturer": "Gallivanter",
       "model": "Baller",
-      "class": "SUVs"
+      "class": "SUVs",
+      "speed": 5.1,
+      "acceleration": 6.2,
+      "asphalt_handling": 4.4,
+      "offroad_handling": 5.0,
+      "strength": 3.0,
+      "price": "$10,000 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,970 when stolen",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1497,7 +1953,8 @@
     "summary": "The Declasse Granger is an SUV listed in the released game's vehicle database (era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under SUVs and names Off-Road as its mod shop specialist.",
-      "DayOne gives its stats as speed 3.6, acceleration 4.0, asphalt handling 3.7, off-road handling 4.2, strength 3.0."
+      "DayOne gives its stats as speed 3.6, acceleration 4.0, asphalt handling 3.7, off-road handling 4.2, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 3.6, Acceleration 4.0, Asphalt handling 3.7, Off-road handling 4.2, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "declasse",
@@ -1507,13 +1964,22 @@
     "facts": {
       "manufacturer": "Declasse",
       "model": "Granger",
-      "class": "SUVs"
+      "class": "SUVs",
+      "speed": 3.6,
+      "acceleration": 4.0,
+      "asphalt_handling": 3.7,
+      "offroad_handling": 4.2,
+      "strength": 3.0,
+      "price": "$6,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,050 when stolen",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1522,7 +1988,8 @@
     "summary": "The Declasse Granger 3600LX is an SUV listed in the released game's vehicle database (era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under SUVs and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.0, acceleration 4.5, asphalt handling 3.8, off-road handling 4.4, strength 3.0."
+      "DayOne gives its stats as speed 4.0, acceleration 4.5, asphalt handling 3.8, off-road handling 4.4, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 4.0, Acceleration 4.5, Asphalt handling 3.8, Off-road handling 4.4, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "3600lx",
@@ -1533,13 +2000,22 @@
     "facts": {
       "manufacturer": "Declasse",
       "model": "Granger 3600LX",
-      "class": "SUVs"
+      "class": "SUVs",
+      "speed": 4.0,
+      "acceleration": 4.5,
+      "asphalt_handling": 3.8,
+      "offroad_handling": 4.4,
+      "strength": 3.0,
+      "price": "$8,150 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,420 when stolen",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1550,7 +2026,8 @@
       "DayOne's list of the game's vehicles files it under SUVs and names Off-Road as its mod shop specialist.",
       "DayOne gives its stats as speed 3.1, acceleration 3.4, asphalt handling 3.0, off-road handling 6.7, strength 3.0.",
       "GTABase's page for the Annis Hellion '95 lists a registration cost of $4,400 and a stolen sell value of $1,320.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 3.1, Acceleration 3.4, Asphalt handling 3.0, Off-road handling 6.7, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "annis",
@@ -1565,14 +2042,26 @@
       "year": "1995",
       "class": "SUVs",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "speed": 3.1,
+      "acceleration": 3.4,
+      "asphalt_handling": 3.0,
+      "offroad_handling": 6.7,
+      "strength": 3.0,
+      "price": "$4,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,320 when stolen",
+      "where": "Spawn (GTABase map): Ambrosia -  #153 Annis '95 Hellion Ambrosia; Vehicle Theft for Moses (Push Square): Orchard Ave, Port Gellhorn, south of Moses' shop, outside a bungalow with a dog (Moses #4)",
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
+      "pushsquare-moses",
       "r8gb-vehicles-hellion"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1581,7 +2070,8 @@
     "summary": "The Dundreary Landstalker XL is an SUV listed in the released game's vehicle database (style Luxury, era 2020s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under SUVs and names Tuner as its mod shop specialist.",
-      "DayOne gives its stats as speed 4.4, acceleration 5.2, asphalt handling 3.9, strength 3.0; the page leaves the off-road handling value blank."
+      "DayOne gives its stats as speed 4.4, acceleration 5.2, asphalt handling 3.9, strength 3.0; the page leaves the off-road handling value blank.",
+      "In-game stat bars (out of 10): Speed 4.4, Acceleration 5.2, Asphalt handling 3.9, Off-road handling 5.0, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "dundreary",
@@ -1593,13 +2083,22 @@
     "facts": {
       "manufacturer": "Dundreary",
       "model": "Landstalker XL",
-      "class": "SUVs"
+      "class": "SUVs",
+      "speed": 4.4,
+      "acceleration": 5.2,
+      "asphalt_handling": 3.9,
+      "offroad_handling": 5.0,
+      "strength": 3.0,
+      "price": "$15,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,500 when stolen",
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1608,7 +2107,8 @@
     "summary": "The Brute Boxville is a van listed in the released game's vehicle database (style Commercial, era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Vans.",
-      "DayOne gives its stats as speed 2.6, acceleration 2.7, asphalt handling 2.7, off-road handling 3.4, strength 3.0."
+      "DayOne gives its stats as speed 2.6, acceleration 2.7, asphalt handling 2.7, off-road handling 3.4, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 2.6, Acceleration 2.7, Asphalt handling 2.7, Off-road handling 3.4, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "boxville",
@@ -1619,13 +2119,21 @@
     "facts": {
       "manufacturer": "Brute",
       "model": "Boxville",
-      "class": "Vans"
+      "class": "Vans",
+      "speed": 2.6,
+      "acceleration": 2.7,
+      "asphalt_handling": 2.7,
+      "offroad_handling": 3.4,
+      "strength": 3.0,
+      "where": "Spawn (GTABase map): Waning Sands -  #148 Brute Boxville Waning Sands"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1636,7 +2144,8 @@
       "DayOne's list of the game's vehicles files it under Vans.",
       "DayOne gives its stats as speed 3.4, acceleration 3.8, asphalt handling 3.4, off-road handling 3.3, strength 3.0.",
       "GTABase's page for the Declasse Burrito '98 lists a registration cost of $8,000 and a stolen sell value of $2,365.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 3.4, Acceleration 3.8, Asphalt handling 3.4, Off-road handling 3.3, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "burrito",
@@ -1650,14 +2159,23 @@
       "year": "1998",
       "class": "Vans",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 3.4,
+      "acceleration": 3.8,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "price": "$8,000 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,365 when stolen",
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-burrito"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1667,7 +2185,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Vans.",
       "DayOne gives its stats as speed 2.5, acceleration 1.4, asphalt handling 2.8, off-road handling 2.6, strength 3.0.",
-      "GTABase lists 4 seats for the Willard Moocher '83."
+      "GTABase lists 4 seats for the Willard Moocher '83.",
+      "In-game stat bars (out of 10): Speed 2.5, Acceleration 1.4, Asphalt handling 2.8, Off-road handling 2.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "moocher",
@@ -1680,14 +2199,21 @@
       "model": "Moocher",
       "year": "1983",
       "class": "Vans",
-      "seats": 4
+      "seats": 4,
+      "speed": 2.5,
+      "acceleration": 1.4,
+      "asphalt_handling": 2.8,
+      "offroad_handling": 2.6,
+      "strength": 3.0,
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-moocher"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1696,7 +2222,8 @@
     "summary": "The Vapid Rumpo is a van listed in the released game's vehicle database (style Commercial, era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Vans.",
-      "DayOne gives its stats as speed 3.2, acceleration 3.7, asphalt handling 3.1, off-road handling 3.3, strength 3.0."
+      "DayOne gives its stats as speed 3.2, acceleration 3.7, asphalt handling 3.1, off-road handling 3.3, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 3.2, Acceleration 3.7, Asphalt handling 3.1, Off-road handling 3.3, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "commercial",
@@ -1707,13 +2234,21 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Rumpo",
-      "class": "Vans"
+      "class": "Vans",
+      "speed": 3.2,
+      "acceleration": 3.7,
+      "asphalt_handling": 3.1,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "where": "Spawn (GTABase map): Hamlet -  #46 Vapid Rumpo Hamlet"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1722,7 +2257,8 @@
     "summary": "The Vapid Speedo is a van listed in the released game's vehicle database (style Commercial, era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Vans.",
-      "DayOne gives its stats as speed 3.4, acceleration 3.6, asphalt handling 3.1, off-road handling 3.6, strength 3.0."
+      "DayOne gives its stats as speed 3.4, acceleration 3.6, asphalt handling 3.1, off-road handling 3.6, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 3.4, Acceleration 3.6, Asphalt handling 3.1, Off-road handling 3.6, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "commercial",
@@ -1733,13 +2269,20 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Speedo",
-      "class": "Vans"
+      "class": "Vans",
+      "speed": 3.4,
+      "acceleration": 3.6,
+      "asphalt_handling": 3.1,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "price": "$6,750 (Story Mode price, which the guides read as the registration cost)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1750,7 +2293,8 @@
       "DayOne's list of the game's vehicles files it under Vans.",
       "DayOne gives its stats as speed 3.0, acceleration 2.6, asphalt handling 3.2, off-road handling 3.1, strength 3.0.",
       "GTABase's page for the Bravado Youga '74 lists a registration cost of $5,400 and a stolen sell value of $1,595.",
-      "GTABase says it carries no tracker."
+      "GTABase says it carries no tracker.",
+      "In-game stat bars (out of 10): Speed 3.0, Acceleration 2.6, Asphalt handling 3.2, Off-road handling 3.1, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "bravado",
@@ -1764,14 +2308,25 @@
       "year": "1974",
       "class": "Vans",
       "seats": 4,
-      "drivetrain": "RWD"
+      "drivetrain": "RWD",
+      "speed": 3.0,
+      "acceleration": 2.6,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.1,
+      "strength": 3.0,
+      "price": "$5,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$1,595 when stolen",
+      "where": "Spawn (GTABase map): Port Gellhorn -  #124 Bravado Youga ('74) Port Gellhorn In the garage.",
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-youga-classic"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1780,7 +2335,8 @@
     "summary": "The '79 Bravado Youga XL is a van listed in the released game's vehicle database (style Commercial, era 1970s Classic).",
     "body": [
       "DayOne's list of the game's vehicles files it under Vans.",
-      "DayOne gives its stats as speed 3.2, acceleration 3.1, asphalt handling 3.2, off-road handling 3.3, strength 3.0."
+      "DayOne gives its stats as speed 3.2, acceleration 3.1, asphalt handling 3.2, off-road handling 3.3, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 3.2, Acceleration 3.1, Asphalt handling 3.2, Off-road handling 3.3, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "bravado",
@@ -1793,13 +2349,22 @@
       "manufacturer": "Bravado",
       "model": "Youga XL",
       "year": "1979",
-      "class": "Vans"
+      "class": "Vans",
+      "speed": 3.2,
+      "acceleration": 3.1,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "price": "$10,650 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$3,190 when stolen",
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-cars"
+      "dayone-cars",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1809,7 +2374,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Trucks.",
       "DayOne gives its stats as speed 2.4, acceleration 1.7, asphalt handling 2.6, off-road handling 2.5, strength 3.0.",
-      "GTABase lists 2 seats and AWD drive for the Interstate Benson '97."
+      "GTABase lists 2 seats and AWD drive for the Interstate Benson '97.",
+      "In-game stat bars (out of 10): Speed 2.4, Acceleration 1.7, Asphalt handling 2.6, Off-road handling 2.5, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "benson",
@@ -1822,14 +2388,21 @@
       "year": "1997",
       "class": "Service - Trucks",
       "seats": 2,
-      "drivetrain": "AWD"
+      "drivetrain": "AWD",
+      "speed": 2.4,
+      "acceleration": 1.7,
+      "asphalt_handling": 2.6,
+      "offroad_handling": 2.5,
+      "strength": 3.0,
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
+      "gtabase-vehicle-pages",
       "r8gb-vehicles-benson"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1850,14 +2423,17 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Guardian TX2",
-      "class": "Service - Trucks"
+      "class": "Service - Trucks",
+      "where": "GTABase: A lowrider truck.",
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
+      "gtabase-vehicle-pages",
       "r11g-gw-guardian-tx2"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1868,7 +2444,8 @@
       "DayOne's list of the game's vehicles files it under Trucks.",
       "DayOne gives its stats as speed 1.8, acceleration 1.4, asphalt handling 2.2, off-road handling 2.2, strength 3.0.",
       "GTA Wiki (edited November 19, 2026) describes the Jobuilt MB2-10 as a heavy chassis cab truck with dual rear wheels on a tandem axle, found with an aerial work platform, box body, flatbed or tanker body.",
-      "According to GTA Wiki, part of an MB2-10 with a tanker body is visible at Jack of Hearts in the official video An Extended Look."
+      "According to GTA Wiki, part of an MB2-10 with a tanker body is visible at Jack of Hearts in the official video An Extended Look.",
+      "In-game stat bars (out of 10): Speed 1.8, Acceleration 1.4, Asphalt handling 2.2, Off-road handling 2.2, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "10",
@@ -1879,14 +2456,20 @@
     "facts": {
       "manufacturer": "Jobuilt",
       "model": "MB2-10",
-      "class": "Service - Trucks"
+      "class": "Service - Trucks",
+      "speed": 1.8,
+      "acceleration": 1.4,
+      "asphalt_handling": 2.2,
+      "offroad_handling": 2.2,
+      "strength": 3.0
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
+      "gtabase-vehicle-pages",
       "r11g-gw-mb2-10"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1895,7 +2478,8 @@
     "summary": "The Maibatsu Mule is a truck listed in the released game's vehicle database (era 2000s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Trucks.",
-      "DayOne gives its stats as speed 2.6, acceleration 1.9, asphalt handling 2.5, off-road handling 2.8, strength 3.0."
+      "DayOne gives its stats as speed 2.6, acceleration 1.9, asphalt handling 2.5, off-road handling 2.8, strength 3.0.",
+      "In-game stat bars (out of 10): Speed 2.6, Acceleration 1.9, Asphalt handling 2.5, Off-road handling 2.8, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "maibatsu",
@@ -1905,13 +2489,19 @@
     "facts": {
       "manufacturer": "Maibatsu",
       "model": "Mule",
-      "class": "Service - Trucks"
+      "class": "Service - Trucks",
+      "speed": 2.6,
+      "acceleration": 1.9,
+      "asphalt_handling": 2.5,
+      "offroad_handling": 2.8,
+      "strength": 3.0
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1935,9 +2525,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1945,7 +2536,8 @@
     "name": "'80 Interstate Yankee",
     "summary": "The '80 Interstate Yankee is a utility vehicle listed in the released game's vehicle database (era 1980s Classic).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Utility Vehicles."
+      "DayOne's list of the game's vehicles files it under Utility Vehicles.",
+      "In-game stat bars (out of 10): Speed 2.6, Acceleration 1.9, Asphalt handling 3.1, Off-road handling 3.0, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "interstate",
@@ -1957,13 +2549,19 @@
       "manufacturer": "Interstate",
       "model": "Yankee",
       "year": "1980",
-      "class": "Service - Utility Vehicles"
+      "class": "Service - Utility Vehicles",
+      "speed": 2.6,
+      "acceleration": 1.9,
+      "asphalt_handling": 3.1,
+      "offroad_handling": 3.0,
+      "strength": 3.0
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1972,7 +2570,8 @@
     "summary": "The Hauners Brigade is an emergency vehicle listed in the released game's vehicle database (era 2000s Military).",
     "body": [
       "DayOne's list of the game's vehicles files it under Emergency Vehicles.",
-      "DayOne gives its stats as speed 1.6, acceleration 1.1, asphalt handling 1.9, off-road handling 5.4, strength 3.4."
+      "DayOne gives its stats as speed 1.6, acceleration 1.1, asphalt handling 1.9, off-road handling 5.4, strength 3.4.",
+      "In-game stat bars (out of 10): Speed 1.6, Acceleration 1.1, Asphalt handling 1.9, Off-road handling 5.4, Strength 3.4, read from the game by two sources."
     ],
     "tags": [
       "brigade",
@@ -1983,13 +2582,19 @@
     "facts": {
       "manufacturer": "Hauners",
       "model": "Brigade",
-      "class": "Service - Emergency Vehicles"
+      "class": "Service - Emergency Vehicles",
+      "speed": 1.6,
+      "acceleration": 1.1,
+      "asphalt_handling": 1.9,
+      "offroad_handling": 5.4,
+      "strength": 3.4
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2013,9 +2618,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2039,9 +2645,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2051,7 +2658,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Industrial Vehicles.",
       "DayOne prints the maker as \"Stanely\"; the app's pre-launch Fieldmaster tractor entry uses \"Stanley\", and it is not confirmed whether they are the same vehicle.",
-      "An in-game picture on GTABase shows the maker as Stanley, so \"Stanely\" looks like a misprint."
+      "An in-game picture on GTABase shows the maker as Stanley, so \"Stanely\" looks like a misprint.",
+      "In-game stat bars (out of 10): Speed 1.0, Acceleration 0.3, Asphalt handling 1.0, Off-road handling 3.0, Strength 3.5, as read by GTABase only so far."
     ],
     "tags": [
       "2350",
@@ -2064,14 +2672,21 @@
     "facts": {
       "manufacturer": "Stanley",
       "model": "Furrow TC 2350",
-      "class": "Service - Industrial Vehicles"
+      "class": "Service - Industrial Vehicles",
+      "speed": 1.0,
+      "acceleration": 0.3,
+      "asphalt_handling": 1.0,
+      "offroad_handling": 3.0,
+      "strength": 3.5,
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
+      "gtabase-vehicle-pages",
       "rs3-gtabase-stanley-furrow"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "aliases": [
       "Stanely Furrow TC 2350"
@@ -2084,7 +2699,8 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Transport Vehicles.",
       "DayOne gives its stats as speed 2.0, acceleration 1.3, asphalt handling 2.1, off-road handling 2.5, strength 3.0.",
-      "The spelling \"Dashound\" is as DayOne prints it and has not been checked against a second source."
+      "The spelling \"Dashound\" is as DayOne prints it and has not been checked against a second source.",
+      "In-game stat bars (out of 10): Speed 2.0, Acceleration 1.3, Asphalt handling 2.1, Off-road handling 2.5, Strength 3.0, read from the game by two sources."
     ],
     "tags": [
       "dashound",
@@ -2095,13 +2711,20 @@
     "facts": {
       "manufacturer": "Whiffler",
       "model": "Dashound",
-      "class": "Service - Transport Vehicles"
+      "class": "Service - Transport Vehicles",
+      "speed": 2.0,
+      "acceleration": 1.3,
+      "asphalt_handling": 2.1,
+      "offroad_handling": 2.5,
+      "strength": 3.0,
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-service"
+      "dayone-service",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2124,9 +2747,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2149,9 +2773,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2177,9 +2802,10 @@
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
+      "gtabase-vehicle-pages",
       "r17-gtabase-como"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2202,9 +2828,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2227,9 +2854,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2248,13 +2876,16 @@
     "facts": {
       "manufacturer": "Seashark",
       "model": "Hydroblast",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "where": "Spawn (GTABase map): Key Lento -  #15 Seashark Hydroblast Key Lento On the trailer in the driveway.; Spawn (GTABase map): Watson Bay -  #30 Seashark Hydroblast Watson Bay"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2277,9 +2908,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2303,9 +2935,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/lure-predator-l20s.jpg"
   },
@@ -2329,9 +2962,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2355,9 +2989,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2380,9 +3015,10 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-watercraft"
+      "dayone-watercraft",
+      "gtabase-vehicle-pages"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]

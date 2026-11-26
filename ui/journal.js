@@ -1,6 +1,6 @@
 // GTA 6 HQ: the Discovery Journal and the character profile switch.
 // The journal is a dated list of what the reader did in the app: places and entries viewed,
-// things saved, collectibles ticked, places marked discovered, Street Explorer pictures looked at,
+// things saved, collectibles ticked, places marked discovered,
 // the districts those were in, and the reader's own notes. One part of user data ("journal"),
 // kept per profile like the rest. Loaded after explore.js; uses app.js globals.
 (function () {
@@ -9,7 +9,7 @@
   const TYPES = {
     viewed: 'Viewed',
     district: 'Explored district',
-    street: 'Street Explorer picture',
+    street: 'In-game picture',
     saved: 'Saved',
     discovered: 'Marked discovered',
     collected: 'Collectible ticked',
@@ -106,14 +106,11 @@
     if (!target || isHidden(section, target.entry)) return;
     log('viewed', { ref: `${section}/${slug}`, key: `e:${section}/${slug}`, name: target.entry.name, ...placeOf(`${section}/${slug}`) });
   });
-  // Map cards opened, and Street Explorer pictures shown (events sent by app.js).
+  // Map cards opened (an event sent by app.js). Older journals may also hold "In-game picture"
+  // records from the Street Explorer the app used to have; they still show, with their picture.
   document.addEventListener('hq:pin-open', (e) => {
     const pin = e.detail;
     if (pin && !pin.hidden) log('viewed', { key: pinKey(pin), ref: pin.ref || undefined, name: pin.name, x: pin.x, y: pin.y, detail: 'Map card' });
-  });
-  document.addEventListener('hq:street-photo', (e) => {
-    const p = e.detail;
-    if (p) log('street', { key: `s:${p.src}`, name: p.title, ref: p.ref || undefined, x: p.x, y: p.y, detail: p.at || '' });
   });
 
   // ---------- the profile switch, shown on the personal pages ----------
@@ -123,7 +120,7 @@
     const p = UserStore.profile();
     return `<div class="profile-bar" role="group" aria-label="Profile">
       <span class="muted">Profile</span>${PROFILES.map(([v, l]) => `<button type="button" class="chip-btn${p === v ? ' is-on' : ''}" data-profile="${v}" aria-pressed="${p === v}">${v ? `<img src="${esc(walkerPicture(v))}" alt="">` : ''}${l}</button>`).join('')}
-      <span class="muted profile-note">Each profile keeps its own favourites, collections, routes, views, street spots, progress and journal.</span>
+      <span class="muted profile-note">Each profile keeps its own favourites, collections, routes, views, progress and journal.</span>
     </div>`;
   };
   document.addEventListener('click', (e) => {
@@ -153,7 +150,6 @@
   const time = (ms) => new Date(ms).toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
   function linkOf(e) {
     if (e.ref) { const t = resolve(e.ref); if (t) return entryLink(t.section, t.entry.slug); }
-    if (e.t === 'street' && typeof e.x === 'number') return `#/map?street=${e.x.toFixed(4)},${e.y.toFixed(4)}`;
     if (e.t === 'district') return `#/map?q=${encodeURIComponent(e.name)}`;
     if (e.key?.startsWith('routes:')) return `#/map?route=${encodeURIComponent(e.key.slice(7))}`;
     if (e.key?.startsWith('map-views:')) return `#/map?view=${encodeURIComponent(e.key.slice(10))}`;
@@ -162,7 +158,7 @@
     return '';
   }
 
-  /** A picture for a record: the Street Explorer screenshot, or its entry's own picture. */
+  /** A picture for a record: its own in-game picture (older records), or its entry's picture. */
   const KIND_ICON = { viewed: 'eye', district: 'map', street: 'walk', saved: 'bookmark', discovered: 'check-circle', collected: 'gem', note: 'note' };
   function thumbOf(e) {
     if (e.key?.startsWith('s:')) return e.key.slice(2);
@@ -212,7 +208,7 @@
       const total = events().length;
       root.querySelector('.journal-count').textContent = all.length === total ? `${total} ${total === 1 ? 'record' : 'records'}` : `${all.length} of ${total}`;
       if (!all.length) {
-        list.innerHTML = `<p class="empty-note">${total ? 'Nothing matches that.' : 'Nothing here yet. Open places on the map, walk through Street Explorer, save favourites or tick collectibles, and they appear here with the date.'}</p>`;
+        list.innerHTML = `<p class="empty-note">${total ? 'Nothing matches that.' : 'Nothing here yet. Open places on the map, save favourites or tick collectibles, and they appear here with the date.'}</p>`;
         drawDistricts();
         return;
       }

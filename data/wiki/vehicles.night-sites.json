@@ -19,15 +19,18 @@
       "model": "Squalo",
       "class": "Fine Art (powerboat)",
       "seats": 2,
-      "availability": "Fixed spawn on a trailer, Sunset Dr, Key Lento"
+      "availability": "Fixed spawn on a trailer, Sunset Dr, Key Lento",
+      "where": "GTABase: Custom Shitzu Squalo with a unique, graffiti-inspired finish. Parked outside a Key Lento residence.; Standout (GTABase map): Key Lento -  #7 Shitzu Street Art Squalo Key Lento Set: Fine Art. Custom Shitzu Squalo with a unique, graffiti-inspired finish. Parked outside a Key Lento residence."
     },
     "confidence": "corroborated",
     "sources": [
       "g8-street-art-squalo",
-      "rs-gtabase-standout-vehicles-map",
-      "rs-damnmodz-gta6-boats"
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
+      "rs-damnmodz-gta6-boats",
+      "rs-gtabase-standout-vehicles-map"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]

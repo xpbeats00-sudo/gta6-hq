@@ -5,7 +5,8 @@
     "summary": "A standout Emerus that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Progen Purple Drank Emerus in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Emerus; the app's Progen Emerus entry covers the regular model."
+      "It is a standout version of the Emerus; the app's Progen Emerus entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 8.5, Acceleration 8.4, Asphalt handling 8.8, Off-road handling 2.8, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "emerus",
@@ -17,13 +18,23 @@
       "manufacturer": "Progen",
       "model": "Emerus",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 8.5,
+      "acceleration": 8.4,
+      "asphalt_handling": 8.8,
+      "offroad_handling": 2.8,
+      "strength": 3.0,
+      "price": "$29,900 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$32,635 when stolen",
+      "where": "GTABase: Progen Emerus stashed on Waxman Island by some car thieves. Comes with custom mods and a pearlescent finish.; Standout (GTABase map): Vice City -  #101 Progen Purple Drank Emerus Vice City Set: Ultra-Luxe. Progen Emerus stashed on Waxman Island by some car thieves. Comes with custom mods and a pearlescent finish."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -32,7 +43,8 @@
     "summary": "A standout Comet that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Pfister Class Act Comet in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Pfister Comet."
+      "It is a standout version of the Pfister Comet.",
+      "In-game stat bars (out of 10): Speed 8.5, Acceleration 8.4, Asphalt handling 6.1, Off-road handling 4.0, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "comet",
@@ -44,13 +56,23 @@
       "manufacturer": "Pfister",
       "model": "Comet",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 8.5,
+      "acceleration": 8.4,
+      "asphalt_handling": 6.1,
+      "offroad_handling": 4.0,
+      "strength": 3.0,
+      "price": "$34,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$17,050 when stolen",
+      "where": "GTABase: Pfister Comet S2, customized by its wealthy owner for added luxury. Found at a mansion on Starfish Island.; Standout (GTABase map): Vice City -  #104 Pfister Class Act Comet Vice City Set: Retro. Pfister Comet S2, customized by its wealthy owner for added luxury. Found at a mansion on Starfish Island."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -59,7 +81,8 @@
     "summary": "A standout Thrax that GTABase's map places in the Vice Beach area.",
     "body": [
       "GTABase's interactive map lists the Truffade Andrew Node's Thrax in its Standout Vehicle category, filed under the Vice Beach area.",
-      "It is a standout version of the Thrax; the app's Truffade Thrax entry covers the regular model."
+      "It is a standout version of the Thrax; the app's Truffade Thrax entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 9.2, Acceleration 8.9, Asphalt handling 7.5, Off-road handling 3.8, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "standout vehicle",
@@ -71,13 +94,22 @@
       "manufacturer": "Truffade",
       "model": "Thrax",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice Beach area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice Beach area of GTABase's map",
+      "speed": 9.2,
+      "acceleration": 8.9,
+      "asphalt_handling": 7.5,
+      "offroad_handling": 3.8,
+      "strength": 3.0,
+      "price": "$70,000 (Story Mode price, which the guides read as the registration cost)",
+      "where": "GTABase: Andrew Node's Thrax isn't sold anywhere and doesn't spawn in traffic: it's the reward for the No Flusher conspiracy, a secret side quest in Vice Beach that takes around 20 minutes. Here's how to get it: Scan the No Flusher tags: find the 10 small blue graffiti tags with a toilet symbol on the pavements and roads around Vice Beach, and scan each one with the WAiNK app. After the first scan"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -86,7 +118,8 @@
     "summary": "A standout Emerus that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Progen Royal Ruby Emerus in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Emerus; the app's Progen Emerus entry covers the regular model."
+      "It is a standout version of the Emerus; the app's Progen Emerus entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 8.6, Acceleration 8.4, Asphalt handling 8.4, Off-road handling 3.4, Strength 3.6, as read by GTABase only so far."
     ],
     "tags": [
       "emerus",
@@ -98,13 +131,23 @@
       "manufacturer": "Progen",
       "model": "Emerus",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 8.6,
+      "acceleration": 8.4,
+      "asphalt_handling": 8.4,
+      "offroad_handling": 3.4,
+      "strength": 3.6,
+      "price": "$29,900 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$33,000 when stolen",
+      "where": "GTABase: Custom Progen Emerus with a unique blood-red design. Found parked at the home of a drug lord on Rialto Islands.; Standout (GTABase map): Vice City -  #113 Progen Royal Ruby Emerus Vice City Set: Ultra-Luxe. Custom Progen Emerus with a unique blood-red design. Found parked at the home of a drug lord on Rialto Islands."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -140,7 +183,8 @@
     "summary": "A standout Windsor that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Buckingham Bourbon Windsor in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Windsor; the app's Buckingham Windsor entry covers the regular model."
+      "It is a standout version of the Windsor; the app's Buckingham Windsor entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 7.3, Acceleration 7.3, Asphalt handling 4.0, Off-road handling 4.6, Strength 4.8, as read by GTABase only so far."
     ],
     "tags": [
       "buckingham",
@@ -152,13 +196,21 @@
       "manufacturer": "Buckingham",
       "model": "Windsor",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 7.3,
+      "acceleration": 7.3,
+      "asphalt_handling": 4.0,
+      "offroad_handling": 4.6,
+      "strength": 4.8,
+      "where": "GTABase: Unique donk built from a Buckingham Windsor Drop, with a pearlescent finish. Found at the Sound4Sound recording studio.; Standout (GTABase map): Vice City -  #148 Buckingham Bourbon Windsor Vice City Set: Donks. Unique donk built from a Buckingham Windsor Drop, with a pearlescent finish. Found at the Sound4Sound recording studio."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -167,7 +219,8 @@
     "summary": "A standout Toros that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Pegassi Charred Toros in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Toros; the app's Pegassi Toros entry covers the regular model."
+      "It is a standout version of the Toros; the app's Pegassi Toros entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 6.8, Acceleration 7.9, Asphalt handling 4.1, Off-road handling 5.2, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "pegassi",
@@ -179,13 +232,23 @@
       "manufacturer": "Pegassi",
       "model": "Toros",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 6.8,
+      "acceleration": 7.9,
+      "asphalt_handling": 4.1,
+      "offroad_handling": 5.2,
+      "strength": 3.0,
+      "price": "$8,950 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$23,045 when stolen",
+      "where": "GTABase: Pegassi Toros with a donk conversion and a custom finish, kept at a house in La Perle by San4San. A short stroll from La Perle Fire Station.; Standout (GTABase map): Vice City -  #152 Pegassi Charred Toros Vice City Set: Donks. Pegassi Toros with a donk conversion and a custom finish, kept at a house in La Perle by San4San. A short stroll from La Perle Fire Station."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -194,7 +257,8 @@
     "summary": "A standout Tulip that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Declasse Pink Gin Tulip in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Declasse Tulip."
+      "It is a standout version of the Declasse Tulip.",
+      "In-game stat bars (out of 10): Speed 4.6, Acceleration 5.4, Asphalt handling 2.6, Off-road handling 4.8, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "declasse",
@@ -206,13 +270,21 @@
       "manufacturer": "Declasse",
       "model": "Tulip",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 4.6,
+      "acceleration": 5.4,
+      "asphalt_handling": 2.6,
+      "offroad_handling": 4.8,
+      "strength": 3.0,
+      "where": "GTABase: '72 Declasse Tulip converted into a dazzling pink donk, found at a San4San garage in La Perle.; Standout (GTABase map): Vice City -  #92 Declasse Pink Gin Tulip Vice City Set: Donks. '72 Declasse Tulip converted into a dazzling pink donk, found at a San4San garage in La Perle."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -222,7 +294,8 @@
     "body": [
       "GTABase's interactive map lists the Benefactor Nightlight Schafer in its Standout Vehicle category, filed under the Vice City area.",
       "It is a standout version of the Schafter; the app's Benefactor Schafter entry covers the regular model.",
-      "The map spells the base model \"Schafer\"; the app has the Benefactor Schafter."
+      "The map spells the base model \"Schafer\"; the app has the Benefactor Schafter.",
+      "In-game stat bars (out of 10): Speed 7.2, Acceleration 7.5, Asphalt handling 6.2, Off-road handling 2.9, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "benefactor",
@@ -234,13 +307,23 @@
       "manufacturer": "Benefactor",
       "model": "Schafter",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 7.2,
+      "acceleration": 7.5,
+      "asphalt_handling": 6.2,
+      "offroad_handling": 2.9,
+      "strength": 3.0,
+      "price": "$3,650 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$8,357 when stolen",
+      "where": "Standout (GTABase map): Vice City -  #89 Benefactor Nightlight Schafter Vice City Set: Street Racer. One-off Benefactor Schafter S with racing mods, kept at an old building in Little Cuba by the Guardia Brothers."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -249,7 +332,8 @@
     "summary": "A standout Chino that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Dundreary Cherry Bomb Chino in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Chino; the app's '65 Dundreary Chino entry covers the regular model."
+      "It is a standout version of the Chino; the app's '65 Dundreary Chino entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 6.0, Acceleration 6.6, Asphalt handling 3.6, Off-road handling 4.2, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "chino",
@@ -261,13 +345,21 @@
       "manufacturer": "Dundreary",
       "model": "Chino",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 6.0,
+      "acceleration": 6.6,
+      "asphalt_handling": 3.6,
+      "offroad_handling": 4.2,
+      "strength": 3.0,
+      "where": "GTABase: '65 Dundreary Chino with a modern muscle overhaul. Kept at a Little Cuba boatyard by the Guardia Brothers.; Standout (GTABase map): Vice City -  #87 Dundreary Cherry Bomb Chino Vice City Set: Ripped & Shredded. '65 Dundreary Chino with a modern muscle overhaul. Kept at a Little Cuba boatyard by the Guardia Brothers."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -276,7 +368,8 @@
     "summary": "A standout Boomazoom that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Maibatsu Speedy Boomazoom in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Boomazoom; the app's Maibatsu Boomazoom entry covers the regular model."
+      "It is a standout version of the Boomazoom; the app's Maibatsu Boomazoom entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 0.6, Acceleration 0.1, Asphalt handling 0.7, Off-road handling 2.0, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "boomazoom",
@@ -288,13 +381,21 @@
       "manufacturer": "Maibatsu",
       "model": "Boomazoom",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 0.6,
+      "acceleration": 0.1,
+      "asphalt_handling": 0.7,
+      "offroad_handling": 2.0,
+      "strength": 4.0,
+      "where": "GTABase: Souped-up Maibatsu Boomazoom with extra speed for a competitive edge. Discovered in a garage in Little Cuba.; Standout (GTABase map): Vice City -  #122 Maibatsu Speedy Boomazoom Vice City Set: Leonida Man. Souped-up Maibatsu Boomazoom with extra speed for a competitive edge. Discovered in a garage in Little Cuba."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -303,7 +404,8 @@
     "summary": "A standout Phoenix that GTABase's map places in the Gloriana Key area.",
     "body": [
       "GTABase's interactive map lists the Imponte Bloodbath Phoenix in its Standout Vehicle category, filed under the Gloriana Key area.",
-      "It is a standout version of the Phoenix; the app's Imponte Phoenix entry covers the regular model."
+      "It is a standout version of the Phoenix; the app's Imponte Phoenix entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 6.2, Acceleration 6.7, Asphalt handling 3.9, Off-road handling 4.8, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "imponte",
@@ -315,13 +417,21 @@
       "manufacturer": "Imponte",
       "model": "Phoenix",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Gloriana Key area of GTABase's map"
+      "availability": "Fixed standout spawn, Gloriana Key area of GTABase's map",
+      "speed": 6.2,
+      "acceleration": 6.7,
+      "asphalt_handling": 3.9,
+      "offroad_handling": 4.8,
+      "strength": 3.0,
+      "where": "GTABase: '77 Imponte Phoenix found at an illegal chop shop in Salton. Comes with a custom design and supercharger.; Standout (GTABase map): Gloriana Key -  #40 Imponte Bloodbath Phoenix Gloriana Key Set: Ripped & Shredded. '77 Imponte Phoenix found at an illegal chop shop in Salton. Comes with a custom design and supercharger."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -330,7 +440,8 @@
     "summary": "A standout Manchez that GTABase's map places in the Hamlet area.",
     "body": [
       "GTABase's interactive map lists the Maibatsu Tropical Manchez in its Standout Vehicle category, filed under the Hamlet area.",
-      "It is a standout version of the Manchez; the app's Maibatsu Manchez entry covers the regular model."
+      "It is a standout version of the Manchez; the app's Maibatsu Manchez entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 4.7, Acceleration 6.8, Asphalt handling 5.2, Off-road handling 7.7, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "maibatsu",
@@ -342,13 +453,22 @@
       "manufacturer": "Maibatsu",
       "model": "Manchez",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map",
+      "speed": 4.7,
+      "acceleration": 6.8,
+      "asphalt_handling": 5.2,
+      "offroad_handling": 7.7,
+      "strength": 4.0,
+      "where": "GTABase: Distinctive Maibatsu Manchez, customized by PTT Youngin$ and kept at a warehouse in Southside. Ultimate Edition reward.; Standout (GTABase map): Hamlet -  #38 Maibatsu Tropical Manchez Hamlet Set: Race Bikes. Distinctive Maibatsu Manchez, customized by PTT Youngin$ and kept at a warehouse in Southside. Ultimate Edition reward.",
+      "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -357,7 +477,8 @@
     "summary": "A standout Zorrusso that GTABase's map places in the Hamlet area.",
     "body": [
       "GTABase's interactive map lists the Granforma Tsunami Zorrusso in its Standout Vehicle category, filed under the Hamlet area.",
-      "It is a standout version of the Zorrusso; the app's Granforma Zorrusso entry covers the regular model."
+      "It is a standout version of the Zorrusso; the app's Granforma Zorrusso entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 8.3, Acceleration 8.6, Asphalt handling 7.3, Off-road handling 3.8, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "granforma",
@@ -369,13 +490,21 @@
       "manufacturer": "Granforma",
       "model": "Zorrusso",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map",
+      "speed": 8.3,
+      "acceleration": 8.6,
+      "asphalt_handling": 7.3,
+      "offroad_handling": 3.8,
+      "strength": 4.0,
+      "where": "GTABase: One-of-a-kind Granforma Zorrusso modified to racing specifications, found at a luxury residence in Peacock Estates.; Standout (GTABase map): Hamlet -  #35 Granforma Tsunami Zorrusso Hamlet Set: Street Racer. One-of-a-kind Granforma Zorrusso modified to racing specifications, found at a luxury residence in Peacock Estates."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -396,13 +525,16 @@
       "manufacturer": "Tuff",
       "model": "BMX",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map",
+      "where": "GTABase: Tuff BMX, formerly owned by a wannabe stunt rider. Found by an abandoned pool in Hamlet.; Standout (GTABase map): Hamlet -  #32 Tuff Immortal BMX Hamlet Set: Pedal Power. Tuff BMX, formerly owned by a wannabe stunt rider. Found by an abandoned pool in Hamlet."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -411,7 +543,8 @@
     "summary": "A standout Avarus that GTABase's map places in the Hamlet area.",
     "body": [
       "GTABase's interactive map lists the LCC Midnight Sun Avarus in its Standout Vehicle category, filed under the Hamlet area.",
-      "It is a standout version of the Avarus; the app's LCC Avarus entry covers the regular model."
+      "It is a standout version of the Avarus; the app's LCC Avarus entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.6, Acceleration 4.7, Asphalt handling 4.8, Off-road handling 2.7, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "avarus",
@@ -423,13 +556,21 @@
       "manufacturer": "LCC",
       "model": "Avarus",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map",
+      "speed": 3.6,
+      "acceleration": 4.7,
+      "asphalt_handling": 4.8,
+      "offroad_handling": 2.7,
+      "strength": 4.0,
+      "where": "GTABase: Unique LCC Avarus with a one-off design, discovered in a garage in Hamlet.; Standout (GTABase map): Hamlet -  #31 LCC Midnight Sun Avarus Hamlet Set: Chopper. Unique LCC Avarus with a one-off design, discovered in a garage in Hamlet."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -438,7 +579,8 @@
     "summary": "A standout Bandito that GTABase's map places in the Hamlet area.",
     "body": [
       "GTABase's interactive map lists the BF Blood Moon Bandito in its Standout Vehicle category, filed under the Hamlet area.",
-      "It is a standout version of the Bandito; the app's '77 BF Bandito entry covers the regular model."
+      "It is a standout version of the Bandito; the app's '77 BF Bandito entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.9, Acceleration 6.8, Asphalt handling 3.5, Off-road handling 7.6, Strength 3.5, as read by GTABase only so far."
     ],
     "tags": [
       "bandito",
@@ -450,13 +592,21 @@
       "manufacturer": "BF",
       "model": "Bandito",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map",
+      "speed": 3.9,
+      "acceleration": 6.8,
+      "asphalt_handling": 3.5,
+      "offroad_handling": 7.6,
+      "strength": 3.5,
+      "where": "GTABase: '77 BF Bandito, customized for superior off-roading. Discovered at Boone Speedway.; Standout (GTABase map): Hamlet -  #29 BF Blood Moon Bandito Hamlet Set: All-Terrain. '77 BF Bandito, customized for superior off-roading. Discovered at Boone Speedway."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -465,7 +615,8 @@
     "summary": "A standout Yosemite that GTABase's map places in the Hamlet area.",
     "body": [
       "GTABase's interactive map lists the Declasse Mountain Yosemite in its Standout Vehicle category, filed under the Hamlet area.",
-      "It is a standout version of the Declasse Yosemite."
+      "It is a standout version of the Declasse Yosemite.",
+      "In-game stat bars (out of 10): Speed 4.4, Acceleration 4.7, Asphalt handling 2.9, Off-road handling 7.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "declasse",
@@ -477,13 +628,21 @@
       "manufacturer": "Declasse",
       "model": "Yosemite",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map",
+      "speed": 4.4,
+      "acceleration": 4.7,
+      "asphalt_handling": 2.9,
+      "offroad_handling": 7.3,
+      "strength": 3.0,
+      "where": "GTABase: '67 Declasse Yosemite with off-roading modifications. Found outside a residence in Watson Bay.; Standout (GTABase map): Hamlet -  #24 Declasse Mountain Yosemite Hamlet Set: All-Terrain. '67 Declasse Yosemite with off-roading modifications. Found outside a residence in Watson Bay."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -492,7 +651,8 @@
     "summary": "A standout Boxville that GTABase's map places in the Watson Bay area.",
     "body": [
       "GTABase's interactive map lists the Brute Cherry Popper Boxville in its Standout Vehicle category, filed under the Watson Bay area.",
-      "It is a standout version of the Boxville; the app's Brute Boxville entry covers the regular model."
+      "It is a standout version of the Boxville; the app's Brute Boxville entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 2.6, Acceleration 2.7, Asphalt handling 2.7, Off-road handling 3.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "boxville",
@@ -504,13 +664,21 @@
       "manufacturer": "Brute",
       "model": "Boxville",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map",
+      "speed": 2.6,
+      "acceleration": 2.7,
+      "asphalt_handling": 2.7,
+      "offroad_handling": 3.4,
+      "strength": 3.0,
+      "where": "GTABase: Brute Boxville used for deliveries by a Grassrivers dessert shop. Parked a few steps from The Cherry Popper.; Standout (GTABase map): Watson Bay -  #25 Brute Cherry Popper Boxville Watson Bay Set: Topper. Brute Boxville used for deliveries by a Grassrivers dessert shop. Parked a few steps from The Cherry Popper."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -519,7 +687,8 @@
     "summary": "A standout Picador that GTABase's map places in the Hamlet area.",
     "body": [
       "GTABase's interactive map lists the Declasse Caliente Picador in its Standout Vehicle category, filed under the Hamlet area.",
-      "It is a standout version of the Picador; the app's Cheval Picador entry covers the regular model."
+      "It is a standout version of the Picador; the app's Cheval Picador entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 6.6, Acceleration 6.7, Asphalt handling 3.5, Off-road handling 4.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "declasse",
@@ -531,13 +700,21 @@
       "manufacturer": "Declasse",
       "model": "Picador",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Hamlet area of GTABase's map"
+      "availability": "Fixed standout spawn, Hamlet area of GTABase's map",
+      "speed": 6.6,
+      "acceleration": 6.7,
+      "asphalt_handling": 3.5,
+      "offroad_handling": 4.4,
+      "strength": 3.0,
+      "where": "GTABase: Hot rod built out of a '72 Declasse Picador, with custom flame decals and mods. Found at an old trainyard in North Mariana County.; Standout (GTABase map): Hamlet -  #50 Declasse Caliente Picador Hamlet Set: Hot Rods. Hot rod built out of a '72 Declasse Picador, with custom flame decals and mods. Found at an old trainyard in North Mariana County."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -547,7 +724,8 @@
     "body": [
       "GTABase's interactive map lists the Canis Black Moth Kamacho in its Standout Vehicle category, filed under the Watson Bay area.",
       "It is a standout version of the Kamacho; the app's Canis Kamacho entry covers the regular model.",
-      "The map spells the maker \"Camus\"; the app and GTABase's vehicle pages use Canis."
+      "The map spells the maker \"Camus\"; the app and GTABase's vehicle pages use Canis.",
+      "In-game stat bars (out of 10): Speed 5.4, Acceleration 6.9, Asphalt handling 3.0, Off-road handling 8.3, Strength 3.7, as read by GTABase only so far."
     ],
     "tags": [
       "canis",
@@ -559,13 +737,21 @@
       "manufacturer": "Canis",
       "model": "Kamacho",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map",
+      "speed": 5.4,
+      "acceleration": 6.9,
+      "asphalt_handling": 3.0,
+      "offroad_handling": 8.3,
+      "strength": 3.7,
+      "where": "GTABase: Striking Canis Kamacho, customized by La Polilla Negra and found at a remote property in Watson Bay.; Standout (GTABase map): Watson Bay -  #19 Canis Black Moth Kamacho Watson Bay Set: All-Terrain. Striking Canis Kamacho, customized by La Polilla Negra and found at a remote property in Watson Bay."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -574,7 +760,8 @@
     "summary": "A standout Cliffhanger that GTABase's map places in the Watson Bay area.",
     "body": [
       "GTABase's interactive map lists the Western Magma Cliffhanger in its Standout Vehicle category, filed under the Watson Bay area.",
-      "It is a standout version of the Cliffhanger; the app's Western Cliffhanger entry covers the regular model."
+      "It is a standout version of the Cliffhanger; the app's Western Cliffhanger entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 4.9, Acceleration 5.9, Asphalt handling 5.4, Off-road handling 7.7, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "cliffhanger",
@@ -586,13 +773,21 @@
       "manufacturer": "Western",
       "model": "Cliffhanger",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map",
+      "speed": 4.9,
+      "acceleration": 5.9,
+      "asphalt_handling": 5.4,
+      "offroad_handling": 7.7,
+      "strength": 4.0,
+      "where": "GTABase: '72 Western Cliffhanger with a unique finish, found outside a waterfront shack in Watson Bay.; Standout (GTABase map): Watson Bay -  #26 Western Magma Cliffhanger Watson Bay Set: Retro. '72 Western Cliffhanger with a unique finish, found outside a waterfront shack in Watson Bay."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -613,13 +808,16 @@
       "manufacturer": "Lapwing",
       "model": "300-H",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map",
+      "where": "GTABase: Lapwing 300-H discovered at an airport in Bobcat Key. Modified to somewhat resemble a military vehicle.; Standout (GTABase map): Watson Bay -  #55 Lapwing Stolen Valor 300-H Watson Bay Set: Retro. Lapwing 300-H discovered at an airport in Bobcat Key. Modified to somewhat resemble a military vehicle."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -628,7 +826,8 @@
     "summary": "A standout Bobcat that GTABase's map places in the Capri area.",
     "body": [
       "GTABase's interactive map lists the Declasse Beach Candy Bobcat in its Standout Vehicle category, filed under the Capri area.",
-      "It is a standout version of the Declasse Bobcat."
+      "It is a standout version of the Declasse Bobcat.",
+      "In-game stat bars (out of 10): Speed 4.3, Acceleration 4.8, Asphalt handling 3.2, Off-road handling 5.1, Strength 3.2, as read by GTABase only so far."
     ],
     "tags": [
       "bobcat",
@@ -640,13 +839,21 @@
       "manufacturer": "Declasse",
       "model": "Bobcat",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+      "availability": "Fixed standout spawn, Capri area of GTABase's map",
+      "speed": 4.3,
+      "acceleration": 4.8,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 5.1,
+      "strength": 3.2,
+      "where": "GTABase: '84 Declasse Bobcat XL with a unique finish and an inflatable flamingo in the back. Parked in a lot in Bobcat Key.; Standout (GTABase map): Capri -  #54 Declasse Beach Candy Bobcat Capri Set: Girlypop. '84 Declasse Bobcat XL with a unique finish and an inflatable flamingo in the back. Parked in a lot in Bobcat Key."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -655,7 +862,8 @@
     "summary": "A standout Burrito that GTABase's map places in the Capri area.",
     "body": [
       "GTABase's interactive map lists the Declasse Bugstars Burrito in its Standout Vehicle category, filed under the Capri area.",
-      "It is a standout version of the Burrito; the app's '98 Declasse Burrito entry covers the regular model."
+      "It is a standout version of the Burrito; the app's '98 Declasse Burrito entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.4, Acceleration 3.8, Asphalt handling 3.4, Off-road handling 3.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "burrito",
@@ -667,13 +875,23 @@
       "manufacturer": "Declasse",
       "model": "Burrito",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+      "availability": "Fixed standout spawn, Capri area of GTABase's map",
+      "speed": 3.4,
+      "acceleration": 3.8,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "price": "$2,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$2,365 when stolen",
+      "where": "GTABase: '98 Declasse Burrito belonging to a successful fumigation company. Parked outside a residence in Capri.; Standout (GTABase map): Capri -  #64 Declasse Bugstars Burrito Capri Set: Throwback. '98 Declasse Burrito belonging to a successful fumigation company. Parked outside a residence in Capri."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -682,7 +900,8 @@
     "summary": "A standout Parkland that GTABase's map places in the Capri area.",
     "body": [
       "GTABase's interactive map lists the Declasse Ghosts Exposed Parkland in its Standout Vehicle category, filed under the Capri area.",
-      "It is a standout version of the Parkland; the app's '71 Declasse Parkland entry covers the regular model."
+      "It is a standout version of the Parkland; the app's '71 Declasse Parkland entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 4.8, Acceleration 5.1, Asphalt handling 4.6, Off-road handling 2.9, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "declasse",
@@ -694,13 +913,23 @@
       "manufacturer": "Declasse",
       "model": "Parkland",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+      "availability": "Fixed standout spawn, Capri area of GTABase's map",
+      "speed": 4.8,
+      "acceleration": 5.1,
+      "asphalt_handling": 4.6,
+      "offroad_handling": 2.9,
+      "strength": 3.0,
+      "price": "$10,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$3,135 when stolen",
+      "where": "GTABase: '71 Declasse Parkland with a DIY paint job inspired by a paranormal documentary. Found at a residence in Capri.; Standout (GTABase map): Capri -  #65 Declasse Ghosts Exposed Parkland Capri Set: Leonida Man. '71 Declasse Parkland with a DIY paint job inspired by a paranormal documentary. Found at a residence in Capri."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -709,7 +938,8 @@
     "summary": "A standout Coquette that GTABase's map places in the Capri area.",
     "body": [
       "GTABase's interactive map lists the Invetero Enforcer Coquette in its Standout Vehicle category, filed under the Capri area.",
-      "It is a standout version of the Coquette; the app's Invetero Coquette entry covers the regular model."
+      "It is a standout version of the Coquette; the app's Invetero Coquette entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 7.2, Acceleration 7.6, Asphalt handling 6.5, Off-road handling 3.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "coquette",
@@ -721,13 +951,21 @@
       "manufacturer": "Invetero",
       "model": "Coquette",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+      "availability": "Fixed standout spawn, Capri area of GTABase's map",
+      "speed": 7.2,
+      "acceleration": 7.6,
+      "asphalt_handling": 6.5,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "where": "GTABase: Promotional Invetero Coquette, found on display outside the police HQ in Capri. In the streets near the Capri Police Station.; Standout (GTABase map): Capri -  #68 Invetero Enforcer Coquette Capri Set: Law & Order. Promotional Invetero Coquette, found on display outside the police HQ in Capri. In the streets near the Capri Police Station."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -736,7 +974,8 @@
     "summary": "A standout Hustler that GTABase's map places in the Capri area.",
     "body": [
       "GTABase's interactive map lists the Vapid Red Hot Hustler in its Standout Vehicle category, filed under the Capri area.",
-      "It is a standout version of the Hustler; the app's Vapid Hustler entry covers the regular model."
+      "It is a standout version of the Hustler; the app's Vapid Hustler entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 4.0, Acceleration 5.3, Asphalt handling 3.3, Off-road handling 3.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "hustler",
@@ -748,13 +987,21 @@
       "manufacturer": "Vapid",
       "model": "Hustler",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+      "availability": "Fixed standout spawn, Capri area of GTABase's map",
+      "speed": 4.0,
+      "acceleration": 5.3,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "where": "GTABase: Iconic American hot rod that began life as a '32 Vapid Hustler. Discovered at a beachfront hotel in Capri.; Standout (GTABase map): Capri -  #69 Vapid Red Hot Hustler Capri Set: Hot Rods. Iconic American hot rod that began life as a '32 Vapid Hustler. Discovered at a beachfront hotel in Capri."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -763,7 +1010,8 @@
     "summary": "A standout Youga that GTABase's map places in the Capri area.",
     "body": [
       "GTABase's interactive map lists the Bravado Elven Queen Youga in its Standout Vehicle category, filed under the Capri area.",
-      "It is a standout version of the Bravado Youga."
+      "It is a standout version of the Bravado Youga.",
+      "In-game stat bars (out of 10): Speed 3.2, Acceleration 3.1, Asphalt handling 3.2, Off-road handling 3.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "bravado",
@@ -775,13 +1023,21 @@
       "manufacturer": "Bravado",
       "model": "Youga",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+      "availability": "Fixed standout spawn, Capri area of GTABase's map",
+      "speed": 3.2,
+      "acceleration": 3.1,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "where": "GTABase: Custom '79 Bravado Youga XL, spray-painted with fantasy artwork. Discovered outside a party house near Gellhorn Raceway.; Standout (GTABase map): Capri -  #77 Bravado Elven Queen Youga Capri Set: Fine Art. Custom '79 Bravado Youga XL, spray-painted with fantasy artwork. Discovered outside a party house near Gellhorn Raceway."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -790,7 +1046,8 @@
     "summary": "A standout Ganado that GTABase's map places in the Capri area.",
     "body": [
       "GTABase's interactive map lists the Vapid Smush! Ganado in its Standout Vehicle category, filed under the Capri area.",
-      "It is a standout version of the Ganado; the app's Vapid Ganado entry covers the regular model."
+      "It is a standout version of the Ganado; the app's Vapid Ganado entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 4.7, Acceleration 5.3, Asphalt handling 3.6, Off-road handling 4.5, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "ganado",
@@ -802,13 +1059,22 @@
       "manufacturer": "Vapid",
       "model": "Ganado",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Capri area of GTABase's map"
+      "availability": "Fixed standout spawn, Capri area of GTABase's map",
+      "speed": 4.7,
+      "acceleration": 5.3,
+      "asphalt_handling": 3.6,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "sell_value": "$1,730 when stolen",
+      "where": "GTABase: '70 Vapid Ganado promoting an abandoned juice bar in Gellhorn.; Standout (GTABase map): Capri -  #78 Vapid Smush! Ganado Capri Set: Topper. '70 Vapid Ganado promoting an abandoned juice bar in Gellhorn."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -829,13 +1095,16 @@
       "manufacturer": "Airgator",
       "model": "Airboat",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "where": "Standout (GTABase map): Emerald Springs -  #82 Airgator Naughty Boy Airboat Emerald Springs Set: Swamp Style. Unique Airgator Airboat 09 with a custom finish, owned by a woman attempting to train alligators in Buckskin Swamp."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -844,7 +1113,8 @@
     "summary": "A standout Kamacho that GTABase's map places in the Vice City area.",
     "body": [
       "GTABase's interactive map lists the Canis Gunrunner Kamacho in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Kamacho; the app's Canis Kamacho entry covers the regular model."
+      "It is a standout version of the Kamacho; the app's Canis Kamacho entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 5.0, Acceleration 6.2, Asphalt handling 3.3, Off-road handling 7.2, Strength 5.4, as read by GTABase only so far."
     ],
     "tags": [
       "canis",
@@ -856,13 +1126,21 @@
       "manufacturer": "Canis",
       "model": "Kamacho",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
+      "speed": 5.0,
+      "acceleration": 6.2,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 7.2,
+      "strength": 5.4,
+      "where": "GTABase: Modified Canis Kamacho with a unique finish. Stored in a Balsero warehouse by some arms dealers.; Standout (GTABase map): Vice City -  #84 Canis Gunrunner Kamacho Vice City Set: All-Terrain. Modified Canis Kamacho with a unique finish. Stored in a Balsero warehouse by some arms dealers."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -871,7 +1149,8 @@
     "summary": "A standout Jugular that GTABase's map places in the Waning Sands area.",
     "body": [
       "GTABase's interactive map lists the Ocelot Bloodless Jugular in its Standout Vehicle category, filed under the Waning Sands area.",
-      "It is a standout version of the Ocelot Jugular."
+      "It is a standout version of the Ocelot Jugular.",
+      "In-game stat bars (out of 10): Speed 7.4, Acceleration 8.2, Asphalt handling 6.1, Off-road handling 2.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "jugular",
@@ -883,13 +1162,21 @@
       "manufacturer": "Ocelot",
       "model": "Jugular",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map",
+      "speed": 7.4,
+      "acceleration": 8.2,
+      "asphalt_handling": 6.1,
+      "offroad_handling": 2.6,
+      "strength": 3.0,
+      "where": "GTABase: Race-ready Ocelot Jugular found at a wealthy residence in Belville.; Standout (GTABase map): Waning Sands -  #146 Ocelot Bloodless Jugular Waning Sands Set: Street Racer. Race-ready Ocelot Jugular found at a wealthy residence in Belville."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -898,7 +1185,8 @@
     "summary": "A standout Zombie Bobber that GTABase's map places in the Waning Sands area.",
     "body": [
       "GTABase's interactive map lists the Western Searing Zombie Bobber in its Standout Vehicle category, filed under the Waning Sands area.",
-      "It is a standout version of the Zombie Bobber; the app's Western Zombie Bobber entry covers the regular model."
+      "It is a standout version of the Zombie Bobber; the app's Western Zombie Bobber entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 5.6, Acceleration 6.3, Asphalt handling 5.5, Off-road handling 3.3, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "standout vehicle",
@@ -910,13 +1198,21 @@
       "manufacturer": "Western",
       "model": "Zombie Bobber",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map",
+      "speed": 5.6,
+      "acceleration": 6.3,
+      "asphalt_handling": 5.5,
+      "offroad_handling": 3.3,
+      "strength": 4.0,
+      "where": "GTABase: Western Zombie Bobber owned by a Final Chapter enforcer. Discovered at a rural factory near Belville.; Standout (GTABase map): Waning Sands -  #197 Western Searing Zombie Bobber Waning Sands Set: Chopper. Western Zombie Bobber owned by a Final Chapter enforcer. Discovered at a rural factory near Belville."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -926,7 +1222,8 @@
     "body": [
       "GTABase's interactive map lists the Nagasaki Hung Carbos RS in its Standout Vehicle category, filed under the Ambrosia area.",
       "It is a standout version of the Carbon RS; the app's Nagasaki Carbon RS entry covers the regular model.",
-      "The map spells the base model \"Carbos RS\"; the app has the Nagasaki Carbon RS."
+      "The map spells the base model \"Carbos RS\"; the app has the Nagasaki Carbon RS.",
+      "In-game stat bars (out of 10): Speed 6.7, Acceleration 7.7, Asphalt handling 7.6, Off-road handling 2.3, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "carbon rs",
@@ -938,13 +1235,21 @@
       "manufacturer": "Nagasaki",
       "model": "Carbon RS",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 6.7,
+      "acceleration": 7.7,
+      "asphalt_handling": 7.6,
+      "offroad_handling": 2.3,
+      "strength": 4.0,
+      "where": "GTABase: Vandalized Nagasaki Carbon RS. Found hanging from a tree near a biker bar in Belville.; Standout (GTABase map): Ambrosia -  #195 Nagasaki Hung Carbon RS Ambrosia Set: Fine Art. Vandalized Nagasaki Carbon RS. Found hanging from a tree near a biker bar in Belville."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -953,7 +1258,8 @@
     "summary": "A standout Avarus that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the LCC Monarch Avarus in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Avarus; the app's LCC Avarus entry covers the regular model."
+      "It is a standout version of the Avarus; the app's LCC Avarus entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 4.9, Acceleration 5.4, Asphalt handling 4.8, Off-road handling 3.1, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "avarus",
@@ -965,13 +1271,21 @@
       "manufacturer": "LCC",
       "model": "Avarus",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 4.9,
+      "acceleration": 5.4,
+      "asphalt_handling": 4.8,
+      "offroad_handling": 3.1,
+      "strength": 4.0,
+      "where": "GTABase: One-off LCC Avarus with a unique finish, belonging to the Final Chapter. Found outside a biker bar near Lake Leonida. Around the corner from The Thirsty Wolf biker bar.; Standout (GTABase map): Ambrosia -  #194 LCC Monarch Avarus Ambrosia Set: Chopper. One-off LCC Avarus with a unique finish, belonging to the Final Chapter. Found outside a biker bar near Lake Leonida. Around the corner fr"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -980,7 +1294,8 @@
     "summary": "A standout Gauntlet that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Bravado Copperheads Gauntlet in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Bravado Gauntlet."
+      "It is a standout version of the Bravado Gauntlet.",
+      "In-game stat bars (out of 10): Speed 7.8, Acceleration 7.8, Asphalt handling 5.7, Off-road handling 4.2, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "bravado",
@@ -992,13 +1307,23 @@
       "manufacturer": "Bravado",
       "model": "Gauntlet",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 7.8,
+      "acceleration": 7.8,
+      "asphalt_handling": 5.7,
+      "offroad_handling": 4.2,
+      "strength": 3.0,
+      "price": "$28,400 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$10,120 when stolen",
+      "where": "Standout (GTABase map): Ambrosia -  #188 Bravado Copperheads Gauntlet Ambrosia Set: Clout Chaser. Bravado Gauntlet Hellfire with an Ambrosia Copperheads livery. Found in the garage of a superfan."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1007,7 +1332,8 @@
     "summary": "A standout Gauntlet that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Bravado Devil's Rope Gauntlet in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Bravado Gauntlet."
+      "It is a standout version of the Bravado Gauntlet.",
+      "In-game stat bars (out of 10): Speed 8.3, Acceleration 8.3, Asphalt handling 6.4, Off-road handling 2.9, Strength 3.5, as read by GTABase only so far."
     ],
     "tags": [
       "bravado",
@@ -1019,13 +1345,23 @@
       "manufacturer": "Bravado",
       "model": "Gauntlet",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 8.3,
+      "acceleration": 8.3,
+      "asphalt_handling": 6.4,
+      "offroad_handling": 2.9,
+      "strength": 3.5,
+      "price": "$8,500 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$21,890 when stolen",
+      "where": "Standout (GTABase map): Ambrosia -  #190 Bravado Devil's Rope Gauntlet Ambrosia Set: Ripped & Shredded. Modded Bravado Gauntlet Hellfire with a custom livery, kept at an Ambrosia garage by the Final Chapter."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1034,7 +1370,8 @@
     "summary": "A standout Infernus that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Pegassi Gold Rope Infernus in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Infernus; the app's Pegassi Infernus entry covers the regular model."
+      "It is a standout version of the Infernus; the app's Pegassi Infernus entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 8.3, Acceleration 8.0, Asphalt handling 6.6, Off-road handling 3.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "infernus",
@@ -1046,13 +1383,23 @@
       "manufacturer": "Pegassi",
       "model": "Infernus",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 8.3,
+      "acceleration": 8.0,
+      "asphalt_handling": 6.6,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "price": "$34,750 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$9,200 when stolen",
+      "where": "GTABase: '96 Pegassi Infernus given a custom makeover. Found outside a house in Ambrosia.; Standout (GTABase map): Ambrosia -  #185 Pegassi Gold Rope Infernus Ambrosia Set: Blinged Up. '96 Pegassi Infernus given a custom makeover. Found outside a house in Ambrosia."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1061,7 +1408,8 @@
     "summary": "A standout Stallion that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Classique Emancipator Stallion in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Stallion; the app's Classique Stallion entry covers the regular model."
+      "It is a standout version of the Stallion; the app's Classique Stallion entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 6.3, Acceleration 6.4, Asphalt handling 3.8, Off-road handling 4.5, Strength 5.0, as read by GTABase only so far."
     ],
     "tags": [
       "classique",
@@ -1073,13 +1421,21 @@
       "manufacturer": "Classique",
       "model": "Stallion",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 6.3,
+      "acceleration": 6.4,
+      "asphalt_handling": 3.8,
+      "offroad_handling": 4.5,
+      "strength": 5.0,
+      "where": "GTABase: '68 Classique Stallion with a unique, eye-catching makeover. Found in a garage near Ambrosia. You need a code to enter the barn.; Standout (GTABase map): Ambrosia -  #201 Classique Emancipator Stallion Ambrosia Set: Ripped & Shredded. '68 Classique Stallion with a unique, eye-catching makeover. Found in a garage near Ambrosia. You need a code to enter the barn."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1088,7 +1444,8 @@
     "summary": "A standout Marshall that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Vapid Beer Monster Marshall in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Vapid Marshall."
+      "It is a standout version of the Vapid Marshall.",
+      "In-game stat bars (out of 10): Speed 3.3, Acceleration 4.1, Asphalt handling 2.7, Off-road handling 7.1, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "marshall",
@@ -1100,13 +1457,21 @@
       "manufacturer": "Vapid",
       "model": "Marshall",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 3.3,
+      "acceleration": 4.1,
+      "asphalt_handling": 2.7,
+      "offroad_handling": 7.1,
+      "strength": 3.0,
+      "where": "GTABase: Vapid Marshall promoting Patriot Beer at Thrillbilly Mud Club. Parked by the Thrillbilly Mud Club bar, practically at its door.; Standout (GTABase map): Ambrosia -  #204 Vapid Beer Monster Marshall Ambrosia Set: Patriot. Vapid Marshall promoting Patriot Beer at Thrillbilly Mud Club. Parked by the Thrillbilly Mud Club bar, practically at its door."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1115,7 +1480,8 @@
     "summary": "A standout Injection that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the BF Sludge Wraith Injection in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Injection; the app's BF Injection entry covers the regular model."
+      "It is a standout version of the Injection; the app's BF Injection entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 5.2, Acceleration 6.2, Asphalt handling 3.7, Off-road handling 7.9, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "bf",
@@ -1127,13 +1493,21 @@
       "manufacturer": "BF",
       "model": "Injection",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 5.2,
+      "acceleration": 6.2,
+      "asphalt_handling": 3.7,
+      "offroad_handling": 7.9,
+      "strength": 3.0,
+      "where": "GTABase: '73 BF Injection modified for extra speed and traction. Discovered at Thrillbilly Mud Club.; Standout (GTABase map): Ambrosia -  #205 BF Sludge Wraith Injection Ambrosia Set: All-Terrain. '73 BF Injection modified for extra speed and traction. Discovered at Thrillbilly Mud Club."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1142,7 +1516,8 @@
     "summary": "A standout Youga that GTABase's map places in the Port Gellhorn area.",
     "body": [
       "GTABase's interactive map lists the Bravado Third Eye Youga in its Standout Vehicle category, filed under the Port Gellhorn area.",
-      "It is a standout version of the Bravado Youga."
+      "It is a standout version of the Bravado Youga.",
+      "In-game stat bars (out of 10): Speed 3.1, Acceleration 2.6, Asphalt handling 3.2, Off-road handling 3.1, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "bravado",
@@ -1154,13 +1529,21 @@
       "manufacturer": "Bravado",
       "model": "Youga",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map",
+      "speed": 3.1,
+      "acceleration": 2.6,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.1,
+      "strength": 3.0,
+      "where": "GTABase: Custom '74 Bravado Youga belonging to a psychic in Grayson. Found parked outside her home.; Standout (GTABase map): Port Gellhorn -  #239 Bravado Third Eye Youga Port Gellhorn Set: Fine Art. Custom '74 Bravado Youga belonging to a psychic in Grayson. Found parked outside her home."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1169,7 +1552,8 @@
     "summary": "A standout Crawler that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Canis Nancy's Crawler in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Crawler; the app's '82 Canis Crawler entry covers the regular model."
+      "It is a standout version of the Crawler; the app's '82 Canis Crawler entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.3, Acceleration 5.7, Asphalt handling 3.1, Off-road handling 7.3, Strength 3.9, as read by GTABase only so far."
     ],
     "tags": [
       "canis",
@@ -1181,13 +1565,21 @@
       "manufacturer": "Canis",
       "model": "Crawler",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 3.3,
+      "acceleration": 5.7,
+      "asphalt_handling": 3.1,
+      "offroad_handling": 7.3,
+      "strength": 3.9,
+      "where": "GTABase: Custom '82 Canis Crawler owned by podcaster Nancy Buchanan. Found in the garage at her residence in Moreau.; Standout (GTABase map): Ambrosia -  #241 Canis Nancy's Crawler Ambrosia Set: All-Terrain. Custom '82 Canis Crawler owned by podcaster Nancy Buchanan. Found in the garage at her residence in Moreau."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1196,7 +1588,8 @@
     "summary": "A standout Manchez that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Maibatsu MyWays Manchez in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Manchez; the app's Maibatsu Manchez entry covers the regular model."
+      "It is a standout version of the Manchez; the app's Maibatsu Manchez entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.9, Acceleration 5.8, Asphalt handling 5.2, Off-road handling 7.7, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "maibatsu",
@@ -1208,13 +1601,21 @@
       "manufacturer": "Maibatsu",
       "model": "Manchez",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 3.9,
+      "acceleration": 5.8,
+      "asphalt_handling": 5.2,
+      "offroad_handling": 7.7,
+      "strength": 4.0,
+      "where": "GTABase: Custom Maibatsu Manchez covered in activist stickers. Seemingly abandoned on a bridge near Grayson.; Standout (GTABase map): Ambrosia -  #242 Maibatsu MyWays Manchez Ambrosia Set: Leonida Man. Custom Maibatsu Manchez covered in activist stickers. Seemingly abandoned on a bridge near Grayson."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1235,13 +1636,16 @@
       "manufacturer": "Del Perro",
       "model": "Erode",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "where": "GTABase: One-of-a-kind Del Perro Erode. Found hanging from a bizarre wooden figure in the forest near Bonanza.; Standout (GTABase map): Ambrosia -  #252 Del Perro Midsummer Erode Ambrosia Set: Pedal Power. One-of-a-kind Del Perro Erode. Found hanging from a bizarre wooden figure in the forest near Bonanza."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1250,7 +1654,8 @@
     "summary": "A standout Slamvan that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Vapid Grady's Slamvan in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Slamvan; the app's Vapid Slamvan '56 entry covers the regular model."
+      "It is a standout version of the Slamvan; the app's Vapid Slamvan '56 entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.3, Acceleration 3.4, Asphalt handling 3.2, Off-road handling 3.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "slamvan",
@@ -1262,13 +1667,21 @@
       "manufacturer": "Vapid",
       "model": "Slamvan",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 3.3,
+      "acceleration": 3.4,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "where": "GTABase: Aging '56 Vapid Slamvan, once used for deliveries by Grady's General Store in Moreau.; Standout (GTABase map): Ambrosia -  #248 Vapid Grady's Slamvan Ambrosia Set: Retro. Aging '56 Vapid Slamvan, once used for deliveries by Grady's General Store in Moreau."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1277,7 +1690,8 @@
     "summary": "A standout Buccaneer that GTABase's map places in the Waning Sands area.",
     "body": [
       "GTABase's interactive map lists the Albany Verdant Buccaneer in its Standout Vehicle category, filed under the Waning Sands area.",
-      "It is a standout version of the Buccaneer; the app's '65 Albany Buccaneer entry covers the regular model."
+      "It is a standout version of the Buccaneer; the app's '65 Albany Buccaneer entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 5.7, Acceleration 6.3, Asphalt handling 3.2, Off-road handling 4.5, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "albany",
@@ -1289,13 +1703,21 @@
       "manufacturer": "Albany",
       "model": "Buccaneer",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map",
+      "speed": 5.7,
+      "acceleration": 6.3,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "where": "GTABase: Stylish lowrider kept at an M7 weed operation near Millport. Built from a '65 Albany Buccaneer.; Standout (GTABase map): Waning Sands -  #253 Albany Verdant Buccaneer Waning Sands Set: Lowriders. Stylish lowrider kept at an M7 weed operation near Millport. Built from a '65 Albany Buccaneer."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1304,7 +1726,8 @@
     "summary": "A standout Reclaimer that GTABase's map places in the Waning Sands area.",
     "body": [
       "GTABase's interactive map lists the Vapid Finns Reclaimer in its Standout Vehicle category, filed under the Waning Sands area.",
-      "It is a standout version of the Vapid Reclaimer."
+      "It is a standout version of the Vapid Reclaimer.",
+      "In-game stat bars (out of 10): Speed 2.6, Acceleration 2.5, Asphalt handling 2.9, Off-road handling 3.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "reclaimer",
@@ -1316,13 +1739,21 @@
       "manufacturer": "Vapid",
       "model": "Reclaimer",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map",
+      "speed": 2.6,
+      "acceleration": 2.5,
+      "asphalt_handling": 2.9,
+      "offroad_handling": 3.6,
+      "strength": 3.0,
+      "where": "GTABase: '70 Vapid Reclaimer promoting Finns Diner, parked by the side of the road in Millport.; Standout (GTABase map): Waning Sands -  #254 Vapid Finns Reclaimer Waning Sands Set: Leonida Man. '70 Vapid Reclaimer promoting Finns Diner, parked by the side of the road in Millport."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1331,7 +1762,8 @@
     "summary": "A standout Burrito that GTABase's map places in the Waning Sands area.",
     "body": [
       "GTABase's interactive map lists the Declasse Truther Burrito in its Standout Vehicle category, filed under the Waning Sands area.",
-      "It is a standout version of the Burrito; the app's '98 Declasse Burrito entry covers the regular model."
+      "It is a standout version of the Burrito; the app's '98 Declasse Burrito entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.4, Acceleration 3.8, Asphalt handling 3.4, Off-road handling 3.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "burrito",
@@ -1343,13 +1775,21 @@
       "manufacturer": "Declasse",
       "model": "Burrito",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map"
+      "availability": "Fixed standout spawn, Waning Sands area of GTABase's map",
+      "speed": 3.4,
+      "acceleration": 3.8,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "where": "GTABase: '98 Declasse Burrito owned by a conspiracy theorist with suspicions about the true intentions of SERA. Parked by a home in Millport.; Standout (GTABase map): Waning Sands -  #232 Declasse Truther Burrito Waning Sands Set: Leonida Man. '98 Declasse Burrito owned by a conspiracy theorist with suspicions about the true intentions of SERA. Parked by a home in Millport."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1358,7 +1798,8 @@
     "summary": "A standout Rancher that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Declasse Flower Powered Rancher in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Rancher; the app's Declasse Rancher entry covers the regular model."
+      "It is a standout version of the Rancher; the app's Declasse Rancher entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.3, Acceleration 3.2, Asphalt handling 3.2, Off-road handling 5.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "declasse",
@@ -1370,13 +1811,21 @@
       "manufacturer": "Declasse",
       "model": "Rancher",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 3.3,
+      "acceleration": 3.2,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 5.4,
+      "strength": 3.0,
+      "where": "GTABase: Unique '86 Declasse Rancher with a trippy paint job, discovered in a barn near Kalaga Reservoir.; Standout (GTABase map): Ambrosia -  #230 Declasse Flower Powered Rancher Ambrosia Set: Fine Art. Unique '86 Declasse Rancher with a trippy paint job, discovered in a barn near Kalaga Reservoir."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1385,7 +1834,8 @@
     "summary": "A standout DeVanity that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Albany Driveshaft Devanity in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the DeVanity; the app's Albany DeVanity '59 entry covers the regular model."
+      "It is a standout version of the DeVanity; the app's Albany DeVanity '59 entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 5.1, Acceleration 5.3, Asphalt handling 3.2, Off-road handling 4.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "albany",
@@ -1397,13 +1847,21 @@
       "manufacturer": "Albany",
       "model": "DeVanity",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 5.1,
+      "acceleration": 5.3,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 4.6,
+      "strength": 3.0,
+      "where": "GTABase: Custom '59 Albany Devanity, carefully maintained by widow Butter Collins at her farmhouse in North Leonard County.; Standout (GTABase map): Ambrosia -  #229 Albany DriveShaft Devanity Ambrosia Set: DriveShaft Famous. Custom '59 Albany Devanity, carefully maintained by widow Butter Collins at her farmhouse in North Leonard County."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1412,7 +1870,8 @@
     "summary": "A standout Rancher that GTABase's map places in the Port Gellhorn area.",
     "body": [
       "GTABase's interactive map lists the Declasse Red Apple Orchard Rancher in its Standout Vehicle category, filed under the Port Gellhorn area.",
-      "It is a standout version of the Rancher; the app's Declasse Rancher entry covers the regular model."
+      "It is a standout version of the Rancher; the app's Declasse Rancher entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.5, Acceleration 3.6, Asphalt handling 3.1, Off-road handling 6.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "declasse",
@@ -1424,13 +1883,21 @@
       "manufacturer": "Declasse",
       "model": "Rancher",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map",
+      "speed": 3.5,
+      "acceleration": 3.6,
+      "asphalt_handling": 3.1,
+      "offroad_handling": 6.6,
+      "strength": 3.0,
+      "where": "GTABase: '86 Declasse Rancher converted to advertise a tourist attraction in Manifest Canyon. In the garage of the Red Apple Orchard.; Door code: 360782.; Standout (GTABase map): Port Gellhorn -  #226 Declasse Red Apple Orchard Rancher Port Gellhorn Set: Topper. '86 Declasse Rancher converted to advertise a tourist attraction in Manifest Canyon. In the garage of the Red Apple Orchard.. Door code: "
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1439,7 +1906,8 @@
     "summary": "A standout Youga that GTABase's map places in the Port Gellhorn area.",
     "body": [
       "GTABase's interactive map lists the Bravado Circles of Hell Youga in its Standout Vehicle category, filed under the Port Gellhorn area.",
-      "It is a standout version of the Bravado Youga."
+      "It is a standout version of the Bravado Youga.",
+      "In-game stat bars (out of 10): Speed 3.2, Acceleration 3.1, Asphalt handling 3.2, Off-road handling 3.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "bravado",
@@ -1451,13 +1919,21 @@
       "manufacturer": "Bravado",
       "model": "Youga",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map",
+      "speed": 3.2,
+      "acceleration": 3.1,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "where": "GTABase: '79 Bravado Youga XL with a metal-inspired design, owned by some Satanists in Port Gellhorn. The vehicle here can also be a Vapid Driveshaft Marshall.; Standout (GTABase map): Port Gellhorn -  #212 Bravado Circles of Hell Youga Port Gellhorn Set: Fine Art. '79 Bravado Youga XL with a metal-inspired design, owned by some Satanists in Port Gellhorn. The vehicle here can also be a Vapid Driv"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1466,7 +1942,8 @@
     "summary": "A standout Rebel that GTABase's map places in the Port Gellhorn area.",
     "body": [
       "GTABase's interactive map lists the Karin Busted Cheater Rebel in its Standout Vehicle category, filed under the Port Gellhorn area.",
-      "It is a standout version of the Karin Rebel."
+      "It is a standout version of the Karin Rebel.",
+      "In-game stat bars (out of 10): Speed 4.6, Acceleration 5.7, Asphalt handling 3.4, Off-road handling 6.5, Strength 4.7, as read by GTABase only so far."
     ],
     "tags": [
       "karin",
@@ -1478,13 +1955,21 @@
       "manufacturer": "Karin",
       "model": "Rebel",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map",
+      "speed": 4.6,
+      "acceleration": 5.7,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 6.5,
+      "strength": 4.7,
+      "where": "GTABase: Vandalized '84 Karin Rebel belonging to a Port Gellhorn newlywed who failed to respect his vows.; Standout (GTABase map): Port Gellhorn -  #217 Karin Busted Cheater Rebel Port Gellhorn Set: Leonida Man. Vandalized '84 Karin Rebel belonging to a Port Gellhorn newlywed who failed to respect his vows."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1532,13 +2017,16 @@
       "manufacturer": "Walter",
       "model": "Cruiser",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map"
+      "availability": "Fixed standout spawn, Port Gellhorn area of GTABase's map",
+      "where": "GTABase: Unusual Walter Cruiser painted white as part of a roadside memorial in Port Gellhorn.; Standout (GTABase map): Port Gellhorn -  #135 Walter Ghost Cruiser Port Gellhorn Set: Pedal Power. Unusual Walter Cruiser painted white as part of a roadside memorial in Port Gellhorn."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1559,13 +2047,16 @@
       "manufacturer": "Seashark",
       "model": "Azure",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map",
+      "where": "GTABase: Custom Seashark Azure with an eye-catching color scheme. Discovered near its owner in Pelican Valley.; Standout (GTABase map): Watson Bay -  #15 Seashark Westbound Azure Watson Bay Set: Leonida Man. Custom Seashark Azure with an eye-catching color scheme. Discovered near its owner in Pelican Valley."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1586,13 +2077,16 @@
       "manufacturer": "Airgator",
       "model": "Airboat",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map"
+      "availability": "Fixed standout spawn, Watson Bay area of GTABase's map",
+      "where": "Standout (GTABase map): Watson Bay -  #14 Airgator Dr Sheehan's Airboat Watson Bay Set: Swamp Style. Custom Airgator Airboat 09 used by a biologist working at a remote research outpost in Pelican Valley."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1613,13 +2107,16 @@
       "manufacturer": "Lure",
       "model": "Predator L20S",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map",
+      "where": "GTABase: Lure Predator L20S owned by livestreamer Merman Ray, discovered by a small island in Gambit Bay.; Standout (GTABase map): Key Lento -  #13 Lure Predator Rainbow Ripple L20S Key Lento Set: Clout Chaser. Lure Predator L20S owned by livestreamer Merman Ray, discovered by a small island in Gambit Bay."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1641,14 +2138,17 @@
       "manufacturer": "Nagasaki",
       "model": "Tao",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map",
+      "where": "GTABase: Uniquely modified Nagasaki Tao, full of festive cheer. Found outside a house in Key Lento.; Standout (GTABase map): Key Lento -  #6 Nagasaki Rudolph Tao Key Lento Set: Leonida Man. Uniquely modified Nagasaki Tao, full of festive cheer. Found outside a house in Key Lento."
     },
     "confidence": "corroborated",
     "sources": [
-      "r8gb-map-standout-vehicle",
-      "r11g-gw-tao-boat"
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
+      "r11g-gw-tao-boat",
+      "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1657,7 +2157,8 @@
     "summary": "A standout Shifter that GTABase's map places in the Key Lento area.",
     "body": [
       "GTABase's interactive map lists the Vapid Shrimp and Save Shifter in its Standout Vehicle category, filed under the Key Lento area.",
-      "It is a standout version of the Shifter; the app's Shifter entry covers the regular model."
+      "It is a standout version of the Shifter; the app's Shifter entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.6, Acceleration 4.2, Asphalt handling 3.6, Off-road handling 3.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "shifter",
@@ -1669,13 +2170,22 @@
       "manufacturer": "Vapid",
       "model": "Shifter",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map",
+      "speed": 3.6,
+      "acceleration": 4.2,
+      "asphalt_handling": 3.6,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "sell_value": "$1,150 when stolen",
+      "where": "GTABase: Vapid Shifter used for catering and deliveries by a shrimp restaurant in Key Lento. Waiting outside Shrimp & Save, the shop its livery advertises.; Standout (GTABase map): Key Lento -  #4 Vapid Shrimp and Save Shifter Key Lento Set: Topper. Vapid Shifter used for catering and deliveries by a shrimp restaurant in Key Lento. Waiting outside Shrimp & Save, the shop its livery advertises."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1684,7 +2194,8 @@
     "summary": "A standout Akane that GTABase's map places in the Key Lento area.",
     "body": [
       "GTABase's interactive map lists the Declasse Cousin Carlo's Akane in its Standout Vehicle category, filed under the Key Lento area.",
-      "It is a standout version of the Akane; the app's Declasse Akane entry covers the regular model."
+      "It is a standout version of the Akane; the app's Declasse Akane entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 4.3, Acceleration 5.0, Asphalt handling 3.5, Off-road handling 4.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "akane",
@@ -1696,13 +2207,22 @@
       "manufacturer": "Declasse",
       "model": "Akane",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map",
+      "speed": 4.3,
+      "acceleration": 5.0,
+      "asphalt_handling": 3.5,
+      "offroad_handling": 4.3,
+      "strength": 3.0,
+      "sell_value": "$850 when stolen",
+      "where": "GTABase: Declasse Akane used for deliveries by pizza parlor in Key Lento.; Standout (GTABase map): Key Lento -  #2 Declasse Cousin Carlo's Akane Key Lento Set: Topper. Declasse Akane used for deliveries by pizza parlor in Key Lento."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1711,7 +2231,8 @@
     "summary": "A standout Youga that GTABase's map places in the Key Lento area.",
     "body": [
       "GTABase's interactive map lists the Bravado Tropic Dawn Youga in its Standout Vehicle category, filed under the Key Lento area.",
-      "It is a standout version of the Bravado Youga."
+      "It is a standout version of the Bravado Youga.",
+      "In-game stat bars (out of 10): Speed 3.2, Acceleration 3.1, Asphalt handling 3.2, Off-road handling 3.3, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "bravado",
@@ -1723,13 +2244,21 @@
       "manufacturer": "Bravado",
       "model": "Youga",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Key Lento area of GTABase's map"
+      "availability": "Fixed standout spawn, Key Lento area of GTABase's map",
+      "speed": 3.2,
+      "acceleration": 3.1,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 3.3,
+      "strength": 3.0,
+      "where": "GTABase: Spray-painted '79 Bravado Youga XL depicting a galleon at sea. Found at a boat repair business in Key Lento.; Standout (GTABase map): Key Lento -  #9 Bravado Tropic Dawn Youga Key Lento Set: Fine Art. Spray-painted '79 Bravado Youga XL depicting a galleon at sea. Found at a boat repair business in Key Lento."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1765,7 +2294,8 @@
     "summary": "A standout Sungrazer that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Sirius Holdout Sungrazer in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Sirius Sungrazer '61, which GTABase lists as a coupe."
+      "It is a standout version of the Sirius Sungrazer '61, which GTABase lists as a coupe.",
+      "In-game stat bars (out of 10): Speed 3.8, Acceleration 3.8, Asphalt handling 3.3, Off-road handling 3.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "sirius",
@@ -1777,13 +2307,21 @@
       "manufacturer": "Sirius",
       "model": "Sungrazer",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map"
+      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
+      "speed": 3.8,
+      "acceleration": 3.8,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 3.4,
+      "strength": 3.0,
+      "where": "GTABase: Well-preserved '61 Sirius Sungrazer with a custom finish, discovered at a residence bordering a factory expansion in Ambrosia.; Standout (GTABase map): Ambrosia -  #200 Sirius Holdout Sungrazer Ambrosia Set: Retro. Well-preserved '61 Sirius Sungrazer with a custom finish, discovered at a residence bordering a factory expansion in Ambrosia."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]

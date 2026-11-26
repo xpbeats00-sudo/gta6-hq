@@ -125,7 +125,6 @@ const PAGES = {
   '#/locations': ['Locations', '.list a[href^="#/locations/"]'],
   '#/vehicles': ['Vehicles', '.list a[href^="#/wiki/vehicles/"]'],
   '#/map': ['Leonida', '#leonida-map .leaflet-marker-icon'],
-  '#/explore': ['Street Explorer', '.map-page.is-explore'],
   '#/manual': ['Field Manual', '.manual .m-book'],
   '#/tracker': ['Collectible Tracker', '.tracker input[type="checkbox"]'],
   '#/wiki/businesses': ['Businesses', '.list a[href^="#/wiki/businesses/"]'],
@@ -248,47 +247,42 @@ await check('Map panel transparency is saved and lets the map show through', asy
 });
 
 // ---------- profiles ----------
-await check('Profiles: Jason keeps his own favourites and walks as Jason', async () => {
+await check('Profiles: Jason keeps his own favourites', async () => {
   const before = (await user()).favourites?.length || 0;
   await go('#/saved', 900);
   await run(`document.querySelector('button[data-profile="jason"]').click(); true`); await sleep(900);
   const on = await run(`document.querySelector('button[data-profile="jason"]').getAttribute('aria-pressed')`);
   await go('#/map', 1600);
-  const walker = await run(`document.querySelector('[data-walker] img').getAttribute('src')`);
   await run(`const f = document.querySelector('.map-filter'); f.value = 'Fleeca'; f.dispatchEvent(new Event('input')); true`); await sleep(400);
   await openPin('.map-lists [data-marker]');
   await run(`document.querySelector('.leaflet-popup [data-act="fav"]').click(); true`); await sleep(400);
   const u = await user();
-  return on === 'true' && /jason/.test(walker) && (u['jason-favourites'] || []).length === 1 && (u.favourites?.length || 0) === before;
+  return on === 'true' && (u['jason-favourites'] || []).length === 1 && (u.favourites?.length || 0) === before;
 });
-await check('Profiles: Lucia from Settings walks as Lucia; Shared comes back unchanged', async () => {
+await check('Profiles: Lucia from Settings has her own favourites; Shared comes back unchanged', async () => {
   await go('#/settings', 800);
   await setting('profile', 'lucia');
   await go('#/map', 1500);
-  const walker = await run(`document.querySelector('[data-walker] img').getAttribute('src')`);
   const luciaFavs = await run(`UserStore.get('favourites', []).length`);
   await go('#/settings', 800);
   await setting('profile', '');
   await go('#/progress', 900);
   const rows = await run(`document.querySelectorAll('.profile-compare tbody tr').length`);
-  return /lucia/.test(walker) && luciaFavs === 0 && rows === 3 ? `walker ${walker.split('/').pop()}` : false;
+  return luciaFavs === 0 && rows === 3;
 });
 
 // ---------- Discovery Journal ----------
-await check('Journal records viewed entries, map cards, Street Explorer pictures and districts', async () => {
+await check('Journal records viewed entries, map cards and districts', async () => {
   await go('#/wiki/businesses/fleeca', 1300);
   await go('#/map', 1500);
   await run(`const f = document.querySelector('.map-filter'); f.value = 'Fleeca'; f.dispatchEvent(new Event('input')); true`); await sleep(400);
   await openPin('.map-lists [data-marker]');
-  await run(`document.querySelector('.leaflet-popup [data-act="street"]').click(); true`);
-  await waitFor(`!!document.querySelector('.sv-photo img')`);
-  await key('ArrowRight'); await sleep(500);
-  await key('Escape'); await sleep(300);
+  await sleep(500);
   await go('#/journal', 900);
   const kinds = await run(`[...new Set([...document.querySelectorAll('.journal-kind')].map((k) => k.textContent))].join(', ')`);
   const districts = await run(`document.querySelectorAll('.journal-districts .chip').length`);
   await shot('journal');
-  return /Viewed/.test(kinds) && /Street Explorer picture/.test(kinds) && /Explored district/.test(kinds) && districts > 0 ? `${kinds}; ${districts} district(s)` : false;
+  return /Viewed/.test(kinds) && /Explored district/.test(kinds) && districts > 0 ? `${kinds}; ${districts} district(s)` : false;
 });
 await check('Journal: notes, search, type filter and oldest-first order', async () => {
   await run(`const t = document.querySelector('#journal-text'); t.value = 'Come back at night for the vault'; document.querySelector('.journal-note button').click(); true`); await sleep(400);
@@ -564,18 +558,27 @@ await check('Search filters show counts that add up, and pressing one keeps focu
   return sums[0] > 0 && sums[0] === sums[1] && kept ? `${sums[0]} results` : false;
 });
 
-await check('Map list: big kinds start folded, a fold button opens one, and searching holds every match open', async () => {
+await check('Map panel: groups list their kinds with found counts; a kind opens its places, hides from the map, and the 100% filter narrows', async () => {
   await go('#/map', 2500);
-  const start = await run(`document.querySelectorAll('.map-lists section.is-folded').length`);
-  const key = await run(`document.querySelector('.map-lists section.is-folded')?.dataset.category`);
-  if (!start || !key) return false;
-  await run(`document.querySelector('[data-fold="${key}"]').click(); true`); await sleep(300);
-  const opened = await run(`!document.querySelector('.map-lists section[data-category="${key}"]').classList.contains('is-folded')`);
-  await run(`document.querySelector('[data-fold="${key}"]').click(); true`); await sleep(300);
+  const kinds = await run(`document.querySelectorAll('.map-kind').length`);
+  const listedAtStart = await run(`document.querySelectorAll('.map-lists [data-marker]').length`);
+  const counts = await run(`[...document.querySelectorAll('.map-kind-n')].every((n) => /^[0-9]+([/][0-9]+)?$/.test(n.textContent.trim()))`);
+  const key = 'crime::Gang Operations';
+  await run(`document.querySelector('[data-kind-open="${key}"]').click(); true`); await sleep(300);
+  const listed = await run(`document.querySelectorAll('.map-kind[data-kind="${key}"] [data-marker]').length`);
+  await run(`document.querySelector('[data-kind-toggle="${key}"]').click(); true`); await sleep(300);
+  const hidden = await run(`document.querySelectorAll('.leaflet-marker-icon.is-filtered').length`);
+  await run(`document.querySelector('[data-kind-toggle="${key}"]').click(); document.querySelector('[data-kind-open="${key}"]').click(); true`); await sleep(300);
+  await run(`document.querySelector('[data-hundred]').click(); true`); await sleep(300);
+  const only = await run(`document.querySelector('.map-count').textContent`);
+  await run(`document.querySelector('[data-hundred]').click(); true`); await sleep(300);
+  await run(`document.querySelector('[data-fold="food"]').click(); true`); await sleep(300);
+  const folded = await run(`document.querySelector('.map-group[data-category="food"]').classList.contains('is-folded')`);
+  await run(`document.querySelector('[data-fold="food"]').click(); true`); await sleep(300);
   await run(`(() => { const s = document.querySelector('.map-filter'); s.value = 'bank'; s.dispatchEvent(new Event('input', { bubbles: true })); })(); true`); await sleep(800);
-  const held = await run(`document.querySelectorAll('.map-lists section.is-folded').length === 0 && [...document.querySelectorAll('.map-fold')].every((b) => b.disabled)`);
+  const held = await run(`document.querySelectorAll('.map-group.is-folded').length === 0 && [...document.querySelectorAll('.map-fold')].every((b) => b.disabled) && document.querySelectorAll('.map-lists [data-marker]').length > 0`);
   await run(`(() => { const s = document.querySelector('.map-filter'); s.value = ''; s.dispatchEvent(new Event('input', { bubbles: true })); })(); true`); await sleep(500);
-  return opened && held ? `${start} folded at first` : false;
+  return kinds > 20 && listedAtStart === 0 && counts && listed === 40 && hidden >= 40 && /100% objectives only/.test(only) && folded && held ? `${kinds} kinds, ${listed} gang operations, "${only}"` : false;
 });
 
 await check('Routes: a planned run is drawn along the roads (routing grid), not as straight lines', async () => {

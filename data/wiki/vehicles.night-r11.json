@@ -6,7 +6,8 @@
     "body": [
       "GTA Wiki (edited November 19, 2026) lists the Karin Intruder as a four-door sedan appearing in GTA IV, GTA V, GTA Online and GTA VI.",
       "According to GTA Wiki, Intruders are visible in Leonida highway and Vice City traffic in the first trailer, and one is parked in front of Delights in an official Port Gellhorn screenshot.",
-      "GTA Wiki says the GTA VI model is based mainly on the facelifted 2005-2006 Infiniti Q45 and, unlike earlier versions, has reversing lights."
+      "GTA Wiki says the GTA VI model is based mainly on the facelifted 2005-2006 Infiniti Q45 and, unlike earlier versions, has reversing lights.",
+      "In-game stat bars (out of 10): Speed 5.5, Acceleration 5.8, Asphalt handling 3.8, Off-road handling 4.5, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "karin",
@@ -16,13 +17,20 @@
     "facts": {
       "manufacturer": "Karin",
       "model": "Intruder",
-      "class": "Sedans"
+      "class": "Sedans",
+      "speed": 5.5,
+      "acceleration": 5.8,
+      "asphalt_handling": 3.8,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-vehicle-pages",
       "r11g-gw-intruder"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-26"
   },
   {
     "slug": "vapid-dominator-asp",
@@ -31,7 +39,8 @@
     "body": [
       "GTA Wiki (edited November 19, 2026) lists the Vapid Dominator ASP as a two-door muscle car appearing in GTA Online and GTA VI.",
       "According to GTA Wiki, one is parked among tuned cars at a street takeover in Crosstown, Vice City, in the first trailer, another appears without a body kit in an official Port Gellhorn screenshot, and the rear of one is seen in the Vice Beach police chase in An Extended Look.",
-      "GTA Wiki says the GTA VI version is toned down from the GTA Online car, based on the 1999-2004 Mustang GT, with no stock spoiler and different standard rims."
+      "GTA Wiki says the GTA VI version is toned down from the GTA Online car, based on the 1999-2004 Mustang GT, with no stock spoiler and different standard rims.",
+      "In-game stat bars (out of 10): Speed 5.7, Acceleration 6.2, Asphalt handling 4.6, Off-road handling 4.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "dominator",
@@ -42,13 +51,20 @@
     "facts": {
       "manufacturer": "Vapid",
       "model": "Dominator ASP",
-      "class": "Muscle"
+      "class": "Muscle",
+      "speed": 5.7,
+      "acceleration": 6.2,
+      "asphalt_handling": 4.6,
+      "offroad_handling": 4.4,
+      "strength": 3.0,
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-vehicle-pages",
       "r11g-gw-dominator-asp"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-26"
   },
   {
     "slug": "vapid-dominator-gtx",
@@ -81,7 +97,8 @@
     "summary": "A yellow HVY telehandler seen parked among shipping containers in the launch trailer.",
     "body": [
       "GTA Wiki (edited November 19, 2026) lists the HVY TH42 Telehandler as a telehandler appearing in GTA VI.",
-      "GTA Wiki says two yellow TH42 Telehandlers are parked near shipping containers in the launch trailer, with their support legs and boom retracted."
+      "GTA Wiki says two yellow TH42 Telehandlers are parked near shipping containers in the launch trailer, with their support legs and boom retracted.",
+      "In-game stat bars (out of 10): Speed 0.9, Acceleration 0.2, Asphalt handling 1.1, Off-road handling 2.2, Strength 7.5, as read by GTABase only so far."
     ],
     "tags": [
       "hvy",
@@ -91,12 +108,18 @@
     "facts": {
       "manufacturer": "HVY",
       "model": "TH42 Telehandler",
-      "class": "Industrial"
+      "class": "Industrial",
+      "speed": 0.9,
+      "acceleration": 0.2,
+      "asphalt_handling": 1.1,
+      "offroad_handling": 2.2,
+      "strength": 7.5
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-vehicle-pages",
       "r11g-gw-th42-telehandler"
     ],
-    "verified": "2026-11-18"
+    "verified": "2026-11-26"
   }
 ]

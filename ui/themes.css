@@ -76,7 +76,7 @@
 /* ---------- Map panels: how much of the map shows through them ---------- */
 :root { --panel-solid: 100%; --surface-glass: 23, 20, 38; }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip, .map3d-popup .maplibregl-popup-content,
-.map-tool, .map-seg, .map-street, .walker-swap, .immersive-hud, .map-layers-panel, .map-legend {
+.map-tool, .map-seg, .immersive-hud, .map-layers-panel, .map-legend {
   background: color-mix(in srgb, var(--bg-header) var(--panel-solid), transparent);
 }
 :root:not([data-panels="solid"]) .immersive-hud, :root:not([data-panels="solid"]) .map-layers-panel,
@@ -107,7 +107,6 @@
 :root[data-theme="light"] .map-route { border-color: rgba(138, 90, 0, 0.45); background: rgba(138, 90, 0, 0.06); }
 :root[data-theme="light"] .route-stop span { color: #1c1526; }
 :root[data-theme="light"] .pin-cluster span { color: #1c1526; }
-:root[data-theme="light"] .map-page.is-explore .map-side h1 { color: var(--info); }
 :root[data-theme="light"] .nav-more-menu, :root[data-theme="light"] .suggest { box-shadow: 0 16px 40px rgba(40, 20, 70, 0.18); }
 
 /* Light theme, accessibility (WCAG 1.4.3). The hero always sits on a picture, so it keeps light text
