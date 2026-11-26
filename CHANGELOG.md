@@ -2,6 +2,29 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.46 (26 November 2026)
+
+A map and menus that look like the game's, new research tools for vehicles, weapons, cards, cheats and trophies, and a full picture clean-up.
+
+- **New map panel:** places are grouped like an interactive guide map:
+  - an icon strip for jumping between groups, and an eye to show or hide each group;
+  - every kind of place with a found count, and a 100% objectives filter;
+  - a Hide found switch, and an icon on every pin.
+- **New pin card:** a picture across the top, a big Found box, favourite, zoom and route buttons, and previous/next through every place of the same kind.
+- **Street View removed.** Its in-game pictures now appear on cards for places that have no picture of their own.
+- **Garage and Weapon Locker:**
+  - stat bars for 341 vehicles and 194 weapons;
+  - side-by-side compare, and your own garage and locker lists;
+  - full prices with the BuckMe and cash marks.
+- **Card Collections:** the 18 card sets, card by card, ticked in step with the Collectible Tracker.
+- **Cheats and Controls:** all 61 cheat codes with D-pad arrows, and a controller diagram for PlayStation or Xbox, Default or Classic.
+- **Trophy Guides:** 51 of the 55 trophies with step-by-step guides and a picture for each step.
+- **Help:** the Field Manual's topics in the game's Help layout.
+- **Pause menu:** press Esc, or the new button in the top bar.
+- **Pictures:** every picture was checked for watermarks and quality:
+  - 74 pictures replaced or re-cut, and every site watermark gone;
+  - sharp new pictures for 43 vehicles, 11 animals, 5 weapons and several missions.
+
 ## 0.2.45 (25 November 2026)
 
 Every gang operation on the map, a safe code for every safe, and entry pages that link what they mention.

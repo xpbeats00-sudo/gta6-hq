@@ -102,6 +102,7 @@ When a new version is out, the app says so. In an installed copy, **Update now**
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.svg" alt="What's new" width="860"></p>
 
+- **0.2.46**: a map and menus that look like the game's, a Garage and Weapon Locker with stat bars, Card Collections, Cheats and Controls, Trophy Guides, and 74 cleaner, sharper pictures.
 - **0.2.45**: all 40 gang operations on the map, a safe code for every safe, and entry pages that link the people and places they mention.
 - **0.2.44**: choose your start-up (Classic or the game's own Official intro), 49 new pictures, voice actors for the cast, the latest news and checked facts.
 - **0.2.43**: 63 new pictures, and pictures removed for site logos no longer come back on installed copies.

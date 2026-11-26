@@ -1,18 +1,18 @@
 # Media rights audit
 
-Generated 2026-11-25 12:35 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-26 03:29 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 1363 |
-| Records in `data/media.json` | 1363 |
+| Media files on disk (`images/`, `wallpapers/`) | 1364 |
+| Records in `data/media.json` | 1364 |
 | Files with no record | 0 |
 | Records with no file | 0 |
 | Groups of identical files | 5 |
-| Files not used anywhere | 110 |
-| Records missing source, licence, creator or description | 0 |
+| Files not used anywhere | 100 |
+| Records missing source, licence, creator or description | 1 |
 | Records with no retrieval date | 21 |
 
 ## Distribution decision
@@ -23,7 +23,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 |---|---|---|
 | approved_for_distribution | 0 | Cleared to ship in a public package |
 | local_personal_use_only | 1341 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
-| unknown | 22 | Origin or rights not established |
+| unknown | 23 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
 **No file is cleared for public distribution.** A public installer built today would have to leave out every picture and video.
@@ -34,7 +34,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 |---|---|
 | evidence_frame | 23 |
 | official_illustration | 161 |
-| owner_supplied_unverified | 115 |
+| owner_supplied_unverified | 116 |
 | third_party_screenshot | 1060 |
 | unrecorded_source | 4 |
 
@@ -86,27 +86,21 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/editions/vintage-vice-city-pack-01.jpg`
 - `images/manual/footage/circuit-race-1742.jpg`
 - `images/map-icons/ammu-nation.webp`
-- `images/map-icons/bank.webp`
 - `images/map-icons/bar.webp`
-- `images/map-icons/base-jump.webp`
 - `images/map-icons/basketball.webp`
 - `images/map-icons/bus-stop.webp`
 - `images/map-icons/cafe.webp`
 - `images/map-icons/car-wash.webp`
 - `images/map-icons/clothing.webp`
 - `images/map-icons/convenience-store.webp`
-- `images/map-icons/drone-race.webp`
 - `images/map-icons/electronics.webp`
 - `images/map-icons/ev-charger.webp`
 - `images/map-icons/fast-food.webp`
 - `images/map-icons/fence.webp`
 - `images/map-icons/fishing.webp`
 - `images/map-icons/footwear.webp`
-- `images/map-icons/gang-operation.webp`
-- `images/map-icons/garage.webp`
 - `images/map-icons/gas-station.webp`
 - `images/map-icons/golf.webp`
-- `images/map-icons/gym.webp`
 - `images/map-icons/haircut.webp`
 - `images/map-icons/hunting.webp`
 - `images/map-icons/liquor-store.webp`
@@ -116,23 +110,19 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/map-icons/pay-n-spray.webp`
 - `images/map-icons/payday-loan.webp`
 - `images/map-icons/race.webp`
-- `images/map-icons/safe.webp`
 - `images/map-icons/safehouse.webp`
-- `images/map-icons/shooting-range.webp`
 - `images/map-icons/smash-n-grab.webp`
 - `images/map-icons/standout-vehicle.webp`
 - `images/map-icons/street-food.webp`
-- `images/map-icons/stunt-jump.webp`
 - `images/map-icons/tattoo.webp`
 - `images/map-icons/towable-atm.webp`
 - `images/map-icons/train-station.webp`
-- `images/map-icons/treasure.webp`
 - `images/map-icons/vehicle-rental.webp`
 - `images/map-icons/vehicle-request.webp`
-- `images/map-icons/waink-sculpture.webp`
 - `images/map/leonida-routes.png`
 - `images/map/walker-lucia.png`
 - `images/social-preview.png`
+- `images/ui/menu-palms.webp`
 - `images/vi-logo-reveal-discord-1024.png`
 - `images/vi-logo-reveal.jpg`
 - `wallpapers/posters/gta-6-dawn-of-the-heist.jpg`

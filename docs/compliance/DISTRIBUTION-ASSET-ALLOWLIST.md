@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-25 12:35 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-26 03:29 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -867,7 +867,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/bravado-buffalo-07.jpg`
 - `images/vehicles/bravado-buffalo-19.jpg`
 - `images/vehicles/bravado-copperheads-gauntlet.jpg`
-- `images/vehicles/bravado-dorado.png`
+- `images/vehicles/bravado-dorado.jpg`
 - `images/vehicles/bravado-gauntlet-custom-69.jpg`
 - `images/vehicles/bravado-gauntlet-hellfire.jpg`
 - `images/vehicles/bravado-gresley-xt.jpg`
@@ -892,7 +892,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/canis-mesa.jpg`
 - `images/vehicles/canis-terminus.jpg`
 - `images/vehicles/cartwright-biff.jpg`
-- `images/vehicles/cartwright-hauler.png`
+- `images/vehicles/cartwright-hauler.jpg`
 - `images/vehicles/clarion.jpg`
 - `images/vehicles/classique-stallion.jpg`
 - `images/vehicles/coil-raiden.jpg`
@@ -967,7 +967,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/lapwing-mallard.jpg`
 - `images/vehicles/lapwing-nimbus.jpg`
 - `images/vehicles/lcc-avarus.jpg`
-- `images/vehicles/lifta.png`
+- `images/vehicles/lifta.jpg`
 - `images/vehicles/lure-predator-l20s.jpg`
 - `images/vehicles/lure-predator-l35p.jpg`
 - `images/vehicles/lure-predator-rainbow-ripple-l20s.jpg`
@@ -1352,7 +1352,7 @@ None. No media file is cleared for public distribution.
 - `wallpapers/posters/gta-vi-vice-city-skyline-night.jpg`
 - `wallpapers/posters/gta6-intro-montage.jpg`
 
-## Unknown (22)
+## Unknown (23)
 
 - `images/community/server-icon.png`
 - `images/dawn-of-the-heist.jpg`
@@ -1361,6 +1361,7 @@ None. No media file is cleared for public distribution.
 - `images/pier-showdown.jpg`
 - `images/pink-neon-logo.jpg`
 - `images/social-preview.png`
+- `images/ui/menu-palms.webp`
 - `images/vi-logo-reveal-discord-1024.png`
 - `images/vi-logo-reveal.jpg`
 - `images/vice-city-sunset.jpg`
