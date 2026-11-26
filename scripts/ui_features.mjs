@@ -1,4 +1,4 @@
-// Feature test for the map, Street Explorer and the reader's own pages, in a real browser.
+// Feature test for the map and the reader's own pages, in a real browser.
 //
 //   1. Start the app on a spare port with throwaway settings, e.g. (PowerShell):
 //        $env:GTA6_HQ_SETTINGS="$env:TEMP\hq-test\settings.json"; $env:GTA6_HQ_USERDATA="$env:TEMP\hq-test\userdata.json"
@@ -271,83 +271,20 @@ await check('Switching back to 2D keeps the chosen place open', async () => {
   return /Fleeca Bank \(Downtown\)/.test(title) ? title : false;
 });
 
-// ---------- Street Explorer ----------
-await check('Dragging the walker onto the 2D map opens Street Explorer', async () => {
-  await run(`document.querySelector('.leaflet-popup-close-button')?.click(); true`);
-  await sleep(300);
-  await run(`window.__ev = []; for (const t of ['pointerdown', 'pointerup', 'pointercancel', 'click']) document.addEventListener(t, (e) => window.__ev.push(t + ':' + (e.target.className || e.target.tagName)), true); true`);
-  const w = JSON.parse(await run(`JSON.stringify(document.querySelector('[data-walker]').getBoundingClientRect())`));
-  const sx = w.x + w.width / 2, sy = w.y + w.height / 2;
-  await mouse('mousePressed', sx, sy);
-  for (let k = 1; k <= 10; k++) { await mouse('mouseMoved', sx - k * 50, sy - k * 32); await sleep(30); }
-  await mouse('mouseReleased', sx - 500, sy - 320);
-  await waitFor(`document.querySelector('.sv-where')?.textContent`);
-  await shot('street');
-  const where = await run(`document.querySelector('.sv-where')?.textContent || ''`);
-  if (!where) throw new Error(`no Street Explorer; events: ${await run('JSON.stringify(window.__ev.slice(-6))')}`);
-  return where;
-});
-await check('Street Explorer: next, thumbnail, back to start, keyboard', async () => {
-  // Pictures cross-fade in once decoded (some are 4K), so each step waits for the new one.
-  const cur = `[...document.querySelectorAll('.sv-photo img')].pop().getAttribute('src')`;
-  const settle = async (not) => { await waitFor(`${cur} !== ${JSON.stringify(not)}`, 5000); await sleep(150); return run(cur); };
-  await waitFor(`!!${cur} && [...document.querySelectorAll('.sv-photo img')].pop().classList.contains('is-in')`, 8000);
-  const first = await run(cur);
-  await run(`document.querySelector('.sv-next').click(); true`);
-  const second = await settle(first);
-  await run(`document.querySelector('[data-go="3"]').click(); true`); await sleep(300);
-  const third = await run(`document.querySelector('.sv-strip .is-on')?.dataset.go`);
-  await settle(second);
-  await key('Home');
-  await waitFor(`${cur} === ${JSON.stringify(first)}`, 5000);
-  const back = await run(cur);
-  await key('ArrowRight');
-  const arrow = await settle(first);
-  return first !== second && third === '3' && back === first && arrow === second;
-});
-await check('Street Explorer: precision label and mini-map', async () => {
-  const caption = await run(`document.querySelector('.sv-caption').textContent`);
-  const mini = await run(`!!document.querySelector('.sv-mini').style.backgroundImage`);
-  return /(Exact|Approximate)/.test(caption) && mini ? caption.match(/(Exact|Approximate)[^·]*/)[0].trim() : false;
-});
-await check('Street Explorer: switch character and save the spot', async () => {
-  // Two portrait badges; the one walking is checked (pink ring). Press the other one.
-  const before = await run(`document.querySelector('.sv-badge[aria-checked="true"]').dataset.who`);
-  await run(`document.querySelector('.sv-badge[aria-checked="false"]').click(); true`); await sleep(200);
-  const after = await run(`document.querySelector('.sv-badge[aria-checked="true"]').dataset.who`);
-  await run(`document.querySelector('[data-save]').click(); true`); await sleep(500);
-  const starts = (await user())['street-starts'] || [];
-  return before !== after && starts.length === 1 ? `${before} -> ${after}` : false;
-});
-await check('Escape closes Street Explorer', async () => {
-  await key('Escape'); await sleep(300);
-  return run(`!document.querySelector('.sv')`);
-});
-await check('Press-then-click places the walker', async () => {
-  await run(`document.querySelector('[data-walker]').dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, clientX: 10, clientY: 10, pointerId: 1 })); document.querySelector('[data-walker]').dispatchEvent(new PointerEvent('pointerup', { bubbles: true, clientX: 10, clientY: 10, pointerId: 1 })); true`);
-  await sleep(200);
-  const armed = await run(`document.querySelector('.map-wrap').classList.contains('is-armed')`);
-  const r = JSON.parse(await run(`JSON.stringify(document.getElementById('leonida-map').getBoundingClientRect())`));
-  await mouse('mousePressed', r.x + r.width * 0.55, r.y + r.height * 0.5);
-  await mouse('mouseReleased', r.x + r.width * 0.55, r.y + r.height * 0.5);
-  await sleep(1200);
-  const open = await run(`!!document.querySelector('.sv')`);
-  await key('Escape'); await sleep(200);
-  return armed && open;
-});
-await check('Dragging the walker onto the 3D map opens Street Explorer', async () => {
-  await run(`document.querySelector('[data-view="3d"]').click(); true`);
-  await waitFor(READY_3D, 30000);
-  const w = JSON.parse(await run(`JSON.stringify(document.querySelector('[data-walker]').getBoundingClientRect())`));
-  const sx = w.x + w.width / 2, sy = w.y + w.height / 2;
-  await mouse('mousePressed', sx, sy);
-  for (let k = 1; k <= 10; k++) { await mouse('mouseMoved', sx - k * 50, sy - k * 32); await sleep(30); }
-  await mouse('mouseReleased', sx - 500, sy - 320);
-  await waitFor(`document.querySelector('.sv-where')?.textContent`);
-  const where = await run(`document.querySelector('.sv-where')?.textContent || ''`);
-  await key('Escape'); await sleep(200);
-  await run(`document.querySelector('[data-view="2d"]').click(); true`);
-  return where || false;
+// ---------- the pin card ----------
+await check('Pin card: a place with no picture of its own shows an in-game picture taken there; no Street Explorer is left', async () => {
+  await run(`document.querySelector('.leaflet-popup-close-button')?.click(); true`); await sleep(300);
+  const i = await run(`(() => { const ps = (state.wiki.map.photos || []).filter((f) => { const t = f.ref && resolve(f.ref); return !t || !isHidden(t.section, t.entry); }); const r = state.wiki.map.height / state.wiki.map.width; return mapPins().findIndex((p) => !p.image && !p.hidden && ps.some((f) => (p.ref && f.ref === p.ref) || (['pin', 'landmark'].includes(f.precision) && Math.hypot(f.x - p.x, (f.y - p.y) * r) < 0.008))); })()`);
+  if (i < 0) throw new Error('no pin without a picture has an in-game picture at or beside it');
+  const name = await run(`mapPins()[${i}].name`);
+  await run(`const f = document.querySelector('.map-filter'); f.value = ${JSON.stringify(name)}; f.dispatchEvent(new Event('input')); true`); await sleep(400);
+  await openPin(`.map-lists [data-marker="${i}"]`);
+  const banner = await run(`document.querySelector('.leaflet-popup .map-card-banner img')?.getAttribute('src') || ''`);
+  const bar = await run(`document.querySelectorAll('.leaflet-popup .map-card-bar [data-act]').length`);
+  const gone = await run(`!document.querySelector('[data-walker], [data-street], .walker-dock, [data-act="street"]') && typeof window.StreetView === 'undefined'`);
+  const menu = await run(`!document.querySelector('a[href="#/explore"]')`);
+  await run(`const f = document.querySelector('.map-filter'); f.value = ''; f.dispatchEvent(new Event('input')); true`); await sleep(300);
+  return banner && bar >= 3 && gone && menu ? `${name}: ${banner.split('/').pop()}` : false;
 });
 
 // ---------- entry pages ----------
@@ -367,11 +304,11 @@ await check('Collections: add from an entry page', async () => {
 });
 
 // ---------- Saved ----------
-await check('Saved page lists favourites, collections, routes, views and spots', async () => {
+await check('Saved page lists favourites, collections, routes and views', async () => {
   await go('#/saved', 1200);
   const groups = await run(`[...document.querySelectorAll('.saved-group h2')].map((h) => h.textContent.replace(/\\s+/g, ' ').trim()).join(' | ')`);
   await shot('saved');
-  return /Favourites 1/.test(groups) && /Collections 1/.test(groups) && /Routes 1/.test(groups) && /Map views 1/.test(groups) && /Street Explorer spots 1/.test(groups) ? groups : false;
+  return /Favourites 1/.test(groups) && /Collections 1/.test(groups) && /Routes 1/.test(groups) && /Map views 1/.test(groups) && !/Street Explorer/.test(groups) ? groups : false;
 });
 await check('Saved: notes are kept and search filters', async () => {
   await run(`const t = document.querySelector('.col-notes'); t.value = 'Do these at night'; t.dispatchEvent(new Event('change', { bubbles: true })); true`); await sleep(400);
@@ -419,14 +356,6 @@ await check('100% Guide checklist ticks are saved in user data', async () => {
 });
 
 // ---------- Settings ----------
-await check('Settings: map mode and walker are saved and used', async () => {
-  await go('#/settings', 1000);
-  await run(`document.querySelector('input[name="walker"][value="lucia"]').click(); true`); await sleep(300);
-  const saved = await run(`fetch('/api/settings').then((r) => r.json()).then((s) => s.walker)`);
-  await go('#/map', 1500);
-  const src = await run(`document.querySelector('[data-walker] img').getAttribute('src')`);
-  return saved === 'lucia' && /lucia/.test(src);
-});
 await check('Settings: reduced motion switches the whole app', async () => {
   await go('#/settings', 900);
   await run(`document.querySelector('input[name="reduced-motion"]').click(); true`); await sleep(300);

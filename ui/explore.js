@@ -1,6 +1,6 @@
 // GTA 6 HQ — the reader's own layer on top of the encyclopedia and the map:
 // Saved places and collections, the Collectible Tracker, the Progress dashboard, Settings,
-// actions on every entry page (favourite, discovered, collection, map, Street Explorer, nearby),
+// actions on every entry page (favourite, discovered, collection, map, nearby),
 // the "More" menu and search suggestions in the top bar.
 //
 // Loaded after app.js and uses its helpers (state, esc, resolve, entryLink, pageHead, mapPins,
@@ -116,8 +116,7 @@
       ${pin ? `<a class="btn btn-primary btn-small" href="#/map?focus=${encodeURIComponent(ref)}">${icon('map')}Show on map</a>` : ''}
       <button type="button" class="chip-btn${fav ? ' is-on' : ''}" data-entry-act="fav" aria-pressed="${fav}">${favLabel(fav)}</button>
       <button type="button" class="chip-btn${found ? ' is-on' : ''}" data-entry-act="found" aria-pressed="${found}">${foundLabel(found)}</button>
-      <button type="button" class="chip-btn" data-entry-act="collect">${icon('collection')}Collection</button>
-      ${pin ? `<a class="chip-btn" href="#/map?street=${pin.x.toFixed(4)},${pin.y.toFixed(4)}">${icon('walk')}Street Explorer here</a>` : ''}`;
+      <button type="button" class="chip-btn" data-entry-act="collect">${icon('collection')}Collection</button>`;
     (lede || body.querySelector('h1'))?.after(acts);
     // The action row has the one map button; the page's own "View on the map" would repeat it.
     if (pin) {
@@ -180,9 +179,8 @@
       const cols = order(UserStore.get('collections', [])).filter((c) => match(c.name) || c.items.some((it) => match(describe(it.key)?.name || '')));
       const routes = order(UserStore.get('routes', [])).filter((r) => match(r.name));
       const views = order(UserStore.get('map-views', [])).filter((v) => match(v.name));
-      const starts = order(UserStore.get('street-starts', [])).filter((s) => match(s.name));
       const empty = !UserStore.get('favourites', []).length && !UserStore.get('collections', []).length && !UserStore.get('routes', []).length
-        && !UserStore.get('map-views', []).length && !UserStore.get('street-starts', []).length;
+        && !UserStore.get('map-views', []).length;
       const place = (f) => `<li class="saved-item">
         ${f.image && !f.hidden ? `<img src="${esc(f.image)}" alt="" loading="lazy">` : '<span class="saved-ph" aria-hidden="true"></span>'}
         <div><a href="${esc(f.href)}">${esc(f.name)}</a><span class="muted">${esc(f.kind || '')}</span></div>
@@ -190,7 +188,7 @@
       // Nothing saved at all: no search or sort to offer, just how to start.
     view.querySelector('.saved-tools').hidden = empty;
     view.querySelector('.saved-body').innerHTML = empty
-        ? `<div class="empty-state"><h2>Nothing saved yet</h2><p>Press <b>Favourite</b> or <b>Collection</b> on any entry or map pin, save a map view with the bookmark on the map, or save a spot in Street Explorer. It all appears here, kept on this computer.</p><a class="btn btn-primary" href="#/map">Open the map</a></div>`
+        ? `<div class="empty-state"><h2>Nothing saved yet</h2><p>Press <b>Favourite</b> or <b>Collection</b> on any entry or map pin, or save a map view with the bookmark on the map. It all appears here, kept on this computer.</p><a class="btn btn-primary" href="#/map">Open the map</a></div>`
         : `
         <section class="saved-group"><h2>Favourites <span class="muted">${favs.length}</span></h2>
           ${favs.length ? favGroups(favs, place) : '<p class="muted">No favourites match.</p>'}</section>
@@ -213,12 +211,9 @@
           ${views.length ? `<ul class="saved-list">${views.map((v) => `<li class="saved-item"><span class="saved-ph saved-ph-view" aria-hidden="true"></span>
             <div><a href="#/map?view=${esc(v.id)}">${esc(v.name)}</a><span class="muted">${esc(when(v.at))}</span></div>
             <div class="saved-btns"><button type="button" class="chip-btn" data-del="map-views" data-id="${esc(v.id)}">Delete</button></div></li>`).join('')}</ul>` : '<p class="muted">Use the bookmark button on the map to save where you are looking.</p>'}</section>
-        <section class="saved-group"><h2>Street Explorer spots <span class="muted">${starts.length}</span></h2>
-          ${starts.length ? `<ul class="saved-list">${starts.map((s) => `<li class="saved-item"><img src="${esc(walkerPicture(s.walker === 'lucia' ? 'lucia' : 'jason'))}" alt="" class="saved-walker">
-            <div><a href="#/map?street=${s.x.toFixed(4)},${s.y.toFixed(4)}&walker=${s.walker === 'lucia' ? 'lucia' : 'jason'}">${esc(s.name)}</a><span class="muted">${esc(when(s.at))}</span></div>
-            <div class="saved-btns"><button type="button" class="chip-btn" data-del="street-starts" data-id="${esc(s.id)}">Delete</button></div></li>`).join('')}</ul>` : '<p class="muted">Press "Save this spot" in Street Explorer.</p>'}</section>`;
+`;
     };
-    view.innerHTML = `${pageHead('Saved', 'Your favourite places, collections with notes, routes, map views and Street Explorer spots. Kept on this computer, no account needed.')}${window.profileBar?.() || ''}
+    view.innerHTML = `${pageHead('Saved', 'Your favourite places, collections with notes, routes and map views. Kept on this computer, no account needed.')}${window.profileBar?.() || ''}
       <div class="block saved-page">
         <div class="saved-tools"><div class="field-search saved-search">${icon('search')}<input type="search" class="saved-filter" placeholder="Search your saved places" aria-label="Search your saved places"></div>
           <label class="list-sort"><span>Sort</span> <select class="saved-sort" aria-label="Sort"><option value="new">Newest first</option><option value="name">Name A–Z</option></select></label></div>
@@ -499,7 +494,7 @@
     view.innerHTML = `${pageHead('Settings', 'How the app behaves for you. Saved on this computer and kept after updates.')}
       <form class="block settings-page" novalidate>
         <fieldset><legend>Profile</legend>
-          <p class="muted">Keep separate favourites, collections, routes, saved views, street spots, progress and journal for each character. "Shared" is the one you have used so far.</p>
+          <p class="muted">Keep separate favourites, collections, routes, saved views, progress and journal for each character. "Shared" is the one you have used so far.</p>
           ${radio('profile', [['', 'Shared'], ['jason', 'Jason'], ['lucia', 'Lucia']], v('profile', ''))}
         </fieldset>
         <fieldset class="appearance"><legend>Appearance</legend>
@@ -523,9 +518,6 @@
           <p class="muted">Which view the map opens in.</p>${radio('map-mode', [['2d', '2D (fastest)'], ['3d', '3D (tilted, loads the 3D engine)']], v('map-mode', '2d'))}
           <p class="muted">Camera movement when flying to a place.</p>${radio('map-motion', [['on', 'Smooth flights'], ['off', 'Jump straight there']], v('map-motion', 'on'))}
           <p class="muted">What counts as "nearby" on cards and entry pages.</p>${radio('near-radius', [['small', 'Close'], ['medium', 'Medium'], ['large', 'Wide']], v('near-radius', 'medium'))}
-        </fieldset>
-        <fieldset><legend>Street Explorer</legend>
-          <p class="muted">Who you drop onto the map.</p>${radio('walker', [['jason', 'Jason Duval'], ['lucia', 'Lucia Caminos']], v('walker', 'jason'))}
         </fieldset>
         <fieldset><legend>Your data</legend>
           <p class="muted">Back up everything you have saved, for every profile, to a file in your Downloads folder: collectible ticks, 100% counts, discovered places, guide ticks, favourites, collections, routes, saved views, your journal and these settings. Restore reads a backup back in, on this computer or another one.</p>
@@ -631,7 +623,7 @@
       if (!b) return;
       if (b.dataset.reset === 'searches') { UserStore.set('searches', null); status('Recent searches cleared.'); }
       if (b.dataset.reset === 'prefs') {
-        prefs.save({ 'map-mode': '2d', 'map-motion': 'on', 'near-radius': 'medium', walker: 'jason', 'reduced-motion': '0', 'theme-app': 'vice', accent: '', density: 'comfortable', 'motion-level': 'full', 'panel-see': '0' });
+        prefs.save({ 'map-mode': '2d', 'map-motion': 'on', 'near-radius': 'medium', 'reduced-motion': '0', 'theme-app': 'vice', accent: '', density: 'comfortable', 'motion-level': 'full', 'panel-see': '0' });
         applyMotion();
         EXTRA_PAGES.settings();
         view.querySelector('.settings-status').textContent = 'Settings reset.';
@@ -644,13 +636,6 @@
         status('Progress reset.');
       }
     });
-  };
-
-  // ---------- Street Explorer: the map, opened for walking ----------
-
-  EXTRA_PAGES.explore = (a, b, params) => {
-    params.set('explore', '1');
-    renderMap(params);
   };
 
   // ---------- the top bar: "More" menu, active section, search suggestions ----------

@@ -5,7 +5,8 @@
     "summary": "A unique Street Racer version of the Sultan, given by Moses as the reward for Collect Moses' Gift.",
     "body": [
       "PowerPyx says Moses' Sultan is a unique Street Racer collected from the smaller garage beside Moses' shop in Port Gellhorn at the end of his questline.",
-      "PowerPyx says it can be sold or registered and kept."
+      "PowerPyx says it can be sold or registered and kept.",
+      "In-game stat bars (out of 10): Speed 4.9, Acceleration 6.1, Asphalt handling 4.6, Off-road handling 4.5, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "moses",
@@ -16,13 +17,21 @@
     "facts": {
       "model": "Sultan (Moses' unique Street Racer)",
       "class": "Street Racer",
-      "availability": "Reward for Collect Moses' Gift, Moses' shop, Port Gellhorn"
+      "availability": "Reward for Collect Moses' Gift, Moses' shop, Port Gellhorn",
+      "speed": 4.9,
+      "acceleration": 6.1,
+      "asphalt_handling": 4.6,
+      "offroad_handling": 4.5,
+      "strength": 3.0,
+      "where": "GTABase: Custom Emperor Sultan. Gifted by Moses Watkins in return for helping out with his auto business.; Standout (GTABase map): Port Gellhorn -  #136 Emperor Moses' Sultan Port Gellhorn Set: Street Racer. Custom Emperor Sultan. Gifted by Moses Watkins in return for helping out with his auto business."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "r7-ppx-collect-moses-gift"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]

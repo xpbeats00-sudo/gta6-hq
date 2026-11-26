@@ -8,7 +8,9 @@
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
       "Tracker Network's database lists it as the Nipper .38 under Handguns.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
-      "IGN's Pick Up a Gun walkthrough prices it at $495 at Gellhorn Outfitters in Port Gellhorn and calls it the cheapest workable pistol there early in Chapter 2."
+      "IGN's Pick Up a Gun walkthrough prices it at $495 at Gellhorn Outfitters in Port Gellhorn and calls it the cheapest workable pistol there early in Chapter 2.",
+      "In-game stat bars (out of 10): Damage 2.8, Accuracy 3, Handling 9, Range 3, read from the game by two sources.",
+      "Another price seen: $495 at Gellhorn Outfitters."
     ],
     "tags": [
       ".38",
@@ -26,17 +28,26 @@
       "magazine": "8",
       "fire_mode": "Semi-auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$495 at Gellhorn Outfitters (IGN)"
+      "price": "$550 at Ammu-Nation, Big Shots",
+      "damage": 2.8,
+      "accuracy": 3,
+      "handling": 9,
+      "range": 3,
+      "weapon_class": "Compact Pistol",
+      "mods": "Barrel, Magazine, Suppressor, Sight",
+      "paid_with": "Cash"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
       "gamerant-weapons",
+      "gtabase-nipper-38",
+      "ign-pick-up-a-gun",
       "ign-weapons-guide",
-      "ign-pick-up-a-gun"
+      "leonida-scorpio-nipper-38",
+      "trackergg"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "duke-1922",
@@ -50,7 +61,8 @@
       "Spelling disagreement: IGN calls it the Duke 1992, while Game8's list, DayOne and Tracker Network call it the 1922.",
       "GTABase gives the Duke Arms 1992 a story mode price of $1,050 at Ammu-Nation.",
       "GTABase lists an extended magazine of 36 rounds.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, read from the game by two sources."
     ],
     "tags": [
       "1922",
@@ -66,18 +78,28 @@
       "magazine": "8",
       "fire_mode": "Semi-auto",
       "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
-      "price": "$1,050"
+      "price": "$1,050",
+      "damage": 5.5,
+      "accuracy": 4.8,
+      "handling": 8,
+      "range": 4.6,
+      "weapon_class": "Heavy Pistol",
+      "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
-      "gamerant-weapons",
-      "ign-weapons-guide",
       "game8-weapons-hub",
-      "r8gb-weapons-heavy-pistol"
+      "gamerant-weapons",
+      "gtabase-heavy-pistol",
+      "gtascoop-duke-1922",
+      "ign-weapons-guide",
+      "leonida-duke-1922",
+      "r8gb-weapons-heavy-pistol",
+      "trackergg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -91,7 +113,8 @@
       "GTABase gives the Girardi ES18 a story mode price of $1,550 at Ammu-Nation.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page calls it a Burst Pistol and lists ratings of damage 4.2, accuracy 4.6, handling 7.7 and range 4.8.",
-      "Disagreement: DayOne, cited earlier in this entry, gives damage 4.2, accuracy 4.4, handling 8.2 and range 4.8."
+      "Disagreement: DayOne, cited earlier in this entry, gives damage 4.2, accuracy 4.4, handling 8.2 and range 4.8.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 4.6, Handling 7.7, Range 4.8, as read by GTABase only so far. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "burst",
@@ -109,17 +132,26 @@
       "magazine": "30",
       "fire_mode": "3-round burst",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
-      "price": "$1,550"
+      "price": "$1,550",
+      "damage": 4.2,
+      "accuracy": 4.6,
+      "handling": 7.7,
+      "range": 4.8,
+      "weapon_class": "Burst Pistol",
+      "mods": "Barrel, Magazine, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-es18",
       "ign-weapons-guide",
-      "r8gb-weapons-es18",
-      "r10-dex-w-girardi-es18"
+      "leonida-girardi-es18",
+      "r10-dex-w-girardi-es18",
+      "r8gb-weapons-es18"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -133,7 +165,8 @@
       "GTABase gives the Klose K17 MCD a story mode price of $1,700 at Ammu-Nation.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page calls it an Automatic Pistol and lists ratings of damage 4, accuracy 3.2, handling 7.7 and range 4.2.",
-      "Disagreement: DayOne, cited earlier in this entry, gives damage 4.0, accuracy 3.2, handling 8.0 and range 4.2."
+      "Disagreement: DayOne, cited earlier in this entry, gives damage 4.0, accuracy 3.2, handling 8.0 and range 4.2.",
+      "In-game stat bars (out of 10): Damage 4, Accuracy 3.2, Handling 7.7, Range 4.2, as read by GTABase only so far. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "automatic",
@@ -152,17 +185,26 @@
       "magazine": "24",
       "fire_mode": "Full auto",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
-      "price": "$1,700"
+      "price": "$1,700",
+      "damage": 4,
+      "accuracy": 3.2,
+      "handling": 7.7,
+      "range": 4.2,
+      "weapon_class": "Automatic Pistol",
+      "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-k17-mcd",
       "ign-weapons-guide",
-      "r8gb-weapons-k17-mcd",
-      "r10-dex-w-klose-k17-mcd"
+      "leonida-klose-k17-mcd",
+      "r10-dex-w-klose-k17-mcd",
+      "r8gb-weapons-k17-mcd"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -174,7 +216,8 @@
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
       "GTABase gives the Fairview Kalinga .50 a story mode price of $3,100 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 7, Accuracy 4, Handling 7.8, Range 5, read from the game by two sources."
     ],
     "tags": [
       ".50",
@@ -192,16 +235,25 @@
       "magazine": "7",
       "fire_mode": "Semi-auto",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
-      "price": "$3,100"
+      "price": "$3,100",
+      "damage": 7,
+      "accuracy": 4,
+      "handling": 7.8,
+      "range": 5,
+      "weapon_class": ".50 Cal Pistol",
+      "mods": "Barrel, Flashlight, Magazine, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-kalinga-50",
       "ign-weapons-guide",
+      "leonida-fairview-kalinga-50",
       "r8gb-weapons-kalinga-50"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -214,7 +266,8 @@
       "DayOne groups revolvers with pistols; this one is described as a revolver.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Hawk & Little .38 a story mode price of $1,075 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 2.5, Accuracy 5, Handling 8.6, Range 4.5, read from the game by two sources."
     ],
     "tags": [
       ".38",
@@ -232,16 +285,26 @@
       "magazine": "6",
       "fire_mode": "Semi-auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,075"
+      "price": "$1,075",
+      "damage": 2.5,
+      "accuracy": 5,
+      "handling": 8.6,
+      "range": 4.5,
+      "weapon_class": "Double Action Revolver",
+      "mods": "Barrel, Sight",
+      "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-38",
       "ign-weapons-guide",
+      "leonida-hawk-and-little-38",
       "r8gb-weapons-38"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -254,7 +317,8 @@
       "Tracker Network's database lists it as the Mustang .357 Revolver under Handguns.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
       "GTABase gives the Duke Arms Mustang .357 Revolver a story mode price of $1,800 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5.7, Accuracy 4.5, Handling 8, Range 5.5, read from the game by two sources."
     ],
     "tags": [
       ".357",
@@ -272,17 +336,27 @@
       "magazine": "6",
       "fire_mode": "Semi-auto",
       "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
-      "price": "$1,800"
+      "price": "$1,800",
+      "damage": 5.7,
+      "accuracy": 4.5,
+      "handling": 8,
+      "range": 5.5,
+      "weapon_class": "Magnum Revolver",
+      "mods": "Barrel, Sight",
+      "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
       "gamerant-weapons",
+      "gtabase-mustang-357-revolver",
       "ign-weapons-guide",
-      "r8gb-weapons-mustang-357-revolver"
+      "leonida-duke-mustang-357",
+      "r8gb-weapons-mustang-357-revolver",
+      "trackergg"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "wortham-wcr1",
@@ -293,7 +367,8 @@
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Wortham WCR1 a story mode price of $600 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 2.2, Accuracy 3.8, Handling 9, Range 4.5, read from the game by two sources."
     ],
     "tags": [
       "handgun",
@@ -311,16 +386,26 @@
       "magazine": "5",
       "fire_mode": "Semi-auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$600"
+      "price": "$600",
+      "damage": 2.2,
+      "accuracy": 3.8,
+      "handling": 9,
+      "range": 4.5,
+      "weapon_class": "Compact Revolver",
+      "mods": "Barrel",
+      "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "Cash"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-wcr1",
       "ign-weapons-guide",
+      "leonida-wortham-wcr1",
       "r8gb-weapons-wcr1"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -332,7 +417,8 @@
       "Game Rant says pistols occupy the sidearm slots of the weapon wheel.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\".",
       "GTABase gives the Scorpio Akulus a story mode price of $3,000 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 7, Accuracy 4.2, Handling 7.6, Range 6, read from the game by two sources."
     ],
     "tags": [
       "akulus",
@@ -349,16 +435,25 @@
       "magazine": "6",
       "fire_mode": "Semi-auto",
       "availability": "Expanded or Hunting Ammu-Nation stock (IGN)",
-      "price": "$3,000"
+      "price": "$3,000",
+      "damage": 7,
+      "accuracy": 4.2,
+      "handling": 7.6,
+      "range": 6,
+      "weapon_class": "Heavy Revolver",
+      "mods": "Barrel, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-akulus",
       "ign-weapons-guide",
+      "leonida-scorpio-akulus",
       "r8gb-weapons-akulus"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -373,7 +468,8 @@
       "GTABase lists an extended magazine of 100 rounds.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page (published November 19, 2026) calls it a Military SMG; its price, magazine size and ratings (damage 4.2, accuracy 5, handling 6.7, range 4.5) match DayOne's figures already in the app.",
-      "Naming: Dexerto spells it \"Vom Feuer VFS\" (with an S); IGN, GTABase and the app use VF5."
+      "Naming: Dexerto spells it \"Vom Feuer VFS\" (with an S); IGN, GTABase and the app use VF5.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 5, Handling 6.7, Range 4.5, read from the game by two sources."
     ],
     "tags": [
       "feuer",
@@ -390,16 +486,25 @@
       "magazine": "30",
       "fire_mode": "Full auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$2,325"
+      "price": "$2,325",
+      "damage": 4.2,
+      "accuracy": 5,
+      "handling": 6.7,
+      "range": 4.5,
+      "weapon_class": "Military SMG",
+      "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
+      "gtabase-smg",
       "ign-weapons-guide",
-      "r8gb-weapons-smg",
-      "r10-dex-w-vom-feuer-vf5"
+      "leonida-vom-feuer-vf5",
+      "r10-dex-w-vom-feuer-vf5",
+      "r8gb-weapons-smg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -411,7 +516,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "IGN also gives it a 20-round magazine, matching DayOne.",
       "GTABase gives the Wortham W-10 a story mode price of $825 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 3.2, Handling 7.5, Range 3.5, read from the game by two sources."
     ],
     "tags": [
       "10",
@@ -426,15 +532,24 @@
       "magazine": "20",
       "fire_mode": "Full auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$825"
+      "price": "$825",
+      "damage": 4.2,
+      "accuracy": 3.2,
+      "handling": 7.5,
+      "range": 3.5,
+      "weapon_class": "Micro SMG",
+      "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "Cash"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
+      "gtabase-mac-11",
       "ign-weapons-guide",
+      "leonida-wortham-w-10",
       "r8gb-weapons-mac-11"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -446,7 +561,8 @@
       "DayOne files it under submachine guns although the description calls it a machine pistol.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Zhang Wu Type 9 a story mode price of $1,100 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 3.8, Handling 7.8, Range 3.5, read from the game by two sources."
     ],
     "tags": [
       "machine pistol",
@@ -463,15 +579,24 @@
       "magazine": "10",
       "fire_mode": "Full auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,100"
+      "price": "$1,100",
+      "damage": 4.2,
+      "accuracy": 3.8,
+      "handling": 7.8,
+      "range": 3.5,
+      "weapon_class": "Machine Pistol",
+      "mods": "Barrel, Grip, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
+      "gtabase-type-9",
       "ign-weapons-guide",
+      "leonida-zhang-wu-type-9",
       "r8gb-weapons-type-9"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -482,7 +607,8 @@
       "DayOne lists in-game ratings out of 10 of damage 4.2, accuracy 4.2, handling 6.9 and range 4.0, with a capacity of 30 rounds and 3-round burst fire.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Deever Tech DSG a story mode price of $1,350 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 4.2, Handling 6.9, Range 4, read from the game by two sources."
     ],
     "tags": [
       "burst",
@@ -499,15 +625,24 @@
       "magazine": "30",
       "fire_mode": "3-round burst",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,350"
+      "price": "$1,350",
+      "damage": 4.2,
+      "accuracy": 4.2,
+      "handling": 6.9,
+      "range": 4,
+      "weapon_class": "Tactical SMG",
+      "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
+      "gtabase-spp-mp9",
       "ign-weapons-guide",
+      "leonida-deever-tech-dsg",
       "r8gb-weapons-spp-mp9"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -521,7 +656,8 @@
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page calls it a Compact Military SMG and lists ratings of damage 4.2, accuracy 4, handling 7.9 and range 4.",
       "Disagreement: DayOne, cited earlier in this entry, gives damage 4.2, accuracy 5.0, handling 6.9 and range 4.0.",
-      "Naming: Dexerto spells it \"Vom Feuer VFSC\" (with an S); IGN, GTABase and the app use VF5."
+      "Naming: Dexerto spells it \"Vom Feuer VFSC\" (with an S); IGN, GTABase and the app use VF5.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 4, Handling 7.9, Range 4, as read by GTABase only so far. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "compact",
@@ -538,16 +674,25 @@
       "magazine": "30",
       "fire_mode": "Full auto",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
-      "price": "$2,600"
+      "price": "$2,600",
+      "damage": 4.2,
+      "accuracy": 4,
+      "handling": 7.9,
+      "range": 4,
+      "weapon_class": "Compact Military SMG",
+      "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
+      "gtabase-vf5c",
       "ign-weapons-guide",
-      "r8gb-weapons-vf5c",
-      "r10-dex-w-vom-feuer-vf5c"
+      "leonida-vom-feuer-vf5c",
+      "r10-dex-w-vom-feuer-vf5c",
+      "r8gb-weapons-vf5c"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -559,7 +704,8 @@
       "DayOne's write-up of the in-game description calls it a longarm.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Schlamm DW-9 a story mode price of $1,750 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 4.5, Handling 6.8, Range 4, read from the game by two sources."
     ],
     "tags": [
       "dw",
@@ -576,15 +722,24 @@
       "magazine": "30",
       "fire_mode": "Full auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,750"
+      "price": "$1,750",
+      "damage": 4.2,
+      "accuracy": 4.5,
+      "handling": 6.8,
+      "range": 4,
+      "weapon_class": "Combat SMG",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
+      "gtabase-dw9",
       "ign-weapons-guide",
+      "leonida-schlamm-dw-9",
       "r8gb-weapons-dw9"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -596,7 +751,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the BZI Vatra a story mode price of $1,200 at Ammu-Nation.",
       "GTABase lists an extended magazine of 30 rounds.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 3.8, Handling 6.5, Range 4, read from the game by two sources."
     ],
     "tags": [
       "bzi",
@@ -611,15 +767,24 @@
       "magazine": "20",
       "fire_mode": "Full auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,200"
+      "price": "$1,200",
+      "damage": 4.2,
+      "accuracy": 3.8,
+      "handling": 6.5,
+      "range": 4,
+      "weapon_class": "Heavy SMG",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
+      "gtabase-micro-smg",
       "ign-weapons-guide",
+      "leonida-bzi-vatra",
       "r8gb-weapons-micro-smg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -633,7 +798,8 @@
       "GTABase gives the Mason & Keen Longshot a story mode price of $1,425 at Ammu-Nation.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page (published November 19, 2026) calls it a Sporting Shotgun; its price, magazine size and ratings (damage 8, accuracy 4.1, handling 5, range 2.5) match DayOne's figures already in the app.",
-      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there."
+      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there.",
+      "In-game stat bars (out of 10): Damage 8, Accuracy 4.1, Handling 5, Range 2.5, read from the game by two sources."
     ],
     "tags": [
       "double barrel",
@@ -651,17 +817,27 @@
       "magazine": "2",
       "fire_mode": "Break action",
       "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
-      "price": "$1,425"
+      "price": "$1,425",
+      "damage": 8,
+      "accuracy": 4.1,
+      "handling": 5,
+      "range": 2.5,
+      "weapon_class": "Sporting Shotgun",
+      "mods": "Suppressor, Sight, Stock",
+      "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-longshot",
       "ign-weapons-guide",
-      "r8gb-weapons-longshot",
-      "r10-dex-w-mason-and-keen-longshot"
+      "leonida-mason-and-keen-longshot",
+      "r10-dex-w-mason-and-keen-longshot",
+      "r8gb-weapons-longshot"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -675,7 +851,8 @@
       "PowerPyx reports a unique variant, the Gutterball Moreland 850, lying on a table in the north-east corner of Kingpin Bowling.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
       "GTABase gives the Fortune & Son Moreland 850 a story mode price of $700 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 7.5, Accuracy 4.2, Handling 5.6, Range 2.5, read from the game by two sources. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "850",
@@ -694,19 +871,29 @@
       "magazine": "5",
       "fire_mode": "Pump action",
       "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
-      "price": "$700"
+      "price": "$700",
+      "damage": 7.5,
+      "accuracy": 4.2,
+      "handling": 5.6,
+      "range": 2.5,
+      "weapon_class": "Pump Action Shotgun",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
-      "ppx-trophy",
-      "ppx-kingpin",
       "gamerant-weapons",
+      "gtabase-moreland-850",
+      "gtaculture-weapons",
+      "gtascoop-850",
       "ign-weapons-guide",
-      "r8gb-weapons-moreland-850"
+      "leonida-fortune-and-son-moreland-850",
+      "ppx-kingpin",
+      "ppx-trophy",
+      "r8gb-weapons-moreland-850",
+      "trackergg"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "girardi-verro",
@@ -719,7 +906,8 @@
       "GTABase gives the Girardi Verro a story mode price of $2,700 at Ammu-Nation.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page (published November 19, 2026) calls it a Semi-Auto Stubby Shotgun; its price, magazine size and ratings (damage 7.4, accuracy 3.9, handling 6.5, range 2) match DayOne's figures already in the app.",
-      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there."
+      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there.",
+      "In-game stat bars (out of 10): Damage 7.4, Accuracy 3.9, Handling 6.5, Range 2, read from the game by two sources."
     ],
     "tags": [
       "girardi",
@@ -735,17 +923,27 @@
       "magazine": "5",
       "fire_mode": "Semi-auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$2,700"
+      "price": "$2,700",
+      "damage": 7.4,
+      "accuracy": 3.9,
+      "handling": 6.5,
+      "range": 2,
+      "weapon_class": "Semi-Auto Stubby Shotgun",
+      "mods": "Flashlight, Suppressor, Sight, Stock",
+      "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-verro",
       "ign-weapons-guide",
-      "r8gb-weapons-verro",
-      "r10-dex-w-girardi-verro"
+      "leonida-girardi-verro",
+      "r10-dex-w-girardi-verro",
+      "r8gb-weapons-verro"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -759,7 +957,8 @@
       "GTABase gives the Girardi AZ1200 a story mode price of $2,300 at Ammu-Nation.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page (published November 19, 2026) calls it a Semi-Auto Shotgun; its price, magazine size and ratings (damage 7.4, accuracy 4.5, handling 5.8, range 2.5) match DayOne's figures already in the app.",
-      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there."
+      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there.",
+      "In-game stat bars (out of 10): Damage 7.4, Accuracy 4.5, Handling 5.8, Range 2.5, read from the game by two sources."
     ],
     "tags": [
       "az1200",
@@ -775,17 +974,27 @@
       "magazine": "5",
       "fire_mode": "Semi-auto",
       "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
-      "price": "$2,300"
+      "price": "$2,300",
+      "damage": 7.4,
+      "accuracy": 4.5,
+      "handling": 5.8,
+      "range": 2.5,
+      "weapon_class": "Semi-Auto Shotgun",
+      "mods": "Flashlight, Suppressor, Sight, Stock",
+      "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-az1200",
       "ign-weapons-guide",
-      "r8gb-weapons-az1200",
-      "r10-dex-w-girardi-az1200"
+      "leonida-girardi-az1200",
+      "r10-dex-w-girardi-az1200",
+      "r8gb-weapons-az1200"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -798,7 +1007,8 @@
       "Tracker Network's database lists it as the Gorse 425 under Shotguns.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Fortune & Son Gorse 425 a story mode price of $850 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 7.5, Accuracy 3.8, Handling 6.2, Range 2, read from the game by two sources."
     ],
     "tags": [
       "425",
@@ -816,17 +1026,25 @@
       "magazine": "5",
       "fire_mode": "Pump action",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$850"
+      "price": "$850",
+      "damage": 7.5,
+      "accuracy": 3.8,
+      "handling": 6.2,
+      "range": 2,
+      "weapon_class": "Stubby Shotgun",
+      "mods": "Grip, Flashlight, Suppressor, Sight, Stock"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
       "gamerant-weapons",
+      "gtabase-gorse-425",
       "ign-weapons-guide",
-      "r8gb-weapons-gorse-425"
+      "leonida-fortune-and-son-gorse-425",
+      "r8gb-weapons-gorse-425",
+      "trackergg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -839,7 +1057,8 @@
       "Tracker Network's database lists it as the Drifter under Shotguns.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
       "GTABase gives the Shrewsbury Drifter a story mode price of $1,150 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 8, Accuracy 4.1, Handling 5, Range 2.5, read from the game by two sources."
     ],
     "tags": [
       "double barrel",
@@ -856,17 +1075,26 @@
       "magazine": "2",
       "fire_mode": "Break action",
       "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
-      "price": "$1,150"
+      "price": "$1,150",
+      "damage": 8,
+      "accuracy": 4.1,
+      "handling": 5,
+      "range": 2.5,
+      "weapon_class": "Double Barrel Shotgun",
+      "mods": "Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
       "gamerant-weapons",
+      "gtabase-double-barrel-shotgun",
       "ign-weapons-guide",
-      "r8gb-weapons-double-barrel-shotgun"
+      "leonida-shrewsbury-drifter",
+      "r8gb-weapons-double-barrel-shotgun",
+      "trackergg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -879,7 +1107,8 @@
       "No source read states which carry slot this sawn-off gun uses.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Shrewsbury Hobo a story mode price of $1,325 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 8, Accuracy 3.6, Handling 6.4, Range 2, read from the game by two sources."
     ],
     "tags": [
       "double barrel",
@@ -896,16 +1125,26 @@
       "magazine": "2",
       "fire_mode": "Break action",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,325"
+      "price": "$1,325",
+      "damage": 8,
+      "accuracy": 3.6,
+      "handling": 6.4,
+      "range": 2,
+      "weapon_class": "Double Barrel Sawed-Off",
+      "mods": "Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
+      "gtabase-hobo",
+      "gtascoop-shrewsbury-hobo",
       "ign-weapons-guide",
-      "r8gb-weapons-hobo"
+      "leonida-shrewsbury-hobo",
+      "r8gb-weapons-hobo",
+      "trackergg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -921,7 +1160,8 @@
       "GTABase gives the Mason & Keen Shortstraw a story mode price of $1,625 at Ammu-Nation.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page (published November 19, 2026) calls it a Sporting Sawed-Off; its price, magazine size and ratings (damage 8, accuracy 3.6, handling 6.4, range 2) match DayOne's figures already in the app.",
-      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there."
+      "Dexerto says it is locked in the shop at first and unlocks after other guns have been bought there.",
+      "In-game stat bars (out of 10): Damage 8, Accuracy 3.6, Handling 6.4, Range 2, read from the game by two sources."
     ],
     "tags": [
       "cheat",
@@ -938,17 +1178,27 @@
       "magazine": "2",
       "fire_mode": "Break action",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,625"
+      "price": "$1,625",
+      "damage": 8,
+      "accuracy": 3.6,
+      "handling": 6.4,
+      "range": 2,
+      "weapon_class": "Sporting Sawed-Off",
+      "mods": "Sight",
+      "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-cheats",
+      "gtabase-shortstraw",
       "ign-weapons-guide",
-      "r8gb-weapons-shortstraw",
-      "r10-dex-w-mason-and-keen-shortstraw"
+      "leonida-mason-and-keen-shortstraw",
+      "ppx-cheats",
+      "r10-dex-w-mason-and-keen-shortstraw",
+      "r8gb-weapons-shortstraw"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -960,7 +1210,8 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
       "GTABase gives the Goodwin Comshot 12 a story mode price of $3,825 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 7.7, Accuracy 4.2, Handling 4, Range 2.5, read from the game by two sources."
     ],
     "tags": [
       "12",
@@ -977,16 +1228,25 @@
       "magazine": "7",
       "fire_mode": "Semi-auto",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
-      "price": "$3,825"
+      "price": "$3,825",
+      "damage": 7.7,
+      "accuracy": 4.2,
+      "handling": 4,
+      "range": 2.5,
+      "weapon_class": "Combat Shotgun",
+      "mods": "Flashlight, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-comshot-12",
       "ign-weapons-guide",
+      "leonida-goodwin-comshot-12",
       "r8gb-weapons-comshot-12"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -998,7 +1258,8 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Girardi Super400 a story mode price of $2,825 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 7.4, Accuracy 4.2, Handling 5.3, Range 2.5, read from the game by two sources."
     ],
     "tags": [
       "girardi",
@@ -1015,16 +1276,25 @@
       "magazine": "7",
       "fire_mode": "Semi-auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$2,825"
+      "price": "$2,825",
+      "damage": 7.4,
+      "accuracy": 4.2,
+      "handling": 5.3,
+      "range": 2.5,
+      "weapon_class": "Heavy Shotgun",
+      "mods": "Grip, Flashlight, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-super400",
       "ign-weapons-guide",
+      "leonida-girardi-super400",
       "r8gb-weapons-super400"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1037,7 +1307,8 @@
       "DayOne spells the maker 'Kozlove' in the name but gives the brand as Kozlov.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
       "GTABase gives the Kozlov KVGA-12 a story mode price of $3,650 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 7.2, Accuracy 4.5, Handling 5.1, Range 2.5, read from the game by two sources."
     ],
     "tags": [
       "12",
@@ -1054,16 +1325,25 @@
       "magazine": "8",
       "fire_mode": "Full auto",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
-      "price": "$3,650"
+      "price": "$3,650",
+      "damage": 7.2,
+      "accuracy": 4.5,
+      "handling": 5.1,
+      "range": 2.5,
+      "weapon_class": "Auto Shotgun",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-kvga-12",
       "ign-weapons-guide",
+      "leonida-kozlov-kvga-12",
       "r8gb-weapons-kvga-12"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1076,7 +1356,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Kozlov KZ-59 a story mode price of $1,250 at Ammu-Nation.",
       "GTABase lists an extended magazine of 100 rounds.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5.4, Accuracy 5.2, Handling 5.2, Range 6.5, read from the game by two sources. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "59",
@@ -1093,16 +1374,27 @@
       "magazine": "30",
       "fire_mode": "Full auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,250"
+      "price": "$1,250",
+      "damage": 5.4,
+      "accuracy": 5.2,
+      "handling": 5.2,
+      "range": 6.5,
+      "weapon_class": "Assault Rifle",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-assault-rifle",
+      "gtascoop-kozlov-kz-59",
       "ign-weapons-guide",
+      "leonida-kozlov-kz-59",
       "r8gb-weapons-assault-rifle"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1116,7 +1408,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
       "GTABase gives the Hillinger Heathen a story mode price of $2,450 at Ammu-Nation.",
       "GTABase lists an ammo capacity of 30.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5, Accuracy 6.2, Handling 5.8, Range 6.2, read from the game by two sources."
     ],
     "tags": [
       "assault rifle",
@@ -1133,16 +1426,25 @@
       "fire_mode": "3-round burst",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
       "price": "$2,450",
-      "magazine": "30"
+      "magazine": "30",
+      "damage": 5,
+      "accuracy": 6.2,
+      "handling": 5.8,
+      "range": 6.2,
+      "weapon_class": "Bullpup Rifle",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-heathen",
       "ign-weapons-guide",
+      "leonida-hillinger-heathen",
       "r8gb-weapons-heathen"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1157,7 +1459,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
       "GTABase gives the Duke Arms 556 Assault Rifle a story mode price of $1,450 at Ammu-Nation.",
       "GTABase lists an extended magazine of 60 rounds.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5, Accuracy 6, Handling 5.8, Range 6.2, read from the game by two sources."
     ],
     "tags": [
       "556",
@@ -1173,18 +1476,27 @@
       "magazine": "30",
       "fire_mode": "Full auto",
       "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
-      "price": "$1,450"
+      "price": "$1,450",
+      "damage": 5,
+      "accuracy": 6,
+      "handling": 5.8,
+      "range": 6.2,
+      "weapon_class": "Carbine Rifle",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
-      "ppx-trophy",
       "gamerant-weapons",
+      "gtabase-service-carbine",
       "ign-weapons-guide",
-      "r8gb-weapons-service-carbine"
+      "leonida-duke-556",
+      "ppx-trophy",
+      "r8gb-weapons-service-carbine",
+      "trackergg"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-26"
   },
   {
     "slug": "kozlov-hind",
@@ -1195,7 +1507,8 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the Kozlov Hind a story mode price of $1,700 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5.4, Accuracy 3.5, Handling 7.1, Range 4.5, as read by GTABase only so far. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "assault rifle",
@@ -1212,16 +1525,25 @@
       "magazine": "30",
       "fire_mode": "Full auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$1,700"
+      "price": "$1,700",
+      "damage": 5.4,
+      "accuracy": 3.5,
+      "handling": 7.1,
+      "range": 4.5,
+      "weapon_class": "Compact Assault Rifle",
+      "mods": "Magazine, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-compact-rifle",
       "ign-weapons-guide",
+      "leonida-kozlov-hind",
       "r8gb-weapons-compact-rifle"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1233,7 +1555,8 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
       "GTABase gives the Vom Feuer VF-G1 a story mode price of $3,700 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5, Accuracy 6.2, Handling 5.8, Range 6.5, read from the game by two sources."
     ],
     "tags": [
       "assault rifle",
@@ -1251,16 +1574,25 @@
       "magazine": "30",
       "fire_mode": "Full auto",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
-      "price": "$3,700"
+      "price": "$3,700",
+      "damage": 5,
+      "accuracy": 6.2,
+      "handling": 5.8,
+      "range": 6.5,
+      "weapon_class": "Special Carbine",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-vf-g1",
       "ign-weapons-guide",
+      "leonida-vom-feuer-vf-g1",
       "r8gb-weapons-vf-g1"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1272,7 +1604,8 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard\".",
       "GTABase gives the ADB FRA a story mode price of $2,900 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 5.8, Accuracy 5, Handling 5.3, Range 6.9, read from the game by two sources."
     ],
     "tags": [
       "adb",
@@ -1289,16 +1622,26 @@
       "magazine": "20",
       "fire_mode": "Full auto",
       "availability": "Standard Ammu-Nation stock (IGN)",
-      "price": "$2,900"
+      "price": "$2,900",
+      "damage": 5.8,
+      "accuracy": 5,
+      "handling": 5.3,
+      "range": 6.9,
+      "weapon_class": "Battle Rifle",
+      "mods": "Barrel, Grip, Magazine, Suppressor, Sight, Stock",
+      "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-fra",
       "ign-weapons-guide",
+      "leonida-adb-fra",
       "r8gb-weapons-fra"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1310,7 +1653,8 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "DayOne lists it in a combined 'Tactical and Sniper Rifles' group without saying which of the two it is.",
       "DayOne's hunting guide names it as the recommended weapon for small game such as rabbits, squirrels, ducks, turkeys and iguanas.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Hunting Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Hunting Only\".",
+      "In-game stat bars (out of 10): Damage 1.5, Accuracy 8, Handling 5.8, Range 7, as read by GTABase only so far."
     ],
     "tags": [
       "22",
@@ -1327,16 +1671,21 @@
       "slot": "long gun",
       "magazine": "15",
       "fire_mode": "Semi-auto",
-      "availability": "Hunting Only Ammu-Nation stock (IGN)"
+      "availability": "Hunting Only Ammu-Nation stock (IGN)",
+      "damage": 1.5,
+      "accuracy": 8,
+      "handling": 5.8,
+      "range": 7
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-weapons",
       "dayone-hunting",
+      "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-wortham-w22",
       "ign-weapons-guide"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1349,7 +1698,8 @@
       "DayOne lists it in a combined 'Tactical and Sniper Rifles' group without saying which of the two it is.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\".",
       "GTABase gives the Hillinger M306 a story mode price of $2,375 at Ammu-Nation.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 6.2, Accuracy 7.5, Handling 4.8, Range 7.5, read from the game by two sources."
     ],
     "tags": [
       "hillinger",
@@ -1365,16 +1715,26 @@
       "magazine": "20",
       "fire_mode": "Semi-auto",
       "availability": "Expanded or Hunting Ammu-Nation stock (IGN)",
-      "price": "$2,375"
+      "price": "$2,375",
+      "damage": 6.2,
+      "accuracy": 7.5,
+      "handling": 4.8,
+      "range": 7.5,
+      "weapon_class": "Marksman Rifle",
+      "mods": "Barrel, Magazine, Suppressor, Sight",
+      "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-springfield-armory-m1a-sniper",
       "ign-weapons-guide",
+      "leonida-hillinger-m306",
       "r8gb-weapons-springfield-armory-m1a-sniper"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1388,7 +1748,10 @@
       "DayOne's hunting guide names it as the recommended weapon for foxes, bobcats and coyotes.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
       "IGN also lists it as a Hawk & Little tactical rifle in 9mm with a 17-round magazine, matching DayOne.",
-      "IGN's Gear Up walkthrough prices it at $450 at Chuck's Tackle & Shot in Key Lento, with the first magazine upgrade at $55."
+      "IGN's Gear Up walkthrough prices it at $450 at Chuck's Tackle & Shot in Key Lento, with the first magazine upgrade at $55.",
+      "In-game stat bars (out of 10): Damage 4.8, Accuracy 7.8, Handling 5.6, Range 7, read from the game by two sources.",
+      "Another price seen: $450 at Chuck's Tackle & Shot during Gear Up.",
+      "An in-game shop screenshot (Martez Empeños) shows the $900 price with both the BuckMe and cash marks."
     ],
     "tags": [
       "carbine",
@@ -1407,18 +1770,28 @@
       "magazine": "17",
       "fire_mode": "Semi-auto",
       "availability": "Standard or Hunting Ammu-Nation stock (IGN)",
-      "price": "$450 at Chuck's Tackle & Shot during Gear Up (IGN)"
+      "price": "$900 at Ammu-Nation, Big Shots, Martez Empeños (pawn shop)",
+      "damage": 4.8,
+      "accuracy": 7.8,
+      "handling": 5.6,
+      "range": 7,
+      "weapon_class": "Tactical Rifle",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe, Cash"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-weapons",
-      "trackergg",
       "dayone-hunting",
+      "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-mediator",
+      "gtaculture-weapons",
+      "ign-gear-up",
       "ign-weapons-guide",
-      "ign-gear-up"
+      "leonida-hawk-and-little-mediator",
+      "trackergg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1433,7 +1806,8 @@
       "GTABase gives the Wortham W-14 a story mode price of $1,400 at Ammu-Nation.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page (published November 19, 2026) calls it a Combat Rifle; its price, magazine size and ratings (damage 5.8, accuracy 7.5, handling 5.2, range 7.2) match DayOne's figures already in the app.",
-      "Dexerto gives an unlock requirement for buying it: requires a bank account."
+      "Dexerto gives an unlock requirement for buying it: requires a bank account.",
+      "In-game stat bars (out of 10): Damage 5.8, Accuracy 7.5, Handling 5.2, Range 7.2, read from the game by two sources."
     ],
     "tags": [
       "14",
@@ -1449,18 +1823,27 @@
       "magazine": "20",
       "fire_mode": "Semi-auto",
       "availability": "Ammu-Nation; unlock requirement: requires a bank account (Dexerto)",
-      "price": "$1,400"
+      "price": "$1,400",
+      "damage": 5.8,
+      "accuracy": 7.5,
+      "handling": 5.2,
+      "range": 7.2,
+      "weapon_class": "Combat Rifle",
+      "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "trackergg",
       "gamerant-weapons",
+      "gtabase-w-14",
       "ign-weapons-guide",
+      "leonida-wortham-w-14",
+      "r10-dex-w-wortham-w-14",
       "r8gb-weapons-w-14",
-      "r10-dex-w-wortham-w-14"
+      "trackergg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1475,7 +1858,8 @@
       "GTABase gives the Hillinger M306 TMR a story mode price of $2,550 at Ammu-Nation.",
       "GTABase says it can be modified with attachments and tints.",
       "Dexerto's weapon page (published November 19, 2026) calls it a Marksman Elite Rifle; its price, magazine size and ratings (damage 6.2, accuracy 7.8, handling 5.5, range 7.5) match DayOne's figures already in the app.",
-      "Dexerto gives an unlock requirement for buying it: get gold in all ranges."
+      "Dexerto gives an unlock requirement for buying it: get gold in all ranges.",
+      "In-game stat bars (out of 10): Damage 6.2, Accuracy 7.8, Handling 5.5, Range 7.5, read from the game by two sources."
     ],
     "tags": [
       "hillinger",
@@ -1492,17 +1876,27 @@
       "magazine": "20",
       "fire_mode": "Semi-auto",
       "availability": "Ammu-Nation; unlock requirement: get gold in all ranges (Dexerto)",
-      "price": "$2,550"
+      "price": "$2,550",
+      "damage": 6.2,
+      "accuracy": 7.8,
+      "handling": 5.5,
+      "range": 7.5,
+      "weapon_class": "Marksman Elite Rifle",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight",
+      "where": "Store unlock at Big Shots: Get gold in all ranges (The Leonida)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gamerant-weapons",
+      "gtabase-m306-tmr",
       "ign-weapons-guide",
-      "r8gb-weapons-m306-tmr",
-      "r10-dex-w-hillinger-m306-tmr"
+      "leonida-hillinger-m306-tmr",
+      "r10-dex-w-hillinger-m306-tmr",
+      "r8gb-weapons-m306-tmr"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1514,7 +1908,8 @@
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "PowerPyx lists it among the five sniper rifles sold at Expanded Ammu-Nation stores, priced at $2,950.",
       "DayOne spells the maker 'Faireview' for this rifle; PowerPyx and DayOne's other entries use Fairview.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "In-game stat bars (out of 10): Damage 8, Accuracy 8.3, Handling 2.9, Range 8.4, as read by GTABase only so far. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "fairview",
@@ -1531,16 +1926,25 @@
       "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
       "magazine": "10",
       "fire_mode": "Bolt action",
-      "price": "$2,950"
+      "price": "$2,950",
+      "damage": 8,
+      "accuracy": 8.3,
+      "handling": 2.9,
+      "range": 8.4,
+      "weapon_class": "Combat Sniper Rifle",
+      "mods": "Barrel, Grip, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-sniper",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "gtabase-ff-sr",
+      "ign-weapons-guide",
+      "leonida-fairview-ff-sr",
+      "ppx-sniper"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1553,7 +1957,8 @@
       "PowerPyx lists it among the five sniper rifles sold at Expanded Ammu-Nation stores, priced at $1,850.",
       "DayOne's hunting guide names it as the recommended weapon for alligators, crocodiles, black bears and wild boar.",
       "PowerPyx says Bret hands over a unique variant, the Killtelligence SM-69, in the mission Veteran Hunted, and that it can afterwards be taken from any weapon locker.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\".",
+      "In-game stat bars (out of 10): Damage 6.8, Accuracy 8.4, Handling 3.1, Range 8.4, read from the game by two sources. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "69",
@@ -1572,19 +1977,30 @@
       "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
       "magazine": "5",
       "fire_mode": "Bolt action",
-      "price": "$1,850"
+      "price": "$1,850",
+      "damage": 6.8,
+      "accuracy": 8.4,
+      "handling": 3.1,
+      "range": 8.4,
+      "weapon_class": "Hunting Sniper Rifle",
+      "mods": "Barrel, Magazine, Suppressor, Sight, Stock",
+      "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida); Free pickup on the top platform of the radio tower in the starting area (Key Lento), per creators quoted by Heist Lounge; Legacy Gaming names it the Shrewsbury SM69 (Heist Lounge)",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-weapons",
-      "ppx-sniper",
       "dayone-hunting",
-      "ppx-bret",
-      "ppx-100",
+      "dayone-weapons",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "gtabase-sm-69",
+      "heistlounge-weapons",
+      "ign-weapons-guide",
+      "leonida-shrewsbury-sm-69",
+      "ppx-100",
+      "ppx-bret",
+      "ppx-sniper"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1597,7 +2013,8 @@
       "PowerPyx lists it among the five sniper rifles sold at Expanded Ammu-Nation stores, priced at $950.",
       "Tracker Network's database lists it as the Laird 350 under Sniper Rifles.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Standard or Hunting\".",
-      "Disagreement: PowerPyx lists it only at Expanded stores, while IGN's column says Standard or Hunting."
+      "Disagreement: PowerPyx lists it only at Expanded stores, while IGN's column says Standard or Hunting.",
+      "In-game stat bars (out of 10): Damage 6.5, Accuracy 8.8, Handling 3.6, Range 8.4, as read by GTABase only so far. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "350",
@@ -1616,17 +2033,26 @@
       "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
       "magazine": "5",
       "fire_mode": "Bolt action",
-      "price": "$950"
+      "price": "$950",
+      "damage": 6.5,
+      "accuracy": 8.8,
+      "handling": 3.6,
+      "range": 8.4,
+      "weapon_class": "Sporting Sniper Rifle",
+      "mods": "Barrel, Suppressor, Sight, Stock",
+      "paid_with": "Cash"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-sniper",
-      "trackergg",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "gtabase-bolt-action-sniper",
+      "ign-weapons-guide",
+      "leonida-fortune-and-son-laird-350",
+      "ppx-sniper",
+      "trackergg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1637,7 +2063,8 @@
       "DayOne lists in-game ratings out of 10 of damage 8.5, accuracy 7.0, handling 3.5 and range 7.5, with a capacity of 5 rounds and bolt action fire.",
       "Game Rant says shotguns, assault rifles, tactical rifles and sniper rifles occupy the long gun slots.",
       "PowerPyx lists it among the five sniper rifles sold at Expanded Ammu-Nation stores, priced at $3,975.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "In-game stat bars (out of 10): Damage 8.5, Accuracy 7.8, Handling 2.5, Range 8.5, as read by GTABase only so far. Another source read different bars, possibly with attachments fitted; the in-game reading is used."
     ],
     "tags": [
       "50",
@@ -1655,16 +2082,25 @@
       "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
       "magazine": "5",
       "fire_mode": "Bolt action",
-      "price": "$3,975"
+      "price": "$3,975",
+      "damage": 8.5,
+      "accuracy": 7.8,
+      "handling": 2.5,
+      "range": 8.5,
+      "weapon_class": "Heavy Sniper Rifle",
+      "mods": "Grip, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-sniper",
       "gamerant-weapons",
-      "ign-weapons-guide"
+      "gtabase-ff-50",
+      "ign-weapons-guide",
+      "leonida-fairview-ff-50",
+      "ppx-sniper"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1677,7 +2113,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded or Hunting\".",
       "IGN's column says Expanded or Hunting stock; other guides say it is unlocked through Bret's hunting quests.",
       "GTABase lists an ammo capacity of 5.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 6.8, Accuracy 8.6, Handling 3.3, Range 8.4, read from the game by two sources."
     ],
     "tags": [
       "bret",
@@ -1692,15 +2129,24 @@
       "manufacturer": "Shrewsbury",
       "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms) after Bret Vogel's ninth hunting quest",
       "price": "$2,150",
-      "magazine": "5"
+      "magazine": "5",
+      "damage": 6.8,
+      "accuracy": 8.6,
+      "handling": 3.3,
+      "range": 8.4,
+      "weapon_class": "Advanced Sniper Rifle",
+      "mods": "Barrel, Magazine, Suppressor, Sight",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-sniper",
+      "gtabase-sms-01",
       "ign-weapons-guide",
+      "leonida-shrewsbury-sms-01",
+      "ppx-sniper",
       "r8gb-weapons-sms-01"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1710,7 +2156,8 @@
     "body": [
       "DayOne lists in-game ratings out of 10 of damage 6.8, accuracy 2.8, handling 2.8 and range 6.5, with a capacity of 100 rounds and full auto fire.",
       "PowerPyx says Expanded Ammu-Nation stores are the ones that stock light machine guns, without naming the models.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "In-game stat bars (out of 10): Damage 6.8, Accuracy 2.8, Handling 2.8, Range 6.5, as read by GTABase only so far."
     ],
     "tags": [
       "goodwin",
@@ -1724,15 +2171,20 @@
       "manufacturer": "Goodwin",
       "magazine": "100",
       "fire_mode": "Full auto",
-      "availability": "Expanded Only Ammu-Nation stock (IGN)"
+      "availability": "Expanded Only Ammu-Nation stock (IGN)",
+      "damage": 6.8,
+      "accuracy": 2.8,
+      "handling": 2.8,
+      "range": 6.5
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-ammunation",
-      "ign-weapons-guide"
+      "gtabase-lmg-6",
+      "ign-weapons-guide",
+      "ppx-ammunation"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1745,7 +2197,8 @@
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
       "GTABase gives the ADB M350 a story mode price of $10,000 at Ammu-Nation.",
       "GTABase lists an extended magazine of 200 rounds.",
-      "GTABase says it can be modified with attachments and tints."
+      "GTABase says it can be modified with attachments and tints.",
+      "In-game stat bars (out of 10): Damage 6.5, Accuracy 3, Handling 3.2, Range 6.2, read from the game by two sources."
     ],
     "tags": [
       "adb",
@@ -1761,16 +2214,25 @@
       "magazine": "100",
       "fire_mode": "Full auto",
       "availability": "Expanded Only Ammu-Nation stock (IGN)",
-      "price": "$10,000"
+      "price": "$10,000",
+      "damage": 6.5,
+      "accuracy": 3,
+      "handling": 3.2,
+      "range": 6.2,
+      "weapon_class": "Combat Machine Gun",
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-ammunation",
+      "gtabase-combat-mg",
       "ign-weapons-guide",
+      "leonida-adb-m350",
+      "ppx-ammunation",
       "r8gb-weapons-combat-mg"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1781,7 +2243,8 @@
       "DayOne lists in-game ratings out of 10 of damage 9.2, accuracy 5.0, handling 6.0 and range 4.0, with a capacity of 1 rounds and single shot fire.",
       "PowerPyx calls it the Hillinger Boomer and prices it at $12,000 at Expanded Ammu-Nation stores; DayOne writes the name as Hillinger Boomers.",
       "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
-      "IGN rates it damage 9.2 with a single-shot 40mm grenade, a longarm."
+      "IGN rates it damage 9.2 with a single-shot 40mm grenade, a longarm.",
+      "In-game stat bars (out of 10): Damage 9.2, Accuracy 5, Handling 6, Range 4, read from the game by two sources."
     ],
     "tags": [
       "boomer",
@@ -1798,15 +2261,24 @@
       "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
       "magazine": "1",
       "fire_mode": "Single shot",
-      "price": "$12,000"
+      "price": "$12,000",
+      "damage": 9.2,
+      "accuracy": 5,
+      "handling": 6,
+      "range": 4,
+      "weapon_class": "Compact Grenade Launcher",
+      "mods": "Stock",
+      "paid_with": "BuckMe"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-launchers",
-      "ign-weapons-guide"
+      "gtabase-boomer",
+      "ign-weapons-guide",
+      "leonida-hillinger-boomer",
+      "ppx-launchers"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1818,7 +2290,8 @@
       "PowerPyx prices it at $15,500 at Expanded Ammu-Nation stores.",
       "IGN's weapons table lists the Deever Tech GLR40 as a rotary grenade launcher firing 40mm grenades with a magazine of 6 and damage 9.2, but files it under Sidearm with N/A in its stock column, which disagrees with PowerPyx's Expanded-store price of $15,500.",
       "IGN's unique-variant guide places it inside a one-car garage in the courtyard of the Sunrise Motel, located in Tequesta in Vice-Dale County.",
-      "Disagreement: the app's earlier PowerPyx figure prices a Deever Tech GLR40 at $15,500 at Expanded stores, while IGN lists this unique variant as a free pickup; the two may describe different versions."
+      "Disagreement: the app's earlier PowerPyx figure prices a Deever Tech GLR40 at $15,500 at Expanded stores, while IGN lists this unique variant as a free pickup; the two may describe different versions.",
+      "In-game stat bars (out of 10): Damage 9.2, Accuracy 6, Handling 5, Range 4, as read by GTABase only so far."
     ],
     "tags": [
       "deever",
@@ -1835,16 +2308,21 @@
       "availability": "Found in the open world (IGN)",
       "magazine": "6",
       "fire_mode": "Semi-auto",
-      "price": "$15,500"
+      "price": "$15,500",
+      "damage": 9.2,
+      "accuracy": 6,
+      "handling": 5,
+      "range": 4
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-launchers",
+      "gtabase-grenade-launcher",
+      "ign-unique-weapon-variants",
       "ign-weapons-guide",
-      "ign-unique-weapon-variants"
+      "ppx-launchers"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1855,7 +2333,8 @@
       "DayOne lists in-game ratings out of 10 of damage 9.6, accuracy 4.5, handling 3.0 and range 8.0, with a capacity of 1 rounds and single shot fire.",
       "PowerPyx calls it the Hauners H-AT Rocket Launcher, the game's only rocket launcher, priced at $16,000 at Expanded Ammu-Nation stores; DayOne lists it simply as H-AT.",
       "PowerPyx also lists a cheat that adds a Hauners H-AT to the loadout.",
-      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\"."
+      "IGN's weapons table (updated November 18, 2026) gives its Ammu-Nation stock as \"Expanded Only\".",
+      "In-game stat bars (out of 10): Damage 9.6, Accuracy 4.5, Handling 3, Range 8, as read by GTABase only so far."
     ],
     "tags": [
       "at",
@@ -1873,16 +2352,21 @@
       "availability": "Expanded Ammu-Nation stores (Woodhatch, Big Shots, Phil's Ammu-Nation, Black Eagle, Iron & Oak, Prestige Firearms)",
       "magazine": "1",
       "fire_mode": "Single shot",
-      "price": "$16,000"
+      "price": "$16,000",
+      "damage": 9.6,
+      "accuracy": 4.5,
+      "handling": 3,
+      "range": 8
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
-      "ppx-launchers",
+      "gtabase-rpg-rocket-launcher",
+      "ign-weapons-guide",
       "ppx-cheats",
-      "ign-weapons-guide"
+      "ppx-launchers"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/weapons/hauners-h-at.jpg"
   },
@@ -1895,7 +2379,8 @@
       "PowerPyx adds that it can be collected again from any Ammu-Nation weapon locker.",
       "Insider Gaming says unique weapons carry a gold icon and cannot be modified.",
       "IGN's unique-variant guide says Bret Vogel hands it over when his hunting side quests begin.",
-      "GTABase lists an ammo capacity of 5."
+      "GTABase lists an ammo capacity of 5.",
+      "In-game stat bars (out of 10): Damage 6.8, Accuracy 9.2, Handling 1.8, Range 9.3, as read by GTABase only so far."
     ],
     "tags": [
       "bret",
@@ -1909,18 +2394,25 @@
       "type": "sniper",
       "availability": "Given by Bret Vogel at the start of his hunting side quests (IGN)",
       "magazine": "5",
-      "manufacturer": "Shrewsbury"
+      "manufacturer": "Shrewsbury",
+      "damage": 6.8,
+      "accuracy": 9.2,
+      "handling": 1.8,
+      "range": 9.3,
+      "where": "Given by Bret Vogel when you start the hunting side missions. (GTA Scoop)"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-bret",
-      "ppx-100",
-      "ppx-trophy",
-      "insider-weapons",
+      "gtabase-killtelligence-sm-69",
+      "gtascoop-shrewsbury-sm-69",
       "ign-unique-weapon-variants",
+      "insider-weapons",
+      "ppx-100",
+      "ppx-bret",
+      "ppx-trophy",
       "r8gb-weapons-killtelligence-sm-69"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1929,7 +2421,8 @@
     "summary": "A unique variant of the Moreland 850 shotgun found inside Kingpin Bowling.",
     "body": [
       "PowerPyx says it lies on a table in the north-east corner of the bowling alley, is marked with a gold icon, and is one of three key valuables for the Let's Go Bowling trophy.",
-      "IGN's unique-variant guide says it can be taken during the Kingpin Bowling Illegal Operation, in Port Gellhorn."
+      "IGN's unique-variant guide says it can be taken during the Kingpin Bowling Illegal Operation, in Port Gellhorn.",
+      "In-game stat bars (out of 10): Damage 7.5, Accuracy 5.7, Handling 3.6, Range 2.9, as read by GTABase only so far."
     ],
     "tags": [
       "kingpin bowling",
@@ -1940,15 +2433,22 @@
     ],
     "facts": {
       "type": "shotgun",
-      "availability": "Looted during the Kingpin Bowling Illegal Operation (IGN)"
+      "availability": "Looted during the Kingpin Bowling Illegal Operation (IGN)",
+      "damage": 7.5,
+      "accuracy": 5.7,
+      "handling": 3.6,
+      "range": 2.9,
+      "where": "The Gutterball Moreland 850 is looted during the Kingpin Bowling Illegal Operation, at the abandoned bowling alley in south Port Gellhorn. (GTABase); Loot from the Kingpin Bowling Illegal Operation in south Port Gellhorn. (GTA Scoop)"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-gutterball-moreland-850",
+      "gtascoop-850",
+      "ign-unique-weapon-variants",
       "ppx-kingpin",
-      "ppx-trophy",
-      "ign-unique-weapon-variants"
+      "ppx-trophy"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1959,7 +2459,8 @@
       "Cultured Vultures says it is available from Chapter 1 in the Ammu-Nation weapon locker, under the ES9's Variants option, and cannot be customised or upgraded.",
       "PowerPyx likewise says it is redeemed from a weapon locker at Ammu-Nation.",
       "Cultured Vultures says either lead can use the other's signature pistol.",
-      "IGN's unique-variant guide says it is only available to owners of the Ultimate Edition."
+      "IGN's unique-variant guide says it is only available to owners of the Ultimate Edition.",
+      "In-game stat bars (out of 10): Damage 4.2, Accuracy 5.5, Handling 8.2, Range 4.7, as read by GTABase only so far."
     ],
     "tags": [
       "es9",
@@ -1972,15 +2473,22 @@
     "facts": {
       "type": "pistol",
       "manufacturer": "Girardi",
-      "availability": "Ultimate Edition only (IGN)"
+      "availability": "Ultimate Edition only (IGN)",
+      "damage": 4.2,
+      "accuracy": 5.5,
+      "handling": 8.2,
+      "range": 4.7,
+      "where": "Ultimate Edition bonus. (GTA Scoop)"
     },
     "confidence": "corroborated",
     "sources": [
       "cv-variants",
-      "ppx-ultimate",
-      "ign-unique-weapon-variants"
+      "gtabase-duval-signature-es9",
+      "gtascoop-es9-girardi",
+      "ign-unique-weapon-variants",
+      "ppx-ultimate"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -1990,7 +2498,8 @@
     "body": [
       "Cultured Vultures says it unlocks in Chapter 2, roughly 10 to 15 hours in, and is taken from the Ammu-Nation weapon locker under the K17's Variants option.",
       "PowerPyx likewise says it is redeemed from a weapon locker at Ammu-Nation.",
-      "Cultured Vultures says it cannot be customised or upgraded."
+      "Cultured Vultures says it cannot be customised or upgraded.",
+      "In-game stat bars (out of 10): Damage 4, Accuracy 4.2, Handling 8.5, Range 3.8, as read by GTABase only so far."
     ],
     "tags": [
       "k17",
@@ -2003,14 +2512,19 @@
     "facts": {
       "type": "pistol",
       "manufacturer": "Klose",
-      "availability": "Ultimate Edition; Ammu-Nation weapon locker from Chapter 2"
+      "availability": "Ultimate Edition; Ammu-Nation weapon locker from Chapter 2",
+      "damage": 4,
+      "accuracy": 4.2,
+      "handling": 8.5,
+      "range": 3.8
     },
     "confidence": "corroborated",
     "sources": [
       "cv-variants",
+      "gtabase-caminos-signature-k17",
       "ppx-ultimate"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -2036,17 +2550,20 @@
     "facts": {
       "type": "explosive",
       "availability": "Ammu-Nation after the Chapter 3 mission Credit Check; free at Yasmani's",
-      "price": "$185"
+      "price": "$185",
+      "paid_with": "Cash"
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-kingpin",
-      "ppx-trophy",
-      "ign-weapons-guide",
       "game8-weapons-hub",
-      "ign-sticky-bombs"
+      "gtabase-sticky-bomb",
+      "ign-sticky-bombs",
+      "ign-weapons-guide",
+      "leonida-sticky-bomb",
+      "ppx-kingpin",
+      "ppx-trophy"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {

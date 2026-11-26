@@ -36,7 +36,8 @@
     "summary": "A named vehicle whose discovery in the Progress menu unlocks the Cataclysm screen filter cheat.",
     "body": [
       "PowerPyx, DayOne, Press Start, Game Rant, GamesRadar+, Screen Rant and GameSpot all give discovering Martha's Vamos in the Progress menu as the requirement for the Cataclysm cheat.",
-      "None of these guides says where the vehicle is found or which standout group it belongs to."
+      "None of these guides says where the vehicle is found or which standout group it belongs to.",
+      "In-game stat bars (out of 10): Speed 5.7, Acceleration 5.8, Asphalt handling 3.3, Off-road handling 4.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "cataclysm",
@@ -44,19 +45,27 @@
       "vamos"
     ],
     "facts": {
-      "availability": "Location not given in the guides read"
+      "availability": "Location not given in the guides read",
+      "speed": 5.7,
+      "acceleration": 5.8,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 4.4,
+      "strength": 3.0,
+      "where": "GTABase: Rusted '74 Declasse Vamos once owned by outlaws Martha and Lyle. Found in an abandoned shed in Bonanza.; Standout (GTABase map): Ambrosia -  #250 Declasse Martha's Vamos Ambrosia Set: Ripped & Shredded. Rusted '74 Declasse Vamos once owned by outlaws Martha and Lyle. Found in an abandoned shed in Bonanza."
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-cheats",
-      "gamerant-cheats",
-      "gamesradar-cheats",
-      "screenrant-cheats",
-      "gamespot-cheats",
       "dayone-cheats",
-      "pressstart-cheats"
+      "gamerant-cheats",
+      "gamespot-cheats",
+      "gamesradar-cheats",
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
+      "ppx-cheats",
+      "pressstart-cheats",
+      "screenrant-cheats"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/web/gamespot-b18e27b34182.jpg"
   },

@@ -4,12 +4,9 @@
     "name": "Cheats",
     "summary": "PowerPyx lists 61 cheats. They appear in the Progress menu only after the story is finished, and each has its own requirement before its code does anything.",
     "body": [
-      "To enter one: press Up on the D-pad to open the phone, hold L1 (LB on Xbox), press R1 (RB), then enter the code. Using a cheat switches off trophies, achievements and saving.",
-      "The guide groups them as 10 player cheats, 11 combat cheats, 21 that spawn a vehicle, 3 for time and weather, and 16 screen filters.",
-      "Requirements vary: finishing the story unlocks $250,000, Unlimited Focus and Attack Force; others ask for things like 100 workouts (Body Armor), 50 stunt jumps (Unlimited Nitrous), shooting range medals (the ammo cheats) or sets of challenges (most of the vehicles). For Cycle Weather, PowerPyx says finishing the story and GTA Vice Guides says revealing the whole map.",
-      "Codes the guide gives, as D-pad presses: $250,000 is Up, Right, Down, Left, Up, Left, Down, Right. Raise Heat Level is Left, Down, Right, Down, Up, Down, Up. Cycle Weather is Down, Right, Up, Down, Right, Up, Right. Unlimited Focus is Down, Up, Up, Down, Up, Down, Up, Down, Up, Right. Body Armor is Down, Up, Left, Up, Up, Up, Up, Up, Down, Down. Max Ammo is Down, Up, Right, Down, Left, Left, Up, Up, Down, Left.",
-      "The guide had no code yet for most of the 61.",
-      "GTA Vice Guides gives the same six codes."
+      "Cheats only appear after the main story is finished (NoobFeed: all 91 story missions, in Chapter 5), under Progress Menu > Cheats; the tab stays hidden until at least one cheat is unlocked (Push Square). Each cheat must then be unlocked by its own requirement; a code entered before that does nothing. To enter one: press Up on the D-pad to open the phone, hold L1 and press R1 (Xbox: hold LB, press RB); GamesRadar+ and Push Square phrase it as holding both together. Then enter the D-pad sequence; an on-screen notification confirms it. The sequences are identical on PS5 and Xbox Series X|S. Using any cheat disables trophies/achievements and saving for that session; quitting or reloading an earlier save restores them (Push Square, Gamer Tweak, GTABase), and progress made while cheating is lost on quit (GTABase). Gamer Tweak says weather and screen-filter cheats can be switched off by entering the same code again and that the money code can be repeated. There are no phone-number cheats, and there is no PC version or keyboard cheat input yet (Gamer Tweak, GTABase PC page).",
+      "The game groups them as 10 player cheats, 11 combat cheats, 21 that spawn a vehicle, 3 for time and weather, and 16 screen filters: 61 in all, and by November 26, 2026 guides had printed a code for 61 of them.",
+      "Every cheat, with its code and unlock, is on the Cheats and Controls page (#/cheats)."
     ],
     "related": [
       "gameplay/challenges",
@@ -30,10 +27,17 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "powerpyx-cheats",
-      "r17-gvg-cheats"
+      "gamechecklists-cheats",
+      "gamertweak-cheats",
+      "gamesradar-cheats",
+      "gtabase-cheats-pc",
+      "gtabase-cheats-ps5",
+      "gtabase-cheats-xbox",
+      "noobfeed-cheats-news",
+      "pcgamer-cheats",
+      "pushsquare-cheats"
     ],
-    "verified": "2026-11-25",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {

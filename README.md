@@ -33,7 +33,7 @@
 </tr>
 <tr>
 <td valign="top"><img src="docs/media/entry.jpg" alt="An entry page: Taco Bomb with its picture, facts, More of this type and sources"><br><b>Entry pages</b><br>Facts, links to the people and places named, more of the same type, and where each fact comes from.</td>
-<td valign="top"><img src="docs/media/map.jpg" alt="The map of Leonida with numbered clusters of pins"><br><b>Map of Leonida</b><br>Every place pinned, robbery runs that follow the roads, a 3D view and Street Explorer.</td>
+<td valign="top"><img src="docs/media/map.jpg" alt="The map of Leonida with numbered clusters of pins"><br><b>Map of Leonida</b><br>Every place pinned with found counts, robbery runs that follow the roads, and a 3D view.</td>
 </tr>
 <tr>
 <td valign="top"><img src="docs/media/tracker.jpg" alt="Collectible Tracker: collectibles in families, with filters"><br><b>Collectible Tracker</b><br>Tick off every collectible, family by family and county by county.</td>

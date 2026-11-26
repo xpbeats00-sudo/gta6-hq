@@ -6,7 +6,8 @@
     "body": [
       "IGN calls the Vapid Smuggler Caracara a Standout vehicle and the third of four Key Valuables at the Brooks Boatworks Illegal Operation in Port Gellhorn.",
       "IGN says the bright orange truck is parked in front of the green wooden building, is unlocked with no alarm, and only counts as found once the player gets in.",
-      "IGN says it costs 5,550 dollars to register and sells for 6,325 dollars."
+      "IGN says it costs 5,550 dollars to register and sells for 6,325 dollars.",
+      "In-game stat bars (out of 10): Speed 5.9, Acceleration 7.3, Asphalt handling 3.0, Off-road handling 7.6, Strength 4.2, as read by GTABase only so far."
     ],
     "tags": [
       "illegal operation",
@@ -18,15 +19,24 @@
       "manufacturer": "Vapid",
       "model": "Smuggler Caracara",
       "class": "Standout (group not stated)",
-      "availability": "Key Valuable at Brooks Boatworks, Port Gellhorn"
+      "availability": "Key Valuable at Brooks Boatworks, Port Gellhorn",
+      "speed": 5.9,
+      "acceleration": 7.3,
+      "asphalt_handling": 3.0,
+      "offroad_handling": 7.6,
+      "strength": 4.2,
+      "price": "$5,550 (Story Mode price, which the guides read as the registration cost)",
+      "where": "GTABase: The Smuggler Caracara is found parked at the Brooks Boatworks docks in Port Gellhorn.; Standout (GTABase map): Port Gellhorn -  #215 Vapid Smuggler Caracara Port Gellhorn Set: All-Terrain. One-off Vapid Caracara 4x4, modded by the Kolts for off-roading. Discovered at some docks in Port Gellhorn."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "ign-brooks-boatworks",
       "ign-illegal-operations",
       "rs-gta6map-standout-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -36,7 +46,8 @@
     "body": [
       "IGN calls the Vapid Truth & Justice Caracara a Standout vehicle and the third Key Valuable at the June Warehouse Illegal Operation in Port Gellhorn.",
       "IGN says it is parked just east of the main garage, unlocked and without an alarm.",
-      "IGN says it costs 5,550 dollars to register and sells for 6,445 dollars."
+      "IGN says it costs 5,550 dollars to register and sells for 6,445 dollars.",
+      "In-game stat bars (out of 10): Speed 5.0, Acceleration 6.1, Asphalt handling 2.9, Off-road handling 8.4, Strength 6.3, as read by GTABase only so far."
     ],
     "tags": [
       "illegal operation",
@@ -48,15 +59,25 @@
       "manufacturer": "Vapid",
       "model": "Truth & Justice Caracara",
       "class": "Standout (group not stated)",
-      "availability": "Key Valuable at June Warehouse, Port Gellhorn"
+      "availability": "Key Valuable at June Warehouse, Port Gellhorn",
+      "speed": 5.0,
+      "acceleration": 6.1,
+      "asphalt_handling": 2.9,
+      "offroad_handling": 8.4,
+      "strength": 6.3,
+      "price": "$5,550 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$5,900 when stolen",
+      "where": "GTABase: Rugged Vapid Caracara 4x4 with a star-spangled finish. Kept at a garage in Port Gellhorn by Kolt & Associates.; Standout (GTABase map): Port Gellhorn -  #222 Vapid Truth & Justice Caracara Port Gellhorn Set: Patriot. Rugged Vapid Caracara 4x4 with a star-spangled finish. Kept at a garage in Port Gellhorn by Kolt & Associates."
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-june-warehouse",
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "ign-illegal-operations",
+      "ign-june-warehouse",
       "rs-gta6map-standout-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -66,7 +87,8 @@
     "body": [
       "IGN calls the Vapid Firebug Dominator a Standout vehicle and the first of three Key Valuables at the La Cascara Motel Illegal Operation in Port Gellhorn.",
       "IGN says the bright red car is parked on the east side in front of the motel, where hostile thugs gather.",
-      "IGN says, unlike the other standout vehicles on its operation pages, it is locked: a window has to be broken or a Slim Jim used before it can be hotwired. IGN gives no register or sale price."
+      "IGN says, unlike the other standout vehicles on its operation pages, it is locked: a window has to be broken or a Slim Jim used before it can be hotwired. IGN gives no register or sale price.",
+      "In-game stat bars (out of 10): Speed 6.5, Acceleration 7.2, Asphalt handling 5.2, Off-road handling 4.1, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "illegal operation",
@@ -78,15 +100,23 @@
       "manufacturer": "Vapid",
       "model": "Firebug Dominator",
       "class": "Standout (group not stated)",
-      "availability": "Key Valuable at La Cascara Motel, Port Gellhorn"
+      "availability": "Key Valuable at La Cascara Motel, Port Gellhorn",
+      "speed": 6.5,
+      "acceleration": 7.2,
+      "asphalt_handling": 5.2,
+      "offroad_handling": 4.1,
+      "strength": 3.0,
+      "where": "GTABase: Custom Vapid Dominator found at an abandoned hotel overrun by Kolt & Associates. Supercharged for added thrust.; Standout (GTABase map): Port Gellhorn -  #216 Vapid Firebug Dominator Port Gellhorn Set: Ripped & Shredded. Custom Vapid Dominator found at an abandoned hotel overrun by Kolt & Associates. Supercharged for added thrust."
     },
     "confidence": "corroborated",
     "sources": [
-      "ign-la-cascara-motel",
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "ign-illegal-operations",
+      "ign-la-cascara-motel",
       "rs-gta6map-standout-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -106,15 +136,18 @@
     "facts": {
       "model": "Bombora S23 CCS",
       "class": "Boat",
-      "availability": "Jason's Key Lento safehouse"
+      "availability": "Jason's Key Lento safehouse",
+      "where": "Spawn (GTABase map): Ambrosia -  #161 Bombora S23 CCS Ambrosia A Bombora S23 CCS boat.; Spawn (GTABase map): Port Gellhorn -  #162 Bombora S23 CCS Port Gellhorn A Bombora S23 CCS boat."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
       "ign-beginners-guide",
       "ign-diving-treasure",
       "ign-fishing-shacks"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]

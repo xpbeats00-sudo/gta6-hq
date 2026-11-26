@@ -1,12 +1,9 @@
-// GTA 6 HQ — the map's 3D view and its street view.
+// GTA 6 HQ — the map's 3D view.
 // Map3D: the official Leonida map laid flat on the ground in MapLibre GL (loaded on first use),
 // tilted and turnable, with each pin standing up as a coloured column. The map itself stays a
 // flat picture: there is no terrain or building data, and the 3D view does not pretend otherwise.
-// StreetView: drop the walker anywhere and look through the real in-game pictures nearest that spot,
-// one at a time, like walking a street. They are screenshots, not 360° captures; each says how
-// exactly it is placed (at its own pin, or only at the town, district or region its entry names).
 //
-// Entry points: Map3D.create(element, config, pins, photos, handlers), StreetView.open(options)
+// Entry point: Map3D.create(element, config, pins, handlers)
 
 (function () {
   const esc = (text) => String(text ?? '').replace(/[&<>"']/g, (c) => (
@@ -103,7 +100,7 @@
     return canvas;
   }
 
-  async function create(element, config, pins, photos, handlers = {}) {
+  async function create(element, config, pins, handlers = {}) {
     await load();
     const g = geo(config);
     const poster = config.image
@@ -142,16 +139,11 @@
       type: 'FeatureCollection',
       features: pins.map((pin, i) => ({ type: 'Feature', id: i, properties: { i, color: solid(pin.color) }, geometry: { type: 'Point', coordinates: g.toLngLat(pin.x, pin.y) } })),
     };
-    const photoData = {
-      type: 'FeatureCollection',
-      features: photos.map((p, i) => ({ type: 'Feature', properties: { i }, geometry: { type: 'Point', coordinates: g.toLngLat(p.x, p.y) } })),
-    };
     const empty = { type: 'FeatureCollection', features: [] };
 
     await new Promise((resolve) => map.on('load', resolve));
     map.addSource('pins', { type: 'geojson', data: pinData });
     map.addSource('dots', { type: 'geojson', data: dotData });
-    map.addSource('photos', { type: 'geojson', data: photoData });
     map.addSource('route', { type: 'geojson', data: empty });
     map.addSource('selected', { type: 'geojson', data: empty });
     map.addSource('links', { type: 'geojson', data: empty });
@@ -180,8 +172,6 @@
       paint: { 'line-color': '#ffd166', 'line-width': ['interpolate', ['linear'], ['zoom'], 8, 3, 12, 6], 'line-dasharray': [1.5, 1.2] } });
     map.addLayer({ id: 'route-stops', type: 'circle', source: 'route', filter: ['==', ['geometry-type'], 'Point'],
       paint: { 'circle-color': '#ffd166', 'circle-radius': 11, 'circle-stroke-color': '#120a1c', 'circle-stroke-width': 2, 'circle-pitch-alignment': 'viewport' } });
-    map.addLayer({ id: 'photo-dots', type: 'circle', source: 'photos', layout: { visibility: 'none' },
-      paint: { 'circle-color': '#3d9bff', 'circle-radius': ['interpolate', ['linear'], ['zoom'], 8, 3, 12, 7], 'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1.5, 'circle-opacity': 0.9 } });
 
     const onPin = (e) => handlers.onPin?.(e.features[0].properties.i, e.lngLat);
     const pointer = () => { map.getCanvas().style.cursor = 'pointer'; };
@@ -200,10 +190,6 @@
       });
       map.on('mouseleave', layer, () => hover.remove());
     }
-    map.on('click', 'photo-dots', (e) => {
-      const [x, y] = g.toXY(e.lngLat.lng, e.lngLat.lat);
-      handlers.onStreet?.(x, y);
-    });
     map.fitBounds([g.corners[3], g.corners[1]], { padding: 24, pitch: HOME.pitch, bearing: HOME.bearing, duration: 0 });
     // Open a little closer than the whole sheet, on the island itself.
     map.jumpTo({ center: g.toLngLat(0.6, 0.52), zoom: map.getZoom() + 0.9 });
@@ -233,7 +219,6 @@
         const ll = map.unproject([clientX - box.left, clientY - box.top]);
         return g.toXY(ll.lng, ll.lat);
       },
-      showPhotos(on) { if (gone) return; if (map.getLayer('photo-dots')) map.setLayoutProperty('photo-dots', 'visibility', on ? 'visible' : 'none'); },
       flyTo(x, y, zoom = 11.5) { map.flyTo({ center: g.toLngLat(x, y), zoom, pitch: 62, duration: ms(1400), curve: 1.6 }); },
       /** Highlight one pin (or none, with -1); the ring pulses briefly unless motion is reduced. */
       select(i) { if (gone) return;
@@ -307,221 +292,5 @@
     };
   }
 
-  // ---------- street view ----------
-
-  const PRECISION = {
-    // The pins themselves are approximate (placed by hand or from a guide map), so no picture is "exact".
-    pin: 'At its entry’s pin (the pin is approximate)',
-    town: 'Approximate: placed at its town',
-    district: 'Approximate: placed at its district',
-    region: 'Approximate: placed at its region',
-    landmark: 'Approximate: placed at a landmark nearby',
-    area: 'Approximate: placed at the area its entry names',
-  };
-  const COMPASS = ['north', 'north-east', 'east', 'south-east', 'south', 'south-west', 'west', 'north-west'];
-
-  /**
-   * Open the street view at a spot. options: { x, y, photos (each {src,x,y,title,ref,credit,at,precision}),
-   *   config (the map), walker (picture URL), places, link(ref) → entry URL,
-   *   onSave(x, y, where), onSwap() → new walker URL, onClose }
-   */
-  function open(options) {
-    const { config } = options;
-    const W = config.width, H = config.height;
-    const near = options.photos
-      .map((p) => ({ p, d: Math.hypot((p.x - options.x) * W, (p.y - options.y) * H) }))
-      .sort((a, b) => a.d - b.d)
-      .slice(0, 30);
-    // The town or district nearest the spot where the walker landed names the view.
-    const where = (options.places || []).reduce((best, pl) => {
-      const d = Math.hypot((pl.x - options.x) * W, (pl.y - options.y) * H);
-      return !best || d < best.d ? { d, name: pl.name } : best;
-    }, null)?.name || near[0]?.p.at || 'here';
-    const opener = document.activeElement;
-    const root = document.createElement('div');
-    root.className = 'sv';
-    root.setAttribute('role', 'dialog');
-    root.setAttribute('aria-modal', 'true');
-    root.setAttribute('aria-label', `Street Explorer near ${where}`);
-    document.body.append(root);
-    let index = 0;
-    let walker = options.walker;
-    let who = options.who || (/lucia/.test(walker) ? 'lucia' : 'jason');
-    const ic = (name) => (window.icon ? window.icon(name) : '');
-    // Jason and Lucia as two portrait badges; the one walking has the pink ring.
-    const cast = () => (options.onSwap ? `<div class="sv-cast" role="radiogroup" aria-label="Walk as">${['jason', 'lucia'].map((w) => `<button type="button" class="sv-badge" role="radio" aria-checked="${w === who}" data-who="${w}"><img src="${esc(window.walkerPicture ? window.walkerPicture(w) : `/images/map/walker-${w}.png`)}" alt=""><span>${w === 'jason' ? 'Jason' : 'Lucia'}</span></button>`).join('')}</div>`
-      : `<span class="sv-badge" aria-hidden="true"><img src="${esc(walker)}" alt=""></span>`);
-
-    if (!near.length) {
-      root.innerHTML = `<div class="sv-empty"><img src="${esc(walker)}" alt=""><h2>No pictures here yet</h2>
-        <p>None of the app's in-game pictures is tied to a place on the map.</p><button type="button" class="btn" data-close>Back to the map</button></div>`;
-    } else {
-      root.innerHTML = `
-        <div class="sv-photo"><div class="sv-backdrop" aria-hidden="true"></div><img alt="" draggable="false" decoding="async"><div class="sv-shade"></div></div>
-        <header class="sv-top">
-          ${cast()}
-          <div><span class="kicker">Street Explorer</span><h2 class="sv-where">Near ${esc(where)}</h2>
-            <p class="sv-note">Real in-game screenshots, nearest first. They are single pictures, not 360° views: drag one to look across it, use the arrows to walk on.</p></div>
-          <div class="sv-actions">
-            <button type="button" class="sv-act" data-home aria-label="Back to start" title="Back to the picture nearest where you dropped in (Home)">${ic('reset')}<span>Back to start</span></button>
-            ${options.onSave ? `<button type="button" class="sv-act" data-save aria-label="Save this spot">${ic('bookmark')}<span>Save this spot</span></button>` : ''}
-            <button type="button" class="btn btn-primary btn-small sv-close" data-close aria-label="Close Street Explorer and return to the map">${ic('back')}<span>Back to map</span></button>
-          </div>
-        </header>
-        <button type="button" class="sv-nav sv-prev" data-step="-1" aria-label="Previous picture">${ic('chevron-left')}</button>
-        <button type="button" class="sv-nav sv-next" data-step="1" aria-label="Next picture">${ic('chevron-right')}</button>
-        <div class="sv-mini" aria-hidden="true"><svg class="sv-mini-line"><line></line></svg><i class="sv-mini-you"></i><i class="sv-mini-here"></i><i class="sv-mini-next"></i></div>
-        <footer class="sv-bottom">
-          <div class="sv-caption"></div>
-          <ol class="sv-strip">${near.map(({ p }, i) => `<li><button type="button" data-go="${i}" aria-label="${esc(p.title)}"><img src="${esc(p.src)}" alt="" loading="lazy"></button></li>`).join('')}</ol>
-        </footer>`;
-    }
-
-    let img = root.querySelector('.sv-photo img');
-    let pan = 50, zoom = 1, maxZoom = 1.8;
-    const place = () => { if (img) { img.style.objectPosition = `${pan}% 50%`; img.style.transform = `scale(${zoom})`; } };
-    // Sharpness first: a picture is never shown much bigger than it really is. One that would have
-    // to be enlarged more than 1.6 times to fill the screen is shown whole, at up to 1.6 times its
-    // own size, over a soft blurred copy of itself; leaning in (the wheel) stops at 1.5 times.
-    const SOFT = 1.6;
-    function fit(el) {
-      const box = root.querySelector('.sv-photo');
-      const W2 = box.clientWidth || innerWidth, H2 = box.clientHeight || innerHeight;
-      const nw = el.naturalWidth || W2, nh = el.naturalHeight || H2;
-      const cover = Math.max(W2 / nw, H2 / nh);
-      const whole = cover > SOFT;
-      el.classList.toggle('is-whole', whole);
-      el.style.setProperty('--sv-w', `${Math.round(nw * SOFT)}px`);
-      el.style.setProperty('--sv-h', `${Math.round(nh * SOFT)}px`);
-      box.classList.toggle('has-backdrop', whole);
-      maxZoom = whole ? 1 : Math.max(1, Math.min(1.8, 1.5 / cover));
-      zoom = Math.min(zoom, maxZoom);
-    }
-    // The pictures either side are fetched ahead, so stepping on shows the next one at once.
-    const ahead = new Map();
-    const preload = (src) => { if (src && !ahead.has(src)) { const im = new Image(); im.decoding = 'async'; im.src = src; ahead.set(src, im); } };
-    let showing = 0;
-    const mini = root.querySelector('.sv-mini');
-    const scale = 0.42; // mini-map: the official map at 42%, centred on the picture's place
-
-    function show(i) {
-      if (!near.length) return;
-      index = (i + near.length) % near.length;
-      const { p } = near[index];
-      options.onPhoto?.(p);
-      const next = near[(index + 1) % near.length].p;
-      pan = 50; zoom = 1;
-      // Cross-fade: the new picture is decoded first, then fades in over the one on screen, so
-      // stepping never blinks to black.
-      const ticket = ++showing;
-      const incoming = img.cloneNode(false);
-      incoming.classList.remove('is-in', 'is-whole');
-      incoming.src = p.src;
-      const ready = incoming.decode ? incoming.decode().catch(() => {}) : Promise.resolve();
-      ready.then(() => {
-        if (ticket !== showing || !root.isConnected) return;
-        const old = img;
-        fit(incoming);
-        root.querySelector('.sv-backdrop').style.backgroundImage = `url("${p.src}")`;
-        old.after(incoming);
-        img = incoming;
-        place();
-        requestAnimationFrame(() => incoming.classList.add('is-in'));
-        old.classList.remove('is-in');
-        setTimeout(() => old.remove(), 450);
-      });
-      preload(next.src);
-      preload(near[(index - 1 + near.length) % near.length].p.src);
-      const link = options.link(p.ref);
-      // Which way the next picture lies from this one, on the map (only when they are apart).
-      const dx = (next.x - p.x) * W, dy = (next.y - p.y) * H;
-      const apart = Math.hypot(dx, dy) > 6;
-      const heading = apart ? COMPASS[Math.round(((Math.atan2(dx, -dy) * 180) / Math.PI + 360) % 360 / 45) % 8] : '';
-      root.querySelector('.sv-caption').innerHTML = `${link ? `<a href="${esc(link)}" data-close>${esc(p.title)}</a>` : `<b>${esc(p.title)}</b>`}
-        <span>${esc(p.credit)} · ${esc(PRECISION[p.precision] || PRECISION.area)}${p.precision !== 'pin' ? ` (${esc(p.at)})` : ''} · ${index + 1} of ${near.length}</span>
-        <span class="sv-next-hint">Next: ${esc(next.title)}${apart ? ` · roughly ${heading} of this one (both places are approximate)` : ' · placed at the same spot'}</span>`;
-      root.querySelector('.sv-next').title = `Next: ${next.title}`;
-      root.querySelectorAll('.sv-strip button').forEach((b, k) => b.classList.toggle('is-on', k === index));
-      root.querySelector(`.sv-strip [data-go="${index}"]`)?.scrollIntoView({ block: 'nearest', inline: 'center' });
-      const box = mini.clientWidth || 180;
-      mini.style.backgroundImage = `url("${config.image}")`;
-      mini.style.backgroundSize = `${W * scale}px ${H * scale}px`;
-      mini.style.backgroundPosition = `${box / 2 - p.x * W * scale}px ${box / 2 - p.y * H * scale}px`;
-      const at = (q) => [box / 2 + (q.x - p.x) * W * scale, box / 2 + (q.y - p.y) * H * scale];
-      const [yx, yy] = at({ x: options.x, y: options.y });
-      const you = mini.querySelector('.sv-mini-you');
-      you.style.left = `${yx}px`;
-      you.style.top = `${yy}px`;
-      you.style.backgroundImage = `url("${walker}")`;
-      const [nx, ny] = at(next);
-      const dot = mini.querySelector('.sv-mini-next');
-      dot.style.left = `${nx}px`;
-      dot.style.top = `${ny}px`;
-      dot.hidden = !apart;
-      const line = mini.querySelector('line');
-      line.setAttribute('x1', box / 2); line.setAttribute('y1', box / 2);
-      line.setAttribute('x2', nx); line.setAttribute('y2', ny);
-      line.style.display = apart ? '' : 'none';
-    }
-
-    // Look around: drag sideways to pan across the picture, wheel to lean in.
-    let drag = null;
-    const photo = root.querySelector('.sv-photo');
-    photo?.addEventListener('pointerdown', (e) => { drag = { x: e.clientX, pan }; photo.setPointerCapture(e.pointerId); });
-    photo?.addEventListener('pointermove', (e) => {
-      if (!drag) return;
-      pan = Math.max(0, Math.min(100, drag.pan - ((e.clientX - drag.x) / root.clientWidth) * 140));
-      place();
-    });
-    photo?.addEventListener('pointerup', () => { drag = null; });
-    photo?.addEventListener('wheel', (e) => { e.preventDefault(); zoom = Math.max(1, Math.min(maxZoom, zoom - e.deltaY * 0.0012)); place(); }, { passive: false });
-    // A window resized while open re-fits the picture on screen.
-    const onResize = () => { if (img?.complete) { fit(img); place(); } };
-    addEventListener('resize', onResize);
-
-    function close() {
-      removeEventListener('resize', onResize);
-      document.removeEventListener('keydown', onKey, true);
-      window.removeEventListener('hashchange', close);
-      root.remove();
-      // Back to whatever opened it; when that is gone (a closed card) or was the page itself (a click
-      // on the map), to the control the page names instead.
-      const back = opener && opener !== document.body && opener.isConnected ? opener : options.focusAfter?.();
-      back?.focus?.({ preventScroll: true });
-      options.onClose?.();
-    }
-    function onKey(e) {
-      if (e.key === 'Escape') { e.preventDefault(); close(); }
-      if (e.key === 'ArrowRight') { e.preventDefault(); show(index + 1); }
-      if (e.key === 'ArrowLeft') { e.preventDefault(); show(index - 1); }
-      if (e.key === 'Home') { e.preventDefault(); show(0); }
-    }
-    document.addEventListener('keydown', onKey, true);
-    // Leaving the page (a link, the back button) closes it, so nothing is left listening.
-    window.addEventListener('hashchange', close);
-    root.addEventListener('click', (e) => {
-      const t = e.target.closest('[data-close], [data-step], [data-go], [data-home], [data-save], [data-who]');
-      if (!t) return;
-      if (t.dataset.step) show(index + Number(t.dataset.step));
-      else if (t.dataset.go !== undefined) show(Number(t.dataset.go));
-      else if (t.dataset.home !== undefined) show(0);
-      else if (t.dataset.save !== undefined) {
-        options.onSave(options.x, options.y, where);
-        t.innerHTML = `${ic('check')}<span>Saved</span>`; t.setAttribute('aria-label', 'Saved');
-        t.disabled = true;
-      } else if (t.dataset.who !== undefined) {
-        if (!options.onSwap || t.dataset.who === who) return;
-        walker = options.onSwap();
-        who = t.dataset.who;
-        root.querySelectorAll('.sv-badge[data-who]').forEach((b) => b.setAttribute('aria-checked', String(b.dataset.who === who)));
-        show(index);
-      } else close();
-    });
-    show(0);
-    root.querySelector('.sv-close, [data-close]')?.focus();
-    return { close };
-  }
-
   window.Map3D = { create };
-  window.StreetView = { open };
 })();

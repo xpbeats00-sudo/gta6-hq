@@ -4,6 +4,8 @@
     "name": "Vice Got a Price!",
     "summary": "Congratulations! You're a Leonida Legend.",
     "body": [
+      "The platinum pops automatically once every other trophy in the list is earned. All 54 others are single-player, nothing needs a second playthrough, and free roam carries on after the credits, so the whole list fits in one save.",
+      "Time: About 200 hours (GTABase, Cutscene Wire); Push Square puts it at 250 hours or more.",
       "The platinum trophy is awarded for earning every other trophy in the game.",
       "On Xbox the same name is an achievement worth no Gamerscore, for earning all the others."
     ],
@@ -19,17 +21,54 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Do not use cheats on the save you are hunting with: cheat codes switch off both trophies and saving.",
+        "picture": "/images/gameplay/settings-menu-categories.jpg"
+      },
+      {
+        "text": "Before the end of Chapter 1, accept Lucia's morning meditation on the balcony at Jason's house after Down to Earth. It is the only thing guides flag as possibly missable (see Positive Mental Attitude).",
+        "picture": "/images/missions/meditate-with-lucia.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Play through the story. Thirteen trophies come from story missions and chapter ends, and they cannot be missed.",
+        "picture": "/images/missions/chapter-1.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Pick up the side strands (Cal, Kenton, Billy, Andy, Randy, Tyrone, Bret and the strangers) as they unlock in Chapters 1 to 4. They stay open after the story.",
+        "picture": "/images/missions/strangers-and-freaks.jpg"
+      },
+      {
+        "text": "Once the credits roll, use the 100% Completion checklist in the pause menu (Progress) to clean up. A Long Road is the slowest trophy and most of the counters (stunts, WAiNK, vehicles, challenges) are covered along the way.",
+        "picture": "/images/gameplay/earning-the-platinum.jpg"
+      },
+      {
+        "text": "Finish off the hidden one-off trophies (Capital Offense, Let's Go Bowling, Catch Me If You Can, Challenging Tank and the rest) using their own entries. The platinum unlocks the moment the last of the 54 pops.",
+        "picture": "/images/gameplay/after-the-story.jpg"
+      }
+    ],
+    "related": [
+      "gameplay/earning-the-platinum",
+      "achievements/a-long-road",
+      "achievements/positive-mental-attitude"
+    ]
   },
   {
     "slug": "just-like-paradise",
     "name": "Just Like Paradise",
     "summary": "Complete Gone Fishing.",
     "body": [
+      "A story trophy for finishing Gone Fishing, one of the first missions of Chapter 1. It cannot be missed.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -45,17 +84,38 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Start the game and play the opening missions of Chapter 1; Gone Fishing comes up early as part of the main story.",
+        "picture": "/images/missions/chapter-1.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Complete Gone Fishing. The trophy unlocks when the mission ends.",
+        "picture": "/images/missions/gone-fishing.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/gone-fishing",
+      "missions/chapter-1"
+    ]
   },
   {
     "slug": "paradise-lost",
     "name": "Paradise Lost",
     "summary": "Complete Chapter 1.",
     "body": [
+      "Awarded for finishing Chapter 1 of the story. It is unmissable; GTABase says it actually appears after you play What's in the Bag?, the first Chapter 2 mission.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -71,17 +131,44 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Work through every main mission of Chapter 1 in Leonida Keys.",
+        "picture": "/images/missions/chapter-1.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Carry on into Chapter 2 and play What's in the Bag?. The Chapter 1 trophy is reported to pop around this point rather than on the last Chapter 1 cutscene.",
+        "picture": "/images/missions/whats-in-the-bag.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Before you leave Chapter 1 for good, make sure you accepted Lucia's balcony meditation (Positive Mental Attitude), the one possibly missable moment.",
+        "picture": "/images/missions/meditate-with-lucia.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/chapter-1",
+      "missions/whats-in-the-bag",
+      "achievements/positive-mental-attitude"
+    ]
   },
   {
     "slug": "t-s-ass-drug-money",
     "name": "T**s Ass Drug Money",
     "summary": "Complete Chapter 2.",
     "body": [
+      "Awarded for finishing Chapter 2. It cannot be missed and, per GTABase, is given as Chapter 3 begins, after Welcome to Vice City.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -97,17 +184,38 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Complete all main missions of Chapter 2.",
+        "picture": "/images/missions/chapter-2.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Start Chapter 3 and finish Welcome to Vice City; the trophy is reported to unlock here.",
+        "picture": "/images/missions/welcome-to-vice-city.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/chapter-2",
+      "missions/welcome-to-vice-city"
+    ]
   },
   {
     "slug": "vice-city-baby",
     "name": "Vice City, Baby!",
     "summary": "Complete Chapter 3.",
     "body": [
+      "Awarded for finishing Chapter 3. GTABase says it arrives after the first two Chapter 4 missions, Ocean Beach and Another Life.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -123,17 +231,44 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Complete all main missions of Chapter 3 in Vice City. The Cartel Heist (Break the Bank) is part of this chapter.",
+        "picture": "/images/missions/chapter-3.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Move into Chapter 4 and play Ocean Beach.",
+        "picture": "/images/missions/ocean-beach.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Finish Another Life; the Chapter 3 trophy is reported to pop after it.",
+        "picture": "/images/missions/another-life.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/chapter-3",
+      "missions/ocean-beach",
+      "missions/another-life"
+    ]
   },
   {
     "slug": "top-of-the-world-ma",
     "name": "Top Of The World, Ma",
     "summary": "Complete Chapter 4.",
     "body": [
+      "Awarded for finishing Chapter 4 of the story. Unmissable; Output Lag notes chapter trophies can pop at the start of the next chapter.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -149,18 +284,40 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Complete every main mission of Chapter 4 (it includes Child's Play, Headliners and VCIA Takedown, each with its own trophy).",
+        "picture": "/images/missions/chapter-4.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Continue into Chapter 5; if the trophy did not appear on the last Chapter 4 mission, it should arrive as the new chapter starts.",
+        "picture": "/images/missions/chapter-5.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/chapter-4",
+      "missions/chapter-5"
+    ]
   },
   {
     "slug": "you-gotta-know-when-to-get-off",
     "name": "You Gotta Know When to Get Off",
     "summary": "Complete the final mission.",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Gold trophy for finishing the final story mission. It cannot be missed, and GTABase says no trophy depends on how you played any mission. Free roam continues afterwards for the clean-up.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: The checked sources do not name the final mission."
     ],
     "tags": [
       "trophy",
@@ -175,17 +332,42 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play Chapter 5 through to the final mission.",
+        "picture": "/images/missions/chapter-5.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Complete the final mission. The trophy unlocks when it ends.",
+        "picture": "/images/missions/chapter-5.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "After the credits the game drops you back into free roam with the 100% checklist available, so nothing is lost by finishing the story first.",
+        "picture": "/images/gameplay/after-the-story.jpg"
+      }
+    ],
+    "related": [
+      "missions/chapter-5",
+      "gameplay/after-the-story"
+    ]
   },
   {
     "slug": "trust",
     "name": "Trust",
     "summary": "Complete Breakfast Run.",
     "body": [
+      "Story trophy for completing Breakfast Run in Chapter 2. Unmissable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -201,17 +383,38 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play the story missions in order until Breakfast Run becomes available. It is a Chapter 2 mission.",
+        "picture": "/images/missions/breakfast-run.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Finish Breakfast Run. The trophy is tied to completing the mission, and no guide reports any extra condition such as a rating, a time limit or a choice.",
+        "picture": "/images/missions/breakfast-run.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/breakfast-run",
+      "missions/chapter-2"
+    ]
   },
   {
     "slug": "break-the-bank",
     "name": "Break the Bank",
     "summary": "Complete The Cartel Heist.",
     "body": [
+      "Story trophy for completing The Cartel Heist in Chapter 3. Unmissable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -227,17 +430,38 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play the story missions in order until The Cartel Heist becomes available. It is part of Chapter 3.",
+        "picture": "/images/missions/the-cartel-heist.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Finish The Cartel Heist. The trophy is tied to completing the mission, and no guide reports any extra condition such as a rating, a time limit or a choice.",
+        "picture": "/images/missions/the-cartel-heist.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/the-cartel-heist",
+      "missions/chapter-3"
+    ]
   },
   {
     "slug": "family-matters",
     "name": "Family Matters",
     "summary": "Complete Child's Play.",
     "body": [
+      "Story trophy for completing Child's Play in Chapter 4. Unmissable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -253,17 +477,38 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play the story missions in order until Child's Play becomes available. It is part of Chapter 4.",
+        "picture": "/images/missions/childs-play.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Finish Child's Play. The trophy is tied to completing the mission, and no guide reports any extra condition such as a rating, a time limit or a choice.",
+        "picture": "/images/missions/childs-play.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/childs-play",
+      "missions/chapter-4"
+    ]
   },
   {
     "slug": "dwnfall",
     "name": "DWNFALL",
     "summary": "Complete Headliners.",
     "body": [
+      "Story trophy for completing Headliners in Chapter 4. Unmissable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -279,17 +524,38 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play the story missions in order until Headliners becomes available. It is part of Chapter 4.",
+        "picture": "/images/missions/headliners.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Finish Headliners. The trophy is tied to completing the mission, and no guide reports any extra condition such as a rating, a time limit or a choice.",
+        "picture": "/images/missions/headliners.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/headliners",
+      "missions/chapter-4"
+    ]
   },
   {
     "slug": "hi-jacked",
     "name": "Hi-Jacked",
     "summary": "Complete VCIA Takedown.",
     "body": [
+      "Story trophy for completing VCIA Takedown in Chapter 4. Unmissable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -305,17 +571,38 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play the story missions in order until VCIA Takedown becomes available. It is part of Chapter 4.",
+        "picture": "/images/missions/vcia-takedown.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Finish VCIA Takedown. The trophy is tied to completing the mission, and no guide reports any extra condition such as a rating, a time limit or a choice.",
+        "picture": "/images/missions/vcia-takedown.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/vcia-takedown",
+      "missions/chapter-4"
+    ]
   },
   {
     "slug": "snow-storm",
     "name": "Snow Storm",
     "summary": "Complete Operation Savage Glory.",
     "body": [
+      "Story trophy for completing Operation Savage Glory in Chapter 5. Unmissable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -331,11 +618,31 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play the story missions in order until Operation Savage Glory becomes available. It is part of Chapter 5.",
+        "picture": "/images/missions/operation-savage-glory.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Finish Operation Savage Glory. The trophy is tied to completing the mission, and no guide reports any extra condition such as a rating, a time limit or a choice.",
+        "picture": "/images/missions/operation-savage-glory.jpg",
+        "spoiler": true
+      }
+    ],
+    "related": [
+      "missions/operation-savage-glory",
+      "missions/chapter-5"
+    ]
   },
   {
     "slug": "a-long-road",
@@ -353,11 +660,53 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Gold trophy for reaching 100% completion, the longest job in the list. Progress made before the credits counts, the checklist appears under Progress after the story, and GTABase says nothing on it can be missed.",
+      "Time: Most of the roughly 200-hour platinum (GTABase).",
+      "Not yet known: GTABase and Push Square give the targets above; the complete official list of 100% items is not reproduced by any checked source in one place."
+    ],
+    "steps": [
+      {
+        "text": "Finish the story first: the full 100% Completion checklist shows up in the pause menu under Progress once the credits have rolled, but everything you did earlier already counts.",
+        "picture": "/images/gameplay/after-the-story.jpg"
+      },
+      {
+        "text": "Do every robbery: all 8 bank vaults and all 39 gang illegal operations (GTABase's figures).",
+        "picture": "/images/missions/thats-where-the-money-is.jpg"
+      },
+      {
+        "text": "Clear all Shooting Range golds (42), every Top Fun drone race, and all 15 of Bret's Target Decks, plus the underwater discoveries.",
+        "picture": "/images/activities/rodgers-ranch-shooting-range.jpg"
+      },
+      {
+        "text": "Reach the partial targets: 100 optional missions, 200 of 277 vehicle scans, 100 of 255 animal studies, 70 of 80 challenges, 300 stunts and 100 WAiNK scans.",
+        "picture": "/images/activities/stunts.jpg"
+      },
+      {
+        "text": "Finish 15 of the 18 Collectible Card sets (Push Square) and the meditation target (GTABase lists 15 of 18 meditations).",
+        "picture": "/images/collectibles/card-anth-drake-silver.jpg"
+      },
+      {
+        "text": "Keep checking Progress > 100% Completion; the trophy pops when the bar reaches 100%.",
+        "picture": "/images/gameplay/earning-the-platinum.jpg"
+      }
+    ],
+    "related": [
+      "gameplay/earning-the-platinum",
+      "gameplay/after-the-story",
+      "achievements/cunning-stunts",
+      "achievements/the-shootist",
+      "achievements/one-last-thing"
+    ]
   },
   {
     "slug": "cunning-stunts",
@@ -375,11 +724,45 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Complete 250 of the 397 stunts in any mix. Stunt types are available from early on in free roam, and none can be missed."
+    ],
+    "steps": [
+      {
+        "text": "Know what counts: 130 stunt jumps, 202 under-bridge flights, 40 knife flights and 25 base jumps all add to the same total.",
+        "picture": "/images/activities/stunts.jpg"
+      },
+      {
+        "text": "Open the map and turn on the Stunt Spots filter (under Exploration) so the locations you have found are shown.",
+        "picture": "/images/map-icons/stunt-jump.webp"
+      },
+      {
+        "text": "Fly under bridges first: guides agree it is the quickest way to raise the count, since many bridges are close together.",
+        "picture": "/images/locations/bocamar-bridge.jpg"
+      },
+      {
+        "text": "Add stunt jumps and base jumps as you pass them. The extra stunt-jump challenges are not needed for this trophy.",
+        "picture": "/images/collectibles/base-jumps.jpg"
+      },
+      {
+        "text": "Track progress in Progress > Activities > Stunts. Keep going to 300 if you are also after 100%.",
+        "picture": "/images/map-icons/base-jump.webp"
+      }
+    ],
+    "related": [
+      "activities/stunts",
+      "collectibles/base-jumps",
+      "achievements/a-long-road"
+    ]
   },
   {
     "slug": "master-of-none",
@@ -397,11 +780,67 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Try each of the nine activity types once. Most can be done in Chapter 1 or 2, and the Progress > Activities screen shows which ones are still missing. Not missable.",
+      "Not yet known: Guides agree on nine types but word the ninth as 'a stunt'; whether a lost race counts is answered no (a win is needed)."
+    ],
+    "steps": [
+      {
+        "text": "Fishing: cast a line and land a catch anywhere you can fish.",
+        "picture": "/images/activities/how-fishing-works.jpg"
+      },
+      {
+        "text": "Hunting: take part in a hunt (Bret's first hunt or hunting on your own).",
+        "picture": "/images/missions/bret-vogel-veteran-hunted.jpg"
+      },
+      {
+        "text": "Golf: a round of golf, or mini-golf, which also counts.",
+        "picture": "/images/activities/mini-golf.jpg"
+      },
+      {
+        "text": "Shooting range: play a challenge at Rodgers Ranch & Shooting Range in Port Gellhorn or Griffin Shooting Range in Balsero.",
+        "picture": "/images/activities/rodgers-ranch-shooting-range.jpg"
+      },
+      {
+        "text": "Pool: play a game of pool.",
+        "picture": "/images/activities/pool.jpg"
+      },
+      {
+        "text": "Basketball: actually sink a basket; GTABase says just throwing the ball is not enough.",
+        "picture": "/images/activities/basketball-records.jpg"
+      },
+      {
+        "text": "Video game: play an arcade cabinet or one of the games on the TV at home.",
+        "picture": "/images/activities/video-games.jpg"
+      },
+      {
+        "text": "Racing: win a race. A car race, a race challenge or a Top Fun drone race all qualify per GTABase.",
+        "picture": "/images/activities/racing.jpg"
+      },
+      {
+        "text": "Stunt: complete any stunt, such as a stunt jump or flying under a bridge.",
+        "picture": "/images/activities/stunts.jpg"
+      },
+      {
+        "text": "Open Progress > Activities to see which categories are still unticked; the trophy pops when the ninth registers.",
+        "picture": "/images/activities/activities-in-the-released-game.jpg"
+      }
+    ],
+    "related": [
+      "activities/activity-types",
+      "activities/mini-golf",
+      "activities/pool",
+      "activities/rodgers-ranch-shooting-range",
+      "activities/video-games",
+      "activities/stunts"
+    ]
   },
   {
     "slug": "the-shootist",
@@ -419,11 +858,46 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Earn gold in every Shooting Range challenge: 42 golds across the challenges at the two ranges. Available as soon as the ranges are, and not missable, but some challenges stay locked until other conditions are met.",
+      "Not yet known: Checked sources do not list what unlocks the locked challenges. GTABase also mentions 12 ranges; Push Square names two venues, so 12 is likely the number of range courses."
+    ],
+    "steps": [
+      {
+        "text": "Find the ranges on the map under Activities > Shooting Ranges: Rodgers Ranch & Shooting Range in Port Gellhorn and Griffin Shooting Range in Balsero.",
+        "picture": "/images/map-icons/shooting-range.webp"
+      },
+      {
+        "text": "Work through the challenges at Rodgers Ranch. Most have three difficulty tiers; you need the gold medal in each.",
+        "picture": "/images/activities/rodgers-ranch-shooting-range.jpg"
+      },
+      {
+        "text": "Do the themed courses there as well, such as the saloon and zombie ranges.",
+        "picture": "/images/activities/rodgers-ranch-zombie-range.jpg"
+      },
+      {
+        "text": "Clear the challenges at Griffin Shooting Range.",
+        "picture": "/images/activities/griffin-villa-range.jpg"
+      },
+      {
+        "text": "If a challenge is locked, come back after progressing further; Push Square notes some open only once other conditions are met. The trophy pops with the 42nd gold.",
+        "picture": "/images/activities/rodgers-ranch-saloon-range.jpg"
+      }
+    ],
+    "related": [
+      "activities/rodgers-ranch-shooting-range",
+      "activities/griffin-villa-range",
+      "achievements/gunslinger"
+    ]
   },
   {
     "slug": "top-fun",
@@ -441,11 +915,36 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Win one Top Fun drone race at each of the 14 locations. Not missable; 100% needs all 42 races, but the trophy only needs one win per location.",
+      "Not yet known: Checked sources do not list the 14 locations by name."
+    ],
+    "steps": [
+      {
+        "text": "Locations only show on the map once discovered: open the map and filter Activities > Drones > Top Fun Drones.",
+        "picture": "/images/map-icons/drone-race.webp"
+      },
+      {
+        "text": "Visit each of the 14 locations and enter a race; some charge an entry fee.",
+        "picture": "/images/map-icons/drone-race.webp"
+      },
+      {
+        "text": "Win one race at every location. The trophy pops after the 14th location's first win.",
+        "picture": "/images/map-icons/drone-race.webp"
+      }
+    ],
+    "related": [
+      "achievements/master-of-none"
+    ]
   },
   {
     "slug": "earn-cash-not-kudos",
@@ -463,11 +962,40 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Win 20 different races out of about 40. Repeat wins of the same race do not count. Not missable."
+    ],
+    "steps": [
+      {
+        "text": "Open the map and check Activities > Racing for race locations.",
+        "picture": "/images/activities/racing.jpg"
+      },
+      {
+        "text": "Enter races at the raceways and street venues. Most let you hire a car; if you use your own, its Rating matters and a Mod Shop can raise it.",
+        "picture": "/images/activities/ambrosia-raceway.jpg"
+      },
+      {
+        "text": "Play Yago's street racing strand in Chapter 3. Race Against Yago is timed, so save before it and do it as soon as it appears.",
+        "picture": "/images/missions/yago-race-against-yago.jpg"
+      },
+      {
+        "text": "Win 20 different events; the trophy pops on the 20th distinct win.",
+        "picture": "/images/activities/unique-races.jpg"
+      }
+    ],
+    "related": [
+      "activities/unique-races",
+      "activities/ambrosia-raceway",
+      "missions/yago-race-against-yago"
+    ]
   },
   {
     "slug": "baited-my-tackle",
@@ -485,14 +1013,45 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "exophase-trophies",
+      "cutscenewire-trophy-guide",
       "exophase-achievements",
-      "r7-ppx-bigger-fish"
+      "exophase-trophies",
+      "gtabase-trophy-guide",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-19",
+    "verified": "2026-11-26",
     "spoiler": true,
     "body": [
-      "PowerPyx says it is earned through Cal's side quest Catch A Bigger Fish, which asks Jason for a Stoplight Parrotfish over 2 lb in Gambit Bay after the Chapter 1 mission Feng Shui."
+      "Beat Cal in a fishing challenge. It opens in Chapter 1, after Jason meets Cal in Feng Shui. Not missable.",
+      "Not yet known: Sources differ on the weight unit (Push Square says 2 kg); check Cal's text in game."
+    ],
+    "steps": [
+      {
+        "text": "Play the Chapter 1 mission Feng Shui, where Jason meets Cal.",
+        "picture": "/images/missions/feng-shui.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Wait for Cal's text; he marks a purple fishing spot on the map.",
+        "picture": "/images/characters/cal-hampton.jpg"
+      },
+      {
+        "text": "Get a boat with a fishing rod; there are boats nearby that you can take.",
+        "picture": "/images/activities/how-fishing-works.jpg"
+      },
+      {
+        "text": "Fish in the marked area until you land the fish Cal asks for. Push Square says his early request is a Parrotfish over 2 kg.",
+        "picture": "/images/wildlife/parrotfish.jpg"
+      },
+      {
+        "text": "Hand it in to win the challenge; the trophy unlocks when you beat Cal.",
+        "picture": "/images/missions/cal-catch-a-bigger-fish.jpg"
+      }
+    ],
+    "related": [
+      "missions/feng-shui",
+      "missions/cal-catch-a-bigger-fish",
+      "wildlife/parrotfish"
     ]
   },
   {
@@ -511,17 +1070,53 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Reach the end of any one arcade game. Possible from Chapter 1 using the TV at home; not missable.",
+      "Not yet known: No checked source says which game is shortest."
+    ],
+    "steps": [
+      {
+        "text": "Pick a game: three are on the TV at home (Tenebrae Lux, Street Trash III and Time Jackers Rewind), and Bang For Your Buck is in arcade cabinets around Leonida.",
+        "picture": "/images/activities/video-games.jpg"
+      },
+      {
+        "text": "Tenebrae Lux on the home TV is one option.",
+        "picture": "/images/activities/tenebrae-lux.jpg"
+      },
+      {
+        "text": "Street Trash III is another home-TV option.",
+        "picture": "/images/activities/street-trash-iii.jpg"
+      },
+      {
+        "text": "Or find a Bang For Your Buck cabinet.",
+        "picture": "/images/activities/bang-for-your-buck.jpg"
+      },
+      {
+        "text": "Play the chosen game through to its ending; the trophy pops when it is completed.",
+        "picture": "/images/activities/video-games.jpg"
+      }
+    ],
+    "related": [
+      "activities/video-games",
+      "activities/tenebrae-lux",
+      "activities/street-trash-iii",
+      "activities/bang-for-your-buck"
+    ]
   },
   {
     "slug": "road-to-rehabilitation",
     "name": "Road to Rehabilitation",
     "summary": "Complete the final mission for Andy.",
     "body": [
+      "Finish Andy's five-mission strand. It is Lucia-only, starts in Chapter 3 when Andy texts her an address in Belville, and stays open after the story.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -537,17 +1132,45 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Reach Chapter 3 and wait for Andy to call and text Lucia an address in Belville.",
+        "picture": "/images/locations/belville.jpg"
+      },
+      {
+        "text": "As Lucia, play Climbing the Cellerichain.",
+        "picture": "/images/missions/andy-climbing-the-cellerichain.jpg"
+      },
+      {
+        "text": "Continue with Pay the Cellerica Fee, then Peach!, then Read the Label.",
+        "picture": "/images/characters/andy.jpg"
+      },
+      {
+        "text": "Finish the last one, Puff Puff Pass; the trophy unlocks at its end.",
+        "picture": "/images/characters/andy.jpg"
+      }
+    ],
+    "related": [
+      "missions/andy-climbing-the-cellerichain",
+      "characters/andy",
+      "locations/belville"
+    ]
   },
   {
     "slug": "this-was-no-boat-accident",
     "name": "This Was No Boat Accident",
     "summary": "Complete the final mission for Kenton.",
     "body": [
+      "Finish Kenton's treasure strand by recovering treasure from his seven shipwrecks. He is met in Chapter 1 in Key Lento; if he goes quiet he texts Jason again later. Not missable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -563,17 +1186,48 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "In Chapter 1, go to the green KR icon at Kenton's dive shop in Key Lento to take the job.",
+        "picture": "/images/characters/kenton-rees.jpg"
+      },
+      {
+        "text": "Dive at the purple chest markers on the map and use the metal detector to find the treasure at each wreck.",
+        "picture": "/images/map-icons/treasure.webp"
+      },
+      {
+        "text": "Track the seven wrecks under Progress > Collections > Kenton's Treasures.",
+        "picture": "/images/collectibles/kenton-treasure-sets.jpg"
+      },
+      {
+        "text": "If Kenton disappears after Chapter 1, carry on with the story; he contacts Jason again in Chapter 2 or 3.",
+        "picture": "/images/locations/key-lento.jpg"
+      },
+      {
+        "text": "Complete his final mission (Push Square names it Maritime Disputes) to unlock the trophy.",
+        "picture": "/images/characters/kenton-rees.jpg"
+      }
+    ],
+    "related": [
+      "characters/kenton-rees",
+      "collectibles/kenton-treasure-sets",
+      "locations/key-lento"
+    ]
   },
   {
     "slug": "the-lone-rider",
     "name": "The Lone Rider",
     "summary": "Complete the final mission for Billy.",
     "body": [
+      "Finish Billy's five jobs at the Thrillbilly Mud Club in Kelly County. They open after the Chapter 2 mission Coffee Break and stay available after the story.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -589,11 +1243,41 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Complete the Chapter 2 story mission Coffee Break.",
+        "picture": "/images/missions/coffee-break.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Go to the Thrillbilly Mud Club in Kelly County to meet Billy.",
+        "picture": "/images/activities/thrillbilly-mud-club.jpg"
+      },
+      {
+        "text": "Play his jobs in order.",
+        "picture": "/images/missions/billy-thrillbillies.jpg"
+      },
+      {
+        "text": "Finish the fifth one, Hometown Heroes; the trophy unlocks there.",
+        "picture": "/images/missions/billy-hometown-heroes.jpg"
+      }
+    ],
+    "related": [
+      "missions/coffee-break",
+      "activities/thrillbilly-mud-club",
+      "missions/billy-thrillbillies",
+      "missions/billy-hometown-heroes",
+      "characters/billy"
+    ]
   },
   {
     "slug": "strangers-and-freaks",
@@ -611,18 +1295,58 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gamesgg-trophy-list",
+      "gtabase-trophy-guide",
+      "outputlag-strangers",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Complete eight qualifying stranger strands. Strands open from Chapter 1 to Chapter 4. Guides agree that Kirk, Kyle, Yago and Pilot Pete count and that Andy, Billy and Tyrone (who have their own trophies) do not; the rest of the eight is unconfirmed.",
+      "Not yet known: Only four of the eight counting strands are confirmed by checked sources. Outputlag and GTABase also list Shirley, Moses, Yasmani and Eddie Acosta as not counting."
+    ],
+    "steps": [
+      {
+        "text": "Kirk (Chapter 1): pick up his flyers in Key Lento and do his Skunk Ape hunts, which meet at night in Pelican Valley.",
+        "picture": "/images/missions/kirk-search-for-the-skunk-ape.jpg"
+      },
+      {
+        "text": "Kyle McKittrick (Chapter 2): start his three crop-dusting jobs at McKittrick Farm.",
+        "picture": "/images/missions/kyle-check-out-mckittrick-farm.jpg"
+      },
+      {
+        "text": "Yago (Chapter 3, Jason only): finish his three street-race missions in Salton; save before the timed Race Against Yago.",
+        "picture": "/images/missions/yago-race-against-yago.jpg"
+      },
+      {
+        "text": "Pilot Pete (Chapter 4, Jason only): play The Last Mile and his deliveries from Sundown Airfield.",
+        "picture": "/images/missions/pilot-pete-the-last-mile-backseat-pilot.jpg"
+      },
+      {
+        "text": "For the remaining four, finish every other stranger strand you find (Kenton, Randy, Bret and others are possible but unconfirmed) and check the trophy's progress counter after each one.",
+        "picture": "/images/missions/strangers-and-freaks.jpg"
+      }
+    ],
+    "related": [
+      "missions/strangers-and-freaks",
+      "missions/kirk-search-for-the-skunk-ape",
+      "missions/kyle-check-out-mckittrick-farm",
+      "missions/yago-race-against-yago",
+      "missions/pilot-pete-the-last-mile-backseat-pilot"
+    ]
   },
   {
     "slug": "supply-and-demand",
     "name": "Supply & Demand",
     "summary": "Complete the final mission for Randy.",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Finish Randy's Wish List by delivering the sports cars he asks for. It opens in Chapter 3 after Clonin' Keys, Makin' Gs gives you the Key Cloner.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: Other in-app notes cite 16 or 18 wish-list cars; GTABase says 16."
     ],
     "tags": [
       "trophy",
@@ -637,18 +1361,51 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play the Chapter 3 mission Clonin' Keys, Makin' Gs to get the Key Cloner app.",
+        "picture": "/images/missions/clonin-keys-makin-gs.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Open Randy's Wish List; GTABase counts 16 sports cars on it.",
+        "picture": "/images/missions/randy-randys-wish-list.jpg"
+      },
+      {
+        "text": "Scan cars with WAiNK to see if they are on the list. GTABase suggests hotel driveways around Vice Beach and Ocean Beach.",
+        "picture": "/images/locations/vice-beach.jpg"
+      },
+      {
+        "text": "Deliver each car to Randy's garage in west Vice City (RK icon). Cars in better condition pay more.",
+        "picture": "/images/missions/randy-randys-wish-list.jpg"
+      },
+      {
+        "text": "The trophy unlocks when the last car on the list is delivered.",
+        "picture": "/images/missions/randy-randys-wish-list.jpg"
+      }
+    ],
+    "related": [
+      "missions/clonin-keys-makin-gs",
+      "missions/randy-randys-wish-list",
+      "achievements/capital-offense"
+    ]
   },
   {
     "slug": "spin-on-this",
     "name": "Spin On This!",
     "summary": "Complete the final mission for Tyrone.",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Finish Tyrone's Kitty Litter strand as Jason. It opens after the Chapter 3 mission Here, Kitty Kitty.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: Checked sources do not give the number of labs."
     ],
     "tags": [
       "trophy",
@@ -663,11 +1420,34 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Complete the Chapter 3 mission Here, Kitty Kitty.",
+        "picture": "/images/missions/here-kitty-kitty.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "As Jason, find the synthetic labs marked in purple around Vice City and destroy them.",
+        "picture": "/images/missions/tyrone-take-out-kitty-litter.jpg"
+      },
+      {
+        "text": "Finish Tyrone's last job, Shut Down the Labs, to unlock the trophy.",
+        "picture": "/images/characters/tyrone.jpg"
+      }
+    ],
+    "related": [
+      "missions/here-kitty-kitty",
+      "missions/tyrone-take-out-kitty-litter",
+      "characters/tyrone"
+    ]
   },
   {
     "slug": "positive-mental-attitude",
@@ -685,14 +1465,58 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "exophase-trophies",
+      "cutscenewire-trophy-guide",
       "exophase-achievements",
-      "powerpyx-trophy-guide"
+      "exophase-trophies",
+      "gamesgg-trophy-list",
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide",
+      "vgc-meditation-spots"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true,
     "body": [
-      "PowerPyx's trophy guide warns this may be the one trophy that can be missed: the first meditation spot is at Jason's house in Chapter 1 and is not available after that chapter."
+      "Meditate at every spot until the counter reads 18 (nine dedicated spots, each used by both Jason and Lucia). Most of it can be done any time, but Lucia's Chapter 1 balcony meditation may be missable, so do it before Chapter 1 ends.",
+      "Not yet known: Not confirmed whether the Chapter 1 balcony meditation is required; GTABase calls it possibly missable, Push Square says no missables are known."
+    ],
+    "steps": [
+      {
+        "text": "In Chapter 1, the morning after Down to Earth, find Lucia in the kitchen at Jason's house, follow her out and accept her invitation to meditate. It is not available after Chapter 1, and no guide has confirmed whether it is required, so do it anyway.",
+        "picture": "/images/missions/meditate-with-lucia.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "If you missed it, Lucia texts Jason about meditating after the Chapter 2 mission Coffee Break (VGC); that also unlocks meditation.",
+        "picture": "/images/characters/lucia-caminos.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Visit the dedicated spots with both characters: Smooth Sand (an islet off Belpoint, by boat), Swamp (a dock in Buckskin Swamp, by boat), Worn Stone (Emerald Springs riverbank), Red Rocks (Manifest Canyon, east of Port Gellhorn).",
+        "picture": "/images/locations/emerald-springs.jpg"
+      },
+      {
+        "text": "Continue with Water Wheel (Moreau, north of the 247 West Kalaga gas station), Waterfall (north-east tip of Kalaga Reservoir), Jutting Cliff (Mount Kalaga National Park) and Seaside (Waning Sands).",
+        "picture": "/images/locations/mount-kalaga-national-park.jpg"
+      },
+      {
+        "text": "Let each meditation play out to its final animation; Push Square says it only counts after that.",
+        "picture": "/images/activities/meditation.jpg"
+      },
+      {
+        "text": "Once all eight are done by both characters, the ninth spot, Ascent in Mount Kalaga National Park, unlocks; meditate there with Jason and Lucia together.",
+        "picture": "/images/locations/mount-kalaga.jpg"
+      },
+      {
+        "text": "Check Progress > Collections > Exploration > Meditations; the trophy pops at 18.",
+        "picture": "/images/collectibles/meditation-jasons-house-meditation.jpg"
+      }
+    ],
+    "related": [
+      "missions/meditate-with-lucia",
+      "activities/meditation",
+      "collectibles/meditation-jasons-house-meditation",
+      "missions/coffee-break"
     ]
   },
   {
@@ -700,7 +1524,9 @@
     "name": "Fair Game",
     "summary": "Hunt a unique animal for Bret.",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Hunt a unique animal for Bret. His strand is Jason-only and starts in Chapter 2 with Veteran Hunted, texted after Coffee Break. Which unique animal triggers it is not confirmed by the checked sources.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: GTABase says sources disagree on which deck or unique animal triggers it; some guides point to a 'Snapmatic Buck' but no checked source confirms it."
     ],
     "tags": [
       "trophy",
@@ -715,11 +1541,46 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-bret-decks",
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "outputlag-veteran-hunted",
+      "pushsquare-bret-decks"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Complete the Chapter 2 mission Coffee Break; Bret then texts Jason.",
+        "picture": "/images/missions/coffee-break.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "As Jason (without Lucia), drive to Bret's Killtelligence Provisions cabin in Lummox County near Mount Kalaga and play Veteran Hunted. You keep the SM-69 rifle.",
+        "picture": "/images/missions/bret-vogel-veteran-hunted.jpg"
+      },
+      {
+        "text": "Work through his Target Decks (purple icons, also under Activities > Target Deck). The first asks for a Whitetail Buck and Doe in Mount Kalaga National Park.",
+        "picture": "/images/wildlife/whitetail-doe.jpg"
+      },
+      {
+        "text": "Shoot cleanly (head or heart, use Focus with L3 + R3 to see vitals) because Bret only takes animals in Pristine or Good condition. Carry small animals in an open-bed vehicle such as the Declasse Yosemite 1500; Bret collects big ones.",
+        "picture": "/images/vehicles/declasse-yosemite-1500.jpg"
+      },
+      {
+        "text": "Keep going until Bret sends a request for a unique animal; hunting it and bringing it to him unlocks the trophy.",
+        "picture": "/images/characters/bret-vogel.jpg"
+      }
+    ],
+    "related": [
+      "missions/bret-vogel-veteran-hunted",
+      "characters/bret-vogel",
+      "missions/coffee-break",
+      "vehicles/declasse-yosemite-1500",
+      "wildlife/whitetail-doe"
+    ]
   },
   {
     "slug": "dont-touch-my-deck",
@@ -737,11 +1598,35 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Complete any three of the 18 Collectible Card sets. Not missable, and cards later sold at pawn shops still count.",
+      "Not yet known: Checked sources do not list card locations or the smallest sets."
+    ],
+    "steps": [
+      {
+        "text": "Pick up Collectible Cards as you explore.",
+        "picture": "/images/collectibles/card-delights-nicole-standard.jpg"
+      },
+      {
+        "text": "Check Progress > Collections > Collectible Cards to see how close each set is.",
+        "picture": "/images/collectibles/card-anth-drake-silver.jpg"
+      },
+      {
+        "text": "Finish three sets; the trophy pops with the third. Selling cards at a pawn shop does not remove them from your progress (Push Square).",
+        "picture": "/images/collectibles/card-lcp-demario-richardson-gold.jpg"
+      }
+    ],
+    "related": [
+      "achievements/a-long-road"
+    ]
   },
   {
     "slug": "you-wainker",
@@ -759,11 +1644,36 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Scan 100 WAiNK locations with the phone app. Available from the start of free roam; not missable.",
+      "Not yet known: No checked source gives the number of No Flusher tags."
+    ],
+    "steps": [
+      {
+        "text": "Open WAiNK on the phone (hold Up on the d-pad) and press R1/RB to scan.",
+        "picture": "/images/gameplay/phone-apps-at-launch.jpg"
+      },
+      {
+        "text": "Scan any mix of the four kinds: 31 Landmarks, 35 Curiosities, 23 Sculptures and the No Flusher tags.",
+        "picture": "/images/map-icons/waink-sculpture.webp"
+      },
+      {
+        "text": "Track the total under Progress > Collections > WAiNK Locations; the trophy pops at 100.",
+        "picture": "/images/locations/triangler-sculpture.jpg"
+      }
+    ],
+    "related": [
+      "gameplay/phone-apps",
+      "achievements/whip-it-good"
+    ]
   },
   {
     "slug": "one-last-thing",
@@ -781,11 +1691,36 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Complete 50 of the 80 Challenges. Many complete during normal play; 100% needs 70. Not missable.",
+      "Not yet known: Checked sources do not list the 80 challenges."
+    ],
+    "steps": [
+      {
+        "text": "Open Progress > Challenges to see the full list and which are already done.",
+        "picture": "/images/gameplay/earning-the-platinum.jpg"
+      },
+      {
+        "text": "Play normally; many challenges tick off on their own.",
+        "picture": "/images/gameplay/after-the-story.jpg"
+      },
+      {
+        "text": "Target the remaining ones from the list until 50 are complete.",
+        "picture": "/images/gameplay/earning-the-platinum.jpg"
+      }
+    ],
+    "related": [
+      "achievements/a-long-road"
+    ]
   },
   {
     "slug": "hot-together",
@@ -803,11 +1738,40 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gamesgg-trophy-list",
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Lose a four-star Wanted Level while your partner is with you and get clear of the heat zone. Possible from Chapter 2, after Coffee Break."
+    ],
+    "steps": [
+      {
+        "text": "After Coffee Break in Chapter 2, call your partner over: hold Right on the d-pad, then press Triangle/Y.",
+        "picture": "/images/gameplay/character-switching.jpg"
+      },
+      {
+        "text": "Raise your Wanted Level to four stars. Bank vault robberies always give four stars, so this can be combined with Maximum Withdrawal.",
+        "picture": "/images/missions/thats-where-the-money-is.jpg"
+      },
+      {
+        "text": "Escape the police. GTABase suggests the train tunnel north of Ambrosia in Kelly County to break line of sight with helicopters.",
+        "picture": "/images/locations/ambrosia.jpg"
+      },
+      {
+        "text": "Keep going until you are outside the red heat zone, not just the flashing search area; only then does the trophy pop.",
+        "picture": "/images/gameplay/heat-indicators-and-disguises.jpg"
+      }
+    ],
+    "related": [
+      "missions/coffee-break",
+      "gameplay/heat-indicators-and-disguises",
+      "achievements/maximum-withdrawal"
+    ]
   },
   {
     "slug": "retail-therapy",
@@ -825,11 +1789,44 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gamesgg-trophy-list",
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "With your partner, rob three shops one after another without your Wanted Level dropping in between. GTABase recommends the three jewelry stores in north Vice City, which open after Yasmani's Jewelry Jobs in Chapter 3."
+    ],
+    "steps": [
+      {
+        "text": "Call your partner along first, and carry body armor, sticky bombs and healing items.",
+        "picture": "/images/gameplay/zombix-adrenaline-and-healing.jpg"
+      },
+      {
+        "text": "Finish Yasmani's Jewelry Jobs in Chapter 3 if you want to use the north Vice City jewelry stores, which are close together.",
+        "picture": "/images/missions/yasmanis-jewelry-jobs.jpg"
+      },
+      {
+        "text": "Rob the first shop and keep the police chasing you; red-and-blue pursuit must stay active (sitting in the red zone with no stars does not count).",
+        "picture": "/images/gameplay/stick-ups.jpg"
+      },
+      {
+        "text": "Go straight to the second and third shops and rob them while still wanted.",
+        "picture": "/images/gameplay/robbery-types.jpg"
+      },
+      {
+        "text": "Wait about 30 seconds after the third shop; the trophy can be slow. If nothing appears, rob a fourth.",
+        "picture": "/images/gameplay/heat-indicators-and-disguises.jpg"
+      }
+    ],
+    "related": [
+      "missions/yasmanis-jewelry-jobs",
+      "gameplay/stick-ups",
+      "gameplay/robbery-types"
+    ]
   },
   {
     "slug": "whip-it-good",
@@ -847,11 +1844,36 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gamesgg-trophy-list",
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Discover 100 different vehicles. Getting in a vehicle or scanning it with WAiNK both count, so it fills quickly near busy roads. Not missable."
+    ],
+    "steps": [
+      {
+        "text": "Open WAiNK and scan passing traffic; you do not need to drive each one.",
+        "picture": "/images/gameplay/phone-apps-at-launch.jpg"
+      },
+      {
+        "text": "Stand near a busy road or scan from the car while driving.",
+        "picture": "/images/gameplay/car-theft.jpg"
+      },
+      {
+        "text": "Track discoveries under Progress > Vehicles; the trophy pops at 100. (100% needs 200 of 277 base models.)",
+        "picture": "/images/gameplay/garages-and-personal-vehicles.jpg"
+      }
+    ],
+    "related": [
+      "gameplay/phone-apps",
+      "achievements/you-wainker"
+    ]
   },
   {
     "slug": "gunslinger",
@@ -869,17 +1891,50 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gamesgg-trophy-list",
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Take down five enemies during one Combat Focus. Gang operation guards work well; GTABase says cops, soldiers and civilians do not seem to count. Not missable."
+    ],
+    "steps": [
+      {
+        "text": "Fill your Focus meter beforehand (eating, drinking or washing at home). Ranges and fishing raise the Focus stat over time.",
+        "picture": "/images/gameplay/strength-cardio-and-focus-levels.jpg"
+      },
+      {
+        "text": "Bring an assault rifle and Adrenaline, which extends Focus.",
+        "picture": "/images/gameplay/zombix-adrenaline-and-healing.jpg"
+      },
+      {
+        "text": "Go to a gang illegal operation where guards stand in groups.",
+        "picture": "/images/map-icons/gang-operation.webp"
+      },
+      {
+        "text": "While aiming, click both sticks (L3 + R3) to enter Combat Focus.",
+        "picture": "/images/gameplay/fighting-and-movement.jpg"
+      },
+      {
+        "text": "Down five gang enemies before the bar runs out; the trophy pops on the fifth.",
+        "picture": "/images/gameplay/carrying-weapons.jpg"
+      }
+    ],
+    "related": [
+      "gameplay/strength-cardio-and-focus-levels",
+      "achievements/pest-control"
+    ]
   },
   {
     "slug": "catch-me-if-you-can",
     "name": "Catch Me If You Can",
     "summary": "Make an unscheduled departure at VCIA.",
     "body": [
+      "Steal a large passenger jet docked at a boarding bridge at Vice City International Airport (VCIA) and fly about 1 km away. Planes parked elsewhere on the field do not count. Not missable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -895,18 +1950,49 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "iig-catch-me",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Make a manual save first; expect four or five stars and military aircraft.",
+        "picture": "/images/locations/vcia.jpg"
+      },
+      {
+        "text": "Head for gates E3/E4. Either cut through the terminal (police react early), smash through the airfield fence by car, or land your own plane next to the jet.",
+        "picture": "/images/locations/vcia.jpg"
+      },
+      {
+        "text": "Board by the stairs beside the boarding bridge, go up to the upper deck and through the door ahead to reach the cockpit.",
+        "picture": "/images/locations/vcia.jpg"
+      },
+      {
+        "text": "Back the plane out, line up on the runway, build speed with R2/RT and pull back on the left stick to take off.",
+        "picture": "/images/locations/vcia.jpg"
+      },
+      {
+        "text": "Fly about 1 km (a few miles per Into Indie Games) from the airport; the trophy pops after a short delay. Reload your save afterwards to drop the Wanted Level.",
+        "picture": "/images/locations/vcia.jpg"
+      }
+    ],
+    "related": [
+      "locations/vcia",
+      "missions/vcia-takedown"
+    ]
   },
   {
     "slug": "challenging-tank",
     "name": "Challenging Tank",
     "summary": "Kinda hot in these Rhinos.",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Steal a tank (Rhino) from Mile Zero Air Station on the south-west island of Mariana County and use it on enemies. Not missable.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: The exact trigger (time in the tank, kills, or stars) is not confirmed."
     ],
     "tags": [
       "trophy",
@@ -921,11 +2007,40 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "iig-challenging-tank",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Make a manual save and stock up on Adrenaline and healing items; use a sturdy vehicle.",
+        "picture": "/images/gameplay/zombix-adrenaline-and-healing.jpg"
+      },
+      {
+        "text": "Drive to Mile Zero Air Station. Into Indie Games takes the off-road trail to the left of the blocked main route and runs the police checkpoints.",
+        "picture": "/images/locations/mile-zero-air-station.jpg"
+      },
+      {
+        "text": "Get over the fence (Into Indie Games uses a sand-mound stunt jump beside it) and head to the south end of the base where the tanks are parked.",
+        "picture": "/images/locations/mile-zero-air-station.jpg"
+      },
+      {
+        "text": "Climb into a tank.",
+        "picture": "/images/vehicles/hauners-rhino-tank.jpg"
+      },
+      {
+        "text": "Fight from inside it, shooting other vehicles and enemies until the trophy pops (Into Indie Games got it at five stars).",
+        "picture": "/images/vehicles/hauners-rhino-tank.jpg"
+      }
+    ],
+    "related": [
+      "locations/mile-zero-air-station",
+      "vehicles/hauners-rhino-tank"
+    ]
   },
   {
     "slug": "sneakthief",
@@ -943,11 +2058,48 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "iig-sneakthief",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Rob a jewelry store's safe without being detected. You need the Snap Gun from Yasmani's Jewelry Jobs in Chapter 3. Some players report it can be buggy.",
+      "Not yet known: Some players report needing a mask; the Into Indie Games author got it without one. The code the guide found may not be the same for every store."
+    ],
+    "steps": [
+      {
+        "text": "In Chapter 3, complete Yasmani's Jewelry Jobs to get the Snap Gun.",
+        "picture": "/images/missions/yasmanis-jewelry-jobs.jpg"
+      },
+      {
+        "text": "Pick a store; Richardson Jewelry & Diamonds in Downtown Vice City is the usual suggestion. Skip a day or two so it resets.",
+        "picture": "/images/locations/downtown.jpg"
+      },
+      {
+        "text": "Go to the back alley and open the back door with the Snap Gun. Kicking it in sets off the alarm.",
+        "picture": "/images/missions/yasmanis-jewelry-jobs.jpg"
+      },
+      {
+        "text": "Find the green note with the safe code on the desk in the back room.",
+        "picture": "/images/gameplay/robbery-types.jpg"
+      },
+      {
+        "text": "Disable the security panel by the next door, destroy the CCTV footage, then open the safe with the code and empty it.",
+        "picture": "/images/map-icons/safe.webp"
+      },
+      {
+        "text": "Leave the way you came without being seen; the trophy should pop. If it does not, try another store.",
+        "picture": "/images/gameplay/heat-indicators-and-disguises.jpg"
+      }
+    ],
+    "related": [
+      "missions/yasmanis-jewelry-jobs",
+      "gameplay/robbery-types"
+    ]
   },
   {
     "slug": "maximum-withdrawal",
@@ -965,11 +2117,44 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Rob five bank vaults and get away each time. Vaults open through the optional mission That's Where The Money Is near the end of Chapter 4. 100% needs all eight."
+    ],
+    "steps": [
+      {
+        "text": "Complete That's Where The Money Is in Chapter 4 to open vault robberies.",
+        "picture": "/images/missions/thats-where-the-money-is.jpg"
+      },
+      {
+        "text": "Bring your partner. Follow a security van to its bank and get into the vault while it is open.",
+        "picture": "/images/vehicles/brute-stockade.jpg"
+      },
+      {
+        "text": "Hand the heavy bag to your partner so you can move and fight.",
+        "picture": "/images/missions/sinfrontera-national-bank.jpg"
+      },
+      {
+        "text": "Vaults always give four stars. Escape on a fast bike and switch vehicles once clear (this also covers Hot Together).",
+        "picture": "/images/manual/pursuit-jason-motorcycle.jpg"
+      },
+      {
+        "text": "Repeat at five banks; Yasmani sells van tips for $10,000 if you cannot find a van.",
+        "picture": "/images/map-icons/bank.webp"
+      }
+    ],
+    "related": [
+      "missions/thats-where-the-money-is",
+      "achievements/hot-together",
+      "achievements/a-classic-blitz-play",
+      "achievements/dime-on-the-dollar"
+    ]
   },
   {
     "slug": "a-classic-blitz-play",
@@ -987,11 +2172,35 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Rob an armored truck and escape. GTABase says a bank vault robbery also counts, as long as you then leave the red heat zone or reach a Pay 'n' Spray."
+    ],
+    "steps": [
+      {
+        "text": "Find an armored security van and box it in so it stops.",
+        "picture": "/images/vehicles/brute-stockade.jpg"
+      },
+      {
+        "text": "Put a sticky bomb on its back doors and blow them open, then grab the cash.",
+        "picture": "/images/vehicles/brute-stockade.jpg"
+      },
+      {
+        "text": "Escape: get outside the red heat zone or into a Pay 'n' Spray; the trophy pops then.",
+        "picture": "/images/gameplay/pay-n-spray-services.jpg"
+      }
+    ],
+    "related": [
+      "vehicles/brute-stockade",
+      "gameplay/pay-n-spray-services",
+      "achievements/maximum-withdrawal"
+    ]
   },
   {
     "slug": "the-goodtime-state",
@@ -1009,11 +2218,25 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Clear the fog from the whole map of Leonida. Flying over the dark patches is the quickest way. Not missable."
+    ],
+    "steps": [
+      {
+        "text": "Open the map to see which areas are still dark.",
+        "picture": "/images/map/leonida-official.jpg"
+      },
+      {
+        "text": "Get an aircraft and fly over each dark patch until the map is fully revealed; the trophy pops when the last area clears.",
+        "picture": "/images/map/leonida-official.jpg"
+      }
+    ]
   },
   {
     "slug": "pest-control",
@@ -1031,18 +2254,50 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Rob one illegal operation from each of the nine gangs. Operations show as yellow icons; Progress > Gangs tracks it. 100% needs all of them.",
+      "Not yet known: GTABase and Output Lag count 39 operations for 100%; the app's own map counts 40."
+    ],
+    "steps": [
+      {
+        "text": "Open the map and look for the yellow gang operation icons.",
+        "picture": "/images/map-icons/gang-operation.webp"
+      },
+      {
+        "text": "Check Progress > Gangs to see which gangs you still need.",
+        "picture": "/images/gameplay/robbery-types.jpg"
+      },
+      {
+        "text": "Rob one operation per gang; Kingpin Bowling (Let's Go Bowling) is one of them.",
+        "picture": "/images/missions/hit-kingpin-bowling.jpg"
+      },
+      {
+        "text": "The trophy unlocks after the ninth gang's operation.",
+        "picture": "/images/map-icons/gang-operation.webp"
+      }
+    ],
+    "related": [
+      "missions/hit-kingpin-bowling",
+      "achievements/lets-go-bowling",
+      "achievements/gunslinger"
+    ]
   },
   {
     "slug": "in-the-beginning",
     "name": "In The Beginning…",
     "summary": "Enjoy a cocktail with a view on Ocean Beach.",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Have a cocktail at a spot with a view over Ocean Beach in Vice City. None of the checked sources confirmed the exact place or steps.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: GTABase, Push Square and Cutscene Wire say the exact steps are unconfirmed, and Output Lag lists it as having no confirmed method. Search results point to the Ocean View Hotel rooftop bar, but no allowed source that was actually read confirms it."
     ],
     "tags": [
       "trophy",
@@ -1057,17 +2312,35 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Go to Ocean Beach in Vice City.",
+        "picture": "/images/locations/ocean-beach.jpg"
+      },
+      {
+        "text": "Order a cocktail at a bar that looks out over the beach and drink it there.",
+        "picture": "/images/businesses/bars-of-leonida.jpg"
+      }
+    ],
+    "related": [
+      "locations/ocean-beach"
+    ]
   },
   {
     "slug": "capital-offense",
     "name": "Capital Offense",
     "summary": "Smash your way out of a vehicle showroom in classic style.",
     "body": [
+      "Clone the key of the blue Bravado Banshee in the Sunrise Premium Autos showroom and drive it out through the window, as in GTA III. Needs the Key Cloner from Chapter 3.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -1083,17 +2356,44 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "kotaku-banshee"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Play Randy's Chapter 3 mission Clonin' Keys, Makin' Gs to get the Key Cloner app on your phone.",
+        "picture": "/images/missions/clonin-keys-makin-gs.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Go to Sunrise Premium Autos in Southside, between Vice City International Airport and Peacock Bay, next to an Illegals Good Store.",
+        "picture": "/images/locations/southside.jpg"
+      },
+      {
+        "text": "Use the Key Cloner on the shiny blue Banshee on display (same input as slim-jimming a door) and get in. A Banshee from the street does not count.",
+        "picture": "/images/vehicles/bravado-banshee.jpg"
+      },
+      {
+        "text": "Drive straight through the showroom's glass front and speed away before the police arrive; the trophy pops.",
+        "picture": "/images/vehicles/bravado-banshee.jpg"
+      }
+    ],
+    "related": [
+      "missions/clonin-keys-makin-gs",
+      "vehicles/bravado-banshee",
+      "locations/southside",
+      "achievements/supply-and-demand"
+    ]
   },
   {
     "slug": "lets-go-bowling",
     "name": "Let’s Go Bowling",
     "summary": "Follow-through at the Kolt & Associates' bowling alley.",
     "body": [
+      "Take all three key valuables from Kingpin Bowling south of Port Gellhorn, then escape. It is first marked by Hit Kingpin Bowling after Coffee Break in Chapter 2, and later stays as a gang operation, so it is not missable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -1109,17 +2409,53 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "iig-kingpin-bowling",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "After Coffee Break in Chapter 2, Hit Kingpin Bowling appears on the map. Bring your partner and sticky bombs from Ammu-Nation.",
+        "picture": "/images/missions/hit-kingpin-bowling.jpg"
+      },
+      {
+        "text": "Optionally fetch the safe code first: it is on a wall map in the upstairs office of the eastern building at Brooks Boatworks, north of Port Gellhorn.",
+        "picture": "/images/businesses/brooks-boatworks.jpg"
+      },
+      {
+        "text": "Inside Kingpin Bowling, take the luxury watch from the round table in the south-east room.",
+        "picture": "/images/businesses/kingpin-bowling.jpg"
+      },
+      {
+        "text": "Take the Gutterball Moreland 850 shotgun from the weapon case on the pool table at the north end.",
+        "picture": "/images/businesses/kingpin-bowling.jpg"
+      },
+      {
+        "text": "Open the safe in the back office with the code, or blow it with a sticky bomb, and take the cash.",
+        "picture": "/images/map-icons/safe.webp"
+      },
+      {
+        "text": "Leave and lose the police; the trophy pops once you are clear. You can leave and come back for items, though the operation takes a while to reset.",
+        "picture": "/images/locations/port-gellhorn.jpg"
+      }
+    ],
+    "related": [
+      "missions/hit-kingpin-bowling",
+      "businesses/kingpin-bowling",
+      "businesses/brooks-boatworks",
+      "achievements/pest-control"
+    ]
   },
   {
     "slug": "personal-best",
     "name": "Personal Best",
     "summary": "A partnership with mass appeal.",
     "body": [
+      "Max out Strength for both Jason and Lucia. Train at fitness clubs with your partner along so both improve together. Not missable.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
     ],
     "tags": [
@@ -1135,18 +2471,42 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gamesgg-trophy-list",
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Buy a gym membership; fitness clubs are listed on the map under Activities.",
+        "picture": "/images/map-icons/gym.webp"
+      },
+      {
+        "text": "Bring your partner. Training one character trains the other alongside you.",
+        "picture": "/images/activities/gym-workouts.jpg"
+      },
+      {
+        "text": "Check Jason & Lucia > Strength in the pause menu and keep training until both are full; the trophy pops then. You can also train at home after the story.",
+        "picture": "/images/gameplay/strength-cardio-and-focus-levels.jpg"
+      }
+    ],
+    "related": [
+      "activities/gym-workouts",
+      "gameplay/strength-cardio-and-focus-levels"
+    ]
   },
   {
     "slug": "actions-speak-louder",
     "name": "Actions Speak Louder",
     "summary": "Choices made (for better or worse).",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Make 500 actions that move your Criminal Profile, in either direction. Robberies and fights count, so it fills during normal play.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: Checked sources do not say exactly which actions count or whether Jason and Lucia share the count."
     ],
     "tags": [
       "trophy",
@@ -1161,18 +2521,40 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "cutscenewire-trophy-guide",
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Turn on Criminal Profile notifications in Settings > UI so each counted action shows on screen.",
+        "picture": "/images/gameplay/settings-menu-categories.jpg"
+      },
+      {
+        "text": "Play normally; robberies, fights and other crimes move the profile.",
+        "picture": "/images/gameplay/criminal-profile-tiers.jpg"
+      },
+      {
+        "text": "Avoid pushing a character into the Irredeemable tier, which is permanent. The trophy pops at 500 actions.",
+        "picture": "/images/gameplay/criminal-profile-tiers.jpg"
+      }
+    ],
+    "related": [
+      "gameplay/criminal-profile-tiers"
+    ]
   },
   {
     "slug": "bad-luck-i-guess",
     "name": "Bad Luck, I Guess",
     "summary": "Second time's the charm.",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Rob the Payday Loans store in Little Cuba as Lucia on her own and get away on foot. The robbery opens after the Chapter 3 mission Credit Check.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: Output Lag (checked 19 Nov) still listed no confirmed method; VGC's later guide gives the steps above."
     ],
     "tags": [
       "trophy",
@@ -1187,19 +2569,53 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "vgc-bad-luck"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Reach Chapter 3 and finish Credit Check, which opens Payday Loans robberies and gives you the Dye Pack Jammer for marked bills.",
+        "picture": "/images/missions/credit-check.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Switch to Lucia and make sure Jason is not with you.",
+        "picture": "/images/characters/lucia-caminos.jpg"
+      },
+      {
+        "text": "Go to the Payday Loans store in Little Cuba. Enter through the Check Cashing door and draw a weapon (or use the back garage entrance, with one guard there).",
+        "picture": "/images/businesses/payday-loans-store.jpg"
+      },
+      {
+        "text": "Deal with the guards, go through the Staff Only door and empty all three cash drawers in the office.",
+        "picture": "/images/missions/yasmani-yasmanis-payday-loans-jobs.jpg"
+      },
+      {
+        "text": "Run. Do not get into any vehicle. The robbery gives three stars and helicopters, so leave the area fast.",
+        "picture": "/images/manual/motorcycle-patrol-car-helicopter.jpg"
+      },
+      {
+        "text": "Keep moving on foot until the Wanted Level is completely gone; the trophy pops then.",
+        "picture": "/images/gameplay/heat-indicators-and-disguises.jpg"
+      }
+    ],
+    "related": [
+      "missions/credit-check",
+      "businesses/payday-loans-store",
+      "missions/yasmani-yasmanis-payday-loans-jobs"
+    ]
   },
   {
     "slug": "the-truth-is-out-there",
     "name": "The Truth Is Out There",
     "summary": "What the hell just happened?",
     "body": [
+      "Tied to the random UFO encounter at night, available from Chapter 2. Into Indie Games says it pops when you bring the stranded woman's car back; VGC says it arrives when the whole alien questline is done.",
       "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
-      "PowerPyx says it unlocks through the UFO encounter on the road north-west of the Starlet Motel in Kelly County, at night after 2:00 AM and only when alone; the spawn is random."
+      "Not yet known: Sources disagree on the exact unlock moment (car return vs end of questline). Output Lag lists other unconfirmed leads."
     ],
     "tags": [
       "trophy",
@@ -1214,19 +2630,56 @@
     },
     "confidence": "corroborated",
     "sources": [
-      "exophase-trophies",
       "exophase-achievements",
-      "r7-ppx-ufo"
+      "exophase-trophies",
+      "iig-truth-is-out-there",
+      "outputlag-trophy-list",
+      "vgc-ufo-questline"
     ],
-    "verified": "2026-11-19",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "From Chapter 2, drive quiet roads at night (around 2 AM or later) in Kelly County. Into Indie Games starts just north-west of the Alpha Gas station near Gellhorn and heads east.",
+        "picture": "/images/locations/port-gellhorn.jpg"
+      },
+      {
+        "text": "Look for a car on the roadside with its doors open and lights flashing. If it does not show, go home, sleep to the next day and try again.",
+        "picture": "/images/gameplay/sleeping-and-the-clock.jpg"
+      },
+      {
+        "text": "Follow the trail from the car to the bright light, talk to the woman there and agree to bring her car.",
+        "picture": "/images/gameplay/ufo-abduction-easter-egg.jpg"
+      },
+      {
+        "text": "Drive back to the car. Into Indie Games got the trophy here; you are then abducted and wake up three days later.",
+        "picture": "/images/gameplay/ufo-abduction-easter-egg.jpg"
+      },
+      {
+        "text": "If it has not popped, sleep as the abducted character to get the UFO dream. Note the building on Earth and the keypad code shown as lines (VGC's was 2431; it may differ).",
+        "picture": "/images/gameplay/sleeping-and-the-clock.jpg"
+      },
+      {
+        "text": "Solve the four-light puzzle (all lights blue; VGC sets all red then presses buttons 2 and 4) and carry the 'milk' from the left room to the machine on the right.",
+        "picture": "/images/gameplay/ufo-abduction-easter-egg.jpg"
+      },
+      {
+        "text": "Find the real compound in the Pelican Valley swamp south of Hamlet, climb the fence at the back, use the same code, repeat the puzzle below ground and bring the alien to the surface. The trophy comes at the end if it did not earlier; both characters also get Health, Stamina and Focus boosts.",
+        "picture": "/images/gameplay/ufo-abduction-easter-egg.jpg"
+      }
+    ],
+    "related": [
+      "gameplay/ufo-abduction-easter-egg"
+    ]
   },
   {
     "slug": "ten-pin",
     "name": "Ten Pin",
     "summary": "Bowl 'em over with a melee drive-by.",
     "body": [
-      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned."
+      "Knock people over with a melee attack while riding past (a 'melee drive-by'). Push Square confirms you can kick from a bike with Square; the exact count or condition is not confirmed by the checked sources.",
+      "PlayStation lists this as a secret trophy: the console hides its name and requirement until it is earned.",
+      "Not yet known: Output Lag lists no confirmed method. Unchecked reports mention kicking about ten people quickly or knocking one person into another; none of the allowed sources read confirm either."
     ],
     "tags": [
       "trophy",
@@ -1241,11 +2694,23 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "outputlag-trophy-list",
+      "pushsquare-secret-controls"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "steps": [
+      {
+        "text": "Get on a bike.",
+        "picture": "/images/vehicles/tuff-bmx.jpg"
+      },
+      {
+        "text": "Ride past people and press Square (default PlayStation controls) to kick them.",
+        "picture": "/images/vehicles/maibatsu-sanchez.jpg"
+      }
+    ]
   },
   {
     "slug": "dime-on-the-dollar",
@@ -1263,11 +2728,41 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Earn $250,000 in total by selling Marked Bills to your fence contacts. You need the Dye Pack Jammer from Credit Check in Chapter 3. Cumulative and not missable."
+    ],
+    "steps": [
+      {
+        "text": "Finish the Chapter 3 mission Credit Check (Meet Raul's Crew) to get the Dye Pack Jammer.",
+        "picture": "/images/missions/credit-check.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Rob banks and Payday Loans stores to collect Marked Bills.",
+        "picture": "/images/missions/yasmani-yasmanis-payday-loans-jobs.jpg"
+      },
+      {
+        "text": "Sell the bills to fences; GTABase says Yasmani in Vice City pays the most.",
+        "picture": "/images/characters/yasmani.jpg"
+      },
+      {
+        "text": "Keep laundering until the running total hits $250,000; the robberies needed for 100% get you there.",
+        "picture": "/images/gameplay/fences-and-laundering.jpg"
+      }
+    ],
+    "related": [
+      "missions/credit-check",
+      "gameplay/fences-and-laundering",
+      "characters/yasmani",
+      "achievements/maximum-withdrawal"
+    ]
   },
   {
     "slug": "treat-yo-self",
@@ -1285,11 +2780,31 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Spend $100,000 in total across all shop types. Every purchase counts; Push Square calls it the easiest trophy in the game."
+    ],
+    "steps": [
+      {
+        "text": "Find shops on the map (Push Square: under Style).",
+        "picture": "/images/gameplay/clothing-stores-and-outfits.jpg"
+      },
+      {
+        "text": "Spend on weapons, car mods and tattoos for the fastest progress.",
+        "picture": "/images/businesses/phils-ammu-nation.jpg"
+      },
+      {
+        "text": "Keep buying until the total reaches $100,000.",
+        "picture": "/images/gameplay/hair-salons-and-tattoo-studios.jpg"
+      }
+    ]
   },
   {
     "slug": "little-boxes",
@@ -1307,11 +2822,41 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Buy the eight garages sold in the Vice City Real Estate app, about $160,000 in all. The app opens after Daily Driver in Chapter 2; garages the story gives you do not count."
+    ],
+    "steps": [
+      {
+        "text": "Complete the Chapter 2 mission Daily Driver to unlock the Vice City Real Estate app.",
+        "picture": "/images/missions/daily-driver.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Open the app on your phone (press Up).",
+        "picture": "/images/gameplay/phone-apps-at-launch.jpg"
+      },
+      {
+        "text": "Buy all eight: Mitchel Auto Center ($4,000), Persistence Road Garage ($7,600), 7th Avenue Garage ($12,000), Store n' Bolt ($16,800), Wyatt Motors ($21,600), Vela Rota Drive Garage ($24,000), Bonita Court Garage ($34,000) and Atlantic Court Garage ($40,000).",
+        "picture": "/images/map-icons/garage.webp"
+      },
+      {
+        "text": "The trophy pops with the eighth purchase. The extra space also helps with On the Spot.",
+        "picture": "/images/gameplay/garages-and-personal-vehicles.jpg"
+      }
+    ],
+    "related": [
+      "missions/daily-driver",
+      "gameplay/garages-and-personal-vehicles",
+      "achievements/on-the-spot"
+    ]
   },
   {
     "slug": "on-the-spot",
@@ -1329,10 +2874,45 @@
     },
     "confidence": "corroborated",
     "sources": [
+      "exophase-achievements",
       "exophase-trophies",
-      "exophase-achievements"
+      "gtabase-trophy-guide",
+      "outputlag-trophy-list",
+      "pushsquare-trophy-guide"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "body": [
+      "Register ten vehicles to the Scooter Bros app. Moses' Chapter 2 mission unlocks it; from Chapter 3 any Pay 'n' Spray can register tracked cars too."
+    ],
+    "steps": [
+      {
+        "text": "Play Moses' Chapter 2 mission to unlock the Scooter Bros app.",
+        "picture": "/images/missions/moses.jpg",
+        "spoiler": true
+      },
+      {
+        "text": "Make sure you have free garage spaces (buy garages if needed) and some money, since each registration costs a fee based on the vehicle's value.",
+        "picture": "/images/gameplay/garages-and-personal-vehicles.jpg"
+      },
+      {
+        "text": "Steal a car and take it to Moses' garage in Port Gellhorn; choose Respray, then Register. Early on he only takes untracked cars.",
+        "picture": "/images/missions/moses-steal-vehicles-for-moses.jpg"
+      },
+      {
+        "text": "From Chapter 3 you can also register tracked cars at any Pay 'n' Spray.",
+        "picture": "/images/gameplay/pay-n-spray-services.jpg"
+      },
+      {
+        "text": "Cheap cars and bikes keep costs down. The trophy pops at the tenth registration.",
+        "picture": "/images/gameplay/scooter-bros-delivery.jpg"
+      }
+    ],
+    "related": [
+      "missions/moses",
+      "gameplay/scooter-bros-delivery",
+      "gameplay/pay-n-spray-services",
+      "achievements/little-boxes"
+    ]
   }
 ]

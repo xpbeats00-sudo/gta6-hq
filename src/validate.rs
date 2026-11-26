@@ -17,7 +17,7 @@ use crate::{
 };
 
 /// Entry keys the app knows about. Anything else is probably a typo.
-pub const ENTRY_KEYS: [&str; 26] = [
+pub const ENTRY_KEYS: [&str; 27] = [
     "slug",
     "name",
     "summary",
@@ -36,6 +36,8 @@ pub const ENTRY_KEYS: [&str; 26] = [
     "pin",
     "image",
     "art",
+    // A step-by-step guide (trophies): [{ "text", "picture"?, "spoiler"? }].
+    "steps",
     // Older, section-specific fields.
     "role",
     "group",
@@ -886,7 +888,7 @@ fn check_map(
 }
 
 /// How close a street picture's position is to the place it shows (`map.photos[].precision`).
-/// Street Explorer has a label for each of these and no other.
+/// A picture only stands in as a map card banner when its spot is known closely enough.
 pub const PHOTO_PRECISIONS: [&str; 6] = ["pin", "town", "district", "region", "landmark", "area"];
 /// What a named place on the map (`map.places[].kind`) can be.
 pub const PLACE_KINDS: [&str; 5] = ["town", "district", "region", "landmark", "area"];

@@ -30,7 +30,8 @@
     "name": "Imponte Soaring Phoenix",
     "summary": "A Phoenix variant The Big Lead found parked in a Watson Bay garage.",
     "body": [
-      "The Big Lead mentions an Imponte Soaring Phoenix parked in a garage just over the river south of a Los Santos Pounders card location in Watson Bay."
+      "The Big Lead mentions an Imponte Soaring Phoenix parked in a garage just over the river south of a Los Santos Pounders card location in Watson Bay.",
+      "In-game stat bars (out of 10): Speed 5.8, Acceleration 6.3, Asphalt handling 3.4, Off-road handling 3.8, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "car",
@@ -39,13 +40,21 @@
     "facts": {
       "manufacturer": "Imponte",
       "model": "Soaring Phoenix",
-      "availability": "Garage in Watson Bay"
+      "availability": "Garage in Watson Bay",
+      "speed": 5.8,
+      "acceleration": 6.3,
+      "asphalt_handling": 3.4,
+      "offroad_handling": 3.8,
+      "strength": 3.0,
+      "where": "GTABase: '77 Imponte Phoenix, modified with a large supercharger and a custom finish. Discovered in a Watson Bay garage.; Standout (GTABase map): Watson Bay -  #27 Imponte Soaring Phoenix Watson Bay Set: Ripped & Shredded. '77 Imponte Phoenix, modified with a large supercharger and a custom finish. Discovered in a Watson Bay garage."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "tbl-collectibles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -53,7 +62,8 @@
     "name": "Invetero Spiderweb Coquette",
     "summary": "A unique Coquette in a party house garage in south-east Key Lento, opened with keypad code 092319.",
     "body": [
-      "The Big Lead says a unique Invetero Spiderweb Coquette sits in the garage of the party house in the south-east corner of Key Lento, and gives 092319 as the garage keypad code."
+      "The Big Lead says a unique Invetero Spiderweb Coquette sits in the garage of the party house in the south-east corner of Key Lento, and gives 092319 as the garage keypad code.",
+      "In-game stat bars (out of 10): Speed 6.8, Acceleration 6.6, Asphalt handling 3.3, Off-road handling 4.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "car",
@@ -63,13 +73,21 @@
     "facts": {
       "manufacturer": "Invetero",
       "model": "Spiderweb Coquette",
-      "availability": "Party house garage, south-east Key Lento"
+      "availability": "Party house garage, south-east Key Lento",
+      "speed": 6.8,
+      "acceleration": 6.6,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 4.4,
+      "strength": 3.0,
+      "where": "GTABase: Invetero Coquette found in the aftermath of a Key Lento house party. Comes with a unique custom finish. In the garage downstairs. The code for the back door of the garage is on the photos upstairs.; Standout (GTABase map): Key Lento -  #11 Invetero Spiderweb Coquette Key Lento Set: Retro. Invetero Coquette found in the aftermath of a Key Lento house party. Comes with a unique custom finis"
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "tbl-collectibles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]

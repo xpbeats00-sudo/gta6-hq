@@ -5,7 +5,7 @@
     (store-art.js). scripts/package_store.py marks the page; everywhere else this is false. */
 const STORE = document.documentElement.dataset.edition === 'store';
 
-/** The walker's picture: the character's cut-out in the full edition. Editions without the game's
+/** A character's picture for profile badges: the cut-out in the full edition. Editions without the game's
     pictures (Microsoft Store, public GitHub build) draw their own: a coloured disc with a figure
     and the character's initial. */
 function walkerPicture(who) {
@@ -153,7 +153,7 @@ window.hqPrefs = prefs; // the Field Manual keeps its theme and last page here t
 /** Parts kept separately for Jason and for Lucia when the reader picks a character profile
     (Settings). The "Shared" profile keeps the plain names, so nothing saved earlier moves. */
 const PROFILE_PARTS = new Set(['favourites', 'favourite-pins', 'collections', 'discovered', 'collectible-ticks',
-  'guide-checks', 'routes', 'map-views', 'street-starts', 'journal']);
+  'guide-checks', 'routes', 'map-views', 'street-starts', 'journal', 'weapon-locker', 'garage', 'trophies-earned', 'cheats-done']);
 const UserStore = {
   data: {},
   listeners: new Set(),
@@ -2249,10 +2249,13 @@ const DEFAULT_PIN_CATEGORIES = [
 ];
 /** Pins listed per category before "Show all". */
 const MAP_LIST_PAGE = 40;
-/** A kind of pin with more places than this starts folded in the map's side list, so the list is a
-    short run of headings. A kind opened or folded by hand stays that way while the app is open. */
-const MAP_FOLD_FROM = 8;
+/** Groups of places folded by hand in the map's side list (they stay that way while the app is open). */
 const mapFolded = new Map();
+/** The symbol for each group of places: on its rail button and on badges for places with no game icon. */
+const GROUP_ICON = {
+  regions: 'globe', districts: 'map', landmarks: 'star', key: 'pin', crime: 'target', collectibles: 'gem',
+  missions: 'flag', activities: 'gamepad', services: 'car', guns: 'shield', style: 'store', food: 'store',
+};
 
 const validPosition = (m) => [m.x, m.y].every((v) => typeof v === 'number' && v >= 0 && v <= 1);
 
@@ -2351,6 +2354,9 @@ function nearbyPins(pins, x, y, limit = 5, skip = -1) {
 /** Labels of the two toggles on a card (and their icons), so redrawing them keeps the same look. */
 const favLabel = (on) => `${icon(on ? 'star-fill' : 'star')}Favourite`;
 const foundLabel = (on) => `${icon(on ? 'check-circle' : 'pin')}${on ? 'Discovered' : 'Mark discovered'}`;
+/** The card's wide Found row: the word, then a box that fills with a tick once found. */
+const foundRow = (on) => `<span>Found</span><span class="map-card-box" aria-hidden="true">${on ? icon('check') : ''}</span>`;
+const favStar = (on) => icon(on ? 'star-fill' : 'star');
 
 /** The card a map pin opens: picture, what it is, its entry, actions, nearby pins and the 100% Guide pages about it. */
 function pinCard(pin, categoryLabel, extra = {}) {
@@ -2362,29 +2368,42 @@ function pinCard(pin, categoryLabel, extra = {}) {
   const i = extra.index ?? -1;
   const near = extra.nearby || [];
   const related = extra.related || [];
-  return `<div class="map-card${pin.image ? ' has-image' : ''}" data-pin="${i}">
-    ${pin.image ? `<a class="map-card-pic"${link ? ` href="${link}"` : ''}><img src="${esc(pin.image)}" alt="" loading="lazy"></a>` : ''}
+  const seq = extra.seq; // { pos, total, prev, next } among the places of the same kind
+  const kind = pin.kind || categoryLabel;
+  // Its own picture, or else an in-game picture taken at or near it (said so on the picture).
+  const banner = !pin.image && extra.banner ? extra.banner : null;
+  const bannerLink = banner?.ref && resolve(banner.ref) ? entryLink(resolve(banner.ref).section, resolve(banner.ref).entry.slug) : link;
+  return `<div class="map-card${pin.image || banner ? ' has-image' : ''}" data-pin="${i}">
+    ${pin.image ? `<a class="map-card-pic"${link ? ` href="${link}"` : ''}><img src="${esc(pin.image)}" alt="" loading="lazy"></a>`
+    : banner ? `<a class="map-card-pic map-card-banner"${bannerLink ? ` href="${bannerLink}"` : ''} title="${esc(banner.credit || '')}"><img src="${esc(banner.src)}" alt="" loading="lazy"><span>${banner.ref && banner.ref === pin.ref ? esc(banner.title) : `Near here: ${esc(banner.title)}`}</span></a>` : ''}
     <div class="map-card-body">
-      <span class="kicker">${esc(pin.kind || categoryLabel)}</span>
       <h3>${link ? `<a href="${link}">${esc(pin.name)}</a>` : esc(pin.name)}</h3>
-      ${pin.hidden ? '<p class="muted">A spoiler: show spoilers to read about it.</p>' : (pin.summary ? `<p>${esc(pin.summary)}</p>` : '')}
-      ${i >= 0 ? `<div class="map-card-acts" role="group" aria-label="Actions">
-        ${link ? `<a class="btn btn-primary btn-small" href="${link}">${icon('book')}Open the entry</a>` : ''}
-        <button type="button" class="chip-btn${fav ? ' is-on' : ''}" data-act="fav" aria-pressed="${fav}" title="${fav ? 'Remove from' : 'Add to'} favourites">${favLabel(fav)}</button>
-        <button type="button" class="chip-btn${found ? ' is-on' : ''}" data-act="found" aria-pressed="${Boolean(found)}" title="Mark as a place you have found in the game">${foundLabel(found)}</button>
-        <button type="button" class="chip-btn" data-act="collect" title="Add to one of your collections">${icon('collection')}Collection</button>
-        <button type="button" class="chip-btn" data-act="route" title="Add as a stop on your route">${icon('route')}Route</button>
-        <button type="button" class="chip-btn" data-act="street" title="Open Street Explorer at this pin">${icon('walk')}Street Explorer</button>
-      </div>
-      ${(extra.places || 1) > 1 && target && !pin.hidden ? `<p class="map-card-shared muted">Favourite, Discovered and Collection apply to the ${esc(target.entry.name)} entry, which has ${extra.places} places on the map.</p>` : ''}` : ''}
-      <div class="map-card-guides" hidden></div>
+      <p class="map-card-kind">${extra.kindIcon || ''}<span>${esc(kind)}</span></p>
+      ${pin.hidden ? '<p class="muted">A spoiler: show spoilers to read about it.</p>' : (pin.summary ? `<p class="map-card-text">${esc(pin.summary)}</p>` : '')}
+      ${i >= 0 ? `<button type="button" class="map-card-found${found ? ' is-on' : ''}" data-act="found" aria-pressed="${Boolean(found)}" title="Mark as a place you have found in the game">${foundRow(found)}</button>
+      ${(extra.places || 1) > 1 && target && !pin.hidden ? `<p class="map-card-shared muted">Found and Favourite count for the whole ${esc(target.entry.name)} entry (${extra.places} places).</p>` : ''}
+      <div class="map-card-links">
+        ${link ? `<a class="map-card-link" href="${link}">${icon('book')}Open the entry</a>` : ''}
+        <button type="button" class="map-card-link" data-act="collect" title="Add to one of your collections">${icon('collection')}Collection</button>
+      </div>` : ''}
+      <p class="map-card-src muted pin-certainty" title="${esc(PIN_CERTAINTY_NOTE)}">${esc(pinCertainty(pin))}</p>
+      <details class="map-card-more"><summary>Guide pages and places nearby</summary>
+        <div class="map-card-guides" hidden></div>
       ${related.length ? `<div class="map-card-near map-card-related"><b>Related on the map</b><ul>${related.map((n) => `<li><button type="button" data-act="go" data-to="${n.i}">${esc(n.name)}</button></li>`).join('')}</ul></div>` : ''}
       ${near.length ? `<div class="map-card-near"><b>Nearby</b><ul>${near.map((n) => `<li><button type="button" data-act="go" data-to="${n.i}">${esc(n.name)}</button></li>`).join('')}</ul></div>` : ''}
-      <div class="map-card-foot">
-        ${link && i < 0 ? `<a class="btn btn-small" href="${link}">Open the entry</a>` : ''}
-        <span class="muted pin-certainty" title="${esc(PIN_CERTAINTY_NOTE)}">${esc(pinCertainty(pin))}</span>
-      </div>
+      </details>
+      ${link && i < 0 ? `<div class="map-card-foot"><a class="btn btn-small" href="${link}">Open the entry</a></div>` : ''}
     </div>
+    ${i >= 0 ? `<div class="map-card-bar" role="group" aria-label="Actions">
+      <button type="button" class="map-card-icon${fav ? ' is-on' : ''}" data-act="fav" aria-pressed="${fav}" aria-label="${fav ? 'Remove from' : 'Add to'} favourites" data-tip="Favourite">${favStar(fav)}</button>
+      <button type="button" class="map-card-icon" data-act="zoom" aria-label="Zoom in on this place" data-tip="Zoom in">${icon('search')}</button>
+      <button type="button" class="map-card-icon" data-act="route" aria-label="Add as a stop on your route" data-tip="Add to route">${icon('route')}</button>
+      ${seq && seq.total > 1 ? `<span class="map-card-seq">
+        <button type="button" class="map-card-icon" data-act="go" data-to="${seq.prev}" aria-label="Previous ${esc(kind)}">${icon('chevron-left')}</button>
+        <span class="map-card-pos" aria-label="${seq.pos} of ${seq.total} ${esc(kind)}">${seq.pos} / ${seq.total}</span>
+        <button type="button" class="map-card-icon" data-act="go" data-to="${seq.next}" aria-label="Next ${esc(kind)}">${icon('chevron-right')}</button>
+      </span>` : ''}
+    </div>` : ''}
   </div>`;
 }
 
@@ -2509,48 +2528,68 @@ function renderMap(params) {
   const dot = (pin, extra = '') => {
     const blip = blipOf(pin);
     if (blip) return `<img class="pin-blip${extra ? ' pin-blip-map' : ''}" src="${blip}" alt="" draggable="false">`;
-    return `<i class="pin${extra}" style="background:${categoryOf.get(pin.category).color}"></i>`;
+    // Regions and districts stay round labels; every other place without a game icon gets a
+    // square badge in its group's colour with the group's symbol.
+    if (pin.category === 'regions' || pin.category === 'districts') return `<i class="pin${extra}" style="background:${categoryOf.get(pin.category).color}"></i>`;
+    return `<span class="pin-badge${extra ? ' pin-badge-map' : ''}" style="--c:${categoryOf.get(pin.category).color}">${icon(GROUP_ICON[pin.category] || 'pin')}</span>`;
   };
   const off = new Set(); // pin categories switched off
-  const expanded = new Set(); // pin categories listed in full
+  const offKinds = new Set(); // kinds of place switched off inside a group that is on
+  const openKinds = new Set(); // kinds whose places are listed under them
+  const expanded = new Set(); // kinds listed in full
   let hideFound = prefs.get('map-hide-found') === '1'; // hide pins marked discovered (kept between visits)
+  let only100 = prefs.get('map-only-100') === '1'; // only what counts toward 100%
   const isFound = (i) => UserStore.has('discovered', foundKey(pins[i]));
-  const explore = params.get('explore') === '1';
+  const kindKey = (pin) => `${pin.category}::${pin.kind || ''}`;
+  const kindLabel = (pin) => pin.kind || categoryOf.get(pin.category).label;
+  // A pin counts toward 100% when its guide page is in the 100% Guide.
+  const counts100 = (pin) => Array.isArray(pin.guide) && String(pin.guide[0] || '').startsWith('g100');
+  // Switched off by its kind or by the 100% objectives filter (its group may still be on).
+  const kindHidden = (i) => offKinds.has(kindKey(pins[i])) || (only100 && !counts100(pins[i]));
 
   view.innerHTML = `
-    <div class="map-page${explore ? ' is-explore' : ''}">
+    <div class="map-page">
       <aside class="map-side" id="map-side">
+        <nav class="map-rail" aria-label="Jump to a group of places">
+          ${categories.map((c) => `<button type="button" data-jump="${esc(c.key)}" style="--c:${c.color}" aria-label="${esc(c.label)}" data-tip="${esc(c.label)}">${icon(GROUP_ICON[c.key] || 'pin')}</button>`).join('')}
+        </nav>
+        <div class="map-side-body">
         <button type="button" class="btn btn-icon btn-small map-side-close" data-side aria-label="Close the places panel">${icon('close')}</button>
-        <h1>${explore ? 'Street Explorer' : 'Leonida'}</h1>
-        <p class="muted">${explore
-    ? 'Drag Jason or Lucia onto the map, or press the figure and click a spot, to walk through the real in-game pictures nearest that place. Blue dots mark where pictures are.'
-    : config.image
-      ? 'Click a pin for its card, or a name to fly there. The map is Rockstar\'s own; most pin positions come from Gamersky\'s map and are placed approximately.'
-      : 'Click a pin for its card, or a name to fly there. The map is drawn by the GTA VI mapping community; most pin positions come from Gamersky\'s map and are placed approximately.'}</p>
-        ${explore ? '' : `<details class="heist-plan">
+        <h1>Leonida</h1>
+        <p class="muted">${config.image
+    ? 'Rockstar\'s own map. Most pin positions come from Gamersky\'s map and are approximate.'
+    : 'The GTA VI mapping community\'s map. Most pin positions come from Gamersky\'s map and are approximate.'}</p>
+        <div class="field-search">${icon('search')}
+          <input type="search" class="map-filter" placeholder="Search places or kinds" aria-label="Filter pins" autocomplete="off">
+          <button type="button" class="field-clear" data-clear hidden aria-label="Clear filter" data-tip="Clear">${icon('close')}</button>
+        </div>
+        <div class="map-actions">
+          <button type="button" class="map-act map-act-100" data-hundred aria-pressed="${only100}">${icon('trophy')}100% objectives</button>
+          <button type="button" class="map-act" data-all="on">${icon('eye')}Show all</button>
+          <button type="button" class="map-act" data-all="off">${icon('close')}Hide all</button>
+        </div>
+        <div class="map-switches">
+          <details class="map-my-filters">
+            <summary>${icon('settings')}My filters</summary>
+            <div class="map-near-filter">
+              <label class="opt"><input type="checkbox" data-near-only><span>Only places near the open pin (or the centre of the view)</span></label>
+              <label class="list-sort"><span>Nearby means</span> <select data-near-radius aria-label="How near counts as nearby">
+                ${[['small', 'Close'], ['medium', 'Medium'], ['large', 'Wide']].map(([v, l]) => `<option value="${v}" ${(prefs.get('near-radius') || 'medium') === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
+            </div>
+          </details>
+          <label class="map-switch"><input type="checkbox" role="switch" data-hide-found ${hideFound ? 'checked' : ''}><span class="map-switch-track" aria-hidden="true"></span><span>Hide found</span></label>
+        </div>
+        <p class="map-count muted" role="status"></p>
+        <details class="heist-plan">
           <summary>${icon('route')}Plan a robbery run</summary>
           <label class="heist-field"><span>Target</span><select data-plan-type>${ROBBERY_TYPES.map((t) => `<option value="${t.key}">${esc(t.label)}</option>`).join('')}</select></label>
           <div class="heist-acts"><button type="button" class="btn btn-primary btn-small" data-plan-go>Plan the run</button>
             <a class="link-btn" data-plan-guide href="#/manual/robbery-planner/2">Step-by-step guide</a></div>
           <p class="muted heist-note">Puts every target of that kind in a short order, starting from the open pin or the middle of the view. The order and every leg follow the roads and bridges on Rockstar's map. Pins are approximate: check the guide for each stop.</p>
-        </details>`}
+        </details>
         <div class="map-route" hidden></div>
-        <div class="field-search">${icon('search')}
-          <input type="search" class="map-filter" placeholder="Search the map" aria-label="Filter pins" autocomplete="off">
-          <button type="button" class="field-clear" data-clear hidden aria-label="Clear filter" data-tip="Clear">${icon('close')}</button>
-        </div>
-        <div class="map-filter-tools">
-          <p class="map-count muted" role="status"></p>
-          <button type="button" class="link-btn" data-all="on">Show all</button>
-          <button type="button" class="link-btn" data-all="off">Hide all</button>
-        </div>
-        <div class="map-near-filter">
-          <label class="opt"><input type="checkbox" data-hide-found ${hideFound ? 'checked' : ''}><span>Hide places I have marked discovered</span></label>
-          <label class="opt"><input type="checkbox" data-near-only><span>Only places near the open pin (or the centre of the view)</span></label>
-          <label class="list-sort"><span>Nearby means</span> <select data-near-radius aria-label="How near counts as nearby">
-            ${[['small', 'Close'], ['medium', 'Medium'], ['large', 'Wide']].map(([v, l]) => `<option value="${v}" ${(prefs.get('near-radius') || 'medium') === v ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
-        </div>
         <div class="map-lists"></div>
+        </div>
       </aside>
       <div class="map-wrap">
         <div id="leonida-map" aria-label="Zoomable map of Leonida"></div>
@@ -2561,8 +2600,6 @@ function renderMap(params) {
             <button type="button" data-view="2d" aria-pressed="true">2D</button>
             <button type="button" data-view="3d" aria-pressed="false">3D</button>
           </div>
-          <span class="map-sep" aria-hidden="true"></span>
-          <button type="button" class="map-street" data-street aria-pressed="false" title="Show where Street Explorer pictures are">${icon('camera')}Street view</button>
           <span class="map-sep" aria-hidden="true"></span>
           <button type="button" class="map-tool" data-reset data-tip="Reset the view" aria-label="Reset the view">${icon('reset')}</button>
           <button type="button" class="map-tool" data-full data-tip="Full screen" aria-label="Full screen">${icon('expand')}</button>
@@ -2582,17 +2619,14 @@ function renderMap(params) {
         </div>
         <div class="map-legend" hidden></div>
         <section class="immersive-hud" aria-label="Immersive map panel" hidden>
-          <div class="hud-head"><b>${explore ? 'Street Explorer' : 'Leonida'}</b><button type="button" class="btn btn-small" data-immersive>Leave (Esc)</button></div>
+          <div class="hud-head"><b>Leonida</b><button type="button" class="btn btn-small" data-immersive>Leave (Esc)</button></div>
           <input type="search" class="hud-filter" placeholder="Filter pins" aria-label="Filter pins" autocomplete="off">
           <h2>Nearby</h2>
           <ul class="hud-near"></ul>
           <p class="muted hud-note">Nearest pins to the open pin or the centre of the view, by their place on Rockstar's map. Positions are approximate, so no distances are given.</p>
         </section>
-        <div class="walker-dock">
-          <button type="button" class="walker" data-walker title="Drag onto the map to look around (or press, then click the map)" aria-label="Street Explorer figure: drag onto the map"><img src="${esc(walkerPicture('jason'))}" alt=""></button>
-          <button type="button" class="walker-swap" data-swap>Lucia</button>
-        </div>
         <p id="map-notice" class="map-notice" role="status" hidden></p>
+        <p class="map-coords" aria-hidden="true" hidden></p>
       </div>
     </div>`;
 
@@ -2729,6 +2763,13 @@ function renderMap(params) {
       nearby: nearbyPins(pins, pins[i].x, pins[i].y, 5, i).map((n) => ({ i: n.i, name: pins[n.i].name })),
       related: relatedOf(i).slice(0, 6).map((j) => ({ i: j, name: pins[j].name })),
       places: pins[i].ref ? pins.filter((p) => p.ref === pins[i].ref).length : 1,
+      kindIcon: dot(pins[i]),
+      banner: bannerFor(pins[i]),
+      seq: (() => {
+        const same = pins.map((_, j) => j).filter((j) => kindKey(pins[j]) === kindKey(pins[i]));
+        const at = same.indexOf(i);
+        return { pos: at + 1, total: same.length, prev: same[(at - 1 + same.length) % same.length], next: same[(at + 1) % same.length] };
+      })(),
     });
     return node;
   };
@@ -2797,7 +2838,9 @@ function renderMap(params) {
   let filtered = null; // indexes matching the text filter, or null
   // A discovered pin hides while "Hide discovered" is on, except the one whose card is open.
   const doneHidden = (i) => hideFound && i !== selected && isFound(i);
-  const visible = (i) => !off.has(pins[i].category) && (!filtered || filtered.has(i)) && !doneHidden(i);
+  const visible = (i) => !off.has(pins[i].category) && !kindHidden(i) && (!filtered || filtered.has(i)) && !doneHidden(i);
+  // Hidden on the map although its group's layer is on: filtered out, found, or its kind switched off.
+  const hiddenOnMap = (i) => (Boolean(filtered) && !filtered.has(i)) || doneHidden(i) || kindHidden(i);
   function drawClusters() {
     if (state.map !== map) return; // a flight still finishing after the page changed
     clusterLayer.clearLayers();
@@ -2838,15 +2881,24 @@ function renderMap(params) {
 
   /** Apply the text filter to the map itself (not only the lists), in 2D and 3D. */
   function applyFilterToMap() {
-    markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', (Boolean(filtered) && !filtered.has(i)) || doneHidden(i)));
-    three?.filter(filtered || off.size || hideFound ? pins.map((_, i) => i).filter(visible) : null);
+    markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', hiddenOnMap(i)));
+    three?.filter(filtered || off.size || hideFound || offKinds.size || only100 ? pins.map((_, i) => i).filter(visible) : null);
     drawClusters();
     drawDensity();
     drawHud();
   }
-  map.on('layeradd', () => { if (filtered || hideFound) markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', (Boolean(filtered) && !filtered.has(i)) || doneHidden(i))); });
+  map.on('layeradd', () => { if (filtered || hideFound || offKinds.size || only100) markers.forEach((m, i) => m.getElement()?.classList.toggle('is-filtered', hiddenOnMap(i))); });
+  // Where the pointer is, in map units (thousandths of the map's width and height).
+  const coords = view.querySelector('.map-coords');
+  map.on('mousemove', (e) => {
+    const [x, y] = toXY(e.latlng);
+    const inside = [x, y].every((v) => v >= 0 && v <= 1);
+    coords.hidden = !inside;
+    if (inside) coords.textContent = `X ${Math.round(x * 1000)}   Y ${Math.round(y * 1000)}`;
+  });
+  map.on('mouseout', () => { coords.hidden = true; });
 
-  // ---------- 3D view and Street Explorer ----------
+  // ---------- 3D view, and the in-game pictures used as card banners ----------
   const wrap = view.querySelector('.map-wrap');
   const box3d = view.querySelector('#leonida-3d');
   let three = null; // the 3D map, once opened
@@ -2855,45 +2907,24 @@ function renderMap(params) {
     const target = resolve(p.ref);
     return !target || !isHidden(target.section, target.entry);
   });
-  const photoLayer = L.layerGroup(photos.map((p) => L.circleMarker(point(p.x, p.y), {
-    radius: 5, color: '#ffffff', weight: 1.5, fillColor: '#3d9bff', fillOpacity: 0.9, className: 'photo-dot',
-  }).bindTooltip(esc(p.title), { direction: 'top', className: 'pin-hover' }).on('click', () => openStreet(p.x, p.y))));
-  let showingPhotos = false;
-  const setPhotos = (on) => {
-    showingPhotos = on;
-    view.querySelector('[data-street]').setAttribute('aria-pressed', String(on));
-    if (on) photoLayer.addTo(map); else map.removeLayer(photoLayer);
-    three?.showPhotos(on);
-  };
-  // A character profile (Settings) picks its own walker; otherwise the saved choice.
-  let walker = UserStore.profile() || (prefs.get('walker') === 'lucia' ? 'lucia' : 'jason');
-  const walkerSrc = () => walkerPicture(walker);
-  const syncWalker = () => {
-    view.querySelector('[data-walker] img').src = walkerSrc();
-    // The label names who walks now; the button switches to the other one (said in its name and tip).
-    const now = walker === 'jason' ? 'Jason' : 'Lucia';
-    const other = walker === 'jason' ? 'Lucia' : 'Jason';
-    const swap = view.querySelector('[data-swap]');
-    swap.textContent = now;
-    swap.setAttribute('aria-label', `Walking as ${now}. Switch to ${other}`);
-    swap.title = `Switch to ${other}`;
-  };
-  syncWalker();
-  let walkerMark = null;
-  function openStreet(x, y) {
-    if (walkerMark) map.removeLayer(walkerMark);
-    walkerMark = L.marker(point(x, y), { icon: L.divIcon({ className: 'walker-mark', html: `<img src="${walkerSrc()}" alt="">`, iconSize: [44, 56], iconAnchor: [22, 56] }), interactive: false }).addTo(map);
-    StreetView.open({
-      x, y, photos, config, walker: walkerSrc(), who: walker, places: config.places || [],
-      focusAfter: () => view.querySelector('[data-walker]'),
-      link: (ref) => { const target = resolve(ref); return target ? entryLink(target.section, target.entry.slug) : ''; },
-      onSave: (sx, sy, where) => {
-        const starts = UserStore.get('street-starts', []);
-        UserStore.set('street-starts', [...starts, { id: Date.now().toString(36), name: `Near ${where}`, x: sx, y: sy, walker, at: Date.now() }]);
-      },
-      onSwap: () => { walker = walker === 'jason' ? 'lucia' : 'jason'; syncWalker(); return walkerSrc(); },
-      onPhoto: (p) => document.dispatchEvent(new CustomEvent('hq:street-photo', { detail: p })),
-    });
+  // How far from a place a picture may have been taken and still stand for it, by how exactly the
+  // picture's own spot is known (region-wide pictures never stand for one place).
+  const BANNER_REACH = { pin: 0.012, landmark: 0.015, area: 0.02, town: 0.025, district: 0.03 };
+  /** The picture for a card with none of its own: one of the same entry, or the nearest close enough. */
+  function bannerFor(pin) {
+    if (pin.image || pin.hidden) return null;
+    const same = pin.ref && photos.find((p) => p.ref === pin.ref);
+    if (same) return same;
+    const { width, height } = config;
+    let best = null;
+    let bestD = Infinity;
+    for (const p of photos) {
+      const reach = BANNER_REACH[p.precision];
+      if (!reach) continue;
+      const d = Math.hypot(p.x - pin.x, (p.y - pin.y) * (height / width));
+      if (d <= reach && d < bestD) { best = p; bestD = d; }
+    }
+    return best;
   }
 
   const pinColors = pins.map((pin) => ({ ...pin, color: categoryOf.get(pin.category).color }));
@@ -2957,9 +2988,8 @@ function renderMap(params) {
       }
       box3d.innerHTML = '<p class="map3d-loading"><span class="spinner" aria-hidden="true"></span>Building the 3D map…</p>';
       try {
-        building3d = Map3D.create(box3d, config, pinColors, photos, {
+        building3d = Map3D.create(box3d, config, pinColors, {
           onPin: (i) => openCard3d(i),
-          onStreet: (x, y) => openStreet(x, y),
           calm: calmMotion,
           scale: motionScale,
         });
@@ -2970,7 +3000,6 @@ function renderMap(params) {
         three = made;
         state.map3d = three;
         box3d.querySelector('.map3d-loading')?.remove();
-        three.showPhotos(showingPhotos);
         three.route(stops, routePath);
         three.map.on('moveend', drawHud);
         applyFilterToMap();
@@ -3034,7 +3063,7 @@ function renderMap(params) {
     say('View saved. Find it under Saved.');
   }
   wrap.addEventListener('click', (e) => {
-    const b = e.target.closest('[data-view], [data-street], [data-swap], [data-reset], [data-full], [data-saveview], [data-layers], [data-immersive], [data-tilt]');
+    const b = e.target.closest('[data-view], [data-reset], [data-full], [data-saveview], [data-layers], [data-immersive], [data-tilt]');
     if (!b || b.closest('.map-card')) return;
     if (b.dataset.layers !== undefined) {
       layersPanel.hidden = !layersPanel.hidden;
@@ -3046,86 +3075,10 @@ function renderMap(params) {
     if (b.dataset.tilt !== undefined) { const tilted = three?.tilt(); b.setAttribute('aria-pressed', String(!tilted)); return; }
     if (b.dataset.view === '3d') show3d();
     else if (b.dataset.view === '2d') show2d();
-    else if (b.dataset.street !== undefined) setPhotos(!showingPhotos);
     else if (b.dataset.reset !== undefined) resetView();
     else if (b.dataset.full !== undefined) toggleFullscreen();
     else if (b.dataset.saveview !== undefined) saveView();
-    else { walker = walker === 'jason' ? 'lucia' : 'jason'; syncWalker(); }
   });
-
-  // The walker: drag it onto the map (or press it, then click a spot) to open Street Explorer there.
-  const walkerButton = view.querySelector('[data-walker]');
-  let ghost = null;
-  let armed = false;
-  const spotAt = (e) => {
-    if (mode === '3d' && three) return three.xyAt(e.clientX, e.clientY);
-    return toXY(map.mouseEventToLatLng(e));
-  };
-  const overMap = (e) => {
-    const r = (mode === '3d' ? box3d : view.querySelector('#leonida-map')).getBoundingClientRect();
-    return e.clientX >= r.left && e.clientX <= r.right && e.clientY >= r.top && e.clientY <= r.bottom;
-  };
-  const arm = (on) => {
-    armed = on;
-    wrap.classList.toggle('is-armed', on);
-    if (on) say(`Click a spot on the map to drop ${walker === 'jason' ? 'Jason' : 'Lucia'} there. Press Escape or the walker again to cancel.`);
-    else if (wasArmed) say('Cancelled.');
-  };
-  let wasArmed = false;
-  // Escape puts the walker back (before immersive mode sees the key).
-  const onWalkerKey = (e) => { if (e.key === 'Escape' && armed) { e.preventDefault(); e.stopPropagation(); wasArmed = true; arm(false); wasArmed = false; } };
-  document.addEventListener('keydown', onWalkerKey, true);
-  onLeave(() => document.removeEventListener('keydown', onWalkerKey, true));
-  walkerButton.addEventListener('pointerdown', (e) => {
-    e.preventDefault();
-    walkerButton.setPointerCapture(e.pointerId);
-    ghost = document.createElement('img');
-    ghost.className = 'walker-ghost';
-    ghost.src = walkerSrc();
-    ghost.alt = '';
-    ghost.dataset.x = String(e.clientX);
-    ghost.dataset.y = String(e.clientY);
-    document.body.append(ghost);
-    ghost.style.left = `${e.clientX}px`;
-    ghost.style.top = `${e.clientY}px`;
-    wrap.classList.add('is-walking');
-    if (!showingPhotos) { setPhotos(true); ghost.dataset.temp = '1'; }
-  });
-  walkerButton.addEventListener('pointermove', (e) => {
-    if (!ghost) return;
-    ghost.style.left = `${e.clientX}px`;
-    ghost.style.top = `${e.clientY}px`;
-  });
-  const endDrag = (e) => {
-    if (!ghost) return;
-    const moved = Math.hypot(e.clientX - Number(ghost.dataset.x), e.clientY - Number(ghost.dataset.y)) > 12;
-    const temp = ghost.dataset.temp && !explore;
-    ghost.remove();
-    ghost = null;
-    wrap.classList.remove('is-walking');
-    if (moved && overMap(e)) {
-      const [x, y] = spotAt(e);
-      if (temp) setPhotos(false);
-      if (x >= 0 && x <= 1 && y >= 0 && y <= 1) openStreet(x, y);
-    } else if (!moved) {
-      // A press without a drag (or Enter on the keyboard): the next click on the map drops the walker
-      // there. Pressing it again while it waits puts it back.
-      if (armed) { wasArmed = true; arm(false); wasArmed = false; if (temp) setPhotos(false); } else arm(true);
-    } else if (temp) setPhotos(false);
-  };
-  walkerButton.addEventListener('pointerup', endDrag);
-  walkerButton.addEventListener('pointercancel', endDrag);
-  walkerButton.addEventListener('keydown', (e) => {
-    if (e.key !== 'Enter' && e.key !== ' ') return;
-    e.preventDefault();
-    if (armed) { wasArmed = true; arm(false); wasArmed = false; } else { setPhotos(true); arm(true); }
-  });
-  wrap.addEventListener('click', (e) => {
-    if (!armed || !overMap(e) || e.target.closest('.walker-dock, .map-tools')) return;
-    arm(false);
-    const [x, y] = spotAt(e);
-    if (x >= 0 && x <= 1 && y >= 0 && y <= 1) { e.stopPropagation(); e.preventDefault(); openStreet(x, y); }
-  }, true);
 
   // Each flight has a number; a card opens only for the latest one, so a flight cut short by the
   // next choice never opens the earlier place's card.
@@ -3272,18 +3225,19 @@ function renderMap(params) {
     if (act === 'fav') {
       const on = UserStore.toggle('favourites', pinKey(pin));
       UserStore.set('favourite-pins', { ...UserStore.get('favourite-pins', {}), [pinKey(pin)]: { name: pin.keyName || pin.name, ...(pin.spoilerMarker ? { spoiler: true } : {}), x: pin.x, y: pin.y, ref: pin.ref || '', kind: pin.kind || categoryOf.get(pin.category).label } });
-      b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.innerHTML = favLabel(on);
+      b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.setAttribute('aria-label', `${on ? 'Remove from' : 'Add to'} favourites`); b.innerHTML = favStar(on);
     } else if (act === 'found') {
       const on = UserStore.toggle('discovered', foundKey(pin));
-      b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.innerHTML = foundLabel(on);
+      b.classList.toggle('is-on', on); b.setAttribute('aria-pressed', String(on)); b.innerHTML = foundRow(on);
       drawLists(); // the tick in the lists and the category's count (the open pin stays until its card closes)
     } else if (act === 'collect') {
       // Kept under its real name, marked as a spoiler; shown under the name the map shows now.
       openCollectionPicker({ key: pinKey(pin), name: pin.keyName || pin.name, label: pin.name, spoiler: pin.spoilerMarker, x: pin.x, y: pin.y, ref: pin.ref || '' });
     } else if (act === 'route') {
       addStop({ name: pin.name, x: pin.x, y: pin.y, ref: pin.ref || '' });
-    } else if (act === 'street') {
-      openStreet(pin.x, pin.y);
+    } else if (act === 'zoom') {
+      if (mode === '3d' && three) flyTo(i);
+      else map.flyTo(point(pin.x, pin.y), Math.min(map.getMaxZoom(), Math.max(map.getZoom() + 1.5, config.maxZoom)), { duration: flyMs(0.7) });
     } else if (act === 'go') {
       flyTo(Number(b.dataset.to));
     }
@@ -3388,7 +3342,8 @@ function renderMap(params) {
     document.dispatchEvent(new CustomEvent('hq:pin-open', { detail: pins[i] }));
     view.querySelectorAll('.map-lists [data-marker]').forEach((b) => b.classList.toggle('is-selected', Number(b.dataset.marker) === i));
     drawLinks(i);
-    if (nearOnly) drawLists();
+    // Its kind opens in the side list, so the place shows there too.
+    if (nearOnly || !view.querySelector(`.map-lists [data-marker="${i}"]`)) drawLists();
     drawHud();
   }
 
@@ -3439,25 +3394,33 @@ function renderMap(params) {
   map.on('moveend', drawHud);
   applyOverlays();
 
-  // ---------- sidebar: one list per category with its count; the filter narrows every list and the map ----------
+  // ---------- sidebar: groups of places, each listing its kinds with a found count; the filter narrows every list and the map ----------
   const side = view.querySelector('.map-side');
   const lists = side.querySelector('.map-lists');
   const filter = side.querySelector('.map-filter');
   const names = pins.map((pin) => `${pin.name} ${pin.kind} ${categoryOf.get(pin.category).label}`.toLowerCase());
-  // The count is of pins actually on the map: categories switched off are left out, and said so.
+  // On the map, before the text filter: its group on, its kind on, and not hidden as found.
+  const onMapBase = (i) => !off.has(pins[i].category) && !kindHidden(i) && !doneHidden(i);
+  // The count is of pins actually on the map: groups and kinds switched off are left out, and said so.
   let lastCount = null;
   function drawCount() {
     if (!lastCount) return;
     const { matches, narrowed } = lastCount;
-    const shownCount = matches.filter((i) => !off.has(pins[i].category) && !doneHidden(i)).length;
-    const onMap = pins.filter((p, i) => !off.has(p.category) && !doneHidden(i)).length;
-    const doneN = hideFound ? pins.filter((p, i) => !off.has(p.category) && doneHidden(i)).length : 0;
-    const notes = [off.size ? `${off.size} ${off.size === 1 ? 'category' : 'categories'} hidden` : '', doneN ? `${doneN} discovered hidden` : ''].filter(Boolean);
+    const shownCount = matches.filter(onMapBase).length;
+    const onMap = pins.filter((_, i) => onMapBase(i)).length;
+    const doneN = hideFound ? pins.filter((p, i) => !off.has(p.category) && !kindHidden(i) && doneHidden(i)).length : 0;
+    const notes = [
+      off.size ? `${off.size} ${off.size === 1 ? 'group' : 'groups'} hidden` : '',
+      offKinds.size ? `${offKinds.size} ${offKinds.size === 1 ? 'kind' : 'kinds'} hidden` : '',
+      only100 ? '100% objectives only' : '',
+      doneN ? `${doneN} found hidden` : '',
+    ].filter(Boolean);
     const hiddenNote = notes.length ? ` (${notes.join(', ')})` : '';
     side.querySelector('.map-count').textContent = narrowed
       ? `${shownCount} of ${onMap} pins ${nearOnly ? 'nearby' : 'match'}${hiddenNote}`
       : `${onMap} ${onMap === 1 ? 'pin' : 'pins'}${notes.length ? ` of ${pins.length}${hiddenNote}` : ''}`;
   }
+  const pinRow = (i) => `<li><button type="button" data-marker="${i}" class="${i === selected ? 'is-selected' : ''}" title="${esc(pins[i].name)}${pins[i].kind ? ` (${esc(pins[i].kind)})` : ''}"><span class="row-name">${esc(pins[i].name)}</span>${isFound(i) ? `<span class="found-mark" title="Found">${icon('check-circle')}</span>` : ''}${UserStore.has('favourites', pinKey(pins[i])) ? `<span class="fav-star" title="Favourite">${icon('star-fill')}</span>` : ''}</button></li>`;
   function drawLists() {
     const words = filter.value.toLowerCase().split(/\s+/).filter(Boolean);
     let matches = pins.map((_, i) => i).filter((i) => words.every((w) => names[i].includes(w)));
@@ -3472,50 +3435,75 @@ function renderMap(params) {
     }
     filtered = narrowed ? new Set(matches) : null;
     side.querySelector('[data-clear]').hidden = !words.length;
+    side.querySelector('[data-hundred]').setAttribute('aria-pressed', String(only100));
     lastCount = { matches, narrowed };
     drawCount();
+    const matchSet = new Set(matches);
+    const openKind = selected >= 0 ? kindKey(pins[selected]) : '';
     lists.innerHTML = categories.map((c) => {
-      const all = pins.filter((pin) => pin.category === c.key).length;
-      const foundN = pins.reduce((n, pin, i) => n + (pin.category === c.key && isFound(i) ? 1 : 0), 0);
-      const mine = matches.filter((i) => pins[i].category === c.key && !doneHidden(i));
       const trackable = c.key !== 'regions' && c.key !== 'districts';
-      // While filtering, show every match; otherwise a page, then "Show all".
-      const listed = narrowed || expanded.has(c.key) ? mine : mine.slice(0, MAP_LIST_PAGE);
-      if (narrowed && !mine.length) return '';
-      // While searching, every kind with a match is open; so is the kind of the open pin.
+      // Its kinds, in the order their first place appears; the 100% filter leaves out what does not count.
+      const kinds = new Map();
+      pins.forEach((pin, i) => {
+        if (pin.category !== c.key || (only100 && !counts100(pin))) return;
+        const k = kindKey(pin);
+        if (!kinds.has(k)) kinds.set(k, { key: k, label: kindLabel(pin), sample: i, all: 0, found: 0, shown: [] });
+        const kind = kinds.get(k);
+        kind.all += 1;
+        if (isFound(i)) kind.found += 1;
+        if (matchSet.has(i) && !doneHidden(i)) kind.shown.push(i);
+      });
+      const total = [...kinds.values()].reduce((n, k) => n + k.all, 0);
+      const found = [...kinds.values()].reduce((n, k) => n + k.found, 0);
+      const shownN = [...kinds.values()].reduce((n, k) => n + k.shown.length, 0);
+      if (!total || (narrowed && !shownN)) return '';
+      // While searching every group with a match stays open; so does the group of the open pin.
       const held = narrowed || pins[selected]?.category === c.key;
-      const folded = !held && (mapFolded.has(c.key) ? mapFolded.get(c.key) : all > MAP_FOLD_FROM);
-      return `<section data-category="${esc(c.key)}"${folded ? ' class="is-folded"' : ''}>
+      const folded = !held && Boolean(mapFolded.get(c.key));
+      const rows = [...kinds.values()].map((k) => {
+        if (narrowed && !k.shown.length) return '';
+        const isOff = offKinds.has(k.key);
+        const open = narrowed || openKinds.has(k.key) || k.key === openKind;
+        const listed = narrowed || expanded.has(k.key) ? k.shown : k.shown.slice(0, MAP_LIST_PAGE);
+        const count = narrowed ? `${k.shown.length}/${k.all}` : trackable ? `${k.found}/${k.all}` : `${k.all}`;
+        return `<div class="map-kind${isOff ? ' is-off' : ''}${open ? ' is-open' : ''}" data-kind="${esc(k.key)}">
+          <div class="map-kind-row">
+            <button type="button" class="map-kind-toggle" data-kind-toggle="${esc(k.key)}" aria-pressed="${!isOff}" aria-label="${esc(k.label)}: ${isOff ? 'hidden on the map, press to show' : 'shown on the map, press to hide'}">${dot(pins[k.sample])}<span class="map-kind-name">${esc(k.label)}</span><span class="map-kind-n"${trackable && !narrowed ? ` title="${k.found} of ${k.all} marked found"` : ''}>${count}</span></button>
+            ${trackable ? `<button type="button" class="map-kind-btn" data-next-kind="${esc(k.key)}" aria-label="Next ${esc(k.label)} not yet found" data-tip="Fly to the next one you have not found">${icon('next')}</button>` : ''}
+            <button type="button" class="map-kind-btn map-kind-open" data-kind-open="${esc(k.key)}" aria-expanded="${open}" aria-label="${open ? 'Hide' : 'List'} the ${esc(k.label)} places"${narrowed ? ' disabled' : ''}>${icon('chevron-down')}</button>
+          </div>
+          ${open && listed.length ? `<ul>${listed.map(pinRow).join('')}</ul>${listed.length < k.shown.length ? `<button type="button" class="map-more" data-expand="${esc(k.key)}">Show all ${k.shown.length}</button>` : ''}` : ''}
+        </div>`;
+      }).join('');
+      return `<section data-category="${esc(c.key)}" class="map-group${folded ? ' is-folded' : ''}${off.has(c.key) ? ' is-hidden' : ''}" style="--c:${c.color}">
         <div class="map-cat-head">
-          <button type="button" class="map-fold" data-fold="${esc(c.key)}" aria-expanded="${!folded}" aria-label="${folded ? 'Open' : 'Fold'} the ${esc(c.label)} list"${held ? ` disabled title="Stays open while you search or while one of its places is open"` : ''}>${icon('chevron-down')}</button>
-          <label class="map-toggle"><input type="checkbox" ${off.has(c.key) ? '' : 'checked'} data-toggle="${esc(c.key)}">
-            <span>${esc(c.label)}</span>
-            <b class="map-n">${words.length ? `${mine.length}/${all}` : all}</b></label>
-          ${trackable && foundN ? `<span class="map-found" title="${foundN} of ${all} marked discovered">${icon('check-circle')}${foundN}/${all}</span>` : ''}
-          <span class="map-cat-tools">
-            <button type="button" class="link-btn" data-only="${esc(c.key)}" aria-label="Show only ${esc(c.label)}" data-tip="Show only this kind">Only</button>
-            ${trackable ? `<button type="button" class="link-btn" data-next="${esc(c.key)}" aria-label="Next ${esc(c.label)} not yet discovered" data-tip="Fly to the next one you have not marked discovered">Next</button>` : ''}
-          </span>
+          <button type="button" class="map-fold" data-fold="${esc(c.key)}" aria-expanded="${!folded}" aria-label="${folded ? 'Open' : 'Fold'} the ${esc(c.label)} group"${held ? ' disabled title="Stays open while you search or while one of its places is open"' : ''}>${icon('chevron-down')}</button>
+          <h2 class="map-group-name">${esc(c.label)}</h2>
+          <span class="map-group-n"${trackable ? ` title="${found} of ${total} marked found"` : ''}>${narrowed ? `${shownN}/${total}` : trackable ? `${found}/${total}` : total}</span>
+          <button type="button" class="link-btn map-only" data-only="${esc(c.key)}" aria-label="Show only ${esc(c.label)}" data-tip="Show only this group">Only</button>
+          <label class="map-eye" data-tip="Show or hide this group on the map"><input type="checkbox" ${off.has(c.key) ? '' : 'checked'} data-toggle="${esc(c.key)}" aria-label="Show ${esc(c.label)} on the map"><span class="map-eye-on">${icon('eye')}</span><span class="map-eye-off">${icon('close')}</span></label>
         </div>
-        ${folded ? '' : `<ul class="${off.has(c.key) ? 'is-off' : ''}">${listed.map((i) => `<li><button type="button" data-marker="${i}" class="${i === selected ? 'is-selected' : ''}" title="${esc(pins[i].name)}${pins[i].kind ? ` (${esc(pins[i].kind)})` : ''}">${dot(pins[i])}<span class="row-name">${esc(pins[i].name)}</span>${isFound(i) ? `<span class="found-mark" title="Discovered">${icon('check-circle')}</span>` : ''}${UserStore.has('favourites', pinKey(pins[i])) ? `<span class="fav-star" title="Favourite">${icon('star-fill')}</span>` : ''}${pins[i].kind && pins[i].kind !== c.label ? `<small>${esc(pins[i].kind)}</small>` : ''}</button></li>`).join('')}</ul>
-        ${listed.length < mine.length ? `<button type="button" class="map-more" data-expand="${esc(c.key)}">Show all ${mine.length}</button>` : ''}`}
+        ${folded ? '' : `<div class="map-kinds">${rows}</div>`}
       </section>`;
     }).join('') || `<p class="muted">${nearOnly ? 'No pins near here. Pick a wider "nearby" or move the map.' : words.length ? 'No pin matches that.' : 'No pins yet.'}</p>`;
     applyFilterToMap();
   }
   drawLists();
 
-  /** Flies to the next pin of a kind not yet marked discovered, after the open one, going round. */
+  /** Flies to the next pin of a kind not yet marked found, after the open one, going round. */
   function nextUnfound(key) {
-    const label = categoryOf.get(key)?.label || key;
-    const pool = pins.map((_, i) => i).filter((i) => pins[i].category === key && !isFound(i) && (!filtered || filtered.has(i)));
+    const sample = pins.find((p) => kindKey(p) === key);
+    const label = sample ? kindLabel(sample) : key;
+    const pool = pins.map((_, i) => i).filter((i) => kindKey(pins[i]) === key && !isFound(i) && (!filtered || filtered.has(i)));
     if (!pool.length) {
-      side.querySelector('.map-count').textContent = `Every ${label} pin${filtered ? ' that matches' : ''} is marked discovered.`;
+      side.querySelector('.map-count').textContent = `Every ${label} pin${filtered ? ' that matches' : ''} is marked found.`;
       return;
     }
-    if (off.has(key)) { setCategory(key, true); drawLists(); }
-    const inKind = pins[selected]?.category === key;
+    if (sample && off.has(sample.category)) setCategory(sample.category, true);
+    offKinds.delete(key);
+    const inKind = selected >= 0 && kindKey(pins[selected]) === key;
     const i = (inKind ? pool.find((n) => n > selected) : undefined) ?? pool[0];
+    drawLists();
     if (narrow()) setSide(false);
     flyTo(i);
   }
@@ -3538,29 +3526,60 @@ function renderMap(params) {
   };
   view.querySelectorAll('[data-side]').forEach((b) => b.addEventListener('click', () => setSide(!pageEl.classList.contains('is-side-open'))));
   const narrow = () => matchMedia('(max-width: 900px)').matches;
+  const refocus = (selector) => side.querySelector(selector)?.focus();
   side.addEventListener('click', (e) => {
     const button = e.target.closest('button');
     if (!button) return;
-    if (button.dataset.marker !== undefined && narrow()) setSide(false);
-    if (button.dataset.marker !== undefined) flyTo(Number(button.dataset.marker));
-    if (button.dataset.expand) { expanded.add(button.dataset.expand); drawLists(); }
-    if (button.dataset.fold) {
-      const key = button.dataset.fold;
-      mapFolded.set(key, button.getAttribute('aria-expanded') === 'true');
+    const d = button.dataset;
+    if (d.marker !== undefined && narrow()) setSide(false);
+    if (d.marker !== undefined) flyTo(Number(d.marker));
+    if (d.expand) { expanded.add(d.expand); drawLists(); }
+    if (d.fold) {
+      mapFolded.set(d.fold, button.getAttribute('aria-expanded') === 'true');
       drawLists();
-      side.querySelector(`[data-fold="${CSS.escape(key)}"]`)?.focus();
+      refocus(`[data-fold="${CSS.escape(d.fold)}"]`);
     }
-    if (button.dataset.all) { categories.forEach((c) => setCategory(c.key, button.dataset.all === 'on')); drawLists(); }
-    if (button.dataset.only) {
-      // Pressed again while it is already the only kind shown: everything comes back.
-      const key = button.dataset.only;
+    if (d.jump) {
+      // The rail: open that group and bring it to the top of the panel.
+      mapFolded.set(d.jump, false);
+      drawLists();
+      const group = side.querySelector(`.map-group[data-category="${CSS.escape(d.jump)}"]`);
+      group?.scrollIntoView({ block: 'start', behavior: calmMotion() ? 'auto' : 'smooth' });
+      group?.querySelector('.map-fold')?.focus({ preventScroll: true });
+    }
+    if (d.kindToggle) {
+      if (offKinds.has(d.kindToggle)) offKinds.delete(d.kindToggle); else offKinds.add(d.kindToggle);
+      const group = d.kindToggle.split('::')[0];
+      if (!offKinds.has(d.kindToggle) && off.has(group)) setCategory(group, true);
+      drawLists();
+      refocus(`[data-kind-toggle="${CSS.escape(d.kindToggle)}"]`);
+    }
+    if (d.kindOpen) {
+      if (openKinds.has(d.kindOpen)) openKinds.delete(d.kindOpen); else openKinds.add(d.kindOpen);
+      drawLists();
+      refocus(`[data-kind-open="${CSS.escape(d.kindOpen)}"]`);
+    }
+    if (d.nextKind) nextUnfound(d.nextKind);
+    if (d.hundred !== undefined) {
+      only100 = !only100;
+      prefs.set('map-only-100', only100 ? '1' : '0');
+      drawLists();
+    }
+    if (d.all) {
+      const on = d.all === 'on';
+      categories.forEach((c) => setCategory(c.key, on));
+      if (on) offKinds.clear();
+      drawLists();
+    }
+    if (d.only) {
+      // Pressed again while it is already the only group shown: everything comes back.
+      const key = d.only;
       const already = !off.has(key) && categories.every((c) => c.key === key || off.has(c.key));
       categories.forEach((c) => setCategory(c.key, already || c.key === key));
       drawLists();
-      side.querySelector(`[data-only="${CSS.escape(key)}"]`)?.focus();
+      refocus(`[data-only="${CSS.escape(key)}"]`);
     }
-    if (button.dataset.next) nextUnfound(button.dataset.next);
-    if (button.dataset.clear !== undefined) { filter.value = ''; drawLists(); filter.focus(); }
+    if (d.clear !== undefined) { filter.value = ''; drawLists(); filter.focus(); }
   });
   side.addEventListener('change', (e) => {
     if (e.target.dataset.nearOnly !== undefined) { nearOnly = e.target.checked; drawLists(); return; }
@@ -3569,7 +3588,7 @@ function renderMap(params) {
     const key = e.target.dataset.toggle;
     if (!key) return;
     setCategory(key, e.target.checked);
-    side.querySelector(`[data-category="${CSS.escape(key)}"] ul`)?.classList.toggle('is-off', !e.target.checked);
+    side.querySelector(`.map-group[data-category="${CSS.escape(key)}"]`)?.classList.toggle('is-hidden', !e.target.checked);
     applyFilterToMap();
     drawCount();
   });
@@ -3600,7 +3619,7 @@ function renderMap(params) {
   }
   if (params.get('q')) { filter.value = params.get('q'); drawLists(); }
   if (params.get('plan') && plan && !params.get('q')) { plan.open = true; setTimeout(() => { if (state.map === map) planRun(params.get('plan')); }, 350); }
-  // `?route=`, `?view=` and `?street=` reopen something saved.
+  // `?route=` and `?view=` reopen something saved.
   const savedRoute = UserStore.get('routes', []).find((r) => r.id === params.get('route'));
   if (savedRoute) {
     stops = savedRoute.stops.map((s) => ({ ...s }));
@@ -3609,17 +3628,11 @@ function renderMap(params) {
   }
   const savedView = UserStore.get('map-views', []).find((v) => v.id === params.get('view'));
   const startMode = savedView?.mode || params.get('mode') || prefs.get('map-mode');
-  if (startMode === '3d' && !explore) {
+  if (startMode === '3d') {
     show3d().then(() => { if (savedView && three) three.setView(savedView, false); });
   } else if (savedView) {
     map.setView(point(savedView.x, savedView.y), savedView.zoom, { animate: false });
   }
-  const street = (params.get('street') || '').split(',').map(Number);
-  if (street.length === 2 && street.every((v) => v >= 0 && v <= 1)) {
-    if (params.get('walker') === 'lucia' || params.get('walker') === 'jason') { walker = params.get('walker'); syncWalker(); }
-    setTimeout(() => openStreet(street[0], street[1]), 350);
-  }
-  if (explore) { setPhotos(true); }
   if (params.get('immersive') === '1') setImmersive(true);
 }
 

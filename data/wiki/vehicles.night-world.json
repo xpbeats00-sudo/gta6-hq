@@ -8,7 +8,8 @@
       "Game8 describes it as a Vigero ZX Convertible tuned for racing and given a custom paint scheme.",
       "Game8 says it has a fixed spawn outside Brian's Lockup on Sunset Dr., on the southwest side of Key Lento; if it appears with the roof up, a window has to be broken to get in.",
       "Game8 says it cannot be driven until the Clone Key option is unlocked during Chapter 3 of the story.",
-      "Game8 rates it 7.1 for speed and acceleration, 5.6 for asphalt handling, 3.4 off-road and 3 for strength, with base ratings of 656 on asphalt and 219 off-road; it seats two, holds two items and uses the Muscle mod specialist."
+      "Game8 rates it 7.1 for speed and acceleration, 5.6 for asphalt handling, 3.4 off-road and 3 for strength, with base ratings of 656 on asphalt and 219 off-road; it seats two, holds two items and uses the Muscle mod specialist.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Asphalt handling 5.6, Off-road handling 3.4, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "clone key",
@@ -22,15 +23,23 @@
       "model": "Vigero ZX Convertible (Twinstripe Standout)",
       "year": "2010s",
       "class": "Standout: Street Racer",
-      "availability": "Fixed spawn outside Brian's Lockup, Sunset Dr., Key Lento; needs Clone Key (Chapter 3)"
+      "availability": "Fixed spawn outside Brian's Lockup, Sunset Dr., Key Lento; needs Clone Key (Chapter 3)",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "offroad_handling": 3.4,
+      "strength": 3.0,
+      "where": "GTABase: Declasse Vigero ZX Convertible, modded for racing with a custom paint job. Found outside a private club in Key Lento. Outside of Brian's Isla Tropical is a Twinstripe Vigero.; Standout (GTABase map): Key Lento -  #12 Declasse Twinstripe Vigero Key Lento Set: Street Racer. Declasse Vigero ZX Convertible, modded for racing with a custom paint job. Found outside a private club in Key Lento. "
     },
     "confidence": "corroborated",
     "sources": [
-      "game8-twinstripe-vigero",
       "game8-standout-vehicles",
+      "game8-twinstripe-vigero",
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "rs2-gtabase-standout"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -41,7 +50,8 @@
       "Game8 files the Driveshaft Hustler as a Standout vehicle of the DriveShaft Famous type, made by Vapid and dated to the 1930s.",
       "Game8 describes it as a carefully kept '32 Vapid Hustler turned into a hot rod, owned by an elderly Key Lento resident named Tommy O'Callahan.",
       "Game8 says it spawns in the front yard of a wealthy house on the southeast side of Key Lento, just east of Jeb's Snack Bar on Dolphin Dr.",
-      "Game8 rates it 4 for speed, 5.7 for acceleration, 3.3 asphalt handling, 3.8 off-road and 3 strength, with base ratings of 447 on asphalt and 258 off-road; it seats two and its mod specialist is Hot Rods."
+      "Game8 rates it 4 for speed, 5.7 for acceleration, 3.3 asphalt handling, 3.8 off-road and 3 strength, with base ratings of 447 on asphalt and 258 off-road; it seats two and its mod specialist is Hot Rods.",
+      "In-game stat bars (out of 10): Speed 4.0, Acceleration 5.7, Asphalt handling 3.3, Off-road handling 3.8, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "driveshaft famous",
@@ -55,15 +65,23 @@
       "model": "Hustler ('32, Driveshaft Standout)",
       "year": "1932",
       "class": "Standout: DriveShaft Famous",
-      "availability": "Fixed spawn at a house east of Jeb's Snack Bar, Dolphin Dr., Key Lento"
+      "availability": "Fixed spawn at a house east of Jeb's Snack Bar, Dolphin Dr., Key Lento",
+      "speed": 4.0,
+      "acceleration": 5.7,
+      "asphalt_handling": 3.3,
+      "offroad_handling": 3.8,
+      "strength": 3.0,
+      "where": "GTABase: Well-preserved '32 Vapid Hustler converted into a hot rod. Belongs to elderly Key Lento resident Tommy O'Callahan.; Standout (GTABase map): Key Lento -  #10 Vapid DriveShaft Hustler Key Lento Set: DriveShaft Famous. Well-preserved '32 Vapid Hustler converted into a hot rod. Belongs to elderly Key Lento resident Tommy O'Callahan."
     },
     "confidence": "corroborated",
     "sources": [
       "game8-driveshaft-hustler",
       "game8-standout-vehicles",
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "rs2-gtabase-standout"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -75,7 +93,8 @@
       "Game8 and IGN both place it at the M7 gang's Nova Auto Junkyard in Hamlet; IGN says it is the third Key Valuable of that Illegal Operation, sitting in the garage beside the office with the safe.",
       "IGN says the car is unlocked with no trackers, costs $1,450 to register and sells for $3,770.",
       "The sources differ on its type: Game8 lists it as a Lowrider, while IGN calls it a muscle car.",
-      "Game8 rates it 4.8 for speed, 5.2 acceleration, 4 asphalt handling, 2.6 off-road and 3 strength, with base ratings of 475 on asphalt and 182 off-road."
+      "Game8 rates it 4.8 for speed, 5.2 acceleration, 4 asphalt handling, 2.6 off-road and 3 strength, with base ratings of 475 on asphalt and 182 off-road.",
+      "In-game stat bars (out of 10): Speed 4.8, Acceleration 5.2, Asphalt handling 4.0, Off-road handling 2.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "albany",
@@ -90,16 +109,24 @@
       "model": "Teniente Manana (from '77 Manana)",
       "year": "1977",
       "class": "Standout: Lowrider (IGN: muscle car)",
-      "availability": "Key Valuable at the M7 Nova Auto Junkyard, Hamlet"
+      "availability": "Key Valuable at the M7 Nova Auto Junkyard, Hamlet",
+      "speed": 4.8,
+      "acceleration": 5.2,
+      "asphalt_handling": 4.0,
+      "offroad_handling": 2.6,
+      "strength": 3.0,
+      "where": "GTABase: Luxurious lowrider converted from a '77 Albany Manana and kept at a Hamlet junkyard by M7.; Standout (GTABase map): Hamlet -  #33 Albany Teniente Manana Hamlet Set: Lowriders. Luxurious lowrider converted from a '77 Albany Manana and kept at a Hamlet junkyard by M7."
     },
     "confidence": "corroborated",
     "sources": [
       "game8-teniente-manana",
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "ign-nova-auto-junkyard",
       "rs-gta6map-standout-vehicles",
       "rs-nexzy-nova-auto-junkyard"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   },
   {
@@ -110,7 +137,8 @@
       "IGN calls the Vapid Cultivator Sandking a Standout vehicle and the first of three Key Valuables at the Industrial Weed Grow Illegal Operation.",
       "IGN says it sits in the middle of the operation's large warehouse and that the north side of the building has an opening straight to it.",
       "IGN says the truck is unlocked with no alarm, costs $6,300 to register and sells for $16,170.",
-      "IGN does not say which Standout group it belongs to."
+      "IGN does not say which Standout group it belongs to.",
+      "In-game stat bars (out of 10): Speed 3.7, Acceleration 4.9, Asphalt handling 2.9, Off-road handling 7.2, Strength 4.2, as read by GTABase only so far."
     ],
     "tags": [
       "illegal operation",
@@ -123,14 +151,22 @@
       "manufacturer": "Vapid",
       "model": "Cultivator Sandking",
       "class": "Standout (group not stated)",
-      "availability": "Key Valuable at the Industrial Weed Grow, North Mariana County"
+      "availability": "Key Valuable at the Industrial Weed Grow, North Mariana County",
+      "speed": 3.7,
+      "acceleration": 4.9,
+      "asphalt_handling": 2.9,
+      "offroad_handling": 7.2,
+      "strength": 4.2,
+      "where": "GTABase: Heavily reinforced Vapid Sandking XT with a custom finish, discovered in a large factory in North Mariana County.; Standout (GTABase map): Capri -  #51 Vapid Cultivator Sandking Capri Set: All-Terrain. Heavily reinforced Vapid Sandking XT with a custom finish, discovered in a large factory in North Mariana County."
     },
     "confidence": "corroborated",
     "sources": [
+      "gtabase-map-standout",
+      "gtabase-vehicle-pages",
       "ign-industrial-weed-grow",
       "rs-gta6map-standout-vehicles"
     ],
-    "verified": "2026-11-18",
+    "verified": "2026-11-26",
     "spoiler": true
   }
 ]
