@@ -13,6 +13,9 @@
     saved: 'Saved',
     discovered: 'Marked discovered',
     collected: 'Collectible ticked',
+    trophy: 'Trophy earned',
+    owned: 'Added to your garage or locker',
+    cheat: 'Cheat completed',
     note: 'Note',
   };
   const id = () => `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`;
@@ -77,14 +80,25 @@
       const item = resolve(`collectibles/${key}`);
       log('collected', { key: `c:${key}`, ref: item ? `collectibles/${key}` : undefined, name: item?.entry.name || key.replace(/[-_]/g, ' ') });
     }
+    // The research tools' own ticks (ui/research.js): trophies, the garage and locker, cheats.
+    if (on && part === 'trophies-earned') {
+      const t = resolve(`achievements/${key}`);
+      log('trophy', { key: `t:${key}`, ref: t ? `achievements/${key}` : undefined, name: t ? (isHidden(t.section, t.entry) ? 'Spoiler' : t.entry.name) : key, detail: t?.entry.facts?.grade || '' });
+    }
+    if (on && (part === 'garage' || part === 'weapon-locker')) {
+      const section = part === 'garage' ? 'vehicles' : 'weapons';
+      const t = resolve(`${section}/${key}`);
+      log('owned', { key: `o:${section}/${key}`, ref: t ? `${section}/${key}` : undefined, name: t ? (isHidden(t.section, t.entry) ? 'Spoiler' : t.entry.name) : key, detail: part === 'garage' ? 'Garage' : 'Weapon locker' });
+    }
+    if (on && part === 'cheats-done') log('cheat', { key: `x:${key}`, name: key.split(':').slice(1).join(':') || key, detail: 'Cheat' });
   };
   UserStore.set = (part, value) => {
     const before = UserStore.get(part, []);
     rawSet(part, value);
     if (!Array.isArray(value) || !Array.isArray(before)) return;
-    if (['routes', 'map-views', 'street-starts'].includes(part) && value.length > before.length) {
+    if (['routes', 'map-views', 'street-starts', 'map-markers'].includes(part) && value.length > before.length) {
       const added = value.find((v) => !before.some((b) => b.id === v.id));
-      if (added) log('saved', { key: `${part}:${added.id}`, name: added.name, detail: { routes: 'Route', 'map-views': 'Map view', 'street-starts': 'Street Explorer spot' }[part], x: added.x ?? added.stops?.[0]?.x, y: added.y ?? added.stops?.[0]?.y });
+      if (added) log('saved', { key: `${part}:${added.id}`, name: added.name, detail: { routes: 'Route', 'map-views': 'Map view', 'street-starts': 'Street Explorer spot', 'map-markers': 'Map marker' }[part], x: added.x ?? added.stops?.[0]?.x, y: added.y ?? added.stops?.[0]?.y });
     }
     if (part === 'collections') {
       const had = new Set(before.flatMap((c) => c.items.map((it) => `${c.id}|${it.key}`)));
@@ -159,7 +173,7 @@
   }
 
   /** A picture for a record: its own in-game picture (older records), or its entry's picture. */
-  const KIND_ICON = { viewed: 'eye', district: 'map', street: 'walk', saved: 'bookmark', discovered: 'check-circle', collected: 'gem', note: 'note' };
+  const KIND_ICON = { viewed: 'eye', district: 'map', street: 'walk', saved: 'bookmark', discovered: 'check-circle', collected: 'gem', note: 'note', trophy: 'trophy', owned: 'car', cheat: 'gamepad' };
   function thumbOf(e) {
     if (e.key?.startsWith('s:')) return e.key.slice(2);
     const t = e.ref && resolve(e.ref);

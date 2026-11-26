@@ -127,6 +127,13 @@ await visit('#/map?immersive=1', 'map-immersive', ['Leonida', '.map-page.is-imme
   if (!(await page.evaluate(() => document.body.classList.contains('map-immersive')))) problems.push('immersive map mode did not open');
 });
 await visit('#/intel', 'intel', ['Intel', 'section.block.split']);
+await visit('#/garage', 'garage', ['Garage', '.gm-garage .gm-list li']);
+await visit('#/arsenal', 'weapon-locker', ['Weapon Locker', '.gm-locker .gm-list li']);
+await visit('#/cards', 'card-collections', ['Progress / Collections', '.gm-cover-grid li']);
+await visit('#/cheats', 'cheats', ['Progress / Cheats', '.gm-tabs [role="tab"]']);
+await visit('#/trophies', 'trophies', ['Progress / Trophies', '.gm-list li']);
+await visit('#/controls', 'controls', ['Settings', '.cs-groups li']);
+await visit('#/help', 'help', ['Help', '.gm-list li']);
 await visit('#/media', 'media', ['Media', '#view .chips button']);
 // Entry pages and the not-found page.
 const firstSlug = (section) => page.evaluate(async (s) => (await (await fetch('/api/wiki')).json())[s].find((e) => !e.spoiler && e.status !== 'draft').slug, section);

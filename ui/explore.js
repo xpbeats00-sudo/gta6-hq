@@ -408,12 +408,22 @@
     const explored = new Set(discovered.filter((r) => !r.startsWith('p:')).map((r) => r.split('/')[0]));
     const sections = state.wiki.categories.map((c) => c.key).filter((k) => (state.wiki[k] || []).length);
     // Overall: the average of the parts that can be measured here, each from your own ticks.
-    const parts = [[collected, items.length], [placesFound, places.length], ...(guideTotal ? [[guideTicks, guideTotal]] : [])];
+    // The research tools' trackers (ui/research.js): trophies earned, garage, weapon locker, cheats, card sets.
+    const trophies = state.wiki.achievements || [];
+    const earned = Object.keys(UserStore.get('trophies-earned', {})).filter((s) => trophies.some((e) => e.slug === s)).length;
+    const vehicles = (state.wiki.vehicles || []).filter((e) => e.facts && (e.facts.class || e.facts.manufacturer));
+    const weapons = (state.wiki.weapons || []).filter((e) => e.facts && (e.facts.type || e.facts.slot));
+    const garageN = Object.keys(UserStore.get('garage', {})).length;
+    const lockerN = Object.keys(UserStore.get('weapon-locker', {})).length;
+    const cheatsN = Object.keys(UserStore.get('cheats-done', {})).length;
+    const sets = window.ResearchTools ? window.ResearchTools.cardSets() : [];
+    const setsDone = sets.filter((s) => s.cards.filter((c) => t[c.slug]).length >= s.total).length;
+    const parts = [[collected, items.length], [placesFound, places.length], ...(guideTotal ? [[guideTicks, guideTotal]] : []), ...(trophies.length ? [[earned, trophies.length]] : [])];
     const overall = Math.round(parts.reduce((s, [d, n]) => s + pct(d, n), 0) / parts.length);
     view.innerHTML = `${pageHead('Progress', 'Your own exploration, counted from what you have ticked, marked discovered and saved in this app. Nothing here is read from the game itself.')}
       <div class="block progress-page">
         <div class="stat-grid">
-          <div class="stat-card stat-wide"><b>${overall}%</b><span>Overall: the average of collectibles ticked, places discovered${guideTotal ? ' and 100% Guide checklist rows ticked' : ''}</span>${bar(overall, 100)}</div>
+          <div class="stat-card stat-wide"><b>${overall}%</b><span>Overall: the average of collectibles ticked, places discovered${guideTotal ? ', 100% Guide checklist rows ticked' : ''}${trophies.length ? ' and trophies earned' : ''}</span>${bar(overall, 100)}</div>
         </div>
         <h2 class="hub-title">Completion</h2>
         <div class="stat-grid">
@@ -422,6 +432,14 @@
           ${guideTotal ? `<div class="stat-card"><b>${guideTicks} / ${guideTotal}</b><span>100% Guide checklist rows ticked · ${guideTotal - guideTicks} left</span>${bar(guideTicks, guideTotal)}<a href="#/manual/g100-route">Open the guide</a></div>` : ''}
           <a class="stat-card stat-link" href="#/hundred"><b>${icon('check-circle')}100% Checklist</b><span>The game's own checklist, line by line, with your counts and what to do next</span><em>Open the checklist</em></a>
         </div>
+        <h2 class="hub-title">Trophies, collections and tools</h2>
+        <div class="stat-grid">
+          ${trophies.length ? `<div class="stat-card"><b>${earned} / ${trophies.length}</b><span>Trophies earned · ${trophies.length - earned} left</span>${bar(earned, trophies.length)}<a href="#/trophies">Trophy Guides</a></div>` : ''}
+          ${sets.length ? `<div class="stat-card"><b>${setsDone} / ${sets.length}</b><span>Card sets complete (15 count for 100%, 3 earn a trophy)</span>${bar(setsDone, sets.length)}<a href="#/cards">Card Collections</a></div>` : ''}
+          <div class="stat-card"><b>${garageN} / ${vehicles.length}</b><span>Vehicles in your garage</span>${bar(garageN, vehicles.length)}<a href="#/garage">Garage</a></div>
+          <div class="stat-card"><b>${lockerN} / ${weapons.length}</b><span>Weapons in your locker</span>${bar(lockerN, weapons.length)}<a href="#/arsenal">Weapon Locker</a></div>
+          <div class="stat-card"><b>${cheatsN}</b><span>Cheats marked completed</span><a href="#/cheats">Cheats</a></div>
+        </div>
         <h2 class="hub-title">Saved and explored</h2>
         <div class="stat-grid">
           <div class="stat-card"><b>${favs}</b><span>Favourites</span><a href="#/saved">Saved</a></div>
@@ -429,11 +447,11 @@
           <div class="stat-card"><b>${explored.size} / ${sections.length}</b><span>Encyclopedia sections with something discovered</span>${bar(explored.size, sections.length)}</div>
         </div>
         <h2 class="hub-title">Profiles side by side</h2>
-        <div class="table-scroll" tabindex="0" role="region" aria-label="Profiles side by side"><table class="profile-compare"><thead><tr><th scope="col">Profile</th><th scope="col">Collectibles</th><th scope="col">Discovered</th><th scope="col">Guide rows</th><th scope="col">Favourites</th><th scope="col">Journal records</th></tr></thead><tbody>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Profiles side by side"><table class="profile-compare"><thead><tr><th scope="col">Profile</th><th scope="col">Collectibles</th><th scope="col">Discovered</th><th scope="col">Guide rows</th><th scope="col">Trophies</th><th scope="col">Favourites</th><th scope="col">Journal records</th></tr></thead><tbody>
         ${[['', 'Shared'], ['jason', 'Jason'], ['lucia', 'Lucia']].map(([pf, label]) => {
           const raw = (part, d) => UserStore.data[pf ? `${pf}-${part}` : part] ?? d;
           const here = pf === UserStore.profile();
-          return `<tr${here ? ' class="is-here"' : ''}><th scope="row">${label}${here ? ' <span class="muted">(in use)</span>' : ''}</th><td>${Object.keys(raw('collectible-ticks', {})).length}</td><td>${raw('discovered', []).length}</td><td>${Object.keys(raw('guide-checks', {})).length}</td><td>${raw('favourites', []).length}</td><td>${raw('journal', []).length}</td></tr>`;
+          return `<tr${here ? ' class="is-here"' : ''}><th scope="row">${label}${here ? ' <span class="muted">(in use)</span>' : ''}</th><td>${Object.keys(raw('collectible-ticks', {})).length}</td><td>${raw('discovered', []).length}</td><td>${Object.keys(raw('guide-checks', {})).length}</td><td>${Object.keys(raw('trophies-earned', {})).length}</td><td>${raw('favourites', []).length}</td><td>${raw('journal', []).length}</td></tr>`;
         }).join('')}</tbody></table></div>
         <h2 class="hub-title">Collectibles by family</h2>
         <ul class="family-bars">${familyList(items).map((f) => {
@@ -468,6 +486,11 @@
       [sum('collections', len), 'collection', 'collections'],
       [sum('routes', len), 'route', 'routes'],
       [sum('journal', len), 'journal record', 'journal records'],
+      [sum('trophies-earned', len), 'trophy earned', 'trophies earned'],
+      [sum('garage', len), 'vehicle in the garage', 'vehicles in the garage'],
+      [sum('weapon-locker', len), 'weapon in the locker', 'weapons in the locker'],
+      [sum('cheats-done', len), 'cheat completed', 'cheats completed'],
+      [sum('map-markers', len), 'map marker', 'map markers'],
     ].filter(([n]) => n).map(([n, one, many]) => `${n} ${n === 1 ? one : many}`);
     return parts.length ? parts.join(', ') : 'nothing saved yet';
   }
@@ -629,10 +652,12 @@
         view.querySelector('.settings-status').textContent = 'Settings reset.';
       }
       if (b.dataset.reset === 'progress') {
-        if (!await hqConfirm({ title: 'Reset your progress?', text: 'This clears collectible ticks, discovered places and 100% Guide ticks for this profile. Favourites, collections, routes and saved views are kept. It cannot be undone.', ok: 'Reset progress', danger: true })) return;
+        if (!await hqConfirm({ title: 'Reset your progress?', text: 'This clears collectible ticks, discovered places, 100% Guide ticks, trophies earned and cheats marked completed for this profile. Favourites, collections, routes, saved views and your garage and weapon locker are kept. It cannot be undone.', ok: 'Reset progress', danger: true })) return;
         UserStore.set('collectible-ticks', null);
         UserStore.set('discovered', null);
         UserStore.set('guide-checks', null);
+        UserStore.set('trophies-earned', null);
+        UserStore.set('cheats-done', null);
         status('Progress reset.');
       }
     });

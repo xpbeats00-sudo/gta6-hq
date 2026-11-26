@@ -17,7 +17,7 @@ use crate::{
 };
 
 /// Entry keys the app knows about. Anything else is probably a typo.
-pub const ENTRY_KEYS: [&str; 27] = [
+pub const ENTRY_KEYS: [&str; 28] = [
     "slug",
     "name",
     "summary",
@@ -38,6 +38,8 @@ pub const ENTRY_KEYS: [&str; 27] = [
     "art",
     // A step-by-step guide (trophies): [{ "text", "picture"?, "spoiler"? }].
     "steps",
+    // The game version an entry applies to (e.g. "1.02"), shown in its verification panel.
+    "version",
     // Older, section-specific fields.
     "role",
     "group",

@@ -4,6 +4,8 @@ Date: 2026-11-21. Nothing here is committed. Everything since release 0.2.34 is 
 
 The visual redesign is described first, then phase 2, then phase 1. Later work fixed some limitations the earlier sections list.
 
+> **Out of date since 0.2.46 (2026-11-26):** Street Explorer, the walker figures and the Street view button were removed. Their in-game pictures now appear as banners on map cards. The map panel and pin card were also redesigned. See `CHANGELOG.md`. The rest of this report is kept as a record of that build.
+
 ## Visual redesign: GTA VI-inspired design system
 
 This is a visual redesign only. No page, data, map engine or saved data was removed.

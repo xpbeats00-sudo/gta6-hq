@@ -54,6 +54,7 @@ const go = async (hash, wait = 1500) => { await run(`location.hash = ${JSON.stri
 const user = () => run(`fetch('/api/userdata').then((r) => r.json())`);
 // Poll the page until `expression` gives a truthy value, for at most `timeout` ms. Returns the last value
 // (falsy on time-out), so the check that follows still decides pass or fail exactly as before.
+const mouse = (type, x, y) => call('Input.dispatchMouseEvent', { type, x, y, button: 'left', buttons: type === 'mouseReleased' ? 0 : 1, clickCount: 1 });
 const waitFor = async (expression, timeout = 10000) => {
   const end = Date.now() + timeout;
   let value;
@@ -133,6 +134,13 @@ const PAGES = {
   '#/saved': ['Saved', '.saved-page'],
   '#/journal': ['Discovery Journal', '.journal-note textarea'],
   '#/progress': ['Progress', '.progress-page .stat-grid'],
+  '#/garage': ['Garage', '.gm-garage .gm-list li'],
+  '#/arsenal': ['Weapon Locker', '.gm-locker .gm-list li'],
+  '#/cards': ['Progress / Collections', '.gm-cover-grid li'],
+  '#/cheats': ['Progress / Cheats', '.gm-tabs [role="tab"]'],
+  '#/trophies': ['Progress / Trophies', '.gm-list li'],
+  '#/controls': ['Settings', '.cs-groups li'],
+  '#/help': ['Help', '.gm-list li'],
   '#/media': ['Media', '#view .chips button'],
   '#/intel': ['Intel', 'section.block.split'],
   '#/settings': ['Settings', 'form.settings-page fieldset'],
@@ -615,6 +623,149 @@ await check('Phone width: no sideways scrolling on the journal, settings, progre
 await go('#/settings', 900);
 await run(`document.querySelector('[data-reset="prefs"]').click(); true`); await sleep(400);
 await check('Resetting settings brings back the Vice City look', async () => run(`!document.documentElement.dataset.theme && !document.documentElement.dataset.density && getComputedStyle(document.documentElement).getPropertyValue('--panel-solid').trim() === '100%'`));
+
+// ---------- research tools and menus (ui/research.js, ui/menus.js) ----------
+await check('Card Collections: 18 sets; a card ticked in a set is saved with the tracker ticks', async () => {
+  await go('#/cards', 1400);
+  const sets = await run(`document.querySelectorAll('.gm-cover-grid li').length`);
+  await go('#/cards/vice-city-flamingos', 1200);
+  const slug = await run(`(() => { const i = document.querySelector('.gm-card-grid li'); i.click(); return document.querySelector('.gm-card-detail [data-tick]').dataset.tick; })()`);
+  await run(`document.querySelector('.gm-card-detail [data-tick]').click(); true`); await sleep(500);
+  const saved = Boolean(((await user())['collectible-ticks'] || {})[slug]);
+  const found = await run(`document.querySelector('.gm-card-detail .gm-foot b')?.textContent || ''`);
+  await run(`document.querySelector('.gm-card-detail [data-tick]').click(); true`); await sleep(300);
+  return sets === 18 && saved && /^1 \//.test(found) ? `${sets} sets, ticked ${slug}` : false;
+});
+await check('Cheats: every group lists its cheats, codes are D-pad glyphs, the Controls tab has the layout', async () => {
+  await run(`setSpoilers(true); true`);
+  await go('#/cheats', 1400);
+  const counts = [];
+  for (let t = 0; t < 5; t++) {
+    await run(`document.querySelector('[role="tab"][data-tab="${t}"]').click(); true`); await sleep(250);
+    counts.push(await run(`document.querySelectorAll('.gm-list li').length`));
+  }
+  await run(`document.querySelector('[role="tab"][data-tab="0"]').click(); true`); await sleep(250);
+  const pads = await run(`document.querySelectorAll('.gm-detail .gm-code .gm-dpad').length`);
+  await run(`document.querySelector('[role="tab"][data-tab="5"]').click(); true`); await sleep(400);
+  const controls = await run(`document.querySelectorAll('.gm-ctable tbody tr').length`);
+  const total = counts.reduce((a, b) => a + b, 0);
+  return total === 61 && pads >= 5 && controls > 0 ? `${counts.join('+')} = ${total} cheats, ${pads}-press code, ${controls} control rows` : false;
+});
+await check('Weapon Locker: stat bars, a price with its payment mark, compare two side by side, owned list saved', async () => {
+  await go('#/arsenal', 1400);
+  await run(`(() => { const q = document.querySelector('.gm-q'); q.value = 'Mediator'; q.dispatchEvent(new Event('input', { bubbles: true })); })(); true`); await sleep(400);
+  await run(`document.querySelector('.gm-list li[data-i]').click(); true`); await sleep(300);
+  const bars = await run(`document.querySelectorAll('.gm-detail .gm-stat:not(.is-unknown)').length`);
+  const marks = await run(`document.querySelectorAll('.gm-price-line .gm-money').length`);
+  const slug = await run(`document.querySelector('.gm-detail [data-own]').dataset.own`);
+  await run(`document.querySelector('.gm-detail [data-own]').click(); true`); await sleep(400);
+  const owned = Boolean(((await user())['weapon-locker'] || {})[slug]);
+  await run(`document.querySelector('.gm-detail [data-pick]').click(); true`); await sleep(200);
+  await run(`document.querySelectorAll('.gm-list li[data-i]')[1].click(); true`); await sleep(200);
+  await run(`document.querySelector('.gm-detail [data-pick]').click(); true`); await sleep(200);
+  await run(`document.querySelector('[data-compare-open]').click(); true`); await sleep(400);
+  const cols = await run(`document.querySelectorAll('.gm-compare:not([hidden]) .gm-compare-col').length`);
+  await run(`document.querySelector('[data-compare-clear]').click(); true`);
+  return bars === 4 && marks >= 1 && owned && cols === 2 ? `${bars} bars, ${marks} payment mark(s), compare ${cols}` : false;
+});
+await check('Garage: class tabs, stat bars, and a vehicle added to the garage is counted on Progress', async () => {
+  await go('#/garage', 1400);
+  const tabs = await run(`document.querySelectorAll('.gm-tabs [role="tab"]').length`);
+  await run(`(() => { const q = document.querySelector('.gm-q'); q.value = 'Ganado'; q.dispatchEvent(new Event('input', { bubbles: true })); })(); true`); await sleep(400);
+  await run(`document.querySelector('.gm-list li[data-i]').click(); true`); await sleep(300);
+  const bars = await run(`document.querySelectorAll('.gm-detail .gm-stat:not(.is-unknown)').length`);
+  await run(`document.querySelector('.gm-detail [data-own]').click(); true`); await sleep(400);
+  await go('#/progress', 1000);
+  const garage = await run(`[...document.querySelectorAll('.progress-page .stat-card')].find((c) => /in your garage/.test(c.textContent))?.querySelector('b')?.textContent || ''`);
+  return tabs > 3 && bars === 5 && /^1 \//.test(garage) ? `${tabs} tabs, ${bars} bars, garage ${garage}` : false;
+});
+await check('Trophy Guides: a guide shows its steps with pictures; earning one is saved and logged in the journal', async () => {
+  await go('#/trophies/master-of-none', 1400);
+  const steps = await run(`document.querySelectorAll('.gm-detail .gm-step').length`);
+  const pics = await run(`document.querySelectorAll('.gm-detail .gm-step img').length`);
+  await run(`document.querySelector('.gm-detail [data-earn]').click(); true`); await sleep(500);
+  const saved = Boolean(((await user())['trophies-earned'] || {})['master-of-none']);
+  await go('#/journal', 1000);
+  const logged = await run(`/Trophy earned/.test(document.querySelector('.journal')?.textContent || '')`);
+  return steps >= 3 && pics >= 1 && saved && logged ? `${steps} steps, ${pics} pictures` : false;
+});
+await check('Controls: groups of controls, PlayStation and Xbox glyphs, the Classic scheme moves on-foot buttons', async () => {
+  await go('#/controls', 1200);
+  const groups = await run(`document.querySelectorAll('.cs-groups li').length`);
+  const ps = await run(`document.querySelectorAll('.cs-col .gl').length`);
+  await run(`document.querySelector('[data-step="pad"][data-by="1"]').click(); true`); await sleep(300);
+  const xbox = await run(`document.querySelector('.cs-pick-row span')?.parentElement && [...document.querySelectorAll('.cs-pick-row span')].map((x) => x.textContent).join('|')`);
+  await run(`document.querySelector('[data-step="pad"][data-by="1"]').click(); true`); await sleep(200);
+  const onFoot = await run(`[...document.querySelectorAll('.cs-groups li')].findIndex((l) => /on foot/i.test(l.textContent))`);
+  await run(`document.querySelectorAll('.cs-groups li')[${onFoot}].click(); true`); await sleep(200);
+  await run(`document.querySelector('[data-step="scheme"][data-by="1"]').click(); true`); await sleep(300);
+  const changed = await run(`document.querySelectorAll('.cs-col li.is-changed').length`);
+  await run(`document.querySelector('[data-step="scheme"][data-by="-1"]').click(); true`);
+  return groups > 5 && ps > 0 && /Xbox/.test(xbox) && changed >= 2 ? `${groups} groups, ${changed} actions moved in Classic` : false;
+});
+await check('Help: Field Manual chapters as tabs, topics under their page headings', async () => {
+  await go('#/help', 2000);
+  const tabs = await run(`document.querySelectorAll('.gm-tabs [role="tab"]').length`);
+  const topics = await run(`document.querySelectorAll('.gm-list li[data-i]').length`);
+  const heads = await run(`document.querySelectorAll('.gm-list li.gm-sect').length`);
+  return tabs > 10 && topics > 0 && heads > 0 ? `${tabs} chapters, ${topics} topics, ${heads} headings` : false;
+});
+await check('Pause menu: Esc opens it over the page, a page link goes there, Esc closes it', async () => {
+  await go('#/', 1200);
+  await key('Escape'); await sleep(400);
+  const open = await run(`!!document.querySelector('.pause[role="dialog"]') && document.querySelectorAll('.pause-list [role="menuitem"]').length`);
+  await key('Escape'); await sleep(300);
+  const closed = await run(`!document.querySelector('.pause')`);
+  await run(`document.getElementById('pause-open').click(); true`); await sleep(300);
+  await run(`document.querySelector('.pause-list [data-i="2"]').click(); true`); await sleep(200);
+  await run(`document.querySelector('.pause-sub a[href="#/progress"]').click(); true`); await sleep(1000);
+  const went = await run(`location.hash === '#/progress' && !document.querySelector('.pause')`);
+  await run(`setSpoilers(false); true`);
+  return open >= 5 && closed && went ? `${open} items` : false;
+});
+
+// ---------- smart map and verification ----------
+await check('Map: closest unfinished objectives become a route; Optimise keeps stop 1 and reorders the rest', async () => {
+  await go('#/map', 2500);
+  await run(`(() => { const b = document.querySelector('.near-plan'); b.open = true; b.querySelector('[data-near-n]').value = '5'; b.querySelector('[data-near-go]').click(); })(); true`);
+  await waitFor(`document.querySelectorAll('.map-route ol li').length === 5`, 15000);
+  const first = await run(`document.querySelector('.map-route ol li .route-name').textContent`);
+  await run(`document.querySelector('[data-stop-opt]').click(); true`);
+  await waitFor(`/reordered/.test(document.querySelector('#map-notice')?.textContent || '')`, 15000);
+  const after = await run(`document.querySelector('.map-route ol li .route-name').textContent`);
+  const n = await run(`document.querySelectorAll('.map-route ol li').length`);
+  await run(`document.querySelector('[data-stop-clear]').click(); true`);
+  return n === 5 && first === after ? `5 stops from ${first}` : false;
+});
+await check('Map: completion-by-region overlay shows a share for each region', async () => {
+  await run(`document.querySelector('[data-layers]').click(); true`); await sleep(200);
+  await run(`(() => { const c = document.querySelector('[data-overlay="completion"]'); if (!c.checked) c.click(); })(); true`); await sleep(500);
+  const bubbles = await run(`[...document.querySelectorAll('.completion-bubble b')].map((b) => b.textContent)`);
+  await run(`document.querySelector('[data-overlay="completion"]').click(); document.querySelector('[data-layers]').click(); true`);
+  return bubbles.length >= 5 && bubbles.every((t) => /^\d+%$/.test(t)) ? `${bubbles.length} regions` : false;
+});
+await check('Map: your own marker is placed, named with a note, saved and listed', async () => {
+  await run(`document.querySelector('[data-mark]').click(); true`);
+  const r = JSON.parse(await run(`JSON.stringify(document.getElementById('leonida-map').getBoundingClientRect())`));
+  await mouse('mousePressed', r.x + r.width * 0.6, r.y + r.height * 0.5);
+  await mouse('mouseReleased', r.x + r.width * 0.6, r.y + r.height * 0.5);
+  await waitFor(`!!document.querySelector('.mark-card')`, 5000);
+  await run(`(() => { const f = document.querySelector('.mark-card'); f.elements.name.value = 'Test stash'; f.elements.note.value = 'Behind the shed'; f.requestSubmit(); })(); true`); await sleep(500);
+  const saved = ((await user())['map-markers'] || []).find((m) => m.name === 'Test stash');
+  const listed = await run(`[...document.querySelectorAll('.my-markers li')].some((l) => /Test stash/.test(l.textContent))`);
+  return saved && saved.note === 'Behind the shed' && listed ? `at ${saved.x.toFixed(3)}, ${saved.y.toFixed(3)}` : false;
+});
+await check('Entry pages: a verification panel with status, confidence, sources, last checked, evidence and game version', async () => {
+  await run(`setSpoilers(true); true`);
+  await go('#/wiki/weapons/hawk-and-little-mediator', 1500);
+  await waitFor(`!/Checking/.test(document.querySelector('.verify [data-evidence]')?.textContent || 'Checking')`, 5000);
+  const rows = await run(`[...document.querySelectorAll('.verify dt')].map((d) => d.textContent)`);
+  const status = await run(`document.querySelector('.verify-level')?.textContent || ''`);
+  const evidence = await run(`document.querySelector('.verify [data-evidence]')?.textContent || ''`);
+  await run(`setSpoilers(false); true`);
+  const want = ['Status', 'Confidence', 'Source', 'Last checked', 'Evidence', 'Game version'];
+  return want.every((w) => rows.includes(w)) && /Confirmed|Partially|Unverified/.test(status) && /Picture:/.test(evidence) ? `${status}; ${evidence.slice(0, 40)}` : false;
+});
 
 await check('No script errors, console errors or failed requests', async () => {
   if (problems.length) throw new Error(problems.slice(0, 5).join(' | '));
