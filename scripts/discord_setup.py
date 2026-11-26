@@ -232,6 +232,17 @@ def main():
             if found:
                 sync(found, overwrites(cat.get('visible_to'), ch.get('read_only')), ch['name'])
 
+    # ---- where Discord posts its own join messages ("… joined the server"): the plan's join_messages channel
+    want = plan.get('join_messages')
+    if want and TOKEN:
+        target = channel_id.get(base(want))
+        current = call('GET', f'/guilds/{gid}').get('system_channel_id')
+        if target and current != target:
+            did.append('join messages')
+            print(('  + ' if APPLY else '  would ') + f'post join messages in #{want}')
+            if APPLY:
+                call('PATCH', f'/guilds/{gid}', {'system_channel_id': target})
+
     # ---- opening posts, only in channels this run created
     if to_post:
         print('\nOpening posts')

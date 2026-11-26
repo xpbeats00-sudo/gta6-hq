@@ -1,0 +1,72 @@
+name: Publish the hosted map and guides
+
+# Builds the GTA 6 HQ site (the interactive Leonida map and the guide pages that the Discord
+# assistant links to) from the app's own server and publishes it with GitHub Pages:
+# https://xpbeats00-sudo.github.io/gta6-hq/
+# Runs when the data, the pages or the scripts that build them change on main, and by hand.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'web/**'
+      - 'images/map/**'
+      - 'src/**'
+      - 'scripts/build_site.py'
+      - 'scripts/hq_data.py'
+      - 'ui/vendor/leaflet.*'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install the libraries the app links against
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libsoup-3.0-dev libjavascriptcoregtk-4.1-dev
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            target
+          key: pages-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}
+      - name: Build the app
+        run: cargo build --release
+      - name: Build the site from the app's server
+        run: |
+          ./target/release/gta6-hq --serve --port 4615 &
+          for i in $(seq 60); do curl --fail --silent --output /dev/null http://127.0.0.1:4615/ && break; sleep 1; done
+          python3 scripts/build_site.py --url http://127.0.0.1:4615
+          kill %1
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

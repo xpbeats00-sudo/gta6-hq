@@ -144,6 +144,23 @@ jobs:
           for i in $(seq 60); do curl --fail --silent --output /dev/null http://127.0.0.1:4612/ && break; sleep 1; done
           node scripts/ci_pages.mjs http://127.0.0.1:4612 shots
           kill %1
+      - uses: actions/setup-node@v4
+        with:
+          # scripts/web_map_check.mjs uses Node's built-in WebSocket.
+          node-version: 22
+      - name: Test the Discord assistant and the hosted map
+        # The assistant's answers are checked against the app's own data; then the hosted site is
+        # built from the same server and its map is dragged, zoomed and opened at a place in Chrome.
+        run: |
+          python3 -m pip install --quiet pillow
+          ./target/release/gta6-hq --serve --port 4614 &
+          for i in $(seq 60); do curl --fail --silent --output /dev/null http://127.0.0.1:4614/ && break; sleep 1; done
+          python3 scripts/test_assistant.py --url http://127.0.0.1:4614
+          python3 scripts/build_site.py --url http://127.0.0.1:4614
+          python3 -m http.server 4680 --bind 127.0.0.1 --directory site &
+          google-chrome --headless=new --remote-debugging-port=9341 --no-first-run --user-data-dir="$RUNNER_TEMP/chrome" about:blank &
+          node scripts/web_map_check.mjs 9341 http://127.0.0.1:4680
+          kill %1 %2 %3
       - name: Open the real window and photograph it
         # Runs the app on a virtual screen inside a desktop session bus, as a Linux desktop provides
         # (without one the window never appears). The window is looked for once a second, for at

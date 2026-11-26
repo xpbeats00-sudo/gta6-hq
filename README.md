@@ -33,15 +33,32 @@
 </tr>
 <tr>
 <td valign="top"><img src="docs/media/entry.jpg" alt="An entry page: Taco Bomb with its picture, facts, More of this type and sources"><br><b>Entry pages</b><br>Facts, links to the people and places named, more of the same type, and where each fact comes from.</td>
-<td valign="top"><img src="docs/media/map.jpg" alt="The map of Leonida with numbered clusters of pins"><br><b>Map of Leonida</b><br>Every place pinned with found counts, robbery runs that follow the roads, and a 3D view.</td>
+<td valign="top"><img src="docs/media/map.jpg" alt="The map of Leonida with numbered clusters of pins"><br><b>Map of Leonida</b><br>Every place pinned and grouped with found counts, a 100% objectives filter, robbery runs that follow the roads, and a 3D view.</td>
 </tr>
 <tr>
 <td valign="top"><img src="docs/media/tracker.jpg" alt="Collectible Tracker: collectibles in families, with filters"><br><b>Collectible Tracker</b><br>Tick off every collectible, family by family and county by county.</td>
 <td valign="top"><img src="docs/media/hundred.jpg" alt="100% Checklist: each line with a counter and what it is worth"><br><b>100% Checklist</b><br>Every line the game counts toward 100%, with your counts and what to do next.</td>
 </tr>
+<tr>
+<td valign="top"><img src="docs/media/tools-garage.jpg" alt="Garage: the Vapid Ganado with its in-game stat bars and price"><br><b>Garage and Weapon Locker</b><br>The game's own stat bars for vehicles and weapons, side-by-side compare and full prices.</td>
+<td valign="top"><img src="docs/media/tools-cheats.jpg" alt="Cheats: the $250,000 cheat with its D-pad code"><br><b>Cheats and Controls</b><br>Every cheat code as D-pad arrows, and a controller diagram for PlayStation and Xbox.</td>
+</tr>
+<tr>
+<td valign="top"><img src="docs/media/tools-cards.jpg" alt="Card Collections: the 18 card sets"><br><b>Card Collections</b><br>All 18 card sets, card by card, ticked in step with the tracker.</td>
+<td valign="top"><img src="docs/media/tools-trophies.jpg" alt="Trophy Guides: Master of None with its steps and pictures"><br><b>Trophy Guides</b><br>Step-by-step guides with a picture for each step.</td>
+</tr>
 </table>
 
-Also in the app: **Intel** (release timeline and editions), **search** across everything, a **Discovery Journal**, **Saved** favourites and collections, and separate progress for Jason and Lucia. Everything you save stays on your computer.
+Also in the app:
+
+- **Garage** and **Weapon Locker**: the game's stat bars for 341 vehicles and 194 weapons, side-by-side compare, full prices, and your own garage and locker.
+- **Card Collections**: all 18 card sets, card by card.
+- **Cheats and Controls**: every cheat code, and a controller diagram for PlayStation and Xbox.
+- **Trophy Guides**: step-by-step guides with pictures.
+- **Help**: the Field Manual's topics, laid out like the game's Help menu.
+- A **pause menu** on Esc, **Intel** (release timeline and editions), **search** across everything, a **Discovery Journal**, **Saved** favourites and collections, and separate progress for Jason and Lucia.
+
+Everything you save stays on your computer.
 
 <a id="pick-your-start-up"></a>
 <p align="center"><img src="docs/media/readme/h-intro.svg" alt="Pick your start-up" width="860"></p>
@@ -320,6 +337,21 @@ if it is not, the app works as normal and retries every 15 seconds.
 `http://127.0.0.1:<port>/api/presence` reports whether it is connected.
 Restart the app after changing the file.
 
+### The Discord assistant and the hosted map
+
+On the [Discord server](https://discord.gg/YhMHr8N4an), ask anything about GTA 6 in
+`#gta6-questions`, or use `/ask`, `/map`, `/vehicle`, `/weapon`, `/guide`, `/stunts`, `/completion`,
+`/find` or `/sources`.
+
+- **Where its answers come from**: the bot answers from this app's data, through the app's own
+  server, so there is no second database.
+- **What a reply holds**: a picture of the map, with buttons that open the
+  [interactive Leonida map](https://xpbeats00-sudo.github.io/gta6-hq/map/) at the same place.
+- **What the map does**: drag, zoom and go full screen.
+- **What it never does**: it never guesses. If GTA 6 HQ does not have a fact, it says so.
+
+How it works, its settings and its tests: [`docs/architecture/DISCORD-ASSISTANT.md`](docs/architecture/DISCORD-ASSISTANT.md).
+
 ### How it is built
 
 | File | Job |
@@ -360,9 +392,9 @@ python scripts/audit_media.py
 
 Releases are published at https://github.com/xpbeats00-sudo/gta6-hq/releases. When the app opens it asks GitHub whether a newer release exists and, if so, shows a notice with a link; nothing is downloaded or installed automatically. To turn the check off, set `"enabled": false` in `data/update.json`.
 
-To publish a new version: raise `version` in `Cargo.toml`, close the app, then run `python scripts/package_release.py`. That builds the **public** edition and writes its installer (`installer/gta6-hq.iss`, needs Inno Setup 6), portable zip and checksums to `dist/`; attach all three to a new GitHub release tagged `v<version>`. The public edition carries only the pictures and clips that `docs/compliance/DISTRIBUTION-ASSET-ALLOWLIST.md` approves for distribution (today none), with the app's own icon and artwork. The packager refuses to build if anything else would go in (`docs/compliance/MEDIA-DISTRIBUTION-POLICY.md`, option D).
+To publish a new version: raise `version` in `Cargo.toml` and `Cargo.lock`, add the version to `CHANGELOG.md` and "What's new", run `cargo build --release` and `python scripts/audit_media.py`, then `python scripts/package_release.py`. That builds the full app, with every picture, logo, clip and wallpaper, and writes its installer (`installer/gta6-hq.iss`, needs Inno Setup 6), portable zip and checksums to `dist/`. Attach all three to a new GitHub release tagged `v<version>`; CI adds the macOS and Linux packages.
 
-`python scripts/package_release.py --include-local-media` builds a **personal** edition with every picture, in `dist/personal/` with PERSONAL in each file name. It is for your own machines only: never attach it to a release or upload it.
+Releases always ship every picture: the owner decided this on 2026-11-22 (`docs/compliance/MEDIA-DISTRIBUTION-POLICY.md`). The rights side is still open: the media records list each picture's source, and none is marked as cleared for redistribution (see the policy for what that means). `python scripts/package_release.py --no-game-media` builds an edition without the game's pictures into `dist/public/`, for testing only.
 
 The file people download is the setup window in `installer/shell` (a small Rust program using the same window technology as the app). It carries the Inno Setup installer built from `installer/gta6-hq.iss`, runs it silently and reads its log for progress; if the window cannot open, it runs that installer with its own pages. `gta6-hq-setup.exe --demo` shows the pages without installing anything, and `python scripts/make_installer_art.py` redraws its pictures.
 
