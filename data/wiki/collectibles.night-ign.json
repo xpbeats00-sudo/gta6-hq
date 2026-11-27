@@ -5076,7 +5076,8 @@
     "body": [
       "IGN lists the Standard Jason card in the Delights Dancers set, a dancers set of 18 cards and one of 18 collectible card sets.",
       "IGN's directions name Delights Cabaret, Delights, Chapter 2 and Chapter 3.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Officer XXX."
     ],
     "tags": [
       "cards",
@@ -5085,7 +5086,8 @@
     ],
     "facts": {
       "type": "Collectible card (Delights Dancers)",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-jason-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5097,7 +5099,10 @@
       "rs2-bloxodes-cards"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Officer XXX card"
+    ]
   },
   {
     "slug": "card-delights-kandi-standard",
@@ -13697,7 +13702,8 @@
     "body": [
       "IGN lists the Blue Flamer & Right Wing card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in northeastern Ambrosia, naming Xero Food Mart.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Burning Desire."
     ],
     "tags": [
       "cards",
@@ -13707,14 +13713,18 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "northeastern Ambrosia",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-flamer-right-wing-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-cards-rw"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Burning Desire (Blue) card"
+    ]
   },
   {
     "slug": "card-rw-flamer-right-wing-red",
@@ -13723,7 +13733,8 @@
     "body": [
       "IGN lists the Red Flamer & Right Wing card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in northern Capri.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Burning Desire."
     ],
     "tags": [
       "cards",
@@ -13733,14 +13744,18 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "northern Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-flamer-right-wing-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-cards-rw"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Burning Desire (Red) card"
+    ]
   },
   {
     "slug": "card-rw-flamer-right-wing-white",
@@ -13749,7 +13764,8 @@
     "body": [
       "IGN lists the White Flamer & Right Wing card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in southern Waning Sands.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Burning Desire."
     ],
     "tags": [
       "cards",
@@ -13759,14 +13775,18 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "southern Waning Sands",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-flamer-right-wing-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-cards-rw"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Burning Desire (White) card"
+    ]
   },
   {
     "slug": "card-rw-great-uncle-sam-blue",
@@ -13856,7 +13876,8 @@
     "body": [
       "IGN lists the Blue Great Uncle Sam & President Blunt card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions name Domestic Timbers, Balsero and Pay N' Spray.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Red White & Boom."
     ],
     "tags": [
       "cards",
@@ -13865,14 +13886,18 @@
     ],
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-great-uncle-sam-president-blunt-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-cards-rw"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Red White & Boom (Blue) card"
+    ]
   },
   {
     "slug": "card-rw-great-uncle-sam-president-blunt-red",
@@ -13881,7 +13906,8 @@
     "body": [
       "IGN lists the Red Great Uncle Sam & President Blunt card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in southern Emerald Springs, naming Emerald Springs Country Store and Emerald Springs Dr.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Red White & Boom."
     ],
     "tags": [
       "cards",
@@ -13891,14 +13917,18 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "southern Emerald Springs",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-great-uncle-sam-president-blunt-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
       "ign-cards-rw"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Red White & Boom (Red) card"
+    ]
   },
   {
     "slug": "card-rw-great-uncle-sam-president-blunt-white",
@@ -13907,7 +13937,8 @@
     "body": [
       "IGN lists the White Great Uncle Sam & President Blunt card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in northern Port Gellhorn.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Red White & Boom."
     ],
     "tags": [
       "cards",
@@ -13917,7 +13948,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "northern Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-great-uncle-sam-president-blunt-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13929,7 +13961,10 @@
       "rs2-bloxodes-cards"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Red White & Boom (White) card"
+    ]
   },
   {
     "slug": "card-rw-immigrintasma-blue",
@@ -14279,7 +14314,8 @@
     "body": [
       "IGN lists the Blue Right Wing vs Left Wing card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in Watson Bay, naming Beachie's.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Right vs. Left."
     ],
     "tags": [
       "cards",
@@ -14302,7 +14338,10 @@
       "rs2-bloxodes-cards"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Right vs. Left (Blue) card"
+    ]
   },
   {
     "slug": "card-rw-right-wing-vs-left-wing-red",
@@ -14311,7 +14350,8 @@
     "body": [
       "IGN lists the Red Right Wing vs Left Wing card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in southern Port Gellhorn.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Right vs. Left."
     ],
     "tags": [
       "cards",
@@ -14334,7 +14374,10 @@
       "rs2-bloxodes-cards"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Right vs. Left (Red) card"
+    ]
   },
   {
     "slug": "card-rw-right-wing-vs-left-wing-white",
@@ -14343,7 +14386,8 @@
     "body": [
       "IGN lists the White Right Wing vs Left Wing card in the Right Wing: America's Hero set, a comic set of 36 cards and one of 18 collectible card sets.",
       "IGN's directions place it in northern Millport.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Right vs. Left."
     ],
     "tags": [
       "cards",
@@ -14361,7 +14405,10 @@
       "ign-cards-rw"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Right vs. Left (White) card"
+    ]
   },
   {
     "slug": "card-rw-right-wings-truck-blue",
@@ -16609,7 +16656,8 @@
       "IGN lists the Dusty Pink Junior Taufua card in the Vice City Manatees set, a football set of 24 cards and one of 18 collectible card sets.",
       "IGN's directions place it in Tequesta, naming Fitness Room and Grand Majestic Aparthotel.",
       "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
-      "PowerPyx and game-checklists.com name this card Tusi Taufua."
+      "PowerPyx and game-checklists.com name this card Tusi Taufua.",
+      "The card itself is titled Tusi Taufua."
     ],
     "tags": [
       "cards",
@@ -16629,7 +16677,8 @@
     "verified": "2026-11-18",
     "spoiler": true,
     "aliases": [
-      "Tusi Taufua"
+      "Tusi Taufua",
+      "Tusi Taufua (Dusty Pink) card"
     ]
   },
   {
@@ -16639,7 +16688,8 @@
     "body": [
       "IGN lists the Green Junior Taufua card in the Vice City Manatees set, a football set of 24 cards and one of 18 collectible card sets.",
       "IGN's directions place it in Grayson, naming SR-45.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Tusi Taufua."
     ],
     "tags": [
       "cards",
@@ -16657,7 +16707,10 @@
       "ign-cards-vcm"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Tusi Taufua (Green) card"
+    ]
   },
   {
     "slug": "card-vcm-junior-taufua-silver",
@@ -16666,7 +16719,8 @@
     "body": [
       "IGN lists the Silver Junior Taufua card in the Vice City Manatees set, a football set of 24 cards and one of 18 collectible card sets.",
       "IGN's directions place it in East Lummox County, naming Overkeel Boatyard Marina.",
-      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+      "IGN says cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price.",
+      "The card itself is titled Tusi Taufua."
     ],
     "tags": [
       "cards",
@@ -16684,7 +16738,10 @@
       "ign-cards-vcm"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Tusi Taufua (Silver) card"
+    ]
   },
   {
     "slug": "card-vcm-maleek-rivers-bronze",

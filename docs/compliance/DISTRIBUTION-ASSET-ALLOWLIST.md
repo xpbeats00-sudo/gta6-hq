@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-27 13:31 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-27 13:40 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -34,7 +34,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/map-icons/wyman-car.svg`
 - `images/map-icons/yellow-loot-box.svg`
 
-## Local personal use only (2471)
+## Local personal use only (2478)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -381,6 +381,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-delights-cyrus-standard.webp`
 - `images/collectibles/cards/card-delights-daisy-standard.webp`
 - `images/collectibles/cards/card-delights-harley-standard.webp`
+- `images/collectibles/cards/card-delights-jason-standard.webp`
 - `images/collectibles/cards/card-delights-kandi-standard.webp`
 - `images/collectibles/cards/card-delights-lance-standard.webp`
 - `images/collectibles/cards/card-delights-lucky-standard.webp`
@@ -665,8 +666,14 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-ratface-wokester-maroon.webp`
 - `images/collectibles/cards/card-ratface-wokester-purple.webp`
 - `images/collectibles/cards/card-rw-flamer-blue.webp`
+- `images/collectibles/cards/card-rw-flamer-right-wing-blue.webp`
+- `images/collectibles/cards/card-rw-flamer-right-wing-red.webp`
+- `images/collectibles/cards/card-rw-flamer-right-wing-white.webp`
 - `images/collectibles/cards/card-rw-flamer-white.webp`
 - `images/collectibles/cards/card-rw-great-uncle-sam-blue.webp`
+- `images/collectibles/cards/card-rw-great-uncle-sam-president-blunt-blue.webp`
+- `images/collectibles/cards/card-rw-great-uncle-sam-president-blunt-red.webp`
+- `images/collectibles/cards/card-rw-great-uncle-sam-president-blunt-white.webp`
 - `images/collectibles/cards/card-rw-great-uncle-sam-red.webp`
 - `images/collectibles/cards/card-rw-great-uncle-sam-white.webp`
 - `images/collectibles/cards/card-rw-immigrintasma-blue.webp`

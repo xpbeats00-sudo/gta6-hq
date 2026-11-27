@@ -4,7 +4,7 @@ Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-h
 
 ## Unreleased
 
-- **Card fronts:** 449 more collectible cards show their real front (461 of 473), every colour variant included, from MetaForge's GTA 6 database; each picture carries a faint MetaForge watermark and is credited to them.
+- **Card fronts:** 456 more collectible cards show their real front (468 of 473), every colour variant included, from MetaForge's GTA 6 database; each picture carries a faint MetaForge watermark and is credited to them. Cards named for who is on them now also carry the title printed on the card (Burning Desire, Red White & Boom, Officer XXX, Tusi Taufua, Right vs. Left).
 - **Card Collections:** a card with a front shows it in the set's grid whether or not you have found it, with a tick once found; the big card is no longer greyed out.
 
 ## 0.2.49 (27 November 2026)
