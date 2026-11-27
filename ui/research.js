@@ -333,7 +333,12 @@
     const groups = CHEAT_GROUPS.map(([slug, label]) => ({ slug, label, entry: find(slug) })).filter((x) => x.entry).map((x) => ({ ...x, rows: parseCheats(x.entry) }));
     const controls = ['controls', 'assist-toggles-and-control-options'].map(find).filter(Boolean);
     const tabs = [...groups.map((x) => x.label), 'Controls'];
-    view.innerHTML = shell({ crumbs: ['Progress', 'Cheats'], tabs, body: '<div class="gm-pane"></div>' });
+    // The rules the guides agree on, before any code: cheats come after the story, and cost trophies and saving.
+    const rules = `<div class="gm-rules" role="note"><b>Before you use a cheat</b>
+      <span>Cheats work only after the story is finished and each one's unlock condition is met.</span>
+      <span>The same codes work on PlayStation 5 and Xbox Series X|S: hold L1 + R1 (PlayStation) or LB + RB (Xbox) on the phone.</span>
+      <span>While a cheat is on, trophies and achievements are switched off and the game will not save until you reload.</span></div>`;
+    view.innerHTML = shell({ crumbs: ['Progress', 'Cheats'], tabs, body: `${rules}<div class="gm-pane"></div>` });
     const pane = view.querySelector('.gm-pane');
     const done = () => UserStore.get('cheats-done', {});
     const show = (t) => {
@@ -380,7 +385,7 @@
         const key = `${grp.slug}:${r.name}`;
         return `<h2 class="gm-title">${esc(r.name)}</h2>
           ${r.effect ? `<p>${esc(r.effect)}</p>` : ''}
-          ${r.code ? `<p>To activate, press ${dpad('Up')} to use your phone, then hold <kbd class="gm-key">L1</kbd> and <kbd class="gm-key">R1</kbd> and press:</p>
+          ${r.code ? `<p>To activate, press ${dpad('Up')} to use your phone, then hold <kbd class="gm-key">L1</kbd> + <kbd class="gm-key">R1</kbd> on PlayStation, or <kbd class="gm-key">LB</kbd> + <kbd class="gm-key">RB</kbd> on Xbox, and press:</p>
             <p class="gm-code" aria-label="${esc(r.code.join(', '))}">${r.code.map(dpad).join('')}</p>
             <p class="gm-note">${r.code.join(', ')}</p>`
           : '<p class="gm-locked">No code has been published for this cheat yet.</p>'}
@@ -572,6 +577,7 @@
     ['Emergency', /emergency|police|ambulance|fire/i], ['Military', /military/i], ['Commercial', /commercial|truck/i], ['Industrial', /industrial/i],
     ['Utility', /utility/i], ['Service', /service|taxi|bus/i]];
   const vClass = (e) => { const c = String(e.facts?.class || '').split(',')[0].trim(); return (CLASSES.find(([, re]) => re.test(c)) || [c])[0]; };
+  window.vClass = vClass; // Compare Vehicles (more.js) groups by the same 20 classes
   const priceOf = (e) => { const m = /\$([\d,]+)/.exec(e.facts?.price || ''); return m ? Number(m[1].replace(/,/g, '')) : -1; };
   const VEHICLE_STATS = [['speed', 'Speed'], ['acceleration', 'Acceleration'], ['asphalt_handling', 'Asphalt handling'], ['offroad_handling', 'Off-road handling'], ['strength', 'Strength']];
   EXTRA_PAGES.garage = function renderGarage() {

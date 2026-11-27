@@ -273,6 +273,11 @@
     [/style|tattoo/i, 'Styles and tattoos'], [/meditation/i, 'Meditation spots'], [/playlist/i, 'Unique playlists'], [/flamingo/i, 'Cocaine flamingos'],
   ];
   const familyOf = (type) => (FAMILIES.find(([re]) => re.test(type)) || [null, 'Other finds'])[1];
+  /** The game's map blip for a family (from its first item's type), shown beside the family's name. */
+  const familyBlip = (it) => {
+    const kind = it && familyKind(it.entry);
+    return kind ? `<img class="tracker-family-blip" src="${blipOf({ kind, category: '' })}" alt="">` : '';
+  };
 
   function trackerItems() {
     return (state.wiki.collectibles || [])
@@ -351,12 +356,14 @@
         const guideTotal = types.length === 1 && common && common !== mine.length ? `<span class="muted"> · guides count ${common}; the encyclopedia lists ${mine.length}</span>` : '';
         const open = Boolean(fam || q || show !== 'all' || place || county || opened.has(f));
         return `<details class="tracker-family-box" data-box="${esc(f)}"${open ? ' open' : ''}>
-          <summary><h2>${esc(f)} <span class="muted">${got} / ${mine.length}</span>${guideTotal}</h2>${bar(got, mine.length)}</summary>
+          <summary><h2>${familyBlip(mine[0])}${esc(f)} <span class="muted">${got} / ${mine.length}</span>${guideTotal}</h2>${bar(got, mine.length)}</summary>
           <ul class="tracker-list">${list.map((it) => {
             const hidden = isHidden('collectibles', it.entry);
             const on = Boolean(t[it.entry.slug]);
             return `<li class="${on ? 'is-done' : ''}"><label><input type="checkbox" data-tick="${esc(it.entry.slug)}" ${on ? 'checked' : ''}>
-              ${!hidden && it.entry.image ? `<img class="tracker-thumb" src="${esc(it.entry.image)}" alt="" loading="lazy">` : '<span class="tracker-thumb" aria-hidden="true"></span>'}
+              ${hidden ? '<span class="tracker-thumb" aria-hidden="true"></span>'
+    : it.entry.image ? `<img class="tracker-thumb" src="${esc(it.entry.image)}" alt="" loading="lazy">`
+      : `<span class="tracker-thumb tracker-thumb-art" aria-hidden="true">${autoArt('collectibles', it.entry)}</span>`}
               <span>${hidden ? '<em>Spoiler hidden</em>' : esc(it.entry.name)}</span></label>
               <span class="tracker-meta">${esc(types.length > 1 ? it.type : '')}${it.entry.facts.region && !hidden ? ` · ${esc(it.entry.facts.region)}` : ''}</span>
               <span class="conf conf-${esc(it.entry.confidence || 'unknown')}" title="${esc((CONFIDENCE[it.entry.confidence] || CONFIDENCE.unknown)[1])}">${esc((CONFIDENCE[it.entry.confidence] || CONFIDENCE.unknown)[0])}</span>

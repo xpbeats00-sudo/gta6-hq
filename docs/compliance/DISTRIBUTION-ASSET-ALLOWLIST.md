@@ -1,14 +1,40 @@
 # Distribution asset allowlist
 
-Generated 2026-11-27 05:35 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-27 06:12 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
 ## Approved for distribution
 
-None. No media file is cleared for public distribution.
+- `images/map-icons/ahol-street-art.svg`
+- `images/map-icons/armor.svg`
+- `images/map-icons/car-meet.svg`
+- `images/map-icons/city-town.svg`
+- `images/map-icons/darts.svg`
+- `images/map-icons/easter-egg.svg`
+- `images/map-icons/euphoria.svg`
+- `images/map-icons/fire-station.svg`
+- `images/map-icons/gang-compound.svg`
+- `images/map-icons/hospital.svg`
+- `images/map-icons/kill-intel.svg`
+- `images/map-icons/kitty-litter-lab.svg`
+- `images/map-icons/landmark.svg`
+- `images/map-icons/luxury-watch.svg`
+- `images/map-icons/main-mission.svg`
+- `images/map-icons/meditation.svg`
+- `images/map-icons/message-bottle.svg`
+- `images/map-icons/meteorite.svg`
+- `images/map-icons/optional-task.svg`
+- `images/map-icons/parachute.svg`
+- `images/map-icons/phone-store.svg`
+- `images/map-icons/police-station.svg`
+- `images/map-icons/random-event.svg`
+- `images/map-icons/scoop-container.svg`
+- `images/map-icons/unique-weapon.svg`
+- `images/map-icons/wyman-car.svg`
+- `images/map-icons/yellow-loot-box.svg`
 
-## Local personal use only (1926)
+## Local personal use only (2022)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -575,7 +601,13 @@ None. No media file is cleared for public distribution.
 - `images/map-icons/bus-stop.webp`
 - `images/map-icons/cafe.webp`
 - `images/map-icons/car-wash.webp`
+- `images/map-icons/clothing-formal.webp`
+- `images/map-icons/clothing-pickups.webp`
+- `images/map-icons/clothing-souvenir.webp`
+- `images/map-icons/clothing-sports.webp`
+- `images/map-icons/clothing-thrift.webp`
 - `images/map-icons/clothing.webp`
+- `images/map-icons/cocaine-flamingo.webp`
 - `images/map-icons/collectible-card.webp`
 - `images/map-icons/convenience-store.webp`
 - `images/map-icons/drone-race.webp`
@@ -591,10 +623,15 @@ None. No media file is cleared for public distribution.
 - `images/map-icons/golf.webp`
 - `images/map-icons/gym.webp`
 - `images/map-icons/haircut.webp`
+- `images/map-icons/hangar.webp`
+- `images/map-icons/helipad.webp`
+- `images/map-icons/hidden-package.webp`
 - `images/map-icons/hunting.webp`
+- `images/map-icons/jewelry-store.webp`
 - `images/map-icons/knife-flight.webp`
 - `images/map-icons/liquor-store.webp`
 - `images/map-icons/magazine.webp`
+- `images/map-icons/marina.webp`
 - `images/map-icons/mod-shop.webp`
 - `images/map-icons/mural.webp`
 - `images/map-icons/nightclub.webp`
@@ -605,9 +642,11 @@ None. No media file is cleared for public distribution.
 - `images/map-icons/race.webp`
 - `images/map-icons/safe.webp`
 - `images/map-icons/safehouse.webp`
+- `images/map-icons/shipwreck.webp`
 - `images/map-icons/shooting-range.webp`
 - `images/map-icons/smash-n-grab.webp`
 - `images/map-icons/standout-vehicle.webp`
+- `images/map-icons/strangers.webp`
 - `images/map-icons/street-food.webp`
 - `images/map-icons/stunt-jump.webp`
 - `images/map-icons/tattoo.webp`
@@ -615,6 +654,8 @@ None. No media file is cleared for public distribution.
 - `images/map-icons/train-station.webp`
 - `images/map-icons/treasure.webp`
 - `images/map-icons/under-the-bridge.webp`
+- `images/map-icons/underwater.webp`
+- `images/map-icons/vehicle-dealer.webp`
 - `images/map-icons/vehicle-rental.webp`
 - `images/map-icons/vehicle-request.webp`
 - `images/map-icons/vehicle-spawn.webp`
@@ -830,6 +871,87 @@ None. No media file is cleared for public distribution.
 - `images/splash/p7.webp`
 - `images/splash/p8.webp`
 - `images/splash/p9.webp`
+- `images/ui/hud/adrenaline.png`
+- `images/ui/hud/ammunation.png`
+- `images/ui/hud/app-buckme.png`
+- `images/ui/hud/app-contacts.png`
+- `images/ui/hud/app-fitness.png`
+- `images/ui/hud/app-reminders.png`
+- `images/ui/hud/app-waink.png`
+- `images/ui/hud/arrow-hidden.png`
+- `images/ui/hud/arrow-known.png`
+- `images/ui/hud/atm.png`
+- `images/ui/hud/attach-grip.png`
+- `images/ui/hud/attach-magazine.png`
+- `images/ui/hud/attach-optic.png`
+- `images/ui/hud/barber.png`
+- `images/ui/hud/cctv.png`
+- `images/ui/hud/clothing-store.png`
+- `images/ui/hud/destination.png`
+- `images/ui/hud/electronics-store.png`
+- `images/ui/hud/engine-critical.png`
+- `images/ui/hud/engine-destroyed.png`
+- `images/ui/hud/engine-good.png`
+- `images/ui/hud/engine-moderate.png`
+- `images/ui/hud/ev-charging.png`
+- `images/ui/hud/fishing.png`
+- `images/ui/hud/focus-buff.png`
+- `images/ui/hud/focus.png`
+- `images/ui/hud/fuel-gas-empty.png`
+- `images/ui/hud/fuel-gas-high.png`
+- `images/ui/hud/fuel-gas-low.png`
+- `images/ui/hud/gas-station.png`
+- `images/ui/hud/golf.png`
+- `images/ui/hud/grocery.png`
+- `images/ui/hud/gym.png`
+- `images/ui/hud/health-buff.png`
+- `images/ui/hud/health.png`
+- `images/ui/hud/modshop-bike.png`
+- `images/ui/hud/modshop-car.png`
+- `images/ui/hud/modshop-specialty.png`
+- `images/ui/hud/new.png`
+- `images/ui/hud/paynspray.png`
+- `images/ui/hud/personal-vehicle.png`
+- `images/ui/hud/pocket-cash.png`
+- `images/ui/hud/pool.png`
+- `images/ui/hud/profile-breaking-point.png`
+- `images/ui/hud/profile-hardened.png`
+- `images/ui/hud/profile-irredeemable.png`
+- `images/ui/hud/profile-professional.png`
+- `images/ui/hud/profile-psycho.png`
+- `images/ui/hud/profile-violent.png`
+- `images/ui/hud/recog-cloud-cctv.png`
+- `images/ui/hud/rel-crazy-in-love.png`
+- `images/ui/hud/rel-hot-together.png`
+- `images/ui/hud/rel-not-so-hot.png`
+- `images/ui/hud/rel-running-on-empty.png`
+- `images/ui/hud/relationship-down.png`
+- `images/ui/hud/relationship-up.png`
+- `images/ui/hud/rydeme.png`
+- `images/ui/hud/safehouse.png`
+- `images/ui/hud/shooting-range.png`
+- `images/ui/hud/stamina-buff.png`
+- `images/ui/hud/stamina.png`
+- `images/ui/hud/standout-vehicle.png`
+- `images/ui/hud/tracker-advanced.png`
+- `images/ui/hud/tracker-standard.png`
+- `images/ui/hud/unowned-vehicle.png`
+- `images/ui/hud/vehicle-alarm.png`
+- `images/ui/hud/vehicle-destroyed.png`
+- `images/ui/hud/vehicle-impounded.png`
+- `images/ui/hud/vehicle-keyless.png`
+- `images/ui/hud/vehicle-locked.png`
+- `images/ui/hud/vehicle-stash.png`
+- `images/ui/hud/wanted-heat-suspect-unknown.png`
+- `images/ui/hud/wanted-stars-flashing.png`
+- `images/ui/hud/wanted-stars-hollow.png`
+- `images/ui/hud/wanted-stars-red.png`
+- `images/ui/hud/wanted-stars-white.png`
+- `images/ui/hud/wardrobe.png`
+- `images/ui/hud/weapon-locker.png`
+- `images/ui/hud/weapon-owned.png`
+- `images/ui/hud/weapon-unique.png`
+- `images/ui/hud/weapon-unowned.png`
 - `images/ui/menu-collections.jpg`
 - `images/vehicles/64-mamba-gt.jpg`
 - `images/vehicles/67-transgressor.jpg`

@@ -127,9 +127,13 @@ def main():
     haystack = ''.join(text(p) for p in ['data/wiki.json', 'data/manual.json'] + ui_files
                        + [os.path.relpath(p, ROOT) for p in glob.glob(os.path.join(ROOT, 'data', 'wiki', '*.json'))]
                        + [os.path.relpath(p, ROOT) for p in glob.glob(os.path.join(ROOT, 'src', '*.rs'))])
-    # Map blips are named in app.js's KIND_ICON table and built as /images/map-icons/<name>.webp.
+    # Map blips are named in app.js's KIND_ICON and GROUP_BLIP tables (as <name> for .webp, or <name>.svg) and
+    # in more.js's Icons Explained (M('<file>')); its HUD icons are named H('<name>') for images/ui/hud/<name>.png.
     app_js = text('ui/app.js')
-    icon_names = set(re.findall(r"'([a-z0-9-]+)'", app_js[app_js.find('KIND_ICON'):app_js.find('blipOf')]))
+    more_js = text('ui/more.js') if os.path.exists(os.path.join(ROOT, 'ui', 'more.js')) else ''
+    tables = app_js[app_js.find('const KIND_ICON'):app_js.find('const blipFile')]
+    icon_names = set(re.findall(r"'([a-z0-9-]+)(?:\.svg|\.webp)?'", tables)) | set(re.findall(r"M\('([a-z0-9-]+)\.(?:webp|svg)'\)", more_js))
+    hud_names = set(re.findall(r"H\('([a-z0-9-]+)'\)", more_js))
     derived = {a.get('derived_from') for a in media['assets']} | {(a.get('source') or '').split('wallpapers/')[-1] for a in media['assets']}
 
     def used(rel):
@@ -143,6 +147,8 @@ def main():
         stem = os.path.splitext(parts[-1])[0]
         if rel.startswith('images/map-icons/') and stem in icon_names:
             return 'map blip'
+        if rel.startswith('images/ui/hud/') and stem in hud_names:
+            return 'icon in Icons Explained'
         if rel.startswith('wallpapers/posters/') and any(f.startswith('wallpapers/') and not f.startswith('wallpapers/posters/')
                                                          and os.path.splitext(os.path.basename(f))[0] == stem for f in disk):
             return 'poster of a live wallpaper'

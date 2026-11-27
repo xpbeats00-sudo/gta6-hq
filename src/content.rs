@@ -27,7 +27,9 @@ use crate::search;
 
 /// Sections that always exist, whether or not `categories` lists them.
 pub const FIXED_SECTIONS: [&str; 3] = ["news", "editions", "faq"];
-pub const IMAGE_EXTENSIONS: [&str; 5] = ["jpg", "jpeg", "png", "webp", "gif"];
+/// Picture types, in order of preference when an entry has more than one by the folder convention.
+/// `svg` is last: the drawn map pins (images/map-icons/*.svg) are the only SVG pictures.
+pub const IMAGE_EXTENSIONS: [&str; 6] = ["jpg", "jpeg", "png", "webp", "gif", "svg"];
 pub const CONFIDENCE_LEVELS: [&str; 5] = ["official", "corroborated", "community", "rumor", "unknown"];
 /// Value types a category may declare for its fact fields.
 pub const FIELD_TYPES: [&str; 5] = ["text", "number", "boolean", "list", "entry"];

@@ -357,3 +357,7 @@ body.is-paused { overflow: hidden; }
   .cs-leaders { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .pause { animation: none; } }
+
+/* Cheats: the rules strip above the list */
+.gm-rules { display: grid; gap: 4px; margin: 0 0 14px; padding: 10px 14px; border-left: 3px solid #ffe14d; background: rgba(0, 0, 0, 0.28); color: #f4eefe; font-size: 0.875rem; }
+.gm-rules b { font: 700 0.75rem/1.2 var(--font-display, inherit); letter-spacing: 0.08em; text-transform: uppercase; color: #ffe14d; }

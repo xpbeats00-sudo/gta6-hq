@@ -370,12 +370,207 @@ function videoTile(item, extra = '') {
     : `<video src="${esc(item.src)}#t=4" muted ${extra} playsinline preload="metadata" aria-hidden="true"></video>`;
 }
 
-/** A photo if the entry has one, otherwise the "no artwork on file" panel. */
-function picture(entry, kind) {
+/** A photo if the entry has one, otherwise a picture the app can make for it (autoArt), otherwise the
+    "no artwork on file" panel. `section` lets the made picture find the entry's map spot and family. */
+function picture(entry, kind, section = '') {
   if (entry.image) {
     return `<img src="${esc(entry.image)}" alt="" loading="lazy" data-fallback="${esc(entry.slug || entry.name)}|${esc(kind)}">`;
   }
-  return postcard(entry.slug || entry.name, kind);
+  return autoArt(section, entry) || postcard(entry.slug || entry.name, kind);
+}
+
+// ---------- pictures for entries without a photo ----------
+// Made from what the app already holds, so nothing is invented: a collectible card shows its set's
+// cover; anything with a known spot shows that spot on Rockstar's official map with its game blip; a
+// collectible with no spot shows its family's blip; a radio station shows a radio dial with its name.
+// Names are compared without accents, 'the', a trailing ' - Place', brackets, or the family words a
+// pin and an entry put in different places ('Under the Bridge: X' / 'X (Under the Bridge)').
+const NORM_CACHE = new Map();
+const normName = (s) => {
+  if (NORM_CACHE.has(s)) return NORM_CACHE.get(s);
+  const v = normNameRaw(s);
+  NORM_CACHE.set(s, v);
+  return v;
+};
+const normNameRaw = (s) => String(s || '').normalize('NFKD').replace(/[̀-ͯ]/g, '').toLowerCase()
+  .replace(/\s+-\s+[^-]+$/, '').replace(/\(.*?\)/g, ' ').replace(/under the bridge|street art/g, ' ')
+  .replace(/\b(the|card|set|b a m)\b/g, ' ').replace(/[^a-z0-9]+/g, ' ').trim();
+// A collectible's "type" fact -> the map kind whose blip stands for its family.
+const FAMILY_KIND = [
+  [/under the bridge/i, 'Under the Bridge'], [/stunt jump/i, 'Stunt Jumps'], [/base jump/i, 'BASE Jumps'], [/knife flight/i, 'Knife Flights'],
+  [/kenton/i, "Kenton's Treasure"], [/waink curiosit/i, 'WAiNK Curiosities'], [/waink landmark/i, 'WAiNK Landmarks'], [/waink sculpture/i, 'Sculptures'],
+  [/no flusher/i, 'WAiNK No Flusher Tags'], [/pee-?wee/i, 'WAiNK Pee-Wee Billboards'], [/waink/i, 'WAiNK Curiosities'], [/ahol/i, 'AHOL Street Art'],
+  [/magazine|book|comic/i, 'Magazines and Books'], [/meditation/i, 'Meditation Spots'], [/flamingo/i, 'Cocaine Flamingos'], [/playlist/i, 'Unique Playlists'],
+  [/mural/i, '1010 Murals'], [/watch/i, 'Luxury Watches'], [/meteorite/i, 'Meteorites'], [/hidden package/i, 'Hidden Packages'], [/scoop/i, 'SCOOP Containers'],
+  [/bottle/i, 'Messages in a Bottle'], [/shipwreck/i, 'Shipwrecks'], [/underwater/i, 'Underwater Discoveries'], [/treasure/i, 'Treasures'],
+  [/loot box/i, 'Yellow Loot Boxes'], [/safe\b/i, 'Safes'], [/collectible card/i, 'Vice City Flamingos cards'],
+];
+let artIndex = null;
+let artIndexFor = null;
+function artLookup() {
+  if (artIndexFor === state.wiki && artIndex) return artIndex;
+  const byRef = new Map();
+  const byName = new Map();
+  for (const m of state.wiki.map?.markers || []) {
+    if (!validPosition(m)) continue;
+    const ref = m.location ? `locations/${m.location}` : m.entry;
+    if (ref && !byRef.has(ref)) byRef.set(ref, m);
+    const key = normName(m.name);
+    byName.set(key, byName.has(key) ? null : m); // a name on two pins is not a safe match
+  }
+  const sets = (state.wiki.collectibles || []).filter((e) => e.slug.startsWith('card-set-') && e.image)
+    .map((e) => ({ words: normName(e.name).split(' '), image: e.image }));
+  artIndex = { byRef, byName, sets };
+  artIndexFor = state.wiki;
+  return artIndex;
+}
+
+/** Where an entry sits on the map, if known: its own x/y, a pin pointing at it, or the one pin with its name. */
+function spotOf(section, entry) {
+  if (validPosition(entry)) return { x: entry.x, y: entry.y, kind: '' };
+  const { byRef, byName } = artLookup();
+  return byRef.get(`${section}/${entry.slug}`) || byName.get(normName(entry.name)) || null;
+}
+
+function familyKind(entry) {
+  const type = String(entry.facts?.type || '');
+  return (FAMILY_KIND.find(([re]) => re.test(type)) || [])[1] || '';
+}
+
+/** The cover of the card set a collectible card belongs to ("Collectible card (Liberty Swingers)"). */
+function cardSetCover(entry) {
+  const m = String(entry.facts?.type || '').match(/collectible card \((.+)\)/i);
+  if (!m) return '';
+  const want = normName(m[1]).split(' ');
+  let best = null;
+  let score = 0;
+  for (const s of artLookup().sets) {
+    const shared = want.filter((w) => s.words.includes(w)).length / Math.max(want.length, s.words.length);
+    if (shared > score) { score = shared; best = s; }
+  }
+  return score >= 0.5 ? best.image : '';
+}
+
+/** A made picture for an entry without a photo, or '' when there is nothing honest to show. Kept per
+    entry until the data or the spoiler setting changes. */
+let autoArtCache = new WeakMap();
+function autoArt(section, entry) {
+  if (!entry || entry.image) return '';
+  const key = `${section}|${showSpoilers}`;
+  if (artIndexFor !== state.wiki) { autoArtCache = new WeakMap(); artLookup(); }
+  const hit = autoArtCache.get(entry);
+  if (hit && hit.key === key) return hit.html;
+  const html = makeAutoArt(section, entry);
+  autoArtCache.set(entry, { key, html });
+  return html;
+}
+
+function makeAutoArt(section, entry) {
+  if (section === 'music') {
+    const band = /talk/i.test(entry.facts?.type || entry.summary || '') ? 'Talk' : 'FM';
+    const hue = [...String(entry.name)].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) % 360, 7);
+    return `<div class="auto-art auto-radio" role="img" aria-label="${esc(entry.name)} radio station" style="--h:${hue}"><span class="auto-radio-band">${band}</span><b>${esc(entry.name)}</b><span class="auto-radio-dial" aria-hidden="true"></span></div>`;
+  }
+  if (STORE) return '';
+  if (section === 'collectibles') {
+    const cover = cardSetCover(entry);
+    if (cover) return `<div class="auto-art auto-card"><img src="${esc(cover)}" alt="" loading="lazy"><span class="auto-tag">Set cover</span></div>`;
+  }
+  const spot = spotOf(section, entry);
+  const kind = spot?.kind || (section === 'collectibles' ? familyKind(entry) : '');
+  const blip = kind ? blipOf({ kind, category: '' }) : '';
+  if (spot && state.wiki.map?.image) {
+    const x = (spot.x * 100).toFixed(2);
+    const y = (spot.y * 100).toFixed(2);
+    return `<div class="auto-art auto-map" role="img" aria-label="Where it is on the map" style="--x:${x}%;--y:${y}%;background-image:url('${esc(state.wiki.map.image)}')">
+      ${blip ? `<img class="auto-map-blip" src="${blip}" alt="">` : '<i class="auto-map-dot"></i>'}<span class="auto-tag">On the map</span></div>`;
+  }
+  if (blip) return `<div class="auto-art auto-blip"><img src="${blip}" alt=""><span class="auto-tag">${esc(kind)}</span></div>`;
+  // A variant (a unique weapon, a police or taxi version) shows its base model's picture.
+  if (section === 'weapons' || section === 'vehicles') {
+    const base = baseModelOf(section, entry);
+    if (base) return `<div class="auto-art auto-card auto-base"><img src="${esc(base.image)}" alt="" loading="lazy"><span class="auto-tag">Base: ${esc(base.name)}</span></div>`;
+  }
+  // An activity shows the blip of its kind ("Top Fun Drones: Hamlet" -> the drone race blip).
+  const actKind = section === 'activities' ? activityKind(entry) : section === 'businesses' ? businessKind(entry) : '';
+  if (actKind) return `<div class="auto-art auto-blip"><img src="${blipOf({ kind: actKind, category: '' })}" alt=""><span class="auto-tag">${esc(actKind)}</span></div>`;
+  // Last: the area it is in, marked on the map (the region's own pin, so the spot is approximate).
+  const area = areaSpot(entry);
+  if (area && state.wiki.map?.image) {
+    return `<div class="auto-art auto-map auto-area" role="img" aria-label="${esc(area.name)} on the map" style="--x:${(area.x * 100).toFixed(2)}%;--y:${(area.y * 100).toFixed(2)}%;background-image:url('${esc(state.wiki.map.image)}')">
+      <i class="auto-map-ring"></i><span class="auto-tag">In ${esc(area.name)}</span></div>`;
+  }
+  return '';
+}
+
+/** The entry in the same section whose name this one's ends with or contains (longest such name wins). */
+function baseModelOf(section, entry) {
+  const mine = ` ${normName(entry.name)} `;
+  let best = null;
+  for (const e of state.wiki[section] || []) {
+    if (!e.image || e === entry || isHidden(section, e)) continue;
+    const n = normName(e.name);
+    if (n.length < 4 || n === mine.trim()) continue;
+    if (mine.includes(` ${n} `) && (!best || n.length > normName(best.name).length)) best = e;
+  }
+  if (!best && section === 'vehicles') {
+    // A service version ("Interstate Stockade Police '99", "Bravado Sojourn Taxi") is its stock model with a job word added.
+    const stock = normName(entry.name).replace(/\b(police|taxi|news|cruiser|ambulance|fire|sheriff|vcia|lspd|park ranger|security|prison|swat|unmarked|g2)\b/g, ' ').replace(/\s+/g, ' ').trim();
+    if (stock && stock !== normName(entry.name)) {
+      const words = stock.split(' ');
+      best = (state.wiki.vehicles || []).find((e) => e.image && e !== entry && normName(e.name) === stock)
+        || (state.wiki.vehicles || []).find((e) => e.image && e !== entry && words.length > 1 && words.slice(-2).every((w) => normName(e.name).split(' ').includes(w)))
+        || null;
+    }
+  }
+  if (best || section !== 'weapons') return best;
+  // A named weapon variant shares its model code with the stock gun ("Raul's 1992" -> the 1992 pistol).
+  const codes = String(entry.name).match(/\b[A-Z]*-?\d[\w.-]*/gi) || [];
+  for (const code of codes.reverse()) {
+    const re = new RegExp(`(^|[\\s'])${code.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}($|\\s)`, 'i');
+    const donors = (state.wiki.weapons || []).filter((e) => e.image && e !== entry && !isHidden('weapons', e) && re.test(e.name));
+    if (donors.length) return donors.sort((a, b) => a.name.length - b.name.length)[0];
+  }
+  return null;
+}
+
+const ACTIVITY_KIND = [
+  [/drone/i, 'Drones'], [/mini.?golf/i, 'Mini Golf'], [/golf/i, 'Golf'], [/basketball|hoop/i, 'Basketball Hoops'], [/pool|billiard/i, 'Pool Tables'],
+  [/arcade/i, 'Arcade Machines'], [/fishing|fish\b/i, 'Fishing Spots'], [/hunt/i, 'Hunting Spots'], [/race|racing/i, 'Races'], [/shooting|range/i, 'Shooting Range Challenges'],
+  [/gym|fitness|workout/i, 'Fitness'], [/darts?\b/i, 'Darts'], [/car meet/i, 'Car Meets'], [/bowling/i, 'Fitness'], [/tattoo/i, 'Tattoo Parlors'],
+  [/strip|club|dance/i, 'Nightclubs'], [/meditat/i, 'Meditation Spots'], [/stunt/i, 'Stunt Jumps'], [/base jump/i, 'BASE Jumps'],
+];
+const BUSINESS_KIND = [
+  [/^garage/i, 'Garages'], [/mod shop/i, 'Mod Shops'], [/gun store/i, 'Standard Gun Shops'], [/tattoo/i, 'Tattoo Parlors'], [/salon|barber/i, 'Barbers and Salons'],
+  [/^bank/i, 'Bank Jobs'], [/payday/i, 'Payday Loan Stores'], [/pawn/i, 'Pawn Shops'], [/jewel/i, 'Jewelry Stores'], [/electronics/i, 'Electronics'],
+  [/liquor/i, 'Liquor Stores'], [/fast food/i, 'Fast Food'], [/clothing/i, 'Streetwear'], [/footwear/i, 'Shoe Shops'], [/car wash/i, 'Car Washes'],
+  [/gas station/i, 'Gas Stations'], [/convenience/i, 'Convenience Stores'], [/respray|repair/i, 'Paint Shops'], [/\bbar\b/i, 'Bars'],
+  [/rac(e|ing)/i, 'Races'], [/shooting range/i, 'Shooting Range Challenges'], [/mini golf/i, 'Mini Golf'], [/golf/i, 'Golf'], [/stunt/i, 'Stunt Jumps'],
+  [/gang operation|drug lab/i, 'Gang Operations'], [/book swap/i, 'Book Swaps'], [/dealership/i, 'Vehicle Dealers'],
+];
+function businessKind(entry) {
+  const type = String(entry.facts?.type || '');
+  return (BUSINESS_KIND.find(([re]) => re.test(type)) || [])[1] || '';
+}
+
+function activityKind(entry) {
+  const text = `${entry.facts?.type || ''} ${entry.name}`;
+  return (ACTIVITY_KIND.find(([re]) => re.test(text)) || [])[1] || '';
+}
+
+/** The region pin of the place an entry names in its region fact ("Little Cuba, Vice City" -> Little Cuba). */
+function areaSpot(entry) {
+  const region = String(entry.facts?.region || entry.region || '');
+  if (!region) return null;
+  const { byName } = artLookup();
+  for (const part of region.split(/[,;/]| and /)) {
+    const m = byName.get(normName(part));
+    if (m) return { x: m.x, y: m.y, name: part.trim() };
+    const place = (state.wiki.locations || []).find((l) => normName(l.name) === normName(part));
+    const s = place && spotOf('locations', place);
+    if (s) return { x: s.x, y: s.y, name: place.name };
+  }
+  return null;
 }
 
 /** The R and star of the top evidence tag, drawn as a single mark. The star's outline is the tag's own colour. */
@@ -394,7 +589,7 @@ function formatDate(iso) {
 }
 
 /** Entries that lead with a picture: anything with artwork, and all people and places. */
-const illustrated = (section, entry) => section !== 'achievements' && Boolean(entry.image);
+const illustrated = (section, entry) => section !== 'achievements' && Boolean(entry.image || autoArt(section, entry));
 
 /** FeatureTile: image-led card, or a text-only note when there is no artwork to lead with. */
 function card(section, entry, kicker) {
@@ -423,7 +618,7 @@ function cardTile(section, entry, kicker) {
     </a>`;
   }
   return `<a class="card" href="${entryLink(section, entry.slug)}">
-    <div class="card-media">${picture(entry, artKind(section, entry))}
+    <div class="card-media">${picture(entry, artKind(section, entry), section)}
       <div class="card-over">${kicker ? `<span class="kicker">${esc(kicker)}</span>` : ''}<h3>${esc(entry.name)}</h3></div>
     </div>
     <div class="card-body"><p>${esc(entry.summary)}</p>${badge(entry.confidence)}</div>
@@ -1455,7 +1650,7 @@ function renderHome() {
       </header>
       <div class="feature">
         <a class="feature-media" href="#/locations/${lead.slug}">
-          ${picture(lead, artKind('locations', lead))}
+          ${picture(lead, artKind('locations', lead), 'locations')}
           <span><span class="kicker">${esc(lead.region)}</span><h3>${esc(lead.name)}</h3></span>
         </a>
         <div class="roster">
@@ -1857,7 +2052,7 @@ function renderEntry(key, slug) {
   const lead = illustrated(key, entry);
   const page = `
     <article class="profile ${lead ? 'profile-wide' : 'profile-text'}">
-      ${lead ? `<a class="back back-top" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">${icon('back')}${esc(cat.label)}</a><div class="profile-portrait">${picture(entry, artKind(key, entry))}</div>` : ''}
+      ${lead ? `<a class="back back-top" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">${icon('back')}${esc(cat.label)}</a><div class="profile-portrait">${picture(entry, artKind(key, entry), key)}</div>` : ''}
       <div class="profile-body">
         <a class="back${lead ? ' back-side' : ''}" href="${key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`}">${icon('back')}${esc(cat.label)}</a>
         ${key === 'achievements' && entry.image && !STORE ? `<img class="trophy-icon" src="${esc(entry.image)}" alt="" width="96" height="96">` : ''}
@@ -2061,7 +2256,7 @@ function renderLocation(slug) {
   const onMap = mapPins().some((pin) => pin.ref === ref);
   const page = `
     <article class="place">
-      <div class="place-hero${l.image ? '' : ' is-bare'}">${l.image ? `${picture(l, artKind('locations', l))}<div class="hero-shade"></div>` : ''}
+      <div class="place-hero${l.image ? '' : ' is-bare'}">${l.image ? `${picture(l, artKind('locations', l), 'locations')}<div class="hero-shade"></div>` : ''}
         <div class="place-title">
           <a class="back" href="#/locations">${icon('back')}Locations</a>
           <span class="kicker">${esc(l.region)}</span>
@@ -2517,84 +2712,100 @@ const calmMotion = () => prefs.get('reduced-motion') === '1' || prefs.get('map-m
 /** Camera moves at full length (1), shortened for "gentle" animation (0.5), or none (0). */
 const motionScale = () => (calmMotion() ? 0 : window.Appearance?.scale() ?? 1);
 
+// The game's own map icons (Rockstar's, as GTABase cut them out) for the kinds that have one;
+// other pins keep their category's coloured dot. Files are in images/map-icons/.
+const KIND_ICON = {
+  // Fences and drop-offs use the game's green fence icon.
+  'Fences': 'fence',
+  'Vehicle Fences': 'fence',
+  'Drop-Off Points': 'fence',
+  "Bank Jobs": 'bank',
+  "Big Bank Jobs": 'bank',
+  "ATMs": 'towable-atm',
+  "Payday Loan Stores": 'payday-loan',
+  "Smash and Grabs": 'smash-n-grab',
+  "Pawn Shops": 'smash-n-grab',
+  "Gang Operations": 'gang-operation',
+  "Kitty Litter Lab Raids": 'gang-operation',
+  "Dunn's Robbery Tips": 'safe',
+  "Garages": 'garage',
+  "Safehouses": 'safehouse',
+  "Standard Gun Shops": 'ammu-nation',
+  "High-End Gun Shops": 'ammu-nation',
+  "Custom Weapons": 'ammu-nation',
+  "Mod Shops": 'mod-shop',
+  "Paint Shops": 'pay-n-spray',
+  "Barbers and Salons": 'haircut',
+  "Tattoo Parlors": 'tattoo',
+  "Gas Stations": 'gas-station',
+  "Convenience Stores": 'convenience-store',
+  "Liquor Stores": 'liquor-store',
+  "Bars": 'bar',
+  "Street Food": 'street-food',
+  "Cafés and Takeout": 'cafe',
+  "Fast Food": 'fast-food',
+  "Train Stations": 'train-station',
+  "Bus Stops": 'bus-stop',
+  "Electronics": 'electronics',
+  "EV Chargers": 'ev-charger',
+  "Streetwear": 'clothing',
+  "Shoe Shops": 'footwear',
+  "High Heels": 'footwear',
+  "Races": 'race',
+  "Stunt Jumps": 'stunt-jump',
+  "BASE Jumps": 'base-jump',
+  "Fitness": 'gym',
+  "Shooting Range Challenges": 'shooting-range',
+  "Hunting Spots": 'hunting',
+  "Fishing Spots": 'fishing',
+  "Randy's Wish List": 'vehicle-request',
+  "Vehicle Thefts for Moses": 'vehicle-request',
+  "919": 'nightclub',
+  "Car Washes": 'car-wash',
+  "Drones": 'drone-race',
+  "Golf": 'golf',
+  "Vehicle Rentals": 'vehicle-rental',
+  "Kenton's Treasure": 'treasure',
+  "Basketball Hoops": 'basketball',
+  "Comics": 'magazine',
+  "Sculptures": 'waink-sculpture',
+  "Special Vehicles": 'standout-vehicle',
+  "Hunting Supply Shops": 'hunting',
+  // Kinds added from GTABase's map (data/wiki/map.gtabase.json)
+  "Knife Flights": 'knife-flight', "Book Swaps": 'book-swap', "1010 Murals": 'mural', "Under the Bridge": 'under-the-bridge',
+  "Unique Playlists": 'playlist', "WAiNK Curiosities": 'waink-curiosity', "WAiNK Landmarks": 'waink-landmark', "Arcade Machines": 'arcade',
+  "Mini Golf": 'golf', "Pool Tables": 'pool', "Vehicle Spawns": 'vehicle-spawn', "Weapon Pickups": 'weapon-spawn', "Cash Machines": 'atm',
+  "Standout Vehicles": 'standout-vehicle', "Treasures": 'treasure', "Magazines and Books": 'magazine', "Style Magazines": 'magazine',
+  "Vehicle Requests": 'vehicle-request', "Nightclubs": 'nightclub', "Race Challenges": 'race',
+  // More of the game's blips (GTABase's cut-outs), and the clothing shops' own variants.
+  "Cocaine Flamingos": 'cocaine-flamingo', "Hidden Packages": 'hidden-package', "Shipwrecks": 'shipwreck', "Underwater Discoveries": 'underwater',
+  "Safes": 'safe', "Side Missions": 'strangers', "Airports and Airfields": 'hangar', "Helipads": 'helipad', "Marinas": 'marina', "Ferry Docks": 'marina',
+  "Outfit Pickups": 'clothing-pickups', "Sportswear": 'clothing-sports', "Formalwear": 'clothing-formal', "Souvenirs and Swimwear": 'clothing-souvenir',
+  "Thrift Shops": 'clothing-thrift', "Landmarks": 'waink-landmark', "WAiNK No Flusher Tags": 'waink-curiosity', "WAiNK Pee-Wee Billboards": 'waink-curiosity',
+  "Jewelry Stores": 'jewelry-store', "Vehicle Dealers": 'vehicle-dealer',
+  // Kinds the game marks with a symbol rather than a blip of its own: the same pin shape, drawn from
+  // the symbols GTABase uses (Material Symbols, Apache 2.0; game-icons.net, CC BY 3.0).
+  "Car Meets": 'car-meet.svg', "Gang Compounds": 'gang-compound.svg', "Kill Intel Supply Drops": 'kill-intel.svg', "Meditation Spots": 'meditation.svg',
+  "AHOL Street Art": 'ahol-street-art.svg', "Euphoria": 'euphoria.svg', "Luxury Watches": 'luxury-watch.svg', "Messages in a Bottle": 'message-bottle.svg',
+  "Meteorites": 'meteorite.svg', "SCOOP Containers": 'scoop-container.svg', "Yellow Loot Boxes": 'yellow-loot-box.svg', "Parachute Pickups": 'parachute.svg',
+  "Cities and Towns": 'city-town.svg', "Easter Eggs": 'easter-egg.svg', "Fire Stations": 'fire-station.svg', "Hospitals": 'hospital.svg',
+  "Police Stations": 'police-station.svg', "Main Missions": 'main-mission.svg', "Optional Tasks": 'optional-task.svg', "Random Events": 'random-event.svg',
+  "Wyman's Classic Cars": 'wyman-car.svg', "Phone Stores": 'phone-store.svg', "Armor Pickups": 'armor.svg', "Unique Weapons": 'unique-weapon.svg',
+  "Darts": 'darts.svg', "Kitty Litter Labs": 'kitty-litter-lab.svg',
+};
+// The landmarks group's own unnamed places use the camera symbol.
+const GROUP_BLIP = { landmarks: 'landmark.svg' };
+const blipFile = (name) => `/images/map-icons/${name.includes('.') ? name : `${name}.webp`}`;
+// Every card set ("Vice City Flamingos cards") uses the game's collectible-card icon.
+const blipOf = (pin) => (pin.kind && KIND_ICON[pin.kind] ? blipFile(KIND_ICON[pin.kind])
+  : / cards$/.test(pin.kind || '') ? '/images/map-icons/collectible-card.webp'
+    : !pin.kind && GROUP_BLIP[pin.category] ? blipFile(GROUP_BLIP[pin.category]) : '');
+
 function renderMap(params) {
   const { map: config } = state.wiki;
   const pins = mapPins();
   const categories = pinCategories(pins);
   const categoryOf = new Map(categories.map((c) => [c.key, c]));
-  // The game's own map icons (Rockstar's, as GTABase cut them out) for the kinds that have one;
-  // other pins keep their category's coloured dot. Files are in images/map-icons/.
-  const KIND_ICON = {
-    // Fences and drop-offs use the game's green fence icon.
-    'Fences': 'fence',
-    'Vehicle Fences': 'fence',
-    'Drop-Off Points': 'fence',
-    "Bank Jobs": 'bank',
-    "Big Bank Jobs": 'bank',
-    "ATMs": 'towable-atm',
-    "Payday Loan Stores": 'payday-loan',
-    "Smash and Grabs": 'smash-n-grab',
-    "Pawn Shops": 'smash-n-grab',
-    "Gang Operations": 'gang-operation',
-    "Kitty Litter Lab Raids": 'gang-operation',
-    "Dunn's Robbery Tips": 'safe',
-    "Garages": 'garage',
-    "Safehouses": 'safehouse',
-    "Standard Gun Shops": 'ammu-nation',
-    "High-End Gun Shops": 'ammu-nation',
-    "Custom Weapons": 'ammu-nation',
-    "Mod Shops": 'mod-shop',
-    "Paint Shops": 'pay-n-spray',
-    "Barbers and Salons": 'haircut',
-    "Tattoo Parlors": 'tattoo',
-    "Gas Stations": 'gas-station',
-    "Convenience Stores": 'convenience-store',
-    "Liquor Stores": 'liquor-store',
-    "Bars": 'bar',
-    "Street Food": 'street-food',
-    "Cafés and Takeout": 'cafe',
-    "Fast Food": 'fast-food',
-    "Train Stations": 'train-station',
-    "Bus Stops": 'bus-stop',
-    "Electronics": 'electronics',
-    "EV Chargers": 'ev-charger',
-    "Streetwear": 'clothing',
-    "Sportswear": 'clothing',
-    "Formalwear": 'clothing',
-    "Souvenirs and Swimwear": 'clothing',
-    "Thrift Shops": 'clothing',
-    "Shoe Shops": 'footwear',
-    "High Heels": 'footwear',
-    "Races": 'race',
-    "Stunt Jumps": 'stunt-jump',
-    "BASE Jumps": 'base-jump',
-    "Fitness": 'gym',
-    "Shooting Range Challenges": 'shooting-range',
-    "Hunting Spots": 'hunting',
-    "Fishing Spots": 'fishing',
-    "Randy's Wish List": 'vehicle-request',
-    "Vehicle Thefts for Moses": 'vehicle-request',
-    "919": 'nightclub',
-    "Car Washes": 'car-wash',
-    "Drones": 'drone-race',
-    "Golf": 'golf',
-    "Vehicle Rentals": 'vehicle-rental',
-    "Kenton's Treasure": 'treasure',
-    "Basketball Hoops": 'basketball',
-    "Comics": 'magazine',
-    "Sculptures": 'waink-sculpture',
-    "Special Vehicles": 'standout-vehicle',
-    "Hunting Supply Shops": 'hunting',
-    // Kinds added from GTABase's map (data/wiki/map.gtabase.json)
-    "Knife Flights": 'knife-flight', "Book Swaps": 'book-swap', "1010 Murals": 'mural', "Under the Bridge": 'under-the-bridge',
-    "Unique Playlists": 'playlist', "WAiNK Curiosities": 'waink-curiosity', "WAiNK Landmarks": 'waink-landmark', "Arcade Machines": 'arcade',
-    "Mini Golf": 'golf', "Pool Tables": 'pool', "Vehicle Spawns": 'vehicle-spawn', "Weapon Pickups": 'weapon-spawn', "Cash Machines": 'atm',
-    "Standout Vehicles": 'standout-vehicle', "Treasures": 'treasure', "Magazines and Books": 'magazine', "Style Magazines": 'magazine',
-    "Vehicle Requests": 'vehicle-request', "Nightclubs": 'nightclub', "Race Challenges": 'race', "Sculptures": 'waink-sculpture',
-  };
-  // Every card set ("Vice City Flamingos cards") uses the game's collectible-card icon.
-  const blipOf = (pin) => (pin.kind && KIND_ICON[pin.kind] ? `/images/map-icons/${KIND_ICON[pin.kind]}.webp`
-    : / cards$/.test(pin.kind || '') ? '/images/map-icons/collectible-card.webp' : '');
   const dot = (pin, extra = '') => {
     const blip = blipOf(pin);
     if (blip) return `<img class="pin-blip${extra ? ' pin-blip-map' : ''}" src="${blip}" alt="" draggable="false">`;
