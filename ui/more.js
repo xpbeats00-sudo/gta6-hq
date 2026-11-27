@@ -157,7 +157,7 @@
 
   // ---------- #/strangers: Strangers and Freaks and the other side missions ----------
   EXTRA_PAGES.strangers = function renderStrangers() {
-    const ms = (state.wiki.missions || []).filter((e) => /stranger|side|optional/i.test(e.facts?.type || '') && !/list|overview/i.test(e.facts?.type || ''));
+    const ms = (state.wiki.missions || []).filter((e) => /^(stranger|side|optional) mission$/i.test(e.facts?.type || ''));
     const kinds = [['Stranger mission', 'Strangers and Freaks', 'People you meet around Leonida, each with their own short story.'],
       ['Side mission', 'Side missions', 'Jobs away from the main story.'], ['Optional mission', 'Optional missions', 'Story missions you can skip.']];
     const giverOf = (e) => String(e.facts?.giver || 'Giver not yet known').split(/[;,(]/)[0].trim();

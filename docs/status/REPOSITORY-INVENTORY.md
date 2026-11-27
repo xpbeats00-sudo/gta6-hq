@@ -1,26 +1,26 @@
 # Repository inventory
 
-Generated 2026-11-27 05:34 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-27 06:57 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 14 | 0.3 MB |
-| `ui/` | 30 | 2.7 MB |
+| `ui/` | 31 | 2.7 MB |
 | `data/` | 113 | 9.2 MB |
-| `images/` | 1878 | 266.7 MB |
+| `images/` | 2001 | 267.0 MB |
 | `wallpapers/` | 71 | 105.5 MB |
-| `docs/` | 290 | 108.7 MB |
+| `docs/` | 291 | 108.8 MB |
 | `scripts/` | 40 | 0.6 MB |
 | `cache/` | 27 | 0.6 MB |
 | `backups/` | 1 | 0.0 MB |
-| `target/release/` | 1905 | 800.8 MB |
+| `target/release/` | 1937 | 828.1 MB |
 
 ## Source files
 
 | File | Lines |
 |---|---|
 | `src/backup.rs` | 130 |
-| `src/content.rs` | 671 |
+| `src/content.rs` | 673 |
 | `src/discord.rs` | 232 |
 | `src/import.rs` | 1044 |
 | `src/main.rs` | 210 |
@@ -33,31 +33,32 @@ Generated 2026-11-27 05:34 by `scripts/current_state.py`. Do not edit by hand.
 | `src/userdata.rs` | 236 |
 | `src/validate.rs` | 1740 |
 | `src/window.rs` | 320 |
-| `ui/app.js` | 4598 |
+| `ui/app.js` | 4809 |
 | `ui/appearance.js` | 51 |
 | `ui/art.js` | 86 |
-| `ui/explore.js` | 793 |
+| `ui/explore.js` | 800 |
 | `ui/hundred.js` | 180 |
 | `ui/icons.js` | 55 |
 | `ui/journal.js` | 275 |
 | `ui/manual.js` | 681 |
 | `ui/map3d.js` | 296 |
 | `ui/menus.js` | 379 |
-| `ui/research.js` | 658 |
+| `ui/more.js` | 249 |
+| `ui/research.js` | 664 |
 | `ui/routes.js` | 240 |
 | `ui/stream.js` | 132 |
-| `ui/design.css` | 977 |
+| `ui/design.css` | 1029 |
 | `ui/manual.css` | 539 |
 | `ui/mapside.css` | 213 |
-| `ui/research.css` | 359 |
+| `ui/research.css` | 363 |
 | `ui/rockstar.css` | 224 |
 | `ui/stream.css` | 70 |
-| `ui/styles.css` | 1403 |
+| `ui/styles.css` | 1435 |
 | `ui/themes.css` | 129 |
-| `ui/index.html` | 179 |
+| `ui/index.html` | 180 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 51191 |
-| `data/media.json` | 1919 |
+| `data/media.json` | 2042 |
 | `data/update.json` | 4 |
 | `data/wiki.json` | 2229 |
 | `data/wiki/achievements.json` | 2918 |
@@ -168,7 +169,7 @@ Generated 2026-11-27 05:34 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/wildlife.night-r7b.json` | 96 |
 | `data/wiki/wildlife.night-sites.json` | 77 |
 | `data/wiki/wildlife.previews.json` | 26 |
-| `scripts/audit_media.py` | 222 |
+| `scripts/audit_media.py` | 228 |
 | `scripts/build_route_grid.py` | 68 |
 | `scripts/build_site.py` | 124 |
 | `scripts/ci_pages.mjs` | 169 |

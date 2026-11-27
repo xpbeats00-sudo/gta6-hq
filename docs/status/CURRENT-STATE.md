@@ -1,21 +1,21 @@
 # GTA 6 HQ: current state
 
-Generated 2026-11-27 05:34 by `scripts/current_state.py`. **This is the one authoritative status report.** Older reports are history; see `REPORT-INDEX.md`.
+Generated 2026-11-27 06:57 by `scripts/current_state.py`. **This is the one authoritative status report.** Older reports are history; see `REPORT-INDEX.md`.
 
 | Item | Now |
 |---|---|
-| App version | 0.2.48 (`Cargo.toml`) |
-| Version control | Commit cbebfdc on main, 118 uncommitted paths. |
+| App version | 0.2.49 (`Cargo.toml`) |
+| Version control | Commit c5a8a37 on main, 9 uncommitted paths. |
 | Encyclopedia | 3396 entries in 13 categories; 0 categories empty |
 | Field Manual | 23 chapters, 536 pages; 0 chapter in development |
-| Media records | 1914: 1897 permission_required, 17 unknown |
+| Media records | 2037: 27 approved, 1993 permission_required, 17 unknown |
 | Map | 6585 markers; tile cache 27 files, 0.6 MB; never pruned, limited to 1,365 tiles by the zoom limit |
 | Formatting | Pass |
 | Clippy, warnings as errors | Pass |
 | Tests | Pass. 93 passed, 0 failed |
 | Release build | Pass |
-| Data validator | Pass. 0 errors, 1949 warnings; by check: rights-unconfirmed 1914, unlisted-media 35 |
-| JavaScript syntax | 13 of 13 files pass `node --check` |
+| Data validator | Pass. 0 errors, 2045 warnings; by check: rights-unconfirmed 2010, unlisted-media 35 |
+| JavaScript syntax | 14 of 14 files pass `node --check` |
 
 Detail: `DATA-AND-MANUAL-COUNTS.md`, `REPOSITORY-INVENTORY.md`, `BASELINE-TEST-RESULTS.md`, `../compliance/MEDIA-RIGHTS-AUDIT.md`.
 

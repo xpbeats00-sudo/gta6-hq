@@ -2,8 +2,25 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
-## Unreleased
+## 0.2.49 (27 November 2026)
 
+The game's real icons, a picture for nearly every entry, and More laid out like the encyclopedia.
+
+- **Real icons on the map:** every kind of place now has an icon. 15 more of the game's own blips (cocaine flamingos, hidden packages, shipwrecks, underwater finds, strangers, jewelry stores, vehicle dealers, helipads, marinas, airfields, outfit pickups and the clothing shops), and pins in the same shape for police and fire stations, hospitals, towns, Easter eggs, random events, meteorites, watches, SCOOP containers, loot boxes and more.
+- **Pictures for entries that had none:**
+  - a collectible card shows its set's cover;
+  - anything with a known spot shows that spot on Rockstar's map with its blip;
+  - a collectible with no spot shows its family's blip, and an activity or business its kind's;
+  - a weapon or vehicle variant shows its base model, and a radio station a radio dial in its own colours;
+  - 1,198 of 1,215 collectibles, 114 of 123 weapons and every radio station now have one.
+- **Collectible Tracker:** each collectible shows its picture, and each family its blip.
+- **More, like the encyclopedia:** a More page with picture tiles in groups, the More menu drawn as the same groups with pictures, and a way back to More on every More page.
+- **New pages:**
+  - **Compare Vehicles:** up to three side by side on the five stat bars, and the best by stat and class;
+  - **Strangers and Freaks:** 64 stranger, side and optional missions grouped by who gives them;
+  - **Properties:** garages and places to stay, cheapest first, and the safehouses;
+  - **Icons Explained:** what 81 HUD, wanted, profile, relationship, vehicle, weapon, phone and map icons mean.
+- **Cheats:** the Xbox buttons beside PlayStation's, and the rules up front (after the story only; trophies and saving off while a cheat is on).
 - **Duplicate pictures cleaned up:** 88 copies removed; each entry keeps its largest picture, and *The Missing Link* gets its real mission picture.
 - **No more doubled vehicles:** the old pre-launch entries for the Taci Ragno (Pegassi Faggio) and Western Zombie Bobber (Zombie Chopper) are folded into the release entries, as are the doubled Benefactor Schutzen and Brute excavator.
 - **Old links still work:** a bookmark or link to a merged entry opens the entry it became.

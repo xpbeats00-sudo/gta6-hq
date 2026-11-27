@@ -119,16 +119,17 @@ When a new version is out, the app says so. In an installed copy, **Update now**
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.svg" alt="What's new" width="860"></p>
 
+- **0.2.49**: the game's real icons for every kind of place, a picture for nearly every entry (map spots, card covers, radio dials), More laid out like the encyclopedia, and new Compare Vehicles, Strangers and Freaks, Properties and Icons Explained pages.
 - **0.2.48**: everything on the map (5,548 more places), every vehicle with its picture and Standout sets in the Garage, the game's own menu art, and real controllers.
 - **0.2.47**: the game's own card art and vehicle pictures, a smarter map with routes and your own markers, and a fresh build after Windows Security wrongly flagged 0.2.46.
 - **0.2.46**: a map and menus that look like the game's, a Garage and Weapon Locker with stat bars, Card Collections, Cheats and Controls, Trophy Guides, and 74 cleaner, sharper pictures.
 - **0.2.45**: all 40 gang operations on the map, a safe code for every safe, and entry pages that link the people and places they mention.
 - **0.2.44**: choose your start-up (Classic or the game's own Official intro), 49 new pictures, voice actors for the cast, the latest news and checked facts.
-- **0.2.43**: 63 new pictures, and pictures removed for site logos no longer come back on installed copies.
 
 <details>
 <summary>Earlier versions</summary>
 
+- **0.2.43**: 63 new pictures, and pictures removed for site logos no longer come back on installed copies.
 - **0.2.42**: a "Track and plan" row on Home, a "What's here" panel on every place, a tidier Saved page and styled jump buttons.
 - **0.2.41**: routes that follow the roads, lists you can group (by type, county, maker, grade, lead or habitat), pages that link to each other, and a tidier Intel, Missions and map.
 - **0.2.40**: 123 new pictures, a progress backup, missions in story order, map tracking (hide discovered, Next, Only), a 100% Checklist and safe codes.
@@ -398,7 +399,7 @@ Releases are published at https://github.com/xpbeats00-sudo/gta6-hq/releases. Wh
 
 To publish a new version: raise `version` in `Cargo.toml` and `Cargo.lock`, add the version to `CHANGELOG.md` and "What's new", run `cargo build --release` and `python scripts/audit_media.py`, then `python scripts/package_release.py`. That builds the full app, with every picture, logo, clip and wallpaper, and writes its installer (`installer/gta6-hq.iss`, needs Inno Setup 6), portable zip and checksums to `dist/`. Attach all three to a new GitHub release tagged `v<version>`; CI adds the macOS and Linux packages.
 
-Releases always ship every picture: the owner decided this on 2026-11-22 (`docs/compliance/MEDIA-DISTRIBUTION-POLICY.md`). The rights side is still open: the media records list each picture's source, and none is marked as cleared for redistribution (see the policy for what that means). `python scripts/package_release.py --no-game-media` builds an edition without the game's pictures into `dist/public/`, for testing only.
+Releases always ship every picture: the owner decided this on 2026-11-22 (`docs/compliance/MEDIA-DISTRIBUTION-POLICY.md`). The rights side is still open: the media records list each picture's source, and only the 27 map pins drawn from openly licensed symbols (Material Symbols, game-icons.net) are marked as cleared for redistribution (see the policy for what that means). `python scripts/package_release.py --no-game-media` builds an edition without the game's pictures into `dist/public/`, for testing only.
 
 The file people download is the setup window in `installer/shell` (a small Rust program using the same window technology as the app). It carries the Inno Setup installer built from `installer/gta6-hq.iss`, runs it silently and reads its log for progress; if the window cannot open, it runs that installer with its own pages. `gta6-hq-setup.exe --demo` shows the pages without installing anything, and `python scripts/make_installer_art.py` redraws its pictures.
 
