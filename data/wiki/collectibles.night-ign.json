@@ -3791,7 +3791,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "Sandbars",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-angel-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3822,7 +3823,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "Catalan Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-angel-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3848,7 +3850,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "Big Pine",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-angel-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3874,7 +3877,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "western Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-bambi-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3900,7 +3904,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "northern Washington Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-boris-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3926,7 +3931,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "southeastern North Mariana County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-boris-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3952,7 +3958,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "southern Millport",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-boris-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3978,7 +3985,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "western Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-beverly-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4004,7 +4012,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "northern Riquezas Keys",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-beverly-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4030,7 +4039,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "northwestern Bluegrass",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-beverly-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4061,7 +4071,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "eastern Salton",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-chastity-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4092,7 +4103,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "North Kelly County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-crystal-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4123,7 +4135,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "northern Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-diego-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4149,7 +4162,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "eastern Manifest Canyon",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-drake-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4180,7 +4194,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "Moreau",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-drake-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4211,7 +4226,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-drake-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4242,7 +4258,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "eastern Mount Kalaga National Park",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-kalisha-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4273,7 +4290,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "southeastern Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-kalisha-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4299,7 +4317,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "Bonanza",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-kalisha-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4330,7 +4349,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "southern Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-kalvyn-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4361,7 +4381,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "western Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-sapphire-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4387,7 +4408,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "central Grassrivers",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-sapphire-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4413,7 +4435,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "Moreau",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-sapphire-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4439,7 +4462,8 @@
     "facts": {
       "type": "Collectible card (America's Next Top Hooker)",
       "region": "Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-anth-skyla-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4465,7 +4489,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "western Ambrosia",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-axel-hughes-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4496,7 +4521,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "southern Manifest Canyon",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-blood-smith-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4527,7 +4553,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "Breakwater Quarry",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-cherry-oglade-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4553,7 +4580,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "Hamlet",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-chico-bonez-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4583,7 +4611,8 @@
     ],
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-chrissy-deangelo-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4614,7 +4643,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "Watson Bay",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-danny-mclean-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4645,7 +4675,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "eastern Pelican Valley",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-j-d-wild-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4676,7 +4707,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "Gloriana Key",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-judas-sterling-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4707,7 +4739,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "Rockridge",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-katie-k-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4738,7 +4771,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "northwestern Watson Bay",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-l-heavy-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4764,7 +4798,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "South West Lummox County",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-luke-x-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4795,7 +4830,8 @@
     "facts": {
       "type": "Collectible card (B.A.M. Backyard Wrestling)",
       "region": "Wild Hog Point",
-      "total": 12
+      "total": 12,
+      "menu_picture": "/images/collectibles/cards/card-bam-shovel-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4826,7 +4862,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "South Leonard County",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-amber-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4857,7 +4894,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "Watson Bay",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-chip-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4888,7 +4926,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "Kalaga Reservoir",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-cleo-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4919,7 +4958,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "Downtown",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-crystal-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4950,7 +4990,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "eastern VCIA",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-cyrus-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4981,7 +5022,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "northern La Perle",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-daisy-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5012,7 +5054,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "Port Gellhorn",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-harley-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5073,7 +5116,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "Little Cuba",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-kandi-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5104,7 +5148,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "Vice Beach",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-lance-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5135,7 +5180,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "La Perle",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-lucky-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5165,7 +5211,8 @@
     ],
     "facts": {
       "type": "Collectible card (Delights Dancers)",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-mario-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5196,7 +5243,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "Bonanza",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-nevaeh-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5227,7 +5275,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "central Hamlet",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-nicole-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5258,7 +5307,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "northern Balsero",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-perla-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5289,7 +5339,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "central Key Lento",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-thelma-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5320,7 +5371,8 @@
     "facts": {
       "type": "Collectible card (Delights Dancers)",
       "region": "eastern Salton",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-tracy-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5350,7 +5402,8 @@
     ],
     "facts": {
       "type": "Collectible card (Delights Dancers)",
-      "total": 18
+      "total": 18,
+      "menu_picture": "/images/collectibles/cards/card-delights-vicki-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5381,7 +5434,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "western Tequesta",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-capsule-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5407,7 +5461,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "eastern Belville",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-capsule-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5433,7 +5488,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "western Ambrosia",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-capsule-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5458,7 +5514,8 @@
     ],
     "facts": {
       "type": "Collectible card (Ed Universe)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-diagnosis-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5484,7 +5541,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Grassrivers Visitor Center",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-diagnosis-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5510,7 +5568,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "southeastern Bluegrass",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-diagnosis-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5536,7 +5595,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "southern La Perle",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-dr-placebo-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5567,7 +5627,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "West Vice-Dale County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-dr-placebo-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5593,7 +5654,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "northern Bayside",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-dr-placebo-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5618,7 +5680,8 @@
     ],
     "facts": {
       "type": "Collectible card (Ed Universe)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-fornicator-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5644,7 +5707,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "northern South Kelly County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-fornicator-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5670,7 +5734,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "western Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-fornicator-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5696,7 +5761,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "southern Balsero",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-funny-bones-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5721,7 +5787,8 @@
     ],
     "facts": {
       "type": "Collectible card (Ed Universe)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-funny-bones-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5752,7 +5819,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Hamlet",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-funny-bones-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5778,7 +5846,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "West Vice-Dale County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-general-surgeon-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5804,7 +5873,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "western Hamlet",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-general-surgeon-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5830,7 +5900,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-general-surgeon-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5861,7 +5932,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "southern Buckskin Swamp",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-mr-i-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5887,7 +5959,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "northern Downtown",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-mr-i-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5913,7 +5986,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Decor District",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-mr-i-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5939,7 +6013,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "southern La Perle",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-ratface-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5970,7 +6045,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Ocean Beach",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-ratface-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5996,7 +6072,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Hamlet",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-ratface-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6027,7 +6104,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "northern Key Lento",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-rightwing-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6053,7 +6131,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "eastern VCIA",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-rightwing-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6079,7 +6158,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Peacock Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-rightwing-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6105,7 +6185,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "central Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-side-effect-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6136,7 +6217,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Rockridge",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-side-effect-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6162,7 +6244,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "Lake Tallaloko",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-side-effect-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6188,7 +6271,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "eastern Hamlet",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-vaccerine-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6214,7 +6298,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "central Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-vaccerine-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6240,7 +6325,8 @@
     "facts": {
       "type": "Collectible card (Ed Universe)",
       "region": "northwestern Grassrivers",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-vaccerine-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6266,7 +6352,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "northwestern Pelican Valley",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-brianna-blue-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6297,7 +6384,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "northern Moreau",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-brianna-blue-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6328,7 +6416,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "southeastern Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-brianna-blue-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6359,7 +6448,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "La Perle",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-christel-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6390,7 +6480,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "northern Salton",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-christel-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6421,7 +6512,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "Ocean Beach",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-christel-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6452,7 +6544,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "western Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-jada-watts-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6483,7 +6576,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "eastern Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-jada-watts-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6514,7 +6608,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "Bobcat Key",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-jada-watts-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6545,7 +6640,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "Rockridge",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-jemila-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6576,7 +6672,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "western Peacock Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-jemila-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6606,7 +6703,8 @@
     ],
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-jemila-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6637,7 +6735,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "North Mariana County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-kadisha-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6668,7 +6767,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "eastern VCIA",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-kadisha-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6699,7 +6799,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "northern Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-kadisha-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6730,7 +6831,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "northern Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-kelly-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6761,7 +6863,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "southern Belville",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-kelly-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6791,7 +6894,8 @@
     ],
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-kelly-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6821,7 +6925,8 @@
     ],
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-lexi-campbell-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6852,7 +6957,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "central Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-lexi-campbell-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6883,7 +6989,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "Buckskin Swamp",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-lexi-campbell-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6914,7 +7021,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "western Belville",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-malena-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6945,7 +7053,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "northeastern Mount Kalaga National Park",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-malena-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -6976,7 +7085,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "southeastern Emerald Springs",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-malena-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7006,7 +7116,8 @@
     ],
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-monali-a-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7037,7 +7148,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "Abismo Key",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-monali-a-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7067,7 +7179,8 @@
     ],
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-monali-a-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7098,7 +7211,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "northeastern Mount Kalaga National Park",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-pricilla-pace-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7129,7 +7243,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-pricilla-pace-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7160,7 +7275,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "Permit Keys",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-pricilla-pace-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7191,7 +7307,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "northern North Leonard County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-vanessa-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7221,7 +7338,8 @@
     ],
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-vanessa-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7252,7 +7370,8 @@
     "facts": {
       "type": "Collectible card (Jack of Hearts Dancers)",
       "region": "southern Salton",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-vanessa-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7283,7 +7402,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "La Perle",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-captain-krueks-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7314,7 +7434,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "central Corsair Key",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-captain-krueks-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7340,7 +7461,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southwestern La Perle",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-captain-krueks-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7366,7 +7488,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southeastern Key Lento",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-death-of-swallow-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7392,7 +7515,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "northern Southside",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-death-of-swallow-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7418,7 +7542,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southern Crosstown",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-death-of-swallow-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7444,7 +7569,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Gloriana Key",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-diddler-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7470,7 +7596,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-diddler-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7496,7 +7623,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Crosstown",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-diddler-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7522,7 +7650,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "western Ambrosia",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-disastrous-duo-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7548,7 +7677,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "South Kelly County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-disastrous-duo-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7574,7 +7704,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "North Mariana County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-disastrous-duo-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7600,7 +7731,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "eastern Downtown",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-ifred-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7626,7 +7758,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "northern Watson Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-ifred-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7652,7 +7785,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southwestern Balsero",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-ifred-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7678,7 +7812,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "central Hamlet",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-illuminaughty-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7709,7 +7844,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Stockyard",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-illuminaughty-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7735,7 +7871,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Belville",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-illuminaughty-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7766,7 +7903,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "northern Gullet Marsh",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-ratface-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7792,7 +7930,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "western Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-ratface-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7818,7 +7957,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southern East Lummox County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-ratface-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7844,7 +7984,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Ocean Beach",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-silver-age-betrayal-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7870,7 +8011,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Bobcat Key",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-silver-age-betrayal-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7896,7 +8038,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Watson Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-silver-age-betrayal-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7927,7 +8070,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southern Salton",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-swallow-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -7953,7 +8097,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "western Salton",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-swallow-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8007,7 +8152,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "northern Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-the-ratster-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8038,7 +8184,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southern East Lummox County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-the-ratster-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8064,7 +8211,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "northern Buckskin Swamp",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-the-ratster-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8095,7 +8243,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "northwestern Tequesta",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-todd-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8121,7 +8270,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Waning Sands",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-todd-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8147,7 +8297,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "Richard Barebone State Park",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-todd-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8206,7 +8357,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southern Watson Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-wokester-maroon.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8232,7 +8384,8 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "La Perle",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ratface-wokester-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8258,7 +8411,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-alexander-avain-bright-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8284,7 +8438,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Hamlet",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-alexander-avain-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8314,7 +8469,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "northern Crosstown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-alexander-avain-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8344,7 +8500,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-asher-rodriguez-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8370,7 +8527,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-dangelou-miles-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8400,7 +8558,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "southern Salton",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-demario-richardson-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8458,7 +8617,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-demario-richardson-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8484,7 +8644,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "northern Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-dimitri-petrov-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8510,7 +8671,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Little Cuba",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-lamont-berry-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8536,7 +8698,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "La Perle",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-lev-volkov-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8562,7 +8725,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Leaf Links",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-lev-volkov-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8588,7 +8752,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-lev-volkov-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8614,7 +8779,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Vespucci Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-noah-marcus-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8644,7 +8810,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Riquezas Keys",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-noah-marcus-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8674,7 +8841,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Tequesta Retreat",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-noah-marcus-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8700,7 +8868,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "southern Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-remy-herbert-bright-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8726,7 +8895,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "northwestern Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-remy-herbert-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8756,7 +8926,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "central Little Cuba",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-remy-herbert-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8786,7 +8957,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-rion-yapa-bright-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8812,7 +8984,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Penmarch Isle",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-rion-yapa-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8838,7 +9011,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "western Crosstown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-rion-yapa-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8868,7 +9042,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "Southside",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-taylor-blanc-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8898,7 +9073,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "southwestern Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcp-wenyen-deng-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8924,7 +9100,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "La Perle",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-alvin-orlowski-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8955,7 +9132,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "Oldby Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-anthony-poke-ii-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8986,7 +9164,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "southwestern Peacock Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-anthony-poke-ii-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9012,7 +9191,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "Washington Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-anthony-poke-ii-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9038,7 +9218,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "Gloriana key",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-armando-ibarra-jr-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9064,7 +9245,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "southwestern Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-atonga-alaalatoa-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9095,7 +9277,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "central Port Vice City",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-bruce-goosen-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9121,7 +9304,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "northern Crosstown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-bryan-barnett-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9147,7 +9331,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "central Rockridge",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-bryan-barnett-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9173,7 +9358,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "northern Bobcat Key",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-bryan-barnett-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9199,7 +9385,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "eastern Hamlet",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-christian-yee-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9225,7 +9412,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-christian-yee-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9251,7 +9439,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "southeastern Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-christian-yee-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9277,7 +9466,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "southwestern Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-dartanyon-pearson-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9303,7 +9493,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "northeastern Southside",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-james-bowery-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9329,7 +9520,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-james-bowery-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9355,7 +9547,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-james-bowery-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9381,7 +9574,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "Catalan Key",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-robbie-stine-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9411,7 +9605,8 @@
     ],
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-robbie-stine-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9437,7 +9632,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "northern Mount Kalaga National Park",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-robbie-stine-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9468,7 +9664,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "southern Salton",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-tayson-briggs-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9494,7 +9691,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "Grayson",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-thien-trinh-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9520,7 +9718,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "western Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-thien-trinh-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9546,7 +9745,8 @@
     "facts": {
       "type": "Collectible card (Liberty City Wrath)",
       "region": "eastern Gellhorn",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lcw-thien-trinh-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9577,7 +9777,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "East Lummox County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-blake-balls-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9603,7 +9804,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "western Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-blake-balls-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9629,7 +9831,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "northwestern Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-blake-balls-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9655,7 +9858,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Shoeless Keys",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-christian-delgado-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9707,7 +9911,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "southwestern Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-christian-freeman-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9733,7 +9938,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Port Gellhorn",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-christian-freeman-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9759,7 +9965,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-duke-king-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9785,7 +9992,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "eastern Hamlet",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-duke-king-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9811,7 +10019,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "North Mariana County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-duke-king-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9837,7 +10046,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-garth-buxton-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9866,7 +10076,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Vespucci Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-ichiro-yamada-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9895,7 +10106,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "southern Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-ichiro-yamada-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9920,7 +10132,8 @@
     ],
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-ichiro-yamada-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9949,7 +10162,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Downtown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-juan-carlos-garcia-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -9975,7 +10189,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "western Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-lalo-velasco-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10001,7 +10216,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "southern Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-lalo-velasco-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10030,7 +10246,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-lalo-velasco-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10056,7 +10273,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Oldby Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-mario-rugama-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10082,7 +10300,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "eastern Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-mario-rugama-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10108,7 +10327,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Millport",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-mario-rugama-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10134,7 +10354,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "southwestern Balsero",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-ricardo-zamudio-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10160,7 +10381,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-seo-jun-kim-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10189,7 +10411,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-steven-kendricks-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10215,7 +10438,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "western Frogswater",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-anthony-herndon-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10241,7 +10465,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-anthony-herndon-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10266,7 +10491,8 @@
     ],
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-anthony-herndon-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10292,7 +10518,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Peacock Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-aoi-watanabe-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10323,7 +10550,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-carlos-larios-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10354,7 +10582,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "eastern Rockridge",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-carlos-larios-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10385,7 +10614,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "southern Balsero",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-carlos-larios-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10411,7 +10641,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "western Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-franklin-turner-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10442,7 +10673,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "western Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-franklin-turner-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10473,7 +10705,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "southern Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-franklin-turner-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10526,7 +10759,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "southern Salton",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-jonah-clemmons-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10552,7 +10786,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Southside",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-jonah-clemmons-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10578,7 +10813,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-jonah-clemmons-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10636,7 +10872,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "northern Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-samuel-buono-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10662,7 +10899,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-samuel-buono-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10688,7 +10926,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Grassrivers",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-samuel-buono-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10741,7 +10980,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-terrence-jackson-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10766,7 +11006,8 @@
     ],
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-terrence-jackson-navy-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10792,7 +11033,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "East Lummox County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lsc-terrence-jackson-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10883,7 +11125,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "northern Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-carl-camp-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10909,7 +11152,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "western Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-chibuike-bello-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10935,7 +11179,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "northeastern Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-chibuike-bello-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10966,7 +11211,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "northern Little Cuba",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-chibuike-bello-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10992,7 +11238,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-damarion-carter-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11018,7 +11265,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Washington Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-damarion-carter-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11044,7 +11292,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-damarion-carter-yellow.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11070,7 +11319,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Little Cuba",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-jackson-belton-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11096,7 +11346,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-jakob-markic-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11122,7 +11373,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "northern Little Cuba",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-jakob-markic-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11148,7 +11400,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "East Lummox County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-jakob-markic-yellow.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11173,7 +11426,8 @@
     ],
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-lloyd-robinson-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11199,7 +11453,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "northeastern Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-marquise-bernard-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11230,7 +11485,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "southern Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-nikkander-orlov-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11256,7 +11512,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "eastern Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-nikkander-orlov-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11287,7 +11544,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Southside",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-nikkander-orlov-yellow.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11313,7 +11571,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Rockridge",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-oluwa-mohammed-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11339,7 +11598,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "northwestern East Lummox County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-quinton-allen-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11365,7 +11625,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "southern Emerald Springs",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-quinton-allen-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11391,7 +11652,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "northern Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-quinton-allen-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11417,7 +11679,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "northern Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-santiago-lopez-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11448,7 +11711,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "La Perle",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-terrance-ericks-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11479,7 +11743,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Salton",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-terrance-ericks-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11505,7 +11770,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Panic)",
       "region": "Decor District",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspa-terrance-ericks-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11536,7 +11802,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "northern Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-benjamin-quintana-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11562,7 +11829,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "western Port Gellhorn",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-bingo-johnson-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11591,7 +11859,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "southern Hamlet",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-dravy-mease-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11617,7 +11886,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "northwestern Washington Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-dravy-mease-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11643,7 +11913,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-dravy-mease-yellow.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11669,7 +11940,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "northern Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-granian-beach-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11698,7 +11970,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Cottonmouth Lake",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-laki-maivia-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11727,7 +12000,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Casanova Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-laki-maivia-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11756,7 +12030,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "southern Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-laki-maivia-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11782,7 +12057,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "northern Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-lionel-taber-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11808,7 +12084,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "southern Salton",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-maximus-goldbart-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11834,7 +12111,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Southwind",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-maximus-goldbart-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11860,7 +12138,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-maximus-goldbart-yellow.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11889,7 +12168,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "southern Bluegrass",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-randolph-topolski-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11915,7 +12195,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-randolph-topolski-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11941,7 +12222,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "western Manifest Canyon",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-randolph-topolski-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11967,7 +12249,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "southwestern Balsero",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-rider-butler-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -11993,7 +12276,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-rider-butler-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12019,7 +12303,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "southeastern Millport",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-rider-butler-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12045,7 +12330,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-sione-apa-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12074,7 +12360,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "northeastern Rockridge",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-sione-apa-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12100,7 +12387,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "Grayson",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-sione-apa-yellow.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12126,7 +12414,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
       "region": "northwestern Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-tyson-brooks-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12151,7 +12440,8 @@
     ],
     "facts": {
       "type": "Collectible card (Los Santos Pounders)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-lspo-zander-paton-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12177,7 +12467,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Buckskin Swamp",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-amie-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12208,7 +12499,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "northern Key Lento",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-amie-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12239,7 +12531,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "northwestern Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-amie-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12270,7 +12563,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "North Kelly County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-braelynn-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12301,7 +12595,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "southwestern Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-braelynn-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12332,7 +12627,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Millport",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-braelynn-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12363,7 +12659,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Moreau",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-chrissie-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12394,7 +12691,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-chrissie-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12425,7 +12723,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Manifest Canyon",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-chrissie-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12456,7 +12755,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "southern Little Cuba",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-clarissa-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12487,7 +12787,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "North Mariana County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-clarissa-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12518,7 +12819,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-clarissa-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12549,7 +12851,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Millport",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-georgia-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12580,7 +12883,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "southern La Perle",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-georgia-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12611,7 +12915,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "central Key Lento",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-georgia-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12642,7 +12947,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "northeastern Balsero",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-jesenia-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12673,7 +12979,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Vespucci Island",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-jesenia-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12704,7 +13011,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Permit Keys",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-jesenia-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12734,7 +13042,8 @@
     ],
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-julia-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12765,7 +13074,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Ocean Beach",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-julia-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12796,7 +13106,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "northern Peacock Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-julia-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12827,7 +13138,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "northern Draper Island",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-lavinia-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12858,7 +13170,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Millport",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-lavinia-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12889,7 +13202,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "southern Moreau",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-lavinia-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12920,7 +13234,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Tequesta Retreat",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-lenora-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12951,7 +13266,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "northeastern Rockridge",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-lenora-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -12982,7 +13298,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "northern Tequesta",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-lenora-purple.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13013,7 +13330,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "eastern Salton",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-louise-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13044,7 +13362,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "southern Balsero",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-louise-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13075,7 +13394,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "northern Belville",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-louise-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13106,7 +13426,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Crosstown",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-meghan-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13136,7 +13457,8 @@
     ],
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-meghan-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13167,7 +13489,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Waning Sands",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-meghan-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13198,7 +13521,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "eastern Mount Kalaga National Park",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-serena-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13229,7 +13553,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Peacock Estates",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-serena-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13260,7 +13585,8 @@
     "facts": {
       "type": "Collectible card (Nine1Nine Dancers)",
       "region": "Grayson",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-n1n-serena-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13291,7 +13617,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "northern Catalan Key",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-flamer-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13348,7 +13675,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "eastern Watson Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-flamer-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13457,7 +13785,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "North Leonard County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-great-uncle-sam-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13483,7 +13812,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Oldby Island",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-great-uncle-sam-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13509,7 +13839,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Ambrosia",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-great-uncle-sam-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13616,7 +13947,8 @@
     ],
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-immigrintasma-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13647,7 +13979,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "western Abismo Key",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-immigrintasma-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13678,7 +14011,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "La Perle",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-immigrintasma-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13704,7 +14038,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-president-blunt-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13756,7 +14091,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "northern Capri",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-president-blunt-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13782,7 +14118,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "East Lummox County",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-president-quinn-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13834,7 +14171,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Mount Kalaga National Park",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-president-quinn-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13860,7 +14198,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Leonida State Prison",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wing-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13886,7 +14225,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Grassrivers",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wing-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13917,7 +14257,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Mount Kalaga National Park",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wing-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13948,7 +14289,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Watson Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wing-vs-left-wing-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13979,7 +14321,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "southern Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wing-vs-left-wing-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14010,7 +14353,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "northern Millport",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wing-vs-left-wing-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14035,7 +14379,8 @@
     ],
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wings-truck-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14060,7 +14405,8 @@
     ],
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wings-truck-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14086,7 +14432,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "northern Bluegrass",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-right-wings-truck-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14112,7 +14459,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "southern Crosstown",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-the-educated-woman-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14164,7 +14512,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "northern Key Lento",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-the-educated-woman-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14190,7 +14539,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "eastern Little Cuba",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-they-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14216,7 +14566,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "western Balsero",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-they-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14242,7 +14593,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "western Peacock Bay",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-they-white.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14268,7 +14620,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "eastern Downtown",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-anne-florence-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14294,7 +14647,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "eastern Gloriana Key",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-anne-florence-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14320,7 +14674,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Downtown",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-anne-florence-teal.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14346,7 +14701,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "western Port Gellhorn",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-ayokunumi-kasimu-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14376,7 +14732,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "northern Tequesta",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-badge-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14402,7 +14759,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "southern Balsero",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-badge-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14428,7 +14786,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Tallaloko",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-badge-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14454,7 +14813,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Mount Kalaga National Park",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-badge-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14484,7 +14844,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "La Perle",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-badge-teal.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14510,7 +14871,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "western Belville",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-ellie-burke-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14536,7 +14898,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "western Ambrosia",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-ellie-burke-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14562,7 +14925,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "southern Little Cuba",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-ellie-burke-teal.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14588,7 +14952,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Ocean Beach",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-emma-croydon-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14614,7 +14979,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "northern Downtown",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-emma-croydon-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14640,7 +15006,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "southern Waning Sands",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-emma-croydon-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14666,7 +15033,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Ocean Beach",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-gerry-northgate-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14692,7 +15060,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Ocean Beach",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-ian-harris-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14718,7 +15087,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Leaf Links",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-ian-harris-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14748,7 +15118,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Ocean Beach",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-ian-harris-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14778,7 +15149,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "northern Washington Island",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-leon-correo-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14804,7 +15176,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "southern Capri",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-leon-correo-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14834,7 +15207,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Peacock Bay",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-leon-correo-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14860,7 +15234,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "northern Key Lento",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-lupin-juarez-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14886,7 +15261,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "northern Capri",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-oskar-wolff-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14912,7 +15288,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Oldby Island",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-oskar-wolff-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14938,7 +15315,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "eastern Belville",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-oskar-wolff-teal.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14964,7 +15342,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Decor District",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-renata-vasquez-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14994,7 +15373,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "Bluegrass",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-renata-vasquez-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15020,7 +15400,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "western North Mariana County",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-renata-vasquez-teal.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15046,7 +15427,8 @@
     "facts": {
       "type": "Collectible card (Vice City Club de Futbol)",
       "region": "northern Southside",
-      "total": 30
+      "total": 30,
+      "menu_picture": "/images/collectibles/cards/card-vccf-sue-prettyman-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15072,7 +15454,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Buckskin Swamp",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-angel-cienfuegos-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15098,7 +15481,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Abismo Key",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-angel-cienfuegos-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15124,7 +15508,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "central Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-angel-cienfuegos-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15155,7 +15540,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Southside",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-bill-norton-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15186,7 +15572,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Little Cuba",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-charlie-spears-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15217,7 +15604,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Emerald Springs",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-elias-delgado-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15243,7 +15631,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-elias-delgado-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15269,7 +15658,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-elias-delgado-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15300,7 +15690,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Peacock Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-harold-toye-light-blue.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15326,7 +15717,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "southeastern Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-harold-toye-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15357,7 +15749,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Grayson",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-harold-toye-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15388,7 +15781,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-jude-flores-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15414,7 +15808,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "western Port Gellhorn",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-julian-cruz-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15445,7 +15840,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Little Cuba",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-julian-cruz-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15476,7 +15872,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "southern Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-julian-cruz-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15502,7 +15899,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "western Balsero",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-julian-hall-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15528,7 +15926,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Frogswater",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-mateo-caballero-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15559,7 +15958,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "central Watson Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-mateo-caballero-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15585,7 +15985,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "La Perle",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-mateo-caballero-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15616,7 +16017,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "Port Gellhorn",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-sammy-woodsworth-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15647,7 +16049,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "southern Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-thunder-lee-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15673,7 +16076,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "central Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-ulysses-whitlock-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15704,7 +16108,8 @@
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
       "region": "western Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-ulysses-whitlock-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15729,7 +16134,8 @@
     ],
     "facts": {
       "type": "Collectible card (Vice City Flamingos)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcf-ulysses-whitlock-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15760,7 +16166,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "central La Perle",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-ali-zeidan-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15786,7 +16193,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Vespucci Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-anthony-ross-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15816,7 +16224,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "western Pelican Valley",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-anthony-ross-green.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15870,7 +16279,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "northwestern Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-delord-nathan-alford-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15899,7 +16309,8 @@
     ],
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-dominic-brizzolato-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15925,7 +16336,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Catalan Key",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-dominic-brizzolato-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15955,7 +16367,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "North Mariana County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-dominic-brizzolato-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15981,7 +16394,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Corsair key",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-georgie-macklerath-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16007,7 +16421,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-georgie-macklerath-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16037,7 +16452,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "eastern Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-georgie-macklerath-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16063,7 +16479,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "southeastern Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-gouwan-marcus-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16089,7 +16506,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Rockridge",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-jacob-schneeman-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16115,7 +16533,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Casanova Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-john-morgan-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16141,7 +16560,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Casanova Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-john-morgan-green.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16171,7 +16591,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "southern Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-john-morgan-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16198,7 +16619,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Tequesta",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-junior-taufua-dusty-pink.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16227,7 +16649,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Grayson",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-junior-taufua-green.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16253,7 +16676,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "East Lummox County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-junior-taufua-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16279,7 +16703,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Lake Leonida",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-maleek-rivers-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16305,7 +16730,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "northern Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-maleek-rivers-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16331,7 +16757,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "southern West Vice-Dale County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-manniken-stills-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16357,7 +16784,8 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "Rockridge",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-reggie-pierce-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16414,7 +16842,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "southeastern Salton",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-antoine-bello-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16440,7 +16869,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "southeastern Port Gellhorn",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-beck-r-heffer-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16466,7 +16896,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "Hamlet",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-beck-r-heffer-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16492,7 +16923,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "northern Downtown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-beck-r-heffer-teal.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16518,7 +16950,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "southern La Perle",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-branko-roncevic-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16599,7 +17032,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "northeastern Downtown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-christoph-schulz-standard.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16625,7 +17059,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "northeastern Downtown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-dylan-ezequiel-mack-jr-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16651,7 +17086,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "Washington Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-dylan-ezequiel-mack-jr-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16677,7 +17113,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "southeastern Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-dylan-ezequiel-mack-jr-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16703,7 +17140,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "central Capri",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-kyle-lewicki-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16729,7 +17167,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "Port Gellhorn",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-kyle-lewicki-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16755,7 +17194,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "Bayside",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-kyle-lewicki-teal.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16780,7 +17220,8 @@
     ],
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-leroy-rook-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16806,7 +17247,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "southern Belville",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-leroy-rook-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16835,7 +17277,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "South Vice-Dale County",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-leroy-rook-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16861,7 +17304,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "Peacock Bay",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-nicky-mcvee-bronze.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16887,7 +17331,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "Ocean Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-nicky-mcvee-gold.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16912,7 +17357,8 @@
     ],
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-nicky-mcvee-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16941,7 +17387,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "southeastern Washington Island",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-otis-adams-orange.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16967,7 +17414,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "western Downtown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-otis-adams-silver.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16992,7 +17440,8 @@
     ],
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcn-otis-adams-teal.webp"
     },
     "confidence": "corroborated",
     "sources": [

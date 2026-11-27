@@ -361,3 +361,8 @@ body.is-paused { overflow: hidden; }
 /* Cheats: the rules strip above the list */
 .gm-rules { display: grid; gap: 4px; margin: 0 0 14px; padding: 10px 14px; border-left: 3px solid #ffe14d; background: rgba(0, 0, 0, 0.28); color: #f4eefe; font-size: 0.875rem; }
 .gm-rules b { font: 700 0.75rem/1.2 var(--font-display, inherit); letter-spacing: 0.08em; text-transform: uppercase; color: #ffe14d; }
+
+/* Card fronts in a set: a found card carries a tick in its corner */
+.gm-card.has-art { position: relative; }
+.gm-card-tick { position: absolute; right: 6px; top: 6px; display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: #2fd47a; color: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); }
+.gm-card-tick svg { width: 14px; height: 14px; }

@@ -241,10 +241,10 @@
       const { person, variant } = cardParts(c);
       const color = VARIANT[variant.toLowerCase()] || '#9b93b4';
       const art = !hidden && c.facts?.menu_picture ? c.facts.menu_picture : '';
-      // Not found yet: the set's back, as in the game. Found: its face (the real card where we have a
-      // capture, otherwise a drawn face framed in its variant's colour).
+      // A card with a real front shows it, found or not, with a tick once found. Without one: the set's
+      // back until found (as in the game), then a drawn face framed in its variant's colour.
+      if (art) return `<span class="gm-card has-art${t[c.slug] ? ' is-found' : ''}${big ? ' is-big' : ''}"><img src="${art}" alt="" loading="lazy" decoding="async">${t[c.slug] && !big ? `<i class="gm-card-tick" aria-hidden="true">${TICK}</i>` : ''}</span>`;
       if (!(t[c.slug] || big)) return cover(set, 'is-back');
-      if (art) return `<span class="gm-card has-art${t[c.slug] ? '' : ' is-missing'}${big ? ' is-big' : ''}"><img src="${art}" alt="" loading="lazy" decoding="async"></span>`;
       return `<span class="gm-card${t[c.slug] ? '' : ' is-missing'}${big ? ' is-big' : ''}" style="--a:${set.cover[0]};--b:${set.cover[1]};--v:${color}"><b>${esc(hidden ? 'Spoiler hidden' : person)}</b><em>${esc(variant)}</em></span>`;
     };
     const draw = (scroll = false) => {
