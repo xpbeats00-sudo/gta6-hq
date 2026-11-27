@@ -488,6 +488,8 @@ main { flex: 1; outline: none; }
   .rail-card:nth-child(even) { clip-path: polygon(0 0, 100% 9%, 100% 100%, 0 91%); }
   .rail-card img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; display: block; clip-path: inherit; }
   body[data-page='map'] .rail { display: none; }
+  /* The game-style menu screens (cards, garage, cheats, settings…) fill the window edge to edge. */
+  body.is-full-menu .rail { display: none; }
   /* Pages that open on a full-width picture: the columns wait until it has scrolled away */
   .rail { transition: opacity 0.5s ease; }
   body.has-hero:not(.past-hero) .rail { opacity: 0; }

@@ -4099,6 +4099,8 @@ function route() {
     manual: () => Manual.render(view, a, b, params, state.wiki),
   };
   (pages[name] || (EXTRA_PAGES[name] && (() => EXTRA_PAGES[name](a, b, params))) || renderNotFound)();
+  // The game-style menu screens (research.js .gm) use the whole width, so the side picture columns stand down.
+  document.body.classList.toggle('is-full-menu', Boolean(view.querySelector('.gm')));
   AFTER_RENDER.forEach((fn) => fn(name, a, b, params));
   nameWindow(name);
 

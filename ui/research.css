@@ -272,7 +272,7 @@
 .cs-groups li[aria-selected="true"] i { background: #f0a5cf; border-color: #fff; box-shadow: inset 0 0 0 2px #7a3a84; }
 .cs-groups li:hover { background: rgba(255, 255, 255, 0.07); }
 .cs-title { margin: 0 0 14px; text-align: center; font: 800 1.15rem var(--font-display); font-stretch: 85%; text-transform: uppercase; letter-spacing: 0.03em; }
-.cs-board { display: grid; grid-template-columns: 1fr minmax(220px, 300px) 1fr; gap: 14px; align-items: center; }
+.cs-board { display: grid; grid-template-columns: 1fr minmax(300px, 460px) 1fr; gap: 28px; align-items: center; }
 .cs-col { margin: 0; padding: 0; list-style: none; display: grid; gap: 7px; }
 .cs-col li { display: flex; align-items: center; gap: 8px; min-height: 24px; }
 .cs-col.is-left li { justify-content: flex-end; text-align: right; }
@@ -280,14 +280,34 @@
 .cs-act { font: 700 0.75rem/1.2 var(--font-display); text-transform: uppercase; letter-spacing: 0.03em; }
 .cs-btn { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 3px; font-size: 0.6875rem; color: var(--gm-dim); }
 .cs-col li.is-changed .cs-act { color: #ffd6ec; }
-.pad-art { display: block; width: 100%; height: auto; filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.35)); }
-.pad-body { fill: #f4f2f6; }
-.pad-dark { fill: #1c1a22; }
-.pad-stick { fill: #2a2830; stroke: #111; stroke-width: 3; }
-.pad-dpad path { fill: #2a2830; }
-.pad-btn { fill: #fff; stroke: #2a2830; stroke-width: 1.5; }
-.pad-sym { font: 700 10px var(--font-body); text-anchor: middle; fill: #2a2830; }
-.pad-sym.is-dark { fill: #111; font-size: 9px; }
+/* The controller drawings (menus.js): a white DualSense or Xbox Series pad, front on. */
+.cs-board { position: relative; }
+.pad-art { display: block; width: 100%; height: auto; filter: drop-shadow(0 14px 22px rgba(0, 0, 0, 0.4)); }
+.pad-edge { stroke: rgba(0, 0, 0, 0.18); stroke-width: 1.5; }
+.pad-trigger { fill: #c9c6cf; stroke: rgba(0, 0, 0, 0.2); stroke-width: 1.2; }
+.pad-bumper { fill: #e2dfe6; stroke: rgba(0, 0, 0, 0.22); stroke-width: 1.2; }
+.pad-touch { fill: #f6f5f8; stroke: rgba(0, 0, 0, 0.16); stroke-width: 1.5; }
+.pad-light { fill: none; stroke: #4aa3ff; stroke-width: 3; stroke-linecap: round; opacity: 0.85; }
+.pad-small { fill: #2b2a31; }
+.pad-well { fill: #121115; }
+.pad-cap { fill: #26252b; stroke: #0c0b0e; stroke-width: 2; }
+.pad-cap-top { fill: #303037; }
+.pad-mark { font: 800 13px var(--font-display); text-anchor: middle; fill: rgba(255, 255, 255, 0.28); }
+.pad-dpad-ps path { fill: #2b2a31; stroke: #0f0e12; stroke-width: 1; }
+.pad-face-ps circle:not([r="7"]) { fill: #1f1e24; stroke: #0b0a0d; stroke-width: 1; }
+.pad-face-ps path, .pad-face-ps rect, .pad-face-ps circle[r="7"] { fill: none; stroke: #b9b6c2; stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
+.pad-home circle { fill: #1f1e24; }
+.pad-home circle + circle { fill: none; stroke: #4a4950; stroke-width: 1.5; }
+.pad-guide { fill: #f8f8fa; stroke: rgba(0, 0, 0, 0.25); stroke-width: 2; }
+.pad-guide-x { stroke: #2b2a31; stroke-width: 4; stroke-linecap: round; }
+.pad-glyph { fill: none; stroke: #d8d6de; stroke-width: 1.4; }
+.pad-dpad-xb { fill: #26252b; stroke: #0c0b0e; stroke-width: 1.2; }
+.pad-face-xb circle { fill: #1c1b20; stroke: #0b0a0d; stroke-width: 1.2; }
+.pad-face-xb text { font: 800 17px var(--font-display); text-anchor: middle; }
+/* Leader lines from each action to its button, like the game's control screen. */
+.cs-leaders { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
+.cs-leaders polyline { fill: none; stroke: rgba(255, 255, 255, 0.55); stroke-width: 1.2; }
+.cs-leaders circle { fill: #fff; }
 .gl { display: inline-grid; place-items: center; min-width: 20px; height: 20px; padding: 0 4px; border-radius: 10px; background: rgba(0, 0, 0, 0.35); box-shadow: inset 0 0 0 1.5px #fff; color: #fff; font: 800 0.625rem var(--font-display); }
 .gl-face { font-size: 0.75rem; border-radius: 50%; padding: 0; width: 20px; }
 .gl-bump { border-radius: 4px; background: #fff; color: #2a1433; box-shadow: none; }
@@ -330,5 +350,6 @@ body.is-paused { overflow: hidden; }
   .pause-hints { display: none; }
   .cs, .cs-board { grid-template-columns: 1fr; }
   .cs-col.is-left li { justify-content: flex-start; flex-direction: row-reverse; text-align: left; }
+  .cs-leaders { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .pause { animation: none; } }

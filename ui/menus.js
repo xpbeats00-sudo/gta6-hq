@@ -6,7 +6,7 @@
 //   #/help           Help: the Field Manual's chapters as tabs, each topic on the left, its text on the right
 //
 // Every button and every line of help comes from the encyclopedia's controls entry and the Field
-// Manual (data/wiki, data/manual.json). The controller drawing is our own.
+// Manual (data/wiki, data/manual.json). The controller drawings (DualSense, Xbox Series) are our own.
 // Loaded after research.js; uses its helpers (window.ResearchTools) and app.js globals.
 
 (function () {
@@ -32,18 +32,114 @@
     return html.replace(/\b(Left stick|Right stick)\b/gi, (m) => `<kbd class="gl gl-stick">${m.toLowerCase().startsWith('left') ? 'L' : 'R'}</kbd>`);
   }
 
-  /** A plain controller, our own drawing: the face buttons follow the chosen platform. */
-  const controllerSvg = (pad) => `<svg class="pad-art" viewBox="0 0 320 210" aria-hidden="true">
-    <path class="pad-body" d="M70 40h180c30 0 50 24 58 62l10 60c5 28-18 44-38 32l-42-30c-8-6-16-8-26-8h-104c-10 0-18 2-26 8l-42 30c-20 12-43-4-38-32l10-60c8-38 28-62 58-62z"/>
-    <rect class="pad-dark" x="122" y="54" width="76" height="40" rx="8"/>
-    <circle class="pad-stick" cx="${pad === 'ps' ? 118 : 88}" cy="${pad === 'ps' ? 128 : 90}" r="21"/><circle class="pad-stick" cx="${pad === 'ps' ? 202 : 200}" cy="128" r="21"/>
-    <g class="pad-dpad" transform="translate(${pad === 'ps' ? 74 : 112} ${pad === 'ps' ? 90 : 128})"><path d="M-6-20h12v14h14v12h-14v14h-12v-14h-14v-12h14z"/></g>
-    <g transform="translate(246 90)">${pad === 'ps'
-      ? `<circle class="pad-btn" cx="0" cy="-18" r="9"/><circle class="pad-btn" cx="18" cy="0" r="9"/><circle class="pad-btn" cx="0" cy="18" r="9"/><circle class="pad-btn" cx="-18" cy="0" r="9"/>
-         <text x="0" y="-14" class="pad-sym">△</text><text x="18" y="4.5" class="pad-sym">○</text><text x="0" y="22.5" class="pad-sym">✕</text><text x="-18" y="4.5" class="pad-sym">□</text>`
-      : `<circle cx="0" cy="-18" r="9" fill="${XB_FACE.Y}"/><circle cx="18" cy="0" r="9" fill="${XB_FACE.B}"/><circle cx="0" cy="18" r="9" fill="${XB_FACE.A}"/><circle cx="-18" cy="0" r="9" fill="${XB_FACE.X}"/>
-         <text x="0" y="-14" class="pad-sym is-dark">Y</text><text x="18" y="4" class="pad-sym is-dark">B</text><text x="0" y="22" class="pad-sym is-dark">A</text><text x="-18" y="4" class="pad-sym is-dark">X</text>`}</g>
+  /*
+   * The controllers, front on as the game's control screen shows them: a DualSense (PlayStation 5) and an
+   * Xbox Series controller. Our own drawings of each pad's shape and button layout (no maker artwork), in
+   * a 600 x 400 box. ANCHOR gives where each button sits, so every action can draw a line to its button.
+   */
+  const ANCHOR = {
+    ps: {
+      L2: [128, 34], L1: [140, 62], R1: [460, 62], R2: [472, 34], LS: [222, 246], RS: [378, 246],
+      Up: [106, 141], Down: [106, 191], Left: [81, 166], Right: [131, 166],
+      Triangle: [494, 133], Circle: [527, 166], Cross: [494, 199], Square: [461, 166],
+      TouchPad: [300, 104], Create: [203, 96], Options: [397, 96], PS: [300, 252],
+    },
+    xbox: {
+      LT: [128, 34], LB: [140, 64], RB: [460, 64], RT: [472, 34], LS: [180, 156], RS: [372, 238],
+      Up: [228, 210], Down: [228, 266], Left: [200, 238], Right: [256, 238],
+      Y: [428, 120], B: [462, 154], A: [428, 188], X: [394, 154],
+      View: [262, 156], Menu: [338, 156], Share: [300, 192], Xbox: [300, 104],
+    },
+  };
+  const stick = (x, y, label) => `<g class="pad-stick" transform="translate(${x} ${y})"><circle r="33" class="pad-well"/><circle r="27" class="pad-cap"/><circle r="19" class="pad-cap-top"/><text y="5" class="pad-mark">${label}</text></g>`;
+  const dualsense = () => `<svg class="pad-art" viewBox="0 0 600 400" aria-hidden="true">
+    <defs><linearGradient id="ds-shell" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.7" stop-color="#eceaf0"/><stop offset="1" stop-color="#d9d6de"/></linearGradient>
+      <linearGradient id="ds-core" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b2a31"/><stop offset="1" stop-color="#16151a"/></linearGradient></defs>
+    <path class="pad-trigger" d="M92 52 C100 28 140 18 176 22 L188 44 C150 42 118 48 102 62 Z"/>
+    <path class="pad-trigger" d="M508 52 C500 28 460 18 424 22 L412 44 C450 42 482 48 498 62 Z"/>
+    <path class="pad-bumper" d="M98 74 C114 54 168 46 206 50 L210 62 C170 60 128 68 108 84 Z"/>
+    <path class="pad-bumper" d="M502 74 C486 54 432 46 394 50 L390 62 C430 60 472 68 492 84 Z"/>
+    <path fill="url(#ds-shell)" class="pad-edge" d="M150 66 C200 54 250 52 300 52 C350 52 400 54 450 66 C502 78 532 108 550 160 C570 216 586 282 589 322 C593 364 560 388 528 374 C502 362 488 336 468 308 C452 288 438 280 416 280 L184 280 C162 280 148 288 132 308 C112 336 98 362 72 374 C40 388 7 364 11 322 C14 282 30 216 50 160 C68 108 98 78 150 66 Z"/>
+    <path fill="url(#ds-core)" d="M176 128 C210 116 390 116 424 128 C440 134 446 152 448 174 L452 280 L148 280 L152 174 C154 152 160 134 176 128 Z"/>
+    <path class="pad-light" d="M214 70 C206 104 204 132 206 156"/><path class="pad-light" d="M386 70 C394 104 396 132 394 156"/>
+    <rect x="216" y="64" width="168" height="88" rx="16" class="pad-touch"/>
+    <rect x="190" y="88" width="10" height="20" rx="5" class="pad-small" transform="rotate(-12 195 98)"/>
+    <rect x="400" y="88" width="10" height="20" rx="5" class="pad-small" transform="rotate(12 405 98)"/>
+    <g class="pad-dpad-ps" transform="translate(106 166) scale(0.82)">
+      <path d="M-11 -44 h22 v20 l-11 12 l-11 -12 z"/><path d="M-11 44 h22 v-20 l-11 -12 l-11 12 z"/>
+      <path d="M-44 -11 v22 h20 l12 -11 l-12 -11 z"/><path d="M44 -11 v22 h-20 l-12 -11 l12 -11 z"/></g>
+    <g transform="translate(494 166) scale(0.92)" class="pad-face-ps">
+      <circle cy="-36" r="17"/><circle cx="36" r="17"/><circle cy="36" r="17"/><circle cx="-36" r="17"/>
+      <path d="M-7 -31 L0 -43 L7 -31 Z"/><circle cx="36" r="7"/><path d="M-6 30 L6 42 M6 30 L-6 42"/><rect x="-42" y="-6" width="12" height="12"/></g>
+    ${stick(222, 246, 'L')}${stick(378, 246, 'R')}
+    <g transform="translate(300 252)" class="pad-home"><circle r="13"/><circle r="8"/></g>
+    <rect x="290" y="270" width="20" height="5" rx="2.5" class="pad-small"/>
   </svg>`;
+  const xboxPad = () => `<svg class="pad-art" viewBox="0 0 600 400" aria-hidden="true">
+    <defs><linearGradient id="xb-shell" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="0.65" stop-color="#ebeaee"/><stop offset="1" stop-color="#d4d2d8"/></linearGradient></defs>
+    <path class="pad-trigger" d="M96 56 C104 30 142 20 178 24 L190 48 C152 46 122 52 106 66 Z"/>
+    <path class="pad-trigger" d="M504 56 C496 30 458 20 422 24 L410 48 C448 46 478 52 494 66 Z"/>
+    <path class="pad-bumper" d="M100 80 C120 58 176 50 214 56 L218 70 C176 66 132 74 112 90 Z"/>
+    <path class="pad-bumper" d="M500 80 C480 58 424 50 386 56 L382 70 C424 66 468 74 488 90 Z"/>
+    <path fill="url(#xb-shell)" class="pad-edge" d="M168 74 C214 66 250 72 300 72 C350 72 386 66 432 74 C492 84 528 118 548 172 C568 228 584 292 584 330 C584 370 548 392 516 374 C492 360 476 330 454 306 C436 288 418 282 396 282 L204 282 C182 282 164 288 146 306 C124 330 108 360 84 374 C52 392 16 370 16 330 C16 292 32 228 52 172 C72 118 108 84 168 74 Z"/>
+    <circle cx="300" cy="104" r="20" class="pad-guide"/><path class="pad-guide-x" d="M290 94 L310 114 M310 94 L290 114"/>
+    <circle cx="262" cy="156" r="9" class="pad-small"/><path class="pad-glyph" d="M257 153 h6 v5 h-6 z M260 151 h6 v5"/>
+    <circle cx="338" cy="156" r="9" class="pad-small"/><path class="pad-glyph" d="M334 152 h8 M334 156 h8 M334 160 h8"/>
+    <rect x="291" y="186" width="18" height="11" rx="5.5" class="pad-small"/>
+    ${stick(180, 156, 'L')}
+    <g transform="translate(228 238)"><circle r="34" class="pad-well"/><path class="pad-dpad-xb" d="M-9 -28 h18 v19 h19 v18 h-19 v19 h-18 v-19 h-19 v-18 h19 z"/></g>
+    ${stick(372, 238, 'R')}
+    <g transform="translate(428 154)" class="pad-face-xb">
+      <circle cy="-34" r="16"/><circle cx="34" r="16"/><circle cy="34" r="16"/><circle cx="-34" r="16"/>
+      <text y="-28" fill="${XB_FACE.Y}">Y</text><text x="34" y="6" fill="${XB_FACE.B}">B</text><text y="40" fill="${XB_FACE.A}">A</text><text x="-34" y="6" fill="${XB_FACE.X}">X</text></g>
+  </svg>`;
+  const controllerSvg = (pad) => (pad === 'ps' ? dualsense() : xboxPad());
+
+  /** Which button a control's text names first, as a key into ANCHOR (null if it names none we draw). */
+  function anchorOf(text, pad) {
+    const t = plain(text);
+    const d = /D-pad (Up|Down|Left|Right)/.exec(t);
+    const words = pad === 'ps'
+      ? [[/\bL3\b|left stick/i, 'LS'], [/\bR3\b|right stick|^R\b/i, 'RS'], [/\bL2\b/, 'L2'], [/\bL1\b/, 'L1'], [/\bR2\b/, 'R2'], [/\bR1\b/, 'R1'],
+          [/\bCross\b/, 'Cross'], [/\bCircle\b/, 'Circle'], [/\bSquare\b/, 'Square'], [/\bTriangle\b/, 'Triangle'], [/Touch Pad/i, 'TouchPad'], [/\bOptions\b/, 'Options'], [/\bCreate\b/, 'Create']]
+      : [[/\bLS\b|left stick/i, 'LS'], [/\bRS\b|right stick/i, 'RS'], [/\bLT\b/, 'LT'], [/\bLB\b/, 'LB'], [/\bRT\b/, 'RT'], [/\bRB\b/, 'RB'], [/\bView\b/, 'View'], [/\bMenu\b/, 'Menu'],
+          [/(^|[^\w])A(?!\w)/, 'A'], [/(^|[^\w])B(?!\w)/, 'B'], [/(^|[^\w])X(?!\w)/, 'X'], [/(^|[^\w])Y(?!\w)/, 'Y']];
+    // The button named first in the text wins (so "Hold L2, then R3" points at L2).
+    let best = null;
+    for (const [re, key] of words) { const m = re.exec(t); if (m && (!best || m.index < best.i)) best = { i: m.index, key }; }
+    if (d && (!best || d.index < best.i)) return d[1];
+    return best ? best.key : null;
+  }
+
+  /** Draw a leader line from each action to its button, over the board; redrawn when the board resizes. */
+  function drawLeaders(board, pad) {
+    const art = board.querySelector('.pad-art');
+    if (!art) return;
+    let layer = board.querySelector('.cs-leaders');
+    if (!layer) { layer = document.createElementNS('http://www.w3.org/2000/svg', 'svg'); layer.setAttribute('class', 'cs-leaders'); layer.setAttribute('aria-hidden', 'true'); board.appendChild(layer); }
+    const draw = () => {
+      if (!board.isConnected) return;
+      const b = board.getBoundingClientRect();
+      const a = art.getBoundingClientRect();
+      layer.setAttribute('viewBox', `0 0 ${b.width} ${b.height}`);
+      const sx = a.width / 600, sy = a.height / 400;
+      layer.innerHTML = [...board.querySelectorAll('li[data-anchor]')].map((li) => {
+        const pt = ANCHOR[pad][li.dataset.anchor];
+        if (!pt) return '';
+        const end = [a.left - b.left + pt[0] * sx, a.top - b.top + pt[1] * sy];
+        const r = li.querySelector('.cs-btn').getBoundingClientRect();
+        const left = li.closest('.is-left');
+        const start = [left ? r.right - b.left + 8 : r.left - b.left - 8, r.top - b.top + r.height / 2];
+        const elbow = left ? Math.max(start[0] + 10, a.left - b.left + 10) : Math.min(start[0] - 10, a.right - b.left - 10);
+        return `<polyline points="${start.join(',')} ${elbow},${start[1]} ${end.join(',')}"/><circle cx="${end[0]}" cy="${end[1]}" r="3.5"/>`;
+      }).join('');
+    };
+    draw();
+    if (window.ResizeObserver) {
+      const ro = new ResizeObserver(() => { if (!board.isConnected) { ro.disconnect(); return; } draw(); });
+      ro.observe(board);
+    }
+  }
 
   // ---------- the controls, read from the encyclopedia's controls entry ----------
 
@@ -88,9 +184,15 @@
       const group = names[sel];
       let rows = groups.get(group) || [];
       if (scheme === 1) rows = classic(rows, group);
-      const left = rows.slice(0, Math.ceil(rows.length / 2));
-      const right = rows.slice(Math.ceil(rows.length / 2));
-      const side = (list, cls) => `<ul class="cs-col ${cls}">${list.map((r) => `<li class="${r.changed ? 'is-changed' : ''}"><span class="cs-act">${esc(r.action)}</span><span class="cs-btn">${glyphs(pad === 'ps' ? r.ps : r.xbox, pad)}</span></li>`).join('')}</ul>`;
+      // Each action sits on the side of the pad its button is on (as the game lays it out), top to bottom in
+      // the order its buttons sit; centre buttons and actions with no drawn button fill the shorter side.
+      const placed = rows.map((r) => { const key = anchorOf(pad === 'ps' ? r.ps : r.xbox, pad); return { ...r, key, pt: key ? ANCHOR[pad][key] : null }; });
+      const left = [], right = [], middle = [];
+      placed.forEach((r) => (!r.pt || (r.pt[0] > 270 && r.pt[0] < 330) ? middle : r.pt[0] < 300 ? left : right).push(r));
+      middle.forEach((r) => (left.length <= right.length ? left : right).push(r));
+      const byHeight = (x, y) => (x.pt ? x.pt[1] : 999) - (y.pt ? y.pt[1] : 999);
+      left.sort(byHeight); right.sort(byHeight);
+      const side = (list, cls) => `<ul class="cs-col ${cls}">${list.map((r) => `<li class="${r.changed ? 'is-changed' : ''}"${r.key ? ` data-anchor="${r.key}"` : ''}><span class="cs-act">${esc(r.action)}</span><span class="cs-btn">${glyphs(pad === 'ps' ? r.ps : r.xbox, pad)}</span></li>`).join('')}</ul>`;
       pane.innerHTML = `<div class="cs">
         <div class="cs-left">
           <h2 class="cs-h">Control scheme</h2>
@@ -107,6 +209,8 @@
           ${scheme === 1 ? `<p class="gm-note">${esc(schemes.find((x) => x.name === 'Classic')?.text || '')}</p>` : ''}
           <p class="gm-note">A "?" means no source we use gives that button yet. <a href="${entryLink('gameplay', 'controls')}">Sources</a></p>`}
         </div></div>`;
+      const board = pane.querySelector('.cs-board');
+      if (board) requestAnimationFrame(() => drawLeaders(board, pad));
     };
     const drawOptions = () => {
       pane.innerHTML = `<div class="gm-split"><div class="gm-left"><ul class="gm-list">${schemes.map((s) => `<li><span>${esc(s.name)}</span></li>`).join('')}</ul></div>
