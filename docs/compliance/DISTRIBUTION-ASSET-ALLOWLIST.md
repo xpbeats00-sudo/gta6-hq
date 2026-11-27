@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-27 15:19 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-27 15:55 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -34,7 +34,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/map-icons/wyman-car.svg`
 - `images/map-icons/yellow-loot-box.svg`
 
-## Local personal use only (2647)
+## Local personal use only (2646)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -1793,7 +1793,6 @@ Only files listed under "Approved" may go into a public release package.
 - `images/vehicles/mammoth-streamer216.jpg`
 - `images/vehicles/menu/64-mamba-gt.jpg`
 - `images/vehicles/menu/65-vapid-dominator.jpg`
-- `images/vehicles/menu/70-riata.jpg`
 - `images/vehicles/menu/72-deviant.jpg`
 - `images/vehicles/menu/airboat-09.jpg`
 - `images/vehicles/menu/albany-buccaneer-65.jpg`

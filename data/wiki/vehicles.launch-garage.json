@@ -8097,8 +8097,7 @@
       "PowerPyx gives no maker; the Vapid attribution is GTABase's, whose page pictures the car with Rockstar's Wyman car collection artwork.",
       "IGN places the three Riata wrecks in the south: by a jet ski on a driveway across the road from the Key Lento police impound, in a carport at the water's edge in Southwind past the Xero gas station, and under the carport of an abandoned gas station on Old Fort Road in Shoeless Keys, south of Hamlet.",
       "IGN says the restored '70 Riata costs 1,500 dollars in labour, paid to Wyman through BuckMe.",
-      "In-game stat bars (out of 10): Speed 2.8, Acceleration 2.6, Asphalt handling 3.2, Off-road handling 6.6, Strength 3.0, as read by GTABase only so far.",
-      "MetaForge's GTA 6 database pictures it in the game's vehicle menu as the '70 Vapid Riata."
+      "In-game stat bars (out of 10): Speed 2.8, Acceleration 2.6, Asphalt handling 3.2, Off-road handling 6.6, Strength 3.0, as read by GTABase only so far."
     ],
     "tags": [
       "classic",
@@ -8119,8 +8118,7 @@
       "offroad_handling": 6.6,
       "strength": 3.0,
       "where": "GTABase: A vehicle Wyman asks for.; Wyman's Classic Cars (Ultimate Edition, from Chapter 2): scan 3 scrap locations, then pay a $1,500 mechanics fee via BuckMe; register at a Pay 'n' Spray for $100 or park it in a garage, otherwise it returns to Wyman's scrapyard (Push Square).",
-      "based_on": "First-generation Ford Bronco",
-      "menu_picture": "/images/vehicles/menu/70-riata.jpg"
+      "based_on": "First-generation Ford Bronco"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8132,6 +8130,6 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "image": "/images/vehicles/menu/70-riata.jpg"
+    "image": "/images/vehicles/70-riata.jpg"
   }
 ]
