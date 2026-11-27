@@ -36,7 +36,7 @@
       "weapon_class": "Compact Pistol",
       "mods": "Barrel, Magazine, Suppressor, Sight",
       "paid_with": "Cash",
-      "menu_picture": "/images/weapons/menu/scorpio-nipper-38.jpg",
+      "menu_picture": "/images/weapons/gtabase/scorpio-nipper-38.jpg",
       "menu_text": "Compact, discreet pistol produced by Scorpio. Easily concealed until needed."
     },
     "confidence": "corroborated",
@@ -50,7 +50,8 @@
       "trackergg",
       "ppx-menu-weapons"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/weapons/gtabase/scorpio-nipper-38.jpg"
   },
   {
     "slug": "duke-1922",
@@ -89,7 +90,7 @@
       "weapon_class": "Heavy Pistol",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/duke-1922.jpg",
+      "menu_picture": "/images/weapons/gtabase/duke-1922.jpg",
       "menu_text": "Timeless American classic with extra stopping power, manufactured by Duke."
     },
     "confidence": "corroborated",
@@ -106,7 +107,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/duke-1922.jpg"
   },
   {
     "slug": "girardi-es18",
@@ -146,7 +148,7 @@
       "weapon_class": "Burst Pistol",
       "mods": "Barrel, Magazine, Suppressor, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/girardi-es18.jpg",
+      "menu_picture": "/images/weapons/gtabase/girardi-es18.jpg",
       "menu_text": "Uncommon burst fire machine pistol manufactured by Girardi. Speed tempered with control."
     },
     "confidence": "corroborated",
@@ -161,7 +163,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/girardi-es18.jpg"
   },
   {
     "slug": "klose-k17-mcd",
@@ -202,7 +205,7 @@
       "weapon_class": "Automatic Pistol",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/klose-k17-mcd.jpg",
+      "menu_picture": "/images/weapons/gtabase/klose-k17-mcd.jpg",
       "menu_text": "Modified Klose pistol with full-auto functionality. Great for suppressing fire."
     },
     "confidence": "corroborated",
@@ -217,7 +220,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/klose-k17-mcd.jpg"
   },
   {
     "slug": "fairview-kalinga-50",
@@ -255,7 +259,7 @@
       "weapon_class": ".50 Cal Pistol",
       "mods": "Barrel, Flashlight, Magazine, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/fairview-kalinga-50.jpg",
+      "menu_picture": "/images/weapons/gtabase/fairview-kalinga-50.jpg",
       "menu_text": "Heavy pistol manufactured by Fairview. Punches well above its weight."
     },
     "confidence": "corroborated",
@@ -269,7 +273,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/fairview-kalinga-50.jpg"
   },
   {
     "slug": "hawk-and-little-38",
@@ -309,7 +314,7 @@
       "mods": "Barrel, Sight",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/hawk-and-little-38.jpg",
+      "menu_picture": "/images/weapons/gtabase/hawk-and-little-38.jpg",
       "menu_text": "Classic Hawk & Little revolver. An American tradition."
     },
     "confidence": "corroborated",
@@ -323,7 +328,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hawk-and-little-38.jpg"
   },
   {
     "slug": "duke-mustang-357",
@@ -363,7 +369,7 @@
       "mods": "Barrel, Sight",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/duke-mustang-357.jpg",
+      "menu_picture": "/images/weapons/gtabase/duke-mustang-357.jpg",
       "menu_text": "Duke revolver with added kick. Great for a one-shot kill."
     },
     "confidence": "corroborated",
@@ -377,7 +383,8 @@
       "trackergg",
       "ppx-menu-weapons"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/weapons/gtabase/duke-mustang-357.jpg"
   },
   {
     "slug": "wortham-wcr1",
@@ -415,7 +422,8 @@
       "weapon_class": "Compact Revolver",
       "mods": "Barrel",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/wortham-wcr1.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -427,7 +435,8 @@
       "r8gb-weapons-wcr1"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/wortham-wcr1.jpg"
   },
   {
     "slug": "scorpio-akulus",
@@ -464,7 +473,7 @@
       "weapon_class": "Heavy Revolver",
       "mods": "Barrel, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/scorpio-akulus.jpg",
+      "menu_picture": "/images/weapons/gtabase/scorpio-akulus.jpg",
       "menu_text": "Heavy revolver with stopping power to spare. Manufactured by Scorpio."
     },
     "confidence": "corroborated",
@@ -478,7 +487,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/scorpio-akulus.jpg"
   },
   {
     "slug": "vom-feuer-vf5",
@@ -518,7 +528,8 @@
       "weapon_class": "Military SMG",
       "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "paid_with": "BuckMe",
-      "menu_text": "Iconic SMG manufactured by Vom Feuer. A longarm favored by SWAT for decades."
+      "menu_text": "Iconic SMG manufactured by Vom Feuer. A longarm favored by SWAT for decades.",
+      "menu_picture": "/images/weapons/gtabase/vom-feuer-vf5.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -531,7 +542,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/vom-feuer-vf5.jpg"
   },
   {
     "slug": "wortham-w-10",
@@ -565,7 +577,8 @@
       "range": 3.5,
       "weapon_class": "Micro SMG",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/wortham-w-10.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -576,7 +589,8 @@
       "r8gb-weapons-mac-11"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/wortham-w-10.jpg"
   },
   {
     "slug": "zhang-wu-type-9",
@@ -613,7 +627,7 @@
       "weapon_class": "Machine Pistol",
       "mods": "Barrel, Grip, Magazine, Suppressor, Sight, Stock",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/zhang-wu-type-9.jpg",
+      "menu_picture": "/images/weapons/gtabase/zhang-wu-type-9.jpg",
       "menu_text": "Machine pistol mass-produced by Zhang Wu. Small but deadly, especially at close range."
     },
     "confidence": "corroborated",
@@ -626,7 +640,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/zhang-wu-type-9.jpg"
   },
   {
     "slug": "deever-tech-dsg",
@@ -662,7 +677,7 @@
       "weapon_class": "Tactical SMG",
       "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/deever-tech-dsg.jpg",
+      "menu_picture": "/images/weapons/gtabase/deever-tech-dsg.jpg",
       "menu_text": "Burst fire SMG produced by Deever Tech. Ideal for precision engagements. STANOLRO ISSUE STATS 4.2 6.9 4.0"
     },
     "confidence": "corroborated",
@@ -675,7 +690,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/deever-tech-dsg.jpg"
   },
   {
     "slug": "vom-feuer-vf5c",
@@ -714,7 +730,7 @@
       "weapon_class": "Compact Military SMG",
       "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/vom-feuer-vf5c.jpg",
+      "menu_picture": "/images/weapons/gtabase/vom-feuer-vf5c.jpg",
       "menu_text": "Compact variant of the Vom Feuer VF5. Shorter, but no less iconic."
     },
     "confidence": "corroborated",
@@ -728,7 +744,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/vom-feuer-vf5c.jpg"
   },
   {
     "slug": "schlamm-dw-9",
@@ -764,7 +781,8 @@
       "range": 4,
       "weapon_class": "Combat SMG",
       "mods": "Barrel, Grip, Flashlight, Magazine, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/schlamm-dw-9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -775,7 +793,8 @@
       "r8gb-weapons-dw9"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/schlamm-dw-9.jpg"
   },
   {
     "slug": "bzi-vatra",
@@ -809,7 +828,8 @@
       "range": 4,
       "weapon_class": "Heavy SMG",
       "mods": "Barrel, Grip, Flashlight, Magazine, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/bzi-vatra.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -820,7 +840,8 @@
       "r8gb-weapons-micro-smg"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/bzi-vatra.jpg"
   },
   {
     "slug": "mason-and-keen-longshot",
@@ -861,7 +882,7 @@
       "mods": "Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/mason-and-keen-longshot.jpg",
+      "menu_picture": "/images/weapons/gtabase/mason-and-keen-longshot.jpg",
       "menu_text": "British hunting shotgun by Mason & Keen. Elegant and refined."
     },
     "confidence": "corroborated",
@@ -876,7 +897,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/mason-and-keen-longshot.jpg"
   },
   {
     "slug": "fortune-and-son-moreland-850",
@@ -916,7 +938,7 @@
       "range": 2.5,
       "weapon_class": "Pump Action Shotgun",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "menu_picture": "/images/weapons/menu/fortune-and-son-moreland-850.jpg",
+      "menu_picture": "/images/weapons/gtabase/fortune-and-son-moreland-850.jpg",
       "menu_text": "Classic pump-action shotgun made by Fortune & Son. Perfect for home defense."
     },
     "confidence": "corroborated",
@@ -934,7 +956,8 @@
       "trackergg",
       "ppx-menu-weapons"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/weapons/gtabase/fortune-and-son-moreland-850.jpg"
   },
   {
     "slug": "girardi-verro",
@@ -973,7 +996,7 @@
       "mods": "Flashlight, Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/girardi-verro.jpg",
+      "menu_picture": "/images/weapons/gtabase/girardi-verro.jpg",
       "menu_text": "Short semi-automatic shotgun. Compact, light, and devastating."
     },
     "confidence": "corroborated",
@@ -988,7 +1011,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/girardi-verro.jpg"
   },
   {
     "slug": "girardi-az1200",
@@ -1027,7 +1051,7 @@
       "mods": "Flashlight, Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/girardi-az1200.jpg",
+      "menu_picture": "/images/weapons/gtabase/girardi-az1200.jpg",
       "menu_text": "Semi-automatic shotgun produced by Girardi. Excels at sustained force."
     },
     "confidence": "corroborated",
@@ -1042,7 +1066,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/girardi-az1200.jpg"
   },
   {
     "slug": "fortune-and-son-gorse-425",
@@ -1080,7 +1105,7 @@
       "range": 2,
       "weapon_class": "Stubby Shotgun",
       "mods": "Grip, Flashlight, Suppressor, Sight, Stock",
-      "menu_picture": "/images/weapons/menu/fortune-and-son-gorse-425.jpg",
+      "menu_picture": "/images/weapons/gtabase/fortune-and-son-gorse-425.jpg",
       "menu_text": "Short pump-action shotgun made by Fortune & Son. Ideal for self-defense."
     },
     "confidence": "corroborated",
@@ -1095,7 +1120,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/fortune-and-son-gorse-425.jpg"
   },
   {
     "slug": "shrewsbury-drifter",
@@ -1133,7 +1159,7 @@
       "weapon_class": "Double Barrel Shotgun",
       "mods": "Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/shrewsbury-drifter.jpg",
+      "menu_picture": "/images/weapons/gtabase/shrewsbury-drifter.jpg",
       "menu_text": "Timeless side-by-side shotgun, designed for hunting by Shrewsbury."
     },
     "confidence": "corroborated",
@@ -1148,7 +1174,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/shrewsbury-drifter.jpg"
   },
   {
     "slug": "shrewsbury-hobo",
@@ -1186,7 +1213,7 @@
       "weapon_class": "Double Barrel Sawed-Off",
       "mods": "Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/shrewsbury-hobo.jpg",
+      "menu_picture": "/images/weapons/gtabase/shrewsbury-hobo.jpg",
       "menu_text": "Modified Shrewsbury hunting shotgun. Sawed-off and short enough to aim in tight spaces."
     },
     "confidence": "corroborated",
@@ -1201,7 +1228,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/shrewsbury-hobo.jpg"
   },
   {
     "slug": "mason-and-keen-shortstraw",
@@ -1243,7 +1271,8 @@
       "mods": "Sight",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_text": "Sawed-off Mason & Keen hunting shotgun, modified for close-quarters combat."
+      "menu_text": "Sawed-off Mason & Keen hunting shotgun, modified for close-quarters combat.",
+      "menu_picture": "/images/weapons/gtabase/mason-and-keen-shortstraw.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1257,7 +1286,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/mason-and-keen-shortstraw.jpg"
   },
   {
     "slug": "goodwin-comshot-12",
@@ -1294,7 +1324,7 @@
       "weapon_class": "Combat Shotgun",
       "mods": "Flashlight, Suppressor, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/goodwin-comshot-12.jpg",
+      "menu_picture": "/images/weapons/gtabase/goodwin-comshot-12.jpg",
       "menu_text": "Sturdy semi-automatic shotgun manufactured by Goodwin. Great for clearing a building."
     },
     "confidence": "corroborated",
@@ -1308,7 +1338,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/goodwin-comshot-12.jpg"
   },
   {
     "slug": "girardi-super400",
@@ -1345,7 +1376,7 @@
       "weapon_class": "Heavy Shotgun",
       "mods": "Grip, Flashlight, Suppressor, Sight, Stock",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/girardi-super400.jpg",
+      "menu_picture": "/images/weapons/gtabase/girardi-super400.jpg",
       "menu_text": "Tactical semi-automatic shotgun from Girardi. Favored by the military."
     },
     "confidence": "corroborated",
@@ -1359,7 +1390,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/girardi-super400.jpg"
   },
   {
     "slug": "kozlov-kvga-12",
@@ -1397,7 +1429,7 @@
       "weapon_class": "Auto Shotgun",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/kozlov-kvga-12.jpg",
+      "menu_picture": "/images/weapons/gtabase/kozlov-kvga-12.jpg",
       "menu_text": "Fully automatic Kozlov shotgun. Fires nearly as fast as an assault rifle."
     },
     "confidence": "corroborated",
@@ -1411,7 +1443,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kozlov-kvga-12.jpg"
   },
   {
     "slug": "kozlov-kz-59",
@@ -1450,7 +1483,7 @@
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/kozlov-kz-59.jpg",
+      "menu_picture": "/images/weapons/gtabase/kozlov-kz-59.jpg",
       "menu_text": "Powerful, dependable assault rifle manufactured by Kozlov. Used by militaries and militias worldwide."
     },
     "confidence": "corroborated",
@@ -1465,7 +1498,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kozlov-kz-59.jpg"
   },
   {
     "slug": "hillinger-heathen",
@@ -1504,7 +1538,7 @@
       "weapon_class": "Bullpup Rifle",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/hillinger-heathen.jpg",
+      "menu_picture": "/images/weapons/gtabase/hillinger-heathen.jpg",
       "menu_text": "Versatile assault rifle produced by Hillinger. Great for precision strikes."
     },
     "confidence": "corroborated",
@@ -1518,7 +1552,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hillinger-heathen.jpg"
   },
   {
     "slug": "duke-556",
@@ -1557,7 +1592,7 @@
       "weapon_class": "Carbine Rifle",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/duke-556.jpg",
+      "menu_picture": "/images/weapons/gtabase/duke-556.jpg",
       "menu_text": "America's favorite rifle. Its dependability is valued on both sides of the law."
     },
     "confidence": "corroborated",
@@ -1572,7 +1607,8 @@
       "trackergg",
       "ppx-menu-weapons"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/weapons/gtabase/duke-556.jpg"
   },
   {
     "slug": "kozlov-hind",
@@ -1609,7 +1645,7 @@
       "weapon_class": "Compact Assault Rifle",
       "mods": "Magazine, Suppressor, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/kozlov-hind.jpg",
+      "menu_picture": "/images/weapons/gtabase/kozlov-hind.jpg",
       "menu_text": "Shortened Kozlov KZ-59 assault rifle. Aftermarket alterations make it easy to maneuver at close quarters."
     },
     "confidence": "corroborated",
@@ -1623,7 +1659,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kozlov-hind.jpg"
   },
   {
     "slug": "vom-feuer-vf-g1",
@@ -1660,7 +1697,8 @@
       "range": 6.5,
       "weapon_class": "Special Carbine",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/vom-feuer-vf-g1.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1672,7 +1710,8 @@
       "r8gb-weapons-vf-g1"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/vom-feuer-vf-g1.jpg"
   },
   {
     "slug": "adb-fra",
@@ -1709,7 +1748,8 @@
       "weapon_class": "Battle Rifle",
       "mods": "Barrel, Grip, Magazine, Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/adb-fra.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1721,7 +1761,8 @@
       "r8gb-weapons-fra"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/adb-fra.jpg"
   },
   {
     "slug": "wortham-w-22",
@@ -1755,7 +1796,7 @@
       "accuracy": 8,
       "handling": 5.8,
       "range": 7,
-      "menu_picture": "/images/weapons/menu/wortham-w-22.jpg",
+      "menu_picture": "/images/weapons/gtabase/wortham-w-22.jpg",
       "menu_text": "Small game rifle from Wortham. Perfect for hunting critters."
     },
     "confidence": "corroborated",
@@ -1768,7 +1809,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/wortham-w-22.jpg"
   },
   {
     "slug": "hillinger-m306",
@@ -1806,7 +1848,7 @@
       "mods": "Barrel, Magazine, Suppressor, Sight",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/hillinger-m306.jpg",
+      "menu_picture": "/images/weapons/gtabase/hillinger-m306.jpg",
       "menu_text": "Powerful semi-auto rifle manufactured by Hillinger. Formerly used by the military."
     },
     "confidence": "corroborated",
@@ -1820,7 +1862,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hillinger-m306.jpg"
   },
   {
     "slug": "hawk-and-little-mediator",
@@ -1863,7 +1906,7 @@
       "weapon_class": "Tactical Rifle",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "paid_with": "BuckMe, Cash",
-      "menu_picture": "/images/weapons/menu/hawk-and-little-mediator.jpg",
+      "menu_picture": "/images/weapons/gtabase/hawk-and-little-mediator.jpg",
       "menu_text": "Modern 9mm carbine from Hawk & Little. Excels in multiple roles."
     },
     "confidence": "corroborated",
@@ -1880,7 +1923,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hawk-and-little-mediator.jpg"
   },
   {
     "slug": "wortham-w-14",
@@ -1919,7 +1963,7 @@
       "weapon_class": "Combat Rifle",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/wortham-w-14.jpg",
+      "menu_picture": "/images/weapons/gtabase/wortham-w-14.jpg",
       "menu_text": "Miniature tactical rifle produced by Wortham. Accurate and tough as nails."
     },
     "confidence": "corroborated",
@@ -1935,7 +1979,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/wortham-w-14.jpg"
   },
   {
     "slug": "hillinger-m306-tmr",
@@ -1976,7 +2021,7 @@
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight",
       "where": "Store unlock at Big Shots: Get gold in all ranges (The Leonida)",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/hillinger-m306-tmr.jpg",
+      "menu_picture": "/images/weapons/gtabase/hillinger-m306-tmr.jpg",
       "menu_text": "Modern upgrade to the M306 rifle, produced by Hillinger for the Navy ORCAs."
     },
     "confidence": "corroborated",
@@ -1991,7 +2036,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hillinger-m306-tmr.jpg"
   },
   {
     "slug": "fairview-ff-sr",
@@ -2028,7 +2074,7 @@
       "weapon_class": "Combat Sniper Rifle",
       "mods": "Barrel, Grip, Suppressor, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/fairview-ff-sr.jpg",
+      "menu_picture": "/images/weapons/gtabase/fairview-ff-sr.jpg",
       "menu_text": "Military-issue sniper rifle manufactured by Fairview. Easily picks off enemy combatants."
     },
     "confidence": "corroborated",
@@ -2042,7 +2088,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/fairview-ff-sr.jpg"
   },
   {
     "slug": "shrewsbury-sm-69",
@@ -2082,7 +2129,8 @@
       "weapon_class": "Hunting Sniper Rifle",
       "mods": "Barrel, Magazine, Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida); Free pickup on the top platform of the radio tower in the starting area (Key Lento), per creators quoted by Heist Lounge; Legacy Gaming names it the Shrewsbury SM69 (Heist Lounge)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/shrewsbury-sm-69.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2098,7 +2146,8 @@
       "ppx-sniper"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/shrewsbury-sm-69.jpg"
   },
   {
     "slug": "fortune-and-son-laird-350",
@@ -2138,7 +2187,7 @@
       "weapon_class": "Sporting Sniper Rifle",
       "mods": "Barrel, Suppressor, Sight, Stock",
       "paid_with": "Cash",
-      "menu_picture": "/images/weapons/menu/fortune-and-son-laird-350.jpg",
+      "menu_picture": "/images/weapons/gtabase/fortune-and-son-laird-350.jpg",
       "menu_text": "Sniper rifle trusted by hunters everywhere, produced by Fortune & Son."
     },
     "confidence": "corroborated",
@@ -2153,7 +2202,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/fortune-and-son-laird-350.jpg"
   },
   {
     "slug": "fairview-ff-50",
@@ -2190,7 +2240,7 @@
       "weapon_class": "Heavy Sniper Rifle",
       "mods": "Grip, Suppressor, Sight",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/fairview-ff-50.jpg",
+      "menu_picture": "/images/weapons/gtabase/fairview-ff-50.jpg",
       "menu_text": "Anti-materiel rifle manufactured by Fairview. Devastating at range."
     },
     "confidence": "corroborated",
@@ -2204,7 +2254,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/fairview-ff-50.jpg"
   },
   {
     "slug": "shrewsbury-sms-01",
@@ -2239,7 +2290,8 @@
       "range": 8.4,
       "weapon_class": "Advanced Sniper Rifle",
       "mods": "Barrel, Magazine, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/shrewsbury-sms-01.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2250,7 +2302,8 @@
       "r8gb-weapons-sms-01"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/shrewsbury-sms-01.jpg"
   },
   {
     "slug": "goodwin-lmg-6",
@@ -2279,7 +2332,7 @@
       "accuracy": 2.8,
       "handling": 2.8,
       "range": 6.5,
-      "menu_picture": "/images/weapons/goodwin-lmg-6.jpg",
+      "menu_picture": "/images/weapons/gtabase/goodwin-lmg-6.jpg",
       "menu_text": "Powerful light machine gun produced by Goodwin. Capable of sustained destruction."
     },
     "confidence": "corroborated",
@@ -2291,7 +2344,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/goodwin-lmg-6.jpg"
   },
   {
     "slug": "adb-m350",
@@ -2327,7 +2381,8 @@
       "range": 6.2,
       "weapon_class": "Combat Machine Gun",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/adb-m350.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2339,7 +2394,8 @@
       "r8gb-weapons-combat-mg"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/adb-m350.jpg"
   },
   {
     "slug": "hillinger-boomer",
@@ -2375,7 +2431,7 @@
       "weapon_class": "Compact Grenade Launcher",
       "mods": "Stock",
       "paid_with": "BuckMe",
-      "menu_picture": "/images/weapons/menu/hillinger-boomer.jpg",
+      "menu_picture": "/images/weapons/gtabase/hillinger-boomer.jpg",
       "menu_text": "Military grenade launcher manufactured by Hillinger. Fires single 40mm grenades."
     },
     "confidence": "corroborated",
@@ -2388,7 +2444,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hillinger-boomer.jpg"
   },
   {
     "slug": "deever-tech-glr40",
@@ -2421,7 +2478,8 @@
       "damage": 9.2,
       "accuracy": 6,
       "handling": 5,
-      "range": 4
+      "range": 4,
+      "menu_picture": "/images/weapons/gtabase/deever-tech-glr40.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2432,7 +2490,8 @@
       "ppx-launchers"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/deever-tech-glr40.jpg"
   },
   {
     "slug": "hauners-h-at",
@@ -2466,7 +2525,7 @@
       "accuracy": 4.5,
       "handling": 3,
       "range": 8,
-      "menu_picture": "/images/weapons/menu/hauners-h-at.jpg",
+      "menu_picture": "/images/weapons/gtabase/hauners-h-at.jpg",
       "menu_text": "Shoulder-fired rocket launcher manufactured by Hauners. Deadly against vehicles."
     },
     "confidence": "corroborated",
@@ -2480,7 +2539,7 @@
     ],
     "verified": "2026-11-26",
     "spoiler": true,
-    "image": "/images/weapons/hauners-h-at.jpg"
+    "image": "/images/weapons/gtabase/hauners-h-at.jpg"
   },
   {
     "slug": "killtelligence-sm-69",
@@ -2511,7 +2570,8 @@
       "accuracy": 9.2,
       "handling": 1.8,
       "range": 9.3,
-      "where": "Given by Bret Vogel when you start the hunting side missions. (GTA Scoop)"
+      "where": "Given by Bret Vogel when you start the hunting side missions. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/killtelligence-sm-69.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2525,7 +2585,8 @@
       "r8gb-weapons-killtelligence-sm-69"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/killtelligence-sm-69.jpg"
   },
   {
     "slug": "gutterball-moreland-850",
@@ -2550,7 +2611,8 @@
       "accuracy": 5.7,
       "handling": 3.6,
       "range": 2.9,
-      "where": "The Gutterball Moreland 850 is looted during the Kingpin Bowling Illegal Operation, at the abandoned bowling alley in south Port Gellhorn. (GTABase); Loot from the Kingpin Bowling Illegal Operation in south Port Gellhorn. (GTA Scoop)"
+      "where": "The Gutterball Moreland 850 is looted during the Kingpin Bowling Illegal Operation, at the abandoned bowling alley in south Port Gellhorn. (GTABase); Loot from the Kingpin Bowling Illegal Operation in south Port Gellhorn. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/gutterball-moreland-850.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2561,7 +2623,8 @@
       "ppx-trophy"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/gutterball-moreland-850.jpg"
   },
   {
     "slug": "duval-signature-es9",
@@ -2590,7 +2653,8 @@
       "accuracy": 5.5,
       "handling": 8.2,
       "range": 4.7,
-      "where": "Ultimate Edition bonus. (GTA Scoop)"
+      "where": "Ultimate Edition bonus. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/duval-signature-es9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2601,7 +2665,8 @@
       "ppx-ultimate"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/duval-signature-es9.jpg"
   },
   {
     "slug": "caminos-signature-k17",
@@ -2628,7 +2693,8 @@
       "damage": 4,
       "accuracy": 4.2,
       "handling": 8.5,
-      "range": 3.8
+      "range": 3.8,
+      "menu_picture": "/images/weapons/gtabase/caminos-signature-k17.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2637,7 +2703,8 @@
       "ppx-ultimate"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/caminos-signature-k17.jpg"
   },
   {
     "slug": "sticky-bombs",
@@ -2663,7 +2730,8 @@
       "type": "explosive",
       "availability": "Ammu-Nation after the Chapter 3 mission Credit Check; free at Yasmani's",
       "price": "$185",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/sticky-bombs.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2676,7 +2744,8 @@
       "ppx-trophy"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/sticky-bombs.jpg"
   },
   {
     "slug": "binoculars",

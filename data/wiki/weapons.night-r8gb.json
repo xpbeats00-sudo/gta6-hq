@@ -33,7 +33,8 @@
       "range": 4.2,
       "weapon_class": "Assault SMG",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/adb-pd-90.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -45,6 +46,7 @@
       "r8gb-weapons-pd-90"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/adb-pd-90.jpg"
   }
 ]

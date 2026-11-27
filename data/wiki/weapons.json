@@ -23,7 +23,8 @@
       "damage": 5.7,
       "accuracy": 5.4,
       "handling": 7.8,
-      "range": 6
+      "range": 6,
+      "menu_picture": "/images/weapons/gtabase/hawk-and-little-morgan-revolvers.jpg"
     },
     "related": [
       "editions/ultimate-edition"
@@ -43,7 +44,8 @@
       "r8gb-weapons-morgan-revolver",
       "rockstar-media"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/weapons/gtabase/hawk-and-little-morgan-revolvers.jpg"
   },
   {
     "slug": "girardi-es9",
@@ -75,7 +77,7 @@
       "range": 4.4,
       "weapon_class": "Military Pistol",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
-      "menu_picture": "/images/weapons/menu/girardi-es9.jpg",
+      "menu_picture": "/images/weapons/gtabase/girardi-es9.jpg",
       "menu_text": "An Italian classic by Girardi. Perfect for both offense and defense."
     },
     "related": [
@@ -103,7 +105,8 @@
       "rockstar-media",
       "ppx-menu-weapons"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/weapons/gtabase/girardi-es9.jpg"
   },
   {
     "slug": "klose-k17",
@@ -136,7 +139,7 @@
       "weapon_class": "Service Pistol",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
       "paid_with": "Cash",
-      "menu_picture": "/images/weapons/menu/klose-k17.jpg",
+      "menu_picture": "/images/weapons/gtabase/klose-k17.jpg",
       "menu_text": "Popular, reliable pistol carried by civilians and law enforcement alike."
     },
     "related": [
@@ -163,6 +166,7 @@
       "rockstar-media",
       "ppx-menu-weapons"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/weapons/gtabase/klose-k17.jpg"
   }
 ]

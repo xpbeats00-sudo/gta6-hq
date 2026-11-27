@@ -31,7 +31,8 @@
       "accuracy": 5.8,
       "handling": 6.8,
       "range": 5.8,
-      "where": "The Clunker 556 is looted during the Brooks Boatworks Illegal Operation in north Port Gellhorn: it is in a case in the second-floor office of the small two-story building. (GTABase); Loot from the Brooks Boatworks Illegal Operation in north Port Gellhorn (office upstairs). (GTA Scoop)"
+      "where": "The Clunker 556 is looted during the Brooks Boatworks Illegal Operation in north Port Gellhorn: it is in a case in the second-floor office of the small two-story building. (GTABase); Loot from the Brooks Boatworks Illegal Operation in north Port Gellhorn (office upstairs). (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/clunker-556.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -42,7 +43,8 @@
       "r8gb-weapons-clunker-556"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/clunker-556.jpg"
   },
   {
     "slug": "cockroach-xtreme-556",
@@ -74,7 +76,8 @@
       "accuracy": 6.1,
       "handling": 6.1,
       "range": 5.5,
-      "where": "The Cockroach Xtreme 556 is behind a stack of toilet paper in a one-car garage in the courtyard of the Sunrise Motel, Tequesta (Vice-Dale County). (GTABase); Behind toilet paper in a garage at the Sunrise Motel, Tequesta. (GTA Scoop)"
+      "where": "The Cockroach Xtreme 556 is behind a stack of toilet paper in a one-car garage in the courtyard of the Sunrise Motel, Tequesta (Vice-Dale County). (GTABase); Behind toilet paper in a garage at the Sunrise Motel, Tequesta. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/cockroach-xtreme-556.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -85,7 +88,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/cockroach-xtreme-556.jpg"
   },
   {
     "slug": "cold-war-556",
@@ -119,7 +123,8 @@
       "accuracy": 7.5,
       "handling": 4,
       "range": 7.3,
-      "where": "The Cold War 556 is leaning against a wooden crate just inside a bunker in Big Pine, North Mariana County (enter from the southwest). (GTABase); Inside a bunker in Big Pine, North Mariana County. (GTA Scoop)"
+      "where": "The Cold War 556 is leaning against a wooden crate just inside a bunker in Big Pine, North Mariana County (enter from the southwest). (GTABase); Inside a bunker in Big Pine, North Mariana County. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/cold-war-556.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -130,7 +135,8 @@
       "r8gb-weapons-cold-war-556"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/cold-war-556.jpg"
   },
   {
     "slug": "drug-mule-kz-59",
@@ -163,7 +169,8 @@
       "accuracy": 4.5,
       "handling": 5.9,
       "range": 6.5,
-      "where": "The Drug Mule KZ-59 is underwater below a sunken speedboat off the north coast of Riquezas Keys, northwest of Mile Zero Air Station. Floating packages mark the spot. (GTABase); Under a sunken speedboat off the north coast of Riquezas Keys; floating packages mark the spot. (GTA Scoop)"
+      "where": "The Drug Mule KZ-59 is underwater below a sunken speedboat off the north coast of Riquezas Keys, northwest of Mile Zero Air Station. Floating packages mark the spot. (GTABase); Under a sunken speedboat off the north coast of Riquezas Keys; floating packages mark the spot. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/drug-mule-kz-59.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -175,7 +182,8 @@
       "r8gb-weapons-drug-mule-kz-59"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/drug-mule-kz-59.jpg"
   },
   {
     "slug": "grx-556",
@@ -210,7 +218,8 @@
       "accuracy": 6.3,
       "handling": 5.9,
       "range": 5.8,
-      "where": "The GRX 556 is looted during the Leonida Carrier Warehouse Illegal Operation in the center of Balsero. (GTABase); Loot from the Leonida Carrier Warehouse Illegal Operation in Balsero. (GTA Scoop)"
+      "where": "The GRX 556 is looted during the Leonida Carrier Warehouse Illegal Operation in the center of Balsero. (GTABase); Loot from the Leonida Carrier Warehouse Illegal Operation in Balsero. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/grx-556.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -221,7 +230,8 @@
       "r8gb-weapons-grx-556"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/grx-556.jpg"
   },
   {
     "slug": "guardia-brothers-fra",
@@ -254,7 +264,8 @@
       "accuracy": 4.6,
       "handling": 6,
       "range": 6.5,
-      "where": "The Guardia Brothers FRA is looted during the Casa Guardia Illegal Operation in the northeast corner of Little Cuba. (GTABase); Loot from the Casa Guardia Illegal Operation in northeast Little Cuba. (GTA Scoop)"
+      "where": "The Guardia Brothers FRA is looted during the Casa Guardia Illegal Operation in the northeast corner of Little Cuba. (GTABase); Loot from the Casa Guardia Illegal Operation in northeast Little Cuba. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/guardia-brothers-fra.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -265,7 +276,8 @@
       "r8gb-weapons-guardia-brothers-fra"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/guardia-brothers-fra.jpg"
   },
   {
     "slug": "kingpin-heathen",
@@ -298,7 +310,8 @@
       "accuracy": 6.9,
       "handling": 5.1,
       "range": 6.6,
-      "where": "The Kingpin Heathen is looted during the Vespucci Mansion Illegal Operation on Vespucci Island, the central island of the Rialto Islands. (GTABase); Loot from the Vespucci Mansion Illegal Operation on Vespucci Island. (GTA Scoop)"
+      "where": "The Kingpin Heathen is looted during the Vespucci Mansion Illegal Operation on Vespucci Island, the central island of the Rialto Islands. (GTABase); Loot from the Vespucci Mansion Illegal Operation on Vespucci Island. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/kingpin-heathen.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -309,7 +322,8 @@
       "r8gb-weapons-kingpin-heathen"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kingpin-heathen.jpg"
   },
   {
     "slug": "kolt-and-associates-556",
@@ -343,7 +357,8 @@
       "accuracy": 7.5,
       "handling": 5.2,
       "range": 6.1,
-      "where": "The Kolt & Associates 556 is looted during the Stash House Illegal Operation in north Port Gellhorn, a little east of Brooks Boatworks. (GTABase); Loot from the Stash House Illegal Operation in north Port Gellhorn. (GTA Scoop)"
+      "where": "The Kolt & Associates 556 is looted during the Stash House Illegal Operation in north Port Gellhorn, a little east of Brooks Boatworks. (GTABase); Loot from the Stash House Illegal Operation in north Port Gellhorn. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/kolt-and-associates-556.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -354,7 +369,8 @@
       "r8gb-weapons-kolt-associates-556"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kolt-and-associates-556.jpg"
   },
   {
     "slug": "la-polilla-negra-kz-59",
@@ -387,7 +403,8 @@
       "accuracy": 5.2,
       "handling": 5.2,
       "range": 6.5,
-      "where": "The La Polilla Negra KZ-59 is looted during the Palmer Fishing Warehouse Illegal Operation, on the southeast tip of the Bobcat Keys sandbar near Watson Bay. (GTABase); Loot from the Palmer Fishing Warehouse Illegal Operation near Watson Bay. (GTA Scoop)"
+      "where": "The La Polilla Negra KZ-59 is looted during the Palmer Fishing Warehouse Illegal Operation, on the southeast tip of the Bobcat Keys sandbar near Watson Bay. (GTABase); Loot from the Palmer Fishing Warehouse Illegal Operation near Watson Bay. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/la-polilla-negra-kz-59.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -398,7 +415,8 @@
       "r8gb-weapons-la-polilla-negra-kz-59"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/la-polilla-negra-kz-59.jpg"
   },
   {
     "slug": "la-polilla-negra-vf-g1",
@@ -432,7 +450,8 @@
       "handling": 6.2,
       "range": 5.6,
       "weapon_class": "Special Carbine",
-      "where": "The La Polilla Negra VF-G1 is looted during the Watson Bay Safehouse Illegal Operation, just outside the east side of Watson Bay. (GTABase); Loot from the Watson Bay Safehouse Illegal Operation. (GTA Scoop)"
+      "where": "The La Polilla Negra VF-G1 is looted during the Watson Bay Safehouse Illegal Operation, just outside the east side of Watson Bay. (GTABase); Loot from the Watson Bay Safehouse Illegal Operation. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/la-polilla-negra-vf-g1.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -443,7 +462,8 @@
       "r8gb-weapons-la-polilla-negra-vf-g1"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/la-polilla-negra-vf-g1.jpg"
   },
   {
     "slug": "little-cuba-hind",
@@ -476,7 +496,8 @@
       "accuracy": 2.5,
       "handling": 7.8,
       "range": 4.5,
-      "where": "Sold only at Martez Empeños (GTABase); Sold at Martez Empeños in Little Cuba. (GTA Scoop)"
+      "where": "Sold only at Martez Empeños (GTABase); Sold at Martez Empeños in Little Cuba. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/little-cuba-hind.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -487,7 +508,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/little-cuba-hind.jpg"
   },
   {
     "slug": "marabunta-grande-kz-59",
@@ -520,7 +542,8 @@
       "accuracy": 4.5,
       "handling": 6,
       "range": 6.5,
-      "where": "The Marabunta Grande KZ-59 is looted during the Nova Auto Junkyard Illegal Operation in central Hamlet, behind Sara's Unisex Salon and Maximo Grill. (GTABase); Loot from the Nova Auto Junkyard Illegal Operation in central Hamlet. (GTA Scoop)"
+      "where": "The Marabunta Grande KZ-59 is looted during the Nova Auto Junkyard Illegal Operation in central Hamlet, behind Sara's Unisex Salon and Maximo Grill. (GTABase); Loot from the Nova Auto Junkyard Illegal Operation in central Hamlet. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/marabunta-grande-kz-59.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -531,7 +554,8 @@
       "r8gb-weapons-marabunta-grande-kz-59"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/marabunta-grande-kz-59.jpg"
   },
   {
     "slug": "petes-kz-59",
@@ -560,7 +584,8 @@
       "accuracy": 5.5,
       "handling": 5.7,
       "range": 6.1,
-      "where": "Pete's KZ-59 is found on the table near the safe in Pete's hangar at the Sundown Private Airfield in Waning Sands, during Pilot Pete's The Last Mile: Passing the Torch mission. (GTABase)"
+      "where": "Pete's KZ-59 is found on the table near the safe in Pete's hangar at the Sundown Private Airfield in Waning Sands, during Pilot Pete's The Last Mile: Passing the Torch mission. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/petes-kz-59.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -569,7 +594,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/petes-kz-59.jpg"
   },
   {
     "slug": "rauls-cqb-556",
@@ -598,7 +624,8 @@
       "damage": 5,
       "accuracy": 5.7,
       "handling": 6.9,
-      "range": 5.6
+      "range": 5.6,
+      "menu_picture": "/images/weapons/gtabase/rauls-cqb-556.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -607,7 +634,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/rauls-cqb-556.jpg"
   },
   {
     "slug": "rauls-heist-556",
@@ -636,7 +664,8 @@
       "damage": 5,
       "accuracy": 6.5,
       "handling": 6.5,
-      "range": 6.5
+      "range": 6.5,
+      "menu_picture": "/images/weapons/gtabase/rauls-heist-556.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -645,7 +674,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/rauls-heist-556.jpg"
   },
   {
     "slug": "san4san-kz-59",
@@ -678,7 +708,8 @@
       "accuracy": 5.3,
       "handling": 5.5,
       "range": 6.5,
-      "where": "The San4San KZ-59 is looted during the Janjak's Garage Illegal Operation in south La Perle, Vice City. (GTABase); Loot from the Janjak's Garage Illegal Operation in south La Perle. (GTA Scoop)"
+      "where": "The San4San KZ-59 is looted during the Janjak's Garage Illegal Operation in south La Perle, Vice City. (GTABase); Loot from the Janjak's Garage Illegal Operation in south La Perle. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/san4san-kz-59.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -689,7 +720,8 @@
       "r8gb-weapons-san4san-kz-59"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/san4san-kz-59.jpg"
   },
   {
     "slug": "star-spangled-556",
@@ -724,7 +756,8 @@
       "accuracy": 6.6,
       "handling": 5.3,
       "range": 6.2,
-      "where": "Sold only at Phil’s Ammu-Nation (GTABase); Sold at Phil's Ammu-Nation in Southside. (GTA Scoop)"
+      "where": "Sold only at Phil’s Ammu-Nation (GTABase); Sold at Phil's Ammu-Nation in Southside. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/star-spangled-556.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -735,7 +768,8 @@
       "r8gb-weapons-star-spangled-556"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/star-spangled-556.jpg"
   },
   {
     "slug": "vice-city-heathen",
@@ -770,7 +804,8 @@
       "accuracy": 7.4,
       "handling": 5.1,
       "range": 6.2,
-      "where": "Sold only at Prestige Firearms (GTABase); Sold at Prestige Firearms, north Ocean Beach. (GTA Scoop)"
+      "where": "Sold only at Prestige Firearms (GTABase); Sold at Prestige Firearms, north Ocean Beach. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/vice-city-heathen.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -781,7 +816,8 @@
       "r8gb-weapons-vice-city-heathen"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/vice-city-heathen.jpg"
   },
   {
     "slug": "franciscos-lmg-6",
@@ -809,7 +845,8 @@
       "damage": 6.8,
       "accuracy": 3.9,
       "handling": 2,
-      "range": 6.5
+      "range": 6.5,
+      "menu_picture": "/images/weapons/gtabase/franciscos-lmg-6.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -818,7 +855,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/franciscos-lmg-6.jpg"
   },
   {
     "slug": "mercenary-lmg-6",
@@ -851,7 +889,8 @@
       "accuracy": 3.6,
       "handling": 2.3,
       "range": 6.5,
-      "where": "The Mercenary LMG 6 is in a yellow Scoop shipping container in the northern part of the Port Vice City cargo area. To avoid the guards, come in from the water, climb the ladder, jump from the blue container to the beige one and break into the yellow one. You need the tool to cut open containers, which you get during Chapter 3 of the main story. (GTABase); In a yellow Scoop container in the north o"
+      "where": "The Mercenary LMG 6 is in a yellow Scoop shipping container in the northern part of the Port Vice City cargo area. To avoid the guards, come in from the water, climb the ladder, jump from the blue container to the beige one and break into the yellow one. You need the tool to cut open containers, which you get during Chapter 3 of the main story. (GTABase); In a yellow Scoop container in the north o",
+      "menu_picture": "/images/weapons/gtabase/mercenary-lmg-6.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -862,7 +901,8 @@
       "r8gb-weapons-mercenary-lmg-6"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/mercenary-lmg-6.jpg"
   },
   {
     "slug": "assassin-nipper-38",
@@ -895,7 +935,8 @@
       "accuracy": 3.5,
       "handling": 8.7,
       "range": 2.7,
-      "where": "The Assassin Nipper.38 is found in a small hatch in the floor of a shipwrecked boat on the southeastern edge of Permit Keys, east of the Mile Zero Air Station. It is part of the spy boat puzzle. (GTABase); Hidden under a floor hatch in a wrecked boat on the southeast edge of Permit Keys, east of Mile Zero Air Station (part of the spy boat puzzle). (GTA Scoop)"
+      "where": "The Assassin Nipper.38 is found in a small hatch in the floor of a shipwrecked boat on the southeastern edge of Permit Keys, east of the Mile Zero Air Station. It is part of the spy boat puzzle. (GTABase); Hidden under a floor hatch in a wrecked boat on the southeast edge of Permit Keys, east of Mile Zero Air Station (part of the spy boat puzzle). (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/assassin-nipper-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -906,7 +947,8 @@
       "r8gb-weapons-assassin-nipper-38"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/assassin-nipper-38.jpg"
   },
   {
     "slug": "black-eagle-import-kalinga",
@@ -939,7 +981,8 @@
       "accuracy": 4.2,
       "handling": 7.6,
       "range": 5,
-      "where": "The Black Eagle Import Kalinga is in the safe of the office in the front corner of the Black Eagle warehouse, next to the Black Eagle store in Balsero. The office has a keypad lock, and the safe code is shown on the login screen of the office computer. (GTABase)"
+      "where": "The Black Eagle Import Kalinga is in the safe of the office in the front corner of the Black Eagle warehouse, next to the Black Eagle store in Balsero. The office has a keypad lock, and the safe code is shown on the login screen of the office computer. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/black-eagle-import-kalinga.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -949,18 +992,20 @@
       "r8gb-weapons-black-eagle-import-kalinga"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/black-eagle-import-kalinga.jpg"
   },
   {
     "slug": "brainwasher-1992",
-    "name": "Brainwasher 1992",
+    "name": "Brainwasher 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Brainwasher 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far.",
+      "It is a variant of the Duke 1922; IGN's table spells it Brainwasher 1992."
     ],
     "tags": [
       "duke",
@@ -979,7 +1024,8 @@
       "accuracy": 4.8,
       "handling": 8,
       "range": 4.6,
-      "where": "The Brainwasher 1922 is found in an old government bunker buried in Big Pine: inside the facility, press the button again to open a door, then find the room with a TV showing a hypnosis pattern and complete it. (GTABase)"
+      "where": "The Brainwasher 1922 is found in an old government bunker buried in Big Pine: inside the facility, press the button again to open a door, then find the room with a TV showing a hypnosis pattern and complete it. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/brainwasher-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -988,18 +1034,23 @@
       "rs2-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/brainwasher-1992.jpg",
+    "aliases": [
+      "Brainwasher 1992"
+    ]
   },
   {
     "slug": "brians-1992",
-    "name": "Brian's 1992",
+    "name": "Brian's 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Brian's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 5.5, accuracy 5.1, handling 8.1 and range 4.6, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 5.1, Handling 8.1, Range 4.6, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 5.1, Handling 8.1, Range 4.6, as read by GTABase only so far.",
+      "It is a variant of the Duke 1922; IGN's table spells it Brian's 1992."
     ],
     "tags": [
       "duke",
@@ -1017,7 +1068,8 @@
       "damage": 5.5,
       "accuracy": 5.1,
       "handling": 8.1,
-      "range": 4.6
+      "range": 4.6,
+      "menu_picture": "/images/weapons/gtabase/brians-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1026,7 +1078,11 @@
       "rs2-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/brians-1992.jpg",
+    "aliases": [
+      "Brian's 1992"
+    ]
   },
   {
     "slug": "convict-kalinga-50",
@@ -1055,7 +1111,8 @@
       "accuracy": 4.2,
       "handling": 7.4,
       "range": 5,
-      "where": "The Convict Kalinga.50 is found underground at the Escaped Prisoners barn, at the end of the collapsed tunnel next to a dead prisoner. (GTABase)"
+      "where": "The Convict Kalinga.50 is found underground at the Escaped Prisoners barn, at the end of the collapsed tunnel next to a dead prisoner. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/convict-kalinga-50.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1064,11 +1121,12 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/convict-kalinga-50.jpg"
   },
   {
     "slug": "deadringer-1992",
-    "name": "Deadringer 1992",
+    "name": "Deadringer 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Deadringer 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
@@ -1078,7 +1136,8 @@
       "IGN's unique-variant guide places it inside a mobile home on the south bank of the Moreau River in East Lummox County.",
       "GTABase says it is on the floor of a mobile home on the south bank of the Moreau River in East Lummox County.",
       "GTABase says that, as a unique variant, it cannot be modified.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far.",
+      "It is a variant of the Duke 1922; IGN's table spells it Deadringer 1992."
     ],
     "tags": [
       "duke",
@@ -1098,7 +1157,8 @@
       "accuracy": 4.8,
       "handling": 8,
       "range": 4.6,
-      "where": "The Deadringer 1922 is on the floor of a mobile home on the south bank of the Moreau River, in East Lummox County. (GTABase); On the floor of a mobile home on the south bank of the Moreau River, East Lummox County. (GTA Scoop)"
+      "where": "The Deadringer 1922 is on the floor of a mobile home on the south bank of the Moreau River, in East Lummox County. (GTABase); On the floor of a mobile home on the south bank of the Moreau River, East Lummox County. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/deadringer-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1109,7 +1169,11 @@
       "r8gb-weapons-deadringer-1992"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/deadringer-1992.jpg",
+    "aliases": [
+      "Deadringer 1992"
+    ]
   },
   {
     "slug": "dumpster-k17-mcd",
@@ -1137,7 +1201,8 @@
       "damage": 4,
       "accuracy": 3.7,
       "handling": 6.8,
-      "range": 4.5
+      "range": 4.5,
+      "menu_picture": "/images/weapons/gtabase/dumpster-k17-mcd.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1146,7 +1211,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/dumpster-k17-mcd.jpg"
   },
   {
     "slug": "dwnplys-k17",
@@ -1173,7 +1239,8 @@
       "damage": 4,
       "accuracy": 4.5,
       "handling": 8.2,
-      "range": 4.1
+      "range": 4.1,
+      "menu_picture": "/images/weapons/gtabase/dwnplys-k17.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1182,7 +1249,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/dwnplys-k17.jpg"
   },
   {
     "slug": "ejs-k17",
@@ -1209,7 +1277,8 @@
       "damage": 4,
       "accuracy": 4.5,
       "handling": 8.5,
-      "range": 3.8
+      "range": 3.8,
+      "menu_picture": "/images/weapons/gtabase/ejs-k17.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1218,7 +1287,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/ejs-k17.jpg"
   },
   {
     "slug": "low-point-nipper-38",
@@ -1246,7 +1316,8 @@
       "damage": 2.8,
       "accuracy": 3,
       "handling": 9,
-      "range": 3
+      "range": 3,
+      "menu_picture": "/images/weapons/gtabase/low-point-nipper-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1255,11 +1326,12 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/low-point-nipper-38.jpg"
   },
   {
     "slug": "marthas-1992",
-    "name": "Martha's 1992",
+    "name": "Martha's 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Martha's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
@@ -1269,7 +1341,8 @@
       "IGN's unique-variant guide places it in the fireplace of an old, abandoned \"Outlaw's Cabin\" in Moreau.",
       "GTABase says it is in the fireplace of the abandoned Outlaw's Cabin in Moreau, reached through the cellar on the south-east side and up the stairs to the main room.",
       "GTABase says that, as a unique variant, it cannot be modified.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far.",
+      "It is a variant of the Duke 1922; IGN's table spells it Martha's 1992."
     ],
     "tags": [
       "duke",
@@ -1289,7 +1362,8 @@
       "accuracy": 4.8,
       "handling": 8,
       "range": 4.6,
-      "where": "Martha's 1922 is in the fireplace of the abandoned Outlaw's Cabin in Moreau: enter the cellar from the southeast side and climb the stairs to the main room. (GTABase); In the fireplace of the abandoned Outlaw's Cabin in Moreau; get in through the cellar stairs on the southeast side. (GTA Scoop)"
+      "where": "Martha's 1922 is in the fireplace of the abandoned Outlaw's Cabin in Moreau: enter the cellar from the southeast side and climb the stairs to the main room. (GTABase); In the fireplace of the abandoned Outlaw's Cabin in Moreau; get in through the cellar stairs on the southeast side. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/marthas-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1300,11 +1374,15 @@
       "r8gb-weapons-marthas-1992"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/marthas-1992.jpg",
+    "aliases": [
+      "Martha's 1992"
+    ]
   },
   {
     "slug": "money-bag-1992",
-    "name": "Money Bag 1992",
+    "name": "Money Bag 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Money Bag 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
@@ -1314,7 +1392,8 @@
       "IGN's unique-variant guide places it inside a mobile home on the south bank of the Moreau River in East Lummox County.",
       "GTABase says it is on the couch of a mobile home on the south bank of the Moreau River in East Lummox County.",
       "GTABase says that, as a unique variant, it cannot be modified.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far.",
+      "It is a variant of the Duke 1922; IGN's table spells it Money Bag 1992."
     ],
     "tags": [
       "duke",
@@ -1334,7 +1413,8 @@
       "accuracy": 4.8,
       "handling": 8,
       "range": 4.6,
-      "where": "The Money Bag 1922 is on the couch of a mobile home on the south bank of the Moreau River, in East Lummox County. (GTABase); On the couch in the same Moreau River mobile home as the Deadringer 1922, East Lummox County. (GTA Scoop)"
+      "where": "The Money Bag 1922 is on the couch of a mobile home on the south bank of the Moreau River, in East Lummox County. (GTABase); On the couch in the same Moreau River mobile home as the Deadringer 1922, East Lummox County. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/money-bag-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1345,11 +1425,15 @@
       "r8gb-weapons-money-bag-1992"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/money-bag-1992.jpg",
+    "aliases": [
+      "Money Bag 1992"
+    ]
   },
   {
     "slug": "montys-1992",
-    "name": "Monty's 1992",
+    "name": "Monty's 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Monty's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
@@ -1358,7 +1442,8 @@
       "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
       "GTABase says it is picked up from the floor of the photo room during the main mission The Missing Link.",
       "GTABase says that, as a unique variant, it cannot be modified.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far.",
+      "It is a variant of the Duke 1922; IGN's table spells it Monty's 1992."
     ],
     "tags": [
       "duke",
@@ -1377,7 +1462,8 @@
       "damage": 5.5,
       "accuracy": 4.8,
       "handling": 8,
-      "range": 4.6
+      "range": 4.6,
+      "menu_picture": "/images/weapons/gtabase/montys-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1386,7 +1472,11 @@
       "r8gb-weapons-montys-1992"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/montys-1992.jpg",
+    "aliases": [
+      "Monty's 1992"
+    ]
   },
   {
     "slug": "nite-raptor-k17",
@@ -1421,7 +1511,8 @@
       "accuracy": 4.9,
       "handling": 8,
       "range": 4.1,
-      "where": "Sold only at Black Eagle (GTABase); Sold at Black Eagle Ammu-Nation in Balsero. (GTA Scoop)"
+      "where": "Sold only at Black Eagle (GTABase); Sold at Black Eagle Ammu-Nation in Balsero. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/nite-raptor-k17.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1432,7 +1523,8 @@
       "r8gb-weapons-nite-raptor-k17"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/nite-raptor-k17.jpg"
   },
   {
     "slug": "ptt-youngins-k17",
@@ -1464,7 +1556,8 @@
       "accuracy": 4.5,
       "handling": 7.9,
       "range": 4.1,
-      "where": "The PTT Youngin$ K17 is looted during the Kamar Devon Community Center Illegal Operation in Southside, just north of South Vice-Dale County. (GTABase); Loot from the Kamar Devon Community Center Illegal Operation in Southside. (GTA Scoop)"
+      "where": "The PTT Youngin$ K17 is looted during the Kamar Devon Community Center Illegal Operation in Southside, just north of South Vice-Dale County. (GTABase); Loot from the Kamar Devon Community Center Illegal Operation in Southside. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/ptt-youngins-k17.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1475,7 +1568,8 @@
       "r8gb-weapons-ptt-youngin-k17"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/ptt-youngins-k17.jpg"
   },
   {
     "slug": "quarter-mile-es9",
@@ -1509,7 +1603,8 @@
       "accuracy": 5.6,
       "handling": 8.3,
       "range": 4.2,
-      "where": "The Quarter Mile ES9 is looted during the Chatfield Storage & Logistics Illegal Operation on Waxman Island, east of Downtown Vice City. (GTABase); Loot from the Chatfield Storage & Logistics Illegal Operation on Waxman Island, east of Downtown Vice City. (GTA Scoop)"
+      "where": "The Quarter Mile ES9 is looted during the Chatfield Storage & Logistics Illegal Operation on Waxman Island, east of Downtown Vice City. (GTABase); Loot from the Chatfield Storage & Logistics Illegal Operation on Waxman Island, east of Downtown Vice City. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/quarter-mile-es9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1520,18 +1615,20 @@
       "r8gb-weapons-quarter-mile-es9"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/quarter-mile-es9.jpg"
   },
   {
     "slug": "rauls-1992",
-    "name": "Raul's 1992",
+    "name": "Raul's 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Raul's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 5.5, accuracy 5.3, handling 7.6 and range 4.9, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 5.3, Handling 7.6, Range 4.9, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 5.3, Handling 7.6, Range 4.9, as read by GTABase only so far.",
+      "It is a variant of the Duke 1922; IGN's table spells it Raul's 1992."
     ],
     "tags": [
       "duke",
@@ -1549,7 +1646,8 @@
       "damage": 5.5,
       "accuracy": 5.3,
       "handling": 7.6,
-      "range": 4.9
+      "range": 4.9,
+      "menu_picture": "/images/weapons/gtabase/rauls-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1558,7 +1656,11 @@
       "rs2-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/rauls-1992.jpg",
+    "aliases": [
+      "Raul's 1992"
+    ]
   },
   {
     "slug": "rogue-alpha-drx",
@@ -1593,7 +1695,8 @@
       "accuracy": 4.4,
       "handling": 8,
       "range": 4.2,
-      "where": "Sold only at Quickscope (GTABase); Sold at Quickscope Ammu-Nation, opposite Kensinger Tower in Downtown Vice City. (GTA Scoop)"
+      "where": "Sold only at Quickscope (GTABase); Sold at Quickscope Ammu-Nation, opposite Kensinger Tower in Downtown Vice City. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/rogue-alpha-drx.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1604,18 +1707,20 @@
       "r8gb-weapons-rogue-alpha-drx"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/rogue-alpha-drx.jpg"
   },
   {
     "slug": "russos-1992",
-    "name": "Russo's 1992",
+    "name": "Russo's 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the Russo's 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
       "IGN gives ratings out of 10 of damage 5.5, accuracy 4.8, handling 8 and range 4.6, with a magazine of 8.",
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "Spelling disagreement: IGN writes the base Duke pistol as the 1992, while Game8, DayOne and Tracker Network call it the 1922.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 4.8, Handling 8, Range 4.6, as read by GTABase only so far.",
+      "It is a variant of the Duke 1922; IGN's table spells it Russo's 1992."
     ],
     "tags": [
       "duke",
@@ -1634,7 +1739,8 @@
       "accuracy": 4.8,
       "handling": 8,
       "range": 4.6,
-      "where": "Russo's 1922 is found inside the bunker on Sharktooth Island: it's President Russo's personal pistol. (GTABase)"
+      "where": "Russo's 1922 is found inside the bunker on Sharktooth Island: it's President Russo's personal pistol. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/russos-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1643,7 +1749,11 @@
       "rs2-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/russos-1992.jpg",
+    "aliases": [
+      "Russo's 1992"
+    ]
   },
   {
     "slug": "san4san-k17",
@@ -1673,7 +1783,8 @@
       "accuracy": 4.6,
       "handling": 7.8,
       "range": 3.8,
-      "where": "The San4San K17 is looted during the Sound4Sound Studio Illegal Operation in Stockyard, at the northern end of Vice City. (GTABase); Loot from the Sound4Sound Studio Illegal Operation in Stockyard, north Vice City. (GTA Scoop)"
+      "where": "The San4San K17 is looted during the Sound4Sound Studio Illegal Operation in Stockyard, at the northern end of Vice City. (GTABase); Loot from the Sound4Sound Studio Illegal Operation in Stockyard, north Vice City. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/san4san-k17.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1684,7 +1795,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/san4san-k17.jpg"
   },
   {
     "slug": "sand-storm-es9",
@@ -1720,7 +1832,8 @@
       "accuracy": 5.2,
       "handling": 8.4,
       "range": 4.4,
-      "where": "Sold only at Big Shots (GTABase); Sold at Big Shots Ammu-Nation, east Hamlet. (GTA Scoop)"
+      "where": "Sold only at Big Shots (GTABase); Sold at Big Shots Ammu-Nation, east Hamlet. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/sand-storm-es9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1732,7 +1845,8 @@
       "r8gb-weapons-sand-storm-es9"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/sand-storm-es9.jpg"
   },
   {
     "slug": "stoner-k17-mcd",
@@ -1765,7 +1879,8 @@
       "accuracy": 3.2,
       "handling": 7.3,
       "range": 4.2,
-      "where": "The Stoner K17 MCD is on the nightstand to the right of the bed in room 115 of the Big Day Motel, off US-35 just north of Ambrosia. (GTABase); On the nightstand in room 115 of the Big Day Motel on US-35, just north of Ambrosia. (GTA Scoop)"
+      "where": "The Stoner K17 MCD is on the nightstand to the right of the bed in room 115 of the Big Day Motel, off US-35 just north of Ambrosia. (GTABase); On the nightstand in room 115 of the Big Day Motel on US-35, just north of Ambrosia. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/stoner-k17-mcd.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1776,7 +1891,8 @@
       "r8gb-weapons-stoner-k17-mcd"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/stoner-k17-mcd.jpg"
   },
   {
     "slug": "the-guardian-es18",
@@ -1809,7 +1925,8 @@
       "accuracy": 4.6,
       "handling": 7.7,
       "range": 4.8,
-      "where": "The Guardian ES18 is looted during the Saber Shipping Yard Illegal Operation in Little Cuba, Vice City. (GTABase); Loot from the Saber Shipping Yard Illegal Operation in Little Cuba. (GTA Scoop)"
+      "where": "The Guardian ES18 is looted during the Saber Shipping Yard Illegal Operation in Little Cuba, Vice City. (GTABase); Loot from the Saber Shipping Yard Illegal Operation in Little Cuba. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/the-guardian-es18.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1820,7 +1937,8 @@
       "r8gb-weapons-the-guardian-es18"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/the-guardian-es18.jpg"
   },
   {
     "slug": "the-patriarch-drx",
@@ -1853,7 +1971,8 @@
       "accuracy": 4.9,
       "handling": 7.2,
       "range": 4.2,
-      "where": "The Patriarch DRX is underwater next to a sunken car in the southwest part of Kalaga Reservoir: look for the luggage scattered along the bank, then dive in past the algae. (GTABase); Next to a sunken car in the southwest of Kalaga Reservoir; luggage on the bank marks the spot. (GTA Scoop)"
+      "where": "The Patriarch DRX is underwater next to a sunken car in the southwest part of Kalaga Reservoir: look for the luggage scattered along the bank, then dive in past the algae. (GTABase); Next to a sunken car in the southwest of Kalaga Reservoir; luggage on the bank marks the spot. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/the-patriarch-drx.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1864,11 +1983,12 @@
       "r8gb-weapons-the-patriarch-drx"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/the-patriarch-drx.jpg"
   },
   {
     "slug": "the-silver-1992",
-    "name": "The Silver 1992",
+    "name": "The Silver 1922",
     "summary": "Named Duke pistol variant listed in IGN's GTA 6 weapons table.",
     "body": [
       "IGN's sortable weapons table lists the The Silver 1992 as a sidearm pistol (Heavy subtype) made by Duke, firing .45 Cal rounds in semi-auto mode.",
@@ -1881,7 +2001,8 @@
       "IGN describes it as a shiny steel heavy pistol with CAPO on the side of the barrel.",
       "GTABase says the Big Shots Ammu-Nation on the east side of Hamlet sells it for $2,210.",
       "GTABase says that, as a unique variant, it cannot be modified.",
-      "In-game stat bars (out of 10): Damage 5.5, Accuracy 5.1, Handling 8.1, Range 4.6, read from the game by two sources."
+      "In-game stat bars (out of 10): Damage 5.5, Accuracy 5.1, Handling 8.1, Range 4.6, read from the game by two sources.",
+      "It is a variant of the Duke 1922; IGN's table spells it The Silver 1992."
     ],
     "tags": [
       "duke",
@@ -1904,7 +2025,8 @@
       "range": 4.6,
       "weapon_class": "Heavy Pistol",
       "where": "Sold only at Big Shots (GTABase); Sold at Big Shots Ammu-Nation, east Hamlet. (GTA Scoop)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/the-silver-1992.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1917,7 +2039,11 @@
       "r8gb-weapons-the-silver-1922"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "The Silver 1992"
+    ],
+    "image": "/images/weapons/gtabase/the-silver-1992.jpg"
   },
   {
     "slug": "turnt-nipper-38",
@@ -1950,7 +2076,8 @@
       "accuracy": 3.2,
       "handling": 8.8,
       "range": 3,
-      "where": "The Turnt Nipper.38 is found on the seat of a crashed paratrike stuck in a tree at Bobcat Bight, on the northern tip of Bobcat Bay, west of North Mariana County. (GTABase); On the seat of a crashed paratrike hanging in a tree at the north tip of Bobcat Bay, west of North Mariana County. (GTA Scoop)"
+      "where": "The Turnt Nipper.38 is found on the seat of a crashed paratrike stuck in a tree at Bobcat Bight, on the northern tip of Bobcat Bay, west of North Mariana County. (GTABase); On the seat of a crashed paratrike hanging in a tree at the north tip of Bobcat Bay, west of North Mariana County. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/turnt-nipper-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1961,7 +2088,8 @@
       "r8gb-weapons-turnt-nipper-38"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/turnt-nipper-38.jpg"
   },
   {
     "slug": "zodiac-nipper-38",
@@ -1994,7 +2122,8 @@
       "accuracy": 3.5,
       "handling": 8.8,
       "range": 3,
-      "where": "The Zodiac Nipper.38 is looted during the Ocean Beach Lab Illegal Operation in Ocean City. (GTABase); Loot from the Ocean Beach Lab Illegal Operation. (GTA Scoop)"
+      "where": "The Zodiac Nipper.38 is looted during the Ocean Beach Lab Illegal Operation in Ocean City. (GTABase); Loot from the Ocean Beach Lab Illegal Operation. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/zodiac-nipper-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2005,7 +2134,8 @@
       "r8gb-weapons-zodiac-nipper-38"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/zodiac-nipper-38.jpg"
   },
   {
     "slug": "cargo-handl-38",
@@ -2038,7 +2168,8 @@
       "accuracy": 5,
       "handling": 8.6,
       "range": 4.5,
-      "where": "The Cargo H&L.38 is inside a yellow Scoop shipping container in the Port Vice City cargo area. Climb the short container in the stack behind it, jump across to the rust-colored one and go over the black container to reach the yellow one, then break in. (GTABase); Inside a yellow Scoop shipping container in the Port Vice City cargo yard; climb the neighbouring stack to reach it. Guards patrol. (GTA"
+      "where": "The Cargo H&L.38 is inside a yellow Scoop shipping container in the Port Vice City cargo area. Climb the short container in the stack behind it, jump across to the rust-colored one and go over the black container to reach the yellow one, then break in. (GTABase); Inside a yellow Scoop shipping container in the Port Vice City cargo yard; climb the neighbouring stack to reach it. Guards patrol. (GTA",
+      "menu_picture": "/images/weapons/gtabase/cargo-handl-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2049,7 +2180,8 @@
       "r8gb-weapons-cargo-h-l-38"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/cargo-handl-38.jpg"
   },
   {
     "slug": "couch-potato-mustang-357",
@@ -2082,7 +2214,8 @@
       "accuracy": 4.5,
       "handling": 8.4,
       "range": 5.1,
-      "where": "The Couch Potato Mustang.357 is hidden in a couch hanging from a tree in front of a mobile home off Tanglewood Ln. in Port Gellhorn: shoot the ropes to bring it down, then sit on the couch to find the revolver. (GTABase); Inside a couch hanging from a tree outside a mobile home off Tanglewood Ln, Port Gellhorn: shoot the ropes, then sit on it. (GTA Scoop)"
+      "where": "The Couch Potato Mustang.357 is hidden in a couch hanging from a tree in front of a mobile home off Tanglewood Ln. in Port Gellhorn: shoot the ropes to bring it down, then sit on the couch to find the revolver. (GTABase); Inside a couch hanging from a tree outside a mobile home off Tanglewood Ln, Port Gellhorn: shoot the ropes, then sit on it. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/couch-potato-mustang-357.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2093,7 +2226,8 @@
       "r8gb-weapons-couch-potato-mustang-357"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/couch-potato-mustang-357.jpg"
   },
   {
     "slug": "honky-tonk-mustang-357",
@@ -2129,7 +2263,8 @@
       "accuracy": 5,
       "handling": 7.2,
       "range": 5.9,
-      "where": "Sold only at Phil’s Ammu-Nation (GTABase); Sold at Phil's Ammu-Nation in Southside, Vice City. (GTA Scoop)"
+      "where": "Sold only at Phil’s Ammu-Nation (GTABase); Sold at Phil's Ammu-Nation in Southside, Vice City. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/honky-tonk-mustang-357.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2141,7 +2276,8 @@
       "r8gb-weapons-honky-tonk-mustang-357"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/honky-tonk-mustang-357.jpg"
   },
   {
     "slug": "iron-and-oak-wcr-1",
@@ -2175,7 +2311,8 @@
       "accuracy": 4.1,
       "handling": 8.8,
       "range": 4.7,
-      "where": "Sold only at Iron & Oak (GTABase)"
+      "where": "Sold only at Iron & Oak (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/iron-and-oak-wcr-1.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2185,7 +2322,8 @@
       "r8gb-weapons-iron-oak-wcr-1"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/iron-and-oak-wcr-1.jpg"
   },
   {
     "slug": "jack-sheepe-handl-38",
@@ -2222,7 +2360,8 @@
       "accuracy": 5.2,
       "handling": 8,
       "range": 4.9,
-      "where": "The Jack Sheepe H&L.38 is sold only at Biff’s Gun Supply (Ultimate Edition only). (GTABase); Ultimate Edition: sold at Biff's Gun Supply in northwest Ambrosia. (GTA Scoop)"
+      "where": "The Jack Sheepe H&L.38 is sold only at Biff’s Gun Supply (Ultimate Edition only). (GTABase); Ultimate Edition: sold at Biff's Gun Supply in northwest Ambrosia. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/jack-sheepe-handl-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2233,7 +2372,8 @@
       "r8gb-weapons-jack-sheepe-h-l-38"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/jack-sheepe-handl-38.jpg"
   },
   {
     "slug": "kingfishers-akulus",
@@ -2266,7 +2406,8 @@
       "accuracy": 5.3,
       "handling": 7.2,
       "range": 6.4,
-      "where": "The Kingfishers Akulus is looted during the Sunrise RV Park Illegal Operation, north of Cottonmouth Lake and northwest of Key Lento and Gambit Bay. (GTABase); Loot from the Sunrise RV Park Illegal Operation, north of Cottonmouth Lake. (GTA Scoop)"
+      "where": "The Kingfishers Akulus is looted during the Sunrise RV Park Illegal Operation, north of Cottonmouth Lake and northwest of Key Lento and Gambit Bay. (GTABase); Loot from the Sunrise RV Park Illegal Operation, north of Cottonmouth Lake. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/kingfishers-akulus.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2277,7 +2418,8 @@
       "r8gb-weapons-kingfishers-akulus"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kingfishers-akulus.jpg"
   },
   {
     "slug": "lyles-handl-38",
@@ -2310,7 +2452,8 @@
       "accuracy": 5,
       "handling": 9,
       "range": 4.1,
-      "where": "Lyle's H&L.38 is in the trunk of a car inside an old barn at the dead end of a road in Bonanza. Enter through the side door. (GTABase); In the trunk of a car inside an old barn at the end of a road in Bonanza. (GTA Scoop)"
+      "where": "Lyle's H&L.38 is in the trunk of a car inside an old barn at the dead end of a road in Bonanza. Enter through the side door. (GTABase); In the trunk of a car inside an old barn at the end of a road in Bonanza. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/lyles-handl-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2321,7 +2464,8 @@
       "r8gb-weapons-lyles-h-l-38"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/lyles-handl-38.jpg"
   },
   {
     "slug": "ride-free-handl-38",
@@ -2354,7 +2498,8 @@
       "accuracy": 5.3,
       "handling": 8.2,
       "range": 4.9,
-      "where": "The Ride Free H&L.38 is looted during the Biker Hideout Illegal Operation in Leonard County, a small building on the southern shore of Lake Leonida, west of Ambrosia. (GTABase); Loot from the Biker Hideout Illegal Operation on the south shore of Lake Leonida, west of Ambrosia. (GTA Scoop)"
+      "where": "The Ride Free H&L.38 is looted during the Biker Hideout Illegal Operation in Leonard County, a small building on the southern shore of Lake Leonida, west of Ambrosia. (GTABase); Loot from the Biker Hideout Illegal Operation on the south shore of Lake Leonida, west of Ambrosia. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/ride-free-handl-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2365,7 +2510,8 @@
       "r8gb-weapons-ride-free-h-l-38"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/ride-free-handl-38.jpg"
   },
   {
     "slug": "swamp-bait-akulus",
@@ -2398,7 +2544,8 @@
       "accuracy": 4.2,
       "handling": 7.2,
       "range": 6.4,
-      "where": "The Swamp Bait Akulus is on the floor of the larger waterfront building in the marsh southwest of Hamlet. (GTABase); On the floor of a waterfront shack in the marsh southwest of Hamlet. (GTA Scoop)"
+      "where": "The Swamp Bait Akulus is on the floor of the larger waterfront building in the marsh southwest of Hamlet. (GTABase); On the floor of a waterfront shack in the marsh southwest of Hamlet. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/swamp-bait-akulus.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2410,7 +2557,8 @@
       "r8gb-weapons-swamp-bait-akulus"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/swamp-bait-akulus.jpg"
   },
   {
     "slug": "backdoor-hobo",
@@ -2445,7 +2593,8 @@
       "accuracy": 3.6,
       "handling": 6.4,
       "range": 2,
-      "where": "Sold only at Zenon’s Pawn Shop (GTABase); Sold at Zenon's Pawn Shop in La Perle. (GTA Scoop)"
+      "where": "Sold only at Zenon’s Pawn Shop (GTABase); Sold at Zenon's Pawn Shop in La Perle. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/backdoor-hobo.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2456,7 +2605,8 @@
       "r8gb-weapons-backdoor-hobo"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/backdoor-hobo.jpg"
   },
   {
     "slug": "basher-gorse-425",
@@ -2489,7 +2639,8 @@
       "accuracy": 4.1,
       "handling": 5.9,
       "range": 2,
-      "where": "The Basher Gorse 425 is sold only at Pawn & Gun in Port Gellhorn. (GTABase); Sold at Pawn & Gun in south Port Gellhorn. (GTA Scoop)"
+      "where": "The Basher Gorse 425 is sold only at Pawn & Gun in Port Gellhorn. (GTABase); Sold at Pawn & Gun in south Port Gellhorn. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/basher-gorse-425.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2500,7 +2651,8 @@
       "r8gb-weapons-basher-gorse-425"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/basher-gorse-425.jpg"
   },
   {
     "slug": "bruiser-super400",
@@ -2535,7 +2687,8 @@
       "accuracy": 4.2,
       "handling": 5.3,
       "range": 2.5,
-      "where": "Sold only at Vice City Gun & Pawn (GTABase); Sold at Vice City Gun & Pawn, south Rockridge. (GTA Scoop)"
+      "where": "Sold only at Vice City Gun & Pawn (GTABase); Sold at Vice City Gun & Pawn, south Rockridge. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/bruiser-super400.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2546,7 +2699,8 @@
       "r8gb-weapons-bruiser-super400"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/bruiser-super400.jpg"
   },
   {
     "slug": "cpd-moreland-850",
@@ -2575,7 +2729,8 @@
       "damage": 7.5,
       "accuracy": 4.9,
       "handling": 4.9,
-      "range": 2.5
+      "range": 2.5,
+      "menu_picture": "/images/weapons/gtabase/cpd-moreland-850.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2584,7 +2739,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/cpd-moreland-850.jpg"
   },
   {
     "slug": "darknite-drifter",
@@ -2621,7 +2777,8 @@
       "weapon_class": "Double Barrel Shotgun",
       "mods": "Sight (fitted)",
       "where": "Sold only at Gellhorn Outfitters (GTABase); Sold at Shrewsbury Drifter Ammu-Nation, northwest Port Gellhorn. (GTA Scoop)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/darknite-drifter.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2633,7 +2790,8 @@
       "r8gb-weapons-darknite-drifter"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/darknite-drifter.jpg"
   },
   {
     "slug": "dirty-drifter",
@@ -2666,7 +2824,8 @@
       "accuracy": 4.3,
       "handling": 4.8,
       "range": 2.5,
-      "where": "The Dirty Drifter is in the trunk of a blue car stuck in a mudslide just off the coastal road in Bonanza. (GTABase); In the trunk of a blue car caught in a mudslide off the coast road in Bonanza. (GTA Scoop)"
+      "where": "The Dirty Drifter is in the trunk of a blue car stuck in a mudslide just off the coastal road in Bonanza. (GTABase); In the trunk of a blue car caught in a mudslide off the coast road in Bonanza. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/dirty-drifter.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2677,7 +2836,8 @@
       "r8gb-weapons-dirty-drifter"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/dirty-drifter.jpg"
   },
   {
     "slug": "final-chapter-kvga-12",
@@ -2710,7 +2870,8 @@
       "accuracy": 5.5,
       "handling": 4.5,
       "range": 2.1,
-      "where": "The Final Chapter KVGA-12 is looted during the Irons Building Supply Illegal Operation in Ambrosia, southwest of Lake Leonida. (GTABase); Loot from the Irons Building Supply Illegal Operation in Ambrosia. (GTA Scoop)"
+      "where": "The Final Chapter KVGA-12 is looted during the Irons Building Supply Illegal Operation in Ambrosia, southwest of Lake Leonida. (GTABase); Loot from the Irons Building Supply Illegal Operation in Ambrosia. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/final-chapter-kvga-12.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2721,7 +2882,8 @@
       "r8gb-weapons-final-chapter-kvga-12"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/final-chapter-kvga-12.jpg"
   },
   {
     "slug": "final-chapter-shortstraw",
@@ -2754,7 +2916,8 @@
       "accuracy": 3.6,
       "handling": 6,
       "range": 2.4,
-      "where": "The Final Chapter Shortstraw is looted during the Hog Stars Garage Illegal Operation in Ambrosia, near the Pay 'N' Spray. (GTABase); Loot from the Hog Stars Garage Illegal Operation in Ambrosia. (GTA Scoop)"
+      "where": "The Final Chapter Shortstraw is looted during the Hog Stars Garage Illegal Operation in Ambrosia, near the Pay 'N' Spray. (GTABase); Loot from the Hog Stars Garage Illegal Operation in Ambrosia. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/final-chapter-shortstraw.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2765,7 +2928,8 @@
       "r8gb-weapons-final-chapter-shortstraw"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/final-chapter-shortstraw.jpg"
   },
   {
     "slug": "hellspawn-comshot-12",
@@ -2798,7 +2962,8 @@
       "accuracy": 4.2,
       "handling": 4,
       "range": 2.5,
-      "where": "The Hellspawn Comshot 12 is a reward for a challenge at a mountain campsite off a side road in western North Kelly County: eat the offering on the carved wooden throne and survive. The shotgun then appears against the throne, along with a Circles of Hell shirt. (GTABase); Reward for the challenge at the throne campsite in the mountains of west North Kelly County (also gives a Circles of Hell shirt"
+      "where": "The Hellspawn Comshot 12 is a reward for a challenge at a mountain campsite off a side road in western North Kelly County: eat the offering on the carved wooden throne and survive. The shotgun then appears against the throne, along with a Circles of Hell shirt. (GTABase); Reward for the challenge at the throne campsite in the mountains of west North Kelly County (also gives a Circles of Hell shirt",
+      "menu_picture": "/images/weapons/gtabase/hellspawn-comshot-12.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2809,7 +2974,8 @@
       "r8gb-weapons-hellspawn-comshot-12"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hellspawn-comshot-12.jpg"
   },
   {
     "slug": "hostile-super400",
@@ -2842,7 +3008,8 @@
       "accuracy": 4.3,
       "handling": 5.3,
       "range": 3.3,
-      "where": "The Hostile Super400 is looted during the Mill Station Radar Base Illegal Operation in Grassrivers, north of Watson Bay. (GTABase); Loot from the Mill Station Radar Base Illegal Operation north of Watson Bay. (GTA Scoop)"
+      "where": "The Hostile Super400 is looted during the Mill Station Radar Base Illegal Operation in Grassrivers, north of Watson Bay. (GTABase); Loot from the Mill Station Radar Base Illegal Operation north of Watson Bay. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/hostile-super400.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2853,7 +3020,8 @@
       "r8gb-weapons-hostile-super400"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hostile-super400.jpg"
   },
   {
     "slug": "marabunta-grande-hobo",
@@ -2882,7 +3050,8 @@
       "accuracy": 3.6,
       "handling": 6.4,
       "range": 2,
-      "where": "The Marabunta Grande Hobo is found inside the warehouse behind the pawn shop in Hamlet. (GTABase)"
+      "where": "The Marabunta Grande Hobo is found inside the warehouse behind the pawn shop in Hamlet. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/marabunta-grande-hobo.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2891,7 +3060,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/marabunta-grande-hobo.jpg"
   },
   {
     "slug": "nitepower-az1200",
@@ -2926,7 +3096,8 @@
       "accuracy": 5.1,
       "handling": 5.8,
       "range": 2.1,
-      "where": "Sold only at Black Eagle (GTABase); Sold at Black Eagle Ammu-Nation in Balsero. (GTA Scoop)"
+      "where": "Sold only at Black Eagle (GTABase); Sold at Black Eagle Ammu-Nation in Balsero. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/nitepower-az1200.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2937,7 +3108,8 @@
       "r8gb-weapons-nitepower-az1200"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/nitepower-az1200.jpg"
   },
   {
     "slug": "san4san-gorse-425",
@@ -2970,7 +3142,8 @@
       "accuracy": 3.6,
       "handling": 6.7,
       "range": 2,
-      "where": "The San4San Gorse 425 is looted during the Parlor Apartments Illegal Operation in Rockridge, across the street from the Rockridge Blood Center. (GTABase); Loot from the Parlor Apartments Illegal Operation in Rockridge. (GTA Scoop)"
+      "where": "The San4San Gorse 425 is looted during the Parlor Apartments Illegal Operation in Rockridge, across the street from the Rockridge Blood Center. (GTABase); Loot from the Parlor Apartments Illegal Operation in Rockridge. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/san4san-gorse-425.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2981,7 +3154,8 @@
       "r8gb-weapons-san4san-gorse-425"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/san4san-gorse-425.jpg"
   },
   {
     "slug": "smuggler-gorse-425",
@@ -3014,7 +3188,8 @@
       "accuracy": 3.8,
       "handling": 6.2,
       "range": 2,
-      "where": "The Smuggler Gorse 425 is in an abandoned smuggler's boat washed up on a small island east of Mile Zero Air Station, in Permit Keys. (GTABase); In a smuggler's boat washed up on a small island east of Mile Zero Air Station, Permit Keys. (GTA Scoop)"
+      "where": "The Smuggler Gorse 425 is in an abandoned smuggler's boat washed up on a small island east of Mile Zero Air Station, in Permit Keys. (GTABase); In a smuggler's boat washed up on a small island east of Mile Zero Air Station, Permit Keys. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/smuggler-gorse-425.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3025,7 +3200,8 @@
       "r8gb-weapons-smuggler-gorse-425"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/smuggler-gorse-425.jpg"
   },
   {
     "slug": "throttler-vero",
@@ -3037,7 +3213,8 @@
       "IGN's inventory column shows N/A for it, meaning it is not part of any Ammu-Nation stock list; IGN says unique variants come from the story, illegal operations, exploring, or some Ammu-Nation display cases, and cannot be modified.",
       "IGN's unique-variant guide says it can be taken during the Farm Fix Meth Lab Illegal Operation, in the northern half of Belville, south of Lake Leonida.",
       "GTABase says the Throttler is a unique variant of the Verro shotgun, looted during the Farm Fix meth lab illegal operation in northern Belville, south of Lake Leonida, and that it cannot be modified.",
-      "In-game stat bars (out of 10): Damage 7.4, Accuracy 4.2, Handling 6.6, Range 2, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Damage 7.4, Accuracy 4.2, Handling 6.6, Range 2, as read by GTABase only so far.",
+      "The picture is the stock Girardi Verro; no picture of this variant has been published."
     ],
     "tags": [
       "girardi",
@@ -3057,7 +3234,8 @@
       "accuracy": 4.2,
       "handling": 6.6,
       "range": 2,
-      "where": "The Throttler Verro is looted during the Farm Fix Meth Lab Illegal Operation in northern Belville, south of Lake Leonida. (GTABase)"
+      "where": "The Throttler Verro is looted during the Farm Fix Meth Lab Illegal Operation in northern Belville, south of Lake Leonida. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/throttler-vero.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3067,7 +3245,8 @@
       "r8gb-weapons-throttler-verro"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/throttler-vero.jpg"
   },
   {
     "slug": "unpacked-comshot-12",
@@ -3100,7 +3279,8 @@
       "accuracy": 4.5,
       "handling": 3.7,
       "range": 2.5,
-      "where": "The Unpacked Comshot 12 is in a house on the northwest coast of Key Lento: climb the outdoor stairs, break into the second floor and go to the back bedroom. The shotgun leans against the wall behind the door of its en-suite bathroom. (GTABase); Behind the en-suite bathroom door upstairs in a house on the northwest coast of Key Lento. (GTA Scoop)"
+      "where": "The Unpacked Comshot 12 is in a house on the northwest coast of Key Lento: climb the outdoor stairs, break into the second floor and go to the back bedroom. The shotgun leans against the wall behind the door of its en-suite bathroom. (GTABase); Behind the en-suite bathroom door upstairs in a house on the northwest coast of Key Lento. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/unpacked-comshot-12.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3112,7 +3292,8 @@
       "r8gb-weapons-unpacked-comshot-12"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/unpacked-comshot-12.jpg"
   },
   {
     "slug": "watcher-pro-moreland-850",
@@ -3147,7 +3328,8 @@
       "accuracy": 4.4,
       "handling": 5,
       "range": 2.5,
-      "where": "Sold only at Tactical Outlet Guns (GTABase); Sold at Tactical Outlet Guns, west Belville. (GTA Scoop)"
+      "where": "Sold only at Tactical Outlet Guns (GTABase); Sold at Tactical Outlet Guns, west Belville. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/watcher-pro-moreland-850.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3158,7 +3340,8 @@
       "r8gb-weapons-watcher-pro-moreland-850"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/watcher-pro-moreland-850.jpg"
   },
   {
     "slug": "woodhatch-longshot",
@@ -3193,7 +3376,8 @@
       "accuracy": 4.4,
       "handling": 5,
       "range": 2.5,
-      "where": "Sold only at Woodhatch (GTABase); Sold at Woodhatch Ammu-Nation in Capri. (GTA Scoop)"
+      "where": "Sold only at Woodhatch (GTABase); Sold at Woodhatch Ammu-Nation in Capri. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/woodhatch-longshot.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3204,7 +3388,8 @@
       "r8gb-weapons-woodhatch-longshot"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/woodhatch-longshot.jpg"
   },
   {
     "slug": "kingfishers-w-22",
@@ -3238,7 +3423,8 @@
       "handling": 5.4,
       "range": 6.7,
       "weapon_class": "Small game rifle",
-      "where": "The Kingfishers W-22 is looted during the Fishing Shacks Illegal Operation in Wetman Bay, the swamp southwest of Hamlet. (GTABase); Loot from the Fishing Shacks Illegal Operation southwest of Hamlet. (GTA Scoop)"
+      "where": "The Kingfishers W-22 is looted during the Fishing Shacks Illegal Operation in Wetman Bay, the swamp southwest of Hamlet. (GTABase); Loot from the Fishing Shacks Illegal Operation southwest of Hamlet. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/kingfishers-w-22.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3251,7 +3437,8 @@
       "r8gb-weapons-kingfishers-w-22"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kingfishers-w-22.jpg"
   },
   {
     "slug": "mossy-mediator",
@@ -3288,7 +3475,8 @@
       "accuracy": 8.1,
       "handling": 5.1,
       "range": 7,
-      "where": "Sold only at Barrage Gun Supply (GTABase); Sold at Barrage Gun Supply in Southwind, near Mile Zero Air Station. (GTA Scoop)"
+      "where": "Sold only at Barrage Gun Supply (GTABase); Sold at Barrage Gun Supply in Southwind, near Mile Zero Air Station. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/mossy-mediator.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3300,7 +3488,8 @@
       "r8gb-weapons-mossy-mediator"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/mossy-mediator.jpg"
   },
   {
     "slug": "redneck-w-22",
@@ -3333,7 +3522,8 @@
       "accuracy": 8.3,
       "handling": 5.6,
       "range": 7,
-      "where": "The Redneck W-22 is at the back of an abandoned yellow train car on the north bank of a river in Moreau (enter from the south side). (GTABase); At the back of an abandoned yellow train car on the north bank of a river in Moreau. (GTA Scoop)"
+      "where": "The Redneck W-22 is at the back of an abandoned yellow train car on the north bank of a river in Moreau (enter from the south side). (GTABase); At the back of an abandoned yellow train car on the north bank of a river in Moreau. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/redneck-w-22.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3344,7 +3534,8 @@
       "r8gb-weapons-redneck-w-22"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/redneck-w-22.jpg"
   },
   {
     "slug": "cruel-huntsmans-sm-69",
@@ -3377,7 +3568,8 @@
       "accuracy": 8.4,
       "handling": 3.2,
       "range": 8.3,
-      "where": "Cruel Huntsman's SM-69 is on the boardwalk between the two buildings of a hunter's cabin in the Pelican Valley marsh, Marion County, next to some alligator carcasses. (GTABase); On the boardwalk of a hunter's cabin in the Pelican Valley marsh. (GTA Scoop)"
+      "where": "Cruel Huntsman's SM-69 is on the boardwalk between the two buildings of a hunter's cabin in the Pelican Valley marsh, Marion County, next to some alligator carcasses. (GTABase); On the boardwalk of a hunter's cabin in the Pelican Valley marsh. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/cruel-huntsmans-sm-69.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3389,7 +3581,8 @@
       "r8gb-weapons-cruel-huntsmans-sm-69"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/cruel-huntsmans-sm-69.jpg"
   },
   {
     "slug": "fib-sm-69",
@@ -3423,7 +3616,8 @@
       "accuracy": 8.6,
       "handling": 2.2,
       "range": 8.8,
-      "where": "The FIB SM-69 is on top of a skyscraper in Vice Beach, between two hospitals. You must complete a related mission in order for this Unique Weapon Variant to appear at this location. (GTABase); On a Vice Beach skyscraper roof between two hospitals (after a related mission). (GTA Scoop)"
+      "where": "The FIB SM-69 is on top of a skyscraper in Vice Beach, between two hospitals. You must complete a related mission in order for this Unique Weapon Variant to appear at this location. (GTABase); On a Vice Beach skyscraper roof between two hospitals (after a related mission). (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/fib-sm-69.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3434,7 +3628,8 @@
       "r8gb-weapons-fib-sm-69"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/fib-sm-69.jpg"
   },
   {
     "slug": "fincredible-laird-350",
@@ -3471,7 +3666,8 @@
       "accuracy": 9.2,
       "handling": 3.1,
       "range": 9.4,
-      "where": "Sold only at Guns Aplenty! (GTABase); Sold at Guns Aplenty! in Watson Bay. (GTA Scoop)"
+      "where": "Sold only at Guns Aplenty! (GTABase); Sold at Guns Aplenty! in Watson Bay. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/fincredible-laird-350.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3483,7 +3679,8 @@
       "r8gb-weapons-fincredible-laird-350"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/fincredible-laird-350.jpg"
   },
   {
     "slug": "firebreak-sm-69",
@@ -3518,7 +3715,8 @@
       "accuracy": 9.2,
       "handling": 1.7,
       "range": 9.8,
-      "where": "Sold only at Rusty Willis Jr. Hunting Supplies (GTABase); Sold at R. Willis Jr. Supplies, northwest of Kalaga Reservoir. (GTA Scoop)"
+      "where": "Sold only at Rusty Willis Jr. Hunting Supplies (GTABase); Sold at R. Willis Jr. Supplies, northwest of Kalaga Reservoir. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/firebreak-sm-69.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3529,7 +3727,8 @@
       "r8gb-weapons-firebreak-sm-69"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/firebreak-sm-69.jpg"
   },
   {
     "slug": "gun-nut-sms-01",
@@ -3558,7 +3757,8 @@
       "accuracy": 9.4,
       "handling": 1.9,
       "range": 9.2,
-      "where": "The Gun Nut SMS-01 is found in a case on the kitchen counter of the Gun Nut House in the Leonida Keys: go up the outside stairs and break down the door. (GTABase)"
+      "where": "The Gun Nut SMS-01 is found in a case on the kitchen counter of the Gun Nut House in the Leonida Keys: go up the outside stairs and break down the door. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/gun-nut-sms-01.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3567,7 +3767,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/gun-nut-sms-01.jpg"
   },
   {
     "slug": "hunters-laird-350",
@@ -3600,7 +3801,8 @@
       "accuracy": 8.8,
       "handling": 4,
       "range": 8,
-      "where": "Hunter's Laird 350 is a reward for helping two hunters in a random event in the Grassrivers marsh south-west of Hamlet: once you've dropped the injured hunter at the hospital, the rifle is yours. (GTABase)"
+      "where": "Hunter's Laird 350 is a reward for helping two hunters in a random event in the Grassrivers marsh south-west of Hamlet: once you've dropped the injured hunter at the hospital, the rifle is yours. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/hunters-laird-350.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3611,7 +3813,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hunters-laird-350.jpg"
   },
   {
     "slug": "iaa-sms-01",
@@ -3645,7 +3848,8 @@
       "accuracy": 8.8,
       "handling": 2.8,
       "range": 8,
-      "where": "The IAA SMS-01 is on the very top of the roof of the Aichi Condominiums on Northside Ave, Washington Beach. You must complete a related mission in order for this Unique Weapon Variant to appear at this location. (GTABase); On the roof of Aichi Condominiums, Northside Ave, Washington Beach (after a related mission). (GTA Scoop)"
+      "where": "The IAA SMS-01 is on the very top of the roof of the Aichi Condominiums on Northside Ave, Washington Beach. You must complete a related mission in order for this Unique Weapon Variant to appear at this location. (GTABase); On the roof of Aichi Condominiums, Northside Ave, Washington Beach (after a related mission). (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/iaa-sms-01.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3656,7 +3860,8 @@
       "r8gb-weapons-iaa-sms-01"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/iaa-sms-01.jpg"
   },
   {
     "slug": "internal-affairs-ff-sr",
@@ -3689,7 +3894,8 @@
       "accuracy": 9.3,
       "handling": 2,
       "range": 8.7,
-      "where": "The Internal Affairs FF-SR is on the northwest edge of the roof of the tallest building on Northside Ave, Washington Beach, the one with the helipad. You must complete a related mission in order for this Unique Weapon Variant to appear at this location. (GTABase); By the helipad on the tallest roof on Northside Ave, Washington Beach (after a related mission). (GTA Scoop)"
+      "where": "The Internal Affairs FF-SR is on the northwest edge of the roof of the tallest building on Northside Ave, Washington Beach, the one with the helipad. You must complete a related mission in order for this Unique Weapon Variant to appear at this location. (GTABase); By the helipad on the tallest roof on Northside Ave, Washington Beach (after a related mission). (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/internal-affairs-ff-sr.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3700,7 +3906,8 @@
       "r8gb-weapons-internal-affairs-ff-sr"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/internal-affairs-ff-sr.jpg"
   },
   {
     "slug": "island-poacher-ff-50",
@@ -3729,7 +3936,8 @@
       "accuracy": 9,
       "handling": 1.4,
       "range": 8.5,
-      "where": "The Island Poacher FF-50 is earned by surviving the hunting game on Hyde Island: get knocked out by a tranquilizer dart on the shore, then kill the hunter and take the rifle from his body. (GTABase)"
+      "where": "The Island Poacher FF-50 is earned by surviving the hunting game on Hyde Island: get knocked out by a tranquilizer dart on the shore, then kill the hunter and take the rifle from his body. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/island-poacher-ff-50.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3738,7 +3946,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/island-poacher-ff-50.jpg"
   },
   {
     "slug": "kingfishers-laird-350",
@@ -3771,7 +3980,8 @@
       "accuracy": 8.6,
       "handling": 3.9,
       "range": 8.4,
-      "where": "The Kingfishers Laird 350 is looted during the Manatee Motel Illegal Operation in Gullet Marsh, southwest of Hamlet. (GTABase); Loot from the Manatee Motel Illegal Operation in Gullet Marsh. (GTA Scoop)"
+      "where": "The Kingfishers Laird 350 is looted during the Manatee Motel Illegal Operation in Gullet Marsh, southwest of Hamlet. (GTABase); Loot from the Manatee Motel Illegal Operation in Gullet Marsh. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/kingfishers-laird-350.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3782,7 +3992,8 @@
       "r8gb-weapons-kingfishers-laird-350"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kingfishers-laird-350.jpg"
   },
   {
     "slug": "twins-laird-350",
@@ -3815,7 +4026,8 @@
       "accuracy": 9.1,
       "handling": 3.7,
       "range": 8,
-      "where": "Twin's Laird 350 is on the ground near a small hunting platform in the woods east of Kalaga Reservoir, Lummox County. (GTABase); Below a hunting platform east of Kalaga Reservoir, Lummox County. (GTA Scoop)"
+      "where": "Twin's Laird 350 is on the ground near a small hunting platform in the woods east of Kalaga Reservoir, Lummox County. (GTABase); Below a hunting platform east of Kalaga Reservoir, Lummox County. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/twins-laird-350.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3826,7 +4038,8 @@
       "r8gb-weapons-twins-laird-350"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/twins-laird-350.jpg"
   },
   {
     "slug": "chronic-vatra",
@@ -3859,7 +4072,8 @@
       "accuracy": 5.5,
       "handling": 4.6,
       "range": 3.6,
-      "where": "The Chronic Vatra is looted during the Industrial Weed Grow Illegal Operation in North Mariana County, north of Tola Bay and Big Pine. (GTABase); Loot from the Industrial Weed Grow Illegal Operation north of Tola Bay and Big Pine. (GTA Scoop)"
+      "where": "The Chronic Vatra is looted during the Industrial Weed Grow Illegal Operation in North Mariana County, north of Tola Bay and Big Pine. (GTABase); Loot from the Industrial Weed Grow Illegal Operation north of Tola Bay and Big Pine. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/chronic-vatra.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3870,7 +4084,8 @@
       "r8gb-weapons-chronic-vatra"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/chronic-vatra.jpg"
   },
   {
     "slug": "crabshack-vf5",
@@ -3904,7 +4119,8 @@
       "accuracy": 4.2,
       "handling": 7.1,
       "range": 4.5,
-      "where": "The Crabshack VF5 is in a boat shack at an abandoned research outpost in Pelican Valley: open the door from the boardwalk with the code. (GTABase); In a boat shack at the abandoned research outpost in Pelican Valley; the door needs a code. (GTA Scoop)"
+      "where": "The Crabshack VF5 is in a boat shack at an abandoned research outpost in Pelican Valley: open the door from the boardwalk with the code. (GTABase); In a boat shack at the abandoned research outpost in Pelican Valley; the door needs a code. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/crabshack-vf5.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3916,7 +4132,8 @@
       "r8gb-weapons-crabshack-vf5"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/crabshack-vf5.jpg"
   },
   {
     "slug": "dazzler-dq-9",
@@ -3951,7 +4168,8 @@
       "accuracy": 6.3,
       "handling": 4.6,
       "range": 4.2,
-      "where": "Sold only at Iron & Oak (GTABase); Sold at Iron & Oak Ammu-Nation in Stockyard. (GTA Scoop)"
+      "where": "Sold only at Iron & Oak (GTABase); Sold at Iron & Oak Ammu-Nation in Stockyard. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/dazzler-dq-9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3966,7 +4184,8 @@
     "spoiler": true,
     "aliases": [
       "Dazzler DQ-9"
-    ]
+    ],
+    "image": "/images/weapons/gtabase/dazzler-dq-9.jpg"
   },
   {
     "slug": "double-cross-vatra",
@@ -3999,7 +4218,8 @@
       "accuracy": 3.8,
       "handling": 6.5,
       "range": 3.6,
-      "where": "The Double Cross Vatra is on the seabed of Gulf Leonida, west of Bobcat Key in Mariana County. Three bodies floating near the surface mark the spot. (GTABase); On the sea floor of Gulf Leonida west of Bobcat Key; floating bodies on the surface mark the spot. (GTA Scoop)"
+      "where": "The Double Cross Vatra is on the seabed of Gulf Leonida, west of Bobcat Key in Mariana County. Three bodies floating near the surface mark the spot. (GTABase); On the sea floor of Gulf Leonida west of Bobcat Key; floating bodies on the surface mark the spot. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/double-cross-vatra.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4010,7 +4230,8 @@
       "r8gb-weapons-double-cross-vatra"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/double-cross-vatra.jpg"
   },
   {
     "slug": "furry-dw-9",
@@ -4038,7 +4259,8 @@
       "damage": 4.2,
       "accuracy": 4.2,
       "handling": 7.1,
-      "range": 4
+      "range": 4,
+      "menu_picture": "/images/weapons/gtabase/furry-dw-9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4047,7 +4269,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/furry-dw-9.jpg"
   },
   {
     "slug": "guardia-brothers-vf5",
@@ -4081,7 +4304,8 @@
       "accuracy": 6.7,
       "handling": 4.5,
       "range": 4.2,
-      "where": "The Guardia Brothers VF5 is looted during the Saber Shipping Facility Illegal Operation in Balsero, on the east side of the neighborhood by the river facing Rockridge. (GTABase); Loot from the Saber Shipping Facility Illegal Operation on the east side of Balsero. (GTA Scoop)"
+      "where": "The Guardia Brothers VF5 is looted during the Saber Shipping Facility Illegal Operation in Balsero, on the east side of the neighborhood by the river facing Rockridge. (GTABase); Loot from the Saber Shipping Facility Illegal Operation on the east side of Balsero. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/guardia-brothers-vf5.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4092,7 +4316,8 @@
       "r8gb-weapons-guardia-brothers-vf5"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/guardia-brothers-vf5.jpg"
   },
   {
     "slug": "kolt-and-associates-vatra",
@@ -4125,7 +4350,8 @@
       "accuracy": 4.8,
       "handling": 5.3,
       "range": 3.6,
-      "where": "The Kolt & Associates Vatra is looted during the June Warehouse Illegal Operation in Port Gellhorn, across the street from Sarena's Bargain Store. (GTABase); Loot from the June Warehouse Illegal Operation in south Port Gellhorn. (GTA Scoop)"
+      "where": "The Kolt & Associates Vatra is looted during the June Warehouse Illegal Operation in Port Gellhorn, across the street from Sarena's Bargain Store. (GTABase); Loot from the June Warehouse Illegal Operation in south Port Gellhorn. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/kolt-and-associates-vatra.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4136,7 +4362,8 @@
       "r8gb-weapons-kolt-associates-vatra"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/kolt-and-associates-vatra.jpg"
   },
   {
     "slug": "midlife-crisis-vf5",
@@ -4165,7 +4392,8 @@
       "damage": 4.2,
       "accuracy": 5.3,
       "handling": 6,
-      "range": 4.5
+      "range": 4.5,
+      "menu_picture": "/images/weapons/gtabase/midlife-crisis-vf5.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4174,7 +4402,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/midlife-crisis-vf5.jpg"
   },
   {
     "slug": "scrapper-vf5c",
@@ -4207,7 +4436,8 @@
       "accuracy": 3.5,
       "handling": 8.2,
       "range": 3.7,
-      "where": "The Scrapper VF5C is looted during the La Cascara Motel Illegal Operation in Port Gellhorn, on the shore of Draper Bay southwest of Gellhorn Outfitters. (GTABase); Loot from the La Cascara Motel Illegal Operation on Draper Bay, Port Gellhorn. (GTA Scoop)"
+      "where": "The Scrapper VF5C is looted during the La Cascara Motel Illegal Operation in Port Gellhorn, on the shore of Draper Bay southwest of Gellhorn Outfitters. (GTABase); Loot from the La Cascara Motel Illegal Operation on Draper Bay, Port Gellhorn. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/scrapper-vf5c.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4218,7 +4448,8 @@
       "r8gb-weapons-scrapper-vf5c"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/scrapper-vf5c.jpg"
   },
   {
     "slug": "spangled-vatra",
@@ -4253,7 +4484,8 @@
       "accuracy": 4,
       "handling": 6.3,
       "range": 4,
-      "where": "Sold only at Jackson Firearms (GTABase); Sold at Jackson Firearms, southeast Balsero. (GTA Scoop)"
+      "where": "Sold only at Jackson Firearms (GTABase); Sold at Jackson Firearms, southeast Balsero. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/spangled-vatra.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4264,7 +4496,8 @@
       "r8gb-weapons-spangled-vatra"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/spangled-vatra.jpg"
   },
   {
     "slug": "bae-luxs-w-10",
@@ -4294,7 +4527,8 @@
       "damage": 4.2,
       "accuracy": 3.2,
       "handling": 7.5,
-      "range": 3.5
+      "range": 3.5,
+      "menu_picture": "/images/weapons/gtabase/bae-luxs-w-10.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4303,7 +4537,8 @@
       "r7-ppx-photoshoot"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/bae-luxs-w-10.jpg"
   },
   {
     "slug": "chromium-w-10",
@@ -4336,7 +4571,8 @@
       "accuracy": 3.1,
       "handling": 6.9,
       "range": 3.2,
-      "where": "The Chromium W-10 is looted during the La Perle Trap House Illegal Operation in La Perle, north Vice City. (GTABase); Loot from the La Perle Trap House Illegal Operation. (GTA Scoop)"
+      "where": "The Chromium W-10 is looted during the La Perle Trap House Illegal Operation in La Perle, north Vice City. (GTABase); Loot from the La Perle Trap House Illegal Operation. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/chromium-w-10.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4347,7 +4583,8 @@
       "r8gb-weapons-chromium-w-10"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/chromium-w-10.jpg"
   },
   {
     "slug": "conspiracist-type-9",
@@ -4380,7 +4617,8 @@
       "accuracy": 5,
       "handling": 5.8,
       "range": 3.9,
-      "where": "The Conspiracist Type 9 is on the table of an underground armory below a hatch in a mobile home in Balsero, southwest of the Griffin Shooting Range. (GTABase); In an underground armory below a hatch in a mobile home in Balsero, southwest of the Griffin Shooting Range. (GTA Scoop)"
+      "where": "The Conspiracist Type 9 is on the table of an underground armory below a hatch in a mobile home in Balsero, southwest of the Griffin Shooting Range. (GTABase); In an underground armory below a hatch in a mobile home in Balsero, southwest of the Griffin Shooting Range. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/conspiracist-type-9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4391,7 +4629,8 @@
       "r8gb-weapons-conspiracist-type-9"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/conspiracist-type-9.jpg"
   },
   {
     "slug": "eris-fresh-dsg",
@@ -4424,7 +4663,8 @@
       "accuracy": 3.8,
       "handling": 7.3,
       "range": 4,
-      "where": "The Eris Fresh DSG is looted during the Illegal Goods Store Illegal Operation, at the northern end of Southside in Vice City. (GTABase); Loot from the Illegal Goods Store Illegal Operation in north Southside. (GTA Scoop)"
+      "where": "The Eris Fresh DSG is looted during the Illegal Goods Store Illegal Operation, at the northern end of Southside in Vice City. (GTABase); Loot from the Illegal Goods Store Illegal Operation in north Southside. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/eris-fresh-dsg.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4435,7 +4675,8 @@
       "r8gb-weapons-eris-fresh-dsg"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/eris-fresh-dsg.jpg"
   },
   {
     "slug": "little-friend-w-10",
@@ -4468,7 +4709,8 @@
       "accuracy": 3.4,
       "handling": 6.6,
       "range": 3.2,
-      "where": "The Little Friend W-10 is inside a room on the second floor of the Sunlite Motel off Shore Drive in Ocean Beach (take the stairs under the red awning). The door only opens after a short scene: interact with it at around midday to 1 PM, then walk down the far stairs, and when you come back the door is open with the weapon on the floor inside. (GTABase); In a blood-spattered second-floor room of the"
+      "where": "The Little Friend W-10 is inside a room on the second floor of the Sunlite Motel off Shore Drive in Ocean Beach (take the stairs under the red awning). The door only opens after a short scene: interact with it at around midday to 1 PM, then walk down the far stairs, and when you come back the door is open with the weapon on the floor inside. (GTABase); In a blood-spattered second-floor room of the",
+      "menu_picture": "/images/weapons/gtabase/little-friend-w-10.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4479,7 +4721,8 @@
       "r8gb-weapons-little-friend-w-10"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/little-friend-w-10.jpg"
   },
   {
     "slug": "marabunta-grande-type-9",
@@ -4512,7 +4755,8 @@
       "accuracy": 4.5,
       "handling": 6.7,
       "range": 3.5,
-      "where": "The Marabunta Grande Type 9 is looted during the Weed Grow Illegal Operation in East Lummox County, on the northeast shore of Lake Tallaloko. (GTABase); Loot from the Weed Grow Illegal Operation on the northeast shore of Lake Tallaloko. (GTA Scoop)"
+      "where": "The Marabunta Grande Type 9 is looted during the Weed Grow Illegal Operation in East Lummox County, on the northeast shore of Lake Tallaloko. (GTABase); Loot from the Weed Grow Illegal Operation on the northeast shore of Lake Tallaloko. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/marabunta-grande-type-9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4523,7 +4767,8 @@
       "r8gb-weapons-marabunta-grande-type-9"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/marabunta-grande-type-9.jpg"
   },
   {
     "slug": "moneymaker-w-10",
@@ -4559,7 +4804,8 @@
       "accuracy": 3.2,
       "handling": 6.5,
       "range": 3.9,
-      "where": "Sold only at Tequesta Guns & Ammo (GTABase); Sold at Tequesta Guns & Ammo, southwest Tequesta. (GTA Scoop)"
+      "where": "Sold only at Tequesta Guns & Ammo (GTABase); Sold at Tequesta Guns & Ammo, southwest Tequesta. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/moneymaker-w-10.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4571,7 +4817,8 @@
       "r8gb-weapons-moneymaker-w-10"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/moneymaker-w-10.jpg"
   },
   {
     "slug": "neon-sunset-type-9",
@@ -4606,7 +4853,8 @@
       "accuracy": 4.3,
       "handling": 6.6,
       "range": 3.9,
-      "where": "Sold only at Vice City Firearms (GTABase); Sold at Vice City Firearms in Salton. (GTA Scoop)"
+      "where": "Sold only at Vice City Firearms (GTABase); Sold at Vice City Firearms in Salton. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/neon-sunset-type-9.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4617,7 +4865,8 @@
       "r8gb-weapons-neon-sunset-type-9"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/neon-sunset-type-9.jpg"
   },
   {
     "slug": "roxys-w-10",
@@ -4647,7 +4896,8 @@
       "damage": 4.2,
       "accuracy": 3.2,
       "handling": 7.5,
-      "range": 3.5
+      "range": 3.5,
+      "menu_picture": "/images/weapons/gtabase/roxys-w-10.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4656,7 +4906,8 @@
       "r7-ppx-photoshoot"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/roxys-w-10.jpg"
   },
   {
     "slug": "tyrones-w-10",
@@ -4684,7 +4935,8 @@
       "damage": 4.2,
       "accuracy": 4.7,
       "handling": 5.4,
-      "range": 3.5
+      "range": 3.5,
+      "menu_picture": "/images/weapons/gtabase/tyrones-w-10.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4693,7 +4945,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/tyrones-w-10.jpg"
   },
   {
     "slug": "copperheads-w-14",
@@ -4722,7 +4975,8 @@
       "accuracy": 7.9,
       "handling": 5.2,
       "range": 6.3,
-      "where": "The Copperheads W-14 is inside a yellow shipping container full of sporting goods at the Millport harbor, northeast of Millport. You need the tool to cut open containers, which you get during Chapter 3 of the main story. (GTABase)"
+      "where": "The Copperheads W-14 is inside a yellow shipping container full of sporting goods at the Millport harbor, northeast of Millport. You need the tool to cut open containers, which you get during Chapter 3 of the main story. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/copperheads-w-14.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4731,7 +4985,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/copperheads-w-14.jpg"
   },
   {
     "slug": "black-eagle-import-m306-tmr",
@@ -4764,7 +5019,8 @@
       "accuracy": 9.5,
       "handling": 4.1,
       "range": 7.5,
-      "where": "The Black Eagle Import M306 TMR is in the Black Eagle warehouse next to the Black Eagle Ammu-Nation in Balsero. Only Lucia can reach it: go in through the garage opening, pass the barred door behind the cargo truck, then turn left and squeeze between the boxes and the chain-link wall. (GTABase); In the Black Eagle warehouse in Balsero, behind a gap only Lucia fits through; staff call the police. ("
+      "where": "The Black Eagle Import M306 TMR is in the Black Eagle warehouse next to the Black Eagle Ammu-Nation in Balsero. Only Lucia can reach it: go in through the garage opening, pass the barred door behind the cargo truck, then turn left and squeeze between the boxes and the chain-link wall. (GTABase); In the Black Eagle warehouse in Balsero, behind a gap only Lucia fits through; staff call the police. (",
+      "menu_picture": "/images/weapons/gtabase/black-eagle-import-m306-tmr.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4775,7 +5031,8 @@
       "r8gb-weapons-black-eagle-import-m306-tmr"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/black-eagle-import-m306-tmr.jpg"
   },
   {
     "slug": "schlamm-drx",
@@ -4810,7 +5067,8 @@
       "range": 4.2,
       "weapon_class": "Tactical Pistol",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/schlamm-drx.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4820,7 +5078,8 @@
       "r8gb-weapons-drx"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/schlamm-drx.jpg"
   },
   {
     "slug": "mahi-nipper-38",
@@ -4852,7 +5111,8 @@
       "weapon_class": "Compact Pistol",
       "price": "$1,160",
       "where": "Sold only at Chuck’s Tackle & Shot (GTABase)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/gtabase/mahi-nipper-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4862,7 +5122,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/mahi-nipper-38.jpg"
   },
   {
     "slug": "baseball-bat",
@@ -4882,7 +5143,7 @@
     ],
     "facts": {
       "type": "Melee Weapon",
-      "menu_picture": "/images/weapons/menu/baseball-bat.jpg",
+      "menu_picture": "/images/weapons/gtabase/baseball-bat.jpg",
       "menu_text": "Solid, dependable, and easy to swing."
     },
     "confidence": "corroborated",
@@ -4893,7 +5154,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/baseball-bat.jpg"
   },
   {
     "slug": "edc-knife",
@@ -4915,7 +5177,8 @@
       "type": "Melee Weapon",
       "price": "$275",
       "availability": "Sold at Big Shots (Dexerto)",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/edc-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4926,7 +5189,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/edc-knife.jpg"
   },
   {
     "slug": "switchblade",
@@ -4950,7 +5214,7 @@
       "price": "$290",
       "availability": "Sold at Big Shots (Dexerto)",
       "paid_with": "Cash",
-      "menu_picture": "/images/weapons/menu/switchblade.jpg",
+      "menu_picture": "/images/weapons/gtabase/switchblade.jpg",
       "menu_text": "Short blade, well suited to close-quarters brawling."
     },
     "confidence": "corroborated",
@@ -4963,7 +5227,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/switchblade.jpg"
   },
   {
     "slug": "combat-knife",
@@ -4985,7 +5250,8 @@
       "type": "Melee Weapon",
       "price": "$285",
       "availability": "Sold at Big Shots (Dexerto)",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/combat-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4996,7 +5262,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/combat-knife.jpg"
   },
   {
     "slug": "survival-knife",
@@ -5019,7 +5286,8 @@
       "type": "Melee Weapon",
       "price": "$315",
       "availability": "Sold at Big Shots (Dexerto)",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/survival-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5030,7 +5298,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/survival-knife.jpg"
   },
   {
     "slug": "brass-knuckles",
@@ -5052,7 +5321,7 @@
       "type": "Melee Weapon",
       "price": "$95",
       "paid_with": "Cash",
-      "menu_picture": "/images/weapons/menu/brass-knuckles.jpg",
+      "menu_picture": "/images/weapons/gtabase/brass-knuckles.jpg",
       "menu_text": "Discreet, and adds extra power to your punch."
     },
     "confidence": "corroborated",
@@ -5064,7 +5333,8 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/brass-knuckles.jpg"
   },
   {
     "slug": "baton",
@@ -5087,7 +5357,8 @@
       "type": "Melee Weapon",
       "price": "$160",
       "availability": "Sold at Big Shots (Dexerto)",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/baton.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5098,7 +5369,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/baton.jpg"
   },
   {
     "slug": "cursed-knife",
@@ -5116,7 +5388,8 @@
     ],
     "facts": {
       "type": "Melee Weapon",
-      "where": "The Cursed Knife is a reward for the Ghost Ship Easter egg: it's hidden in a small sunken boat on the seabed off the eastern point of Little Hardin Island. (GTABase)"
+      "where": "The Cursed Knife is a reward for the Ghost Ship Easter egg: it's hidden in a small sunken boat on the seabed off the eastern point of Little Hardin Island. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/cursed-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5125,7 +5398,8 @@
       "rs-gtabase-weapons"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/cursed-knife.jpg"
   },
   {
     "slug": "donnies-knife",
@@ -5143,7 +5417,8 @@
     ],
     "facts": {
       "type": "Melee Weapon",
-      "where": "Donnie's Knife is found at a farm in Big Pine, North Mariana County. (GTABase)"
+      "where": "Donnie's Knife is found at a farm in Big Pine, North Mariana County. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/donnies-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5153,7 +5428,7 @@
     ],
     "verified": "2026-11-26",
     "spoiler": true,
-    "image": "/images/weapons/donnies-knife.jpg"
+    "image": "/images/weapons/gtabase/donnies-knife.jpg"
   },
   {
     "slug": "brontasaurus-bat",
@@ -5177,7 +5452,8 @@
     "facts": {
       "type": "Melee Weapon",
       "availability": "Batting cages at Dino Golf, Frogswater",
-      "where": "The Buntosaurus Bat is in one of the batting cages on the right at Dino Golf, off SR-32 in Frogswater. (GTABase); In one of the batting cages on the right at Dino Golf, off SR-32 in Frogswater. (GTA Scoop)"
+      "where": "The Buntosaurus Bat is in one of the batting cages on the right at Dino Golf, off SR-32 in Frogswater. (GTABase); In one of the batting cages on the right at Dino Golf, off SR-32 in Frogswater. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/brontasaurus-bat.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5188,7 +5464,8 @@
       "r8gb-weapons-brontasaurus-bat"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/brontasaurus-bat.jpg"
   },
   {
     "slug": "explorers-knife",
@@ -5210,7 +5487,8 @@
     "facts": {
       "type": "Melee Weapon",
       "availability": "Underground Emerald River, via Selkie Hole",
-      "where": "Explorer's Knife is in the underground section of Emerald River: go through Selkie Hole, take the scuba gear and flashlight, then dive and follow the yellow guide rope north past the warning sign. (GTABase); Deep in the flooded cave of Emerald River, reached through Selkie Hole (dive gear there); follow the yellow line. (GTA Scoop)"
+      "where": "Explorer's Knife is in the underground section of Emerald River: go through Selkie Hole, take the scuba gear and flashlight, then dive and follow the yellow guide rope north past the warning sign. (GTABase); Deep in the flooded cave of Emerald River, reached through Selkie Hole (dive gear there); follow the yellow line. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/explorers-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5221,7 +5499,8 @@
       "r8gb-weapons-explorers-knife"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/explorers-knife.jpg"
   },
   {
     "slug": "shark-knife",
@@ -5243,7 +5522,8 @@
     "facts": {
       "type": "Melee Weapon",
       "availability": "Underwater ravine north of the Saint Attaway Islands",
-      "where": "The Shark Knife is on the seabed north of the Saint Attaway Islands, stuck in the ground of an underwater ravine next to a shark cage. (GTABase); Beside a shark cage in an underwater ravine north of the Saint Attaway Islands. (GTA Scoop)"
+      "where": "The Shark Knife is on the seabed north of the Saint Attaway Islands, stuck in the ground of an underwater ravine next to a shark cage. (GTABase); Beside a shark cage in an underwater ravine north of the Saint Attaway Islands. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/shark-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5254,7 +5534,8 @@
       "r8gb-weapons-shark-knife"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/shark-knife.jpg"
   },
   {
     "slug": "soldiers-combat-knife",
@@ -5276,7 +5557,8 @@
     "facts": {
       "type": "Melee Weapon",
       "availability": "Hatch of a sunken tank near Bobcat Key",
-      "where": "Soldier's Combat Knife is inside the hatch of a partly sunken tank on the west shore between Bobcat Bight and Bobcat Key. (GTABase); Inside the hatch of a half-sunken tank on the west shore between Bobcat Bight and Bobcat Key. (GTA Scoop)"
+      "where": "Soldier's Combat Knife is inside the hatch of a partly sunken tank on the west shore between Bobcat Bight and Bobcat Key. (GTABase); Inside the hatch of a half-sunken tank on the west shore between Bobcat Bight and Bobcat Key. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/soldiers-combat-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5287,7 +5569,8 @@
       "r8gb-weapons-soldiers-combat-knife"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/soldiers-combat-knife.jpg"
   },
   {
     "slug": "tallaloko-knife",
@@ -5309,7 +5592,8 @@
     "facts": {
       "type": "Melee Weapon",
       "availability": "Evergreen cabin, Lake Tallaloko, East Lummox County",
-      "where": "The Tallaloko Knife is behind the locked door on the second floor of the Evergreen cabin, on the west side of Lake Tallaloko in East Lummox County. The lockbox there also holds over $7,000 in jewelry. (GTABase); Upstairs behind a locked door in the Evergreen cabin on the west side of Lake Tallaloko. (GTA Scoop)"
+      "where": "The Tallaloko Knife is behind the locked door on the second floor of the Evergreen cabin, on the west side of Lake Tallaloko in East Lummox County. The lockbox there also holds over $7,000 in jewelry. (GTABase); Upstairs behind a locked door in the Evergreen cabin on the west side of Lake Tallaloko. (GTA Scoop)",
+      "menu_picture": "/images/weapons/gtabase/tallaloko-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5320,6 +5604,7 @@
       "r8gb-weapons-tallaloko-knife"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/tallaloko-knife.jpg"
   }
 ]

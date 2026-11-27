@@ -19,7 +19,8 @@
       "type": "Melee Weapon",
       "price": "$230",
       "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/bushcraft-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -32,7 +33,8 @@
       "r10-dex-w-bushcraft-knife"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/bushcraft-knife.jpg"
   },
   {
     "slug": "diving-knife",
@@ -54,7 +56,8 @@
       "type": "Melee Weapon",
       "price": "$300",
       "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/diving-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -67,7 +70,8 @@
       "r10-dex-w-diving-knife"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/diving-knife.jpg"
   },
   {
     "slug": "hunting-knife",
@@ -88,7 +92,8 @@
     "facts": {
       "type": "Melee Weapon",
       "price": "$125",
-      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)"
+      "availability": "Sold at Big Shots and Chuck's Tackle & Shot (Dexerto)",
+      "menu_picture": "/images/weapons/gtabase/hunting-knife.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -101,7 +106,8 @@
       "r10-dex-w-hunting-knife"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/hunting-knife.jpg"
   },
   {
     "slug": "frag-grenade",
@@ -122,7 +128,8 @@
     "facts": {
       "type": "Explosive",
       "price": "$140",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/gtabase/frag-grenade.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -134,7 +141,8 @@
       "powerpyx-cheats"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/frag-grenade.jpg"
   },
   {
     "slug": "molotov",
@@ -153,7 +161,7 @@
     ],
     "facts": {
       "type": "Explosive",
-      "menu_picture": "/images/weapons/menu/molotov.jpg",
+      "menu_picture": "/images/weapons/gtabase/molotov.jpg",
       "menu_text": "Ignites on impact. Good for sowing chaos."
     },
     "confidence": "corroborated",
@@ -167,7 +175,7 @@
       "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
-    "image": "/images/web/ign-2bde806570a0.jpg"
+    "image": "/images/weapons/gtabase/molotov.jpg"
   },
   {
     "slug": "flash-grenades",
@@ -186,7 +194,8 @@
     ],
     "facts": {
       "type": "Explosive",
-      "availability": "Car trunk during Car Service (Steal The Car for Raul)"
+      "availability": "Car trunk during Car Service (Steal The Car for Raul)",
+      "menu_picture": "/images/weapons/gtabase/flash-grenades.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -195,7 +204,8 @@
       "powerpyx-car-service"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/flash-grenades.jpg"
   },
   {
     "slug": "arras-bullhead",
@@ -248,7 +258,8 @@
       "accuracy": 5,
       "handling": 9,
       "range": 4.1,
-      "where": "Donnie's H&L.38 is found in the trunk of Donnie's car in Key Lento. It's missable: you can only pick it up while you're heading to Donnie's trailer. (GTABase)"
+      "where": "Donnie's H&L.38 is found in the trunk of Donnie's car in Key Lento. It's missable: you can only pick it up while you're heading to Donnie's trailer. (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/donnies-handl-38.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -257,7 +268,8 @@
       "r8gb-weapons-donnies-h-l-38"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/donnies-handl-38.jpg"
   },
   {
     "slug": "gils-kalinga-50",
@@ -283,7 +295,8 @@
       "damage": 7,
       "accuracy": 4.3,
       "handling": 7.9,
-      "range": 5
+      "range": 5,
+      "menu_picture": "/images/weapons/gtabase/gils-kalinga-50.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -292,7 +305,8 @@
       "r8gb-weapons-gils-kalinga-50"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/gils-kalinga-50.jpg"
   },
   {
     "slug": "bae-luxes-bat",
@@ -312,7 +326,8 @@
     ],
     "facts": {
       "type": "Variant (melee)",
-      "availability": "Reward for Cooties (Shoot the Music Video), after Chapter 3 Ride or Die"
+      "availability": "Reward for Cooties (Shoot the Music Video), after Chapter 3 Ride or Die",
+      "menu_picture": "/images/weapons/gtabase/bae-luxes-bat.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -321,7 +336,8 @@
       "powerpyx-cooties"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/bae-luxes-bat.jpg"
   },
   {
     "slug": "mister-mangrove-laird-350",
@@ -348,7 +364,8 @@
       "accuracy": 9.2,
       "handling": 3.8,
       "range": 8.7,
-      "where": "The Mister Mangrove Laird 350 is a reward from Help Kirk Find Mr. Mangrove, Kirk's third Strangers & Freaks mission: he hands you the rifle for the night hunt near Cottonmouth Lake, and you keep it afterwards. Here is the area near Cottonmouth Lake where the mission takes place: (GTABase)"
+      "where": "The Mister Mangrove Laird 350 is a reward from Help Kirk Find Mr. Mangrove, Kirk's third Strangers & Freaks mission: he hands you the rifle for the night hunt near Cottonmouth Lake, and you keep it afterwards. Here is the area near Cottonmouth Lake where the mission takes place: (GTABase)",
+      "menu_picture": "/images/weapons/gtabase/mister-mangrove-laird-350.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -357,7 +374,8 @@
       "r8gb-weapons-mister-mangrove-laird-350"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/mister-mangrove-laird-350.jpg"
   },
   {
     "slug": "unique-weapon-variants-overview",
@@ -391,6 +409,7 @@
       "game8-weapons-hub"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/weapons/gtabase/bae-luxs-w-10.jpg"
   }
 ]

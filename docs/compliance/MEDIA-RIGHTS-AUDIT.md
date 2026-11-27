@@ -1,17 +1,17 @@
 # Media rights audit
 
-Generated 2026-11-27 14:51 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-27 15:19 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 2544 |
-| Records in `data/media.json` | 2544 |
+| Media files on disk (`images/`, `wallpapers/`) | 2697 |
+| Records in `data/media.json` | 2697 |
 | Files with no record | 0 |
 | Records with no file | 0 |
 | Groups of identical files | 0 |
-| Files not used anywhere | 35 |
+| Files not used anywhere | 36 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 21 |
 
@@ -22,7 +22,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Decision | Files | Meaning |
 |---|---|---|
 | approved_for_distribution | 27 | Cleared to ship in a public package |
-| local_personal_use_only | 2494 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
+| local_personal_use_only | 2647 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
 | unknown | 23 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
@@ -35,7 +35,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | evidence_frame | 23 |
 | official_illustration | 142 |
 | owner_supplied_unverified | 125 |
-| third_party_screenshot | 2247 |
+| third_party_screenshot | 2400 |
 | unrecorded_source | 7 |
 
 `evidence_frame`: a frame of Rockstar's official video, used as evidence in the manual or as an entry picture. `official_illustration`: a Rockstar screenshot or artwork taken from one of Rockstar's own sites or accounts. `third_party_screenshot`: game imagery taken from another site (a wiki, a database or a news site), even when that site credits Rockstar; it is not counted as official. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded. `unrecorded_source`: no web address in the recorded source.
@@ -89,6 +89,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/web/gamespot-b18e27b34182.jpg`
 - `images/web/gamesradar-94c55f64825f.jpg`
 - `images/web/gtabase-ebe6601473b3.jpg`
+- `images/web/ign-2bde806570a0.jpg`
 - `images/web/playday-0a37c7f1372f.jpg`
 - `images/web/playday-9476143ebf71.jpg`
 
