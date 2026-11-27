@@ -23,13 +23,17 @@
       "asphalt_handling": 4.6,
       "offroad_handling": 4.5,
       "strength": 3.0,
-      "where": "GTABase: Custom Emperor Sultan. Gifted by Moses Watkins in return for helping out with his auto business.; Standout (GTABase map): Port Gellhorn -  #136 Emperor Moses' Sultan Port Gellhorn Set: Street Racer. Custom Emperor Sultan. Gifted by Moses Watkins in return for helping out with his auto business."
+      "where": "GTABase: Custom Emperor Sultan. Gifted by Moses Watkins in return for helping out with his auto business.; Standout (GTABase map): Port Gellhorn -  #136 Emperor Moses' Sultan Port Gellhorn Set: Street Racer. Custom Emperor Sultan. Gifted by Moses Watkins in return for helping out with his auto business.",
+      "menu_picture": "/images/vehicles/moses-sultan.jpg",
+      "standout_set": "Street Racer",
+      "based_on": "Lexus IS, Mitsubishi Lancer Evo VI, Subaru Impreza"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
-      "r7-ppx-collect-moses-gift"
+      "r7-ppx-collect-moses-gift",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true

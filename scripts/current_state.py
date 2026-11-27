@@ -29,6 +29,8 @@ def load_wiki():
         part = json.loads(open(path, encoding='utf-8-sig').read())
         if isinstance(part, dict):
             wiki.setdefault(name, {}).update(part)
+        elif name == 'map':  # map.<name>.json adds map markers, as in src/content.rs
+            wiki.setdefault('map', {}).setdefault('markers', []).extend(part)
         else:
             wiki[name] = (wiki.get(name) or []) + part
     return wiki

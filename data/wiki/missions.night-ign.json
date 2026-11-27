@@ -21,14 +21,16 @@
       "reward": "White Rusty Anchor T-Shirt and Rusty Anchor Cap become buyable",
       "protagonist": "Jason",
       "chapter": "Chapter 1",
-      "type": "Optional mission"
+      "type": "Optional mission",
+      "missable": true
     },
     "confidence": "corroborated",
     "sources": [
       "ign-ring-the-bell",
       "ign-optional-missions",
       "ign-ch1-missables",
-      "rs-gtabase-ring-the-bell"
+      "rs-gtabase-ring-the-bell",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-18",
     "spoiler": true,

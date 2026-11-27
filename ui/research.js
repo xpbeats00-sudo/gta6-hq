@@ -439,8 +439,14 @@
     const tabNames = o.tabs(items);
     const chosen = new Set();
     const owned = () => UserStore.get(o.ownPart, {});
+    // Extra pickers (the Garage's Class and Standout set) and a sort, each optional.
+    const pickers = (o.pickers || []).map((p) => ({ ...p, choices: p.choices(items) }));
+    const picked = pickers.map(() => '');
+    let sortBy = 'name';
+    const pickerHtml = pickers.map((p, i) => `<label class="gm-pick"><span>${esc(p.label)}</span><select data-picker="${i}">${[['', p.all], ...p.choices].map(([v, l, n]) => `<option value="${esc(v)}">${esc(l)}${n !== undefined ? ` (${n})` : ''}</option>`).join('')}</select></label>`).join('');
+    const sortHtml = o.sorts ? `<label class="gm-pick"><span>Sort</span><select data-sort>${o.sorts.map(([v, l]) => `<option value="${v}">${esc(l)}</option>`).join('')}</select></label>` : '';
     view.innerHTML = shell({ crumbs: [o.title], tabs: tabNames.map((t) => t[0]), theme: o.theme, body: `<div class="gm-locker-tools">
-        <div class="field-search">${icon('search')}<input type="search" class="gm-q" placeholder="${esc(o.search)}" aria-label="${esc(o.search)}"></div>
+        <div class="field-search">${icon('search')}<input type="search" class="gm-q" placeholder="${esc(o.search)}" aria-label="${esc(o.search)}"></div>${pickerHtml}${sortHtml}
         <label class="gm-switch"><input type="checkbox" data-stats-only><span>Only with stat bars</span></label>
         <label class="gm-switch"><input type="checkbox" data-owned-only><span>Only ${esc(o.ownShort)}</span></label>
         <span class="gm-owned-n"></span></div>
@@ -457,8 +463,10 @@
     const list = () => {
       const own = owned();
       const words = q.toLowerCase().split(/\s+/).filter(Boolean);
+      const sorter = (o.sorts || []).find(([v]) => v === sortBy)?.[2] || ((a, b) => a.name.localeCompare(b.name));
       return items.filter((e) => tabNames[tab][1](e) && (!q || !hid(e)) && (!statsOnly || o.stats.some(([k]) => num(e.facts?.[k]) !== null)) && (!ownedOnly || own[e.slug])
-        && words.every((w) => `${e.name} ${Object.values(e.facts || {}).join(' ')}`.toLowerCase().includes(w))).sort((a, b) => a.name.localeCompare(b.name));
+        && pickers.every((p, i) => !picked[i] || p.test(e, picked[i]))
+        && words.every((w) => `${e.name} ${Object.values(e.facts || {}).join(' ')}`.toLowerCase().includes(w))).sort(sorter);
     };
     let current = [];
     const tray = () => {
@@ -509,6 +517,8 @@
     root.addEventListener('input', (e) => { if (e.target.classList.contains('gm-q')) { q = e.target.value; ld = null; draw(); } });
     root.addEventListener('change', (e) => {
       const t = e.target;
+      if (t.dataset.picker !== undefined) { picked[Number(t.dataset.picker)] = t.value; ld = null; draw(); return; }
+      if (t.dataset.sort !== undefined) { sortBy = t.value; ld = null; draw(); return; }
       if (t.dataset.statsOnly !== undefined) { statsOnly = t.checked; ld = null; draw(); } else if (t.dataset.ownedOnly !== undefined) { ownedOnly = t.checked; ld = null; draw(); } else if (t.dataset.pick) {
         if (t.checked && chosen.size < 3) chosen.add(t.dataset.pick); else chosen.delete(t.dataset.pick);
         draw();
@@ -549,10 +559,20 @@
   };
 
   const VEHICLE_TABS = [
-    ['Sports', /sport|super/i], ['Muscle', /muscle/i], ['Sedans and coupes', /sedan|coupe|compact/i], ['SUVs and trucks', /suv|truck|pickup|van|utility/i],
-    ['Off-road', /off-?road/i], ['Motorcycles', /motorcycle|bike|scooter|moped/i], ['Aircraft', /aircraft|plane|helicopter|jet/i], ['Boats', /boat|ship|watercraft|jet ski|yacht/i],
-    ['Emergency and service', /emergency|police|service|commercial|industrial/i],
+    ['Sports', /sport|super/i], ['Muscle', /muscle/i], ['Sedans and coupes', /sedan|coupe|compact/i], ['SUVs and trucks', /suv|truck|pickup|van/i],
+    ['Off-road', /off-?road/i], ['Motorcycles', /motorcycle|bike|scooter|moped|cycle/i], ['Aircraft', /aircraft|plane|helicopter|jet/i], ['Boats', /boat|ship|watercraft|jet ski|yacht/i],
+    ['Emergency and service', /emergency|police|service|commercial|industrial|utility|military/i],
   ];
+  // A standout vehicle: a custom version of a regular one with its own livery and stats, in one of 25 sets.
+  const isStandout = (e) => Boolean(e.facts?.standout_set) || /standout/i.test(e.facts?.class || '');
+  // The 20 classes as GTABase and the game's menu group them; older entries spell classes many ways.
+  const CLASSES = [['Super', /super/i], ['Sports', /sport/i], ['Muscle', /muscle/i], ['Coupes', /coupe/i], ['Sedans', /sedan|saloon|compact/i],
+    ['SUVs', /suv/i], ['Pickups', /pickup/i], ['Vans', /\bvans?\b|minivan|motorhome/i], ['Off-Road', /off-?road|buggy|atv/i], ['Motorcycles', /motorcycle|motorbike|scooter|moped|\bbikes?\b/i],
+    ['Cycles', /cycle|bmx|bicycle/i], ['Planes', /plane|jet|aircraft/i], ['Helicopters', /helicopter/i], ['Boats', /boat|watercraft|yacht|jet ski|kayak/i],
+    ['Emergency', /emergency|police|ambulance|fire/i], ['Military', /military/i], ['Commercial', /commercial|truck/i], ['Industrial', /industrial/i],
+    ['Utility', /utility/i], ['Service', /service|taxi|bus/i]];
+  const vClass = (e) => { const c = String(e.facts?.class || '').split(',')[0].trim(); return (CLASSES.find(([, re]) => re.test(c)) || [c])[0]; };
+  const priceOf = (e) => { const m = /\$([\d,]+)/.exec(e.facts?.price || ''); return m ? Number(m[1].replace(/,/g, '')) : -1; };
   const VEHICLE_STATS = [['speed', 'Speed'], ['acceleration', 'Acceleration'], ['asphalt_handling', 'Asphalt handling'], ['offroad_handling', 'Off-road handling'], ['strength', 'Strength']];
   EXTRA_PAGES.garage = function renderGarage() {
     const text = (e) => `${e.facts?.class || ''} ${e.name}`;
@@ -566,8 +586,19 @@
       },
       search: 'Search vehicles', ownShort: 'my garage', ownVerb: 'Add to garage', ownedWord: 'In my garage',
       stats: VEHICLE_STATS,
-      head: (e) => `<p class="gm-stat-class">${esc(plain(e.facts?.manufacturer || ''))}</p><p class="gm-stat-name">${esc(e.name)}</p>`,
-      facts: [['class', 'Class'], ['style', 'Style'], ['era', 'Era'], ['specialist', 'Mod shop specialist'], ['rating', 'Rating'], ['price', 'Price'], ['sell_value', 'Sells for'], ['seats', 'Seats'], ['drivetrain', 'Drivetrain'], ['where', 'Where to find it'], ['customise', 'Where to modify it'], ['availability', 'Availability']],
+      pickers: [
+        { label: 'Class', all: 'All classes', test: (e, v) => vClass(e) === v,
+          choices: (items) => { const n = {}; items.forEach((e) => { const c = vClass(e); if (CLASSES.some(([k]) => k === c)) n[c] = (n[c] || 0) + 1; }); return Object.keys(n).sort().map((c) => [c, c, n[c]]); } },
+        { label: 'Standout set', all: 'All vehicles',
+          test: (e, v) => (v === '__hide' ? !isStandout(e) : v === '__only' ? isStandout(e) : e.facts?.standout_set === v),
+          choices: (items) => { const n = {}; items.forEach((e) => { const s = e.facts?.standout_set; if (s) n[s] = (n[s] || 0) + 1; });
+            return [['__hide', 'Hide standout vehicles', items.filter((e) => !isStandout(e)).length], ['__only', 'Standout vehicles only', items.filter(isStandout).length],
+              ...Object.keys(n).sort().map((s) => [s, s, n[s]])]; } },
+      ],
+      sorts: [['name', 'Name'], ['speed', 'Speed', (a, b) => (num(b.facts?.speed) ?? -1) - (num(a.facts?.speed) ?? -1) || a.name.localeCompare(b.name)],
+        ['price', 'Cost, high to low', (a, b) => priceOf(b) - priceOf(a) || a.name.localeCompare(b.name)]],
+      head: (e) => `<p class="gm-stat-class">${esc(plain(e.facts?.manufacturer || ''))}${isStandout(e) ? ' <span class="gm-standout">★ Standout</span>' : ''}</p><p class="gm-stat-name">${esc(e.name)}</p>`,
+      facts: [['class', 'Class'], ['standout_set', 'Standout set'], ['based_on', 'Based on'], ['style', 'Style'], ['era', 'Era'], ['specialist', 'Mod shop specialist'], ['rating', 'Rating'], ['price', 'Price'], ['sell_value', 'Sells for'], ['seats', 'Seats'], ['drivetrain', 'Drivetrain'], ['where', 'Where to find it'], ['customise', 'Where to modify it'], ['availability', 'Availability']],
     });
   };
 

@@ -17,11 +17,15 @@
     "facts": {
       "species": "White River Otter",
       "habitat": "Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "An uncommon, white-furred variant of the North American river otter found in Leonida's wetlands and near its rivers. A gentle kill will preserve the quality of the carcass.",
+      "animal_class": "Mammal",
+      "key_habitats": "Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting-animals"
+      "dayone-hunting-animals",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -46,13 +50,18 @@
     "facts": {
       "species": "Mottled Duck",
       "habitat": "Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "Commonly seen on bodies of fresh water around Leonida, the mottled duck can be identified by the shiny blue patch on each of its wings, and is easily taken down by a low-power rifle.",
+      "animal_class": "Bird",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Wetland"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-hunting-animals",
       "gtatracker-mottled-duck",
-      "r13-tbt-birding"
+      "r13-tbt-birding",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-19",
     "spoiler": true,

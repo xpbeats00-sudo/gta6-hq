@@ -1,174 +1,208 @@
 # Repository inventory
 
-Generated 2026-11-21 15:54 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-27 04:35 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
-| `src/` | 13 | 0.3 MB |
-| `ui/` | 23 | 2.4 MB |
-| `data/` | 94 | 6.1 MB |
-| `images/` | 948 | 99.7 MB |
-| `wallpapers/` | 70 | 98.1 MB |
-| `docs/` | 258 | 104.4 MB |
-| `scripts/` | 28 | 0.3 MB |
-| `cache/` | 1972 | 284.0 MB |
-| `backups/` | 73 | 113.0 MB |
-| `staging/` | 9 | 78.3 MB |
-| `zips/` | 1 | 0.0 MB |
-| `target/release/` | 3935 | 1527.0 MB |
+| `src/` | 14 | 0.3 MB |
+| `ui/` | 30 | 2.7 MB |
+| `data/` | 113 | 9.2 MB |
+| `images/` | 1967 | 278.3 MB |
+| `wallpapers/` | 71 | 105.5 MB |
+| `docs/` | 290 | 108.8 MB |
+| `scripts/` | 37 | 0.4 MB |
+| `cache/` | 12 | 0.3 MB |
+| `backups/` | 1 | 0.0 MB |
+| `target/release/` | 1873 | 773.3 MB |
 
 ## Source files
 
 | File | Lines |
 |---|---|
-| `src/content.rs` | 583 |
+| `src/backup.rs` | 130 |
+| `src/content.rs` | 671 |
 | `src/discord.rs` | 232 |
 | `src/import.rs` | 1044 |
-| `src/main.rs` | 209 |
-| `src/media.rs` | 361 |
-| `src/search.rs` | 624 |
-| `src/server.rs` | 876 |
+| `src/main.rs` | 210 |
+| `src/media.rs` | 408 |
+| `src/search.rs` | 935 |
+| `src/server.rs` | 925 |
 | `src/settings.rs` | 170 |
 | `src/tiles.rs` | 154 |
 | `src/update.rs` | 530 |
-| `src/userdata.rs` | 216 |
-| `src/validate.rs` | 1710 |
+| `src/userdata.rs` | 236 |
+| `src/validate.rs` | 1714 |
 | `src/window.rs` | 320 |
-| `ui/app.js` | 3033 |
+| `ui/app.js` | 4593 |
 | `ui/appearance.js` | 51 |
 | `ui/art.js` | 86 |
-| `ui/explore.js` | 605 |
-| `ui/icons.js` | 44 |
-| `ui/journal.js` | 259 |
-| `ui/manual.js` | 646 |
-| `ui/map3d.js` | 443 |
+| `ui/explore.js` | 793 |
+| `ui/hundred.js` | 180 |
+| `ui/icons.js` | 55 |
+| `ui/journal.js` | 275 |
+| `ui/manual.js` | 681 |
+| `ui/map3d.js` | 296 |
+| `ui/menus.js` | 379 |
+| `ui/research.js` | 658 |
+| `ui/routes.js` | 240 |
 | `ui/stream.js` | 132 |
-| `ui/design.css` | 755 |
-| `ui/manual.css` | 447 |
+| `ui/design.css` | 977 |
+| `ui/manual.css` | 539 |
+| `ui/mapside.css` | 213 |
+| `ui/research.css` | 359 |
+| `ui/rockstar.css` | 224 |
 | `ui/stream.css` | 70 |
-| `ui/styles.css` | 1391 |
-| `ui/themes.css` | 111 |
-| `ui/index.html` | 168 |
+| `ui/styles.css` | 1403 |
+| `ui/themes.css` | 129 |
+| `ui/index.html` | 179 |
 | `data/discord.json` | 7 |
-| `data/manual.json` | 48124 |
-| `data/media.json` | 987 |
+| `data/manual.json` | 51191 |
+| `data/media.json` | 2008 |
 | `data/update.json` | 4 |
-| `data/wiki.json` | 2061 |
-| `data/wiki/achievements.json` | 1338 |
+| `data/wiki.json` | 2229 |
+| `data/wiki/achievements.json` | 2918 |
 | `data/wiki/activities.json` | 60 |
 | `data/wiki/activities.launch-detail.json` | 1027 |
 | `data/wiki/activities.launch-world.json` | 655 |
-| `data/wiki/activities.night-ign.json` | 4200 |
+| `data/wiki/activities.night-ign.json` | 4494 |
 | `data/wiki/activities.night-r8.json` | 35 |
+| `data/wiki/activities.r17.json` | 30 |
 | `data/wiki/activities.reviews.json` | 39 |
 | `data/wiki/businesses.community.json` | 27 |
 | `data/wiki/businesses.json` | 157 |
-| `data/wiki/businesses.launch-places.json` | 7150 |
+| `data/wiki/businesses.launch-places.json` | 7292 |
 | `data/wiki/businesses.launch-world2.json` | 179 |
-| `data/wiki/businesses.night-r7.json` | 27 |
-| `data/wiki/businesses.night-r8.json` | 139 |
+| `data/wiki/businesses.night-r7.json` | 29 |
+| `data/wiki/businesses.night-r8.json` | 160 |
 | `data/wiki/businesses.night-r8map.json` | 48 |
-| `data/wiki/businesses.night-world.json` | 166 |
+| `data/wiki/businesses.night-world.json` | 186 |
+| `data/wiki/businesses.r15-coverage.json` | 713 |
 | `data/wiki/categories.achievements.json` | 26 |
 | `data/wiki/characters.community.json` | 1 |
-| `data/wiki/characters.json` | 52 |
-| `data/wiki/characters.launch-cast.json` | 1387 |
-| `data/wiki/characters.launch-cast2.json` | 64 |
-| `data/wiki/characters.night-r11.json` | 80 |
-| `data/wiki/characters.night-r5.json` | 254 |
-| `data/wiki/collectibles.json` | 213 |
+| `data/wiki/characters.json` | 56 |
+| `data/wiki/characters.launch-cast.json` | 1473 |
+| `data/wiki/characters.launch-cast2.json` | 70 |
+| `data/wiki/characters.night-r11.json` | 82 |
+| `data/wiki/characters.night-r5.json` | 268 |
+| `data/wiki/characters.r16.json` | 99 |
+| `data/wiki/characters.r17.json` | 33 |
+| `data/wiki/collectibles.json` | 214 |
 | `data/wiki/collectibles.launch-items.json` | 2602 |
 | `data/wiki/collectibles.launch-world2.json` | 1244 |
-| `data/wiki/collectibles.night-ign.json` | 15976 |
-| `data/wiki/collectibles.night-sites.json` | 81 |
-| `data/wiki/collectibles.night-world.json` | 9779 |
-| `data/wiki/collectibles.night-world2.json` | 3015 |
+| `data/wiki/collectibles.night-ign.json` | 17004 |
+| `data/wiki/collectibles.night-sites.json` | 82 |
+| `data/wiki/collectibles.night-world.json` | 10198 |
+| `data/wiki/collectibles.night-world2.json` | 3089 |
+| `data/wiki/collectibles.r14-fill.json` | 80 |
+| `data/wiki/collectibles.r15-coverage.json` | 322 |
 | `data/wiki/factions.launch-cast.json` | 324 |
 | `data/wiki/factions.night-r8.json` | 35 |
 | `data/wiki/factions.night-r8map.json` | 25 |
-| `data/wiki/gameplay.launch-detail.json` | 738 |
-| `data/wiki/gameplay.launch-systems.json` | 1435 |
-| `data/wiki/gameplay.launch-world.json` | 323 |
-| `data/wiki/gameplay.launch.json` | 328 |
-| `data/wiki/gameplay.night-ign.json` | 176 |
-| `data/wiki/gameplay.night-r10.json` | 58 |
-| `data/wiki/gameplay.night-r7.json` | 60 |
-| `data/wiki/gameplay.night-r8.json` | 93 |
-| `data/wiki/gameplay.night-sites.json` | 100 |
-| `data/wiki/gameplay.previews.json` | 467 |
+| `data/wiki/gameplay.launch-detail.json` | 742 |
+| `data/wiki/gameplay.launch-systems.json` | 1436 |
+| `data/wiki/gameplay.launch-world.json` | 335 |
+| `data/wiki/gameplay.launch.json` | 339 |
+| `data/wiki/gameplay.night-ign.json` | 178 |
+| `data/wiki/gameplay.night-r10.json` | 59 |
+| `data/wiki/gameplay.night-r7.json` | 64 |
+| `data/wiki/gameplay.night-r8.json` | 97 |
+| `data/wiki/gameplay.night-sites.json` | 101 |
+| `data/wiki/gameplay.previews.json` | 661 |
+| `data/wiki/gameplay.r15-coverage.json` | 60 |
+| `data/wiki/gameplay.r16.json` | 32 |
 | `data/wiki/gameplay.reviews.json` | 310 |
 | `data/wiki/locations.json` | 32 |
-| `data/wiki/locations.launch-places.json` | 3402 |
+| `data/wiki/locations.launch-places.json` | 3405 |
 | `data/wiki/locations.launch-world2.json` | 175 |
-| `data/wiki/locations.night-r8map.json` | 619 |
-| `data/wiki/locations.night-sites.json` | 39 |
+| `data/wiki/locations.night-r8map.json` | 621 |
+| `data/wiki/locations.night-sites.json` | 40 |
 | `data/wiki/locations.night-world.json` | 42 |
-| `data/wiki/missions.json` | 238 |
-| `data/wiki/missions.launch-each.json` | 6290 |
-| `data/wiki/missions.launch-each2.json` | 82 |
-| `data/wiki/missions.night-ign.json` | 67 |
-| `data/wiki/missions.night-r7.json` | 68 |
-| `data/wiki/music.json` | 236 |
+| `data/wiki/map.gtabase.json` | 48751 |
+| `data/wiki/missions.json` | 245 |
+| `data/wiki/missions.launch-each.json` | 6458 |
+| `data/wiki/missions.launch-each2.json` | 87 |
+| `data/wiki/missions.night-ign.json` | 73 |
+| `data/wiki/missions.night-r7.json` | 70 |
+| `data/wiki/missions.r15-coverage.json` | 170 |
+| `data/wiki/missions.r16.json` | 36 |
+| `data/wiki/missions.r17.json` | 37 |
+| `data/wiki/music.json` | 239 |
 | `data/wiki/music.launch-radio.json` | 607 |
 | `data/wiki/music.launch-world.json` | 96 |
-| `data/wiki/sources.launch.json` | 8201 |
+| `data/wiki/news.r16.json` | 184 |
+| `data/wiki/sources.launch.json` | 9961 |
+| `data/wiki/sources.menu-captures.json` | 212 |
 | `data/wiki/sources.previews.json` | 9 |
+| `data/wiki/sources.r16.json` | 142 |
+| `data/wiki/sources.r17.json` | 198 |
+| `data/wiki/sources.r18.json` | 114 |
+| `data/wiki/sources.r19.json` | 2550 |
+| `data/wiki/sources.vehicle-menu.json` | 51 |
 | `data/wiki/vehicles.community.json` | 26 |
-| `data/wiki/vehicles.json` | 256 |
-| `data/wiki/vehicles.launch-detail.json` | 102 |
-| `data/wiki/vehicles.launch-garage.json` | 5570 |
-| `data/wiki/vehicles.launch-garage2.json` | 2375 |
-| `data/wiki/vehicles.launch-world2.json` | 75 |
-| `data/wiki/vehicles.night-ign.json` | 117 |
-| `data/wiki/vehicles.night-r11.json` | 102 |
-| `data/wiki/vehicles.night-r5.json` | 169 |
-| `data/wiki/vehicles.night-r7.json` | 28 |
-| `data/wiki/vehicles.night-r8gb.json` | 94 |
-| `data/wiki/vehicles.night-r8map.json` | 1789 |
-| `data/wiki/vehicles.night-sites.json` | 31 |
-| `data/wiki/vehicles.night-world.json` | 131 |
+| `data/wiki/vehicles.json` | 8582 |
+| `data/wiki/vehicles.launch-detail.json` | 116 |
+| `data/wiki/vehicles.launch-garage.json` | 8057 |
+| `data/wiki/vehicles.launch-garage2.json` | 3604 |
+| `data/wiki/vehicles.launch-world2.json` | 103 |
+| `data/wiki/vehicles.night-ign.json` | 172 |
+| `data/wiki/vehicles.night-r11.json` | 141 |
+| `data/wiki/vehicles.night-r5.json` | 270 |
+| `data/wiki/vehicles.night-r7.json` | 41 |
+| `data/wiki/vehicles.night-r8gb.json` | 153 |
+| `data/wiki/vehicles.night-r8map.json` | 2575 |
+| `data/wiki/vehicles.night-sites.json` | 40 |
+| `data/wiki/vehicles.night-world.json` | 188 |
 | `data/wiki/weapons.community.json` | 25 |
-| `data/wiki/weapons.json` | 136 |
-| `data/wiki/weapons.launch-arsenal.json` | 2407 |
-| `data/wiki/weapons.launch-ign.json` | 4362 |
-| `data/wiki/weapons.launch-more.json` | 357 |
-| `data/wiki/weapons.night-r8gb.json` | 40 |
+| `data/wiki/weapons.json` | 168 |
+| `data/wiki/weapons.launch-arsenal.json` | 3073 |
+| `data/wiki/weapons.launch-ign.json` | 5325 |
+| `data/wiki/weapons.launch-more.json` | 396 |
+| `data/wiki/weapons.night-r8gb.json` | 50 |
 | `data/wiki/wildlife.community.json` | 42 |
-| `data/wiki/wildlife.launch-more.json` | 559 |
-| `data/wiki/wildlife.launch-world.json` | 658 |
-| `data/wiki/wildlife.launch-world2.json` | 597 |
-| `data/wiki/wildlife.night-r11.json` | 888 |
-| `data/wiki/wildlife.night-r13.json` | 75 |
+| `data/wiki/wildlife.launch-more.json` | 653 |
+| `data/wiki/wildlife.launch-world.json` | 672 |
+| `data/wiki/wildlife.launch-world2.json` | 615 |
+| `data/wiki/wildlife.night-r11.json` | 1043 |
+| `data/wiki/wildlife.night-r13.json` | 84 |
 | `data/wiki/wildlife.night-r5.json` | 78 |
-| `data/wiki/wildlife.night-r7b.json` | 85 |
+| `data/wiki/wildlife.night-r7b.json` | 96 |
 | `data/wiki/wildlife.night-sites.json` | 77 |
 | `data/wiki/wildlife.previews.json` | 26 |
-| `scripts/audit_media.py` | 199 |
-| `scripts/ci_pages.mjs` | 147 |
-| `scripts/current_state.py` | 213 |
+| `scripts/audit_media.py` | 211 |
+| `scripts/build_route_grid.py` | 68 |
+| `scripts/build_site.py` | 124 |
+| `scripts/ci_pages.mjs` | 169 |
+| `scripts/current_state.py` | 215 |
 | `scripts/discord_announce_release.py` | 103 |
+| `scripts/discord_assistant.py` | 393 |
 | `scripts/discord_cards.py` | 100 |
 | `scripts/discord_check.py` | 63 |
-| `scripts/discord_online.py` | 120 |
+| `scripts/discord_online.py` | 236 |
 | `scripts/discord_safety.py` | 111 |
-| `scripts/discord_setup.py` | 252 |
+| `scripts/discord_setup.py` | 263 |
+| `scripts/hq_assistant.py` | 906 |
+| `scripts/hq_data.py` | 202 |
 | `scripts/live_wallpaper_scenes.py` | 246 |
 | `scripts/make_animation.py` | 26 |
 | `scripts/make_installer_art.py` | 147 |
 | `scripts/make_live_wallpapers.py` | 282 |
 | `scripts/make_posters.py` | 23 |
 | `scripts/make_readme_art.py` | 166 |
+| `scripts/make_readme_svg.py` | 164 |
 | `scripts/make_social_preview.py` | 111 |
 | `scripts/make_store_art.py` | 167 |
-| `scripts/package_release.py` | 69 |
-| `scripts/package_store.py` | 309 |
-| `scripts/package_unix.py` | 139 |
+| `scripts/package_release.py` | 194 |
+| `scripts/package_store.py` | 313 |
+| `scripts/package_unix.py` | 158 |
+| `scripts/readme_shots.mjs` | 58 |
 | `scripts/rights_report.py` | 315 |
 | `scripts/start_stream.cmd` | 15 |
-| `scripts/suite_data.mjs` | 48 |
-| `scripts/ui_features.mjs` | 557 |
-| `scripts/ui_phase2.mjs` | 474 |
+| `scripts/suite_data.mjs` | 57 |
+| `scripts/test_assistant.py` | 291 |
+| `scripts/ui_features.mjs` | 518 |
+| `scripts/ui_phase2.mjs` | 777 |
+| `scripts/web_map_check.mjs` | 175 |
 
 ## Top level
 
-`.claude`, `.git`, `.github`, `.gitignore`, `CHANGELOG.md`, `Cargo.lock`, `Cargo.toml`, `GTA VI - Official Main Theme Extended Remake by XPBeats.mp3`, `GTA-6-HQ-starter.zip`, `New Text Document.txt`, `README.md`, `backups`, `build.rs`, `cache`, `data`, `discord`, `dist`, `docs`, `docs.rar`, `images`, `installer`, `rustfmt.toml`, `scripts`, `secrets`, `src`, `staging`, `store`, `ui`, `video`, `wallpapers`, `zips`
+`.git`, `.github`, `.gitignore`, `CHANGELOG.md`, `Cargo.lock`, `Cargo.toml`, `README.md`, `backups`, `build.rs`, `cache`, `data`, `discord`, `dist`, `docs`, `images`, `installer`, `rustfmt.toml`, `scripts`, `src`, `store`, `ui`, `wallpapers`, `web`

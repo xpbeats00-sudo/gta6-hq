@@ -135,6 +135,22 @@ pub fn merge_part(wiki: &mut Value, key: &str, part: Value) -> Result<(), String
         return Err("the wiki is not a JSON object".into());
     };
     match part {
+        // data/wiki/map.<name>.json: a list of map markers, added to `map.markers`.
+        Value::Array(items) if key == "map" => {
+            let map = top
+                .entry("map")
+                .or_insert_with(|| Value::Object(serde_json::Map::new()));
+            let Some(map) = map.as_object_mut() else {
+                return Err("`map` is not an object in data/wiki.json".into());
+            };
+            match map.entry("markers").or_insert_with(|| Value::Array(Vec::new())) {
+                Value::Array(existing) => {
+                    existing.extend(items);
+                    Ok(())
+                }
+                _ => Err("`map.markers` is not a list in data/wiki.json".into()),
+            }
+        }
         Value::Array(items) => match top.entry(key).or_insert_with(|| Value::Array(Vec::new())) {
             Value::Array(existing) => {
                 existing.extend(items);
@@ -495,6 +511,22 @@ pub mod tests {
         assert_eq!(slugs, ["one", "three", "two"]);
         assert_eq!(entries(&wiki, "weapons").len(), 1);
         assert!(wiki["sources"]["a"].is_object() && wiki["sources"]["b"].is_object());
+    }
+
+    #[test]
+    fn map_files_add_markers() {
+        let root = TempRoot::new("map-split");
+        root.write("data/wiki.json", BASE);
+        root.write(
+            "data/wiki/map.extra.json",
+            r#"[{"name": "Pin", "category": "landmarks", "x": 0.5, "y": 0.5}]"#,
+        );
+
+        let wiki = load(&root.0);
+
+        assert!(wiki.get("_loadError").is_none(), "{:?}", wiki.get("_loadError"));
+        let markers = wiki["map"]["markers"].as_array().expect("markers");
+        assert_eq!(markers.last().unwrap()["name"], "Pin");
     }
 
     #[test]

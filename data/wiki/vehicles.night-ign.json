@@ -26,7 +26,10 @@
       "offroad_handling": 7.6,
       "strength": 4.2,
       "price": "$5,550 (Story Mode price, which the guides read as the registration cost)",
-      "where": "GTABase: The Smuggler Caracara is found parked at the Brooks Boatworks docks in Port Gellhorn.; Standout (GTABase map): Port Gellhorn -  #215 Vapid Smuggler Caracara Port Gellhorn Set: All-Terrain. One-off Vapid Caracara 4x4, modded by the Kolts for off-roading. Discovered at some docks in Port Gellhorn."
+      "where": "GTABase: The Smuggler Caracara is found parked at the Brooks Boatworks docks in Port Gellhorn.; Standout (GTABase map): Port Gellhorn -  #215 Vapid Smuggler Caracara Port Gellhorn Set: All-Terrain. One-off Vapid Caracara 4x4, modded by the Kolts for off-roading. Discovered at some docks in Port Gellhorn.",
+      "menu_picture": "/images/vehicles/vapid-smuggler-caracara.jpg",
+      "standout_set": "All-Terrain",
+      "based_on": "2nd gen Ford F-150 Raptor (P552)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -34,7 +37,8 @@
       "gtabase-vehicle-pages",
       "ign-brooks-boatworks",
       "ign-illegal-operations",
-      "rs-gta6map-standout-vehicles"
+      "rs-gta6map-standout-vehicles",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -67,7 +71,10 @@
       "strength": 6.3,
       "price": "$5,550 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$5,900 when stolen",
-      "where": "GTABase: Rugged Vapid Caracara 4x4 with a star-spangled finish. Kept at a garage in Port Gellhorn by Kolt & Associates.; Standout (GTABase map): Port Gellhorn -  #222 Vapid Truth & Justice Caracara Port Gellhorn Set: Patriot. Rugged Vapid Caracara 4x4 with a star-spangled finish. Kept at a garage in Port Gellhorn by Kolt & Associates."
+      "where": "GTABase: Rugged Vapid Caracara 4x4 with a star-spangled finish. Kept at a garage in Port Gellhorn by Kolt & Associates.; Standout (GTABase map): Port Gellhorn -  #222 Vapid Truth & Justice Caracara Port Gellhorn Set: Patriot. Rugged Vapid Caracara 4x4 with a star-spangled finish. Kept at a garage in Port Gellhorn by Kolt & Associates.",
+      "menu_picture": "/images/vehicles/menu/vapid-truth-and-justice-caracara.jpg",
+      "standout_set": "Patriot",
+      "based_on": "2nd gen Ford F-150 Raptor (P552)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -75,7 +82,8 @@
       "gtabase-vehicle-pages",
       "ign-illegal-operations",
       "ign-june-warehouse",
-      "rs-gta6map-standout-vehicles"
+      "rs-gta6map-standout-vehicles",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -106,7 +114,10 @@
       "asphalt_handling": 5.2,
       "offroad_handling": 4.1,
       "strength": 3.0,
-      "where": "GTABase: Custom Vapid Dominator found at an abandoned hotel overrun by Kolt & Associates. Supercharged for added thrust.; Standout (GTABase map): Port Gellhorn -  #216 Vapid Firebug Dominator Port Gellhorn Set: Ripped & Shredded. Custom Vapid Dominator found at an abandoned hotel overrun by Kolt & Associates. Supercharged for added thrust."
+      "where": "GTABase: Custom Vapid Dominator found at an abandoned hotel overrun by Kolt & Associates. Supercharged for added thrust.; Standout (GTABase map): Port Gellhorn -  #216 Vapid Firebug Dominator Port Gellhorn Set: Ripped & Shredded. Custom Vapid Dominator found at an abandoned hotel overrun by Kolt & Associates. Supercharged for added thrust.",
+      "menu_picture": "/images/vehicles/vapid-firebug-dominator.jpg",
+      "standout_set": "Ripped & Shredded",
+      "based_on": "Ford Mustang"
     },
     "confidence": "corroborated",
     "sources": [
@@ -114,7 +125,8 @@
       "gtabase-vehicle-pages",
       "ign-illegal-operations",
       "ign-la-cascara-motel",
-      "rs-gta6map-standout-vehicles"
+      "rs-gta6map-standout-vehicles",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -137,7 +149,12 @@
       "model": "Bombora S23 CCS",
       "class": "Boat",
       "availability": "Jason's Key Lento safehouse",
-      "where": "Spawn (GTABase map): Ambrosia -  #161 Bombora S23 CCS Ambrosia A Bombora S23 CCS boat.; Spawn (GTABase map): Port Gellhorn -  #162 Bombora S23 CCS Port Gellhorn A Bombora S23 CCS boat."
+      "where": "Spawn (GTABase map): Ambrosia -  #161 Bombora S23 CCS Ambrosia A Bombora S23 CCS boat.; Spawn (GTABase map): Port Gellhorn -  #162 Bombora S23 CCS Port Gellhorn A Bombora S23 CCS boat.",
+      "menu_picture": "/images/vehicles/menu/bombora-s23-ccs.jpg",
+      "menu_text": "Small, flat-bottomed passenger boat. Perfect for fishing in shallow waters.",
+      "style": "Riverboat",
+      "era": "2010s Current",
+      "based_on": "Contender 25 Bay"
     },
     "confidence": "corroborated",
     "sources": [
@@ -145,7 +162,9 @@
       "gtabase-vehicle-pages",
       "ign-beginners-guide",
       "ign-diving-treasure",
-      "ign-fishing-shacks"
+      "ign-fishing-shacks",
+      "ppx-menu-watercraft-boats",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true

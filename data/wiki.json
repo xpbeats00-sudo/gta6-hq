@@ -107,6 +107,8 @@
         { "key": "style", "label": "Style", "type": "text" },
         { "key": "era", "label": "Era", "type": "text" },
         { "key": "specialist", "label": "Mod shop specialist", "type": "text" },
+        { "key": "standout_set", "label": "Standout set", "type": "text" },
+        { "key": "based_on", "label": "Based on (real life)", "type": "text" },
         { "key": "menu_picture", "label": "Menu picture", "type": "text" }
       ] },
     { "key": "gameplay", "label": "Gameplay", "blurb": "How the game plays: what Rockstar showed, what previews reported, and what launch reviews and guides have found.", "art": "city",
@@ -125,7 +127,12 @@
         { "key": "species", "label": "Species", "type": "text" },
         { "key": "habitat", "label": "Habitat", "type": "text" },
         { "key": "hostile", "label": "Hostile", "type": "boolean" },
-        { "key": "huntable", "label": "Huntable", "type": "boolean" }
+        { "key": "huntable", "label": "Huntable", "type": "boolean" },
+        { "key": "menu_text", "label": "In-game description", "type": "text" },
+        { "key": "animal_class", "label": "Class (in game)", "type": "text" },
+        { "key": "recommended_weapon", "label": "Recommended weapon", "type": "text" },
+        { "key": "key_habitats", "label": "Key habitats", "type": "text" },
+        { "key": "menu_picture", "label": "Menu picture", "type": "text" }
       ] },
     { "key": "businesses", "label": "Businesses", "blurb": "Named establishments and companies in Leonida.", "art": "refinery",
       "fields": [
@@ -168,7 +175,9 @@
         { "key": "handling", "label": "Handling (in-game bar, of 10)", "type": "number" },
         { "key": "range", "label": "Range (in-game bar, of 10)", "type": "number" },
         { "key": "mods", "label": "Mods", "type": "text" },
-        { "key": "where", "label": "Where to get it", "type": "text" }
+        { "key": "where", "label": "Where to get it", "type": "text" },
+        { "key": "menu_text", "label": "In-game description", "type": "text" },
+        { "key": "menu_picture", "label": "Menu picture", "type": "text" }
     ] },
     { "key": "missions", "label": "Missions and Story", "blurb": "The story's chapters, the mission names in order, and the side missions.", "image": "/images/artwork/jason-lucia-bank-robbery.webp", "art": "keys",
       "fields": [
@@ -179,7 +188,9 @@
         { "key": "chapter", "label": "Chapter", "type": "text" },
         { "key": "order", "label": "Order", "type": "number" },
         { "key": "type", "label": "Type", "type": "text" },
-        { "key": "unlocks", "label": "Unlocks", "type": "list" }
+        { "key": "unlocks", "label": "Unlocks", "type": "list" },
+        { "key": "missable", "label": "Missable", "type": "boolean" },
+        { "key": "point_of_no_return", "label": "Point of no return", "type": "boolean" }
       ] },
     { "key": "collectibles", "label": "Collectibles", "blurb": "What there is to find, and how much of it the 100% checklist asks for.", "image": "/images/artwork/vice-city-skyline-night.webp", "art": "swamp",
       "fields": [
@@ -859,7 +870,7 @@
     "tileFit": {"scale": 0.684, "x": -168, "y": -130, "zoom": 3, "tilesWidth": 2048, "tilesHeight": 2560, "note": "Where the official map sits on the community tiles (gta6-wiki.org, yanis-17) used when the official map picture is not shipped: tile pixel at zoom 3 = scale × official-map pixel + (x, y). Found 2026-11-21 by matching land against sea on both maps (land overlap 88%). The tiles cover 2048 × 2560 pixels at zoom 3 (4 × 5 tiles); beyond that is open sea with no tiles. Pin positions stay approximate."},
     "attribution": "Map: Rockstar Games (official Leonida map) · Pin positions: Gamersky's map via gta6-wiki.org, placed approximately",
     "confidence": "community",
-    "sources": ["rockstar-leonida-map", "gamersky-map"],
+    "sources": ["rockstar-leonida-map", "gamersky-map", "gtabase-map"],
     "categories": [
       {"key": "regions", "label": "Regions", "color": "accent-pink-strong", "zoom": 1},
       {"key": "districts", "label": "Vice City districts", "color": "text-primary", "zoom": 2},

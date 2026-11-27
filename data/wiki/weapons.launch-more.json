@@ -152,7 +152,9 @@
       "throwable"
     ],
     "facts": {
-      "type": "Explosive"
+      "type": "Explosive",
+      "menu_picture": "/images/weapons/menu/molotov.jpg",
+      "menu_text": "Ignites on impact. Good for sowing chaos."
     },
     "confidence": "corroborated",
     "sources": [
@@ -161,7 +163,8 @@
       "ign-weapons-guide",
       "ign-weapons-list",
       "powerpyx-cheats",
-      "powerpyx-kitty-litter-labs"
+      "powerpyx-kitty-litter-labs",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "image": "/images/web/ign-2bde806570a0.jpg"

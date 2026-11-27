@@ -2464,7 +2464,8 @@ function pinCard(pin, categoryLabel, extra = {}) {
 }
 
 /** How a pin's position was found. None is surveyed in the game, so none is called exact. */
-const pinCertainty = (pin) => (pin.via === 'gamersky' ? 'Position: approximate, from Gamersky\'s map' : 'Position: approximate, placed by hand on Rockstar\'s map');
+const pinCertainty = (pin) => (pin.via === 'gamersky' ? 'Position: approximate, from Gamersky\'s map'
+  : pin.via === 'gtabase' ? 'Position: approximate, from GTABase\'s map (moved onto the official map)' : 'Position: approximate, placed by hand on Rockstar\'s map');
 const PIN_CERTAINTY_NOTE = 'No pin position in this app is a surveyed in-game coordinate, so the app gives no distances.';
 
 async function fillPinGuides(root, pin) {
@@ -2579,8 +2580,16 @@ function renderMap(params) {
     "Sculptures": 'waink-sculpture',
     "Special Vehicles": 'standout-vehicle',
     "Hunting Supply Shops": 'hunting',
+    // Kinds added from GTABase's map (data/wiki/map.gtabase.json)
+    "Knife Flights": 'knife-flight', "Book Swaps": 'book-swap', "1010 Murals": 'mural', "Under the Bridge": 'under-the-bridge',
+    "Unique Playlists": 'playlist', "WAiNK Curiosities": 'waink-curiosity', "WAiNK Landmarks": 'waink-landmark', "Arcade Machines": 'arcade',
+    "Mini Golf": 'golf', "Pool Tables": 'pool', "Vehicle Spawns": 'vehicle-spawn', "Weapon Pickups": 'weapon-spawn', "Cash Machines": 'atm',
+    "Standout Vehicles": 'standout-vehicle', "Treasures": 'treasure', "Magazines and Books": 'magazine', "Style Magazines": 'magazine',
+    "Vehicle Requests": 'vehicle-request', "Nightclubs": 'nightclub', "Race Challenges": 'race', "Sculptures": 'waink-sculpture',
   };
-  const blipOf = (pin) => (pin.kind && KIND_ICON[pin.kind] ? `/images/map-icons/${KIND_ICON[pin.kind]}.webp` : '');
+  // Every card set ("Vice City Flamingos cards") uses the game's collectible-card icon.
+  const blipOf = (pin) => (pin.kind && KIND_ICON[pin.kind] ? `/images/map-icons/${KIND_ICON[pin.kind]}.webp`
+    : / cards$/.test(pin.kind || '') ? '/images/map-icons/collectible-card.webp' : '');
   const dot = (pin, extra = '') => {
     const blip = blipOf(pin);
     if (blip) return `<img class="pin-blip${extra ? ' pin-blip-map' : ''}" src="${blip}" alt="" draggable="false">`;

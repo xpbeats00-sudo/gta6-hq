@@ -20,7 +20,10 @@
       "class": "Fine Art (powerboat)",
       "seats": 2,
       "availability": "Fixed spawn on a trailer, Sunset Dr, Key Lento",
-      "where": "GTABase: Custom Shitzu Squalo with a unique, graffiti-inspired finish. Parked outside a Key Lento residence.; Standout (GTABase map): Key Lento -  #7 Shitzu Street Art Squalo Key Lento Set: Fine Art. Custom Shitzu Squalo with a unique, graffiti-inspired finish. Parked outside a Key Lento residence."
+      "where": "GTABase: Custom Shitzu Squalo with a unique, graffiti-inspired finish. Parked outside a Key Lento residence.; Standout (GTABase map): Key Lento -  #7 Shitzu Street Art Squalo Key Lento Set: Fine Art. Custom Shitzu Squalo with a unique, graffiti-inspired finish. Parked outside a Key Lento residence.",
+      "menu_picture": "/images/vehicles/street-art-squalo.jpg",
+      "standout_set": "Fine Art",
+      "based_on": "Chris-Craft Stinger 390x"
     },
     "confidence": "corroborated",
     "sources": [
@@ -28,7 +31,8 @@
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "rs-damnmodz-gta6-boats",
-      "rs-gtabase-standout-vehicles-map"
+      "rs-gtabase-standout-vehicles-map",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true

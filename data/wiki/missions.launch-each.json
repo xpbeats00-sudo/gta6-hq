@@ -1169,14 +1169,16 @@
       "chapter": "Chapter 1",
       "order": 32,
       "type": "Main mission",
-      "reward": "None (IGN)"
+      "reward": "None (IGN)",
+      "point_of_no_return": true
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "powerpyx-tourist-trap-take-up-mattias-offer",
       "gtabase-missions",
-      "ign-tourist-trap"
+      "ign-tourist-trap",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -2071,7 +2073,8 @@
       "chapter": "Chapter 2",
       "order": 27,
       "type": "Main mission",
-      "reward": "None (IGN)"
+      "reward": "None (IGN)",
+      "point_of_no_return": true
     },
     "confidence": "corroborated",
     "sources": [
@@ -2079,7 +2082,8 @@
       "powerpyx-checking-out-move-to-vice-city",
       "gtabase-missions",
       "ign-checking-out",
-      "r8gb-missions-checking-out"
+      "r8gb-missions-checking-out",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -4633,7 +4637,8 @@
       "chapter": "Chapter 4",
       "order": 38,
       "type": "Main mission",
-      "protagonist": "Lucia and Jason"
+      "protagonist": "Lucia and Jason",
+      "point_of_no_return": true
     },
     "confidence": "corroborated",
     "sources": [
@@ -4641,7 +4646,8 @@
       "gtabase-missions",
       "gtabase-sunset",
       "techwiser-missions",
-      "keengamer-walkthrough"
+      "keengamer-walkthrough",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -4920,13 +4926,15 @@
     "facts": {
       "chapter": "Chapter 5",
       "order": 7,
-      "type": "Main mission"
+      "type": "Main mission",
+      "point_of_no_return": true
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-walkthrough",
       "gtabase-missions",
-      "gtabase-unfinished-business"
+      "gtabase-unfinished-business",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -5063,7 +5071,8 @@
       "protagonist": "Jason",
       "chapter": "Chapter 1",
       "order": 1,
-      "type": "Stranger mission"
+      "type": "Stranger mission",
+      "missable": true
     },
     "confidence": "corroborated",
     "sources": [
@@ -5072,7 +5081,8 @@
       "powerpyx-get-shirleys-rum",
       "gtabase-missions",
       "ign-shirley-get-shirleys-rum",
-      "r8-ps-shirleys-rum"
+      "r8-ps-shirleys-rum",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -5109,7 +5119,8 @@
       "chapter": "Chapter 1",
       "order": 2,
       "type": "Stranger mission",
-      "reward": "Use of Shirley's pink car"
+      "reward": "Use of Shirley's pink car",
+      "missable": true
     },
     "confidence": "corroborated",
     "sources": [
@@ -5117,7 +5128,8 @@
       "powerpyx-walkthrough",
       "powerpyx-steal-the-scooter",
       "gtabase-missions",
-      "r8-poly-peggy-scooter"
+      "r8-poly-peggy-scooter",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -5764,14 +5776,16 @@
       "protagonist": "Jason",
       "chapter": "Chapter 3",
       "order": 3,
-      "type": "Stranger mission"
+      "type": "Stranger mission",
+      "missable": true
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-strangers-freaks",
       "powerpyx-walkthrough",
       "powerpyx-race-against-yago",
-      "gtabase-missions"
+      "gtabase-missions",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-18",
     "spoiler": true,

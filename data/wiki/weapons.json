@@ -74,7 +74,9 @@
       "handling": 8.4,
       "range": 4.4,
       "weapon_class": "Military Pistol",
-      "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight"
+      "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
+      "menu_picture": "/images/weapons/menu/girardi-es9.jpg",
+      "menu_text": "An Italian classic by Girardi. Perfect for both offense and defense."
     },
     "related": [
       "characters/jason-duval",
@@ -98,7 +100,8 @@
       "ign-weapons-guide",
       "leonida-girardi-es9",
       "r8gb-weapons-girardi-es9",
-      "rockstar-media"
+      "rockstar-media",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26"
   },
@@ -132,7 +135,9 @@
       "range": 3.8,
       "weapon_class": "Service Pistol",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/menu/klose-k17.jpg",
+      "menu_text": "Popular, reliable pistol carried by civilians and law enforcement alike."
     },
     "related": [
       "characters/lucia-caminos",
@@ -155,7 +160,8 @@
       "ign-weapons-guide",
       "leonida-klose-k17",
       "r8gb-weapons-klose-k17",
-      "rockstar-media"
+      "rockstar-media",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26"
   }

@@ -23,12 +23,17 @@
       "asphalt_handling": 3.8,
       "offroad_handling": 4.5,
       "strength": 3.0,
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_picture": "/images/vehicles/menu/karin-intruder.jpg",
+      "menu_text": "Modern luxury sedan with a clean, rounded profile. Spacious, comfortable, and dependable.",
+      "based_on": "Infiniti Q45/I30"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicle-pages",
-      "r11g-gw-intruder"
+      "r11g-gw-intruder",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26"
   },
@@ -62,13 +67,16 @@
       "style": "None",
       "era": "2000s Modern",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/vapid-dominator-asp.jpg"
+      "menu_picture": "/images/vehicles/menu/vapid-dominator-asp.jpg",
+      "based_on": "Ford Mustang SVT Cobra R (New Edge)"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicle-pages",
       "r11g-gw-dominator-asp",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26"
   },
@@ -119,12 +127,14 @@
       "acceleration": 0.2,
       "asphalt_handling": 1.1,
       "offroad_handling": 2.2,
-      "strength": 7.5
+      "strength": 7.5,
+      "menu_picture": "/images/vehicles/hvy-th42-telehandler.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicle-pages",
-      "r11g-gw-th42-telehandler"
+      "r11g-gw-th42-telehandler",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26"
   }

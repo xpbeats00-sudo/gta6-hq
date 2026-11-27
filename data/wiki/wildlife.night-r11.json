@@ -43,13 +43,15 @@
     ],
     "facts": {
       "species": "American Eel",
-      "habitat": "Freshwater: Cottonmouth Lake in Mariana County"
+      "habitat": "Freshwater: Cottonmouth Lake in Mariana County",
+      "menu_text": "The slender American eel can be recognized by the dorsal and ventral fins that run down its length, connecting at the tip of its tail. It can be found in nearly all bodies of fresh water."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -71,13 +73,15 @@
     ],
     "facts": {
       "species": "Atlantic Spadefish",
-      "habitat": "Saltwater: In Leonida Straits south of Mariana County"
+      "habitat": "Saltwater: In Leonida Straits south of Mariana County",
+      "menu_text": "A small, disc-shaped fish with a distinctive dorsal fin and black stripes, the Atlantic spadefish can be found in most regions of the Leonida coast."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -100,13 +104,15 @@
     ],
     "facts": {
       "species": "Atlantic Spanish Mackerel",
-      "habitat": "Saltwater: South of Key Lento, close to Leonida Straits"
+      "habitat": "Saltwater: South of Key Lento, close to Leonida Straits",
+      "menu_text": "A slim, silvery fish that can be identified by the yellow spots that decorate its scales, the mackerel can be found throughout Leonida's coastal waters."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -128,13 +134,15 @@
     ],
     "facts": {
       "species": "Atlantic Tarpon",
-      "habitat": "Saltwater: In northwest Port Gellhorn in Kelly County"
+      "habitat": "Saltwater: In northwest Port Gellhorn in Kelly County",
+      "menu_text": "A large-mouthed fish with silver-green scales, the Atlantic tarpon is found everywhere in Leonida's oceans, in both coastal and deeper waters."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -157,13 +165,15 @@
     ],
     "facts": {
       "species": "Atlantic Thread Herring",
-      "habitat": "Saltwater: In the Atlantic Ocean northeast of Vice Beach in Vice-Dale County"
+      "habitat": "Saltwater: In the Atlantic Ocean northeast of Vice Beach in Vice-Dale County",
+      "menu_text": "The tiny Atlantic thread herring is notable for its trailing, hair-like dorsal fin, and is found off Leonida's west coast and in deeper waters to the east."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -186,13 +196,15 @@
     ],
     "facts": {
       "species": "Bluegill",
-      "habitat": "Freshwater: Nehrling River in North Mariana County"
+      "habitat": "Freshwater: Nehrling River in North Mariana County",
+      "menu_text": "The bluegill is named for the vivid flashes of color on its face and gills. It can be found in nearly all bodies of fresh water in Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -216,13 +228,15 @@
     ],
     "facts": {
       "species": "Candy Fish",
-      "habitat": "Freshwater: In Lake Leonida"
+      "habitat": "Freshwater: In Lake Leonida",
+      "menu_text": "A mutated form of the common salt fish, this unusual variant owes its appearance to industrial waste in Lake Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -245,13 +259,15 @@
     ],
     "facts": {
       "species": "Channel Catfish",
-      "habitat": "Freshwater: In Buckskin Swamp in South Kelly County"
+      "habitat": "Freshwater: In Buckskin Swamp in South Kelly County",
+      "menu_text": "The most common catfish in North America, the channel catfish can be identified by its whisker-like barbels and is found in wetlands."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -274,13 +290,15 @@
     ],
     "facts": {
       "species": "Lake Chubsucker",
-      "habitat": "Freshwater: Lake Tallaloko in East Lummox County"
+      "habitat": "Freshwater: Lake Tallaloko in East Lummox County",
+      "menu_text": "The lake chubsucker can be recognized by its sucker- like mouth and green-bronze scales, and lives in the calm waters of Leonida's rivers and lakes."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -302,13 +320,15 @@
     ],
     "facts": {
       "species": "Greater Amberjack",
-      "habitat": "Saltwater: In the Atlantic Ocean off the southeastern coast of Dalton Island in Vice-Dale County"
+      "habitat": "Saltwater: In the Atlantic Ocean off the southeastern coast of Dalton Island in Vice-Dale County",
+      "menu_text": "A predatory fish with a blue-gray body and black dorsal fin, the greater amberjack can be found in coastal and deeper waters to the east of Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -331,13 +351,15 @@
     ],
     "facts": {
       "species": "Great Barracuda",
-      "habitat": "Saltwater: In Leonida Straits near Key Lento in Mariana County"
+      "habitat": "Saltwater: In Leonida Straits near Key Lento in Mariana County",
+      "menu_text": "With powerful jaws and needle-like teeth, the great barracuda is a predatory, silver-blue fish that hunts off the south coast of Leonida and deeper waters to the east."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -360,13 +382,15 @@
     ],
     "facts": {
       "species": "Largemouth Bass",
-      "habitat": "Freshwater: In Gullet Marsh near Watson Bay in Mariana County"
+      "habitat": "Freshwater: In Gullet Marsh near Watson Bay in Mariana County",
+      "menu_text": "Named for its wide, gaping jaws, the largemouth bass is an olive-colored fish often found in Leonida's northern rivers, lakes, and wetlands."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -388,13 +412,15 @@
     ],
     "facts": {
       "species": "Rock Sea Bass",
-      "habitat": "Saltwater: West of Watson Bay in Mariana County"
+      "habitat": "Saltwater: West of Watson Bay in Mariana County",
+      "menu_text": "The rock sea bass is smaller than many other bass species, and can be recognized by its dark stripes and the black spots that decorate its fins. It can be found in coastal waters to the north and west."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -417,13 +443,15 @@
     ],
     "facts": {
       "species": "Striped Bass",
-      "habitat": "Saltwater: In Patridge Bay in the north of Lummox County"
+      "habitat": "Saltwater: In Patridge Bay in the north of Lummox County",
+      "menu_text": "Notable for the dotted lines that run from its gills to its tail, the striped bass lives in coastal waters to the north and west."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -446,13 +474,15 @@
     ],
     "facts": {
       "species": "Cobia",
-      "habitat": "Saltwater: In the Atlantic Ocean, east of Vice Beach"
+      "habitat": "Saltwater: In the Atlantic Ocean, east of Vice Beach",
+      "menu_text": "Notable for the thick brown bands running from its flat head to its forked tail, the cobia can be found in the deep ocean surrounding Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -475,13 +505,15 @@
     ],
     "facts": {
       "species": "Black Drum",
-      "habitat": "Saltwater: In Okchiloha Bay in northwest Lummox County"
+      "habitat": "Saltwater: In Okchiloha Bay in northwest Lummox County",
+      "menu_text": "Easily recognizable by its black stripes and beard-like barbels, the black drum can be found in coastal waters to the north and west."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -504,13 +536,15 @@
     ],
     "facts": {
       "species": "Green Moray Eel",
-      "habitat": "Saltwater: Millport Basin off the east coast of Lummox County"
+      "habitat": "Saltwater: Millport Basin off the east coast of Lummox County",
+      "menu_text": "The green moray eel is easily recognized by its slim profile and distinctive coloration. It makes its home in the coral reefs of Leonida's coastal waters."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -533,13 +567,15 @@
     ],
     "facts": {
       "species": "Spotted Moray Eel",
-      "habitat": "Saltwater: In the Atlantic Ocean, east of Leonard County"
+      "habitat": "Saltwater: In the Atlantic Ocean, east of Leonard County",
+      "menu_text": "The spotted moray eel uses its distinctive pigmentation to blend in against the coastal coral reefs where it makes its home."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -591,13 +627,15 @@
     ],
     "facts": {
       "species": "Black Grouper",
-      "habitat": "Saltwater: In Leonida Bay, north of the Mile Zero Air Station in Mariana County"
+      "habitat": "Saltwater: In Leonida Bay, north of the Mile Zero Air Station in Mariana County",
+      "menu_text": "The black grouper is actually olive-colored with a mottled tortoiseshell pattern, and mostly lives in coastal and deeper waters to the west of Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -620,13 +658,15 @@
     ],
     "facts": {
       "species": "Tiger Grouper",
-      "habitat": "Saltwater: In western Draper Bay, in Kelly County"
+      "habitat": "Saltwater: In western Draper Bay, in Kelly County",
+      "menu_text": "The tiger grouper is named for the white stripes that decorate its scales, and can be found throughout Leonida's southern and western waters."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -649,13 +689,15 @@
     ],
     "facts": {
       "species": "Bluestriped Grunt",
-      "habitat": "Saltwater: In Abismo Key, between Key Lento and Mile Zero Air Station in Mariana County"
+      "habitat": "Saltwater: In Abismo Key, between Key Lento and Mile Zero Air Station in Mariana County",
+      "menu_text": "A tropical yellow fish easily identified by its electric blue stripes, the bluestriped grunt can be found in warmer waters to the south of Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -678,13 +720,15 @@
     ],
     "facts": {
       "species": "Hogfish",
-      "habitat": "Saltwater: In Leonida Straits, northeast of Key Lento and east of Gambit Bay in Mariana County"
+      "habitat": "Saltwater: In Leonida Straits, northeast of Key Lento and east of Gambit Bay in Mariana County",
+      "menu_text": "Famed for its unusual, pig-like snout, the hogfish is also notable for its bright pink coloration and long dorsal spines. Found in warm coastal waters to the south and west."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -706,13 +750,15 @@
     ],
     "facts": {
       "species": "Mahi Mahi",
-      "habitat": "Saltwater: South of Riquezas Keys and west of Mile Zero Air Station in Mariana County"
+      "habitat": "Saltwater: South of Riquezas Keys and west of Mile Zero Air Station in Mariana County",
+      "menu_text": "Easily recognized by its blue-green coloration, bulbous head, and thick dorsal fin, the mahi-mahi can be found in coastal reefs and deeper waters surrounding Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -735,13 +781,15 @@
     ],
     "facts": {
       "species": "Permit",
-      "habitat": "Saltwater: In the Leonida Straits south of Vice-Dale County and east of South Vice-Dale County"
+      "habitat": "Saltwater: In the Leonida Straits south of Vice-Dale County and east of South Vice-Dale County",
+      "menu_text": "The silver-scaled permit can be identified by its bulbous profile and scythe-shaped dorsal fin, and is found throughout Leonida's oceans."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -764,13 +812,15 @@
     ],
     "facts": {
       "species": "Redfin Pickerel",
-      "habitat": "Freshwater: Southwest of South Kelly County and Buckskin Swamp"
+      "habitat": "Freshwater: Southwest of South Kelly County and Buckskin Swamp",
+      "menu_text": "Identifiable by its reddish fins and the wavy pattern on its scales, the redfin pickerel can be sighted in bodies of fresh water all over Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -793,13 +843,15 @@
     ],
     "facts": {
       "species": "Littlehead Porgy",
-      "habitat": "Saltwater: South of the Crude Islands, west of South Kelly County"
+      "habitat": "Saltwater: South of the Crude Islands, west of South Kelly County",
+      "menu_text": "Known for its tall, flat face and blue stripes, the littlehead porgy can be sighted in coastal waters to Leonida's south and west."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -822,13 +874,15 @@
     ],
     "facts": {
       "species": "Salt Fish",
-      "habitat": "Freshwater: In Lake Leonida in the south of North Leonard County"
+      "habitat": "Freshwater: In Lake Leonida in the south of North Leonard County",
+      "menu_text": "A midsize freshwater fish with dull brown scales and a spiny dorsal fin, found living in Lake Leonida. Some members of the species have been spotted exhibiting unusual changes."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -851,13 +905,15 @@
     ],
     "facts": {
       "species": "Northern Red Snapper",
-      "habitat": "Saltwater: In the northwest of Leonida Bay, southwest of Grassrivers"
+      "habitat": "Saltwater: In the northwest of Leonida Bay, southwest of Grassrivers",
+      "menu_text": "Named for its brightly-colored scales, the northern red snapper has a thick body and a short, spiny dorsal fin. It is most common in warmer waters to the west of Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -880,13 +936,15 @@
     ],
     "facts": {
       "species": "Yellowtail Snapper",
-      "habitat": "Saltwater: In Leonida Straits between Mile Zero Air Station and Abismo Key"
+      "habitat": "Saltwater: In Leonida Straits between Mile Zero Air Station and Abismo Key",
+      "menu_text": "Named for its forked, brightly-colored tail, the yellowtail snapper lives in coastal waters to the south and deeper waters to the west."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -909,11 +967,13 @@
     ],
     "facts": {
       "species": "Common Snook",
-      "habitat": "Saltwater: In the waters north of Waxman Island and Starfish Island, and south of Catalan Island, Vespucci Island, and Rialto Islands in Vice Beach"
+      "habitat": "Saltwater: In the waters north of Waxman Island and Starfish Island, and south of Catalan Island, Vespucci Island, and Rialto Islands in Vice Beach",
+      "menu_text": "The common snook is most easily identified by the thin black line that runs from its gills to its tail. They're found off the east coast but are notable for their ability to migrate through rivers."
     },
     "confidence": "corroborated",
     "sources": [
-      "r11g-ign-fishing"
+      "r11g-ign-fishing",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -935,13 +995,15 @@
     ],
     "facts": {
       "species": "Redbreast Sunfish",
-      "habitat": "Freshwater: Along the north of the Emerald River in Kelly County"
+      "habitat": "Freshwater: Along the north of the Emerald River in Kelly County",
+      "menu_text": "Recognizable by its red pigmentation and the elongated flap that covers its gills, the redbreast sunfish can be found in bodies of fresh water in the north of Leonida."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -964,13 +1026,15 @@
     ],
     "facts": {
       "species": "Yellowfin Tuna",
-      "habitat": "Saltwater: In the Gulf of Leonida, west of Tola Bay in Mariana County"
+      "habitat": "Saltwater: In the Gulf of Leonida, west of Tola Bay in Mariana County",
+      "menu_text": "Easily recognized by the yellow coloration of its prominent dorsal fin, the yellowfin tuna can be located in deeper ocean waters to the west."
     },
     "confidence": "corroborated",
     "sources": [
       "r11g-ign-fishing",
       "rs-gtabase-how-to-fish",
-      "rs-promptowy-fishing-guide"
+      "rs-promptowy-fishing-guide",
+      "ppx-menu-fish-fishing"
     ],
     "verified": "2026-11-18",
     "spoiler": true,

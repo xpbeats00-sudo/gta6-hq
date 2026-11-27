@@ -46,13 +46,18 @@
       "asphalt_handling": 3.4,
       "offroad_handling": 3.8,
       "strength": 3.0,
-      "where": "GTABase: '77 Imponte Phoenix, modified with a large supercharger and a custom finish. Discovered in a Watson Bay garage.; Standout (GTABase map): Watson Bay -  #27 Imponte Soaring Phoenix Watson Bay Set: Ripped & Shredded. '77 Imponte Phoenix, modified with a large supercharger and a custom finish. Discovered in a Watson Bay garage."
+      "where": "GTABase: '77 Imponte Phoenix, modified with a large supercharger and a custom finish. Discovered in a Watson Bay garage.; Standout (GTABase map): Watson Bay -  #27 Imponte Soaring Phoenix Watson Bay Set: Ripped & Shredded. '77 Imponte Phoenix, modified with a large supercharger and a custom finish. Discovered in a Watson Bay garage.",
+      "menu_picture": "/images/vehicles/imponte-soaring-phoenix.jpg",
+      "standout_set": "Ripped & Shredded",
+      "class": "Muscle",
+      "based_on": "Chevy Camaro, Pontiac Firebird (2nd generation)"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
-      "tbl-collectibles"
+      "tbl-collectibles",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -79,13 +84,18 @@
       "asphalt_handling": 3.3,
       "offroad_handling": 4.4,
       "strength": 3.0,
-      "where": "GTABase: Invetero Coquette found in the aftermath of a Key Lento house party. Comes with a unique custom finish. In the garage downstairs. The code for the back door of the garage is on the photos upstairs.; Standout (GTABase map): Key Lento -  #11 Invetero Spiderweb Coquette Key Lento Set: Retro. Invetero Coquette found in the aftermath of a Key Lento house party. Comes with a unique custom finis"
+      "where": "GTABase: Invetero Coquette found in the aftermath of a Key Lento house party. Comes with a unique custom finish. In the garage downstairs. The code for the back door of the garage is on the photos upstairs.; Standout (GTABase map): Key Lento -  #11 Invetero Spiderweb Coquette Key Lento Set: Retro. Invetero Coquette found in the aftermath of a Key Lento house party. Comes with a unique custom finis",
+      "menu_picture": "/images/vehicles/invetero-spiderweb-coquette.jpg",
+      "standout_set": "Retro",
+      "class": "Muscle",
+      "based_on": "Chevrolet Corvette C2"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
-      "tbl-collectibles"
+      "tbl-collectibles",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true

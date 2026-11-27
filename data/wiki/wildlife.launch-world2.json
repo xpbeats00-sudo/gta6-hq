@@ -13,12 +13,14 @@
     ],
     "facts": {
       "species": "Australian Shepherd",
-      "habitat": "Land"
+      "habitat": "Land",
+      "menu_text": "Bred for herding livestock, the Australian shepherd can be spotted around Leonida and is notable for its its dense, multicolored coat. Playful, and highly intelligent."
     },
     "confidence": "corroborated",
     "sources": [
       "destructoid-wildlife",
-      "mashable-animals"
+      "mashable-animals",
+      "ppx-menu-cats-dogs"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -37,12 +39,14 @@
     ],
     "facts": {
       "species": "Chihuahua",
-      "habitat": "Land"
+      "habitat": "Land",
+      "menu_text": "The world's tiniest dog breed, chihuahuas originated in Mexico and are popular as pets. They crave human attention, but occasionally reward it with surprising levels of aggression."
     },
     "confidence": "corroborated",
     "sources": [
       "destructoid-wildlife",
-      "mashable-animals"
+      "mashable-animals",
+      "ppx-menu-cats-dogs"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -85,12 +89,14 @@
     ],
     "facts": {
       "species": "German Shepherd",
-      "habitat": "Land"
+      "habitat": "Land",
+      "menu_text": "The German shepherd is frequently used by law enforcement and as a guard dog, thanks to its speed, strength, and remarkable intelligence. Recognizable by its long neck, thick coat, and strong jaw."
     },
     "confidence": "corroborated",
     "sources": [
       "destructoid-wildlife",
-      "mashable-animals"
+      "mashable-animals",
+      "ppx-menu-cats-dogs"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -133,12 +139,14 @@
     ],
     "facts": {
       "species": "Rottweiler",
-      "habitat": "Land"
+      "habitat": "Land",
+      "menu_text": "The Rottweiler is the Doberman's beefier cousin, sharing its black and tan coloration but sacrificing elegance and athleticism for power and muscle. A popular guard dog, for obvious reasons."
     },
     "confidence": "corroborated",
     "sources": [
       "destructoid-wildlife",
-      "mashable-animals"
+      "mashable-animals",
+      "ppx-menu-cats-dogs"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -203,11 +211,13 @@
       "dog"
     ],
     "facts": {
-      "species": "Yorkshire Terrier"
+      "species": "Yorkshire Terrier",
+      "menu_text": "Once used to hunt rats in its native Britain, the Yorkshire terrier is one of the smallest dog breeds, and is now better known for its feisty, playful nature and rich coat."
     },
     "confidence": "corroborated",
     "sources": [
-      "tbl-collectibles"
+      "tbl-collectibles",
+      "ppx-menu-cats-dogs"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -259,13 +269,18 @@
     ],
     "facts": {
       "species": "American alligator",
-      "hostile": true
+      "hostile": true,
+      "menu_text": "The most famous resident of the wetlands, the American alligator is an apex predator perfectly adapted to its environment. Well camouflaged and easy to miss, hunters should engage it from a distance.",
+      "animal_class": "Reptile",
+      "recommended_weapon": "Shrewsbury SM-69",
+      "key_habitats": "Wetland"
     },
     "confidence": "corroborated",
     "sources": [
       "destructoid-wildlife",
       "mashable-animals",
-      "g6w-grassrivers"
+      "g6w-grassrivers",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18"
   },

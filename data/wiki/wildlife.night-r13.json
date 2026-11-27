@@ -14,11 +14,13 @@
       "wildlife"
     ],
     "facts": {
-      "species": "Northern gannet (reporters' identification)"
+      "species": "Northern gannet (reporters' identification)",
+      "menu_text": "A long-necked seabird with white plumage and black wing tips, the northern gannet can be spotted hunting for fish in bodies of water around Leonida."
     },
     "confidence": "corroborated",
     "sources": [
-      "r13-tbt-birding"
+      "r13-tbt-birding",
+      "ppx-menu-birds"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -40,11 +42,13 @@
     ],
     "facts": {
       "species": "Great egret (reporters' identification)",
-      "habitat": "Shallow water"
+      "habitat": "Shallow water",
+      "menu_text": "Found in wetlands and occasionally in coastal regions, the great egret is a large wading bird with white plumage and a long, pointed beak. It is highly territorial."
     },
     "confidence": "corroborated",
     "sources": [
-      "r13-tbt-birding"
+      "r13-tbt-birding",
+      "ppx-menu-birds"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -65,11 +69,13 @@
       "wildlife"
     ],
     "facts": {
-      "species": "Caspian tern (reporters' identification)"
+      "species": "Caspian tern (reporters' identification)",
+      "menu_text": "The largest bird in the tern family, the Caspian tern is found all around the Leonida coast. Recognizable by its black cap and bright orange beak."
     },
     "confidence": "corroborated",
     "sources": [
-      "r13-tbt-birding"
+      "r13-tbt-birding",
+      "ppx-menu-birds"
     ],
     "verified": "2026-11-18",
     "spoiler": true,

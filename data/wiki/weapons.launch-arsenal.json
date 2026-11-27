@@ -35,7 +35,9 @@
       "range": 3,
       "weapon_class": "Compact Pistol",
       "mods": "Barrel, Magazine, Suppressor, Sight",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/menu/scorpio-nipper-38.jpg",
+      "menu_text": "Compact, discreet pistol produced by Scorpio. Easily concealed until needed."
     },
     "confidence": "corroborated",
     "sources": [
@@ -45,7 +47,8 @@
       "ign-pick-up-a-gun",
       "ign-weapons-guide",
       "leonida-scorpio-nipper-38",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26"
   },
@@ -85,7 +88,9 @@
       "range": 4.6,
       "weapon_class": "Heavy Pistol",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/duke-1922.jpg",
+      "menu_text": "Timeless American classic with extra stopping power, manufactured by Duke."
     },
     "confidence": "corroborated",
     "sources": [
@@ -97,7 +102,8 @@
       "ign-weapons-guide",
       "leonida-duke-1922",
       "r8gb-weapons-heavy-pistol",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -139,7 +145,9 @@
       "range": 4.8,
       "weapon_class": "Burst Pistol",
       "mods": "Barrel, Magazine, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/girardi-es18.jpg",
+      "menu_text": "Uncommon burst fire machine pistol manufactured by Girardi. Speed tempered with control."
     },
     "confidence": "corroborated",
     "sources": [
@@ -149,7 +157,8 @@
       "ign-weapons-guide",
       "leonida-girardi-es18",
       "r10-dex-w-girardi-es18",
-      "r8gb-weapons-es18"
+      "r8gb-weapons-es18",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -192,7 +201,9 @@
       "range": 4.2,
       "weapon_class": "Automatic Pistol",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/klose-k17-mcd.jpg",
+      "menu_text": "Modified Klose pistol with full-auto functionality. Great for suppressing fire."
     },
     "confidence": "corroborated",
     "sources": [
@@ -202,7 +213,8 @@
       "ign-weapons-guide",
       "leonida-klose-k17-mcd",
       "r10-dex-w-klose-k17-mcd",
-      "r8gb-weapons-k17-mcd"
+      "r8gb-weapons-k17-mcd",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -242,7 +254,9 @@
       "range": 5,
       "weapon_class": ".50 Cal Pistol",
       "mods": "Barrel, Flashlight, Magazine, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/fairview-kalinga-50.jpg",
+      "menu_text": "Heavy pistol manufactured by Fairview. Punches well above its weight."
     },
     "confidence": "corroborated",
     "sources": [
@@ -251,7 +265,8 @@
       "gtabase-kalinga-50",
       "ign-weapons-guide",
       "leonida-fairview-kalinga-50",
-      "r8gb-weapons-kalinga-50"
+      "r8gb-weapons-kalinga-50",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -293,7 +308,9 @@
       "weapon_class": "Double Action Revolver",
       "mods": "Barrel, Sight",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/hawk-and-little-38.jpg",
+      "menu_text": "Classic Hawk & Little revolver. An American tradition."
     },
     "confidence": "corroborated",
     "sources": [
@@ -302,7 +319,8 @@
       "gtabase-38",
       "ign-weapons-guide",
       "leonida-hawk-and-little-38",
-      "r8gb-weapons-38"
+      "r8gb-weapons-38",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -344,7 +362,9 @@
       "weapon_class": "Magnum Revolver",
       "mods": "Barrel, Sight",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/duke-mustang-357.jpg",
+      "menu_text": "Duke revolver with added kick. Great for a one-shot kill."
     },
     "confidence": "corroborated",
     "sources": [
@@ -354,7 +374,8 @@
       "ign-weapons-guide",
       "leonida-duke-mustang-357",
       "r8gb-weapons-mustang-357-revolver",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26"
   },
@@ -442,7 +463,9 @@
       "range": 6,
       "weapon_class": "Heavy Revolver",
       "mods": "Barrel, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/scorpio-akulus.jpg",
+      "menu_text": "Heavy revolver with stopping power to spare. Manufactured by Scorpio."
     },
     "confidence": "corroborated",
     "sources": [
@@ -451,7 +474,8 @@
       "gtabase-akulus",
       "ign-weapons-guide",
       "leonida-scorpio-akulus",
-      "r8gb-weapons-akulus"
+      "r8gb-weapons-akulus",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -493,7 +517,8 @@
       "range": 4.5,
       "weapon_class": "Military SMG",
       "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_text": "Iconic SMG manufactured by Vom Feuer. A longarm favored by SWAT for decades."
     },
     "confidence": "corroborated",
     "sources": [
@@ -502,7 +527,8 @@
       "ign-weapons-guide",
       "leonida-vom-feuer-vf5",
       "r10-dex-w-vom-feuer-vf5",
-      "r8gb-weapons-smg"
+      "r8gb-weapons-smg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -586,7 +612,9 @@
       "range": 3.5,
       "weapon_class": "Machine Pistol",
       "mods": "Barrel, Grip, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/zhang-wu-type-9.jpg",
+      "menu_text": "Machine pistol mass-produced by Zhang Wu. Small but deadly, especially at close range."
     },
     "confidence": "corroborated",
     "sources": [
@@ -594,7 +622,8 @@
       "gtabase-type-9",
       "ign-weapons-guide",
       "leonida-zhang-wu-type-9",
-      "r8gb-weapons-type-9"
+      "r8gb-weapons-type-9",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -632,7 +661,9 @@
       "range": 4,
       "weapon_class": "Tactical SMG",
       "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/deever-tech-dsg.jpg",
+      "menu_text": "Burst fire SMG produced by Deever Tech. Ideal for precision engagements. STANOLRO ISSUE STATS 4.2 6.9 4.0"
     },
     "confidence": "corroborated",
     "sources": [
@@ -640,7 +671,8 @@
       "gtabase-spp-mp9",
       "ign-weapons-guide",
       "leonida-deever-tech-dsg",
-      "r8gb-weapons-spp-mp9"
+      "r8gb-weapons-spp-mp9",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -681,7 +713,9 @@
       "range": 4,
       "weapon_class": "Compact Military SMG",
       "mods": "Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/vom-feuer-vf5c.jpg",
+      "menu_text": "Compact variant of the Vom Feuer VF5. Shorter, but no less iconic."
     },
     "confidence": "corroborated",
     "sources": [
@@ -690,7 +724,8 @@
       "ign-weapons-guide",
       "leonida-vom-feuer-vf5c",
       "r10-dex-w-vom-feuer-vf5c",
-      "r8gb-weapons-vf5c"
+      "r8gb-weapons-vf5c",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -825,7 +860,9 @@
       "weapon_class": "Sporting Shotgun",
       "mods": "Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/mason-and-keen-longshot.jpg",
+      "menu_text": "British hunting shotgun by Mason & Keen. Elegant and refined."
     },
     "confidence": "corroborated",
     "sources": [
@@ -835,7 +872,8 @@
       "ign-weapons-guide",
       "leonida-mason-and-keen-longshot",
       "r10-dex-w-mason-and-keen-longshot",
-      "r8gb-weapons-longshot"
+      "r8gb-weapons-longshot",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -877,7 +915,9 @@
       "handling": 5.6,
       "range": 2.5,
       "weapon_class": "Pump Action Shotgun",
-      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock"
+      "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
+      "menu_picture": "/images/weapons/menu/fortune-and-son-moreland-850.jpg",
+      "menu_text": "Classic pump-action shotgun made by Fortune & Son. Perfect for home defense."
     },
     "confidence": "corroborated",
     "sources": [
@@ -891,7 +931,8 @@
       "ppx-kingpin",
       "ppx-trophy",
       "r8gb-weapons-moreland-850",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26"
   },
@@ -931,7 +972,9 @@
       "weapon_class": "Semi-Auto Stubby Shotgun",
       "mods": "Flashlight, Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/girardi-verro.jpg",
+      "menu_text": "Short semi-automatic shotgun. Compact, light, and devastating."
     },
     "confidence": "corroborated",
     "sources": [
@@ -941,7 +984,8 @@
       "ign-weapons-guide",
       "leonida-girardi-verro",
       "r10-dex-w-girardi-verro",
-      "r8gb-weapons-verro"
+      "r8gb-weapons-verro",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -982,7 +1026,9 @@
       "weapon_class": "Semi-Auto Shotgun",
       "mods": "Flashlight, Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/girardi-az1200.jpg",
+      "menu_text": "Semi-automatic shotgun produced by Girardi. Excels at sustained force."
     },
     "confidence": "corroborated",
     "sources": [
@@ -992,7 +1038,8 @@
       "ign-weapons-guide",
       "leonida-girardi-az1200",
       "r10-dex-w-girardi-az1200",
-      "r8gb-weapons-az1200"
+      "r8gb-weapons-az1200",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1032,7 +1079,9 @@
       "handling": 6.2,
       "range": 2,
       "weapon_class": "Stubby Shotgun",
-      "mods": "Grip, Flashlight, Suppressor, Sight, Stock"
+      "mods": "Grip, Flashlight, Suppressor, Sight, Stock",
+      "menu_picture": "/images/weapons/menu/fortune-and-son-gorse-425.jpg",
+      "menu_text": "Short pump-action shotgun made by Fortune & Son. Ideal for self-defense."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1042,7 +1091,8 @@
       "ign-weapons-guide",
       "leonida-fortune-and-son-gorse-425",
       "r8gb-weapons-gorse-425",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1082,7 +1132,9 @@
       "range": 2.5,
       "weapon_class": "Double Barrel Shotgun",
       "mods": "Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/shrewsbury-drifter.jpg",
+      "menu_text": "Timeless side-by-side shotgun, designed for hunting by Shrewsbury."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1092,7 +1144,8 @@
       "ign-weapons-guide",
       "leonida-shrewsbury-drifter",
       "r8gb-weapons-double-barrel-shotgun",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1132,7 +1185,9 @@
       "range": 2,
       "weapon_class": "Double Barrel Sawed-Off",
       "mods": "Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/shrewsbury-hobo.jpg",
+      "menu_text": "Modified Shrewsbury hunting shotgun. Sawed-off and short enough to aim in tight spaces."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1142,7 +1197,8 @@
       "ign-weapons-guide",
       "leonida-shrewsbury-hobo",
       "r8gb-weapons-hobo",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1186,7 +1242,8 @@
       "weapon_class": "Sporting Sawed-Off",
       "mods": "Sight",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_text": "Sawed-off Mason & Keen hunting shotgun, modified for close-quarters combat."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1196,7 +1253,8 @@
       "leonida-mason-and-keen-shortstraw",
       "ppx-cheats",
       "r10-dex-w-mason-and-keen-shortstraw",
-      "r8gb-weapons-shortstraw"
+      "r8gb-weapons-shortstraw",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1235,7 +1293,9 @@
       "range": 2.5,
       "weapon_class": "Combat Shotgun",
       "mods": "Flashlight, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/goodwin-comshot-12.jpg",
+      "menu_text": "Sturdy semi-automatic shotgun manufactured by Goodwin. Great for clearing a building."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1244,7 +1304,8 @@
       "gtabase-comshot-12",
       "ign-weapons-guide",
       "leonida-goodwin-comshot-12",
-      "r8gb-weapons-comshot-12"
+      "r8gb-weapons-comshot-12",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1283,7 +1344,9 @@
       "range": 2.5,
       "weapon_class": "Heavy Shotgun",
       "mods": "Grip, Flashlight, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/girardi-super400.jpg",
+      "menu_text": "Tactical semi-automatic shotgun from Girardi. Favored by the military."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1292,7 +1355,8 @@
       "gtabase-super400",
       "ign-weapons-guide",
       "leonida-girardi-super400",
-      "r8gb-weapons-super400"
+      "r8gb-weapons-super400",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1332,7 +1396,9 @@
       "range": 2.5,
       "weapon_class": "Auto Shotgun",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/kozlov-kvga-12.jpg",
+      "menu_text": "Fully automatic Kozlov shotgun. Fires nearly as fast as an assault rifle."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1341,7 +1407,8 @@
       "gtabase-kvga-12",
       "ign-weapons-guide",
       "leonida-kozlov-kvga-12",
-      "r8gb-weapons-kvga-12"
+      "r8gb-weapons-kvga-12",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1382,7 +1449,9 @@
       "weapon_class": "Assault Rifle",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
       "where": "Store unlock at Big Shots: Buy two more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/kozlov-kz-59.jpg",
+      "menu_text": "Powerful, dependable assault rifle manufactured by Kozlov. Used by militaries and militias worldwide."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1392,7 +1461,8 @@
       "gtascoop-kozlov-kz-59",
       "ign-weapons-guide",
       "leonida-kozlov-kz-59",
-      "r8gb-weapons-assault-rifle"
+      "r8gb-weapons-assault-rifle",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1433,7 +1503,9 @@
       "range": 6.2,
       "weapon_class": "Bullpup Rifle",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/hillinger-heathen.jpg",
+      "menu_text": "Versatile assault rifle produced by Hillinger. Great for precision strikes."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1442,7 +1514,8 @@
       "gtabase-heathen",
       "ign-weapons-guide",
       "leonida-hillinger-heathen",
-      "r8gb-weapons-heathen"
+      "r8gb-weapons-heathen",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1483,7 +1556,9 @@
       "range": 6.2,
       "weapon_class": "Carbine Rifle",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/duke-556.jpg",
+      "menu_text": "America's favorite rifle. Its dependability is valued on both sides of the law."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1494,7 +1569,8 @@
       "leonida-duke-556",
       "ppx-trophy",
       "r8gb-weapons-service-carbine",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26"
   },
@@ -1532,7 +1608,9 @@
       "range": 4.5,
       "weapon_class": "Compact Assault Rifle",
       "mods": "Magazine, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/kozlov-hind.jpg",
+      "menu_text": "Shortened Kozlov KZ-59 assault rifle. Aftermarket alterations make it easy to maneuver at close quarters."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1541,7 +1619,8 @@
       "gtabase-compact-rifle",
       "ign-weapons-guide",
       "leonida-kozlov-hind",
-      "r8gb-weapons-compact-rifle"
+      "r8gb-weapons-compact-rifle",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1675,7 +1754,9 @@
       "damage": 1.5,
       "accuracy": 8,
       "handling": 5.8,
-      "range": 7
+      "range": 7,
+      "menu_picture": "/images/weapons/menu/wortham-w-22.jpg",
+      "menu_text": "Small game rifle from Wortham. Perfect for hunting critters."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1683,7 +1764,8 @@
       "dayone-weapons",
       "gamerant-weapons",
       "gtabase-wortham-w22",
-      "ign-weapons-guide"
+      "ign-weapons-guide",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1723,7 +1805,9 @@
       "weapon_class": "Marksman Rifle",
       "mods": "Barrel, Magazine, Suppressor, Sight",
       "where": "Store unlock at Big Shots: Buy four more guns first (the store's count when we owned two) (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/hillinger-m306.jpg",
+      "menu_text": "Powerful semi-auto rifle manufactured by Hillinger. Formerly used by the military."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1732,7 +1816,8 @@
       "gtabase-springfield-armory-m1a-sniper",
       "ign-weapons-guide",
       "leonida-hillinger-m306",
-      "r8gb-weapons-springfield-armory-m1a-sniper"
+      "r8gb-weapons-springfield-armory-m1a-sniper",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1777,7 +1862,9 @@
       "range": 7,
       "weapon_class": "Tactical Rifle",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight, Stock",
-      "paid_with": "BuckMe, Cash"
+      "paid_with": "BuckMe, Cash",
+      "menu_picture": "/images/weapons/menu/hawk-and-little-mediator.jpg",
+      "menu_text": "Modern 9mm carbine from Hawk & Little. Excels in multiple roles."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1789,7 +1876,8 @@
       "ign-gear-up",
       "ign-weapons-guide",
       "leonida-hawk-and-little-mediator",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1830,7 +1918,9 @@
       "range": 7.2,
       "weapon_class": "Combat Rifle",
       "mods": "Barrel, Flashlight, Magazine, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/wortham-w-14.jpg",
+      "menu_text": "Miniature tactical rifle produced by Wortham. Accurate and tough as nails."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1841,7 +1931,8 @@
       "leonida-wortham-w-14",
       "r10-dex-w-wortham-w-14",
       "r8gb-weapons-w-14",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1884,7 +1975,9 @@
       "weapon_class": "Marksman Elite Rifle",
       "mods": "Barrel, Grip, Flashlight, Magazine, Suppressor, Sight",
       "where": "Store unlock at Big Shots: Get gold in all ranges (The Leonida)",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/hillinger-m306-tmr.jpg",
+      "menu_text": "Modern upgrade to the M306 rifle, produced by Hillinger for the Navy ORCAs."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1894,7 +1987,8 @@
       "ign-weapons-guide",
       "leonida-hillinger-m306-tmr",
       "r10-dex-w-hillinger-m306-tmr",
-      "r8gb-weapons-m306-tmr"
+      "r8gb-weapons-m306-tmr",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1933,7 +2027,9 @@
       "range": 8.4,
       "weapon_class": "Combat Sniper Rifle",
       "mods": "Barrel, Grip, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/fairview-ff-sr.jpg",
+      "menu_text": "Military-issue sniper rifle manufactured by Fairview. Easily picks off enemy combatants."
     },
     "confidence": "corroborated",
     "sources": [
@@ -1942,7 +2038,8 @@
       "gtabase-ff-sr",
       "ign-weapons-guide",
       "leonida-fairview-ff-sr",
-      "ppx-sniper"
+      "ppx-sniper",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2040,7 +2137,9 @@
       "range": 8.4,
       "weapon_class": "Sporting Sniper Rifle",
       "mods": "Barrel, Suppressor, Sight, Stock",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/menu/fortune-and-son-laird-350.jpg",
+      "menu_text": "Sniper rifle trusted by hunters everywhere, produced by Fortune & Son."
     },
     "confidence": "corroborated",
     "sources": [
@@ -2050,7 +2149,8 @@
       "ign-weapons-guide",
       "leonida-fortune-and-son-laird-350",
       "ppx-sniper",
-      "trackergg"
+      "trackergg",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2089,7 +2189,9 @@
       "range": 8.5,
       "weapon_class": "Heavy Sniper Rifle",
       "mods": "Grip, Suppressor, Sight",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/fairview-ff-50.jpg",
+      "menu_text": "Anti-materiel rifle manufactured by Fairview. Devastating at range."
     },
     "confidence": "corroborated",
     "sources": [
@@ -2098,7 +2200,8 @@
       "gtabase-ff-50",
       "ign-weapons-guide",
       "leonida-fairview-ff-50",
-      "ppx-sniper"
+      "ppx-sniper",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2175,14 +2278,17 @@
       "damage": 6.8,
       "accuracy": 2.8,
       "handling": 2.8,
-      "range": 6.5
+      "range": 6.5,
+      "menu_picture": "/images/weapons/goodwin-lmg-6.jpg",
+      "menu_text": "Powerful light machine gun produced by Goodwin. Capable of sustained destruction."
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-weapons",
       "gtabase-lmg-6",
       "ign-weapons-guide",
-      "ppx-ammunation"
+      "ppx-ammunation",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2268,7 +2374,9 @@
       "range": 4,
       "weapon_class": "Compact Grenade Launcher",
       "mods": "Stock",
-      "paid_with": "BuckMe"
+      "paid_with": "BuckMe",
+      "menu_picture": "/images/weapons/menu/hillinger-boomer.jpg",
+      "menu_text": "Military grenade launcher manufactured by Hillinger. Fires single 40mm grenades."
     },
     "confidence": "corroborated",
     "sources": [
@@ -2276,7 +2384,8 @@
       "gtabase-boomer",
       "ign-weapons-guide",
       "leonida-hillinger-boomer",
-      "ppx-launchers"
+      "ppx-launchers",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2356,7 +2465,9 @@
       "damage": 9.6,
       "accuracy": 4.5,
       "handling": 3,
-      "range": 8
+      "range": 8,
+      "menu_picture": "/images/weapons/menu/hauners-h-at.jpg",
+      "menu_text": "Shoulder-fired rocket launcher manufactured by Hauners. Deadly against vehicles."
     },
     "confidence": "corroborated",
     "sources": [
@@ -2364,7 +2475,8 @@
       "gtabase-rpg-rocket-launcher",
       "ign-weapons-guide",
       "ppx-cheats",
-      "ppx-launchers"
+      "ppx-launchers",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -2580,13 +2692,16 @@
       "scouting"
     ],
     "facts": {
-      "type": "equipment"
+      "type": "equipment",
+      "menu_picture": "/images/weapons/binoculars.jpg",
+      "menu_text": "Used to scope out far-off targets. including enemies and robbery locations. Can also be used to study an animal from a distance."
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-equipment",
       "ppx-100",
-      "ppx-trophy"
+      "ppx-trophy",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-18"
   },
@@ -2600,12 +2715,15 @@
       "torch"
     ],
     "facts": {
-      "type": "equipment"
+      "type": "equipment",
+      "menu_picture": "/images/weapons/flashlight.jpg",
+      "menu_text": "Illuminates dark environments, but it's no substitute for a weapon."
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-equipment",
-      "r16-pp-equipment"
+      "r16-pp-equipment",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -2625,12 +2743,15 @@
       "robbery"
     ],
     "facts": {
-      "type": "equipment"
+      "type": "equipment",
+      "menu_picture": "/images/weapons/duffel-bag.jpg",
+      "menu_text": "Useful for carrying valuables to a drop-off, like marked bills, jewelry. and narcotics. TIMES USED 70"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-equipment",
-      "r16-pp-equipment"
+      "r16-pp-equipment",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -2654,11 +2775,14 @@
     ],
     "facts": {
       "type": "equipment",
-      "availability": "Electronics stores"
+      "availability": "Electronics stores",
+      "menu_picture": "/images/weapons/menu/headphones.jpg",
+      "menu_text": "Allows you to enjoy audio entertainment while on foot, including live radio, playlists. and podcasts. Available at electronics shops."
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-equipment"
+      "dayone-equipment",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2674,12 +2798,15 @@
       "robbery"
     ],
     "facts": {
-      "type": "equipment"
+      "type": "equipment",
+      "menu_picture": "/images/weapons/pry-bar.jpg",
+      "menu_text": "Used for breaking into sealed crates. Can help you get a bigger take on certain robberies. CUTES OPENED 3"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-equipment",
-      "r16-pp-equipment"
+      "r16-pp-equipment",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-19",
     "spoiler": true,
@@ -2702,11 +2829,14 @@
       "police"
     ],
     "facts": {
-      "type": "equipment"
+      "type": "equipment",
+      "menu_picture": "/images/weapons/masks.jpg",
+      "menu_text": "Handy for hiding your face from the cops. Just remember to remove it when you're out of sight. HASKS EQUIPPED 73"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-equipment"
+      "dayone-equipment",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-18"
   },
@@ -2725,13 +2855,16 @@
       "treasure"
     ],
     "facts": {
-      "type": "equipment"
+      "type": "equipment",
+      "menu_picture": "/images/weapons/metal-detector.jpg",
+      "menu_text": "Locates metallic objects at close range and functions underwater. An indispensable tool when hunting treasure for Kenton. ITEMS FOUND 3"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-equipment",
       "ppx-100",
-      "ppx-trophy"
+      "ppx-trophy",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2746,11 +2879,14 @@
       "slim jim"
     ],
     "facts": {
-      "type": "equipment"
+      "type": "equipment",
+      "menu_picture": "/images/weapons/menu/slim-jim.jpg",
+      "menu_text": "Used to discreetly break into vehicles without attracting too much attention. Quieter than brute force, but slower too. VEHICLE DOORS OPENED 35"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-equipment"
+      "dayone-equipment",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2771,12 +2907,15 @@
     ],
     "facts": {
       "type": "equipment",
-      "availability": "Unlocked by Yasmani's Jewelry Jobs (Chapter 3)"
+      "availability": "Unlocked by Yasmani's Jewelry Jobs (Chapter 3)",
+      "menu_picture": "/images/weapons/menu/snap-gun.jpg",
+      "menu_text": "Mechanical lockpick used to get past locked doors quietly and without tripping alarms. Takes a little patience, but attracts less attention than brute force. LOCKS OPENED 19"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-equipment",
-      "ppx-trophy"
+      "ppx-trophy",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2792,11 +2931,14 @@
       "locks"
     ],
     "facts": {
-      "type": "equipment"
+      "type": "equipment",
+      "menu_picture": "/images/weapons/cut-off-tool.jpg",
+      "menu_text": "Miniature, hand-held device used for cutting through locks on heavy-duty containers and certain vehicles. Not subtle, but effective. LOCKS CUT 8"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-equipment"
+      "dayone-equipment",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -2820,7 +2962,9 @@
     ],
     "facts": {
       "type": "equipment",
-      "availability": "Story unlock in Clonin' Keys, Makin' GS (Chapter 3)"
+      "availability": "Story unlock in Clonin' Keys, Makin' GS (Chapter 3)",
+      "menu_picture": "/images/weapons/menu/key-cloner.jpg",
+      "menu_text": "Sketchy phone app used to bypass security on keyless cars, allowing you to steal the most advanced rides in Leonida. KEYS CLONED 21"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2830,7 +2974,8 @@
       "r8-pcg-clone-keys",
       "r8-gs-steal-cars-trackers",
       "r8-gg-steal-cars",
-      "r16-pp-equipment"
+      "r16-pp-equipment",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-19",
     "spoiler": true
@@ -2850,14 +2995,17 @@
     ],
     "facts": {
       "type": "equipment",
-      "availability": "Unlocked by Credit Check (Chapter 3)"
+      "availability": "Unlocked by Credit Check (Chapter 3)",
+      "menu_picture": "/images/weapons/menu/dye-pack-jammer.jpg",
+      "menu_text": "Automatically disables explosive dye packs. Essential equipment if you want to rob a bank or payday loans store. DYE PACKS DISABLED 513"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-equipment",
       "ppx-100",
       "ppx-banks",
-      "ppx-trophy"
+      "ppx-trophy",
+      "ppx-menu-equipment"
     ],
     "verified": "2026-11-18",
     "spoiler": true,

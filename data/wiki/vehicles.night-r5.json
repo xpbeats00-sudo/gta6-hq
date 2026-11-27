@@ -28,12 +28,19 @@
       "strength": 3.0,
       "price": "$6,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,925 when stolen",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_picture": "/images/vehicles/menu/imponte-ruiner-82.jpg",
+      "menu_text": "Iconic coupe with unmistakable 1980s design and pop-up headlights.",
+      "style": "Muscle",
+      "era": "1980s Classic",
+      "based_on": "Pontiac Trans Am/Chevrolet Camaro"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-v-ruiner",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-coupes"
     ],
     "verified": "2026-11-26"
   },
@@ -72,14 +79,17 @@
       "style": "Pickup",
       "era": "1950s Antique",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/vapid-slamvan-56.jpg"
+      "menu_picture": "/images/vehicles/menu/vapid-slamvan-56.jpg",
+      "based_on": "Rat Rodded 1953–1956 Ford F-Series (pickup form), 1950s Ford F-Series"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-spawn",
       "gtabase-v-slamvan",
       "gtabase-vehicle-pages",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
     "image": "/images/vehicles/vapid-slamvan-56.jpg"
@@ -117,13 +127,16 @@
       "style": "None",
       "era": "1950s Antique",
       "specialist": "Lowrider",
-      "menu_picture": "/images/vehicles/menu/albany-devanity-59.jpg"
+      "menu_picture": "/images/vehicles/menu/albany-devanity-59.jpg",
+      "based_on": "Cadillac Eldorado (1959)"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-v-devanity",
       "gtabase-vehicle-pages",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26"
   },
@@ -155,13 +168,21 @@
       "price": "$7,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,200 when stolen",
       "where": "GTABase: In front of the sign.; Spawn (GTABase map): Emerald Springs -  #76 Schyster '85 Woodland Emerald Springs In front of the sign.",
-      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)"
+      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)",
+      "menu_picture": "/images/vehicles/menu/schyster-woodland-85.jpg",
+      "menu_text": "Quintessential 1980s station wagon. Sturdy, angular, and very spacious.",
+      "style": "Station Wagon",
+      "era": "1980s Classic",
+      "specialist": "None",
+      "based_on": "Chrysler LeBaron Town & Country station wagon (1986-1988)"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-spawn",
       "gtabase-v-woodland",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26"
   },
@@ -194,12 +215,19 @@
       "strength": 3.0,
       "price": "$11,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$3,355 when stolen",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)",
+      "menu_picture": "/images/vehicles/menu/bravado-buffalo-19.jpg",
+      "menu_text": "Sporty sedan with a muscular silhouette, often protected by modern security features.",
+      "style": "Sports",
+      "era": "2010s Current",
+      "based_on": "2015 Dodge Charger"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-v-buffalo19",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "ppx-menu-sedans",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26"
   },
@@ -226,12 +254,16 @@
       "seats": 2,
       "drivetrain": "AWD",
       "availability": "GTA+ members, from Chapter 3",
-      "where": "GTABase: Special GTA+ reward."
+      "where": "GTABase: Special GTA+ reward.",
+      "standout_set": "Street Racer",
+      "based_on": "Nissan Skyline GT-R",
+      "menu_picture": "/images/vehicles/menu/annis-venturas-blvd-elegy-90.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-v-venturas",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26"
   }

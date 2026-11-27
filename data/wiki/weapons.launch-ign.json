@@ -4881,13 +4881,16 @@
       "weapons"
     ],
     "facts": {
-      "type": "Melee Weapon"
+      "type": "Melee Weapon",
+      "menu_picture": "/images/weapons/menu/baseball-bat.jpg",
+      "menu_text": "Solid, dependable, and easy to swing."
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-baseball-bat",
       "ign-weapons-guide",
-      "rs-gtabase-weapons"
+      "rs-gtabase-weapons",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -4946,7 +4949,9 @@
       "type": "Melee Weapon",
       "price": "$290",
       "availability": "Sold at Big Shots (Dexerto)",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/menu/switchblade.jpg",
+      "menu_text": "Short blade, well suited to close-quarters brawling."
     },
     "confidence": "corroborated",
     "sources": [
@@ -4954,7 +4959,8 @@
       "ign-weapons-guide",
       "leonida-switchblade",
       "r10-dex-w-switchblade",
-      "rs-gtabase-weapons"
+      "rs-gtabase-weapons",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -5045,14 +5051,17 @@
     "facts": {
       "type": "Melee Weapon",
       "price": "$95",
-      "paid_with": "Cash"
+      "paid_with": "Cash",
+      "menu_picture": "/images/weapons/menu/brass-knuckles.jpg",
+      "menu_text": "Discreet, and adds extra power to your punch."
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-knuckle-dusters",
       "ign-weapons-guide",
       "leonida-brass-knuckles",
-      "rs-gtabase-weapons"
+      "rs-gtabase-weapons",
+      "ppx-menu-weapons"
     ],
     "verified": "2026-11-26",
     "spoiler": true

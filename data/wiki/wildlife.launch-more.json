@@ -16,12 +16,17 @@
     "facts": {
       "species": "American Black Bear",
       "habitat": "Forest, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "Omnivorous and adept at swimming and climbing, the American black bear is at home in a range of habitats, typically favoring forested areas, and is best engaged from a distance.",
+      "animal_class": "Mammal",
+      "recommended_weapon": "Shrewsbury SM-69",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-hunting",
-      "pushsquare-bret-decks"
+      "pushsquare-bret-decks",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -41,11 +46,16 @@
     "facts": {
       "species": "American Crocodile",
       "habitat": "Coastal",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "The American crocodile is the largest reptile in Leonida. More comfortable in salt water than an alligator, it can be most commonly sighted in tropical regions and should be engaged from a safe distance.",
+      "animal_class": "Reptile",
+      "recommended_weapon": "Shrewsbury SM-69",
+      "key_habitats": "Coastal"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -66,11 +76,15 @@
     "facts": {
       "species": "American Red Fox",
       "habitat": "Forest, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "Larger than its gray cousins and bearing a white tip on its tail, the American red fox is non-native to Leonida. Found in northern forested areas, it should be hunted with a low-power rifle.",
+      "animal_class": "Mammal",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -91,11 +105,16 @@
     "facts": {
       "species": "Blue Axanthic Iguana",
       "habitat": "Coastal, Urban",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "This rare iguana lacks any red or yellow pigment in its scales, making it a striking electric blue. It prefers warmer, southern regions including urban centers with a source of fresh water. A low-power rifle will take it down in one piece.",
+      "animal_class": "Reptile",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Coastal, Urban"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -116,11 +135,13 @@
     "facts": {
       "species": "Box Turtle",
       "habitat": "Coastal, Forest, Urban, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "The box turtle is found across Leonida, but is especially common in wetlands, and is named for its ability to seal up its hinged shell like a protective box. Hunters should use restraint or risk destroying the carcass."
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -141,11 +162,13 @@
     "facts": {
       "species": "Eastern Cottontail Rabbit",
       "habitat": "Forest, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "The eastern cottontail rabbit is found in most regions of Leonida, and is easily recognized by its fluffy white tail. They're quick to flee and hard to catch, but a low- power rifle will take them down in one piece."
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -168,12 +191,14 @@
     "facts": {
       "species": "Eastern Spotted Skunk",
       "habitat": "Forest, Urban, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "Named for its distinctive black and white coat, the eastern spotted skunk is nocturnal, adaptable, and has spread all over the region. Hunt with restraint, or risk destroying the carcass."
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-hunting",
-      "pushsquare-bret-decks"
+      "pushsquare-bret-decks",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -193,11 +218,15 @@
     "facts": {
       "species": "Gray Fox",
       "habitat": "Forest, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "The gray fox makes its home throughout Leonida, and can be recognized by its mottled gray and tan fur. Hunt with a low-power rifle to preserve the carcass.",
+      "animal_class": "Mammal",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -219,11 +248,15 @@
     "facts": {
       "species": "Leonida Bobcat",
       "habitat": "Forest, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "The Leonida bobcat prowls the forests in search of prey between dusk and dawn, and can be recognized by its shaggy, mottled coat. Naturally shy but dangerous if cornered, it is safest to hunt from a distance.",
+      "animal_class": "Mammal",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -243,11 +276,16 @@
     "facts": {
       "species": "Leonida Cottonmouth",
       "habitat": "Coastal, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "The Leonida cottonmouth is a highly venomous snake found in the wetlands, and is recognizable by the dark bands running around its thick body. Hunters should use restraint for best results.",
+      "animal_class": "Reptile",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Coastal, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -267,11 +305,16 @@
     "facts": {
       "species": "Leonida Wild Turkey",
       "habitat": "Forest, Wetlands",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "A large turkey commonly found in Leonida's forested areas and grassy lowlands. A gentle kill will preserve the quality of the carcass.",
+      "animal_class": "Bird",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -294,12 +337,17 @@
     "facts": {
       "species": "Leonida Wild White Tom",
       "habitat": "Forest, Wetlands",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "An uncommon, white-feathered variant of the Leonida wild turkey. Occasionally spotted around Leonida's forested areas and grassy lowlands, and best hunted with a low-power rifle.",
+      "animal_class": "Bird",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-hunting",
-      "pushsquare-bret-decks"
+      "pushsquare-bret-decks",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -321,11 +369,16 @@
     "facts": {
       "species": "Mosaic Mottled Duck",
       "habitat": "Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "A rare, colored variant of the more common mottled duck, sometimes sighted on bodies of fresh water around Leonida. A gentle kill will preserve the quality of the carcass.",
+      "animal_class": "Bird",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -347,12 +400,16 @@
     "facts": {
       "species": "Nile Monitor",
       "habitat": "Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "Leonida's Nile monitor population owes its existence to escaped or released pets that found a home in the region's wetlands. One of the world's largest lizards, a low-power rifle will put it down clean, but its tough skin makes headshots all the more important.",
+      "animal_class": "Reptile",
+      "key_habitats": "Wetland"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-hunting",
-      "pushsquare-bret-decks"
+      "pushsquare-bret-decks",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -373,11 +430,15 @@
     "facts": {
       "species": "Northern Coyote",
       "habitat": "Forest, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "The ever-adaptable northern coyote prowls Leonida's forests and wetlands. It is recognizable by its red-gray fur and large ears, and tends to gather in packs. Hunters are advised to take it on at long range.",
+      "animal_class": "Mammal",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -399,12 +460,16 @@
     "facts": {
       "species": "Nutria",
       "habitat": "Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "A semi-aquatic mammal resembling a large rat, the invasive nutria can be sighted in Leonida's wetlands. Hunters using overpowered weapons risk ruining the carcass.",
+      "animal_class": "Mammal",
+      "key_habitats": "Wetland"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-hunting",
-      "pushsquare-bret-decks"
+      "pushsquare-bret-decks",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -426,11 +491,16 @@
     "facts": {
       "species": "Piebald Whitetail Buck",
       "habitat": "Forest, Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "Although rare, this piebald variant of the more common whitetail buck can occasionally be seen grazing in forested areas and wetlands. Skittish, and best hunted at long range.",
+      "animal_class": "Mammal",
+      "recommended_weapon": "Shrewsbury SM-69",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -451,11 +521,16 @@
     "facts": {
       "species": "Round-Tailed Muskrat",
       "habitat": "Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "A small rodent found in the wetlands and near sources of fresh water, the round-tailed muskrat is semi-aquatic, and can be recognized by its compact body and long, scaly tail. A gentle kill will preserve the quality of the carcass.",
+      "animal_class": "Mammal",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -476,11 +551,16 @@
     "facts": {
       "species": "Snapping Turtle",
       "habitat": "Wetland",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "The snapping turtle is an ambush predator that lurks in the wetlands. Famous for its fast, bone-crushing bite, hunters should use restraint or risk destroying the carcass.",
+      "animal_class": "Reptile",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Wetland"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-hunting"
+      "dayone-hunting",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18",
     "spoiler": true,

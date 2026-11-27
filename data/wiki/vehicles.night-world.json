@@ -29,7 +29,10 @@
       "asphalt_handling": 5.6,
       "offroad_handling": 3.4,
       "strength": 3.0,
-      "where": "GTABase: Declasse Vigero ZX Convertible, modded for racing with a custom paint job. Found outside a private club in Key Lento. Outside of Brian's Isla Tropical is a Twinstripe Vigero.; Standout (GTABase map): Key Lento -  #12 Declasse Twinstripe Vigero Key Lento Set: Street Racer. Declasse Vigero ZX Convertible, modded for racing with a custom paint job. Found outside a private club in Key Lento. "
+      "where": "GTABase: Declasse Vigero ZX Convertible, modded for racing with a custom paint job. Found outside a private club in Key Lento. Outside of Brian's Isla Tropical is a Twinstripe Vigero.; Standout (GTABase map): Key Lento -  #12 Declasse Twinstripe Vigero Key Lento Set: Street Racer. Declasse Vigero ZX Convertible, modded for racing with a custom paint job. Found outside a private club in Key Lento. ",
+      "menu_picture": "/images/vehicles/menu/twinstripe-vigero.jpg",
+      "standout_set": "Street Racer",
+      "based_on": "Chevrolet Camaro Gen VI"
     },
     "confidence": "corroborated",
     "sources": [
@@ -37,7 +40,8 @@
       "game8-twinstripe-vigero",
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
-      "rs2-gtabase-standout"
+      "rs2-gtabase-standout",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -71,7 +75,10 @@
       "asphalt_handling": 3.3,
       "offroad_handling": 3.8,
       "strength": 3.0,
-      "where": "GTABase: Well-preserved '32 Vapid Hustler converted into a hot rod. Belongs to elderly Key Lento resident Tommy O'Callahan.; Standout (GTABase map): Key Lento -  #10 Vapid DriveShaft Hustler Key Lento Set: DriveShaft Famous. Well-preserved '32 Vapid Hustler converted into a hot rod. Belongs to elderly Key Lento resident Tommy O'Callahan."
+      "where": "GTABase: Well-preserved '32 Vapid Hustler converted into a hot rod. Belongs to elderly Key Lento resident Tommy O'Callahan.; Standout (GTABase map): Key Lento -  #10 Vapid DriveShaft Hustler Key Lento Set: DriveShaft Famous. Well-preserved '32 Vapid Hustler converted into a hot rod. Belongs to elderly Key Lento resident Tommy O'Callahan.",
+      "menu_picture": "/images/vehicles/driveshaft-hustler.jpg",
+      "standout_set": "DriveShaft Famous",
+      "based_on": "1932 Ford Coupe"
     },
     "confidence": "corroborated",
     "sources": [
@@ -79,7 +86,8 @@
       "game8-standout-vehicles",
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
-      "rs2-gtabase-standout"
+      "rs2-gtabase-standout",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -115,7 +123,10 @@
       "asphalt_handling": 4.0,
       "offroad_handling": 2.6,
       "strength": 3.0,
-      "where": "GTABase: Luxurious lowrider converted from a '77 Albany Manana and kept at a Hamlet junkyard by M7.; Standout (GTABase map): Hamlet -  #33 Albany Teniente Manana Hamlet Set: Lowriders. Luxurious lowrider converted from a '77 Albany Manana and kept at a Hamlet junkyard by M7."
+      "where": "GTABase: Luxurious lowrider converted from a '77 Albany Manana and kept at a Hamlet junkyard by M7.; Standout (GTABase map): Hamlet -  #33 Albany Teniente Manana Hamlet Set: Lowriders. Luxurious lowrider converted from a '77 Albany Manana and kept at a Hamlet junkyard by M7.",
+      "menu_picture": "/images/vehicles/teniente-manana.jpg",
+      "standout_set": "Lowriders",
+      "based_on": "Buick LeSabre, Cadillac Eldorado"
     },
     "confidence": "corroborated",
     "sources": [
@@ -124,7 +135,8 @@
       "gtabase-vehicle-pages",
       "ign-nova-auto-junkyard",
       "rs-gta6map-standout-vehicles",
-      "rs-nexzy-nova-auto-junkyard"
+      "rs-nexzy-nova-auto-junkyard",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -157,14 +169,18 @@
       "asphalt_handling": 2.9,
       "offroad_handling": 7.2,
       "strength": 4.2,
-      "where": "GTABase: Heavily reinforced Vapid Sandking XT with a custom finish, discovered in a large factory in North Mariana County.; Standout (GTABase map): Capri -  #51 Vapid Cultivator Sandking Capri Set: All-Terrain. Heavily reinforced Vapid Sandking XT with a custom finish, discovered in a large factory in North Mariana County."
+      "where": "GTABase: Heavily reinforced Vapid Sandking XT with a custom finish, discovered in a large factory in North Mariana County.; Standout (GTABase map): Capri -  #51 Vapid Cultivator Sandking Capri Set: All-Terrain. Heavily reinforced Vapid Sandking XT with a custom finish, discovered in a large factory in North Mariana County.",
+      "menu_picture": "/images/vehicles/vapid-cultivator-sandking.jpg",
+      "standout_set": "All-Terrain",
+      "based_on": "Ford Super Duty (4th Gen)"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "ign-industrial-weed-grow",
-      "rs-gta6map-standout-vehicles"
+      "rs-gta6map-standout-vehicles",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true

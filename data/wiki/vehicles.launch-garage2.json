@@ -15,12 +15,18 @@
     "facts": {
       "manufacturer": "Lapwing",
       "model": "300-H",
-      "class": "Aircraft"
+      "class": "Aircraft",
+      "menu_picture": "/images/vehicles/menu/lapwing-300-h.jpg",
+      "menu_text": "Agile, single-propellor light aircraft. Designed for dusting crops, but also excels at aerial acrobatics.",
+      "style": "Plane",
+      "era": "1990s Classic"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-aircraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-aircraft"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -42,12 +48,19 @@
     "facts": {
       "manufacturer": "Mammoth",
       "model": "Dodo",
-      "class": "Aircraft"
+      "class": "Aircraft",
+      "menu_picture": "/images/vehicles/menu/mammoth-dodo.jpg",
+      "menu_text": "Light, single-propellor seaplane, capable of landing on water. Ideally suited to Leonida's geography.",
+      "style": "Plane",
+      "era": "1940s Antique",
+      "based_on": "De Havilland Canada DHC-2 Beaver"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-aircraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-aircraft"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -69,13 +82,20 @@
       "manufacturer": "Buckingham",
       "model": "Maverick",
       "class": "Aircraft",
-      "where": "GTABase: On the roof of the hospital.; Spawn (GTABase map): Watson Bay -  #40 Buckingham Maverick Watson Bay"
+      "where": "GTABase: On the roof of the hospital.; Spawn (GTABase map): Watson Bay -  #40 Buckingham Maverick Watson Bay",
+      "menu_picture": "/images/vehicles/menu/buckingham-maverick.jpg",
+      "menu_text": "Light helicopter with a stretched cabin to accommodate more passengers. A common sight in the region's skies.",
+      "style": "Helicopter",
+      "era": "2010s Current",
+      "based_on": "Bell 206L Longranger"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-aircraft",
       "gtabase-map-spawn",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-aircraft"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -129,12 +149,19 @@
       "acceleration": 3.6,
       "asphalt_handling": 2.9,
       "offroad_handling": 6.8,
-      "strength": 4.0
+      "strength": 4.0,
+      "menu_picture": "/images/vehicles/menu/bravado-aphid.jpg",
+      "menu_text": "Ultra-lightweight dirt bike suitable for off-roading. As simple as a motorcycle gets.",
+      "style": "Dirt Bike",
+      "era": "2010s Modern",
+      "specialist": "None"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-bikes",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -162,12 +189,20 @@
       "acceleration": 0.2,
       "asphalt_handling": 1.1,
       "offroad_handling": 1.3,
-      "strength": 4.0
+      "strength": 4.0,
+      "menu_picture": "/images/vehicles/menu/shift-e-fan-e.jpg",
+      "menu_text": "Lightweight electric scooter, popular with commuters for its convenience and affordability.",
+      "style": "Scooter",
+      "era": "2010s Modern",
+      "specialist": "None",
+      "based_on": "BIRD One rental e-scooter"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-bikes",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -188,12 +223,20 @@
     "facts": {
       "manufacturer": "Del Perro",
       "model": "Erode",
-      "class": "Bikes"
+      "class": "Bikes",
+      "menu_picture": "/images/vehicles/del-perro-erode.jpg",
+      "menu_text": "Modern, thick-framed mountain bike, well-suited to uneven terrain and steep inclines.",
+      "style": "Bike",
+      "era": "2010s Current",
+      "specialist": "None",
+      "based_on": "Crestline RS 75/50 EEB"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-bikes",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -223,13 +266,21 @@
       "offroad_handling": 3.0,
       "strength": 4.0,
       "where": "Vehicle Theft for Moses (Push Square): Final Chapter motorcycle club, Birch St, Ambrosia, back of the ground-floor warehouse (Moses #6)",
-      "customise": "Specialist tag \"Chopper\" (GTABase) matches the Chopper specialty shop: Ledford Motorcycle Workshop"
+      "customise": "Specialist tag \"Chopper\" (GTABase) matches the Chopper specialty shop: Ledford Motorcycle Workshop",
+      "menu_picture": "/images/vehicles/menu/western-nightblade.jpg",
+      "menu_text": "Compact, muscular chopper with an extra-thick rear wheel. Fast and heavy.",
+      "style": "Chopper",
+      "era": "2010s Modern",
+      "specialist": "Chopper",
+      "based_on": "Harley Davidson Night Rod Special / Harley Davidson Dyna Street Bob"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-bikes",
       "gtabase-vehicle-pages",
-      "pushsquare-moses"
+      "pushsquare-moses",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -251,11 +302,13 @@
     "facts": {
       "manufacturer": "Taci",
       "model": "Ragno",
-      "class": "Bikes"
+      "class": "Bikes",
+      "menu_picture": "/images/vehicles/menu/taci-ragno.jpg"
     },
     "confidence": "corroborated",
     "sources": [
-      "dayone-bikes"
+      "dayone-bikes",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -285,12 +338,20 @@
       "asphalt_handling": 8.1,
       "offroad_handling": 2.3,
       "strength": 4.0,
-      "customise": "Specialist tag \"Sports Bike\" (GTABase)"
+      "customise": "Specialist tag \"Sports Bike\" (GTABase)",
+      "menu_picture": "/images/vehicles/menu/nagasaki-sfb-1000.jpg",
+      "menu_text": "Sleek, high-performance sports bike with an aerodynamic silhouette.",
+      "style": "Sports Bike",
+      "era": "2020s Current",
+      "specialist": "Sports Bike",
+      "based_on": "Suzuki GSX-R1000 (front) and Ducati Panigale V2 (rear)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-bikes",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -320,12 +381,19 @@
       "asphalt_handling": 3.4,
       "offroad_handling": 7.5,
       "strength": 4.0,
-      "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants"
+      "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants",
+      "menu_picture": "/images/vehicles/menu/nagasaki-street-blazer.jpg",
+      "menu_text": "Light ATV, ideal for off-roading. Agile, sure-footed, and great at getting air.",
+      "style": "Quad Bike",
+      "era": "2010s Current",
+      "based_on": "Yamaha YFZ450"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-bikes",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -358,13 +426,20 @@
       "price": "$3,500 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$605 when stolen",
       "where": "Spawn (GTABase map): Ambrosia -  #157 Dinka Verus Ambrosia",
-      "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants"
+      "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants",
+      "menu_picture": "/images/vehicles/dinka-verus.jpg",
+      "menu_text": "Tough, solidly-constructed ATV designed for use in agriculture and rural industries. Ideal for off-roading.",
+      "style": "Quad Bike",
+      "era": "2010s Current",
+      "based_on": "Polaris Sportsman MV850 and 570"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-bikes",
       "gtabase-map-spawn",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -401,14 +476,21 @@
       "price": "$2,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$825 when stolen",
       "where": "Spawn (GTABase map): Key Lento -  #9 Dinka Blista ('85) Key Lento",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_picture": "/images/vehicles/menu/dinka-blista-85.jpg",
+      "menu_text": "Small, three-door hatchback. Nimble and aerodynamic, with a low profile.",
+      "style": "Compact",
+      "era": "1980s Classic",
+      "based_on": "Honda CRX 1st Gen"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-blista-compact"
+      "r8gb-vehicles-blista-compact",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -440,13 +522,20 @@
       "price": "$23,000 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$6,875 when stolen",
       "where": "Listed on Randy's Wish List (OutputLag)",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)",
+      "menu_picture": "/images/vehicles/menu/ubermacht-cypher.jpg",
+      "menu_text": "Sporty, responsive coupe with modern styling. May have modern security features.",
+      "style": "Sports",
+      "era": "2020s Current",
+      "based_on": "BMW M2 (F87) with some design cues from the BMW M6 (F13) and BMW M8 (F92)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "outputlag-randy"
+      "outputlag-randy",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -483,14 +572,21 @@
       "price": "$14,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$4,235 when stolen",
       "where": "GTABase: An Elegy without a tracker, so you can get it early.; Spawn (GTABase map): Vice City -  #93 Annis Elegy '90 Vice City An Elegy without a tracker, so you can get it early.",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)",
+      "menu_picture": "/images/vehicles/menu/annis-elegy-90.jpg",
+      "menu_text": "Low-slung, aerodynamic, 1990s sports coupe. Sometimes has modern security features.",
+      "style": "Sports",
+      "era": "1990s Classic",
+      "based_on": "Nissan Skyline GT-R"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-elegy-retro-custom"
+      "r8gb-vehicles-elegy-retro-custom",
+      "ppx-menu-coupes",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -525,13 +621,21 @@
       "strength": 3.0,
       "price": "$13,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,200 when stolen",
-      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)"
+      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)",
+      "menu_picture": "/images/vehicles/menu/willard-lasso-90.jpg",
+      "menu_text": "Classic convertible coupe with pop-up headlights. Some have modern security.",
+      "style": "Convertible",
+      "era": "1990s Classic",
+      "specialist": "None",
+      "based_on": "Buick Reatta Convertible"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-v-lasso",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -565,13 +669,20 @@
       "asphalt_handling": 4.2,
       "offroad_handling": 4.3,
       "strength": 3.0,
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_picture": "/images/vehicles/menu/maibatsu-penumbra.jpg",
+      "menu_text": "Agile, modern sports coupe with rounded styling. Perfect for tight corners.",
+      "style": "Sports",
+      "era": "2000s Modern",
+      "based_on": "Mitsubishi Eclipse, Audi TT"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r7-g8-penumbra"
+      "r7-g8-penumbra",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -677,14 +788,17 @@
       "style": "None",
       "era": "1960s Antique",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/albany-buccaneer-65.jpg"
+      "menu_picture": "/images/vehicles/menu/albany-buccaneer-65.jpg",
+      "based_on": "Ford Fairlane, Buick Riviera"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r8gb-vehicles-buccaneer",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -725,14 +839,17 @@
       "style": "None",
       "era": "1970s Antique",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/declasse-tulip-72.jpg"
+      "menu_picture": "/images/vehicles/menu/declasse-tulip-72.jpg",
+      "based_on": "1972 Chevelle Malibu, 1972 Oldsmobile Cutlass Supreme"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r8gb-vehicles-tulip",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -773,14 +890,17 @@
       "style": "None",
       "era": "1960s Antique",
       "specialist": "Lowrider",
-      "menu_picture": "/images/vehicles/menu/dundreary-chino-65.jpg"
+      "menu_picture": "/images/vehicles/menu/dundreary-chino-65.jpg",
+      "based_on": "1965 Lincoln Continental, 1965 Chrysler Imperial, 1970s Ford Thunderbird(s)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-v-chino",
       "gtabase-vehicle-pages",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -818,13 +938,16 @@
       "style": "None",
       "era": "2000s Modern",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/vapid-dominator.jpg"
+      "menu_picture": "/images/vehicles/menu/vapid-dominator.jpg",
+      "based_on": "Ford Mustang"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -868,14 +991,16 @@
       "style": "None",
       "era": "1970s Classic",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/declasse-tulip-m-100-78.jpg"
+      "menu_picture": "/images/vehicles/menu/declasse-tulip-m-100-78.jpg",
+      "based_on": "Fourth generation Chevrolet Malibu"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r8gb-vehicles-tulip-m-100",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -914,7 +1039,8 @@
       "style": "None",
       "era": "1970s Antique",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/declasse-vamos-74.jpg"
+      "menu_picture": "/images/vehicles/menu/declasse-vamos-74.jpg",
+      "based_on": "Chevrolet Nova"
     },
     "confidence": "corroborated",
     "sources": [
@@ -922,7 +1048,9 @@
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
       "pushsquare-moses",
-      "msq-vehicles-muscle"
+      "msq-vehicles-muscle",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -969,7 +1097,9 @@
       "dayone-cars",
       "gtabase-vehicle-pages",
       "pushsquare-moses",
-      "msq-vehicles-offroad"
+      "msq-vehicles-offroad",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-off-road-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1009,13 +1139,16 @@
       "style": "None",
       "era": "2010s Current",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/mer-can-outlaw.jpg"
+      "menu_picture": "/images/vehicles/menu/mer-can-outlaw.jpg",
+      "based_on": "Can-Am Maverick X3 Turbo"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-offroad"
+      "msq-vehicles-offroad",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-off-road-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1052,14 +1185,17 @@
       "menu_text": "Reliable pickup with a decent-size cargo area. Smooth and streamlined.",
       "era": "2000s Modern",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/bravado-bison.jpg"
+      "menu_picture": "/images/vehicles/menu/bravado-bison.jpg",
+      "based_on": "Dodge Ram Quad Cab (4th Gen)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r7-g8-bison",
-      "msq-vehicles-pickups"
+      "msq-vehicles-pickups",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1099,14 +1235,17 @@
       "menu_text": "Classic 1980s truck with a long bed. Its durability and rugged design have stood the test of time.",
       "era": "1980s Classic",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/declasse-bobcat-xl-84.jpg"
+      "menu_picture": "/images/vehicles/menu/declasse-bobcat-xl-84.jpg",
+      "based_on": "Fourth generation Chevrolet C/K"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r8gb-vehicles-bobcat-xl",
-      "msq-vehicles-pickups"
+      "msq-vehicles-pickups",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1137,13 +1276,16 @@
       "price": "$18,500 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,950 when stolen",
       "where": "Spawn (GTABase map): Waning Sands -  #147 Vapid Caracara 4x4 Waning Sands In the garage.",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_picture": "/images/vehicles/menu/vapid-caracara-4x4.jpg",
+      "based_on": "2nd gen Ford F-150 Raptor (P552)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1181,14 +1323,16 @@
       "menu_text": "Modern pickup with a robust design and high ground clearance, sometimes protected by advanced security.",
       "era": "2010s Modern",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/karin-contender.jpg"
+      "menu_picture": "/images/vehicles/menu/karin-contender.jpg",
+      "based_on": "Toyota Tunder Devolro Diablo, Ford Raptor, Ford F-150"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r7-g8-contender",
-      "msq-vehicles-pickups"
+      "msq-vehicles-pickups",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1229,7 +1373,8 @@
       "menu_text": "Rugged American pickup that has stood the test of time. Tough and versatile.",
       "era": "1970s Antique",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/vapid-reclaimer-70.jpg"
+      "menu_picture": "/images/vehicles/menu/vapid-reclaimer-70.jpg",
+      "based_on": "Ford F-Series (6th Gen)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1238,7 +1383,9 @@
       "gtabase-vehicle-pages",
       "r11g-gw-reclaimer-1970",
       "r7-g8-reclaimer-70",
-      "msq-vehicles-pickups"
+      "msq-vehicles-pickups",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1274,7 +1421,7 @@
       "menu_text": "Compact modern truck with a tall, sturdy profile. May be protected by modern security features.",
       "era": "2010s Modern",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/vapid-riata.jpg"
+      "menu_picture": "/images/vehicles/menu/vapid-riata.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1282,7 +1429,8 @@
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
       "outputlag-register",
-      "msq-vehicles-pickups"
+      "msq-vehicles-pickups",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1317,13 +1465,16 @@
       "menu_text": "Modern, heavy-duty truck with a broad, bullish silhouette and a large bed. May have modern security features.",
       "era": "2010s Modern",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/vapid-sandking-xl.jpg"
+      "menu_picture": "/images/vehicles/menu/vapid-sandking-xl.jpg",
+      "based_on": "Ford Super Duty (3rd Gen)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-pickups"
+      "msq-vehicles-pickups",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -1359,14 +1510,21 @@
       "price": "$8,650 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,585 when stolen",
       "where": "Spawn (GTABase map): Waning Sands -  #111 Obey Animus Waning Sands White with a pink and purple mandala design and a tie-dye hood.",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_picture": "/images/vehicles/menu/obey-animus.jpg",
+      "menu_text": "Modern luxury sedan with a smooth design. Spacious and dependable.",
+      "style": "Luxury",
+      "era": "2020s Current",
+      "based_on": "Audi A7 RS7 (2nd Gen)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-v-animus",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1401,13 +1559,20 @@
       "strength": 3.0,
       "price": "$8,000 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,365 when stolen",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)",
+      "menu_picture": "/images/vehicles/menu/bravado-buffalo-07.jpg",
+      "menu_text": "Aggressively-styled sports sedan with a bullish profile and plenty of muscle.",
+      "style": "Sports",
+      "era": "2000s Modern",
+      "based_on": "Dodge Charger"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-buffalo"
+      "r8gb-vehicles-buffalo",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1439,13 +1604,21 @@
       "price": "$5,650 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,705 when stolen",
       "where": "Spawn (GTABase map): Port Gellhorn -  #125 Albany Emperor ('85) Port Gellhorn There is always an Emperor here.",
-      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs"
+      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs",
+      "menu_picture": "/images/vehicles/menu/albany-emperor-85.jpg",
+      "menu_text": "A classic symbol of 1980s America. Recognizable by its broad silhouette and bold, angular design.",
+      "style": "None",
+      "era": "1980s Classic",
+      "specialist": "Lowrider",
+      "based_on": "1977-1980 Cadillac Sedan de Ville (5th Gen) and 1986–1990 Cadillac Brougham"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1481,13 +1654,20 @@
       "strength": 3.0,
       "price": "$3,150 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$935 when stolen",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_picture": "/images/vehicles/menu/karin-feroci-98.jpg",
+      "menu_text": "Sporty, midsize sedan. Popular since the 1990s for its reliability, versatility, and space.",
+      "style": "Sports",
+      "era": "1990s Classic",
+      "based_on": "Lexus GS 300 (First-generation)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-feroci"
+      "r8gb-vehicles-feroci",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1520,12 +1700,19 @@
       "strength": 3.0,
       "price": "$10,500 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$3,135 when stolen",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_picture": "/images/vehicles/menu/declasse-parkland-71.jpg",
+      "menu_text": "Luxury 1970s station wagon. Spacious and very popular with families. An American classic.",
+      "style": "Station Wagon",
+      "era": "1970s Antique",
+      "based_on": "Buick Estate (1971-1976)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1557,12 +1744,20 @@
       "strength": 3.0,
       "price": "$5,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$3,200 when stolen",
-      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)"
+      "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)",
+      "menu_picture": "/images/vehicles/menu/schyster-pmp-700.jpg",
+      "menu_text": "Solidly-constructed luxury sedan. Versatile and capable, with a bold, modern silhouette.",
+      "style": "Luxury",
+      "era": "2010s Current",
+      "specialist": "None",
+      "based_on": "Second-generation Chrysler 300 (LD)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1591,12 +1786,20 @@
       "offroad_handling": 4.1,
       "strength": 3.0,
       "price": "$2,250 (Story Mode price, which the guides read as the registration cost)",
-      "sell_value": "$660 when stolen"
+      "sell_value": "$660 when stolen",
+      "menu_picture": "/images/vehicles/menu/albany-primo.jpg",
+      "menu_text": "Luxury sedan designed for a comfortable ride. Recognizable by its sharp, angular profile.",
+      "style": "None",
+      "era": "2000s Modern",
+      "specialist": "None",
+      "based_on": "Late 80's Pontiac Bonneville"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1659,13 +1862,21 @@
       "offroad_handling": 4.2,
       "strength": 3.0,
       "price": "$3,400 (Story Mode price, which the guides read as the registration cost)",
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_picture": "/images/vehicles/vapid-stanier-98.jpg",
+      "menu_text": "Large 1990s sedan with a spacious interior and a design typical of the period.",
+      "style": "Muscle",
+      "era": "1990s Classic",
+      "specialist": "None",
+      "based_on": "Ford Crown Victoria"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-v-stanier98",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1699,12 +1910,19 @@
       "strength": 3.0,
       "price": "$3,650 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,100 when stolen",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_picture": "/images/vehicles/menu/vapid-stanier-g2.jpg",
+      "menu_text": "Spacious modern sedan, popular for its comfort and reliability.",
+      "style": "Muscle",
+      "era": "2000s Modern",
+      "based_on": "Ford Crown Victoria"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -1743,7 +1961,8 @@
       "style": "Convertible",
       "era": "2010s Modern",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/grotti-carbonizzare.jpg"
+      "menu_picture": "/images/vehicles/menu/grotti-carbonizzare.jpg",
+      "based_on": "V12 Zagato rear, Nissan GT-R, Ferrari 458 Italia, Ferrari 612 Scagliëtti"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1751,7 +1970,9 @@
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
       "outputlag-randy",
-      "msq-vehicles-sports"
+      "msq-vehicles-sports",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sports-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1789,13 +2010,16 @@
       "style": "Convertible",
       "era": "2020s Current",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/pfister-comet-s2.jpg"
+      "menu_picture": "/images/vehicles/menu/pfister-comet-s2.jpg",
+      "based_on": "Porsche 911 Turbo S Cabriolet"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-sports"
+      "msq-vehicles-sports",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sports-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1837,7 +2061,8 @@
       "style": "None",
       "era": "1980s Classic",
       "specialist": "Tuner",
-      "menu_picture": "/images/vehicles/menu/pfister-comet-88.jpg"
+      "menu_picture": "/images/vehicles/menu/pfister-comet-88.jpg",
+      "based_on": "Rauh-Welt Porsche 911 930"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1845,7 +2070,9 @@
       "gtabase-map-spawn",
       "gtabase-v-comet88",
       "gtabase-vehicle-pages",
-      "msq-vehicles-sports"
+      "msq-vehicles-sports",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-sports-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1885,7 +2112,8 @@
       "style": "None",
       "era": "2020s Current",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/invetero-coquette-d10.jpg"
+      "menu_picture": "/images/vehicles/menu/invetero-coquette-d10.jpg",
+      "based_on": "Chevrolet Corvette C8"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1893,7 +2121,8 @@
       "gtabase-vehicle-pages",
       "outputlag-randy",
       "r7-g8-coquette-d10",
-      "msq-vehicles-sports"
+      "msq-vehicles-sports",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1962,7 +2191,8 @@
       "style": "None",
       "era": "2000s Modern",
       "specialist": "Tuner",
-      "menu_picture": "/images/vehicles/menu/emperor-sultan.jpg"
+      "menu_picture": "/images/vehicles/menu/emperor-sultan.jpg",
+      "based_on": "Lexus IS, Mitsubishi Lancer Evo VI, Subaru Impreza"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1971,7 +2201,8 @@
       "gtabase-v-sultan",
       "gtabase-vehicle-pages",
       "pushsquare-moses",
-      "msq-vehicles-sports"
+      "msq-vehicles-sports",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -2012,14 +2243,17 @@
       "style": "Sports",
       "era": "2020s Current",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/pfister-astron.jpg"
+      "menu_picture": "/images/vehicles/menu/pfister-astron.jpg",
+      "based_on": "Porsche Macan"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r8gb-vehicles-astron",
-      "msq-vehicles-suvs"
+      "msq-vehicles-suvs",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2056,13 +2290,16 @@
       "style": "Sports",
       "era": "2010s Modern",
       "specialist": "Tuner",
-      "menu_picture": "/images/vehicles/menu/gallivanter-baller.jpg"
+      "menu_picture": "/images/vehicles/menu/gallivanter-baller.jpg",
+      "based_on": "Range Rover Evoque/Range Rover Sport"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-suvs"
+      "msq-vehicles-suvs",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2097,13 +2334,16 @@
       "style": "None",
       "era": "2000s Modern",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/declasse-granger.jpg"
+      "menu_picture": "/images/vehicles/declasse-granger.jpg",
+      "based_on": "Chevrolet Suburban"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-suvs"
+      "msq-vehicles-suvs",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2139,13 +2379,16 @@
       "style": "None",
       "era": "2010s Modern",
       "specialist": "Tuner",
-      "menu_picture": "/images/vehicles/menu/declasse-granger-3600lx.jpg"
+      "menu_picture": "/images/vehicles/menu/declasse-granger-3600lx.jpg",
+      "based_on": "2015 - 2020 Chevrolet Suburban"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-suvs"
+      "msq-vehicles-suvs",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2188,7 +2431,8 @@
       "style": "Off-Road",
       "era": "1990s Classic",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/annis-hellion-95.jpg"
+      "menu_picture": "/images/vehicles/menu/annis-hellion-95.jpg",
+      "based_on": "Nissan Patrol Safari Y6,  Jeep Cherokee (XJ)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2197,7 +2441,9 @@
       "gtabase-vehicle-pages",
       "pushsquare-moses",
       "r8gb-vehicles-hellion",
-      "msq-vehicles-suvs"
+      "msq-vehicles-suvs",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2234,13 +2480,16 @@
       "style": "Luxury",
       "era": "2020s Current",
       "specialist": "Tuner",
-      "menu_picture": "/images/vehicles/menu/dundreary-landstalker-xl.jpg"
+      "menu_picture": "/images/vehicles/menu/dundreary-landstalker-xl.jpg",
+      "based_on": "Fourth generation Lincoln Navigator"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-suvs"
+      "msq-vehicles-suvs",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2274,14 +2523,17 @@
       "style": "Commercial",
       "era": "2000s Modern",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/brute-boxville.jpg"
+      "menu_picture": "/images/vehicles/menu/brute-boxville.jpg",
+      "based_on": "GMC Step Van"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
-      "msq-vehicles-vans"
+      "msq-vehicles-vans",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2322,14 +2574,17 @@
       "style": "Commercial",
       "era": "1990s Classic",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/declasse-burrito-98.jpg"
+      "menu_picture": "/images/vehicles/menu/declasse-burrito-98.jpg",
+      "based_on": "1996-2002 Chevrolet Express"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r8gb-vehicles-burrito",
-      "msq-vehicles-vans"
+      "msq-vehicles-vans",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2366,14 +2621,17 @@
       "style": "Motorhome",
       "era": "1980s Classic",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/willard-moocher-83.jpg"
+      "menu_picture": "/images/vehicles/menu/willard-moocher-83.jpg",
+      "based_on": "1985 Fleetwood Southwind"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "r8gb-vehicles-moocher",
-      "msq-vehicles-vans"
+      "msq-vehicles-vans",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2407,14 +2665,16 @@
       "style": "Commercial",
       "era": "2000s Modern",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/vapid-rumpo.jpg"
+      "menu_picture": "/images/vehicles/menu/vapid-rumpo.jpg",
+      "based_on": "Ford E-Series"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
-      "msq-vehicles-vans"
+      "msq-vehicles-vans",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2448,13 +2708,16 @@
       "style": "Commercial",
       "era": "2010s Current",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/vapid-speedo.jpg"
+      "menu_picture": "/images/vehicles/menu/vapid-speedo.jpg",
+      "based_on": "2003-present Chevrolet Express van"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-vans"
+      "msq-vehicles-vans",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2496,7 +2759,8 @@
       "style": "Commercial",
       "era": "1970s Antique",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/bravado-youga-74.jpg"
+      "menu_picture": "/images/vehicles/menu/bravado-youga-74.jpg",
+      "based_on": "Ford Ecoline (2nd gen)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2504,7 +2768,9 @@
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
       "r8gb-vehicles-youga-classic",
-      "msq-vehicles-vans"
+      "msq-vehicles-vans",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2542,13 +2808,16 @@
       "style": "Commercial",
       "era": "1970s Classic",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/bravado-youga-xl-79.jpg"
+      "menu_picture": "/images/vehicles/menu/bravado-youga-xl-79.jpg",
+      "based_on": "Dodge Ram Van (2nd Gen)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "msq-vehicles-vans"
+      "msq-vehicles-vans",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2580,13 +2849,19 @@
       "asphalt_handling": 2.6,
       "offroad_handling": 2.5,
       "strength": 3.0,
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_picture": "/images/vehicles/menu/interstate-benson-97.jpg",
+      "menu_text": "Midsize commercial truck used for everything from construction to commerce. Seen all over Leonida.",
+      "era": "1990s Classic",
+      "based_on": "International 4700 Delivery Truck Chassis"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-benson"
+      "r8gb-vehicles-benson",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-service-trucks"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2611,13 +2886,19 @@
       "model": "Guardian TX2",
       "class": "Service - Trucks",
       "where": "GTABase: A lowrider truck.",
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_picture": "/images/vehicles/menu/vapid-guardian-tx2.jpg",
+      "menu_text": "Multipurpose midsize truck, used in many commercial sectors. May be protected by modern security features.",
+      "era": "2010s Current",
+      "speed": 2.6
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
       "gtabase-vehicle-pages",
-      "r11g-gw-guardian-tx2"
+      "r11g-gw-guardian-tx2",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-service-trucks"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2647,13 +2928,18 @@
       "acceleration": 1.4,
       "asphalt_handling": 2.2,
       "offroad_handling": 2.2,
-      "strength": 3.0
+      "strength": 3.0,
+      "menu_picture": "/images/vehicles/menu/jobuilt-mb2-10.jpg",
+      "menu_text": "Adaptable midsize truck, with uses ranging from trash collection to freight.",
+      "based_on": "Freightliner M2"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
       "gtabase-vehicle-pages",
-      "r11g-gw-mb2-10"
+      "r11g-gw-mb2-10",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-service-trucks"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2680,12 +2966,18 @@
       "acceleration": 1.9,
       "asphalt_handling": 2.5,
       "offroad_handling": 2.8,
-      "strength": 3.0
+      "strength": 3.0,
+      "menu_picture": "/images/vehicles/menu/maibatsu-mule.jpg",
+      "menu_text": "Mini truck used primarily for short runs, particularly popular with small businesses.",
+      "era": "2000s Modern",
+      "based_on": "Mitsubishi Fuso Canter (7th gen)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-service-trucks"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2707,12 +2999,17 @@
     "facts": {
       "manufacturer": "Brute",
       "model": "Taco Van",
-      "class": "Service - Utility Vehicles"
+      "class": "Service - Utility Vehicles",
+      "menu_picture": "/images/vehicles/brute-taco-van.jpg",
+      "menu_text": "Large food truck, with service windows and a generous preparation area.",
+      "era": "2000s Modern"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-utility-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2740,12 +3037,17 @@
       "acceleration": 1.9,
       "asphalt_handling": 3.1,
       "offroad_handling": 3.0,
-      "strength": 3.0
+      "strength": 3.0,
+      "menu_picture": "/images/vehicles/menu/interstate-yankee-80.jpg",
+      "menu_text": "Popular midsize truck. Many are used for towing by Leonida's garages and impound businesses. 1980s CLASSIC 34.18",
+      "based_on": "1980s International Harvester S-Series"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-utility-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2773,12 +3075,16 @@
       "acceleration": 1.1,
       "asphalt_handling": 1.9,
       "offroad_handling": 5.4,
-      "strength": 3.4
+      "strength": 3.4,
+      "menu_picture": "/images/vehicles/menu/hauners-brigade.jpg",
+      "menu_text": "Heavily-armored transport used by law enforcement agencies. Comes with advanced security."
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-emergency-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2800,12 +3106,18 @@
     "facts": {
       "manufacturer": "Dingus",
       "model": "Garda",
-      "class": "Service - Emergency Vehicles"
+      "class": "Service - Emergency Vehicles",
+      "menu_picture": "/images/vehicles/dingus-garda.jpg",
+      "menu_text": "High-performance rigid inflatable boat, often used by the coast guard for patrol and rescue operations. Typically has advanced security.",
+      "era": "2000s Modern",
+      "based_on": "RB-S and RB-S II"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-emergency-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2827,12 +3139,17 @@
     "facts": {
       "manufacturer": "Hauners",
       "model": "Cargobob",
-      "class": "Service - Military Vehicles"
+      "class": "Service - Military Vehicles",
+      "menu_picture": "/images/vehicles/hauners-cargobob.jpg",
+      "menu_text": "Heavy-duty military helicopter, capable of lifting massive loads. Protected by advanced security features.",
+      "based_on": "Sikorsky CH-53K King Stallion"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-military-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2864,13 +3181,18 @@
       "asphalt_handling": 1.0,
       "offroad_handling": 3.0,
       "strength": 3.5,
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_picture": "/images/vehicles/menu/stanely-furrow-tc-2350.jpg",
+      "menu_text": "Rugged tractor used in the agricultural sector. Often seen in Leonida's fields.",
+      "era": "2010s Current"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
       "gtabase-vehicle-pages",
-      "rs3-gtabase-stanley-furrow"
+      "rs3-gtabase-stanley-furrow",
+      "ppx-menu-industrial-vehicles",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -2903,12 +3225,19 @@
       "asphalt_handling": 2.1,
       "offroad_handling": 2.5,
       "strength": 3.0,
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_picture": "/images/vehicles/menu/whiffler-dashound.jpg",
+      "menu_text": "Long-distance coach used for cheap cross-country journeys.",
+      "style": "None",
+      "era": "2000s Modern",
+      "based_on": "MCI Renaissance E series bus, Greyhound Lines"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-service",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "ppx-menu-transport-vehicles",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2929,12 +3258,19 @@
     "facts": {
       "manufacturer": "Seashark",
       "model": "Azure",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/menu/seashark-azure.jpg",
+      "menu_text": "Compact, lightweight personal watercraft. Speedy and nimble.",
+      "style": "Personal Watercraft",
+      "era": "2010s Current",
+      "based_on": "Sea-Doo Spark"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2955,12 +3291,19 @@
     ],
     "facts": {
       "model": "Blade 500",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/blade-500.jpg",
+      "menu_text": "Powerful, twin-engine catamaran speedboat. Best suited to open water.",
+      "style": "Speedboat",
+      "era": "2010s Current",
+      "based_on": "Skater 388"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2983,13 +3326,20 @@
     "facts": {
       "manufacturer": "Dingus",
       "model": "Como",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/dingus-como.jpg",
+      "menu_text": "Rigid inflatable boat with twin engines. Agile and versatile, with a good turn of speed.",
+      "style": "Powerboat",
+      "era": "2010s Modern",
+      "based_on": "Rigid-hulled inflatable boat"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
       "gtabase-vehicle-pages",
-      "r17-gtabase-como"
+      "r17-gtabase-como",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -3010,12 +3360,16 @@
     "facts": {
       "manufacturer": "Rugger",
       "model": "Fortune",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/rugger-fortune.jpg",
+      "menu_text": "Antique 1950s fishing vessel that has stood the test of time. Surprisingly versatile."
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -3036,12 +3390,19 @@
     "facts": {
       "manufacturer": "Rugger",
       "model": "Hemming",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/rugger-hemming.jpg",
+      "menu_text": "Midsize powerboat originally designed for lobster fishing. A common sight in Leonida's waters since the 1980s.",
+      "style": "Powerboat",
+      "era": "1980s Classic",
+      "based_on": "Steiger Craft 31 Miami"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -3063,13 +3424,20 @@
       "manufacturer": "Seashark",
       "model": "Hydroblast",
       "class": "Watercraft",
-      "where": "Spawn (GTABase map): Key Lento -  #15 Seashark Hydroblast Key Lento On the trailer in the driveway.; Spawn (GTABase map): Watson Bay -  #30 Seashark Hydroblast Watson Bay"
+      "where": "Spawn (GTABase map): Key Lento -  #15 Seashark Hydroblast Key Lento On the trailer in the driveway.; Spawn (GTABase map): Watson Bay -  #30 Seashark Hydroblast Watson Bay",
+      "menu_picture": "/images/vehicles/menu/seashark-hydroblast.jpg",
+      "menu_text": "High-performance personal watercraft, ideal for traversing narrow channels at speed.",
+      "style": "Personal Watercraft",
+      "era": "2010s Modern",
+      "based_on": "Sea Doo RXT"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
       "gtabase-map-spawn",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -3090,12 +3458,15 @@
     "facts": {
       "manufacturer": "Dingus",
       "model": "Nepa",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/dingus-nepa.jpg",
+      "based_on": "Highfield Sport 900"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -3117,12 +3488,18 @@
     ],
     "facts": {
       "model": "Lure Predator L20S",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/menu/lure-predator-l20s.jpg",
+      "menu_text": "Small, flat-bottomed boat designed for navigating shallow waters. Ideal for short fishing trips.",
+      "style": "Riverboat",
+      "era": "2010s Current"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "ppx-menu-watercraft-boats",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -3144,12 +3521,19 @@
     "facts": {
       "manufacturer": "Rugger",
       "model": "Rhode",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/rugger-rhode.jpg",
+      "menu_text": "Luxury, quad-engine powerboat, perfect for either fishing or leisure cruising.",
+      "style": "Powerboat",
+      "era": "2010s Current",
+      "based_on": "Contender 39ST"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -3171,12 +3555,19 @@
     "facts": {
       "manufacturer": "Hulls",
       "model": "Sea Enchantress",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/menu/hulls-sea-enchantress.jpg",
+      "menu_text": "Midsize powerboat commonly used for diving expeditions off the Leonida coast.",
+      "style": "Powerboat",
+      "era": "1990s Classic",
+      "based_on": "2005 34' Crusader Boats GFY and Netwon 36' Dive Special"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art",
+      "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -3197,12 +3588,15 @@
     "facts": {
       "manufacturer": "Calder",
       "model": "Torlan",
-      "class": "Watercraft"
+      "class": "Watercraft",
+      "menu_picture": "/images/vehicles/menu/calder-torlan.jpg",
+      "based_on": "Azimut Atlantis 45"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-watercraft",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true

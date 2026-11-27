@@ -73,13 +73,18 @@
     ],
     "facts": {
       "species": "Wild boar",
-      "huntable": true
+      "huntable": true,
+      "menu_text": "Bulky and aggressive, the wild boar can be found foraging in forests and wetlands throughout Leonida, and is mostly nocturnal. Because of its tendency to charge unwary humans, it is safest to hunt at long range.",
+      "animal_class": "Mammal",
+      "recommended_weapon": "Shrewsbury SM-69",
+      "key_habitats": "Forest, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
       "gfinity-wildlife",
-      "ppx-challenges"
+      "ppx-challenges",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18"
   },
@@ -207,11 +212,13 @@
     ],
     "facts": {
       "species": "Orca",
-      "habitat": "Vice City Oceanarium tank"
+      "habitat": "Vice City Oceanarium tank",
+      "menu_text": "Recognizable by its sleek profile and black and white coloration, the orca is an apex predator that hunts using echolocation. The most famous orca in Leonida is the star attraction at Vice City Oceanarium."
     },
     "confidence": "corroborated",
     "sources": [
-      "ppx-challenges"
+      "ppx-challenges",
+      "ppx-menu-mammals"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -624,12 +631,14 @@
       "monkey"
     ],
     "facts": {
-      "species": "Rhesus macaque"
+      "species": "Rhesus macaque",
+      "menu_text": "A small monkey native to Southeast Asia, the rhesus macaque is highly gregarious, and is recognizable by its bright pink face. A few can be found in captivity."
     },
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "ppx-menu-mammals"
     ],
     "verified": "2026-11-18"
   },
@@ -646,12 +655,17 @@
       "toad"
     ],
     "facts": {
-      "species": "Cane toad"
+      "species": "Cane toad",
+      "menu_text": "Found predominantly in wetlands, the cane toad is the largest species of toad in the world, and will eat almost anything. Overpowered weapons will ruin the carcass.",
+      "animal_class": "Amphibian",
+      "recommended_weapon": "Wortham W-22",
+      "key_habitats": "Coastal, Wetland"
     },
     "confidence": "corroborated",
     "sources": [
       "redbull-wildlife",
-      "gfinity-wildlife"
+      "gfinity-wildlife",
+      "ppx-menu-hunting-animals"
     ],
     "verified": "2026-11-18"
   }

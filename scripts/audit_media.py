@@ -118,7 +118,9 @@ def main():
     for path in glob.glob(os.path.join(ROOT, 'data', 'wiki', '*.json')):
         part = json.loads(open(path, encoding='utf-8-sig').read())
         name = os.path.basename(path).split('.')[0]  # as src/content.rs split_key(): vehicles.boats.json adds to vehicles
-        if isinstance(part, list) and name and not name.startswith('_'):
+        if isinstance(part, list) and name == 'map':  # map.<name>.json adds map markers, as in src/content.rs
+            wiki.setdefault('map', {}).setdefault('markers', []).extend(part)
+        elif isinstance(part, list) and name and not name.startswith('_'):
             wiki[name] = (wiki.get(name) or []) + part
     slugs = {(c['key'], e.get('slug')) for c in wiki['categories'] for e in (wiki.get(c['key']) or [])}
     haystack = ''.join(text(p) for p in ['data/wiki.json', 'data/manual.json', 'ui/app.js', 'ui/manual.js', 'ui/index.html', 'ui/styles.css', 'ui/art.js']

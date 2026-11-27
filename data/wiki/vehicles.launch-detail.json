@@ -51,7 +51,11 @@
       "asphalt_handling": 3.3,
       "offroad_handling": 4.4,
       "strength": 3.0,
-      "where": "GTABase: Rusted '74 Declasse Vamos once owned by outlaws Martha and Lyle. Found in an abandoned shed in Bonanza.; Standout (GTABase map): Ambrosia -  #250 Declasse Martha's Vamos Ambrosia Set: Ripped & Shredded. Rusted '74 Declasse Vamos once owned by outlaws Martha and Lyle. Found in an abandoned shed in Bonanza."
+      "where": "GTABase: Rusted '74 Declasse Vamos once owned by outlaws Martha and Lyle. Found in an abandoned shed in Bonanza.; Standout (GTABase map): Ambrosia -  #250 Declasse Martha's Vamos Ambrosia Set: Ripped & Shredded. Rusted '74 Declasse Vamos once owned by outlaws Martha and Lyle. Found in an abandoned shed in Bonanza.",
+      "menu_picture": "/images/vehicles/menu/marthas-vamos.jpg",
+      "standout_set": "Ripped & Shredded",
+      "class": "Muscle",
+      "based_on": "Chevrolet Nova"
     },
     "confidence": "corroborated",
     "sources": [
@@ -63,7 +67,8 @@
       "gtabase-vehicle-pages",
       "ppx-cheats",
       "pressstart-cheats",
-      "screenrant-cheats"
+      "screenrant-cheats",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true,

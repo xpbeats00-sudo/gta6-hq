@@ -22,12 +22,14 @@
       "location": "Jason's house, Key Lento, Mariana County",
       "protagonist": "Jason",
       "chapter": "Chapter 1",
-      "type": "Optional mission"
+      "type": "Optional mission",
+      "missable": true
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-missions",
-      "ppx-meditation"
+      "ppx-meditation",
+      "gtabase-missions-list"
     ],
     "verified": "2026-11-22",
     "spoiler": true,
