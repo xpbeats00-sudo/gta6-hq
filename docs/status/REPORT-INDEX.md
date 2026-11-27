@@ -26,6 +26,7 @@ Kept as a record of what was done and found at the time. Their counts are out of
 
 | Report | Dated | What it recorded |
 |---|---|---|
+| `status/AUDIT-2026-11-27.md` | 2026-11-27 | The overnight audit after 0.2.48: every page opened, map and data checks, fixes and open questions |
 | `audits/BASELINE.md`, `FINDINGS.md`, `TEST_MATRIX.md`, `PERFORMANCE.md`, `CONTENT_INTEGRITY.md`, `FINAL_REPORT.md` | 2026-11-11 | The first eight-hour audit |
 | `ui-redesign/BASELINE-AUDIT.md`, `ASSET-INVENTORY.md`, `IMPLEMENTATION-LOG.md`, `FINAL-QA-REPORT.md` | 2026-11-11 | The interface redesign |
 | `manual/IMPLEMENTATION-PLAN.md`, `IMPLEMENTATION-AUDIT.md`, `FILE-OWNERSHIP.md`, `QA-REPORT.md` | 2026-11-11 | Building the Field Manual |

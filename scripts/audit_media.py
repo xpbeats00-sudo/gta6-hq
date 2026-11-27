@@ -123,8 +123,13 @@ def main():
         elif isinstance(part, list) and name and not name.startswith('_'):
             wiki[name] = (wiki.get(name) or []) + part
     slugs = {(c['key'], e.get('slug')) for c in wiki['categories'] for e in (wiki.get(c['key']) or [])}
-    haystack = ''.join(text(p) for p in ['data/wiki.json', 'data/manual.json', 'ui/app.js', 'ui/manual.js', 'ui/index.html', 'ui/styles.css', 'ui/art.js']
-                       + [os.path.relpath(p, ROOT) for p in glob.glob(os.path.join(ROOT, 'data', 'wiki', '*.json'))])
+    ui_files = sorted(os.path.relpath(p, ROOT) for ext in ('js', 'css', 'html') for p in glob.glob(os.path.join(ROOT, 'ui', f'*.{ext}')))
+    haystack = ''.join(text(p) for p in ['data/wiki.json', 'data/manual.json'] + ui_files
+                       + [os.path.relpath(p, ROOT) for p in glob.glob(os.path.join(ROOT, 'data', 'wiki', '*.json'))]
+                       + [os.path.relpath(p, ROOT) for p in glob.glob(os.path.join(ROOT, 'src', '*.rs'))])
+    # Map blips are named in app.js's KIND_ICON table and built as /images/map-icons/<name>.webp.
+    app_js = text('ui/app.js')
+    icon_names = set(re.findall(r"'([a-z0-9-]+)'", app_js[app_js.find('KIND_ICON'):app_js.find('blipOf')]))
     derived = {a.get('derived_from') for a in media['assets']} | {(a.get('source') or '').split('wallpapers/')[-1] for a in media['assets']}
 
     def used(rel):
@@ -135,6 +140,12 @@ def main():
             return 'named in data or interface'
         if rel in derived or os.path.basename(rel) in derived:
             return 'source of another asset'
+        stem = os.path.splitext(parts[-1])[0]
+        if rel.startswith('images/map-icons/') and stem in icon_names:
+            return 'map blip'
+        if rel.startswith('wallpapers/posters/') and any(f.startswith('wallpapers/') and not f.startswith('wallpapers/posters/')
+                                                         and os.path.splitext(os.path.basename(f))[0] == stem for f in disk):
+            return 'poster of a live wallpaper'
         return ''
 
     usage = {rel: used(rel) for rel in disk}

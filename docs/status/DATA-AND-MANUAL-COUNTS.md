@@ -1,6 +1,6 @@
 # Data and manual counts
 
-Generated 2026-11-27 04:35 by `scripts/current_state.py` from the live data files. Do not edit by hand.
+Generated 2026-11-27 05:34 by `scripts/current_state.py` from the live data files. Do not edit by hand.
 
 ## Encyclopedia
 
@@ -8,7 +8,7 @@ Generated 2026-11-27 04:35 by `scripts/current_state.py` from the live data file
 |---|---|---|---|---|
 | Characters | 78 | 0 | 53 | 0 |
 | Locations | 156 | 0 | 148 | 0 |
-| Vehicles | 645 | 0 | 515 | 0 |
+| Vehicles | 641 | 0 | 514 | 0 |
 | Gameplay | 125 | 0 | 100 | 0 |
 | Activities | 223 | 0 | 216 | 0 |
 | Wildlife | 124 | 0 | 91 | 0 |
@@ -19,9 +19,9 @@ Generated 2026-11-27 04:35 by `scripts/current_state.py` from the live data file
 | Missions and Story | 193 | 0 | 192 | 0 |
 | Collectibles | 1257 | 0 | 1257 | 0 |
 | Achievements | 55 | 0 | 55 | 0 |
-| **Total** | **3400** | 0 | 3127 | 0 |
+| **Total** | **3396** | 0 | 3126 | 0 |
 
-Sources in the registry: 1904. Map markers: 6626 in 12 categories.
+Sources in the registry: 1904. Map markers: 6585 in 12 categories.
 
 ## Field Manual
 
@@ -32,7 +32,7 @@ Sources in the registry: 1904. Map markers: 6626 in 12 categories.
 | 02 | Story & Missions | Published, 1 encyclopedia entries | 1 |
 | 03 | Leonida & Vice City | Published, 8 encyclopedia entries | 3 |
 | 04 | Characters | Published, 25 encyclopedia entries | 7 |
-| 05 | Vehicles | Published, 130 encyclopedia entries | 26 |
+| 05 | Vehicles | Published, 127 encyclopedia entries | 26 |
 | 06 | Activities & Pastimes | Published, 7 encyclopedia entries | 2 |
 | 07 | Money & Businesses | Published, written for the manual | 6 |
 | 08 | Robberies & Stealing | Published, written for the manual | 10 |
@@ -82,11 +82,11 @@ Manual sources: 868 checked, 1 listed but not checked.
 
 ## Media
 
-Records in `data/media.json`: 2003.
+Records in `data/media.json`: 1914.
 
 | Rights status | Records |
 |---|---|
-| permission_required | 1986 |
+| permission_required | 1897 |
 | unknown | 17 |
 
-Files on disk: `images/` 1967 (278.3 MB), `wallpapers/` 71 (105.5 MB). Map tile cache: 12 files (0.3 MB).
+Files on disk: `images/` 1878 (266.7 MB), `wallpapers/` 71 (105.5 MB). Map tile cache: 27 files (0.6 MB).

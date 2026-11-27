@@ -17,7 +17,7 @@ use crate::{
 };
 
 /// Entry keys the app knows about. Anything else is probably a typo.
-pub const ENTRY_KEYS: [&str; 28] = [
+pub const ENTRY_KEYS: [&str; 29] = [
     "slug",
     "name",
     "summary",
@@ -40,6 +40,8 @@ pub const ENTRY_KEYS: [&str; 28] = [
     "steps",
     // The game version an entry applies to (e.g. "1.02"), shown in its verification panel.
     "version",
+    // Slugs this entry used to have before a merge; old links and bookmarks open it.
+    "former_slugs",
     // Older, section-specific fields.
     "role",
     "group",
@@ -428,6 +430,17 @@ pub fn check_wiki(wiki: &Value, root: &Path, report: &mut Report) {
                         "unknown-field",
                         &subject,
                         format!("`{key}` is not a field the app uses. Category-specific values belong in `facts`."),
+                    );
+                }
+            }
+            // An old address must not also be a live entry's address, or the redirect would never run.
+            for old in strings(entry.get("former_slugs")) {
+                if known.contains(format!("{section}/{old}").as_str()) {
+                    report.add(
+                        Severity::Error,
+                        "former-slug-taken",
+                        &subject,
+                        format!("Former slug `{old}` is also the slug of a live entry in this section."),
                     );
                 }
             }
@@ -1551,6 +1564,19 @@ mod tests {
         assert!(report.has("unknown-field", "characters/e"));
         assert_eq!(report.errors, 3, "{:#?}", report.issues);
         assert!(is_date("2026-11-19") && !is_date("2026-13-01") && !is_date("2026-1-1"));
+    }
+
+    #[test]
+    fn former_slugs_must_not_be_live() {
+        let report = check(json!({
+            "characters": [
+                {"slug": "a", "name": "A", "summary": "s", "confidence": "rumor", "former_slugs": ["old-a"]},
+                {"slug": "b", "name": "B", "summary": "s", "confidence": "rumor", "former_slugs": ["a"]}
+            ]
+        }));
+        assert!(!report.has("unknown-field", "characters/a"));
+        assert!(!report.has("former-slug-taken", "characters/a"));
+        assert!(report.has("former-slug-taken", "characters/b"));
     }
 
     #[test]

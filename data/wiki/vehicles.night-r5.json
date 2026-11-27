@@ -79,7 +79,7 @@
       "style": "Pickup",
       "era": "1950s Antique",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/vapid-slamvan-56.jpg",
+      "menu_picture": "/images/vehicles/vapid-slamvan-56.jpg",
       "based_on": "Rat Rodded 1953–1956 Ford F-Series (pickup form), 1950s Ford F-Series"
     },
     "confidence": "corroborated",
@@ -127,7 +127,7 @@
       "style": "None",
       "era": "1950s Antique",
       "specialist": "Lowrider",
-      "menu_picture": "/images/vehicles/menu/albany-devanity-59.jpg",
+      "menu_picture": "/images/vehicles/albany-devanity-59.jpg",
       "based_on": "Cadillac Eldorado (1959)"
     },
     "confidence": "corroborated",

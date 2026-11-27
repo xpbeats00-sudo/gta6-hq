@@ -126,7 +126,7 @@
     ],
     "verified": "2026-11-18",
     "spoiler": true,
-    "image": "/images/artwork/lucia-shootout-convertible.webp"
+    "image": "/images/news/digital-foundry-ps5-analysis.jpg"
   },
   {
     "slug": "owning-cars-reviewed",
@@ -193,7 +193,8 @@
       "pushsquare-review"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/news/digital-foundry-ps5-analysis.jpg"
   },
   {
     "slug": "fences-and-selling-reviewed",

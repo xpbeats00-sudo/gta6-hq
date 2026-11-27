@@ -210,6 +210,17 @@ def slugify(text):
     return re.sub(r'[^a-z0-9]+', '-', unspoil(text).lower()).strip('-')
 
 
+def pin_sources(pins):
+    """Where the given pins' positions come from, as answer sources (marker "via" in data/wiki.json)."""
+    vias = {p.get('via') or '' for p in pins}
+    out = []
+    if 'gtabase' in vias:
+        out.append({'name': "Pin positions: GTABase's map, matched to the street map", 'url': 'https://www.gtabase.com/gta-6/map/'})
+    if vias - {'gtabase'}:
+        out.append({'name': 'Pin positions: Gamersky map via gta6-wiki.org, placed approximately', 'url': 'https://gta6-wiki.org'})
+    return out
+
+
 # ---------- the assistant ----------
 class Assistant:
     def __init__(self, data, site=SITE):
@@ -522,7 +533,9 @@ class Assistant:
             answer.text = f'{name}\n\n' + answer.text
         answer.map_url = self.map_link(show, focus=ref if pins else None) if show else ''
         if named and not pins:
-            answer.fields.append(('On the map', 'The places named in this answer: ' + ', '.join(p['name'] for p in named[:6])))
+            # A spoiler entry's places often carry its name ("Declasse Martha's Vamos"), so they go behind bars too.
+            answer.fields.append(('On the map', 'The places named in this answer: '
+                                  + ', '.join(spoil(p['name'], hidden or p['spoiler']) for p in named[:6])))
         answer.guide_url = self.entry_link(ref)
         answer.guide_label = 'View in GTA 6 HQ'
         return answer
@@ -591,11 +604,11 @@ class Assistant:
         fields = [('Region', r + (f' (near {d})' if d and d != r else ''))]
         if pin.get('kind'):
             fields.insert(0, ('Kind', pin['kind']))
-        fields.append(('Map position', f"{pin['x'] * 100:.1f}% across, {pin['y'] * 100:.1f}% down (approximate)"))
+        fields.append(('Map position', f"{pin['x'] * 100:.1f}% across, {pin['y'] * 100:.1f}% down" + ('' if pin.get('via') == 'gtabase' else ' (approximate)')))
         answer = Answer('entry', '📍 ' + (unspoil(pin['name']) if not pin['spoiler'] else 'Spoiler'),
                         spoil(pin.get('summary') or "Here it is on the Leonida map.", pin['spoiler']),
                         fields=fields, pins=[pin], focus=True, spoiler=pin['spoiler'],
-                        sources=[{'name': 'Pin position: Gamersky map via gta6-wiki.org, placed approximately', 'url': 'https://gta6-wiki.org'}])
+                        sources=pin_sources([pin]))
         answer.map_url = self.map_link([pin])
         if pin.get('guide'):
             hit = next((h for h in self.pages if h['chapter'].get('id') == pin['guide'][0] and unspoil(h['page'].get('title', '')) == pin['guide'][1]), None)
@@ -622,11 +635,12 @@ class Assistant:
         elif re.search(r'\b(nearest|closest|near me)\b', norm(question)):
             text += ("\n\nI can't see where you are in the game, so these are all of them. Open the map to spot the closest, "
                      "or ask again with a place, like *nearest one to Vice Beach*.")
-        text += '\n\nThe positions are approximate, placed from community maps.'
+        text += ('\n\nThe positions come from community maps.' if all(p.get('via') == 'gtabase' for p in pins)
+                 else '\n\nThe positions come from community maps; some are approximate.')
         refs = [p['ref'] for p in pins if p['ref']]
         guide = next((p['guide'] for p in pins if p.get('guide')), None)
         answer = Answer('places', f'📍 {label}', text, pins=pins, refs=refs[:20],
-                        sources=[{'name': 'Pin positions: Gamersky map via gta6-wiki.org, placed approximately', 'url': 'https://gta6-wiki.org'}])
+                        sources=pin_sources(pins))
         answer.map_url = self.map_link(pins, kind='|'.join(kinds))
         answer.context['kind'] = '|'.join(kinds)
         if guide:

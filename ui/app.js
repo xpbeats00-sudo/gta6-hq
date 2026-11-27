@@ -1848,6 +1848,11 @@ function mapLink(section, entry) {
 function renderEntry(key, slug) {
   const cat = category(key);
   const entry = (state.wiki[key] || []).find((e) => e.slug === slug);
+  if (cat && !entry) {
+    // A merged entry keeps its old addresses: saved bookmarks and old links open the entry it became.
+    const moved = (state.wiki[key] || []).find((e) => (e.former_slugs || []).includes(slug));
+    if (moved) { location.replace(`#/wiki/${key}/${encodeURIComponent(moved.slug)}`); return; }
+  }
   if (!cat || !entry) return renderNotFound();
   const lead = illustrated(key, entry);
   const page = `
@@ -2622,8 +2627,8 @@ function renderMap(params) {
         <button type="button" class="btn btn-icon btn-small map-side-close" data-side aria-label="Close the places panel">${icon('close')}</button>
         <h1>Leonida</h1>
         <p class="muted">${config.image
-    ? 'Rockstar\'s own map. Most pin positions come from Gamersky\'s map and are approximate.'
-    : 'The GTA VI mapping community\'s map. Most pin positions come from Gamersky\'s map and are approximate.'}</p>
+    ? 'Rockstar\'s own map. Most pins are placed from GTABase\'s street map; the older Gamersky pins are approximate.'
+    : 'The GTA VI mapping community\'s map. Most pins are placed from GTABase\'s street map; the older Gamersky pins are approximate.'}</p>
         <div class="field-search">${icon('search')}
           <input type="search" class="map-filter" placeholder="Search places or kinds" aria-label="Filter pins" autocomplete="off">
           <button type="button" class="field-clear" data-clear hidden aria-label="Clear filter" data-tip="Clear">${icon('close')}</button>

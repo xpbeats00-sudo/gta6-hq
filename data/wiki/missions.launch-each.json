@@ -1632,7 +1632,7 @@
     ],
     "verified": "2026-11-18",
     "spoiler": true,
-    "image": "/images/missions/painkiller-supplier.jpg"
+    "image": "/images/missions/got-pills.jpg"
   },
   {
     "slug": "ambulance-chaser",
@@ -2705,7 +2705,7 @@
     ],
     "verified": "2026-11-19",
     "spoiler": true,
-    "image": "/images/missions/credit-check.jpg"
+    "image": "/images/characters/andrea.jpg"
   },
   {
     "slug": "clonin-keys-makin-gs",
@@ -4078,7 +4078,7 @@
     ],
     "verified": "2026-11-18",
     "spoiler": true,
-    "image": "/images/missions/rafas-kidnapping.jpg"
+    "image": "/images/missions/childs-play.jpg"
   },
   {
     "slug": "fresh-evidence",
@@ -4184,7 +4184,8 @@
       "tech2geek-missions"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/characters/shayna.jpg"
   },
   {
     "slug": "power-play",
@@ -5322,7 +5323,7 @@
     ],
     "verified": "2026-11-18",
     "spoiler": true,
-    "image": "/images/missions/kyle-collect-chemicals-for-kyle.jpg"
+    "image": "/images/characters/kyle.jpg"
   },
   {
     "slug": "kyle-buddy",
@@ -5860,7 +5861,7 @@
     ],
     "verified": "2026-11-18",
     "spoiler": true,
-    "image": "/images/missions/andy-climbing-the-cellerichain.jpg"
+    "image": "/images/characters/bailey.jpg"
   },
   {
     "slug": "andy-pay-the-cellerica-fee",
@@ -6279,7 +6280,7 @@
     ],
     "verified": "2026-11-18",
     "spoiler": true,
-    "image": "/images/missions/eddie-acosta-attend-eddie-acostas-party.jpg"
+    "image": "/images/characters/eddie-acosta.jpg"
   },
   {
     "slug": "pilot-pete-the-last-mile-passing-the-torch",

@@ -267,7 +267,7 @@
       "strength": 4.0,
       "where": "Vehicle Theft for Moses (Push Square): Final Chapter motorcycle club, Birch St, Ambrosia, back of the ground-floor warehouse (Moses #6)",
       "customise": "Specialist tag \"Chopper\" (GTABase) matches the Chopper specialty shop: Ledford Motorcycle Workshop",
-      "menu_picture": "/images/vehicles/menu/western-nightblade.jpg",
+      "menu_picture": "/images/vehicles/western-nightblade.jpg",
       "menu_text": "Compact, muscular chopper with an extra-thick rear wheel. Fast and heavy.",
       "style": "Chopper",
       "era": "2010s Modern",
@@ -291,10 +291,17 @@
     "summary": "The Taci Ragno is a bike listed in the released game's vehicle database (style Scooter, era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Bikes.",
-      "DayOne gives its stats as speed 2.6, acceleration 3.6, asphalt handling 3.6, off-road handling 1.8, strength 4.0."
+      "DayOne gives its stats as speed 2.6, acceleration 3.6, asphalt handling 3.6, off-road handling 1.8, strength 4.0.",
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
+      "GTABase says the scooter sells for $500 when stolen.",
+      "In-game stat bars (out of 10): Speed 2.6, Acceleration 3.6, Asphalt handling 3.6, Off-road handling 1.8, Strength 4.0, as read by GTABase only so far."
     ],
     "tags": [
       "bike",
+      "faggio",
+      "motorcycle",
+      "pegassi",
       "ragno",
       "scooter",
       "taci"
@@ -303,15 +310,34 @@
       "manufacturer": "Taci",
       "model": "Ragno",
       "class": "Bikes",
-      "menu_picture": "/images/vehicles/menu/taci-ragno.jpg"
+      "menu_picture": "/images/vehicles/pegassi-faggio.jpg",
+      "speed": 2.6,
+      "acceleration": 3.6,
+      "asphalt_handling": 3.6,
+      "offroad_handling": 1.8,
+      "strength": 4.0,
+      "price": "$2,250 (Story Mode price, which the guides read as the registration cost)",
+      "sell_value": "$500 when stolen",
+      "where": "Spawn (GTABase map): Waning Sands -  #149 Taci Ragno Waning Sands",
+      "customise": "Specialist tag \"None\" (GTABase)"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-bikes",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "gtabase-map-spawn",
+      "gtabase-vehicle-pages",
+      "gtabase-vehicles",
+      "pl-gtabase-veh-pegassi-faggio"
     ],
-    "verified": "2026-11-18",
-    "spoiler": true
+    "verified": "2026-11-26",
+    "spoiler": true,
+    "aliases": [
+      "Pegassi Faggio"
+    ],
+    "former_slugs": [
+      "pegassi-faggio"
+    ]
   },
   {
     "slug": "nagasaki-sfb-1000",
@@ -382,7 +408,7 @@
       "offroad_handling": 7.5,
       "strength": 4.0,
       "customise": "Specialist tag \"Dirt Bike\" (GTABase) matches the Dirt Bike specialty shop: Dirt Merchants",
-      "menu_picture": "/images/vehicles/menu/nagasaki-street-blazer.jpg",
+      "menu_picture": "/images/vehicles/nagasaki-street-blazer.jpg",
       "menu_text": "Light ATV, ideal for off-roading. Agile, sure-footed, and great at getting air.",
       "style": "Quad Bike",
       "era": "2010s Current",
@@ -740,17 +766,26 @@
       "offroad_handling": 3.6,
       "strength": 3.0,
       "where": "Spawn (GTABase map): Vice City -  #85 Benefactor Schutzen Vice City Parked beyond the black gate.; Spawn (GTABase map): Vice City -  #86 Benefactor Schutzen Vice City Parked in the driveway behind the gate in front of the mansion, next to the garage with the caged cheetah.",
-      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive",
+      "seats": 4,
+      "based_on": "Vision Mercedes-Maybach 6 Cabriolet"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
-    "image": "/images/vehicles/benefactor-shutzen.jpg"
+    "image": "/images/vehicles/benefactor-shutzen.jpg",
+    "aliases": [
+      "Benefactor Schutzen"
+    ],
+    "former_slugs": [
+      "benefactor-schutzen"
+    ]
   },
   {
     "slug": "albany-buccaneer-65",
@@ -890,7 +925,7 @@
       "style": "None",
       "era": "1960s Antique",
       "specialist": "Lowrider",
-      "menu_picture": "/images/vehicles/menu/dundreary-chino-65.jpg",
+      "menu_picture": "/images/vehicles/dundreary-chino-65.jpg",
       "based_on": "1965 Lincoln Continental, 1965 Chrysler Imperial, 1970s Ford Thunderbird(s)"
     },
     "confidence": "corroborated",
@@ -1039,7 +1074,7 @@
       "style": "None",
       "era": "1970s Antique",
       "specialist": "Muscle",
-      "menu_picture": "/images/vehicles/menu/declasse-vamos-74.jpg",
+      "menu_picture": "/images/vehicles/declasse-vamos-74.jpg",
       "based_on": "Chevrolet Nova"
     },
     "confidence": "corroborated",
@@ -1465,7 +1500,7 @@
       "menu_text": "Modern, heavy-duty truck with a broad, bullish silhouette and a large bed. May have modern security features.",
       "era": "2010s Modern",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/vapid-sandking-xl.jpg",
+      "menu_picture": "/images/vehicles/vapid-sandking-xl.jpg",
       "based_on": "Ford Super Duty (3rd Gen)"
     },
     "confidence": "corroborated",
@@ -1787,7 +1822,7 @@
       "strength": 3.0,
       "price": "$2,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$660 when stolen",
-      "menu_picture": "/images/vehicles/menu/albany-primo.jpg",
+      "menu_picture": "/images/vehicles/albany-primo.jpg",
       "menu_text": "Luxury sedan designed for a comfortable ride. Recognizable by its sharp, angular profile.",
       "style": "None",
       "era": "2000s Modern",
@@ -1911,7 +1946,7 @@
       "price": "$3,650 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,100 when stolen",
       "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
-      "menu_picture": "/images/vehicles/menu/vapid-stanier-g2.jpg",
+      "menu_picture": "/images/vehicles/vapid-stanier-g2.jpg",
       "menu_text": "Spacious modern sedan, popular for its comfort and reliability.",
       "style": "Muscle",
       "era": "2000s Modern",
@@ -1961,7 +1996,7 @@
       "style": "Convertible",
       "era": "2010s Modern",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/grotti-carbonizzare.jpg",
+      "menu_picture": "/images/vehicles/grotti-carbonizzare.jpg",
       "based_on": "V12 Zagato rear, Nissan GT-R, Ferrari 458 Italia, Ferrari 612 Scagliëtti"
     },
     "confidence": "corroborated",
@@ -2191,7 +2226,7 @@
       "style": "None",
       "era": "2000s Modern",
       "specialist": "Tuner",
-      "menu_picture": "/images/vehicles/menu/emperor-sultan.jpg",
+      "menu_picture": "/images/vehicles/emperor-sultan.jpg",
       "based_on": "Lexus IS, Mitsubishi Lancer Evo VI, Subaru Impreza"
     },
     "confidence": "corroborated",
@@ -2243,7 +2278,7 @@
       "style": "Sports",
       "era": "2020s Current",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/pfister-astron.jpg",
+      "menu_picture": "/images/vehicles/pfister-astron.jpg",
       "based_on": "Porsche Macan"
     },
     "confidence": "corroborated",
@@ -2523,7 +2558,7 @@
       "style": "Commercial",
       "era": "2000s Modern",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/brute-boxville.jpg",
+      "menu_picture": "/images/vehicles/brute-boxville.jpg",
       "based_on": "GMC Step Van"
     },
     "confidence": "corroborated",
@@ -2665,7 +2700,7 @@
       "style": "Commercial",
       "era": "2000s Modern",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/vapid-rumpo.jpg",
+      "menu_picture": "/images/vehicles/vapid-rumpo.jpg",
       "based_on": "Ford E-Series"
     },
     "confidence": "corroborated",
@@ -2759,7 +2794,7 @@
       "style": "Commercial",
       "era": "1970s Antique",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/bravado-youga-74.jpg",
+      "menu_picture": "/images/vehicles/bravado-youga-74.jpg",
       "based_on": "Ford Ecoline (2nd gen)"
     },
     "confidence": "corroborated",
@@ -3489,7 +3524,7 @@
     "facts": {
       "model": "Lure Predator L20S",
       "class": "Watercraft",
-      "menu_picture": "/images/vehicles/menu/lure-predator-l20s.jpg",
+      "menu_picture": "/images/vehicles/lure-predator-l20s.jpg",
       "menu_text": "Small, flat-bottomed boat designed for navigating shallow waters. Ideal for short fishing trips.",
       "style": "Riverboat",
       "era": "2010s Current"

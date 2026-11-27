@@ -137,7 +137,7 @@
       "style": "None",
       "era": "2000s Modern",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/bravado-banshee.jpg",
+      "menu_picture": "/images/vehicles/bravado-banshee.jpg",
       "based_on": "Dodge Viper"
     },
     "confidence": "corroborated",
@@ -482,7 +482,7 @@
       "offroad_handling": 2.9,
       "strength": 3.0,
       "customise": "Specialist tag \"None\" (GTABase)",
-      "menu_picture": "/images/vehicles/menu/mtl-pumper.jpg",
+      "menu_picture": "/images/vehicles/mtl-pumper.jpg",
       "menu_text": "Fire truck equipped with a powerful water cannon. Fitted with advanced security measures. 2000s",
       "based_on": "2012 Pierce Arrow XT Rescue Pumper"
     },
@@ -967,11 +967,15 @@
       "Those lists give the unlock condition as: complete all criminal challenges.",
       "GTABase has a page for a Western Zombie Chopper (Motorcycles class); no Zombie Bobber page was found there.",
       "DayOne's list from the released game names it and files it under Bikes.",
-      "In-game stat bars (out of 10): Speed 4.4, Acceleration 5.3, Asphalt handling 5.5, Off-road handling 2.9, Strength 4.0, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Speed 4.4, Acceleration 5.3, Asphalt handling 5.5, Off-road handling 2.9, Strength 4.0, as read by GTABase only so far.",
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "GTABase lists it as a Chopper specialist bike popular with biker gangs."
     ],
     "tags": [
       "bobber",
       "cheat",
+      "chopper",
       "motorcycle",
       "spawn",
       "western",
@@ -998,10 +1002,18 @@
       "powerpyx-cheats",
       "pressstart-cheats",
       "screenrant-cheats",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "gtabase-vehicles",
+      "pl-gtabase-veh-western-zombie-chopper"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Western Zombie Chopper"
+    ],
+    "former_slugs": [
+      "western-zombie-chopper"
+    ]
   },
   {
     "slug": "granforma-zorrusso",
@@ -1208,7 +1220,7 @@
       "style": "Sports",
       "era": "2010s Current",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/pegassi-toros.jpg",
+      "menu_picture": "/images/vehicles/pegassi-toros.jpg",
       "based_on": "Lamborghini Urus, Lamborghini Aventador, Audi Q8"
     },
     "confidence": "corroborated",
@@ -1522,7 +1534,7 @@
       "style": "Luxury",
       "era": "2020s Current",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/pfister-growler.jpg",
+      "menu_picture": "/images/vehicles/pfister-growler.jpg",
       "based_on": "Porsche 718 Cayman"
     },
     "confidence": "corroborated",
@@ -2301,7 +2313,7 @@
       "price": "$18,650 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$5,555 when stolen",
       "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
-      "menu_picture": "/images/vehicles/menu/obey-8f-drafter.jpg",
+      "menu_picture": "/images/vehicles/obey-8f-drafter.jpg",
       "menu_text": "Sleek, sporty, three-door coupe with above average space. Often protected by modern security.",
       "style": "Sports",
       "era": "2010s Modern",
@@ -2345,7 +2357,7 @@
       "offroad_handling": 2.5,
       "strength": 3.0,
       "customise": "Specialist tag \"None\" (GTABase); GTABase marks it \"Has Liveries\" (livery names not listed)",
-      "menu_picture": "/images/vehicles/menu/airport-bus.jpg"
+      "menu_picture": "/images/vehicles/airport-bus.jpg"
     },
     "confidence": "community",
     "sources": [
@@ -2388,7 +2400,7 @@
       "strength": 7.5,
       "where": "GTABase: Parked outside the hangar of Kyle's Mallard.; Spawn (GTABase map): Ambrosia -  #142 HVY Airtug Ambrosia Parked outside the hangar of Kyle's Mallard.",
       "based_on": "Clark CT30",
-      "menu_picture": "/images/vehicles/menu/airtug.jpg"
+      "menu_picture": "/images/vehicles/airtug.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2437,7 +2449,7 @@
       "style": "None",
       "era": "2010s Current",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/vapid-aleutian.jpg",
+      "menu_picture": "/images/vehicles/vapid-aleutian.jpg",
       "based_on": "Fourth generation Ford Expedition (U553)"
     },
     "confidence": "corroborated",
@@ -2884,7 +2896,7 @@
       "price": "$7,150 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,145 when stolen",
       "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)",
-      "menu_picture": "/images/vehicles/menu/willard-transient.jpg",
+      "menu_picture": "/images/vehicles/willard-transient.jpg",
       "menu_text": "Popular luxury sedan with a modern, sporty design and plenty of passenger space.",
       "style": "None",
       "era": "2010s Current",
@@ -3586,7 +3598,7 @@
       "manufacturer": "Walter",
       "model": "Cruiser",
       "class": "Bikes",
-      "menu_picture": "/images/vehicles/menu/walter-cruiser.jpg",
+      "menu_picture": "/images/vehicles/walter-cruiser.jpg",
       "menu_text": "Vintage 1970s cruiser bike. Heavily constructed for a comfortable ride.",
       "style": "Bike",
       "era": "1970s Classic",
@@ -3636,7 +3648,7 @@
       "style": "None",
       "era": "2010s Current",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/bravado-gresley-xt.jpg",
+      "menu_picture": "/images/vehicles/bravado-gresley-xt.jpg",
       "based_on": "Dodge Durango (3rd Gen)"
     },
     "confidence": "community",
@@ -3732,7 +3744,7 @@
       "style": "None",
       "era": "2000s Modern",
       "specialist": "Off-Road",
-      "menu_picture": "/images/vehicles/menu/bravado-dorado.jpg",
+      "menu_picture": "/images/vehicles/bravado-dorado.jpg",
       "based_on": "1st generation Dodge Durango"
     },
     "confidence": "corroborated",
@@ -3866,7 +3878,7 @@
       "model": "Aerobike",
       "class": "Cycles",
       "manufacturer": "Endurex",
-      "menu_picture": "/images/vehicles/menu/endurex-race-bike.jpg",
+      "menu_picture": "/images/vehicles/endurex-race-bike.jpg",
       "menu_text": "Triathlon bicycle designed for speed, with an aerodynamic frame to minimize wind resistance.",
       "style": "Bike",
       "era": "2010s Modern",
@@ -3905,16 +3917,25 @@
     "facts": {
       "manufacturer": "HVY",
       "model": "Excavator",
-      "class": "Industrial"
+      "class": "Industrial",
+      "seats": 1,
+      "based_on": "Liebherr R954B HD-S and Samsung SE280LC-2"
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicles",
       "dayone-service",
-      "gtabase-v-excavator"
+      "gtabase-v-excavator",
+      "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "aliases": [
+      "Brute B3000 Excavator"
+    ],
+    "former_slugs": [
+      "brute-b3000-excavator"
+    ]
   },
   {
     "slug": "willard-faction-custom-donk",
@@ -3944,49 +3965,6 @@
     ],
     "verified": "2026-11-22",
     "spoiler": true
-  },
-  {
-    "slug": "pegassi-faggio",
-    "name": "Taci Ragno",
-    "summary": "GTABase's GTA VI vehicle database lists the Taci Ragno in its Motorcycles class, made by Taci.",
-    "body": [
-      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
-      "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "Since release, GTABase lists it as the Taci Ragno; before launch it was listed as the Pegassi Faggio.",
-      "GTABase says the scooter sells for $500 when stolen.",
-      "In-game stat bars (out of 10): Speed 2.6, Acceleration 3.6, Asphalt handling 3.6, Off-road handling 1.8, Strength 4.0, as read by GTABase only so far."
-    ],
-    "tags": [
-      "faggio",
-      "motorcycle",
-      "pegassi"
-    ],
-    "facts": {
-      "manufacturer": "Taci",
-      "model": "Ragno",
-      "class": "Motorcycles",
-      "speed": 2.6,
-      "acceleration": 3.6,
-      "asphalt_handling": 3.6,
-      "offroad_handling": 1.8,
-      "strength": 4.0,
-      "price": "$2,250 (Story Mode price, which the guides read as the registration cost)",
-      "sell_value": "$500 when stolen",
-      "where": "Spawn (GTABase map): Waning Sands -  #149 Taci Ragno Waning Sands",
-      "customise": "Specialist tag \"None\" (GTABase)"
-    },
-    "confidence": "community",
-    "sources": [
-      "gtabase-map-spawn",
-      "gtabase-vehicle-pages",
-      "gtabase-vehicles",
-      "pl-gtabase-veh-pegassi-faggio"
-    ],
-    "verified": "2026-11-26",
-    "spoiler": true,
-    "aliases": [
-      "Pegassi Faggio"
-    ]
   },
   {
     "slug": "ubermacht-fcr-1000",
@@ -4411,7 +4389,7 @@
       "price": "$7,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,145 when stolen",
       "based_on": "Ford Transit Cargo (4th Gen)",
-      "menu_picture": "/images/vehicles/menu/shifter.jpg"
+      "menu_picture": "/images/vehicles/shifter.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4449,7 +4427,7 @@
       "strength": 8.0,
       "customise": "Specialist tag \"None\" (GTABase)",
       "based_on": "Yale Forklift truck model (Yale GLP060VX)",
-      "menu_picture": "/images/vehicles/menu/lifta.jpg"
+      "menu_picture": "/images/vehicles/lifta.jpg"
     },
     "confidence": "community",
     "sources": [
@@ -4618,7 +4596,7 @@
       "strength": 3.0,
       "customise": "Specialist tag \"None\" (GTABase)",
       "based_on": "Freightliner and Kenworth",
-      "menu_picture": "/images/vehicles/menu/cartwright-hauler.jpg"
+      "menu_picture": "/images/vehicles/cartwright-hauler.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4808,7 +4786,7 @@
       "sell_value": "$1,595 when stolen",
       "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
       "based_on": "1994-1996 Chevrolet Impala SS",
-      "menu_picture": "/images/vehicles/menu/declasse-impaler-sz.jpg"
+      "menu_picture": "/images/vehicles/declasse-impaler-sz.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -4956,7 +4934,7 @@
       "offroad_handling": 3.0,
       "strength": 3.0,
       "customise": "Specialist tag \"None\" (GTABase)",
-      "menu_picture": "/images/vehicles/menu/maibatsu-iota.jpg",
+      "menu_picture": "/images/vehicles/maibatsu-iota.jpg",
       "menu_text": "Compact mini truck, able to transport heavy loads to destinations inaccessible by bulkier vehicles.",
       "era": "2000s Modern",
       "based_on": "Isuzu Elf 250"
@@ -5119,7 +5097,7 @@
       "offroad_handling": 2.3,
       "strength": 4.0,
       "customise": "Specialist tag \"Sports Bike\" (GTABase)",
-      "menu_picture": "/images/vehicles/menu/principe-lectro.jpg",
+      "menu_picture": "/images/vehicles/principe-lectro.jpg",
       "menu_text": "Comfortable, modern sports bike. Agile, responsive, and easy to control.",
       "style": "Sports Bike",
       "era": "2010s Modern",
@@ -5171,7 +5149,7 @@
       "price": "$3,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$990 when stolen",
       "customise": "Specialist tag \"Donks\" (GTABase) matches the Donks specialty shop: Rideout Customs (Ultimate Edition)",
-      "menu_picture": "/images/vehicles/menu/dundreary-arcturus-93.jpg",
+      "menu_picture": "/images/vehicles/dundreary-arcturus-93.jpg",
       "menu_text": "1990s coupe with a sleek profile and a longer wheelbase than many cars in its class.",
       "style": "None",
       "era": "1990s Classic",
@@ -5485,7 +5463,7 @@
       "style": "Passenger",
       "era": "2010s Current",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/benefactor-spritz.jpg",
+      "menu_picture": "/images/vehicles/benefactor-spritz.jpg",
       "based_on": "Mercedes-Benz Sprinter (2nd Gen)"
     },
     "confidence": "community",
@@ -5636,7 +5614,7 @@
       "style": "None",
       "era": "2020s Current",
       "specialist": "Luxury",
-      "menu_picture": "/images/vehicles/menu/pfister-neon.jpg",
+      "menu_picture": "/images/vehicles/pfister-neon.jpg",
       "based_on": "Porsche Taycan, Porsche 918 Spyder, second generation Porsche Panamera and the 991.2 Porsche 911"
     },
     "confidence": "corroborated",
@@ -5817,7 +5795,7 @@
       "sell_value": "$915 when stolen",
       "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs; GTABase marks it \"Has Liveries\" (livery names not listed)",
       "based_on": "2nd Generation Mitsubishi Eclipse & 2nd Generation Eagle Talon",
-      "menu_picture": "/images/vehicles/menu/maibatsu-penumbra-ff.jpg"
+      "menu_picture": "/images/vehicles/maibatsu-penumbra-ff.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5861,7 +5839,7 @@
       "strength": 3.0,
       "customise": "Specialist tag \"None\" (GTABase)",
       "based_on": "1984 GMC General with an Aerodynamic Sleeper Cab",
-      "menu_picture": "/images/vehicles/menu/jobuilt-phantom-custom.jpg"
+      "menu_picture": "/images/vehicles/jobuilt-phantom-custom.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5949,7 +5927,7 @@
       "style": "None",
       "era": "2020s Modern",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/mer-can-blast.jpg",
+      "menu_picture": "/images/vehicles/mer-can-blast.jpg",
       "based_on": "Polaris Ranger"
     },
     "confidence": "corroborated",
@@ -7139,7 +7117,7 @@
       "style": "None",
       "era": "2000s Modern",
       "specialist": "None",
-      "menu_picture": "/images/vehicles/menu/swamp-blaster.jpg",
+      "menu_picture": "/images/vehicles/swamp-blaster.jpg",
       "based_on": "Palm Beach Swamp Buggy"
     },
     "confidence": "community",
@@ -7505,7 +7483,7 @@
       "sell_value": "$4,400 when stolen",
       "where": "Spawn (GTABase map): Waning Sands -  #113 Emperor Vectre Waning Sands Move the stacks of paper from the side entrance to enter the garage.",
       "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
-      "menu_picture": "/images/vehicles/menu/emperor-vectre.jpg",
+      "menu_picture": "/images/vehicles/emperor-vectre.jpg",
       "menu_text": "Compact, nimble sports coupe with muscular design. Usually has modern security.",
       "style": "Sports",
       "era": "2020s Current",
@@ -8022,36 +8000,5 @@
     ],
     "verified": "2026-11-22",
     "spoiler": true
-  },
-  {
-    "slug": "western-zombie-chopper",
-    "name": "Western Zombie Bobber",
-    "summary": "GTABase's GTA VI vehicle database lists the Western Zombie Bobber in its Motorcycles class, made by Western.",
-    "body": [
-      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
-      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "Since release, GTABase lists it as the Western Zombie Bobber; before launch it was listed as the Western Zombie Chopper.",
-      "GTABase lists it as a Chopper specialist bike popular with biker gangs."
-    ],
-    "tags": [
-      "chopper",
-      "motorcycle",
-      "western",
-      "zombie"
-    ],
-    "facts": {
-      "manufacturer": "Western",
-      "model": "Zombie Bobber",
-      "class": "Motorcycles"
-    },
-    "confidence": "community",
-    "sources": [
-      "gtabase-vehicles",
-      "pl-gtabase-veh-western-zombie-chopper"
-    ],
-    "verified": "2026-11-22",
-    "aliases": [
-      "Western Zombie Chopper"
-    ]
   }
 ]

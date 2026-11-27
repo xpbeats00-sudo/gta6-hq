@@ -2,6 +2,14 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## Unreleased
+
+- **Duplicate pictures cleaned up:** 88 copies removed; each entry keeps its largest picture, and *The Missing Link* gets its real mission picture.
+- **No more doubled vehicles:** the old pre-launch entries for the Taci Ragno (Pegassi Faggio) and Western Zombie Bobber (Zombie Chopper) are folded into the release entries, as are the doubled Benefactor Schutzen and Brute excavator.
+- **Old links still work:** a bookmark or link to a merged entry opens the entry it became.
+- **Map wording:** the map now says that most pins are placed exactly from GTABase's street map; only the older Gamersky pins are approximate.
+- **Discord assistant:** spoiler vehicles' map places stay behind spoiler bars, and each pin's source is named correctly.
+
 ## 0.2.48 (27 November 2026)
 
 A map with everything on it, every vehicle with its picture, the game's own menu art, and real controllers.

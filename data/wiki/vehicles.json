@@ -1476,36 +1476,6 @@
     }
   },
   {
-    "slug": "benefactor-schutzen",
-    "name": "Benefactor Schutzen",
-    "summary": "A coupes vehicle made by Benefactor, listed in GTABase's vehicle database.",
-    "body": [
-      "GTABase files it under Coupes and lists Benefactor as its maker.",
-      "GTABase says it is based on the Vision Mercedes-Maybach 6 Cabriolet.",
-      "In-game speed bar (out of 10): 6.7, as read by GTABase."
-    ],
-    "confidence": "community",
-    "sources": [
-      "gtabase-vehicle-menu-art"
-    ],
-    "verified": "2026-11-27",
-    "status": "published",
-    "spoiler": false,
-    "tags": [
-      "vehicle",
-      "coupes",
-      "benefactor"
-    ],
-    "facts": {
-      "manufacturer": "Benefactor",
-      "class": "Coupes",
-      "seats": 4,
-      "speed": 6.7,
-      "based_on": "Vision Mercedes-Maybach 6 Cabriolet",
-      "menu_picture": "/images/vehicles/benefactor-schutzen.jpg"
-    }
-  },
-  {
     "slug": "nagasaki-hung-carbon-rs",
     "name": "Nagasaki Hung Carbon RS",
     "summary": "A standout motorcycle vehicle in the Fine Art set, listed in GTABase's vehicle database.",
@@ -8323,34 +8293,6 @@
       "standout_set": "Swamp Style",
       "based_on": "Diamondback Hunting & Fishing Airboat",
       "menu_picture": "/images/vehicles/airgator-big-game-airboat.jpg"
-    }
-  },
-  {
-    "slug": "brute-b3000-excavator",
-    "name": "Brute B3000 Excavator",
-    "summary": "An industrial vehicle made by Brute, listed in GTABase's vehicle database.",
-    "body": [
-      "GTABase files it under Industrial and lists Brute as its maker.",
-      "GTABase says it is based on the Liebherr R954B HD-S and Samsung SE280LC-2."
-    ],
-    "confidence": "community",
-    "sources": [
-      "gtabase-vehicle-menu-art"
-    ],
-    "verified": "2026-11-27",
-    "status": "published",
-    "spoiler": false,
-    "tags": [
-      "vehicle",
-      "industrial",
-      "brute"
-    ],
-    "facts": {
-      "manufacturer": "Brute",
-      "class": "Industrial",
-      "seats": 1,
-      "based_on": "Liebherr R954B HD-S and Samsung SE280LC-2",
-      "menu_picture": "/images/vehicles/brute-b3000-excavator.jpg"
     }
   },
   {

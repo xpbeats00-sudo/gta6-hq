@@ -31,7 +31,8 @@
       "rs-gtabase-how-to-fish"
     ],
     "verified": "2026-11-19",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/wildlife/common-snook.jpg"
   },
   {
     "slug": "crashed-plane-south-of-hamlet",
@@ -89,7 +90,8 @@
       "rs2-powerpyx-pool"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/activities/pool-opponents-by-venue.jpg"
   },
   {
     "slug": "race-challenge-ambrosia-raceway-trial",

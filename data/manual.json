@@ -6462,7 +6462,7 @@
             },
             {
               "type": "image",
-              "src": "/images/manual/vice-city-skyline-night.jpg",
+              "src": "/images/artwork/vice-city-skyline-night.webp",
               "caption": "The lit towers of Vice City at dusk, seen across low rooftops.",
               "credit": "Official Rockstar Games screenshot (\"Vice City 27\"), rockstargames.com/VI/media/screenshots"
             },
@@ -13821,7 +13821,7 @@
             },
             {
               "type": "image",
-              "src": "/images/manual/pursuit-jason-motorcycle.jpg",
+              "src": "/images/artwork/jason-motorbike-police.webp",
               "caption": "Jason on a motorcycle, a police vehicle close behind.",
               "credit": "Official Rockstar Games screenshot (\"Jason Duval 11\"), rockstargames.com/VI/media/screenshots"
             },
@@ -13843,7 +13843,7 @@
             },
             {
               "type": "frame",
-              "src": "/images/artwork/lucia-shootout-convertible.webp",
+              "src": "/images/news/digital-foundry-ps5-analysis.jpg",
               "caption": "Lucia fires a rifle from the passenger seat of a convertible as police cars close in.",
               "credit": "Official screenshot, Rockstar Games"
             },
@@ -14322,7 +14322,7 @@
             },
             {
               "type": "image",
-              "src": "/images/manual/robbery-with-bystanders.jpg",
+              "src": "/images/artwork/jason-lucia-bank-robbery.webp",
               "caption": "Two masked people with guns at a counter while three others raise their hands.",
               "credit": "Official Rockstar Games screenshot (\"Jason and Lucia 15\"), rockstargames.com/VI/media/screenshots"
             },
@@ -14461,7 +14461,7 @@
             },
             {
               "type": "frame",
-              "src": "/images/gameplay/police-in-the-released-game.jpg",
+              "src": "/images/news/digital-foundry-ps5-analysis.jpg",
               "spoiler": true,
               "caption": "Lucia firing from a convertible with police cars and a helicopter behind: a wanted chase in progress",
               "credit": "Picture: Rockstar Games (official screenshot, via OutputLag)"
@@ -14653,7 +14653,7 @@
             },
             {
               "type": "image",
-              "src": "/images/manual/officers-at-patrol-car.jpg",
+              "src": "/images/news/no-street-sex-workers.jpg",
               "caption": "Two officers beside a Vice Beach Police car at night.",
               "credit": "Official Rockstar Games screenshot (\"Vice City 06\"), rockstargames.com/VI/media/screenshots"
             },
@@ -14855,7 +14855,7 @@
             },
             {
               "type": "image",
-              "src": "/images/manual/vice-city-police-on-the-road.jpg",
+              "src": "/images/artwork/canal-police-raid.webp",
               "caption": "Patrol cars gathered on a bridge, a boat with flashing lights below and a helicopter sweeping a searchlight overhead.",
               "credit": "Official Rockstar Games screenshot (\"Vice City 17\"), rockstargames.com/VI/media/screenshots"
             },
@@ -19383,7 +19383,7 @@
                 "powerpyx-meditation",
                 "powerpyx-trophy-guide"
               ],
-              "frame": "/images/collectibles/meditation-jasons-house-meditation.jpg",
+              "frame": "/images/missions/meditate-with-lucia.jpg",
               "frameAlt": "Jason meditating on the dock behind his house",
               "frameCredit": "Picture: GTABase",
               "spoiler": true,
@@ -21724,7 +21724,7 @@
                 "gtabase-thats-where-the-money-is"
               ],
               "link": "#/locations/ocean-beach",
-              "frame": "/images/manual/guide/g100-banks-cafe-orquidea.jpg",
+              "frame": "/images/missions/thats-where-the-money-is.jpg",
               "frameAlt": "The Cafe Orquidea Cuban Restaurant sign",
               "frameCredit": "Picture: GTABase",
               "spoiler": true
@@ -28127,7 +28127,7 @@
             },
             {
               "type": "image",
-              "src": "/images/missions/painkiller-supplier.jpg",
+              "src": "/images/missions/got-pills.jpg",
               "caption": "||Painkiller Supplier: A white pickup with a traffic cone in the back, a subtitle at the bottom.||",
               "credit": "Picture from GTABase's mission guide (\"Painkiller Supplier | GTA 6 Mission Guide & Walkthrough\"), gtabase.com"
             },
@@ -28763,7 +28763,7 @@
                 "powerpyx-credit-check-meet-rauls-crew",
                 "r8gb-missions-credit-check"
               ],
-              "frame": "/images/missions/credit-check.jpg",
+              "frame": "/images/characters/andrea.jpg",
               "frameAlt": "A woman on the phone in a dim office",
               "frameCredit": "Picture: GTABase",
               "spoiler": true,
@@ -28782,7 +28782,7 @@
                 "powerpyx-clonin-keys-makin-gs-steal-the-zorrusso-for-randy",
                 "r8gb-missions-steal-the-zorrusso-for-randy"
               ],
-              "frame": "/images/manual/guide/g100-missions-zorrusso.jpg",
+              "frame": "/images/missions/clonin-keys-makin-gs.jpg",
               "frameAlt": "A red Zorrusso supercar in a walled garage",
               "frameCredit": "Picture: GTABase",
               "spoiler": true,
@@ -29632,7 +29632,7 @@
                 "g100-ppx-free-call",
                 "gtabase-this-is-a-free-call-from"
               ],
-              "frame": "/images/missions/this-is-a-free-call-from.jpg",
+              "frame": "/images/characters/shayna.jpg",
               "frameAlt": "Lucia outside a chain-link gate at night",
               "frameCredit": "Picture: GTABase",
               "spoiler": true,
@@ -41334,7 +41334,7 @@
                 "powerpyx-100",
                 "g100-ps-wyman"
               ],
-              "frame": "/images/editions/classic-car-collection-06.jpg",
+              "frame": "/images/vehicles/72-deviant.jpg",
               "frameAlt": "A Deviant muscle car in a stars-and-stripes paint job",
               "frameCredit": "Official screenshot, Rockstar Games",
               "link": "#/wiki/collectibles/wymans-cars",
