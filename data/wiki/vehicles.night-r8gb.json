@@ -29,12 +29,17 @@
       "strength": 3.0,
       "price": "$6,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,035 when stolen",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Compact, rugged truck with a lean, functional design. Simple, but gets the job done.",
+      "era": "1980s Classic",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/karin-rebel-84.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-rebel"
+      "r8gb-vehicles-rebel",
+      "msq-vehicles-pickups"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -70,12 +75,18 @@
       "price": "$23,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$7,095 when stolen",
       "where": "GTABase: '69 Bravado Gauntlet Custom kept in a barn in Ambrosia, partially restored with mods and a supercharger. Orange barn find Gauntlet.",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_text": "Classic American muscle car with an unmistakable silhouette. Sometimes has modern security.",
+      "style": "None",
+      "era": "1960s Antique",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/bravado-gauntlet-custom-69.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-gauntlet-classic"
+      "r8gb-vehicles-gauntlet-classic",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26",
     "spoiler": true,

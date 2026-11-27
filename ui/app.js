@@ -807,10 +807,12 @@ const FACT_LINKS = {
   'factions.leader': (text) => giverLinks(text),
 };
 
+const FACT_HIDDEN = new Set(['menu_picture']);
 function facts(section, entry) {
   const known = (value) => value !== undefined && value !== null && value !== '' && !(Array.isArray(value) && !value.length);
+  // FACT_HIDDEN: facts that feed a tool page rather than the table (a vehicle's menu picture is a file path).
   const rows = (category(section)?.fields || [])
-    .filter((field) => known(entry.facts?.[field.key]) && (field.type === 'list') === Array.isArray(entry.facts[field.key]));
+    .filter((field) => !FACT_HIDDEN.has(field.key) && known(entry.facts?.[field.key]) && (field.type === 'list') === Array.isArray(entry.facts[field.key]));
   if (!rows.length) return '';
   const value = (field) => {
     const v = entry.facts[field.key];

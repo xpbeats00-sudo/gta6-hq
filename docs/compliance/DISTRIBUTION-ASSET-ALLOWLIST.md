@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-26 03:29 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-27 02:53 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -8,7 +8,7 @@ Only files listed under "Approved" may go into a public release package.
 
 None. No media file is cleared for public distribution.
 
-## Local personal use only (1341)
+## Local personal use only (1470)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -289,6 +289,36 @@ None. No media file is cleared for public distribution.
 - `images/collectibles/card-anth-drake-silver.jpg`
 - `images/collectibles/card-delights-nicole-standard.jpg`
 - `images/collectibles/card-lcp-demario-richardson-gold.jpg`
+- `images/collectibles/card-lsc-jesus-de-fuente-standard.jpg`
+- `images/collectibles/card-lsc-miguel-ayala-standard.jpg`
+- `images/collectibles/card-lsc-si-woo-choo-standard.jpg`
+- `images/collectibles/card-lsc-victor-maravilla-standard.jpg`
+- `images/collectibles/card-lsc-xavier-gomez-standard.jpg`
+- `images/collectibles/card-ratface-swallow-purple.jpg`
+- `images/collectibles/card-ratface-wokester-blue.jpg`
+- `images/collectibles/card-set-americas-next-top-hooker.jpg`
+- `images/collectibles/card-set-backyard-wrestling.jpg`
+- `images/collectibles/card-set-delights-dancers.jpg`
+- `images/collectibles/card-set-ed-comics-universe.jpg`
+- `images/collectibles/card-set-jack-of-hearts-dancers.jpg`
+- `images/collectibles/card-set-liberty-city-penetrators.jpg`
+- `images/collectibles/card-set-liberty-city-swingers.jpg`
+- `images/collectibles/card-set-liberty-city-wrath.jpg`
+- `images/collectibles/card-set-los-santos-corkers.jpg`
+- `images/collectibles/card-set-los-santos-panic.jpg`
+- `images/collectibles/card-set-los-santos-pounders.jpg`
+- `images/collectibles/card-set-nine1nine-dancers.jpg`
+- `images/collectibles/card-set-right-wing-americas-hero.jpg`
+- `images/collectibles/card-set-the-legends-of-ratface.jpg`
+- `images/collectibles/card-set-vice-city-club-de-futbol.jpg`
+- `images/collectibles/card-set-vice-city-flamingos.jpg`
+- `images/collectibles/card-set-vice-city-manatees.jpg`
+- `images/collectibles/card-set-vice-city-narcos.jpg`
+- `images/collectibles/card-vcm-anthony-ross-silver.jpg`
+- `images/collectibles/card-vcn-andre-stevenson-standard.jpg`
+- `images/collectibles/card-vcn-bryson-powers-standard.jpg`
+- `images/collectibles/card-vcn-carl-kasey-standard.jpg`
+- `images/collectibles/faces/card-lcp-demario-richardson-gold.jpg`
 - `images/collectibles/kenton-treasure-sets.jpg`
 - `images/collectibles/meditation-jasons-house-meditation.jpg`
 - `images/editions/classic-car-collection-02.jpg`
@@ -822,6 +852,7 @@ None. No media file is cleared for public distribution.
 - `images/splash/p7.webp`
 - `images/splash/p8.webp`
 - `images/splash/p9.webp`
+- `images/ui/menu-collections.jpg`
 - `images/vehicles/64-mamba-gt.jpg`
 - `images/vehicles/67-transgressor.jpg`
 - `images/vehicles/70-riata.jpg`
@@ -852,6 +883,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/benefactor-xls.jpg`
 - `images/vehicles/bf-bandito-77.jpg`
 - `images/vehicles/bf-greta.jpg`
+- `images/vehicles/bf-injection.jpg`
 - `images/vehicles/bf-surfer.jpg`
 - `images/vehicles/bison-1800-police.jpg`
 - `images/vehicles/bombora-s23-ccs.jpg`
@@ -902,6 +934,7 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/declasse-burrito-98.jpg`
 - `images/vehicles/declasse-d7700.jpg`
 - `images/vehicles/declasse-granger-3600lx.jpg`
+- `images/vehicles/declasse-granger.jpg`
 - `images/vehicles/declasse-impaler-20.jpg`
 - `images/vehicles/declasse-impaler-80.jpg`
 - `images/vehicles/declasse-impaler-sz.jpg`
@@ -979,6 +1012,100 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/maibatsu-penumbra.jpg`
 - `images/vehicles/maibatsu-sanchez.jpg`
 - `images/vehicles/mammoth-dodo.jpg`
+- `images/vehicles/menu/64-mamba-gt.jpg`
+- `images/vehicles/menu/65-vapid-dominator.jpg`
+- `images/vehicles/menu/82-canis-crawler.jpg`
+- `images/vehicles/menu/albany-buccaneer-65.jpg`
+- `images/vehicles/menu/albany-cavalcade-xl.jpg`
+- `images/vehicles/menu/albany-devanity-59.jpg`
+- `images/vehicles/menu/albany-manana.jpg`
+- `images/vehicles/menu/annis-hellion-95.jpg`
+- `images/vehicles/menu/benefactor-dubsta.jpg`
+- `images/vehicles/menu/benefactor-schafter.jpg`
+- `images/vehicles/menu/benefactor-spritz.jpg`
+- `images/vehicles/menu/benefactor-xls.jpg`
+- `images/vehicles/menu/bf-bandito-77.jpg`
+- `images/vehicles/menu/bravado-banshee.jpg`
+- `images/vehicles/menu/bravado-bison-1800.jpg`
+- `images/vehicles/menu/bravado-bison-3800.jpg`
+- `images/vehicles/menu/bravado-bison-900-95.jpg`
+- `images/vehicles/menu/bravado-bison.jpg`
+- `images/vehicles/menu/bravado-dorado.jpg`
+- `images/vehicles/menu/bravado-gauntlet-custom-69.jpg`
+- `images/vehicles/menu/bravado-gauntlet-hellfire.jpg`
+- `images/vehicles/menu/bravado-gresley-xt.jpg`
+- `images/vehicles/menu/bravado-sojourn.jpg`
+- `images/vehicles/menu/bravado-youga-74.jpg`
+- `images/vehicles/menu/bravado-youga-xl-79.jpg`
+- `images/vehicles/menu/brute-boxville.jpg`
+- `images/vehicles/menu/buckingham-jubilee.jpg`
+- `images/vehicles/menu/canis-kamacho.jpg`
+- `images/vehicles/menu/canis-mesa.jpg`
+- `images/vehicles/menu/classique-stallion.jpg`
+- `images/vehicles/menu/declasse-bobcat-xl-84.jpg`
+- `images/vehicles/menu/declasse-burrito-98.jpg`
+- `images/vehicles/menu/declasse-granger-3600lx.jpg`
+- `images/vehicles/menu/declasse-rancher.jpg`
+- `images/vehicles/menu/declasse-tulip-72.jpg`
+- `images/vehicles/menu/declasse-tulip-m-100-78.jpg`
+- `images/vehicles/menu/declasse-vamos-74.jpg`
+- `images/vehicles/menu/declasse-vigero-zx-convertible.jpg`
+- `images/vehicles/menu/declasse-yosemite-1500.jpg`
+- `images/vehicles/menu/dundreary-chino-65.jpg`
+- `images/vehicles/menu/dundreary-landstalker-xl.jpg`
+- `images/vehicles/menu/emperor-sultan.jpg`
+- `images/vehicles/menu/gallivanter-baller-st-d.jpg`
+- `images/vehicles/menu/gallivanter-baller.jpg`
+- `images/vehicles/menu/granforma-zorrusso.jpg`
+- `images/vehicles/menu/grotti-carbonizzare.jpg`
+- `images/vehicles/menu/grotti-cheetah-95.jpg`
+- `images/vehicles/menu/grotti-itali-rsx.jpg`
+- `images/vehicles/menu/imponte-phoenix.jpg`
+- `images/vehicles/menu/invetero-coquette-classic.jpg`
+- `images/vehicles/menu/invetero-coquette-d10.jpg`
+- `images/vehicles/menu/invetero-coquette.jpg`
+- `images/vehicles/menu/karin-allander.jpg`
+- `images/vehicles/menu/karin-contender.jpg`
+- `images/vehicles/menu/karin-rebel-84.jpg`
+- `images/vehicles/menu/karin-vivanite.jpg`
+- `images/vehicles/menu/mer-can-blast.jpg`
+- `images/vehicles/menu/mer-can-outlaw.jpg`
+- `images/vehicles/menu/osprey-journey.jpg`
+- `images/vehicles/menu/pegassi-infernus-96.jpg`
+- `images/vehicles/menu/pegassi-tempesta.jpg`
+- `images/vehicles/menu/pegassi-toros.jpg`
+- `images/vehicles/menu/pegassi-vitello.jpg`
+- `images/vehicles/menu/pfister-astron.jpg`
+- `images/vehicles/menu/pfister-comet-88.jpg`
+- `images/vehicles/menu/pfister-comet-s2.jpg`
+- `images/vehicles/menu/pfister-growler.jpg`
+- `images/vehicles/menu/pfister-neon.jpg`
+- `images/vehicles/menu/piccia-furia.jpg`
+- `images/vehicles/menu/progen-emerus.jpg`
+- `images/vehicles/menu/swamp-blaster.jpg`
+- `images/vehicles/menu/truffade-thrax.jpg`
+- `images/vehicles/menu/ubermacht-rebla-gts.jpg`
+- `images/vehicles/menu/ubermacht-sentinel-classic.jpg`
+- `images/vehicles/menu/vapid-aleutian.jpg`
+- `images/vehicles/menu/vapid-dominator-asp.jpg`
+- `images/vehicles/menu/vapid-dominator-buggy.jpg`
+- `images/vehicles/menu/vapid-dominator-gt.jpg`
+- `images/vehicles/menu/vapid-dominator.jpg`
+- `images/vehicles/menu/vapid-ganado.jpg`
+- `images/vehicles/menu/vapid-montagne-pickup.jpg`
+- `images/vehicles/menu/vapid-montagne-xl.jpg`
+- `images/vehicles/menu/vapid-montagne.jpg`
+- `images/vehicles/menu/vapid-reclaimer-70.jpg`
+- `images/vehicles/menu/vapid-reclaimer.jpg`
+- `images/vehicles/menu/vapid-rumpo.jpg`
+- `images/vehicles/menu/vapid-sandking-xl.jpg`
+- `images/vehicles/menu/vapid-sandking-xt.jpg`
+- `images/vehicles/menu/vapid-slamvan-56.jpg`
+- `images/vehicles/menu/vapid-speedo.jpg`
+- `images/vehicles/menu/vapid-stanier-55.jpg`
+- `images/vehicles/menu/wastelander.jpg`
+- `images/vehicles/menu/willard-moocher-83.jpg`
+- `images/vehicles/menu/willard-trotter-95.jpg`
 - `images/vehicles/mer-can-blast.jpg`
 - `images/vehicles/mer-can-outlaw.jpg`
 - `images/vehicles/mtl-packer.jpg`
@@ -1059,9 +1186,11 @@ None. No media file is cleared for public distribution.
 - `images/vehicles/vapid-montagne.jpg`
 - `images/vehicles/vapid-reclaimer-70.jpg`
 - `images/vehicles/vapid-reclaimer.jpg`
+- `images/vehicles/vapid-riata.jpg`
 - `images/vehicles/vapid-rumpo.jpg`
 - `images/vehicles/vapid-sandking-xl.jpg`
 - `images/vehicles/vapid-sandking-xt.jpg`
+- `images/vehicles/vapid-shuttle.jpg`
 - `images/vehicles/vapid-slamvan-56.jpg`
 - `images/vehicles/vapid-speedo.jpg`
 - `images/vehicles/vapid-stanier-55.jpg`

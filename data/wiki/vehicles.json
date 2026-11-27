@@ -31,7 +31,12 @@
       "price": "$32,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$16,775 when stolen",
       "where": "Ultimate Edition: Chapter 5: after Honest Abe, Pegassi Residences, lift opposite the entrance to Parking B1 (Push Square UE guide).",
-      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive",
+      "menu_text": "Classic 1990s supercar. Its laid-back demeanor belies its power. Typically comes with advanced security.",
+      "style": "Luxury",
+      "era": "1990s Classic",
+      "specialist": "Luxury",
+      "menu_picture": "/images/vehicles/menu/grotti-cheetah-95.jpg"
     },
     "related": [
       "editions/ultimate-edition",
@@ -50,7 +55,8 @@
       "gtabase-vehicle-pages",
       "pushsquare-ultimate",
       "r8gb-vehicles-cheetah-classic",
-      "rockstar-media"
+      "rockstar-media",
+      "msq-vehicles-super"
     ],
     "verified": "2026-11-26"
   },
@@ -75,7 +81,12 @@
       "year": "1955",
       "class": "Sedan",
       "availability": "Vintage Vice City Pack",
-      "where": "Ultimate Edition: Chapter 3: Ocean View Hotel, Vice Beach, after a map marker appears; getting in gives the Shore Court garage (Push Square UE guide)."
+      "where": "Ultimate Edition: Chapter 3: Ocean View Hotel, Vice Beach, after a map marker appears; getting in gives the Shore Court garage (Push Square UE guide).",
+      "menu_text": "Classic 1950s sedan, with a chrome-heavy, retro-futurist design. Vintage Vice City Pack reward.",
+      "style": "Luxury",
+      "era": "1950s Antique",
+      "specialist": "Lowrider",
+      "menu_picture": "/images/vehicles/menu/vapid-stanier-55.jpg"
     },
     "related": [
       "editions/standard-edition",
@@ -96,7 +107,8 @@
       "gtabase-vehicle-pages",
       "pushsquare-ultimate",
       "r13-jalopnik-stanier",
-      "rockstar-media"
+      "rockstar-media",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26"
   },
@@ -135,7 +147,12 @@
       "rating": 458,
       "price": "$6,500 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,980 when stolen",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic; First mod shop visit is Joey's Coastal Auto Care, south Key Lento, in the Chapter 1 mission Just a Scratch; free respray there; 'Full Engine' > 'Stock Engine' costs $100 (GamesRadar+).; Joey can be called from Contacts to repair or deliver the Ganado (GamesRadar+).; Side-facing exhaust pipes cost $280 and add +0.1 Speed and +0.1 Acceleration; intakes are carburettors, boost is nitrous; a tow hitch can pull the je"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic; First mod shop visit is Joey's Coastal Auto Care, south Key Lento, in the Chapter 1 mission Just a Scratch; free respray there; 'Full Engine' > 'Stock Engine' costs $100 (GamesRadar+).; Joey can be called from Contacts to repair or deliver the Ganado (GamesRadar+).; Side-facing exhaust pipes cost $280 and add +0.1 Speed and +0.1 Acceleration; intakes are carburettors, boost is nitrous; a tow hitch can pull the je",
+      "menu_text": "Distinctive muscle truck with an aggressive profile and a long pickup bed.",
+      "style": "Pickup",
+      "era": "1970s Antique",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/vapid-ganado.jpg"
     },
     "related": [
       "characters/jason-duval",
@@ -162,7 +179,8 @@
       "r8-eg-ganado-retro",
       "r8-eg-ue-temporary",
       "r8gb-vehicles-ganado",
-      "rockstar-media"
+      "rockstar-media",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26"
   },

@@ -90,17 +90,31 @@
 .gm-cover-grid, .gm-card-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; max-height: min(64vh, 660px); overflow-y: auto; scrollbar-width: thin; }
 .gm-card-grid { grid-template-columns: repeat(auto-fill, minmax(92px, 1fr)); gap: 10px; }
 .gm-cover-grid:focus-visible, .gm-card-grid:focus-visible { outline: 2px solid rgba(255, 255, 255, 0.6); outline-offset: 4px; }
-.gm-cover-grid li, .gm-card-grid li { border-radius: 6px; cursor: pointer; padding: 3px; }
-.gm-cover-grid li[aria-selected="true"], .gm-card-grid li[aria-selected="true"] { box-shadow: 0 0 0 3px #fff, 0 6px 18px rgba(0, 0, 0, 0.35); }
+.gm-cover-grid li, .gm-card-grid li { cursor: pointer; }
+/* As in the game: a hairline frame round each card, a solid white one round the chosen card, sitting flush on it. */
+.gm-cover-grid li > span, .gm-card-grid li > span { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.28); transition: box-shadow 0.12s; }
+.gm-cover-grid li:hover > span, .gm-card-grid li:hover > span { box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.7); }
+.gm-cover-grid li[aria-selected="true"] > span, .gm-card-grid li[aria-selected="true"] > span { box-shadow: 0 0 0 3px #fff, 0 8px 20px rgba(0, 0, 0, 0.35); }
 .gm-cover { position: relative; display: grid; place-items: center; aspect-ratio: 5 / 7; border-radius: 4px; overflow: hidden; padding: 8px;
   background: linear-gradient(155deg, var(--a), var(--b)); box-shadow: inset 0 0 0 4px rgba(255, 255, 255, 0.9), inset 0 0 0 6px rgba(0, 0, 0, 0.12); }
 .gm-cover::before { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0 5px, transparent 5px 12px); }
 .gm-cover span { position: relative; z-index: 1; font: 900 0.95rem/1.02 var(--font-display); font-stretch: 72%; text-transform: uppercase; text-align: center; color: #fff;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35); overflow-wrap: anywhere; }
-.gm-cover i { position: absolute; z-index: 1; top: 7px; right: 7px; color: #fff; opacity: 0.85; }
-.gm-cover i .i { width: 13px; height: 13px; }
+.gm-stack { position: absolute; z-index: 2; top: 6px; right: 6px; width: 15px; height: 15px; fill: none; stroke: #fff; stroke-width: 1.5; filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.7)); }
 .gm-cover.is-back span { font-size: 0.7rem; opacity: 0.9; }
-.gm-cover-grid li.is-done .gm-cover { box-shadow: inset 0 0 0 4px #ffe27a, inset 0 0 0 6px rgba(0, 0, 0, 0.12); }
+.gm-cover-grid li.is-done .gm-cover::after { content: ''; position: absolute; inset: 0; z-index: 1; box-shadow: inset 0 0 0 3px #ffe27a; border-radius: inherit; }
+/* Real card art (in-game captures): the picture fills the card, with none of the drawn cover's frame or stripes. */
+.gm-cover.has-art, .gm-card.has-art { display: block; padding: 0; background: #1a0f22; }
+/* The game's cards are 2:3, a little slimmer than a drawn cover. */
+.gm-cover, .gm-card { aspect-ratio: 2 / 3; }
+.gm-cover.has-art::before, .gm-card.has-art::before { content: none; }
+.gm-cover.has-art img, .gm-card.has-art img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.gm-cover.has-art > span { display: none; }
+/* A picture that failed to load: back to the drawn cover. */
+.gm-cover.has-art.is-broken { display: grid; place-items: center; padding: 8px; background: linear-gradient(155deg, var(--a), var(--b)); }
+.gm-cover.has-art.is-broken img { display: none; }
+.gm-cover.has-art.is-broken > span { display: block; position: relative; z-index: 1; font: 900 0.95rem/1.02 var(--font-display); font-stretch: 72%; text-transform: uppercase; text-align: center; color: #fff; text-shadow: 0 2px 0 rgba(0, 0, 0, 0.35); }
+.gm-card.has-art.is-broken img { visibility: hidden; }
 .gm-card { position: relative; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; gap: 2px; aspect-ratio: 5 / 7; border-radius: 4px; overflow: hidden; padding: 8px 6px;
   background: linear-gradient(160deg, var(--a), var(--b)); box-shadow: inset 0 0 0 4px var(--v), inset 0 0 0 6px rgba(0, 0, 0, 0.2); }
 .gm-card::before { content: ''; position: absolute; inset: 14% 12% 32%; border-radius: 50% 50% 8px 8px; background: rgba(0, 0, 0, 0.22); }
@@ -110,8 +124,42 @@
 .gm-card.is-big { width: min(220px, 100%); }
 .gm-card.is-big b { font-size: 0.95rem; }
 .gm-card.is-big em { font-size: 0.75rem; }
-.gm-card-detail { display: grid; grid-template-columns: minmax(150px, 220px) 1fr; gap: 20px; align-items: start; }
-.gm-card-detail > div:last-child { display: flex; flex-direction: column; min-height: 100%; }
+.gm-card.is-missing.has-art { filter: grayscale(0.5) brightness(0.75); }
+
+/* The Collections screens, laid out like the game's: covers four across on the left, the set's detail on
+   the right with Cards found at its foot, a faint drawing behind, and the button prompts bottom right. */
+.gm-collections { grid-template-columns: minmax(300px, 1.1fr) minmax(260px, 1fr); gap: clamp(24px, 9vw, 150px); }
+.gm-collections .gm-cover-grid, .gm-card-grid { gap: clamp(10px, 1.2vw, 18px); padding: 4px 14px 4px 4px; scrollbar-color: rgba(255, 255, 255, 0.75) transparent; }
+.gm-collections .gm-detail { min-height: min(64vh, 620px); }
+.gm-collections .gm-title, .gm-set .gm-title { border-image: linear-gradient(90deg, #f5a3cf, rgba(245, 163, 207, 0.15)) 1; }
+.gm-foot b { font-weight: 800; }
+.gm-crumbs.is-stacked { display: grid; gap: 2px; }
+.gm-crumbs.is-stacked span { font-size: 0.8125rem; letter-spacing: 0.04em; }
+.gm-crumbs.is-stacked b { font-weight: 800; }
+/* The Collections screens' own backdrop: the game's Collections menu with every menu element removed
+   (images/ui/menu-collections.jpg, from the owner's capture): its purple wash and the cocktail glass and
+   sunglasses at the bottom right. Anchored bottom right so the art stays in the corner at any window size;
+   the colour under it matches the wash's top for windows taller than 16:9. */
+.gm-cards { background: #5d3672 url('/images/ui/menu-collections.jpg') right bottom / cover no-repeat; }
+.gm-prompts { position: absolute; right: clamp(16px, 4vw, 56px); bottom: 16px; display: flex; gap: 18px; }
+.gm-prompt { display: inline-flex; align-items: center; gap: 6px; padding: 4px 2px; border: 0; background: none; color: #fff; cursor: pointer;
+  font: 800 0.75rem var(--font-display); text-transform: uppercase; letter-spacing: 0.06em; }
+.gm-prompt:hover { text-decoration: underline; text-underline-offset: 3px; }
+.gm-prompt:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.gm-glyph { width: 17px; height: 17px; fill: none; stroke: #fff; stroke-width: 1.7; }
+
+/* A set's own screen: its cards three across, the chosen card large in the middle, its detail on the right. */
+.gm-set { display: grid; grid-template-columns: minmax(240px, 1.15fr) minmax(200px, 0.85fr) minmax(220px, 0.85fr); gap: clamp(20px, 4vw, 70px); align-items: start; }
+.gm-set .gm-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); max-height: min(66vh, 680px); }
+.gm-card-show { display: grid; justify-items: center; gap: 10px; }
+.gm-flip { display: block; width: 100%; max-width: 330px; padding: 0; border: 0; background: none; cursor: pointer; }
+.gm-flip > span { width: 100%; box-shadow: 0 0 0 2px rgba(150, 190, 255, 0.55), 0 14px 34px rgba(0, 0, 0, 0.45); }
+.gm-flip:focus-visible { outline: 2px solid #fff; outline-offset: 6px; }
+.gm-flip .gm-card.is-big { width: 100%; }
+.gm-pager { display: flex; align-items: center; gap: 6px; margin: 0; }
+.gm-pager i { width: 6px; height: 6px; border-radius: 50%; background: rgba(255, 255, 255, 0.4); }
+.gm-pager i.on { background: #fff; }
+.gm-set .gm-card-detail { min-height: min(64vh, 620px); }
 
 /* Controls tab */
 .gm-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; }
@@ -128,6 +176,10 @@
 .gm-show { display: grid; place-items: center; aspect-ratio: 16 / 9; margin-bottom: 14px; border-radius: 6px; overflow: hidden; background: rgba(0, 0, 0, 0.25); }
 .gm-show img { width: 100%; height: 100%; object-fit: cover; }
 .gm-show-ph .i { width: 48px; height: 48px; color: var(--gm-dim); }
+/* The game's Progress > Vehicles studio shot: shown whole (its tile is about 16:9), on the menu's pale floor colour. */
+.gm-show.is-menu { background: #dcd9ec; }
+.gm-show.is-menu img { object-fit: contain; }
+.gm-menu-text { margin: -4px 0 14px; color: var(--gm-ink); font-size: 0.9375rem; line-height: 1.5; }
 .gm-statpanel { padding: 10px 12px 12px; border-radius: 3px; background: rgba(20, 22, 30, 0.86); box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08); }
 .gm-garage .gm-statpanel { background: rgba(28, 32, 46, 0.9); }
 .gm-stat-name { margin: 0; font: 800 0.875rem var(--font-display); text-transform: uppercase; letter-spacing: 0.03em; color: #f2c94c; }
@@ -178,6 +230,11 @@
   .gm-detail { min-height: 0; }
   .gm-cover-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); max-height: none; }
   .gm-card-detail { grid-template-columns: 1fr; }
+  .gm-collections, .gm-set { grid-template-columns: 1fr; }
+  .gm-set .gm-card-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); max-height: 46vh; }
+  .gm-flip { max-width: 240px; }
+  .gm-collections .gm-detail, .gm-set .gm-card-detail { min-height: 0; }
+  .gm-prompts { position: static; justify-content: flex-end; margin-top: 18px; }
   .gm-step { grid-template-columns: 1fr; }
   .gm-progress::after { opacity: 0.18; }
 }

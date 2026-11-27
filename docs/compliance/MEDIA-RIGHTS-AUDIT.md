@@ -1,17 +1,17 @@
 # Media rights audit
 
-Generated 2026-11-26 03:29 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-27 02:53 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 1364 |
-| Records in `data/media.json` | 1364 |
+| Media files on disk (`images/`, `wallpapers/`) | 1493 |
+| Records in `data/media.json` | 1493 |
 | Files with no record | 0 |
 | Records with no file | 0 |
 | Groups of identical files | 5 |
-| Files not used anywhere | 100 |
+| Files not used anywhere | 101 |
 | Records missing source, licence, creator or description | 1 |
 | Records with no retrieval date | 21 |
 
@@ -22,7 +22,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 | Decision | Files | Meaning |
 |---|---|---|
 | approved_for_distribution | 0 | Cleared to ship in a public package |
-| local_personal_use_only | 1341 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
+| local_personal_use_only | 1470 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
 | unknown | 23 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
@@ -34,9 +34,9 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 |---|---|
 | evidence_frame | 23 |
 | official_illustration | 161 |
-| owner_supplied_unverified | 116 |
-| third_party_screenshot | 1060 |
-| unrecorded_source | 4 |
+| owner_supplied_unverified | 128 |
+| third_party_screenshot | 1176 |
+| unrecorded_source | 5 |
 
 `evidence_frame`: a frame of Rockstar's official video, used as evidence in the manual or as an entry picture. `official_illustration`: a Rockstar screenshot or artwork taken from one of Rockstar's own sites or accounts. `third_party_screenshot`: game imagery taken from another site (a wiki, a database or a news site), even when that site credits Rockstar; it is not counted as official. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded. `unrecorded_source`: no web address in the recorded source.
 
@@ -122,6 +122,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/map/leonida-routes.png`
 - `images/map/walker-lucia.png`
 - `images/social-preview.png`
+- `images/ui/menu-collections.jpg`
 - `images/ui/menu-palms.webp`
 - `images/vi-logo-reveal-discord-1024.png`
 - `images/vi-logo-reveal.jpg`

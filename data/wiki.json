@@ -102,7 +102,12 @@
         { "key": "price", "label": "Price", "type": "text" },
         { "key": "sell_value", "label": "Sells for", "type": "text" },
         { "key": "where", "label": "Where to find it", "type": "text" },
-        { "key": "customise", "label": "Where to modify it", "type": "text" }
+        { "key": "customise", "label": "Where to modify it", "type": "text" },
+        { "key": "menu_text", "label": "In-game description", "type": "text" },
+        { "key": "style", "label": "Style", "type": "text" },
+        { "key": "era", "label": "Era", "type": "text" },
+        { "key": "specialist", "label": "Mod shop specialist", "type": "text" },
+        { "key": "menu_picture", "label": "Menu picture", "type": "text" }
       ] },
     { "key": "gameplay", "label": "Gameplay", "blurb": "How the game plays: what Rockstar showed, what previews reported, and what launch reviews and guides have found.", "art": "city",
       "fields": [
@@ -181,7 +186,9 @@
         { "key": "type", "label": "Type", "type": "text" },
         { "key": "region", "label": "Region", "type": "text" },
         { "key": "total", "label": "Total to find", "type": "number" },
-        { "key": "reward", "label": "Reward", "type": "text" }
+        { "key": "reward", "label": "Reward", "type": "text" },
+        { "key": "menu_text", "label": "In-game description", "type": "text" },
+        { "key": "menu_picture", "label": "Menu picture", "type": "text" }
       ] }
   ],
 
@@ -459,7 +466,12 @@
         "offroad_handling": 6.7,
         "strength": 3.0,
         "where": "Ultimate Edition: Chapter 2: collect from the Paradise garage in Watson Bay, Mariana County, and get in to register it; its liveries are applied at any Pay 'n' Spray (Push Square UE guide).",
-        "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+        "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+        "menu_text": "Classic muscle car, converted for off-roading with lifted suspension.",
+        "style": "None",
+        "era": "1960s Antique",
+        "specialist": "Off-Road",
+        "menu_picture": "/images/vehicles/menu/vapid-dominator-buggy.jpg"
       },
       "related": [
         "editions/ultimate-edition",
@@ -477,6 +489,7 @@
       ],
       "confidence": "official",
       "sources": [
+        "msq-vehicles-offroad",
         "g6w-editions",
         "g6w-kalaga",
         "gtabase-vehicle-pages",

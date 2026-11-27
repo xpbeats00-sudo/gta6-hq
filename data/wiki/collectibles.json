@@ -145,7 +145,8 @@
     ],
     "facts": {
       "type": "Destructibles",
-      "total": 125
+      "total": 125,
+      "menu_text": "Find and destroy white-beaked lawn flamingos filled with cocaine."
     },
     "confidence": "corroborated",
     "sources": [

@@ -672,13 +672,19 @@
       "strength": 3.0,
       "price": "$9,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,805 when stolen",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_text": "Iconic 1960s roadster blending style with brute power. An American classic.",
+      "style": "None",
+      "era": "1960s Antique",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/albany-buccaneer-65.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-buccaneer"
+      "r8gb-vehicles-buccaneer",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -714,13 +720,19 @@
       "strength": 3.0,
       "price": "$9,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$825 when stolen",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_text": "Classic American coupe with iconic 1970s styling. May have modern security features.",
+      "style": "None",
+      "era": "1970s Antique",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/declasse-tulip-72.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-tulip"
+      "r8gb-vehicles-tulip",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -756,13 +768,19 @@
       "strength": 3.0,
       "price": "$17,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$5,335 when stolen",
-      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs"
+      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs",
+      "menu_text": "Elegant 1960s sedan with a lengthy, angular design. May be protected by modern security.",
+      "style": "None",
+      "era": "1960s Antique",
+      "specialist": "Lowrider",
+      "menu_picture": "/images/vehicles/menu/dundreary-chino-65.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-v-chino",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -795,12 +813,18 @@
       "strength": 3.0,
       "price": "$9,900 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,970 when stolen",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic; GTABase marks it \"Has Liveries\" (livery names not listed)"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic; GTABase marks it \"Has Liveries\" (livery names not listed)",
+      "menu_text": "Popular muscle car with an imposing profile backed up by plenty of power.",
+      "style": "None",
+      "era": "2000s Modern",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/vapid-dominator.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -839,13 +863,19 @@
       "strength": 3.0,
       "price": "$8,200 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,420 when stolen",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_text": "Effortlessly stylish muscle car with plenty under the hood. Sometimes protected by modern security.",
+      "style": "None",
+      "era": "1970s Classic",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/declasse-tulip-m-100-78.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-tulip-m-100"
+      "r8gb-vehicles-tulip-m-100",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -879,14 +909,20 @@
       "price": "$6,000 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,760 when stolen",
       "where": "Spawn (GTABase map): Capri -  #62 Declasse '74 Vamos Capri Locked, no alarm, no tracker. A box nearby has Zombex and a wallet.; Vehicle Theft for Moses (Push Square): Rockledge Rd, Grayson, South West Lummox County, in a locked garage (Moses #7)",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_text": "Angular 1970s muscle car, recognizable by its clean, straight lines and aggressive posture.",
+      "style": "None",
+      "era": "1970s Antique",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/declasse-vamos-74.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
-      "pushsquare-moses"
+      "pushsquare-moses",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -921,13 +957,19 @@
       "price": "$4,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,430 when stolen",
       "where": "Vehicle Theft for Moses (Push Square): north-eastern Buckskin Swamp, Kelly County, riding a dirt trail (Moses #3)",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Light, low-slung, off-road buggy. Specifically designed for mud, sand, and similar surfaces.",
+      "style": "None",
+      "era": "1970s Classic",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/bf-bandito-77.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "pushsquare-moses"
+      "pushsquare-moses",
+      "msq-vehicles-offroad"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -962,12 +1004,18 @@
       "price": "$8,150 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,155 when stolen",
       "where": "GTABase: Behind the pink round house.",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Nimble off-road buggy. Its specialized suspension makes it ideal for off-roading and getting air.",
+      "style": "None",
+      "era": "2010s Current",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/mer-can-outlaw.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-offroad"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1000,13 +1048,18 @@
       "strength": 3.0,
       "price": "$9,000 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,595 when stolen",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Reliable pickup with a decent-size cargo area. Smooth and streamlined.",
+      "era": "2000s Modern",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/bravado-bison.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r7-g8-bison"
+      "r7-g8-bison",
+      "msq-vehicles-pickups"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1042,13 +1095,18 @@
       "strength": 3.2,
       "price": "$7,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$775 when stolen",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Classic 1980s truck with a long bed. Its durability and rugged design have stood the test of time.",
+      "era": "1980s Classic",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/declasse-bobcat-xl-84.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-bobcat-xl"
+      "r8gb-vehicles-bobcat-xl",
+      "msq-vehicles-pickups"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1119,13 +1177,18 @@
       "price": "$29,150 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$12,320 when stolen",
       "where": "GTABase: A blacked-out Karin Contender spawns here at night.",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Modern pickup with a robust design and high ground clearance, sometimes protected by advanced security.",
+      "era": "2010s Modern",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/karin-contender.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r7-g8-contender"
+      "r7-g8-contender",
+      "msq-vehicles-pickups"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1162,7 +1225,11 @@
       "strength": 3.0,
       "price": "$7,500 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,255 when stolen",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Rugged American pickup that has stood the test of time. Tough and versatile.",
+      "era": "1970s Antique",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/vapid-reclaimer-70.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1170,7 +1237,8 @@
       "gtabase-v-reclaimer",
       "gtabase-vehicle-pages",
       "r11g-gw-reclaimer-1970",
-      "r7-g8-reclaimer-70"
+      "r7-g8-reclaimer-70",
+      "msq-vehicles-pickups"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1202,14 +1270,19 @@
       "price": "$11,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,800 when stolen",
       "where": "Spawn (GTABase map): Ambrosia -  #154 Vapid Riata Ambrosia",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Compact modern truck with a tall, sturdy profile. May be protected by modern security features.",
+      "era": "2010s Modern",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/vapid-riata.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
-      "outputlag-register"
+      "outputlag-register",
+      "msq-vehicles-pickups"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1240,12 +1313,17 @@
       "strength": 3.0,
       "price": "$14,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$4,400 when stolen",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Modern, heavy-duty truck with a broad, bullish silhouette and a large bed. May have modern security features.",
+      "era": "2010s Modern",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/vapid-sandking-xl.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-pickups"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -1660,14 +1738,20 @@
       "price": "$28,300 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$9,845 when stolen",
       "where": "Spawn (GTABase map): Key Lento -  #22 Grotti Carbonizzare Key Lento Needs the key cloner.; Listed on Randy's Wish List (OutputLag)",
-      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive",
+      "menu_text": "Flashy, convertible sports car with stylish Italian design. Nimble and aerodynamic, usually with advanced security features.",
+      "style": "Convertible",
+      "era": "2010s Modern",
+      "specialist": "Luxury",
+      "menu_picture": "/images/vehicles/menu/grotti-carbonizzare.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
-      "outputlag-randy"
+      "outputlag-randy",
+      "msq-vehicles-sports"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1700,12 +1784,18 @@
       "strength": 3.0,
       "price": "$31,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$16,500 when stolen",
-      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive",
+      "menu_text": "A modern update on a classic sports car, retaining the signature curves of its ancestor. May have advanced security.",
+      "style": "Convertible",
+      "era": "2020s Current",
+      "specialist": "Luxury",
+      "menu_picture": "/images/vehicles/menu/pfister-comet-s2.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-sports"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1742,14 +1832,20 @@
       "price": "$34,250 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$17,050 when stolen",
       "where": "GTABase: In the garage in the alley.; Spawn (GTABase map): Capri -  #70 Pfister Comet ('88) Capri; Spawn (GTABase map): Vice Beach -  #101 Pfister Comet ('88) Vice Beach In the garage in the alley.",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_text": "Iconic sports car with a rounded profile and compact 1980s design. Often has advanced security.",
+      "style": "None",
+      "era": "1980s Classic",
+      "specialist": "Tuner",
+      "menu_picture": "/images/vehicles/menu/pfister-comet-88.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-v-comet88",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-sports"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1784,14 +1880,20 @@
       "price": "$28,150 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$5,000 when stolen",
       "where": "Listed on Randy's Wish List (OutputLag): Randy calls about a Venezuelan crew on Waxman Island getting ready to ship one",
-      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive",
+      "menu_text": "Powerful modern sports car with a bold, predatory profile. Often fitted with advanced security features.",
+      "style": "None",
+      "era": "2020s Current",
+      "specialist": "Luxury",
+      "menu_picture": "/images/vehicles/menu/invetero-coquette-d10.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
       "outputlag-randy",
-      "r7-g8-coquette-d10"
+      "r7-g8-coquette-d10",
+      "msq-vehicles-sports"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1855,7 +1957,12 @@
       "price": "$5,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,460 when stolen",
       "where": "GTABase: Licence plate SPD DMN.; Spawn (GTABase map): Vice City -  #79 Emperor Sultan Vice City Licence plate SPD DMN.; Reward for completing all seven Moses drop-offs; Moses covers its $1,600 registration fee (Push Square).",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_text": "Chunky sports sedan. Fast, agile, and versatile, with more space than most cars in its class.",
+      "style": "None",
+      "era": "2000s Modern",
+      "specialist": "Tuner",
+      "menu_picture": "/images/vehicles/menu/emperor-sultan.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1863,7 +1970,8 @@
       "gtabase-map-spawn",
       "gtabase-v-sultan",
       "gtabase-vehicle-pages",
-      "pushsquare-moses"
+      "pushsquare-moses",
+      "msq-vehicles-sports"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -1899,13 +2007,19 @@
       "strength": 3.0,
       "price": "$15,500 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$4,620 when stolen",
-      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive"
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive",
+      "menu_text": "Sporty, compact SUV with a smooth, rounded silhouette. Likely to have modern security.",
+      "style": "Sports",
+      "era": "2020s Current",
+      "specialist": "Luxury",
+      "menu_picture": "/images/vehicles/menu/pfister-astron.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-astron"
+      "r8gb-vehicles-astron",
+      "msq-vehicles-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1937,12 +2051,18 @@
       "strength": 3.0,
       "price": "$10,000 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,970 when stolen",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_text": "Premium sports SUV. Comfortable, spacious, and ideal for both urban journeys and rural trips.",
+      "style": "Sports",
+      "era": "2010s Modern",
+      "specialist": "Tuner",
+      "menu_picture": "/images/vehicles/menu/gallivanter-baller.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -1972,12 +2092,18 @@
       "strength": 3.0,
       "price": "$6,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,050 when stolen",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Full-size SUV with a long wheelbase and unparalleled interior space. Comfortable and versatile.",
+      "style": "None",
+      "era": "2000s Modern",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/declasse-granger.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2008,12 +2134,18 @@
       "strength": 3.0,
       "price": "$8,150 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,420 when stolen",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_text": "Large, luxury SUV with a spacious interior and a bold, aggressive profile. Thrives in a variety of roles.",
+      "style": "None",
+      "era": "2010s Modern",
+      "specialist": "Tuner",
+      "menu_picture": "/images/vehicles/menu/declasse-granger-3600lx.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2051,7 +2183,12 @@
       "price": "$4,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,320 when stolen",
       "where": "Spawn (GTABase map): Ambrosia -  #153 Annis '95 Hellion Ambrosia; Vehicle Theft for Moses (Push Square): Orchard Ave, Port Gellhorn, south of Moses' shop, outside a bungalow with a dog (Moses #4)",
-      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)"
+      "customise": "Specialist tag \"Off-Road\" (GTABase) matches the Off-Road specialty shop: Wasteland Off-Road or One-Eyed Willie's Auto Shop (Ultimate Edition)",
+      "menu_text": "Classic 1990s SUV with a simple, rugged design and raised suspension. Equally at home both on and off-road.",
+      "style": "Off-Road",
+      "era": "1990s Classic",
+      "specialist": "Off-Road",
+      "menu_picture": "/images/vehicles/menu/annis-hellion-95.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -2059,7 +2196,8 @@
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
       "pushsquare-moses",
-      "r8gb-vehicles-hellion"
+      "r8gb-vehicles-hellion",
+      "msq-vehicles-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2091,12 +2229,18 @@
       "strength": 3.0,
       "price": "$15,500 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,500 when stolen",
-      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs"
+      "customise": "Specialist tag \"Tuner\" (GTABase) matches the Tuner specialty shop: Vice Auto Customs",
+      "menu_text": "Roomy SUV that blends comfort and luxury with size and practicality. May be fitted with modern security.",
+      "style": "Luxury",
+      "era": "2020s Current",
+      "specialist": "Tuner",
+      "menu_picture": "/images/vehicles/menu/dundreary-landstalker-xl.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-suvs"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2125,13 +2269,19 @@
       "asphalt_handling": 2.7,
       "offroad_handling": 3.4,
       "strength": 3.0,
-      "where": "Spawn (GTABase map): Waning Sands -  #148 Brute Boxville Waning Sands"
+      "where": "Spawn (GTABase map): Waning Sands -  #148 Brute Boxville Waning Sands",
+      "menu_text": "Popular step van used for a range of deliveries. Its full-length doors allow the driver a swift entry and exit.",
+      "style": "Commercial",
+      "era": "2000s Modern",
+      "specialist": "None",
+      "menu_picture": "/images/vehicles/menu/brute-boxville.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2167,13 +2317,19 @@
       "strength": 3.0,
       "price": "$8,000 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$2,365 when stolen",
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_text": "Reliable multipurpose van with ample cargo space. Used for various commercial purposes.",
+      "style": "Commercial",
+      "era": "1990s Classic",
+      "specialist": "None",
+      "menu_picture": "/images/vehicles/menu/declasse-burrito-98.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-burrito"
+      "r8gb-vehicles-burrito",
+      "msq-vehicles-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2205,13 +2361,19 @@
       "asphalt_handling": 2.8,
       "offroad_handling": 2.6,
       "strength": 3.0,
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_text": "Heavy 1980s RV, with generous living quarters and an angular design typical of the era. May have modern security.",
+      "style": "Motorhome",
+      "era": "1980s Classic",
+      "specialist": "None",
+      "menu_picture": "/images/vehicles/menu/willard-moocher-83.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-moocher"
+      "r8gb-vehicles-moocher",
+      "msq-vehicles-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2240,13 +2402,19 @@
       "asphalt_handling": 3.1,
       "offroad_handling": 3.3,
       "strength": 3.0,
-      "where": "Spawn (GTABase map): Hamlet -  #46 Vapid Rumpo Hamlet"
+      "where": "Spawn (GTABase map): Hamlet -  #46 Vapid Rumpo Hamlet",
+      "menu_text": "Dependable commerical van with a fully-enclosed cargo bay and a range of commerical uses.",
+      "style": "Commercial",
+      "era": "2000s Modern",
+      "specialist": "None",
+      "menu_picture": "/images/vehicles/menu/vapid-rumpo.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2275,12 +2443,18 @@
       "asphalt_handling": 3.1,
       "offroad_handling": 3.6,
       "strength": 3.0,
-      "price": "$6,750 (Story Mode price, which the guides read as the registration cost)"
+      "price": "$6,750 (Story Mode price, which the guides read as the registration cost)",
+      "menu_text": "Midsize commercial van, popular with small businesses and contractors. Spacious and reliable.",
+      "style": "Commercial",
+      "era": "2010s Current",
+      "specialist": "None",
+      "menu_picture": "/images/vehicles/menu/vapid-speedo.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2317,14 +2491,20 @@
       "price": "$5,400 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$1,595 when stolen",
       "where": "Spawn (GTABase map): Port Gellhorn -  #124 Bravado Youga ('74) Port Gellhorn In the garage.",
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_text": "Retro van with a rounded, 1970s silhouette. Practicality meets nostalgia.",
+      "style": "Commercial",
+      "era": "1970s Antique",
+      "specialist": "None",
+      "menu_picture": "/images/vehicles/menu/bravado-youga-74.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
       "gtabase-map-spawn",
       "gtabase-vehicle-pages",
-      "r8gb-vehicles-youga-classic"
+      "r8gb-vehicles-youga-classic",
+      "msq-vehicles-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -2357,12 +2537,18 @@
       "strength": 3.0,
       "price": "$10,650 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$3,190 when stolen",
-      "customise": "Specialist tag \"None\" (GTABase)"
+      "customise": "Specialist tag \"None\" (GTABase)",
+      "menu_text": "Robust commercial van, popular since the 1970s for its durability and ease of use.",
+      "style": "Commercial",
+      "era": "1970s Classic",
+      "specialist": "None",
+      "menu_picture": "/images/vehicles/menu/bravado-youga-xl-79.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "dayone-cars",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-vans"
     ],
     "verified": "2026-11-26",
     "spoiler": true

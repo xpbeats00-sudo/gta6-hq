@@ -67,13 +67,19 @@
       "price": "$17,500 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$5,225 when stolen",
       "where": "GTABase: In the last garage on the right: the car without a plate.; Spawn (GTABase map): Waning Sands -  #114 Vapid Slamvan '56 Waning Sands In the last garage on the right: the car without a plate.; Spawn (GTABase map): Emerald Springs -  #118 Vapid '56 Slamvan Emerald Springs Inside the open warehouse. Locked, alarmed, standard tracker.",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_text": "Distinctive muscle pickup. Classic 1950s styling, sometimes protected by modern security.",
+      "style": "Pickup",
+      "era": "1950s Antique",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/vapid-slamvan-56.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-spawn",
       "gtabase-v-slamvan",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26",
     "image": "/images/vehicles/vapid-slamvan-56.jpg"
@@ -106,12 +112,18 @@
       "strength": 3.0,
       "price": "$21,750 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$6,490 when stolen",
-      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs"
+      "customise": "Specialist tag \"Lowriders\" (GTABase) matches the Lowriders specialty shop: Lowballers Customs",
+      "menu_text": "An icon of 1950s Americana. Flamboyant and stylish. May have modern security features.",
+      "style": "None",
+      "era": "1950s Antique",
+      "specialist": "Lowrider",
+      "menu_picture": "/images/vehicles/menu/albany-devanity-59.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-v-devanity",
-      "gtabase-vehicle-pages"
+      "gtabase-vehicle-pages",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26"
   },

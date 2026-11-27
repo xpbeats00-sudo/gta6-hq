@@ -57,12 +57,18 @@
       "asphalt_handling": 4.6,
       "offroad_handling": 4.4,
       "strength": 3.0,
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
+      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic",
+      "menu_text": "Sleek, streamlined take on the popular Dominator series. Likely to have modern security features.",
+      "style": "None",
+      "era": "2000s Modern",
+      "specialist": "Muscle",
+      "menu_picture": "/images/vehicles/menu/vapid-dominator-asp.jpg"
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-vehicle-pages",
-      "r11g-gw-dominator-asp"
+      "r11g-gw-dominator-asp",
+      "msq-vehicles-muscle"
     ],
     "verified": "2026-11-26"
   },

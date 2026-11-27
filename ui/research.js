@@ -8,7 +8,8 @@
 //
 // Nothing here is a figure of this file's own: every number, code and step comes from an entry
 // (data/wiki/*.json), and each page links back to the entries and their sources. The menu look
-// (colours, the D-pad glyph, the BuckMe and cash marks) is drawn here; no game artwork is copied.
+// (colours, the D-pad glyph, the BuckMe and cash marks) is drawn here. The only game artwork is the
+// card art cropped from in-game menu captures (see CARD_FACES below; records in data/media.json).
 // Loaded after app.js and explore.js; uses their globals (state, view, esc, icon, entryLink,
 // isHidden, veil, resolve, showSpoilers, UserStore, EXTRA_PAGES).
 
@@ -30,10 +31,11 @@
    * The menu frame: a breadcrumb title ("PROGRESS / CHEATS"), an optional tab row between L1 and R1
    * badges (Q and E, or [ and ], switch tabs from the keyboard), then the page.
    */
-  function shell({ crumbs, tabs = [], active = 0, theme = 'progress', body }) {
+  function shell({ crumbs, tabs = [], active = 0, theme = 'progress', stacked = false, body }) {
+    // stacked: the parent on its own small line above the title ("COLLECTIONS /" over the set's name), as in a set's own screen.
     return `<div class="gm gm-${theme}">
       <header class="gm-head">
-        <h1 class="gm-crumbs">${crumbs.slice(0, -1).map((c) => `<span>${esc(c)}</span> / `).join('')}${esc(crumbs[crumbs.length - 1])}</h1>
+        <h1 class="gm-crumbs${stacked ? ' is-stacked' : ''}">${crumbs.slice(0, -1).map((c) => `<span>${esc(c)} / </span>`).join('')}${stacked ? `<b>${esc(crumbs[crumbs.length - 1])}</b>` : esc(crumbs[crumbs.length - 1])}</h1>
         ${tabs.length ? `<div class="gm-tabs" role="tablist" aria-label="Sections">
           <kbd class="gm-bumper" title="Q or [ for the previous tab">L1</kbd>
           ${tabs.map((t, i) => `<button type="button" role="tab" data-tab="${i}" aria-selected="${i === active}" tabindex="${i === active ? 0 : -1}">${esc(t)}</button>`).join('')}
@@ -103,6 +105,41 @@
     ['#ff6fb5', '#ffd1e6'], ['#1c1033', '#d13a8a'], ['#1d1a3a', '#46c3f2'], ['#141414', '#f2d23a'], ['#1d3f8a', '#e0393e'], ['#0f4a3f', '#f2a33a'],
   ];
   const CARD_TYPE = /^Collectible card \((.+)\)$/;
+  /*
+   * Real card art, cropped from captures of the in-game menu (the owner's and PowerPyx's; records in data/media.json):
+   * a set's cover is its "Card set" entry's picture (images/collectibles/card-set-<slug>.jpg); a card's
+   * face is its entry's facts.menu_picture only (never its entry picture, which mostly shows where the card lies).
+   * Sets without a capture yet keep the drawn cover.
+   */
+  // A card's real face is its entry's facts.menu_picture (cut from a capture of the set's own screen).
+  // Card-set entries whose slug is not "card-set-" plus the set's name.
+  const SET_ENTRY = { 'B.A.M. Backyard Wrestling': 'card-set-backyard-wrestling', 'Ed Universe': 'card-set-ed-comics-universe', 'Legends of Ratface': 'card-set-the-legends-of-ratface', 'Liberty Swingers': 'card-set-liberty-city-swingers' };
+  /*
+   * The 18 sets as the game's Progress > Collections > Collectible Cards menu shows them: in its order, with
+   * its name and description for each (read from the menu captures credited in data/media.json). Keys are
+   * the set names our card entries use.
+   */
+  const GAME_SETS = [
+    ['Vice City Flamingos', 'Vice City Flamingos', 'A set of collectible baseball cards picturing the Vice City Flamingos.'],
+    ['Vice City Narcos', 'Vice City Narcos', 'A set of collectible basketball cards picturing the Vice City Narcos.'],
+    ['Vice City Manatees', 'Vice City Manatees', 'A set of collectible football cards picturing the Vice City Manatees.'],
+    ['Vice City Club de Futbol', 'Vice City Club de Fútbol', 'A set of collectible soccer cards picturing Vice City Club de Fútbol.'],
+    ['Liberty Swingers', 'Liberty City Swingers', 'A set of collectible baseball cards picturing the Liberty City Swingers.'],
+    ['Liberty City Penetrators', 'Liberty City Penetrators', 'A set of collectible basketball cards picturing the Liberty City Penetrators.'],
+    ['Liberty City Wrath', 'Liberty City Wrath', 'A set of collectible football cards picturing the Liberty City Wrath.'],
+    ['Los Santos Corkers', 'Los Santos Corkers', 'A set of collectible baseball cards picturing the Los Santos Corkers.'],
+    ['Los Santos Panic', 'Los Santos Panic', 'A set of collectible basketball cards picturing the Los Santos Panic.'],
+    ['Los Santos Pounders', 'Los Santos Pounders', 'A set of collectible football cards picturing the Los Santos Pounders.'],
+    ['B.A.M. Backyard Wrestling', 'Backyard Wrestling', 'A set of collectible sports cards picturing wrestlers from Backyard American Mania.'],
+    ["America's Next Top Hooker", "America's Next Top Hooker", "A set of collectible cards picturing winners from America's Next Top Hooker."],
+    ['Delights Dancers', 'Delights Dancers', 'A set of collectible cards picturing dancers from Delights Cabaret in Port Gellhorn.'],
+    ['Jack of Hearts Dancers', 'Jack of Hearts Dancers', 'A set of collectible cards picturing dancers from the Jack of Hearts in Crosstown.'],
+    ['Nine1Nine Dancers', 'Nine1Nine Dancers', 'A set of collectible cards picturing dancers from NINE1NINE in Downtown.'],
+    ['Legends of Ratface', 'The Legends of Ratface', 'A set of collectible cards picturing characters from the comic book The Legends of Ratface.'],
+    ["Right Wing: America's Hero", "Right Wing: America's Hero", "A set of collectible cards picturing characters from the TV show Right Wing: America's Hero."],
+    ['Ed Universe', 'ED Comics Universe', 'A set of collectible cards picturing characters from the ED Comics Universe.'],
+  ];
+  const GAME_ORDER = new Map(GAME_SETS.map(([key, name, about], i) => [key, { i, name, about }]));
   function cardSets() {
     const sets = new Map();
     // Every card is listed, as in the Collectible Tracker; a card whose entry is a hidden spoiler
@@ -115,14 +152,33 @@
       set.cards.push(e);
       if (typeof e.facts.total === 'number') set.total = Math.max(set.total, e.facts.total);
     }
-    return [...sets.values()].map((s, i) => ({ ...s, cover: COVERS[i % COVERS.length], total: s.total || s.cards.length }));
+    const entries = new Map((state.wiki.collectibles || []).filter((e) => e.facts?.type === 'Card set').map((e) => [e.slug, e]));
+    const rank = (s) => GAME_ORDER.get(s.name)?.i ?? 99;
+    return [...sets.values()].sort((a, b) => rank(a) - rank(b) || a.name.localeCompare(b.name)).map((s, i) => {
+      const entry = entries.get(SET_ENTRY[s.name] || `card-set-${slugify(s.name.replace(/'/g, ''))}`);
+      const game = GAME_ORDER.get(s.name);
+      return { ...s, cover: COVERS[i % COVERS.length], total: s.total || s.cards.length, entry, art: entry?.image || '', title: game?.name || s.name, about: game?.about || '' };
+    });
   }
   const cardParts = (e) => {
     const m = /^(.*) \(([^)]+)\) card$/.exec(e.name);
     return m ? { person: m[1], variant: m[2] } : { person: e.name.replace(/ card$/, ''), variant: '' };
   };
   const ticked = () => UserStore.get('collectible-ticks', {});
-  const cover = (set, cls = '') => `<span class="gm-cover ${cls}" style="--a:${set.cover[0]};--b:${set.cover[1]}" aria-hidden="true"><span>${esc(set.name)}</span><i>${icon('collection')}</i></span>`;
+  // The menu's "set" mark in a cover's top-right corner: two stacked cards.
+  const STACK = '<svg class="gm-stack" viewBox="0 0 16 16" aria-hidden="true"><rect x="5.5" y="2" width="8.5" height="8.5" rx="1.2"/><path d="M3.5 5.5H2v8.5h8.5v-1.5"/></svg>';
+  // With art, the drawn cover's colours and name ride along, shown only if the picture fails to load (see onArtError).
+  const cover = (set, cls = '') => set.art
+    ? `<span class="gm-cover has-art ${cls}" style="--a:${set.cover[0]};--b:${set.cover[1]}" aria-hidden="true"><img src="${esc(set.art)}" alt="" loading="lazy" decoding="async"><span>${esc(set.name)}</span>${cls.includes('is-back') ? '' : STACK}</span>`
+    : `<span class="gm-cover ${cls}" style="--a:${set.cover[0]};--b:${set.cover[1]}" aria-hidden="true"><span>${esc(set.name)}</span>${cls.includes('is-back') ? '' : STACK}</span>`;
+  // The game's button prompts in the bottom-right corner (Enter and Backspace on the keyboard).
+  const PROMPT = { select: '<svg class="gm-glyph" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8.6"/><path d="M6.8 6.8l6.4 6.4M13.2 6.8l-6.4 6.4"/></svg>', back: '<svg class="gm-glyph" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8.6"/><circle cx="10" cy="10" r="4.2"/></svg>' };
+  /** A card picture that will not load falls back to the drawn cover or face under it, never a broken-image box. */
+  const onArtError = (root) => root.addEventListener('error', (e) => {
+    const box = e.target.tagName === 'IMG' && e.target.closest('.has-art');
+    if (box) box.classList.add('is-broken');
+  }, true);
+  const prompts = (items) => `<nav class="gm-prompts" aria-label="Buttons">${items.map(([label, glyph, attrs]) => `<button type="button" class="gm-prompt" ${attrs}>${esc(label)}${PROMPT[glyph]}</button>`).join('')}</nav>`;
 
   EXTRA_PAGES.cards = function renderCards(setSlug) {
     const sets = cardSets();
@@ -131,10 +187,12 @@
     const overview = state.wiki.collectibles?.find((e) => e.slug === 'collectible-cards');
     if (!set) {
       let sel = 0;
-      view.innerHTML = shell({ crumbs: ['Progress', 'Collections'], tabs: ['Collectible cards'], body: `<div class="gm-split gm-split-wide">
+      view.innerHTML = shell({ crumbs: ['Progress', 'Collections'], tabs: ['Collectible cards'], theme: 'cards', body: `<div class="gm-split gm-split-wide gm-collections">
           <div class="gm-left"><ul class="gm-cover-grid" role="listbox" aria-label="Card sets" tabindex="0"></ul><p class="gm-count"></p></div>
-          <section class="gm-detail gm-cards-detail" aria-live="polite"></section></div>` });
+          <section class="gm-detail gm-cards-detail" aria-live="polite"></section></div>
+          ${prompts([['Select', 'select', 'data-act="select"'], ['Back', 'back', 'data-act="back"']])}` });
       const grid = view.querySelector('.gm-cover-grid');
+      onArtError(view.querySelector('.gm'));
       const draw = () => {
         const t = ticked();
         grid.innerHTML = sets.map((s, i) => `<li role="option" data-i="${i}" aria-selected="${i === sel}" class="${found(s, t) >= s.total ? 'is-done' : ''}">${cover(s)}</li>`).join('');
@@ -142,8 +200,8 @@
         const s = sets[sel];
         const f = found(s, t);
         const done = sets.filter((x) => found(x, t) >= x.total).length;
-        view.querySelector('.gm-cards-detail').innerHTML = `<h2 class="gm-title">${esc(s.name)}</h2>
-          <p>A set of ${s.total} collectible cards${s.cards.length < s.total ? `, ${s.cards.length} of them listed one by one so far` : ''}.</p>
+        view.querySelector('.gm-cards-detail').innerHTML = `<h2 class="gm-title">${esc(s.title)}</h2>
+          <p>${s.about ? `${esc(s.about)} It has ${s.total} cards` : `A set of ${s.total} collectible cards`}${s.cards.length < s.total ? `, ${s.cards.length} of them listed one by one so far` : ''}.</p>
           <p><a class="gm-btn" href="#/cards/${s.slug}">Open the set</a></p>
           <p class="gm-note">${done} of ${sets.length} sets complete. The 100% checklist asks for 15; a trophy comes at 3.${overview ? ` <a href="${entryLink('collectibles', overview.slug)}">How cards work</a>` : ''}</p>
           <div class="gm-foot"><span>Cards found</span><b>${f} / ${s.total}</b></div>`;
@@ -157,6 +215,12 @@
         if (e.key === 'Enter') { location.hash = `#/cards/${sets[sel].slug}`; return; }
         if (!step) return;
         e.preventDefault(); sel = Math.min(sets.length - 1, Math.max(0, sel + step)); draw();
+        grid.querySelector('[aria-selected="true"]')?.scrollIntoView({ block: 'nearest' });
+      });
+      view.querySelector('.gm-prompts').addEventListener('click', (e) => {
+        const act = e.target.closest('[data-act]')?.dataset.act;
+        if (act === 'select') location.hash = `#/cards/${sets[sel].slug}`;
+        if (act === 'back') location.hash = '#/progress';
       });
       wireTabs(view.querySelector('.gm'), 1, () => {});
       return;
@@ -164,21 +228,26 @@
 
     const anyHidden = set.cards.some((c) => isHidden('collectibles', c));
     let sel = 0;
-    view.innerHTML = shell({ crumbs: ['Collections', set.name], body: `<p class="gm-back"><a href="#/cards">${icon('back')}All card sets</a>${anyHidden ? '<span class="gm-note">Card names and places are post-launch discoveries: switch spoilers on (the eye in the top bar) to see them.</span>' : ''}</p>
-        <div class="gm-split gm-split-wide">
+    let flipped = false; // the big card's side: face (false) or the set's back (true), as the game's R stick turns it
+    view.innerHTML = shell({ crumbs: ['Collections', set.title], stacked: true, theme: 'cards', body: `${anyHidden ? '<p class="gm-back"><span class="gm-note">Card names and places are post-launch discoveries: switch spoilers on (the eye in the top bar) to see them.</span></p>' : ''}
+        <div class="gm-set">
           <div class="gm-left"><ul class="gm-card-grid" role="listbox" aria-label="Cards" tabindex="0"></ul><p class="gm-count"></p></div>
-          <section class="gm-detail gm-card-detail" aria-live="polite"></section></div>` });
+          <div class="gm-card-show"></div>
+          <section class="gm-detail gm-card-detail" aria-live="polite"></section></div>
+        ${prompts([['Back', 'back', 'data-act="back"']])}` });
     const grid = view.querySelector('.gm-card-grid');
     const face = (c, t, big = false) => {
       const hidden = isHidden('collectibles', c);
       const { person, variant } = cardParts(c);
       const color = VARIANT[variant.toLowerCase()] || '#9b93b4';
-      // Not found yet: the set's back, as in the game. Found: its face, framed in its variant's colour.
-      return t[c.slug] || big
-        ? `<span class="gm-card${t[c.slug] ? '' : ' is-missing'}${big ? ' is-big' : ''}" style="--a:${set.cover[0]};--b:${set.cover[1]};--v:${color}"><b>${esc(hidden ? 'Spoiler hidden' : person)}</b><em>${esc(variant)}</em></span>`
-        : cover(set, 'is-back');
+      const art = !hidden && c.facts?.menu_picture ? c.facts.menu_picture : '';
+      // Not found yet: the set's back, as in the game. Found: its face (the real card where we have a
+      // capture, otherwise a drawn face framed in its variant's colour).
+      if (!(t[c.slug] || big)) return cover(set, 'is-back');
+      if (art) return `<span class="gm-card has-art${t[c.slug] ? '' : ' is-missing'}${big ? ' is-big' : ''}"><img src="${art}" alt="" loading="lazy" decoding="async"></span>`;
+      return `<span class="gm-card${t[c.slug] ? '' : ' is-missing'}${big ? ' is-big' : ''}" style="--a:${set.cover[0]};--b:${set.cover[1]};--v:${color}"><b>${esc(hidden ? 'Spoiler hidden' : person)}</b><em>${esc(variant)}</em></span>`;
     };
-    const draw = () => {
+    const draw = (scroll = false) => {
       const t = ticked();
       grid.innerHTML = set.cards.map((c, i) => `<li role="option" data-i="${i}" aria-selected="${i === sel}" aria-label="${esc(isHidden('collectibles', c) ? `${cardParts(c).variant} card` : c.name)}${t[c.slug] ? ', found' : ''}">${face(c, t)}</li>`).join('');
       view.querySelector('.gm-count').innerHTML = `<b>${sel + 1}</b> / ${set.cards.length}${set.cards.length < set.total ? ` <span class="gm-note">(${set.total} in the set)</span>` : ''}`;
@@ -186,25 +255,41 @@
       const hidden = isHidden('collectibles', c);
       const { person, variant } = cardParts(c);
       const where = hidden ? '' : plain((c.body || [])[1] || '');
-      view.querySelector('.gm-card-detail').innerHTML = `<div class="gm-card-show">${face(c, t, true)}</div>
-        <div><h2 class="gm-title">${esc(hidden ? 'Spoiler hidden' : person)}</h2>
-          <p>A ${esc(variant.toLowerCase() || 'standard')} card from ${esc(set.name)}.</p>
+      view.querySelector('.gm-card-show').innerHTML = `<button type="button" class="gm-flip" title="Turn the card over (R)" aria-label="Turn the card over">${flipped ? cover(set, 'is-back is-big') : face(c, t, true)}</button>
+        <p class="gm-pager" aria-hidden="true"><kbd class="gm-key">R</kbd><i class="${flipped ? '' : 'on'}"></i><i class="${flipped ? 'on' : ''}"></i></p>`;
+      view.querySelector('.gm-card-detail').innerHTML = `<h2 class="gm-title">${esc(hidden ? 'Spoiler hidden' : person)}</h2>
+          <p>${!hidden && c.facts?.menu_text ? esc(c.facts.menu_text) : `${variant ? `A ${esc(variant.toLowerCase())} card` : 'A card'}${hidden ? '' : ` featuring ${esc(person)}`}, from ${esc(set.title)}.`}</p>
           ${where ? `<p>${esc(where)}</p>` : ''}
           ${c.facts?.region && !hidden ? `<p class="gm-note">${icon('pin')} ${esc(c.facts.region)}</p>` : ''}
           <p><a href="${entryLink('collectibles', c.slug)}">Open the entry and its sources</a></p>
           <label class="gm-foot gm-check"><span>Found</span><input type="checkbox" data-tick="${esc(c.slug)}" ${t[c.slug] ? 'checked' : ''}><i>${TICK}</i></label>
-          <p class="gm-foot"><span>Cards found</span><b>${found(set, t)} / ${set.total}</b></p></div>`;
+          <p class="gm-foot"><span>Cards found</span><b>${found(set, t)} / ${set.total}</b></p>`;
+      if (scroll) grid.querySelector('[aria-selected="true"]')?.scrollIntoView({ block: 'nearest' });
     };
     draw();
-    grid.addEventListener('click', (e) => { const li = e.target.closest('[data-i]'); if (li) { sel = Number(li.dataset.i); draw(); } });
+    const pick = (i) => { if (i !== sel) flipped = false; sel = i; draw(true); };
+    grid.addEventListener('click', (e) => { const li = e.target.closest('[data-i]'); if (li) pick(Number(li.dataset.i)); });
     grid.addEventListener('keydown', (e) => {
       const cols = Math.max(1, Math.round(grid.clientWidth / (grid.firstElementChild?.offsetWidth || 1)));
       const step = { ArrowRight: 1, ArrowLeft: -1, ArrowDown: cols, ArrowUp: -cols }[e.key];
       if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); const c = set.cards[sel]; UserStore.tick('collectible-ticks', c.slug, !ticked()[c.slug]); draw(); return; }
       if (!step) return;
-      e.preventDefault(); sel = Math.min(set.cards.length - 1, Math.max(0, sel + step)); draw();
+      e.preventDefault(); pick(Math.min(set.cards.length - 1, Math.max(0, sel + step)));
     });
-    view.querySelector('.gm').addEventListener('change', (e) => {
+    const root = view.querySelector('.gm');
+    onArtError(root);
+    root.addEventListener('click', (e) => {
+      if (e.target.closest('.gm-flip')) { flipped = !flipped; draw(); return; }
+      if (e.target.closest('[data-act="back"]')) location.hash = '#/cards';
+    });
+    const onKey = (e) => {
+      if (!root.isConnected) { document.removeEventListener('keydown', onKey); return; }
+      if (e.target.closest?.('input, textarea, select, [contenteditable]') || e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return;
+      if (e.key === 'r' || e.key === 'R') { e.preventDefault(); flipped = !flipped; draw(); }
+      if (e.key === 'Backspace') { e.preventDefault(); location.hash = '#/cards'; }
+    };
+    document.addEventListener('keydown', onKey);
+    root.addEventListener('change', (e) => {
       if (!e.target.dataset.tick) return;
       UserStore.tick('collectible-ticks', e.target.dataset.tick, e.target.checked);
       draw();
@@ -389,7 +474,10 @@
       const rows = current.map((e) => ({ html: `${own[e.slug] ? '<i class="gm-diamond" aria-label="Owned"></i>' : ''}${hid(e) ? '<em>Spoiler hidden</em>' : esc(e.name)}`, locked: hid(e) }));
       ld = listDetail(pane, rows, (i) => {
         const e = current[i];
-        const html = `<div class="gm-show">${e.image ? `<img src="${esc(e.image)}" alt="" loading="lazy">` : `<span class="gm-show-ph">${icon(o.icon)}</span>`}</div>
+        // The game's own menu picture first (a studio shot from Progress > Vehicles), then the entry's picture.
+        const pic = e.facts?.menu_picture || e.image;
+        const html = `<div class="gm-show${e.facts?.menu_picture ? ' is-menu' : ''}">${pic ? `<img src="${esc(pic)}" alt="" loading="lazy">` : `<span class="gm-show-ph">${icon(o.icon)}</span>`}</div>
+          ${e.facts?.menu_text ? `<p class="gm-menu-text">${esc(e.facts.menu_text)}</p>` : ''}
           ${e.facts?.price ? `<p class="gm-price-line">${priceHtml(e.facts.price, e.facts.paid_with, true)}${e.facts.paid_with ? `<span class="gm-paid">Paid with ${esc(e.facts.paid_with)}</span>` : ''}</p>` : ''}
           ${statPanel(e, o.stats, o.head(e))}
           <dl class="gm-facts">${o.facts.map(([k, l]) => (e.facts?.[k] !== undefined && e.facts[k] !== null && e.facts[k] !== '' ? `<div><dt>${esc(l)}</dt><dd>${k === 'price' || k === 'sell_value' ? priceHtml(e.facts[k], k === 'price' ? e.facts.paid_with : '') : esc(plain(String(e.facts[k])))}</dd></div>` : '')).join('')}</dl>
@@ -409,7 +497,7 @@
       const best = (k) => Math.max(...picked.map((e) => num(e.facts?.[k]) ?? -1));
       panel.innerHTML = `<div class="gm-compare-head"><h2 class="gm-title">Side by side</h2><button type="button" class="gm-link" data-compare-close>Close</button></div>
         <div class="gm-compare-grid" style="--n:${picked.length}">${picked.map((e) => `<div class="gm-compare-col">
-          <div class="gm-show">${e.image ? `<img src="${esc(e.image)}" alt="" loading="lazy">` : `<span class="gm-show-ph">${icon(o.icon)}</span>`}</div>
+          <div class="gm-show${e.facts?.menu_picture ? ' is-menu' : ''}">${e.facts?.menu_picture || e.image ? `<img src="${esc(e.facts?.menu_picture || e.image)}" alt="" loading="lazy">` : `<span class="gm-show-ph">${icon(o.icon)}</span>`}</div>
           ${statPanel(e, o.stats, o.head(e)).replace(/<div class="gm-stat( is-unknown)?"><span>([^<]+)<\/span>/g, (m, u, label) => m)}
           <dl class="gm-facts">${o.facts.map(([k, l]) => `<div><dt>${esc(l)}</dt><dd>${(k === 'price' || k === 'sell_value') && e.facts?.[k] ? priceHtml(e.facts[k], k === 'price' ? e.facts.paid_with : '') : esc(plain(String(e.facts?.[k] ?? ''))) || '–'}</dd></div>`).join('')}</dl></div>`).join('')}</div>
         <p class="gm-note">Highest of each bar: ${o.stats.map(([k, l]) => { const b = best(k); const who = picked.filter((e) => num(e.facts?.[k]) === b && b >= 0).map((e) => e.name); return who.length && who.length < picked.length ? `${esc(l)}: ${esc(who.join(', '))}` : ''; }).filter(Boolean).join(' · ') || 'not enough published bars to compare'}.</p>`;
@@ -479,7 +567,7 @@
       search: 'Search vehicles', ownShort: 'my garage', ownVerb: 'Add to garage', ownedWord: 'In my garage',
       stats: VEHICLE_STATS,
       head: (e) => `<p class="gm-stat-class">${esc(plain(e.facts?.manufacturer || ''))}</p><p class="gm-stat-name">${esc(e.name)}</p>`,
-      facts: [['class', 'Class'], ['rating', 'Rating'], ['price', 'Price'], ['sell_value', 'Sells for'], ['seats', 'Seats'], ['drivetrain', 'Drivetrain'], ['where', 'Where to find it'], ['customise', 'Where to modify it'], ['availability', 'Availability']],
+      facts: [['class', 'Class'], ['style', 'Style'], ['era', 'Era'], ['specialist', 'Mod shop specialist'], ['rating', 'Rating'], ['price', 'Price'], ['sell_value', 'Sells for'], ['seats', 'Seats'], ['drivetrain', 'Drivetrain'], ['where', 'Where to find it'], ['customise', 'Where to modify it'], ['availability', 'Availability']],
     });
   };
 

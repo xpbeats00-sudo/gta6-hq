@@ -7979,7 +7979,9 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "western Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_text": "A purple base card featuring Swallow, a hero from The Legends of Ratface.",
+      "menu_picture": "/images/collectibles/card-ratface-swallow-purple.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8171,7 +8173,9 @@
     "facts": {
       "type": "Collectible card (Legends of Ratface)",
       "region": "southern Key Lento",
-      "total": 36
+      "total": 36,
+      "menu_text": "A blue base card featuring Wokester, a villain from The Legends of Ratface.",
+      "menu_picture": "/images/collectibles/card-ratface-wokester-blue.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -8422,7 +8426,9 @@
     "facts": {
       "type": "Collectible card (Liberty City Penetrators)",
       "region": "southern Port Gellhorn",
-      "total": 24
+      "total": 24,
+      "menu_text": "A gold legacy card featuring Demario Richardson, a basketball player for the Liberty City Penetrators.",
+      "menu_picture": "/images/collectibles/faces/card-lcp-demario-richardson-gold.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10493,7 +10499,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "central Hamlet",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/card-lsc-jesus-de-fuente-standard.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10602,7 +10609,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "eastern Moreau",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/card-lsc-miguel-ayala-standard.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10706,7 +10714,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Washington Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/card-lsc-si-woo-choo-standard.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10809,7 +10818,8 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "Ambrosia",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/card-lsc-victor-maravilla-standard.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -10840,7 +10850,9 @@
     "facts": {
       "type": "Collectible card (Los Santos Corkers)",
       "region": "western Hamlet",
-      "total": 24
+      "total": 24,
+      "menu_text": "A card featuring Xavier Gomez, a baseball player for the Los Santos Corkers.",
+      "menu_picture": "/images/collectibles/card-lsc-xavier-gomez-standard.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -15830,7 +15842,9 @@
     "facts": {
       "type": "Collectible card (Vice City Manatees)",
       "region": "northeastern Crosstown",
-      "total": 24
+      "total": 24,
+      "menu_text": "A special silver card featuring Anthony Ross, a football player for the Vice City Manatees.",
+      "menu_picture": "/images/collectibles/card-vcm-anthony-ross-silver.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16373,7 +16387,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "Waning Sands",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/card-vcn-andre-stevenson-standard.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16529,7 +16544,8 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "southern Washington Beach",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/card-vcn-bryson-powers-standard.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -16555,7 +16571,9 @@
     "facts": {
       "type": "Collectible card (Vice City Narcos)",
       "region": "eastern Key Lento",
-      "total": 24
+      "total": 24,
+      "menu_text": "An illustrated card featuring Carl Kasey, a basketball player for the Vice City Narcos.",
+      "menu_picture": "/images/collectibles/card-vcn-carl-kasey-standard.jpg"
     },
     "confidence": "corroborated",
     "sources": [
