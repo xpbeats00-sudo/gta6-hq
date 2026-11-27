@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide | GTA 6 HQ</title>
+<meta name="robots" content="noindex">
+<script>
+  // Older links (/guide/?ref=section/slug, ?manual=chapter, ?q=words) open the same page in the app.
+  (function () {
+    var p = new URLSearchParams(location.search);
+    var ref = p.get('ref') || '';
+    var parts = ref.split('/');
+    var to = '#/';
+    if (parts.length === 2 && parts[0] && parts[1]) {
+      to = parts[0] === 'characters' || parts[0] === 'locations' ? '#/' + ref
+        : ['news', 'editions', 'faq'].indexOf(parts[0]) >= 0 ? '#/intel' : '#/wiki/' + ref;
+    } else if (p.get('manual')) {
+      to = '#/manual/' + encodeURIComponent(p.get('manual'));
+    } else if (p.get('q')) {
+      to = '#/search?q=' + encodeURIComponent(p.get('q'));
+    }
+    location.replace('../' + to);
+  }());
+</script>
+</head>
+<body><p><a href="../">Open GTA 6 HQ</a></p></body>
+</html>

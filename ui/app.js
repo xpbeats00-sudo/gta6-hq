@@ -153,7 +153,7 @@ window.hqPrefs = prefs; // the Field Manual keeps its theme and last page here t
 /** Parts kept separately for Jason and for Lucia when the reader picks a character profile
     (Settings). The "Shared" profile keeps the plain names, so nothing saved earlier moves. */
 const PROFILE_PARTS = new Set(['favourites', 'favourite-pins', 'collections', 'discovered', 'collectible-ticks',
-  'guide-checks', 'routes', 'map-views', 'street-starts', 'journal', 'weapon-locker', 'garage', 'trophies-earned', 'cheats-done']);
+  'guide-checks', 'routes', 'map-views', 'street-starts', 'journal', 'weapon-locker', 'garage', 'trophies-earned', 'cheats-done', 'map-markers']);
 const UserStore = {
   data: {},
   listeners: new Set(),
@@ -241,6 +241,8 @@ window.hqConfirm = hqConfirm;
 const EXTRA_PAGES = {};
 /** Called after every page is drawn, with (page, a, b, params): ui/explore.js adds entry actions here. */
 const AFTER_RENDER = [];
+// Each verification panel fills its Evidence line from the picture's media record once the page is drawn.
+AFTER_RENDER.push(() => fillEvidence(view));
 
 // ---------- spoilers ----------
 
@@ -534,13 +536,61 @@ window.addEventListener('scroll', () => {
 window.addEventListener('resize', markPastHero);
 
 
+/**
+ * How far an entry can be trusted, worked out from its own record (nothing here is a judgement of
+ * this page's own): which sources it names, whether they are Rockstar's or independent of each other,
+ * when it was last checked, the evidence behind its picture, and the game version it applies to.
+ *   Confirmed            a Rockstar source, or two or more independent publishers
+ *   Partially confirmed  one publisher, or sources that say they disagree on a detail
+ *   Unverified           no source recorded
+ */
+function verification(entry) {
+  const sources = (entry.sources || []).map((id) => state.wiki.sources?.[id]).filter(Boolean);
+  const publishers = [...new Set(sources.map((s) => String(s.publisher || '').split(/[,(;]/)[0].trim().toLowerCase()).filter(Boolean))];
+  const official = sources.some((s) => s.type === 'official') || entry.confidence === 'official';
+  const disagree = (entry.body || []).some((b) => /\bdisagree(ment|s)?\b/i.test(b));
+  const level = !sources.length ? 'unverified' : (official || publishers.length >= 2) && !disagree ? 'confirmed' : 'partial';
+  const label = { confirmed: 'Confirmed', partial: 'Partially confirmed', unverified: 'Unverified' }[level];
+  const why = level === 'unverified' ? 'No source has been recorded for this entry yet.'
+    : official && !disagree ? 'Stated in Rockstar\'s own material.'
+      : disagree ? `Its sources disagree on at least one detail; the text names both sides.`
+        : publishers.length >= 2 ? `${publishers.length} independent publishers agree.` : 'Only one publisher has been found for it so far.';
+  const days = entry.verified ? Math.floor((Date.now() - Date.parse(entry.verified)) / 86400000) : null;
+  const key = entry.confidence in CONFIDENCE ? entry.confidence : 'unknown';
+  return `<section class="verify verify-${level}" aria-label="Verification">
+    <h2>Verification</h2>
+    <dl class="verify-grid">
+      <div><dt>Status</dt><dd><b class="verify-level">${label}</b> <span class="muted">${esc(why)}</span></dd></div>
+      <div><dt>Confidence</dt><dd>${badge(entry.confidence)} <span class="muted">${esc(CONFIDENCE[key][1])}</span></dd></div>
+      <div><dt>Source</dt><dd>${sources.length ? `${sources.length} ${sources.length === 1 ? 'source' : 'sources'} from ${publishers.length} ${publishers.length === 1 ? 'publisher' : 'publishers'}${official ? ', including Rockstar' : ''} (listed below)` : '<span class="muted">None recorded</span>'}</dd></div>
+      <div><dt>Last checked</dt><dd>${entry.verified ? `${esc(formatDate(entry.verified))}${days !== null && days >= 0 ? ` <span class="muted">(${days === 0 ? 'today' : `${days} ${days === 1 ? 'day' : 'days'} ago`})</span>` : ''}` : '<span class="muted">Not recorded</span>'}</dd></div>
+      <div><dt>Evidence</dt><dd data-evidence="${esc(entry.image || '')}">${entry.image ? '<span class="muted">Checking the picture\'s record…</span>' : '<span class="muted">The written sources below; no picture on file</span>'}</dd></div>
+      <div><dt>Game version</dt><dd>${entry.version ? esc(entry.version) : `<span class="muted">Not recorded${entry.verified ? `; checked against the released game as of ${esc(formatDate(entry.verified))}` : ''}</span>`}</dd></div>
+    </dl>
+  </section>`;
+}
+let mediaRecords = null;
+/** Fills each verification panel's Evidence line from the picture's media record (who made it, where it came from). */
+function fillEvidence(root = document) {
+  const cells = [...root.querySelectorAll('[data-evidence]')].filter((c) => c.dataset.evidence);
+  if (!cells.length) return;
+  (mediaRecords ||= getJson('/api/media').catch(() => null)).then((media) => {
+    const all = media ? [...(media.images || []), ...(media.pictures || []), ...(media.videos || [])] : [];
+    for (const cell of cells) {
+      const src = cell.dataset.evidence.replace(/^\//, '');
+      const rec = all.find((m) => String(m.src || m.file || '').replace(/^\//, '') === src);
+      const credit = String(rec?.credit || rec?.creator || '').split(' · ')[0].trim();
+      cell.innerHTML = rec ? `Picture: ${esc(credit || 'credit not recorded')} <span class="muted">(its full record is in the media list)</span>` : '<span class="muted">The written sources below; the picture\'s record was not found</span>';
+    }
+  });
+}
+
 /** Confidence, sources and last-checked date for an entry. */
 function provenance(entry) {
   const sources = (entry.sources || []).map((id) => state.wiki.sources?.[id]).filter(Boolean);
   const key = entry.confidence in CONFIDENCE ? entry.confidence : 'unknown';
-  return `<section class="provenance">
+  return `${verification(entry)}<section class="provenance">
     <h2>Sources</h2>
-    <p>${badge(entry.confidence)} <span class="muted">${esc(CONFIDENCE[key][1])}.${entry.verified ? ` Last checked ${esc(formatDate(entry.verified))}.` : ''}</span></p>
     ${sources.length
       ? `<ul>${sources.map((s) => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a>
           <span class="muted">${esc(s.publisher)} · ${esc(s.type)}</span></li>`).join('')}</ul>`
@@ -1213,7 +1263,10 @@ async function runSplash(ready, prefsReady) {
   // Nothing plays until the saved choice is read (a moment), so neither intro starts half way through.
   splash.classList.add('is-waiting');
   await prefsReady;
-  let intro = introChoice();
+  // The web version opened at a page (a map link from the Discord assistant, say) goes straight to
+  // that page: no start-up choice and no intro in front of what the link was for.
+  const direct = window.GTA6HQ_WEB === true && location.hash.replace(/^#\/?/, '') !== '';
+  let intro = direct ? 'none' : introChoice();
   if (!intro) {
     splash.classList.add('is-choosing');
     intro = await askWhichIntro(splash);
@@ -1246,6 +1299,7 @@ async function runSplash(ready, prefsReady) {
     if (loud.length) requestAnimationFrame(quieten);
     setTimeout(() => { videos.forEach((video) => video.pause()); splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
   };
+  if (direct) { finish(true); return; }
 
   if (intro === 'official') {
     // The whole picture, never cropped: letterboxed on a window that is not 16:9.
@@ -2587,6 +2641,15 @@ function renderMap(params) {
             <a class="link-btn" data-plan-guide href="#/manual/robbery-planner/2">Step-by-step guide</a></div>
           <p class="muted heist-note">Puts every target of that kind in a short order, starting from the open pin or the middle of the view. The order and every leg follow the roads and bridges on Rockstar's map. Pins are approximate: check the guide for each stop.</p>
         </details>
+        <details class="heist-plan near-plan">
+          <summary>${icon('target')}Closest unfinished</summary>
+          <label class="heist-field"><span>What</span><select data-near-what>
+            <option value="100">100% objectives</option><option value="all">Anything not marked found</option><option value="kind">The open pin's kind</option></select></label>
+          <label class="heist-field"><span>How many</span><select data-near-n>${[5, 10, 15, 25].map((n) => `<option${n === 10 ? ' selected' : ''}>${n}</option>`).join('')}</select></label>
+          <div class="heist-acts"><button type="button" class="btn btn-primary btn-small" data-near-go>Plan the route</button></div>
+          <p class="muted heist-note">Picks the places nearest the open pin (or the middle of the view) that you have not marked found, and puts them in a short order by road.</p>
+        </details>
+        <section class="my-markers" hidden></section>
         <div class="map-route" hidden></div>
         <div class="map-lists"></div>
         </div>
@@ -2604,12 +2667,14 @@ function renderMap(params) {
           <button type="button" class="map-tool" data-reset data-tip="Reset the view" aria-label="Reset the view">${icon('reset')}</button>
           <button type="button" class="map-tool" data-full data-tip="Full screen" aria-label="Full screen">${icon('expand')}</button>
           <button type="button" class="map-tool" data-saveview data-tip="Save this view" aria-label="Save this view">${icon('bookmark')}</button>
+          <button type="button" class="map-tool" data-mark aria-pressed="false" data-tip="Add your own marker (then click the map)" aria-label="Add your own marker">${icon('plus')}</button>
           <button type="button" class="map-tool" data-layers aria-expanded="false" aria-controls="map-layers" data-tip="Map overlays" aria-label="Map overlays">${icon('layers')}</button>
           <button type="button" class="map-tool" data-tilt hidden data-tip="Look straight down or tilt" aria-label="Look straight down or tilt the 3D map">${icon('tilt')}</button>
           <button type="button" class="map-tool" data-immersive aria-pressed="false" data-tip="Immersive mode (Esc leaves)" aria-label="Immersive mode">${icon('eye')}</button>
         </div>
         <div id="map-layers" class="map-layers-panel" hidden>
           <b>Overlays</b>
+          <label class="opt"><input type="checkbox" data-overlay="completion"><span>Completion by region (100% objectives found)</span></label>
           <label class="opt"><input type="checkbox" data-overlay="density"><span>Density of places</span></label>
           <label class="opt"><input type="checkbox" data-overlay="names"><span>District and town names</span></label>
           <label class="opt"><input type="checkbox" data-overlay="links"><span>Lines to related places</span></label>
@@ -3148,6 +3213,7 @@ function renderMap(params) {
         <span class="route-btns"><button type="button" data-stop-up="${k}" aria-label="Move ${esc(s.name)} up" ${k === 0 ? 'disabled' : ''}>${icon('chevron-down', 'flip')}</button><button type="button" data-stop-down="${k}" aria-label="Move ${esc(s.name)} down" ${k === stops.length - 1 ? 'disabled' : ''}>${icon('chevron-down')}</button><button type="button" data-stop-del="${k}" aria-label="Remove ${esc(s.name)}">${icon('close')}</button></span></li>`).join('')}</ol>
       <p class="muted route-note">Each leg follows the roads, bridges and land drawn on Rockstar's map. Pin positions are approximate, so take it as the way to go, not turn-by-turn directions; no distance or travel time is given.</p>
       <p class="muted route-note route-water-note" hidden></p>
+      ${stops.length > 2 ? '<p class="route-opt"><button type="button" class="btn btn-small" data-stop-opt>Optimise the order</button> <span class="muted">Keeps stop 1 first and finds a short way through the rest, by road.</span></p>' : ''}
       <form class="route-save"><input name="name" placeholder="Name this route" aria-label="Route name" maxlength="60" required><button class="btn btn-small">Save route</button><button type="button" class="link-btn" data-stop-clear>Clear</button></form>` : '';
   }
   // Editing the route by hand ends a planned run's narrowing of the lists and map.
@@ -3161,9 +3227,66 @@ function renderMap(params) {
     else if (b.dataset.stopDown !== undefined) [stops[k + 1], stops[k]] = [stops[k], stops[k + 1]];
     else if (b.dataset.stopDel !== undefined) { stops.splice(k, 1); endRun(); }
     else if (b.dataset.stopClear !== undefined) { stops = []; endRun(); }
+    else if (b.dataset.stopOpt !== undefined) { optimiseStops(); return; }
     else return;
     planning += 1; // a hand edit wins over a run still being worked out
     drawRoute();
+  });
+  /** A short order through `targets` from `start`: by road where the routing grid is there, else straight lines. */
+  async function orderByRoad(targets, start, stale) {
+    const spots = [start, ...targets];
+    const table = await window.MapRoutes?.matrix(spots, stale).catch(() => null);
+    if (stale()) return null;
+    const at = new Map(spots.map((p, i) => [p, i]));
+    const byRoad = table ? (a, b) => table[at.get(a)][at.get(b)] : null;
+    const straight = shortRun(targets, start, state.wiki.map.width, state.wiki.map.height);
+    if (!byRoad) return { order: straight, byRoad: false };
+    const roadLength = (order) => order.reduce((sum, p, k) => sum + byRoad(k ? order[k - 1] : start, p), 0);
+    return { order: [shortRun(targets, start, 0, 0, byRoad), straight].sort((a, b) => roadLength(a) - roadLength(b))[0], byRoad: true };
+  }
+  async function optimiseStops() {
+    if (stops.length < 3) return;
+    const token = ++planning;
+    say('Working out a shorter order by road…');
+    const [first, ...rest] = stops;
+    const done = await orderByRoad(rest, first, () => token !== planning || state.map !== map);
+    if (!done) return;
+    stops = [first, ...done.order];
+    drawRoute();
+    say(`Route reordered: ${stops.length} stops${done.byRoad ? ' by road' : ''}.`);
+  }
+  /** The nearest places not marked found (100% objectives, anything, or the open pin's kind), as a route. */
+  async function planNearest(what, n) {
+    const start = selected >= 0 ? pins[selected] : (() => { const [x, y] = toXY(map.getCenter()); return { x, y }; })();
+    const kind = selected >= 0 ? kindKey(pins[selected]) : '';
+    const { width, height } = state.wiki.map;
+    const pool = pins.map((p, i) => i).filter((i) => {
+      const p = pins[i];
+      if (p.hidden || p.category === 'regions' || p.category === 'districts' || isFound(i) || i === selected) return false;
+      if (what === '100') return counts100(p);
+      if (what === 'kind') return kind && kindKey(p) === kind;
+      return true;
+    });
+    if (what === 'kind' && !kind) { say('Open a pin first: its kind is the one used.'); return; }
+    if (!pool.length) { say('Nothing left unfound for that choice. Well done.'); return; }
+    const near = pool.sort((a, b) => Math.hypot((pins[a].x - start.x) * width, (pins[a].y - start.y) * height) - Math.hypot((pins[b].x - start.x) * width, (pins[b].y - start.y) * height)).slice(0, n);
+    const token = ++planning;
+    say('Finding the closest unfinished places and a short order by road…');
+    const done = await orderByRoad(near.map((i) => pins[i]), start, () => token !== planning || state.map !== map);
+    if (!done) return;
+    stops = done.order.map((p) => ({ name: p.name, x: p.x, y: p.y, ref: p.ref || '' }));
+    drawRoute();
+    runOnly = new Set(near);
+    filter.value = '';
+    drawLists();
+    applyFilterToMap();
+    map.flyToBounds(L.latLngBounds([point(start.x, start.y), ...stops.map((st) => point(st.x, st.y))]).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 });
+    say(`${stops.length} closest unfinished ${what === '100' ? '100% objectives' : what === 'kind' ? `${kindLabel(pins[near[0]])}` : 'places'}, in a short order${done.byRoad ? ' by road' : ''}.`);
+  }
+  view.querySelector('.near-plan')?.addEventListener('click', (e) => {
+    if (!e.target.closest('[data-near-go]')) return;
+    const box = view.querySelector('.near-plan');
+    planNearest(box.querySelector('[data-near-what]').value, Number(box.querySelector('[data-near-n]').value));
   });
   // Robbery runs: every target of one kind, in a short order, as the route above.
   const plan = view.querySelector('.heist-plan');
@@ -3261,11 +3384,12 @@ function renderMap(params) {
     return [...best.values()];
   }
   const accentColor = () => getComputedStyle(document.documentElement).getPropertyValue('--accent-pink-strong').trim() || '#ff6f9e';
-  const OVERLAY_KEYS = ['density', 'names', 'links', 'certainty'];
+  const OVERLAY_KEYS = ['completion', 'density', 'names', 'links', 'certainty'];
   const overlays = new Set((prefs.get('map-overlays') ?? 'links').split(',').filter((k) => OVERLAY_KEYS.includes(k)));
   const layersPanel = view.querySelector('.map-layers-panel');
   const legend = view.querySelector('.map-legend');
   const densityLayer = L.layerGroup().addTo(map);
+  const completionLayer = L.layerGroup().addTo(map);
   const linkLayer = L.layerGroup().addTo(map);
   const namesLayer = L.layerGroup((config.places || []).map((pl) => L.marker(point(pl.x, pl.y), {
     icon: L.divIcon({ className: `place-label place-${pl.kind}`, html: `<span>${esc(pl.name)}</span>`, iconSize: [0, 0] }), interactive: false, keyboard: false,
@@ -3292,6 +3416,34 @@ function renderMap(params) {
       }).addTo(densityLayer);
     }
   }
+  /**
+   * Completion by region: each 100% objective pin is counted for the nearest region or Vice City
+   * district marker, and each region shows how many of its objectives you have marked found.
+   */
+  function drawCompletion() {
+    completionLayer.clearLayers();
+    if (!overlays.has('completion')) return;
+    const areas = pins.map((p, i) => i).filter((i) => pins[i].category === 'regions' || pins[i].category === 'districts');
+    if (!areas.length) return;
+    const { width, height } = config;
+    const tally = new Map(areas.map((a) => [a, { found: 0, total: 0 }]));
+    pins.forEach((p, i) => {
+      if (!counts100(p) || p.category === 'regions' || p.category === 'districts') return;
+      let best = areas[0], bd = Infinity;
+      for (const a of areas) { const d = Math.hypot((pins[a].x - p.x) * width, (pins[a].y - p.y) * height); if (d < bd) { bd = d; best = a; } }
+      const t = tally.get(best);
+      t.total += 1;
+      if (isFound(i)) t.found += 1;
+    });
+    for (const [a, t] of tally) {
+      if (!t.total) continue;
+      const pct = Math.round((t.found / t.total) * 100);
+      L.marker(point(pins[a].x, pins[a].y), {
+        icon: L.divIcon({ className: 'completion-bubble', html: `<span style="--hue:${Math.round(pct * 1.2)}"><em>${esc(pins[a].keyName || pins[a].name)}</em><b>${pct}%</b><i>${t.found} / ${t.total}</i></span>`, iconSize: [0, 0] }),
+        interactive: false, keyboard: false,
+      }).addTo(completionLayer);
+    }
+  }
   function drawLinks(i) {
     linkLayer.clearLayers();
     three?.links([]);
@@ -3304,6 +3456,7 @@ function renderMap(params) {
   function drawLegend() {
     const parts = [];
     if (overlays.has('certainty')) parts.push('<div><i class="lg-gs"></i>From Gamersky\'s map</div><div><i class="lg-hand"></i>Placed by hand on Rockstar\'s map</div><p>All positions are approximate; none is a surveyed in-game coordinate.</p>');
+    if (overlays.has('completion')) parts.push('<div><i class="lg-done"></i>Share of each region\'s 100% objectives you have marked found (red none, green all)</div>');
     if (overlays.has('density')) parts.push('<div><i class="lg-heat"></i>More places close together</div>');
     if (overlays.has('links')) parts.push('<div><i class="lg-link"></i>Related to the open pin</div>');
     legend.innerHTML = parts.join('');
@@ -3314,6 +3467,7 @@ function renderMap(params) {
     three?.names(overlays.has('names'), config.places || []);
     map.getContainer().classList.toggle('show-certainty', overlays.has('certainty'));
     drawDensity();
+    drawCompletion();
     drawLinks(selected);
     drawLegend();
     layersPanel.querySelectorAll('[data-overlay]').forEach((c) => { c.checked = overlays.has(c.dataset.overlay); });
@@ -3593,15 +3747,98 @@ function renderMap(params) {
     drawCount();
   });
 
-  // Right-click anywhere to read off a position, ready to paste into an entry as "x" and "y".
+  // ---------- your own markers: a name, a note and a colour, kept with your saved data ----------
+  const MARK_COLOURS = [['#ffd166', 'Yellow'], ['#ff6f9e', 'Pink'], ['#4fd1e8', 'Blue'], ['#5fd08a', 'Green'], ['#c49bff', 'Purple']];
+  const myMarks = () => UserStore.get('map-markers', []);
+  const marksLayer = L.layerGroup().addTo(map);
+  const marksBox = view.querySelector('.my-markers');
+  const markCard = (m) => `<form class="map-card mark-card" data-mark-id="${esc(m.id)}">
+      <span class="kicker">Your marker</span>
+      <label class="mark-field"><span>Name</span><input name="name" value="${esc(m.name)}" maxlength="60" required></label>
+      <label class="mark-field"><span>Note</span><textarea name="note" maxlength="600" rows="3" placeholder="What is here, what to do">${esc(m.note || '')}</textarea></label>
+      <div class="mark-colours" role="radiogroup" aria-label="Colour">${MARK_COLOURS.map(([c, n]) => `<label><input type="radio" name="colour" value="${c}" ${c === (m.colour || MARK_COLOURS[0][0]) ? 'checked' : ''}><i style="--c:${c}" title="${n}"></i><span class="sr-only">${n}</span></label>`).join('')}</div>
+      <div class="mark-acts"><button class="btn btn-primary btn-small">Save</button><button type="button" class="link-btn" data-mark-route>Add to route</button><button type="button" class="link-btn" data-mark-del>Delete</button></div>
+    </form>`;
+  function drawMarks() {
+    marksLayer.clearLayers();
+    const list = myMarks();
+    for (const m of list) {
+      L.marker(point(m.x, m.y), {
+        title: m.name, alt: m.name,
+        icon: L.divIcon({ className: 'my-mark', html: `<span style="--c:${esc(m.colour || MARK_COLOURS[0][0])}">${icon('star-fill')}</span>`, iconSize: [26, 26], iconAnchor: [13, 13] }),
+      }).bindPopup(() => markCard(m), { className: 'map-popup', maxWidth: 300, minWidth: 260 })
+        .bindTooltip(`<b>${esc(m.name)}</b>${m.note ? `<span>${esc(m.note.slice(0, 80))}</span>` : ''}`, { direction: 'top', offset: [0, -10], className: 'pin-hover' })
+        .addTo(marksLayer);
+    }
+    marksBox.hidden = !list.length;
+    marksBox.innerHTML = list.length ? `<h2>Your markers <span class="muted">${list.length}</span></h2><ul>${list.map((m) => `<li><button type="button" data-mark-go="${esc(m.id)}"><i style="--c:${esc(m.colour || MARK_COLOURS[0][0])}"></i><span>${esc(m.name)}</span>${m.note ? `<small>${esc(m.note.slice(0, 40))}</small>` : ''}</button></li>`).join('')}</ul>` : '';
+  }
+  const addMark = (x, y) => {
+    const m = { id: Date.now().toString(36), name: `Marker ${myMarks().length + 1}`, note: '', colour: MARK_COLOURS[0][0], x, y, at: Date.now() };
+    UserStore.set('map-markers', [...myMarks(), m]);
+    drawMarks();
+    const layer = marksLayer.getLayers().find((l) => l.options.title === m.name && l.getLatLng().equals(point(x, y)));
+    layer?.openPopup();
+    setTimeout(() => document.querySelector(`.mark-card[data-mark-id="${m.id}"] input[name="name"]`)?.select(), 60);
+  };
+  let marking = false;
+  const setMarking = (on) => {
+    marking = on;
+    view.querySelector('[data-mark]')?.setAttribute('aria-pressed', String(on));
+    map.getContainer().classList.toggle('is-marking', on);
+    if (on) say('Click the map where your marker goes. Press the button again to stop.');
+  };
+  view.querySelector('[data-mark]')?.addEventListener('click', () => setMarking(!marking));
+  map.on('click', (e) => {
+    if (!marking) return;
+    const [x, y] = toXY(e.latlng);
+    if (![x, y].every((v) => v >= 0 && v <= 1)) return;
+    setMarking(false);
+    addMark(x, y);
+  });
+  wrap.addEventListener('submit', (e) => {
+    const form = e.target.closest('.mark-card');
+    if (!form) return;
+    e.preventDefault();
+    const id = form.dataset.markId;
+    UserStore.set('map-markers', myMarks().map((m) => (m.id === id ? { ...m, name: form.elements.name.value.trim() || m.name, note: form.elements.note.value.trim(), colour: form.elements.colour.value } : m)));
+    map.closePopup();
+    drawMarks();
+    say('Marker saved.');
+  });
+  wrap.addEventListener('click', (e) => {
+    const form = e.target.closest('.mark-card');
+    if (form && e.target.closest('[data-mark-del]')) {
+      UserStore.set('map-markers', myMarks().filter((m) => m.id !== form.dataset.markId));
+      map.closePopup();
+      drawMarks();
+      say('Marker deleted.');
+    }
+    if (form && e.target.closest('[data-mark-route]')) {
+      const m = myMarks().find((x) => x.id === form.dataset.markId);
+      if (m) addStop({ name: m.name, x: m.x, y: m.y, ref: '' });
+    }
+    const go = e.target.closest('[data-mark-go]');
+    if (go) {
+      const m = myMarks().find((x) => x.id === go.dataset.markGo);
+      if (!m) return;
+      if (narrow()) setSide(false);
+      map.flyTo(point(m.x, m.y), Math.max(map.getZoom(), homeZoom + 1.5), { duration: flyMs(0.8) });
+      map.once('moveend', () => marksLayer.getLayers().find((l) => l.getLatLng().equals(point(m.x, m.y)))?.openPopup());
+    }
+  });
+  drawMarks();
+
+  // Right-click anywhere: put your own marker there, or read off a position ("x" and "y") for the data files.
   map.on('contextmenu', (e) => {
     const [x, y] = toXY(e.latlng);
     if (![x, y].every((v) => v >= 0 && v <= 1)) return;
-    L.popup({ maxWidth: 280 }).setLatLng(e.latlng).setContent(`<div class="map-card">
+    const pop = L.popup({ maxWidth: 280 }).setLatLng(e.latlng).setContent(`<div class="map-card">
         <span class="kicker">Map position</span>
-        <p><code>"x": ${x.toFixed(3)}, "y": ${y.toFixed(3)}</code></p>
-        <p>Add these to an entry in the data files to pin it here.</p>
+        <p><button type="button" class="btn btn-primary btn-small" data-mark-here>${icon('plus')}Add your own marker here</button></p>
+        <p class="muted"><code>"x": ${x.toFixed(3)}, "y": ${y.toFixed(3)}</code> (for pinning an entry in the data files)</p>
       </div>`).openOn(map);
+    pop.getElement()?.querySelector('[data-mark-here]')?.addEventListener('click', () => { map.closePopup(); addMark(x, y); });
   });
 
   // ---------- what the address asks for ----------
@@ -3609,13 +3846,31 @@ function renderMap(params) {
   const focus = params.get('focus');
   const focusIndex = focus ? pins.findIndex((pin) => pin.name === focus || pin.ref === focus || pinKey(pin) === focus) : -1;
   if (focusIndex >= 0) setTimeout(() => { if (state.map === map) flyTo(focusIndex); }, 300); // not after the page has changed
-  // `?kind=` (from a 100% Guide page) lists one kind of place and frames all of its pins.
-  const kind = params.get('kind');
-  const ofKind = kind ? pins.filter((pin) => pin.kind === kind) : [];
-  if (ofKind.length) {
-    filter.value = kind;
+  // `?kind=` (from a 100% Guide page) lists one kind of place and frames all of its pins. Several
+  // kinds (`kind=A|B`, from the Discord assistant) narrow the lists and the map to all of them.
+  const kinds = (params.get('kind') || '').split('|').filter(Boolean);
+  const ofKind = kinds.length ? pins.filter((pin) => kinds.includes(pin.kind)) : [];
+  // `?at=x,y;x,y` (from the Discord assistant): the pins at those map positions, shown on their own.
+  const atPins = (params.get('at') || '').split(';').map((s) => s.split(',').map(Number))
+    .filter(([x, y]) => Number.isFinite(x) && Number.isFinite(y))
+    .map(([x, y]) => {
+      let best = -1, bestD = 0.004; // within about a fifth of a percent of the map: the same pin
+      pins.forEach((pin, i) => { const d = Math.hypot(pin.x - x, pin.y - y); if (d < bestD) { best = i; bestD = d; } });
+      return best;
+    }).filter((i) => i >= 0);
+  const framed = ofKind.length ? ofKind : atPins.map((i) => pins[i]);
+  if (ofKind.length && kinds.length === 1) {
+    filter.value = kinds[0];
     drawLists();
-    setTimeout(() => state.map === map && map.flyToBounds(L.latLngBounds(ofKind.map((pin) => point(pin.x, pin.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 }), 300);
+  } else if (framed.length > 1) {
+    runOnly = new Set(framed.map((pin) => pins.indexOf(pin)));
+    drawLists();
+    applyFilterToMap();
+  }
+  if (framed.length > 1 || ofKind.length) {
+    setTimeout(() => state.map === map && map.flyToBounds(L.latLngBounds(framed.map((pin) => point(pin.x, pin.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 }), 300);
+  } else if (framed.length === 1 && focusIndex < 0) {
+    setTimeout(() => { if (state.map === map) flyTo(pins.indexOf(framed[0])); }, 300);
   }
   if (params.get('q')) { filter.value = params.get('q'); drawLists(); }
   if (params.get('plan') && plan && !params.get('q')) { plan.open = true; setTimeout(() => { if (state.map === map) planRun(params.get('plan')); }, 350); }

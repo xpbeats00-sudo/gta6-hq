@@ -168,3 +168,46 @@
 .map-card-more > summary:hover { color: var(--text-primary); }
 .map-card:not(.has-image) h3 { padding-right: 22px; }
 .map-card h3 { overflow-wrap: anywhere; }
+
+/* Completion by region: a bubble per region with the share of its 100% objectives marked found */
+.completion-bubble span { position: absolute; transform: translate(-50%, -50%); display: grid; justify-items: center; gap: 1px; min-width: 86px; padding: 6px 10px; border-radius: 10px;
+  background: hsla(var(--hue), 70%, 38%, 0.9); color: #fff; box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.85), 0 6px 16px rgba(0, 0, 0, 0.45); pointer-events: none; text-align: center; }
+.completion-bubble em { font: 700 0.6875rem/1.1 var(--font-display); font-style: normal; text-transform: uppercase; letter-spacing: 0.03em; white-space: nowrap; }
+.completion-bubble b { font: 900 1.15rem/1 var(--font-display); }
+.completion-bubble i { font: 600 0.6875rem var(--font-body); font-style: normal; opacity: 0.9; }
+.map-legend .lg-done { display: inline-block; width: 22px; height: 10px; border-radius: 3px; background: linear-gradient(90deg, hsl(0 70% 42%), hsl(60 70% 42%), hsl(120 70% 38%)); }
+
+/* Your own markers */
+.my-mark span { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--c); color: #1a1026; box-shadow: 0 0 0 2px #1a1026, 0 4px 10px rgba(0, 0, 0, 0.5); cursor: pointer; }
+.my-mark span .i { width: 15px; height: 15px; }
+#leonida-map.is-marking, #leonida-map.is-marking .leaflet-interactive { cursor: crosshair !important; }
+.map-side .my-markers { margin: 12px 0 0; padding: 10px 0 4px; border-top: 1px solid var(--border-subtle); }
+.my-markers h2 { margin: 0 0 6px; font: 800 0.9375rem var(--font-display); font-stretch: 80%; text-transform: uppercase; letter-spacing: 0.03em; }
+.my-markers ul { margin: 0; padding: 0; list-style: none; }
+.my-markers li button { display: flex; align-items: center; gap: 8px; width: 100%; min-height: 32px; padding: 0 8px; border: 0; border-radius: 6px; background: none; color: var(--text-primary); font: 500 0.875rem var(--font-body); text-align: left; cursor: pointer; }
+.my-markers li button:hover { background: var(--surface-2, rgba(255, 255, 255, 0.06)); }
+.my-markers li i { width: 12px; height: 12px; border-radius: 50%; background: var(--c); flex: none; }
+.my-markers li small { margin-left: auto; color: var(--text-muted); font-size: 0.75rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 45%; }
+.mark-card { padding: 12px 14px; display: grid; gap: 8px; }
+.mark-field { display: grid; gap: 3px; font-size: 0.75rem; color: var(--text-secondary); }
+.mark-field input, .mark-field textarea { width: 100%; padding: 6px 8px; border: 1px solid var(--border-strong, rgba(255, 255, 255, 0.2)); border-radius: 6px; background: rgba(0, 0, 0, 0.25); color: var(--text-primary); font: 400 0.875rem var(--font-body); resize: vertical; }
+.mark-colours { display: flex; gap: 6px; }
+.mark-colours label { position: relative; cursor: pointer; }
+.mark-colours input { position: absolute; opacity: 0; }
+.mark-colours i { display: block; width: 22px; height: 22px; border-radius: 50%; background: var(--c); box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.4); }
+.mark-colours input:checked + i { box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--c); }
+.mark-colours input:focus-visible + i { outline: 2px solid var(--accent); outline-offset: 3px; }
+.mark-acts { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.route-opt { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 8px 0; font-size: 0.75rem; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* Verification panel on entry pages */
+.verify { margin-top: var(--s6, 32px); padding: 16px 18px; border: 1px solid var(--border-subtle); border-left: 4px solid var(--v, #8a8a9a); border-radius: 10px; background: rgba(255, 255, 255, 0.02); }
+.verify-confirmed { --v: #4cd08a; }
+.verify-partial { --v: #f2c94c; }
+.verify-unverified { --v: #e0533f; }
+.verify h2 { margin: 0 0 10px; }
+.verify-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 10px 22px; margin: 0; }
+.verify-grid dt { color: var(--text-muted); font: 700 0.6875rem var(--font-display); text-transform: uppercase; letter-spacing: 0.05em; }
+.verify-grid dd { margin: 3px 0 0; font-size: 0.875rem; line-height: 1.45; }
+.verify-level { color: var(--v); }

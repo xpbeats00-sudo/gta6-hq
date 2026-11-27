@@ -2,6 +2,7 @@
   "_about": "The layout of the GTA 6 HQ Discord server. scripts/discord_setup.py reads this and creates, renames, moves and reorders to match; it never deletes anything. Channels and categories are matched ignoring their emoji prefix, so changing an emoji renames the channel. Edit this file and run the script again to change the server. A role's emoji is shown in front of its name on the server; everywhere in this file roles are named without it. The server is chosen by guild_id, never by name.",
   "guild_name": "Grand Theft Auto VI HQ",
   "guild_id": "1570330812908441600",
+  "join_messages": "welcome",
   "status": "Leonida",
   "roles": [
     {
@@ -192,6 +193,11 @@
           "name": "「🗺️」map-and-locations",
           "type": "text",
           "topic": "Leonida, Vice City and where to find things."
+        },
+        {
+          "name": "「❓」gta6-questions",
+          "type": "text",
+          "topic": "Ask anything about GTA 6 in your own words: where to find it, how to do it, what's best. The GTA 6 HQ bot answers from the app's data, with a map you can open. Also /ask, /map, /vehicle, /weapon, /guide."
         },
         {
           "name": "「🔮」theories",

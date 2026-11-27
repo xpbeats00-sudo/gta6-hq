@@ -13,3 +13,5 @@
 
 # Screenshots the Edge suites write during CI
 /shots-windows/
+/site
+__pycache__/
