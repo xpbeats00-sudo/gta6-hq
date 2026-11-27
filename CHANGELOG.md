@@ -2,6 +2,25 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.48 (27 November 2026)
+
+A map with everything on it, every vehicle with its picture, the game's own menu art, and real controllers.
+
+- **The whole map:** 5,548 more places, so every kind of place GTABase's map lists is on ours:
+  - yellow loot boxes, safes, hidden packages, meteorites, SCOOP containers, cocaine flamingos, AHOL street art, luxury watches and every collectible card set;
+  - random events, Under the Bridge, stunt jumps, knife flights, Standout vehicles, vehicle and weapon pickups, helipads, hospitals, and fire and police stations;
+  - random events and Easter eggs stay hidden as spoilers until you show them.
+- **Sharper pins:** the new places sit exactly where they are on the zoomed-in street map.
+- **Every vehicle:** 262 more, including all 281 Standout vehicles in their 25 sets, each with the game's menu picture.
+- **Garage:**
+  - a Class picker for the 20 classes, and a Standout set picker with "Hide standout vehicles";
+  - sort by speed or cost, and a Standout badge;
+  - each vehicle's real-life inspiration.
+- **The game's own menu art:** studio shots for 280 vehicles and 54 weapons, with the game's descriptions, Style, Era and Mod shop specialist, weapon stat bars, and animal facts.
+- **Missions:** four sharper pictures, and missable missions and points of no return are marked.
+- **Controls:** a real DualSense or Xbox Series controller, with a line from each action to its button.
+- **Wide windows:** the side picture columns no longer cover the Card Collections, Garage and other game-style menus.
+
 ## 0.2.47 (27 November 2026)
 
 The game's own card art and vehicle pictures, a smarter map, and a fresh build after Windows Security wrongly flagged 0.2.46.

@@ -119,16 +119,17 @@ When a new version is out, the app says so. In an installed copy, **Update now**
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.svg" alt="What's new" width="860"></p>
 
+- **0.2.48**: everything on the map (5,548 more places), every vehicle with its picture and Standout sets in the Garage, the game's own menu art, and real controllers.
 - **0.2.47**: the game's own card art and vehicle pictures, a smarter map with routes and your own markers, and a fresh build after Windows Security wrongly flagged 0.2.46.
 - **0.2.46**: a map and menus that look like the game's, a Garage and Weapon Locker with stat bars, Card Collections, Cheats and Controls, Trophy Guides, and 74 cleaner, sharper pictures.
 - **0.2.45**: all 40 gang operations on the map, a safe code for every safe, and entry pages that link the people and places they mention.
 - **0.2.44**: choose your start-up (Classic or the game's own Official intro), 49 new pictures, voice actors for the cast, the latest news and checked facts.
 - **0.2.43**: 63 new pictures, and pictures removed for site logos no longer come back on installed copies.
-- **0.2.42**: a "Track and plan" row on Home, a "What's here" panel on every place, a tidier Saved page and styled jump buttons.
 
 <details>
 <summary>Earlier versions</summary>
 
+- **0.2.42**: a "Track and plan" row on Home, a "What's here" panel on every place, a tidier Saved page and styled jump buttons.
 - **0.2.41**: routes that follow the roads, lists you can group (by type, county, maker, grade, lead or habitat), pages that link to each other, and a tidier Intel, Missions and map.
 - **0.2.40**: 123 new pictures, a progress backup, missions in story order, map tracking (hide discovered, Next, Only), a 100% Checklist and safe codes.
 - **0.2.39**: the Rockstar GTA VI guide look, 42 new entries, 56 new and 110 sharper pictures, and cleaner sources.
