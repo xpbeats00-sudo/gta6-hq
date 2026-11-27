@@ -9890,7 +9890,8 @@
     "facts": {
       "type": "Collectible card (Liberty Swingers)",
       "region": "western Downtown",
-      "total": 24
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-ls-christian-freeman-deep-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -13649,7 +13650,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "downtown Grayson",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-flamer-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14100,7 +14102,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "Port Gellhorn",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-president-blunt-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14180,7 +14183,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "western Hamlet",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-president-quinn-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -14533,7 +14537,8 @@
     "facts": {
       "type": "Collectible card (Right Wing: America's Hero)",
       "region": "eastern Stockyard",
-      "total": 36
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-rw-the-educated-woman-red.webp"
     },
     "confidence": "corroborated",
     "sources": [
@@ -17505,6 +17510,192 @@
       "ign-cards-vcn"
     ],
     "verified": "2026-11-18",
+    "spoiler": true
+  },
+  {
+    "slug": "card-ed-femi-nemesis-bronze",
+    "name": "Femi-Nemesis (Bronze) card",
+    "summary": "A Bronze Femi-Nemesis card from the ED Comics Universe set, one of the 18 collectible card sets.",
+    "body": [
+      "MetaForge's GTA 6 database lists the Bronze Femi-Nemesis card in the ED Comics Universe set, a comic set of 36 cards; the card list we first used left it out.",
+      "No guide we use gives its place yet.",
+      "Cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+    ],
+    "tags": [
+      "cards",
+      "collectible cards",
+      "ed comics universe"
+    ],
+    "facts": {
+      "type": "Collectible card (Ed Universe)",
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-femi-nemesis-bronze.webp"
+    },
+    "confidence": "community",
+    "sources": [
+      "metaforge-cards-ed"
+    ],
+    "verified": "2026-11-27",
+    "spoiler": true
+  },
+  {
+    "slug": "card-ed-femi-nemesis-silver",
+    "name": "Femi-Nemesis (Silver) card",
+    "summary": "A Silver Femi-Nemesis card from the ED Comics Universe set, one of the 18 collectible card sets.",
+    "body": [
+      "MetaForge's GTA 6 database lists the Silver Femi-Nemesis card in the ED Comics Universe set, a comic set of 36 cards; the card list we first used left it out.",
+      "PowerPyx places it in VCIA, directly southwest of the Pawn City pawn shop, in an enterable trailer, on a dresser.",
+      "Cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+    ],
+    "tags": [
+      "cards",
+      "collectible cards",
+      "ed comics universe"
+    ],
+    "facts": {
+      "type": "Collectible card (Ed Universe)",
+      "region": "VCIA",
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-femi-nemesis-silver.webp"
+    },
+    "confidence": "community",
+    "sources": [
+      "metaforge-cards-ed",
+      "rs2-powerpyx-card-ed"
+    ],
+    "verified": "2026-11-27",
+    "spoiler": true
+  },
+  {
+    "slug": "card-ed-femi-nemesis-gold",
+    "name": "Femi-Nemesis (Gold) card",
+    "summary": "A Gold Femi-Nemesis card from the ED Comics Universe set, one of the 18 collectible card sets.",
+    "body": [
+      "MetaForge's GTA 6 database lists the Gold Femi-Nemesis card in the ED Comics Universe set, a comic set of 36 cards; the card list we first used left it out.",
+      "No guide we use gives its place yet.",
+      "Cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+    ],
+    "tags": [
+      "cards",
+      "collectible cards",
+      "ed comics universe"
+    ],
+    "facts": {
+      "type": "Collectible card (Ed Universe)",
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-ed-femi-nemesis-gold.webp"
+    },
+    "confidence": "community",
+    "sources": [
+      "metaforge-cards-ed"
+    ],
+    "verified": "2026-11-27",
+    "spoiler": true
+  },
+  {
+    "slug": "card-joh-zaria-ri-ri-luckett-bronze",
+    "name": "Zaria \"RI RI\" Luckett (Bronze) card",
+    "summary": "A Bronze Zaria \"RI RI\" Luckett card from the Jack of Hearts Dancers set, one of the 18 collectible card sets.",
+    "body": [
+      "MetaForge's GTA 6 database lists the Bronze Zaria \"RI RI\" Luckett card in the Jack of Hearts Dancers set, a dancers set of 36 cards; the card list we first used left it out.",
+      "No guide we use gives its place yet.",
+      "Cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+    ],
+    "tags": [
+      "cards",
+      "collectible cards",
+      "jack of hearts dancers"
+    ],
+    "facts": {
+      "type": "Collectible card (Jack of Hearts Dancers)",
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-zaria-ri-ri-luckett-bronze.webp"
+    },
+    "confidence": "community",
+    "sources": [
+      "metaforge-cards-joh"
+    ],
+    "verified": "2026-11-27",
+    "spoiler": true
+  },
+  {
+    "slug": "card-joh-zaria-ri-ri-luckett-silver",
+    "name": "Zaria \"RI RI\" Luckett (Silver) card",
+    "summary": "A Silver Zaria \"RI RI\" Luckett card from the Jack of Hearts Dancers set, one of the 18 collectible card sets.",
+    "body": [
+      "MetaForge's GTA 6 database lists the Silver Zaria \"RI RI\" Luckett card in the Jack of Hearts Dancers set, a dancers set of 36 cards; the card list we first used left it out.",
+      "No guide we use gives its place yet.",
+      "Cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+    ],
+    "tags": [
+      "cards",
+      "collectible cards",
+      "jack of hearts dancers"
+    ],
+    "facts": {
+      "type": "Collectible card (Jack of Hearts Dancers)",
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-zaria-ri-ri-luckett-silver.webp"
+    },
+    "confidence": "community",
+    "sources": [
+      "metaforge-cards-joh"
+    ],
+    "verified": "2026-11-27",
+    "spoiler": true
+  },
+  {
+    "slug": "card-joh-zaria-ri-ri-luckett-gold",
+    "name": "Zaria \"RI RI\" Luckett (Gold) card",
+    "summary": "A Gold Zaria \"RI RI\" Luckett card from the Jack of Hearts Dancers set, one of the 18 collectible card sets.",
+    "body": [
+      "MetaForge's GTA 6 database lists the Gold Zaria \"RI RI\" Luckett card in the Jack of Hearts Dancers set, a dancers set of 36 cards; the card list we first used left it out.",
+      "No guide we use gives its place yet.",
+      "Cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+    ],
+    "tags": [
+      "cards",
+      "collectible cards",
+      "jack of hearts dancers"
+    ],
+    "facts": {
+      "type": "Collectible card (Jack of Hearts Dancers)",
+      "total": 36,
+      "menu_picture": "/images/collectibles/cards/card-joh-zaria-ri-ri-luckett-gold.webp"
+    },
+    "confidence": "community",
+    "sources": [
+      "metaforge-cards-joh"
+    ],
+    "verified": "2026-11-27",
+    "spoiler": true
+  },
+  {
+    "slug": "card-vcm-maleek-rivers-gold",
+    "name": "Maleek Rivers (Gold) card",
+    "summary": "A Gold Maleek Rivers card from the Vice City Manatees set, one of the 18 collectible card sets.",
+    "body": [
+      "MetaForge's GTA 6 database lists the Gold Maleek Rivers card in the Vice City Manatees set, a football set of 24 cards; the card list we first used left it out.",
+      "PowerPyx places it in Ocean Beach, in a safe on top of a filing cabinet (code 02605); move the pallets in front of the garage with the forklift on the northwest side of the building to reach the garage door.",
+      "Cards can be kept in a box at the safehouse and sold at any pawn shop, where a card's colour and rarity decide its price."
+    ],
+    "tags": [
+      "cards",
+      "collectible cards",
+      "vice city manatees"
+    ],
+    "facts": {
+      "type": "Collectible card (Vice City Manatees)",
+      "region": "Ocean Beach",
+      "total": 24,
+      "menu_picture": "/images/collectibles/cards/card-vcm-maleek-rivers-gold.webp"
+    },
+    "confidence": "community",
+    "sources": [
+      "metaforge-cards-vcm",
+      "powerpyx-cards-vice-city-manatees"
+    ],
+    "verified": "2026-11-27",
     "spoiler": true
   }
 ]

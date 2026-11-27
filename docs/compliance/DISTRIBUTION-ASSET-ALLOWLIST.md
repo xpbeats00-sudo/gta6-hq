@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-27 13:40 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-27 13:53 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -34,7 +34,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/map-icons/wyman-car.svg`
 - `images/map-icons/yellow-loot-box.svg`
 
-## Local personal use only (2478)
+## Local personal use only (2490)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -401,6 +401,9 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-ed-dr-placebo-light-blue.webp`
 - `images/collectibles/cards/card-ed-dr-placebo-orange.webp`
 - `images/collectibles/cards/card-ed-dr-placebo-pink.webp`
+- `images/collectibles/cards/card-ed-femi-nemesis-bronze.webp`
+- `images/collectibles/cards/card-ed-femi-nemesis-gold.webp`
+- `images/collectibles/cards/card-ed-femi-nemesis-silver.webp`
 - `images/collectibles/cards/card-ed-fornicator-light-blue.webp`
 - `images/collectibles/cards/card-ed-fornicator-orange.webp`
 - `images/collectibles/cards/card-ed-fornicator-pink.webp`
@@ -458,6 +461,9 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-joh-vanessa-bronze.webp`
 - `images/collectibles/cards/card-joh-vanessa-gold.webp`
 - `images/collectibles/cards/card-joh-vanessa-silver.webp`
+- `images/collectibles/cards/card-joh-zaria-ri-ri-luckett-bronze.webp`
+- `images/collectibles/cards/card-joh-zaria-ri-ri-luckett-gold.webp`
+- `images/collectibles/cards/card-joh-zaria-ri-ri-luckett-silver.webp`
 - `images/collectibles/cards/card-lcp-alexander-avain-bright-orange.webp`
 - `images/collectibles/cards/card-lcp-alexander-avain-navy-blue.webp`
 - `images/collectibles/cards/card-lcp-alexander-avain-silver.webp`
@@ -509,6 +515,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-ls-blake-balls-gold.webp`
 - `images/collectibles/cards/card-ls-blake-balls-silver.webp`
 - `images/collectibles/cards/card-ls-christian-delgado-standard.webp`
+- `images/collectibles/cards/card-ls-christian-freeman-deep-red.webp`
 - `images/collectibles/cards/card-ls-christian-freeman-navy-blue.webp`
 - `images/collectibles/cards/card-ls-christian-freeman-silver.webp`
 - `images/collectibles/cards/card-ls-duke-king-deep-red.webp`
@@ -666,6 +673,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-ratface-wokester-maroon.webp`
 - `images/collectibles/cards/card-ratface-wokester-purple.webp`
 - `images/collectibles/cards/card-rw-flamer-blue.webp`
+- `images/collectibles/cards/card-rw-flamer-red.webp`
 - `images/collectibles/cards/card-rw-flamer-right-wing-blue.webp`
 - `images/collectibles/cards/card-rw-flamer-right-wing-red.webp`
 - `images/collectibles/cards/card-rw-flamer-right-wing-white.webp`
@@ -680,8 +688,10 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-rw-immigrintasma-red.webp`
 - `images/collectibles/cards/card-rw-immigrintasma-white.webp`
 - `images/collectibles/cards/card-rw-president-blunt-blue.webp`
+- `images/collectibles/cards/card-rw-president-blunt-red.webp`
 - `images/collectibles/cards/card-rw-president-blunt-white.webp`
 - `images/collectibles/cards/card-rw-president-quinn-blue.webp`
+- `images/collectibles/cards/card-rw-president-quinn-red.webp`
 - `images/collectibles/cards/card-rw-president-quinn-white.webp`
 - `images/collectibles/cards/card-rw-right-wing-blue.webp`
 - `images/collectibles/cards/card-rw-right-wing-red.webp`
@@ -693,6 +703,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-rw-right-wings-truck-red.webp`
 - `images/collectibles/cards/card-rw-right-wings-truck-white.webp`
 - `images/collectibles/cards/card-rw-the-educated-woman-blue.webp`
+- `images/collectibles/cards/card-rw-the-educated-woman-red.webp`
 - `images/collectibles/cards/card-rw-the-educated-woman-white.webp`
 - `images/collectibles/cards/card-rw-they-blue.webp`
 - `images/collectibles/cards/card-rw-they-red.webp`
@@ -770,6 +781,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/collectibles/cards/card-vcm-junior-taufua-green.webp`
 - `images/collectibles/cards/card-vcm-junior-taufua-silver.webp`
 - `images/collectibles/cards/card-vcm-maleek-rivers-bronze.webp`
+- `images/collectibles/cards/card-vcm-maleek-rivers-gold.webp`
 - `images/collectibles/cards/card-vcm-maleek-rivers-silver.webp`
 - `images/collectibles/cards/card-vcm-manniken-stills-standard.webp`
 - `images/collectibles/cards/card-vcm-reggie-pierce-standard.webp`

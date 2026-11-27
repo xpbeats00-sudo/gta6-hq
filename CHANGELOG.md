@@ -4,7 +4,8 @@ Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-h
 
 ## Unreleased
 
-- **Card fronts:** 456 more collectible cards show their real front (468 of 473), every colour variant included, from MetaForge's GTA 6 database; each picture carries a faint MetaForge watermark and is credited to them. Cards named for who is on them now also carry the title printed on the card (Burning Desire, Red White & Boom, Officer XXX, Tusi Taufua, Right vs. Left).
+- **Every card:** all 480 collectible cards are in, each with its real front. Seven the list was missing are added (Femi-Nemesis and Zaria "RI RI" Luckett in Bronze, Silver and Gold, and the Gold Maleek Rivers), so Ed Comics Universe and Jack of Hearts Dancers show all 36 and Vice City Manatees all 24.
+- **Card fronts:** 468 more cards show their real front, every colour variant included, from MetaForge's GTA 6 database; each picture carries a faint MetaForge watermark and is credited to them. Cards named for who is on them now also carry the title printed on the card (Burning Desire, Red White & Boom, Officer XXX, Tusi Taufua, Right vs. Left).
 - **Card Collections:** a card with a front shows it in the set's grid whether or not you have found it, with a tick once found; the big card is no longer greyed out.
 
 ## 0.2.49 (27 November 2026)
