@@ -1,6 +1,6 @@
 # Media rights audit
 
-Generated 2026-11-27 14:18 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-27 14:51 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
@@ -11,7 +11,7 @@ Generated 2026-11-27 14:18 by `scripts/audit_media.py` from the files on disk an
 | Files with no record | 0 |
 | Records with no file | 0 |
 | Groups of identical files | 0 |
-| Files not used anywhere | 34 |
+| Files not used anywhere | 35 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 21 |
 
@@ -82,6 +82,7 @@ On disk and recorded, but no entry, manual page or interface file points at them
 - `images/vehicles/67-transgressor.jpg`
 - `images/vehicles/benefactor-shafter-s.jpg`
 - `images/vehicles/benefactor-shafter-v12.jpg`
+- `images/vehicles/declasse-walton-l35.jpg`
 - `images/vehicles/western-zombie-chopper.jpg`
 - `images/vi-logo-reveal-discord-1024.png`
 - `images/vi-logo-reveal.jpg`

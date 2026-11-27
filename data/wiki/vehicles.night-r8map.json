@@ -2498,7 +2498,8 @@
     "summary": "A standout Sungrazer that GTABase's map places in the Watson Bay area.",
     "body": [
       "GTABase's interactive map lists the Sirius '61 Sungrazer in its Standout Vehicle category, filed under the Watson Bay area.",
-      "It is a standout version of the Sirius Sungrazer '61, which GTABase lists as a coupe."
+      "It is a standout version of the Sirius Sungrazer '61, which GTABase lists as a coupe.",
+      "The picture is the stock Sirius Sungrazer '61 from the game's vehicle menu; no studio picture of this version has been published. No picture of this standout's own finish has been published."
     ],
     "tags": [
       "sirius",
@@ -2517,7 +2518,8 @@
       "r8gb-map-standout-vehicle"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/sirius-sungrazer-61.jpg"
   },
   {
     "slug": "sirius-holdout-sungrazer",

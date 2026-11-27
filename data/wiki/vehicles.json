@@ -4948,11 +4948,21 @@
       "GTABase files it under Pickups and lists Declasse as its maker.",
       "GTABase says it is based on the 1991-1993 Chevrolet S-10.",
       "GTABase gives its cost to register as $3,400.",
-      "In-game speed bar (out of 10): 3.8, as read by GTABase."
+      "In-game speed bar (out of 10): 3.8, as read by GTABase.",
+      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
+      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
+      "DayOne's list from the released game names it and files it under Pickups.",
+      "GTABase's page for the Declasse Walton '81 lists a registration cost of $3,400 and a stolen sell value of $1,045.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Off-Road.",
+      "GTABase's old page for the Declasse Walton L35 now opens this vehicle, the Walton '81."
     ],
     "confidence": "community",
     "sources": [
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "gtabase-vehicles",
+      "dayone-cars",
+      "r8gb-vehicles-walton-l35"
     ],
     "verified": "2026-11-27",
     "status": "published",
@@ -4960,7 +4970,11 @@
     "tags": [
       "vehicle",
       "pickups",
-      "declasse"
+      "declasse",
+      "l35",
+      "off",
+      "road",
+      "walton"
     ],
     "facts": {
       "manufacturer": "Declasse",
@@ -4969,9 +4983,17 @@
       "speed": 3.8,
       "price": "$3,400 (cost to register, GTABase)",
       "based_on": "1991-1993 Chevrolet S-10",
-      "menu_picture": "/images/vehicles/declasse-walton-81.jpg"
+      "menu_picture": "/images/vehicles/declasse-walton-81.jpg",
+      "model": "Walton L35",
+      "drivetrain": "AWD"
     },
-    "image": "/images/vehicles/declasse-walton-81.jpg"
+    "image": "/images/vehicles/declasse-walton-81.jpg",
+    "aliases": [
+      "Declasse Walton L35"
+    ],
+    "former_slugs": [
+      "declasse-walton-l35"
+    ]
   },
   {
     "slug": "declasse-tap-tap-walton",
@@ -7779,7 +7801,8 @@
     "summary": "An emergency vehicle made by Bravado, listed in GTABase's vehicle database.",
     "body": [
       "GTABase files it under Emergency and lists Bravado as its maker.",
-      "GTABase says it is based on the 2018 Dodge Challenger SRT Demon."
+      "GTABase says it is based on the 2018 Dodge Challenger SRT Demon.",
+      "The picture is the stock Bravado Gauntlet Hellfire from the game's vehicle menu; no studio picture of this version has been published. Both are based on the 2018 Dodge Challenger SRT Demon, per GTABase."
     ],
     "confidence": "community",
     "sources": [
@@ -7798,7 +7821,8 @@
       "class": "Emergency",
       "seats": 2,
       "based_on": "2018 Dodge Challenger SRT Demon"
-    }
+    },
+    "image": "/images/vehicles/menu/bravado-gauntlet-hellfire.jpg"
   },
   {
     "slug": "freight-train",

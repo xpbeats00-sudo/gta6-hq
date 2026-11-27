@@ -6056,7 +6056,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all.",
+      "The picture is the stock '98 Vapid Stanier from the game's vehicle menu; no studio picture of this version has been published. The '98 Stanier is the game's Crown Victoria-based Stanier, the car GTABase says this police version is based on."
     ],
     "tags": [
       "emergency",
@@ -6078,7 +6079,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-stanier-98.jpg"
   },
   {
     "slug": "police-landstalker-xl",
@@ -7789,40 +7791,6 @@
     "verified": "2026-11-26",
     "spoiler": true,
     "image": "/images/vehicles/menu/bf-greta.jpg"
-  },
-  {
-    "slug": "declasse-walton-l35",
-    "name": "Declasse Walton L35",
-    "summary": "GTABase's GTA VI vehicle database lists the Declasse Walton L35 in its Off-Road class, made by Declasse.",
-    "body": [
-      "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
-      "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Pickups.",
-      "GTABase's page for the Declasse Walton '81 lists a registration cost of $3,400 and a stolen sell value of $1,045.",
-      "GTABase says it carries no tracker.",
-      "GTABase lists its specialist type as Off-Road."
-    ],
-    "tags": [
-      "declasse",
-      "l35",
-      "off",
-      "road",
-      "walton"
-    ],
-    "facts": {
-      "manufacturer": "Declasse",
-      "model": "Walton L35",
-      "class": "Pickups",
-      "seats": 2,
-      "drivetrain": "AWD"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "gtabase-vehicles",
-      "dayone-cars",
-      "r8gb-vehicles-walton-l35"
-    ],
-    "verified": "2026-11-19"
   },
   {
     "slug": "wastelander",
