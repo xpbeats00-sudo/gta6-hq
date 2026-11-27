@@ -6,6 +6,8 @@ Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-h
 
 - **Every card:** all 480 collectible cards are in, each with its real front. Seven the list was missing are added (Femi-Nemesis and Zaria "RI RI" Luckett in Bronze, Silver and Gold, and the Gold Maleek Rivers), so Ed Comics Universe and Jack of Hearts Dancers show all 36 and Vice City Manatees all 24.
 - **Card fronts:** 468 more cards show their real front, every colour variant included, from MetaForge's GTA 6 database; each picture carries a faint MetaForge watermark and is credited to them. Cards named for who is on them now also carry the title printed on the card (Burning Desire, Red White & Boom, Officer XXX, Tusi Taufua, Right vs. Left).
+- **Vehicle pictures from the game's menu:** every vehicle with the game's studio picture (the car alone on the pale menu floor) now shows it as its picture, 591 of the 624 vehicles, and the category pages (Classic Cars, Boats, Airboats and others) show one too. Police, taxi, news and rescue versions with no studio picture of their own show the stock model's, and say so. New studio pictures for the Ocelot Jugular, Benefactor Schutzen, Brute B3000 Excavator (GTABase) and the '70 Riata (MetaForge, faint watermark).
+- **Doubled vehicles folded together:** eight pre-launch spellings (Shafter S and V12, Nightlight Schafer, Hung Carbos RS, Superovolito, '82 Imponte Runner, '67 Transgressor, The Ridgeway) are now part of their release entries; old links still open them.
 - **Card Collections:** a card with a front shows it in the set's grid whether or not you have found it, with a tick once found; the big card is no longer greyed out.
 
 ## 0.2.49 (27 November 2026)

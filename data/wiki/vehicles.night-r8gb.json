@@ -45,7 +45,8 @@
       "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/karin-rebel-84.jpg"
   },
   {
     "slug": "bravado-gauntlet-custom-69",
@@ -148,6 +149,7 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/sirius-sungrazer-61.jpg"
   }
 ]

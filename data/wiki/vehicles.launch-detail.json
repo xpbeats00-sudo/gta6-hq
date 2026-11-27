@@ -1,36 +1,5 @@
 [
   {
-    "slug": "the-ridgeway",
-    "name": "The Ridgeway",
-    "summary": "A vehicle named only in the unlock requirement for the Yesteryear screen filter cheat.",
-    "body": [
-      "PowerPyx and Game Rant say the Yesteryear filter unlocks by discovering the Ridgeway.",
-      "DayOne, Press Start, GamesRadar+ and Screen Rant spell it Ridgway.",
-      "None of these guides says what kind of vehicle it is, which group it belongs to or where it is found."
-    ],
-    "tags": [
-      "cheats",
-      "ridgeway",
-      "ridgway",
-      "yesteryear"
-    ],
-    "facts": {
-      "availability": "Location not given in the guides read"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "ppx-cheats",
-      "gamerant-cheats",
-      "dayone-cheats",
-      "pressstart-cheats",
-      "gamesradar-cheats",
-      "screenrant-cheats"
-    ],
-    "verified": "2026-11-18",
-    "spoiler": true,
-    "image": "/images/web/gamesradar-94c55f64825f.jpg"
-  },
-  {
     "slug": "marthas-vamos",
     "name": "Martha's Vamos",
     "summary": "A named vehicle whose discovery in the Progress menu unlocks the Cataclysm screen filter cheat.",
@@ -72,7 +41,7 @@
     ],
     "verified": "2026-11-26",
     "spoiler": true,
-    "image": "/images/web/gamespot-b18e27b34182.jpg"
+    "image": "/images/vehicles/menu/marthas-vamos.jpg"
   },
   {
     "slug": "standout-vehicle-groups",

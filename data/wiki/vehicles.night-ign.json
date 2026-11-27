@@ -41,7 +41,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-smuggler-caracara.jpg"
   },
   {
     "slug": "vapid-truth-and-justice-caracara",
@@ -86,7 +87,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-truth-and-justice-caracara.jpg"
   },
   {
     "slug": "vapid-firebug-dominator",
@@ -129,7 +131,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-firebug-dominator.jpg"
   },
   {
     "slug": "bombora-s23-ccs",
@@ -167,6 +170,7 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bombora-s23-ccs.jpg"
   }
 ]

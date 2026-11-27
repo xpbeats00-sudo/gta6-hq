@@ -39,7 +39,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/progen-purple-drank-emerus.jpg"
   },
   {
     "slug": "pfister-class-act-comet",
@@ -81,7 +82,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/pfister-class-act-comet.jpg"
   },
   {
     "slug": "truffade-andrew-nodes-thrax",
@@ -122,7 +124,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/truffade-andrew-nodes-thrax.jpg"
   },
   {
     "slug": "progen-royal-ruby-emerus",
@@ -164,7 +167,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/progen-royal-ruby-emerus.jpg"
   },
   {
     "slug": "pegassi-valiant-tempesta",
@@ -172,7 +176,8 @@
     "summary": "A standout Tempesta that GTABase's map places in the Vice Beach area.",
     "body": [
       "GTABase's interactive map lists the Pegassi Valiant Tempesta in its Standout Vehicle category, filed under the Vice Beach area.",
-      "It is a standout version of the Tempesta; the app's Pegassi Tempesta entry covers the regular model."
+      "It is a standout version of the Tempesta; the app's Pegassi Tempesta entry covers the regular model.",
+      "The picture is the stock Pegassi Tempesta from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "pegassi",
@@ -191,7 +196,8 @@
       "r8gb-map-standout-vehicle"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/pegassi-tempesta.jpg"
   },
   {
     "slug": "buckingham-bourbon-windsor",
@@ -231,7 +237,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/buckingham-bourbon-windsor.jpg"
   },
   {
     "slug": "pegassi-charred-toros",
@@ -273,7 +280,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/pegassi-charred-toros.jpg"
   },
   {
     "slug": "declasse-pink-gin-tulip",
@@ -313,46 +321,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
-  },
-  {
-    "slug": "benefactor-nightlight-schafer",
-    "name": "Benefactor Nightlight Schafer",
-    "summary": "A standout Schafter that GTABase's map places in the Vice City area.",
-    "body": [
-      "GTABase's interactive map lists the Benefactor Nightlight Schafer in its Standout Vehicle category, filed under the Vice City area.",
-      "It is a standout version of the Schafter; the app's Benefactor Schafter entry covers the regular model.",
-      "The map spells the base model \"Schafer\"; the app has the Benefactor Schafter.",
-      "In-game stat bars (out of 10): Speed 7.2, Acceleration 7.5, Asphalt handling 6.2, Off-road handling 2.9, Strength 3.0, as read by GTABase only so far."
-    ],
-    "tags": [
-      "benefactor",
-      "schafter",
-      "standout vehicle",
-      "vehicle"
-    ],
-    "facts": {
-      "manufacturer": "Benefactor",
-      "model": "Schafter",
-      "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice City area of GTABase's map",
-      "speed": 7.2,
-      "acceleration": 7.5,
-      "asphalt_handling": 6.2,
-      "offroad_handling": 2.9,
-      "strength": 3.0,
-      "price": "$3,650 (Story Mode price, which the guides read as the registration cost)",
-      "sell_value": "$8,357 when stolen",
-      "where": "Standout (GTABase map): Vice City -  #89 Benefactor Nightlight Schafter Vice City Set: Street Racer. One-off Benefactor Schafter S with racing mods, kept at an old building in Little Cuba by the Guardia Brothers."
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "gtabase-map-standout",
-      "gtabase-vehicle-pages",
-      "r8gb-map-standout-vehicle"
-    ],
-    "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-pink-gin-tulip.jpg"
   },
   {
     "slug": "dundreary-cherry-bomb-chino",
@@ -392,7 +362,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/dundreary-cherry-bomb-chino.jpg"
   },
   {
     "slug": "maibatsu-speedy-boomazoom",
@@ -432,7 +403,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/maibatsu-speedy-boomazoom.jpg"
   },
   {
     "slug": "imponte-bloodbath-phoenix",
@@ -472,7 +444,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/imponte-bloodbath-phoenix.jpg"
   },
   {
     "slug": "maibatsu-tropical-manchez",
@@ -513,7 +486,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/maibatsu-tropical-manchez.jpg"
   },
   {
     "slug": "granforma-tsunami-zorrusso",
@@ -553,7 +527,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/granforma-tsunami-zorrusso.jpg"
   },
   {
     "slug": "tuff-immortal-bmx",
@@ -587,7 +562,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/tuff-immortal-bmx.jpg"
   },
   {
     "slug": "lcc-midnight-sun-avarus",
@@ -627,7 +603,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/lcc-midnight-sun-avarus.jpg"
   },
   {
     "slug": "bf-blood-moon-bandito",
@@ -666,7 +643,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bf-blood-moon-bandito.jpg"
   },
   {
     "slug": "declasse-mountain-yosemite",
@@ -707,7 +685,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-mountain-yosemite.jpg"
   },
   {
     "slug": "brute-cherry-popper-boxville",
@@ -747,7 +726,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/brute-cherry-popper-boxville.jpg"
   },
   {
     "slug": "declasse-caliente-picador",
@@ -787,7 +767,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-caliente-picador.jpg"
   },
   {
     "slug": "canis-black-moth-kamacho",
@@ -828,7 +809,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/canis-black-moth-kamacho.jpg"
   },
   {
     "slug": "western-magma-cliffhanger",
@@ -868,7 +850,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/western-magma-cliffhanger.jpg"
   },
   {
     "slug": "lapwing-stolen-valor-300-h",
@@ -901,7 +884,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/lapwing-stolen-valor-300-h.jpg"
   },
   {
     "slug": "declasse-beach-candy-bobcat",
@@ -941,7 +925,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-beach-candy-bobcat.jpg"
   },
   {
     "slug": "declasse-bugstars-burrito",
@@ -983,7 +968,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-bugstars-burrito.jpg"
   },
   {
     "slug": "declasse-ghosts-exposed-parkland",
@@ -1025,7 +1011,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-ghosts-exposed-parkland.jpg"
   },
   {
     "slug": "invetero-enforcer-coquette",
@@ -1065,7 +1052,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/invetero-enforcer-coquette.jpg"
   },
   {
     "slug": "vapid-red-hot-hustler",
@@ -1105,7 +1093,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-red-hot-hustler.jpg"
   },
   {
     "slug": "bravado-elven-queen-youga",
@@ -1145,7 +1134,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bravado-elven-queen-youga.jpg"
   },
   {
     "slug": "vapid-smush-ganado",
@@ -1186,7 +1176,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-smush-ganado.jpg"
   },
   {
     "slug": "airgator-naughty-boy-airboat",
@@ -1220,7 +1211,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/airgator-naughty-boy-airboat.jpg"
   },
   {
     "slug": "canis-gunrunner-kamacho",
@@ -1260,7 +1252,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/canis-gunrunner-kamacho.jpg"
   },
   {
     "slug": "ocelot-bloodless-jugular",
@@ -1300,7 +1293,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/ocelot-bloodless-jugular.jpg"
   },
   {
     "slug": "western-searing-zombie-bobber",
@@ -1340,44 +1334,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
-  },
-  {
-    "slug": "nagasaki-hung-carbos-rs",
-    "name": "Nagasaki Hung Carbos RS",
-    "summary": "A standout Carbon RS that GTABase's map places in the Ambrosia area.",
-    "body": [
-      "GTABase's interactive map lists the Nagasaki Hung Carbos RS in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Carbon RS; the app's Nagasaki Carbon RS entry covers the regular model.",
-      "The map spells the base model \"Carbos RS\"; the app has the Nagasaki Carbon RS.",
-      "In-game stat bars (out of 10): Speed 6.7, Acceleration 7.7, Asphalt handling 7.6, Off-road handling 2.3, Strength 4.0, as read by GTABase only so far."
-    ],
-    "tags": [
-      "carbon rs",
-      "nagasaki",
-      "standout vehicle",
-      "vehicle"
-    ],
-    "facts": {
-      "manufacturer": "Nagasaki",
-      "model": "Carbon RS",
-      "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Ambrosia area of GTABase's map",
-      "speed": 6.7,
-      "acceleration": 7.7,
-      "asphalt_handling": 7.6,
-      "offroad_handling": 2.3,
-      "strength": 4.0,
-      "where": "GTABase: Vandalized Nagasaki Carbon RS. Found hanging from a tree near a biker bar in Belville.; Standout (GTABase map): Ambrosia -  #195 Nagasaki Hung Carbon RS Ambrosia Set: Fine Art. Vandalized Nagasaki Carbon RS. Found hanging from a tree near a biker bar in Belville."
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "gtabase-map-standout",
-      "gtabase-vehicle-pages",
-      "r8gb-map-standout-vehicle"
-    ],
-    "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/western-searing-zombie-bobber.jpg"
   },
   {
     "slug": "lcc-monarch-avarus",
@@ -1417,7 +1375,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/lcc-monarch-avarus.jpg"
   },
   {
     "slug": "bravado-copperheads-gauntlet",
@@ -1459,7 +1418,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bravado-copperheads-gauntlet.jpg"
   },
   {
     "slug": "bravado-devils-rope-gauntlet",
@@ -1501,7 +1461,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bravado-devils-rope-gauntlet.jpg"
   },
   {
     "slug": "pegassi-gold-rope-infernus",
@@ -1543,7 +1504,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/pegassi-gold-rope-infernus.jpg"
   },
   {
     "slug": "classique-emancipator-stallion",
@@ -1583,7 +1545,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/classique-emancipator-stallion.jpg"
   },
   {
     "slug": "vapid-beer-monster-marshall",
@@ -1623,7 +1586,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-beer-monster-marshall.jpg"
   },
   {
     "slug": "bf-sludge-wraith-injection",
@@ -1663,7 +1627,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bf-sludge-wraith-injection.jpg"
   },
   {
     "slug": "bravado-third-eye-youga",
@@ -1703,7 +1668,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bravado-third-eye-youga.jpg"
   },
   {
     "slug": "canis-nancys-crawler",
@@ -1743,7 +1709,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/canis-nancys-crawler.jpg"
   },
   {
     "slug": "maibatsu-myways-manchez",
@@ -1783,7 +1750,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/maibatsu-myways-manchez.jpg"
   },
   {
     "slug": "del-perro-midsummer-erode",
@@ -1817,7 +1785,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/del-perro-midsummer-erode.jpg"
   },
   {
     "slug": "vapid-gradys-slamvan",
@@ -1857,7 +1826,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-gradys-slamvan.jpg"
   },
   {
     "slug": "albany-verdant-buccaneer",
@@ -1897,7 +1867,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/albany-verdant-buccaneer.jpg"
   },
   {
     "slug": "vapid-finns-reclaimer",
@@ -1938,7 +1909,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-finns-reclaimer.jpg"
   },
   {
     "slug": "declasse-truther-burrito",
@@ -1978,7 +1950,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-truther-burrito.jpg"
   },
   {
     "slug": "declasse-flower-powered-rancher",
@@ -2018,7 +1991,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-flower-powered-rancher.jpg"
   },
   {
     "slug": "albany-driveshaft-devanity",
@@ -2058,7 +2032,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/albany-driveshaft-devanity.jpg"
   },
   {
     "slug": "declasse-red-apple-orchard-rancher",
@@ -2098,7 +2073,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-red-apple-orchard-rancher.jpg"
   },
   {
     "slug": "bravado-circles-of-hell-youga",
@@ -2138,7 +2114,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bravado-circles-of-hell-youga.jpg"
   },
   {
     "slug": "karin-busted-cheater-rebel",
@@ -2178,7 +2155,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/karin-busted-cheater-rebel.jpg"
   },
   {
     "slug": "declasse-fruit-outlet-walton",
@@ -2210,7 +2188,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-18",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-fruit-outlet-walton.jpg"
   },
   {
     "slug": "walter-ghost-cruiser",
@@ -2244,7 +2223,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/walter-ghost-cruiser.jpg"
   },
   {
     "slug": "seashark-westbound-azure",
@@ -2278,7 +2258,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/seashark-westbound-azure.jpg"
   },
   {
     "slug": "airgator-dr-sheehans-airboat",
@@ -2312,7 +2293,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/airgator-dr-sheehans-airboat.jpg"
   },
   {
     "slug": "lure-predator-rainbow-ripple-l20s",
@@ -2345,7 +2327,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/lure-predator-rainbow-ripple-l20s.jpg"
   },
   {
     "slug": "nagasaki-rudolph-tao",
@@ -2381,7 +2364,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/nagasaki-rudolph-tao.jpg"
   },
   {
     "slug": "vapid-shrimp-and-save-shifter",
@@ -2422,7 +2406,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-shrimp-and-save-shifter.jpg"
   },
   {
     "slug": "declasse-cousin-carlos-akane",
@@ -2463,7 +2448,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/declasse-cousin-carlos-akane.jpg"
   },
   {
     "slug": "bravado-tropic-dawn-youga",
@@ -2503,7 +2489,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bravado-tropic-dawn-youga.jpg"
   },
   {
     "slug": "sirius-61-sungrazer-standout",
@@ -2570,6 +2557,7 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/sirius-holdout-sungrazer.jpg"
   }
 ]

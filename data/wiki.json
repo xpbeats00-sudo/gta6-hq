@@ -415,42 +415,42 @@
 
   "vehicles": [
     {
-      "slug": "muscle-car", "name": "Classic Cars", "aliases": ["Muscle Cars", "Vapid Ganado"], "class": "Cars",
+      "slug": "muscle-car", "image": "/images/vehicles/menu/vapid-dominator.jpg", "name": "Classic Cars", "aliases": ["Muscle Cars", "Vapid Ganado"], "class": "Cars",
       "summary": "Old American metal, restored and rebuilt. Rockstar's Ultimate Edition screenshots show the Vapid Ganado Retro Build, a low-riding pickup.",
       "body": ["The Vapid Ganado Retro Build is named and pictured in Rockstar's Ultimate Edition screenshots. Its in-game class and performance have not been published.", "||VGC's Ultimate Edition guide says the Ganado Retro Build unlocks in Chapter 1 after the mission Just a Scratch.||", "||GTABase lists Jason's own vehicles as a Ganado '70 and a Tulip '72.||"],
       "related": ["editions/ultimate-edition", "vehicles/vapid-ganado"],
       "tags": ["car", "classic", "vapid", "ganado", "ultimate edition"], "confidence": "official", "sources": ["rockstar-media", "pl-vgc-ultimate", "pl-gtabase-jason"], "verified": "2026-11-22"
     },
     {
-      "slug": "sports-car", "name": "Sports Cars", "aliases": ["Grotti Cheetah", "Cheetah"], "class": "Cars",
+      "slug": "sports-car", "image": "/images/vehicles/menu/grotti-cheetah-95.jpg", "name": "Sports Cars", "aliases": ["Grotti Cheetah", "Cheetah"], "class": "Cars",
       "summary": "Low, wide and fast. Rockstar's Ultimate Edition screenshots show the '95 Grotti Cheetah.",
       "body": ["The '95 Grotti Cheetah is named and pictured in Rockstar's Ultimate Edition screenshots. Its in-game class and performance have not been published.", "||VGC's Ultimate Edition guide says the '95 Grotti Cheetah unlocks in Chapter 5, at the safehouse.||"],
       "related": ["editions/ultimate-edition", "vehicles/grotti-cheetah-95"],
       "tags": ["car", "supercar", "grotti", "cheetah", "ultimate edition"], "confidence": "official", "sources": ["rockstar-media", "pl-vgc-ultimate"], "verified": "2026-11-22"
     },
     {
-      "slug": "speedboat", "name": "Boats", "class": "Boats",
+      "slug": "speedboat", "image": "/images/vehicles/menu/shitzu-squalo.jpg", "name": "Boats", "class": "Boats",
       "summary": "From Brian Heder's boat yard to the party boats of the Keys, Leonida lives on the water.",
       "body": ["Official images of the Leonida Keys show a raft of party boats. Brian Heder moves product through a boat yard there.", "||Kotaku's review lists boats and jet skis among the vehicles you can drive.||", "||VGC's Ultimate Edition guide says the Shitzu Squalo boat unlocks in Chapter 4 at the Washington Beach dock.||", "||GTABase calls Brian's business Brian's Boat Works & Marina.||"],
       "related": ["locations/leonida-keys", "businesses/brians-boat-yard"],
       "tags": ["boat", "water", "smuggling", "keys"], "confidence": "corroborated", "sources": ["g6w-keys", "g6w-brian", "pl-kotaku-review", "pl-vgc-ultimate", "pl-gtabase-brian"], "verified": "2026-11-22"
     },
     {
-      "slug": "airboat", "image": "/images/wildlife/american-alligator.jpg", "name": "Airboats", "class": "Boats", "art": "swamp",
+      "slug": "airboat", "image": "/images/vehicles/menu/airboat-09.jpg", "name": "Airboats", "class": "Boats", "art": "swamp",
       "summary": "Flat-bottomed and fan-driven, the way across Grassrivers.",
       "body": ["Airboats appear in Rockstar's Grassrivers images, and airboating was among the activities in the Extended Look.", "||Kotaku's review lists airboats among the vehicles you can drive.||", "||GTA BOOM's Swamped walkthrough says that Chapter 1 mission uses airboats in its chase on the water.||"],
       "related": ["locations/grassrivers"],
       "tags": ["boat", "swamp", "grassrivers"], "confidence": "corroborated", "sources": ["g6w-grassrivers", "pl-kotaku-review", "pl-gtaboom-swamped"], "verified": "2026-11-22"
     },
     {
-      "slug": "pickup-truck", "name": "Pickups, Dirt Bikes and ATVs", "class": "Off-road", "art": "mountain",
+      "slug": "pickup-truck", "image": "/images/vehicles/menu/vapid-ganado.jpg", "name": "Pickups, Dirt Bikes and ATVs", "class": "Off-road", "art": "mountain",
       "summary": "Mud-ready machines for the backwoods, from Port Gellhorn to Mount Kalaga.",
       "body": ["Official images show dirt bikes and an ATV in the mud at Mount Kalaga and a pickup being chased through Grassrivers. Rockstar's Port Gellhorn text tells you to jump on a dirt bike.", "||Kotaku's review lists dirt bikes and semi-trucks among the vehicles you can drive.||", "||GTA BOOM's Swamped walkthrough says the mission uses Jason's truck, an ATV and a red truck.||"],
       "related": ["locations/mount-kalaga-national-park", "locations/port-gellhorn", "vehicles/vapid-dominator-buggy"],
       "tags": ["truck", "off-road", "4x4", "dirt bike", "atv"], "confidence": "corroborated", "sources": ["g6w-kalaga", "g6w-grassrivers", "g6w-port-gellhorn", "pl-kotaku-review", "pl-gtaboom-swamped"], "verified": "2026-11-22"
     },
     {
-      "slug": "vapid-dominator-buggy",
+      "slug": "vapid-dominator-buggy", "image": "/images/vehicles/menu/vapid-dominator-buggy.jpg",
       "name": "'67 Vapid Dominator Buggy",
       "aliases": [
         "Vapid Dominator Buggy",
@@ -511,14 +511,14 @@
       "verified": "2026-11-26"
     },
     {
-      "slug": "aircraft", "name": "Planes and Helicopters", "class": "Aircraft", "art": "keys",
+      "slug": "aircraft", "image": "/images/vehicles/buckingham-supervolito.jpg", "name": "Planes and Helicopters", "class": "Aircraft", "art": "keys",
       "summary": "Seaplanes over the Keys and helicopters over everything.",
       "body": ["Official images show a seaplane over the Leonida Keys, a police helicopter over Grassrivers and a news helicopter over Mount Kalaga.", "||Kotaku's review lists planes and helicopters among the vehicles you can drive.||", "||GTA BOOM's Swamped walkthrough says the mission uses a Sea Sparrow helicopter. PowerPyx's trophy guide has a trophy for stealing a passenger plane at VCIA.||"],
       "related": ["locations/leonida-keys"],
       "tags": ["plane", "seaplane", "helicopter", "air", "police"], "confidence": "corroborated", "sources": ["g6w-map", "g6w-grassrivers", "g6w-kalaga", "pl-kotaku-review", "pl-gtaboom-swamped", "ppx-trophy-guide"], "verified": "2026-11-22"
     },
     {
-      "slug": "jet-ski", "name": "Jet Skis and Kayaks", "class": "Boats", "art": "port",
+      "slug": "jet-ski", "image": "/images/vehicles/menu/seashark-azure.jpg", "name": "Jet Skis and Kayaks", "class": "Boats", "art": "port",
       "summary": "Small craft for the Keys and the rivers of the north.",
       "body": ["Jet skis and kayaking were both shown in the Extended Look. Official images show jet skis in the Keys and a kayaker at Mount Kalaga.", "||Kotaku's review lists jet skis among the vehicles you can drive.||"],
       "related": ["activities/water-sports", "locations/leonida-keys"],

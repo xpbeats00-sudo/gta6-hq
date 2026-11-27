@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-27 13:53 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-27 14:18 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -34,7 +34,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/map-icons/wyman-car.svg`
 - `images/map-icons/yellow-loot-box.svg`
 
-## Local personal use only (2490)
+## Local personal use only (2494)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -1793,6 +1793,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/vehicles/mammoth-streamer216.jpg`
 - `images/vehicles/menu/64-mamba-gt.jpg`
 - `images/vehicles/menu/65-vapid-dominator.jpg`
+- `images/vehicles/menu/70-riata.jpg`
 - `images/vehicles/menu/72-deviant.jpg`
 - `images/vehicles/menu/airboat-09.jpg`
 - `images/vehicles/menu/albany-buccaneer-65.jpg`
@@ -1806,6 +1807,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/vehicles/menu/ascot-paragon.jpg`
 - `images/vehicles/menu/benefactor-dubsta.jpg`
 - `images/vehicles/menu/benefactor-schafter.jpg`
+- `images/vehicles/menu/benefactor-shutzen.jpg`
 - `images/vehicles/menu/benefactor-xls.jpg`
 - `images/vehicles/menu/bf-bandito-77.jpg`
 - `images/vehicles/menu/bf-greta.jpg`
@@ -1871,6 +1873,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/vehicles/menu/hauners-rhino-tank.jpg`
 - `images/vehicles/menu/hulls-sea-enchantress.jpg`
 - `images/vehicles/menu/hvy-bulldozer.jpg`
+- `images/vehicles/menu/hvy-excavator.jpg`
 - `images/vehicles/menu/imponte-phoenix.jpg`
 - `images/vehicles/menu/imponte-ruiner-82.jpg`
 - `images/vehicles/menu/interstate-ambulance.jpg`
@@ -1916,6 +1919,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/vehicles/menu/obey-animus.jpg`
 - `images/vehicles/menu/obey-tailgater-s.jpg`
 - `images/vehicles/menu/ocelot-bloodless-jugular.jpg`
+- `images/vehicles/menu/ocelot-jagular.jpg`
 - `images/vehicles/menu/osprey-journey.jpg`
 - `images/vehicles/menu/ped-scorcher.jpg`
 - `images/vehicles/menu/pegassi-infernus-96.jpg`

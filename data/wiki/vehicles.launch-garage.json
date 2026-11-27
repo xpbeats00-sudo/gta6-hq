@@ -52,7 +52,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/interstate-ambulance.jpg"
   },
   {
     "slug": "airboat-09",
@@ -98,7 +99,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-watercraft-boats"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/airboat-09.jpg"
   },
   {
     "slug": "bravado-banshee",
@@ -157,7 +159,8 @@
       "ppx-menu-sports-cars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bravado-banshee.jpg"
   },
   {
     "slug": "tuff-bmx",
@@ -201,7 +204,8 @@
       "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/tuff-bmx.jpg"
   },
   {
     "slug": "maibatsu-boomazoom",
@@ -254,7 +258,8 @@
       "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/maibatsu-boomazoom.jpg"
   },
   {
     "slug": "nagasaki-carbon-rs",
@@ -306,7 +311,8 @@
       "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/nagasaki-carbon-rs.jpg"
   },
   {
     "slug": "65-vapid-dominator",
@@ -369,7 +375,7 @@
     ],
     "verified": "2026-11-26",
     "spoiler": true,
-    "image": "/images/web/screenrant-1f20628797d2.jpg"
+    "image": "/images/vehicles/menu/65-vapid-dominator.jpg"
   },
   {
     "slug": "progen-emerus",
@@ -420,7 +426,8 @@
       "ppx-menu-supercars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/progen-emerus.jpg"
   },
   {
     "slug": "inflatable-flamingo",
@@ -500,7 +507,8 @@
       "ppx-menu-emergency-vehicles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/mtl-pumper.jpg"
   },
   {
     "slug": "vapid-stanier-g2-taxi",
@@ -538,7 +546,8 @@
       "screenrant-cheats",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/vapid-stanier-g2-taxi.jpg"
   },
   {
     "slug": "hauners-p-996-lazer",
@@ -582,7 +591,7 @@
     ],
     "verified": "2026-11-26",
     "spoiler": true,
-    "image": "/images/web/gtabase-t-ae4143f92dea.jpg"
+    "image": "/images/vehicles/menu/hauners-p-996-lazer.jpg"
   },
   {
     "slug": "hvy-bulldozer",
@@ -625,7 +634,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/hvy-bulldozer.jpg"
   },
   {
     "slug": "lapwing-mallard",
@@ -670,7 +680,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-aircraft"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/lapwing-mallard.jpg"
   },
   {
     "slug": "brimstone-golfer",
@@ -706,7 +717,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/brimstone-golfer.jpg"
   },
   {
     "slug": "hauners-rhino-tank",
@@ -764,7 +776,8 @@
       "ppx-menu-military-vehicles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/hauners-rhino-tank.jpg"
   },
   {
     "slug": "maibatsu-sanchez",
@@ -819,7 +832,8 @@
       "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/maibatsu-sanchez.jpg"
   },
   {
     "slug": "nagasaki-sea-sparrow",
@@ -862,7 +876,8 @@
       "ppx-menu-aircraft"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/nagasaki-sea-sparrow.jpg"
   },
   {
     "slug": "speeder-700-gt",
@@ -903,7 +918,7 @@
     ],
     "verified": "2026-11-26",
     "spoiler": true,
-    "image": "/images/web/playday-9476143ebf71.jpg"
+    "image": "/images/vehicles/menu/speeder-700-gt.jpg"
   },
   {
     "slug": "truffade-thrax",
@@ -956,7 +971,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-supercars"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/truffade-thrax.jpg"
   },
   {
     "slug": "western-zombie-bobber",
@@ -1013,7 +1029,8 @@
     ],
     "former_slugs": [
       "western-zombie-chopper"
-    ]
+    ],
+    "image": "/images/vehicles/western-zombie-bobber.jpg"
   },
   {
     "slug": "granforma-zorrusso",
@@ -1069,7 +1086,8 @@
       "ppx-menu-supercars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/granforma-zorrusso.jpg"
   },
   {
     "slug": "pegassi-vitello",
@@ -1127,7 +1145,8 @@
       "ppx-menu-supercars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/pegassi-vitello.jpg"
   },
   {
     "slug": "buckingham-windsor-drop",
@@ -1183,7 +1202,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/buckingham-windsor-drop.jpg"
   },
   {
     "slug": "pegassi-toros",
@@ -1237,7 +1257,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/pegassi-toros.jpg"
   },
   {
     "slug": "pegassi-tempesta",
@@ -1293,7 +1314,8 @@
       "ppx-menu-supercars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/pegassi-tempesta.jpg"
   },
   {
     "slug": "ascot-paragon",
@@ -1345,7 +1367,8 @@
       "ppx-menu-coupes",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/ascot-paragon.jpg"
   },
   {
     "slug": "ocelot-jagular",
@@ -1356,7 +1379,8 @@
       "PowerPyx says wish-list cars turn up often around Vice Beach and Ocean Beach, parked outside hotels or in traffic, and that scanning one with the Waink app shows whether Randy wants it.",
       "The spelling Jagular is PowerPyx's; no second source for the spelling was read.",
       "DayOne's list from the released game names it and files it under Sedans.",
-      "In-game stat bars (out of 10): Speed 6.5, Acceleration 7.3, Asphalt handling 5.8, Off-road handling 4.5, Strength 3.0, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Speed 6.5, Acceleration 7.3, Asphalt handling 5.8, Off-road handling 4.5, Strength 3.0, as read by GTABase only so far.",
+      "GTABase lists it as the Ocelot Jugular; its vehicle menu picture is shown."
     ],
     "tags": [
       "jagular",
@@ -1378,7 +1402,8 @@
       "price": "$28,550 (Story Mode price, which the guides read as the registration cost)",
       "sell_value": "$5,700 when stolen",
       "where": "Spawn (GTABase map): Waning Sands -  #109 Ocelot Jugular Waning Sands; Randy's Wish List (Push Square): random spawn: The Vault Night Club Downtown, Atlantic Ave Vice Beach; most likely a garage in Belville north of Druthers State Bank; Listed on Randy's Wish List (OutputLag)",
-      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive; GTABase marks it \"Has Liveries\" (livery names not listed)"
+      "customise": "Specialist tag \"Luxury\" (GTABase) matches the Luxury specialty shop: Euroform Automotive; GTABase marks it \"Has Liveries\" (livery names not listed)",
+      "menu_picture": "/images/vehicles/menu/ocelot-jagular.jpg"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1391,7 +1416,11 @@
       "pushsquare-randy"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/ocelot-jagular.jpg",
+    "aliases": [
+      "Ocelot Jugular"
+    ]
   },
   {
     "slug": "buckingham-jubilee",
@@ -1444,7 +1473,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/buckingham-jubilee.jpg"
   },
   {
     "slug": "grotti-itali-rsx",
@@ -1497,7 +1527,8 @@
       "msq-vehicles-super",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/grotti-itali-rsx.jpg"
   },
   {
     "slug": "pfister-growler",
@@ -1549,7 +1580,8 @@
       "ppx-menu-sports-cars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/pfister-growler.jpg"
   },
   {
     "slug": "bravado-gauntlet-hellfire",
@@ -1604,7 +1636,8 @@
       "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bravado-gauntlet-hellfire.jpg"
   },
   {
     "slug": "piccia-furia",
@@ -1658,7 +1691,8 @@
       "ppx-menu-supercars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/piccia-furia.jpg"
   },
   {
     "slug": "benefactor-dubsta",
@@ -1712,7 +1746,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/benefactor-dubsta.jpg"
   },
   {
     "slug": "gallivanter-baller-st-d",
@@ -1768,98 +1803,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
-  },
-  {
-    "slug": "67-transgressor",
-    "name": "'67 Transgressor",
-    "summary": "The '67 Transgressor is one of five classic cars restored through Wyman's Ultimate Edition questline.",
-    "body": [
-      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
-      "PowerPyx says the questline is tracked on the map under Exploration, Find Cars for Wyman, with a task called Find Transgressors.",
-      "IGN places all three Transgressor wrecks in Port Gellhorn: on a slab behind the trailer park behind McCarthy's Fresh Fruit & Veg off US-9, in an open shed at a blue house on Gellhorn Avenue east of Brooks Boatworks, and against the back fence of a trailer park beside the Dirt Merchants bike store in the far south of town.",
-      "IGN says Wyman asks 1,500 dollars for labour once all three are scanned, after which the '67 Transgressor is collected from his scrapyard.",
-      "GTABase's page for the Sirius Transgressor '67 lists a registration cost of $21,500 and a stolen sell value of $6,060.",
-      "GTABase says it carries no tracker.",
-      "GTABase lists its specialist type as Muscle.",
-      "In-game stat bars (out of 10): Speed 4.5, Acceleration 5.1, Asphalt handling 3.3, Off-road handling 4.3, Strength 3.0, as read by GTABase only so far."
-    ],
-    "tags": [
-      "classic",
-      "rebuild",
-      "transgressor",
-      "ultimate edition",
-      "wyman"
-    ],
-    "facts": {
-      "model": "Transgressor",
-      "year": "1967",
-      "availability": "Ultimate Edition only; Wyman's classic car questline",
-      "seats": 2,
-      "speed": 4.5,
-      "acceleration": 5.1,
-      "asphalt_handling": 3.3,
-      "offroad_handling": 4.3,
-      "strength": 3.0,
-      "price": "$21,500 (Story Mode price, which the guides read as the registration cost)",
-      "sell_value": "$6,060 when stolen",
-      "where": "Wyman's Classic Cars (Ultimate Edition, from Chapter 2): scan 3 scrap locations, then pay a $1,500 mechanics fee via BuckMe; register at a Pay 'n' Spray for $100 or park it in a garage, otherwise it returns to Wyman's scrapyard (Push Square).",
-      "customise": "Specialist tag \"Muscle\" (GTABase) matches the Muscle specialty shop: Capri Classic"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "gtabase-vehicle-pages",
-      "ign-wymans-cars",
-      "powerpyx-ultimate",
-      "pushsquare-wyman",
-      "r8gb-vehicles-sirius"
-    ],
-    "verified": "2026-11-26",
-    "spoiler": true
-  },
-  {
-    "slug": "70-riata",
-    "name": "'70 Riata",
-    "summary": "The '70 Riata is one of five classic cars restored through Wyman's Ultimate Edition questline.",
-    "body": [
-      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
-      "GTABase's GTA VI database files it under the SUVs class with Vapid as the maker, under the page title \"Vapid Riata Classic\".",
-      "PowerPyx gives no maker; the Vapid attribution is GTABase's, whose page pictures the car with Rockstar's Wyman car collection artwork.",
-      "IGN places the three Riata wrecks in the south: by a jet ski on a driveway across the road from the Key Lento police impound, in a carport at the water's edge in Southwind past the Xero gas station, and under the carport of an abandoned gas station on Old Fort Road in Shoeless Keys, south of Hamlet.",
-      "IGN says the restored '70 Riata costs 1,500 dollars in labour, paid to Wyman through BuckMe.",
-      "In-game stat bars (out of 10): Speed 2.8, Acceleration 2.6, Asphalt handling 3.2, Off-road handling 6.6, Strength 3.0, as read by GTABase only so far."
-    ],
-    "tags": [
-      "classic",
-      "rebuild",
-      "riata",
-      "ultimate edition",
-      "wyman"
-    ],
-    "facts": {
-      "manufacturer": "Vapid",
-      "model": "Riata",
-      "year": "1970",
-      "class": "SUV",
-      "availability": "Ultimate Edition only; Wyman's classic car questline",
-      "speed": 2.8,
-      "acceleration": 2.6,
-      "asphalt_handling": 3.2,
-      "offroad_handling": 6.6,
-      "strength": 3.0,
-      "where": "GTABase: A vehicle Wyman asks for.; Wyman's Classic Cars (Ultimate Edition, from Chapter 2): scan 3 scrap locations, then pay a $1,500 mechanics fee via BuckMe; register at a Pay 'n' Spray for $100 or park it in a garage, otherwise it returns to Wyman's scrapyard (Push Square).",
-      "based_on": "First-generation Ford Bronco"
-    },
-    "confidence": "corroborated",
-    "sources": [
-      "gtabase-vehicle-pages",
-      "gtabase-vehicles",
-      "ign-wymans-cars",
-      "powerpyx-ultimate",
-      "pushsquare-wyman",
-      "gtabase-vehicle-menu-art"
-    ],
-    "verified": "2026-11-26"
+    "spoiler": true,
+    "image": "/images/vehicles/menu/gallivanter-baller-st-d.jpg"
   },
   {
     "slug": "64-mamba-gt",
@@ -1915,7 +1860,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-sports-cars"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/64-mamba-gt.jpg"
   },
   {
     "slug": "reynolds-kit-car",
@@ -1999,7 +1945,8 @@
       "ppx-menu-muscle-cars",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/72-deviant.jpg"
   },
   {
     "slug": "82-canis-crawler",
@@ -2056,7 +2003,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/82-canis-crawler.jpg"
   },
   {
     "slug": "karin-futo",
@@ -2106,7 +2054,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/karin-futo.jpg"
   },
   {
     "slug": "police-impaler",
@@ -2172,7 +2121,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/highwayman-sanchez.jpg"
   },
   {
     "slug": "maibatsu-manchez",
@@ -2219,7 +2169,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-bikes-motorcycles"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/maibatsu-manchez.jpg"
   },
   {
     "slug": "imponte-phoenix",
@@ -2276,7 +2227,8 @@
       "msq-vehicles-muscle",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/imponte-phoenix.jpg"
   },
   {
     "slug": "obey-8f-drafter",
@@ -2329,7 +2281,8 @@
       "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/obey-8f-drafter.jpg"
   },
   {
     "slug": "airport-bus",
@@ -2370,7 +2323,8 @@
     "spoiler": true,
     "aliases": [
       "Airport Bus"
-    ]
+    ],
+    "image": "/images/vehicles/airport-bus.jpg"
   },
   {
     "slug": "airtug",
@@ -2412,7 +2366,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/airtug.jpg"
   },
   {
     "slug": "vapid-aleutian",
@@ -2463,7 +2418,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-aleutian.jpg"
   },
   {
     "slug": "principe-alvino-v1",
@@ -2502,7 +2458,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/principe-alvino-v1.jpg"
   },
   {
     "slug": "karin-asterope-gz",
@@ -2550,7 +2507,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-sedans"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/karin-asterope-gz.jpg"
   },
   {
     "slug": "lcc-avarus",
@@ -2592,7 +2550,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-bikes-motorcycles"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/lcc-avarus.jpg"
   },
   {
     "slug": "pegassi-bati-801",
@@ -2684,7 +2643,8 @@
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/cartwright-biff.jpg"
   },
   {
     "slug": "bison-1800-police",
@@ -2714,7 +2674,8 @@
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/bison-1800-police.jpg"
   },
   {
     "slug": "bravado-bison-900-95",
@@ -2771,7 +2732,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-pickups-pickup-trucks"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/bravado-bison-900-95.jpg"
   },
   {
     "slug": "bravado-bison-900-95-monster-truck",
@@ -2824,7 +2786,8 @@
     "spoiler": true,
     "aliases": [
       "Bravado Bison 900 '95 Monster Truck"
-    ]
+    ],
+    "image": "/images/vehicles/bravado-bison-900-95-monster-truck.jpg"
   },
   {
     "slug": "bravado-bison-1800",
@@ -2867,7 +2830,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bravado-bison-1800.jpg"
   },
   {
     "slug": "willard-transient",
@@ -2912,7 +2876,8 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/willard-transient.jpg"
   },
   {
     "slug": "willard-grouse-92",
@@ -2964,7 +2929,8 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/willard-grouse-92.jpg"
   },
   {
     "slug": "whiffler-bus",
@@ -3006,7 +2972,8 @@
       "ppx-menu-transport-vehicles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/whiffler-bus.jpg"
   },
   {
     "slug": "bottcher-buzzard-attack-chopper",
@@ -3016,7 +2983,8 @@
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
       "DayOne's list from the released game names it and files it under Service - Military Vehicles.",
-      "GTABase says the Buzzard Attack Chopper is based on the MD Helicopters AH-6 Little Bird, seats four, and has a Police Buzzard variant."
+      "GTABase says the Buzzard Attack Chopper is based on the MD Helicopters AH-6 Little Bird, seats four, and has a Police Buzzard variant.",
+      "The picture is the stock Bottcher Buzzard from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "attack",
@@ -3037,7 +3005,8 @@
       "dayone-service",
       "gtabase-v-buzzard"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-19",
+    "image": "/images/vehicles/bottcher-buzzard.jpg"
   },
   {
     "slug": "caddy",
@@ -3078,7 +3047,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/caddy.jpg"
   },
   {
     "slug": "albany-cavalcade-xl",
@@ -3124,7 +3094,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-suvs"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/albany-cavalcade-xl.jpg"
   },
   {
     "slug": "declasse-impaler-20",
@@ -3177,7 +3148,8 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/declasse-impaler-20.jpg"
   },
   {
     "slug": "declasse-d7700",
@@ -3217,7 +3189,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/declasse-d7700.jpg"
   },
   {
     "slug": "declasse-akane",
@@ -3267,7 +3240,8 @@
       "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/declasse-akane.jpg"
   },
   {
     "slug": "bravado-bogan",
@@ -3311,7 +3285,8 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bravado-bogan.jpg"
   },
   {
     "slug": "bravado-sojourn",
@@ -3361,7 +3336,8 @@
       "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bravado-sojourn.jpg"
   },
   {
     "slug": "clarion",
@@ -3394,7 +3370,8 @@
       "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/clarion.jpg"
   },
   {
     "slug": "western-cliffhanger",
@@ -3440,7 +3417,8 @@
     "spoiler": true,
     "aliases": [
       "Western Cliffhanger"
-    ]
+    ],
+    "image": "/images/vehicles/menu/western-cliffhanger.jpg"
   },
   {
     "slug": "invetero-coquette",
@@ -3485,7 +3463,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-sports-cars"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/invetero-coquette.jpg"
   },
   {
     "slug": "invetero-coquette-classic",
@@ -3543,7 +3522,8 @@
     "spoiler": true,
     "aliases": [
       "Invetero Coquette Classic"
-    ]
+    ],
+    "image": "/images/vehicles/menu/invetero-coquette-classic.jpg"
   },
   {
     "slug": "nagasaki-tao",
@@ -3578,7 +3558,8 @@
       "ppx-menu-watercraft-boats"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/nagasaki-tao.jpg"
   },
   {
     "slug": "walter-cruiser",
@@ -3614,7 +3595,8 @@
       "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/walter-cruiser.jpg"
   },
   {
     "slug": "bravado-gresley-xt",
@@ -3661,7 +3643,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bravado-gresley-xt.jpg"
   },
   {
     "slug": "vapid-dominator-gt",
@@ -3711,7 +3694,8 @@
       "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-dominator-gt.jpg"
   },
   {
     "slug": "bravado-dorado",
@@ -3757,7 +3741,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/bravado-dorado.jpg"
   },
   {
     "slug": "dinka-double-t",
@@ -3802,7 +3787,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-bikes-motorcycles"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/dinka-double-t.jpg"
   },
   {
     "slug": "western-company-duster",
@@ -3833,7 +3819,8 @@
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/western-company-duster.jpg"
   },
   {
     "slug": "zoot",
@@ -3897,7 +3884,8 @@
     "spoiler": true,
     "aliases": [
       "Endurex Race Bike"
-    ]
+    ],
+    "image": "/images/vehicles/endurex-race-bike.jpg"
   },
   {
     "slug": "hvy-excavator",
@@ -3907,7 +3895,8 @@
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
       "DayOne's list from the released game has a B3000 Excavator under Service - Industrial Vehicles, which may be this vehicle under another maker's name.",
-      "GTABase now names it the Dinka B3000 Excavator, an industrial vehicle new to the series, based on the Liebherr R954B HD-S and Samsung SE280LC-2; this disagrees with the app's HVY maker."
+      "GTABase now names it the Dinka B3000 Excavator, an industrial vehicle new to the series, based on the Liebherr R954B HD-S and Samsung SE280LC-2; this disagrees with the app's HVY maker.",
+      "GTABase lists it as the Brute B3000 Excavator; its vehicle menu picture is shown."
     ],
     "tags": [
       "excavator",
@@ -3919,7 +3908,8 @@
       "model": "Excavator",
       "class": "Industrial",
       "seats": 1,
-      "based_on": "Liebherr R954B HD-S and Samsung SE280LC-2"
+      "based_on": "Liebherr R954B HD-S and Samsung SE280LC-2",
+      "menu_picture": "/images/vehicles/menu/hvy-excavator.jpg"
     },
     "confidence": "community",
     "sources": [
@@ -3935,7 +3925,8 @@
     ],
     "former_slugs": [
       "brute-b3000-excavator"
-    ]
+    ],
+    "image": "/images/vehicles/menu/hvy-excavator.jpg"
   },
   {
     "slug": "willard-faction-custom-donk",
@@ -4012,7 +4003,8 @@
       "ppx-menu-bikes-motorcycles",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/ubermacht-fcr-1000.jpg"
   },
   {
     "slug": "fieldmaster",
@@ -4053,7 +4045,8 @@
     "spoiler": true,
     "aliases": [
       "Fieldmaster"
-    ]
+    ],
+    "image": "/images/vehicles/fieldmaster.jpg"
   },
   {
     "slug": "jobuilt-flatbed",
@@ -4127,7 +4120,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-montagne-xl.jpg"
   },
   {
     "slug": "vapid-montagne",
@@ -4172,7 +4166,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-montagne.jpg"
   },
   {
     "slug": "vapid-montagne-pickup",
@@ -4219,7 +4214,8 @@
       "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-montagne-pickup.jpg"
   },
   {
     "slug": "montagne-pickup-lifeguard",
@@ -4228,7 +4224,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all.",
+      "The picture is the stock Vapid Montagne Pickup from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "emergency",
@@ -4249,7 +4246,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-montagne-pickup.jpg"
   },
   {
     "slug": "police-montagne",
@@ -4258,7 +4256,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all.",
+      "The picture is the stock Vapid Montagne from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "emergency",
@@ -4275,7 +4274,8 @@
       "gtabase-vehicle-pages",
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/vapid-montagne.jpg"
   },
   {
     "slug": "vapid-lowline",
@@ -4319,7 +4319,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-lowline.jpg"
   },
   {
     "slug": "vapid-shuttle",
@@ -4362,7 +4363,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-shuttle.jpg"
   },
   {
     "slug": "shifter",
@@ -4399,7 +4401,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/shifter.jpg"
   },
   {
     "slug": "lifta",
@@ -4437,7 +4440,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/lifta.jpg"
   },
   {
     "slug": "fathom-fr36",
@@ -4481,7 +4485,8 @@
       "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/fathom-fr36.jpg"
   },
   {
     "slug": "amloco",
@@ -4538,7 +4543,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/granger-police.jpg"
   },
   {
     "slug": "granger-taxi",
@@ -4568,7 +4574,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/granger-taxi.jpg"
   },
   {
     "slug": "cartwright-hauler",
@@ -4606,7 +4613,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/cartwright-hauler.jpg"
   },
   {
     "slug": "dinka-chavos-xs",
@@ -4654,7 +4662,8 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/dinka-chavos-xs.jpg"
   },
   {
     "slug": "vapid-hustler",
@@ -4695,7 +4704,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/vapid-hustler.jpg"
   },
   {
     "slug": "declasse-impaler-80",
@@ -4749,7 +4759,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/declasse-impaler-80.jpg"
   },
   {
     "slug": "declasse-impaler-sz",
@@ -4796,7 +4807,8 @@
       "r8gb-vehicles-impaler-sz",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/declasse-impaler-sz.jpg"
   },
   {
     "slug": "pegassi-infernus-96",
@@ -4855,7 +4867,8 @@
       "msq-vehicles-super",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/pegassi-infernus-96.jpg"
   },
   {
     "slug": "bf-injection",
@@ -4907,7 +4920,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bf-injection.jpg"
   },
   {
     "slug": "maibatsu-iota",
@@ -4948,7 +4962,8 @@
       "ppx-menu-service-trucks"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/maibatsu-iota.jpg"
   },
   {
     "slug": "grotti-itali-gto",
@@ -5023,7 +5038,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/osprey-journey.jpg"
   },
   {
     "slug": "canis-kamacho",
@@ -5069,7 +5085,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-suvs"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/canis-kamacho.jpg"
   },
   {
     "slug": "principe-lectro",
@@ -5113,7 +5130,8 @@
       "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/principe-lectro.jpg"
   },
   {
     "slug": "dundreary-arcturus-93",
@@ -5166,7 +5184,8 @@
       "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/dundreary-arcturus-93.jpg"
   },
   {
     "slug": "lombike",
@@ -5195,7 +5214,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/lombike.jpg"
   },
   {
     "slug": "lure-predator-l35p",
@@ -5230,7 +5250,8 @@
       "ppx-menu-watercraft-boats",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/lure-predator-l35p.jpg"
   },
   {
     "slug": "buckingham-luxor",
@@ -5296,7 +5317,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/lapwing-mammatus.jpg"
   },
   {
     "slug": "albany-manana",
@@ -5348,7 +5370,8 @@
       "msq-vehicles-muscle",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/albany-manana.jpg"
   },
   {
     "slug": "dinka-marquis",
@@ -5380,7 +5403,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/dinka-marquis.jpg"
   },
   {
     "slug": "benefactor-schafter",
@@ -5391,12 +5415,20 @@
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
       "Since release, GTABase lists it as the Benefactor Schafter V12; before launch it was listed as the Benefactor Schafter.",
       "GTABase lists it as a Tuner specialist luxury sports sedan that is likely to have modern security.",
-      "In-game stat bars (out of 10): Speed 6.0, Acceleration 6.6, Asphalt handling 4.5, Off-road handling 4.5, Strength 3.0, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Speed 6.0, Acceleration 6.6, Asphalt handling 4.5, Off-road handling 4.5, Strength 3.0, as read by GTABase only so far.",
+      "DayOne's list of the game's vehicles files it under Sports Cars and names Tuner as its mod shop specialist.",
+      "DayOne gives its stats as speed 6.0, acceleration 6.6, asphalt handling 4.5, off-road handling 4.5, strength 3.0.",
+      "DayOne spells the model \"Shafter\"; the app's pre-launch entry is \"Benefactor Schafter\", and DayOne lists two models (Shafter S, a sedan, and Shafter V12, a sports car)."
     ],
     "tags": [
       "benefactor",
+      "car",
+      "luxury",
       "schafter",
-      "sedan"
+      "sedan",
+      "shafter",
+      "sports",
+      "v12"
     ],
     "facts": {
       "manufacturer": "Benefactor",
@@ -5425,13 +5457,19 @@
       "gtabase-vehicles",
       "pl-gtabase-veh-benefactor-schafter",
       "msq-vehicles-sports",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "dayone-cars"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
     "aliases": [
-      "Benefactor Schafter"
-    ]
+      "Benefactor Schafter",
+      "Benefactor Shafter V12"
+    ],
+    "former_slugs": [
+      "benefactor-shafter-v12"
+    ],
+    "image": "/images/vehicles/menu/benefactor-schafter.jpg"
   },
   {
     "slug": "benefactor-spritz",
@@ -5477,7 +5515,8 @@
       "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/benefactor-spritz.jpg"
   },
   {
     "slug": "canis-mesa",
@@ -5525,7 +5564,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/canis-mesa.jpg"
   },
   {
     "slug": "metromule",
@@ -5630,7 +5670,8 @@
       "ppx-menu-sports-cars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/pfister-neon.jpg"
   },
   {
     "slug": "lapwing-nimbus",
@@ -5665,7 +5706,8 @@
       "ppx-menu-aircraft"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/lapwing-nimbus.jpg"
   },
   {
     "slug": "mtl-packer",
@@ -5706,7 +5748,8 @@
       "ppx-menu-service-trucks"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/mtl-packer.jpg"
   },
   {
     "slug": "mammoth-patriot-mil-spec",
@@ -5757,7 +5800,7 @@
     ],
     "verified": "2026-11-26",
     "spoiler": true,
-    "image": "/images/web/gtabase-ebe6601473b3.jpg",
+    "image": "/images/vehicles/menu/mammoth-patriot-mil-spec.jpg",
     "aliases": [
       "Mammoth Patriot Mil-Spec"
     ]
@@ -5807,7 +5850,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/maibatsu-penumbra-ff.jpg"
   },
   {
     "slug": "jobuilt-phantom-custom",
@@ -5850,7 +5894,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/jobuilt-phantom-custom.jpg"
   },
   {
     "slug": "cheval-picador",
@@ -5941,7 +5986,8 @@
       "ppx-menu-off-road-vehicles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/mer-can-blast.jpg"
   },
   {
     "slug": "l35p-police-boat",
@@ -5950,7 +5996,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all.",
+      "The picture is the stock Lure Predator L35P from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "boat",
@@ -5968,7 +6015,8 @@
       "gtabase-vehicle-pages",
       "gtabase-vehicles"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/lure-predator-l35p.jpg"
   },
   {
     "slug": "police-buzzard",
@@ -5977,7 +6025,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all.",
+      "The picture is the stock Bottcher Buzzard from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "buzzard",
@@ -5997,7 +6046,8 @@
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/bottcher-buzzard.jpg"
   },
   {
     "slug": "police-ghost-stanier-le",
@@ -6037,7 +6087,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all.",
+      "The picture is the stock Dundreary Landstalker XL from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "emergency",
@@ -6056,7 +6107,8 @@
       "gtabase-vehicles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/dundreary-landstalker-xl.jpg"
   },
   {
     "slug": "police-riot",
@@ -6089,7 +6141,8 @@
       "ppx-menu-emergency-vehicles",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/police-riot.jpg"
   },
   {
     "slug": "pegassi-police-tempesta",
@@ -6133,7 +6186,8 @@
     "spoiler": true,
     "aliases": [
       "Pegassi Police Tempesta"
-    ]
+    ],
+    "image": "/images/vehicles/pegassi-police-tempesta.jpg"
   },
   {
     "slug": "coil-raiden",
@@ -6177,7 +6231,8 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/coil-raiden.jpg"
   },
   {
     "slug": "bravado-bison-3800",
@@ -6224,7 +6279,8 @@
       "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bravado-bison-3800.jpg"
   },
   {
     "slug": "declasse-rancher",
@@ -6274,7 +6330,8 @@
       "msq-vehicles-pickups",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/declasse-rancher.jpg"
   },
   {
     "slug": "ubermacht-rebla-gts",
@@ -6323,7 +6380,8 @@
       "msq-vehicles-suvs",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/ubermacht-rebla-gts.jpg"
   },
   {
     "slug": "vapid-reclaimer",
@@ -6372,7 +6430,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-pickups-pickup-trucks"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/vapid-reclaimer.jpg"
   },
   {
     "slug": "rental-bus",
@@ -6411,7 +6470,8 @@
       "ppx-menu-transport-vehicles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/rental-bus.jpg"
   },
   {
     "slug": "willard-trotter-95",
@@ -6462,7 +6522,8 @@
       "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/willard-trotter-95.jpg"
   },
   {
     "slug": "calder-yakuruna",
@@ -6497,7 +6558,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-watercraft-boats"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/calder-yakuruna.jpg"
   },
   {
     "slug": "jobuilt-rubble",
@@ -6542,7 +6604,8 @@
       "ppx-menu-service-trucks"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/jobuilt-rubble.jpg"
   },
   {
     "slug": "lure-predator-s23",
@@ -6616,7 +6679,8 @@
       "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/vapid-sandking-xt.jpg"
   },
   {
     "slug": "ped-scorcher",
@@ -6649,7 +6713,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/ped-scorcher.jpg"
   },
   {
     "slug": "shasa",
@@ -6677,7 +6742,8 @@
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/shasa.jpg"
   },
   {
     "slug": "ubermacht-sentinel-classic",
@@ -6719,7 +6785,8 @@
       "msq-vehicles-sports",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-19"
+    "verified": "2026-11-19",
+    "image": "/images/vehicles/menu/ubermacht-sentinel-classic.jpg"
   },
   {
     "slug": "buckingham-shamal",
@@ -6755,7 +6822,8 @@
       "ppx-menu-aircraft"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/buckingham-shamal.jpg"
   },
   {
     "slug": "sirius",
@@ -6766,12 +6834,24 @@
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
       "Since release, GTABase lists it as the Sirius Transgressor '67; before launch it was listed as the Sirius.",
       "GTABase says it is an Ultimate Edition unlock that costs $21,500 to register.",
-      "In-game stat bars (out of 10): Speed 4.5, Acceleration 5.1, Asphalt handling 3.3, Off-road handling 4.3, Strength 3.0, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Speed 4.5, Acceleration 5.1, Asphalt handling 3.3, Off-road handling 4.3, Strength 3.0, as read by GTABase only so far.",
+      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
+      "PowerPyx says the questline is tracked on the map under Exploration, Find Cars for Wyman, with a task called Find Transgressors.",
+      "IGN places all three Transgressor wrecks in Port Gellhorn: on a slab behind the trailer park behind McCarthy's Fresh Fruit & Veg off US-9, in an open shed at a blue house on Gellhorn Avenue east of Brooks Boatworks, and against the back fence of a trailer park beside the Dirt Merchants bike store in the far south of town.",
+      "IGN says Wyman asks 1,500 dollars for labour once all three are scanned, after which the '67 Transgressor is collected from his scrapyard.",
+      "GTABase's page for the Sirius Transgressor '67 lists a registration cost of $21,500 and a stolen sell value of $6,060.",
+      "GTABase says it carries no tracker.",
+      "GTABase lists its specialist type as Muscle."
     ],
     "tags": [
       "car",
+      "classic",
       "muscle",
-      "sirius"
+      "rebuild",
+      "sirius",
+      "transgressor",
+      "ultimate edition",
+      "wyman"
     ],
     "facts": {
       "model": "Transgressor '67",
@@ -6790,7 +6870,10 @@
       "menu_text": "Quintessential American muscle car. Unmistakable, thanks to its signature hood scoop. Ultimate Edition reward.",
       "style": "None",
       "era": "1960s Antique",
-      "specialist": "Muscle"
+      "specialist": "Muscle",
+      "year": "1967",
+      "availability": "Ultimate Edition only; Wyman's classic car questline",
+      "seats": 2
     },
     "confidence": "community",
     "sources": [
@@ -6798,12 +6881,21 @@
       "gtabase-vehicles",
       "pl-gtabase-veh-sirius",
       "pushsquare-wyman",
-      "ppx-menu-muscle-cars"
+      "ppx-menu-muscle-cars",
+      "ign-wymans-cars",
+      "powerpyx-ultimate",
+      "r8gb-vehicles-sirius"
     ],
     "verified": "2026-11-26",
     "aliases": [
-      "Sirius"
-    ]
+      "Sirius",
+      "'67 Transgressor"
+    ],
+    "spoiler": true,
+    "former_slugs": [
+      "67-transgressor"
+    ],
+    "image": "/images/vehicles/menu/sirius.jpg"
   },
   {
     "slug": "western-sovereign-107",
@@ -6851,7 +6943,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/western-sovereign-107.jpg"
   },
   {
     "slug": "sovereign-107-police",
@@ -6860,7 +6953,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all."
+      "No guide written since release lists this vehicle under this name, so it may be named differently in the released game or not be in it at all.",
+      "The picture is the stock Western Sovereign 107 from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "107",
@@ -6882,7 +6976,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/western-sovereign-107.jpg"
   },
   {
     "slug": "classique-stallion",
@@ -6926,7 +7021,8 @@
       "msq-vehicles-muscle",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/classique-stallion.jpg"
   },
   {
     "slug": "brute-stockade",
@@ -6973,7 +7069,8 @@
     "verified": "2026-11-26",
     "aliases": [
       "Brute Stockade"
-    ]
+    ],
+    "image": "/images/vehicles/menu/brute-stockade.jpg"
   },
   {
     "slug": "mammoth-streamer216",
@@ -7012,7 +7109,8 @@
     "spoiler": true,
     "aliases": [
       "Mammoth Streamer216"
-    ]
+    ],
+    "image": "/images/vehicles/menu/mammoth-streamer216.jpg"
   },
   {
     "slug": "dinka-sugoi",
@@ -7056,7 +7154,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-sedans"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/dinka-sugoi.jpg"
   },
   {
     "slug": "bf-surfer",
@@ -7134,7 +7233,8 @@
     "spoiler": true,
     "aliases": [
       "Swamp Blaster"
-    ]
+    ],
+    "image": "/images/vehicles/swamp-blaster.jpg"
   },
   {
     "slug": "buckingham-swift",
@@ -7172,7 +7272,8 @@
       "ppx-menu-aircraft"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/buckingham-swift.jpg"
   },
   {
     "slug": "obey-tailgater-s",
@@ -7215,7 +7316,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-sedans"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/obey-tailgater-s.jpg"
   },
   {
     "slug": "canis-terminus",
@@ -7299,7 +7401,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/tow-truck.jpg"
   },
   {
     "slug": "karin-allander",
@@ -7350,7 +7453,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/karin-allander.jpg"
   },
   {
     "slug": "utility-truck",
@@ -7420,7 +7524,8 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/albany-v-str.jpg"
   },
   {
     "slug": "buckingham-valkyrie",
@@ -7452,7 +7557,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/buckingham-valkyrie.jpg"
   },
   {
     "slug": "emperor-vectre",
@@ -7499,7 +7605,8 @@
       "ppx-menu-coupes"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/emperor-vectre.jpg"
   },
   {
     "slug": "declasse-vigero-zx-convertible",
@@ -7549,7 +7656,8 @@
       "ppx-menu-muscle-cars"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/declasse-vigero-zx-convertible.jpg"
   },
   {
     "slug": "karin-vivanite",
@@ -7595,7 +7703,8 @@
       "ppx-menu-vans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/karin-vivanite.jpg"
   },
   {
     "slug": "buckingham-volatus",
@@ -7633,7 +7742,8 @@
       "ppx-menu-aircraft"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/buckingham-volatus.jpg"
   },
   {
     "slug": "bf-greta",
@@ -7677,7 +7787,8 @@
       "ppx-menu-sedans"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/bf-greta.jpg"
   },
   {
     "slug": "declasse-walton-l35",
@@ -7754,7 +7865,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/wastelander.jpg"
   },
   {
     "slug": "buckingham-windsor",
@@ -7830,7 +7942,8 @@
       "ppx-menu-suvs"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/benefactor-xls.jpg"
   },
   {
     "slug": "nagasaki-nimbe",
@@ -7875,7 +7988,8 @@
       "ppx-menu-bikes-motorcycles"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/nagasaki-nimbe.jpg"
   },
   {
     "slug": "declasse-yosemite-1500",
@@ -7924,7 +8038,8 @@
       "ppx-menu-pickups-pickup-trucks"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/declasse-yosemite-1500.jpg"
   },
   {
     "slug": "ubermacht-apoc",
@@ -7970,7 +8085,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/ubermacht-apoc.jpg"
   },
   {
     "slug": "ubermacht-apoc-cabrio",
@@ -7980,7 +8096,8 @@
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
       "GTABase still lists it under this name since release.",
-      "GTABase says it sells for $6,500 when stolen."
+      "GTABase says it sells for $6,500 when stolen.",
+      "The picture is the stock Übermacht Apoc from the game's vehicle menu; no studio picture of this version has been published."
     ],
     "tags": [
       "apoc",
@@ -7999,6 +8116,54 @@
       "pl-gtabase-veh-ubermacht-apoc-cabrio"
     ],
     "verified": "2026-11-22",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/menu/ubermacht-apoc.jpg"
+  },
+  {
+    "slug": "70-riata",
+    "name": "'70 Riata",
+    "summary": "The '70 Riata is one of five classic cars restored through Wyman's Ultimate Edition questline.",
+    "body": [
+      "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
+      "GTABase's GTA VI database files it under the SUVs class with Vapid as the maker, under the page title \"Vapid Riata Classic\".",
+      "PowerPyx gives no maker; the Vapid attribution is GTABase's, whose page pictures the car with Rockstar's Wyman car collection artwork.",
+      "IGN places the three Riata wrecks in the south: by a jet ski on a driveway across the road from the Key Lento police impound, in a carport at the water's edge in Southwind past the Xero gas station, and under the carport of an abandoned gas station on Old Fort Road in Shoeless Keys, south of Hamlet.",
+      "IGN says the restored '70 Riata costs 1,500 dollars in labour, paid to Wyman through BuckMe.",
+      "In-game stat bars (out of 10): Speed 2.8, Acceleration 2.6, Asphalt handling 3.2, Off-road handling 6.6, Strength 3.0, as read by GTABase only so far.",
+      "MetaForge's GTA 6 database pictures it in the game's vehicle menu as the '70 Vapid Riata."
+    ],
+    "tags": [
+      "classic",
+      "rebuild",
+      "riata",
+      "ultimate edition",
+      "wyman"
+    ],
+    "facts": {
+      "manufacturer": "Vapid",
+      "model": "Riata",
+      "year": "1970",
+      "class": "SUV",
+      "availability": "Ultimate Edition only; Wyman's classic car questline",
+      "speed": 2.8,
+      "acceleration": 2.6,
+      "asphalt_handling": 3.2,
+      "offroad_handling": 6.6,
+      "strength": 3.0,
+      "where": "GTABase: A vehicle Wyman asks for.; Wyman's Classic Cars (Ultimate Edition, from Chapter 2): scan 3 scrap locations, then pay a $1,500 mechanics fee via BuckMe; register at a Pay 'n' Spray for $100 or park it in a garage, otherwise it returns to Wyman's scrapyard (Push Square).",
+      "based_on": "First-generation Ford Bronco",
+      "menu_picture": "/images/vehicles/menu/70-riata.jpg"
+    },
+    "confidence": "corroborated",
+    "sources": [
+      "gtabase-vehicle-pages",
+      "gtabase-vehicles",
+      "ign-wymans-cars",
+      "powerpyx-ultimate",
+      "pushsquare-wyman",
+      "gtabase-vehicle-menu-art"
+    ],
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/70-riata.jpg"
   }
 ]

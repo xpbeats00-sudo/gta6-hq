@@ -7,12 +7,17 @@
       "GTABase lists the Imponte Ruiner '82 as a muscle car based on the Pontiac Trans Am and Chevrolet Camaro, with Muscle as its specialist shop.",
       "GTABase gives it two seats, rear-wheel drive and five gears, a registration cost of $6,400, no tracker and a stolen sell value of $1,925.",
       "GTABase notes the Ruiner name has appeared in GTA V and GTA IV.",
-      "In-game stat bars (out of 10): Speed 4.5, Acceleration 4.6, Asphalt handling 3.7, Off-road handling 4.1, Strength 3.0, as read by GTABase only so far."
+      "In-game stat bars (out of 10): Speed 4.5, Acceleration 4.6, Asphalt handling 3.7, Off-road handling 4.1, Strength 3.0, as read by GTABase only so far.",
+      "DayOne's list of the game's vehicles files it under Coupes and names Muscle as its mod shop specialist.",
+      "DayOne gives its stats as speed 4.5, acceleration 4.6, asphalt handling 3.7, off-road handling 4.1, strength 3.0."
     ],
     "tags": [
       "1980s",
+      "coupe",
       "imponte",
-      "muscle car"
+      "muscle",
+      "muscle car",
+      "runner"
     ],
     "facts": {
       "manufacturer": "Imponte",
@@ -40,9 +45,18 @@
       "gtabase-v-ruiner",
       "gtabase-vehicle-pages",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-coupes"
+      "ppx-menu-coupes",
+      "dayone-cars"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "aliases": [
+      "'82 Imponte Runner"
+    ],
+    "spoiler": true,
+    "former_slugs": [
+      "imponte-runner-82"
+    ],
+    "image": "/images/vehicles/menu/imponte-ruiner-82.jpg"
   },
   {
     "slug": "vapid-slamvan-56",
@@ -138,7 +152,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-muscle-cars"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/albany-devanity-59.jpg"
   },
   {
     "slug": "schyster-woodland-85",
@@ -184,7 +199,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-sedans"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/schyster-woodland-85.jpg"
   },
   {
     "slug": "bravado-buffalo-19",
@@ -229,7 +245,8 @@
       "ppx-menu-sedans",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/bravado-buffalo-19.jpg"
   },
   {
     "slug": "annis-venturas-blvd-elegy-90",
@@ -265,6 +282,7 @@
       "gtabase-vehicle-pages",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/annis-venturas-blvd-elegy-90.jpg"
   }
 ]

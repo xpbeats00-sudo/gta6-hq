@@ -60,7 +60,8 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/imponte-soaring-phoenix.jpg"
   },
   {
     "slug": "invetero-spiderweb-coquette",
@@ -98,6 +99,7 @@
       "gtabase-vehicle-menu-art"
     ],
     "verified": "2026-11-26",
-    "spoiler": true
+    "spoiler": true,
+    "image": "/images/vehicles/invetero-spiderweb-coquette.jpg"
   }
 ]

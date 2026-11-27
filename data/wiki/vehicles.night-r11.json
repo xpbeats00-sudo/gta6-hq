@@ -35,7 +35,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-sedans"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/karin-intruder.jpg"
   },
   {
     "slug": "vapid-dominator-asp",
@@ -78,7 +79,8 @@
       "gtabase-vehicle-menu-art",
       "ppx-menu-muscle-cars"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/menu/vapid-dominator-asp.jpg"
   },
   {
     "slug": "vapid-dominator-gtx",
@@ -136,6 +138,7 @@
       "r11g-gw-th42-telehandler",
       "gtabase-vehicle-menu-art"
     ],
-    "verified": "2026-11-26"
+    "verified": "2026-11-26",
+    "image": "/images/vehicles/hvy-th42-telehandler.jpg"
   }
 ]
