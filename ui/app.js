@@ -1263,7 +1263,10 @@ async function runSplash(ready, prefsReady) {
   // Nothing plays until the saved choice is read (a moment), so neither intro starts half way through.
   splash.classList.add('is-waiting');
   await prefsReady;
-  let intro = introChoice();
+  // The web version opened at a page (a map link from the Discord assistant, say) goes straight to
+  // that page: no start-up choice and no intro in front of what the link was for.
+  const direct = window.GTA6HQ_WEB === true && location.hash.replace(/^#\/?/, '') !== '';
+  let intro = direct ? 'none' : introChoice();
   if (!intro) {
     splash.classList.add('is-choosing');
     intro = await askWhichIntro(splash);
@@ -1296,6 +1299,7 @@ async function runSplash(ready, prefsReady) {
     if (loud.length) requestAnimationFrame(quieten);
     setTimeout(() => { videos.forEach((video) => video.pause()); splash.remove(); document.body.classList.remove('is-arriving'); }, SPLASH_FADE_MS + 150);
   };
+  if (direct) { finish(true); return; }
 
   if (intro === 'official') {
     // The whole picture, never cropped: letterboxed on a window that is not 16:9.
@@ -3842,13 +3846,31 @@ function renderMap(params) {
   const focus = params.get('focus');
   const focusIndex = focus ? pins.findIndex((pin) => pin.name === focus || pin.ref === focus || pinKey(pin) === focus) : -1;
   if (focusIndex >= 0) setTimeout(() => { if (state.map === map) flyTo(focusIndex); }, 300); // not after the page has changed
-  // `?kind=` (from a 100% Guide page) lists one kind of place and frames all of its pins.
-  const kind = params.get('kind');
-  const ofKind = kind ? pins.filter((pin) => pin.kind === kind) : [];
-  if (ofKind.length) {
-    filter.value = kind;
+  // `?kind=` (from a 100% Guide page) lists one kind of place and frames all of its pins. Several
+  // kinds (`kind=A|B`, from the Discord assistant) narrow the lists and the map to all of them.
+  const kinds = (params.get('kind') || '').split('|').filter(Boolean);
+  const ofKind = kinds.length ? pins.filter((pin) => kinds.includes(pin.kind)) : [];
+  // `?at=x,y;x,y` (from the Discord assistant): the pins at those map positions, shown on their own.
+  const atPins = (params.get('at') || '').split(';').map((s) => s.split(',').map(Number))
+    .filter(([x, y]) => Number.isFinite(x) && Number.isFinite(y))
+    .map(([x, y]) => {
+      let best = -1, bestD = 0.004; // within about a fifth of a percent of the map: the same pin
+      pins.forEach((pin, i) => { const d = Math.hypot(pin.x - x, pin.y - y); if (d < bestD) { best = i; bestD = d; } });
+      return best;
+    }).filter((i) => i >= 0);
+  const framed = ofKind.length ? ofKind : atPins.map((i) => pins[i]);
+  if (ofKind.length && kinds.length === 1) {
+    filter.value = kinds[0];
     drawLists();
-    setTimeout(() => state.map === map && map.flyToBounds(L.latLngBounds(ofKind.map((pin) => point(pin.x, pin.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 }), 300);
+  } else if (framed.length > 1) {
+    runOnly = new Set(framed.map((pin) => pins.indexOf(pin)));
+    drawLists();
+    applyFilterToMap();
+  }
+  if (framed.length > 1 || ofKind.length) {
+    setTimeout(() => state.map === map && map.flyToBounds(L.latLngBounds(framed.map((pin) => point(pin.x, pin.y))).pad(0.2), { duration: flyMs(0.9), maxZoom: 3 }), 300);
+  } else if (framed.length === 1 && focusIndex < 0) {
+    setTimeout(() => { if (state.map === map) flyTo(pins.indexOf(framed[0])); }, 300);
   }
   if (params.get('q')) { filter.value = params.get('q'); drawLists(); }
   if (params.get('plan') && plan && !params.get('q')) { plan.open = true; setTimeout(() => { if (state.map === map) planRun(params.get('plan')); }, 350); }

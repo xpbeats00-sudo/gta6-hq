@@ -375,7 +375,7 @@ class Bot:
             if not place:
                 ans = Answer('places', '🗺️ The Leonida map', 'Every place GTA 6 HQ has marked: drag to move, scroll to zoom, '
                              'click a dot for details, or search for a place.')
-                ans.map_url = f'{a.site}/map/'
+                ans.map_url = f'{a.site}/#/map'
                 return ans
             return a.ask(f'where is {place}', context)
         if name == 'guide':

@@ -41,7 +41,8 @@ def link_matches(data, answer):
     """The map link opens at real pins: its focus is an entry with pins, its kind has pins, its spots are pins."""
     if not answer.map_url:
         return not answer.pins
-    q = urllib.parse.parse_qs(urllib.parse.urlparse(answer.map_url).query)
+    # Links open the app's own map: https://site/#/map?kind=…, so the request is after the '#'.
+    q = urllib.parse.parse_qs(urllib.parse.urlparse(answer.map_url).fragment.partition('?')[2])
     pins = data.pins()
     if 'focus' in q and not any(p['ref'] == q['focus'][0] for p in pins):
         return False
@@ -129,7 +130,7 @@ def run(data, a):
     def stunt():
         ans = a.ask('How do I complete all 40 Knife Flights?')
         assert ans.kind == 'guide' and 'Knife' in ans.title, ans.title
-        assert 'manual=' in ans.guide_url
+        assert '#/manual/' in ans.guide_url
         assert 'Not known yet' in ans.text, 'unknowns must be said, not guessed'
         return ans.title
     check('4. How to complete a stunt (Field Manual guide, unknowns stated)', stunt)
@@ -245,7 +246,7 @@ def run(data, a):
         maps = [r for r in replies if r[3]]
         assert maps and all(r[2]['embeds'][0]['image']['url'] == 'attachment://map.jpg' for r in maps)
         buttons = [c for r in replies for row in r[2]['components'] for c in row['components']]
-        assert any(c.get('label') == 'Open interactive map' and c['url'].startswith('https://example.test/hq/map/') for c in buttons)
+        assert any(c.get('label') == 'Open interactive map' and c['url'].startswith('https://example.test/hq/#/map') for c in buttons)
         # A follow-up from the same player in the channel keeps their context.
         bot.on_message({'id': 'q9', 'channel_id': 'chan', 'guild_id': 'guild', 'content': 'where do I get it', 'author': {'id': 'u2'}})
         follow = [s for s in sent if s[2] and s[2].get('message_reference', {}).get('message_id') == 'q9']

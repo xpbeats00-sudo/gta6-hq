@@ -39,21 +39,41 @@ A Discord embed cannot run a live map. So each answer that has a place carries t
 
 - **The picture**: a crop of the official map with the places marked, so the answer is readable
   without leaving Discord.
-- **The button**: it opens the hosted map at <https://xpbeats00-sudo.github.io/gta6-hq/map/>. It
-  opens straight at the same place, with nothing to search for again. On that map you can:
-  - drag to pan, and scroll, pinch or use the buttons to zoom;
-  - reset the view, go full screen, or show every place;
-  - pick a marker to see its name, area, position, description and guide link.
+- **The button**: it opens GTA 6 HQ on the web at <https://xpbeats00-sudo.github.io/gta6-hq/>,
+  straight at the same place, with nothing to search for again.
 
-| Map link | Opens at |
+The web version is the app itself: the same pages from `ui/`, the same map with its sidebar,
+toolbar, filters, planners, 2D and 3D views and detail tiles, the same encyclopedia and Field
+Manual. A player can drag, zoom, reset, go full screen, pick markers and mark places found. Their
+progress and favourites are kept in their own browser. A link from Discord skips the intro and goes
+straight to the page; the first visit still shows the app's spoiler notice once.
+
+| Link | Opens |
 | --- | --- |
-| `?focus=section/slug` | One encyclopedia entry |
-| `?kind=Gang+Operations` | Every place of a kind (several are separated by `\|`) |
-| `?at=x,y;x,y` | Spots by map position, from 0 to 1 across and down |
-| `?q=words` | A name search |
+| `#/map?focus=<pin name or section/slug>` | One place, with its card open |
+| `#/map?kind=Gang+Operations` | Every place of a kind (several are separated by `\|`) |
+| `#/map?at=x,y;x,y` | The pins at those map positions (0 to 1 across and down), on their own |
+| `#/map?q=words` | The map's list, filtered by those words |
+| `#/wiki/<section>/<slug>` | An encyclopedia entry (`#/characters/…` and `#/locations/…` for those two) |
+| `#/manual/<chapter>/<page>` | A Field Manual page, numbered as the app numbers it |
 
-The guide button opens `/guide/?ref=section/slug` for an entry, or `/guide/?manual=<chapter>&page=<n>`
-for a Field Manual page.
+Older `/map/?…` and `/guide/?…` addresses forward to the same pages.
+
+### How the web version runs without the app's server
+
+`scripts/build_site.py` copies `ui/`, `images/` and `wallpapers/` into `site/`. It then saves what the
+app's own server answers (`/api/wiki`, `/api/manual`, `/api/media`, `/api/health`) as files, and
+fetches the map's detail tiles through the server's tile cache. `web/static-host.js` loads first and
+answers the app's `/api/` calls:
+
+- the data comes from those files;
+- saved data and settings go to the browser's storage, merged a part at a time as the server does;
+- search runs in the page;
+- desktop-only things (updates, Discord status) answer "not available".
+
+Absolute paths are made relative, because GitHub Pages serves the site from `/gta6-hq/`. Nothing
+in `ui/` is written differently for the web, apart from two things in `ui/app.js`: links skip the
+intro on the web, and the map reads `at=` and several kinds.
 
 ## One source of truth
 
@@ -73,8 +93,8 @@ Nothing reads or copies the data files on its own:
 | `scripts/hq_assistant.py` | Reads the question, finds the subject, builds the answer and the map picture. No Discord code. |
 | `scripts/discord_assistant.py` | Turns answers into Discord messages; handles slash commands and buttons; handles rate limits |
 | `scripts/discord_online.py` | The bot's one gateway connection: status line, Member role, assistant events |
-| `web/` | The hosted map and guide pages (plain HTML, CSS, JavaScript and Leaflet) |
-| `scripts/build_site.py` | Builds `site/` from `web/` and the exported data |
+| `web/static-host.js` | Stands in for the app's server on the web |
+| `scripts/build_site.py` | Builds `site/`: the app's pages, pictures, exported data and map tiles |
 
 ## Accuracy
 
@@ -131,11 +151,13 @@ node scripts/web_map_check.mjs 9341 http://127.0.0.1:4680   # with a headless br
 - spoilers stay hidden;
 - several players asking at once each get one reply, and duplicates are ignored.
 
-`web_map_check.mjs` checks the hosted map in a browser:
+`web_map_check.mjs` checks the web version in a browser, also when served from a folder:
 
-- it opens at the linked place;
-- dragging pans and the wheel zooms;
-- the buttons zoom, reset and go full screen;
-- many-place links number and list every pin.
+- a map link opens the app's map straight away, at the kind, kinds, positions or place it names;
+- dragging pans, the wheel and the + and − buttons zoom, reset shows the whole map, and full
+  screen is asked for;
+- search, an entry with its picture and a Field Manual page work without the server;
+- saved data survives a reload;
+- nothing throws, logs an error or fails to load.
 
 CI runs both on Linux. The Discord replies are tested against a stand-in for Discord's API.

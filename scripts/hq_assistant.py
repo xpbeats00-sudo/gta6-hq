@@ -256,13 +256,22 @@ class Assistant:
         spots = [p for p in pins if not (focus and p.get('ref') == focus)][:20] if not kind else []
         if spots:
             q['at'] = ';'.join(f"{p['x']:.4f},{p['y']:.4f}" for p in spots)
-        return f'{self.site}/map/' + ('?' + urllib.parse.urlencode(q, safe=',;/') if q else '')
+        # The hosted site is the app itself: its own map page, opened at the request.
+        return f'{self.site}/#/map' + ('?' + urllib.parse.urlencode(q, safe=',;/') if q else '')
 
     def entry_link(self, ref):
-        return f'{self.site}/guide/?ref={urllib.parse.quote(ref, safe="/")}'
+        section, _, slug = ref.partition('/')
+        if section in ('characters', 'locations'):
+            return f'{self.site}/#/{section}/{urllib.parse.quote(slug)}'
+        if section in ('news', 'editions', 'faq'):
+            return f'{self.site}/#/intel'
+        return f'{self.site}/#/wiki/{section}/{urllib.parse.quote(slug)}'
 
     def page_link(self, hit):
-        return f"{self.site}/guide/?manual={hit['chapter']['id']}&page={hit['index']}"
+        ch = hit['chapter']
+        # The app numbers a chapter's pages from 1, after its title page when it has a cover.
+        cover = 1 if ch.get('cover') and ch.get('status') != 'in-development' else 0
+        return f"{self.site}/#/manual/{ch['id']}/{hit['index'] + 1 + cover}"
 
     # ---- facts about places ----
     def area_of(self, pin):

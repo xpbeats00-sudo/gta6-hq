@@ -3,45 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Leonida Map · GTA 6 HQ</title>
-<meta name="description" content="The interactive Leonida map from GTA 6 HQ, opened at the place you asked about.">
-<link rel="stylesheet" href="../assets/leaflet.css">
-<link rel="stylesheet" href="../assets/site.css">
-<link rel="icon" href="../assets/icon.png">
+<title>Leonida Map | GTA 6 HQ</title>
+<meta name="robots" content="noindex">
+<script>
+  // Older links (/map/?focus=…, ?kind=…, ?at=…, ?q=…) open the app's own map with the same request.
+  location.replace('../#/map' + location.search);
+</script>
 </head>
-<body class="map-page">
-<header class="bar">
-  <a class="brand" href="../map/"><span class="brand-mark">HQ</span><span>GTA 6 HQ <b>Leonida Map</b></span></a>
-  <form class="find" role="search" id="find">
-    <input type="search" id="find-q" placeholder="Find a place" aria-label="Find a place on the map" autocomplete="off">
-  </form>
-  <a class="bar-link" href="../guide/">Guides</a>
-</header>
-<main class="map-wrap">
-  <div id="map" aria-label="Interactive Leonida map: drag to move, scroll or use the buttons to zoom"></div>
-  <div class="map-tools" role="toolbar" aria-label="Map tools">
-    <button type="button" id="zoom-in" title="Zoom in" aria-label="Zoom in">+</button>
-    <button type="button" id="zoom-out" title="Zoom out" aria-label="Zoom out">−</button>
-    <button type="button" id="reset" title="Back to where the map opened" aria-label="Reset the map position">⟲</button>
-    <button type="button" id="full" title="Full screen" aria-label="Full screen">⛶</button>
-    <button type="button" id="all" title="Show every place on the map" aria-pressed="false" aria-label="Show every place">◎</button>
-  </div>
-  <aside class="panel" id="panel" aria-live="polite">
-    <div class="panel-head">
-      <h1 id="panel-title">Leonida</h1>
-      <button type="button" class="panel-fold" id="fold" aria-expanded="true" aria-controls="panel-body">Hide</button>
-    </div>
-    <div id="panel-body">
-      <p class="muted" id="panel-note">Loading the map…</p>
-      <div id="card"></div>
-      <ol id="list" class="pin-list"></ol>
-      <label class="check"><input type="checkbox" id="spoilers"> Show spoilers</label>
-      <p class="credit" id="credit"></p>
-    </div>
-  </aside>
-</main>
-<script src="../assets/leaflet.js"></script>
-<script src="../assets/common.js"></script>
-<script src="../assets/map.js"></script>
-</body>
+<body><p><a href="../#/map">Open the Leonida map</a></p></body>
 </html>

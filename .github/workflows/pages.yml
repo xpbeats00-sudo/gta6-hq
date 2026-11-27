@@ -1,7 +1,7 @@
 name: Publish the hosted map and guides
 
-# Builds the GTA 6 HQ site (the interactive Leonida map and the guide pages that the Discord
-# assistant links to) from the app's own server and publishes it with GitHub Pages:
+# Builds the GTA 6 HQ site (the app's own pages, with the Leonida map, encyclopedia and Field
+# Manual that the Discord assistant links to) from the app's own server and publishes it with GitHub Pages:
 # https://xpbeats00-sudo.github.io/gta6-hq/
 # Runs when the data, the pages or the scripts that build them change on main, and by hand.
 on:
@@ -10,11 +10,12 @@ on:
     paths:
       - 'data/**'
       - 'web/**'
-      - 'images/map/**'
       - 'src/**'
+      - 'ui/**'
+      - 'images/**'
+      - 'wallpapers/**'
       - 'scripts/build_site.py'
       - 'scripts/hq_data.py'
-      - 'ui/vendor/leaflet.*'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -49,6 +50,13 @@ jobs:
             ~/.cargo/git
             target
           key: pages-${{ runner.os }}-${{ hashFiles('Cargo.lock') }}
+      - name: Keep the map's detail tiles between runs
+        # The app fetches each community tile once and keeps it in cache/tiles; keeping that folder
+        # means the provider is not asked again on every publish.
+        uses: actions/cache@v4
+        with:
+          path: cache/tiles
+          key: map-tiles-v1
       - name: Build the app
         run: cargo build --release
       - name: Build the site from the app's server

@@ -345,9 +345,11 @@ On the [Discord server](https://discord.gg/YhMHr8N4an), ask anything about GTA 6
 
 - **Where its answers come from**: the bot answers from this app's data, through the app's own
   server, so there is no second database.
-- **What a reply holds**: a picture of the map, with buttons that open the
-  [interactive Leonida map](https://xpbeats00-sudo.github.io/gta6-hq/map/) at the same place.
-- **What the map does**: drag, zoom and go full screen.
+- **What a reply holds**: a picture of the map, with buttons that open
+  [GTA 6 HQ on the web](https://xpbeats00-sudo.github.io/gta6-hq/#/map) at the same place.
+- **What the web version is**: this app's own pages running in a browser, so the map, the
+  encyclopedia and the Field Manual look and work as they do in the app. Progress and favourites
+  are kept in that browser.
 - **What it never does**: it never guesses. If GTA 6 HQ does not have a fact, it says so.
 
 How it works, its settings and its tests: [`docs/architecture/DISCORD-ASSISTANT.md`](docs/architecture/DISCORD-ASSISTANT.md).
