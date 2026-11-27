@@ -2,6 +2,24 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
+## 0.2.47 (27 November 2026)
+
+The game's own card art and vehicle pictures, a smarter map, and a fresh build after Windows Security wrongly flagged 0.2.46.
+
+- **Card Collections, like the game's menu:**
+  - the real cover of all 18 card sets, in the game's order, with its set names and descriptions;
+  - real card faces for 12 cards so far, with the game's own card descriptions;
+  - the game's Collections background, a set screen with the card shown large (press R to turn it over), and its Select and Back prompts.
+- **Garage:** 97 vehicles show the game's Progress > Vehicles picture, its description, Style, Era and Mod shop specialist.
+- **Smarter map:**
+  - the closest unfinished objectives become a route, and Optimise reorders the stops by road;
+  - a completion-by-region overlay;
+  - your own named markers with notes, saved and backed up.
+- **Verification panel:** every entry shows its status, confidence, sources, when it was last checked, the evidence and the game version.
+- **Progress:** trophies, collections and tools count toward the overall figure, and the backup and Reset progress cover everything you save.
+- **GTA 6 HQ on the web** is now the app itself, so the Discord assistant's map links open the same map, encyclopedia and Field Manual.
+- **Windows Security:** it flagged 0.2.46's program file as a trojan. This is a guess by its machine-learning check, not known malware, and this version is a fresh build.
+
 ## 0.2.46 (26 November 2026)
 
 A map and menus that look like the game's, new research tools for vehicles, weapons, cards, cheats and trophies, and a full picture clean-up.
