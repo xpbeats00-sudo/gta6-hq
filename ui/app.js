@@ -793,6 +793,26 @@ function provenance(entry) {
   </section>`;
 }
 
+/** A step-by-step guide ([{ text, picture?, spoiler? }]) as numbered steps, each picture opening full size. */
+function entrySteps(key, entry) {
+  const steps = Array.isArray(entry.steps) ? entry.steps : [];
+  if (!steps.length || key === 'achievements') return ''; // trophies show theirs on the Trophies screen
+  return `<section class="entry-steps-wrap"><h2>Step by step</h2><ol class="entry-steps">${steps.map((st, n) => {
+    const body = `${st.picture ? `<button type="button" class="entry-step-pic" data-step-pic="${esc(st.picture)}" data-step-n="${n + 1}" aria-label="Show the step ${n + 1} picture full size"><img src="${esc(st.picture)}" alt="" loading="lazy"></button>` : ''}
+      <div><span class="entry-step-n">Step ${n + 1}</span><p>${esc(String(st.text || '').replace(/\|\|/g, '').trim())}</p></div>`;
+    return `<li class="entry-step${st.picture ? '' : ' entry-step-text'}">${st.spoiler && !showSpoilers ? veil(key, entry, body) : body}</li>`;
+  }).join('')}</ol></section>`;
+}
+/** Opens a step picture in the lightbox with its media record (credit, rights) when it has one. */
+function wireStepPictures(entry) {
+  view.querySelectorAll('[data-step-pic]').forEach((btn) => btn.addEventListener('click', async () => {
+    const src = btn.dataset.stepPic;
+    const media = await (mediaRecords ||= getJson('/api/media').catch(() => null));
+    const rec = (media?.images || []).find((m) => String(m.src || '').replace(/^\//, '') === src.replace(/^\//, ''));
+    openLightbox({ ...(rec || { rights: 'unknown', credit: '' }), type: 'image', src, alt: rec?.alt || '', title: `${entry.name}: step ${btn.dataset.stepN}`, related: [] }, btn);
+  }));
+}
+
 function related(entry) {
   // Spoiler entries the reader hasn't opened are left out; with none left there is no section at all.
   const links = (entry.related || []).map(resolve).filter(Boolean).filter(({ section, entry: e }) => !isHidden(section, e));
@@ -2062,6 +2082,7 @@ function renderEntry(key, slug) {
         <p class="lede">${esc(entry.summary)}</p>
         ${lead ? '' : '<div class="entry-cols"><div class="entry-main">'}
         ${paragraphs(entry)}
+        ${entrySteps(key, entry)}
         ${lead ? facts(key, entry) : ''}
         ${key === 'missions' ? storyNav(entry) : ''}
         ${mapLink(key, entry)}
@@ -2074,6 +2095,7 @@ function renderEntry(key, slug) {
       </div>
     </article>`;
   view.innerHTML = isHidden(key, entry) ? veil(key, entry, page, 'page') : page;
+  wireStepPictures(entry);
   fillGuideLinks();
 }
 

@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "glitch-stash-bag-dupe",
+    "name": "Glitch: stash bag duplication",
+    "summary": "Drop a full stash bag in a set way and pick it back up from the loot prompt, and the goods inside are counted twice: $1,000 of weed becomes $2,000. Found and screenshotted by GTA 6 HQ.",
+    "body": [
+      "This is a glitch, not a feature Rockstar describes, and it was found by GTA 6 HQ in our own game rather than by a guide or news site. It works on stolen goods carried in a stash bag: narcotics such as weed, jewelry and marked bills. A patch could stop it working at any time.",
+      "The trick is in the order: drop the bag while standing still and crouched, then pick it up through the loot prompt (Y on Xbox, Triangle on PlayStation) without moving. The bag's goods are added again, doubling their value. With two bags you drop them in reverse order and pick them up in a set order, which doubles both.",
+      "For the biggest profit, load the doubled bags into an SUV or van with six or more stow spaces, then sell them. Yasmani buys stolen goods at his shop, or will collect them from your garage or a drop-off point for a cut: the stash in our screenshot was worth $3,088,400 to him.",
+      "Do not take in more money than your BuckMe account can hold. Rockstar says BuckMe limits only rise as the main story goes on, and payments that cannot complete because the account is full wait until it is upgraded."
+    ],
+    "steps": [
+      {
+        "text": "Get some stolen goods: rob a store or take narcotics, jewelry or marked bills on a job, so they go into your stash bag.",
+        "picture": "/images/gameplay/stash-dupe-1-rob-a-store.jpg"
+      },
+      {
+        "text": "Decide whether to use one bag or two. Crouch and stand still, looking down at the ground, then open the weapon wheel and switch to Items. The stash bag shows how many bags you carry (2 / 2 here) and what they hold.",
+        "picture": "/images/gameplay/stash-dupe-2-items-wheel.jpg"
+      },
+      {
+        "text": "One bag: drop it from the Items wheel. Without moving, turn the camera onto the bag and press Y (Triangle on PlayStation) to loot it. The goods inside are doubled: $1,000 of weed turns into $2,000.",
+        "picture": "/images/gameplay/stash-dupe-3-drop-and-look.jpg"
+      },
+      {
+        "text": "Two bags: do the same, but drop the second bag first and then the first. Pick up the bag you dropped first (so you hold 2 / 2), then pick up the other one (1 / 2). Both bags are doubled the same way.",
+        "picture": "/images/gameplay/stash-dupe-4-two-bags.jpg"
+      },
+      {
+        "text": "Repeat and stow the bags in an SUV or van with six or more stow spaces, so you can carry as much as possible in one trip.",
+        "picture": "/images/gameplay/stash-dupe-5-load-the-van.jpg"
+      },
+      {
+        "text": "Sell the goods to Yasmani: at his shop, or call the smoke shop for a pick-up from your garage or a drop-off point. Keep the total under your BuckMe limit.",
+        "picture": "/images/gameplay/stash-dupe-6-sell-to-yasmani.jpg"
+      }
+    ],
+    "tags": [
+      "bags",
+      "dupe",
+      "duplication",
+      "exploit",
+      "glitch",
+      "jewelry",
+      "marked bills",
+      "money",
+      "narcotics",
+      "stash bag",
+      "stolen goods",
+      "weed"
+    ],
+    "facts": {
+      "type": "Glitch",
+      "shown_in": "Found and screenshotted by GTA 6 HQ, November 2026"
+    },
+    "related": [
+      "characters/yasmani",
+      "gameplay/fences",
+      "gameplay/marked-bills",
+      "gameplay/buckme-account-limits",
+      "weapons/duffel-bag"
+    ],
+    "confidence": "community",
+    "sources": [],
+    "verified": "2026-11-28",
+    "image": "/images/gameplay/stash-dupe-6-sell-to-yasmani.jpg"
+  }
+]
