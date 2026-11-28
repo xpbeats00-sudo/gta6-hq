@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-27 16:30 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-27 17:26 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 

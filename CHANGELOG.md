@@ -4,6 +4,8 @@ Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-h
 
 ## Unreleased
 
+- **More menu names at every window size:** when the window was not full screen, the More menu showed only its pictures, because the top bar's icon-only rule hid the menu's link names too. They now always show.
+- **Wallpaper section headings on GitHub:** each README heading is a strip of one of the app's wallpaper scenes, two frames fading into each other, with a light running round its glowing border (the hero and footer have it too).
 - **A new GitHub page:** the README opens on a live banner: six of the app's wallpaper scenes crossfading behind a chrome GTA 6 HQ wordmark and a neon "Welcome to Vice City", with a caption and progress bar for each scene. It also gains neon download, browser, Discord and Mac and Linux buttons, a scrolling strip of what is inside, numbered neon section headings and a Vice City night footer (`scripts/make_readme_banners.py`, `scripts/make_readme_svg.py`).
 - **Sharp card-set covers:** all 18 covers on the Card Collections screen are twice the size (560 × 810, from Fextralife, no watermark), so they are no longer blurry.
 - **Strangers and Freaks pictures:** 14 more stranger and side missions have a picture (from GTABase, no watermark), including all five of Andy's, Pilot Pete's deliveries, Spin On This, Maritime Disputes and The Final Flush.

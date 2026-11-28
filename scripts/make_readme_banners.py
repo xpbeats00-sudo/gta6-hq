@@ -210,6 +210,7 @@ def hero():
     script, _, _ = words('Welcome to Vice City', 66, 0, 0, script=True)
     tag, _, _ = words('ENCYCLOPEDIA   •   MAP OF LEONIDA   •   FIELD MANUAL   •   COLLECTIBLES', 13, 70, 384, wght=600, wdth=100, track=.24)
     sy = 122 + mcap + 22
+    bdefs, bcss, bels = border_glow(W, H, 20, 'e', 9)
     wanted = ''.join(f'<g transform="translate({W - 50 - i * 30} 44)"><path d="{STAR5}" fill="#000" fill-opacity=".35" stroke="#fff" stroke-opacity=".6" stroke-width="1.4"/>'
                      f'<path class="want" style="animation-delay:{(4 - i) * .55:.2f}s" d="{STAR5}" fill="{GOLD}"/></g>' for i in range(5))
 
@@ -228,7 +229,6 @@ def hero():
   .rise { opacity: 0; animation: rise 1.1s cubic-bezier(.2,.8,.2,1) forwards; } @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
   .want { opacity: 0; animation: want 6s ease-in-out infinite; } @keyframes want { 0%, 8% { opacity: 0; } 12%, 80% { opacity: 1; } 84%, 100% { opacity: 0; } }
   .leak { animation: leak 11s ease-in-out infinite alternate; } @keyframes leak { from { transform: translateX(-120px); opacity: .25; } to { transform: translateX(160px); opacity: .55; } }
-  .edge { animation: edge 3.5s ease-in-out infinite alternate; } @keyframes edge { from { stroke-opacity: .25; } to { stroke-opacity: .7; } }
   ''' + REDUCED)
 
     body = f'''<defs>{FILTERS}
@@ -267,7 +267,8 @@ def hero():
   <rect width="{W}" height="{H}" fill="url(#scan)" opacity=".7"/>
   <rect width="{W}" height="{H}" fill="url(#vig)"/>
 </g>
-<rect class="edge" x="1" y="1" width="{W - 2}" height="{H - 2}" rx="19" fill="none" stroke="#ff6fb5" stroke-width="2"/>'''
+{bels}'''
+    body = body.replace('<defs>', '<defs>' + bdefs, 1).replace('</style>', bcss + '</style>', 1)
     write('hero.svg', svg(W, H, body, 'GTA 6 HQ: the unofficial companion for Leonida. Live wallpapers from the app behind the title; encyclopedia, map of Leonida, Field Manual and collectibles.'))
 
 
@@ -336,11 +337,89 @@ def button(name, label, sub, icon, c1, c2, solid):
     write(f'btn-{name}.svg', svg(W, H, body, f'{label} {sub}'.title().replace('&', 'and')))
 
 
+# ---------------------------------------------------------------- border glow
+
+def border_glow(w, h, rx, uid='bg', speed=7):
+    """Two lights running round the frame's edge with a soft glow behind them. For readers who ask
+    for less motion they stop, and the whole edge breathes instead. Returns (defs, css, elements)."""
+    d = f'M{rx},1.5 H{w - rx} A{rx - 1.5},{rx - 1.5} 0 0 1 {w - 1.5},{rx} V{h - rx} A{rx - 1.5},{rx - 1.5} 0 0 1 {w - rx},{h - 1.5} H{rx} A{rx - 1.5},{rx - 1.5} 0 0 1 1.5,{h - rx} V{rx} A{rx - 1.5},{rx - 1.5} 0 0 1 {rx},1.5 Z'
+    defs = (f'<linearGradient id="{uid}g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{GOLD}"/><stop offset=".5" stop-color="{PINK}"/><stop offset="1" stop-color="{PURPLE}"/></linearGradient>'
+            f'<filter id="{uid}f" x="-5%" y="-30%" width="110%" height="160%"><feGaussianBlur stdDeviation="5"/></filter>')
+    css = (f'.{uid}r {{ stroke-dasharray: 110 390; animation: {uid}r {speed}s linear infinite; }} @keyframes {uid}r {{ to {{ stroke-dashoffset: -500; }} }}'
+           f' @media (prefers-reduced-motion: reduce) {{ .{uid}r {{ stroke-dasharray: none; animation: {uid}p 2.6s ease-in-out infinite alternate; }} }}'
+           f' @keyframes {uid}p {{ from {{ opacity: .25; }} to {{ opacity: .9; }} }}')
+    els = (f'<path d="{d}" fill="none" stroke="#ff6fb5" stroke-opacity=".28" stroke-width="1.5"/>'
+           f'<path class="{uid}r" pathLength="500" d="{d}" fill="none" stroke="url(#{uid}g)" stroke-width="7" stroke-linecap="round" filter="url(#{uid}f)"/>'
+           f'<path class="{uid}r" pathLength="500" d="{d}" fill="none" stroke="url(#{uid}g)" stroke-width="2.4" stroke-linecap="round"/>')
+    return defs, css, els
+
+
+# ---------------------------------------------------------------- section headings
+
+# One wallpaper scene per heading: (file name, title, wallpaper video, how far down to centre the strip)
+HEADINGS = [
+    ('inside', "What's inside", 'gta-vi-jason-lucia-convertible-night', .3),
+    ('intro', 'Pick your start-up', 'gta-vi-jason-lucia-nightclub', .22),
+    ('manual', 'The Field Manual', 'gta-vi-hilltop-sunset', .55),
+    ('install', 'Install', 'gta-vi-vice-city-skyline-night', .4),
+    ('new', "What's new", 'gta-vi-car-meet-selfie', .3),
+    ('creators', 'Creators welcome', 'gta-vi-real-dimez-ocean-view', .12),
+    ('questions', 'Questions', 'gta-vi-rusty-anchor-bar', .28),
+    ('trust', 'How far to trust it', 'gta-vi-jason-lucia-bank-robbery', .22),
+    ('privacy', 'Privacy', 'gta-vi-canal-police-raid', .5),
+    ('credits', 'Credits and rights', 'gta-vi-delights-cabaret', .4),
+    ('developers', 'For developers', 'gta-vi-cal-hampton-boat', .25),
+]
+
+
+def heading(name, title, number, video, focus):
+    """A section heading over a strip of a wallpaper: two frames of the scene fading into each other
+    while the strip pans slowly, the title on a dark fade, and a light running round the edge."""
+    W, H, R = 860, 100, 16
+    a = frame(video, 2, focus, 1290, 150, 64)
+    b = frame(video, 7, focus, 1290, 150, 64)
+    kick, _, _ = words(f'SECTION {number:02d}', 11, 34, 24, wght=600, wdth=100, track=.34)
+    t, tw, tcap = words(title.upper(), 36, 34, 44, wght=700, wdth=75, track=.04)
+    bdefs, bcss, bels = border_glow(W, H, R, 'e', 6 + number % 3)
+    img = 'width="{0}" height="{1}" preserveAspectRatio="xMidYMid slice"'.format(W + 60, H)
+    css = ('''
+  .pan { animation: pan 16s ease-in-out infinite alternate; } @keyframes pan { from { transform: translateX(-60px); } to { transform: translateX(0); } }
+  .x { animation: x 12s ease-in-out infinite; } @keyframes x { 0%, 38% { opacity: 0; } 50%, 88% { opacity: 1; } 100% { opacity: 0; } }
+  .on { animation: on 1.4s linear both; } @keyframes on { 0% { opacity: 0; } 10% { opacity: .8; } 14% { opacity: .15; } 22% { opacity: 1; } 26% { opacity: .5; } 34%, 100% { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { .pan { animation: none; } }
+  ''' + bcss)
+    body = f'''<defs>{bdefs}
+  <clipPath id="c"><rect width="{W}" height="{H}" rx="{R}"/></clipPath>
+  <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#0b0320" stop-opacity=".95"/><stop offset=".38" stop-color="#0b0320" stop-opacity=".7"/><stop offset=".75" stop-color="#0b0320" stop-opacity=".1"/><stop offset="1" stop-color="#0b0320" stop-opacity=".25"/></linearGradient>
+  <linearGradient id="tint" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a0c52" stop-opacity=".35"/><stop offset="1" stop-color="#ee3f7c" stop-opacity=".22"/></linearGradient>
+  <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{GOLD}"/><stop offset=".55" stop-color="{HOT}"/><stop offset="1" stop-color="{PURPLE}"/></linearGradient>
+  <filter id="sh" x="-5%" y="-40%" width="110%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<style>{css}</style>
+<g clip-path="url(#c)">
+  <rect width="{W}" height="{H}" fill="#12062a"/>
+  <g class="pan"><image href="{a}" {img}/><image class="x" href="{b}" {img}/></g>
+  <rect width="{W}" height="{H}" fill="url(#tint)"/>
+  <rect width="{W}" height="{H}" fill="url(#fade)"/>
+  <rect width="{W}" height="{H}" fill="url(#scan)" opacity=".6"/>
+  <g class="on">
+    <g fill="{TEAL}">{kick}</g>
+    <g fill="#000" opacity=".7" filter="url(#sh)">{t}</g>
+    <g fill="#fff">{t}</g>
+    <rect x="34" y="{44 + tcap + 10:.0f}" width="{min(tw, 220):.0f}" height="3" rx="1.5" fill="url(#ink)"/>
+  </g>
+</g>
+{bels}'''
+    body = body.replace('<defs>', '<defs><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".18"/></pattern>', 1)
+    write(f'h-{name}.svg', svg(W, H, body, title))
+
+
 # ---------------------------------------------------------------- footer
 
 def footer():
     W, H, HZ = 1200, 260, 176
     rng = random.Random(9)
+    bdefs, bcss, bels = border_glow(W, H, 20, 'e', 9)
     refl = ""
     line, lw, lcap = words('See you in Leonida', 64, W / 2, 62, anchor='middle', script=True)
     small, _, _ = words('UNOFFICIAL FAN PROJECT  \u2022  NOT AFFILIATED WITH ROCKSTAR GAMES OR TAKE-TWO', 12, W / 2, 196, anchor='middle', wght=600, wdth=100, track=.24)
@@ -351,8 +430,8 @@ def footer():
   .shim { transform-box: fill-box; transform-origin: center; animation: shim 2.6s ease-in-out infinite alternate; } @keyframes shim { from { transform: scaleX(.8); } to { transform: scaleX(1.1); } }
   .flick { animation: flick 8s linear infinite; } @keyframes flick { 0%, 30%, 31.5%, 33%, 100% { opacity: 1; } 31%, 32.5% { opacity: .3; } }
   .kb { transform-origin: 50% 60%; animation: kb 24s ease-in-out infinite alternate; } @keyframes kb { from { transform: scale(1.02) translateX(-12px); } to { transform: scale(1.12) translateX(12px); } }
-  ''' + REDUCED
-    body = f'''<defs>{FILTERS}
+  ''' + REDUCED + bcss
+    body = f'''<defs>{FILTERS}{bdefs}
   <clipPath id="frame"><rect width="{W}" height="{H}" rx="20"/></clipPath>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#07021a"/><stop offset=".7" stop-color="#1f0b45"/><stop offset="1" stop-color="#3b1666"/></linearGradient>
   <radialGradient id="dim" cx=".5" cy=".45" r=".7"><stop offset="0" stop-color="#0b0320" stop-opacity=".78"/><stop offset=".6" stop-color="#1a0838" stop-opacity=".5"/><stop offset="1" stop-color="#07021a" stop-opacity=".85"/></radialGradient>
@@ -371,11 +450,13 @@ def footer():
   <g fill="#cdbfe0" opacity=".85">{small}</g>
   <rect width="{W}" height="{H}" fill="url(#scan)"/>
 </g>
-<rect x="1" y="1" width="{W - 2}" height="{H - 2}" rx="19" fill="none" stroke="#8f7cff" stroke-opacity=".35" stroke-width="2"/>'''
+{bels}'''
     write('footer.svg', svg(W, H, body, 'See you in Leonida. Unofficial fan project, not affiliated with Rockstar Games or Take-Two Interactive.'))
 
 
 if __name__ == '__main__':
+    for i, (name, title, video, focus) in enumerate(HEADINGS, 1):
+        heading(name, title, i, video, focus)
     hero()
     ticker(['Map of Leonida', '3,200+ sourced entries', '229-page Field Manual', '480 collectible cards', '594 vehicles with stat bars',
             '100% checklist', 'Robbery planner', 'Cheats for PS5 and Xbox', 'Trophy guides', 'Live wallpapers', 'Discord assistant'])

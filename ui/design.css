@@ -983,6 +983,9 @@ body[data-page='manual'] .rail { display: none; }
 .nav-more-menu.is-mega .mega-col { display: grid; align-content: start; gap: 2px; min-width: 0; }
 .nav-more-menu.is-mega .mega-col a { padding: 6px 8px !important; }
 .nav-more-menu.is-mega .mega-col a span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* The top bar hides its own link words at in-between widths (icons only); the More menu's links sit
+   inside #nav too, so they are put back here, or the menu shows pictures with no names. */
+#nav .nav-more-menu a span { position: static !important; width: auto !important; height: auto !important; clip-path: none !important; overflow: hidden; text-overflow: ellipsis; }
 .mega-thumb { flex: none; width: 46px; height: 30px; border-radius: 4px; object-fit: cover; background: var(--surface-2); }
 .mega-thumb.is-icon { object-fit: contain; padding: 2px; background: color-mix(in srgb, var(--accent) 12%, var(--surface-2)); }
 .topic-media-icon img { object-fit: contain !important; padding: 18%; background: radial-gradient(circle at 50% 40%, #3a2350, #120c19); animation: none !important; }

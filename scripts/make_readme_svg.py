@@ -8,7 +8,6 @@ carries its own dark background, so it reads on GitHub's light and dark themes, 
 moving for readers who ask for less motion.
 
   stats.svg       four counts from the live data, rising in one after another
-  h-<name>.svg    one plate per section heading, with a light running along its sunset rule
   rule.svg        a thin sunset line with the same running light
 
 Needs fontTools (pip install fonttools) and C:/Windows/Fonts/bahnschrift.ttf.
@@ -179,10 +178,5 @@ def counts():
 
 if __name__ == '__main__':
     stats(counts())
-    done = []
-    for name, text in [('inside', "What's inside"), ('intro', 'Pick your start-up'), ('manual', 'The Field Manual'), ('install', 'Install'),
-                       ('new', "What's new"), ('creators', 'Creators welcome'), ('questions', 'Questions'), ('trust', 'How far to trust it'),
-                       ('privacy', 'Privacy'), ('credits', 'Credits and rights'), ('developers', 'For developers')]:
-        heading(name, text, number=len(done) + 1)
-        done.append(name)
+    # The section headings are drawn over wallpapers by make_readme_banners.py.
     rule()
