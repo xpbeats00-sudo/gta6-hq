@@ -1,17 +1,20 @@
 <div align="center">
 
-<h1>GTA 6 HQ</h1>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="docs/media/readme/hero.svg" alt="GTA 6 HQ: the unofficial companion for Leonida. Encyclopedia, map of Leonida, Field Manual and collectibles." width="100%"></a>
 
 **A sourced encyclopedia, a map of Leonida and a full field manual for Grand Theft Auto VI, in one small desktop app.**
 
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Download%20for%20Windows-ee3f7c?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0wIDBoMTEuNHYxMS40SDB6TTEyLjYgMEgyNHYxMS40SDEyLjZ6TTAgMTIuNmgxMS40VjI0SDB6TTEyLjYgMTIuNkgyNFYyNEgxMi42eiIvPjwvc3ZnPg%3D%3D&logoColor=white" alt="Download for Windows" height="42"></a>
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/macOS%20(preview)-7c3fd6?style=for-the-badge&logo=apple&logoColor=white" alt="macOS (preview)" height="42"></a>
-<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="https://img.shields.io/badge/Linux%20(preview)-f58a2e?style=for-the-badge&logo=linux&logoColor=white" alt="Linux (preview)" height="42"></a>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="docs/media/readme/btn-windows.svg" alt="Download for Windows 10 and 11" width="205"></a>
+<a href="https://xpbeats00-sudo.github.io/gta6-hq/"><img src="docs/media/readme/btn-web.svg" alt="Open in browser: the web map and wiki" width="205"></a>
+<a href="https://discord.gg/YhMHr8N4an"><img src="docs/media/readme/btn-discord.svg" alt="Join the Discord server and ask the HQ bot" width="205"></a>
+<a href="https://github.com/xpbeats00-sudo/gta6-hq/releases/latest"><img src="docs/media/readme/btn-unix.svg" alt="macOS and Linux preview builds" width="205"></a>
 
 [![Latest version](https://img.shields.io/github/v/release/xpbeats00-sudo/gta6-hq?label=latest&style=flat-square&labelColor=160a2e&color=ee3f7c)](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/xpbeats00-sudo/gta6-hq/total?label=downloads&style=flat-square&labelColor=160a2e&color=7c3fd6)](https://github.com/xpbeats00-sudo/gta6-hq/releases)
 [![Discord](https://img.shields.io/badge/Discord-join%20the%20server-ee3f7c?style=flat-square&labelColor=160a2e&logo=discord&logoColor=white)](https://discord.gg/YhMHr8N4an)
 ![Built with Rust](https://img.shields.io/badge/built%20with-Rust-f58a2e?style=flat-square&labelColor=160a2e)
+
+<img src="docs/media/readme/ticker.svg" alt="Map of Leonida, 3,200+ sourced entries, 229-page Field Manual, 480 collectible cards, 594 vehicles with stat bars, 100% checklist, robbery planner, cheats, trophy guides, live wallpapers, Discord assistant" width="100%">
 
 <img src="docs/media/readme/stats.svg" alt="3,200+ encyclopedia entries, 13 sections, 1,000+ sourced pictures, 229 Field Manual pages" width="860">
 
@@ -409,7 +412,7 @@ The installer puts the app in the user's own programs folder, so it needs no adm
 </details>
 
 <div align="center">
-<img src="docs/media/readme/rule.svg" alt="" width="860">
+<img src="docs/media/readme/footer.svg" alt="See you in Leonida. Unofficial fan project, not affiliated with Rockstar Games or Take-Two Interactive." width="100%">
 
 **GTA 6 HQ** is an unofficial fan project. [Download](https://github.com/xpbeats00-sudo/gta6-hq/releases/latest) · [Discord](https://discord.gg/YhMHr8N4an) · [Press kit](docs/press/README.md)
 

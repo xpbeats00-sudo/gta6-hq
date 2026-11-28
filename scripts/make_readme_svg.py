@@ -61,7 +61,8 @@ def placed(text, size, x, y, anchor='start', **kw):
         x -= w
     return f'<path transform="translate({x:.1f} {y:.1f})" d="{d}"/>', w, cap
 
-REDUCED = '@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }'
+# Moving parts stop for readers who ask for less motion; fades and glows carry on.
+REDUCED = '@media (prefers-reduced-motion: reduce) { .run, .up { animation: none !important; } .up { opacity: 1 !important; } }'
 SUNSET = '<stop offset="0" stop-color="#ffc46b"/><stop offset=".55" stop-color="#ee3f7c"/><stop offset="1" stop-color="#8b3fd9"/>'
 
 def svg(w, h, body, label):
@@ -95,24 +96,45 @@ def stats(items):
 {''.join(tiles)}'''
     write('stats.svg', svg(w, h, body, ', '.join(f'{n} {l}' for n, l in items)))
 
-def heading(name, text):
-    w, h = W, 70
-    t, tw, tcap = placed(text.upper(), 30, 30, 16, wght=700, wdth=75, track=0.05)
-    rule_y = 16 + tcap + 14
+def heading(name, text, number=None):
+    """A section plate: a numbered neon tag, the title with a soft glow, a striped sunset sun on the
+    right, and a light running along the sunset rule. It flickers on like a neon sign as it loads."""
+    w, h = W, 76
+    tx = 30 if number is None else 96
+    t, tw, tcap = placed(text.upper(), 30, tx, 18, wght=700, wdth=75, track=0.05)
+    rule_y = 18 + tcap + 14
+    tag = ''
+    if number is not None:
+        n, nw, ncap = placed(f'{number:02d}', 22, 0, 0, wght=700, wdth=75, track=0.06)
+        tag = (f'<rect x="28" y="{18 + tcap / 2 - 17:.1f}" width="50" height="34" rx="8" fill="none" stroke="#5ef2ff" stroke-width="2" opacity=".9"/>'
+               f'<g fill="#5ef2ff" transform="translate({53 - nw / 2:.1f} {18 + tcap / 2 - ncap / 2:.1f})">{n}</g>')
+    sx, sy, sr = w - 92, 44, 26
+    gaps = ''.join(f'<rect x="{sx - sr}" y="{sy - 2 + k * 7}" width="{sr * 2}" height="{1 + k * .6:.1f}" fill="#000"/>' for k in range(5))
     body = f'''<defs>
   <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">{SUNSET}</linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3b0"/><stop offset=".5" stop-color="#ffc46b"/><stop offset="1" stop-color="#ee3f7c"/></linearGradient>
+  <linearGradient id="plate" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#1b0c36"/><stop offset=".7" stop-color="#160a2e"/><stop offset="1" stop-color="#2a0f4a"/></linearGradient>
   <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
-  <clipPath id="line"><rect x="30" y="{rule_y}" width="{w - 60}" height="3" rx="1.5"/></clipPath>
+  <filter id="glow" x="-10%" y="-60%" width="120%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+  <clipPath id="line"><rect x="{tx}" y="{rule_y}" width="{w - tx - 150}" height="3" rx="1.5"/></clipPath>
+  <mask id="sm"><circle cx="{sx}" cy="{sy}" r="{sr}" fill="#fff"/><rect x="{sx - sr}" y="{sy + 14}" width="{sr * 2}" height="20" fill="#000"/>{gaps}</mask>
 </defs>
 <style>
   .run {{ animation: run 4.5s ease-in-out infinite; }}
   @keyframes run {{ 0% {{ transform: translateX(-180px); }} 55%, 100% {{ transform: translateX({w + 40}px); }} }}
+  .on {{ animation: on 1.4s linear both; }}
+  @keyframes on {{ 0% {{ opacity: 0; }} 10% {{ opacity: .8; }} 14% {{ opacity: .1; }} 22% {{ opacity: 1; }} 26% {{ opacity: .4; }} 34%, 100% {{ opacity: 1; }} }}
+  .breathe {{ animation: breathe 4s ease-in-out infinite alternate; }} @keyframes breathe {{ from {{ opacity: .35; }} to {{ opacity: .8; }} }}
   {REDUCED}
 </style>
-<path d="M0,12 Q0,0 12,0 H{w - 28} L{w},28 V{h - 12} Q{w},{h} {w - 12},{h} H12 Q0,{h} 0,{h - 12} Z" fill="#160a2e"/>
+<path d="M0,14 Q0,0 14,0 H{w - 30} L{w},30 V{h - 14} Q{w},{h} {w - 14},{h} H14 Q0,{h} 0,{h - 14} Z" fill="url(#plate)"/>
+<path d="M0,14 Q0,0 14,0 H{w - 30} L{w},30 V{h - 14} Q{w},{h} {w - 14},{h} H14 Q0,{h} 0,{h - 14} Z" fill="none" stroke="#ff6fb5" stroke-opacity=".28" stroke-width="1.5"/>
 <rect x="0" y="0" width="5" height="{h}" fill="url(#ink)"/>
-<g fill="#f6eefa">{t}</g>
-<rect x="30" y="{rule_y}" width="{w - 60}" height="3" rx="1.5" fill="url(#ink)" opacity=".9"/>
+<circle class="breathe" cx="{sx}" cy="{sy}" r="{sr + 8}" fill="#ff6f7d" filter="url(#glow)"/>
+<rect x="{sx - sr}" y="{sy - sr}" width="{sr * 2}" height="{sr * 2}" fill="url(#sun)" mask="url(#sm)"/>
+<rect x="{sx - 44}" y="{sy + 14}" width="88" height="1.5" fill="#ffb3a0" opacity=".7"/>
+<g class="on">{tag}<g fill="#ff4fa3" opacity=".55" filter="url(#glow)">{t}</g><g fill="#f6eefa">{t}</g></g>
+<rect x="{tx}" y="{rule_y}" width="{w - tx - 150}" height="3" rx="1.5" fill="url(#ink)" opacity=".9"/>
 <g clip-path="url(#line)"><rect class="run" x="0" y="{rule_y - 2}" width="160" height="7" fill="url(#shine)"/></g>'''
     write(f'h-{name}.svg', svg(w, h, body, text))
 
@@ -157,8 +179,10 @@ def counts():
 
 if __name__ == '__main__':
     stats(counts())
+    done = []
     for name, text in [('inside', "What's inside"), ('intro', 'Pick your start-up'), ('manual', 'The Field Manual'), ('install', 'Install'),
                        ('new', "What's new"), ('creators', 'Creators welcome'), ('questions', 'Questions'), ('trust', 'How far to trust it'),
                        ('privacy', 'Privacy'), ('credits', 'Credits and rights'), ('developers', 'For developers')]:
-        heading(name, text)
+        heading(name, text, number=len(done) + 1)
+        done.append(name)
     rule()
