@@ -1,6 +1,6 @@
 # Media rights audit
 
-Generated 2026-11-27 15:55 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-27 16:00 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 

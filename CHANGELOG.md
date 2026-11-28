@@ -2,7 +2,9 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
-## Unreleased
+## 0.2.50 (27 November 2026)
+
+Every collectible card with its real front, the game's menu pictures for vehicles, and clean pictures for the weapons.
 
 - **Every card:** all 480 collectible cards are in, each with its real front. Seven the list was missing are added (Femi-Nemesis and Zaria "RI RI" Luckett in Bronze, Silver and Gold, and the Gold Maleek Rivers), so Ed Comics Universe and Jack of Hearts Dancers show all 36 and Vice City Manatees all 24.
 - **Card fronts:** 468 more cards show their real front, every colour variant included, from MetaForge's GTA 6 database; each picture carries a faint MetaForge watermark and is credited to them. Cards named for who is on them now also carry the title printed on the card (Burning Desire, Red White & Boom, Officer XXX, Tusi Taufua, Right vs. Left).
@@ -10,6 +12,7 @@ Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-h
 - **The Duke 1922 variants are spelled right:** Brainwasher, Brian's, Deadringer, Martha's, Money Bag, Monty's, Raul's, Russo's and The Silver are 1922, not 1992 (GTABase has corrected its pages too); the old spelling still finds them.
 - **Vehicle pictures from the game's menu:** every vehicle with the game's studio picture (the car alone on the pale menu floor) now shows it as its picture, 594 of the 623 vehicles, and the category pages (Classic Cars, Boats, Airboats and others) show one too. Police, taxi, news and rescue versions with no studio picture of their own show the stock model's, and say so. New studio pictures for the Ocelot Jugular, Benefactor Schutzen, Brute B3000 Excavator (GTABase). The '70 Riata keeps its close-up photo: its only studio picture carries a watermark.
 - **Doubled vehicles folded together:** nine pre-launch names (Shafter S and V12, Nightlight Schafer, Hung Carbos RS, Superovolito, '82 Imponte Runner, '67 Transgressor, The Ridgeway, and the Walton L35, whose old GTABase page now opens the Walton '81) are now part of their release entries; old links still open them.
+- **Discord assistant:** a map place that shares its name with a spoiler entry stays behind spoiler bars too.
 - **Card Collections:** a card with a front shows it in the set's grid whether or not you have found it, with a tick once found; the big card is no longer greyed out.
 
 ## 0.2.49 (27 November 2026)

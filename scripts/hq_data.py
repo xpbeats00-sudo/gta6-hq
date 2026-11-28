@@ -164,6 +164,10 @@ class HQData:
             if self._pins is not None:
                 return self._pins
         valid = lambda m: all(isinstance(m.get(k), (int, float)) and 0 <= m[k] <= 1 for k in ('x', 'y'))
+        # A pin that names a spoiler entry without pointing at it ("Benefactor Nightlight Schafter" on the
+        # Standout map) is as much a spoiler as the entry: it must not show the name either.
+        spoiler_names = {str(e.get('name', '')).strip().lower() for c in wiki.get('categories', [])
+                         for e in wiki.get(c['key'], []) if isinstance(e, dict) and e.get('spoiler') is True}
         pins = []
         for m in wiki.get('map', {}).get('markers', []):
             if not valid(m):
@@ -174,7 +178,8 @@ class HQData:
                 'name': m['name'], 'category': m.get('category') or 'landmarks', 'kind': m.get('kind') or '',
                 'x': m['x'], 'y': m['y'], 'ref': ref if target else None,
                 'summary': m.get('summary') or (target or {}).get('summary', ''),
-                'spoiler': m.get('spoiler') is True or bool(target and target.get('spoiler')),
+                'spoiler': m.get('spoiler') is True or bool(target and target.get('spoiler'))
+                or (not target and str(m['name']).strip().lower() in spoiler_names),
                 'guide': m.get('guide'), 'via': m.get('via') or '',
             })
         taken = {p['ref'] for p in pins if p['ref']}

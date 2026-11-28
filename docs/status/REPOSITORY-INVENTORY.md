@@ -1,19 +1,19 @@
 # Repository inventory
 
-Generated 2026-11-27 06:57 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-27 16:00 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 14 | 0.3 MB |
 | `ui/` | 31 | 2.7 MB |
-| `data/` | 113 | 9.2 MB |
-| `images/` | 2001 | 267.0 MB |
+| `data/` | 114 | 9.8 MB |
+| `images/` | 2625 | 311.6 MB |
 | `wallpapers/` | 71 | 105.5 MB |
-| `docs/` | 291 | 108.8 MB |
+| `docs/` | 291 | 109.1 MB |
 | `scripts/` | 40 | 0.6 MB |
 | `cache/` | 27 | 0.6 MB |
 | `backups/` | 1 | 0.0 MB |
-| `target/release/` | 1937 | 828.1 MB |
+| `target/release/` | 1961 | 843.2 MB |
 
 ## Source files
 
@@ -50,7 +50,7 @@ Generated 2026-11-27 06:57 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/design.css` | 1029 |
 | `ui/manual.css` | 539 |
 | `ui/mapside.css` | 213 |
-| `ui/research.css` | 363 |
+| `ui/research.css` | 368 |
 | `ui/rockstar.css` | 224 |
 | `ui/stream.css` | 70 |
 | `ui/styles.css` | 1435 |
@@ -58,7 +58,7 @@ Generated 2026-11-27 06:57 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/index.html` | 180 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 51191 |
-| `data/media.json` | 2042 |
+| `data/media.json` | 2666 |
 | `data/update.json` | 4 |
 | `data/wiki.json` | 2229 |
 | `data/wiki/achievements.json` | 2918 |
@@ -90,7 +90,7 @@ Generated 2026-11-27 06:57 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/collectibles.json` | 214 |
 | `data/wiki/collectibles.launch-items.json` | 2603 |
 | `data/wiki/collectibles.launch-world2.json` | 1244 |
-| `data/wiki/collectibles.night-ign.json` | 17004 |
+| `data/wiki/collectibles.night-ign.json` | 17701 |
 | `data/wiki/collectibles.night-sites.json` | 82 |
 | `data/wiki/collectibles.night-world.json` | 10198 |
 | `data/wiki/collectibles.night-world2.json` | 3089 |
@@ -133,6 +133,7 @@ Generated 2026-11-27 06:57 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/news.r16.json` | 184 |
 | `data/wiki/sources.launch.json` | 9961 |
 | `data/wiki/sources.menu-captures.json` | 212 |
+| `data/wiki/sources.metaforge-cards.json` | 23 |
 | `data/wiki/sources.previews.json` | 9 |
 | `data/wiki/sources.r16.json` | 142 |
 | `data/wiki/sources.r17.json` | 198 |
@@ -140,25 +141,25 @@ Generated 2026-11-27 06:57 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/sources.r19.json` | 2550 |
 | `data/wiki/sources.vehicle-menu.json` | 51 |
 | `data/wiki/vehicles.community.json` | 26 |
-| `data/wiki/vehicles.json` | 8524 |
-| `data/wiki/vehicles.launch-detail.json` | 116 |
-| `data/wiki/vehicles.launch-garage.json` | 8004 |
-| `data/wiki/vehicles.launch-garage2.json` | 3639 |
-| `data/wiki/vehicles.launch-world2.json` | 103 |
-| `data/wiki/vehicles.night-ign.json` | 172 |
-| `data/wiki/vehicles.night-r11.json` | 141 |
-| `data/wiki/vehicles.night-r5.json` | 270 |
-| `data/wiki/vehicles.night-r7.json` | 41 |
-| `data/wiki/vehicles.night-r8gb.json` | 153 |
-| `data/wiki/vehicles.night-r8map.json` | 2575 |
-| `data/wiki/vehicles.night-sites.json` | 40 |
-| `data/wiki/vehicles.night-world.json` | 188 |
+| `data/wiki/vehicles.json` | 8909 |
+| `data/wiki/vehicles.launch-detail.json` | 85 |
+| `data/wiki/vehicles.launch-garage.json` | 8134 |
+| `data/wiki/vehicles.launch-garage2.json` | 3604 |
+| `data/wiki/vehicles.launch-world2.json` | 105 |
+| `data/wiki/vehicles.night-ign.json` | 176 |
+| `data/wiki/vehicles.night-r11.json` | 144 |
+| `data/wiki/vehicles.night-r5.json` | 287 |
+| `data/wiki/vehicles.night-r7.json` | 42 |
+| `data/wiki/vehicles.night-r8gb.json` | 155 |
+| `data/wiki/vehicles.night-r8map.json` | 2565 |
+| `data/wiki/vehicles.night-sites.json` | 41 |
+| `data/wiki/vehicles.night-world.json` | 192 |
 | `data/wiki/weapons.community.json` | 25 |
-| `data/wiki/weapons.json` | 168 |
-| `data/wiki/weapons.launch-arsenal.json` | 3073 |
-| `data/wiki/weapons.launch-ign.json` | 5325 |
-| `data/wiki/weapons.launch-more.json` | 396 |
-| `data/wiki/weapons.night-r8gb.json` | 50 |
+| `data/wiki/weapons.json` | 172 |
+| `data/wiki/weapons.launch-arsenal.json` | 3142 |
+| `data/wiki/weapons.launch-ign.json` | 5610 |
+| `data/wiki/weapons.launch-more.json` | 415 |
+| `data/wiki/weapons.night-r8gb.json` | 52 |
 | `data/wiki/wildlife.community.json` | 42 |
 | `data/wiki/wildlife.launch-more.json` | 654 |
 | `data/wiki/wildlife.launch-world.json` | 672 |
@@ -182,7 +183,7 @@ Generated 2026-11-27 06:57 by `scripts/current_state.py`. Do not edit by hand.
 | `scripts/discord_safety.py` | 111 |
 | `scripts/discord_setup.py` | 263 |
 | `scripts/hq_assistant.py` | 920 |
-| `scripts/hq_data.py` | 202 |
+| `scripts/hq_data.py` | 207 |
 | `scripts/live_wallpaper_scenes.py` | 246 |
 | `scripts/make_animation.py` | 26 |
 | `scripts/make_installer_art.py` | 147 |

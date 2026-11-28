@@ -3859,7 +3859,7 @@
     ],
     "verified": "2026-11-27",
     "status": "published",
-    "spoiler": true,
+    "spoiler": false,
     "tags": [
       "benefactor",
       "sedan",
@@ -6836,7 +6836,7 @@
     ],
     "verified": "2026-11-27",
     "status": "published",
-    "spoiler": true,
+    "spoiler": false,
     "tags": [
       "aircraft",
       "buckingham",
@@ -7116,7 +7116,7 @@
     ],
     "verified": "2026-11-27",
     "status": "published",
-    "spoiler": true,
+    "spoiler": false,
     "tags": [
       "cheats",
       "hauners",
