@@ -6,7 +6,7 @@ Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-h
 
 - **Sharp card-set covers:** all 18 covers on the Card Collections screen are twice the size (560 × 810, from Fextralife, no watermark), so they are no longer blurry.
 - **Strangers and Freaks pictures:** 14 more stranger and side missions have a picture (from GTABase, no watermark), including all five of Andy's, Pilot Pete's deliveries, Spin On This, Maritime Disputes and The Final Flush.
-- **Real vehicle stats:** 182 more vehicles have the game's five stat bars (447 in all), plus top speed, 0-60 time and register price, from MetaForge's GTA 6 database. Boats, aircraft and the police, taxi and service versions have no published bars.
+- **Real vehicle stats:** 181 more vehicles have the game's five stat bars (446 in all), plus top speed, 0-60 time and register price, from MetaForge's GTA 6 database. Boats and aircraft get their top speed only; they and the police, taxi and service versions have no published bars.
 
 ## 0.2.50 (27 November 2026)
 

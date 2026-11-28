@@ -140,8 +140,7 @@
     "summary": "The boat IGN says Jason keeps moored off the small dock at his Key Lento safehouse.",
     "body": [
       "IGN names Jason's boat as the Bombora S23 CCS, moored off the small dock outside his Key Lento safehouse, one of the vehicles stored there along with his Ganado.",
-      "IGN's diving guide says the boat at Jason's safehouse always carries scuba gear, and its Fishing Shacks page lists a Bombora boat among the getaway boats at that operation's dock.",
-      "In-game stat bars (out of 10): Speed 67.2, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Bombora S23 CCS)."
+      "IGN's diving guide says the boat at Jason's safehouse always carries scuba gear, and its Fishing Shacks page lists a Bombora boat among the getaway boats at that operation's dock."
     ],
     "tags": [
       "boat",
@@ -159,7 +158,6 @@
       "style": "Riverboat",
       "era": "2010s Current",
       "based_on": "Contender 25 Bay",
-      "speed": 67.2,
       "top_speed": "67.2 km/h (42 mph)"
     },
     "confidence": "corroborated",

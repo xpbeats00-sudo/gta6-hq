@@ -71,8 +71,7 @@
     "name": "Buckingham Maverick",
     "summary": "The Buckingham Maverick is an aircraft listed in the released game's vehicle database (style Helicopter, era 2010s Current).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Aircraft.",
-      "In-game stat bars (out of 10): Speed 183.7, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Buckingham Maverick)."
+      "DayOne's list of the game's vehicles files it under Aircraft."
     ],
     "tags": [
       "aircraft",
@@ -90,7 +89,6 @@
       "style": "Helicopter",
       "era": "2010s Current",
       "based_on": "Bell 206L Longranger",
-      "speed": 183.7,
       "top_speed": "183.7 km/h (114 mph)",
       "zero_to_sixty": "7.7 s"
     },
@@ -196,7 +194,7 @@
     "summary": "The Del Perro Erode is a bike listed in the released game's vehicle database (style Bike, era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Bikes.",
-      "In-game stat bars (out of 10): Speed 6.9, Acceleration 7.9, Road handling 7.9, Off-road handling None, Strength 4, from MetaForge's GTA 6 database (Del Perro Erode)."
+      "In-game stat bars (out of 10): Speed 6.9, Acceleration 7.9, Road handling 7.9, Strength 4, from MetaForge's GTA 6 database (Del Perro Erode)."
     ],
     "tags": [
       "bike",
@@ -2989,8 +2987,7 @@
     "name": "Brute Taco Van",
     "summary": "The Brute Taco Van is a utility vehicle listed in the released game's vehicle database (era 2000s Modern).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Utility Vehicles.",
-      "In-game stat bars (out of 10): Speed 126.9, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Brute Taco Van)."
+      "DayOne's list of the game's vehicles files it under Utility Vehicles."
     ],
     "tags": [
       "brute",
@@ -3006,7 +3003,6 @@
       "menu_picture": "/images/vehicles/brute-taco-van.jpg",
       "menu_text": "Large food truck, with service windows and a generous preparation area.",
       "era": "2000s Modern",
-      "speed": 126.9,
       "top_speed": "126.9 km/h (79 mph)",
       "zero_to_sixty": "16.55 s"
     },
@@ -3106,7 +3102,7 @@
     "body": [
       "DayOne's list of the game's vehicles files it under Emergency Vehicles.",
       "Although it is a boat, DayOne files it under Emergency Vehicles.",
-      "In-game stat bars (out of 10): Speed 94.1, Acceleration 2.6, Road handling 2.9, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Dingus Garda)."
+      "In-game stat bars (out of 10): Acceleration 2.6, Road handling 2.9, Strength 3, from MetaForge's GTA 6 database (Dingus Garda)."
     ],
     "tags": [
       "dingus",
@@ -3122,7 +3118,6 @@
       "menu_text": "High-performance rigid inflatable boat, often used by the coast guard for patrol and rescue operations. Typically has advanced security.",
       "era": "2000s Modern",
       "based_on": "RB-S and RB-S II",
-      "speed": 94.1,
       "acceleration": 2.6,
       "asphalt_handling": 2.9,
       "strength": 3,
@@ -3146,8 +3141,7 @@
     "summary": "The Hauners Cargobob is a military vehicle listed in the released game's vehicle database (era 2000s Military).",
     "body": [
       "DayOne's list of the game's vehicles files it under Military Vehicles.",
-      "Although it is a helicopter, DayOne files it under Military Vehicles.",
-      "In-game stat bars (out of 10): Speed 164.5, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Hauners Cargobob)."
+      "Although it is a helicopter, DayOne files it under Military Vehicles."
     ],
     "tags": [
       "cargobob",
@@ -3162,7 +3156,6 @@
       "menu_picture": "/images/vehicles/hauners-cargobob.jpg",
       "menu_text": "Heavy-duty military helicopter, capable of lifting massive loads. Protected by advanced security features.",
       "based_on": "Sikorsky CH-53K King Stallion",
-      "speed": 164.5,
       "top_speed": "164.5 km/h (102 mph)",
       "zero_to_sixty": "11.62 s"
     },
@@ -3273,8 +3266,7 @@
     "name": "Seashark Azure",
     "summary": "The Seashark Azure is a watercraft listed in the released game's vehicle database (style Personal Watercraft, era 2010s Current).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft.",
-      "In-game stat bars (out of 10): Speed 92.5, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Seashark Azure)."
+      "DayOne's list of the game's vehicles files it under Watercraft."
     ],
     "tags": [
       "azure",
@@ -3291,7 +3283,6 @@
       "style": "Personal Watercraft",
       "era": "2010s Current",
       "based_on": "Sea-Doo Spark",
-      "speed": 92.5,
       "top_speed": "92.5 km/h (57 mph)"
     },
     "confidence": "corroborated",
@@ -3312,8 +3303,7 @@
     "summary": "The Blade 500 is a watercraft listed in the released game's vehicle database (style Speedboat, era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Watercraft.",
-      "DayOne prints no separate maker for this boat.",
-      "In-game stat bars (out of 10): Speed 198.2, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Blade 500)."
+      "DayOne prints no separate maker for this boat."
     ],
     "tags": [
       "500",
@@ -3329,7 +3319,6 @@
       "style": "Speedboat",
       "era": "2010s Current",
       "based_on": "Skater 388",
-      "speed": 198.2,
       "top_speed": "198.2 km/h (123 mph)",
       "zero_to_sixty": "2.83 s"
     },
@@ -3351,8 +3340,7 @@
     "summary": "The Dingus Como is a watercraft listed in the released game's vehicle database (style Powerboat, era 2010s Modern).",
     "body": [
       "DayOne's list of the game's vehicles files it under Watercraft.",
-      "GTABase's page at its old Dinghy address is now titled Dingus Como, so the Nagasaki Dinghy it listed before launch is this boat.",
-      "In-game stat bars (out of 10): Speed 82.8, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Dingus Como)."
+      "GTABase's page at its old Dinghy address is now titled Dingus Como, so the Nagasaki Dinghy it listed before launch is this boat."
     ],
     "tags": [
       "como",
@@ -3370,7 +3358,6 @@
       "style": "Powerboat",
       "era": "2010s Modern",
       "based_on": "Rigid-hulled inflatable boat",
-      "speed": 82.8,
       "top_speed": "82.8 km/h (51 mph)"
     },
     "confidence": "corroborated",
@@ -3391,8 +3378,7 @@
     "name": "Rugger Fortune",
     "summary": "The Rugger Fortune is a watercraft listed in the released game's vehicle database (style Workboat, era 1950s Vintage).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft.",
-      "In-game stat bars (out of 10): Speed 38.4, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Rugger Fortune)."
+      "DayOne's list of the game's vehicles files it under Watercraft."
     ],
     "tags": [
       "fortune",
@@ -3406,7 +3392,6 @@
       "class": "Watercraft",
       "menu_picture": "/images/vehicles/rugger-fortune.jpg",
       "menu_text": "Antique 1950s fishing vessel that has stood the test of time. Surprisingly versatile.",
-      "speed": 38.4,
       "top_speed": "38.4 km/h (24 mph)"
     },
     "confidence": "corroborated",
@@ -3426,8 +3411,7 @@
     "name": "Rugger Hemming",
     "summary": "The Rugger Hemming is a watercraft listed in the released game's vehicle database (style Powerboat, era 1980s Classic).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft.",
-      "In-game stat bars (out of 10): Speed 48.8, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Rugger Hemming)."
+      "DayOne's list of the game's vehicles files it under Watercraft."
     ],
     "tags": [
       "hemming",
@@ -3444,7 +3428,6 @@
       "style": "Powerboat",
       "era": "1980s Classic",
       "based_on": "Steiger Craft 31 Miami",
-      "speed": 48.8,
       "top_speed": "48.8 km/h (30 mph)"
     },
     "confidence": "corroborated",
@@ -3464,8 +3447,7 @@
     "name": "Seashark Hydroblast",
     "summary": "The Seashark Hydroblast is a watercraft listed in the released game's vehicle database (style Personal Watercraft, era 2010s Modern).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft.",
-      "In-game stat bars (out of 10): Speed 95.2, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Seashark Hydroblast)."
+      "DayOne's list of the game's vehicles files it under Watercraft."
     ],
     "tags": [
       "hydroblast",
@@ -3483,7 +3465,6 @@
       "style": "Personal Watercraft",
       "era": "2010s Modern",
       "based_on": "Sea Doo RXT",
-      "speed": 95.2,
       "top_speed": "95.2 km/h (59 mph)"
     },
     "confidence": "corroborated",
@@ -3504,8 +3485,7 @@
     "name": "Dingus Nepa",
     "summary": "The Dingus Nepa is a watercraft listed in the released game's vehicle database (style Workboat, era 2010s Current).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft.",
-      "In-game stat bars (out of 10): Speed 103.7, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Dingus Nepa)."
+      "DayOne's list of the game's vehicles files it under Watercraft."
     ],
     "tags": [
       "dingus",
@@ -3519,7 +3499,6 @@
       "class": "Watercraft",
       "menu_picture": "/images/vehicles/dingus-nepa.jpg",
       "based_on": "Highfield Sport 900",
-      "speed": 103.7,
       "top_speed": "103.7 km/h (64 mph)",
       "zero_to_sixty": "4.35 s"
     },
@@ -3540,8 +3519,7 @@
     "summary": "The Lure Predator L20S is a watercraft listed in the released game's vehicle database (style Riverboat, era 2010s Current).",
     "body": [
       "DayOne's list of the game's vehicles files it under Watercraft.",
-      "DayOne does not separate maker from model for this boat, so no manufacturer is recorded.",
-      "In-game stat bars (out of 10): Speed 64.1, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Lure Predator L20S)."
+      "DayOne does not separate maker from model for this boat, so no manufacturer is recorded."
     ],
     "tags": [
       "l20s",
@@ -3557,7 +3535,6 @@
       "menu_text": "Small, flat-bottomed boat designed for navigating shallow waters. Ideal for short fishing trips.",
       "style": "Riverboat",
       "era": "2010s Current",
-      "speed": 64.1,
       "top_speed": "64.1 km/h (40 mph)"
     },
     "confidence": "corroborated",
@@ -3577,8 +3554,7 @@
     "name": "Rugger Rhode",
     "summary": "The Rugger Rhode is a watercraft listed in the released game's vehicle database (style Powerboat, era 2010s Current).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft.",
-      "In-game stat bars (out of 10): Speed 97.3, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Rugger Rhode)."
+      "DayOne's list of the game's vehicles files it under Watercraft."
     ],
     "tags": [
       "powerboat",
@@ -3595,7 +3571,6 @@
       "style": "Powerboat",
       "era": "2010s Current",
       "based_on": "Contender 39ST",
-      "speed": 97.3,
       "top_speed": "97.3 km/h (60 mph)",
       "zero_to_sixty": "8 s"
     },
@@ -3616,8 +3591,7 @@
     "name": "Hulls Sea Enchantress",
     "summary": "The Hulls Sea Enchantress is a watercraft listed in the released game's vehicle database (style Powerboat, era 1990s Classic).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft.",
-      "In-game stat bars (out of 10): Speed 48.4, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Hulls Sea Enchantress)."
+      "DayOne's list of the game's vehicles files it under Watercraft."
     ],
     "tags": [
       "enchantress",
@@ -3635,7 +3609,6 @@
       "style": "Powerboat",
       "era": "1990s Classic",
       "based_on": "2005 34' Crusader Boats GFY and Netwon 36' Dive Special",
-      "speed": 48.4,
       "top_speed": "48.4 km/h (30 mph)"
     },
     "confidence": "corroborated",
@@ -3655,8 +3628,7 @@
     "name": "Calder Torlan",
     "summary": "The Calder Torlan is a watercraft listed in the released game's vehicle database (style Powerboat, era 2020s Modern).",
     "body": [
-      "DayOne's list of the game's vehicles files it under Watercraft.",
-      "In-game stat bars (out of 10): Speed 64.9, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Calder Torlan)."
+      "DayOne's list of the game's vehicles files it under Watercraft."
     ],
     "tags": [
       "calder",
@@ -3670,7 +3642,6 @@
       "class": "Watercraft",
       "menu_picture": "/images/vehicles/menu/calder-torlan.jpg",
       "based_on": "Azimut Atlantis 45",
-      "speed": 64.9,
       "top_speed": "64.9 km/h (40 mph)"
     },
     "confidence": "corroborated",
