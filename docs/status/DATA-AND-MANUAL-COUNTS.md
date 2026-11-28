@@ -1,6 +1,6 @@
 # Data and manual counts
 
-Generated 2026-11-27 16:00 by `scripts/current_state.py` from the live data files. Do not edit by hand.
+Generated 2026-11-27 17:30 by `scripts/current_state.py` from the live data files. Do not edit by hand.
 
 ## Encyclopedia
 
@@ -21,7 +21,7 @@ Generated 2026-11-27 16:00 by `scripts/current_state.py` from the live data file
 | Achievements | 55 | 0 | 55 | 0 |
 | **Total** | **3394** | 0 | 3125 | 0 |
 
-Sources in the registry: 1907. Map markers: 6585 in 12 categories.
+Sources in the registry: 1908. Map markers: 6585 in 12 categories.
 
 ## Field Manual
 
@@ -82,12 +82,12 @@ Manual sources: 868 checked, 1 listed but not checked.
 
 ## Media
 
-Records in `data/media.json`: 2661.
+Records in `data/media.json`: 2675.
 
 | Rights status | Records |
 |---|---|
 | approved | 27 |
-| permission_required | 2617 |
+| permission_required | 2631 |
 | unknown | 17 |
 
-Files on disk: `images/` 2625 (311.6 MB), `wallpapers/` 71 (105.5 MB). Map tile cache: 27 files (0.6 MB).
+Files on disk: `images/` 2639 (314.8 MB), `wallpapers/` 71 (105.5 MB). Map tile cache: 537 files (90.9 MB).

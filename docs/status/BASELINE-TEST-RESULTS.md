@@ -1,6 +1,6 @@
 # Baseline test results
 
-Run 2026-11-27 16:00 by `scripts/current_state.py --run-checks` against the live checkout.
+Run 2026-11-27 17:30 by `scripts/current_state.py --run-checks` against the live checkout.
 
 | Check | Command | Exit code | Result |
 |---|---|---|---|
@@ -8,7 +8,7 @@ Run 2026-11-27 16:00 by `scripts/current_state.py --run-checks` against the live
 | Clippy, warnings as errors | `cargo clippy --all-targets --all-features -- -D warnings` | 0 | Pass |
 | Tests | `cargo test` | 0 | Pass. 93 passed, 0 failed |
 | Release build | `cargo build --release` | 0 | Pass |
-| Data validator | `target\release\gta6-hq.exe --validate` | 0 | Pass. 0 errors, 2669 warnings; by check: rights-unconfirmed 2634, unlisted-media 35 |
+| Data validator | `target\release\gta6-hq.exe --validate` | 0 | Pass. 0 errors, 2683 warnings; by check: rights-unconfirmed 2648, unlisted-media 35 |
 | node --check ui/app.js | `node --check ui\app.js` | 0 | Pass |
 | node --check ui/appearance.js | `node --check ui\appearance.js` | 0 | Pass |
 | node --check ui/art.js | `node --check ui\art.js` | 0 | Pass |

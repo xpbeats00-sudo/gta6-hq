@@ -2,7 +2,7 @@
 
 Every version is on the [releases page](https://github.com/xpbeats00-sudo/gta6-hq/releases). Newest first.
 
-## Unreleased
+## 0.2.51 (27 November 2026)
 
 - **More menu names at every window size:** when the window was not full screen, the More menu showed only its pictures, because the top bar's icon-only rule hid the menu's link names too. They now always show.
 - **Wallpaper section headings on GitHub:** each README heading is a strip of one of the app's wallpaper scenes, two frames fading into each other, with a light running round its glowing border (the hero and footer have it too).

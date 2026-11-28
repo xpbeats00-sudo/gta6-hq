@@ -1,19 +1,19 @@
 # Repository inventory
 
-Generated 2026-11-27 16:00 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-27 17:30 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 14 | 0.3 MB |
 | `ui/` | 31 | 2.7 MB |
-| `data/` | 114 | 9.8 MB |
-| `images/` | 2625 | 311.6 MB |
+| `data/` | 114 | 9.9 MB |
+| `images/` | 2639 | 314.8 MB |
 | `wallpapers/` | 71 | 105.5 MB |
-| `docs/` | 291 | 109.1 MB |
-| `scripts/` | 40 | 0.6 MB |
-| `cache/` | 27 | 0.6 MB |
+| `docs/` | 298 | 110.9 MB |
+| `scripts/` | 41 | 0.6 MB |
+| `cache/` | 537 | 90.9 MB |
 | `backups/` | 1 | 0.0 MB |
-| `target/release/` | 1961 | 843.2 MB |
+| `target/release/` | 1993 | 870.4 MB |
 
 ## Source files
 
@@ -47,7 +47,7 @@ Generated 2026-11-27 16:00 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/research.js` | 664 |
 | `ui/routes.js` | 240 |
 | `ui/stream.js` | 132 |
-| `ui/design.css` | 1029 |
+| `ui/design.css` | 1032 |
 | `ui/manual.css` | 539 |
 | `ui/mapside.css` | 213 |
 | `ui/research.css` | 368 |
@@ -58,9 +58,9 @@ Generated 2026-11-27 16:00 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/index.html` | 180 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 51191 |
-| `data/media.json` | 2666 |
+| `data/media.json` | 2680 |
 | `data/update.json` | 4 |
-| `data/wiki.json` | 2229 |
+| `data/wiki.json` | 2231 |
 | `data/wiki/achievements.json` | 2918 |
 | `data/wiki/activities.json` | 60 |
 | `data/wiki/activities.launch-detail.json` | 1027 |
@@ -133,7 +133,7 @@ Generated 2026-11-27 16:00 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/news.r16.json` | 184 |
 | `data/wiki/sources.launch.json` | 9961 |
 | `data/wiki/sources.menu-captures.json` | 212 |
-| `data/wiki/sources.metaforge-cards.json` | 23 |
+| `data/wiki/sources.metaforge-cards.json` | 30 |
 | `data/wiki/sources.previews.json` | 9 |
 | `data/wiki/sources.r16.json` | 142 |
 | `data/wiki/sources.r17.json` | 198 |
@@ -141,17 +141,17 @@ Generated 2026-11-27 16:00 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/sources.r19.json` | 2550 |
 | `data/wiki/sources.vehicle-menu.json` | 51 |
 | `data/wiki/vehicles.community.json` | 26 |
-| `data/wiki/vehicles.json` | 8909 |
+| `data/wiki/vehicles.json` | 10048 |
 | `data/wiki/vehicles.launch-detail.json` | 85 |
-| `data/wiki/vehicles.launch-garage.json` | 8134 |
-| `data/wiki/vehicles.launch-garage2.json` | 3604 |
+| `data/wiki/vehicles.launch-garage.json` | 8202 |
+| `data/wiki/vehicles.launch-garage2.json` | 3658 |
 | `data/wiki/vehicles.launch-world2.json` | 105 |
-| `data/wiki/vehicles.night-ign.json` | 176 |
+| `data/wiki/vehicles.night-ign.json` | 178 |
 | `data/wiki/vehicles.night-r11.json` | 144 |
 | `data/wiki/vehicles.night-r5.json` | 287 |
 | `data/wiki/vehicles.night-r7.json` | 42 |
 | `data/wiki/vehicles.night-r8gb.json` | 155 |
-| `data/wiki/vehicles.night-r8map.json` | 2565 |
+| `data/wiki/vehicles.night-r8map.json` | 2626 |
 | `data/wiki/vehicles.night-sites.json` | 41 |
 | `data/wiki/vehicles.night-world.json` | 192 |
 | `data/wiki/weapons.community.json` | 25 |
@@ -190,7 +190,8 @@ Generated 2026-11-27 16:00 by `scripts/current_state.py`. Do not edit by hand.
 | `scripts/make_live_wallpapers.py` | 282 |
 | `scripts/make_posters.py` | 23 |
 | `scripts/make_readme_art.py` | 166 |
-| `scripts/make_readme_svg.py` | 164 |
+| `scripts/make_readme_banners.py` | 467 |
+| `scripts/make_readme_svg.py` | 182 |
 | `scripts/make_social_preview.py` | 111 |
 | `scripts/make_store_art.py` | 167 |
 | `scripts/package_release.py` | 194 |
@@ -207,4 +208,4 @@ Generated 2026-11-27 16:00 by `scripts/current_state.py`. Do not edit by hand.
 
 ## Top level
 
-`.git`, `.github`, `.gitignore`, `CHANGELOG.md`, `Cargo.lock`, `Cargo.toml`, `README.md`, `backups`, `build.rs`, `cache`, `data`, `discord`, `dist`, `docs`, `images`, `installer`, `rustfmt.toml`, `scripts`, `src`, `store`, `ui`, `wallpapers`, `web`
+`.git`, `.github`, `.gitignore`, `.secrets`, `CHANGELOG.md`, `Cargo.lock`, `Cargo.toml`, `README.md`, `backups`, `build.rs`, `cache`, `data`, `discord`, `dist`, `docs`, `images`, `installer`, `rustfmt.toml`, `scripts`, `src`, `store`, `ui`, `wallpapers`, `web`

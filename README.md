@@ -122,16 +122,17 @@ When a new version is out, the app says so. In an installed copy, **Update now**
 <a id="whats-new"></a>
 <p align="center"><img src="docs/media/readme/h-new.svg" alt="What's new" width="860"></p>
 
+- **0.2.51**: sharp card-set covers, pictures for 14 more Strangers and Freaks missions, the real stat bars, top speed and 0-60 for 446 vehicles, and More menu names at every window size.
 - **0.2.50**: all 480 collectible cards with their real fronts, the game's studio menu pictures for 594 vehicles, and clean, watermark-free pictures for 207 weapons.
 - **0.2.49**: the game's real icons for every kind of place, a picture for nearly every entry (map spots, card covers, radio dials), More laid out like the encyclopedia, and new Compare Vehicles, Strangers and Freaks, Properties and Icons Explained pages.
 - **0.2.48**: everything on the map (5,548 more places), every vehicle with its picture and Standout sets in the Garage, the game's own menu art, and real controllers.
 - **0.2.47**: the game's own card art and vehicle pictures, a smarter map with routes and your own markers, and a fresh build after Windows Security wrongly flagged 0.2.46.
 - **0.2.46**: a map and menus that look like the game's, a Garage and Weapon Locker with stat bars, Card Collections, Cheats and Controls, Trophy Guides, and 74 cleaner, sharper pictures.
-- **0.2.45**: all 40 gang operations on the map, a safe code for every safe, and entry pages that link the people and places they mention.
 
 <details>
 <summary>Earlier versions</summary>
 
+- **0.2.45**: all 40 gang operations on the map, a safe code for every safe, and entry pages that link the people and places they mention.
 - **0.2.44**: choose your start-up (Classic or the game's own Official intro), 49 new pictures, voice actors for the cast, the latest news and checked facts.
 - **0.2.43**: 63 new pictures, and pictures removed for site logos no longer come back on installed copies.
 - **0.2.42**: a "Track and plan" row on Home, a "What's here" panel on every place, a tidier Saved page and styled jump buttons.
