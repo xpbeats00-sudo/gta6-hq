@@ -1,20 +1,25 @@
 // GTA 6 HQ: route legs that follow the map instead of crossing it in a straight line.
-// The grid (images/map/leonida-routes.png, built by scripts/build_route_grid.py) holds one cell per
-// 6 x 6 pixels of Rockstar's official map: road, land or sea. A leg between two stops is the cheapest
-// way across it, so it runs along the roads and bridges, over land where no road is drawn, and over
-// water only where nothing else gets there (an island with no bridge): those stretches are marked.
+// The grids (built by scripts/build_route_grid.py from the detailed community map the app shows when
+// zoomed in) mark each cell as road, track, land or sea: images/map/leonida-roads.png has one cell per
+// 2 x 2 pixels of Rockstar's official map and is what legs are drawn on; images/map/leonida-routes.png
+// (6 x 6) is for putting stops in order quickly. A leg is the cheapest way across the grid, so it keeps
+// to the streets, highways and bridges, takes dirt tracks next, crosses open land only for the last
+// stretch to a pin off the road, and water only where nothing else gets there (an island with no
+// bridge): those stretches are marked.
 // Positions are x, y from 0 to 1 on the official map, as everywhere else. Loaded before app.js.
 (function () {
-  const URL = '/images/map/leonida-routes.png';
-  const SEA = 0, LAND = 128, ROAD = 255;
-  // What a step into each kind of cell costs. Roads are the way to go; open land is slower; water
-  // is a last resort, so a route only crosses it where the map shows no other way.
-  const COST = { [ROAD]: 1, [LAND]: 3, [SEA]: 40 };
-  let loading = null;
+  const FINE = '/images/map/leonida-roads.png';
+  const COARSE = '/images/map/leonida-routes.png';
+  const SEA = 0, LAND = 96, TRACK = 176, ROAD = 255;
+  // What a step into each kind of cell costs. Roads are the way to go, tracks nearly as good; open
+  // land is far slower, so a leg leaves the road only to reach a pin that is off it; water is a last
+  // resort, so a route only crosses it where the map shows no other way.
+  const COST = { [ROAD]: 1, [TRACK]: 2.5, [LAND]: 14, [SEA]: 120 };
+  const loading = {};
 
-  /** The grid, read once: { w, h, kind: Uint8Array } (null when it can't be loaded: lines stay straight). */
-  function load() {
-    loading ||= fetch(URL)
+  /** A grid, read once: { w, h, kind, cost } (null when it can't be loaded: lines stay straight). */
+  function load(url = FINE) {
+    loading[url] ||= fetch(url)
       .then((r) => (r.ok ? r.blob() : Promise.reject(new Error(String(r.status)))))
       .then((blob) => createImageBitmap(blob))
       .then((bitmap) => {
@@ -27,12 +32,15 @@
         const kind = new Uint8Array(bitmap.width * bitmap.height);
         for (let i = 0; i < kind.length; i++) {
           const v = px[i * 4];
-          kind[i] = v > 190 ? ROAD : v > 60 ? LAND : SEA;
+          kind[i] = v > 215 ? ROAD : v > 136 ? TRACK : v > 48 ? LAND : SEA;
         }
-        return { w: bitmap.width, h: bitmap.height, kind, cost: Float32Array.from(kind, (k) => COST[k]) };
+        const n = bitmap.width * bitmap.height;
+        // Work arrays for the search, made once per grid and reset for each leg.
+        const work = { g: new Float32Array(n), from: new Int32Array(n), done: new Uint8Array(n) };
+        return { w: bitmap.width, h: bitmap.height, kind, cost: Float32Array.from(kind, (k) => COST[k]), work };
       })
       .catch(() => null);
-    return loading;
+    return loading[url];
   }
 
   /** A binary heap of cell indexes ordered by priority (smallest first). */
@@ -82,9 +90,8 @@
     const ax = clamp(a.x * w, w), ay = clamp(a.y * h, h), bx = clamp(b.x * w, w), by = clamp(b.y * h, h);
     const start = ay * w + ax, goal = by * w + bx;
     if (start === goal) return [start];
-    const g = new Float32Array(w * h).fill(Infinity);
-    const from = new Int32Array(w * h).fill(-1);
-    const done = new Uint8Array(w * h);
+    const { g, from, done } = grid.work;
+    g.fill(Infinity); from.fill(-1); done.fill(0);
     const guess = (x, y) => { const dx = Math.abs(x - bx), dy = Math.abs(y - by); return Math.max(dx, dy) + (Math.SQRT2 - 1) * Math.min(dx, dy); };
     const open = heap();
     g[start] = 0;
@@ -148,14 +155,14 @@
     }
     // A few cells of water are not a crossing: a pin a little offshore, or a canal under a road the
     // grid is too coarse to show. Those count as land, and runs of the same kind are joined again.
-    runs = runs.map((r, i) => ({ ...r, water: r.water && r.cells.length - (i ? 1 : 0) > 5 }));
+    runs = runs.map((r, i) => ({ ...r, water: r.water && r.cells.length - (i ? 1 : 0) > 15 }));
     runs = runs.reduce((all, r) => {
       const last = all.at(-1);
       if (last && last.water === r.water) last.cells.push(...r.cells.slice(1));
       else all.push(r);
       return all;
     }, []);
-    const out = runs.map((r) => ({ water: r.water, points: simplify(r.cells, 0.75).map(([x, y]) => ({ x: x / w, y: y / h })) }));
+    const out = runs.map((r) => ({ water: r.water, points: simplify(r.cells, 0.6).map(([x, y]) => ({ x: x / w, y: y / h })) }));
     if (out.length) {
       out[0].points[0] = { x: a.x, y: a.y };
       const end = out.at(-1).points;
@@ -204,7 +211,7 @@
    * Null when the grid can't be loaded.
    */
   async function matrix(points, isStale = () => false) {
-    const grid = await load();
+    const grid = await load(COARSE);
     if (!grid) return null;
     const m = [];
     for (const p of points) {

@@ -1,0 +1,329 @@
+/* GTA 6 HQ: the application shell and the shared design system. Loaded last.
+ *
+ *   1. Tokens       one set of surfaces, text, borders, radii, shadows and timings
+ *   2. Shell        the title bar (brand, search, actions) and the grouped sidebar (shell.js)
+ *   3. Components   buttons, fields, cards, panels, tabs, badges, tables, dialogs, tooltips, states
+ *   4. Pages        what each page needs to sit in the shell
+ *
+ * The older stylesheets already draw from the variables below (--bg-main, --surface-1, --accent,
+ * --radius …), so most of the redesign is the token set; the rules after it settle what the tokens
+ * cannot. The Light and neutral Dark themes (themes.css) keep their own colours and take the shape,
+ * spacing and shell from here.
+ */
+
+/* ---------- 1. Tokens ---------- */
+
+:root {
+  /* shape */
+  --radius: 8px;
+  --radius-card: 12px;
+  --radius-lg: 16px;
+  /* controls */
+  --control-h: 36px;
+  --control-h-sm: 30px;
+  /* shell */
+  --bar: 52px;
+  --side: 248px;
+  --side-min: 64px;
+  --content: 1360px;
+  --gutter: clamp(16px, 2.6vw, 40px);
+  /* motion: quick and the same everywhere */
+  --ease: 0.16s cubic-bezier(0.2, 0.7, 0.2, 1);
+  --ease-slow: 0.28s cubic-bezier(0.2, 0.7, 0.2, 1);
+  /* depth */
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, 0.03) inset, 0 8px 24px rgba(0, 0, 0, 0.28);
+  --shadow-float: 0 18px 48px rgba(0, 0, 0, 0.55), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  --focus-ring: 0 0 0 2px var(--bg-main), 0 0 0 4px var(--accent);
+}
+
+/* The standard look: near-black charcoal, warm grey surfaces, one coral-pink accent. */
+:root:not([data-theme]) {
+  --charcoal: #121214;
+  --bg-main: #121214;
+  --bg-deep: #0c0c0e;
+  --bg-header: #0c0c0e;
+  --bg-panel: #19191c;
+  --bg-panel-raised: #1f1f23;
+  --surface-1: #17171a;
+  --surface-2: #1e1e22;
+  --surface-3: #28282d;
+  --text-primary: #f4f2f3;
+  --text-secondary: #c9c5c8;
+  --text-muted: #8f8a8f;
+  --vice-pink: #f2729f;
+  --accent-pink: #f2729f;
+  --accent-pink-strong: #d9527f;
+  --accent: #f2729f;
+  --accent-strong: #d9527f;
+  --on-accent: #1a0d13;
+  --sunset-orange: #f6a56a;
+  --tone-orange: #f6a56a;
+  --accent-yellow: #f6c36a;
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-strong: rgba(255, 255, 255, 0.16);
+  --cover-ink: #1f1f23;
+  --ok: #7fd6a4;
+  --info: #7cc4ec;
+  --danger: #f08484;
+  --sunset-line: linear-gradient(90deg, #f6a56a 0%, #f2729f 60%, #c85aa8 100%);
+  --sunset: var(--sunset-line);
+}
+
+/* ---------- 2. Shell ---------- */
+
+html { scrollbar-width: thin; scrollbar-color: rgba(255, 255, 255, 0.16) transparent; }
+html::-webkit-scrollbar, body::-webkit-scrollbar { display: block; width: 10px; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-thumb { border: 3px solid transparent; border-radius: 8px; background: rgba(255, 255, 255, 0.16); background-clip: content-box; }
+::-webkit-scrollbar-thumb:hover { background-color: rgba(255, 255, 255, 0.28); }
+::-webkit-scrollbar-track { background: transparent; }
+
+h1 { letter-spacing: 0.01em; }
+h2 { letter-spacing: 0.01em; }
+h3 { letter-spacing: 0.01em; }
+::selection { background: color-mix(in srgb, var(--accent) 55%, transparent); color: #fff; }
+
+/* Title bar: brand over the sidebar's width, the search in the middle, actions on the right. */
+.topbar { height: var(--bar); gap: 10px; padding: 0 8px 0 0; background: var(--bg-deep); border-bottom: 1px solid var(--border-subtle); box-shadow: none; backdrop-filter: none; }
+:root[data-theme="dark"] .topbar { background: var(--bg-deep); }
+.topbar::after { height: 1px; opacity: 0; }
+.brand { gap: 10px; padding-left: 16px; }
+.brand::after { display: none; }
+.brand span { font: 800 0.9375rem var(--font-display); font-stretch: 88%; letter-spacing: 0.06em; background: none; -webkit-text-fill-color: currentColor; color: var(--text-primary); }
+.brand-coin { width: 34px; height: 26px; }
+
+.nav-search { position: relative; flex: 0 1 420px; margin: 0 auto; }
+.nav-search input, .nav-search input:focus, .nav-search input:not(:placeholder-shown) {
+  width: 100%; height: 34px; min-height: 34px; padding: 0 64px 0 36px; border: 1px solid var(--border-subtle); border-radius: 10px;
+  background-color: var(--surface-1); background-position: 12px center; background-size: 15px; color: var(--text-primary); font-size: 0.875rem; cursor: text;
+  transition: border-color var(--ease), background-color var(--ease), box-shadow var(--ease); }
+.nav-search input::placeholder, .nav-search input:focus::placeholder { color: var(--text-muted); }
+.nav-search input:hover { border-color: var(--border-strong); }
+.nav-search input:focus { border-color: color-mix(in srgb, var(--accent) 60%, transparent); background-color: var(--surface-2); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 16%, transparent); outline: none; }
+.search-hint { position: absolute; right: 8px; top: 50%; transform: translateY(-50%); padding: 2px 7px; border-radius: 6px; background: var(--surface-3); color: var(--text-muted); font: 700 0.6875rem var(--font-display); pointer-events: none; }
+.nav-search input:focus ~ .search-hint, .nav-search input:not(:placeholder-shown) ~ .search-hint { opacity: 0; }
+
+/* The icon buttons on the right of the title bar: one size, one hover. */
+.topbar .spoiler-switch, .topbar .nav-profile, .topbar .community-link { flex: none; height: 34px; min-width: 34px; border: 1px solid transparent; border-radius: 9px; background: none; color: var(--text-secondary); transition: background var(--ease), color var(--ease), border-color var(--ease); }
+.topbar .spoiler-switch:hover, .topbar .nav-profile:hover, .topbar .community-link:hover { background: var(--surface-2); color: var(--text-primary); border-color: var(--border-subtle); }
+.topbar .community-link { padding: 0 12px; gap: 8px; border-color: var(--border-subtle); font: 700 0.8125rem var(--font-display); letter-spacing: 0; text-transform: none; }
+
+/* With the sidebar: the page moves over, the title bar and the sidebar stay put. */
+@media (min-width: 761px) {
+  body.has-sidebar { padding-left: var(--side); transition: padding-left var(--ease-slow); }
+  body.has-sidebar .topbar, body.has-sidebar .announce { margin-left: calc(var(--side) * -1); }
+  body.has-sidebar .brand { width: calc(var(--side) - 8px); flex: none; }
+  body.has-sidebar #nav, body.has-sidebar .menu-toggle { display: none; }
+  body.has-sidebar.side-collapsed { --side: var(--side-min); }
+  body.has-sidebar.side-collapsed .brand span { display: none; }
+}
+@media (min-width: 761px) and (max-width: 1099px) {
+  body.has-sidebar { --side: var(--side-min); }
+  body.has-sidebar .brand span { display: none; }
+}
+
+.sidebar { display: none; }
+@media (min-width: 761px) {
+  .sidebar { position: fixed; z-index: 40; left: 0; top: calc(var(--bar) + var(--announce, 0px)); bottom: 0; width: var(--side); display: flex; flex-direction: column;
+    background: var(--bg-deep); border-right: 1px solid var(--border-subtle); transition: width var(--ease-slow); }
+  .side-scroll { flex: 1; min-height: 0; overflow: hidden auto; padding: 10px 8px 12px; scrollbar-width: none; }
+  .side-scroll::-webkit-scrollbar { display: none; }
+  .side-group + .side-group { margin-top: 14px; }
+  .side-title { margin: 0 0 4px; padding: 0 12px; color: var(--text-muted); font: 700 0.6875rem/1.8 var(--font-display); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; overflow: hidden; }
+  .sidebar a, .side-collapse { position: relative; display: flex; align-items: center; gap: 12px; width: 100%; height: 34px; padding: 0 12px; border: 0; border-radius: 8px; background: none;
+    color: var(--text-secondary); font: 600 0.875rem var(--font-body); text-decoration: none; white-space: nowrap; cursor: pointer; transition: background var(--ease), color var(--ease); }
+  .sidebar a > span, .side-collapse > span { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+  .side-ico { flex: none; width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; color: var(--text-muted); transition: color var(--ease); }
+  .side-ico .f { fill: currentColor; stroke: none; opacity: 0.35; }
+  .sidebar a:hover, .side-collapse:hover { background: var(--surface-1); color: var(--text-primary); }
+  .sidebar a:hover .side-ico, .side-collapse:hover .side-ico { color: var(--text-primary); }
+  .sidebar a:focus-visible, .side-collapse:focus-visible { outline: none; box-shadow: var(--focus-ring); }
+  .sidebar a.is-active { background: var(--surface-2); color: var(--text-primary); }
+  .sidebar a.is-active .side-ico { color: var(--accent); }
+  /* The chosen page: a short accent bar on the window's edge, as well as the filled row. */
+  .sidebar a.is-active::before { content: ''; position: absolute; left: -8px; top: 8px; bottom: 8px; width: 3px; border-radius: 0 3px 3px 0; background: var(--accent); }
+  .side-foot { flex: none; padding: 8px; border-top: 1px solid var(--border-subtle); }
+  .side-collapse { color: var(--text-muted); font-weight: 500; }
+  /* Icons only: by choice, or on a narrow window. Names move to the tooltip each link carries. */
+  body.side-collapsed .sidebar a > span, body.side-collapsed .side-collapse > span, body.side-collapsed .side-title { display: none; }
+  body.side-collapsed .sidebar a, body.side-collapsed .side-collapse { justify-content: center; padding: 0; }
+  body.side-collapsed .side-group + .side-group { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border-subtle); }
+  body.map-immersive .sidebar { display: none; }
+  body.map-immersive.has-sidebar { padding-left: 0; }
+}
+@media (min-width: 761px) and (max-width: 1099px) {
+  .sidebar a > span, .side-collapse, .side-title { display: none; }
+  .sidebar a { justify-content: center; padding: 0; }
+  .side-group + .side-group { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--border-subtle); }
+}
+/* The intro covers the whole window; nothing of the shell shows through while it plays. */
+body.is-loading .sidebar { visibility: hidden; }
+body.is-arriving .sidebar { animation: arrive 1.2s cubic-bezier(0.22, 0.8, 0.26, 1) both; }
+
+/* The back layer: artwork rain (app.js syncRails). Each picture is chopped into small slanted pieces
+   that fall slowly down the window's margins behind the page, every piece at its own speed. The left
+   column starts where the sidebar ends. It shows once the window is wide enough to have margins. */
+@media (min-width: 761px) {
+  body.has-sidebar .rail { display: none; }
+}
+@media (min-width: 1500px) {
+  body.has-sidebar .rail { display: block; position: fixed; z-index: 0; top: calc(var(--bar) + var(--announce, 0px)); bottom: 0; overflow: hidden; pointer-events: none; opacity: 1;
+    width: calc(max((100vw - var(--side) - var(--content)) / 2, 0px) + 44px);
+    -webkit-mask-image: linear-gradient(var(--fade-dir, 90deg), #000 45%, transparent 100%); mask-image: linear-gradient(var(--fade-dir, 90deg), #000 45%, transparent 100%);
+    -webkit-mask-composite: source-over; mask-composite: add; }
+  body.has-sidebar .rail-left { left: var(--side); --fade-dir: 90deg; }
+  body.has-sidebar .rail-right { right: 0; --fade-dir: 270deg; }
+  .rain-bit { position: absolute; top: 0; background-size: 520px auto; background-repeat: no-repeat; opacity: 0.7; clip-path: polygon(16% 0, 100% 0, 84% 100%, 0 100%);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08) inset; will-change: transform; animation: rain-fall var(--t, 30s) linear var(--d, 0s) infinite !important; }
+  .rain-bit.is-flip { clip-path: polygon(0 0, 84% 0, 100% 100%, 16% 100%); }
+  body.has-sidebar[data-page='map'] .rail, body.has-sidebar.is-full-menu .rail, body.has-sidebar[data-page='manual'] .rail { display: none; }
+}
+@keyframes rain-fall { from { transform: translateY(-180px); } to { transform: translateY(calc(100vh + 40px)); } }
+
+/* ---------- 3. Components ---------- */
+
+/* Buttons: one height, one radius, sentence case. Primary is the only filled one. */
+.btn, .chip-btn, .toggle, .chips button, .list-more { border-radius: var(--radius); letter-spacing: 0; text-transform: none; font-weight: 700; transition: background var(--ease), border-color var(--ease), color var(--ease), transform var(--ease); }
+.btn { min-height: var(--control-h); padding: 0 16px; border-color: var(--border-strong); background: var(--surface-2); }
+.btn:hover { background: var(--surface-3); border-color: var(--border-strong); }
+.btn-primary, .btn-primary:hover { border-color: transparent; }
+.btn-primary { background: var(--accent); color: var(--on-accent); }
+.btn-primary:hover { background: color-mix(in srgb, var(--accent) 86%, #fff); }
+.btn-small { min-height: var(--control-h-sm); padding: 0 12px; }
+.btn-ghost, .btn-outline { background: transparent; border-color: var(--border-subtle); }
+.btn-ghost:hover, .btn-outline:hover { background: var(--surface-2); border-color: var(--border-strong); }
+:where(a, button, input, select, textarea, [tabindex]):focus-visible { outline: none; box-shadow: var(--focus-ring); }
+
+/* Fields and selects */
+input[type="search"], input[type="text"], input[type="number"], select, textarea { border-radius: var(--radius); }
+.field-search, .list-search { border-radius: var(--radius); background: var(--surface-1); border-color: var(--border-subtle); }
+.field-search:focus-within, .list-search:focus-within { border-color: color-mix(in srgb, var(--accent) 60%, transparent); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent); }
+select { background-color: var(--surface-1); border-color: var(--border-subtle); }
+
+/* Cards, panels and tiles: a quiet surface, a hairline border, one radius. Lift on hover, no glow. */
+.panel, .stat-card, .card, .topic, .tile, .facts, .verify, .provenance, .entry-step { border-radius: var(--radius-card); }
+.panel, .stat-card { background: var(--bg-panel); border: 1px solid var(--border-subtle); box-shadow: none; }
+.stat-card { background-image: none; transition: background var(--ease), border-color var(--ease), transform var(--ease); }
+a.stat-card:hover, .stat-link:hover { background: var(--bg-panel-raised); border-color: var(--border-strong); transform: translateY(-1px); }
+.card-media, .topic-media, .tile, .profile-portrait, .gm-wiki-pic { border-radius: var(--radius-card); overflow: hidden; }
+.card, .topic { transition: transform var(--ease-slow); }
+.card:hover, .topic:hover { transform: translateY(-2px); }
+.card-media img, .topic-media img { transition: transform 0.5s cubic-bezier(0.2, 0.7, 0.2, 1); }
+
+/* Badges and chips: small, flat, readable */
+.conf, .chip, .tag, .tags a, .gm-tags span, .kicker-chip { border-radius: 6px; letter-spacing: 0.02em; }
+.tags a { background: var(--surface-2); border: 1px solid var(--border-subtle); color: var(--text-secondary); transition: background var(--ease), color var(--ease); }
+.tags a:hover { background: var(--surface-3); color: var(--text-primary); }
+.kicker { letter-spacing: 0.08em; }
+
+/* Tabs and segmented controls */
+.tabs, .seg { border-radius: var(--radius); }
+.tabs button, .seg button, [role="tab"] { transition: background var(--ease), color var(--ease); }
+
+/* Tables and fact lists */
+.fact-table div { border-color: var(--border-subtle); }
+table { border-collapse: collapse; }
+th { color: var(--text-muted); font: 700 0.75rem var(--font-display); letter-spacing: 0.06em; text-transform: uppercase; text-align: left; }
+th, td { padding: 9px 12px; border-bottom: 1px solid var(--border-subtle); }
+
+/* Dialogs, menus, pop-ups and tooltips float on the same shadow and radius */
+dialog, .picker, .confirm-dialog, .suggest, .nav-more-menu, .update-toast, .leaflet-popup-content-wrapper { border-radius: var(--radius-lg); box-shadow: var(--shadow-float); }
+dialog, .picker, .confirm-dialog { border: 1px solid var(--border-subtle); background: var(--surface-1); }
+.suggest { margin-top: 6px; border: 1px solid var(--border-subtle); background: var(--surface-1); overflow: hidden; }
+dialog::backdrop { background: rgba(5, 5, 8, 0.62); }
+@keyframes hq-pop { from { opacity: 0; transform: translateY(6px) scale(0.985); } to { opacity: 1; transform: none; } }
+dialog[open], .suggest:not([hidden]) { animation: hq-pop 0.16s cubic-bezier(0.2, 0.7, 0.2, 1); }
+[data-tip]::after { border-radius: 6px; }
+
+/* Progress: one bar everywhere */
+progress, .meter, .gm-meter, .bar { border-radius: 99px; overflow: hidden; }
+
+/* States: empty, loading, error. A centred icon-free block with one line of what to do next. */
+.panel.empty, .empty { padding: 40px 24px; border: 1px dashed var(--border-strong); border-radius: var(--radius-card); background: transparent; text-align: center; }
+.panel.empty h3, .empty h3 { margin-bottom: 6px; font-size: 1rem; }
+.load-error { margin: 16px var(--gutter); padding: 12px 16px; border: 1px solid color-mix(in srgb, var(--danger) 45%, transparent); border-left-width: 3px; border-radius: var(--radius); background: color-mix(in srgb, var(--danger) 8%, transparent); color: var(--text-primary); }
+@keyframes hq-shimmer { from { background-position: -200% 0; } to { background-position: 200% 0; } }
+.is-pending, .skeleton, #health.muted { background: linear-gradient(90deg, var(--surface-1) 25%, var(--surface-3) 50%, var(--surface-1) 75%); background-size: 200% 100%; animation: hq-shimmer 1.4s linear infinite; border-radius: var(--radius); }
+img { transition: opacity 0.25s ease; }
+
+/* Page titles: one size and weight for every page head */
+.page-head h1, .block-head h2 { letter-spacing: 0.01em; }
+.page-head h1 { font-size: clamp(1.6rem, 2.6vw, 2.3rem); }
+.block-head h2, .editorial-head h2 { font-size: clamp(1.15rem, 1.6vw, 1.45rem); }
+.back { color: var(--text-muted); transition: color var(--ease); }
+.back:hover { color: var(--text-primary); }
+
+/* ---------- 4. Pages ---------- */
+
+/* The page fades in quickly; navigation is never held up by it. */
+#view { transition: opacity 0.22s ease, transform 0.22s cubic-bezier(0.2, 0.7, 0.2, 1); }
+#view.is-leaving { transform: translateY(6px); transition-duration: 0.14s; }
+#view.is-entering { transform: translateY(-6px); }
+
+/* Home: the hero as a rounded banner inside the content area, not an edge-to-edge poster. */
+@media (min-width: 761px) {
+  body.has-sidebar[data-page='home'] .hero { margin: 16px var(--gutter) 0; border-radius: var(--radius-lg); overflow: hidden; border: 1px solid var(--border-subtle); min-height: min(62vh, 560px); }
+}
+.community-band { background: var(--bg-deep); border-top: 1px solid var(--border-subtle); }
+.community-band p { color: var(--text-muted); }
+
+/* The game-menu screens keep their own look inside the shell; they fill the content area. */
+.gm { min-height: calc(100vh - var(--bar)); }
+.gm-wiki { min-height: 0; }
+.gm-tabs [role="tab"], .gm-bumper, .gm-key { border-radius: 6px; }
+.gm-list li { border-radius: 6px; }
+.gm-step, .gm-wiki-filter, .gm-detail a.gm-open { border-radius: var(--radius); }
+
+/* The pause menu and the intro cover the sidebar too. */
+.pause { z-index: 2000; }
+
+/* Phones and very narrow windows: the original top-bar menu, unchanged. */
+@media (max-width: 760px) {
+  .topbar { padding: 0 8px 0 12px; }
+  .brand { padding-left: 0; }
+  .search-hint { display: none; }
+  .nav-search { flex: 1 1 auto; }
+}
+
+/* Motion off: the shell does not slide or shimmer. */
+@media (prefers-reduced-motion: reduce) {
+  body.has-sidebar, .sidebar { transition: none; }
+  .is-pending, .skeleton, #health.muted { animation: none; }
+}
+
+/* Pages that open on a full-width picture: the back layer waits until it has scrolled away. */
+@media (min-width: 1240px) {
+  body.has-hero:not(.past-hero) .rail, body.has-sidebar.has-hero:not(.past-hero) .rail { opacity: 0; }
+}
+
+/* Home: the facts strip under the hero is a quiet row of the same width as the banner. */
+@media (min-width: 761px) {
+  body.has-sidebar[data-page='home'] .facts { margin: 12px var(--gutter) 0; border: 1px solid var(--border-subtle); border-radius: var(--radius-card); background: var(--surface-1); }
+}
+.facts { background: var(--surface-1); }
+.facts dt, .facts .kicker { color: var(--tone-orange); }
+
+
+/* Settings: the Vice City theme's swatch shows what the theme now is. */
+.theme-vice .theme-swatch i:nth-child(1) { background: #0c0c0e; }
+.theme-vice .theme-swatch i:nth-child(2) { background: #1e1e22; }
+.theme-vice .theme-swatch i:nth-child(3) { background: linear-gradient(90deg, #f6a56a, #f2729f, #c85aa8); }
+
+/* A page head with a picture (app.js pageHead's `art`): a rounded banner, the picture on the right
+   fading into the surface on the left where the title sits. The picture is kept to the right two
+   thirds, so a modest capture is not stretched across the whole width. */
+.page-head.page-head-art { min-height: clamp(200px, 22vw, 290px); margin-top: 16px; padding: 28px 32px; align-items: end; border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); overflow: hidden; background: var(--surface-1); isolation: isolate; }
+.page-head.page-head-art::before { content: ''; position: absolute; z-index: -1; inset: 0 0 0 30%; background: var(--art) center 42% / cover no-repeat; }
+.page-head.page-head-art::after { z-index: -1; inset: 0; width: auto; height: auto; background: linear-gradient(90deg, var(--surface-1) 30%, color-mix(in srgb, var(--surface-1) 55%, transparent) 55%, transparent 80%), linear-gradient(0deg, color-mix(in srgb, var(--surface-1) 70%, transparent), transparent 45%); }
+.page-head-art .page-head-text { padding-top: 0; }
+.page-head-art h1 { text-shadow: 0 2px 18px rgba(0, 0, 0, 0.5); }
+@media (max-width: 760px) { .page-head.page-head-art::before { inset: 0; opacity: 0.45; } }
+
+/* The sidebar's keyboard focus: a thin inner line, not the page's full ring. */
+.sidebar a:focus-visible, .side-collapse:focus-visible { box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 55%, transparent); }
+.sidebar a:focus:not(:focus-visible) { box-shadow: none; outline: none; }
+
+/* Tooltips in the title bar hang from the button's right edge, so one near the window's edge never
+   reaches past it (centred, the profile button's tip made the page 24px wider than a narrow window). */
+.topbar [data-tip]::after { left: auto; right: 0; translate: 0 -4px; }
+.topbar [data-tip]:hover::after, .topbar [data-tip]:focus-visible::after { translate: 0 0; }

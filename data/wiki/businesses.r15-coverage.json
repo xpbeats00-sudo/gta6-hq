@@ -428,6 +428,8 @@
     "slug": "ocean-beach-lab-gang-operation",
     "name": "Ocean Beach Lab",
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "x": 0.85464,
+    "y": 0.50968,
     "body": [
       "PowerPyx lists it as number 34 of 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",
@@ -495,6 +497,8 @@
     "slug": "walker-farm-gang-operation",
     "name": "Walker Farm",
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "x": 0.42895,
+    "y": 0.34079,
     "body": [
       "PowerPyx lists it as number 37 of 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds valuables such as unique weapon variants, luxury watches and a cash safe, and many hold narcotics that can be sold to a fence; the page gives no map position in text.",

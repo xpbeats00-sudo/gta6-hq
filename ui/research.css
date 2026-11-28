@@ -366,3 +366,149 @@ body.is-paused { overflow: hidden; }
 .gm-card.has-art { position: relative; }
 .gm-card-tick { position: absolute; right: 6px; top: 6px; display: grid; place-items: center; width: 22px; height: 22px; border-radius: 50%; background: #2fd47a; color: #fff; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); }
 .gm-card-tick svg { width: 14px; height: 14px; }
+
+/* ---------- The Encyclopedia as a Progress menu (app.js renderEncyclopedia, renderCategory, frameEntryPage) ----------
+   The same purple screen as Trophies, kept to the page width so the sliding picture columns stay beside it. */
+.gm-wiki { max-width: var(--content); min-height: 0; margin: 18px auto 40px; border-radius: 10px; border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(238, 63, 124, 0.12); }
+.gm-wiki .gm-crumbs a { color: inherit; text-decoration: none; }
+.gm-wiki .gm-crumbs a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.gm-wiki .gm-crumbs > a { color: var(--gm-hi); }
+.gm-row-n { margin-left: auto; padding-left: 8px; font: 700 0.75rem var(--font-display); opacity: 0.7; font-variant-numeric: tabular-nums; }
+.gm-wiki-bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 20px; margin-bottom: 14px; }
+.gm-wiki-bar .gm-summary { margin: 0; max-width: 70ch; font-weight: 600; color: var(--gm-dim); }
+.gm-wiki-filter { display: flex; align-items: center; gap: 8px; min-width: min(280px, 100%); padding: 0 12px; height: 34px; border-radius: 4px; background: rgba(0, 0, 0, 0.22); border: 1px solid var(--gm-line); }
+.gm-wiki-filter .i { width: 16px; height: 16px; color: var(--gm-dim); }
+.gm-wiki-filter input { flex: 1; min-width: 0; border: 0; background: none; color: var(--gm-ink); font: inherit; outline: none; }
+.gm-wiki-filter:focus-within { border-color: #fff; }
+.gm-wiki-pic { position: relative; margin: 0 0 16px; aspect-ratio: 16 / 9; border-radius: 6px; overflow: hidden; background: rgba(0, 0, 0, 0.25); box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35); }
+.gm-wiki-pic > img, .gm-wiki-pic .auto-art, .gm-wiki-pic .postcard { width: 100%; height: 100%; object-fit: cover; display: block; }
+.gm-wiki .gm-detail .gm-tags { flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+.gm-wiki-more { color: var(--gm-dim); display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.gm-wiki-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto !important; padding-top: 8px; }
+.gm-detail a.gm-open { display: inline-flex; align-items: center; gap: 8px; min-height: 34px; padding: 0 14px; border-radius: 4px; background: #fff; color: #2a1433; font: 800 0.8125rem var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; text-decoration: none; }
+.gm-detail a.gm-open:hover { background: #ffe1ef; }
+.gm-detail a.gm-open-alt { background: rgba(255, 255, 255, 0.16); color: #fff; }
+.gm-open .gm-key { background: #2a1433; color: #fff; }
+.gm-wiki-some { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 4px 0 14px; }
+.gm-detail .gm-wiki-some a { position: relative; display: block; aspect-ratio: 16 / 10; border-radius: 4px; overflow: hidden; text-decoration: none; }
+.gm-wiki-some img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.25s; }
+.gm-wiki-some a:hover img { transform: scale(1.06); }
+.gm-wiki-some span { position: absolute; inset: auto 0 0; padding: 14px 6px 4px; background: linear-gradient(transparent, rgba(20, 8, 28, 0.85)); font: 700 0.6875rem var(--font-display); color: #fff; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+/* The A–Z and data health under the home menu, on the purple. */
+.gm-wiki .block { margin-top: 30px; padding: 0; max-width: none; }
+.gm-wiki .block-head h2 { color: var(--gm-hi); }
+.gm-wiki .panel { background: rgba(0, 0, 0, 0.22); border-color: var(--gm-line); }
+.gm-wiki .muted, .gm-wiki .az .muted { color: var(--gm-dim); }
+/* Entry pages inside the frame */
+.gm-entry .gm-body { margin-top: 10px; }
+.gm-entry .profile, .gm-entry .place { max-width: none; margin: 0; padding: 0; }
+.gm-entry .back { display: none; }
+.gm-entry .profile-portrait { border-radius: 8px; box-shadow: 0 14px 40px rgba(0, 0, 0, 0.4); }
+.gm-entry .lede, .gm-entry .muted, .gm-entry .kicker { color: var(--gm-dim); }
+.gm-entry .fact-table div, .gm-entry .verify, .gm-entry .provenance, .gm-entry .entry-step { border-color: var(--gm-line); }
+.gm-entry .verify, .gm-entry .entry-step { background: rgba(0, 0, 0, 0.18); }
+.gm-entry a:not(.btn):not(.gm-open) { color: #ffd6ec; }
+@media (max-width: 760px) {
+  .gm-wiki { margin: 0; border-radius: 0; border-left: 0; border-right: 0; }
+  .gm-wiki .gm-split { grid-template-columns: 1fr; }
+  .gm-wiki .gm-list { max-height: 40vh; }
+}
+
+/* ---------- The GTA VI logo as a turning coin: the pause menu, the top bar, the menu icons ----------
+   The same turn as the loading screen's coin (styles.css .splash-coin, keyframes splash-spin). Like the
+   loading screen, it turns even for readers who ask for less motion: it is the loading signal. */
+.logo-coin, .brand-coin { position: relative; display: block; transform-style: preserve-3d; }
+.logo-coin img, .brand-coin img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.logo-coin img + img, .brand-coin img + img { transform: rotateY(180deg); }
+.pause-logo { width: 120px; height: 92px; margin: 0 0 40px 2px; perspective: 600px; font: inherit; -webkit-text-stroke: 0; }
+.pause-logo .logo-coin { width: 100%; height: 100%; animation: splash-spin 2.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite !important; filter: drop-shadow(0 0 14px rgba(238, 63, 124, 0.45)); }
+.brand { perspective: 300px; }
+.brand-coin { flex: none; width: 40px; height: 30px; }
+.brand-coin img { height: 100% !important; width: 100% !important; }
+body.is-loading-page .brand-coin { animation: splash-spin 1.1s cubic-bezier(0.45, 0.05, 0.55, 0.95) 1 !important; }
+body:has(.update-stage) .brand-coin, body.is-paused .brand-coin { animation: splash-spin 2.2s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite !important; }
+/* A pause-menu icon turns like a coin when its row is chosen. */
+.pause-list [role="menuitem"] .i { transform-style: preserve-3d; }
+.pause-list [role="menuitem"][aria-current="true"] .i { animation: splash-spin 0.8s cubic-bezier(0.45, 0.05, 0.55, 0.95) 1 !important; }
+@media (max-width: 760px) { .pause-logo { width: 80px; height: 60px; margin-bottom: 18px; } }
+/* The hints are buttons: Select (Enter) and Back (Esc). */
+.pause-hints button { display: inline-flex; align-items: center; padding: 0; border: 0; background: none; color: inherit; font: inherit; text-transform: inherit; letter-spacing: inherit; cursor: pointer; }
+.pause-hints button:hover kbd { background: #fff; color: #1a1030; }
+
+/* ---------- The Entry screen (app.js buildEntryScreen): Rockstar's loading-screen look ----------
+   Each picture is cut into three slanted panels with thin black gaps. The panels slide in one after
+   another, then drift apart slowly in different directions, as GTA V's loading screens do; the next
+   picture's panels come in from the other side. The logo sits bottom left, the loading dial bottom
+   right. Like the other intros it moves even for readers who ask for less motion (the owner's choice). */
+#splash.is-entry { display: block; padding: 0; }
+#splash.is-entry > .splash-stage, #splash.is-entry > .splash-cine { display: none; }
+.entry { position: absolute; inset: 0; z-index: 1; overflow: hidden; background: #050308; }
+.entry-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.7s ease; }
+.entry-slide.is-on { opacity: 1; }
+/* The outgoing picture holds until the next one's panels have arrived, so there is no dip to black. */
+.entry-slide.is-off { opacity: 0; transition: opacity 0.8s ease 0.75s; }
+.entry-slide.is-on { z-index: 1; }
+.entry-cut { position: absolute; inset: -5%; background: var(--img) center 30% / cover no-repeat; will-change: transform; }
+/* Three slanted slices of one picture; 0.6% gaps between them show the black behind. */
+.entry-cut-1 { clip-path: polygon(0 0, 41% 0, 31% 100%, 0 100%); }
+.entry-cut-2 { clip-path: polygon(41.6% 0, 72% 0, 64% 100%, 31.6% 100%); }
+.entry-cut-3 { clip-path: polygon(72.6% 0, 100% 0, 100% 100%, 64.6% 100%); }
+.entry-slide.is-on .entry-cut-1 { animation: entry-a calc(var(--slide, 3.6s) + 1.6s) cubic-bezier(0.2, 0.7, 0.2, 1) both !important; }
+.entry-slide.is-on .entry-cut-2 { animation: entry-b calc(var(--slide, 3.6s) + 1.6s) cubic-bezier(0.2, 0.7, 0.2, 1) 0.12s both !important; }
+.entry-slide.is-on .entry-cut-3 { animation: entry-c calc(var(--slide, 3.6s) + 1.6s) cubic-bezier(0.2, 0.7, 0.2, 1) 0.24s both !important; }
+.entry-slide.is-flip.is-on .entry-cut-1 { animation-name: entry-c !important; }
+.entry-slide.is-flip.is-on .entry-cut-3 { animation-name: entry-a !important; }
+@keyframes entry-a { 0% { transform: translate(-7%, 0) scale(1.04); opacity: 0; } 14% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(-1.6%, 1.2%) scale(1.08); } }
+@keyframes entry-b { 0% { transform: translate(0, 9%) scale(1.04); opacity: 0; } 14% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(0, -1.8%) scale(1.07); } }
+@keyframes entry-c { 0% { transform: translate(7%, 0) scale(1.04); opacity: 0; } 14% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(1.6%, -1%) scale(1.08); } }
+/* A dark fall-off at the bottom for the logo and the loading line, and a faint film grain of scanlines. */
+.entry-shade { position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(0deg, rgba(5, 3, 8, 0.88) 0%, rgba(5, 3, 8, 0.35) 22%, transparent 42%), radial-gradient(120% 90% at 50% 40%, transparent 55%, rgba(5, 3, 8, 0.55) 100%); }
+.entry-logo { position: absolute; z-index: 2; left: clamp(20px, 4vw, 64px); bottom: clamp(96px, 13vh, 150px); width: clamp(150px, 17vw, 270px); height: auto;
+  filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.6)); animation: entry-logo 1.4s cubic-bezier(0.2, 0.7, 0.2, 1) 0.3s both !important; }
+@keyframes entry-logo { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+#splash.is-entry .splash-foot { z-index: 3; }
+#splash.is-entry .splash-tip { text-transform: uppercase; letter-spacing: 0.08em; font-weight: 700; }
+
+/* ---------- The back layer (app.js syncRails): the side columns, now behind the page ----------
+   Slanted loading-screen panels of the GTA VI artwork slide slowly down both sides behind the
+   content, fading out toward the middle so the page reads over them. The list repeats, so the
+   loop has no seam. */
+@media (min-width: 1240px) {
+  main#view, .community-band, .footer { position: relative; z-index: 1; }
+  .rail { position: fixed; z-index: 0; top: calc(var(--bar, 64px) + var(--announce, 0px)); bottom: 0; display: block; overflow: hidden; pointer-events: none;
+    width: min(calc((100vw - var(--content)) / 2 + 220px), 470px); opacity: 0.62;
+    -webkit-mask-image: linear-gradient(180deg, transparent, #000 8%, #000 92%, transparent), linear-gradient(var(--fade-dir, 90deg), #000 35%, transparent 100%);
+    -webkit-mask-composite: source-in; mask-image: linear-gradient(180deg, transparent, #000 8%, #000 92%, transparent), linear-gradient(var(--fade-dir, 90deg), #000 35%, transparent 100%);
+    mask-composite: intersect; }
+  .rail-left { left: 0; --fade-dir: 90deg; }
+  .rail-right { right: 0; --fade-dir: 270deg; }
+  .rail-track { display: flex; flex-direction: column; gap: 10px; padding-bottom: 10px; animation: rail-down var(--rail-time, 90s) linear infinite; will-change: transform; }
+  .rail-right .rail-track { animation-delay: -23s; }
+  .rail-card { flex: none; height: clamp(190px, 24vh, 260px); padding: 0; background: none; clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%); }
+  .rail-card:nth-child(even) { clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%); }
+  .rail-right .rail-card { clip-path: polygon(0 0, 93% 0, 100% 100%, 7% 100%); }
+  .rail-right .rail-card:nth-child(even) { clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%); }
+  .rail-card img { width: 100%; height: 100%; object-fit: cover; object-position: center 30%; display: block; clip-path: none; filter: saturate(1.05) brightness(0.92); }
+  body[data-page='map'] .rail, body.is-full-menu .rail { display: none; }
+  body[data-page='manual'] .rail { width: min(calc((100vw - 1400px) / 2 + 160px), 420px); }
+}
+
+/* ---------- The footer as an ultrawide logo banner (index.html .footer-banner) ---------- */
+.footer.footer-banner { position: relative; z-index: 1; height: clamp(150px, 15vw, 230px); padding: 0; overflow: hidden; border-top: 1px solid rgba(255, 255, 255, 0.08); background: #07050c; text-align: initial; }
+.fb-strip { position: absolute; inset: 0; overflow: hidden; }
+.fb-track { --w: clamp(240px, 24vw, 400px); display: flex; height: 100%; width: max-content; animation: fb-slide 120s linear infinite !important; will-change: transform; }
+/* Every panel leans the same way and overlaps the next by its slant less a 6px gap, so they fit like the entry screen's cuts. */
+.fb-track i { flex: none; width: var(--w); height: 100%; margin-right: calc(var(--w) * -0.14 + 6px); background: center 30% / cover no-repeat;
+  clip-path: polygon(14% 0, 100% 0, 86% 100%, 0 100%); }
+@keyframes fb-slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+.fb-strip::after { content: ''; position: absolute; inset: 0; pointer-events: none;
+  background: radial-gradient(42% 120% at 50% 50%, rgba(7, 5, 12, 0.92) 0%, rgba(7, 5, 12, 0.6) 45%, rgba(7, 5, 12, 0.15) 100%),
+    linear-gradient(180deg, rgba(7, 5, 12, 0.55), transparent 30%, transparent 70%, rgba(7, 5, 12, 0.7)); }
+.fb-mark { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: clamp(14px, 2vw, 30px); }
+.fb-mark img { height: 72%; width: auto; filter: drop-shadow(0 8px 28px rgba(0, 0, 0, 0.7)); }
+.fb-word { font: 900 clamp(1.6rem, 3.6vw, 3.4rem)/1 var(--font-display); font-stretch: 80%; letter-spacing: 0.04em; text-transform: uppercase;
+  background: linear-gradient(180deg, #ffd88a 0%, #ff8fb4 48%, #b06cf0 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
+  filter: drop-shadow(0 4px 18px rgba(238, 63, 124, 0.45)); }
+@media (max-width: 640px) { .fb-word { display: none; } .fb-mark img { height: 64%; } }

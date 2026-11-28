@@ -3,6 +3,8 @@
     "slug": "mitchell-auto-center",
     "name": "Mitchell Auto Center",
     "summary": "A one-car garage the player can buy for $4,000 through the Vice City Real Estate phone app.",
+    "x": 0.38121,
+    "y": 0.36721,
     "body": [
       "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $4,000.",
       "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
@@ -41,6 +43,8 @@
     "slug": "7th-avenue-garage",
     "name": "7th Avenue Garage",
     "summary": "A one-car garage the player can buy for $12,000 through the Vice City Real Estate phone app.",
+    "x": 0.64485,
+    "y": 0.57161,
     "body": [
       "PowerPyx lists it as one of eight purchasable garages, with one parking spot and a price of $12,000.",
       "PowerPyx says the app arrives shortly after the last Chapter 2 story mission, and that owning all eight earns the Little Boxes trophy.",
@@ -286,6 +290,8 @@
     "slug": "port-gellhorn-station-garage",
     "name": "Port Gellhorn Station Garage",
     "summary": "A story garage with 1 parking spot, handed over during Chapter 2 rather than bought.",
+    "x": 0.30424,
+    "y": 0.36436,
     "body": [
       "PowerPyx lists it as one of four story-related garages and says it comes from finishing a Chapter 2 mission.",
       "GTABase gives its location as Port Gellhorn, Kelly County.",
@@ -1249,6 +1255,8 @@
     "slug": "tequesta-guns-and-ammo",
     "name": "Tequesta Guns & Ammo",
     "summary": "A gun store in Vice-Dale County with a standard selection of weapons.",
+    "x": 0.6597,
+    "y": 0.59525,
     "body": [
       "PowerPyx lists it among 24 gun stores and labels its stock 'Standard'.",
       "PowerPyx says every gun store sells weapons, ammunition, body armor and parachutes and carries one unique weapon variant."
@@ -2091,6 +2099,8 @@
     "slug": "lori-scott-hair-and-beauty",
     "name": "Lori Scott Hair & Beauty",
     "summary": "A unisex salon in Mariana County where the player can change hairstyle.",
+    "x": 0.41328,
+    "y": 0.69811,
     "body": [
       "PowerPyx lists it among 18 hair and beauty salons and classes it as: unisex salon.",
       "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own."
@@ -2297,6 +2307,8 @@
     "slug": "fabiolas-unisex-salon",
     "name": "Fabiola's Unisex Salon",
     "summary": "A beauty salon in Vice-Dale County where the player can change hairstyle.",
+    "x": 0.65749,
+    "y": 0.48452,
     "body": [
       "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
       "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
@@ -2447,6 +2459,8 @@
     "slug": "gabriel-wexler",
     "name": "Gabriel Wexler",
     "summary": "A beauty salon in Vice-Dale County where the player can change hairstyle.",
+    "x": 0.85706,
+    "y": 0.50979,
     "body": [
       "PowerPyx lists it among 18 hair and beauty salons and classes it as: beauty salon.",
       "PowerPyx says all salons offer the standard hairstyles and some add signature styles of their own.",
@@ -2631,6 +2645,8 @@
     "slug": "gibson-brothers-bank",
     "name": "Gibson Brothers Bank",
     "summary": "A small independent bank in Mariana County that can be robbed.",
+    "x": 0.28423,
+    "y": 0.52535,
     "body": [
       "PowerPyx lists it among 14 small banks with a take of $10,000 to $30,000."
     ],
@@ -2983,6 +2999,8 @@
     "slug": "donovan-banks-and-co",
     "name": "Donovan Banks & Co.",
     "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "x": 0.65741,
+    "y": 0.62007,
     "body": [
       "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
     ],
@@ -3043,6 +3061,8 @@
     "slug": "pawn-city",
     "name": "Pawn City",
     "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "x": 0.64192,
+    "y": 0.56685,
     "body": [
       "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
     ],
@@ -3103,6 +3123,8 @@
     "slug": "richardson-jewelry-and-diamonds",
     "name": "Richardson Jewelry & Diamonds",
     "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "x": 0.69217,
+    "y": 0.54311,
     "body": [
       "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores.",
       "The in-game robbery card in PowerPyx's screenshot calls it a large, low-end jewelry store with a range of merchandise, with medium security and a take value of $4,500 to $12,000.",
@@ -3137,6 +3159,8 @@
     "slug": "all-that-glitters",
     "name": "All That Glitters",
     "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "x": 0.71687,
+    "y": 0.53387,
     "body": [
       "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
     ],
@@ -3406,6 +3430,8 @@
     "slug": "pawn-stash",
     "name": "Pawn Stash",
     "summary": "A pawn shop in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "x": 0.69577,
+    "y": 0.45946,
     "body": [
       "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
     ],
@@ -3613,6 +3639,8 @@
     "slug": "rococo-rich",
     "name": "Rococo Rich",
     "summary": "A jewelry store in Vice-Dale County that can be robbed as a Smash 'n' Grab.",
+    "x": 0.85212,
+    "y": 0.50695,
     "body": [
       "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
     ],
@@ -3730,6 +3758,8 @@
     "slug": "kowalski",
     "name": "Kowalski",
     "summary": "A jewelry store in Leonard County that can be robbed as a Smash 'n' Grab.",
+    "x": 0.72345,
+    "y": 0.34494,
     "body": [
       "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
     ],
@@ -3787,6 +3817,8 @@
     "slug": "avery-pawn",
     "name": "Avery Pawn",
     "summary": "A pawn shop in Kelly County that can be robbed as a Smash 'n' Grab.",
+    "x": 0.32105,
+    "y": 0.35526,
     "body": [
       "PowerPyx lists it among 35 Smash 'n' Grab locations, which are pawn shops and jewelry stores."
     ],
@@ -3844,6 +3876,8 @@
     "slug": "zekes-gadgets",
     "name": "Zekes Gadgets",
     "summary": "An electronics store in Vice-Dale County.",
+    "x": 0.56736,
+    "y": 0.68921,
     "body": [
       "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
     ],
@@ -4089,6 +4123,8 @@
     "slug": "beta-audio-and-electronics",
     "name": "Beta Audio and Electronics",
     "summary": "An electronics store in Vice-Dale County.",
+    "x": 0.85337,
+    "y": 0.47573,
     "body": [
       "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
     ],
@@ -4148,6 +4184,8 @@
     "slug": "acpc",
     "name": "ACPC",
     "summary": "An electronics store in Vice-Dale County.",
+    "x": 0.85211,
+    "y": 0.49523,
     "body": [
       "PowerPyx lists it among 15 electronics stores, which sell phone cases and wearable headphones."
     ],
@@ -4535,6 +4573,8 @@
     "slug": "ambrosia-liquors",
     "name": "Ambrosia Liquors",
     "summary": "A liquor store selling alcohol and snacks that give short stat boosts.",
+    "x": 0.52631,
+    "y": 0.33559,
     "body": [
       "PowerPyx lists it among 14 liquor stores and says they can also be held up for $100 to $3,000."
     ],
@@ -4678,6 +4718,8 @@
     "slug": "franks-waffles",
     "name": "Frank's Waffles",
     "summary": "A fast food outlet whose meals give the character a temporary stat boost.",
+    "x": 0.65756,
+    "y": 0.59679,
     "body": [
       "PowerPyx lists it among 21 fast food stores and gives its locations as: Vice-Dale County."
     ],
@@ -4853,6 +4895,8 @@
     "slug": "mid",
     "name": "Mid",
     "summary": "A clothing store selling casual and street clothing.",
+    "x": 0.72658,
+    "y": 0.34646,
     "body": [
       "PowerPyx lists it among 67 clothing stores, under casual and street clothing.",
       "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
@@ -4883,6 +4927,8 @@
     "slug": "suburban",
     "name": "Suburban",
     "summary": "A clothing store selling casual and street clothing.",
+    "x": 0.7009,
+    "y": 0.54039,
     "body": [
       "PowerPyx lists it among 67 clothing stores, under casual and street clothing.",
       "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
@@ -5093,6 +5139,8 @@
     "slug": "ferruccio-tucci",
     "name": "Ferruccio Tucci",
     "summary": "A clothing store selling formal clothing.",
+    "x": 0.72482,
+    "y": 0.34556,
     "body": [
       "PowerPyx lists it among 67 clothing stores, under formal clothing.",
       "PowerPyx says stores of one brand generally stock the same clothes and most have changing rooms."
@@ -5429,6 +5477,8 @@
     "slug": "ron-car-wash",
     "name": "RON Car Wash",
     "summary": "A car wash chain with three Vice City branches where a dirty car can be cleaned.",
+    "x": 0.73277,
+    "y": 0.44619,
     "body": [
       "PowerPyx lists six car washes, all in Vice City, and says using them is optional because a repair also cleans the car.",
       "PowerPyx also lists Ron gas stations and Ron Stop'N'Snack convenience stores in Vice-Dale County."
@@ -7014,6 +7064,8 @@
     "slug": "chatfield-storage-and-logistics",
     "name": "Chatfield Storage & Logistics",
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "x": 0.74442,
+    "y": 0.52127,
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",
@@ -7192,6 +7244,8 @@
     "slug": "carter-mining-boathouse",
     "name": "Carter Mining Boathouse",
     "summary": "A front or hideout that can be raided as an illegal gang operation.",
+    "x": 0.48269,
+    "y": 0.12925,
     "body": [
       "PowerPyx lists it among 39 illegal gang operations, filed under Other criminals.",
       "PowerPyx says each operation holds key valuables such as a cash safe and can be robbed again after it respawns; the page gives no map position in text.",

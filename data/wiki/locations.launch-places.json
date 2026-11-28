@@ -398,6 +398,9 @@
     "slug": "belpoint",
     "name": "Belpoint",
     "summary": "A named area within Capri in Mariana County, site of the Belpoint Lighthouse.",
+    "x": 0.17487,
+    "y": 0.54909,
+    "pin": "landmarks",
     "body": [
       "PowerPyx lists Belpoint under Capri and lists the Belpoint Lighthouse as a WAiNK landmark scan there."
     ],
@@ -774,6 +777,9 @@
     "slug": "tequesta-retreat",
     "name": "Tequesta Retreat",
     "summary": "A district of Vice City that contains the Pegassi Residences building and its garage.",
+    "x": 0.7287,
+    "y": 0.59245,
+    "pin": "districts",
     "body": [
       "PowerPyx describes underground parking at Pegassi Residences in Tequesta Retreat.",
       "GTABase places the Pegassi Residences Garage in Tequesta Retreat."
@@ -870,6 +876,9 @@
     "slug": "salton",
     "name": "Salton",
     "summary": "A district of Vice City with a Pay 'n' Spray, a RON car wash and three Hit 'N Run VC street races.",
+    "x": 0.62175,
+    "y": 0.54063,
+    "pin": "districts",
     "body": [
       "PowerPyx lists a Pay 'n' Spray, a RON Car Wash, a Marbles and a Chacey's in Salton.",
       "GTABase places the 7th Avenue Garage in Salton."
@@ -966,6 +975,9 @@
     "slug": "bayside",
     "name": "Bayside",
     "summary": "A district of Vice City with a Lombank branch, a RON car wash and an Uncle Jack's Liquor.",
+    "x": 0.71872,
+    "y": 0.47188,
+    "pin": "districts",
     "body": [
       "PowerPyx lists a small Lombank, a RON Car Wash, an Uncle Jack's Liquor and an Alderney Joe's in Bayside.",
       "GTABase lists a story safehouse on Catalan Boulevard in Bayside."
@@ -1033,6 +1045,9 @@
     "slug": "balsero",
     "name": "Balsero",
     "summary": "A district of Vice City with a Pay 'n' Spray, a RON car wash, Zotico's bar and the Tisha-Wocka flea market drone course.",
+    "x": 0.58592,
+    "y": 0.49974,
+    "pin": "districts",
     "body": [
       "PowerPyx lists a Top Fun drone location at Balsero with courses named Navitrak, Apollo Aggregates and Tisha-Wocka Flea Market.",
       "PowerPyx puts Zotico's bar on the western edge of Balsero and lists three Kitty Litter Labs in the district.",
@@ -1100,6 +1115,9 @@
     "slug": "decor-district",
     "name": "Decor District",
     "summary": "A district of Vice City with branches of Slinger, This / That, Nola, Ferruccio Tucci and Callus.",
+    "x": 0.72656,
+    "y": 0.4332,
+    "pin": "districts",
     "body": [
       "PowerPyx lists those five fashion stores, a Mezzasega Espresso and one Kitty Litter Lab in the Decor District."
     ],
@@ -1216,6 +1234,9 @@
     "slug": "waxman-island",
     "name": "Waxman Island",
     "summary": "An island in Vice City with a Pay 'n' Spray and one of the game's two ferry terminals.",
+    "x": 0.77112,
+    "y": 0.53307,
+    "pin": "districts",
     "body": [
       "PowerPyx says the ferry runs between Waxman Island and Dalton Island for $50."
     ],
@@ -1328,6 +1349,8 @@
     "slug": "dalton-island",
     "name": "Dalton Island",
     "summary": "An island in Vice City reached by ferry from Waxman Island, or by boat or aircraft.",
+    "x": 0.86542,
+    "y": 0.59492,
     "body": [
       "PowerPyx says a taxi cannot take you to Dalton Island.",
       "PowerPyx lists a Top Fun drone location there with courses named Avarice Petroleum, The Jamaica and Ivory Towers.",
@@ -1505,6 +1528,8 @@
     "slug": "draper-island",
     "name": "Draper Island",
     "summary": "An island sub-region of Kelly County with a train station, a terminal and a refinery.",
+    "x": 0.2459,
+    "y": 0.2995,
     "body": [
       "PowerPyx lists Draper Bay under Draper Island and a Draper Island train station.",
       "PowerPyx lists a Top Fun drone location there with courses named Draper Island Terminal, Draper Refinery East and Draper Refinery West."
@@ -2041,6 +2066,8 @@
     "slug": "millport",
     "name": "Millport",
     "summary": "A sub-region of Lummox County with a train station, a Pay 'n' Spray and Jacob's Tavern.",
+    "x": 0.65954,
+    "y": 0.22956,
     "body": [
       "PowerPyx lists Millport Basin under Millport.",
       "PowerPyx lists a Top Fun drone location there with courses named Millport, Rushwood Logging and Tallaloko Lakeside Resort.",
@@ -2776,6 +2803,9 @@
     "slug": "future-leonida-art-museum",
     "name": "Future Leonida Art Museum",
     "summary": "A named site in the Downtown area of Vice-Dale County that gives its name to a Top Fun drone time trial.",
+    "x": 0.71907,
+    "y": 0.50456,
+    "pin": "landmarks",
     "body": [
       "PowerPyx lists a Top Fun drone time trial of this name at its Downtown drone location; the page does not describe the place itself.",
       "PowerPyx also lists a Future Leonida Art Museum Bar among the Vice-Dale County bars."
@@ -3169,6 +3199,9 @@
     "slug": "red-apple-orchard",
     "name": "Red Apple Orchard",
     "summary": "A named site in the Port Gellhorn area of Kelly County that gives its name to a Top Fun drone time trial.",
+    "x": 0.34902,
+    "y": 0.29004,
+    "pin": "landmarks",
     "body": [
       "PowerPyx lists a Top Fun drone time trial of this name at its Port Gellhorn drone location; the page does not describe the place itself."
     ],
@@ -3317,6 +3350,9 @@
     "slug": "tallaloko-lakeside-resort",
     "name": "Tallaloko Lakeside Resort",
     "summary": "A named site in the Millport area of Lummox County that gives its name to a Top Fun drone time trial.",
+    "x": 0.60267,
+    "y": 0.18333,
+    "pin": "landmarks",
     "body": [
       "PowerPyx lists a Top Fun drone time trial of this name at its Millport drone location; the page does not describe the place itself."
     ],

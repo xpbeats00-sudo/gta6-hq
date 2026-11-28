@@ -1,6 +1,6 @@
 # Data and manual counts
 
-Generated 2026-11-27 17:30 by `scripts/current_state.py` from the live data files. Do not edit by hand.
+Generated 2026-11-28 02:13 by `scripts/current_state.py` from the live data files. Do not edit by hand.
 
 ## Encyclopedia
 
@@ -9,7 +9,7 @@ Generated 2026-11-27 17:30 by `scripts/current_state.py` from the live data file
 | Characters | 78 | 0 | 53 | 0 |
 | Locations | 156 | 0 | 148 | 0 |
 | Vehicles | 632 | 0 | 506 | 0 |
-| Gameplay | 125 | 0 | 100 | 0 |
+| Gameplay | 126 | 0 | 100 | 1 |
 | Activities | 223 | 0 | 216 | 0 |
 | Wildlife | 124 | 0 | 91 | 0 |
 | Businesses | 287 | 0 | 271 | 0 |
@@ -19,7 +19,7 @@ Generated 2026-11-27 17:30 by `scripts/current_state.py` from the live data file
 | Missions and Story | 193 | 0 | 192 | 0 |
 | Collectibles | 1264 | 0 | 1264 | 0 |
 | Achievements | 55 | 0 | 55 | 0 |
-| **Total** | **3394** | 0 | 3125 | 0 |
+| **Total** | **3395** | 0 | 3125 | 1 |
 
 Sources in the registry: 1908. Map markers: 6585 in 12 categories.
 
@@ -82,12 +82,12 @@ Manual sources: 868 checked, 1 listed but not checked.
 
 ## Media
 
-Records in `data/media.json`: 2675.
+Records in `data/media.json`: 2686.
 
 | Rights status | Records |
 |---|---|
-| approved | 27 |
-| permission_required | 2631 |
-| unknown | 17 |
+| approved | 34 |
+| permission_required | 2632 |
+| unknown | 20 |
 
-Files on disk: `images/` 2639 (314.8 MB), `wallpapers/` 71 (105.5 MB). Map tile cache: 537 files (90.9 MB).
+Files on disk: `images/` 2650 (315.7 MB), `wallpapers/` 71 (105.5 MB). Map tile cache: 809 files (134.9 MB).

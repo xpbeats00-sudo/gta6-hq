@@ -529,7 +529,7 @@
         </fieldset>
         <fieldset class="appearance"><legend>Appearance</legend>
           <p class="muted">Theme. Every page follows it; the Field Manual keeps its own day and night reading switch.</p>
-          <div class="theme-picks">${[['vice', 'Vice City', 'The original sunset violet'], ['dark', 'Dark', 'Neutral greys'], ['light', 'Light', 'Paper white']].map(([val, label, note]) => `<label class="theme-pick theme-${val}"><input type="radio" name="theme-app" value="${val}" ${v('theme-app', 'vice') === val ? 'checked' : ''}><span class="theme-swatch" aria-hidden="true"><i></i><i></i><i></i></span><b>${label}</b><small>${note}</small></label>`).join('')}</div>
+          <div class="theme-picks">${[['vice', 'Vice City', 'Charcoal with the sunset pink'], ['dark', 'Dark', 'Neutral greys, cooler'], ['light', 'Light', 'Paper white']].map(([val, label, note]) => `<label class="theme-pick theme-${val}"><input type="radio" name="theme-app" value="${val}" ${v('theme-app', 'vice') === val ? 'checked' : ''}><span class="theme-swatch" aria-hidden="true"><i></i><i></i><i></i></span><b>${label}</b><small>${note}</small></label>`).join('')}</div>
           <p class="muted">Accent colour, for links, buttons and highlights.</p>
           <div class="accent-picks">${window.Appearance.ACCENTS.map(([hex, label]) => `<label class="accent-pick" title="${esc(label)}"><input type="radio" name="accent" value="${hex}" ${(prefs.get('accent') || '') === hex ? 'checked' : ''}><span style="--sw:${hex || '#f3a0bc'}" aria-hidden="true"></span><span class="sr-only">${esc(label)}</span></label>`).join('')}
             <label class="accent-own">Your own <input type="color" name="accent-own" value="${window.Appearance.HEX.test(prefs.get('accent') || '') ? prefs.get('accent') : '#f3a0bc'}" aria-label="Pick your own accent colour"></label></div>
@@ -542,7 +542,7 @@
           <label class="opt"><input type="checkbox" name="reduced-motion" ${prefs.get('reduced-motion') === '1' ? 'checked' : ''}><span>Reduce motion across the app (page fades, map flights, pulsing pins). Overrides the choice above.</span></label>
         </fieldset>
         ${STORE ? '' : `<fieldset><legend>Start-up</legend>
-          <p class="muted">Which intro plays when the app opens. Skip it any time with Esc or Enter.</p>${radio('intro', [['classic', 'Classic (the character clips and the VI logo)'], ['official', 'Official (the game’s own start-up, with music)']], v('intro', 'classic'))}
+          <p class="muted">Which intro plays when the app opens. Skip it any time with Esc or Enter.</p>${radio('intro', [['entry', 'Entry screen (the artwork loop, like Rockstar’s loading screens)'], ['classic', 'Classic (the character clips and the VI logo)'], ['official', 'Official (the game’s own start-up, with music)']], v('intro', 'entry'))}
         </fieldset>`}
         <fieldset><legend>Map</legend>
           <p class="muted">Which view the map opens in.</p>${radio('map-mode', [['2d', '2D (fastest)'], ['3d', '3D (tilted, loads the 3D engine)']], v('map-mode', '2d'))}

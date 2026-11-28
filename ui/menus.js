@@ -305,11 +305,14 @@
     ['Settings', 'settings', [['Settings', '#/settings'], ['Control scheme', '#/controls']]],
   ];
   let pauseEl = null;
+  let pauseKeys = null;
   let returnFocus = null;
   function closePause() {
     if (!pauseEl) return;
     pauseEl.remove();
     pauseEl = null;
+    if (pauseKeys) document.removeEventListener('keydown', pauseKeys, true);
+    pauseKeys = null;
     document.body.classList.remove('is-paused');
     returnFocus?.focus?.();
   }
@@ -324,11 +327,11 @@
     pauseEl.setAttribute('aria-modal', 'true');
     pauseEl.setAttribute('aria-label', 'Pause menu');
     pauseEl.innerHTML = `<div class="pause-side">
-        <span class="pause-logo" aria-hidden="true">VI</span>
+        <div class="pause-logo" aria-hidden="true"><div class="logo-coin"><img src="/images/gta6.png" alt=""><img src="/images/gta6.png" alt=""></div></div>
         <ul class="pause-list" role="menu" aria-label="Menu">${PAUSE.map(([label, ic], i) => `<li role="none"><button type="button" role="menuitem" data-i="${i}" aria-current="${i === sel}">${icon(ic)}<span>${esc(label)}</span></button></li>`).join('')}</ul>
       </div>
       <div class="pause-right"><h2 class="pause-where">${esc(where)}</h2><ul class="pause-sub" role="menu" aria-label="Pages"></ul></div>
-      <div class="pause-hints" aria-hidden="true"><span>Select <kbd>Enter</kbd></span><span>Back <kbd>Esc</kbd></span></div>`;
+      <div class="pause-hints"><button type="button" data-hint="select" tabindex="-1">Select <kbd>Enter</kbd></button><button type="button" data-hint="back" tabindex="-1">Back <kbd>Esc</kbd></button></div>`;
     const sub = pauseEl.querySelector('.pause-sub');
     const drawSub = () => {
       pauseEl.querySelectorAll('.pause-list [data-i]').forEach((b) => b.setAttribute('aria-current', String(Number(b.dataset.i) === sel)));
@@ -348,19 +351,58 @@
       const b = e.target.closest('.pause-list [data-i]');
       if (b && Number(b.dataset.i) !== sel) { sel = Number(b.dataset.i); drawSub(); }
     });
-    pauseEl.addEventListener('keydown', (e) => {
-      const inList = e.target.closest('.pause-list');
-      const inSub = e.target.closest('.pause-sub');
-      const move = (container, sel2, by) => { const items = [...container.querySelectorAll('[role="menuitem"]')]; const i = items.indexOf(e.target); items[(i + by + items.length) % items.length]?.focus(); };
-      if (e.key === 'Escape') { e.preventDefault(); e.stopPropagation(); if (inSub) pauseEl.querySelector(`.pause-list [data-i="${sel}"]`).focus(); else closePause(); return; }
-      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); move(inList ? pauseEl.querySelector('.pause-list') : sub, sel, e.key === 'ArrowDown' ? 1 : -1); return; }
-      if ((e.key === 'ArrowRight' || e.key === 'Enter') && inList) { e.preventDefault(); sub.querySelector('a')?.focus(); return; }
-      if (e.key === 'ArrowLeft' && inSub) { e.preventDefault(); pauseEl.querySelector(`.pause-list [data-i="${sel}"]`).focus(); return; }
-      if (e.key === 'Tab') { // keep focus inside the menu
-        const all = [...pauseEl.querySelectorAll('[role="menuitem"]')];
-        const i = all.indexOf(e.target);
-        if (e.shiftKey && i === 0) { e.preventDefault(); all[all.length - 1].focus(); } else if (!e.shiftKey && i === all.length - 1) { e.preventDefault(); all[0].focus(); }
+    // Keys are read on the whole document while the menu is open, so they work wherever focus is
+    // (after a click on the menu's background, its title or the hints, focus is no longer on an item).
+    const items = (box) => [...box.querySelectorAll('[role="menuitem"]')];
+    const listBox = pauseEl.querySelector('.pause-list');
+    const focusMain = () => pauseEl.querySelector(`.pause-list [data-i="${sel}"]`).focus();
+    pauseKeys = (e) => {
+      if (!pauseEl) return;
+      const inSub = e.target.closest?.('.pause-sub');
+      const inList = !inSub; // anything that is not the right-hand list counts as the main list
+      if (e.key === 'Escape' || e.key === 'Backspace') {
+        if (e.key === 'Backspace' && e.target.closest?.('input, textarea')) return;
+        e.preventDefault(); e.stopPropagation();
+        if (inSub) focusMain(); else closePause();
+        return;
       }
+      if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        const box = inSub ? sub : listBox;
+        const all = items(box);
+        const i = all.indexOf(e.target);
+        const from = i < 0 ? (inSub ? -1 : sel) : i;
+        all[(from + (e.key === 'ArrowDown' ? 1 : -1) + all.length) % all.length]?.focus();
+        return;
+      }
+      if ((e.key === 'ArrowRight' || e.key === 'Enter' || e.key === ' ') && inList) {
+        e.preventDefault(); e.stopPropagation();
+        sub.querySelector('a')?.focus();
+        return;
+      }
+      if ((e.key === 'Enter' || e.key === ' ') && inSub) {
+        e.preventDefault(); e.stopPropagation();
+        const a = e.target.closest('a') || sub.querySelector('a');
+        if (a) { closePause(); location.hash = a.getAttribute('href'); }
+        return;
+      }
+      if (e.key === 'ArrowLeft' && inSub) { e.preventDefault(); focusMain(); return; }
+      if (e.key === 'Tab') { // keep focus inside the menu
+        const all = items(pauseEl);
+        const i = all.indexOf(e.target);
+        if (i < 0) { e.preventDefault(); focusMain(); } else if (e.shiftKey && i === 0) { e.preventDefault(); all[all.length - 1].focus(); } else if (!e.shiftKey && i === all.length - 1) { e.preventDefault(); all[0].focus(); }
+      }
+    };
+    document.addEventListener('keydown', pauseKeys, true);
+    // Pointing at an item selects it, as a controller's cursor would.
+    pauseEl.addEventListener('mouseover', (e) => {
+      const b = e.target.closest('.pause-list [data-i], .pause-sub a');
+      if (b && document.activeElement !== b) b.focus({ preventScroll: true });
+    });
+    // The hints are buttons too.
+    pauseEl.querySelector('.pause-hints').addEventListener('click', (e) => {
+      const h = e.target.closest('[data-hint]');
+      if (h) pauseKeys(new KeyboardEvent('keydown', { key: h.dataset.hint === 'back' ? 'Escape' : 'Enter' }));
     });
   }
   window.PauseMenu = { open: openPause, close: closePause };

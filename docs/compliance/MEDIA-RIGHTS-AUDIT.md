@@ -1,17 +1,17 @@
 # Media rights audit
 
-Generated 2026-11-27 17:26 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-28 02:13 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 2710 |
-| Records in `data/media.json` | 2710 |
+| Media files on disk (`images/`, `wallpapers/`) | 2721 |
+| Records in `data/media.json` | 2721 |
 | Files with no record | 0 |
 | Records with no file | 0 |
 | Groups of identical files | 0 |
-| Files not used anywhere | 36 |
+| Files not used anywhere | 38 |
 | Records missing source, licence, creator or description | 0 |
 | Records with no retrieval date | 21 |
 
@@ -21,9 +21,9 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 
 | Decision | Files | Meaning |
 |---|---|---|
-| approved_for_distribution | 27 | Cleared to ship in a public package |
-| local_personal_use_only | 2660 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
-| unknown | 23 | Origin or rights not established |
+| approved_for_distribution | 34 | Cleared to ship in a public package |
+| local_personal_use_only | 2661 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
+| unknown | 26 | Origin or rights not established |
 | rejected | 0 | Must not be used |
 
 **No file is cleared for public distribution.** A public installer built today would have to leave out every picture and video.
@@ -34,9 +34,9 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 |---|---|
 | evidence_frame | 23 |
 | official_illustration | 142 |
-| owner_supplied_unverified | 125 |
+| owner_supplied_unverified | 135 |
 | third_party_screenshot | 2413 |
-| unrecorded_source | 7 |
+| unrecorded_source | 8 |
 
 `evidence_frame`: a frame of Rockstar's official video, used as evidence in the manual or as an entry picture. `official_illustration`: a Rockstar screenshot or artwork taken from one of Rockstar's own sites or accounts. `third_party_screenshot`: game imagery taken from another site (a wiki, a database or a news site), even when that site credits Rockstar; it is not counted as official. `owner_supplied_unverified`: supplied by the app owner, or cut from such a file; where it first came from is not recorded. `unrecorded_source`: no web address in the recorded source.
 
@@ -56,6 +56,8 @@ None.
 
 On disk and recorded, but no entry, manual page or interface file points at them.
 
+- `images/artwork/hotel-promenade-man.webp`
+- `images/artwork/seaplane-dock-man.webp`
 - `images/editions/classic-car-collection-05.jpg`
 - `images/editions/goodtime-gear-01.jpg`
 - `images/editions/grotti-cheetah-95-interior.jpg`

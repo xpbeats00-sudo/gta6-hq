@@ -220,6 +220,8 @@
     "slug": "griffin-shooting-range",
     "name": "Griffin Shooting Range",
     "summary": "A range in north-west Vice City with six courses, each offering three gold medals.",
+    "x": 0.58513,
+    "y": 0.47899,
     "body": [
       "PowerPyx names the courses as 3-Point, Hook, Loop, Maze, Compound and Villa, which adds up to 18 gold medals.",
       "PowerPyx says a 5 dollar waiver pass from the clerk opens the challenges, a missing weapon type can be rented for 10 dollars, and Lucia is the better pick here because she moves faster."

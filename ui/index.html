@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="/rockstar.css">
   <link rel="stylesheet" href="/mapside.css">
   <link rel="stylesheet" href="/research.css">
+  <link rel="stylesheet" href="/shell.css">
   <meta name="theme-color" content="#171426">
 </head>
 <body class="is-loading">
@@ -64,7 +65,7 @@
   <!-- AppHeader -->
   <header class="topbar">
     <a class="brand" href="#/" aria-label="GTA 6 HQ home">
-      <img src="/images/gta6.png" alt="">
+      <span class="brand-coin" aria-hidden="true"><img src="/images/gta6.png" alt=""><img src="/images/gta6.png" alt=""></span>
       <span>GTA 6 HQ</span>
     </a>
     <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">
@@ -148,10 +149,12 @@
   </aside>
 
   <!-- Footer -->
-  <footer class="footer">
-    <p class="footer-mark">GTA 6 HQ — Unofficial Fan Encyclopedia</p>
-    <p>A fan project, not affiliated with or endorsed by Rockstar Games or Take-Two Interactive.
-      Grand Theft Auto and its artwork are trademarks of their owners.</p>
+  <!-- The ultrawide logo banner: slanted panels of the GTA VI artwork drifting sideways (the list is
+       written twice, so the loop has no seam), the logo and the name over them -->
+  <footer class="footer footer-banner">
+    <div class="fb-strip" aria-hidden="true"><div class="fb-track"><i style="background-image:url('/images/artwork/vice-city-skyline-night.webp')"></i><i style="background-image:url('/images/artwork/jason-lucia-car-window.webp')"></i><i style="background-image:url('/images/artwork/cal-hampton-boat.webp')"></i><i style="background-image:url('/images/artwork/couple-on-muscle-car.webp')"></i><i style="background-image:url('/images/artwork/brian-heder-boat-yard.webp')"></i><i style="background-image:url('/images/artwork/real-dimez-ocean-view.webp')"></i><i style="background-image:url('/images/artwork/raul-bautista-duffel.webp')"></i><i style="background-image:url('/images/artwork/jason-motorbike-police.webp')"></i><i style="background-image:url('/images/artwork/boobie-ike-club.webp')"></i><i style="background-image:url('/images/artwork/hilltop-sunset.webp')"></i><i style="background-image:url('/images/artwork/vice-city-skyline-night.webp')"></i><i style="background-image:url('/images/artwork/jason-lucia-car-window.webp')"></i><i style="background-image:url('/images/artwork/cal-hampton-boat.webp')"></i><i style="background-image:url('/images/artwork/couple-on-muscle-car.webp')"></i><i style="background-image:url('/images/artwork/brian-heder-boat-yard.webp')"></i><i style="background-image:url('/images/artwork/real-dimez-ocean-view.webp')"></i><i style="background-image:url('/images/artwork/raul-bautista-duffel.webp')"></i><i style="background-image:url('/images/artwork/jason-motorbike-police.webp')"></i><i style="background-image:url('/images/artwork/boobie-ike-club.webp')"></i><i style="background-image:url('/images/artwork/hilltop-sunset.webp')"></i></div></div>
+    <div class="fb-mark"><img src="/images/splash/logo.webp" alt="Grand Theft Auto VI"><span class="fb-word">GTA 6 HQ</span></div>
+    <p class="sr-only">GTA 6 HQ is an unofficial fan project, not affiliated with or endorsed by Rockstar Games or Take-Two Interactive. Grand Theft Auto and its artwork are trademarks of their owners.</p>
   </footer>
 
   <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Media viewer" hidden>
@@ -166,6 +169,7 @@
   <script src="/map3d.js"></script>
   <script src="/icons.js"></script>
   <script src="/routes.js"></script>
+  <script src="/shell.js"></script>
   <script src="/app.js"></script>
   <script src="/appearance.js"></script>
   <script src="/explore.js"></script>

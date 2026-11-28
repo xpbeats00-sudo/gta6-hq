@@ -1,11 +1,17 @@
 # Distribution asset allowlist
 
-Generated 2026-11-27 17:26 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-28 02:13 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
 ## Approved for distribution
 
+- `images/gameplay/stash-dupe-1-rob-a-store.jpg`
+- `images/gameplay/stash-dupe-2-items-wheel.jpg`
+- `images/gameplay/stash-dupe-3-drop-and-look.jpg`
+- `images/gameplay/stash-dupe-4-two-bags.jpg`
+- `images/gameplay/stash-dupe-5-load-the-van.jpg`
+- `images/gameplay/stash-dupe-6-sell-to-yasmani.jpg`
 - `images/map-icons/ahol-street-art.svg`
 - `images/map-icons/armor.svg`
 - `images/map-icons/car-meet.svg`
@@ -33,8 +39,9 @@ Only files listed under "Approved" may go into a public release package.
 - `images/map-icons/unique-weapon.svg`
 - `images/map-icons/wyman-car.svg`
 - `images/map-icons/yellow-loot-box.svg`
+- `images/vehicles/showroom-gts.jpg`
 
-## Local personal use only (2660)
+## Local personal use only (2661)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -1132,6 +1139,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/map-icons/waink-sculpture.webp`
 - `images/map-icons/weapon-spawn.webp`
 - `images/map/leonida-official.jpg`
+- `images/map/leonida-roads.png`
 - `images/map/leonida-routes.png`
 - `images/map/walker-jason.png`
 - `images/map/walker-lucia.png`
@@ -2697,8 +2705,11 @@ Only files listed under "Approved" may go into a public release package.
 - `wallpapers/posters/gta-vi-vice-city-skyline-night.jpg`
 - `wallpapers/posters/gta6-intro-montage.jpg`
 
-## Unknown (23)
+## Unknown (26)
 
+- `images/artwork/couple-on-muscle-car.webp`
+- `images/artwork/hotel-promenade-man.webp`
+- `images/artwork/seaplane-dock-man.webp`
 - `images/community/server-icon.png`
 - `images/dawn-of-the-heist.jpg`
 - `images/gta6.png`

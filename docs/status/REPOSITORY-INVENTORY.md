@@ -1,19 +1,19 @@
 # Repository inventory
 
-Generated 2026-11-27 17:30 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-28 02:13 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 14 | 0.3 MB |
-| `ui/` | 31 | 2.7 MB |
-| `data/` | 114 | 9.9 MB |
-| `images/` | 2639 | 314.8 MB |
+| `ui/` | 33 | 2.8 MB |
+| `data/` | 115 | 9.9 MB |
+| `images/` | 2650 | 315.7 MB |
 | `wallpapers/` | 71 | 105.5 MB |
-| `docs/` | 298 | 110.9 MB |
+| `docs/` | 300 | 111.0 MB |
 | `scripts/` | 41 | 0.6 MB |
-| `cache/` | 537 | 90.9 MB |
+| `cache/` | 809 | 134.9 MB |
 | `backups/` | 1 | 0.0 MB |
-| `target/release/` | 1993 | 870.4 MB |
+| `target/release/` | 2001 | 882.7 MB |
 
 ## Source files
 
@@ -24,7 +24,7 @@ Generated 2026-11-27 17:30 by `scripts/current_state.py`. Do not edit by hand.
 | `src/discord.rs` | 232 |
 | `src/import.rs` | 1044 |
 | `src/main.rs` | 210 |
-| `src/media.rs` | 408 |
+| `src/media.rs` | 409 |
 | `src/search.rs` | 935 |
 | `src/server.rs` | 925 |
 | `src/settings.rs` | 170 |
@@ -33,7 +33,7 @@ Generated 2026-11-27 17:30 by `scripts/current_state.py`. Do not edit by hand.
 | `src/userdata.rs` | 236 |
 | `src/validate.rs` | 1740 |
 | `src/window.rs` | 320 |
-| `ui/app.js` | 4809 |
+| `ui/app.js` | 4936 |
 | `ui/appearance.js` | 51 |
 | `ui/art.js` | 86 |
 | `ui/explore.js` | 800 |
@@ -42,42 +42,44 @@ Generated 2026-11-27 17:30 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/journal.js` | 275 |
 | `ui/manual.js` | 681 |
 | `ui/map3d.js` | 296 |
-| `ui/menus.js` | 379 |
+| `ui/menus.js` | 421 |
 | `ui/more.js` | 249 |
 | `ui/research.js` | 664 |
-| `ui/routes.js` | 240 |
+| `ui/routes.js` | 247 |
+| `ui/shell.js` | 94 |
 | `ui/stream.js` | 132 |
-| `ui/design.css` | 1032 |
+| `ui/design.css` | 1044 |
 | `ui/manual.css` | 539 |
 | `ui/mapside.css` | 213 |
-| `ui/research.css` | 368 |
+| `ui/research.css` | 514 |
 | `ui/rockstar.css` | 224 |
+| `ui/shell.css` | 329 |
 | `ui/stream.css` | 70 |
 | `ui/styles.css` | 1435 |
 | `ui/themes.css` | 129 |
-| `ui/index.html` | 180 |
+| `ui/index.html` | 184 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 51191 |
-| `data/media.json` | 2680 |
+| `data/media.json` | 2691 |
 | `data/update.json` | 4 |
 | `data/wiki.json` | 2231 |
 | `data/wiki/achievements.json` | 2918 |
 | `data/wiki/activities.json` | 60 |
 | `data/wiki/activities.launch-detail.json` | 1027 |
-| `data/wiki/activities.launch-world.json` | 655 |
+| `data/wiki/activities.launch-world.json` | 657 |
 | `data/wiki/activities.night-ign.json` | 4496 |
 | `data/wiki/activities.night-r8.json` | 35 |
 | `data/wiki/activities.r17.json` | 30 |
 | `data/wiki/activities.reviews.json` | 39 |
 | `data/wiki/businesses.community.json` | 27 |
 | `data/wiki/businesses.json` | 157 |
-| `data/wiki/businesses.launch-places.json` | 7292 |
+| `data/wiki/businesses.launch-places.json` | 7346 |
 | `data/wiki/businesses.launch-world2.json` | 179 |
 | `data/wiki/businesses.night-r7.json` | 29 |
-| `data/wiki/businesses.night-r8.json` | 160 |
+| `data/wiki/businesses.night-r8.json` | 162 |
 | `data/wiki/businesses.night-r8map.json` | 48 |
 | `data/wiki/businesses.night-world.json` | 186 |
-| `data/wiki/businesses.r15-coverage.json` | 713 |
+| `data/wiki/businesses.r15-coverage.json` | 717 |
 | `data/wiki/categories.achievements.json` | 26 |
 | `data/wiki/characters.community.json` | 1 |
 | `data/wiki/characters.json` | 56 |
@@ -99,9 +101,10 @@ Generated 2026-11-27 17:30 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/factions.launch-cast.json` | 325 |
 | `data/wiki/factions.night-r8.json` | 35 |
 | `data/wiki/factions.night-r8map.json` | 25 |
+| `data/wiki/gameplay.community.json` | 68 |
 | `data/wiki/gameplay.launch-detail.json` | 742 |
 | `data/wiki/gameplay.launch-systems.json` | 1436 |
-| `data/wiki/gameplay.launch-world.json` | 335 |
+| `data/wiki/gameplay.launch-world.json` | 337 |
 | `data/wiki/gameplay.launch.json` | 339 |
 | `data/wiki/gameplay.night-ign.json` | 178 |
 | `data/wiki/gameplay.night-r10.json` | 59 |
@@ -113,12 +116,12 @@ Generated 2026-11-27 17:30 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/gameplay.r16.json` | 32 |
 | `data/wiki/gameplay.reviews.json` | 311 |
 | `data/wiki/locations.json` | 32 |
-| `data/wiki/locations.launch-places.json` | 3406 |
+| `data/wiki/locations.launch-places.json` | 3442 |
 | `data/wiki/locations.launch-world2.json` | 175 |
 | `data/wiki/locations.night-r8map.json` | 621 |
 | `data/wiki/locations.night-sites.json` | 40 |
 | `data/wiki/locations.night-world.json` | 42 |
-| `data/wiki/map.gtabase.json` | 48399 |
+| `data/wiki/map.gtabase.json` | 48408 |
 | `data/wiki/missions.json` | 245 |
 | `data/wiki/missions.launch-each.json` | 6459 |
 | `data/wiki/missions.launch-each2.json` | 87 |
@@ -171,7 +174,7 @@ Generated 2026-11-27 17:30 by `scripts/current_state.py`. Do not edit by hand.
 | `data/wiki/wildlife.night-sites.json` | 77 |
 | `data/wiki/wildlife.previews.json` | 26 |
 | `scripts/audit_media.py` | 228 |
-| `scripts/build_route_grid.py` | 68 |
+| `scripts/build_route_grid.py` | 146 |
 | `scripts/build_site.py` | 124 |
 | `scripts/ci_pages.mjs` | 169 |
 | `scripts/current_state.py` | 215 |

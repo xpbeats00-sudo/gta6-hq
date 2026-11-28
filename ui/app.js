@@ -656,9 +656,21 @@ function headCards(section) {
   </div>`;
 }
 
-const pageHead = (title, lede, section) => `<header class="page-head">
+// A title and one line. With `art` (a picture path) the head becomes a banner: the picture behind,
+// darkened toward the text. The picture collage is kept for Home.
+// Which picture each page's banner shows: GTA VI artwork from images/artwork/ (records in data/media.json).
+// Pages not listed (Search, Settings, the error pages) keep the plain head.
+const HEAD_ART = {
+  Characters: 'jason-lucia-car-window', Locations: 'vice-city-skyline-night', Intel: 'canal-police-raid', Media: 'car-meet-selfie', Saved: 'hilltop-sunset',
+  'Collectible Tracker': 'jason-lucia-gas-station', Progress: 'jason-motorbike-police', '100% Checklist': 'jason-lucia-bank-robbery',
+  'Discovery Journal': 'jason-lucia-convertible-night', 'Strangers and Freaks': 'dog-and-owner', Properties: 'real-dimez-ocean-view', More: 'rusty-anchor-bar',
+};
+const pageHead = (title, lede, section, art) => {
+  const pic = STORE ? '' : art || (title === 'Compare Vehicles' ? '/images/vehicles/showroom-gts.jpg' : HEAD_ART[title] ? `/images/artwork/${HEAD_ART[title]}.webp` : '');
+  return `<header class="page-head${pic ? ' page-head-art' : ''}"${pic ? ` style="--art:url('${esc(pic)}')"` : ''}>
   <div class="page-head-text"><h1>${esc(title)}</h1>${lede ? `<p>${esc(lede)}</p>` : ''}</div>
-</header>`; // a title and one line: the picture collage is kept for Home
+</header>`;
+};
 
 // The header panels are live: every few seconds the next picture slides down into one of them.
 setInterval(() => {
@@ -696,19 +708,35 @@ function railSection() {
   return ['characters', 'locations', 'vehicles'].includes(first) ? first : '';
 }
 
-/** Fill the two side columns with cut-edge picture cards that slide slowly down the margins. */
+/** The back layer's pictures: the GTA VI loading-screen artwork (images/artwork/, records in data/media.json). */
+const BACK_ART = ['jason-lucia-car-window', 'cal-hampton-boat', 'couple-on-muscle-car', 'brian-heder-boat-yard', 'seaplane-dock-man',
+  'real-dimez-ocean-view', 'raul-bautista-duffel', 'boobie-ike-club', 'hotel-promenade-man', 'jason-motorbike-police', 'drequan-priest-jack-of-hearts',
+  'jason-lucia-gas-station', 'hilltop-sunset', 'vice-city-skyline-night', 'jason-lucia-convertible-night', 'car-meet-selfie', 'canal-police-raid',
+  'jason-lucia-nightclub', 'ricardo-gas-station', 'rusty-anchor-bar'].map((n) => `/images/artwork/${n}.webp`);
+
+/** Fill the back layer's two columns with slanted loading-screen panels that slide slowly down behind the page. */
 function syncRails() {
-  const pool = headPool(railSection());
+  // The Store edition has no artwork folder; it keeps the section's own pictures.
+  const pool = STORE ? headPool(railSection()) : BACK_ART;
   const key = pool.join('|');
   document.querySelectorAll('.rail').forEach((rail, side) => {
     if (rail.dataset.key === key) return;
     rail.dataset.key = key;
     if (pool.length < 4) { rail.innerHTML = ''; return; }
-    // The right column starts half-way through the pool so the two sides never match.
-    const order = side ? [...pool.slice(Math.ceil(pool.length / 2)), ...pool.slice(0, Math.ceil(pool.length / 2))] : pool;
-    const cards = order.map((src) => `<div class="rail-card"><img src="${esc(src)}" alt="" loading="lazy"></div>`).join('');
-    // The list is written twice so the loop has no seam.
-    rail.innerHTML = `<div class="rail-track" style="--rail-time: ${order.length * 9}s">${cards}${cards}</div>`;
+    // Artwork rain: each picture is chopped into small slanted pieces that fall slowly down the margin,
+    // each at its own speed, size and place (worked out from its number, so it is the same every time).
+    const DROPS = 16;
+    const rnd = (n) => { const x = Math.sin((n + 1) * 12.9898 + side * 78.233) * 43758.5453; return x - Math.floor(x); };
+    rail.innerHTML = Array.from({ length: DROPS }, (_, i) => {
+      const src = pool[(i * 3 + side * 7) % pool.length];
+      const w = 46 + Math.round(rnd(i) * 44);          // 46 to 90 px wide
+      const h = Math.round(w * (1.25 + rnd(i + 40) * 0.5));
+      const left = Math.round(rnd(i + 80) * 86);       // % across the column
+      const time = 22 + Math.round(rnd(i + 120) * 22); // 22 to 44 s to fall
+      const delay = -Math.round(rnd(i + 160) * time);  // already part-way down when the page opens
+      const px = Math.round(15 + rnd(i + 200) * 70), py = Math.round(10 + rnd(i + 240) * 60);
+      return `<i class="rain-bit${i % 2 ? ' is-flip' : ''}" style="left:${left}%;width:${w}px;height:${h}px;--t:${time}s;--d:${delay}s;background-image:url('${esc(src)}');background-position:${px}% ${py}%"></i>`;
+    }).join('');
   });
 }
 window.addEventListener('hashchange', () => setTimeout(syncRails, 0));
@@ -1400,67 +1428,42 @@ const OFFICIAL_INTRO = '/wallpapers/gta6startup.mp4';
 /** Its length if the file cannot say (16 seconds, plus a moment on the last frame). */
 const OFFICIAL_MS = 16300;
 
-/** Which intro plays: the reader's choice, or none yet. The Store edition and stream mode keep their own. */
+/**
+ * The Entry screen: Rockstar's loading screens (GTA V's above all) loop official artwork while the
+ * game loads, each picture cut into slanted panels that drift apart, the logo in a corner and a
+ * spinner with a line of text. Ours does the same with the GTA VI artwork in images/artwork/.
+ */
+const ENTRY_ART = ['jason-lucia-car-window', 'cal-hampton-boat', 'couple-on-muscle-car', 'brian-heder-boat-yard', 'real-dimez-ocean-view',
+  'raul-bautista-duffel', 'boobie-ike-club', 'jason-motorbike-police', 'drequan-priest-jack-of-hearts', 'vice-city-skyline-night'];
+/** Each picture's turn on screen; three pictures make one opening. Keep in step with styles in research.css (.entry). */
+const ENTRY_SLIDE_MS = 3600;
+const ENTRY_MS = ENTRY_SLIDE_MS * 3 + 400;
+
+/** Which intro plays: the reader's choice. The Store edition and stream mode keep their own. The Entry
+    screen is the default, and is shown once to readers who chose another intro before it existed. */
 function introChoice() {
   if (STORE || document.documentElement.classList.contains('is-stream')) return 'classic';
+  if (prefs.get('intro-entry-shown') !== '1') { prefs.set('intro-entry-shown', '1'); prefs.set('intro', 'entry'); return 'entry'; }
   const saved = prefs.get('intro');
-  return saved === 'classic' || saved === 'official' ? saved : null;
+  return saved === 'classic' || saved === 'official' || saved === 'entry' ? saved : 'entry';
 }
 
-/**
- * First opening: both intros play side by side, small and whole, and the reader picks one. The
- * classic preview is a copy of the real splash stage, so it plays exactly as the full one does.
- * Resolves with 'classic' or 'official'; the choice is saved and can be changed in Settings.
- */
-function askWhichIntro(splash) {
-  return new Promise((resolve) => {
-    const pick = document.createElement('div');
-    pick.className = 'intro-pick';
-    pick.setAttribute('role', 'dialog');
-    pick.setAttribute('aria-modal', 'true');
-    pick.setAttribute('aria-labelledby', 'intro-pick-title');
-    pick.innerHTML = `<div class="intro-pick-box">
-      <h2 id="intro-pick-title">Choose your start-up</h2>
-      <p>It plays each time GTA 6 HQ opens. You can change it later in Settings.</p>
-      <div class="intro-pick-grid">
-        <button type="button" class="intro-opt" data-intro="classic">
-          <span class="intro-frame intro-frame-classic" aria-hidden="true"></span>
-          <b>Classic</b><small>The character clips, then the VI logo with its nine panels. About 11 seconds.</small>
-        </button>
-        <button type="button" class="intro-opt" data-intro="official">
-          <span class="intro-frame" aria-hidden="true"><video src="${OFFICIAL_INTRO}" muted loop playsinline preload="auto"></video></span>
-          <b>Official</b><small>The game's own start-up, with its music. About 16 seconds.</small>
-        </button>
-      </div>
-    </div>`;
-    // The classic preview: a fresh copy of the stage each lap, so its animations start over.
-    const frame = pick.querySelector('.intro-frame-classic');
-    const lap = () => {
-      frame.replaceChildren(...['.splash-cine', '.splash-stage'].map((sel) => {
-        const copy = splash.querySelector(`:scope > ${sel}`).cloneNode(true);
-        copy.removeAttribute('id');
-        return copy;
-      }));
-      frame.querySelectorAll('video').forEach((video) => {
-        video.addEventListener('error', () => video.parentElement.remove());
-        video.play().catch(() => {});
-      });
-    };
-    lap();
-    const laps = setInterval(lap, SPLASH_MS + 1400);
-    pick.querySelectorAll('.intro-frame video').forEach((video) => video.play().catch(() => {}));
-    pick.addEventListener('click', (e) => {
-      const opt = e.target.closest('[data-intro]');
-      if (!opt) return;
-      clearInterval(laps);
-      pick.querySelectorAll('video').forEach((video) => video.pause());
-      pick.remove();
-      prefs.set('intro', opt.dataset.intro);
-      resolve(opt.dataset.intro);
-    });
-    splash.append(pick);
-    pick.querySelector('.intro-opt').focus();
-  });
+/** Builds the Entry screen inside the splash: the artwork, cut into three drifting panels, one picture after another. */
+function buildEntryScreen(splash) {
+  const start = Math.floor(Math.random() * ENTRY_ART.length);
+  const picks = [0, 1, 2].map((k) => ENTRY_ART[(start + k * 3) % ENTRY_ART.length]);
+  const box = document.createElement('div');
+  box.className = 'entry';
+  box.setAttribute('aria-hidden', 'true');
+  box.innerHTML = `${picks.map((name, i) => `<div class="entry-slide${i % 2 ? ' is-flip' : ''}" style="--i:${i};--img:url('/images/artwork/${name}.webp')">
+      <div class="entry-cut entry-cut-1"></div><div class="entry-cut entry-cut-2"></div><div class="entry-cut entry-cut-3"></div></div>`).join('')}
+    <div class="entry-shade"></div>
+    <img class="entry-logo" src="/images/splash/logo.webp" alt="">`;
+  splash.prepend(box);
+  // The first picture is on screen at once; the next two follow on the slide clock.
+  const slides = [...box.querySelectorAll('.entry-slide')];
+  slides[0].classList.add('is-on');
+  slides.slice(1).forEach((slide, k) => setTimeout(() => { slides[k].classList.add('is-off'); slide.classList.add('is-on'); }, ENTRY_SLIDE_MS * (k + 1)));
 }
 
 async function runSplash(ready, prefsReady) {
@@ -1483,12 +1486,7 @@ async function runSplash(ready, prefsReady) {
   // The web version opened at a page (a map link from the Discord assistant, say) goes straight to
   // that page: no start-up choice and no intro in front of what the link was for.
   const direct = window.GTA6HQ_WEB === true && location.hash.replace(/^#\/?/, '') !== '';
-  let intro = direct ? 'none' : introChoice();
-  if (!intro) {
-    splash.classList.add('is-choosing');
-    intro = await askWhichIntro(splash);
-    splash.classList.remove('is-choosing');
-  }
+  const intro = direct ? 'none' : introChoice();
 
   const onKey = (e) => { if (e.key === 'Escape' || e.key === 'Enter') finish(true); };
   const finish = async (skipped) => {
@@ -1518,7 +1516,11 @@ async function runSplash(ready, prefsReady) {
   };
   if (direct) { finish(true); return; }
 
-  if (intro === 'official') {
+  if (intro === 'entry') {
+    splash.classList.add('is-entry');
+    buildEntryScreen(splash);
+    length = ENTRY_MS;
+  } else if (intro === 'official') {
     // The whole picture, never cropped: letterboxed on a window that is not 16:9.
     splash.classList.add('is-official');
     const box = document.createElement('div');
@@ -1877,32 +1879,16 @@ function renderEncyclopedia() {
   ];
   const letters = [...new Set(all.slice().sort(nameOrder).map(({ entry }) => letterOf(entry)))];
 
-  view.innerHTML = `
-    ${pageHead('Encyclopedia', `${all.length} entries in ${categories.length} categories. Every entry carries a confidence label and its sources.`)}
-    ${hubGroups(categories).map(({ title, list: cats }) => `<section class="block hub-group">
-      <h2 class="hub-title">${esc(title)}</h2>
-      <div class="index">
-        ${cats.map((c) => {
-          const count = (state.wiki[c.key] || []).length;
-          const href = ['characters', 'locations', 'vehicles'].includes(c.key) ? `#/${c.key}` : `#/wiki/${c.key}`;
-          // The cover is the first entry in the category that has a picture and is not hidden.
-          // The cover is the category's own picture if it names one, else its first entry with a picture.
-          const cover = c.key === 'characters' && !STORE ? { image: '/images/manual/jason-and-lucia-waterfront.jpg' }
-            : c.image && !STORE ? { image: c.image }
-            : (state.wiki[c.key] || []).find((e) => e.image && !isHidden(c.key, e));
-          return `<a class="topic${count ? '' : ' is-bare'}" href="${href}">
-            <div class="topic-media">${cover ? `<img src="${esc(cover.image)}" alt="" loading="lazy">` : postcard(c.key, c.art || 'city')}</div>
-            <h3>${esc(c.label)}</h3><p>${esc(c.blurb)}</p>
-            <span class="kicker${count ? '' : ' is-empty'}">${count ? `${count} ${count === 1 ? 'entry' : 'entries'}` : 'Not yet documented'}</span></a>`;
-        }).join('')}
-      </div>
-    </section>`).join('')}
+  view.innerHTML = wikiShell({ crumbs: ['Encyclopedia'], body: `
+    <p class="gm-summary">${all.length} entries in ${categories.length} categories. Every entry carries a confidence label and its sources.</p>
+    <div class="gm-pane" data-cats></div>
     <section class="block" id="az">
       <div class="block-head"><h2>A–Z</h2></div>
       <nav class="letters" aria-label="Jump to letter">${letters.map((l) => `<a href="#/wiki" data-letter="${esc(l)}">${esc(l)}</a>`).join('')}</nav>
       ${listShell('all entries')}
     </section>
-    <section class="block"><div class="block-head"><h2>Data health</h2></div><div id="health" class="panel muted">Checking the data…</div></section>`;
+    <section class="block"><div class="block-head"><h2>Data health</h2></div><div id="health" class="panel muted">Checking the data…</div></section>` });
+  wikiCategoryMenu(view.querySelector('.gm'));
 
   const lettersNav = view.querySelector('.letters');
   const list = mountList(view.querySelector('#az [data-list]'), {
@@ -2036,10 +2022,114 @@ function storyNav(entry) {
     <span class="story-at muted">Story mission ${i + 1} of ${line.length}</span>${link(line[i + 1], 'Next mission')}</nav>`;
 }
 
+// ---------- Encyclopedia screens, drawn like the game's purple Progress menus ----------
+// research.js's menu frame, kept to the page width (gm-wiki) so the side picture columns stay beside it.
+const wikiShell = (opts) => ResearchTools.shell({ theme: 'progress gm-wiki', ...opts });
+/** The breadcrumb title with each parent a link: [['Encyclopedia', '#/wiki'], ['Missions']]. */
+const wikiCrumbs = (root, parts) => {
+  const h = root.querySelector('.gm-crumbs');
+  if (h) h.innerHTML = parts.map(([label, href], i) => (i < parts.length - 1 ? `<span><a href="${esc(href)}">${esc(label)}</a> / </span>` : esc(label))).join('');
+};
+const categoryHref = (key) => (key === 'vehicles' ? '#/vehicles' : `#/wiki/${key}`);
+/** Enter (or a double click) on a menu list opens what its selected row points at. */
+function wireOpen(pane, hrefOf) {
+  const list = pane.querySelector('.gm-list');
+  const go = () => { const li = list.querySelector('[aria-selected="true"]'); const href = li && hrefOf(Number(li.dataset.i)); if (href) location.hash = href; };
+  list.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); go(); } });
+  list.addEventListener('dblclick', go);
+}
+const selectedParam = () => new URLSearchParams(location.hash.split('?')[1] || '').get('e');
+
+/** The Encyclopedia home: the categories as a menu list, each one's cover and blurb beside it. */
+function wikiCategoryMenu(root) {
+  const cats = hubGroups(state.wiki.categories).flatMap((g) => g.list.map((c) => ({ ...c, group: g.title })));
+  const pane = root.querySelector('[data-cats]');
+  const cover = (c) => (c.key === 'characters' && !STORE ? '/images/manual/jason-and-lucia-waterfront.jpg'
+    : c.image && !STORE ? c.image : (state.wiki[c.key] || []).find((e) => e.image && !isHidden(c.key, e))?.image);
+  const start = Math.max(0, cats.findIndex((c) => c.key === selectedParam()));
+  ResearchTools.listDetail(pane, cats.map((c) => ({ html: `${esc(c.label)}<small class="gm-row-n">${(state.wiki[c.key] || []).length}</small>` })), (i) => {
+    const c = cats[i];
+    const list = (state.wiki[c.key] || []).filter((e) => !isHidden(c.key, e));
+    const count = (state.wiki[c.key] || []).length;
+    const img = cover(c);
+    const some = list.filter((e) => e.image).slice(0, 6);
+    return `<div class="gm-wiki-pic">${img ? `<img src="${esc(img)}" alt="" loading="lazy">` : postcard(c.key, c.art || 'city')}</div>
+      <h2 class="gm-title">${esc(c.label)}</h2>
+      <p class="gm-tags"><span>${esc(c.group)}</span><span>${count ? `${count} ${count === 1 ? 'entry' : 'entries'}` : 'Not yet documented'}</span></p>
+      <p>${esc(c.blurb)}</p>
+      ${some.length ? `<div class="gm-wiki-some">${some.map((e) => `<a href="${entryLink(c.key, e.slug)}" title="${esc(e.name)}"><img src="${esc(e.image)}" alt="" loading="lazy"><span>${esc(e.name)}</span></a>`).join('')}</div>` : ''}
+      <p class="gm-wiki-actions"><a class="gm-open" href="${categoryHref(c.key)}">Open ${esc(c.label)} <kbd class="gm-key">Enter</kbd></a></p>`;
+  }, start, (i) => { const k = cats[i]?.key; if (k) history.replaceState(null, '', `#/wiki?e=${k}`); });
+  wireOpen(pane, (i) => categoryHref(cats[i].key));
+}
+
+/** A category as a menu: its entries listed on the left, the chosen one's picture and summary on the right. */
 function renderCategory(key) {
   const cat = category(key);
   if (!cat) return renderNotFound();
-  const entries = state.wiki[key] || [];
+  const entries = (state.wiki[key] || []).slice().sort(key === 'missions' ? storyCompare : byName);
+  if (!entries.length) return renderCategoryEmpty(cat);
+  // Tabs: All, then the category's commonest types (the game's menus file things the same way).
+  const counts = new Map();
+  entries.forEach((e) => { const k = typeKey(kickerOf(e)); if (k) counts.set(k, (counts.get(k) || 0) + 1); });
+  const types = [...counts.entries()].filter(([, n]) => n > 1 && n < entries.length).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k]) => k);
+  const tabs = ['All', ...types.map(typeTitle)];
+  view.innerHTML = wikiShell({
+    crumbs: ['Encyclopedia', cat.label], tabs,
+    body: `<div class="gm-wiki-bar"><p class="gm-summary">${esc(cat.blurb)}</p>
+      <div class="gm-wiki-filter">${icon('search')}<input type="search" placeholder="Filter ${esc(cat.label.toLowerCase())}" aria-label="Filter ${esc(cat.label.toLowerCase())}" autocomplete="off"></div></div>
+      <div class="gm-pane"></div>`,
+  });
+  const root = view.querySelector('.gm');
+  wikiCrumbs(root, [['Encyclopedia', '#/wiki'], [cat.label]]);
+  const pane = root.querySelector('.gm-pane');
+  const input = root.querySelector('.gm-wiki-filter input');
+  let tab = 0;
+  let shown = entries;
+  const rows = () => shown.map((e) => ({ html: isHidden(key, e) ? 'Spoiler: open it to read' : esc(e.name), locked: isHidden(key, e) }));
+  const detail = (i) => {
+    const e = shown[i];
+    const first = (e.body || [])[0];
+    const inner = `<div class="gm-wiki-pic">${picture(e, artKind(key, e), key)}</div>
+      <h2 class="gm-title">${esc(e.name)}</h2>
+      <p class="gm-tags">${kickerOf(e) ? `<span>${esc(kickerOf(e))}</span>` : ''}${badge(e.confidence)}</p>
+      <p>${esc(e.summary || '')}</p>
+      ${first ? `<p class="gm-wiki-more">${esc(String(first).replace(/\|\|/g, ''))}</p>` : ''}
+      <p class="gm-wiki-actions"><a class="gm-open" href="${entryLink(key, e.slug)}">Open entry <kbd class="gm-key">Enter</kbd></a>${mapLink(key, e).replace('class="btn"', 'class="gm-open gm-open-alt"').replace(/^<p>|<\/p>$/g, '')}</p>`;
+    return isHidden(key, e) ? veil(key, e, inner) : inner;
+  };
+  const want = selectedParam();
+  const ld = ResearchTools.listDetail(pane, rows(), detail, Math.max(0, entries.findIndex((e) => e.slug === want)),
+    (i) => { const s = shown[i]?.slug; if (s) history.replaceState(null, '', `#/wiki/${key}?e=${encodeURIComponent(s)}`); });
+  const apply = () => {
+    const q = input.value.trim().toLowerCase();
+    shown = entries.filter((e) => (!tab || typeKey(kickerOf(e)) === types[tab - 1]) && (!q || filterText(key, e).includes(q)));
+    ld.redraw(rows());
+  };
+  input.addEventListener('input', apply);
+  ResearchTools.wireTabs(root, tabs.length, (t) => { tab = t; apply(); });
+  wireOpen(pane, (i) => entryLink(key, shown[i].slug));
+}
+
+/** Wraps an entry page that is already drawn in the Encyclopedia's menu frame, keeping its listeners. */
+function frameEntryPage(section) {
+  const cat = category(section);
+  if (!cat || view.querySelector('.gm') || !view.querySelector('.profile, .place')) return;
+  const holder = document.createElement('div');
+  holder.innerHTML = wikiShell({ crumbs: ['Encyclopedia', cat.label], body: '' });
+  const frame = holder.firstElementChild;
+  frame.classList.add('gm-entry');
+  wikiCrumbs(frame, [['Encyclopedia', '#/wiki'], [cat.label, categoryHref(section)]]);
+  const crumbs = frame.querySelector('.gm-crumbs');
+  crumbs.innerHTML = `<span><a href="#/wiki">Encyclopedia</a> / </span><a href="${categoryHref(section)}">${esc(cat.label)}</a>`;
+  const body = frame.querySelector('.gm-body');
+  while (view.firstChild) body.appendChild(view.firstChild);
+  view.appendChild(frame);
+}
+
+function renderCategoryEmpty(cat) {
+  const key = cat.key;
+  const entries = [];
   view.innerHTML = `
     ${pageHead(cat.label, cat.blurb, key)}
     <section class="block">
@@ -2313,7 +2403,7 @@ function renderLocation(slug) {
 function renderVehicles() {
   const cat = category('vehicles');
   view.innerHTML = `
-    ${pageHead('Vehicles', cat?.blurb, 'vehicles')}
+    ${pageHead('Vehicles', cat?.blurb, 'vehicles', STORE ? '' : cat?.image)}
     <section class="block">${listShell('vehicles')}</section>`;
   mountEntryList(view.querySelector('[data-list]'), 'vehicles', state.wiki.vehicles, kickerOf, 'grid-feature by-three');
 }
@@ -4326,8 +4416,10 @@ function route() {
 
   document.body.dataset.page = name;
   const navName = name === 'wiki' && a === 'vehicles' ? 'vehicles' : name === 'wiki' && a === 'collectibles' ? 'tracker' : name;
-  document.querySelectorAll('#nav a').forEach((link) => {
-    const active = link.dataset.route === navName;
+  // A category with its own place in the sidebar (Businesses, Activities) lights that, not Encyclopedia.
+  const own = name === 'wiki' && a && document.querySelector(`#sidebar a[data-route="wiki/${CSS.escape(a)}"]`) ? `wiki/${a}` : null;
+  document.querySelectorAll('#nav a, #sidebar a').forEach((link) => {
+    const active = link.dataset.route === (link.closest('#sidebar') && own ? own : navName);
     link.classList.toggle('is-active', active);
     if (active) link.setAttribute('aria-current', 'page'); else link.removeAttribute('aria-current');
   });
@@ -4346,8 +4438,12 @@ function route() {
     manual: () => Manual.render(view, a, b, params, state.wiki),
   };
   (pages[name] || (EXTRA_PAGES[name] && (() => EXTRA_PAGES[name](a, b, params))) || renderNotFound)();
-  // The game-style menu screens (research.js .gm) use the whole width, so the side picture columns stand down.
-  document.body.classList.toggle('is-full-menu', Boolean(view.querySelector('.gm')));
+  // Entry pages sit in the Encyclopedia's menu frame too.
+  if (name === 'wiki' && b) frameEntryPage(a);
+  else if ((name === 'characters' || name === 'locations') && a) frameEntryPage(name);
+  // The game-style menu screens (research.js .gm) use the whole width, so the side picture columns stand down;
+  // the Encyclopedia's own (gm-wiki) keep to the page width and leave them.
+  document.body.classList.toggle('is-full-menu', Boolean(view.querySelector('.gm:not(.gm-wiki)')));
   AFTER_RENDER.forEach((fn) => fn(name, a, b, params));
   nameWindow(name);
 
@@ -4374,12 +4470,21 @@ function enterView() {
   view.classList.remove('is-entering');
 }
 
+/** The top bar's GTA VI logo turns once, like the loading screen's coin, while a page loads. */
+let logoTimer = 0;
+function spinLogo(ms = 1100) {
+  document.body.classList.add('is-loading-page');
+  clearTimeout(logoTimer);
+  logoTimer = setTimeout(() => document.body.classList.remove('is-loading-page'), ms);
+}
+
 /** Change page with a fade: the old page fades out, the new one is drawn, then fades in. */
 function navigate() {
   const next = location.hash.replace(/^#\/?/, '').split('?')[0].split('/')[0] || 'home';
   // Typing in Search and moving around the Map redraw the same page; fading those would flicker.
   if (next === shownSection && (next === 'search' || next === 'map')) { route(); return; }
   const mine = ++navigation;
+  spinLogo();
   view.classList.add('is-leaving');
   setTimeout(() => {
     // A newer click has taken over: let that one draw the page.

@@ -1128,7 +1128,8 @@
   "x": 0.29531,
   "y": 0.5432,
   "via": "gtabase",
-  "summary": "Ammu-Nation distributor that stocks guns, mods, ammo, and equipment.; Inventory: Expanded"
+  "summary": "Ammu-Nation distributor that stocks guns, mods, ammo, and equipment.; Inventory: Expanded",
+  "entry": "businesses/woodhatch"
  },
  {
   "name": "Jackson Firearms",
@@ -1164,7 +1165,8 @@
   "x": 0.56912,
   "y": 0.47286,
   "via": "gtabase",
-  "summary": "Ammu-Nation distributor that stocks guns, mods, ammo, and equipment.; Inventory: Expanded"
+  "summary": "Ammu-Nation distributor that stocks guns, mods, ammo, and equipment.; Inventory: Expanded",
+  "entry": "businesses/black-eagle"
  },
  {
   "name": "Zenon’s Pawn Shop",
@@ -3392,7 +3394,8 @@
   "x": 0.6645,
   "y": 0.22988,
   "via": "gtabase",
-  "summary": "A bar in Millport."
+  "summary": "A bar in Millport.",
+  "entry": "businesses/jacobs-tavern"
  },
  {
   "name": "Riverbank Waterside Bar",
@@ -12796,7 +12799,8 @@
   "y": 0.64952,
   "via": "gtabase",
   "summary": "Climb the mast all the way up to find a nest with an egg. Nothing to keep: you can only throw it.",
-  "spoiler": true
+  "spoiler": true,
+  "entry": "collectibles/egg-in-the-tower-nest"
  },
  {
   "name": "QR Code (Stop! Don't Flush)",
@@ -14917,7 +14921,8 @@
   "x": 0.69298,
   "y": 0.48267,
   "via": "gtabase",
-  "summary": "A pawn shop in Crosstown, Vice City."
+  "summary": "A pawn shop in Crosstown, Vice City.",
+  "entry": "businesses/vice-city-pawn"
  },
  {
   "name": "La Perle Pawn Shop",
@@ -15473,7 +15478,8 @@
   "x": 0.84836,
   "y": 0.52985,
   "via": "gtabase",
-  "summary": "Popular fast-food chain serving no-frills burgers and fries. This location offers dine-in only.; Security: Low; Take value: $1,000 - $3,000"
+  "summary": "Popular fast-food chain serving no-frills burgers and fries. This location offers dine-in only.; Security: Low; Take value: $1,000 - $3,000",
+  "entry": "businesses/burger-shot"
  },
  {
   "name": "Taco Bomb - Belville",
@@ -17598,7 +17604,8 @@
   "x": 0.69553,
   "y": 0.48478,
   "via": "gtabase",
-  "summary": "Laundry van by the plaza entrance on the south side. The lab is apartment 103: the white door on the second floor with purple cans in front."
+  "summary": "Laundry van by the plaza entrance on the south side. The lab is apartment 103: the white door on the second floor with purple cans in front.",
+  "entry": "businesses/kitty-litter-lab-crosstown"
  },
  {
   "name": "Kitty Litter Lab: Rockridge Condo",
@@ -17607,7 +17614,8 @@
   "x": 0.64501,
   "y": 0.4997,
   "via": "gtabase",
-  "summary": "Laundry van by the open gate. Take the stairs on the right of the parking lot: apartment 5, the middle grey door upstairs."
+  "summary": "Laundry van by the open gate. Take the stairs on the right of the parking lot: apartment 5, the middle grey door upstairs.",
+  "entry": "businesses/kitty-litter-lab-rockridge"
  },
  {
   "name": "Kitty Litter Lab: Balsero Trailer",
@@ -21147,7 +21155,8 @@
   "kind": "Mini Golf",
   "x": 0.71854,
   "y": 0.36049,
-  "via": "gtabase"
+  "via": "gtabase",
+  "entry": "businesses/frontier-adventure-golf"
  },
  {
   "name": "King Gator Adventure Golf",
