@@ -98,6 +98,8 @@
         { "key": "asphalt_handling", "label": "Asphalt handling (in-game bar, of 10)", "type": "number" },
         { "key": "offroad_handling", "label": "Off-road handling (in-game bar, of 10)", "type": "number" },
         { "key": "strength", "label": "Strength (in-game bar, of 10)", "type": "number" },
+        { "key": "top_speed", "label": "Top speed", "type": "text" },
+        { "key": "zero_to_sixty", "label": "0-60 mph", "type": "text" },
         { "key": "rating", "label": "Rating", "type": "number" },
         { "key": "price", "label": "Price", "type": "text" },
         { "key": "sell_value", "label": "Sells for", "type": "text" },

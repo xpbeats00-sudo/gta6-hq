@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-27 16:00 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-27 16:30 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -34,7 +34,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/map-icons/wyman-car.svg`
 - `images/map-icons/yellow-loot-box.svg`
 
-## Local personal use only (2646)
+## Local personal use only (2660)
 
 - `images/achievements/a-classic-blitz-play.png`
 - `images/achievements/a-long-road.png`
@@ -1139,6 +1139,10 @@ Only files listed under "Approved" may go into a public release package.
 - `images/missions/afternoon-delight.jpg`
 - `images/missions/amateur-hour.jpg`
 - `images/missions/ambulance-chaser.jpg`
+- `images/missions/andy-pay-the-cellerica-fee.jpg`
+- `images/missions/andy-peach.jpg`
+- `images/missions/andy-puff-puff-pass.jpg`
+- `images/missions/andy-read-the-label.jpg`
 - `images/missions/another-life.jpg`
 - `images/missions/bad-driver.jpg`
 - `images/missions/behind-on-payments.jpg`
@@ -1151,6 +1155,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/missions/blood-sweat-and-gear.jpg`
 - `images/missions/boobie-time.jpg`
 - `images/missions/breakfast-run.jpg`
+- `images/missions/bret-vogel-brets-hunting-decks.jpg`
 - `images/missions/bret-vogel-veteran-hunted.jpg`
 - `images/missions/bricked-up.jpg`
 - `images/missions/buck-me.jpg`
@@ -1216,9 +1221,11 @@ Only files listed under "Approved" may go into a public release package.
 - `images/missions/home-sweet-home.jpg`
 - `images/missions/honest-abe.jpg`
 - `images/missions/how-do-i-look.jpg`
+- `images/missions/impounded-vehicle.jpg`
 - `images/missions/island-dreams.jpg`
 - `images/missions/just-a-scratch.jpg`
 - `images/missions/just-moved-in.jpg`
+- `images/missions/kenton-maritime-disputes.jpg`
 - `images/missions/kirk-help-kirk-find-mr-mangrove.jpg`
 - `images/missions/kirk-search-for-the-skunk-ape.jpg`
 - `images/missions/kirk-search-for-tree-effigies.jpg`
@@ -1229,6 +1236,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/missions/mami-knows-best.jpg`
 - `images/missions/meditate-with-lucia.jpg`
 - `images/missions/meet-the-heders.jpg`
+- `images/missions/missing-persons.jpg`
 - `images/missions/moses-steal-vehicles-for-moses.jpg`
 - `images/missions/moses.jpg`
 - `images/missions/new-look.jpg`
@@ -1240,6 +1248,9 @@ Only files listed under "Approved" may go into a public release package.
 - `images/missions/photo-shoot.jpg`
 - `images/missions/pick-up-a-gun.jpg`
 - `images/missions/pick-up-groceries.jpg`
+- `images/missions/pilot-pete-deliver-packages.jpg`
+- `images/missions/pilot-pete-petes-deliveries-avery-allen-and-co.jpg`
+- `images/missions/pilot-pete-petes-deliveries-southpoint-airfield.jpg`
 - `images/missions/pilot-pete-the-last-mile-backseat-pilot.jpg`
 - `images/missions/pilot-pete-the-last-mile-passing-the-torch.jpg`
 - `images/missions/pipework.jpg`
@@ -1269,11 +1280,13 @@ Only files listed under "Approved" may go into a public release package.
 - `images/missions/team-building.jpg`
 - `images/missions/thats-where-the-money-is.jpg`
 - `images/missions/the-cartel-heist.jpg`
+- `images/missions/the-final-flush.jpg`
 - `images/missions/the-missing-link.jpg`
 - `images/missions/tie-up-loose-ends.jpg`
 - `images/missions/too-much-baggage.jpg`
 - `images/missions/top-billing.jpg`
 - `images/missions/tourist-trap.jpg`
+- `images/missions/tyrone-spin-on-this.jpg`
 - `images/missions/tyrone-take-out-kitty-litter.jpg`
 - `images/missions/tyrone.jpg`
 - `images/missions/unfinished-business.jpg`
@@ -1286,6 +1299,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/missions/yago-bumper-to-bumper.jpg`
 - `images/missions/yago-join-a-street-race.jpg`
 - `images/missions/yago-race-against-yago.jpg`
+- `images/missions/yasmani-tail-the-security-van.jpg`
 - `images/missions/yasmani-yasmanis-atm-jobs.jpg`
 - `images/missions/yasmani-yasmanis-payday-loans-jobs.jpg`
 - `images/missions/yasmanis-jewelry-jobs.jpg`

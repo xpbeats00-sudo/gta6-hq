@@ -19,5 +19,12 @@
     "url": "https://metaforge.app/gta-6/database/collections/vice-city-manatees",
     "type": "secondary",
     "accessed": "2026-11-27"
+  },
+  "metaforge-vehicles": {
+    "title": "GTA 6 Vehicles | MetaForge",
+    "publisher": "MetaForge",
+    "url": "https://metaforge.app/gta-6/database/vehicles",
+    "type": "secondary",
+    "accessed": "2026-11-27"
   }
 }

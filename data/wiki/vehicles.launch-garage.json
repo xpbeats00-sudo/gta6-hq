@@ -170,7 +170,8 @@
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Tuff BMX; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
       "Those lists give the unlock condition as: complete 5 fitness challenges.",
       "GTABase's GTA VI database files it under the Cycles class with Tuff as the maker.",
-      "DayOne's list from the released game names it and files it under Bikes."
+      "DayOne's list from the released game names it and files it under Bikes.",
+      "In-game stat bars (out of 10): Speed 6.9, Acceleration 7.9, Road handling 7.9, Off-road handling None, Strength 4, from MetaForge's GTA 6 database (Tuff BMX)."
     ],
     "tags": [
       "bicycle",
@@ -189,7 +190,11 @@
       "style": "Bike",
       "era": "2010s Modern",
       "specialist": "None",
-      "based_on": "BMX bike"
+      "based_on": "BMX bike",
+      "speed": 6.9,
+      "acceleration": 7.9,
+      "asphalt_handling": 7.9,
+      "strength": 4
     },
     "confidence": "corroborated",
     "sources": [
@@ -201,7 +206,8 @@
       "pressstart-cheats",
       "screenrant-cheats",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-bikes-motorcycles"
+      "ppx-menu-bikes-motorcycles",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -435,7 +441,8 @@
     "summary": "The Inflatable Flamingo is one of the 21 spawnable cheat vehicles; none of the cheat lists read say what kind of vehicle it is.",
     "body": [
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Inflatable Flamingo; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
-      "Those lists give the unlock condition as: destroy 50 cocaine flamingos."
+      "Those lists give the unlock condition as: destroy 50 cocaine flamingos.",
+      "In-game stat bars (out of 10): Speed 4.3, Acceleration 5, Road handling 3.5, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Inflatable Flamingo)."
     ],
     "tags": [
       "cheat",
@@ -445,14 +452,19 @@
     ],
     "facts": {
       "model": "Inflatable Flamingo",
-      "availability": "Spawn cheat after the story; unlock: destroy 50 cocaine flamingos"
+      "availability": "Spawn cheat after the story; unlock: destroy 50 cocaine flamingos",
+      "speed": 4.3,
+      "acceleration": 5,
+      "asphalt_handling": 3.5,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "powerpyx-cheats",
       "pressstart-cheats",
       "gamerant-cheats",
-      "screenrant-cheats"
+      "screenrant-cheats",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true
@@ -557,7 +569,8 @@
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Hauners P-996 Lazer; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
       "Those lists give the unlock condition as: complete all challenges.",
       "GTABase's cheat page describes the P-996 Lazer as a fighter jet.",
-      "PowerPyx separately reports unnamed military fighter jets parked at Mile Zero Air Station in Mariana County, which bring a 4-star wanted level when taken; it does not name the model."
+      "PowerPyx separately reports unnamed military fighter jets parked at Mile Zero Air Station in Mariana County, which bring a 4-star wanted level when taken; it does not name the model.",
+      "In-game stat bars (out of 10): Speed 417.5, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Hauners P-996 LAZER)."
     ],
     "tags": [
       "996",
@@ -576,7 +589,10 @@
       "availability": "Spawn cheat after the story; unlock: complete all challenges",
       "menu_picture": "/images/vehicles/menu/hauners-p-996-lazer.jpg",
       "menu_text": "Supersonic fighter jet. Heavily armed, and capable of extreme speeds.",
-      "based_on": "F-16 Fighting Falcon"
+      "based_on": "F-16 Fighting Falcon",
+      "speed": 417.5,
+      "top_speed": "417.5 km/h (259 mph)",
+      "zero_to_sixty": "1.8 s"
     },
     "confidence": "corroborated",
     "sources": [
@@ -587,7 +603,8 @@
       "pressstart-cheats",
       "screenrant-cheats",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-military-vehicles"
+      "ppx-menu-military-vehicles",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -646,7 +663,8 @@
       "Those lists give the unlock condition as: complete 5 vehicle challenges.",
       "GTABase's GTA VI database files it under the Planes class with Lapwing as the maker.",
       "DayOne's list from the released game names it and files it under Aircraft.",
-      "GameSpot says Kyle's Mallard, a two-seat plane at Kyle McKittrick's farm in East Kelly County, can be taken freely at the end of Kyle's side questline and stays marked on the map wherever it is left."
+      "GameSpot says Kyle's Mallard, a two-seat plane at Kyle McKittrick's farm in East Kelly County, can be taken freely at the end of Kyle's side questline and stays marked on the map wherever it is left.",
+      "In-game stat bars (out of 10): Speed 231.6, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Lapwing Mallard)."
     ],
     "tags": [
       "aircraft",
@@ -665,7 +683,9 @@
       "menu_text": "Small, single-propellor plane. Its responsive handling and sleek frame make it ideal for stunt flights.",
       "style": "Plane",
       "era": "1990s Classic",
-      "based_on": "Extra EA-300"
+      "based_on": "Extra EA-300",
+      "speed": 231.6,
+      "top_speed": "231.6 km/h (144 mph)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -678,7 +698,8 @@
       "pressstart-cheats",
       "screenrant-cheats",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-aircraft"
+      "ppx-menu-aircraft",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "image": "/images/vehicles/menu/lapwing-mallard.jpg"
@@ -689,7 +710,8 @@
     "summary": "The Brimstone Golfer is one of the 21 vehicles that can be spawned with a cheat in the released game.",
     "body": [
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Brimstone Golfer; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
-      "Those lists give the unlock condition as: complete all sports challenges."
+      "Those lists give the unlock condition as: complete all sports challenges.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Brimstone Golfer)."
     ],
     "tags": [
       "brimstone",
@@ -704,7 +726,11 @@
       "where": "GTABase: Heavily customized '32 Vapid Golfer resembling a miniature hot rod. Discovered in a garage in Leaf Links.; Standout (GTABase map): Vice Beach -  #158 Vapid Brimstone Golfer Vice Beach Set: Hot Rods. Heavily customized '32 Vapid Golfer resembling a miniature hot rod. Discovered in a garage in Leaf Links.",
       "menu_picture": "/images/vehicles/brimstone-golfer.jpg",
       "standout_set": "Hot Rods",
-      "class": "Utility"
+      "class": "Utility",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
@@ -714,7 +740,8 @@
       "powerpyx-cheats",
       "pressstart-cheats",
       "screenrant-cheats",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -887,7 +914,8 @@
       "PowerPyx, Press Start, Game Rant and Screen Rant all list a spawn cheat for the Speeder 700 GT; PowerPyx says cheats only work once the story is finished and the unlock condition is met.",
       "Those lists give the unlock condition as: complete 5 combat challenges.",
       "None of the cheat lists read say what kind of vehicle it is. GTABase's boat menus mention a vehicle called Speeder, but no page confirming it is the same thing was read.",
-      "DayOne's list from the released game names it and files it under Watercraft."
+      "DayOne's list from the released game names it and files it under Watercraft.",
+      "In-game stat bars (out of 10): Speed 147, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Speeder 700 GT)."
     ],
     "tags": [
       "700",
@@ -903,7 +931,10 @@
       "menu_text": "High-end speedboat that combines raw power with tasteful refinement.",
       "style": "Speedboat",
       "era": "2010s Modern",
-      "based_on": "Frauscher 1017 GT"
+      "based_on": "Frauscher 1017 GT",
+      "speed": 147,
+      "top_speed": "147 km/h (91 mph)",
+      "zero_to_sixty": "4.32 s"
     },
     "confidence": "corroborated",
     "sources": [
@@ -914,7 +945,8 @@
       "pressstart-cheats",
       "screenrant-cheats",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-watercraft-boats"
+      "ppx-menu-watercraft-boats",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -1870,7 +1902,8 @@
     "body": [
       "PowerPyx lists it among the five classic cars rebuilt in Wyman's Ultimate Edition questline, Find Cars for Wyman, which opens after the '67 Vapid Dominator Buggy is collected.",
       "IGN places the five Kit Car wrecks across the map: inside Willie's Service Center in southern Salton, Vice City (through the side door); on a mansion driveway on Casanova Island in the Rialto Islands; in a lone orange shipping container on the beach at Wild Hog Point, opened with an angle grinder; behind Donnie's Auto Repair on Seabell Avenue in Watson Bay; and in a mansion garage in north-west Capri.",
-      "IGN says Wyman again asks 1,500 dollars before the Reynolds Kit Car can be collected."
+      "IGN says Wyman again asks 1,500 dollars before the Reynolds Kit Car can be collected.",
+      "In-game stat bars (out of 10): Speed 6, Acceleration 6.5, Road handling 5.5, Off-road handling 3.5, Strength 3, from MetaForge's GTA 6 database (Reynolds Kit Car)."
     ],
     "tags": [
       "car",
@@ -1885,7 +1918,14 @@
       "model": "Kit Car",
       "availability": "Ultimate Edition only; Wyman's classic car questline",
       "where": "GTABase: A car to restore, at Wyman.; Wyman's Classic Cars (Ultimate Edition, from Chapter 2): scan 5 scrap locations, then pay a $1,500 mechanics fee via BuckMe; register at a Pay 'n' Spray for $100 or park it in a garage, otherwise it returns to Wyman's scrapyard (Push Square).",
-      "based_on": "Kellison J4"
+      "based_on": "Kellison J4",
+      "speed": 6,
+      "acceleration": 6.5,
+      "asphalt_handling": 5.5,
+      "offroad_handling": 3.5,
+      "strength": 3,
+      "top_speed": "155.8 km/h (97 mph)",
+      "zero_to_sixty": "9.18 s"
     },
     "confidence": "corroborated",
     "sources": [
@@ -1893,7 +1933,8 @@
       "ign-wymans-cars",
       "powerpyx-ultimate",
       "pushsquare-wyman",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true
@@ -3346,7 +3387,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Watercraft."
+      "DayOne's list from the released game names it and files it under Watercraft.",
+      "In-game stat bars (out of 10): Speed 149.5, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Clarion)."
     ],
     "tags": [
       "boat",
@@ -3359,7 +3401,10 @@
       "menu_text": "Aerodynamic, twin-engine speedboat manufactured by Clarion. Its narrow profile is ideal for racing.",
       "style": "Speedboat",
       "era": "2010s Current",
-      "based_on": "Cigarette 38 Top Gun and Cigarette 515"
+      "based_on": "Cigarette 38 Top Gun and Cigarette 515",
+      "speed": 149.5,
+      "top_speed": "149.5 km/h (93 mph)",
+      "zero_to_sixty": "4.25 s"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3367,7 +3412,8 @@
       "gtabase-vehicle-pages",
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-watercraft-boats"
+      "ppx-menu-watercraft-boats",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -3532,7 +3578,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Watercraft."
+      "DayOne's list from the released game names it and files it under Watercraft.",
+      "In-game stat bars (out of 10): Speed 71.1, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Nagasaki Tao)."
     ],
     "tags": [
       "boat",
@@ -3547,7 +3594,9 @@
       "menu_text": "Fast, nimble, and uncommonly spacious for a powerboat of its size.",
       "style": "Powerboat",
       "era": "2020s Modern",
-      "based_on": "Crownline 275 SS"
+      "based_on": "Crownline 275 SS",
+      "speed": 71.1,
+      "top_speed": "71.1 km/h (44 mph)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -3555,7 +3604,8 @@
       "gtabase-vehicle-pages",
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-watercraft-boats"
+      "ppx-menu-watercraft-boats",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -3568,7 +3618,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Bikes."
+      "DayOne's list from the released game names it and files it under Bikes.",
+      "In-game stat bars (out of 10): Speed 6.9, Acceleration 7.9, Road handling 7.9, Off-road handling None, Strength 4, from MetaForge's GTA 6 database (Walter Cruiser)."
     ],
     "tags": [
       "cruiser",
@@ -3584,7 +3635,11 @@
       "style": "Bike",
       "era": "1970s Classic",
       "specialist": "None",
-      "based_on": "Beach Cruiser bike style, which was popular in the 1930s"
+      "based_on": "Beach Cruiser bike style, which was popular in the 1930s",
+      "speed": 6.9,
+      "acceleration": 7.9,
+      "asphalt_handling": 7.9,
+      "strength": 4
     },
     "confidence": "corroborated",
     "sources": [
@@ -3592,7 +3647,8 @@
       "gtabase-vehicle-pages",
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-bikes-motorcycles"
+      "ppx-menu-bikes-motorcycles",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -3853,7 +3909,8 @@
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
       "Since release, GTABase lists it as the Endurex Aerobike; before launch it was listed as the Endurex Race Bike.",
-      "GTABase describes it as a triathlon bicycle with an aerodynamic frame."
+      "GTABase describes it as a triathlon bicycle with an aerodynamic frame.",
+      "In-game stat bars (out of 10): Speed 6.9, Acceleration 7.9, Road handling 7.9, Off-road handling None, Strength 4, from MetaForge's GTA 6 database (Endurex Aerobike)."
     ],
     "tags": [
       "bike",
@@ -3870,7 +3927,11 @@
       "style": "Bike",
       "era": "2010s Modern",
       "specialist": "None",
-      "based_on": "Pinarello Dogma"
+      "based_on": "Pinarello Dogma",
+      "speed": 6.9,
+      "acceleration": 7.9,
+      "asphalt_handling": 7.9,
+      "strength": 4
     },
     "confidence": "community",
     "sources": [
@@ -3878,7 +3939,8 @@
       "gtabase-vehicles",
       "pl-gtabase-veh-endurex-race-bike",
       "ppx-menu-bikes-motorcycles",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -5224,7 +5286,8 @@
     "body": [
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
-      "DayOne's list from the released game names it and files it under Watercraft."
+      "DayOne's list from the released game names it and files it under Watercraft.",
+      "In-game stat bars (out of 10): Speed 92.1, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Lure Predator L35P)."
     ],
     "tags": [
       "boat",
@@ -5240,7 +5303,9 @@
       "menu_text": "Speedy, twin-engine powerboat. Small but reliable, often used for sport fishing.",
       "style": "Powerboat",
       "era": "2000s Modern",
-      "based_on": "Contender 25T and Contender 24S boat"
+      "based_on": "Contender 25T and Contender 24S boat",
+      "speed": 92.1,
+      "top_speed": "92.1 km/h (57 mph)"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5248,7 +5313,8 @@
       "gtabase-vehicle-pages",
       "gtabase-vehicles",
       "ppx-menu-watercraft-boats",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "image": "/images/vehicles/menu/lure-predator-l35p.jpg"
@@ -5680,7 +5746,8 @@
     "body": [
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
-      "DayOne's list from the released game names it and files it under Aircraft."
+      "DayOne's list from the released game names it and files it under Aircraft.",
+      "In-game stat bars (out of 10): Speed 205.1, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Lapwing Nimbus)."
     ],
     "tags": [
       "lapwing",
@@ -5695,7 +5762,10 @@
       "menu_text": "Elegant twin-engine jet with space for small passenger groups. Typically used for private charter by Leonida's elite.",
       "style": "Jet",
       "era": "2000s Modern",
-      "based_on": "Cessna Citation X"
+      "based_on": "Cessna Citation X",
+      "speed": 205.1,
+      "top_speed": "205.1 km/h (127 mph)",
+      "zero_to_sixty": "7.07 s"
     },
     "confidence": "corroborated",
     "sources": [
@@ -5703,7 +5773,8 @@
       "gtabase-vehicle-pages",
       "gtabase-vehicles",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-aircraft"
+      "ppx-menu-aircraft",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -6535,7 +6606,8 @@
       "GTABase describes it as new to the series with GTA VI.",
       "GTABase illustrates the page with pictures from Rockstar's own trailers, screenshots or edition artwork.",
       "GTABase still lists it under this name since release.",
-      "GTABase describes it as a sleek superyacht that usually has advanced security features."
+      "GTABase describes it as a sleek superyacht that usually has advanced security features.",
+      "In-game stat bars (out of 10): Speed 57, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Calder Yakuruna)."
     ],
     "tags": [
       "boat",
@@ -6550,7 +6622,9 @@
       "menu_text": "Sleek superyacht with a stylish interior. Usually has advanced security features.",
       "style": "Yacht",
       "era": "2010s Modern",
-      "based_on": "Riva 86 Domino"
+      "based_on": "Riva 86 Domino",
+      "speed": 57,
+      "top_speed": "57 km/h (35 mph)"
     },
     "confidence": "community",
     "sources": [
@@ -6558,7 +6632,8 @@
       "gtabase-vehicles",
       "pl-gtabase-veh-calder-yakuruna",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-watercraft-boats"
+      "ppx-menu-watercraft-boats",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "image": "/images/vehicles/menu/calder-yakuruna.jpg"
@@ -7245,7 +7320,8 @@
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
       "GTABase still lists it under this name since release.",
-      "GTABase marks one on a helipad on its GTA 6 map."
+      "GTABase marks one on a helipad on its GTA 6 map.",
+      "In-game stat bars (out of 10): Speed 187.8, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Buckingham Swift)."
     ],
     "tags": [
       "buckingham",
@@ -7261,7 +7337,10 @@
       "menu_text": "Twin-engine light passenger helicopter with a sleek, streamlined fuselage.",
       "style": "Helicopter",
       "era": "2000s Modern",
-      "based_on": "AgustaWestland AW109, Bell 222"
+      "based_on": "AgustaWestland AW109, Bell 222",
+      "speed": 187.8,
+      "top_speed": "187.8 km/h (117 mph)",
+      "zero_to_sixty": "8 s"
     },
     "confidence": "community",
     "sources": [
@@ -7270,7 +7349,8 @@
       "gtabase-vehicles",
       "pl-gtabase-veh-buckingham-swift",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-aircraft"
+      "ppx-menu-aircraft",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -7536,7 +7616,8 @@
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
       "GTABase still lists it under this name since release.",
-      "GTABase describes it as a large military troop helicopter with advanced security features."
+      "GTABase describes it as a large military troop helicopter with advanced security features.",
+      "In-game stat bars (out of 10): Speed 243.8, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Buckingham Valkyrie)."
     ],
     "tags": [
       "buckingham",
@@ -7548,14 +7629,18 @@
       "model": "Valkyrie",
       "class": "Helicopters",
       "menu_picture": "/images/vehicles/menu/buckingham-valkyrie.jpg",
-      "based_on": "Bell UH-1Y Venom/UH-1 Iroquois Huey/212/412, Fenestron"
+      "based_on": "Bell UH-1Y Venom/UH-1 Iroquois Huey/212/412, Fenestron",
+      "speed": 243.8,
+      "top_speed": "243.8 km/h (152 mph)",
+      "zero_to_sixty": "4.98 s"
     },
     "confidence": "community",
     "sources": [
       "gtabase-vehicle-pages",
       "gtabase-vehicles",
       "pl-gtabase-veh-buckingham-valkyrie",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -7715,7 +7800,8 @@
       "GTABase notes the model name has appeared in earlier Grand Theft Auto games.",
       "GTABase's page carries no official picture captions, so the basis for the entry could not be checked.",
       "GTABase still lists it under this name since release.",
-      "GTABase lists Atlantic Volatus and Dragonfly Volatus variants."
+      "GTABase lists Atlantic Volatus and Dragonfly Volatus variants.",
+      "In-game stat bars (out of 10): Speed 173.4, Acceleration None, Road handling None, Off-road handling None, Strength None, from MetaForge's GTA 6 database (Buckingham Volatus)."
     ],
     "tags": [
       "buckingham",
@@ -7731,7 +7817,10 @@
       "menu_text": "High-end, midsize helicopter. Its wide body gives it capacity for multiple passengers.",
       "style": "Helicopter",
       "era": "2010s Current",
-      "based_on": "Airbus Helicopters H160"
+      "based_on": "Airbus Helicopters H160",
+      "speed": 173.4,
+      "top_speed": "173.4 km/h (108 mph)",
+      "zero_to_sixty": "7.67 s"
     },
     "confidence": "community",
     "sources": [
@@ -7740,7 +7829,8 @@
       "gtabase-vehicles",
       "pl-gtabase-veh-buckingham-volatus",
       "gtabase-vehicle-menu-art",
-      "ppx-menu-aircraft"
+      "ppx-menu-aircraft",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,

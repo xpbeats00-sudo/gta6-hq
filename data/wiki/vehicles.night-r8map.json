@@ -177,7 +177,8 @@
     "body": [
       "GTABase's interactive map lists the Pegassi Valiant Tempesta in its Standout Vehicle category, filed under the Vice Beach area.",
       "It is a standout version of the Tempesta; the app's Pegassi Tempesta entry covers the regular model.",
-      "The picture is the stock Pegassi Tempesta from the game's vehicle menu; no studio picture of this version has been published."
+      "The picture is the stock Pegassi Tempesta from the game's vehicle menu; no studio picture of this version has been published.",
+      "In-game stat bars (out of 10): Speed 7.6, Acceleration 7.8, Road handling 6.9, Off-road handling 3.8, Strength 3, from MetaForge's GTA 6 database (Valiant Tempesta)."
     ],
     "tags": [
       "pegassi",
@@ -189,11 +190,17 @@
       "manufacturer": "Pegassi",
       "model": "Tempesta",
       "class": "Standout vehicle",
-      "availability": "Fixed standout spawn, Vice Beach area of GTABase's map"
+      "availability": "Fixed standout spawn, Vice Beach area of GTABase's map",
+      "speed": 7.6,
+      "acceleration": 7.8,
+      "asphalt_handling": 6.9,
+      "offroad_handling": 3.8,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
-      "r8gb-map-standout-vehicle"
+      "r8gb-map-standout-vehicle",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -536,7 +543,8 @@
     "summary": "A standout BMX that GTABase's map places in the Hamlet area.",
     "body": [
       "GTABase's interactive map lists the Tuff Immortal BMX in its Standout Vehicle category, filed under the Hamlet area.",
-      "It is a standout version of the BMX; the app's Tuff BMX entry covers the regular model."
+      "It is a standout version of the BMX; the app's Tuff BMX entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Immortal BMX)."
     ],
     "tags": [
       "bmx",
@@ -552,14 +560,19 @@
       "where": "GTABase: Tuff BMX, formerly owned by a wannabe stunt rider. Found by an abandoned pool in Hamlet.; Standout (GTABase map): Hamlet -  #32 Tuff Immortal BMX Hamlet Set: Pedal Power. Tuff BMX, formerly owned by a wannabe stunt rider. Found by an abandoned pool in Hamlet.",
       "menu_picture": "/images/vehicles/tuff-immortal-bmx.jpg",
       "standout_set": "Pedal Power",
-      "based_on": "BMX bike"
+      "based_on": "BMX bike",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -859,7 +872,8 @@
     "summary": "A standout 300-H that GTABase's map places in the Watson Bay area.",
     "body": [
       "GTABase's interactive map lists the Lapwing Stolen Valor 300-H in its Standout Vehicle category, filed under the Watson Bay area.",
-      "It is a standout version of the Lapwing 300-H."
+      "It is a standout version of the Lapwing 300-H.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Stolen Valor 300-H)."
     ],
     "tags": [
       "300-h",
@@ -874,14 +888,19 @@
       "availability": "Fixed standout spawn, Watson Bay area of GTABase's map",
       "where": "GTABase: Lapwing 300-H discovered at an airport in Bobcat Key. Modified to somewhat resemble a military vehicle.; Standout (GTABase map): Watson Bay -  #55 Lapwing Stolen Valor 300-H Watson Bay Set: Retro. Lapwing 300-H discovered at an airport in Bobcat Key. Modified to somewhat resemble a military vehicle.",
       "menu_picture": "/images/vehicles/lapwing-stolen-valor-300-h.jpg",
-      "standout_set": "Retro"
+      "standout_set": "Retro",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -1185,7 +1204,8 @@
     "summary": "A standout Airboat that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Airgator Naughty Boy Airboat in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Airboat; the app's Airboat 09 entry covers the regular model."
+      "It is a standout version of the Airboat; the app's Airboat 09 entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Naughty Boy Airboat)."
     ],
     "tags": [
       "airboat",
@@ -1201,14 +1221,19 @@
       "where": "Standout (GTABase map): Emerald Springs -  #82 Airgator Naughty Boy Airboat Emerald Springs Set: Swamp Style. Unique Airgator Airboat 09 with a custom finish, owned by a woman attempting to train alligators in Buckskin Swamp.",
       "menu_picture": "/images/vehicles/airgator-naughty-boy-airboat.jpg",
       "standout_set": "Swamp Style",
-      "based_on": "Diamondback Hunting & Fishing Airboat"
+      "based_on": "Diamondback Hunting & Fishing Airboat",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -1759,7 +1784,8 @@
     "summary": "A standout Erode that GTABase's map places in the Ambrosia area.",
     "body": [
       "GTABase's interactive map lists the Del Perro Midsummer Erode in its Standout Vehicle category, filed under the Ambrosia area.",
-      "It is a standout version of the Erode; the app's Del Perro Erode entry covers the regular model."
+      "It is a standout version of the Erode; the app's Del Perro Erode entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Midsummer Erode)."
     ],
     "tags": [
       "del perro",
@@ -1775,14 +1801,19 @@
       "where": "GTABase: One-of-a-kind Del Perro Erode. Found hanging from a bizarre wooden figure in the forest near Bonanza.; Standout (GTABase map): Ambrosia -  #252 Del Perro Midsummer Erode Ambrosia Set: Pedal Power. One-of-a-kind Del Perro Erode. Found hanging from a bizarre wooden figure in the forest near Bonanza.",
       "menu_picture": "/images/vehicles/del-perro-midsummer-erode.jpg",
       "standout_set": "Pedal Power",
-      "based_on": "Crestline RS 75/50 EEB"
+      "based_on": "Crestline RS 75/50 EEB",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -2164,7 +2195,8 @@
     "summary": "A standout Walton that GTABase's map places in the Port Gellhorn area.",
     "body": [
       "GTABase's interactive map lists the Declasse Fruit Outlet Walton in its Standout Vehicle category, filed under the Port Gellhorn area.",
-      "It is a standout version of the Walton; the app's Declasse Walton L35 entry covers the regular model."
+      "It is a standout version of the Walton; the app's Declasse Walton L35 entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 3.8, Acceleration 3.8, Road handling 3.6, Off-road handling 4.2, Strength 3, from MetaForge's GTA 6 database (Fruit Outlet Walton)."
     ],
     "tags": [
       "declasse",
@@ -2180,12 +2212,17 @@
       "menu_picture": "/images/vehicles/declasse-fruit-outlet-walton.jpg",
       "standout_set": "Topper",
       "based_on": "1991-1993 Chevrolet S-10",
-      "speed": 3.8
+      "speed": 3.8,
+      "acceleration": 3.8,
+      "asphalt_handling": 3.6,
+      "offroad_handling": 4.2,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-18",
     "spoiler": true,
@@ -2197,7 +2234,8 @@
     "summary": "A standout Cruiser that GTABase's map places in the Port Gellhorn area.",
     "body": [
       "GTABase's interactive map lists the Walter Ghost Cruiser in its Standout Vehicle category, filed under the Port Gellhorn area.",
-      "It is a standout version of the Cruiser; the app's Walter Cruiser entry covers the regular model."
+      "It is a standout version of the Cruiser; the app's Walter Cruiser entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Ghost Cruiser)."
     ],
     "tags": [
       "cruiser",
@@ -2213,14 +2251,19 @@
       "where": "GTABase: Unusual Walter Cruiser painted white as part of a roadside memorial in Port Gellhorn.; Standout (GTABase map): Port Gellhorn -  #135 Walter Ghost Cruiser Port Gellhorn Set: Pedal Power. Unusual Walter Cruiser painted white as part of a roadside memorial in Port Gellhorn.",
       "menu_picture": "/images/vehicles/walter-ghost-cruiser.jpg",
       "standout_set": "Pedal Power",
-      "based_on": "Beach Cruiser bike style, which was popular in the 1930s"
+      "based_on": "Beach Cruiser bike style, which was popular in the 1930s",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -2232,7 +2275,8 @@
     "summary": "A standout Azure that GTABase's map places in the Watson Bay area.",
     "body": [
       "GTABase's interactive map lists the Seashark Westbound Azure in its Standout Vehicle category, filed under the Watson Bay area.",
-      "It is a standout version of the Azure; the app's Seashark Azure entry covers the regular model."
+      "It is a standout version of the Azure; the app's Seashark Azure entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Westbound Azure)."
     ],
     "tags": [
       "azure",
@@ -2248,14 +2292,19 @@
       "where": "GTABase: Custom Seashark Azure with an eye-catching color scheme. Discovered near its owner in Pelican Valley.; Standout (GTABase map): Watson Bay -  #15 Seashark Westbound Azure Watson Bay Set: Leonida Man. Custom Seashark Azure with an eye-catching color scheme. Discovered near its owner in Pelican Valley.",
       "menu_picture": "/images/vehicles/seashark-westbound-azure.jpg",
       "standout_set": "Leonida Man",
-      "based_on": "Sea-Doo Spark"
+      "based_on": "Sea-Doo Spark",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -2267,7 +2316,8 @@
     "summary": "A standout Airboat that GTABase's map places in the Watson Bay area.",
     "body": [
       "GTABase's interactive map lists the Airgator Dr Sheehan's Airboat in its Standout Vehicle category, filed under the Watson Bay area.",
-      "It is a standout version of the Airboat; the app's Airboat 09 entry covers the regular model."
+      "It is a standout version of the Airboat; the app's Airboat 09 entry covers the regular model.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Dr Sheehan's Airboat)."
     ],
     "tags": [
       "airboat",
@@ -2283,14 +2333,19 @@
       "where": "Standout (GTABase map): Watson Bay -  #14 Airgator Dr Sheehan's Airboat Watson Bay Set: Swamp Style. Custom Airgator Airboat 09 used by a biologist working at a remote research outpost in Pelican Valley.",
       "menu_picture": "/images/vehicles/airgator-dr-sheehans-airboat.jpg",
       "standout_set": "Swamp Style",
-      "based_on": "Diamondback Hunting & Fishing Airboat"
+      "based_on": "Diamondback Hunting & Fishing Airboat",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
       "gtabase-map-standout",
       "gtabase-vehicle-pages",
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
@@ -2337,7 +2392,8 @@
     "body": [
       "GTABase's interactive map lists the Nagasaki Rudolph Tao in its Standout Vehicle category, filed under the Key Lento area.",
       "It is a standout version of the Tao; the app's Nagasaki Tao entry covers the regular model.",
-      "GTA Wiki's Tao page (edited November 19, 2026) shows the Rudolph Tao in a green and red Christmas livery reading Happy Holidays, on a trailer; it calls the Nagasaki Tao a bow rider new to GTA VI, with Nagasaki Marine written on its side in the launch trailer."
+      "GTA Wiki's Tao page (edited November 19, 2026) shows the Rudolph Tao in a green and red Christmas livery reading Happy Holidays, on a trailer; it calls the Nagasaki Tao a bow rider new to GTA VI, with Nagasaki Marine written on its side in the launch trailer.",
+      "In-game stat bars (out of 10): Speed 7.1, Acceleration 7.1, Road handling 5.6, Off-road handling None, Strength 3, from MetaForge's GTA 6 database (Rudolph Tao)."
     ],
     "tags": [
       "nagasaki",
@@ -2353,7 +2409,11 @@
       "where": "GTABase: Uniquely modified Nagasaki Tao, full of festive cheer. Found outside a house in Key Lento.; Standout (GTABase map): Key Lento -  #6 Nagasaki Rudolph Tao Key Lento Set: Leonida Man. Uniquely modified Nagasaki Tao, full of festive cheer. Found outside a house in Key Lento.",
       "menu_picture": "/images/vehicles/menu/nagasaki-rudolph-tao.jpg",
       "standout_set": "Leonida Man",
-      "based_on": "Crownline 275 SS"
+      "based_on": "Crownline 275 SS",
+      "speed": 7.1,
+      "acceleration": 7.1,
+      "asphalt_handling": 5.6,
+      "strength": 3
     },
     "confidence": "corroborated",
     "sources": [
@@ -2361,7 +2421,8 @@
       "gtabase-vehicle-pages",
       "r11g-gw-tao-boat",
       "r8gb-map-standout-vehicle",
-      "gtabase-vehicle-menu-art"
+      "gtabase-vehicle-menu-art",
+      "metaforge-vehicles"
     ],
     "verified": "2026-11-26",
     "spoiler": true,
