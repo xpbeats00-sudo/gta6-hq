@@ -160,25 +160,36 @@ h3 { letter-spacing: 0.01em; }
 body.is-loading .sidebar { visibility: hidden; }
 body.is-arriving .sidebar { animation: arrive 1.2s cubic-bezier(0.22, 0.8, 0.26, 1) both; }
 
-/* The back layer: artwork rain (app.js syncRails). Each picture is chopped into small slanted pieces
-   that fall slowly down the window's margins behind the page, every piece at its own speed. The left
-   column starts where the sidebar ends. It shows once the window is wide enough to have margins. */
+/* The back layer: artwork rain down both sides (app.js syncRails). Lanes of small cut-edge tiles,
+   each run a strip of one picture with a lit leading tile, falling slowly. The columns fill the
+   window's margins and fade out as they reach under the page, so nothing sits behind the text. */
+.rail { display: none; }
 @media (min-width: 761px) {
-  body.has-sidebar .rail { display: none; }
+  .rail.rain-col { --reach: 40px; display: block; position: fixed; z-index: 0; top: calc(var(--bar) + var(--announce, 0px)); bottom: 0; overflow: hidden; pointer-events: none; opacity: 1;
+    width: calc(max((100vw - var(--side, 0px) - var(--content)) / 2, 0px) + var(--reach)); transition: opacity 0.6s ease;
+    -webkit-mask-image: linear-gradient(180deg, transparent, #000 7%, #000 90%, transparent), linear-gradient(var(--to-page), #000 0, #000 calc(100% - var(--reach)), transparent 100%);
+    -webkit-mask-composite: source-in;
+    mask-image: linear-gradient(180deg, transparent, #000 7%, #000 90%, transparent), linear-gradient(var(--to-page), #000 0, #000 calc(100% - var(--reach)), transparent 100%);
+    mask-composite: intersect; }
+  .rail-left.rain-col { left: var(--side, 0px); right: auto; --to-page: 90deg; }
+  .rail-right.rain-col { right: 0; left: auto; --to-page: 270deg; }
+  main#view, .community-band, .footer { position: relative; z-index: 1; }
+  .rain-lane { position: absolute; top: 0; }
+  .rail-left .rain-lane { left: calc(var(--x) + 8px); }
+  .rail-right .rain-lane { right: calc(var(--x) + 8px); }
+  .rain-track { display: flex; flex-direction: column; gap: 6px; padding-bottom: 6px; will-change: transform; animation: lane-fall var(--t, 50s) linear var(--d, 0s) infinite !important; }
+  .rain-gap, .rain-bit { flex: none; display: block; width: 100%; }
+  .rain-bit { background-repeat: no-repeat; background-size: 640px 360px; clip-path: polygon(0 11%, 100% 0, 100% 89%, 0 100%); filter: saturate(1.25) brightness(1.08); }
+  .rail-right .rain-bit { clip-path: polygon(0 0, 100% 11%, 100% 100%, 0 89%); }
+  /* the leading tile of each run: full colour, a bright lower edge */
+  .rain-bit.is-head { filter: saturate(1.45) brightness(1.3); box-shadow: inset 0 -3px 0 rgba(255, 255, 255, 0.85); }
+  body[data-page='map'] .rail.rain-col, body.is-full-menu .rail.rain-col, body[data-page='manual'] .rail.rain-col { display: none; }
+  body.has-hero:not(.past-hero) .rail.rain-col { opacity: 0; }
 }
-@media (min-width: 1500px) {
-  body.has-sidebar .rail { display: block; position: fixed; z-index: 0; top: calc(var(--bar) + var(--announce, 0px)); bottom: 0; overflow: hidden; pointer-events: none; opacity: 1;
-    width: calc(max((100vw - var(--side) - var(--content)) / 2, 0px) + 44px);
-    -webkit-mask-image: linear-gradient(var(--fade-dir, 90deg), #000 45%, transparent 100%); mask-image: linear-gradient(var(--fade-dir, 90deg), #000 45%, transparent 100%);
-    -webkit-mask-composite: source-over; mask-composite: add; }
-  body.has-sidebar .rail-left { left: var(--side); --fade-dir: 90deg; }
-  body.has-sidebar .rail-right { right: 0; --fade-dir: 270deg; }
-  .rain-bit { position: absolute; top: 0; background-size: 520px auto; background-repeat: no-repeat; opacity: 0.7; clip-path: polygon(16% 0, 100% 0, 84% 100%, 0 100%);
-    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08) inset; will-change: transform; animation: rain-fall var(--t, 30s) linear var(--d, 0s) infinite !important; }
-  .rain-bit.is-flip { clip-path: polygon(0 0, 84% 0, 100% 100%, 16% 100%); }
-  body.has-sidebar[data-page='map'] .rail, body.has-sidebar.is-full-menu .rail, body.has-sidebar[data-page='manual'] .rail { display: none; }
-}
-@keyframes rain-fall { from { transform: translateY(-180px); } to { transform: translateY(calc(100vh + 40px)); } }
+/* Once the window has real margins beside the page, the rain reaches a little way under its edge. */
+@media (min-width: 1680px) { .rail.rain-col { --reach: 118px; } }
+/* the lane holds its tiles twice, so moving it by half its height loops without a seam */
+@keyframes lane-fall { from { transform: translate3d(0, -50%, 0); } to { transform: translate3d(0, 0, 0); } }
 
 /* ---------- 3. Components ---------- */
 
@@ -327,3 +338,41 @@ img { transition: opacity 0.25s ease; }
    reaches past it (centred, the profile button's tip made the page 24px wider than a narrow window). */
 .topbar [data-tip]::after { left: auto; right: 0; translate: 0 -4px; }
 .topbar [data-tip]:hover::after, .topbar [data-tip]:focus-visible::after { translate: 0 0; }
+
+/* A location known only to be somewhere in Leonida: the whole state map, not a zoomed corner. */
+.auto-map.auto-state { background-size: auto 150%; background-position: 50% 42%; }
+/* A county's ring is wider than a district's: it covers more ground. */
+
+/* The map's credit line no longer sits over the map (it covered the bottom of the picture). The same
+   credits are in the map's Layers panel (.map-credits) and in the panel's opening line. */
+.leaflet-control-attribution, .maplibregl-ctrl-attrib, .map3d .maplibregl-ctrl-attrib { display: none !important; }
+.map-credits { margin-top: 10px; padding-top: 10px; border-top: 1px solid var(--border-subtle); font-size: 0.75rem; line-height: 1.5; }
+
+/* ---------- Second pass: purpose first (see docs/design/PRODUCT.md) ---------- */
+
+/* Home: what you can do comes before what you can join. "Recently opened" is a compact row of the
+   entries you opened last; it takes little room and is absent until there is something to show. */
+.jump-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(168px, 1fr)); gap: 10px; }
+.jump-card { display: flex; align-items: center; gap: 12px; min-width: 0; padding: 8px; border: 1px solid var(--border-subtle); border-radius: var(--radius-card); background: var(--bg-panel); color: var(--text-primary); text-decoration: none; transition: background var(--ease), border-color var(--ease), transform var(--ease); }
+.jump-card:hover { background: var(--bg-panel-raised); border-color: var(--border-strong); transform: translateY(-1px); }
+.jump-thumb { flex: none; width: 64px; height: 44px; border-radius: 8px; object-fit: cover; background: var(--surface-2); }
+.jump-thumb-none { display: grid; place-items: center; color: var(--text-muted); }
+.jump-thumb-none .i { width: 18px; height: 18px; }
+.jump-text { display: grid; min-width: 0; }
+.jump-text b { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 700 0.875rem var(--font-body); }
+.jump-text span { color: var(--text-muted); font-size: 0.75rem; }
+/* Home already invites you to the Discord in its own band (and the title bar always does), so the
+   strip above the footer is not repeated there. */
+body[data-page='home'] .community-band { display: none; }
+
+/* With the sidebar every destination is one click away, so the "back to More" link on tool pages
+   points at a menu that is no longer the way in. It stays on narrow windows, where More still is. */
+@media (min-width: 761px) { body.has-sidebar .back-more { display: none; } }
+
+/* Motion: Off (Settings) is honoured by everything added in the redesign. The owner's choice to keep
+   motion when only Windows asks for less is unchanged; this is the app's own switch. */
+body.reduce-motion .entry-cut, body.reduce-motion .entry-logo, body.reduce-motion .logo-coin, body.reduce-motion .brand-coin,
+body.reduce-motion .pause-list [role="menuitem"] .i, body.reduce-motion .rain-track, body.reduce-motion .fb-track,
+body.reduce-motion .splash-coin { animation: none !important; }
+body.reduce-motion .entry-slide { transition: none !important; }
+body.reduce-motion .rail.rain-col { display: none !important; }

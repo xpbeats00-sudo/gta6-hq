@@ -1,15 +1,15 @@
 # GTA 6 HQ: current state
 
-Generated 2026-11-28 02:13 by `scripts/current_state.py`. **This is the one authoritative status report.** Older reports are history; see `REPORT-INDEX.md`.
+Generated 2026-11-28 02:40 by `scripts/current_state.py`. **This is the one authoritative status report.** Older reports are history; see `REPORT-INDEX.md`.
 
 | Item | Now |
 |---|---|
 | App version | 0.2.51 (`Cargo.toml`) |
-| Version control | Commit bc29ef2 on main, 34 uncommitted paths. |
+| Version control | Commit d5a4120 on main, 15 uncommitted paths. |
 | Encyclopedia | 3395 entries in 13 categories; 0 categories empty |
 | Field Manual | 23 chapters, 536 pages; 0 chapter in development |
-| Media records | 2686: 34 approved, 2632 permission_required, 20 unknown |
-| Map | 6585 markers; tile cache 809 files, 134.9 MB; never pruned, limited to 1,365 tiles by the zoom limit |
+| Media records | 2687: 35 approved, 2632 permission_required, 20 unknown |
+| Map | 6585 markers; tile cache 834 files, 135.3 MB; never pruned, limited to 1,365 tiles by the zoom limit |
 | Formatting | Pass |
 | Clippy, warnings as errors | Pass |
 | Tests | Pass. 93 passed, 0 failed |

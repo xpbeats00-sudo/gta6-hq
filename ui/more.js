@@ -156,20 +156,53 @@
   };
 
   // ---------- #/strangers: Strangers and Freaks and the other side missions ----------
-  EXTRA_PAGES.strangers = function renderStrangers() {
+  // Drawn like the Trophies screen: tabs for the three kinds, the missions listed under who gives
+  // them, and the chosen one's picture, summary and step-by-step walkthrough beside the list.
+  EXTRA_PAGES.strangers = function renderStrangers(slug) {
     const ms = (state.wiki.missions || []).filter((e) => /^(stranger|side|optional) mission$/i.test(e.facts?.type || ''));
-    const kinds = [['Stranger mission', 'Strangers and Freaks', 'People you meet around Leonida, each with their own short story.'],
-      ['Side mission', 'Side missions', 'Jobs away from the main story.'], ['Optional mission', 'Optional missions', 'Story missions you can skip.']];
+    const kinds = [['Stranger mission', 'Strangers and Freaks'], ['Side mission', 'Side missions'], ['Optional mission', 'Optional missions']]
+      .filter(([type]) => ms.some((e) => String(e.facts?.type).toLowerCase() === type.toLowerCase()));
     const giverOf = (e) => String(e.facts?.giver || 'Giver not yet known').split(/[;,(]/)[0].trim();
-    view.innerHTML = `${pageHead('Strangers and Freaks', `${ms.length} side, stranger and optional missions, grouped by who gives them. Spoilers stay blurred until you show them.`)}
-      ${kinds.map(([type, title, lede]) => {
-        const mine = ms.filter((e) => String(e.facts?.type).toLowerCase() === type.toLowerCase());
-        if (!mine.length) return '';
-        const givers = [...new Set(mine.map(giverOf))].sort((x, y) => (x.startsWith('Giver not') - y.startsWith('Giver not')) || x.localeCompare(y));
-        return `<section class="block"><div class="block-head"><h2>${esc(title)} <span class="muted">${mine.length}</span></h2></div><p class="muted">${esc(lede)}</p>
-          ${givers.map((g) => `<h3 class="giver-head">${esc(g)}</h3><div class="grid grid-3">${mine.filter((e) => giverOf(e) === g).map((e) => card('missions', e, [e.facts?.chapter ? String(e.facts.chapter).replace(/^(?!chapter)/i, 'Chapter ') : '', e.facts?.protagonist].filter(Boolean).join(' · '))).join('')}</div>`).join('')}
-        </section>`;
-      }).join('')}`;
+    const byGiver = (x, y) => (giverOf(x).startsWith('Giver not') - giverOf(y).startsWith('Giver not')) || giverOf(x).localeCompare(giverOf(y)) || x.name.localeCompare(y.name, 'en', { numeric: true });
+    const lists = kinds.map(([type]) => ms.filter((e) => String(e.facts?.type).toLowerCase() === type.toLowerCase()).sort(byGiver));
+    // A link to one mission opens on its tab.
+    const startTab = Math.max(0, lists.findIndex((list) => list.some((e) => e.slug === slug)));
+    view.innerHTML = ResearchTools.shell({ crumbs: ['Progress', 'Strangers and Freaks'], tabs: kinds.map(([, title]) => title), active: startTab,
+      body: '<p class="gm-summary"></p><div class="gm-pane"></div>' });
+    const root = view.querySelector('.gm');
+    const pane = root.querySelector('.gm-pane');
+    let shown = lists[startTab] || [];
+    const esc2 = esc;
+    const rows = () => shown.map((e) => ({ html: isHidden('missions', e) ? `<span class="gm-row-giver">${esc2(giverOf(e))}</span>Spoiler: open it to read` : `<span class="gm-row-giver">${esc2(giverOf(e))}</span>${esc2(e.name)}`, locked: isHidden('missions', e) }));
+    const detail = (i) => {
+      const e = shown[i];
+      const inner = `${e.image ? `<div class="gm-wiki-pic"><img src="${esc2(e.image)}" alt="" loading="lazy"></div>` : ''}
+        <h2 class="gm-title">${esc2(e.name)}</h2>
+        <p class="gm-tags"><span>${esc2(giverOf(e))}</span>${e.facts?.chapter ? `<span>${esc2(String(e.facts.chapter).replace(/^(?!chapter)/i, 'Chapter '))}</span>` : ''}${e.facts?.region ? `<span>${esc2(e.facts.region)}</span>` : ''}</p>
+        <p>${esc2(e.summary || '')}</p>
+        ${missionStepsSlot(e)}
+        <p class="gm-wiki-actions"><a class="gm-open" href="${entryLink('missions', e.slug)}">Open entry <kbd class="gm-key">Enter</kbd></a></p>`;
+      return isHidden('missions', e) ? veil('missions', e, inner) : inner;
+    };
+    const summary = () => { root.querySelector('.gm-summary').textContent = `${shown.length} of ${ms.length} side, stranger and optional missions, listed by who gives them.`; };
+    const show = (t) => {
+      shown = lists[t] || [];
+      let first = true;
+      const start = slug && first ? Math.max(0, shown.findIndex((e) => e.slug === slug)) : 0;
+      const ld = ResearchTools.listDetail(pane, rows(), detail, start, (i) => {
+        fillMissionSteps(pane);
+        if (first) { first = false; return; }
+        const s = shown[i]?.slug;
+        if (s && location.hash !== `#/strangers/${s}`) history.replaceState(null, '', `#/strangers/${s}`);
+      });
+      const list = pane.querySelector('.gm-list');
+      const open = () => { const e = shown[ld.selected]; if (e) location.hash = entryLink('missions', e.slug); };
+      list.addEventListener('keydown', (ev) => { if (ev.key === 'Enter') { ev.preventDefault(); open(); } });
+      list.addEventListener('dblclick', open);
+      summary();
+    };
+    ResearchTools.wireTabs(root, kinds.length, show);
+    show(startTab);
   };
 
   // ---------- #/properties: what you can own or stay in ----------

@@ -1,13 +1,13 @@
 # Media rights audit
 
-Generated 2026-11-28 02:13 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
+Generated 2026-11-28 02:41 by `scripts/audit_media.py` from the files on disk and `data/media.json`. Do not edit by hand.
 
 ## Summary
 
 | Check | Result |
 |---|---|
-| Media files on disk (`images/`, `wallpapers/`) | 2721 |
-| Records in `data/media.json` | 2721 |
+| Media files on disk (`images/`, `wallpapers/`) | 2722 |
+| Records in `data/media.json` | 2722 |
 | Files with no record | 0 |
 | Records with no file | 0 |
 | Groups of identical files | 0 |
@@ -21,7 +21,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 
 | Decision | Files | Meaning |
 |---|---|---|
-| approved_for_distribution | 34 | Cleared to ship in a public package |
+| approved_for_distribution | 35 | Cleared to ship in a public package |
 | local_personal_use_only | 2661 | Copyright Rockstar Games; fine on the owner's own machine, not cleared to redistribute |
 | unknown | 26 | Origin or rights not established |
 | rejected | 0 | Must not be used |
@@ -34,7 +34,7 @@ The decision is derived from each record's `rights_status`. Nothing here is lega
 |---|---|
 | evidence_frame | 23 |
 | official_illustration | 142 |
-| owner_supplied_unverified | 135 |
+| owner_supplied_unverified | 136 |
 | third_party_screenshot | 2413 |
 | unrecorded_source | 8 |
 

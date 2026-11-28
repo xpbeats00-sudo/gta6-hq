@@ -444,11 +444,12 @@ body:has(.update-stage) .brand-coin, body.is-paused .brand-coin { animation: spl
 #splash.is-entry { display: block; padding: 0; }
 #splash.is-entry > .splash-stage, #splash.is-entry > .splash-cine { display: none; }
 .entry { position: absolute; inset: 0; z-index: 1; overflow: hidden; background: #050308; }
-.entry-slide { position: absolute; inset: 0; opacity: 0; transition: opacity 0.7s ease; }
-.entry-slide.is-on { opacity: 1; }
-/* The outgoing picture holds until the next one's panels have arrived, so there is no dip to black. */
-.entry-slide.is-off { opacity: 0; transition: opacity 0.8s ease 0.75s; }
-.entry-slide.is-on { z-index: 1; }
+/* A picture is shown or not, with no fade of its own: its panels do the arriving (entry-a/b/c below).
+   The picture before stays underneath, untouched, until app.js takes it away (is-off) once the new
+   panels are fully in, so there is never a moment with nothing on screen. */
+.entry-slide { position: absolute; inset: 0; visibility: hidden; }
+.entry-slide.is-on { visibility: visible; z-index: 1; }
+.entry-slide.is-on.is-off { visibility: hidden; }
 .entry-cut { position: absolute; inset: -5%; background: var(--img) center 30% / cover no-repeat; will-change: transform; }
 /* Three slanted slices of one picture; 0.6% gaps between them show the black behind. */
 .entry-cut-1 { clip-path: polygon(0 0, 41% 0, 31% 100%, 0 100%); }
@@ -459,9 +460,9 @@ body:has(.update-stage) .brand-coin, body.is-paused .brand-coin { animation: spl
 .entry-slide.is-on .entry-cut-3 { animation: entry-c calc(var(--slide, 3.6s) + 1.6s) cubic-bezier(0.2, 0.7, 0.2, 1) 0.24s both !important; }
 .entry-slide.is-flip.is-on .entry-cut-1 { animation-name: entry-c !important; }
 .entry-slide.is-flip.is-on .entry-cut-3 { animation-name: entry-a !important; }
-@keyframes entry-a { 0% { transform: translate(-7%, 0) scale(1.04); opacity: 0; } 14% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(-1.6%, 1.2%) scale(1.08); } }
-@keyframes entry-b { 0% { transform: translate(0, 9%) scale(1.04); opacity: 0; } 14% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(0, -1.8%) scale(1.07); } }
-@keyframes entry-c { 0% { transform: translate(7%, 0) scale(1.04); opacity: 0; } 14% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(1.6%, -1%) scale(1.08); } }
+@keyframes entry-a { 0% { transform: translate(-7%, 0) scale(1.04); opacity: 0; } 12% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(-1.6%, 1.2%) scale(1.08); } }
+@keyframes entry-b { 0% { transform: translate(0, 9%) scale(1.04); opacity: 0; } 12% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(0, -1.8%) scale(1.07); } }
+@keyframes entry-c { 0% { transform: translate(7%, 0) scale(1.04); opacity: 0; } 12% { opacity: 1; } 22% { transform: translate(0, 0) scale(1.04); } 100% { transform: translate(1.6%, -1%) scale(1.08); } }
 /* A dark fall-off at the bottom for the logo and the loading line, and a faint film grain of scanlines. */
 .entry-shade { position: absolute; inset: 0; pointer-events: none;
   background: linear-gradient(0deg, rgba(5, 3, 8, 0.88) 0%, rgba(5, 3, 8, 0.35) 22%, transparent 42%), radial-gradient(120% 90% at 50% 40%, transparent 55%, rgba(5, 3, 8, 0.55) 100%); }
@@ -512,3 +513,11 @@ body:has(.update-stage) .brand-coin, body.is-paused .brand-coin { animation: spl
   background: linear-gradient(180deg, #ffd88a 0%, #ff8fb4 48%, #b06cf0 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
   filter: drop-shadow(0 4px 18px rgba(238, 63, 124, 0.45)); }
 @media (max-width: 640px) { .fb-word { display: none; } .fb-mark img { height: 64%; } }
+
+/* Missions as step-by-step guides (app.js missionStepsHtml): the Trophies screen's steps, in the
+   Encyclopedia's Missions list, on a mission's own page and on Strangers and Freaks. */
+.mission-steps { margin: 6px 0 14px; }
+.mission-steps:empty { min-height: 0; }
+.gm-row-giver { flex: none; min-width: 92px; max-width: 120px; overflow: hidden; text-overflow: ellipsis; font: 700 0.6875rem var(--font-display); text-transform: uppercase; letter-spacing: 0.04em; opacity: 0.7; }
+.gm-entry .mission-steps { margin: 18px 0 22px; }
+.gm-entry .mission-steps .gm-step p { max-width: 70ch; }

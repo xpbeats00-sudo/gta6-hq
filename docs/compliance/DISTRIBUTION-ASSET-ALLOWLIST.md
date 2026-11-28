@@ -1,6 +1,6 @@
 # Distribution asset allowlist
 
-Generated 2026-11-28 02:13 by `scripts/audit_media.py`. Do not edit by hand.
+Generated 2026-11-28 02:41 by `scripts/audit_media.py`. Do not edit by hand.
 
 Only files listed under "Approved" may go into a public release package.
 
@@ -40,6 +40,7 @@ Only files listed under "Approved" may go into a public release package.
 - `images/map-icons/wyman-car.svg`
 - `images/map-icons/yellow-loot-box.svg`
 - `images/vehicles/showroom-gts.jpg`
+- `images/weapons/gun-store-floor.jpg`
 
 ## Local personal use only (2661)
 

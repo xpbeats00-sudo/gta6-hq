@@ -163,7 +163,7 @@
         { "key": "tracks", "label": "Tracks", "type": "number" },
         { "key": "release_date", "label": "Release date", "type": "text" }
       ] },
-    { "key": "weapons", "label": "Weapons", "blurb": "Weapons and equipment.", "art": "mountain",
+    { "key": "weapons", "label": "Weapons", "blurb": "Weapons and equipment.", "art": "mountain", "image": "/images/weapons/gun-store-floor.jpg",
       "fields": [
         { "key": "type", "label": "Type", "type": "text" },
         { "key": "ammo", "label": "Ammunition", "type": "text" },

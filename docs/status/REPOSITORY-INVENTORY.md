@@ -1,17 +1,17 @@
 # Repository inventory
 
-Generated 2026-11-28 02:13 by `scripts/current_state.py`. Do not edit by hand.
+Generated 2026-11-28 02:40 by `scripts/current_state.py`. Do not edit by hand.
 
 | Folder | Files | Size |
 |---|---|---|
 | `src/` | 14 | 0.3 MB |
 | `ui/` | 33 | 2.8 MB |
 | `data/` | 115 | 9.9 MB |
-| `images/` | 2650 | 315.7 MB |
+| `images/` | 2651 | 315.8 MB |
 | `wallpapers/` | 71 | 105.5 MB |
-| `docs/` | 300 | 111.0 MB |
+| `docs/` | 301 | 111.0 MB |
 | `scripts/` | 41 | 0.6 MB |
-| `cache/` | 809 | 134.9 MB |
+| `cache/` | 834 | 135.3 MB |
 | `backups/` | 1 | 0.0 MB |
 | `target/release/` | 2001 | 882.7 MB |
 
@@ -33,7 +33,7 @@ Generated 2026-11-28 02:13 by `scripts/current_state.py`. Do not edit by hand.
 | `src/userdata.rs` | 236 |
 | `src/validate.rs` | 1740 |
 | `src/window.rs` | 320 |
-| `ui/app.js` | 4936 |
+| `ui/app.js` | 5147 |
 | `ui/appearance.js` | 51 |
 | `ui/art.js` | 86 |
 | `ui/explore.js` | 800 |
@@ -43,7 +43,7 @@ Generated 2026-11-28 02:13 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/manual.js` | 681 |
 | `ui/map3d.js` | 296 |
 | `ui/menus.js` | 421 |
-| `ui/more.js` | 249 |
+| `ui/more.js` | 282 |
 | `ui/research.js` | 664 |
 | `ui/routes.js` | 247 |
 | `ui/shell.js` | 94 |
@@ -51,16 +51,16 @@ Generated 2026-11-28 02:13 by `scripts/current_state.py`. Do not edit by hand.
 | `ui/design.css` | 1044 |
 | `ui/manual.css` | 539 |
 | `ui/mapside.css` | 213 |
-| `ui/research.css` | 514 |
+| `ui/research.css` | 523 |
 | `ui/rockstar.css` | 224 |
-| `ui/shell.css` | 329 |
+| `ui/shell.css` | 378 |
 | `ui/stream.css` | 70 |
 | `ui/styles.css` | 1435 |
 | `ui/themes.css` | 129 |
 | `ui/index.html` | 184 |
 | `data/discord.json` | 7 |
 | `data/manual.json` | 51191 |
-| `data/media.json` | 2691 |
+| `data/media.json` | 2692 |
 | `data/update.json` | 4 |
 | `data/wiki.json` | 2231 |
 | `data/wiki/achievements.json` | 2918 |

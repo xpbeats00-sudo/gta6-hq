@@ -420,7 +420,9 @@ function artLookup() {
   }
   const sets = (state.wiki.collectibles || []).filter((e) => e.slug.startsWith('card-set-') && e.image)
     .map((e) => ({ words: normName(e.name).split(' '), image: e.image }));
-  artIndex = { byRef, byName, sets };
+  // The map's own place labels (regions, districts, towns): where an area sits, for entries with no pin.
+  const places = new Map((state.wiki.map?.places || []).filter(validPosition).map((p) => [normName(p.name), p]));
+  artIndex = { byRef, byName, sets, places, centres: new Map() };
   artIndexFor = state.wiki;
   return artIndex;
 }
@@ -428,8 +430,27 @@ function artLookup() {
 /** Where an entry sits on the map, if known: its own x/y, a pin pointing at it, or the one pin with its name. */
 function spotOf(section, entry) {
   if (validPosition(entry)) return { x: entry.x, y: entry.y, kind: '' };
-  const { byRef, byName } = artLookup();
-  return byRef.get(`${section}/${entry.slug}`) || byName.get(normName(entry.name)) || null;
+  const { byRef, byName, places } = artLookup();
+  const label = section === 'locations' ? places.get(normName(entry.name)) : null;
+  return byRef.get(`${section}/${entry.slug}`) || byName.get(normName(entry.name)) || (label ? { x: label.x, y: label.y, kind: '' } : null);
+}
+
+/**
+ * The middle of a named area that has no pin or label of its own (a county, say): the average of
+ * where the locations filed under it sit. Null when fewer than two of them have a known place.
+ */
+function regionCentre(name) {
+  const key = normName(name);
+  if (!key) return null;
+  const { centres } = artLookup();
+  if (centres.has(key)) return centres.get(key);
+  centres.set(key, null); // while it is worked out, so a region that names itself cannot loop
+  const inside = (state.wiki.locations || []).filter((l) => normName(l.name) !== key
+    && String(l.facts?.region || l.region || '').split(/[,;/]| and /).some((part) => normName(part) === key))
+    .map((l) => spotOf('locations', l)).filter(Boolean);
+  const centre = inside.length >= 2 ? { x: inside.reduce((t, s) => t + s.x, 0) / inside.length, y: inside.reduce((t, s) => t + s.y, 0) / inside.length } : null;
+  centres.set(key, centre);
+  return centre;
 }
 
 function familyKind(entry) {
@@ -500,6 +521,17 @@ function makeAutoArt(section, entry) {
     return `<div class="auto-art auto-map auto-area" role="img" aria-label="${esc(area.name)} on the map" style="--x:${(area.x * 100).toFixed(2)}%;--y:${(area.y * 100).toFixed(2)}%;background-image:url('${esc(state.wiki.map.image)}')">
       <i class="auto-map-ring"></i><span class="auto-tag">In ${esc(area.name)}</span></div>`;
   }
+  // A place with no pin, label or located region still goes on the map rather than a drawn postcard:
+  // an area that other places are filed under is ringed at their middle; anything else is shown
+  // on the whole of Leonida, which is all that is known of where it is.
+  if (section === 'locations' && state.wiki.map?.image) {
+    const own = regionCentre(entry.name);
+    if (own) {
+      return `<div class="auto-art auto-map auto-area" role="img" aria-label="${esc(entry.name)} on the map" style="--x:${(own.x * 100).toFixed(2)}%;--y:${(own.y * 100).toFixed(2)}%;background-image:url('${esc(state.wiki.map.image)}')">
+      <i class="auto-map-ring"></i><span class="auto-tag">${esc(entry.name)}</span></div>`;
+    }
+    return `<div class="auto-art auto-map auto-state" role="img" aria-label="The State of Leonida" style="background-image:url('${esc(state.wiki.map.image)}')"><span class="auto-tag">In Leonida</span></div>`;
+  }
   return '';
 }
 
@@ -559,16 +591,31 @@ function activityKind(entry) {
 }
 
 /** The region pin of the place an entry names in its region fact ("Little Cuba, Vice City" -> Little Cuba). */
-function areaSpot(entry) {
+function areaSpot(entry, depth = 0) {
   const region = String(entry.facts?.region || entry.region || '');
   if (!region) return null;
-  const { byName } = artLookup();
-  for (const part of region.split(/[,;/]| and /)) {
-    const m = byName.get(normName(part));
+  const { byName, places } = artLookup();
+  const parts = region.split(/[,;/]| and /);
+  for (const part of parts) {
+    const m = byName.get(normName(part)) || places.get(normName(part));
     if (m) return { x: m.x, y: m.y, name: part.trim() };
     const place = (state.wiki.locations || []).find((l) => normName(l.name) === normName(part));
     const s = place && spotOf('locations', place);
     if (s) return { x: s.x, y: s.y, name: place.name };
+  }
+  // No pin or label for the region itself: the middle of the places known to be in it.
+  for (const part of parts) {
+    const c = regionCentre(part);
+    if (c) return { x: c.x, y: c.y, name: part.trim() };
+  }
+  // Still nothing: the region is itself an entry (North Kelly County) filed under a larger one that is
+  // located (Kelly County), so climb to that. The picture then names the larger area it shows.
+  if (depth < 3) {
+    for (const part of parts) {
+      const parent = (state.wiki.locations || []).find((l) => l !== entry && normName(l.name) === normName(part));
+      const up = parent && areaSpot(parent, depth + 1);
+      if (up) return up;
+    }
   }
   return null;
 }
@@ -714,28 +761,58 @@ const BACK_ART = ['jason-lucia-car-window', 'cal-hampton-boat', 'couple-on-muscl
   'jason-lucia-gas-station', 'hilltop-sunset', 'vice-city-skyline-night', 'jason-lucia-convertible-night', 'car-meet-selfie', 'canal-police-raid',
   'jason-lucia-nightclub', 'ricardo-gas-station', 'rusty-anchor-bar'].map((n) => `/images/artwork/${n}.webp`);
 
-/** Fill the back layer's two columns with slanted loading-screen panels that slide slowly down behind the page. */
+/**
+ * The back layer: artwork rain down both sides of the window. Each side is a set of lanes. In a lane,
+ * small cut-edge tiles fall slowly in runs: a run is one strip of one GTA VI artwork, chopped into
+ * tiles, its leading (lowest) tile lit and the tiles behind it fading out, then a gap, then the next
+ * run from another picture. Lanes differ in tile size and speed (larger tiles fall a little faster),
+ * so the sides read as rain with depth while each bit is still plainly a piece of a picture.
+ * A lane's tiles are written twice and the lane moves by half its height, so the fall has no seam;
+ * only the lanes move (14 moving layers), not each tile. Everything comes from the tile's number, so
+ * the rain is the same each time.
+ */
+const RAIN_LANES = [46, 34, 54, 38, 48, 32, 42]; // tile widths in px, from the window's edge inward
+const RAIN_GAP = 6;
+const RAIN_PIC_W = 640, RAIN_PIC_H = 360; // the size each picture is drawn at behind its tiles (shell.css .rain-bit)
 function syncRails() {
   // The Store edition has no artwork folder; it keeps the section's own pictures.
   const pool = STORE ? headPool(railSection()) : BACK_ART;
   const key = pool.join('|');
   document.querySelectorAll('.rail').forEach((rail, side) => {
+    rail.hidden = false;
     if (rail.dataset.key === key) return;
     rail.dataset.key = key;
+    rail.classList.remove('rain');
+    rail.classList.add('rain-col');
     if (pool.length < 4) { rail.innerHTML = ''; return; }
-    // Artwork rain: each picture is chopped into small slanted pieces that fall slowly down the margin,
-    // each at its own speed, size and place (worked out from its number, so it is the same every time).
-    const DROPS = 16;
     const rnd = (n) => { const x = Math.sin((n + 1) * 12.9898 + side * 78.233) * 43758.5453; return x - Math.floor(x); };
-    rail.innerHTML = Array.from({ length: DROPS }, (_, i) => {
-      const src = pool[(i * 3 + side * 7) % pool.length];
-      const w = 46 + Math.round(rnd(i) * 44);          // 46 to 90 px wide
-      const h = Math.round(w * (1.25 + rnd(i + 40) * 0.5));
-      const left = Math.round(rnd(i + 80) * 86);       // % across the column
-      const time = 22 + Math.round(rnd(i + 120) * 22); // 22 to 44 s to fall
-      const delay = -Math.round(rnd(i + 160) * time);  // already part-way down when the page opens
-      const px = Math.round(15 + rnd(i + 200) * 70), py = Math.round(10 + rnd(i + 240) * 60);
-      return `<i class="rain-bit${i % 2 ? ' is-flip' : ''}" style="left:${left}%;width:${w}px;height:${h}px;--t:${time}s;--d:${delay}s;background-image:url('${esc(src)}');background-position:${px}% ${py}%"></i>`;
+    let n = 0;
+    let offset = 0;
+    rail.innerHTML = RAIN_LANES.map((w, lane) => {
+      const h = Math.round(w * 1.14);
+      const slots = Math.ceil(1500 / (h + RAIN_GAP));
+      const cells = [];
+      while (cells.length < slots) {
+        // a gap of one to three empty places, then a run of three to seven tiles from one picture
+        for (let g = 1 + Math.floor(rnd(n++) * 3); g > 0 && cells.length < slots; g--) cells.push(`<i class="rain-gap" style="height:${h}px"></i>`);
+        // a run never outruns its picture: the strip (run x tile height) fits inside the picture's height
+        const run = Math.min(3 + Math.floor(rnd(n++) * 5), slots - cells.length, Math.floor(RAIN_PIC_H / h));
+        const src = pool[Math.floor(rnd(n++) * pool.length)];
+        // where in the picture the strip is cut: the tiles of a run are one strip, top to bottom
+        const x = Math.round(rnd(n++) * (RAIN_PIC_W - w));
+        const y = Math.round(rnd(n++) * Math.max(0, RAIN_PIC_H - run * h));
+        for (let j = 0; j < run; j++) {
+          const head = j === run - 1;
+          const fade = head ? 1 : Math.max(0.18, 0.85 - (run - 2 - j) * 0.17);
+          cells.push(`<i class="rain-bit${head ? ' is-head' : ''}" style="height:${h}px;opacity:${fade.toFixed(2)};background-image:url('${esc(src)}');background-position:-${x}px -${y + j * h}px"></i>`);
+        }
+      }
+      const speed = 13 + w * 0.34;                          // px a second: larger tiles a little faster
+      const time = ((slots * (h + RAIN_GAP)) / speed).toFixed(1);
+      const delay = (-rnd(n++) * Number(time)).toFixed(1);  // each lane already part-way through its fall
+      const html = `<div class="rain-lane" style="--x:${offset}px;width:${w}px"><div class="rain-track" style="--t:${time}s;--d:${delay}s">${cells.join('')}${cells.join('')}</div></div>`;
+      offset += w + RAIN_GAP + 2;
+      return html;
     }).join('');
   });
 }
@@ -824,6 +901,7 @@ function provenance(entry) {
 /** A step-by-step guide ([{ text, picture?, spoiler? }]) as numbered steps, each picture opening full size. */
 function entrySteps(key, entry) {
   const steps = Array.isArray(entry.steps) ? entry.steps : [];
+  if (key === 'missions' && !steps.length) return missionStepsSlot(entry); // the Field Manual's walkthrough, as steps
   if (!steps.length || key === 'achievements') return ''; // trophies show theirs on the Trophies screen
   return `<section class="entry-steps-wrap"><h2>Step by step</h2><ol class="entry-steps">${steps.map((st, n) => {
     const body = `${st.picture ? `<button type="button" class="entry-step-pic" data-step-pic="${esc(st.picture)}" data-step-n="${n + 1}" aria-label="Show the step ${n + 1} picture full size"><img src="${esc(st.picture)}" alt="" loading="lazy"></button>` : ''}
@@ -831,6 +909,79 @@ function entrySteps(key, entry) {
     return `<li class="entry-step${st.picture ? '' : ' entry-step-text'}">${st.spoiler && !showSpoilers ? veil(key, entry, body) : body}</li>`;
   }).join('')}</ol></section>`;
 }
+// ---------- missions as step-by-step guides (the Trophies screen's layout) ----------
+// A mission's steps are the Field Manual's own walkthrough of it (data/manual.json, chapter "Missions":
+// one numbered paragraph per mission), cut into its sentences. Nothing is written here. A step's picture
+// is the mission's own for the first step, then the picture of a place, business, person, vehicle or
+// weapon the step names, where the encyclopedia has one.
+const isMission = (entry) => /mission$/i.test(String(entry?.facts?.type || ''));
+let missionGuides = null;
+function loadMissionGuides() {
+  missionGuides ||= getJson('/api/manual').then((manual) => {
+    const index = new Map();
+    for (const chapter of manual.chapters || []) {
+      if (chapter.title !== 'Missions') continue;
+      for (const page of chapter.pages || []) {
+        for (const block of page.blocks || []) {
+          if (block.type !== 'numbered' || !block.title || !block.text) continue;
+          // "Swamped (Meet Brian)": found by either name.
+          const inner = (String(block.title).match(/\((.*?)\)/) || [])[1];
+          for (const key of [normName(block.title), inner && normName(inner)]) if (key && !index.has(key)) index.set(key, { block, page: page.title });
+        }
+      }
+    }
+    return index;
+  }).catch(() => new Map());
+  return missionGuides;
+}
+/** { page, steps: [{ text, picture, spoiler }] } for a mission, or null when the manual has no walkthrough of it. */
+function missionSteps(entry, index) {
+  const names = [entry.name, ...(entry.aliases || []), entry.name.includes(':') ? entry.name.split(':').slice(1).join(':') : ''];
+  const hit = names.map((n) => index.get(normName(n))).find(Boolean);
+  if (!hit) return null;
+  const raw = String(hit.block.text);
+  const spoiler = raw.includes('||') || entry.spoiler === true;
+  const steps = [];
+  for (const part of raw.replace(/\|\|/g, '').trim().split(/(?<=[.!?])\s+(?=[\p{Lu}\d"'“(])/u)) {
+    // A short fragment ("Reward: $1,200.") stays with the sentence before it.
+    if (steps.length && (part.length < 30 || steps.at(-1).length < 30)) steps[steps.length - 1] += ` ${part}`; else steps.push(part);
+  }
+  const used = new Set();
+  const pictureFor = (text, first) => {
+    if (first && entry.image) { used.add(entry.image); return entry.image; }
+    for (const section of ['locations', 'businesses', 'characters', 'vehicles', 'weapons']) {
+      for (const h of namesIn(text, state.wiki[section])) {
+        if (h.l.image && !used.has(h.l.image) && !isHidden(section, h.l)) { used.add(h.l.image); return h.l.image; }
+      }
+    }
+    return '';
+  };
+  return { page: hit.page, steps: steps.map((text, i) => ({ text, picture: pictureFor(text, i === 0), spoiler })) };
+}
+function missionStepsHtml(entry, guide) {
+  if (!guide) return '<p class="gm-locked">No step-by-step guide yet: the Field Manual has no walkthrough of this one.</p>';
+  return `<h3 class="gm-sub">Step by step</h3><ol class="gm-steps">${guide.steps.map((st, n) => {
+    const body = `<div class="gm-step-pic">${st.picture ? `<img src="${esc(st.picture)}" alt="" loading="lazy">` : `<span>${icon('route')}</span>`}</div><div><span class="gm-step-n">Step ${n + 1}</span><p>${esc(st.text)}</p></div>`;
+    return `<li class="gm-step">${st.spoiler && !showSpoilers ? veil('missions', entry, body) : body}</li>`;
+  }).join('')}</ol>
+  <p class="gm-note">The Field Manual's walkthrough (${esc(guide.page)}), step by step.</p>`;
+}
+/** Where a mission's steps go: filled once the manual has been read (it loads on first use and is kept). */
+const missionStepsSlot = (entry) => (isMission(entry) ? `<div class="mission-steps" data-mission-steps="${esc(entry.slug)}"></div>` : '');
+function fillMissionSteps(root = view) {
+  const slots = [...root.querySelectorAll('[data-mission-steps]')].filter((slot) => !slot.dataset.filled);
+  if (!slots.length) return;
+  loadMissionGuides().then((index) => {
+    for (const slot of slots) {
+      if (!slot.isConnected || slot.dataset.filled) continue;
+      const entry = (state.wiki.missions || []).find((m) => m.slug === slot.dataset.missionSteps);
+      if (!entry) continue;
+      slot.dataset.filled = '1';
+      slot.innerHTML = missionStepsHtml(entry, missionSteps(entry, index));
+    }
+  });
+}
+
 /** Opens a step picture in the lightbox with its media record (credit, rights) when it has one. */
 function wireStepPictures(entry) {
   view.querySelectorAll('[data-step-pic]').forEach((btn) => btn.addEventListener('click', async () => {
@@ -1438,6 +1589,8 @@ const ENTRY_ART = ['jason-lucia-car-window', 'cal-hampton-boat', 'couple-on-musc
 /** Each picture's turn on screen; three pictures make one opening. Keep in step with styles in research.css (.entry). */
 const ENTRY_SLIDE_MS = 3600;
 const ENTRY_MS = ENTRY_SLIDE_MS * 3 + 400;
+/** The longest the picture before can stay under a new one, should its panels never report as fully in. */
+const ENTRY_HANDOVER_CAP_MS = 6000;
 
 /** Which intro plays: the reader's choice. The Store edition and stream mode keep their own. The Entry
     screen is the default, and is shown once to readers who chose another intro before it existed. */
@@ -1460,10 +1613,27 @@ function buildEntryScreen(splash) {
     <div class="entry-shade"></div>
     <img class="entry-logo" src="/images/splash/logo.webp" alt="">`;
   splash.prepend(box);
-  // The first picture is on screen at once; the next two follow on the slide clock.
+  // The first picture is on screen at once; the next two follow on the slide clock. A new picture's
+  // panels arrive on top of the one before, which stays exactly as it was until they are fully in and
+  // is only then taken away. Nothing here depends on a fade: on a computer that asks for less motion
+  // fades are instant, and a handover built on one left the screen black between pictures.
   const slides = [...box.querySelectorAll('.entry-slide')];
   slides[0].classList.add('is-on');
-  slides.slice(1).forEach((slide, k) => setTimeout(() => { slides[k].classList.add('is-off'); slide.classList.add('is-on'); }, ENTRY_SLIDE_MS * (k + 1)));
+  slides.slice(1).forEach((slide, k) => setTimeout(() => {
+    slide.style.zIndex = String(k + 2);
+    slide.classList.add('is-on');
+    // The picture before goes only once every panel of this one is really opaque: checked, not timed,
+    // so a slow or busy computer never shows a gap. (The cap is a safety net, not the normal path.)
+    const cuts = [...slide.querySelectorAll('.entry-cut')];
+    const since = performance.now();
+    const check = setInterval(() => {
+      const arrived = cuts.every((cut) => Number(getComputedStyle(cut).opacity) >= 0.99);
+      if (!slide.isConnected || arrived || performance.now() - since > ENTRY_HANDOVER_CAP_MS) {
+        clearInterval(check);
+        slides[k].classList.add('is-off');
+      }
+    }, 80);
+  }, ENTRY_SLIDE_MS * (k + 1)));
 }
 
 async function runSplash(ready, prefsReady) {
@@ -1579,6 +1749,37 @@ async function runSplash(ready, prefsReady) {
 
 // ---------- home ----------
 
+/**
+ * Home's "Jump back in" row: the entries you opened last, from your own Discovery Journal (kept on
+ * this computer). Nothing is shown until there is something to go back to, and closed spoilers are
+ * left out.
+ */
+function jumpBackIn() {
+  const seen = new Set();
+  const recent = [];
+  for (const event of UserStore.get('journal', [])) {
+    if (event.t !== 'viewed' || !event.ref || seen.has(event.ref)) continue;
+    seen.add(event.ref);
+    const target = resolve(event.ref);
+    if (!target || isHidden(target.section, target.entry)) continue;
+    recent.push(target);
+    if (recent.length === 6) break;
+  }
+  if (!recent.length) return '';
+  return `<section class="editorial jump-back">
+      <header class="editorial-head">
+        <span class="kicker">Jump back in</span>
+        <h2>Recently opened</h2>
+        <a class="more" href="#/journal">Your journal${icon('next')}</a>
+      </header>
+      <div class="jump-row">
+        ${recent.map(({ section, entry }) => `<a class="jump-card" href="${entryLink(section, entry.slug)}">
+          ${entryThumb(section, entry, 'jump-thumb') || `<span class="jump-thumb jump-thumb-none">${icon('book')}</span>`}
+          <span class="jump-text"><b>${esc(entry.name)}</b><span>${esc(sectionLabel(section))}</span></span></a>`).join('')}
+      </div>
+    </section>`;
+}
+
 /** Home's "Play along" row: the tools for playing the game, with your own counts where there are some. */
 function playAlong() {
   const items = window.trackerItems?.() || [];
@@ -1633,18 +1834,7 @@ function renderHome() {
       ${game.facts.map((f) => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd></div>`).join('')}
     </dl>
 
-    <aside class="promo" aria-label="Community">
-      <div class="promo-walls" aria-hidden="true">
-        ${STORE ? '' : `<img class="is-on" src="${PROMO_WALLS[0]}" alt=""><img src="${PROMO_WALLS[1]}" alt="">`}
-      </div>
-      <img class="promo-server" src="${STORE ? '/brand.png' : '/images/community/server-icon.png'}" alt="">
-      <div class="promo-copy">
-        <span class="kicker">${DISCORD_MARK} Discord community</span>
-        <h2>Grand Theft Auto VI HQ</h2>
-        <p>News and trailers as they land, new versions of this app announced the moment they are out, and other players to talk Leonida with.</p>
-      </div>
-      <a class="btn btn-discord" href="${DISCORD_INVITE}" target="_blank" rel="noopener noreferrer">${DISCORD_MARK} Join the server</a>
-    </aside>
+    ${jumpBackIn()}
 
     ${playAlong()}
 
@@ -1662,6 +1852,19 @@ function renderHome() {
         </div>
       </div>
     </section>
+
+    <aside class="promo" aria-label="Community">
+      <div class="promo-walls" aria-hidden="true">
+        ${STORE ? '' : `<img class="is-on" src="${PROMO_WALLS[0]}" alt=""><img src="${PROMO_WALLS[1]}" alt="">`}
+      </div>
+      <img class="promo-server" src="${STORE ? '/brand.png' : '/images/community/server-icon.png'}" alt="">
+      <div class="promo-copy">
+        <span class="kicker">${DISCORD_MARK} Discord community</span>
+        <h2>Grand Theft Auto VI HQ</h2>
+        <p>News and trailers as they land, new versions of this app announced the moment they are out, and other players to talk Leonida with.</p>
+      </div>
+      <a class="btn btn-discord" href="${DISCORD_INVITE}" target="_blank" rel="noopener noreferrer">${DISCORD_MARK} Join the server</a>
+    </aside>
 
     <section class="editorial">
       <header class="editorial-head">
@@ -2034,6 +2237,11 @@ const categoryHref = (key) => (key === 'vehicles' ? '#/vehicles' : `#/wiki/${key
 /** Enter (or a double click) on a menu list opens what its selected row points at. */
 function wireOpen(pane, hrefOf) {
   const list = pane.querySelector('.gm-list');
+  // The list takes the keyboard as the page opens, so the arrow keys and the Enter the screen shows
+  // work at once, without a click first. Not while something is being typed, or a menu is open.
+  if (!document.activeElement || document.activeElement === document.body || document.activeElement.closest('#sidebar, #nav, #view')) {
+    if (!document.querySelector('.pause, #splash')) list.focus({ preventScroll: true });
+  }
   const go = () => { const li = list.querySelector('[aria-selected="true"]'); const href = li && hrefOf(Number(li.dataset.i)); if (href) location.hash = href; };
   list.addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); go(); } });
   list.addEventListener('dblclick', go);
@@ -2095,12 +2303,13 @@ function renderCategory(key) {
       <p class="gm-tags">${kickerOf(e) ? `<span>${esc(kickerOf(e))}</span>` : ''}${badge(e.confidence)}</p>
       <p>${esc(e.summary || '')}</p>
       ${first ? `<p class="gm-wiki-more">${esc(String(first).replace(/\|\|/g, ''))}</p>` : ''}
+      ${key === 'missions' ? missionStepsSlot(e) : ''}
       <p class="gm-wiki-actions"><a class="gm-open" href="${entryLink(key, e.slug)}">Open entry <kbd class="gm-key">Enter</kbd></a>${mapLink(key, e).replace('class="btn"', 'class="gm-open gm-open-alt"').replace(/^<p>|<\/p>$/g, '')}</p>`;
     return isHidden(key, e) ? veil(key, e, inner) : inner;
   };
   const want = selectedParam();
   const ld = ResearchTools.listDetail(pane, rows(), detail, Math.max(0, entries.findIndex((e) => e.slug === want)),
-    (i) => { const s = shown[i]?.slug; if (s) history.replaceState(null, '', `#/wiki/${key}?e=${encodeURIComponent(s)}`); });
+    (i) => { const s = shown[i]?.slug; if (s) history.replaceState(null, '', `#/wiki/${key}?e=${encodeURIComponent(s)}`); fillMissionSteps(pane); });
   const apply = () => {
     const q = input.value.trim().toLowerCase();
     shown = entries.filter((e) => (!tab || typeKey(kickerOf(e)) === types[tab - 1]) && (!q || filterText(key, e).includes(q)));
@@ -2186,6 +2395,7 @@ function renderEntry(key, slug) {
     </article>`;
   view.innerHTML = isHidden(key, entry) ? veil(key, entry, page, 'page') : page;
   wireStepPictures(entry);
+  fillMissionSteps();
   fillGuideLinks();
 }
 
@@ -3020,6 +3230,7 @@ function renderMap(params) {
           <label class="opt"><input type="checkbox" data-overlay="certainty"><span>How each position was found</span></label>
           ${config.image && config.tileFit ? '<label class="opt"><input type="checkbox" data-detail><span>Sharp detail when zoomed in (community map)</span></label>' : ''}
           <p class="muted">Density counts only the pins shown, after filters.</p>
+          <p class="muted map-credits">${esc(config.attribution || '')}${config.image && config.tileFit ? ' · Zoomed-in detail: GTA VI mapping community via gtadb.org (CC BY 4.0)' : config.tileAttribution ? ` · ${esc(config.tileAttribution)}` : ''}</p>
         </div>
         <div class="map-legend" hidden></div>
         <section class="immersive-hud" aria-label="Immersive map panel" hidden>

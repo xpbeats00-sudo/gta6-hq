@@ -21,7 +21,7 @@
   ];
   const FOOT = ['help', 'settings'];
   // Shorter names where the menu's own would wrap in the sidebar.
-  const LABEL = { manual: 'Field Manual', cheats: 'Cheats', hundred: '100% Checklist', wiki: 'Encyclopedia' };
+  const LABEL = { manual: 'Field Manual', cheats: 'Cheats', hundred: '100% Checklist', wiki: 'Encyclopedia', intel: 'News and Intel' };
 
   const links = new Map();
   for (const a of nav.querySelectorAll('a[data-route]')) {
