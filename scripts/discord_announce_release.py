@@ -59,7 +59,7 @@ def release():
 def whats_new(body):
     """The "What's new" part of the release notes, or failing that the opening paragraph."""
     body = (body or '').replace('\r\n', '\n')
-    found = re.search(r"^##\s*What's new\s*\n(.*?)(?=^##\s|\Z)", body, re.S | re.M | re.I)
+    found = re.search(r"^##\s*What's new[^\n]*\n(.*?)(?=^##\s|\Z)", body, re.S | re.M | re.I)  # "What's new" or "What's new in 0.2.51"
     text = (found.group(1) if found else body.split('\n\n', 1)[0]).strip()
     text = re.sub(r'^Not published, approved or endorsed.*$', '', text, flags=re.M).strip()
     return text if len(text) <= 1800 else text[:1800].rsplit('\n', 1)[0] + '\n…'
